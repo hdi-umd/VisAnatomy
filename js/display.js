@@ -21,35 +21,36 @@ function displaySVG(text, chartName) {
     document.getElementById('rbox1').innerHTML = text;
     let vis = d3.select("#rbox1").select("svg").attr("id", "vis");
 
-    let indices = {"rect": 0, "text": 0, "line": 0, "path": 0, "image": 0};
+    let indices = {};
 
     function addClassAndIdToLeaves(element) {
-        if (element.nodeType === Node.ELEMENT_NODE) {
-          if (element.hasChildNodes()) {
-            element.childNodes.forEach(childNode => {
-              addClassAndIdToLeaves(childNode);
-            });
-          } else {
-            if (element.hasAttribute('class')) {
-              const existingClasses = element.getAttribute('class').split(' ');
-              if (!existingClasses.includes('mark')) {
-                element.setAttribute('class', `${element.getAttribute('class')} mark`);
-              }
-            } else {
-              element.setAttribute('class', 'mark');
-            }
+        // set ID
+        if (element.nodeType === Node.ELEMENT_NODE && element.nodeName!== "svg") {
+            if (!Object.keys(indices).includes(element.nodeName)) {indices[element.nodeName] = 0;}
+            element.setAttribute("id", element.nodeName + indices[element.nodeName]++);
+        }
 
-            if (element.classList.contains('mark')) {
+        if (element.hasChildNodes()) {
+            element.childNodes.forEach(childNode => {
+                addClassAndIdToLeaves(childNode);
+            });
+        } else {
+            // set class
+            if (["rect", "circle", "text", "line", "path", "image"].includes(element.nodeName)) {
+                if (element.hasAttribute('class')) {
+                    const existingClasses = element.getAttribute('class').split(' ');
+                    if (!existingClasses.includes('mark')) {
+                    element.setAttribute('class', `${element.getAttribute('class')} mark`);
+                    }
+                } else {
+                    element.setAttribute('class', 'mark');
+                }
                 element.addEventListener('contextmenu', (event) => {
-                  event.preventDefault();
-                  console.log('Right-clicked on leaf node with class "mark"');
-                  // Your code to handle the right-click event goes here
+                    event.preventDefault();
+                    console.log('Right-clicked on leaf node with class "mark"');
+                    // Your code to handle the right-click event goes here
                 });
             }
-          }
-        }
-        if (["rect", "text", "line", "path", "image"].includes(element.nodeName)) {
-            element.setAttribute("id", element.nodeName + indices[element.nodeName]++);
         }
       }
       

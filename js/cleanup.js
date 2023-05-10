@@ -34,8 +34,7 @@ function flattenSVG(svgString) {
     let parser = new DOMParser();
     let doc = parser.parseFromString(svgString, "text/xml");
     let nodeMap = {};
-    //let tree = tree_dict(doc.getElementsByTagName("svg")[0], 0, null, nodeMap);
-    style = {}
+    style = {};
     let flatArray = tree_dict_not_nested(doc.getElementsByTagName("svg")[0], 0, null, [], [0,0], nodeMap);
     let groups = leaf_nodes_grouping(flatArray)
     let rects = groups['rect']
