@@ -7,7 +7,7 @@ function extract(jsonArr, chartName) {
     let nodes = jsonArr["allNodes"];
     let rects = jsonArr["rects"];
     let originalRects = [...rects];
-    console.log([...rects])
+    // console.log([...rects])
     rects = rects.filter(filterRect);
 
     let texts = textProcessor(jsonArr["texts"]);

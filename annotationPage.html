@@ -465,11 +465,11 @@
                 xGridlines = undefined;
                 yGridlines = undefined;
                 demoName = demo;
-                let jsonArr = flattenSVG(text);
                 d3.select("#preprocessUI").style("visibility", "visible");
                 d3.select("#layers").selectAll('*').remove();
                 d3.selectAll(".axisLabels").selectAll("button").remove();
                 displaySVG(text, demo);
+                let jsonArr = flattenSVG(text);
                 enableDragDrop(jsonArr.texts);
                 mainContent = extract(jsonArr, demo);
                 setViewBox(jsonArr.texts, jsonArr.lines, mainContent.rects);

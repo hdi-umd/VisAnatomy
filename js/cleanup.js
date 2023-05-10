@@ -1,5 +1,6 @@
 var style = {};
-var keys_of_interest = ['style', 
+var keys_of_interest = [ 
+                    'style', 
                     'transform',
                     'translate',
                     'rotate',
@@ -58,8 +59,6 @@ function flattenSVG(svgString) {
     if ('line' in groups)
         lines_processed = process_lines(groups['line'])
 
-    // tbd: handle cases where lines representing rects (rangeChart_datylon_new waterfall_datylon_new)
-    // console.log(lines_processed.map(line => line["stroke-width"]))
     return {'rects': rects_processed.concat(circles_processed), "rectWith0WH" : rectWith0WH, "texts": texts_processed, "lines": lines_processed, "allNodes": flatArray};
 }
 
@@ -144,35 +143,6 @@ function tree_dict_not_nested(node, level, parent, container, acc_transforms, no
     return container
 }
 
-function styleParser(styleStr) {
-    let styleDic = {};
-    let content = styleStr.trim().split('}');
-    content = content.map(d => d.trim());
-    content.pop()
-    for (let line of content) {
-        let pair = line.split("{")
-        if (pair.length == 1)
-            continue;
-        pair[0] = removeAllSpace(pair[0]);
-        pair[1] = removeAllSpace(pair[1]);
-        for (let eachStyle of pair[1].split(';')) {
-            if (eachStyle == "")
-                continue
-            let thisPair = eachStyle.split(':')
-            if (thisPair.length == 1)
-                continue;
-            thisPair[0] = removeAllSpace(thisPair[0])
-            thisPair[1] = removeAllSpace(thisPair[1])
-            for (let targetElement of pair[0].split(',')) {
-                if (!(targetElement in styleDic))
-                    styleDic[targetElement] = {}
-                styleDic[targetElement][thisPair[0]] = thisPair[1]
-            }
-        }
-    }
-    return styleDic
-}
-
 function extract_features(container, node, parent, sum_transforms) {
     if (container['tag']=='style') {
         style = styleParser(node.textContent) //.decode("utf-8")
@@ -190,16 +160,16 @@ function extract_features(container, node, parent, sum_transforms) {
         if (container['tag'] in style)
             Object.assign(container, style[container['tag']])
     }
-    if (container['tag']=='path' && attrs.indexOf('d') >= 0) {
-        container = pathParser(container, node)
-    }
-    if (container['tag']=='polyline' && attrs.indexOf('points') >= 0) {
-        container = polylineParser(container, node)
-    }
+    // if (container['tag']=='path' && attrs.indexOf('d') >= 0) {
+    //     container = pathParser(container, node)
+    // }
+    // if (container['tag']=='polyline' && attrs.indexOf('points') >= 0) {
+    //     container = polylineParser(container, node)
+    // }
     if (parent) {// inheriting parent's attributes
         if (parent['tag'] == 'g') {
             for (let pkey in parent) {
-                if (keys_of_interest.indexOf(pkey) >= 0 && pkey!='id' && pkey!='width' && pkey!='height')
+                if (keys_of_interest.indexOf(pkey) >= 0 && pkey!='id' && pkey!='class' && pkey!='width' && pkey!='height')
                     container[pkey] = parent[pkey]
             }
         }
@@ -318,207 +288,195 @@ function extract_features(container, node, parent, sum_transforms) {
     return container
 }
 
-function polylineParser(container, node) {
-    let points = getAttributeValue(node, 'points').trim().split(" ")
-    points = points.filter(d => d!='');
-    if (points.length==2) {
-        container['tag'] = 'line'
-        container['x1'] = points[0].split(',')[0]
-        container['y1'] = points[0].split(',')[1]
-        container['x2'] = points[1].split(',')[0]
-        container['y2'] = points[1].split(',')[1]
-    }
-    return container
-}
-
-//return json representation of svg
-function tree_dict(node, level, parent, nodeMap) {
-    let tag = extractTag(node), attrs = getAttributeNames(node);
-    let ele = {};
-    ele['tag'] = tag
-    ele['children'] = [];
-    if (tag === 'path' && attrs.indexOf('d') >= 0) {
-        //console.log("analysing", node)
-        ele = pathParser(ele, node);
-        //console.log(ele);
-    }
-    // if (tag ==='polyline' && attrs.indexOf('points') >= 0)
-    //     ele = polylineParser(ele, node)
-    if (!(tag in nodeMap)) {
-        ele['id'] = tag + '0';
-        nodeMap[tag] = 1;
-    } else {
-        ele['id'] = tag + nodeMap[tag];
-        nodeMap[tag] = nodeMap[tag] + 1
-    }
-    if (parent !== null) {
-        ele['parent'] = parent['id']
-    } else {
-        ele['parent'] = "canvas"
-    }
-    ele['level'] = level
-    ele['children'] = []
-    if (ele["tag"] == "rect")
-        ele["class"] = 1
-    else
-        ele["class"] = 0
-    if (node.children.length > 0 && tag != "text") {
-        for (let i = 0; i < node.children.length; i++) {
-            let child = node.children[i];
-            ele['children'].push(tree_dict(child, level + 1, ele, nodeMap))
-        }
-    }
-        
-    return ele
-}
-
-function pathParser(container, node) {
-    let allowed_operator = ['M', 'L', 'l', 'V', 'v', 'H', 'h', 'Z', 'z', 'A', 'a'];
-    let drawSeq = getAttributeValue(node, 'd');
-    let pointSeq = [], charseq = "";
-    let notCircle = drawSeq.indexOf('L') > 0 || drawSeq.indexOf('l') > 0 || drawSeq.indexOf('V') > 0 || drawSeq.indexOf('v') > 0 || drawSeq.indexOf('H') > 0 || drawSeq.indexOf('h') > 0;
-    for (let i = 0; i < drawSeq.length; i++) {
-        let char = drawSeq[i];
-        if (allowed_operator.indexOf(char) >= 0) {
-            charseq = charseq + char;
-            if (char=='Z' || char=='z') {
-                if (pointSeq.length === 0) break;
-                if (pointSeq[0][0] != pointSeq[pointSeq.length-1][0] || pointSeq[0][1] != pointSeq[pointSeq.length-1][1])
-                    pointSeq.push(pointSeq[0])
-                if(pointSeq.length >= 2)
-                    if(Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <= 0.1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <= 0.1) {
-                        // remove too close points
-                        pointSeq.splice(pointSeq.length - 2, 1)
-                    }
-            }
-            else {
-                let j=i+1;
-                while(/[^a-z]/i.test(drawSeq[j])) { //drawSeq[j] is not letter
-                    j=j+1
-                    if (j>=drawSeq.length)
-                        break
-                }
-                let shifts = drawSeq.substring(i+1,j).trim()
-                let seperator = shifts.indexOf(',')
-                if (char=='A' && !notCircle) {
-                    if (seperator > 0 && shifts.indexOf(' ')>0) //some cases have "a 0,0 0 0 1 0,0"
-                        continue
-                    let af;
-                    if (seperator!=-1) {
-                        af = shifts.split(',').filter(d => d!='');
-                    }
-                    else {
-                        af = shifts.split(' ').filter(d => d!='');
-                    }
-                    pointSeq.push([parseFloat(af[af.length-2]), parseFloat(af[af.length-1])]);
-                } else if (char=='a' && !notCircle) {
-                    if (seperator > 0 && shifts.indexOf(' ')>0)  //some cases have "a 0,0 0 0 1 0,0"
-                        continue
-                    let previousX = pointSeq[pointSeq.length-1][0]
-                    let previousY = pointSeq[pointSeq.length-1][1]
-                    if (seperator!=-1) {
-                        let af = shifts.split(',').filter(d => d!='');
-                        pointSeq.push([previousX + parseFloat(af[af.length-2]), previousY + parseFloat(af[af.length-1])]);
-                    } else {
-                        let af = shifts.split(' ').filter(d => d!='');
-                        pointSeq.push([previousX + parseFloat(af[af.length-2]), previousY + parseFloat(af[af.length-1])]);
-                    }
-                } else if (char=='M' || char=='L') {
-                    let af;
-                    if (seperator!=-1)
-                        af = shifts.split(',').filter(d => d!='');
-                    else
-                        af = shifts.split(' ').filter(d => d!='');
-                    pointSeq.push([parseFloat(af[0]), parseFloat(af[1])]);
-                    af.splice(0, 2);
-                    if (pointSeq.length>=2 && Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <=1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <=1)
-                        pointSeq.pop()
-                    if (char == 'L' && af.length % 2 === 0 && af.length > 0) { // this is to handle the cases like d="M 942 86.8 L 942 109.2 944 109.2 944 86.8 Z" especially in Anychart Lib
-                        while (af.length > 0) {
-                            pointSeq.push([parseFloat(af[0]), parseFloat(af[1])]);
-                            af.splice(0, 2);
-                            if (pointSeq.length>=2 && Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <=1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <=1)
-                                pointSeq.pop()
-                        }
-                    }
-                } else {
-                    let previousX = pointSeq[pointSeq.length-1][0]
-                    let previousY = pointSeq[pointSeq.length-1][1]
-                    if (char=='l') {
-                        let af;
-                        if (seperator!=-1)
-                            af = shifts.split(',').filter(d => d!='');
-                        else
-                            af = shifts.split(' ').filter(d => d!='');
-                        pointSeq.push([parseFloat(af[0])+previousX, parseFloat(af[1])+previousY]);
-                    } else if (char=='V') {
-                        pointSeq.push([previousX, parseFloat(shifts)]);
-                    } else if (char=='H') {
-                        pointSeq.push([parseFloat(shifts), previousY]);
-                    } else if (char=='v') {
-                        // if (parseFloat(shifts) !== 0)
-                        // tbd: here we cannot use this if otherwise 0hw-rects will be filtered out; 
-                            pointSeq.push([previousX, previousY + parseFloat(shifts)]);
-                    } else if (char=='h') {
-                        // if (parseFloat(shifts) !== 0)
-                            pointSeq.push([previousX + parseFloat(shifts), previousY]);
-                    }
-                    // if (pointSeq.length>=2 && pointSeq[pointSeq.length-1][0] == pointSeq[pointSeq.length-2][0] && pointSeq[pointSeq.length-1][1] == pointSeq[pointSeq.length-2][1])
-                    //     pointSeq.pop()
-                }
+function styleParser(styleStr) {
+    let styleDic = {};
+    let content = styleStr.trim().split('}');
+    content = content.map(d => d.trim());
+    content.pop()
+    for (let line of content) {
+        let pair = line.split("{")
+        if (pair.length == 1)
+            continue;
+        pair[0] = removeAllSpace(pair[0]);
+        pair[1] = removeAllSpace(pair[1]);
+        for (let eachStyle of pair[1].split(';')) {
+            if (eachStyle == "")
+                continue
+            let thisPair = eachStyle.split(':')
+            if (thisPair.length == 1)
+                continue;
+            thisPair[0] = removeAllSpace(thisPair[0])
+            thisPair[1] = removeAllSpace(thisPair[1])
+            for (let targetElement of pair[0].split(',')) {
+                if (!(targetElement in styleDic))
+                    styleDic[targetElement] = {}
+                styleDic[targetElement][thisPair[0]] = thisPair[1]
             }
         }
     }
+    return styleDic
+}
 
-    //then check whether the point seq forms a rect or a line
-    //haven't deal with all possible cases
+// function polylineParser(container, node) {
+//     let points = getAttributeValue(node, 'points').trim().split(" ")
+//     points = points.filter(d => d!='');
+//     if (points.length==2) {
+//         container['tag'] = 'line'
+//         container['x1'] = points[0].split(',')[0]
+//         container['y1'] = points[0].split(',')[1]
+//         container['x2'] = points[1].split(',')[0]
+//         container['y2'] = points[1].split(',')[1]
+//     }
+//     return container
+// }
 
-    if (pointSeq.length==5 && pointSeq[0][0]==pointSeq[pointSeq.length-1][0] && pointSeq[0][1]==pointSeq[pointSeq.length-1][1]) {
-        //just for now
-        let thisWidth = Math.max(...pointSeq.map(d => d[0])) - Math.min(...pointSeq.map(d => d[0]));
-        let thisHeight = Math.max(...pointSeq.map(d => d[1])) - Math.min(...pointSeq.map(d => d[1]));
-        container['tag'] = 'rect';
-        container['x'] = String(Math.min(...pointSeq.map(d => d[0])));
-        container['y'] = String(Math.min(...pointSeq.map(d => d[1])));
-        container['width'] = String(thisWidth);
-        container['height'] = String(thisHeight);
-    } else if (pointSeq.length==2) {
-        container['tag'] = 'line'
-        container['x1'] = String(pointSeq[0][0])
-        container['y1'] = String(pointSeq[0][1])
-        container['x2'] = String(pointSeq[1][0])
-        container['y2'] = String(pointSeq[1][1])
-    } else {
-        //below is for handling cases where using a rect-like shapes to represent axis lines
-        if (pointSeq.length == 3 && (charseq == "MAA" || charseq == "Maa")) {
-            if (pointSeq[0][0] == pointSeq[2][0] && pointSeq[0][1] == pointSeq[2][1]) {
-                container['tag'] = 'circle'
-                container['x'] = 0.5 * (pointSeq[0][0] + pointSeq[1][0])
-                container['y'] = 0.5 * (pointSeq[0][1] + pointSeq[1][1])
-            }
-        } else if (pointSeq.length > 0) {
-            let thisWidth = Math.max(...pointSeq.map(d => d[0])) - Math.min(...pointSeq.map(d => d[0]))
-            let thisHeight = Math.max(...pointSeq.map(d => d[1])) - Math.min(...pointSeq.map(d => d[1]))
-            if (thisWidth<2) {
-                container['tag'] = 'line'
-                container['x1'] = String(Math.max(...pointSeq.map(d => d[0])))
-                container['y1'] = String(Math.min(...pointSeq.map(d => d[1])))
-                container['x2'] = String(Math.max(...pointSeq.map(d => d[0])))
-                container['y2'] = String(Math.max(...pointSeq.map(d => d[1])))
-            }
+// function pathParser(container, node) {
+//     let allowed_operator = ['M', 'L', 'l', 'V', 'v', 'H', 'h', 'Z', 'z', 'A', 'a'];
+//     let drawSeq = getAttributeValue(node, 'd');
+//     let pointSeq = [], charseq = "";
+//     let notCircle = drawSeq.indexOf('L') > 0 || drawSeq.indexOf('l') > 0 || drawSeq.indexOf('V') > 0 || drawSeq.indexOf('v') > 0 || drawSeq.indexOf('H') > 0 || drawSeq.indexOf('h') > 0;
+//     for (let i = 0; i < drawSeq.length; i++) {
+//         let char = drawSeq[i];
+//         if (allowed_operator.indexOf(char) >= 0) {
+//             charseq = charseq + char;
+//             if (char=='Z' || char=='z') {
+//                 if (pointSeq.length === 0) break;
+//                 if (pointSeq[0][0] != pointSeq[pointSeq.length-1][0] || pointSeq[0][1] != pointSeq[pointSeq.length-1][1])
+//                     pointSeq.push(pointSeq[0])
+//                 if(pointSeq.length >= 2)
+//                     if(Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <= 0.1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <= 0.1) {
+//                         // remove too close points
+//                         pointSeq.splice(pointSeq.length - 2, 1)
+//                     }
+//             }
+//             else {
+//                 let j=i+1;
+//                 while(/[^a-z]/i.test(drawSeq[j])) { //drawSeq[j] is not letter
+//                     j=j+1
+//                     if (j>=drawSeq.length)
+//                         break
+//                 }
+//                 let shifts = drawSeq.substring(i+1,j).trim()
+//                 let seperator = shifts.indexOf(',')
+//                 if (char=='A' && !notCircle) {
+//                     if (seperator > 0 && shifts.indexOf(' ')>0) //some cases have "a 0,0 0 0 1 0,0"
+//                         continue
+//                     let af;
+//                     if (seperator!=-1) {
+//                         af = shifts.split(',').filter(d => d!='');
+//                     }
+//                     else {
+//                         af = shifts.split(' ').filter(d => d!='');
+//                     }
+//                     pointSeq.push([parseFloat(af[af.length-2]), parseFloat(af[af.length-1])]);
+//                 } else if (char=='a' && !notCircle) {
+//                     if (seperator > 0 && shifts.indexOf(' ')>0)  //some cases have "a 0,0 0 0 1 0,0"
+//                         continue
+//                     let previousX = pointSeq[pointSeq.length-1][0]
+//                     let previousY = pointSeq[pointSeq.length-1][1]
+//                     if (seperator!=-1) {
+//                         let af = shifts.split(',').filter(d => d!='');
+//                         pointSeq.push([previousX + parseFloat(af[af.length-2]), previousY + parseFloat(af[af.length-1])]);
+//                     } else {
+//                         let af = shifts.split(' ').filter(d => d!='');
+//                         pointSeq.push([previousX + parseFloat(af[af.length-2]), previousY + parseFloat(af[af.length-1])]);
+//                     }
+//                 } else if (char=='M' || char=='L') {
+//                     let af;
+//                     if (seperator!=-1)
+//                         af = shifts.split(',').filter(d => d!='');
+//                     else
+//                         af = shifts.split(' ').filter(d => d!='');
+//                     pointSeq.push([parseFloat(af[0]), parseFloat(af[1])]);
+//                     af.splice(0, 2);
+//                     if (pointSeq.length>=2 && Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <=1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <=1)
+//                         pointSeq.pop()
+//                     if (char == 'L' && af.length % 2 === 0 && af.length > 0) { // this is to handle the cases like d="M 942 86.8 L 942 109.2 944 109.2 944 86.8 Z" especially in Anychart Lib
+//                         while (af.length > 0) {
+//                             pointSeq.push([parseFloat(af[0]), parseFloat(af[1])]);
+//                             af.splice(0, 2);
+//                             if (pointSeq.length>=2 && Math.abs(pointSeq[pointSeq.length-1][0] - pointSeq[pointSeq.length-2][0]) <=1 && Math.abs(pointSeq[pointSeq.length-1][1] - pointSeq[pointSeq.length-2][1]) <=1)
+//                                 pointSeq.pop()
+//                         }
+//                     }
+//                 } else {
+//                     let previousX = pointSeq[pointSeq.length-1][0]
+//                     let previousY = pointSeq[pointSeq.length-1][1]
+//                     if (char=='l') {
+//                         let af;
+//                         if (seperator!=-1)
+//                             af = shifts.split(',').filter(d => d!='');
+//                         else
+//                             af = shifts.split(' ').filter(d => d!='');
+//                         pointSeq.push([parseFloat(af[0])+previousX, parseFloat(af[1])+previousY]);
+//                     } else if (char=='V') {
+//                         pointSeq.push([previousX, parseFloat(shifts)]);
+//                     } else if (char=='H') {
+//                         pointSeq.push([parseFloat(shifts), previousY]);
+//                     } else if (char=='v') {
+//                         // if (parseFloat(shifts) !== 0)
+//                         // tbd: here we cannot use this if otherwise 0hw-rects will be filtered out; 
+//                             pointSeq.push([previousX, previousY + parseFloat(shifts)]);
+//                     } else if (char=='h') {
+//                         // if (parseFloat(shifts) !== 0)
+//                             pointSeq.push([previousX + parseFloat(shifts), previousY]);
+//                     }
+//                     // if (pointSeq.length>=2 && pointSeq[pointSeq.length-1][0] == pointSeq[pointSeq.length-2][0] && pointSeq[pointSeq.length-1][1] == pointSeq[pointSeq.length-2][1])
+//                     //     pointSeq.pop()
+//                 }
+//             }
+//         }
+//     }
+
+//     //then check whether the point seq forms a rect or a line
+//     //haven't deal with all possible cases
+
+//     if (pointSeq.length==5 && pointSeq[0][0]==pointSeq[pointSeq.length-1][0] && pointSeq[0][1]==pointSeq[pointSeq.length-1][1]) {
+//         //just for now
+//         let thisWidth = Math.max(...pointSeq.map(d => d[0])) - Math.min(...pointSeq.map(d => d[0]));
+//         let thisHeight = Math.max(...pointSeq.map(d => d[1])) - Math.min(...pointSeq.map(d => d[1]));
+//         container['tag'] = 'rect';
+//         container['x'] = String(Math.min(...pointSeq.map(d => d[0])));
+//         container['y'] = String(Math.min(...pointSeq.map(d => d[1])));
+//         container['width'] = String(thisWidth);
+//         container['height'] = String(thisHeight);
+//     } else if (pointSeq.length==2) {
+//         container['tag'] = 'line'
+//         container['x1'] = String(pointSeq[0][0])
+//         container['y1'] = String(pointSeq[0][1])
+//         container['x2'] = String(pointSeq[1][0])
+//         container['y2'] = String(pointSeq[1][1])
+//     } else {
+//         //below is for handling cases where using a rect-like shapes to represent axis lines
+//         if (pointSeq.length == 3 && (charseq == "MAA" || charseq == "Maa")) {
+//             if (pointSeq[0][0] == pointSeq[2][0] && pointSeq[0][1] == pointSeq[2][1]) {
+//                 container['tag'] = 'circle'
+//                 container['x'] = 0.5 * (pointSeq[0][0] + pointSeq[1][0])
+//                 container['y'] = 0.5 * (pointSeq[0][1] + pointSeq[1][1])
+//             }
+//         } else if (pointSeq.length > 0) {
+//             let thisWidth = Math.max(...pointSeq.map(d => d[0])) - Math.min(...pointSeq.map(d => d[0]))
+//             let thisHeight = Math.max(...pointSeq.map(d => d[1])) - Math.min(...pointSeq.map(d => d[1]))
+//             if (thisWidth<2) {
+//                 container['tag'] = 'line'
+//                 container['x1'] = String(Math.max(...pointSeq.map(d => d[0])))
+//                 container['y1'] = String(Math.min(...pointSeq.map(d => d[1])))
+//                 container['x2'] = String(Math.max(...pointSeq.map(d => d[0])))
+//                 container['y2'] = String(Math.max(...pointSeq.map(d => d[1])))
+//             }
                 
-            if (thisHeight<2) {
-                container['tag'] = 'line'
-                container['x1'] = String(Math.min(...pointSeq.map(d => d[0])))
-                container['y1'] = String(Math.min(...pointSeq.map(d => d[1])))
-                container['x2'] = String(Math.max(...pointSeq.map(d => d[0])))
-                container['y2'] = String(Math.min(...pointSeq.map(d => d[1])))
-            }
-        }
-    }
+//             if (thisHeight<2) {
+//                 container['tag'] = 'line'
+//                 container['x1'] = String(Math.min(...pointSeq.map(d => d[0])))
+//                 container['y1'] = String(Math.min(...pointSeq.map(d => d[1])))
+//                 container['x2'] = String(Math.max(...pointSeq.map(d => d[0])))
+//                 container['y2'] = String(Math.min(...pointSeq.map(d => d[1])))
+//             }
+//         }
+//     }
 
-    return container
-}
+//     return container
+// }
 
 
 function extractTag(node) {
