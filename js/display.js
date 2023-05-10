@@ -36,7 +36,7 @@ function displaySVG(text, chartName) {
             });
         } else {
             // set class
-            if (["rect", "circle", "text", "line", "path", "image"].includes(element.nodeName)) {
+            if (["rect", "circle", "text", "line", "polyline", "path", "image"].includes(element.nodeName)) {
                 if (element.hasAttribute('class')) {
                     const existingClasses = element.getAttribute('class').split(' ');
                     if (!existingClasses.includes('mark')) {
