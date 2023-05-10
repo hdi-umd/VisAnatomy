@@ -1,0 +1,109 @@
+<svg width="960" height="500">
+	<g transform="translate(0,0)">
+		<g class="bars">
+			<rect width="42" x="12" y="480" height="0"></rect>
+			<rect width="42" x="59" y="480" height="0"></rect>
+			<rect width="42" x="106" y="480" height="0"></rect>
+			<rect width="42" x="153" y="479.06796116504853" height="0.9320388349514701" style="fill: steelblue"></rect>
+			<rect width="42" x="200" y="473.00970873786406" height="6.9902912621359405" style="fill: steelblue"></rect>
+			<rect width="42" x="247" y="451.1067961165049" height="28.89320388349512" style="fill: steelblue"></rect>
+			<rect width="42" x="294" y="398.9126213592233" height="81.0873786407767" style="fill: steelblue"></rect>
+			<rect width="42" x="341" y="274.252427184466" height="205.747572815534" style="fill: steelblue"></rect>
+			<rect width="42" x="388" y="108.11650485436893" height="371.88349514563106" style="fill: steelblue"></rect>
+			<rect width="42" x="435" y="3.262135922330085" height="476.73786407766994" style="fill: steelblue"></rect>
+			<rect width="42" x="482" y="0" height="480" style="fill: steelblue"></rect>
+			<rect width="42" x="529" y="120.69902912621357" height="359.3009708737864" style="fill: steelblue"></rect>
+			<rect width="42" x="576" y="272.38834951456306" height="207.61165048543694" style="fill: steelblue"></rect>
+			<rect width="42" x="623" y="396.81553398058253" height="83.18446601941747" style="fill: steelblue"></rect>
+			<rect width="42" x="670" y="457.1650485436893" height="22.834951456310705" style="fill: steelblue"></rect>
+			<rect width="42" x="717" y="475.1067961165048" height="4.893203883495175" style="fill: steelblue"></rect>
+			<rect width="42" x="764" y="480" height="0"></rect>
+			<rect width="42" x="811" y="480" height="0"></rect>
+			<rect width="42" x="858" y="480" height="0"></rect>
+			<rect width="42" x="905" y="480" height="0"></rect>
+		</g>
+		<g class="x axis" transform="translate(0,480)">
+			<g class="tick" transform="translate(33,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.00</text>
+			</g>
+			<g class="tick" transform="translate(80,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.05</text>
+			</g>
+			<g class="tick" transform="translate(127,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.10</text>
+			</g>
+			<g class="tick" transform="translate(174,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.15</text>
+			</g>
+			<g class="tick" transform="translate(221,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.20</text>
+			</g>
+			<g class="tick" transform="translate(268,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.25</text>
+			</g>
+			<g class="tick" transform="translate(315,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.30</text>
+			</g>
+			<g class="tick" transform="translate(362,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.35</text>
+			</g>
+			<g class="tick" transform="translate(409,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.40</text>
+			</g>
+			<g class="tick" transform="translate(456,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.45</text>
+			</g>
+			<g class="tick" transform="translate(503,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.50</text>
+			</g>
+			<g class="tick" transform="translate(550,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.55</text>
+			</g>
+			<g class="tick" transform="translate(597,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.60</text>
+			</g>
+			<g class="tick" transform="translate(644,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.65</text>
+			</g>
+			<g class="tick" transform="translate(691,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.70</text>
+			</g>
+			<g class="tick" transform="translate(738,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.75</text>
+			</g>
+			<g class="tick" transform="translate(785,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.80</text>
+			</g>
+			<g class="tick" transform="translate(832,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.85</text>
+			</g>
+			<g class="tick" transform="translate(879,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.90</text>
+			</g>
+			<g class="tick" transform="translate(926,0)" style="opacity: 1;">
+				<line y2="6" x2="0"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle;">0.95</text>
+			</g>
+			<path class="domain" d="M0,0V0H960V0"></path>
+		</g>
+	</g>
+</svg>

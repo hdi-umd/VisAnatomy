@@ -1,0 +1,106 @@
+<svg class="chart" width="960" height="500">
+	<g transform="translate(40,20)">
+		<g class="x axis" transform="translate(0,450)">
+			<g class="tick" transform="translate(111.5,0)" style="opacity: 1;">
+				<line y2="6" x2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle; font: 10px sans-serif">Product Revenue</text>
+			</g>
+			<g class="tick" transform="translate(278.5,0)" style="opacity: 1;">
+				<line y2="6" x2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle; font: 10px sans-serif">Services Revenue</text>
+			</g>
+			<g class="tick" transform="translate(445.5,0)" style="opacity: 1;">
+				<line y2="6" x2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle; font: 10px sans-serif">Fixed Costs</text>
+			</g>
+			<g class="tick" transform="translate(612.5,0)" style="opacity: 1;">
+				<line y2="6" x2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle; font: 10px sans-serif">Variable Costs</text>
+			</g>
+			<g class="tick" transform="translate(779.5,0)" style="opacity: 1;">
+				<line y2="6" x2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".71em" y="9" x="0" style="text-anchor: middle; font: 10px sans-serif">Total</text>
+			</g>
+			<path class="domain" d="M0,6V0H890V6" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></path>
+		</g>
+		<g class="y axis">
+			<g class="tick" transform="translate(0,450)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$0</text>
+			</g>
+			<g class="tick" transform="translate(0,414.28571428571433)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$50K</text>
+			</g>
+			<g class="tick" transform="translate(0,378.57142857142856)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$100K</text>
+			</g>
+			<g class="tick" transform="translate(0,342.85714285714283)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$150K</text>
+			</g>
+			<g class="tick" transform="translate(0,307.14285714285717)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$200K</text>
+			</g>
+			<g class="tick" transform="translate(0,271.42857142857144)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$250K</text>
+			</g>
+			<g class="tick" transform="translate(0,235.71428571428572)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$300K</text>
+			</g>
+			<g class="tick" transform="translate(0,200)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$350K</text>
+			</g>
+			<g class="tick" transform="translate(0,164.2857142857143)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$400K</text>
+			</g>
+			<g class="tick" transform="translate(0,128.57142857142856)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$450K</text>
+			</g>
+			<g class="tick" transform="translate(0,92.85714285714288)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$500K</text>
+			</g>
+			<g class="tick" transform="translate(0,57.14285714285714)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$550K</text>
+			</g>
+			<g class="tick" transform="translate(0,21.428571428571452)" style="opacity: 1;">
+				<line x2="-6" y2="0" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end; font: 10px sans-serif">$600K</text>
+			</g>
+			<path class="domain" d="M-6,0H0V450H-6" style="fill: none; stroke: #000; shape-rendering: crispEdges;"></path>
+		</g>
+		<g class="bar positive" transform="translate(53,0)">
+			<rect y="150.00000000000003" height="300" width="117" style="fill: darkolivegreen"></rect>
+			<text x="58.5" y="155.00000000000003" dy=".75em" style="fill: white; font: 12px sans-serif; text-anchor: middle;">$420K</text>
+			<line class="connector" x1="122" y1="150.00000000000003" x2="162.14285714285717" y2="150.00000000000003" style="stroke: grey; stroke-dasharray: 3;"></line>
+		</g>
+		<g class="bar positive" transform="translate(220,0)">
+			<rect y="0" height="150.00000000000003" width="117" style="fill: darkolivegreen"></rect>
+			<text x="58.5" y="5" dy=".75em" style="fill: white; font: 12px sans-serif; text-anchor: middle;">$210K</text>
+			<line class="connector" x1="122" y1="0" x2="162.14285714285717" y2="0" style="stroke: grey; stroke-dasharray: 3;"></line>
+		</g> 
+        <g class="bar negative" transform="translate(387,0)">
+		    <rect y="0" height="121.42857142857144" width="117" style="fill: crimson"></rect>
+		    <text x="58.5" y="126.42857142857144" dy="-.75em" style="fill: white; font: 12px sans-serif; text-anchor: middle;">$-170K</text>
+		    <line class="connector" x1="122" y1="121.42857142857144" x2="162.14285714285717" y2="121.42857142857144" style="stroke: grey; stroke-dasharray: 3;"></line>
+	    </g>
+	    <g class="bar negative" transform="translate(554,0)">
+		    <rect y="121.42857142857144" height="100" width="117" style="fill: crimson"></rect>
+		    <text x="58.5" y="226.42857142857144" dy="-.75em" style="fill: white; font: 12px sans-serif; text-anchor: middle;">$-140K</text>
+		    <line class="connector" x1="122" y1="221.42857142857144" x2="162.14285714285717" y2="221.42857142857144" style="stroke: grey; stroke-dasharray: 3;"></line>
+	    </g>
+	    <g class="bar total" transform="translate(721,0)">
+		    <rect y="221.42857142857144" height="228.57142857142856" width="117" style="fill: steelblue"></rect>
+		    <text x="58.5" y="226.42857142857144" dy=".75em" style="fill: white; font: 12px sans-serif; text-anchor: middle;">$320K</text>
+	    </g>
+	</g>
+</svg>

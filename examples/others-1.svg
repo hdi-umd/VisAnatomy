@@ -1,0 +1,650 @@
+<svg width="1180" height="300">
+	<g transform="translate(45,20)">
+		<text dy="10" class="stacked-label" text-anchor="middle" transform="translate(545,37.857142857142854)" style="font-size: 14px;">
+			<tspan>Share of electricity generated </tspan>
+			<tspan>by natural gas-powered plants</tspan>
+		</text>
+		<g transform="translate(0,132.5)">
+			<rect class="othersource" height="126.617" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-126.617)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0.6625" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,0.06625)"></rect>
+			<rect class="othersource" height="0.64925" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,0.7287500000000001)"></rect>
+			<rect class="othersource" height="0.38425" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,1.378)"></rect>
+			<rect class="othersource" height="4.12075" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,1.76225)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-126.617)" style="text-anchor: middle;">RI</text>
+		</g>
+		<g transform="translate(21.8,132.5)">
+			<rect class="othersource" height="118.19" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-118.19)"></rect>
+			<rect class="othersource" height="7.24775" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,7.24775)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,7.24775)"></rect>
+			<rect class="othersource" height="0.07949999999999999" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,7.24775)"></rect>
+			<rect class="othersource" height="0.8082499999999999" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,7.327249999999999)"></rect>
+			<rect class="othersource" height="0.8480000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,8.135499999999999)"></rect>
+			<rect class="othersource" height="5.326499999999999" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,8.9835)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-118.19)" style="text-anchor: middle;">DE</text>
+		</g>
+		<g transform="translate(43.6,132.5)">
+			<rect class="othersource" height="105.629" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-105.629)"></rect>
+			<rect class="othersource" height="11.24925" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="12.415249999999999" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,11.24925)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,23.664499999999997)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,23.664499999999997)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,23.664499999999997)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,23.704250000000002)"></rect>
+			<rect class="othersource" height="3.1534999999999997" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,23.704250000000002)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-105.629)" style="text-anchor: middle;">MS</text>
+		</g>
+		<g transform="translate(65.4,132.5)">
+			<rect class="othersource" height="96.61900000000001" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-96.61900000000001)"></rect>
+			<rect class="othersource" height="7.261" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,7.261)"></rect>
+			<rect class="othersource" height="5.92275" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,7.261)"></rect>
+			<rect class="othersource" height="1.15275" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,13.183749999999998)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,14.3365)"></rect>
+			<rect class="othersource" height="8.533" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,14.376249999999999)"></rect>
+			<rect class="othersource" height="12.985000000000001" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,22.90925)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-96.61900000000001)" style="text-anchor: middle;">NV</text>
+		</g>
+		<g transform="translate(87.2,132.5)">
+			<rect class="othersource" height="88.04625" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-88.04625)"></rect>
+			<rect class="othersource" height="21.942" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="16.31075" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,21.942)"></rect>
+			<rect class="othersource" height="0.11925" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,38.25274999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,38.37199999999999)"></rect>
+			<rect class="othersource" height="1.5635" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,38.37199999999999)"></rect>
+			<rect class="othersource" height="0.19875" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,39.93549999999999)"></rect>
+			<rect class="othersource" height="4.3195" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,40.134249999999994)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-88.04625)" style="text-anchor: middle;">FL</text>
+		</g>
+		<g transform="translate(109,132.5)">
+			<rect class="othersource" height="87.43674999999999" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-87.43674999999999)"></rect>
+			<rect class="othersource" height="7.724749999999999" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="22.101" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,7.724749999999999)"></rect>
+			<rect class="othersource" height="3.1402500000000004" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,29.825749999999996)"></rect>
+			<rect class="othersource" height="0.96725" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,32.966)"></rect>
+			<rect class="othersource" height="1.7887500000000003" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,33.93325)"></rect>
+			<rect class="othersource" height="2.8885" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,35.722)"></rect>
+			<rect class="othersource" height="6.45275" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,38.6105)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-87.43674999999999)" style="text-anchor: middle;">MA</text>
+		</g>
+		<g transform="translate(130.8,132.5)">
+			<rect class="othersource" height="82.20299999999999" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-82.20299999999999)"></rect>
+			<rect class="othersource" height="14.9195" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="21.305999999999997" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,14.9195)"></rect>
+			<rect class="othersource" height="1.36475" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,36.2255)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,37.59024999999999)"></rect>
+			<rect class="othersource" height="5.94925" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,37.59024999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,43.539500000000004)"></rect>
+			<rect class="othersource" height="6.757499999999999" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,43.539500000000004)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-82.20299999999999)" style="text-anchor: middle;">LA</text>
+		</g>
+		<g transform="translate(152.6,132.5)">
+			<rect class="othersource" height="74.50475" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-74.50475)"></rect>
+			<rect class="othersource" height="2.2392499999999997" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="51.0125" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,2.2392499999999997)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,53.251749999999994)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,53.2915)"></rect>
+			<rect class="othersource" height="0.27825" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,53.331250000000004)"></rect>
+			<rect class="othersource" height="1.7755" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,53.609500000000004)"></rect>
+			<rect class="othersource" height="2.6102499999999997" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,55.385000000000005)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-74.50475)" style="text-anchor: middle;">NJ</text>
+		</g>
+		<g transform="translate(174.4,132.5)">
+			<rect class="othersource" height="66.18375" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-66.18375)"></rect>
+			<rect class="othersource" height="35.258250000000004" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="12.243" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,35.258250000000004)"></rect>
+			<rect class="othersource" height="0.31799999999999995" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,47.501250000000006)"></rect>
+			<rect class="othersource" height="16.73475" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,47.819250000000004)"></rect>
+			<rect class="othersource" height="0.053000000000000005" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,64.55400000000002)"></rect>
+			<rect class="othersource" height="0.21200000000000002" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,64.607)"></rect>
+			<rect class="othersource" height="1.47075" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,64.819)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-66.18375)" style="text-anchor: middle;">TX</text>
+		</g>
+		<g transform="translate(196.20000000000002,132.5)">
+			<rect class="othersource" height="64.925" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-64.925)"></rect>
+			<rect class="othersource" height="0.21200000000000002" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="12.5875" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0.21200000000000002)"></rect>
+			<rect class="othersource" height="19.2655" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,12.7995)"></rect>
+			<rect class="othersource" height="9.116" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,32.065)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,41.181)"></rect>
+			<rect class="othersource" height="12.667" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,41.247249999999994)"></rect>
+			<rect class="othersource" height="13.660750000000002" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,53.914249999999996)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-64.925)" style="text-anchor: middle;">CA</text>
+		</g>
+		<g transform="translate(218,132.5)">
+			<rect class="othersource" height="64.72625" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-64.72625)"></rect>
+			<rect class="othersource" height="0.64925" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="60.247749999999996" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0.64925)"></rect>
+			<rect class="othersource" height="1.0335" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,60.897)"></rect>
+			<rect class="othersource" height="0.053000000000000005" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,61.9305)"></rect>
+			<rect class="othersource" height="0.35775" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,61.9835)"></rect>
+			<rect class="othersource" height="0.10600000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,62.34125)"></rect>
+			<rect class="othersource" height="5.326499999999999" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,62.447250000000004)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-64.72625)" style="text-anchor: middle;">CT</text>
+		</g>
+		<g transform="translate(239.8,132.5)">
+			<rect class="othersource" height="62.01" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-62.01)"></rect>
+			<rect class="othersource" height="32.66125" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,32.66125)"></rect>
+			<rect class="othersource" height="4.0545" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,32.66125)"></rect>
+			<rect class="othersource" height="33.284000000000006" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,36.71574999999999)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,69.99975)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,70.02624999999999)"></rect>
+			<rect class="othersource" height="0.4505" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,70.03949999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-62.01)" style="text-anchor: middle;">OK</text>
+		</g>
+		<g transform="translate(261.6,132.5)">
+			<rect class="othersource" height="58.2735" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-58.2735)"></rect>
+			<rect class="othersource" height="23.717499999999998" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="42.611999999999995" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,23.717499999999998)"></rect>
+			<rect class="othersource" height="2.1862500000000002" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,66.3295)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,68.51574999999998)"></rect>
+			<rect class="othersource" height="0.7685" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,68.51574999999998)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,69.28424999999999)"></rect>
+			<rect class="othersource" height="4.902500000000001" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,69.31074999999998)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-58.2735)" style="text-anchor: middle;">VA</text>
+		</g>
+		<g transform="translate(283.40000000000003,132.5)">
+			<rect class="othersource" height="56.82925" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-56.82925)"></rect>
+			<rect class="othersource" height="13.23675" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,13.23675)"></rect>
+			<rect class="othersource" height="37.895" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,13.23675)"></rect>
+			<rect class="othersource" height="4.0015" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,51.131750000000004)"></rect>
+			<rect class="othersource" height="19.252249999999997" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,55.13325000000001)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,74.38550000000002)"></rect>
+			<rect class="othersource" height="1.2719999999999998" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,74.38550000000002)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-56.82925)" style="text-anchor: middle;">AK</text>
+		</g>
+		<g transform="translate(305.2,132.5)">
+			<rect class="othersource" height="56.060750000000006" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-56.060750000000006)"></rect>
+			<rect class="othersource" height="1.7489999999999999" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="41.03525" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,1.7489999999999999)"></rect>
+			<rect class="othersource" height="26.2615" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,42.78424999999999)"></rect>
+			<rect class="othersource" height="3.8954999999999997" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,69.04575)"></rect>
+			<rect class="othersource" height="0.64925" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,72.94125)"></rect>
+			<rect class="othersource" height="0.17225" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,73.5905)"></rect>
+			<rect class="othersource" height="2.6897499999999996" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,73.76275)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-56.060750000000006)" style="text-anchor: middle;">NY</text>
+		</g>
+		<g transform="translate(327,132.5)">
+			<rect class="othersource" height="53.50350000000001" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-53.50350000000001)"></rect>
+			<rect class="othersource" height="31.76025" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="36.967499999999994" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,31.76025)"></rect>
+			<rect class="othersource" height="7.155000000000001" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,68.72774999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,75.88275)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,75.88275)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,75.9225)"></rect>
+			<rect class="othersource" height="3.0475" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,75.94900000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-53.50350000000001)" style="text-anchor: middle;">AL</text>
+		</g>
+		<g transform="translate(348.8,132.5)">
+			<rect class="othersource" height="52.6555" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-52.6555)"></rect>
+			<rect class="othersource" height="37.6565" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="34.2645" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,37.6565)"></rect>
+			<rect class="othersource" height="3.06075" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,71.921)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,74.98175)"></rect>
+			<rect class="othersource" height="0.21200000000000002" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,74.98175)"></rect>
+			<rect class="othersource" height="0.901" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,75.19375)"></rect>
+			<rect class="othersource" height="3.7365" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,76.09475)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-52.6555)" style="text-anchor: middle;">GA</text>
+		</g>
+		<g transform="translate(370.6,132.5)">
+			<rect class="othersource" height="41.989250000000006" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-41.989250000000006)"></rect>
+			<rect class="othersource" height="0.795" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0.795)"></rect>
+			<rect class="othersource" height="33.761" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,0.795)"></rect>
+			<rect class="othersource" height="18.351249999999997" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,34.556000000000004)"></rect>
+			<rect class="othersource" height="1.36475" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,52.90725)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,54.272000000000006)"></rect>
+			<rect class="othersource" height="36.23875" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,54.272000000000006)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-41.989250000000006)" style="text-anchor: middle;">ME</text>
+		</g>
+		<g transform="translate(392.40000000000003,132.5)">
+			<rect class="othersource" height="41.856750000000005" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-41.856750000000005)"></rect>
+			<rect class="othersource" height="33.58875" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="51.145" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,33.58875)"></rect>
+			<rect class="othersource" height="1.47075" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,84.73375000000001)"></rect>
+			<rect class="othersource" height="2.1465000000000005" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,86.20450000000001)"></rect>
+			<rect class="othersource" height="0.27825" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,88.35100000000001)"></rect>
+			<rect class="othersource" height="0.053000000000000005" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,88.62925000000001)"></rect>
+			<rect class="othersource" height="1.961" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,88.68225000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-41.856750000000005)" style="text-anchor: middle;">PA</text>
+		</g>
+		<g transform="translate(414.2,132.5)">
+			<rect class="othersource" height="41.67125" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-41.67125)"></rect>
+			<rect class="othersource" height="37.03375" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="39.44525" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,37.03375)"></rect>
+			<rect class="othersource" height="8.718499999999999" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,76.47899999999998)"></rect>
+			<rect class="othersource" height="0.6625" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,85.1975)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,85.86)"></rect>
+			<rect class="othersource" height="4.57125" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,85.92625)"></rect>
+			<rect class="othersource" height="0.3445" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,90.49749999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-41.67125)" style="text-anchor: middle;">AZ</text>
+		</g>
+		<g transform="translate(436,132.5)">
+			<rect class="othersource" height="40.121" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-40.121)"></rect>
+			<rect class="othersource" height="73.723" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,73.723)"></rect>
+			<rect class="othersource" height="0.5830000000000001" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,73.723)"></rect>
+			<rect class="othersource" height="14.508749999999997" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,74.306)"></rect>
+			<rect class="othersource" height="0.19875" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,88.81475)"></rect>
+			<rect class="othersource" height="3.2329999999999997" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,89.01350000000001)"></rect>
+			<rect class="othersource" height="0.1325" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,92.24650000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-40.121)" style="text-anchor: middle;">NM</text>
+		</g>
+		<g transform="translate(457.8,132.5)">
+			<rect class="othersource" height="40.0415" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-40.0415)"></rect>
+			<rect class="othersource" height="52.191750000000006" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="29.428250000000002" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,52.191750000000006)"></rect>
+			<rect class="othersource" height="7.4995" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,81.62)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,89.11950000000002)"></rect>
+			<rect class="othersource" height="0.09275000000000001" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,89.11950000000002)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,89.21225)"></rect>
+			<rect class="othersource" height="3.16675" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,89.2785)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-40.0415)" style="text-anchor: middle;">AR</text>
+		</g>
+		<g transform="translate(479.6,132.5)">
+			<rect class="othersource" height="39.683749999999996" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-39.683749999999996)"></rect>
+			<rect class="othersource" height="37.82875000000001" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="43.1155" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,37.82875000000001)"></rect>
+			<rect class="othersource" height="4.558" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,80.94425)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,85.50225)"></rect>
+			<rect class="othersource" height="0.29150000000000004" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,85.50225)"></rect>
+			<rect class="othersource" height="3.8822500000000004" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,85.79374999999999)"></rect>
+			<rect class="othersource" height="3.127" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,89.67600000000002)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-39.683749999999996)" style="text-anchor: middle;">NC</text>
+		</g>
+		<g transform="translate(501.40000000000003,132.5)">
+			<rect class="othersource" height="35.07275" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-35.07275)"></rect>
+			<rect class="othersource" height="47.6735" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="37.086749999999995" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,47.6735)"></rect>
+			<rect class="othersource" height="1.81525" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,84.76024999999998)"></rect>
+			<rect class="othersource" height="5.512" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,86.57549999999999)"></rect>
+			<rect class="othersource" height="0.9805" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,92.08749999999999)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,93.06799999999998)"></rect>
+			<rect class="othersource" height="4.33275" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,93.08125)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-35.07275)" style="text-anchor: middle;">MI</text>
+		</g>
+		<g transform="translate(523.2,132.5)">
+			<rect class="othersource" height="34.238" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-34.238)"></rect>
+			<rect class="othersource" height="4.22675" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,4.22675)"></rect>
+			<rect class="othersource" height="75.14075000000001" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,4.22675)"></rect>
+			<rect class="othersource" height="15.96625" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,79.36749999999999)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,95.33375000000001)"></rect>
+			<rect class="othersource" height="0.15899999999999997" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,95.34700000000002)"></rect>
+			<rect class="othersource" height="2.756" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,95.50600000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-34.238)" style="text-anchor: middle;">OR</text>
+		</g>
+		<g transform="translate(545,132.5)">
+			<rect class="othersource" height="32.6215" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-32.6215)"></rect>
+			<rect class="othersource" height="2.90175" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="74.0675" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,2.90175)"></rect>
+			<rect class="othersource" height="7.7115" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,76.96925)"></rect>
+			<rect class="othersource" height="3.074" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,84.68075)"></rect>
+			<rect class="othersource" height="0.21200000000000002" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,87.75474999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,87.96674999999998)"></rect>
+			<rect class="othersource" height="11.911750000000001" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,87.96674999999998)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-32.6215)" style="text-anchor: middle;">NH</text>
+		</g>
+		<g transform="translate(566.8000000000001,132.5)">
+			<rect class="othersource" height="32.1445" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-32.1445)"></rect>
+			<rect class="othersource" height="68.2375" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="20.76275" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,68.2375)"></rect>
+			<rect class="othersource" height="4.91575" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,89.00025)"></rect>
+			<rect class="othersource" height="3.11375" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,93.916)"></rect>
+			<rect class="othersource" height="0.30475" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,97.02974999999999)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,97.33449999999999)"></rect>
+			<rect class="othersource" height="3.0209999999999995" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,97.34775)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-32.1445)" style="text-anchor: middle;">WI</text>
+		</g>
+		<g transform="translate(588.6,132.5)">
+			<rect class="othersource" height="32.05175" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-32.05175)"></rect>
+			<rect class="othersource" height="76.532" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="18.669249999999998" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,76.532)"></rect>
+			<rect class="othersource" height="0.56975" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,95.20124999999999)"></rect>
+			<rect class="othersource" height="1.39125" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,95.771)"></rect>
+			<rect class="othersource" height="1.31175" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,97.16225)"></rect>
+			<rect class="othersource" height="0.09275000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,98.47399999999999)"></rect>
+			<rect class="othersource" height="1.8815" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,98.56674999999998)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-32.05175)" style="text-anchor: middle;">OH</text>
+		</g>
+		<g transform="translate(610.4,132.5)">
+			<rect class="othersource" height="30.85925" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-30.85925)"></rect>
+			<rect class="othersource" height="73.034" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,73.034)"></rect>
+			<rect class="othersource" height="4.67725" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,73.034)"></rect>
+			<rect class="othersource" height="22.962249999999997" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,77.71125)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,100.67349999999999)"></rect>
+			<rect class="othersource" height="1.33825" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,100.69999999999999)"></rect>
+			<rect class="othersource" height="-0.37100000000000005" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,102.03824999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-30.85925)" style="text-anchor: middle;">CO</text>
+		</g>
+		<g transform="translate(632.2,132.5)">
+			<rect class="othersource" height="29.971500000000002" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-29.971500000000002)"></rect>
+			<rect class="othersource" height="90.80225" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,90.80225)"></rect>
+			<rect class="othersource" height="2.862" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,90.80225)"></rect>
+			<rect class="othersource" height="2.90175" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,93.66425)"></rect>
+			<rect class="othersource" height="0.10600000000000001" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,96.566)"></rect>
+			<rect class="othersource" height="3.06075" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,96.67199999999998)"></rect>
+			<rect class="othersource" height="2.7957499999999995" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,99.73275)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-29.971500000000002)" style="text-anchor: middle;">UT</text>
+		</g>
+		<g transform="translate(654,132.5)">
+			<rect class="othersource" height="27.22875" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-27.22875)"></rect>
+			<rect class="othersource" height="0.5035" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0.5035)"></rect>
+			<rect class="othersource" height="78.175" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,0.5035)"></rect>
+			<rect class="othersource" height="20.087000000000003" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,78.6785)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,98.7655)"></rect>
+			<rect class="othersource" height="0.2385" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,98.7655)"></rect>
+			<rect class="othersource" height="6.267250000000001" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,99.004)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-27.22875)" style="text-anchor: middle;">ID</text>
+		</g>
+		<g transform="translate(675.8000000000001,132.5)">
+			<rect class="othersource" height="26.182000000000002" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-26.182000000000002)"></rect>
+			<rect class="othersource" height="94.446" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,94.446)"></rect>
+			<rect class="othersource" height="0.5432499999999999" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,94.446)"></rect>
+			<rect class="othersource" height="6.3865" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,94.98925)"></rect>
+			<rect class="othersource" height="0.795" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,101.37574999999998)"></rect>
+			<rect class="othersource" height="0.35775" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,102.17074999999998)"></rect>
+			<rect class="othersource" height="3.80275" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,102.52849999999998)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-26.182000000000002)" style="text-anchor: middle;">IN</text>
+		</g>
+		<g transform="translate(697.6,132.5)">
+			<rect class="othersource" height="22.101" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-22.101)"></rect>
+			<rect class="othersource" height="28.6995" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="76.28025" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,28.6995)"></rect>
+			<rect class="othersource" height="3.2727500000000003" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,104.97975)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,108.25250000000001)"></rect>
+			<rect class="othersource" height="0.15899999999999997" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,108.25250000000001)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,108.4115)"></rect>
+			<rect class="othersource" height="1.97425" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,108.42475000000002)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-22.101)" style="text-anchor: middle;">SC</text>
+		</g>
+		<g transform="translate(719.4,132.5)">
+			<rect class="othersource" height="19.86175" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-19.86175)"></rect>
+			<rect class="othersource" height="51.727999999999994" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="30.528" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,51.727999999999994)"></rect>
+			<rect class="othersource" height="1.9477499999999999" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,82.256)"></rect>
+			<rect class="othersource" height="23.426" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,84.20375)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,107.62974999999999)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,107.69599999999998)"></rect>
+			<rect class="othersource" height="4.876" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,107.73575)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-19.86175)" style="text-anchor: middle;">MN</text>
+		</g>
+		<g transform="translate(741.2,132.5)">
+			<rect class="othersource" height="19.41125" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-19.41125)"></rect>
+			<rect class="othersource" height="49.14425" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="52.45675000000001" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,49.14425)"></rect>
+			<rect class="othersource" height="4.96875" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,101.601)"></rect>
+			<rect class="othersource" height="1.86825" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,106.56975)"></rect>
+			<rect class="othersource" height="0.6227499999999999" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,108.438)"></rect>
+			<rect class="othersource" height="0.94075" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,109.06075000000001)"></rect>
+			<rect class="othersource" height="3.1005" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,110.0015)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-19.41125)" style="text-anchor: middle;">MD</text>
+		</g>
+		<g transform="translate(763,132.5)">
+			<rect class="othersource" height="18.69575" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-18.69575)"></rect>
+			<rect class="othersource" height="51.595499999999994" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="48.972" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,51.595499999999994)"></rect>
+			<rect class="othersource" height="12.282749999999998" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,100.5675)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,112.85025)"></rect>
+			<rect class="othersource" height="0.19875" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,112.9165)"></rect>
+			<rect class="othersource" height="0.14575000000000002" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,113.11525)"></rect>
+			<rect class="othersource" height="0.5432499999999999" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,113.261)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-18.69575)" style="text-anchor: middle;">TN</text>
+		</g>
+		<g transform="translate(784.8000000000001,132.5)">
+			<rect class="othersource" height="13.60775" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-13.60775)"></rect>
+			<rect class="othersource" height="110.30625" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,110.30625)"></rect>
+			<rect class="othersource" height="5.6842500000000005" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,110.30625)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,115.99050000000001)"></rect>
+			<rect class="othersource" height="2.0405" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,115.99050000000001)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,118.03100000000002)"></rect>
+			<rect class="othersource" height="0.8215" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,118.04425000000002)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-13.60775)" style="text-anchor: middle;">KY</text>
+		</g>
+		<g transform="translate(806.6,132.5)">
+			<rect class="othersource" height="13.13075" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-13.13075)"></rect>
+			<rect class="othersource" height="5.406000000000001" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="11.302249999999999" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,5.406000000000001)"></rect>
+			<rect class="othersource" height="90.27224999999999" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,16.70825)"></rect>
+			<rect class="othersource" height="9.44725" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,106.98049999999999)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,116.42774999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,116.45424999999999)"></rect>
+			<rect class="othersource" height="2.9150000000000005" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,116.45424999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-13.13075)" style="text-anchor: middle;">WA</text>
+		</g>
+		<g transform="translate(828.4,132.5)">
+			<rect class="othersource" height="12.7465" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-12.7465)"></rect>
+			<rect class="othersource" height="26.6325" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,26.6325)"></rect>
+			<rect class="othersource" height="52.85425000000001" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,26.6325)"></rect>
+			<rect class="othersource" height="40.21375" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,79.48675)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,119.70049999999999)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,119.74025)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,119.7535)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-12.7465)" style="text-anchor: middle;">SD</text>
+		</g>
+		<g transform="translate(850.2,132.5)">
+			<rect class="othersource" height="12.349" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-12.349)"></rect>
+			<rect class="othersource" height="42.04225" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="69.62875" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,42.04225)"></rect>
+			<rect class="othersource" height="0.09275000000000001" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,111.67099999999999)"></rect>
+			<rect class="othersource" height="7.526" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,111.76374999999999)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,119.28975)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,119.32950000000001)"></rect>
+			<rect class="othersource" height="0.7685" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,119.36925000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-12.349)" style="text-anchor: middle;">IL</text>
+		</g>
+		<g transform="translate(872,132.5)">
+			<rect class="othersource" height="10.21575" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-10.21575)"></rect>
+			<rect class="othersource" height="101.7335" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="15.83375" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,101.7335)"></rect>
+			<rect class="othersource" height="2.0802500000000004" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,117.56725000000002)"></rect>
+			<rect class="othersource" height="1.8815" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,119.64750000000001)"></rect>
+			<rect class="othersource" height="0.1325" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,121.529)"></rect>
+			<rect class="othersource" height="0.06625" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,121.66149999999999)"></rect>
+			<rect class="othersource" height="0.5565" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,121.72774999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-10.21575)" style="text-anchor: middle;">MO</text>
+		</g>
+		<g transform="translate(893.8000000000001,132.5)">
+			<rect class="othersource" height="7.473" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-7.473)"></rect>
+			<rect class="othersource" height="61.904" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="11.368500000000001" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,61.904)"></rect>
+			<rect class="othersource" height="2.3055" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,73.2725)"></rect>
+			<rect class="othersource" height="48.481750000000005" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,75.578)"></rect>
+			<rect class="othersource" height="0.33125" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,124.05975)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,124.39099999999999)"></rect>
+			<rect class="othersource" height="0.6359999999999999" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,124.39099999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-7.473)" style="text-anchor: middle;">IA</text>
+		</g>
+		<g transform="translate(915.6,132.5)">
+			<rect class="othersource" height="5.9095" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-5.9095)"></rect>
+			<rect class="othersource" height="64.14325" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="22.90925" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,64.14325)"></rect>
+			<rect class="othersource" height="0.053000000000000005" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,87.0525)"></rect>
+			<rect class="othersource" height="39.1935" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,87.10549999999999)"></rect>
+			<rect class="othersource" height="0.07949999999999999" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,126.29899999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,126.3785)"></rect>
+			<rect class="othersource" height="0.19875" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,126.3785)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-5.9095)" style="text-anchor: middle;">KS</text>
+		</g>
+		<g transform="translate(937.4,132.5)">
+			<rect class="othersource" height="3.2727500000000003" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-3.2727500000000003)"></rect>
+			<rect class="othersource" height="67.4425" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,67.4425)"></rect>
+			<rect class="othersource" height="47.925250000000005" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,67.4425)"></rect>
+			<rect class="othersource" height="10.017" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,115.36774999999999)"></rect>
+			<rect class="othersource" height="2.15975" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,125.38474999999998)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,127.54449999999999)"></rect>
+			<rect class="othersource" height="1.68275" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,127.54449999999999)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-3.2727500000000003)" style="text-anchor: middle;">MT</text>
+		</g>
+		<g transform="translate(959.2,132.5)">
+			<rect class="othersource" height="3.074" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-3.074)"></rect>
+			<rect class="othersource" height="93.74375" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,93.74375)"></rect>
+			<rect class="othersource" height="6.74425" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,93.74375)"></rect>
+			<rect class="othersource" height="28.4875" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,100.48800000000001)"></rect>
+			<rect class="othersource" height="0.10600000000000001" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,128.9755)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,129.0815)"></rect>
+			<rect class="othersource" height="0.3445" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,129.0815)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-3.074)" style="text-anchor: middle;">ND</text>
+		</g>
+		<g transform="translate(981,132.5)">
+			<rect class="othersource" height="2.5175" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-2.5175)"></rect>
+			<rect class="othersource" height="77.221" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="32.95275" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,77.221)"></rect>
+			<rect class="othersource" height="6.0817499999999995" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,110.17375)"></rect>
+			<rect class="othersource" height="13.369250000000001" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,116.25550000000001)"></rect>
+			<rect class="othersource" height="0.026500000000000003" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,129.62475000000003)"></rect>
+			<rect class="othersource" height="0.013250000000000001" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,129.65125)"></rect>
+			<rect class="othersource" height="0.33125" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,129.66450000000003)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-2.5175)" style="text-anchor: middle;">NE</text>
+		</g>
+		<g transform="translate(1002.8000000000001,132.5)">
+			<rect class="othersource" height="2.1729999999999996" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-2.1729999999999996)"></rect>
+			<rect class="othersource" height="113.83075" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,113.83075)"></rect>
+			<rect class="othersource" height="2.862" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,113.83075)"></rect>
+			<rect class="othersource" height="12.49475" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,116.69274999999999)"></rect>
+			<rect class="othersource" height="0.1325" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,129.1875)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,129.32)"></rect>
+			<rect class="othersource" height="1.02025" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,129.32)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-2.1729999999999996)" style="text-anchor: middle;">WY</text>
+		</g>
+		<g transform="translate(1024.6000000000001,132.5)">
+			<rect class="othersource" height="2.1465000000000005" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-2.1465000000000005)"></rect>
+			<rect class="othersource" height="125.11975000000001" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,125.11975000000001)"></rect>
+			<rect class="othersource" height="2.4645" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,125.11975000000001)"></rect>
+			<rect class="othersource" height="2.50425" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,127.58425000000001)"></rect>
+			<rect class="othersource" height="0.21200000000000002" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,130.0885)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,130.3005)"></rect>
+			<rect class="othersource" height="0.039749999999999994" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,130.3005)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-2.1465000000000005)" style="text-anchor: middle;">WV</text>
+		</g>
+		<g transform="translate(1046.4,132.5)">
+			<rect class="othersource" height="0.07949999999999999" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,-0.07949999999999999)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="73.63024999999999" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="20.458" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,73.63024999999999)"></rect>
+			<rect class="othersource" height="0.10600000000000001" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,94.08825)"></rect>
+			<rect class="othersource" height="5.2735" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,94.19425000000001)"></rect>
+			<rect class="othersource" height="32.95275" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,99.46775000000001)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,-0.07949999999999999)" style="text-anchor: middle;">VT</text>
+		</g>
+		<g transform="translate(1068.2,132.5)">
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#F68B28" stroke="#cd7421" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="20.94825" width="21.8" x="0" y="0" fill="#555" stroke="#474747" transform="translate(0,0)"></rect>
+			<rect class="othersource" height="0" width="21.8" x="0" y="0" fill="#CF4A9A" stroke="#ad3d80" transform="translate(0,20.94825)"></rect>
+			<rect class="othersource" height="1.6164999999999998" width="21.8" x="0" y="0" fill="#0081C5" stroke="#006ba4" transform="translate(0,20.94825)"></rect>
+			<rect class="othersource" height="8.877500000000001" width="21.8" x="0" y="0" fill="#0DB14B" stroke="#0a943e" transform="translate(0,22.56475)"></rect>
+			<rect class="othersource" height="88.28475" width="21.8" x="0" y="0" fill="#ED1C24" stroke="#c6171e" transform="translate(0,31.44225)"></rect>
+			<rect class="othersource" height="1.2719999999999998" width="21.8" x="0" y="0" fill="#D7C944" stroke="#b3a838" transform="translate(0,119.72699999999999)"></rect>
+			<rect class="othersource" height="11.501" width="21.8" x="0" y="0" fill="#FFEFD5" stroke="#d5c7b2" transform="translate(0,120.99899999999998)"></rect>
+			<text dy="-3" dx="10.9" transform="translate(0,0)" style="text-anchor: middle;">HI</text>
+		</g>
+		<g class="ticks coal" transform="translate(-3,0)">
+			<g class="tick" transform="translate(0,132.5)" style="opacity: 1;">
+				<line x2="-6" y2="0"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end;">0%</text>
+			</g>
+			<g class="tick" transform="translate(0,99.375)" style="opacity: 1;">
+				<line x2="-6" y2="0"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end;">25%</text>
+			</g>
+			<g class="tick" transform="translate(0,66.25)" style="opacity: 1;">
+				<line x2="-6" y2="0"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end;">50%</text>
+			</g>
+			<g class="tick" transform="translate(0,33.125)" style="opacity: 1;">
+				<line x2="-6" y2="0"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end;">75%</text>
+			</g>
+			<g class="tick" transform="translate(0,0)" style="opacity: 1;">
+				<line x2="-6" y2="0"></line>
+				<text dy=".32em" x="-9" y="0" style="text-anchor: end;">100%</text>
+			</g>
+			<path class="domain" d="M-6,0H0V132.5H-6"></path>
+		</g>
+		<g class="axis coal" transform="translate(1090,0)">
+			<g class="tick" transform="translate(0,132.5)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">0%</text>
+			</g>
+			<g class="tick" transform="translate(0,99.375)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">25%</text>
+			</g>
+			<g class="tick" transform="translate(0,66.25)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">50%</text>
+			</g>
+			<g class="tick" transform="translate(0,33.125)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">75%</text>
+			</g>
+			<g class="tick" transform="translate(0,0)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">100%</text>
+			</g>
+			<path class="domain" d="M-1090,0H0V132.5H-1090"></path>
+		</g>
+		<g class="ticks othersources" transform="translate(1093,132.5)">
+			<g class="tick" transform="translate(0,0)" style="opacity: 1;">
+				<line x2="6" y2="0"></line>
+				<text dy=".32em" x="9" y="0" style="text-anchor: start;">0%</text>
+			</g>
+			<g class="tick" transform="translate(0,33.125)" style="opacity: 1;">
+				<line x2="6" y2="0"></line>
+				<text dy=".32em" x="9" y="0" style="text-anchor: start;">25%</text>
+			</g>
+			<g class="tick" transform="translate(0,66.25)" style="opacity: 1;">
+				<line x2="6" y2="0"></line>
+				<text dy=".32em" x="9" y="0" style="text-anchor: start;">50%</text>
+			</g>
+			<g class="tick" transform="translate(0,99.375)" style="opacity: 1;">
+				<line x2="6" y2="0"></line>
+				<text dy=".32em" x="9" y="0" style="text-anchor: start;">75%</text>
+			</g>
+			<g class="tick" transform="translate(0,132.5)" style="opacity: 1;">
+				<line x2="6" y2="0"></line>
+				<text dy=".32em" x="9" y="0" style="text-anchor: start;">100%</text>
+			</g>
+			<path class="domain" d="M6,0H0V132.5H6"></path>
+		</g>
+		<g class="axis othersources" transform="translate(1090,132.5)">
+			<g class="tick" transform="translate(0,0)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">0%</text>
+			</g>
+			<g class="tick" transform="translate(0,33.125)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">25%</text>
+			</g>
+			<g class="tick" transform="translate(0,66.25)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">50%</text>
+			</g>
+			<g class="tick" transform="translate(0,99.375)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">75%</text>
+			</g>
+			<g class="tick" transform="translate(0,132.5)" style="opacity: 1;">
+				<line x2="-1090" y2="0"></line>
+				<text dy=".32em" x="-1093" y="0" style="text-anchor: end;">100%</text>
+			</g>
+			<path class="domain" d="M-1090,0H0V132.5H-1090"></path>
+		</g>
+	</g>
+</svg>

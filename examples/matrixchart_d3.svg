@@ -1,0 +1,1206 @@
+<svg width="800" height="810" style="margin-left: -80px;">
+	<g transform="translate(80,80)">
+		<rect class="background" width="720" height="720" style="fill: #eee"></rect>
+		<g class="row" transform="translate(0,598.4415283203125)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="607.7922077922078" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="617.1428571428571" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="626.4935064935065" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="635.8441558441558" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="645.1948051948052" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="654.5454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="663.8961038961039" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="673.2467532467532" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="682.5974025974026" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Myriel</text>
+		</g>
+		<g class="row" transform="translate(0,607.792236328125)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="607.7922077922078" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Napoleon</text>
+		</g>
+		<g class="row" transform="translate(0,617.1428833007812)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="617.1428571428571" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="626.4935064935065" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mlle.Baptistine</text>
+		</g>
+		<g class="row" transform="translate(0,626.4935302734375)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="617.1428571428571" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="626.4935064935065" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mme.Magloire</text>
+		</g>
+		<g class="row" transform="translate(0,635.8441772460938)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="635.8441558441558" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">CountessdeLo</text>
+		</g>
+		<g class="row" transform="translate(0,645.19482421875)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="645.1948051948052" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Geborand</text>
+		</g>
+		<g class="row" transform="translate(0,654.5454711914062)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="654.5454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Champtercier</text>
+		</g>
+		<g class="row" transform="translate(0,663.8961181640625)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="663.8961038961039" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Cravatte</text>
+		</g>
+		<g class="row" transform="translate(0,673.2467651367188)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="673.2467532467532" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Count</text>
+		</g>
+		<g class="row" transform="translate(0,682.597412109375)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<rect class="cell" x="682.5974025974026" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(255, 127, 14);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">OldMan</text>
+		</g>
+		<g class="row" transform="translate(0,467.532470703125)">
+			<rect class="cell" x="467.53246753246754" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Labarre</text>
+		</g>
+		<g class="row" transform="translate(0,476.88311767578125)">
+			<rect class="cell" x="598.4415584415584" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="617.1428571428571" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<rect class="cell" x="626.4935064935065" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<rect class="cell" x="467.53246753246754" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="374.025974025974" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="486.23376623376623" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="495.5844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="504.93506493506493" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="691.9480519480519" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="523.6363636363636" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="532.9870129870129" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="542.3376623376623" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="187.01298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<rect class="cell" x="701.2987012987013" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="261.8181818181818" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Valjean</text>
+		</g>
+		<g class="row" transform="translate(0,374.0259704589844)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="374.025974025974" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Marguerite</text>
+		</g>
+		<g class="row" transform="translate(0,486.2337646484375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="486.23376623376623" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mme.deR</text>
+		</g>
+		<g class="row" transform="translate(0,495.58441162109375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="495.5844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Isabeau</text>
+		</g>
+		<g class="row" transform="translate(0,504.93505859375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="504.93506493506493" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Gervais</text>
+		</g>
+		<g class="row" transform="translate(0,383.3766174316406)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Tholomyes</text>
+		</g>
+		<g class="row" transform="translate(0,392.7272644042969)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Listolier</text>
+		</g>
+		<g class="row" transform="translate(0,402.0779113769531)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Fameuil</text>
+		</g>
+		<g class="row" transform="translate(0,411.4285583496094)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Blacheville</text>
+		</g>
+		<g class="row" transform="translate(0,420.77923583984375)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Favourite</text>
+		</g>
+		<g class="row" transform="translate(0,430.1298828125)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Dahlia</text>
+		</g>
+		<g class="row" transform="translate(0,439.48052978515625)">
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Zephine</text>
+		</g>
+		<g class="row" transform="translate(0,448.8311767578125)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="374.025974025974" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="392.7272727272727" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="402.07792207792204" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="411.4285714285714" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="420.77922077922074" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="430.1298701298701" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="439.48051948051943" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="458.1818181818182" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="523.6363636363636" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Fantine</text>
+		</g>
+		<g class="row" transform="translate(0,271.1688232421875)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="317.9220779220779" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="205.7142857142857" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mme.Thenardier</text>
+		</g>
+		<g class="row" transform="translate(0,280.51947021484375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="299.2207792207792" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="168.3116883116883" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="317.9220779220779" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Thenardier</text>
+		</g>
+		<g class="row" transform="translate(0,177.66233825683594)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="187.01298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="243.11688311688312" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="261.8181818181818" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Cosette</text>
+		</g>
+		<g class="row" transform="translate(0,289.8701171875)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="691.9480519480519" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="523.6363636363636" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="542.3376623376623" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="187.01298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="261.8181818181818" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Javert</text>
+		</g>
+		<g class="row" transform="translate(0,691.9480590820312)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="691.9480519480519" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="701.2987012987013" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="710.6493506493506" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(31, 119, 180);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Fauchelevent</text>
+		</g>
+		<g class="row" transform="translate(0,514.2857055664062)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Bamatabois</text>
+		</g>
+		<g class="row" transform="translate(0,458.18182373046875)">
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="458.1818181818182" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(214, 39, 40);"></rect>
+			<rect class="cell" x="523.6363636363636" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Perpetue</text>
+		</g>
+		<g class="row" transform="translate(0,523.6363525390625)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="448.83116883116884" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="458.1818181818182" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="523.6363636363636" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Simplice</text>
+		</g>
+		<g class="row" transform="translate(0,532.9869995117188)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="532.9870129870129" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Scaufflaire</text>
+		</g>
+		<g class="row" transform="translate(0,542.337646484375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="542.3376623376623" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Woman1</text>
+		</g>
+		<g class="row" transform="translate(0,551.6882934570312)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Judge</text>
+		</g>
+		<g class="row" transform="translate(0,561.0389404296875)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Champmathieu</text>
+		</g>
+		<g class="row" transform="translate(0,570.3895874023438)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Brevet</text>
+		</g>
+		<g class="row" transform="translate(0,579.740234375)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Chenildieu</text>
+		</g>
+		<g class="row" transform="translate(0,589.0908813476562)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="514.2857142857142" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="551.6883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="561.038961038961" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="570.3896103896103" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="579.7402597402597" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(44, 160, 44);"></rect>
+			<rect class="cell" x="589.090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(44, 160, 44);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Cochepaille</text>
+		</g>
+		<g class="row" transform="translate(0,299.22076416015625)">
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="299.2207792207792" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="224.41558441558442" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Pontmercy</text>
+		</g>
+		<g class="row" transform="translate(0,168.3116912841797)">
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="168.3116883116883" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(227, 119, 194);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Boulatruelle</text>
+		</g>
+		<g class="row" transform="translate(0,308.5714416503906)">
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="317.9220779220779" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Eponine</text>
+		</g>
+		<g class="row" transform="translate(0,317.9220886230469)">
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="317.9220779220779" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Anzelma</text>
+		</g>
+		<g class="row" transform="translate(0,187.0129852294922)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="187.01298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Woman2</text>
+		</g>
+		<g class="row" transform="translate(0,701.2987060546875)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="691.9480519480519" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="701.2987012987013" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(31, 119, 180);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">MotherInnocent</text>
+		</g>
+		<g class="row" transform="translate(0,710.6493530273438)">
+			<rect class="cell" x="691.9480519480519" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="710.6493506493506" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(31, 119, 180);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Gribier</text>
+		</g>
+		<g class="row" transform="translate(0,149.61038208007812)">
+			<rect class="cell" x="149.6103896103896" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(127, 127, 127);"></rect>
+			<rect class="cell" x="158.96103896103892" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(127, 127, 127);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Jondrette</text>
+		</g>
+		<g class="row" transform="translate(0,158.96104431152344)">
+			<rect class="cell" x="149.6103896103896" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(127, 127, 127);"></rect>
+			<rect class="cell" x="158.96103896103892" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(127, 127, 127);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Mme.Burgon</text>
+		</g>
+		<g class="row" transform="translate(0,28.05194854736328)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="158.96103896103892" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="0" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="9.350649350649348" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Gavroche</text>
+		</g>
+		<g class="row" transform="translate(0,196.36363220214844)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="205.7142857142857" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="243.11688311688312" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="252.46753246753246" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Gillenormand</text>
+		</g>
+		<g class="row" transform="translate(0,205.7142791748047)">
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="205.7142857142857" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Magnon</text>
+		</g>
+		<g class="row" transform="translate(0,215.06494140625)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="224.41558441558442" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="233.76623376623377" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="243.11688311688312" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Mlle.Gillenormand</text>
+		</g>
+		<g class="row" transform="translate(0,224.41558837890625)">
+			<rect class="cell" x="299.2207792207792" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="224.41558441558442" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mme.Pontmercy</text>
+		</g>
+		<g class="row" transform="translate(0,233.7662353515625)">
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="233.76623376623377" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mlle.Vaubois</text>
+		</g>
+		<g class="row" transform="translate(0,243.11688232421875)">
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="243.11688311688312" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Lt.Gillenormand</text>
+		</g>
+		<g class="row" transform="translate(0,37.40259552001953)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="383.37662337662334" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="299.2207792207792" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="215.064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="243.11688311688312" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="252.46753246753246" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Marius</text>
+		</g>
+		<g class="row" transform="translate(0,252.467529296875)">
+			<rect class="cell" x="196.36363636363635" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="252.46753246753246" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">BaronessT</text>
+		</g>
+		<g class="row" transform="translate(0,46.75324630737305)">
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="18.701298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mabeuf</text>
+		</g>
+		<g class="row" transform="translate(0,56.10389709472656)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Enjolras</text>
+		</g>
+		<g class="row" transform="translate(0,65.45454406738281)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Combeferre</text>
+		</g>
+		<g class="row" transform="translate(0,74.80519104003906)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Prouvaire</text>
+		</g>
+		<g class="row" transform="translate(0,84.15584564208984)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Feuilly</text>
+		</g>
+		<g class="row" transform="translate(0,93.5064926147461)">
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Courfeyrac</text>
+		</g>
+		<g class="row" transform="translate(0,102.85713958740234)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Bahorel</text>
+		</g>
+		<g class="row" transform="translate(0,112.20779418945312)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Bossuet</text>
+		</g>
+		<g class="row" transform="translate(0,121.55844116210938)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="37.402597402597394" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Joly</text>
+		</g>
+		<g class="row" transform="translate(0,130.90908813476562)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="65.45454545454545" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="74.80519480519479" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="84.15584415584414" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Grantaire</text>
+		</g>
+		<g class="row" transform="translate(0,18.701297760009766)">
+			<rect class="cell" x="46.75324675324674" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75;"></rect>
+			<rect class="cell" x="18.701298701298697" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(23, 190, 207);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">MotherPlutarch</text>
+		</g>
+		<g class="row" transform="translate(0,327.2727355957031)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Gueulemer</text>
+		</g>
+		<g class="row" transform="translate(0,336.6233825683594)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Babet</text>
+		</g>
+		<g class="row" transform="translate(0,345.9740295410156)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="271.16883116883116" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Claquesous</text>
+		</g>
+		<g class="row" transform="translate(0,355.3246765136719)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Montparnasse</text>
+		</g>
+		<g class="row" transform="translate(0,261.81817626953125)">
+			<rect class="cell" x="476.8831168831169" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="177.66233766233765" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5; fill: rgb(140, 86, 75);"></rect>
+			<rect class="cell" x="289.87012987012986" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="261.8181818181818" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(140, 86, 75);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end" class="">Toussaint</text>
+		</g>
+		<g class="row" transform="translate(0,0)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="0" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="9.350649350649348" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(31, 119, 180);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Child1</text>
+		</g>
+		<g class="row" transform="translate(0,9.3506498336792)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.5;"></rect>
+			<rect class="cell" x="0" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(31, 119, 180);"></rect>
+			<rect class="cell" x="9.350649350649348" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(31, 119, 180);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Child2</text>
+		</g>
+		<g class="row" transform="translate(0,364.6753234863281)">
+			<rect class="cell" x="280.5194805194805" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="308.57142857142856" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25;"></rect>
+			<rect class="cell" x="327.27272727272725" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="336.6233766233766" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.75; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="345.97402597402595" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="355.3246753246753" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(148, 103, 189);"></rect>
+			<rect class="cell" x="364.67532467532465" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(148, 103, 189);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Brujon</text>
+		</g>
+		<g class="row" transform="translate(0,140.25973510742188)">
+			<rect class="cell" x="28.051948051948045" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="56.10389610389609" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="93.5064935064935" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="102.85714285714285" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="112.20779220779221" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="121.55844155844156" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="130.9090909090909" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 0.25; fill: rgb(188, 189, 34);"></rect>
+			<rect class="cell" x="140.25974025974028" width="9.35064935064935" height="9.35064935064935" style="fill-opacity: 1; fill: rgb(188, 189, 34);"></rect>
+			<line x2="720" style="stroke: #fff"></line>
+			<text x="-6" y="4.675324675324675" dy=".32em" text-anchor="end">Mme.Hucheloup</text>
+		</g>
+		<g class="column" transform="translate(598.4415283203125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Myriel</text>
+		</g>
+		<g class="column" transform="translate(607.792236328125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Napoleon</text>
+		</g>
+		<g class="column" transform="translate(617.1428833007812,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mlle.Baptistine</text>
+		</g>
+		<g class="column" transform="translate(626.4935302734375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mme.Magloire</text>
+		</g>
+		<g class="column" transform="translate(635.8441772460938,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">CountessdeLo</text>
+		</g>
+		<g class="column" transform="translate(645.19482421875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Geborand</text>
+		</g>
+		<g class="column" transform="translate(654.5454711914062,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Champtercier</text>
+		</g>
+		<g class="column" transform="translate(663.8961181640625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Cravatte</text>
+		</g>
+		<g class="column" transform="translate(673.2467651367188,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Count</text>
+		</g>
+		<g class="column" transform="translate(682.597412109375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">OldMan</text>
+		</g>
+		<g class="column" transform="translate(467.532470703125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Labarre</text>
+		</g>
+		<g class="column" transform="translate(476.88311767578125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Valjean</text>
+		</g>
+		<g class="column" transform="translate(374.0259704589844,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Marguerite</text>
+		</g>
+		<g class="column" transform="translate(486.2337646484375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Mme.deR</text>
+		</g>
+		<g class="column" transform="translate(495.58441162109375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Isabeau</text>
+		</g>
+		<g class="column" transform="translate(504.93505859375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Gervais</text>
+		</g>
+		<g class="column" transform="translate(383.3766174316406,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Tholomyes</text>
+		</g>
+		<g class="column" transform="translate(392.7272644042969,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Listolier</text>
+		</g>
+		<g class="column" transform="translate(402.0779113769531,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Fameuil</text>
+		</g>
+		<g class="column" transform="translate(411.4285583496094,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Blacheville</text>
+		</g>
+		<g class="column" transform="translate(420.77923583984375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Favourite</text>
+		</g>
+		<g class="column" transform="translate(430.1298828125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Dahlia</text>
+		</g>
+		<g class="column" transform="translate(439.48052978515625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Zephine</text>
+		</g>
+		<g class="column" transform="translate(448.8311767578125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Fantine</text>
+		</g>
+		<g class="column" transform="translate(271.1688232421875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mme.Thenardier</text>
+		</g>
+		<g class="column" transform="translate(280.51947021484375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Thenardier</text>
+		</g>
+		<g class="column" transform="translate(177.66233825683594,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Cosette</text>
+		</g>
+		<g class="column" transform="translate(289.8701171875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Javert</text>
+		</g>
+		<g class="column" transform="translate(691.9480590820312,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Fauchelevent</text>
+		</g>
+		<g class="column" transform="translate(514.2857055664062,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Bamatabois</text>
+		</g>
+		<g class="column" transform="translate(458.18182373046875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Perpetue</text>
+		</g>
+		<g class="column" transform="translate(523.6363525390625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Simplice</text>
+		</g>
+		<g class="column" transform="translate(532.9869995117188,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Scaufflaire</text>
+		</g>
+		<g class="column" transform="translate(542.337646484375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Woman1</text>
+		</g>
+		<g class="column" transform="translate(551.6882934570312,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Judge</text>
+		</g>
+		<g class="column" transform="translate(561.0389404296875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Champmathieu</text>
+		</g>
+		<g class="column" transform="translate(570.3895874023438,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Brevet</text>
+		</g>
+		<g class="column" transform="translate(579.740234375,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Chenildieu</text>
+		</g>
+		<g class="column" transform="translate(589.0908813476562,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Cochepaille</text>
+		</g>
+		<g class="column" transform="translate(299.22076416015625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Pontmercy</text>
+		</g>
+		<g class="column" transform="translate(168.3116912841797,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Boulatruelle</text>
+		</g>
+		<g class="column" transform="translate(308.5714416503906,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Eponine</text>
+		</g>
+		<g class="column" transform="translate(317.9220886230469,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Anzelma</text>
+		</g>
+		<g class="column" transform="translate(187.0129852294922,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Woman2</text>
+		</g>
+		<g class="column" transform="translate(701.2987060546875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">MotherInnocent</text>
+		</g>
+		<g class="column" transform="translate(710.6493530273438,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Gribier</text>
+		</g>
+		<g class="column" transform="translate(149.61038208007812,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Jondrette</text>
+		</g>
+		<g class="column" transform="translate(158.96104431152344,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mme.Burgon</text>
+		</g>
+		<g class="column" transform="translate(28.05194854736328,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Gavroche</text>
+		</g>
+		<g class="column" transform="translate(196.36363220214844,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Gillenormand</text>
+		</g>
+		<g class="column" transform="translate(205.7142791748047,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Magnon</text>
+		</g>
+		<g class="column" transform="translate(215.06494140625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Mlle.Gillenormand</text>
+		</g>
+		<g class="column" transform="translate(224.41558837890625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Mme.Pontmercy</text>
+		</g>
+		<g class="column" transform="translate(233.7662353515625,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Mlle.Vaubois</text>
+		</g>
+		<g class="column" transform="translate(243.11688232421875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Lt.Gillenormand</text>
+		</g>
+		<g class="column" transform="translate(37.40259552001953,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Marius</text>
+		</g>
+		<g class="column" transform="translate(252.467529296875,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">BaronessT</text>
+		</g>
+		<g class="column" transform="translate(46.75324630737305,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mabeuf</text>
+		</g>
+		<g class="column" transform="translate(56.10389709472656,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Enjolras</text>
+		</g>
+		<g class="column" transform="translate(65.45454406738281,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Combeferre</text>
+		</g>
+		<g class="column" transform="translate(74.80519104003906,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Prouvaire</text>
+		</g>
+		<g class="column" transform="translate(84.15584564208984,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Feuilly</text>
+		</g>
+		<g class="column" transform="translate(93.5064926147461,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Courfeyrac</text>
+		</g>
+		<g class="column" transform="translate(102.85713958740234,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Bahorel</text>
+		</g>
+		<g class="column" transform="translate(112.20779418945312,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Bossuet</text>
+		</g>
+		<g class="column" transform="translate(121.55844116210938,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Joly</text>
+		</g>
+		<g class="column" transform="translate(130.90908813476562,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff" ></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start" class="">Grantaire</text>
+		</g>
+		<g class="column" transform="translate(18.701297760009766,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">MotherPlutarch</text>
+		</g>
+		<g class="column" transform="translate(327.2727355957031,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Gueulemer</text>
+		</g>
+		<g class="column" transform="translate(336.6233825683594,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Babet</text>
+		</g>
+		<g class="column" transform="translate(345.9740295410156,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Claquesous</text>
+		</g>
+		<g class="column" transform="translate(355.3246765136719,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Montparnasse</text>
+		</g>
+		<g class="column" transform="translate(261.81817626953125,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Toussaint</text>
+		</g>
+		<g class="column" transform="translate(0,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Child1</text>
+		</g>
+		<g class="column" transform="translate(9.3506498336792,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Child2</text>
+		</g>
+		<g class="column" transform="translate(364.6753234863281,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Brujon</text>
+		</g>
+		<g class="column" transform="translate(140.25973510742188,0)rotate(-90)">
+			<line x1="-720" style="stroke: #fff"></line>
+			<text x="6" y="4.675324675324675" dy=".32em" text-anchor="start">Mme.Hucheloup</text>
+		</g>
+	</g>
+</svg>

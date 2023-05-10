@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" perserveAspectRatio="xMinYMid" viewBox="0 0 500 200" height="200" width="500">
+	<g transform="translate(0,20)">
+		<g transform="translate(0,160)" class="axis x-axis">
+			<g transform="translate(34,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">ANO</text>
+			</g>
+			<g transform="translate(82,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">ČSSD</text>
+			</g>
+			<g transform="translate(130,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">KSČM</text>
+			</g>
+			<g transform="translate(178,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">TOP 09</text>
+			</g>
+			<g transform="translate(226,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">KDU-ČSL</text>
+			</g>
+			<g transform="translate(274,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">ODS</text>
+			</g>
+			<g transform="translate(322,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">Piráti</text>
+			</g>
+			<g transform="translate(370,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">Úsvit</text>
+			</g>
+			<g transform="translate(418,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">Zelení</text>
+			</g>
+			<g transform="translate(466,0)" style="opacity: 1; fill-opacity: 0; stroke: #000000; stroke-width: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1; shape-rendering: crispEdges;"></line>
+				<text x="0" y="9" style="text-anchor: middle;" dy=".71em" font-family="sans-serif" font-size="11px" stroke="gray">Ostatní</text>
+			</g>
+			<path d="M0,6V0H500V6" class="domain" style="fill: none; fill-opacity: 0; stroke: black; stroke-width: 1;"></path>
+		</g>
+		<a xlink:href="http://pollster.eu">
+			<text y="8" x="400" font-size="0.66em" font-weight="bold" font-family="sans-serif" fill-opacity="1" fill="#abc">
+				<tspan fill="blue">pollster.eu</tspan>
+				<tspan fill="#abc">rope</tspan>
+			</text>
+		</a>
+		<rect fill-opacity="1" fill="#abc" title="31 %" height="89.7607421875" y="70.2392578125" width="36" x="16" class="bar ano"></rect>
+		<rect fill-opacity="1" fill="orange" title="28 %" height="79.74956597222224" y="80.25043402777776" width="36" x="64" class="bar cssd"></rect>
+		<rect fill-opacity="1" fill="red" title="12 %" height="27.2201605902778" y="132.7798394097222" width="36" x="112" class="bar kscm"></rect>
+		<rect fill-opacity="1" fill="#808" title="8 %" height="15.257161458333343" y="144.74283854166666" width="36" x="160" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="gold" title="6 %" height="11.127604166666686" y="148.87239583333331" width="36" x="208" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="blue" title="5 %" height="9.090711805555543" y="150.90928819444446" width="36" x="256" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="black" title="3 %" height="3.5494791666666856" y="156.45052083333331" width="36" x="304" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="pink" title="3 %" height="2.723524305555543" y="157.27647569444446" width="36" x="352" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="green" title="3 %" height="2.723524305555543" y="157.27647569444446" width="36" x="400" class="bar undefined"></rect>
+		<rect fill-opacity="1" fill="gray" title="3 %" height="3.5494791666666856" y="156.45052083333331" width="36" x="448" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="#abc" title="31 %" height="131.6331108940972" y="28.36688910590281" width="36" x="16" class="bar ano"></rect>
+		<rect fill-opacity="0.4" fill="orange" title="28 %" height="120.40516493055556" y="39.59483506944444" width="36" x="64" class="bar cssd"></rect>
+		<rect fill-opacity="0.4" fill="red" title="12 %" height="56.116631401909714" y="103.88336859809029" width="36" x="112" class="bar kscm"></rect>
+		<rect fill-opacity="0.4" fill="#808" title="8 %" height="39.0496826171875" y="120.9503173828125" width="36" x="160" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="gold" title="6 %" height="32.565700954861114" y="127.43429904513889" width="36" x="208" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="blue" title="5 %" height="28.938937717013886" y="131.06106228298611" width="36" x="256" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="black" title="3 %" height="18.899983723958343" y="141.10001627604166" width="36" x="304" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="pink" title="3 %" height="16.894870334201386" y="143.10512966579861" width="36" x="352" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="green" title="3 %" height="16.894870334201386" y="143.10512966579861" width="36" x="400" class="bar undefined"></rect>
+		<rect fill-opacity="0.4" fill="gray" title="3 %" height="18.899983723958343" y="141.10001627604166" width="36" x="448" class="bar undefined"></rect>
+		<line stroke="#abc" y2="49.77777777777778" x2="52" y1="49.77777777777778" x1="16"></line>
+		<line stroke="orange" y2="60.44444444444444" x2="100" y1="60.44444444444444" x1="64"></line>
+		<line stroke="red" y2="119.11111111111111" x2="148" y1="119.11111111111111" x1="112"></line>
+		<line stroke="#808" y2="133.33333333333334" x2="196" y1="133.33333333333334" x1="160"></line>
+		<line stroke="gold" y2="138.66666666666669" x2="244" y1="138.66666666666669" x1="208"></line>
+		<line stroke="blue" y2="142.22222222222223" x2="292" y1="142.22222222222223" x1="256"></line>
+		<line stroke="black" y2="149.33333333333334" x2="340" y1="149.33333333333334" x1="304"></line>
+		<line stroke="pink" y2="151.11111111111111" x2="388" y1="151.11111111111111" x1="352"></line>
+		<line stroke="green" y2="151.11111111111111" x2="436" y1="151.11111111111111" x1="400"></line>
+		<line stroke="gray" y2="149.33333333333334" x2="484" y1="149.33333333333334" x1="448"></line>
+		<line stroke-dasharray="10,10" stroke="darkred" y2="142.22222222222223" x2="500" y1="142.22222222222223" x1="0"></line>
+		<text font-family="sans-serif" y="12.36688910590281" x="34" text-anchor="middle">
+			<tspan font-weight="bold">31%</tspan>
+		</text>
+		<text font-family="sans-serif" y="23.594835069444443" x="82" text-anchor="middle">
+			<tspan font-weight="bold">28%</tspan>
+		</text>
+		<text font-family="sans-serif" y="87.88336859809029" x="130" text-anchor="middle">
+			<tspan font-weight="bold">11.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="104.9503173828125" x="178" text-anchor="middle">
+			<tspan font-weight="bold">7.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="111.43429904513889" x="226" text-anchor="middle">
+			<tspan font-weight="bold">6%</tspan>
+		</text>
+		<text font-family="sans-serif" y="115.06106228298611" x="274" text-anchor="middle">
+			<tspan font-weight="bold">5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="125.10001627604166" x="322" text-anchor="middle">
+			<tspan font-weight="bold">3%</tspan>
+		</text>
+		<text font-family="sans-serif" y="127.10512966579861" x="370" text-anchor="middle">
+			<tspan font-weight="bold">2.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="127.10512966579861" x="418" text-anchor="middle">
+			<tspan font-weight="bold">2.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="125.10001627604166" x="466" text-anchor="middle">
+			<tspan font-weight="bold">3%</tspan>
+		</text>
+		<text font-family="sans-serif" y="23.03355577256948" x="34" text-anchor="middle">
+			<tspan font-size="0.66em">±6%</tspan>
+		</text>
+		<text font-family="sans-serif" y="34.26150173611111" x="82" text-anchor="middle">
+			<tspan font-size="0.66em">±6%</tspan>
+		</text>
+		<text font-family="sans-serif" y="98.55003526475696" x="130" text-anchor="middle">
+			<tspan font-size="0.66em">±4.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="115.61698404947917" x="178" text-anchor="middle">
+			<tspan font-size="0.66em">±3.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="122.10096571180556" x="226" text-anchor="middle">
+			<tspan font-size="0.66em">±3%</tspan>
+		</text>
+		<text font-family="sans-serif" y="125.72772894965279" x="274" text-anchor="middle">
+			<tspan font-size="0.66em">±3%</tspan>
+		</text>
+		<text font-family="sans-serif" y="135.76668294270831" x="322" text-anchor="middle">
+			<tspan font-size="0.66em">±2.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="137.77179633246527" x="370" text-anchor="middle">
+			<tspan font-size="0.66em">±2.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="137.77179633246527" x="418" text-anchor="middle">
+			<tspan font-size="0.66em">±2.5%</tspan>
+		</text>
+		<text font-family="sans-serif" y="135.76668294270831" x="466" text-anchor="middle">
+			<tspan font-size="0.66em">±2.5%</tspan>
+		</text>
+	</g>
+</svg>

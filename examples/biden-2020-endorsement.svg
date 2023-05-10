@@ -1,0 +1,247 @@
+<svg width="372" height="235">
+	<g transform="translate(-5, 20)">
+		<g class="state" transform="translate(59.519999999999996, 41.64)">
+			<rect x="0" y="0" width="7.823999999999999" height="7.823999999999999" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="3.9119999999999995" y="3.9119999999999995" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">AK</text>
+		</g>
+		<g class="state" transform="translate(27.24, 199.2)">
+			<rect x="0" y="0" width="8.448" height="8.448" style="fill-opacity: 0.428571; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.224" y="4.224" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MP</text>
+		</g>
+		<g class="state" transform="translate(120.89999999999999, 55.440000000000005)">
+			<rect x="0" y="0" width="8.448" height="8.448" style="fill-opacity: 0.285714; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.224" y="4.224" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">ND</text>
+		</g>
+		<g class="state" transform="translate(119.75999999999999, 84.36)">
+			<rect x="0" y="0" width="9.03" height="9.03" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.515" y="4.515" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">WY</text>
+		</g>
+		<g class="state" transform="translate(104.46, 96.24)">
+			<rect x="0" y="0" width="9.03" height="9.03" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.515" y="4.515" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">ID</text>
+		</g>
+		<g class="state" transform="translate(190.79999999999998, 130.2)">
+			<rect x="0" y="0" width="9.03" height="9.03" style="fill-opacity: 0.222222; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.515" y="4.515" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">AR</text>
+		</g>
+		<g class="state" transform="translate(166.61999999999998, 98.1)">
+			<rect x="0" y="0" width="9.03" height="9.03" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.515" y="4.515" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NE</text>
+		</g>
+		<g class="state" transform="translate(231.53999999999996, 134.28)">
+			<rect x="0" y="0" width="9.576" height="9.576" style="fill-opacity: 0.636364; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="4.788" y="4.788" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MS</text>
+		</g>
+		<g class="state" transform="translate(184.61999999999998, 112.5)">
+			<rect x="0" y="0" width="10.589999999999998" height="10.589999999999998" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="5.294999999999999" y="5.294999999999999" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">OK</text>
+		</g>
+		<g class="state" transform="translate(118.8, 96.54)">
+			<rect x="0" y="0" width="10.589999999999998" height="10.589999999999998" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="5.294999999999999" y="5.294999999999999" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">UT</text>
+		</g>
+		<g class="state" transform="translate(118.5, 69.17999999999999)">
+			<rect x="0" y="0" width="11.514000000000001" height="11.514000000000001" style="fill-opacity: 0.384615; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="5.757000000000001" y="5.757000000000001" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">SD</text>
+		</g>
+		<g class="state" transform="translate(165.78, 110.88000000000001)">
+			<rect x="0" y="0" width="11.514000000000001" height="11.514000000000001" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="5.757000000000001" y="5.757000000000001" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">KS</text>
+		</g>
+		<g class="state" transform="translate(39.779999999999994, 199.2)">
+			<rect x="0" y="0" width="11.946" height="11.946" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="5.973" y="5.973" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">AS</text>
+		</g>
+		<g class="state" transform="translate(229.86, 79.08)">
+			<rect x="0" y="0" width="12.774" height="12.774" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.387" y="6.387" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">WV</text>
+		</g>
+		<g class="state" transform="translate(11.639999999999999, 199.2)">
+			<rect x="0" y="0" width="12.774" height="12.774" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.387" y="6.387" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">GU</text>
+		</g>
+		<g class="state" transform="translate(347.7, 195.48)">
+			<rect x="0" y="0" width="13.164" height="13.164" style="fill-opacity: 0.157895; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.582" y="6.582" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">VI</text>
+		</g>
+		<g class="state" transform="translate(243.96, 135.72)">
+			<rect x="0" y="0" width="13.547999999999998" height="13.547999999999998" style="fill-opacity: 0.473684; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.773999999999999" y="6.773999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">AL</text>
+		</g>
+		<g class="state" transform="translate(213.36, 79.38000000000001)">
+			<rect x="0" y="0" width="13.547999999999998" height="13.547999999999998" style="fill-opacity: 0.217391; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.773999999999999" y="6.773999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">IN</text>
+		</g>
+		<g class="state" transform="translate(330.47999999999996, 195.48)">
+			<rect x="0" y="0" width="13.92" height="13.92" style="fill-opacity: 0.0454545; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="6.96" y="6.96" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">PR</text>
+		</g>
+		<g class="state" transform="translate(192.06, 141.72)">
+			<rect x="0" y="0" width="14.28" height="14.28" style="fill-opacity: 0.227273; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="7.14" y="7.14" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">LA</text>
+		</g>
+		<g class="state" transform="translate(224.28, 96.54)">
+			<rect x="0" y="0" width="14.634" height="14.634" style="fill-opacity: 0.125; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="7.317" y="7.317" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">KY</text>
+		</g>
+		<g class="state" transform="translate(161.4, 78.6)">
+			<rect x="0" y="0" width="15.642" height="15.642" style="fill-opacity: 0.541667; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="7.821" y="7.821" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">IA</text>
+		</g>
+		<g class="state" transform="translate(329.76, 1.2)">
+			<rect x="0" y="0" width="15.642" height="15.642" style="fill-opacity: 0.0740741; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="7.821" y="7.821" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">ME</text>
+		</g>
+		<g class="state" transform="translate(100.55999999999999, 77.7)">
+			<rect x="0" y="0" width="15.642" height="15.642" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="7.821" y="7.821" style="display: none; font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MT</text>
+		</g>
+		<g class="state" transform="translate(329.34, 18.84)">
+			<rect x="0" y="0" width="16.278" height="16.278" style="fill-opacity: 0.576923; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="8.139" y="8.139" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NH</text>
+		</g>
+		<g class="state" transform="translate(271.73999999999995, 142.85999999999999)">
+			<rect x="0" y="0" width="16.59" height="16.59" style="fill-opacity: 0.428571; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="8.295" y="8.295" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">SC</text>
+		</g>
+		<g class="state" transform="translate(202.68, 112.02)">
+			<rect x="0" y="0" width="17.195999999999998" height="17.195999999999998" style="fill-opacity: 0.25; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="8.597999999999999" y="8.597999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MO</text>
+		</g>
+		<g class="state" transform="translate(223.79999999999998, 114.84)">
+			<rect x="0" y="0" width="17.778" height="17.778" style="fill-opacity: 0.1875; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="8.889" y="8.889" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">TN</text>
+		</g>
+		<g class="state" transform="translate(308.87999999999994, 2.16)">
+			<rect x="0" y="0" width="18.06" height="18.06" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.03" y="9.03" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">VT</text>
+		</g>
+		<g class="state" transform="translate(274.5, 98.39999999999999)">
+			<rect x="0" y="0" width="18.618" height="18.618" style="fill-opacity: 0.3125; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.309" y="9.309" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">DC</text>
+		</g>
+		<g class="state" transform="translate(111.84, 135.78)">
+			<rect x="0" y="0" width="19.421999999999997" height="19.421999999999997" style="fill-opacity: 0.452381; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.710999999999999" y="9.710999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">AZ</text>
+		</g>
+		<g class="state" transform="translate(166.26000000000002, 54.54)">
+			<rect x="0" y="0" width="19.421999999999997" height="19.421999999999997" style="fill-opacity: 0.170213; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.710999999999999" y="9.710999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">WI</text>
+		</g>
+		<g class="state" transform="translate(291.12, 143.1)">
+			<rect x="0" y="0" width="19.679999999999996" height="19.679999999999996" style="fill-opacity: 0.45; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.839999999999998" y="9.839999999999998" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">GA</text>
+		</g>
+		<g class="state" transform="translate(36.779999999999994, 161.93999999999997)">
+			<rect x="0" y="0" width="19.938" height="19.938" style="fill-opacity: 0.219512; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="9.969" y="9.969" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">HI</text>
+		</g>
+		<g class="state" transform="translate(330.17999999999995, 37.26)">
+			<rect x="0" y="0" width="20.694" height="20.694" style="fill-opacity: 0.309524; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="10.347" y="10.347" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">RI</text>
+		</g>
+		<g class="state" transform="translate(273.18, 118.85999999999999)">
+			<rect x="0" y="0" width="21.42" height="21.42" style="fill-opacity: 0.326087; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="10.71" y="10.71" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NC</text>
+		</g>
+		<g class="state" transform="translate(275.16, 75.54)">
+			<rect x="0" y="0" width="21.42" height="21.42" style="fill-opacity: 0.531915; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="10.71" y="10.71" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">DE</text>
+		</g>
+		<g class="state" transform="translate(218.4, 54.24)">
+			<rect x="0" y="0" width="21.654" height="21.654" style="fill-opacity: 0.693878; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="10.827" y="10.827" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">OH</text>
+		</g>
+		<g class="state" transform="translate(110.28, 111.36)">
+			<rect x="0" y="0" width="22.349999999999998" height="22.349999999999998" style="fill-opacity: 0.224138; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="11.174999999999999" y="11.174999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NV</text>
+		</g>
+		<g class="state" transform="translate(74.39999999999999, 82.08)">
+			<rect x="0" y="0" width="22.578" height="22.578" style="fill-opacity: 0.06; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="11.289" y="11.289" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">OR</text>
+		</g>
+		<g class="state" transform="translate(137.82, 99.18)">
+			<rect x="0" y="0" width="22.8" height="22.8" style="fill-opacity: 0.178571; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="11.4" y="11.4" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">CO</text>
+		</g>
+		<g class="state" transform="translate(134.34, 126.18)">
+			<rect x="0" y="0" width="23.892" height="23.892" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="11.946" y="11.946" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NM</text>
+		</g>
+		<g class="state" transform="translate(273.06, 49.74)">
+			<rect x="0" y="0" width="24.732" height="24.732" style="fill-opacity: 0.5; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="12.366" y="12.366" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NJ</text>
+		</g>
+		<g class="state" transform="translate(134.4, 71.04)">
+			<rect x="0" y="0" width="25.344" height="25.344" style="fill-opacity: 0.214286; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="12.672" y="12.672" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MN</text>
+		</g>
+		<g class="state" transform="translate(299.88, 53.52)">
+			<rect x="0" y="0" width="25.344" height="25.344" style="fill-opacity: 0.28125; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="12.672" y="12.672" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">CT</text>
+		</g>
+		<g class="state" transform="translate(243.89999999999998, 107.64)">
+			<rect x="0" y="0" width="25.541999999999998" height="25.541999999999998" style="fill-opacity: 0.567164; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="12.770999999999999" y="12.770999999999999" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">VA</text>
+		</g>
+		<g class="state" transform="translate(70.74, 53.699999999999996)">
+			<rect x="0" y="0" width="25.938" height="25.938" style="fill-opacity: 0.0735294; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="12.969" y="12.969" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">WA</text>
+		</g>
+		<g class="state" transform="translate(289.2, 165.18)">
+			<rect x="0" y="0" width="26.328" height="26.328" style="fill-opacity: 0.685714; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="13.164" y="13.164" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">FL</text>
+		</g>
+		<g class="state" transform="translate(190.14, 49.5)">
+			<rect x="0" y="0" width="26.328" height="26.328" style="fill-opacity: 0.351351; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="13.164" y="13.164" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MI</text>
+		</g>
+		<g class="state" transform="translate(160.43999999999997, 126.6)">
+			<rect x="0" y="0" width="26.904" height="26.904" style="fill-opacity: 0.444444; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="13.452" y="13.452" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">TX</text>
+		</g>
+		<g class="state" transform="translate(246.36, 78.48)">
+			<rect x="0" y="0" width="27.468" height="27.468" style="fill-opacity: 0.240506; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="13.734" y="13.734" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MD</text>
+		</g>
+		<g class="state" transform="translate(243.06, 48.84)">
+			<rect x="0" y="0" width="27.654" height="27.654" style="fill-opacity: 0.526316; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="13.827" y="13.827" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">PA</text>
+		</g>
+		<g class="state" transform="translate(298.8, 22.62)">
+			<rect x="0" y="0" width="28.56" height="28.56" style="fill-opacity: 0.183908; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="14.28" y="14.28" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">MA</text>
+		</g>
+		<g class="state" transform="translate(180.36, 78.3)">
+			<rect x="0" y="0" width="31.121999999999996" height="31.121999999999996" style="fill-opacity: 0.632653; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="15.560999999999998" y="15.560999999999998" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">IL</text>
+		</g>
+		<g class="state" transform="translate(261.06, 10.799999999999999)">
+			<rect x="0" y="0" width="36.263999999999996" height="36.263999999999996" style="fill-opacity: 0.304636; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="18.131999999999998" y="18.131999999999998" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">NY</text>
+		</g>
+		<g class="state" transform="translate(59.519999999999996, 109.02)">
+			<rect x="0" y="0" width="48" height="48" style="fill-opacity: 0.370968; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+			<text x="24" y="24" style="font: 400 8px/1.3 AtlasGrotesk,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none;">CA</text>
+		</g> 
+	</g>
+	<g class="key" transform="translate(2, 24)">
+		<text class="head" x="0" y="-15" style="font-family: AtlasGrotesk, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-weight: 700">Candidate’s points as share of state’s total points</text>
+		<rect class="pct" x="0" y="10" width="20" height="8" style="fill-opacity: 0; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+		<rect class="pct" x="20" y="10" width="20" height="8" style="fill-opacity: 0.25; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+		<rect class="pct" x="40" y="10" width="20" height="8" style="fill-opacity: 0.5; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+		<rect class="pct" x="60" y="10" width="20" height="8" style="fill-opacity: 0.75; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+		<rect class="pct" x="80" y="10" width="20" height="8" style="fill-opacity: 1; fill: #008fd5; stroke-width: 1; stroke: #cdcdcd; cursor: crosshair;"></rect>
+		<line x1="0" y1="3" x2="0" y2="18" style="display: none; stroke-width: 1px; stroke: #999"></line>
+		<line x1="20" y1="3" x2="20" y2="18" style="stroke-width: 1px; stroke: #999"></line>
+		<line x1="40" y1="3" x2="40" y2="18" style="stroke-width: 1px; stroke: #999"></line>
+		<line x1="60" y1="3" x2="60" y2="18" style="stroke-width: 1px; stroke: #999"></line>
+		<line x1="80" y1="3" x2="80" y2="18" style="stroke-width: 1px; stroke: #999"></line>
+		<text class="pct" x="20" y="0" style="text-anchor: middle; font: 400 9px/1 &quot;DecimaMonoPro&quot;, monospace">0%</text>
+		<text class="pct" x="40" y="0" style="text-anchor: middle; font: 400 9px/1 &quot;DecimaMonoPro&quot;, monospace">25</text>
+		<text class="pct" x="60" y="0" style="text-anchor: middle; font: 400 9px/1 &quot;DecimaMonoPro&quot;, monospace">50</text>
+		<text class="pct" x="80" y="0" style="text-anchor: middle; font: 400 9px/1 &quot;DecimaMonoPro&quot;, monospace">75</text>
+		<text class="pct" x="100" y="0" style="text-anchor: middle; font: 400 9px/1 &quot;DecimaMonoPro&quot;, monospace"></text>
+		<rect class="overall" x="20" y="10" width="80" height="8" style="fill: none; stroke: #999"></rect>
+	</g>
+</svg>

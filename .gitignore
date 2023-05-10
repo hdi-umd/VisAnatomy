@@ -1,0 +1,26 @@
+# compiled output
+dist/
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# System Files
+.DS_Store
+Thumbs.db
+npm-debug.log
+
+# configuration Files
+.eslintrc.json
+*.pyc
+newSVGs
