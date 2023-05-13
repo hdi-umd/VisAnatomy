@@ -37,6 +37,8 @@
         padding: 3px 40px 3px 3px;
         position: relative;
         width: auto;
+        min-width: 200px;
+        margin-right: 20px;
       }
 
       div.upload:hover {
@@ -77,10 +79,10 @@
     </style>
   </head>
   <body>
-    <div id="uploadData">
-      <h2>Experimental Feature: Upload Your Own SVG</h2>
+    <div id="uploadData" style="padding:0 30px 0 30px">
+      <h2>Experimental Feature: Import and Annotate an SVG Chart</h2>
       <h3>
-        Upload an SVG visualization and annotate. If some style information is
+        Import an SVG chart and annotate. If some style information is
         contained in the CSS file associated with the webpage in which the SVG
         is embedded in, try to add that information to the SVG file.
       </h3>
@@ -94,7 +96,7 @@
         <input
           type="submit"
           class="uploadButton"
-          value="Upload file"
+          value="Import"
           onClick="newSVG()"
         />
       </form>
