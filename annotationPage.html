@@ -475,7 +475,7 @@
                 // in cleanup.js, flattening the svg elements into json format grouped by element types like rectangle, texts, lines, etc.; we may want to modify it later
                 let jsonArr = flattenSVG(rawSVG); 
 
-                // in preprocess-interaction.js, atttaaching drag and drop event listeners to the svg text elements
+                // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
                 enableDragDrop(jsonArr.texts);
 
                 // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
