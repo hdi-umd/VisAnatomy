@@ -67,6 +67,19 @@
         padding: 0 20px;
         box-sizing: content-box;
       }
+      .loadSavesButton {
+        background-color: #425f9c;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        height: 10px;
+        margin-right: 15px;
+        width: auto;
+        padding: 0 20px;
+        box-sizing: content-box;
+      }
 
       .fileName {
         font-family: Arial;
@@ -100,6 +113,13 @@
           onClick="newSVG()"
         />
       </form>
+  </form method = "POST" enctype = "multipart/form-data">
+  <div id = "loadSaves"  style="padding:2 30px 2 30px">
+    <input type = "file" id = "fileInputControl" />
+    <input type = "submit" value = "Upload file" />
+    <!-- upload button stll doesn't work-->
+  </div>
+  </form>
     </div>
 
     <script>
