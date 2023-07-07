@@ -491,6 +491,20 @@
             })
         }
 
+        function saveFile() {
+            const jsonString = JSON.stringify(annotations);
+
+            const blob = new Blob([jsonString], { type: 'text/plain' });
+
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = "annotations.json";
+            link.click();
+
+            URL.revokeObjectURL(link.href);
+        }
+
+
         document.addEventListener('keyup', function(e){
             if (e.code == "Escape")
                 deactivateAreaSelect();
