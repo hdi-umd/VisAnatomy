@@ -361,6 +361,19 @@
             display: inline-block;
             vertical-align: middle;
         }
+        #saveButton {
+            position: absolute;
+            bottom: 20px;
+            right: 100px;
+            width: 100px;
+            height: 30px;
+            background: #eee;
+            border: #ccc 1px solid;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            line-height: 10px;
+      }
     </style>
 </head>
 <body ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -412,7 +425,8 @@
                     </div>
                     <div class="axisLabels" id="legendLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                 </div>
-            </div>
+            </div>            
+            <button id = "saveButton" onclick="saveFile()" style="position:absolute;bottom:10px;right:10px;">Save</button>
         </div>
         <div id="container">
             <div id="rbox1" class="rbox1" style="position:absolute; top:10px; left:10px; display: block; border:#ccc 0px solid;">
@@ -489,6 +503,20 @@
                 enableAreaSelection();
             })
         }
+
+        function saveFile() {
+            const jsonString = JSON.stringify(annotations);
+
+            const blob = new Blob([jsonString], { type: 'text/plain' });
+
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = "annotations.json";
+            link.click();
+
+            URL.revokeObjectURL(link.href);
+        }
+
 
         document.addEventListener('keyup', function(e){
             if (e.code == "Escape")

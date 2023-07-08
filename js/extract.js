@@ -3,6 +3,37 @@ const stackMinGap = -1, stackMaxGap = 1, stackAllignmentDiff = 0.15;
 var legend, xAxis, yAxis, xGridlines, yGridlines;
 var rects4Grouping;
 
+// global json object to keep track of annotation results
+var annotations = {
+    legend: null,
+    xAxis: null,
+    yAxis: null,
+    xGridlines: null,
+    yGridlines: null,
+};
+
+function saveFile() {
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "/annotations");
+    xhr.overrideMimeType("text/plain");
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            console.log(xhr.responseText);
+            alert("Saved successfully");
+        }
+        else{
+            console.error("Error: " + xhr.status);
+            alert("Error check console");
+        }
+    };
+    let data = {}
+    data["annotations"] = annotations;
+    
+    xhr.send(JSON.stringify(data));
+}
+
 function extract(jsonArr, chartName) {
     let nodes = jsonArr["allNodes"];
     let rects = jsonArr["rects"];
@@ -34,6 +65,11 @@ function extract(jsonArr, chartName) {
     findGridlines(rects, lines);
     console.log("xGridlines", xGridlines);
     console.log("yGridlines", yGridlines);
+
+    // updating global object gridlines properties
+    annotations['xGridlines'] = xGridlines;
+    annotations['yGridlines'] = yGridlines;
+
     // Legend
     //let colorMapping = {}
     //let legendArea = {"elements": [], "type": null};

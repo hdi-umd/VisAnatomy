@@ -92,6 +92,16 @@ function displayAxis(axis) {
             }
         }
     }
+    
+    // updating annotations object
+    if (axis.type == 'x') {
+        annotations['xAxis'] = axis;
+    } else if (axis.type == 'y') {
+        annotations['yAxis'] = axis;
+    }
+
+    console.log('annotations', annotations);
+    
 }
 
 function displayAxisLabel(label, divID) {
@@ -170,6 +180,11 @@ function displayLegend(legend) {
                 });
         }
     }
+
+    // updating annotations object
+    annotations['legend'] = legend;
+
+    console.log('annotations', annotations);
 }
 
 /**
@@ -287,4 +302,5 @@ function getBoundingBox(node) {
             return {left: node.x-node.radius, top: node.y-node.radius, right: node.x+node.radius, bottom: node.y+node.radius}
     }
 }
+
 
