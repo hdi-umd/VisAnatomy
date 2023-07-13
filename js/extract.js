@@ -12,28 +12,6 @@ var annotations = {
     yGridlines: null,
 };
 
-function saveFile() {
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", "/annotations");
-    xhr.overrideMimeType("text/plain");
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4) {
-            console.log(xhr.responseText);
-            alert("Saved successfully");
-        }
-        else{
-            console.error("Error: " + xhr.status);
-            alert("Error check console");
-        }
-    };
-    let data = {}
-    data["annotations"] = annotations;
-    
-    xhr.send(JSON.stringify(data));
-}
-
 function extract(jsonArr, chartName) {
     let nodes = jsonArr["allNodes"];
     let rects = jsonArr["rects"];
