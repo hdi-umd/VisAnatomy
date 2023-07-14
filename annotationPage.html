@@ -509,21 +509,18 @@
           xhr.overrideMimeType("text/plain");
           xhr.setRequestHeader("Accept", "application/json");
           xhr.setRequestHeader("Content-Type", "application/json");
-          console.log(data["savefile"]);
+ 
           xhr.onreadystatechange = function () {
               if (xhr.readyState === 4) {
                   console.log(xhr.responseText);
-                  alert("Saved successfully");
               }
               else{
-                  console.error("Error: " + xhr.status);
-                 
-                  alert("Error check console");
+                console.error("Error: " + xhr.status);
               }
           };
           let data = {}
-          data["annotate"] = annotations;
-          
+          data["chart"] = demoName;
+          console.log(data["chart"]);
           xhr.send(JSON.stringify(data));
       }
       

@@ -15,7 +15,7 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
         content_length = int(self.headers['Content-Length'])
         body = self.rfile.read(content_length)
         data = json.loads(body)
-        with open("annotations/"+data["savefile"]+".json", "w") as outfile: #creates file then dumps data inside
+        with open("annotations/"+data["chart"]+".json", "w") as outfile: #creates file then dumps data inside
             json.dump(data, outfile)
         self.send_response(200) #copy
         self.send_header('Content-Type', 'text/plain')
