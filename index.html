@@ -114,6 +114,7 @@
         fileReader.readAsText(uploadedSVG);
         fileReader.onload = function () {
           sessionStorage.setItem("svg", fileReader.result);
+          sessionStorage.setItem("fileName", uploadedSVG.name);
           //   localStorage["svg"] = fileReader.result;
         };
         // url = 'http://localhost:8080/demoPage.html?filename=' + b;

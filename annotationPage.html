@@ -449,6 +449,7 @@
         var atlasSceneGraph, atlasRenderer = atlas.renderer("svg", "atlasCanvas"), atlasTbl;
 
         function refresh() {
+            console.log(sessionStorage.getItem('fileName'))
             if (sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
