@@ -449,7 +449,7 @@
         var atlasSceneGraph, atlasRenderer = atlas.renderer("svg", "atlasCanvas"), atlasTbl;
 
         function refresh() {
-            if (sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
+            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 d3.select("body").style("overflow-y", "hidden");
@@ -509,7 +509,7 @@
           xhr.overrideMimeType("text/plain");
           xhr.setRequestHeader("Accept", "application/json");
           xhr.setRequestHeader("Content-Type", "application/json");
-          console.log(data["savefile"]);
+        //   console.log(data["savefile"]);
           xhr.onreadystatechange = function () {
               if (xhr.readyState === 4) {
                   console.log(xhr.responseText);
@@ -521,10 +521,10 @@
                   alert("Error check console");
               }
           };
-          let data = {}
-          data["annotate"] = annotations;
+        //   let data = {}
+        //   data["annotate"] = annotations;
           
-          xhr.send(JSON.stringify(data));
+          xhr.send(JSON.stringify(annotations));
       }
       
         document.addEventListener('keyup', function(e){
