@@ -449,7 +449,7 @@
         var atlasSceneGraph, atlasRenderer = atlas.renderer("svg", "atlasCanvas"), atlasTbl;
 
         function refresh() {
-            if (sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
+            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 d3.select("body").style("overflow-y", "hidden");
