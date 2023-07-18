@@ -1,4 +1,4 @@
-# Mystique
+# VisCorpus
 
 ## Launch the UI
-python -m http.server 5200
+python server.py
