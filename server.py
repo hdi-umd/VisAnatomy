@@ -6,7 +6,7 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         print(self.path)
         if (self.path == "/"):#root path
-            self.path = "annotationPage.html" 
+            self.path = "index.html" 
         elif (self.path.find("annotations") > 0):
             print("getting " + self.path)
         return SimpleHTTPRequestHandler.do_GET(self)

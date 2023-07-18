@@ -520,7 +520,8 @@
               }
           };
           let data = {}
-          data["chart"] = demoName;
+          data["chart"] = sessionStorage.getItem("fileName");
+          data["annotation"] = annotations;
           console.log(data["chart"]);
           xhr.send(JSON.stringify(data));
       }
