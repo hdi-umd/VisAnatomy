@@ -513,12 +513,16 @@
  
           xhr.onreadystatechange = function () {
               if (xhr.readyState === 4) {
+                if(xhr.status >= 200 && xhr.status < 300){
+                    alert("Save successful");
                   console.log(xhr.responseText);
-              }
+              } 
               else{
                 console.error("Error: " + xhr.status);
-              }
-          };
+                alert("Error: " + xhr.status);
+            }
+          }
+      };
           let data = {}
           data["chart"] = sessionStorage.getItem("fileName");
           data["annotation"] = annotations;
