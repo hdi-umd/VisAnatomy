@@ -426,7 +426,7 @@
                     <div class="axisLabels" id="legendLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                 </div>
             </div>            
-            <button id = "saveButton" onclick="saveFile()" style="position:absolute;bottom:10px;right:10px;">Save</button>
+            <button id = "saveButton" onclick="post()" style="position:absolute;bottom:10px;right:10px;">Save</button>
         </div>
         <div id="container">
             <div id="rbox1" class="rbox1" style="position:absolute; top:10px; left:10px; display: block; border:#ccc 0px solid;">
@@ -449,8 +449,9 @@
         var atlasSceneGraph, atlasRenderer = atlas.renderer("svg", "atlasCanvas"), atlasTbl;
 
         function refresh() {
-            console.log(sessionStorage.getItem('fileName'))
-            if (sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
+            console.log(sessionStorage.getItem("fileName"))
+            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");
+
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 d3.select("body").style("overflow-y", "hidden");
@@ -505,7 +506,7 @@
             })
         }
 
-        function saveFile() {
+        function saveFile2() {
             const jsonString = JSON.stringify(annotations);
 
             const blob = new Blob([jsonString], { type: 'text/plain' });
@@ -517,8 +518,32 @@
 
             URL.revokeObjectURL(link.href);
         }
-
-
+        function post() {
+          let xhr = new XMLHttpRequest();
+          xhr.open("POST", "/");
+          xhr.overrideMimeType("text/plain");
+          xhr.setRequestHeader("Accept", "application/json");
+          xhr.setRequestHeader("Content-Type", "application/json");
+ 
+          xhr.onreadystatechange = function () {
+              if (xhr.readyState === 4) {
+                if(xhr.status >= 200 && xhr.status < 300){
+                    alert("Save successful");
+                  console.log(xhr.responseText);
+              } 
+              else{
+                console.error("Error: " + xhr.status);
+                alert("Error: " + xhr.status);
+            }
+          }
+      };
+          let data = {}
+          data["chart"] = sessionStorage.getItem("fileName");
+          data["annotation"] = annotations;
+          console.log(data["chart"]);
+          xhr.send(JSON.stringify(data));
+      }
+      
         document.addEventListener('keyup', function(e){
             if (e.code == "Escape")
                 deactivateAreaSelect();
