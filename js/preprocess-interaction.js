@@ -208,23 +208,23 @@ function allowDrop(ev) {
     ev.preventDefault();
 }
 
-function drag(ev) {
+function drag(ev) { // defined on the text elements in the label display boxes
     ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev) {
+function drop(ev) { // define the drop event handler on the axes and legend display boxes
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     draggedFromNode = document.getElementById(data); // dragged element
-    draggedFromID = draggedFromNode.parentNode.id; // id of parent of dragged element
-    if (ev.currentTarget.id.startsWith("xLabels") || ev.currentTarget.id.startsWith("yLabels")) { // when the element is dropped in the detected region
-        if (draggedFromID.startsWith("xLabels") || draggedFromID.startsWith("yLabels")){ // when the element is also from the detected region
+    draggedFromID = draggedFromNode.parentNode.id; // id of the div element containing the dragged element
+    if (ev.currentTarget.id.startsWith("xLabels") || ev.currentTarget.id.startsWith("yLabels")) { // check if the target is an axis display box
+        if (draggedFromID.startsWith("xLabels") || draggedFromID.startsWith("yLabels")){ // check if the dragged element is also from an axis display box
             undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
             moveAxisLabel(draggedFromID, ev.currentTarget.id, d3.select("#"+data).datum());
             buttonCheck(ev.currentTarget.id, d3.select("#"+data).datum());
             displayAxis(xAxis);
             displayAxis(yAxis);
-            ev.stopImmediatePropagation();
+            ev.stopImmediatePropagation(); // stop the event from bubbling up to the SVG element
         } 
     } else {
         // when an label from detected region are dropped outside delete it
@@ -239,6 +239,7 @@ function drop(ev) {
         }
         ev.stopImmediatePropagation();
     }
+    // seems we didn't consider the case when texts are dragged and dropped from and to the legend display box and a axis display box respectively
     d3.select(".tooltip").remove();
 }
 
@@ -346,41 +347,43 @@ function enableDragDrop(texts) {
     let svg = d3.select("#rbox1");
     let dragHandler = d3.drag()
         .on("start", function (event) {
-            if (areaSelection) return;
-            let current = d3.select(this);
-            let thisText = texts.filter(t => t['id']==current.attr("id"))[0];
+            if (areaSelection) return; // if area selection is enabled, disable drag and drop
+            let current = d3.select(this); // get the svg text element that is being dragged
+            let thisText = texts.filter(t => t['id']==current.attr("id"))[0]; // get the text object details obtained from  that is being dragged
             d3.select("body").append("div")
                 .attr("class", "div4text")
                 .attr("style", "display: block; position:absolute; top: " + (event.sourceEvent.pageY-12.5) +"px; left: " + (event.sourceEvent.pageX-50) +"px; height: " + 25 + "px; width: " + 100 + "px")
-                .html(thisText['content']);                
+                .html(thisText['content']); // show the text content within a rectangle box when dragging     
         })
-        .on("drag", function (event) {
+        .on("drag", function (event) {  // not much difference from the start event, just to make sure the text content is always shown when dragging
             if (areaSelection) return;
             let current = d3.select(this);
             let thisText = texts.filter(t => t['id']==current.attr("id"))[0];
             d3.select(".div4text")
                 .attr("style", "display: block; position:absolute; top: " + (event.sourceEvent.pageY-12.5) +"px; left: " + (event.sourceEvent.pageX-50) +"px; height: " + 25 + "px; width: " + 100 + "px");
         })
-        .on("end", function (event) {
+        .on("end", function (event) {  // the end event is triggered when the dragging is finished, and is the most important&complex one
             if (areaSelection) return;
-            let current = d3.select(this);
+            let current = d3.select(this); // get the svg text element that is being dragged and dropped
             let TargetID;
-            let thisText = texts.filter(t => t['id']==current.attr("id"))[0];
-            d3.select(".div4text").remove();
-            let elements = document.elementsFromPoint(event.sourceEvent.pageX, event.sourceEvent.pageY);
+            let thisText = texts.filter(t => t['id']==current.attr("id"))[0]; // get the text object details obtained from  that is being dragged and dropped
+            d3.select(".div4text").remove(); // remove the text content box
+            let elements = document.elementsFromPoint(event.sourceEvent.pageX, event.sourceEvent.pageY); // get the elements that are under the mouse cursor (i.e., the dropped point)
             for (let e of elements) {
                 if (e.tagName !== "DIV") continue;
-                if (e.id == "legendLabels") {
-                    undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
-                    addLegendLabel(thisText);
-                    displayLegend(legend);
-                } else if (e.id.startsWith("xLabels") || e.id.startsWith("yLabels")) {
+                if (e.id == "legendLabels") { // if the dropped point is within the legend display box
+                    undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)}); // save the current status for undo operations
+                    // btnCheck above is disabled so no need to worry about it for now
+                    addLegendLabel(thisText); // add the text object to the legend object, see the functin above between lines 296 and 301
+                    displayLegend(legend); // update the legend display box, see in js/display.js
+                } else if (e.id.startsWith("xLabels") || e.id.startsWith("yLabels")) { // if the dropped point is within x or y axis display box
                     TargetID = e.id;
                     undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
-                    addAxisLabel(TargetID, thisText);
-                    displayAxis(xAxis);
+                    addAxisLabel(TargetID, thisText); // add the text object to the x or y axis object, see the functin above between lines 271 and 294
+                    displayAxis(xAxis); // update both axis display boxes, see in js/display.js
                     displayAxis(yAxis);
                     if (TargetID.startsWith("xLabels") ? ( !('baseline' in xAxis) || Math.abs(xAxis['baseline'] - thisText.y)<=30) : (!('baseline' in yAxis) || Math.abs(yAxis['baseline'] - thisText.x)<=30)) {
+                        // this handles when the dropped point is close to the axis, and a tooltip will be shown to ask whether to add other texts that share the same x or y coordinate as axis labels
                         let thisOri = TargetID.startsWith("xLabels") ? "y" : "x";
                         let thisHtml = "Add the other texts sharing the same " + thisOri + " coordinate as axis labels?";
                         d3.select("body").append("div")	
@@ -400,9 +403,9 @@ function enableDragDrop(texts) {
                                 if (toAdd.length > 0) {
                                     undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
                                     for (let t of toAdd) {
-                                        addAxisLabel(TargetID, t);
+                                        addAxisLabel(TargetID, t); // add every text object to the x or y axis object, see the functin above between lines 271 and 294
                                     }
-                                    displayAxis(xAxis);
+                                    displayAxis(xAxis);  // update both axis display boxes, see in js/display.js
                                     displayAxis(yAxis);
                                 }
                                 d3.selectAll(".tooltip2").remove();
@@ -424,9 +427,9 @@ function enableDragDrop(texts) {
             }
         });
     
-    dragHandler(svg.selectAll("text"));
+    dragHandler(svg.selectAll("text")); // activate the drag handler for all the text elements in the SVG
 
-    svg.selectAll("text").style("pointer-events", "auto").style("cursor", "pointer")
+    svg.selectAll("text").style("pointer-events", "auto").style("cursor", "pointer") // add mouse over events to the text elements in the SVG
         .on("mouseover", function() {
             thisText = d3.select(this);
             thisText
@@ -442,7 +445,7 @@ function enableDragDrop(texts) {
         });
 }
 
-function duplicate(axis) {
+function duplicate(axis) { // make a copy of an array or object
     let copy = {};
     for (let k in axis) {
         if (Array.isArray(axis[k]))

@@ -450,7 +450,8 @@
 
         function refresh() {
             console.log(sessionStorage.getItem("fileName"))
-            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
+            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");
+
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 d3.select("body").style("overflow-y", "hidden");
@@ -466,8 +467,8 @@
             .then((resp) => {
                 return resp.text();
             })
-            .then((text) => {
-                if(sessionStorage.getItem('svg') ? sessionStorage.getItem('svg').length > 0 : false) text = sessionStorage.getItem('svg');
+            .then((rawSVG) => {
+                if(sessionStorage.getItem('svg') ? sessionStorage.getItem('svg').length > 0 : false) rawSVG = sessionStorage.getItem('svg');
                 undoStack = [];
                 redoStack = [];
                 atlasSG_histroy = [];
@@ -483,11 +484,24 @@
                 d3.select("#preprocessUI").style("visibility", "visible");
                 d3.select("#layers").selectAll('*').remove();
                 d3.selectAll(".axisLabels").selectAll("button").remove();
-                displaySVG(text, demo);
-                let jsonArr = flattenSVG(text);
+
+                // in display.js, adding id and class attributes to the svg elements
+                displaySVG(rawSVG, demo);
+
+                // in cleanup.js, flattening the svg elements into json format grouped by element types like rectangle, texts, lines, etc.; we may want to modify it later
+                let jsonArr = flattenSVG(rawSVG); 
+
+                // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
                 enableDragDrop(jsonArr.texts);
+
+                // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
+                // extract() calls displayAxis() and displayLegend() to display the extracted elements
                 mainContent = extract(jsonArr, demo);
+
+                // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
                 setViewBox(jsonArr.texts, jsonArr.lines, mainContent.rects);
+
+                // in preprocess-interaction.js, activating the area-selecting event so that one can also select the area of the legend, or x and y axis to annotate
                 enableAreaSelection();
             })
         }
