@@ -562,7 +562,9 @@
               } 
               else{
                 console.error("Error: " + xhr.status);
-                alert("Error: " + xhr.status);
+                alertBox.textContent = "Error: '" + xhr.status + "' occurred while saving the annotations";
+                alertBox.style.visibility = "visible";
+                alertBox.style.opacity = "1";
             }
           }
       };
@@ -597,6 +599,9 @@
                 // testing annotation was loaded
                 console.log("loaded annotations", annotations);
 
+                alertBox.textContent = "Annotations have been loaded from: 'annotations / " + filename + ".json'!";
+                alertBox.style.visibility = "visible";
+                alertBox.style.opacity = "1";
                 // update the values and the display boxes
                 xAxis = annotations.annotation.xAxis;
                 yAxis = annotations.annotation.yAxis;
