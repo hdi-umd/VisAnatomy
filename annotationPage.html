@@ -480,18 +480,30 @@
         let chartUrl2Web = null;
 
         function refresh() {
-            console.log(sessionStorage.getItem("fileName"))
-            if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");
+            // getting file name from url
+            const urlParams = new URLSearchParams(window.location.search);
+            const fileName = urlParams.get("file");
 
-            let demo = window.location.hash.replace("#", "");
-            if (demo && demo != "") {
-                d3.select("body").style("overflow-y", "hidden");
-                window.scrollTo(0,0); 
-                loadDemo(demo);
-            } else {
-                d3.select("body").style("overflow-y", "auto");
+            console.log(fileName);
+
+            if (fileName) {   // load file from url if it exists
+                loadDemo(fileName);
+
+                // loading the corresponding annotations if they exist
+                sessionStorage.setItem("fileName", fileName + '.svg');
+                loadFile();
+            } else if (sessionStorage.getItem('svg') && sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");
+
+                let demo = window.location.hash.replace("#", "");
+                
+                if (demo && demo != "") {
+                    d3.select("body").style("overflow-y", "hidden");
+                    window.scrollTo(0,0); 
+                    loadDemo(demo);
+                } else {
+                    d3.select("body").style("overflow-y", "auto");
+                }
             }
-        }
     }
 
         function loadDemo(demo) {
