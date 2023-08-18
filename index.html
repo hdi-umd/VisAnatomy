@@ -103,7 +103,8 @@
     </div>
 
     <script>
-      document.getElementById("uploadForm").addEventListener("submit", async function (event) {
+
+    document.getElementById("uploadForm").addEventListener("submit", async function (event) {
     event.preventDefault();
 
     const fileInput = document.getElementById("myFile");
@@ -115,7 +116,7 @@
         const data = await response.json();
 
         if (data.exists) {
-            alert("File already exists. Please choose a different file.");
+            alert("File with the same name already exists in the examples folder. Please choose a different file or rename your file.");
         } else {
             newSVG();
             loadFile();
