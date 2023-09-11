@@ -197,44 +197,6 @@
             transform: translateY(2px);
         }
 
-        .titleXbutton, .titleYbutton, .legendTitleID{
-            display: inline-block;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: black;
-            opacity: 0.85;
-            /* background-color: #D7EBCC; */
-            background-color: #f2f2f2;
-            border: none;
-            border-radius: 5px;
-            margin-left: 5px;
-            padding-left:5px;
-            padding-right:5px;
-        }
-
-        .titleXbutton:hover{
-            opacity: 1;
-            /* background-color: #3e8e41; */
-            background-color: #333;
-            color: #fff;
-        }
-
-        .titleYbutton:hover{
-            opacity: 1;
-            /* background-color: #3e8e41; */
-            background-color: #333;
-            color: #fff;
-        }
-
-        .legendTitleID:hover{
-            opacity: 1;
-            /* background-color: #3e8e41; */
-            background-color: #333;
-            color: #fff;
-        }
-
         .div4text {
             text-align: center;
             cursor: pointer;
@@ -503,26 +465,7 @@
             display: inline-block;
             vertical-align: top;
             overflow: scroll;
-            /*display: flex;*/
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-          
         }
-
-        .mainRow{
-            width: 100%;
-            height: 50px; /* Adjust height as needed */
-            /* Just for demonstration */
-        }
-
-        .main-div-x, .main-div-y {
-            margin-bottom: 10px;
-        }
-        
-        .main-div-y, .main-div-legend {
-            margin-top: 10px;
-        }
-        
 
      
        
@@ -545,7 +488,7 @@
             <div class = "float-container" id = "buttons" style = "display: block">
 
                 <!-- This is the main x axis div -->
-                <div class="axisDiv main-div-x mainRow" id="xAxisDiv">
+                <div class="axisDiv main-div-x" id="xAxisDiv">
 
                     <!--This is the first part of the column-->
                     <div class="axisMeta column-div-x" id= "xAxisMeta"><b>X axis</b><input type="image" src="img/select-area.png" id="xArea" onclick="activateAreaSelect('x');" width="16px" height="16px" class="selectAreaBtn"></input><br>
@@ -573,7 +516,7 @@
 
 
                 <!-- This is the main y axis div -->
-                <div class="axisDiv main-div-y mainRow" id="yAxisDiv">
+                <div class="axisDiv main-div-y" id="yAxisDiv">
 
                      <!-- This is the 1st column div -->
 
@@ -605,7 +548,7 @@
 
                 <!-- This is the  main legend div -->
 
-                <div class="axisDiv main-div-legend mainRow">
+                <div class="axisDiv main-div-legend">
 
                     <!-- This is the 1st column div -->
 
@@ -679,9 +622,7 @@
                 legend = undefined;
 
                 titleXaxis = undefined;
-                inXTitle = false;
                 titleYaxis = undefined;
-                inYTitle = false;
                 titleLabel = undefined;
                 
                 xAxis = undefined;

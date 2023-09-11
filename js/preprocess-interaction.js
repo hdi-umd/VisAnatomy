@@ -218,18 +218,10 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
 
     if(data == "xTitleID"){
-         draggedFromNode = document.getElementById("xTitleID");
-         console.log(draggedFromNode)
+         draggedFromNode = document.getElementsByClassName("titlebutton");
+         draggedFromNode = draggedFromNode[0]
          draggedFromID = draggedFromNode.parentNode.id;
-        console.log(draggedFromID)
 
-    }
-
-    else if(data == "yTitleID"){
-         draggedFromNode = document.getElementById("yTitleID");
-         console.log(draggedFromNode)
-         draggedFromID = draggedFromNode.parentNode.id;
-        console.log(draggedFromID)
     }
 
     else{
@@ -237,54 +229,55 @@ function drop(ev) {
     draggedFromID = draggedFromNode.parentNode.id;
     }// dragged element
 
+   // console.log(draggedFromNode)
+   // console.log(draggedFromNode.parentNode);
+
 
     /* dropping from a x/y axis label box into xtitle box */
-    if(ev.currentTarget.id.startsWith("xTitle") 
-        || ev.currentTarget.id.startsWith("yTitle") 
-        || ev.currentTarget.id.startsWith("legendTitle")){
+    if(ev.currentTarget.id.startsWith("xTitle")){
        if (draggedFromID.startsWith("xLabels") || draggedFromID.startsWith("yLabels")){
             moveAxisLabel(draggedFromID, ev.currentTarget.id, d3.select("#"+data).datum());
             buttonCheck(ev.currentTarget.id, d3.select("#"+data).datum());
 
             displayAxis(xAxis);
             displayAxis(yAxis);
-            
-            //addTitleXLabel(draggedFromNode['__data__']);
+
+            addTitleXLabel(draggedFromNode['__data__']);
             console.log(titleXaxis)
 
             /* only update if there is no button already present in x title */
-            if(ev.currentTarget.id.startsWith("xTitle")){
-               // var buttons = document.getElementsByClassName("titleXbutton");
-               // if (buttons.length == 0) {
-                        displayTitleXLabel(draggedFromNode['__data__']); 
-                 //   }
+            var buttons = document.getElementsByClassName("titlebutton");
+            if (buttons.length == 0) {
+                displayTitleXLabel(draggedFromNode['__data__']);              
             }
-
-            else if(ev.currentTarget.id.startsWith("yTitle")){
-                //var buttons = document.getElementsByClassName("titleYbutton");
-              //  if (buttons.length == 0) {
-                        displayTitleYLabel(draggedFromNode['__data__']); 
-                 //   }
-            }
-
-            else if(ev.currentTarget.id.startsWith("legendTitle")){
-                displayTitleLegendLabel(draggedFromNode['__data__']);
-            }
+            
         }
     }
-    else if (ev.currentTarget.id.startsWith("xLabels") || ev.currentTarget.id.startsWith("yLabels")) { // when the element is dropped in the detected region
+    else if (ev.currentTarget.id.startsWith("xLabels") || ev.currentTarget.id.startsWith("yLabels") /*|| ev.currentTarget.id.startsWith("xTitle") */) { // when the element is dropped in the detected region
+        /*if (draggedFromID.startsWith("xTitleID") || draggedFromID.startsWith("yTitleID")){ // when the element is also from the detected region
+            undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
+            moveAxisLabel(draggedFromID, ev.currentTarget.id, d3.select("#"+data).datum());
+            buttonCheck(ev.currentTarget.id, d3.select("#"+data).datum());
+            displayAxis(xAxis);
+            displayAxis(yAxis);
+
+            ev.stopImmediatePropagation();
+        } */
+
         /*dropping from title region into y label region */
         if(draggedFromID.startsWith("xTitle") || draggedFromID.startsWith("yTitle"))
         {
             console.log("title to label")
-            var button = document.getElementById("xTitleID");
-            console.log(button)
-            TargetID = ev.currentTarget.id;
-            //addAxisLabel(TargetID, "HELLO");
-            
-            //displayAxis(xAxis);
-           // displayAxis(yAxis);
-            button.remove()
+            undoStack.push({xAxis: duplicate(xAxis), yAxis: duplicate(yAxis), legend: duplicate(legend), btnCheck: Object.assign({}, btnCheck)});
+            var buttons = document.getElementsByClassName("titlebutton");
+            if (buttons.length > 0) {
+                var button = buttons[0];
+                var label = button.parentElement;
+                label.removeChild(button);
+              }
+
+              TargetID = ev.currentTarget.id;
+              addAxisLabel(TargetID, "HELLO");
         }
         
 
@@ -510,54 +503,15 @@ function enableDragDrop(texts) {
                     break
                 }
 
-                else if(e.id.startsWith("legendTitle")){
-                    console.log("in legend")
-
-                    //check if the dragged element is present in the xAxis label
-                    //and remove it from the label if present
-                    for (let i = 0; i < xAxis['labels'].length; i++){
-                        if(xAxis['labels'][i]['content'] === thisText['content']){
-                           xAxis['labels'].splice(i,1);
-                           displayAxis(xAxis);
-                           break;
-                        }
-                    }
-
-                    //check if the dragged element is present in the yAxis label
-                    //and remove it from the label if present
-                    for (let i = 0; i < yAxis['labels'].length; i++){
-                        if(yAxis['labels'][i]['content'] === thisText['content']){
-                           yAxis['labels'].splice(i,1);
-                           displayAxis(yAxis);
-                           break;
-                        }
-                    }
-
-                    //check if the dragged element is present in the legend label 
-                    //and remove it from the label if present
-
-                    for (let i = 0; i < legend['labels'].length; i++){
-                        if(legend['labels'][i]['content'] === thisText['content']){
-                            legend['labels'].splice(i,1);
-                           displayLegend(legend);
-                           break;
-                        }
-                    }
-
-                    displayTitleLegendLabel(thisText['content'])
-
-
-                }
-
                 //if we drop the dragged element in the title box region
                 else if(e.id.startsWith("xTitle")){
 
                     var buttons = document.getElementsByClassName("titlebutton");
 
                     //if any button present exit out and dont do anything
-                   // if (buttons.length > 0) {
-                   //     return;
-                  //  }
+                    if (buttons.length > 0) {
+                        return;
+                    }
 
                     console.log(thisText)
                     console.log(xAxis['labels'])
@@ -583,108 +537,22 @@ function enableDragDrop(texts) {
                         }
                     }
 
-                    //check if the dragged element is present in the legend label 
-                    //and remove it from the label if present
-
-                    for (let i = 0; i < legend['labels'].length; i++){
-                        if(legend['labels'][i]['content'] === thisText['content']){
-                            legend['labels'].splice(i,1);
-                           displayLegend(legend);
-                           break;
-                        }
-                    }
-
-
-                    //if the dragged element is already present in the y title display
-                    //remove the button from there and display the dragged element in x title
-                    if(inYTitle){
-                        console.log("equalss")
-                        var button = document.getElementById("yTitleID");
-                        console.log(button)
-                        var buttonText = button.textContent;
-                        console.log(buttonText)
-                        if(buttonText === thisText['content']){
-                            button.remove();
-                        }
-                    }
-
                     // add the text object to the title label object,
                     //still have to implement
-                    inXTitle=true
-                    console.log(inXTitle)
                     addTitleXLabel(thisText);
 
                     // update the title display box, see in js/display.js if no buttons present
-                   // var buttons = document.getElementsByClassName("titleXbutton");
-                   // if (buttons.length == 0) {
+                    var buttons = document.getElementsByClassName("titlebutton");
+                    if (buttons.length == 0) {
                         displayTitleXLabel(thisText); 
-                    //  }
+                      }
                 }
-                
 
-               else if(e.id.startsWith("yTitle")){
-
-                    console.log("in y title label box")
-
-                    console.log(thisText['content'])
-
-                    console.log(legend['labels'])
-
-                    //check if the dragged element is present in the xAxis label
-                    //and remove it from the label if present
-                    for (let i = 0; i < xAxis['labels'].length; i++){
-                        if(xAxis['labels'][i]['content'] === thisText['content']){
-                           xAxis['labels'].splice(i,1);
-                           displayAxis(xAxis);
-                           break;
-                        }
-                    }
-
-                    //check if the dragged element is present in the yAxis label
-                    //and remove it from the label if present
-                    for (let i = 0; i < yAxis['labels'].length; i++){
-                        if(yAxis['labels'][i]['content'] === thisText['content']){
-                           yAxis['labels'].splice(i,1);
-                           displayAxis(yAxis);
-                           break;
-                        }
-                    }
-
-                    //check if the dragged element is present in the legend label 
-                    //and remove it from the label if present
-
-                    for (let i = 0; i < legend['labels'].length; i++){
-                        if(legend['labels'][i]['content'] === thisText['content']){
-                            legend['labels'].splice(i,1);
-                           displayLegend(legend);
-                           break;
-                        }
-                    }
-
-
-                    console.log(inXTitle)
-
-                    //if the dragged element is already present in the y title display
-                    //remove the button from there and display the dragged element in x title
-                    if(inXTitle){
-                        console.log("equals")
-                        var button = document.getElementById("xTitleID");
-                        console.log(button)
-                        var buttonText = button.textContent;
-                        console.log(buttonText)
-                        if(buttonText === thisText['content']){
-                            button.remove();
-                        }
-                    }
-
-                    inYTitle = true;
+               /* else if(e.id.startsWith("yTitle")){
+                    console.log("IN Y TITLE LABEL BOX")
                     addTitleYLabel(thisText);
-
-                    //var buttons = document.getElementsByClassName("titleYbutton");
-                    //if (buttons.length == 0) {
-                        displayTitleYLabel(thisText); 
-                     // }
-                }
+                    displayTitleYLabel(thisText);
+                }*/
             }
         });
     

@@ -159,11 +159,11 @@ function displayLegend(legend) {
             btn.attr("style", "background-color: #FC6F51")
                 .on("mouseover", function(event) {
                     d3.select("body").append("div")	
-                         .attr("class", "tooltip")
+                        .attr("class", "tooltip")
                         .style("opacity", .75)		
                         .html(message.substring(0, message.length-1) + '.')	
                         .style("left", (event.pageX) + "px")		
-                        .style("top", (event.pageY - 28) + "px");	
+                        .style("top", (event.pageY) + "px");	
                     })					
                 .on("mouseout", function() {		
                     d3.select(".tooltip").remove();
@@ -178,7 +178,7 @@ function displayTitleXLabel(text)
     let btn = d3.select("#xTitle").append("button")
             //.datum(text)
             .attr("type", "button")
-            .attr("class", "titleXbutton")
+            .attr("class", "titlebutton")
             .attr("style", "position: absolute; top: 1px; left: 200px")
             .attr("style", "width: 100%")
             .attr("id", 'xTitleID')
@@ -192,30 +192,19 @@ function displayTitleXLabel(text)
             
     btn.attr("style", "background-color: #f2f2f2")
                 .on("mouseover", function(event) {
-
-                    d3.select(this)  // Select the hovered button
-                    .attr("style", "color: #fff");
-
-
                     d3.select("body").append("div")	
                         .attr("class", "tooltip")
                         .style("opacity", .75)		
                         .style("width", "100%")
-                        .style("background-color: black")
-                        .html(message.substring(0, message.length-1) + '.')	
                         .style("left", (event.pageX) + "px")		
                         .style("top", (event.pageY - 28) + "px");
-                    })					
-                .on("mouseout", function() {
-                    d3.select(this)  // Select the hovered button
-                    .attr("style", "background-color: #f2f2f2; width: 100%")
-                    .attr("style", "color: black");
 
-	
+                        
+                    })					
+                .on("mouseout", function() {		
                     d3.select(".tooltip").remove();
                 });
-    //btn.attr("style", "width: 100%");
-
+    btn.attr("style", "width: 100%");
 }
 
 function displayTitleYLabel(text)
@@ -224,7 +213,7 @@ function displayTitleYLabel(text)
     let btn = d3.select("#yTitle").append("button")
             //.datum(text)
             .attr("type", "button")
-            .attr("class", "titleYbutton")
+            .attr("class", "titlebutton")
             .attr("style", "position: absolute; top: 1px; left: 200px")
             .attr("id", 'yTitleID')
             //.attr("style", "width: 100px; height: 15px;")
@@ -236,67 +225,16 @@ function displayTitleYLabel(text)
             ; 
             
     btn.attr("style", "background-color: #f2f2f2")
-        .on("mouseover", function(event) {
-
-        d3.select(this)  // Select the hovered button
-        .attr("style", "color: #fff");
-
-
-        d3.select("body").append("div")	
-            .attr("class", "tooltip")
-            .style("opacity", .75)		
-            .style("width", "100%")
-            .style("background-color: black")
-            .html(message.substring(0, message.length-1) + '.')	
-            .style("left", (event.pageX) + "px")		
-            .style("top", (event.pageY - 28) + "px");
-        })					
-    .on("mouseout", function() {
-        d3.select(this)  // Select the hovered button
-        .attr("style", "background-color: #f2f2f2; width: 100%")
-        .attr("style", "color: black");
-        d3.select(".tooltip").remove();
-    });
-}
-
-function displayTitleLegendLabel(text)
-
-{
-    console.log(text)
-    console.log("Display legend")
-
-    let title = text;
-    let btn = d3.select("#legendTitle").append("button")
-            //.datum(text)
-            .attr("type", "button")
-            .attr("class", "titleLegendButton")
-            .attr("id", 'legendTitleID')
-            .text(text)
-            .attr("draggable", true)
-            .on('dragstart', drag); 
-            
-    btn.attr("style", "background-color: #f2f2f2")
-        .on("mouseover", function(event) {
-
-        d3.select(this)  // Select the hovered button
-        .attr("style", "color: #fff");
-
-
-        d3.select("body").append("div")	
-            .attr("class", "tooltip")
-            .style("opacity", .75)		
-            .style("width", "100%")
-            .style("background-color: black")
-            .html(message.substring(0, message.length-1) + '.')	
-            .style("left", (event.pageX) + "px")		
-            .style("top", (event.pageY - 28) + "px");
-        })					
-    .on("mouseout", function() {
-        d3.select(this)  // Select the hovered button
-        .attr("style", "background-color: #f2f2f2; width: 100%")
-        .attr("style", "color: black");
-        d3.select(".tooltip").remove();
-    });
+                .on("mouseover", function(event) {
+                    d3.select("body").append("div")	
+                        .attr("class", "tooltip")
+                        .style("opacity", .75)		
+                        .style("left", (event.pageX) + "px")		
+                        .style("top", (event.pageY - 28) + "px");	
+                    })					
+                .on("mouseout", function() {		
+                    d3.select(".tooltip").remove();
+                });
 }
 
 /**
