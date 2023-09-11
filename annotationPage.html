@@ -454,13 +454,6 @@
 
         }
 
-        .column-div-x {
-            /* Additional styling for the inner divs */
-            /*padding: 10px;*/
-            /*border: 1px solid #ccc;*/
-           /* width: 80%; *//* Adjust the width value as desired */
-        }
-
         .main-div-y {
             height: 100px;
             display: grid;
@@ -470,13 +463,6 @@
 
         }
 
-        .column-div-y {
-            /* Additional styling for the inner divs */
-            /*padding: 10px;*/
-            /*border: 1px solid #ccc;*/
-           /* width: 80%; *//* Adjust the width value as desired */
-        }
-
         .main-div-legend {
             height: 100px;
             display: grid;
@@ -484,13 +470,6 @@
             gap: 10px;
             grid-auto-columns: 150px;
 
-        }
-
-        .column-div-legend {
-            /* Additional styling for the inner divs */
-            /*padding: 10px;*/
-           /* border: 1px solid #ccc;*/
-           /* width: 80%; *//* Adjust the width value as desired */
         }
 
         .axisLabels{
@@ -520,22 +499,6 @@
             box-sizing: border-box;
           }
 
-
-        /* #xAxisDiv{
-            display: grid;
-            height: 80px;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 70px;
-        } */
-
-
-
-        
-/*
-        #xAxisMeta{
-           background-color: #4f0599;
-        }
- */
        #xTitle, #yTitle, #legendTitle{
             /*background-color: gray;*/
             border: #bbb 1px solid;
@@ -589,7 +552,7 @@
                 <div class="axisDiv main-div-x mainRow" id="xAxisDiv">
 
                     <!--This is the first part of the column-->
-                    <div class="axisMeta column-div-x" id= "xAxisMeta"><b>X axis</b><input type="image" src="img/select-area.png" id="xArea" onclick="activateAreaSelect('x');" width="16px" height="16px" class="selectAreaBtn"></input><br>
+                    <div class="axisMeta" id= "xAxisMeta"><b>X axis</b><input type="image" src="img/select-area.png" id="xArea" onclick="activateAreaSelect('x');" width="16px" height="16px" class="selectAreaBtn"></input><br>
                         <select class="fieldType" id="xFieldType" onchange="fieldTypeChanged('x')">
                             <option value="Null">none</option>
                             <option value="string">categories</option>
@@ -600,7 +563,7 @@
 
                     <!--This is the second part of the column (title)-->
 
-                    <div class="TitleBox column-div-x" ondrop="drop(event)" ondragover="allowDrop(event)" id="xTitle"> 
+                    <div class="TitleBox" ondrop="drop(event)" ondragover="allowDrop(event)" id="xTitle"> 
                          <!--<div id="title-container">
                             <input type="text" class="textbox" placeholder="TITLE">
                           </div>-->
@@ -608,7 +571,7 @@
 
 
                     <!--This is the third part of the column (the label)-->
-                    <div class="axisLabels column-div-x" id="xLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="axisLabels" id="xLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                     <input type="image" src="img/plus.png" id="addXAxis" onclick="addAxisLevel('x');" width="16px" height="16px" style="position:absolute;right:7px;" class="selectAreaBtn"></input>
                 </div>
 
@@ -618,7 +581,7 @@
 
                      <!-- This is the 1st column div -->
 
-                    <div class="axisMeta column-div-y"><b>Y axis</b><input type="image" src="img/select-area.png" id="yArea" onclick="activateAreaSelect('y');" width="16px" height="16px" class="selectAreaBtn"></input><br>
+                    <div class="axisMeta"><b>Y axis</b><input type="image" src="img/select-area.png" id="yArea" onclick="activateAreaSelect('y');" width="16px" height="16px" class="selectAreaBtn"></input><br>
                         <select class="fieldType" id="yFieldType" onchange="fieldTypeChanged('y')">
                             <option value="Null">none</option>
                             <option value="string">categories</option>
@@ -631,14 +594,10 @@
                      <!-- This is the 2nd column div -->
 
                  
-                     <div class="TitleBox column-div-y" ondrop="drop(event)" ondragover="allowDrop(event)" id="yTitle"> 
-                        <!--<div id="title-container">
-                           <input type="text" class="textbox" placeholder="TITLE">
-                         </div>-->
-                    </div> 
+                     <div class="TitleBox" ondrop="drop(event)" ondragover="allowDrop(event)" id="yTitle" > </div> 
                     
                 <!-- This is the 3rd column div -->
-                    <div class="axisLabels column-div-y" id="yLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="axisLabels" id="yLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
                     <input type="image" src="img/plus.png" id="addYAxis" onclick="addAxisLevel('y');" width="16px" height="16px" style="position:absolute;right:7px;" class="selectAreaBtn"></input>
                 </div>
@@ -650,7 +609,7 @@
 
                     <!-- This is the 1st column div -->
 
-                    <div class="axisMeta column-div-legend"><b>Legend</b><input type="image" src="img/select-area.png" id="legendArea" onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn"></input><br>
+                    <div class="axisMeta"><b>Legend</b><input type="image" src="img/select-area.png" id="legendArea" onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn"></input><br>
                         <select class="fieldType" id="legendFieldType">
                             <option value="Null">none</option>
                             <option value="string">categories</option>
@@ -660,15 +619,12 @@
                     </div>
 
                     <!-- This is the 2nd column div-->
-                    <div class="TitleBox column-div-legend" ondrop="drop(event)" ondragover="allowDrop(event)" id="legendTitle"> 
-                        <!--<div id="title-container">
-                           <input type="text" class="textbox" placeholder="TITLE">
-                         </div>-->
+                    <div class="TitleBox" ondrop="drop(event)" ondragover="allowDrop(event)" id="legendTitle"> 
                     </div> 
 
 
                     <!-- This is the 3rd column div-->
-                    <div class="axisLabels column-div-legend" id="legendLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="axisLabels" id="legendLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                 </div>
             </div>            
             <button id = "saveButton" onclick="post()" style="position:absolute;bottom:1px;right:10px;">Save</button>
@@ -740,11 +696,11 @@
                 btnCheck = {};
                 legend = undefined;
 
-                titleXaxis = undefined;
+                titleXaxis = [];
                 inXTitle = false;
-                titleYaxis = undefined;
+                titleYaxis = [];
                 inYTitle = false;
-                titleLabel = undefined;
+                titleLegend = [];
                 
                 xAxis = undefined;
                 yAxis = undefined;

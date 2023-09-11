@@ -221,22 +221,30 @@ function displayLegend(legend) {
   }
 }
 
-function displayTitleXLabel(text) {
-  let title = text;
+function displayTitleXLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#xTitle")
+      .select("#" + "xTItleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleXaxis.includes(thisText)) return;
+    else titleXaxis.push(thisText);
+  }
+
+  console.log(titleXaxis);
+  let text = thisText["content"];
   let btn = d3
     .select("#xTitle")
     .append("button")
-    //.datum(text)
+    .datum(thisText)
     .attr("type", "button")
     .attr("class", "titleXbutton")
     .attr("style", "position: absolute; top: 1px; left: 200px")
     .attr("style", "width: 100%")
-    .attr("id", "xTitleID")
-    //.attr("style", "width: 100px; height: 15px;")
-
-    //.attr("id", "IDinSVGtext1")
+    .attr("id", "xTItleIDinSVG" + thisText["id"]) // this ID is important!!
     .attr("draggable", true)
-    .text(text["content"])
+    .text(text)
     .on("dragstart", drag);
   btn
     .attr("style", "background-color: #f2f2f2")
@@ -249,10 +257,7 @@ function displayTitleXLabel(text) {
         .attr("class", "tooltip")
         .style("opacity", 0.75)
         .style("width", "100%")
-        .style("background-color: black")
-        .html(message.substring(0, message.length - 1) + ".")
-        .style("left", event.pageX + "px")
-        .style("top", event.pageY - 28 + "px");
+        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button
@@ -261,24 +266,31 @@ function displayTitleXLabel(text) {
 
       d3.select(".tooltip").remove();
     });
-  //btn.attr("style", "width: 100%");
 }
 
-function displayTitleYLabel(text) {
-  let title = text;
+function displayTitleYLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#yTitle")
+      .select("#" + "yTitleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleYaxis.includes(thisText)) return;
+    else titleYaxis.push(thisText);
+  }
+
+  console.log(titleYaxis);
+  let text = thisText["content"];
   let btn = d3
     .select("#yTitle")
     .append("button")
-    //.datum(text)
+    .datum(thisText)
     .attr("type", "button")
     .attr("class", "titleYbutton")
     .attr("style", "position: absolute; top: 1px; left: 200px")
-    .attr("id", "yTitleID")
-    //.attr("style", "width: 100px; height: 15px;")
-
-    //.attr("id", "IDinSVGtext1")
+    .attr("id", "yTitleIDinSVG" + thisText["id"])
     .attr("draggable", true)
-    .text(text["content"])
+    .text(text)
     .on("dragstart", drag);
   btn
     .attr("style", "background-color: #f2f2f2")
@@ -291,10 +303,7 @@ function displayTitleYLabel(text) {
         .attr("class", "tooltip")
         .style("opacity", 0.75)
         .style("width", "100%")
-        .style("background-color: black")
-        .html(message.substring(0, message.length - 1) + ".")
-        .style("left", event.pageX + "px")
-        .style("top", event.pageY - 28 + "px");
+        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button
@@ -304,18 +313,29 @@ function displayTitleYLabel(text) {
     });
 }
 
-function displayTitleLegendLabel(text) {
+function displayTitleLegendLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#legendTitle")
+      .select("#" + "legendTitleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleLegend.includes(thisText)) return;
+    else titleLegend.push(thisText);
+  }
+
+  console.log(titleLegend);
+  let text = thisText["content"];
   console.log(text);
   console.log("Display legend");
 
-  let title = text;
   let btn = d3
     .select("#legendTitle")
     .append("button")
-    //.datum(text)
+    .datum(thisText)
     .attr("type", "button")
     .attr("class", "titleLegendButton")
-    .attr("id", "legendTitleID")
+    .attr("id", "legendTitleIDinSVG" + thisText["id"])
     .text(text)
     .attr("draggable", true)
     .on("dragstart", drag);
@@ -331,10 +351,7 @@ function displayTitleLegendLabel(text) {
         .attr("class", "tooltip")
         .style("opacity", 0.75)
         .style("width", "100%")
-        .style("background-color: black")
-        .html(message.substring(0, message.length - 1) + ".")
-        .style("left", event.pageX + "px")
-        .style("top", event.pageY - 28 + "px");
+        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button

@@ -277,17 +277,16 @@ function drag(ev) {
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
+  console.log(data);
 
   if (data == "xTitleID") {
     draggedFromNode = document.getElementById("xTitleID");
     console.log(draggedFromNode);
     draggedFromID = draggedFromNode.parentNode.id;
-    console.log(draggedFromID);
   } else if (data == "yTitleID") {
     draggedFromNode = document.getElementById("yTitleID");
     console.log(draggedFromNode);
     draggedFromID = draggedFromNode.parentNode.id;
-    console.log(draggedFromID);
   } else {
     draggedFromNode = document.getElementById(data);
     draggedFromID = draggedFromNode.parentNode.id;
@@ -299,60 +298,112 @@ function drop(ev) {
     ev.currentTarget.id.startsWith("yTitle") ||
     ev.currentTarget.id.startsWith("legendTitle")
   ) {
+    let thisText = d3.select("#" + data).datum();
     if (
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
     ) {
+      let thisAxis = draggedFromID.startsWith("xLabels") ? xAxis : yAxis;
+      if (thisAxis["labels"].indexOf(thisText) >= 0) {
+        thisAxis["labels"].splice(thisAxis["labels"].indexOf(thisText), 1);
+      }
+      if (thisAxis["upperLevels"]) {
+        for (let level of thisAxis.upperLevels) {
+          if (level.indexOf(thisText) >= 0) {
+            level.splice(level.indexOf(thisText), 1);
+          }
+        }
+      }
+
+      let thisTitle = ev.currentTarget.id.startsWith("xTitle")
+        ? "x"
+        : ev.currentTarget.id.startsWith("yTitle")
+        ? "y"
+        : "legend";
+
+      switch (thisTitle) {
+        case "x":
+          displayTitleXLabel(thisText);
+          break;
+        case "y":
+          displayTitleYLabel(thisText);
+          break;
+        case "x":
+          displayTitleLegendLabel(thisText);
+          break;
+      }
+
+      displayAxis(xAxis);
+      displayAxis(yAxis);
+    }
+  } else if (
+    ev.currentTarget.id.startsWith("xLabels") ||
+    ev.currentTarget.id.startsWith("yLabels")
+  ) {
+    let thisText = d3.select("#" + data).datum();
+    // when the element is dropped in the detected region
+    /*dropping from title region into y label region */
+    if (
+      draggedFromID.startsWith("xTitle") ||
+      draggedFromID.startsWith("yTitle") ||
+      ev.currentTarget.id.startsWith("legendTitle")
+    ) {
+      let thisTitle = draggedFromID.startsWith("xTitle")
+        ? "x"
+        : draggedFromID.startsWith("yTitle")
+        ? "y"
+        : "legend";
+      console.log(thisTitle);
+      switch (thisTitle) {
+        case "x":
+          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
+          displayTitleXLabel(thisText, "delete");
+          console.log("x title is ", titleXaxis);
+          break;
+        case "y":
+          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
+          console.log(titleYaxis);
+          displayTitleYLabel(thisText, "delete");
+          console.log("y title is ", titleYaxis);
+          break;
+        case "x":
+          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          displayTitleLegendLabel(thisText, "delete");
+          console.log("legend title is ", titleLegend);
+          break;
+      }
+
+      let thisAxis = ev.currentTarget.id.startsWith("xLabels") ? xAxis : yAxis;
+
+      thisAxis["labels"].push(thisText); // TBD: need to handle upper levels [IMPORTANT]
+      console.log(thisAxis["labels"].map((l) => l["content"]));
+
+      displayAxis(xAxis);
+      displayAxis(yAxis);
+    }
+    if (
+      draggedFromID.startsWith("xLabels") ||
+      draggedFromID.startsWith("yLabels")
+    ) {
+      // check if the dragged element is also from an axis display box
+      undoStack.push({
+        xAxis: duplicate(xAxis),
+        yAxis: duplicate(yAxis),
+        legend: duplicate(legend),
+        btnCheck: Object.assign({}, btnCheck),
+      });
       moveAxisLabel(
         draggedFromID,
         ev.currentTarget.id,
         d3.select("#" + data).datum()
       );
       buttonCheck(ev.currentTarget.id, d3.select("#" + data).datum());
-
       displayAxis(xAxis);
       displayAxis(yAxis);
-
-      //addTitleXLabel(draggedFromNode['__data__']);
-      console.log(titleXaxis);
-
-      /* only update if there is no button already present in x title */
-      if (ev.currentTarget.id.startsWith("xTitle")) {
-        // var buttons = document.getElementsByClassName("titleXbutton");
-        // if (buttons.length == 0) {
-        displayTitleXLabel(draggedFromNode["__data__"]);
-        //   }
-      } else if (ev.currentTarget.id.startsWith("yTitle")) {
-        //var buttons = document.getElementsByClassName("titleYbutton");
-        //  if (buttons.length == 0) {
-        displayTitleYLabel(draggedFromNode["__data__"]);
-        //   }
-      } else if (ev.currentTarget.id.startsWith("legendTitle")) {
-        displayTitleLegendLabel(draggedFromNode["__data__"]);
-      }
-    }
-  } else if (
-    ev.currentTarget.id.startsWith("xLabels") ||
-    ev.currentTarget.id.startsWith("yLabels")
-  ) {
-    // when the element is dropped in the detected region
-    /*dropping from title region into y label region */
-    if (
-      draggedFromID.startsWith("xTitle") ||
-      draggedFromID.startsWith("yTitle")
-    ) {
-      console.log("title to label");
-      var button = document.getElementById("xTitleID");
-      console.log(button);
-      TargetID = ev.currentTarget.id;
-      //addAxisLabel(TargetID, "HELLO");
-
-      //displayAxis(xAxis);
-      // displayAxis(yAxis);
-      button.remove();
+      ev.stopImmediatePropagation(); // stop the event from bubbling up to the SVG element
     }
   } else {
-    // when an label from detected region are dropped outside delete it
+    // when an label from detected region are dropped outside, delete it
     undoStack.push({
       xAxis: duplicate(xAxis),
       yAxis: duplicate(yAxis),
@@ -373,56 +424,6 @@ function drop(ev) {
     ev.stopImmediatePropagation();
   }
   d3.select(".tooltip").remove();
-}
-
-function buttonCheck(TargetID, thisText) {
-  if (TargetID.split("Labels")[1]) return;
-  let message = "Warnings: ";
-  let attrCond =
-    xAxis["attrX"].length > 0 && TargetID == "xLabels"
-      ? !arrayCompare(Object.keys(thisText), xAxis["attrX"])
-      : !arrayCompare(Object.keys(thisText), yAxis["attrY"]);
-  let levelCond =
-    TargetID == "xLabels"
-      ? !(
-          xAxis["labels"].length == 0 ||
-          thisText.level == xAxis["labels"][0].level
-        )
-      : !(
-          yAxis["labels"].length == 0 ||
-          thisText.level == yAxis["labels"][0].level
-        );
-  let axisCond =
-    TargetID == "xLabels"
-      ? !(
-          !("baseline" in xAxis) ||
-          Math.abs(thisText.y - xAxis["baseline"]) < 200
-        )
-      : !(
-          !("baseline" in xAxis) ||
-          Math.abs(thisText.x - yAxis["baseline"]) < 200
-        );
-  if (attrCond) {
-    message =
-      message +
-      "this text's attribute set is different from that of the detected labels;";
-  }
-
-  if (levelCond) {
-    message =
-      message +
-      "this text's hierarchy level within the SVG is different from that of the detected labels; ";
-  }
-
-  if (axisCond) {
-    message = message + "this text is not close to the detected labels.";
-  }
-
-  if (message != "Warnings: ") {
-    btnCheck[thisText["id"]] = message;
-  } else {
-    if (thisText["id"] in btnCheck) delete btnCheck[thisText["id"]];
-  }
 }
 
 function addAxisLabel(TargetID, text) {
@@ -453,18 +454,6 @@ function addLegendLabel(text) {
   if (legend["labels"].indexOf(text) < 0) legend["labels"].push(text);
   if (mainContent.texts.indexOf(text) >= 0)
     mainContent.texts.splice(mainContent.texts.indexOf(text), 1);
-}
-
-function addTitleXLabel(text) {
-  titleXaxis = text;
-}
-
-function addTitleYLabel(text) {
-  titleYaxis = text;
-}
-
-function addTitleLegendLabel(text) {
-  titleLabel = text;
 }
 
 function moveAxisLabel(fromID, toID, text) {
@@ -683,7 +672,7 @@ function enableDragDrop(texts) {
             }
           }
 
-          displayTitleLegendLabel(thisText["content"]);
+          displayTitleLegendLabel(thisText);
         }
 
         //if we drop the dragged element in the title box region
@@ -747,7 +736,6 @@ function enableDragDrop(texts) {
           //still have to implement
           inXTitle = true;
           console.log(inXTitle);
-          addTitleXLabel(thisText);
 
           // update the title display box, see in js/display.js if no buttons present
           // var buttons = document.getElementsByClassName("titleXbutton");
@@ -808,7 +796,6 @@ function enableDragDrop(texts) {
           }
 
           inYTitle = true;
-          addTitleYLabel(thisText);
 
           //var buttons = document.getElementsByClassName("titleYbutton");
           //if (buttons.length == 0) {
@@ -848,4 +835,54 @@ function duplicate(axis) {
     else copy[k] = axis[k];
   }
   return copy;
+}
+
+function buttonCheck(TargetID, thisText) {
+  if (TargetID.split("Labels")[1]) return;
+  let message = "Warnings: ";
+  let attrCond =
+    xAxis["attrX"].length > 0 && TargetID == "xLabels"
+      ? !arrayCompare(Object.keys(thisText), xAxis["attrX"])
+      : !arrayCompare(Object.keys(thisText), yAxis["attrY"]);
+  let levelCond =
+    TargetID == "xLabels"
+      ? !(
+          xAxis["labels"].length == 0 ||
+          thisText.level == xAxis["labels"][0].level
+        )
+      : !(
+          yAxis["labels"].length == 0 ||
+          thisText.level == yAxis["labels"][0].level
+        );
+  let axisCond =
+    TargetID == "xLabels"
+      ? !(
+          !("baseline" in xAxis) ||
+          Math.abs(thisText.y - xAxis["baseline"]) < 200
+        )
+      : !(
+          !("baseline" in xAxis) ||
+          Math.abs(thisText.x - yAxis["baseline"]) < 200
+        );
+  if (attrCond) {
+    message =
+      message +
+      "this text's attribute set is different from that of the detected labels;";
+  }
+
+  if (levelCond) {
+    message =
+      message +
+      "this text's hierarchy level within the SVG is different from that of the detected labels; ";
+  }
+
+  if (axisCond) {
+    message = message + "this text is not close to the detected labels.";
+  }
+
+  if (message != "Warnings: ") {
+    btnCheck[thisText["id"]] = message;
+  } else {
+    if (thisText["id"] in btnCheck) delete btnCheck[thisText["id"]];
+  }
 }
