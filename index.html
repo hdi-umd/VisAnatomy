@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
     <style>
       html {
         /* margin: 10px 10px 0px 10px; */
@@ -97,12 +98,59 @@
           type="submit"
           class="uploadButton"
           value="Import"
-          onClick="newSVG()"
         />
       </form>
     </div>
 
     <script>
+
+    document.getElementById("uploadForm").addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const fileInput = document.getElementById("myFile");
+    const file = fileInput.files[0];
+    const filename = file.name;
+
+    try {
+        const response = await fetch(`http://localhost:5200/check_file_exists/${filename}`);
+        const data = await response.json();
+
+        if (data.exists) {
+            alert("File with the same name already exists in the examples folder. Please choose a different file or rename your file.");
+        } else {
+            newSVG();
+            loadFile();
+
+            const reader = new FileReader();
+            reader.onload = async function(event) {
+                const svgData = event.target.result;
+                // Send the SVG data to the server
+                const response = await fetch(`http://localhost:5200/save_file`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "text/plain",
+                        "X-Filename": filename,  // Pass filename in header
+                    },
+                    body: svgData,
+                });
+
+                if (response.ok) {
+                    alert("File saved to examples folder.");
+                } else {
+                    alert("Error saving file to examples folder.");
+                }
+            };
+            reader.readAsText(file); 
+
+            event.target.submit();
+        }
+    } catch (error) {
+        console.error("Error:", error);
+    }
+});
+
+
+
       $("input[type=file]").change(function (e) {
         $in = $(this);
         $in.next().html($in.val());
@@ -112,6 +160,7 @@
         let uploadedSVG = document.getElementById("myFile").files[0];
         let fileReader = new FileReader();
         fileReader.readAsText(uploadedSVG);
+
         fileReader.onload = function () {
           sessionStorage.setItem("svg", fileReader.result);
           sessionStorage.setItem("fileName", uploadedSVG.name);

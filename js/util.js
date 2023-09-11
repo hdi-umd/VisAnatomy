@@ -1,3 +1,39 @@
+function loadFile() {
+  filename = sessionStorage.getItem('fileName');
+  console.log("loading from: " + filename);
+  
+  fetch('/annotations/' + filename + '.json')
+      .then(response => {
+          if (!response.ok) {
+              console.log("save file not found");
+              throw new Error("HTTP error " + response.status);
+          }
+          return response.json();
+      })
+      .then(json => {
+          this.users = json;
+          // loading the annotation data into the global variable
+          annotations = json;
+
+          // testing annotation was loaded
+          console.log("loaded annotations", annotations);
+
+          alertBox.textContent = "Annotations have been loaded from: 'annotations / " + filename + ".json'!";
+          alertBox.style.visibility = "visible";
+          alertBox.style.opacity = "1";
+          // update the values and the display boxes
+          xAxis = annotations.annotation.xAxis;
+          yAxis = annotations.annotation.yAxis;
+          legend = annotations.annotation.legend;
+          displayAxis(xAxis);
+          displayAxis(yAxis);
+          displayLegend(legend);
+      })
+      .catch(function () {
+          this.dataError = true;
+      })
+}
+
 function clientPt2SVGPt(x, y) {
     const vis = document.getElementById("vis");
     const pt = vis.createSVGPoint();
