@@ -183,7 +183,7 @@ function displayLegend(legend) {
       .attr("type", "button")
       .attr("class", "labelButton")
       .attr("id", "IDinSVG" + label["id"])
-      .attr("draggable", true)
+      .attr("draggable", true) //
       .style("background-color", function (d, i) {
         if (legend.type == "continuous") {
           let rgbC;
@@ -219,9 +219,146 @@ function displayLegend(legend) {
         });
     }
   }
+}
 
-  // updating annotations object
-  annotations["legend"] = legend;
+function displayTitleXLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#xTitle")
+      .select("#" + "xTItleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleXaxis.includes(thisText)) return;
+    else titleXaxis.push(thisText);
+  }
+
+  console.log(titleXaxis);
+  let text = thisText["content"];
+  let btn = d3
+    .select("#xTitle")
+    .append("button")
+    .datum(thisText)
+    .attr("type", "button")
+    .attr("class", "titleXbutton")
+    .attr("style", "position: absolute; top: 1px; left: 200px")
+    .attr("style", "width: 100%")
+    .attr("id", "xTItleIDinSVG" + thisText["id"]) // this ID is important!!
+    .attr("draggable", true)
+    .text(text)
+    .on("dragstart", drag);
+  btn
+    .attr("style", "background-color: #f2f2f2")
+    .on("mouseover", function (event) {
+      d3.select(this) // Select the hovered button
+        .attr("style", "color: #fff");
+
+      d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0.75)
+        .style("width", "100%")
+        .style("background-color: black");
+    })
+    .on("mouseout", function () {
+      d3.select(this) // Select the hovered button
+        .attr("style", "background-color: #f2f2f2; width: 100%")
+        .attr("style", "color: black");
+
+      d3.select(".tooltip").remove();
+    });
+}
+
+function displayTitleYLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#yTitle")
+      .select("#" + "yTitleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleYaxis.includes(thisText)) return;
+    else titleYaxis.push(thisText);
+  }
+
+  console.log(titleYaxis);
+  let text = thisText["content"];
+  let btn = d3
+    .select("#yTitle")
+    .append("button")
+    .datum(thisText)
+    .attr("type", "button")
+    .attr("class", "titleYbutton")
+    .attr("style", "position: absolute; top: 1px; left: 200px")
+    .attr("id", "yTitleIDinSVG" + thisText["id"])
+    .attr("draggable", true)
+    .text(text)
+    .on("dragstart", drag);
+  btn
+    .attr("style", "background-color: #f2f2f2")
+    .on("mouseover", function (event) {
+      d3.select(this) // Select the hovered button
+        .attr("style", "color: #fff");
+
+      d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0.75)
+        .style("width", "100%")
+        .style("background-color: black");
+    })
+    .on("mouseout", function () {
+      d3.select(this) // Select the hovered button
+        .attr("style", "background-color: #f2f2f2; width: 100%")
+        .attr("style", "color: black");
+      d3.select(".tooltip").remove();
+    });
+}
+
+function displayTitleLegendLabel(thisText, mode) {
+  if (mode === "delete") {
+    d3.select("#legendTitle")
+      .select("#" + "legendTitleIDinSVG" + thisText["id"])
+      .remove();
+    return;
+  } else {
+    if (titleLegend.includes(thisText)) return;
+    else titleLegend.push(thisText);
+  }
+
+  console.log(titleLegend);
+  let text = thisText["content"];
+  console.log(text);
+  console.log("Display legend");
+
+  let btn = d3
+    .select("#legendTitle")
+    .append("button")
+    .datum(thisText)
+    .attr("type", "button")
+    .attr("class", "titleLegendButton")
+    .attr("id", "legendTitleIDinSVG" + thisText["id"])
+    .text(text)
+    .attr("draggable", true)
+    .on("dragstart", drag);
+
+  btn
+    .attr("style", "background-color: #f2f2f2")
+    .on("mouseover", function (event) {
+      d3.select(this) // Select the hovered button
+        .attr("style", "color: #fff");
+
+      d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0.75)
+        .style("width", "100%")
+        .style("background-color: black");
+    })
+    .on("mouseout", function () {
+      d3.select(this) // Select the hovered button
+        .attr("style", "background-color: #f2f2f2; width: 100%")
+        .attr("style", "color: black");
+      d3.select(".tooltip").remove();
+    });
 }
 
 /**
