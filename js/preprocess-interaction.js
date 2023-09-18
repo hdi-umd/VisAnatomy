@@ -366,7 +366,7 @@ function drop(ev) {
           displayTitleYLabel(thisText, "delete");
           console.log("y title is ", titleYaxis);
           break;
-        case "x":
+        case "legend":
           titleLegend.splice(titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
           console.log("legend title is ", titleLegend);
