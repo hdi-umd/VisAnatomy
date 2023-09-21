@@ -39,6 +39,7 @@
     <script type="text/javascript" src="js/util.js"></script>
     <script type="text/javascript" src="js/preprocess-interaction.js"></script>
     <script type="text/javascript" src="js/grouping.js"></script>
+    <script type="text/javascript" src="js/markAnnotation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
     <script type="text/javascript">
       // has to be placed here to be able to called the KeyPress function in process.js
@@ -472,6 +473,13 @@
         height: 100%;
         box-sizing: border-box;
       }
+
+      /* div.markDiv {
+        display: "inline-block";
+        width: "fit-content";
+        height: "fit-content";
+        border: "1px solid #000";
+      } */
     </style>
   </head>
   <body ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -705,6 +713,90 @@
             ></rect>
           </svg>
         </div>
+        <div
+          id="generalizedSelection"
+          style="
+            position: absolute;
+            top: 20%;
+            right: 10px;
+            display: block;
+            width: 25%;
+            height: 75%;
+            border: #ccc 0px solid;
+          "
+        >
+          <div>
+            <h3>All Mark IDs</h3>
+
+            <div
+              id="allMarks"
+              style="
+                height: 150px;
+                width: 100%;
+                border: #0ba7bc 1px solid;
+                padding: 5px;
+                margin-bottom: 10px;
+                vertical-align: top;
+                overflow: scroll;
+                overflow: -moz-scrollbars-vertical;
+              "
+            ></div>
+          </div>
+          <div
+            id="markSelections"
+            style="
+              height: 24%;
+              width: 100%;
+              border: #0ba7bc 1px solid;
+              padding: 5px;
+              margin-bottom: 10px;
+            "
+          >
+            <h3>Mark Selections</h3>
+          </div>
+          <div
+            id="markRoles"
+            style="
+              height: 24%;
+              width: 100%;
+              border: #0ba7bc 1px solid;
+              padding: 5px;
+              margin-bottom: 10px;
+            "
+          >
+            <h3>Mark Types and Roles</h3>
+            <div width="100%">
+              Select a Mark Type
+              <select
+                class="fieldType"
+                id="markTypeSelection"
+                onchange="markAnnotationChanged('Type')"
+              >
+                <option value="none">none</option>
+                <option value="Rectangle">Rectangle</option>
+                <option value="Circle">Circle</option>
+                <option value="Area">Area</option>
+                <option value="Singleline">Single line</option>
+                <option value="Polyline">Polyline</option>
+              </select>
+            </div>
+            <br />
+            <div width="100%">
+              Select a Mark Role
+              <select
+                class="fieldType"
+                id="markRoleSelection"
+                onchange="markAnnotationChanged('Role')"
+              >
+                <option value="none">none</option>
+                <option value="Main Chart">Main Chart</option>
+                <option value="Annotation">Annotation</option>
+                <option value="Gridlines">Gridlines</option>
+                <option value="Noise">Noise</option>
+              </select>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -802,12 +894,16 @@
             // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
             // extract() calls displayAxis() and displayLegend() to display the extracted elements
             mainContent = extract(jsonArr, demo);
+            console.log("main chart area contains ", mainContent);
 
             // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
             setViewBox(jsonArr.texts, jsonArr.lines, mainContent.rects);
 
             // in preprocess-interaction.js, activating the area-selecting event so that one can also select the area of the legend, or x and y axis to annotate
             enableAreaSelection();
+
+            // below for initilizing the mark annotation
+            initilizeMarkAnnotation();
           });
       }
 
