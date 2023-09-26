@@ -102,6 +102,12 @@
       </form>
     </div>
 
+    <div id="notification" class="hidden">
+      <p>File name already exists in the examples folder. Would you like to.</p>
+      <button id="confirmLeave">Save and leave</button>
+      <button id="cancelLeave">Cancel</button>
+    </div>
+
     <script>
 
     document.getElementById("uploadForm").addEventListener("submit", async function (event) {
