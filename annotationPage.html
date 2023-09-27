@@ -208,14 +208,14 @@
       }
 
       .rbox1 {
-        width: 70%;
+        width: 55%;
         height: calc(100% - 20px);
         margin: 0 20px 20px;
         /* padding: 20px; */
       }
 
       .rbox2 {
-        width: 70%;
+        width: 55%;
         height: calc(100% - 20px);
         margin: 0 20px 20px;
         /* padding: 20px; */
@@ -562,10 +562,10 @@
       onclick="prevSection()"
       style="position: absolute; right: calc(50% + 260px); top: 8px"
     >
-      Previous
+      Back
     </button>
     <div id="preprocessUI" style="visibility: visible">
-      <div class="mainbox">
+      <div class="mainbox" id="axisAndLegend">
         <div class="float-container" id="buttons" style="display: block">
           <!-- This is the main x axis div -->
           <div class="axisDiv" id="xAxisDiv">
@@ -722,14 +722,14 @@
             ></div>
           </div>
         </div>
+        <button
+          id="saveButton"
+          onclick="post()"
+          style="position: absolute; bottom: 5px; right: 5px"
+        >
+          Save
+        </button>
       </div>
-      <button
-        id="saveButton"
-        onclick="post()"
-        style="position: absolute; bottom: 5px; right: 5px"
-      >
-        Save
-      </button>
       <div id="container">
         <div
           id="rbox1"
@@ -778,7 +778,7 @@
             top: 20%;
             right: 10px;
             display: block;
-            width: 25%;
+            width: 40%;
             height: 75%;
             border: #ccc 0px solid;
           "
@@ -912,6 +912,32 @@
             separator.textContent = " | ";
             breadcrumbContainer.appendChild(separator);
           }
+        }
+        arrangeAnnotationDivs(sectionTitles[currentSectionIndex]);
+      }
+
+      function arrangeAnnotationDivs(currentStage) {
+        switch (currentStage) {
+          case "Axis & Legend":
+            console.log("stage 1!");
+            document.getElementById("axisAndLegend").style.visibility =
+              "visible";
+            document.getElementById("generalizedSelection").style.visibility =
+              "hidden";
+            break;
+          case "Marks":
+            console.log("stage 2!");
+            document.getElementById("axisAndLegend").style.visibility =
+              "hidden";
+            document.getElementById("generalizedSelection").style.visibility =
+              "visible";
+            break;
+          default:
+            document.getElementById("axisAndLegend").style.visibility =
+              "hidden";
+            document.getElementById("generalizedSelection").style.visibility =
+              "hidden";
+            break;
         }
       }
 
