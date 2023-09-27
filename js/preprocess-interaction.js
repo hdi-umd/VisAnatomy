@@ -496,7 +496,6 @@ function removeLegendLabel(text) {
  * bug: waterfall_04
  */
 function enableDragDrop(texts) {
-  console.log("Hell");
   let svg = d3.select("#rbox1");
   let dragHandler = d3
     .drag()

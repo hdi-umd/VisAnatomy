@@ -365,8 +365,8 @@ function displayTitleLegendLabel(thisText, mode) {
  * Unhandled:
  * horizontalbar_highchart (rect3, rect4), stacked_highchart (rect8, rect13), highcharts_grouped_3
  */
-function setViewBox(texts, lines, rects) {
-  let vb = getViewBox(texts, lines, rects);
+function setViewBox() {
+  let vb = getViewBox();
   let margin = 15,
     vbString = [
       vb.left - margin,
@@ -545,25 +545,16 @@ function setViewBox(texts, lines, rects) {
   }
 }
 
-function getViewBox(texts, lines, rects) {
-  // let rects = jsonArr["rects"];
-  texts = textProcessor(texts);
-  //let lines = jsonArr["lines"];
-  let allNodes = rects.concat(texts).concat(lines);
-  let bbox = getBoundingBox(allNodes[0]);
-  // console.log(allNodes[0], bbox.bottom);
-  for (let i = 1; i < allNodes.length; i++) {
-    let bbox2 = getBoundingBox(allNodes[i]);
-    bbox.left = isNaN(bbox2.left) ? bbox.left : Math.min(bbox.left, bbox2.left);
-    bbox.right = isNaN(bbox2.right)
-      ? bbox.right
-      : Math.max(bbox.right, bbox2.right);
-    bbox.top = isNaN(bbox2.top) ? bbox.top : Math.min(bbox.top, bbox2.top);
-    bbox.bottom = isNaN(bbox2.bottom)
-      ? bbox.bottom
-      : Math.max(bbox.bottom, bbox2.bottom);
-  }
-  return bbox;
+function getViewBox() {
+  let allBBoxes = groupSVGElementsByTypeWithCoordinates();
+  return {
+    left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
+    top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
+    right: allBBoxes.map((bbox) => bbox.right).reduce((a, b) => Math.max(a, b)),
+    bottom: allBBoxes
+      .map((bbox) => bbox.bottom)
+      .reduce((a, b) => Math.max(a, b)),
+  };
 }
 
 function getBoundingBox(node) {
