@@ -12,8 +12,17 @@ graphicsElementTypes = [
   "text",
   "use",
 ];
+var allLeftNodes = [];
 
 function initilizeMarkAnnotation() {
+  referenceElements.forEach((rid) => {
+    d3.select("#" + rid).style("opacity", "0.1");
+  });
+
+  allLeftNodes = Object.keys(mainContent)
+    .map((key) => mainContent[key])
+    .flat();
+
   leafNodeTypes = Object.keys(mainContent).filter((key) =>
     graphicsElementTypes.includes(key)
   );
@@ -47,30 +56,70 @@ function initilizeMarkAnnotation() {
     });
   });
 
-  // // then populate all possible mark batch selections
-  // [
-  //   "All_Marks",
-  //   ...mainContent.rects
-  //     .map((r) => r.fill)
-  //     .filter(onlyUnique)
-  //     .map((fill) => "All_Marks_of_" + fill.slice(1)),
-  // ].forEach((selection) => {
-  //   let selectionDiv = document.createElement("div");
-  //   selectionDiv.classList.add("selectionDiv");
-  //   selectionDiv.id = selection;
-  //   selectionDiv.innerHTML = selection.replaceAll("_", " ");
-  //   selectionDiv.style.display = "inline-block";
-  //   selectionDiv.style.width = "fit-content";
-  //   selectionDiv.style.height = "fit-content";
-  //   selectionDiv.style.border = "1px solid #000";
-  //   selectionDiv.style.padding = "2px";
-  //   selectionDiv.style.margin = "2px";
-  //   selectionDiv.style.cursor = "pointer";
-  //   document.getElementById("markSelections").appendChild(selectionDiv);
-  //   d3.select("#" + selection).on("click", () => {
-  //     selectionOnClick(selection);
-  //   });
-  // });
+  // then populate all possible mark batch selections
+
+  let batchSelections = ["All_marks"];
+  leafNodeTypes.forEach((type) => {
+    switch (type) {
+      case "line":
+        batchSelections.push("All_lines");
+        break;
+      case "polyline":
+        batchSelections.push("All_polylines");
+        break;
+      case "rect":
+        batchSelections.push("All_rects");
+        batchSelections.push(
+          ...mainContent[type]
+            .map((r) => r.element.attributes.fill?.value)
+            .filter(onlyUnique)
+            .filter((fill) => fill !== undefined)
+            .map((fill) => "All_rects_fill_" + fill.slice(1)) // TBD: need to handle cases where (1) fill is in their parent values, and (2) fill values contain special characters
+        );
+        break;
+      case "circle":
+        break;
+      case "ellipse":
+        break;
+      case "ploygon":
+        break;
+      case "path":
+        batchSelections.push("All_paths");
+        batchSelections.push(
+          ...mainContent[type]
+            .map((r) => r.element.attributes.fill?.value)
+            .filter(onlyUnique)
+            .filter((fill) => fill !== undefined)
+            .map((fill) => "All_paths_fill_" + fill.slice(1))
+        );
+        break;
+      case "image":
+        break;
+      case "text":
+        break;
+      case "use":
+        break;
+      default:
+        break;
+    }
+  });
+  batchSelections.forEach((selection) => {
+    let selectionDiv = document.createElement("div");
+    selectionDiv.classList.add("selectionDiv");
+    selectionDiv.id = selection;
+    selectionDiv.innerHTML = selection.replaceAll("_", " ");
+    selectionDiv.style.display = "inline-block";
+    selectionDiv.style.width = "100%";
+    selectionDiv.style.height = "fit-content";
+    selectionDiv.style.border = "1px solid #000";
+    selectionDiv.style.padding = "2px";
+    selectionDiv.style.margin = "2px";
+    selectionDiv.style.cursor = "pointer";
+    document.getElementById("markSelections").appendChild(selectionDiv);
+    d3.select("#" + selection).on("click", () => {
+      selectionOnClick(selection);
+    });
+  });
 }
 
 function markOnClick(markID) {
@@ -91,13 +140,27 @@ function selectionOnClick(selectionID) {
   d3.select("#" + selectionID)
     .style("background-color", "#000000")
     .style("color", "white");
-  if (selectionID == "All_Marks") {
-    markSelection = mainContent.rects.map((r) => r.id);
+  if (selectionID == "All_marks") {
+    markSelection = allLeftNodes.map((element) => element.id);
   } else {
-    let fill = selectionID.split("_").pop();
-    markSelection = mainContent.rects
-      .filter((r) => r.fill == "#" + fill)
-      .map((r) => r.id);
+    let selectionMetaInfo = selectionID.split("_");
+    if (selectionMetaInfo.length == 2) {
+      markSelection = mainContent[selectionMetaInfo[1].slice(0, -1)].map(
+        (element) => element.id
+      );
+    } else {
+      // selectionMetaInfo.length == 4
+      let channel = selectionMetaInfo[2];
+      let value = selectionMetaInfo[3];
+      console.log(channel, value);
+      markSelection = mainContent[selectionMetaInfo[1].slice(0, -1)]
+        .filter(
+          (element) =>
+            element.element.attributes[channel]?.value ===
+            (channel === "fill" ? "#" + value : value)
+        )
+        .map((element) => element.id);
+    }
   }
   markSelection.forEach((markID) => {
     d3.select("#mark_" + markID)
@@ -122,16 +185,17 @@ function disableAllMarkSelections() {
 }
 
 function svgHighlighting() {
-  mainContent.rects
-    .map((r) => r.id)
+  // TBD: need to highlight the svg elements based on type
+  allLeftNodes
+    .map((node) => node.id)
     .forEach((r) => {
       d3.select("#" + r).style("opacity", "1");
     }); // need to recover to full opacity first
-  mainContent.rects
-    .map((r) => r.id)
+  allLeftNodes
+    .map((node) => node.id)
     .filter((r) => !markSelection.includes(r))
     .forEach((r) => {
-      d3.select("#" + r).style("opacity", "0.1");
+      d3.select("#" + r).style("opacity", "0.2");
     });
 }
 
@@ -147,18 +211,18 @@ function markAnnotationChanged(attr) {
 }
 
 function reflectChanges() {
-  markSelection.forEach((rectID) => {
-    let markDiv = document.getElementById("mark_" + rectID);
-    markDiv.innerHTML = rectID;
-    if (markAnnotations[rectID]["Type"] !== "none") {
+  markSelection.forEach((markID) => {
+    let markDiv = document.getElementById("mark_" + markID);
+    markDiv.innerHTML = markID;
+    if (markAnnotations[markID]["Type"] !== "none") {
       let typeTag = document.createElement("span");
-      typeTag.innerHTML = " " + markAnnotations[rectID]["Type"];
+      typeTag.innerHTML = " " + markAnnotations[markID]["Type"];
       typeTag.style.color = "#E69F00";
       markDiv.appendChild(typeTag);
     }
-    if (markAnnotations[rectID]["Role"] !== "none") {
+    if (markAnnotations[markID]["Role"] !== "none") {
       let roleTag = document.createElement("span");
-      roleTag.innerHTML = " " + markAnnotations[rectID]["Role"];
+      roleTag.innerHTML = " " + markAnnotations[markID]["Role"];
       roleTag.style.color = "#009E73";
       markDiv.appendChild(roleTag);
     }

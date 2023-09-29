@@ -31,6 +31,7 @@ var keys_of_interest = [
   "display",
   "matrix",
 ];
+var referenceElements = [];
 
 function groupSVGElementsByTypeWithCoordinates() {
   const tempDiv = document.getElementById("rbox1");
@@ -73,7 +74,7 @@ function groupSVGElementsByTypeWithCoordinates() {
 }
 
 function groupSVGElementsByType() {
-  const referenceElements = [
+  referenceElements = [
     ...(legend.labels ? legend.labels : []),
     ...(legend.marks ? legend.marks : []),
     ...(xAxis.labels ? xAxis.labels : []),

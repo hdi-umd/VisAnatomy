@@ -944,6 +944,9 @@
         switch (currentStage) {
           case "Axis & Legend":
             console.log("stage 1!");
+            referenceElements.forEach((rid) => {
+              d3.select("#" + rid).style("opacity", "1");
+            });
             document.getElementById("axisAndLegend").style.visibility =
               "visible";
             document.getElementById("generalizedSelection").style.visibility =
@@ -1045,11 +1048,11 @@
             inYTitle = false;
             titleLegend = [];
 
-            legend = undefined;
-            xAxis = undefined;
-            yAxis = undefined;
-            xGridlines = undefined;
-            yGridlines = undefined;
+            legend = {};
+            xAxis = {};
+            yAxis = {};
+            xGridlines = {};
+            yGridlines = {};
             demoName = demo;
             d3.select("#preprocessUI").style("visibility", "visible");
             d3.select("#layers").selectAll("*").remove();
