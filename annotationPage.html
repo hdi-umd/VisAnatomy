@@ -788,13 +788,37 @@
             border: #ccc 0px solid;
           "
         >
-          <div>
+          <div style="height: 100%">
             <h3>All Mark IDs</h3>
 
             <div
               id="allMarks"
               style="
-                height: 150px;
+                height: 90%;
+                width: 250px;
+                border: #0ba7bc 1px solid;
+                padding: 5px;
+                margin-bottom: 10px;
+                vertical-align: top;
+                overflow: scroll;
+                overflow: -moz-scrollbars-vertical;
+              "
+            ></div>
+          </div>
+          <div
+            style="
+              height: 100%;
+              width: calc(100% - 275px);
+              position: absolute;
+              top: 0;
+              right: 0;
+            "
+          >
+            <h3>Mark Selections</h3>
+            <div
+              id="markSelections"
+              style="
+                height: calc(90% - 150px);
                 width: 100%;
                 border: #0ba7bc 1px solid;
                 padding: 5px;
@@ -805,25 +829,20 @@
               "
             ></div>
           </div>
-          <div>
-            <h3>Mark Selections</h3>
-            <div
-              id="markSelections"
-              style="
-                height: 150px;
-                width: 100%;
-                border: #0ba7bc 1px solid;
-                padding: 5px;
-                margin-bottom: 10px;
-              "
-            ></div>
-          </div>
-          <div>
+          <div
+            style="
+              height: 150;
+              width: calc(100% - 275px);
+              position: absolute;
+              bottom: 0;
+              right: 0;
+            "
+          >
             <h3>Mark Types and Roles</h3>
             <div
               id="markRoles"
               style="
-                height: 150;
+                height: 100%;
                 width: 100%;
                 border: #0ba7bc 1px solid;
                 padding: 5px;
@@ -938,7 +957,7 @@
             console.log(mainContent);
 
             // below for initilizing the mark annotation
-            // initilizeMarkAnnotation();
+            initilizeMarkAnnotation();
 
             document.getElementById("axisAndLegend").style.visibility =
               "hidden";

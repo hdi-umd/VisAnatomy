@@ -1,54 +1,76 @@
 markAnnotations = {};
 markSelection = [];
+graphicsElementTypes = [
+  "line",
+  "polyline",
+  "rect",
+  "circle",
+  "ellipse",
+  "ploygon",
+  "path",
+  "image",
+  "text",
+  "use",
+];
 
 function initilizeMarkAnnotation() {
-  mainContent.rects.forEach(
-    (rect) => (markAnnotations[rect.id] = { Type: "none", Role: "none" })
+  leafNodeTypes = Object.keys(mainContent).filter((key) =>
+    graphicsElementTypes.includes(key)
   );
 
-  // first load processed marks into div.allMarks
-  mainContent.rects.forEach((mark) => {
-    let markDiv = document.createElement("div");
-    markDiv.classList.add("markDiv");
-    markDiv.id = "mark_" + mark.id;
-    markDiv.innerHTML = mark.id;
-    markDiv.style.display = "inline-block";
-    markDiv.style.width = "fit-content";
-    markDiv.style.height = "fit-content";
-    markDiv.style.border = "1px solid #000";
-    markDiv.style.padding = "2px";
-    markDiv.style.margin = "2px";
-    markDiv.style.cursor = "pointer";
-    document.getElementById("allMarks").appendChild(markDiv);
-    d3.select("#mark_" + mark.id).on("click", () => {
-      markOnClick(mark.id);
+  leafNodeTypes.forEach((type) => {
+    // initialize the type and role of each graphical element
+    mainContent[type].forEach((element) => {
+      markAnnotations[element.id] = {
+        Type: type === "path" ? "none" : type,
+        Role: "none",
+      };
+    });
+
+    // then add the mark annotation divs
+    mainContent[type].forEach((element) => {
+      let markDiv = document.createElement("div");
+      markDiv.classList.add("markDiv");
+      markDiv.id = "mark_" + element.id;
+      markDiv.innerHTML = element.id;
+      markDiv.style.display = "inline-block";
+      markDiv.style.width = "100%";
+      markDiv.style.height = "fit-content";
+      markDiv.style.border = "1px solid #000";
+      markDiv.style.padding = "2px";
+      markDiv.style.margin = "2px";
+      markDiv.style.cursor = "pointer";
+      document.getElementById("allMarks").appendChild(markDiv);
+      d3.select("#mark_" + element.id).on("click", () => {
+        markOnClick(element.id);
+      });
     });
   });
 
-  // then populate all possible mark batch selections
-  [
-    "All_Marks",
-    ...mainContent.rects
-      .map((r) => r.fill)
-      .filter(onlyUnique)
-      .map((fill) => "All_Marks_of_" + fill.slice(1)),
-  ].forEach((selection) => {
-    let selectionDiv = document.createElement("div");
-    selectionDiv.classList.add("selectionDiv");
-    selectionDiv.id = selection;
-    selectionDiv.innerHTML = selection.replaceAll("_", " ");
-    selectionDiv.style.display = "inline-block";
-    selectionDiv.style.width = "fit-content";
-    selectionDiv.style.height = "fit-content";
-    selectionDiv.style.border = "1px solid #000";
-    selectionDiv.style.padding = "2px";
-    selectionDiv.style.margin = "2px";
-    selectionDiv.style.cursor = "pointer";
-    document.getElementById("markSelections").appendChild(selectionDiv);
-    d3.select("#" + selection).on("click", () => {
-      selectionOnClick(selection);
-    });
-  });
+  // // then populate all possible mark batch selections
+  // [
+  //   "All_Marks",
+  //   ...mainContent.rects
+  //     .map((r) => r.fill)
+  //     .filter(onlyUnique)
+  //     .map((fill) => "All_Marks_of_" + fill.slice(1)),
+  // ].forEach((selection) => {
+  //   let selectionDiv = document.createElement("div");
+  //   selectionDiv.classList.add("selectionDiv");
+  //   selectionDiv.id = selection;
+  //   selectionDiv.innerHTML = selection.replaceAll("_", " ");
+  //   selectionDiv.style.display = "inline-block";
+  //   selectionDiv.style.width = "fit-content";
+  //   selectionDiv.style.height = "fit-content";
+  //   selectionDiv.style.border = "1px solid #000";
+  //   selectionDiv.style.padding = "2px";
+  //   selectionDiv.style.margin = "2px";
+  //   selectionDiv.style.cursor = "pointer";
+  //   document.getElementById("markSelections").appendChild(selectionDiv);
+  //   d3.select("#" + selection).on("click", () => {
+  //     selectionOnClick(selection);
+  //   });
+  // });
 }
 
 function markOnClick(markID) {

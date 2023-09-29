@@ -87,7 +87,6 @@ function groupSVGElementsByType() {
       yAxis.path ? yAxis.path.id : undefined,
     ]
   );
-  console.log(referenceElements);
 
   const tempDiv = document.getElementById("rbox1");
 
