@@ -726,31 +726,32 @@
       let chartName2Path = null;
       let chartUrl2Web = null;
 
-      function refresh() {}
-      // getting file name from url
-      const urlParams = new URLSearchParams(window.location.search);
-      const fileName = urlParams.get("file");
+      function refresh() {
+        // getting file name from url
+        const urlParams = new URLSearchParams(window.location.search);
+        const fileName = urlParams.get("file");
 
-      console.log(fileName);
+        console.log(fileName);
 
-      if (fileName) {
-        // load file from url if it exists
-        sessionStorage.setItem("fileName", fileName + ".svg");
-        loadDemo(fileName);
-      } else if (
-        sessionStorage.getItem("svg") &&
-        sessionStorage.getItem("svg").length > 0
-      ) {
-        loadDemo("artboard");
+        if (fileName) {
+          // load file from url if it exists
+          sessionStorage.setItem("fileName", fileName + ".svg");
+          loadDemo(fileName);
+        } else if (
+          sessionStorage.getItem("svg") &&
+          sessionStorage.getItem("svg").length > 0
+        ) {
+          loadDemo("artboard");
 
-        let demo = window.location.hash.replace("#", "");
+          let demo = window.location.hash.replace("#", "");
 
-        if (demo && demo != "") {
-          d3.select("body").style("overflow-y", "hidden");
-          window.scrollTo(0, 0);
-          loadDemo(demo);
-        } else {
-          d3.select("body").style("overflow-y", "auto");
+          if (demo && demo != "") {
+            d3.select("body").style("overflow-y", "hidden");
+            window.scrollTo(0, 0);
+            loadDemo(demo);
+          } else {
+            d3.select("body").style("overflow-y", "auto");
+          }
         }
       }
 
