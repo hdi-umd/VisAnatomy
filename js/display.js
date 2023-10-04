@@ -47,11 +47,11 @@ function displaySVG(text) {
         } else {
           element.setAttribute("class", "mark");
         }
-        element.addEventListener("contextmenu", (event) => {
-          event.preventDefault();
-          console.log('Right-clicked on leaf node with class "mark"');
-          // Your code to handle the right-click event goes here
-        });
+        // element.addEventListener("contextmenu", (event) => {
+        //   event.preventDefault();
+        //   console.log('Right-clicked on leaf node with class "mark"');
+        //   // Your code to handle the right-click event goes here
+        // });
       }
     }
   }

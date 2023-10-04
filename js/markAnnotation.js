@@ -12,6 +12,7 @@ graphicsElementTypes = [
   "text",
   "use",
 ];
+channelBasedBatchSelections4AllMarks = {};
 var allLeftNodes = [];
 
 function initilizeMarkAnnotation() {
@@ -23,10 +24,34 @@ function initilizeMarkAnnotation() {
     .map((key) => mainContent[key])
     .flat();
 
+  // TBD: handle invisible elements and note their type as "general" and role as "invisible"
+  let invisibleElements = allLeftNodes.filter(
+    (element) =>
+      element.element.attributes["visibility"]?.value === "hidden" ||
+      element.element.attributes["display"]?.value === "none" ||
+      element.element.attributes["opacity"]?.value === "0" ||
+      element.element.attributes["stroke-width"]?.value === "0" ||
+      element.element.attributes["fill"]?.value === "transparent" ||
+      element.element.attributes["font-size"]?.value === "0" ||
+      element.element.attributes["stroke"]?.value === "transparent"
+  );
+  console.log(invisibleElements);
+  allLeftNodes = allLeftNodes.filter(
+    (element) => !invisibleElements.includes(element)
+  );
+  Object.keys(mainContent).forEach((key) => {
+    // remove invisible elements from mainContent
+    mainContent[key] = mainContent[key].filter(
+      (element) => !invisibleElements.includes(element)
+    );
+    if (mainContent[key].length === 0) delete mainContent[key];
+  });
+
   leafNodeTypes = Object.keys(mainContent).filter((key) =>
     graphicsElementTypes.includes(key)
   );
 
+  document.getElementById("allMarks").innerHTML = "";
   leafNodeTypes.forEach((type) => {
     // initialize the type and role of each graphical element
     mainContent[type].forEach((element) => {
@@ -57,67 +82,39 @@ function initilizeMarkAnnotation() {
   });
 
   // then populate all possible mark batch selections
-
-  let batchSelections = ["All_marks"];
-  leafNodeTypes.forEach((type) => {
-    switch (type) {
-      case "line":
-        batchSelections.push("All_lines");
-        break;
-      case "polyline":
-        batchSelections.push("All_polylines");
-        break;
-      case "rect":
-        batchSelections.push("All_rects");
-        batchSelections.push(
-          ...mainContent[type]
-            .map((r) => r.element.attributes.fill?.value)
-            .filter(onlyUnique)
-            .filter((fill) => fill !== undefined)
-            .map((fill) => "All_rects_fill_" + fill.slice(1)) // TBD: need to handle cases where (1) fill is in their parent values, and (2) fill values contain special characters
-        );
-        break;
-      case "circle":
-        break;
-      case "ellipse":
-        break;
-      case "ploygon":
-        break;
-      case "path":
-        batchSelections.push("All_paths");
-        batchSelections.push(
-          ...mainContent[type]
-            .map((r) => r.element.attributes.fill?.value)
-            .filter(onlyUnique)
-            .filter((fill) => fill !== undefined)
-            .map((fill) => "All_paths_fill_" + fill.slice(1))
-        );
-        break;
-      case "image":
-        break;
-      case "text":
-        break;
-      case "use":
-        break;
-      default:
-        break;
-    }
+  leafNodeTypes.forEach((elementType) => {
+    channelBasedBatchSelections4AllMarks[elementType] =
+      dertermineChannelBasedBatchSelections(elementType);
   });
-  batchSelections.forEach((selection) => {
-    let selectionDiv = document.createElement("div");
-    selectionDiv.classList.add("selectionDiv");
-    selectionDiv.id = selection;
-    selectionDiv.innerHTML = selection.replaceAll("_", " ");
-    selectionDiv.style.display = "inline-block";
-    selectionDiv.style.width = "100%";
-    selectionDiv.style.height = "fit-content";
-    selectionDiv.style.border = "1px solid #000";
-    selectionDiv.style.padding = "2px";
-    selectionDiv.style.margin = "2px";
-    selectionDiv.style.cursor = "pointer";
-    document.getElementById("markSelections").appendChild(selectionDiv);
-    d3.select("#" + selection).on("click", () => {
-      selectionOnClick(selection);
+  console.log(channelBasedBatchSelections4AllMarks);
+
+  document.getElementById("markSelections").innerHTML = "";
+
+  Object.keys(channelBasedBatchSelections4AllMarks).forEach((elementType) => {
+    let channelBasedBatchSelections =
+      channelBasedBatchSelections4AllMarks[elementType];
+    Object.keys(channelBasedBatchSelections).forEach((channel) => {
+      let valueJson = channelBasedBatchSelections[channel];
+      let values = Object.keys(valueJson);
+      for (let value of values) {
+        let selectionDiv = document.createElement("div");
+        selectionDiv.classList.add("selectionDiv");
+        selectionDiv.id =
+          elementType + "_" + channel + "_value" + values.indexOf(value);
+        selectionDiv.innerHTML = elementType + "_" + channel + "_" + value;
+        selectionDiv.style.display = "inline-block";
+        selectionDiv.style.width = "100%";
+        selectionDiv.style.height = "fit-content";
+        selectionDiv.style.border = "1px solid #000";
+        selectionDiv.style.padding = "2px";
+        selectionDiv.style.margin = "2px";
+        selectionDiv.style.cursor = "pointer";
+        document.getElementById("markSelections").appendChild(selectionDiv);
+        d3.select("#" + selectionDiv.id).on("click", () => {
+          console.log(elementType + "_" + channel + "_" + value);
+          selectionOnClick(selectionDiv.id, valueJson[value]);
+        });
+      }
     });
   });
 }
@@ -135,33 +132,12 @@ function markOnClick(markID) {
   svgHighlighting();
 }
 
-function selectionOnClick(selectionID) {
+function selectionOnClick(selectionID, selection) {
   disableAllMarkSelections();
   d3.select("#" + selectionID)
     .style("background-color", "#000000")
     .style("color", "white");
-  if (selectionID == "All_marks") {
-    markSelection = allLeftNodes.map((element) => element.id);
-  } else {
-    let selectionMetaInfo = selectionID.split("_");
-    if (selectionMetaInfo.length == 2) {
-      markSelection = mainContent[selectionMetaInfo[1].slice(0, -1)].map(
-        (element) => element.id
-      );
-    } else {
-      // selectionMetaInfo.length == 4
-      let channel = selectionMetaInfo[2];
-      let value = selectionMetaInfo[3];
-      console.log(channel, value);
-      markSelection = mainContent[selectionMetaInfo[1].slice(0, -1)]
-        .filter(
-          (element) =>
-            element.element.attributes[channel]?.value ===
-            (channel === "fill" ? "#" + value : value)
-        )
-        .map((element) => element.id);
-    }
-  }
+  markSelection = selection;
   markSelection.forEach((markID) => {
     d3.select("#mark_" + markID)
       .style("background-color", "#000000")
@@ -227,4 +203,72 @@ function reflectChanges() {
       markDiv.appendChild(roleTag);
     }
   });
+}
+
+function dertermineChannelBasedBatchSelections(elementType) {
+  let marks = mainContent[elementType];
+  let channelBasedBatchSelections = {};
+  let values;
+
+  function getBatches(channel, marks, channelBasedBatchSelections) {
+    channelBasedBatchSelections[channel] = {};
+    values = marks
+      .map((r) =>
+        r.element.attributes[channel]
+          ? r.element.attributes[channel].value
+          : "undefined"
+      )
+      .filter(onlyUnique);
+    values.forEach((value, index) => {
+      channelBasedBatchSelections[channel][value] = marks
+        .filter(
+          (r) =>
+            r.element.attributes[channel]?.value === value ||
+            (value === "undefined" && !r.element.attributes[channel])
+        )
+        .map((r) => r.id);
+    });
+
+    if (Object.keys(channelBasedBatchSelections[channel]).length === 1) {
+      // if all marks have the same value for this channel
+      delete channelBasedBatchSelections[channel];
+    }
+
+    return channelBasedBatchSelections;
+  }
+
+  let typeBasedChannels = [];
+  switch (elementType) {
+    case "line":
+      typeBasedChannels = ["stroke", "stroke-dasharray", "stroke-width"];
+      break;
+    case "polyline":
+      break;
+    case "rect":
+    case "circle":
+    case "ellipse":
+    case "ploygon":
+    case "path":
+      typeBasedChannels = ["fill"];
+      break;
+    case "image":
+    case "text":
+      // TBD: handle when font-family, font-size, and fill are not specified
+      typeBasedChannels = ["font-family", "font-size", "fill"];
+      break;
+    case "use":
+      break;
+    default:
+      break;
+  }
+
+  typeBasedChannels.forEach((channel) => {
+    channelBasedBatchSelections = getBatches(
+      channel,
+      marks,
+      channelBasedBatchSelections
+    );
+  });
+
+  return channelBasedBatchSelections;
 }
