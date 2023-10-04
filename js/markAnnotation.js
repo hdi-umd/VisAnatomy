@@ -19,6 +19,7 @@ function initilizeMarkAnnotation() {
   referenceElements.forEach((rid) => {
     d3.select("#" + rid).style("opacity", "0.1");
   });
+  markSelection = []; // reset mark selection
 
   allLeftNodes = Object.keys(mainContent)
     .map((key) => mainContent[key])
@@ -217,6 +218,10 @@ function dertermineChannelBasedBatchSelections(elementType) {
       .map((r) =>
         r.element.attributes[channel]
           ? r.element.attributes[channel].value
+          : channel === "fill"
+          ? r.element.parentNode.attributes[channel]?.value
+            ? r.element.parentNode.attributes[channel]?.value
+            : "undefined"
           : "undefined"
       )
       .filter(onlyUnique);
@@ -225,7 +230,9 @@ function dertermineChannelBasedBatchSelections(elementType) {
         .filter(
           (r) =>
             r.element.attributes[channel]?.value === value ||
-            (value === "undefined" && !r.element.attributes[channel])
+            (value === "undefined" && !r.element.attributes[channel]) ||
+            (channel === "fill" &&
+              r.element.parentNode.attributes[channel].value === value)
         )
         .map((r) => r.id);
     });
@@ -254,7 +261,7 @@ function dertermineChannelBasedBatchSelections(elementType) {
       break;
     case "image":
     case "text":
-      // TBD: handle when font-family, font-size, and fill are not specified
+      // TBD: handle when font-family, font-size, and fill are not specified or specificed in the style attribute
       typeBasedChannels = ["font-family", "font-size", "fill"];
       break;
     case "use":
