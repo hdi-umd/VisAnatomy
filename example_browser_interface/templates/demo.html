@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+
+{% block main %} 
+    <div class="center" id="thanks">
+        <h1>Demo</h1>
+        <p class="flow-text">
+            Please watch the video below to learn more about the experiment interface<br> <br>
+
+            <iframe width="560" height="315" src="{{url_for('static', filename='ExampleFiles/eid-experiment- demo.mp4')}}" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <a href="{{url_for('main', id=data.id, condition=data.condition)}}" id="proceed"><button class="btn waves-effect waves-light btn-large" type="submit" name="action">Proceed</button></a>
+    </div>
+   
+{% endblock %}

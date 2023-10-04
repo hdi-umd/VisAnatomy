@@ -1,0 +1,2 @@
+FLASK_APP=EIDInterface.py
+FLASK_DEBUG=True

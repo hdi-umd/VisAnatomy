@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+
+{% block main %} 
+    <div class="center">
+      <img class="responsive-img" src="/static/ExampleFiles/{{image.filename}}/" width=550 height=500>
+      <p class="flow-text">{{image.description}}</p>
+    </div>
+   
+{% endblock %}
