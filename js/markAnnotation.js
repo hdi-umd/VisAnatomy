@@ -1,6 +1,6 @@
-markAnnotations = {};
-markSelection = [];
-graphicsElementTypes = [
+var markAnnotations = {};
+var markSelection = [];
+var graphicsElementTypes = [
   "line",
   "polyline",
   "rect",
@@ -12,7 +12,7 @@ graphicsElementTypes = [
   "text",
   "use",
 ];
-channelBasedBatchSelections4AllMarks = {};
+var channelBasedBatchSelections4AllMarks = {};
 var allLeftNodes = [];
 
 function initilizeMarkAnnotation() {
