@@ -682,7 +682,7 @@ function findyAxis(texts, rects, lines, nodes, nodeIndex, xAxis) {
         let isYaxis = false;
         let isYticks = false;
         while (isYaxis == false || isYticks == false) {
-            if (candidateLines !== []) {
+            if (candidateLines.length > 0) {
                 if (isYaxis == false) {
                     possibleAxis = candidateLines.filter(function(line) {if(line['x1'] == line['x2'] && line['x1']>=Math.max(...Labels.map(t => t['right']))-30 && line['x1']-Math.max(...Labels.map(t => t['right']))<30 && Math.abs(line['y1']-line['y2'])>=Math.max(...Labels.map(t => t['y'])) - Math.min(...Labels.map(t => t['y']))) return line});
                     possibleAxis = possibleAxis.sort((a, b) => (Math.abs(a['x1']-mostFrenquentX) > Math.abs(b['x1']-mostFrenquentX)) ? 1 : -1);

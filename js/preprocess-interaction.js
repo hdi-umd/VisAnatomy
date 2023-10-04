@@ -292,7 +292,7 @@ function drop(ev) {
     draggedFromID = draggedFromNode.parentNode.id;
   } // dragged element
 
-  /* dropping from a x/y axis label box into xtitle box */
+  /* dropping from a x/y axis label box into title box */
   if (
     ev.currentTarget.id.startsWith("xTitle") ||
     ev.currentTarget.id.startsWith("yTitle") ||
@@ -336,17 +336,75 @@ function drop(ev) {
       displayAxis(xAxis);
       displayAxis(yAxis);
     }
-  } else if (
+
+    /* dragging from one title box to another */
+    else if (
+      draggedFromID.startsWith("xTitle") ||
+      draggedFromID.startsWith("yTitle") ||
+      draggedFromID.startsWith("legendTitle")
+    )
+    {
+      let thisTitle = draggedFromID.startsWith("xTitle")
+        ? "x"
+        : draggedFromID.startsWith("yTitle")
+        ? "y"
+        : "legend";
+
+      console.log(thisTitle);
+
+      switch (thisTitle) {
+        case "x":
+          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
+          displayTitleXLabel(thisText, "delete");
+          console.log("x title is ", titleXaxis);
+          break;
+        case "y":
+          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
+          console.log(titleYaxis);
+          displayTitleYLabel(thisText, "delete");
+          console.log("y title is ", titleYaxis);
+          break;
+        case "legend":
+          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          displayTitleLegendLabel(thisText, "delete");
+          console.log("legend title is ", titleLegend);
+          break;
+      }
+
+   
+        thisTitle = ev.currentTarget.id.startsWith("xTitle")
+        ? "x"
+        : ev.currentTarget.id.startsWith("yTitle")
+        ? "y"
+        : "legend";
+
+      switch (thisTitle) {
+        case "x":
+          displayTitleXLabel(thisText);
+          break;
+        case "y":
+          displayTitleYLabel(thisText);
+          break;
+        case "x":
+          displayTitleLegendLabel(thisText);
+          break;
+      }
+    }
+  } 
+  
+  /* dragging to label region */
+  else if (
     ev.currentTarget.id.startsWith("xLabels") ||
     ev.currentTarget.id.startsWith("yLabels")
-  ) {
+  ) 
+  {
     let thisText = d3.select("#" + data).datum();
-    // when the element is dropped in the detected region
-    /*dropping from title region into y label region */
+    
+    /* if dragged from title region */
     if (
       draggedFromID.startsWith("xTitle") ||
       draggedFromID.startsWith("yTitle") ||
-      ev.currentTarget.id.startsWith("legendTitle")
+      draggedFromID.startsWith("legendTitle")
     ) {
       let thisTitle = draggedFromID.startsWith("xTitle")
         ? "x"
@@ -381,6 +439,8 @@ function drop(ev) {
       displayAxis(xAxis);
       displayAxis(yAxis);
     }
+
+    /* if dragged from label region */
     if (
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
@@ -402,14 +462,19 @@ function drop(ev) {
       displayAxis(yAxis);
       ev.stopImmediatePropagation(); // stop the event from bubbling up to the SVG element
     }
-  } else {
-    // when an label from detected region are dropped outside, delete it
+  }
+   
+  /* when an label from detected region are dropped outside, delete it */
+  else {
+   
     undoStack.push({
       xAxis: duplicate(xAxis),
       yAxis: duplicate(yAxis),
       legend: duplicate(legend),
-      btnCheck: Object.assign({}, btnCheck),
+      btnCheck: Object.assign({}, btnCheck)
     });
+
+    /* when dragged from a label region to outside */
     if (
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
@@ -421,8 +486,37 @@ function drop(ev) {
       removeLegendLabel(d3.select("#" + data).datum());
       displayLegend(legend);
     }
-    ev.stopImmediatePropagation();
-  }
+  
+    /* drag anything from title region outside and delete it */
+  //   else if(draggedFromID.startsWith("xTitle") || draggedFromID.startsWith("yTitle") || draggedFromID.startsWith("legendTitle") )
+  //   { 
+  //     let thisText = d3.select("#" + data).datum();
+  //     let thisTitle = draggedFromID.startsWith("xTitle")
+  //       ? "x"
+  //       : draggedFromID.startsWith("yTitle")
+  //       ? "y"
+  //       : "legend";
+  //     console.log(thisTitle);
+  //     switch (thisTitle) {
+  //       case "x":
+  //         titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
+  //         displayTitleXLabel(thisText, "delete");
+  //         console.log("x title is ", titleXaxis);
+  //         break;
+  //       case "y":
+  //         titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
+  //         console.log(titleYaxis);
+  //         displayTitleYLabel(thisText, "delete");
+  //         console.log("y title is ", titleYaxis);
+  //         break;
+  //       case "legend":
+  //         titleLegend.splice(titleLegend.indexOf(thisText), 1);
+  //         displayTitleLegendLabel(thisText, "delete");
+  //         console.log("legend title is ", titleLegend);
+  //         break;
+  //   }   
+  //   ev.stopImmediatePropagation();
+  // }
   d3.select(".tooltip").remove();
 }
 
@@ -543,6 +637,8 @@ function enableDragDrop(texts) {
       let current = d3.select(this);
       let TargetID;
       let thisText = texts.filter((t) => t["id"] == current.attr("id"))[0];
+      inXTitle = false;
+      inYTitle = false;
       d3.select(".div4text").remove();
 
       //getting the place where you drop the element
@@ -780,6 +876,8 @@ function enableDragDrop(texts) {
             }
           }
 
+          for (let i = 0; i < titleYaxis["labels"].length; i++)
+
           console.log(inXTitle);
 
           //if the dragged element is already present in the y title display
@@ -790,7 +888,8 @@ function enableDragDrop(texts) {
             console.log(button);
             var buttonText = button.textContent;
             console.log(buttonText);
-            if (buttonText === thisText["content"]) {
+            if (buttonText === thisText["content"]) 
+            {
               button.remove();
             }
           }
@@ -885,4 +984,5 @@ function buttonCheck(TargetID, thisText) {
   } else {
     if (thisText["id"] in btnCheck) delete btnCheck[thisText["id"]];
   }
+}
 }
