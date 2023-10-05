@@ -19,6 +19,7 @@ function initilizeMarkAnnotation() {
   referenceElements.forEach((rid) => {
     d3.select("#" + rid).style("opacity", "0.1");
   });
+  markSelection = []; // reset mark selection
 
   allLeftNodes = Object.keys(mainContent)
     .map((key) => mainContent[key])
@@ -35,7 +36,7 @@ function initilizeMarkAnnotation() {
       element.element.attributes["font-size"]?.value === "0" ||
       element.element.attributes["stroke"]?.value === "transparent"
   );
-  console.log(invisibleElements);
+
   allLeftNodes = allLeftNodes.filter(
     (element) => !invisibleElements.includes(element)
   );
@@ -81,6 +82,8 @@ function initilizeMarkAnnotation() {
     });
   });
 
+  annotations.markAnnotations = markAnnotations;
+
   // then populate all possible mark batch selections
   leafNodeTypes.forEach((elementType) => {
     channelBasedBatchSelections4AllMarks[elementType] =
@@ -91,6 +94,20 @@ function initilizeMarkAnnotation() {
   document.getElementById("markSelections").innerHTML = "";
 
   Object.keys(channelBasedBatchSelections4AllMarks).forEach((elementType) => {
+    // batch selection based on type
+    let typeDiv = document.createElement("div");
+    typeDiv.classList.add("selectionDiv");
+    typeDiv.id = elementType + "_all";
+    typeDiv.innerHTML = typeDiv.id;
+    document.getElementById("markSelections").appendChild(typeDiv);
+    d3.select("#" + typeDiv.id).on("click", () => {
+      selectionOnClick(
+        typeDiv.id,
+        mainContent[elementType].map((r) => r.id)
+      );
+    });
+
+    // batch selection based on channels
     let channelBasedBatchSelections =
       channelBasedBatchSelections4AllMarks[elementType];
     Object.keys(channelBasedBatchSelections).forEach((channel) => {
@@ -102,21 +119,22 @@ function initilizeMarkAnnotation() {
         selectionDiv.id =
           elementType + "_" + channel + "_value" + values.indexOf(value);
         selectionDiv.innerHTML = elementType + "_" + channel + "_" + value;
-        selectionDiv.style.display = "inline-block";
-        selectionDiv.style.width = "100%";
-        selectionDiv.style.height = "fit-content";
-        selectionDiv.style.border = "1px solid #000";
-        selectionDiv.style.padding = "2px";
-        selectionDiv.style.margin = "2px";
-        selectionDiv.style.cursor = "pointer";
         document.getElementById("markSelections").appendChild(selectionDiv);
         d3.select("#" + selectionDiv.id).on("click", () => {
-          console.log(elementType + "_" + channel + "_" + value);
           selectionOnClick(selectionDiv.id, valueJson[value]);
         });
       }
     });
   });
+
+  d3.selectAll(".selectionDiv")
+    .style("display", "inline-block")
+    .style("width", "100%")
+    .style("height", "fit-content")
+    .style("border", "1px solid #000")
+    .style("padding", "2px")
+    .style("margin", "2px")
+    .style("cursor", "pointer");
 }
 
 function markOnClick(markID) {
@@ -203,6 +221,9 @@ function reflectChanges() {
       markDiv.appendChild(roleTag);
     }
   });
+
+  annotations.markAnnotations = markAnnotations;
+  console.log(annotations);
 }
 
 function dertermineChannelBasedBatchSelections(elementType) {
@@ -216,6 +237,10 @@ function dertermineChannelBasedBatchSelections(elementType) {
       .map((r) =>
         r.element.attributes[channel]
           ? r.element.attributes[channel].value
+          : channel === "fill"
+          ? r.element.parentNode.attributes[channel]?.value
+            ? r.element.parentNode.attributes[channel]?.value
+            : "undefined"
           : "undefined"
       )
       .filter(onlyUnique);
@@ -224,7 +249,9 @@ function dertermineChannelBasedBatchSelections(elementType) {
         .filter(
           (r) =>
             r.element.attributes[channel]?.value === value ||
-            (value === "undefined" && !r.element.attributes[channel])
+            (value === "undefined" && !r.element.attributes[channel]) ||
+            (channel === "fill" &&
+              r.element.parentNode.attributes[channel]?.value === value)
         )
         .map((r) => r.id);
     });
@@ -253,7 +280,7 @@ function dertermineChannelBasedBatchSelections(elementType) {
       break;
     case "image":
     case "text":
-      // TBD: handle when font-family, font-size, and fill are not specified
+      // TBD: handle when font-family, font-size, and fill are not specified or specificed in the style attribute
       typeBasedChannels = ["font-family", "font-size", "fill"];
       break;
     case "use":
