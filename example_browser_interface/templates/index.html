@@ -1,0 +1,27 @@
+{%extends 'base.html'%}
+
+{% block main %} 
+    <div class="center">
+        <h1>Instructions</h1>
+        <p style="text-align: left;">
+            Thank you for participating in our study. In this session, you will be working with the experimenter to come up with visualization 
+            designs for a given dataset. In the following pages, you will be asked to:
+            <ol style="text-align: left;">
+                <li> Read and understand a design task provided to you. For example, you may be asked: <br>
+                    <i>Given the cars dataset, create a visualization that shows how the mileage per gallon of cars has changed over the year</i>
+                </li>
+                <li>
+                    You will spend 5 minutes to brainstorm and sketch out visualization design ideas
+                </li>
+                <li>
+                    You will be provided with an interface to find relevant visualization examples as you think through your designs
+                </li>
+                <li>
+                    You will be asked to upload your design sketches and select two designs you would like to implement with the experimenter
+                </li>
+            </ol>
+        </p>
+        <br>
+        <a href="{{url_for('task')}}"><button class="btn waves-effect waves-light" type="submit" name="action">Next</button></a>
+    </div>
+{% endblock %}

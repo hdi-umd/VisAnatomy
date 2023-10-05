@@ -1,0 +1,109 @@
+{%extends 'base.html'%}
+
+{% block main %} 
+    <!-- <div class="center"> -->
+        <div class="row">
+            <div class="col s10 flow-text" style="padding-left: 30px;">
+                <h1>Experiment Task</h1>
+            
+                {%if '1' in data.condition %}
+                    <p style="text-align: left;">You have been tasked with creating a visual data story for a blog post discussing the effects of global warming on the US atmospheric temperature. 
+                        You have been provided with a dataset on average temperature, percipitation and snow depth recordings in the US from 1895 to present. You have also been provided data 
+                        on recorded temperature anomalies during that time period. A temperature anomaly is <i>a departure from the long-term average global temperature. 
+                            A positive anomaly indicates that the observed temperature was warmer than the reference value, while a negative anomaly indicates that the observed temperature was cooler than the reference value.</i>
+                    </p>
+                    <p>
+                        
+                        You need to create a centerpiece visualization for the blog post that highlights the following key point: <br><br>
+                        <ul style="text-align: left;">
+                            <li style="list-style-type: disc !important">
+                                <b><i>
+                                    Average temperature has steadily risen per decade, but the rate of warming is twice higher in the last decade.
+                                </i></b>
+                            </li>
+                            <li style="list-style-type: disc !important">
+                                <b><i>
+                                    The 5 warmest years have all been in the last two decades.
+                                </i></b>
+                            </li>
+                        </ul> 
+                    </p>
+                    <p><b>You have 5 minutes to explore the dataset</b></p>
+                    <a href="/static/Datasets/1895-2022-US atmospheric temperature.xlsx" target="_blank"><button class="btn waves-effect waves-light btn-large" type="submit" name="action"  >View Dataset</button></a>  
+                {%else%} 
+                    <p style="text-align: left;">
+                        Palm oil production has been at the forefront of climate talk as a major driver of deforestation. 
+                        This has led to drastic changes in consumer behavior as companies and people move away from consuming/using palm oil-based products. 
+                        But is this claim true? Is palm oil production any more destructive than other vegetable oil crops being produced? <br>
+                        You have been selected to create a visualization that will be submitted to the Iron Viz competition and have been provided with a dataset on: <br>
+                        <ol style="text-align: left;">
+                            <li>The amount of land used to produce various vegetable crops</li>
+                            <li>The expected yield for vegetable oil crops</li>
+                            <li>The drivers for deforestation in Indonesia</li>
+                        </ol>
+                    </p>
+                    <p style="text-align: left;">Your task is to create a visualization that communicates two key insights: <br>
+                        <ul style="text-align: left;">
+                            <li style="list-style-type: disc !important">
+                                <b><i>Palm oil plantations alone are not the main drivers of deforestation in Indonesia. </i></b>
+                                    <!-- Infact most of the land replaced by palm oil plantations were previously logged forests or scrubland (land destroyed by fire or other natural elements) -->
+                            </li>
+                            <li style="list-style-type: disc !important">
+                                <b><i>Compared to other vegetable oil crops, Palm oil has higher yield per hectare of land. Hence requiring less land use to meet global demand.</i></b>
+                            </li>
+                        </ul>
+                    </p>
+                    <p style="text-align: left;">Your visualization will be judged based on how novel your design is and how well you communicate the key insights to your audience.</p>
+                    <p><b>You have 5 minutes to explore the dataset</b></p>
+                    <a href="/static/Datasets/Palm-oil-production.xlsx" target="_blank"><button class="btn waves-effect waves-light btn-large" type="submit" name="action">View Dataset</button></a>  
+                {% endif %}
+                <a href="{{url_for('demo', id=data.id, condition=data.condition)}}" style="display: none;" id="proceed"><button class="btn waves-effect waves-light btn-large" type="submit" name="action">Proceed</button></a>
+            </div>
+            <!-- <div class="col s2">
+                <div id="counter" style="text-align: left; display: none;" class="flow-text">Time left: <span id="timer"></span></div>
+            </div> -->
+        </div>
+        
+        <script>
+            var time =0;
+            if ("{{ data.condition }}".includes('b')){
+               time = 22
+            }else{
+                time = 7
+            }
+            document.getElementById("counter").style.display = "inline"
+                //count down timer
+                var currDate = new Date()
+                var countDownDate = currDate.getTime() + time*60000
+                var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for hours, minutes and seconds
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("timer").innerHTML =  minutes + ":" + seconds;
+                
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                clearInterval(x);
+                    document.getElementById("timer").innerHTML = "00:00";
+                    document.getElementById("timer").style.color ="red";
+                    document.getElementById("counter").style.color ="red";
+                    alert('You have exceeded the time for this section. Please click on the proceed button')
+                }
+                }, 1000);
+                setTimeout((d) =>{
+                    document.getElementById("proceed").style.display = "inline"
+                }, time*60000)
+            
+        </script>
+    <!-- </div> -->
+{% endblock %}
+

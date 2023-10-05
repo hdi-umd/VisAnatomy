@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+
+{% block main %} 
+    <div class="center" id="thanks">
+        <h1>Thank you!</h1>
+        <p class="flow-text">
+            You have completed the first part of the experiment. <br>
+            Please upload snapshots of your design sketch(es) to the Jamboard link provided to you.
+        </p>
+        <a href="#" onclick="clearEndContent()"><button class="btn waves-effect waves-light" type="submit" name="action">Next</button></a>
+    </div>
+
+    <div class="center" id="wiz" style="display: none;">
+        <p class="flow-text">
+            You will now work with the experimenter to implement one of your top two designs using an appropriate visualization authoring tool or library.
+        </p>
+    </div>
+   
+{% endblock %}
