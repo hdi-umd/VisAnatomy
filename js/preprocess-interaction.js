@@ -279,7 +279,7 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   console.log(data);
 
-  if (data == "xTitleID") {
+  if (data.startsWith("xTitleID")) {
     draggedFromNode = document.getElementById("xTitleID");
     console.log(draggedFromNode);
     draggedFromID = draggedFromNode.parentNode.id;
@@ -287,18 +287,24 @@ function drop(ev) {
     draggedFromNode = document.getElementById("yTitleID");
     console.log(draggedFromNode);
     draggedFromID = draggedFromNode.parentNode.id;
-  } else {
+  } else if(data == "legendTitleID"){
+    draggedFromNode = document.getElementById("legendTitleID");
+    console.log(draggedFromNode);
+    draggedFromID = draggedFromNode.parentNode.id;
+  }
+    else {
     draggedFromNode = document.getElementById(data);
     draggedFromID = draggedFromNode.parentNode.id;
   } // dragged element
 
-  /* dropping from a x/y axis label box into title box */
+  /* dropping to a title label */
   if (
     ev.currentTarget.id.startsWith("xTitle") ||
     ev.currentTarget.id.startsWith("yTitle") ||
     ev.currentTarget.id.startsWith("legendTitle")
   ) {
     let thisText = d3.select("#" + data).datum();
+    /* dragging from a label region box */
     if (
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
@@ -337,7 +343,7 @@ function drop(ev) {
       displayAxis(yAxis);
     } else if (
 
-    /* dragging from one title box to another */
+    /* dragging from a title box and dropping to another*/
       draggedFromID.startsWith("xTitle") ||
       draggedFromID.startsWith("yTitle") ||
       draggedFromID.startsWith("legendTitle")
@@ -481,35 +487,35 @@ function drop(ev) {
     }
 
     /* drag anything from title region outside and delete it */
-    //   else if(draggedFromID.startsWith("xTitle") || draggedFromID.startsWith("yTitle") || draggedFromID.startsWith("legendTitle") )
-    //   {
-    //     let thisText = d3.select("#" + data).datum();
-    //     let thisTitle = draggedFromID.startsWith("xTitle")
-    //       ? "x"
-    //       : draggedFromID.startsWith("yTitle")
-    //       ? "y"
-    //       : "legend";
-    //     console.log(thisTitle);
-    //     switch (thisTitle) {
-    //       case "x":
-    //         titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-    //         displayTitleXLabel(thisText, "delete");
-    //         console.log("x title is ", titleXaxis);
-    //         break;
-    //       case "y":
-    //         titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-    //         console.log(titleYaxis);
-    //         displayTitleYLabel(thisText, "delete");
-    //         console.log("y title is ", titleYaxis);
-    //         break;
-    //       case "legend":
-    //         titleLegend.splice(titleLegend.indexOf(thisText), 1);
-    //         displayTitleLegendLabel(thisText, "delete");
-    //         console.log("legend title is ", titleLegend);
-    //         break;
-    //   }
-    //   ev.stopImmediatePropagation();
-    // }
+      else if(draggedFromID.startsWith("xTitle") || draggedFromID.startsWith("yTitle") || draggedFromID.startsWith("legendTitle") )
+      {
+        let thisText = d3.select("#" + data).datum();
+        let thisTitle = draggedFromID.startsWith("xTitle")
+          ? "x"
+          : draggedFromID.startsWith("yTitle")
+          ? "y"
+          : "legend";
+        console.log(thisTitle);
+        switch (thisTitle) {
+          case "x":
+            titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
+            displayTitleXLabel(thisText, "delete");
+            console.log("x title is ", titleXaxis);
+            break;
+          case "y":
+            titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
+            console.log(titleYaxis);
+            displayTitleYLabel(thisText, "delete");
+            console.log("y title is ", titleYaxis);
+            break;
+          case "legend":
+            titleLegend.splice(titleLegend.indexOf(thisText), 1);
+            displayTitleLegendLabel(thisText, "delete");
+            console.log("legend title is ", titleLegend);
+            break;
+      }
+      ev.stopImmediatePropagation();
+    }
     d3.select(".tooltip").remove();
   }
 }
@@ -870,8 +876,8 @@ function enableDragDrop(texts) {
             }
           }
 
-          for (let i = 0; i < titleYaxis["labels"].length; i++)
-            console.log(inXTitle);
+          // for (let i = 0; i < titleYaxis["labels"].length; i++)
+          //   console.log(inXTitle);
 
           //if the dragged element is already present in the y title display
           //remove the button from there and display the dragged element in x title
