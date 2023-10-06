@@ -46,6 +46,8 @@
       document.onkeydown = KeyPress;
     </script>
     <script src="js/atlas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-GLhlTQ8iRABdZLl6O5oZ8gneFt8B0ZxyZxcfJlF+OwzIbh0C2pZsSq8p0yZ6Jizo" crossorigin="anonymous"></script>
+
     <style>
       * {
         box-sizing: border-box;
@@ -528,6 +530,28 @@
         height: "fit-content";
         border: "1px solid #000";
       } */
+
+      .pop-out-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+
+      .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -574,9 +598,20 @@
     <div id="preprocessUI" style="visibility: visible">
       <div class="mainbox" id="axisAndLegend">
         <div style="margin-left: 20px">
-          <span style="margin-right: 30px; font-weight: bold"
-            >Axis & Legend Detection Results</span
-          >
+          <span style="margin-right: 30px; font-weight: bold">Axis & Legend Detection Results</span>
+          <span><img id="questionMark" src="img/question mark.png" alt="Question Mark" style="width: 15px; height: 15px; cursor: pointer;"></span>
+          <div class="pop-out-container" id="popOutContainer">
+            <span class="close-button" id="closeButton">&times;</span>
+            <div class="pop-out-content">
+                Axes allow you to associate data points with specific values. Axis ticks help 
+                indicate the value of a chart's point. Axis titles provide you with context about these values. 
+                Axis labels describe portions of the axis.<br><br>
+                Legends help you to understand marks used in a visualization. Titles describe what part of the
+                visualization the legend is describing. Keys are items that correspond to marks in the chart. 
+                Key labels describe what each key represents.<br><br>
+                Please refer to this <a href="https://docs.google.com/presentation/d/16inrHVY68xlDkUvm1-vOiDvc73Lzdrz4k1TeXARsj_g/edit#slide=id.g284e6c3512f_0_24" target="_blank">link</a> for more information.
+            </div>
+          </div>
         </div>
         <div class="float-container" id="buttons" style="display: block">
           <!-- This is the main x axis div -->
@@ -886,6 +921,25 @@
     </div>
 
     <script>
+      var questionMark = document.getElementById('questionMark');
+      var popOutContainer = document.getElementById('popOutContainer');
+      var closeButton = document.getElementById('closeButton');
+
+      questionMark.addEventListener('click', function() {       //when ? is clicked
+        popOutContainer.style.display = 'block';
+      });
+
+      closeButton.addEventListener('click', function() {        //when x is clicked
+        popOutContainer.style.display = 'none';
+      });
+
+      window.addEventListener('click', function(event) {        //close window
+        if (event.target !== questionMark && event.target !== closeButton && !popOutContainer.contains(event.target)) {
+            popOutContainer.style.display = 'none';
+        }
+      });
+
+
       window.addEventListener("beforeunload", function (event) {
         event.returnValue = "Are you sure you want to leave?";
         return "Are you sure you want to leave?";
