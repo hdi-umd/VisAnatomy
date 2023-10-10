@@ -46,8 +46,6 @@ function groupSVGElementsByTypeWithCoordinates() {
   const svgBBox = svgElement.getBoundingClientRect();
 
   leafElements.forEach((element) => {
-    const elementType = element.tagName;
-
     // Get the bounding box for the element
     const bbox = element.getBoundingClientRect();
 

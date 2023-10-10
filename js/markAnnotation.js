@@ -198,7 +198,7 @@ function disableAllMarkSelections() {
 }
 
 function svgHighlighting() {
-  // TBD: need to highlight the svg elements based on type
+  d3.selectAll(".highlightRect").remove(); // remove all previous highlight rectangles
   allLeftNodes
     .map((node) => node.id)
     .forEach((r) => {
@@ -209,6 +209,33 @@ function svgHighlighting() {
     .filter((r) => !markSelection.includes(r))
     .forEach((r) => {
       d3.select("#" + r).style("opacity", "0.2");
+    }); // set opacity to 0.2 for all non-selected elements
+  allLeftNodes
+    .map((node) => node.id)
+    .filter((r) => markSelection.includes(r))
+    .forEach((r) => {
+      // // set selected elements to have a red rectangle around them
+      // const tempDiv = document.getElementById("rbox1");
+      // const svgElement = tempDiv.querySelector("svg");
+      // const svgBBox = svgElement.getBoundingClientRect();
+      // const bbox = document.getElementById(r).getBoundingClientRect();
+      // const left = bbox.x - svgBBox.x;
+      // const top = bbox.y - svgBBox.y;
+      // const width = bbox.width;
+      // const height = bbox.height;
+      // const highlightRect = document.createElementNS(
+      //   "http://www.w3.org/2000/svg",
+      //   "rect"
+      // );
+      // highlightRect.setAttribute("x", left - 3);
+      // highlightRect.setAttribute("y", top - 3);
+      // highlightRect.setAttribute("width", width + 6);
+      // highlightRect.setAttribute("height", height + 6);
+      // highlightRect.setAttribute("stroke", "red");
+      // highlightRect.setAttribute("stroke-width", "2");
+      // highlightRect.setAttribute("fill", "none");
+      // highlightRect.classList.add("highlightRect");
+      // svgElement.appendChild(highlightRect);
     });
 }
 
