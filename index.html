@@ -77,15 +77,22 @@
       .upload + .uploadButton {
         height: 38px;
       }
+
+      #uploadData {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+      }
     </style>
   </head>
   <body>
     <div id="uploadData" style="padding: 0 30px 0 30px">
-      <h2>Experimental Feature: Import and Annotate an SVG Chart</h2>
+      <h2>Import and Annotate an SVG Chart</h2>
       <h3>
-        Import an SVG chart and annotate. If some style information is contained
-        in the CSS file associated with the webpage in which the SVG is embedded
-        in, try to add that information to the SVG file.
+        Remark: if some style information is contained in the CSS file
+        associated with the webpage in which the SVG is embedded in, try to add
+        that information to the SVG file.
       </h3>
       <!-- solution from http://jsfiddle.net/umhva747/ -->
       <form action="annotationPage.html" id="uploadForm">
