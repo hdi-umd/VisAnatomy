@@ -20,8 +20,8 @@ function initilizeMarkAnnotation() {
   });
   markSelection = []; // reset mark selection
 
-  allLeftNodes = Object.keys(mainContent)
-    .map((key) => mainContent[key])
+  allLeftNodes = Object.keys(mainContentElements)
+    .map((key) => mainContentElements[key])
     .flat();
 
   // TBD: handle invisible elements and note their type as "general" and role as "invisible"
@@ -41,15 +41,15 @@ function initilizeMarkAnnotation() {
   allLeftNodes = allLeftNodes.filter(
     (element) => !invisibleElements.includes(element)
   );
-  Object.keys(mainContent).forEach((key) => {
+  Object.keys(mainContentElements).forEach((key) => {
     // remove invisible elements from mainContent
-    mainContent[key] = mainContent[key].filter(
+    mainContentElements[key] = mainContentElements[key].filter(
       (element) => !invisibleElements.includes(element)
     );
-    if (mainContent[key].length === 0) delete mainContent[key];
+    if (mainContentElements[key].length === 0) delete mainContentElements[key];
   });
 
-  leafNodeTypes = Object.keys(mainContent).filter((key) =>
+  leafNodeTypes = Object.keys(mainContentElements).filter((key) =>
     graphicsElementTypes.includes(key)
   );
 
@@ -58,7 +58,7 @@ function initilizeMarkAnnotation() {
   if (Object.keys(markAnnotations).length === 0) {
     leafNodeTypes.forEach((type) => {
       // initialize the type and role of each graphical element
-      mainContent[type].forEach((element) => {
+      mainContentElements[type].forEach((element) => {
         markAnnotations[element.id] = {
           Type: type === "path" ? "none" : type,
           Role: "none",
@@ -69,7 +69,7 @@ function initilizeMarkAnnotation() {
 
   leafNodeTypes.forEach((type) => {
     // then add the mark annotation divs
-    mainContent[type].forEach((element) => {
+    mainContentElements[type].forEach((element) => {
       let markDiv = document.createElement("div");
       markDiv.classList.add("markDiv");
       markDiv.id = "mark_" + element.id;
@@ -122,7 +122,7 @@ function initilizeMarkAnnotation() {
     d3.select("#" + typeDiv.id).on("click", () => {
       selectionOnClick(
         typeDiv.id,
-        mainContent[elementType].map((r) => r.id)
+        mainContentElements[elementType].map((r) => r.id)
       );
     });
 
@@ -272,7 +272,7 @@ function reflectChanges() {
 }
 
 function dertermineChannelBasedBatchSelections(elementType) {
-  let marks = mainContent[elementType];
+  let marks = mainContentElements[elementType];
   let channelBasedBatchSelections = {};
   let values;
 

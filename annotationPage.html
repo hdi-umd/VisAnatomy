@@ -546,8 +546,8 @@
             break;
           case "Marks":
             // remove all reference elements from mainContent
-            mainContent = groupSVGElementsByType();
-            console.log(mainContent);
+            mainContentElements = groupSVGElementsByType();
+            console.log(mainContentElements);
 
             // below for initilizing the mark annotation
             initilizeMarkAnnotation();
@@ -620,7 +620,7 @@
               d3.selectAll(".axisLabels").selectAll("button").remove();
               // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
               // extract() calls displayAxis() and displayLegend() to display the extracted elements
-              extract(jsonArr);
+              mainContent = extract(jsonArr);
             }
 
             // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
