@@ -534,6 +534,9 @@
       function arrangeAnnotationDivs(currentStage) {
         switch (currentStage) {
           case "Axis & Legend":
+            referenceElements.forEach((rid) => {
+              d3.select("#" + rid).style("opacity", "1");
+            });
             allLeftNodes
               .map((node) => node.id)
               .forEach((r) => {
