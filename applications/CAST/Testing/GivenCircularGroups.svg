@@ -1,0 +1,34 @@
+<svg id="visChart" x="0" y="0" width="669.023569023569" height="600" viewBox="0 0 669.023569 600.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" transform="" trans="334.511785,300">
+    <g transform="" trans="334.511785,300">
+      <g transform="" trans="334.511785,300"/>
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="334.511785,300">
+          <g transform="" trans="316.58249207,315">
+            <g transform="" trans="316.58249207,315"/>
+            <g transform="" trans="316.58249207,315">
+              <!-- Each path with its own group -->
+            </g>
+          </g>
+          <g transform="" trans="334.511785,300">
+            <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Cause&quot;}" trans="334.511785,300"/>
+            <g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Month&quot;}" trans="316.58249207,315">
+                <!-- Each axis tick and label with its own group -->
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="316.58249207,0">
+          <!-- Title -->
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" class="legend" data-datum="{&quot;color&quot;:&quot;Cause&quot;}" trans="50.00000048999999,152">
+          <!-- Text and Legend Symbol in their own combined group -->
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2" x="0" y="0" width="0" height="0"/>
+</svg>

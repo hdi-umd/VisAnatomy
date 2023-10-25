@@ -1,0 +1,489 @@
+<svg id="visChart" x="0" y="0" width="669.023569023569" height="600" viewBox="0 0 669.023569 600.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" transform="" trans="334.511785,300">
+    <g transform="" trans="334.511785,300">
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="334.511785,300">
+          <g transform="" trans="316.58249207,315">
+            <g transform="" trans="316.58249207,315">
+              <g transform="" trans="316.58249207,315">
+                <path id="mark1" class=" mark Shape1 rectangle" d="M316.58249207 315L316.58342666 247.35759575A67.63792728 67.63792728 0 0 1 350.40145571 256.42383671L316.58611795 314.99908805A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-2.929292929292929,&quot;_y&quot;:-4.184659084359984,&quot;_id&quot;:&quot;0&quot;,&quot;Month&quot;:&quot;Jan&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:324}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark2" class=" mark Shape1 rectangle" d="M316.58249207 247.36207272000001L316.58670988 239.18729241A75.80799144 75.80799144 0 0 1 354.48648779 249.3483536L350.40453961000003 256.42725262A67.63792728 67.63792728 0 0 0 316.58249207 247.36207272000001ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-2.929292929292929,&quot;_y&quot;:9.401278423866824,&quot;_id&quot;:&quot;1&quot;,&quot;Month&quot;:&quot;Jan&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:83}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark3" class=" mark Shape1 rectangle" d="M316.58249207 239.19200856L316.57909973 103.50041554A211.50000006 211.50000006 0 0 1 422.33249209999997 131.83562704L354.4913778 249.34362407999998A75.80799144 75.80799144 0 0 0 316.58249207 239.19200856ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-2.929292929292929,&quot;_y&quot;:104.33593757226254,&quot;_id&quot;:&quot;2&quot;,&quot;Month&quot;:&quot;Jan&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:2761}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark4" class=" mark Shape1 rectangle" d="M316.58249207 315L352.28054882 253.16706057A71.39558991 71.39558991 0 0 1 378.41288665 279.30220504L316.58664041 314.99860432A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:27.070707070707073,&quot;_y&quot;:-2.9495738563393665,&quot;_id&quot;:&quot;3&quot;,&quot;Month&quot;:&quot;Feb&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:361}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark5" class=" mark Shape1 rectangle" d="M352.28028703 253.16960542L354.29584985 249.67154664999998A75.43455079 75.43455079 0 0 1 381.91072937 277.28272461L378.41223631 279.30087574A71.39558991 71.39558991 0 0 0 352.28028703 253.16960542ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:27.070707070707073,&quot;_y&quot;:10.50284092453386,&quot;_id&quot;:&quot;4&quot;,&quot;Month&quot;:&quot;Feb&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:42}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark6" class=" mark Shape1 rectangle" d="M354.29976746 249.6717627L410.95511467 151.54487309A188.74541504 188.74541504 0 0 1 480.04081634 220.62729248L381.91363022999997 277.2837538A75.43455079 75.43455079 0 0 0 354.29976746 249.6717627ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:27.070707070707073,&quot;_y&quot;:82.67187505914409,&quot;_id&quot;:&quot;5&quot;,&quot;Month&quot;:&quot;Feb&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:2120}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark7" class=" mark Shape1 rectangle" d="M316.58249207 315L359.26565369 290.3582042A49.28128334 49.28128334 0 0 1 365.86377541 315L316.58468834 315.00379269A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:57.07070707070707,&quot;_y&quot;:-9.258522723796041,&quot;_id&quot;:&quot;6&quot;,&quot;Month&quot;:&quot;Mar&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:172}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark8" class=" mark Shape1 rectangle" d="M359.26133538 290.35935833L363.06135646 288.16941641A53.67015742 53.67015742 0 0 1 370.25264949 315L365.86304911 315.00352808A49.28128334 49.28128334 0 0 0 359.26133538 290.35935833ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:57.07070707070707,&quot;_y&quot;:-2.448863628763439,&quot;_id&quot;:&quot;7&quot;,&quot;Month&quot;:&quot;Mar&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:32}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark9" class=" mark Shape1 rectangle" d="M363.06221182 288.16492129L438.73320365 244.47050766A141.05006218 141.05006218 0 0 1 457.63255425 315L370.25533187999997 314.99617678A53.67015742 53.67015742 0 0 0 363.06221182 288.16492129ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:57.07070707070707,&quot;_y&quot;:38.843039805331316,&quot;_id&quot;:&quot;8&quot;,&quot;Month&quot;:&quot;Mar&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:1205}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark10" class=" mark Shape1 rectangle" d="M316.58249207 315L344.94960714 315.00203156A28.3697307 28.3697307 0 0 1 341.15139955 329.18486535L316.5799613 314.99920846A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:87.07070707070707,&quot;_y&quot;:-13.09730113521148,&quot;_id&quot;:&quot;9&quot;,&quot;Month&quot;:&quot;Apr&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:57}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark11" class=" mark Shape1 rectangle" d="M344.95222277 315L355.08392298 315.00492006A38.50458393 38.50458393 0 0 1 349.92843992 334.25229197L341.14676216 329.18484086A28.3697307 28.3697307 0 0 0 344.95222277 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:87.07070707070707,&quot;_y&quot;:-9.592329542179993,&quot;_id&quot;:&quot;10&quot;,&quot;Month&quot;:&quot;Apr&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:48}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark12" class=" mark Shape1 rectangle" d="M355.087076 315L407.23026037 314.99767427A90.65239401 90.65239401 0 0 1 395.08976819 360.326197L349.93337513 334.25713308A38.50458393 38.50458393 0 0 0 355.087076 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:87.07070707070707,&quot;_y&quot;:7.932528422977441,&quot;_id&quot;:&quot;11&quot;,&quot;Month&quot;:&quot;Apr&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:477}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark13" class=" mark Shape1 rectangle" d="M316.58249207 315L336.37920387 326.4255826A22.85696943 22.85696943 0 0 1 328.01097678 334.79471618L316.58367819 315.00401304A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:117.07070707070707,&quot;_y&quot;:-13.764914771979381,&quot;_id&quot;:&quot;12&quot;,&quot;Month&quot;:&quot;May&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:37}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark14" class=" mark Shape1 rectangle" d="M336.37720825 326.42848471L346.76411979 332.42803917A34.84712964 34.84712964 0 0 1 334.00605689 345.17849951L328.01343412 334.79471302A22.85696943 22.85696943 0 0 0 336.37720825 326.42848471ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:117.07070707070707,&quot;_y&quot;:-10.894176133877401,&quot;_id&quot;:&quot;13&quot;,&quot;Month&quot;:&quot;May&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:49}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark15" class=" mark Shape1 rectangle" d="M346.76099158 332.42356482L395.89526136 360.79453126A91.58218648 91.58218648 0 0 1 362.37358531 394.31250002L334.00118422 345.17714299A34.84712964 34.84712964 0 0 0 346.76099158 332.42356482ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:117.07070707070707,&quot;_y&quot;:7.698863650108677,&quot;_id&quot;:&quot;14&quot;,&quot;Month&quot;:&quot;May&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:508}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark16" class=" mark Shape1 rectangle" d="M316.58249207 315L327.04189707 333.12047307A20.92178006 20.92178006 0 0 1 316.58249207 335.92178006L316.58565372 314.99520645A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:147.07070707070707,&quot;_y&quot;:-13.965198863009752,&quot;_id&quot;:&quot;15&quot;,&quot;Month&quot;:&quot;Jun&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:31}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark17" class=" mark Shape1 rectangle" d="M327.0433821 333.11879303L345.693368 365.41699387A58.2134591 58.2134591 0 0 1 316.58249207 373.2134591L316.58492548 335.9236879A20.92178006 20.92178006 0 0 0 327.0433821 333.11879303ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:147.07070707070707,&quot;_y&quot;:-5.953835221794925,&quot;_id&quot;:&quot;16&quot;,&quot;Month&quot;:&quot;Jun&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:209}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark18" class=" mark Shape1 rectangle" d="M345.68922162 365.41433442L377.23456825 420.04550221A121.29744272 121.29744272 0 0 1 316.58249207 436.29744272L316.57920995 373.21592471A58.2134591 58.2134591 0 0 0 345.68922162 365.41433442ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:147.07070707070707,&quot;_y&quot;:27.79403411682253,&quot;_id&quot;:&quot;17&quot;,&quot;Month&quot;:&quot;Jun&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:802}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark19" class=" mark Shape1 rectangle" d="M316.58249207 315L316.58097334 336.58893390000003A21.58612836 21.58612836 0 0 1 305.78942789 333.69413553L316.58645028 314.9992134A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:177.07070707070707,&quot;_y&quot;:-13.898437499332962,&quot;_id&quot;:&quot;18&quot;,&quot;Month&quot;:&quot;Jul&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:33}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark20" class=" mark Shape1 rectangle" d="M316.58249207 336.58612836L316.58738764 363.56214522A48.5597029 48.5597029 0 0 1 292.30264062 357.05393631L305.79427246 333.69349245A21.58612836 21.58612836 0 0 0 316.58249207 336.58612836ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:177.07070707070707,&quot;_y&quot;:-8.323863632320979,&quot;_id&quot;:&quot;19&quot;,&quot;Month&quot;:&quot;Jul&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:134}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark21" class=" mark Shape1 rectangle" d="M316.58249207 363.5597029L316.58565773 403.04677393A88.04484994 88.04484994 0 0 1 272.56006709999997 391.24907672L292.30491795 357.04992248A48.5597029 48.5597029 0 0 0 316.58249207 363.5597029ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:177.07070707070707,&quot;_y&quot;:8.900568196290902,&quot;_id&quot;:&quot;20&quot;,&quot;Month&quot;:&quot;Jul&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:382}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark22" class=" mark Shape1 rectangle" d="M316.58249207 315L307.18498325 331.27379907A18.78831313 18.78831313 0 0 1 300.3113356 324.39415657L316.58481239 314.99580417A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:207.07070707070704,&quot;_y&quot;:-14.165482954040122,&quot;_id&quot;:&quot;21&quot;,&quot;Month&quot;:&quot;Aug&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:25}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark23" class=" mark Shape1 rectangle" d="M307.1883355 331.27115647L290.75066929 359.74024269A51.65932027 51.65932027 0 0 1 271.84420837 340.82966014L300.3104664 324.39750481A18.78831313 18.78831313 0 0 0 307.1883355 331.27115647ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:207.07070707070704,&quot;_y&quot;:-7.856534086583446,&quot;_id&quot;:&quot;22&quot;,&quot;Month&quot;:&quot;Aug&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:164}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark24" class=" mark Shape1 rectangle" d="M290.75283193 359.7382837L267.88201276 399.36181736000003A97.40974847 97.40974847 0 0 1 232.22317532 363.70487423L271.84795835 340.83396122A51.65932027 51.65932027 0 0 0 290.75283193 359.7382837ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:207.07070707070704,&quot;_y&quot;:13.74076706285819,&quot;_id&quot;:&quot;23&quot;,&quot;Month&quot;:&quot;Aug&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:483}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark25" class=" mark Shape1 rectangle" d="M316.58249207 315L302.02909777 323.40431079A16.80477814 16.80477814 0 0 1 299.77771393 315L316.58321547 314.99687692A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:237.07070707070707,&quot;_y&quot;:-14.332386363232098,&quot;_id&quot;:&quot;24&quot;,&quot;Month&quot;:&quot;Sep&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:20}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark26" class=" mark Shape1 rectangle" d="M302.0291273 323.40238907L260.59494292 347.31983483A64.64927232 64.64927232 0 0 1 251.93321975 315L299.77775905 315.00352986A16.80477814 16.80477814 0 0 0 302.0291273 323.40238907ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:237.07070707070707,&quot;_y&quot;:-4.451704539067144,&quot;_id&quot;:&quot;25&quot;,&quot;Month&quot;:&quot;Sep&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:276}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark27" class=" mark Shape1 rectangle" d="M260.5945799 347.32463616L244.91156834 356.37371965A82.75393515 82.75393515 0 0 1 233.82855691999998 315L251.93421553000002 314.99785187A64.64927232 64.64927232 0 0 0 260.5945799 347.32463616ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:237.07070707070707,&quot;_y&quot;:11.07031251578658,&quot;_id&quot;:&quot;26&quot;,&quot;Month&quot;:&quot;Sep&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:189}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark28" class=" mark Shape1 rectangle" d="M316.58249207 315L300.63792154 314.99575965A15.94241235 15.94241235 0 0 1 302.77595798 307.02879383L316.58156173 314.99530058A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:267.07070707070704,&quot;_y&quot;:-14.399147726908888,&quot;_id&quot;:&quot;27&quot;,&quot;Month&quot;:&quot;Oct&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:18}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark29" class=" mark Shape1 rectangle" d="M300.64007972 315L284.91810438 314.99797106A31.66262809 31.66262809 0 0 1 289.16185179 299.16868595L302.77589818 307.02936336A15.94241235 15.94241235 0 0 0 300.64007972 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:267.07070707070704,&quot;_y&quot;:-12.029119316382836,&quot;_id&quot;:&quot;28&quot;,&quot;Month&quot;:&quot;Oct&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:53}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark30" class=" mark Shape1 rectangle" d="M284.91986398 315L263.57225705 314.99660393A53.00835458 53.00835458 0 0 1 270.67591039 288.49582270999997L289.16028688 299.16447324A31.66262809 31.66262809 0 0 0 284.91986398 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:267.07070707070704,&quot;_y&quot;:-5.98721590363332,&quot;_id&quot;:&quot;29&quot;,&quot;Month&quot;:&quot;Oct&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:128}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark31" class=" mark Shape1 rectangle" d="M316.58249207 315L298.17055149 304.37104117A21.2565498 21.2565498 0 0 1 305.95421717 296.59128788L316.58461308 315.003914A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:297.07070707070704,&quot;_y&quot;:-13.931818181171357,&quot;_id&quot;:&quot;30&quot;,&quot;Month&quot;:&quot;Nov&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:32}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark32" class=" mark Shape1 rectangle" d="M298.17377995 304.3717251L290.35020076 299.85493828A30.29524463 30.29524463 0 0 1 301.43486976 288.76354854L305.95035045 296.5949003A21.2565498 21.2565498 0 0 0 298.17377995 304.3717251ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:297.07070707070704,&quot;_y&quot;:-11.762073861675674,&quot;_id&quot;:&quot;31&quot;,&quot;Month&quot;:&quot;Nov&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:33}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark33" class=" mark Shape1 rectangle" d="M290.34604061 299.85237769L265.85615015999997 285.70851179A58.57616329 58.57616329 0 0 1 287.29441042999997 264.27155454L301.4343947 288.76103579A30.29524463 30.29524463 0 0 0 290.34604061 299.85237769ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:297.07070707070704,&quot;_y&quot;:-4.718749993774306,&quot;_id&quot;:&quot;32&quot;,&quot;Month&quot;:&quot;Nov&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:178}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark34" class=" mark Shape1 rectangle" d="M316.58249207 315L306.6405529 297.78052925A19.88368164 19.88368164 0 0 1 316.58249207 295.11631836L316.5804102 315.00369922A0 0 0 0 0 316.58249207 315ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:327.07070707070704,&quot;_y&quot;:-14.065340908524936,&quot;_id&quot;:&quot;33&quot;,&quot;Month&quot;:&quot;Dec&quot;,&quot;Cause&quot;:&quot;0_Other&quot;,&quot;Death&quot;:28}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(150,150,150)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark35" class=" mark Shape1 rectangle" d="M306.64065125 297.78022658L303.83765431 292.93173419A25.4857079 25.4857079 0 0 1 316.58249207 289.5142921L316.57795449 295.11466247A19.88368164 19.88368164 0 0 0 306.64065125 297.78022658ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:327.07070707070704,&quot;_y&quot;:-12.529829543958762,&quot;_id&quot;:&quot;34&quot;,&quot;Month&quot;:&quot;Dec&quot;,&quot;Cause&quot;:&quot;1_Injured&quot;,&quot;Death&quot;:18}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(107,174,214)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="316.58249207,315">
+                <path id="mark36" class=" mark Shape1 rectangle" d="M303.83963812 292.92872952L294.59180653 276.9142667A43.98231341 43.98231341 0 0 1 316.58249207 271.01768659L316.5799449 289.5163944A25.4857079 25.4857079 0 0 0 303.83963812 292.92872952ZZ" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:327.07070707070704,&quot;_y&quot;:-8.891335223573694,&quot;_id&quot;:&quot;35&quot;,&quot;Month&quot;:&quot;Dec&quot;,&quot;Cause&quot;:&quot;2_Sick&quot;,&quot;Death&quot;:91}" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,106,74)" text-anchor="start" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g transform="" trans="334.511785,300">
+            <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Cause&quot;}" trans="334.511785,300"/>
+            <g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Month&quot;}" trans="316.58249207,315">
+              <g transform="" trans="371.32272011,110.70668774">
+                <path id="mark1001" class=" mark axis-tick" d="M371.32272011 110.70668774L371.31795477 105.70464603" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Jan&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="466.13557629,165.44691578">
+                <path id="mark1002" class=" mark axis-tick" d="M466.13557629 165.44691578L466.13898103 160.44445231" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Feb&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="520.8758043299999,260.25977196">
+                <path id="mark1003" class=" mark axis-tick" d="M520.8758043299999 260.25977196L520.87175363 255.26255595000003" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Mar&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="520.8758043299999,369.74022804">
+                <path id="mark1004" class=" mark axis-tick" d="M520.8758043299999 369.74022804L520.8786863099999 364.73761489" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Apr&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="466.13557629,464.55308421999996">
+                <path id="mark1005" class=" mark axis-tick" d="M466.13557629 464.55308421999996L466.13342950000003 459.55434772999996" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;May&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="371.32272011,519.29331226">
+                <path id="mark1006" class=" mark axis-tick" d="M371.32272011 519.29331226L371.3200362 514.29556869" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Jun&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="261.84226403,519.29331226">
+                <path id="mark1007" class=" mark axis-tick" d="M261.84226403 519.29331226L261.84260531 514.29137736" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Jul&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="167.02940785,464.55308421999996">
+                <path id="mark1008" class=" mark axis-tick" d="M167.02940785 464.55308421999996L167.03368525000002 459.55674896999994" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Aug&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="112.28917981000001,369.74022804">
+                <path id="mark1009" class=" mark axis-tick" d="M112.28917981000001 369.74022804L112.28759108000001 364.74131975999995" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Sep&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="112.28917981000001,260.25977196">
+                <path id="mark1010" class=" mark axis-tick" d="M112.28917981000001 260.25977196L112.29080353 255.25919045000003" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Oct&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="167.02940785,165.44691578">
+                <path id="mark1011" class=" mark axis-tick" d="M167.02940785 165.44691578L167.03124633000002 160.45130817" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Nov&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="261.84226403,110.70668774">
+                <path id="mark1012" class=" mark axis-tick" d="M261.84226403 110.70668774L261.84233262000004 105.70476860000001" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Dec&quot;}" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+              </g>
+              <g transform="" trans="371.32272011,110.70668774">
+                <text id="mark2001" class="mark axis-label" x="361.648891985" y="101.17031033755387" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Jan&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Jan</text>
+              </g>
+              <g transform="" trans="466.13557629,165.44691578">
+                <text id="mark2002" class="mark axis-label" x="455.7967091025" y="155.91053837755388" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Feb&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Feb</text>
+              </g>
+              <g transform="" trans="520.8758043299999,260.25977196">
+                <text id="mark2003" class="mark axis-label" x="510.54279651749994" y="250.7233945575539" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Mar&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Mar</text>
+              </g>
+              <g transform="" trans="520.8758043299999,369.74022804">
+                <text id="mark2004" class="mark axis-label" x="511.53889026749994" y="360.20385063755384" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Apr&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Apr</text>
+              </g>
+              <g transform="" trans="466.13557629,464.55308421999996">
+                <text id="mark2005" class="mark axis-label" x="454.8006153525" y="455.0167068175538" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;May&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">May</text>
+              </g>
+              <g transform="" trans="371.32272011,519.29331226">
+                <text id="mark2006" class="mark axis-label" x="361.648891985" y="509.75693485755386" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Jun&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Jun</text>
+              </g>
+              <g transform="" trans="261.84226403,519.29331226">
+                <text id="mark2007" class="mark axis-label" x="254.17234215500002" y="509.75693485755386" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Jul&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Jul</text>
+              </g>
+              <g transform="" trans="167.02940785,464.55308421999996">
+                <text id="mark2008" class="mark axis-label" x="156.3536266" y="455.0167068175538" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Aug&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Aug</text>
+              </g>
+              <g transform="" trans="112.28917981000001,369.74022804">
+                <text id="mark2009" class="mark axis-label" x="101.61339856000001" y="360.20385063755384" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Sep&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Sep</text>
+              </g>
+              <g transform="" trans="112.28917981000001,260.25977196">
+                <text id="mark2010" class="mark axis-label" x="102.95519543500001" y="250.7233945575539" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Oct&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Oct</text>
+              </g>
+              <g transform="" trans="167.02940785,165.44691578">
+                <text id="mark2011" class="mark axis-label" x="156.359485975" y="155.91053837755388" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Nov&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Nov</text>
+              </g>
+              <g transform="" trans="261.84226403,110.70668774">
+                <text id="mark2012" class="mark axis-label" x="251.17234215500002" y="101.17031033755387" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Dec&quot;}" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Dec</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="316.58249207,0">
+          <text id="mark5001" class="mark title" data-datum="{&quot;_TYPE&quot;:&quot;title&quot;,&quot;text&quot;:&quot;Causes of Mortality over Time&quot;}" x="157.646945195" y="51.254979615608626" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="24px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Causes of Mortality over Time</text>
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" class="legend" data-datum="{&quot;color&quot;:&quot;Cause&quot;}" trans="50.00000048999999,152">
+          <g transform="" trans="50.00000048999999,104">
+            <text id="mark3001" class="mark legend-text" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;,&quot;text&quot;:&quot;2_Sick&quot;}" x="79.00000048999999" y="96.62279557367502" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Sick</text>
+            <path id="mark4001" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" d="M58.00000048999999 100L57.995046499999994 83.99913094L74.00279376999998 83.99987733L73.99642469999999 99.99571479ZZ" stroke="rgb(251,106,74)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(251,106,74)" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0"/>
+          </g>
+          <g transform="" trans="50.00000048999999,128">
+            <text id="mark3002" class="mark legend-text" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;,&quot;text&quot;:&quot;0_Other&quot;}" x="79.00000048999999" y="120.62279557367502" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Other</text>
+            <path id="mark4002" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" d="M58.00000048999999 124L58.00391217999999 107.99552415L74.00482707999998 108.00302998000001L73.99933726999998 124.00046803ZZ" stroke="rgb(150,150,150)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(150,150,150)" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0"/>
+          </g>
+          <g transform="" trans="50.00000048999999,152">
+            <text id="mark3003" class="mark legend-text" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;,&quot;text&quot;:&quot;1_Injured&quot;}" x="79.00000048999999" y="144.622795573675" stroke="rgb(0,0,0)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" text-anchor="start" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0" opacity="null">Injured</text>
+            <path id="mark4003" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" d="M58.00000048999999 148L58.00390920999999 131.9971428L73.9969141 131.9966126L74.00361446 147.99708126ZZ" stroke="rgb(107,174,214)" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2"/>
+</svg>

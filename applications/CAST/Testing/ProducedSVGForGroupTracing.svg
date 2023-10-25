@@ -1,0 +1,251 @@
+<svg id="visChart" viewBox="158.3046875 71 811.74609375 634" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" trans="0,0">
+    <g transform="" opacity="1" trans="0,0">
+      <g transform="" opacity="1" trans="0,0"/>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark1" class=" mark Shape1 rectangle" d="M300  200L399.21147013144775  187.46667664356957A100 100 82.8 0 0 300 100L300  200A0 0 82.8 0 1 300 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;36,36&quot;}" fill="rgb(127, 201, 127)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark2" class=" mark Shape1 rectangle" d="M300  200L306.2790519529313  299.8026728428272A100 100 93.60000000000002 0 0 399.21147013144775 187.46667664356957L300  200A0 0 93.60000000000002 0 1 300 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;37,37&quot;}" fill="rgb(190, 174, 212)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark3" class=" mark Shape1 rectangle" d="M300  200L222.94867572242106  263.74239897486893A100 100 54 0 0 306.2790519529313 299.8026728428272L300  200A0 0 54 0 1 300 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;38,38&quot;}" fill="rgb(253, 192, 134)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark4" class=" mark Shape1 rectangle" d="M300  200L246.41732050210038  115.56720744979846A100 100 97.19999999999999 0 0 222.94867572242106 263.74239897486893L300  200A0 0 97.19999999999999 0 1 300 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;39,39&quot;}" fill="rgb(255, 255, 153)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark5" class=" mark Shape1 rectangle" d="M300  200L300.00000000000006  100A100 100 32.400000000000006 0 0 246.41732050210038 115.56720744979846L300  200A0 0 32.400000000000006 0 1 300 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;40,40&quot;}" fill="rgb(56, 108, 176)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark6" class=" mark Shape1 rectangle" d="M535  200L631.8583161128631  224.86898871648546A100 100 104.39999999999998 0 0 535 100L535  200A0 0 104.39999999999998 0 1 535 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;41,41&quot;}" fill="rgb(127, 201, 127)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark7" class=" mark Shape1 rectangle" d="M535  200L498.1875447315322  292.97764858882516A100 100 97.19999999999999 0 0 631.8583161128631 224.86898871648546L535  200A0 0 97.19999999999999 0 1 535 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;42,42&quot;}" fill="rgb(190, 174, 212)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark8" class=" mark Shape1 rectangle" d="M535  200L435.78852986855225  212.53332335643051A100 100 61.19999999999999 0 0 498.1875447315322 292.97764858882516L535  200A0 0 61.19999999999999 0 1 535 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;43,43&quot;}" fill="rgb(253, 192, 134)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark9" class=" mark Shape1 rectangle" d="M535  200L481.41732050210027  115.56720744979853A100 100 64.80000000000001 0 0 435.78852986855225 212.53332335643051L535  200A0 0 64.80000000000001 0 1 535 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;44,44&quot;}" fill="rgb(255, 255, 153)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark10" class=" mark Shape1 rectangle" d="M535  200L535  100A100 100 32.400000000000006 0 0 481.41732050210027 115.56720744979853L535  200A0 0 32.400000000000006 0 1 535 200" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;45,45&quot;}" fill="rgb(56, 108, 176)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark11" class=" mark Shape1 rectangle" d="M300  455L372.89686274214114  386.5452894071311A100 100 46.80000000000001 0 0 300 355L300  455A0 0 46.80000000000001 0 1 300 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;46,46&quot;}" fill="rgb(127, 201, 127)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark12" class=" mark Shape1 rectangle" d="M300  455L353.5826794978996  539.4327925502016A100 100 100.80000000000001 0 0 372.89686274214114 386.5452894071311L300  455A0 0 100.80000000000001 0 1 300 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;47,47&quot;}" fill="rgb(190, 174, 212)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark13" class=" mark Shape1 rectangle" d="M300  455L269.09830056250524  550.1056516295154A100 100 50.39999999999998 0 0 353.5826794978996 539.4327925502016L300  455A0 0 50.39999999999998 0 1 300 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;48,48&quot;}" fill="rgb(253, 192, 134)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark14" class=" mark Shape1 rectangle" d="M300  455L236.257601025131  377.9486757224211A100 100 122.39999999999998 0 0 269.09830056250524 550.1056516295154L300  455A0 0 122.39999999999998 0 1 300 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;49,49&quot;}" fill="rgb(255, 255, 153)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+        <g transform="" opacity="1" trans="0,0">
+          <path id="mark15" class=" mark Shape1 rectangle" d="M300  455L299.99999999999994  355A100 100 39.599999999999994 0 0 236.257601025131 377.9486757224211L300  455A0 0 39.599999999999994 0 1 300 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;50,50&quot;}" fill="rgb(56, 108, 176)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark16" class=" mark Shape1 rectangle" d="M535  455L635  455A100 100 90 0 0 535 355L535  455A0 0 90 0 1 535 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;51,51&quot;}" fill="rgb(127, 201, 127)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark17" class=" mark Shape1 rectangle" d="M535  455L498.18754473153217  547.9776485888251A100 100 111.60000000000002 0 0 635 455L535  455A0 0 111.60000000000002 0 1 535 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;52,52&quot;}" fill="rgb(190, 174, 212)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark18" class=" mark Shape1 rectangle" d="M535  455L436.7712749271311  473.7381314585724A100 100 57.60000000000002 0 0 498.18754473153217 547.9776485888251L535  455A0 0 57.60000000000002 0 1 535 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;53,53&quot;}" fill="rgb(253, 192, 134)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark19" class=" mark Shape1 rectangle" d="M535  455L471.25760102513107  377.94867572242106A100 100 61.19999999999999 0 0 436.7712749271311 473.7381314585724L535  455A0 0 61.19999999999999 0 1 535 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;54,54&quot;}" fill="rgb(255, 255, 153)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <g transform="" opacity="1" trans="0,0">
+        <path id="mark20" class=" mark Shape1 rectangle" d="M535  455L535  355A100 100 39.599999999999994 0 0 471.25760102513107 377.94867572242106L535  455A0 0 39.599999999999994 0 1 535 455" style="stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;55,55&quot;}" fill="rgb(56, 108, 176)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="" opacity="1" trans="0,0">
+      <text id="mark2001" class="mark axis-label" x="185" y="200" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;1980&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">1980</text>
+      <text id="mark2002" class="mark axis-label" x="185" y="455" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2008&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">2008</text>
+      <text id="mark2003" class="mark axis-label" x="300" y="340" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;UK&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">UK</text>
+      <text id="mark2004" class="mark axis-label" x="535" y="340" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;New Zealand&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">New Zealand</text>
+      <text id="mark2005" class="mark axis-label" x="300" y="85" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;UK&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">UK</text>
+      <text id="mark2006" class="mark axis-label" x="535" y="85" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;New Zealand&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">New Zealand</text>
+    </g>
+    <g transform="" opacity="1" trans="0,0">
+      <text id="mark3001" class="mark legend-text" x="690" y="256" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Other</text>
+      <g transform="" opacity="1" trans="0,0">
+        <rect id="mark3002" class=" mark legend-symbol" x="670" y="245" width="10px" height="10px" style="stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" fill="rgb(56, 108, 176)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <text id="mark3003" class="mark legend-text" x="690" y="237" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Leisure</text>
+      <g transform="" opacity="1" trans="0,0">
+        <rect id="mark3004" class=" mark legend-symbol" x="670" y="226" width="10px" height="10px" style="stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" fill="rgb(255, 255, 153)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <text id="mark3005" class="mark legend-text" x="690" y="218" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Transport</text>
+      <g transform="" opacity="1" trans="0,0">
+        <rect id="mark3006" class=" mark legend-symbol" x="670" y="207" width="10px" height="10px" style="stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" fill="rgb(253, 192, 134)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <text id="mark3007" class="mark legend-text" x="690" y="199" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Utility bills</text>
+      <g transform="" opacity="1" trans="0,0">
+        <rect id="mark3008" class=" mark legend-symbol" x="670" y="188" width="10px" height="10px" style="stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" fill="rgb(190, 174, 212)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <text id="mark3009" class="mark legend-text" x="690" y="180" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Food and drink</text>
+      <g transform="" opacity="1" trans="0,0">
+        <rect id="mark3010" class=" mark legend-symbol" x="670" y="169" width="10px" height="10px" style="stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" fill="rgb(127, 201, 127)" stroke="rgb(204, 204, 204)" stroke-width="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" tmp-stroke-width="1"/>
+      </g>
+      <text id="mark3011" class="mark legend-text" x="670" y="150" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}" stroke="#555" tmp-stroke-width="0" opacity="null" stroke-width="0">Category</text>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2"/>
+</svg>
