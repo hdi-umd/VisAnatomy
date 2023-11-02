@@ -4,12 +4,17 @@
  * 
  */
 
+const { getDefaultHighWaterMark } = require("stream");
+
 // First 3 Values, supplied by user probably
 strArray = ["Main Description",'X Description', 'Legend Description'];
 
 // List of objects (because we need to have a list of sub properties)
 // Each object should have a 
+higherArray
 
+
+lowerArray
 
 // 
 
@@ -25,7 +30,7 @@ class BinaryTreeNode {
 
 function initBinTree() {
     // Connect first values
-    
+
 
 
 

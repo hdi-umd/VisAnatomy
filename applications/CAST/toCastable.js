@@ -113,7 +113,7 @@ if (process.argv.length !== 3) {
 
     // Start of the axis group
     // newSVG += `<g transform="translate(0,0)" opacity="1">`
-    newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;Year&quot;}" opacity="1">`
+    newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;}" opacity="1">`
 
     let axisArr = axisAndCollectionArr.filter(x => x.type == "axis");
 
@@ -208,6 +208,9 @@ if (process.argv.length !== 3) {
     // Close main svg element
     newSVG += `</svg>`
 
+    // newSVG = btoa(unescape(encodeURIComponent(newSVG)))
+    // newSVG = 'data:text/plain;charset=utf-8,' + encodeURIComponent(newSVG)
+
   // Temporary file save for development
   fs.writeFile("development.svg", newSVG, (err) => {
     if (err) {
@@ -249,7 +252,44 @@ function processRect(obj) {
 
   let idNum = Number(id.match(/(\d+)/)[0]) + 1;
 
-  ans += `<rect id="mark${idNum}" class=" mark Shape1 rectangle" x="${left}" y="${top}" width="${width}" height="${height}" style="fill: ${fillColor}; stroke-width: ${strokeWidth}; stroke: ${strokeColor}; stroke-dasharray: ${strokeDash};" text-anchor="start" cursor="pointer" pointer-events="all" `;
+  // ans += `<rect id="mark${idNum}" class=" mark Shape1 rectangle" x="${left}" y="${top}" width="${width}" height="${height}" style="fill: ${fillColor}; stroke-width: ${strokeWidth}; stroke: ${strokeColor}; stroke-dasharray: ${strokeDash};" text-anchor="start" cursor="pointer" pointer-events="all" `;
+
+  const rect = {
+    type: "element",
+    name: "rect",
+    attributes: {
+      x: left,
+      y: top,
+      width: width,
+      height: height,
+    }
+  }
+
+  console.log(rect)
+
+  const path = toPath(rect)
+
+  console.log(path)
+
+  console.log("-----------------")
+
+  ans += `<path id="mark${idNum}" class=" mark Shape1 rectangle" d="${path}" style="fill: ${fillColor}; stroke-width: ${strokeWidth}; stroke: ${strokeColor}; stroke-dasharray: ${strokeDash};" text-anchor="start" cursor="pointer" pointer-events="all" `;
+
+
+
+  // const circle = {
+  //   type: "element",
+  //   name: "circle",
+  //   attributes: {
+  //     cx: vertex.x,
+  //     cy: vertex.y,
+  //     r: vertex.radius
+  //   }
+  // }
+
+  // const path = toPath(circle)
+
+
 
   // ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:${left},&quot;_y&quot;:${top},&quot;_id&quot;:&quot;${idNum}&quot;}">`;
   ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
@@ -260,7 +300,8 @@ function processRect(obj) {
 
 
 
-  ans += `</rect>`;
+  // ans += `</rect>`;
+  ans += `</path>`;
 
   ans += `</g>`;
 
@@ -383,7 +424,16 @@ function processPie(obj, previousObj) {
 
   let idNum = id.match(/(\d+)/);
 
-  ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:${x},&quot;_y&quot;:${y},&quot;_id&quot;:&quot;${markCounter - 2}&quot;}">`;
+  //ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:${x},&quot;_y&quot;:${y},&quot;_id&quot;:&quot;${markCounter - 2}&quot;}">`;
+
+
+  ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
+  
+  ans = processDataDatum(obj, ans)
+  
+  ans += `}">`
+
+
 
   ans += `</path>`;
 
@@ -731,7 +781,11 @@ function processBump(obj, num) {
         }
       }
 
+      console.log(circle)
+
       const path = toPath(circle)
+
+      console.log(path)
 
       ans += `<path id="mark${vertexCounter++}" class=" mark Symbol1 symbol" `
       ans += `d="${path}" `
