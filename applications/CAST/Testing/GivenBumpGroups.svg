@@ -1,0 +1,117 @@
+<svg id="visChart" x="0" y="0" width="900" height="600" viewBox="0 0 900.000000 600.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" transform="" trans="450,300">
+    <g transform="" opacity="1" trans="450,300">
+      <g transform="" opacity="1" trans="450,300"/>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="450,300">
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" opacity="1" trans="450,300">
+              <!-- First Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Second Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Third Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Fourth Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Fifth Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Sixth Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Seventh Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Eigth Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Ninth Bump Link Links -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Tenth Bump Link Links -->
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="450,300">
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" opacity="1" trans="450,300"/>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Each Symbol with Group -->
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,150">
+                  <!-- Axis Label 1 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,182.07079646">
+                  <!-- Axis Label 2 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,214.14159292">
+                  <!-- Axis Label 3 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,246.21238938">
+                  <!-- Axis Label 4 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,278.28318584">
+                  <!-- Axis Label 5 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,438.63716813999997">
+                  <!-- Axis Label 6 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,310.3539823">
+                  <!-- Axis Label 7 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,342.42477876">
+                  <!-- Axis Label 8 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,374.49557522">
+                  <!-- Axis Label 9 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,406.56637168">
+                  <!-- Axis Label 10 -->
+                </g>
+              </g>
+            </g>
+          </g>
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;Year&quot;}" opacity="1" trans="450,300">
+              <!-- Axis Ticks -->
+              <!-- Axis Labels with Groups -->
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="379.15929203999997,0">
+          <!-- Title -->
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2" x="0" y="0" width="0" height="0"/>
+</svg>

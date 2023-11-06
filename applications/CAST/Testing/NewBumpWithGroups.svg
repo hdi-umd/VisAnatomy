@@ -1,0 +1,223 @@
+<svg id="visChart" x="0" y="0" width="900" height="600" viewBox="0 0 900.000000 600.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" transform="" trans="450,300">
+    <g transform="" opacity="1" trans="450,300">
+      <g transform="" opacity="1" trans="450,300"/>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="450,300">
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" opacity="1" trans="450,300">
+              <!-- First Bump Link Links -->
+              <path id="mark1" class=" mark Link1 link" d="M 100,133.33333333333337 L 133.40025552108048,133.33333333333337 L 166.70925351341486,133.33333333333337 L 200.01825150574922,133.33333333333337 L 233.32724949808357,133.33333333333337 L 266.7275050191641,133.33333333333337 L 300.03650301149844,133.33333333333337 L 333.3455010038328,100 L 366.65449899616715,100 L 400.05475451724766,100 L 433.36375250958207,100 L 466.67275050191637,100 L 499.9817484942508,100 L 533.3820040153313,100 L 566.6910020076656,100 L 600,100" style="fill: none; stroke-width: 1; stroke: #eee; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;0,0&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Second Bump Link Links -->
+              <path id="mark2" class=" mark Link1 link" d="M 100,199.99999999999997 L 133.40025552108048,199.99999999999997 L 166.70925351341486,266.6666666666667 L 200.01825150574922,199.99999999999997 L 233.32724949808357,266.6666666666667 L 266.7275050191641,266.6666666666667 L 300.03650301149844,266.6666666666667 L 333.3455010038328,199.99999999999997 L 366.65449899616715,266.6666666666667 L 400.05475451724766,266.6666666666667 L 433.36375250958207,233.33333333333331 L 466.67275050191637,233.33333333333331 L 499.9817484942508,233.33333333333331 L 533.3820040153313,233.33333333333331 L 566.6910020076656,233.33333333333331 L 600,233.33333333333331" style="fill: none; stroke-width: 1; stroke: red; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:199.99999999999997,&quot;_id&quot;:&quot;1,1&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Third Bump Link Links -->
+              <path id="mark3" class=" mark Link1 link" d="M 100,400 L 133.40025552108048,366.66666666666663 L 166.70925351341486,400 L 200.01825150574922,400 L 233.32724949808357,400 L 266.7275050191641,366.66666666666663 L 300.03650301149844,366.66666666666663 L 333.3455010038328,333.33333333333337 L 366.65449899616715,366.66666666666663 L 400.05475451724766,366.66666666666663 L 433.36375250958207,366.66666666666663 L 466.67275050191637,333.33333333333337 L 499.9817484942508,333.33333333333337 L 533.3820040153313,333.33333333333337 L 566.6910020076656,333.33333333333337 L 600,333.33333333333337" style="fill: none; stroke-width: 1; stroke: #c9b037; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:400,&quot;_id&quot;:&quot;2,2&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Fourth Bump Link Links -->
+              <path id="mark4" class=" mark Link1 link" d="M 100,100 L 133.40025552108048,100 L 166.70925351341486,100 L 200.01825150574922,100 L 233.32724949808357,100 L 266.7275050191641,100 L 300.03650301149844,100 L 333.3455010038328,133.33333333333337 L 366.65449899616715,166.66666666666666 L 400.05475451724766,166.66666666666666 L 433.36375250958207,166.66666666666666 L 466.67275050191637,166.66666666666666 L 499.9817484942508,166.66666666666666 L 533.3820040153313,166.66666666666666 L 566.6910020076656,199.99999999999997 L 600,199.99999999999997" style="fill: none; stroke-width: 1; stroke: silver; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:100,&quot;_id&quot;:&quot;3,3&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Fifth Bump Link Links -->
+              <path id="mark5" class=" mark Link1 link" d="M 100,266.6666666666667 L 133.40025552108048,300 L 166.70925351341486,366.66666666666663 L 200.01825150574922,366.66666666666663 L 233.32724949808357,333.33333333333337 L 266.7275050191641,333.33333333333337 L 300.03650301149844,333.33333333333337 L 333.3455010038328,366.66666666666663 L 366.65449899616715,333.33333333333337 L 400.05475451724766,333.33333333333337 L 433.36375250958207,333.33333333333337 L 466.67275050191637,366.66666666666663 L 499.9817484942508,366.66666666666663 L 533.3820040153313,366.66666666666663 L 566.6910020076656,366.66666666666663 L 600,366.66666666666663" style="fill: none; stroke-width: 1; stroke: green; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;4,4&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Sixth Bump Link Links -->
+              <path id="mark6" class=" mark Link1 link" d="M 100,333.33333333333337 L 133.40025552108048,333.33333333333337 L 166.70925351341486,333.33333333333337 L 200.01825150574922,300 L 233.32724949808357,233.33333333333331 L 266.7275050191641,300 L 300.03650301149844,300 L 333.3455010038328,300 L 366.65449899616715,300 L 400.05475451724766,300 L 433.36375250958207,300 L 466.67275050191637,300 L 499.9817484942508,300 L 533.3820040153313,300 L 566.6910020076656,300 L 600,300" style="fill: none; stroke-width: 1; stroke: brown; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:333.33333333333337,&quot;_id&quot;:&quot;5,5&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Seventh Bump Link Links -->
+              <path id="mark7" class=" mark Link1 link" d="M 100,300 L 133.40025552108048,233.33333333333331 L 166.70925351341486,199.99999999999997 L 200.01825150574922,266.6666666666667 L 233.32724949808357,199.99999999999997 L 266.7275050191641,199.99999999999997 L 300.03650301149844,233.33333333333331 L 333.3455010038328,233.33333333333331 L 366.65449899616715,199.99999999999997 L 400.05475451724766,233.33333333333331 L 433.36375250958207,266.6666666666667 L 466.67275050191637,266.6666666666667 L 499.9817484942508,266.6666666666667 L 533.3820040153313,266.6666666666667 L 566.6910020076656,266.6666666666667 L 600,266.6666666666667" style="fill: none; stroke-width: 1; stroke: blue; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:300,&quot;_id&quot;:&quot;6,6&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Eigth Bump Link Links -->
+              <path id="mark8" class=" mark Link1 link" d="M 100,233.33333333333331 L 133.40025552108048,166.66666666666666 L 166.70925351341486,166.66666666666666 L 200.01825150574922,166.66666666666666 L 233.32724949808357,166.66666666666666 L 266.7275050191641,233.33333333333331 L 300.03650301149844,166.66666666666666 L 333.3455010038328,166.66666666666666 L 366.65449899616715,133.33333333333337 L 400.05475451724766,133.33333333333337 L 433.36375250958207,133.33333333333337 L 466.67275050191637,133.33333333333337 L 499.9817484942508,133.33333333333337 L 533.3820040153313,133.33333333333337 L 566.6910020076656,133.33333333333337 L 600,133.33333333333337" style="fill: none; stroke-width: 1; stroke: black; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;7,7&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Ninth Bump Link Links -->
+              <path id="mark9" class=" mark Link1 link" d="M 100,166.66666666666666 L 133.40025552108048,266.6666666666667 L 166.70925351341486,233.33333333333331 L 200.01825150574922,333.33333333333337 L 233.32724949808357,366.66666666666663 L 266.7275050191641,400 L 300.03650301149844,400 L 333.3455010038328,400 L 366.65449899616715,400 L 400.05475451724766,400 L 433.36375250958207,400 L 466.67275050191637,400 L 499.9817484942508,400 L 533.3820040153313,400 L 566.6910020076656,400 L 600,400" style="fill: none; stroke-width: 1; stroke: magenta; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:166.66666666666666,&quot;_id&quot;:&quot;8,8&quot;}"/>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Tenth Bump Link Links -->
+              <path id="mark10" class=" mark Link1 link" d="M 100,366.66666666666663 L 133.40025552108048,400 L 166.70925351341486,300 L 200.01825150574922,233.33333333333331 L 233.32724949808357,300 L 266.7275050191641,166.66666666666666 L 300.03650301149844,199.99999999999997 L 333.3455010038328,266.6666666666667 L 366.65449899616715,233.33333333333331 L 400.05475451724766,199.99999999999997 L 433.36375250958207,199.99999999999997 L 466.67275050191637,199.99999999999997 L 499.9817484942508,199.99999999999997 L 533.3820040153313,199.99999999999997 L 566.6910020076656,166.66666666666666 L 600,166.66666666666666" style="fill: none; stroke-width: 1; stroke: gray; stroke-dasharray: none" data-datum="{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:366.66666666666663,&quot;_id&quot;:&quot;9,9&quot;}"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="450,300">
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" opacity="1" trans="450,300"/>
+            <g transform="" opacity="1" trans="450,300">
+              <!-- Each Symbol with Group -->
+              <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1001" class=" mark Symbol1 symbol" cx="100" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1002&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1002" class=" mark Symbol1 symbol" cx="133.40025552108048" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:133.40025552108048,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1003&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1003" class=" mark Symbol1 symbol" cx="166.70925351341486" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:166.70925351341486,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1004&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1004" class=" mark Symbol1 symbol" cx="200.01825150574922" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:200.01825150574922,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1005&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1005" class=" mark Symbol1 symbol" cx="233.32724949808357" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:233.32724949808357,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1006&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1006" class=" mark Symbol1 symbol" cx="266.7275050191641" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:266.7275050191641,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1007&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1007" class=" mark Symbol1 symbol" cx="300.03650301149844" cy="133.33333333333337" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:300.03650301149844,&quot;_y&quot;:133.33333333333337,&quot;_id&quot;:&quot;1008&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1008" class=" mark Symbol1 symbol" cx="333.3455010038328" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:333.3455010038328,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1009&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1009" class=" mark Symbol1 symbol" cx="366.65449899616715" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:366.65449899616715,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1010&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1010" class=" mark Symbol1 symbol" cx="400.05475451724766" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:400.05475451724766,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1011&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1011" class=" mark Symbol1 symbol" cx="433.36375250958207" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:433.36375250958207,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1012&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1012" class=" mark Symbol1 symbol" cx="466.67275050191637" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:466.67275050191637,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1013&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1013" class=" mark Symbol1 symbol" cx="499.9817484942508" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:499.9817484942508,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1014&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1014" class=" mark Symbol1 symbol" cx="533.3820040153313" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:533.3820040153313,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1015&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1015" class=" mark Symbol1 symbol" cx="566.6910020076656" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:566.6910020076656,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1016&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1016" class=" mark Symbol1 symbol" cx="600" cy="100" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="#eee" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:600,&quot;_y&quot;:100,&quot;_id&quot;:&quot;1017&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1017" class=" mark Symbol1 symbol" cx="100" cy="199.99999999999997" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:100,&quot;_y&quot;:199.99999999999997,&quot;_id&quot;:&quot;1018&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1018" class=" mark Symbol1 symbol" cx="133.40025552108048" cy="199.99999999999997" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:133.40025552108048,&quot;_y&quot;:199.99999999999997,&quot;_id&quot;:&quot;1019&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1019" class=" mark Symbol1 symbol" cx="166.70925351341486" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:166.70925351341486,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1020&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1020" class=" mark Symbol1 symbol" cx="200.01825150574922" cy="199.99999999999997" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:200.01825150574922,&quot;_y&quot;:199.99999999999997,&quot;_id&quot;:&quot;1021&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1021" class=" mark Symbol1 symbol" cx="233.32724949808357" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:233.32724949808357,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1022&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1022" class=" mark Symbol1 symbol" cx="266.7275050191641" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:266.7275050191641,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1023&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1023" class=" mark Symbol1 symbol" cx="300.03650301149844" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:300.03650301149844,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1024&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1024" class=" mark Symbol1 symbol" cx="333.3455010038328" cy="199.99999999999997" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:333.3455010038328,&quot;_y&quot;:199.99999999999997,&quot;_id&quot;:&quot;1025&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1025" class=" mark Symbol1 symbol" cx="366.65449899616715" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:366.65449899616715,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1026&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1026" class=" mark Symbol1 symbol" cx="400.05475451724766" cy="266.6666666666667" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:400.05475451724766,&quot;_y&quot;:266.6666666666667,&quot;_id&quot;:&quot;1027&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1027" class=" mark Symbol1 symbol" cx="433.36375250958207" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:433.36375250958207,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1028&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1028" class=" mark Symbol1 symbol" cx="466.67275050191637" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:466.67275050191637,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1029&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1029" class=" mark Symbol1 symbol" cx="499.9817484942508" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:499.9817484942508,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1030&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1030" class=" mark Symbol1 symbol" cx="533.3820040153313" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:533.3820040153313,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1031&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1031" class=" mark Symbol1 symbol" cx="566.6910020076656" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:566.6910020076656,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1032&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <circle id="mark1032" class=" mark Symbol1 symbol" cx="600" cy="233.33333333333331" r="4" style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" fill="red" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:600,&quot;_y&quot;:233.33333333333331,&quot;_id&quot;:&quot;1033&quot;}"/>
+        </g>
+            </g>
+            <g transform="" opacity="1" trans="450,300">
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,150">
+                  <!-- Axis Label 1 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,182.07079646">
+                  <!-- Axis Label 2 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,214.14159292">
+                  <!-- Axis Label 3 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,246.21238938">
+                  <!-- Axis Label 4 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,278.28318584">
+                  <!-- Axis Label 5 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,438.63716813999997">
+                  <!-- Axis Label 6 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,310.3539823">
+                  <!-- Axis Label 7 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,342.42477876">
+                  <!-- Axis Label 8 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,374.49557522">
+                  <!-- Axis Label 9 -->
+                </g>
+              </g>
+              <g transform="" opacity="1" trans="450,300">
+                <g transform="" opacity="1" trans="724.38849522,406.56637168">
+                  <!-- Axis Label 10 -->
+                </g>
+              </g>
+            </g>
+          </g>
+          <g transform="" opacity="1" trans="450,300">
+            <g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;Year&quot;}" opacity="1" trans="450,300">
+              <!-- Axis Ticks -->
+              <!-- Axis Labels with Groups -->
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" opacity="1" trans="450,300">
+        <g transform="" opacity="1" trans="379.15929203999997,0">
+          <!-- Title -->
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2" x="0" y="0" width="0" height="0"/>
+</svg>

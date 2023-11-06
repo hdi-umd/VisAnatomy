@@ -1,0 +1,98 @@
+<svg id="visChart" x="0" y="0" width="669.023569023569" height="600" viewBox="0 0 669.023569 600.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0">
+  <g id="chartContent" transform="" trans="334.511785,300">
+    <g transform="" trans="334.511785,300">
+      <g transform="" trans="334.511785,300"/>
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="334.511785,300">
+          <g transform="" trans="316.58249207,315">
+            <g transform="" trans="316.58249207,315"/>
+            <g transform="" trans="316.58249207,315">
+              <!-- Each path with its own group -->
+              <g transform="translate(0,0)" opacity="1">
+        <path id="mark1" class=" mark Shape1 rectangle" d="M 300, 200 L 399.21147013144775, 187.46667664356957 A 100 100 82.8 0 0 300 100 L 300, 200 A 0 0 82.8 0 1 300 200" style="fill: #7fc97f; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark2" class=" mark Shape1 rectangle" d="M 300, 200 L 306.2790519529313, 299.8026728428272 A 100 100 93.60000000000002 0 0 399.21147013144775 187.46667664356957 L 300, 200 A 0 0 93.60000000000002 0 1 300 200" style="fill: #beaed4; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark3" class=" mark Shape1 rectangle" d="M 300, 200 L 222.94867572242106, 263.74239897486893 A 100 100 54 0 0 306.2790519529313 299.8026728428272 L 300, 200 A 0 0 54 0 1 300 200" style="fill: #fdc086; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;3&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark4" class=" mark Shape1 rectangle" d="M 300, 200 L 246.41732050210038, 115.56720744979846 A 100 100 97.19999999999999 0 0 222.94867572242106 263.74239897486893 L 300, 200 A 0 0 97.19999999999999 0 1 300 200" style="fill: #ffff99; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;4&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark5" class=" mark Shape1 rectangle" d="M 300, 200 L 300.00000000000006, 100 A 100 100 32.400000000000006 0 0 246.41732050210038 115.56720744979846 L 300, 200 A 0 0 32.400000000000006 0 1 300 200" style="fill: #386cb0; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:200,&quot;_id&quot;:&quot;5&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark6" class=" mark Shape1 rectangle" d="M 535, 200 L 631.8583161128631, 224.86898871648546 A 100 100 104.39999999999998 0 0 535 100 L 535, 200 A 0 0 104.39999999999998 0 1 535 200" style="fill: #7fc97f; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;6&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark7" class=" mark Shape1 rectangle" d="M 535, 200 L 498.1875447315322, 292.97764858882516 A 100 100 97.19999999999999 0 0 631.8583161128631 224.86898871648546 L 535, 200 A 0 0 97.19999999999999 0 1 535 200" style="fill: #beaed4; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;7&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark8" class=" mark Shape1 rectangle" d="M 535, 200 L 435.78852986855225, 212.53332335643051 A 100 100 61.19999999999999 0 0 498.1875447315322 292.97764858882516 L 535, 200 A 0 0 61.19999999999999 0 1 535 200" style="fill: #fdc086; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;8&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark9" class=" mark Shape1 rectangle" d="M 535, 200 L 481.41732050210027, 115.56720744979853 A 100 100 64.80000000000001 0 0 435.78852986855225 212.53332335643051 L 535, 200 A 0 0 64.80000000000001 0 1 535 200" style="fill: #ffff99; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;9&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark10" class=" mark Shape1 rectangle" d="M 535, 200 L 535, 100 A 100 100 32.400000000000006 0 0 481.41732050210027 115.56720744979853 L 535, 200 A 0 0 32.400000000000006 0 1 535 200" style="fill: #386cb0; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:200,&quot;_id&quot;:&quot;10&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark11" class=" mark Shape1 rectangle" d="M 300, 455 L 372.89686274214114, 386.5452894071311 A 100 100 46.80000000000001 0 0 300 355 L 300, 455 A 0 0 46.80000000000001 0 1 300 455" style="fill: #7fc97f; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;11&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark12" class=" mark Shape1 rectangle" d="M 300, 455 L 353.5826794978996, 539.4327925502016 A 100 100 100.80000000000001 0 0 372.89686274214114 386.5452894071311 L 300, 455 A 0 0 100.80000000000001 0 1 300 455" style="fill: #beaed4; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;12&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark13" class=" mark Shape1 rectangle" d="M 300, 455 L 269.09830056250524, 550.1056516295154 A 100 100 50.39999999999998 0 0 353.5826794978996 539.4327925502016 L 300, 455 A 0 0 50.39999999999998 0 1 300 455" style="fill: #fdc086; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;13&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark14" class=" mark Shape1 rectangle" d="M 300, 455 L 236.257601025131, 377.9486757224211 A 100 100 122.39999999999998 0 0 269.09830056250524 550.1056516295154 L 300, 455 A 0 0 122.39999999999998 0 1 300 455" style="fill: #ffff99; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;14&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <path id="mark15" class=" mark Shape1 rectangle" d="M 300, 455 L 299.99999999999994, 355 A 100 100 39.599999999999994 0 0 236.257601025131 377.9486757224211 L 300, 455 A 0 0 39.599999999999994 0 1 300 455" style="fill: #386cb0; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:300,&quot;_y&quot;:455,&quot;_id&quot;:&quot;15&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark16" class=" mark Shape1 rectangle" d="M 535, 455 L 635, 455 A 100 100 90 0 0 535 355 L 535, 455 A 0 0 90 0 1 535 455" style="fill: #7fc97f; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;16&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark17" class=" mark Shape1 rectangle" d="M 535, 455 L 498.18754473153217, 547.9776485888251 A 100 100 111.60000000000002 0 0 635 455 L 535, 455 A 0 0 111.60000000000002 0 1 535 455" style="fill: #beaed4; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;17&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark18" class=" mark Shape1 rectangle" d="M 535, 455 L 436.7712749271311, 473.7381314585724 A 100 100 57.60000000000002 0 0 498.18754473153217 547.9776485888251 L 535, 455 A 0 0 57.60000000000002 0 1 535 455" style="fill: #fdc086; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;18&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark19" class=" mark Shape1 rectangle" d="M 535, 455 L 471.25760102513107, 377.94867572242106 A 100 100 61.19999999999999 0 0 436.7712749271311 473.7381314585724 L 535, 455 A 0 0 61.19999999999999 0 1 535 455" style="fill: #ffff99; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;19&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <path id="mark20" class=" mark Shape1 rectangle" d="M 535, 455 L 535, 355 A 100 100 39.599999999999994 0 0 471.25760102513107 377.94867572242106 L 535, 455 A 0 0 39.599999999999994 0 1 535 455" style="fill: #386cb0; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:535,&quot;_y&quot;:455,&quot;_id&quot;:&quot;20&quot;}"/>
+      </g>
+            </g>
+          </g>
+          <g transform="" trans="334.511785,300">
+            <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Cause&quot;}" trans="334.511785,300"/>
+            <g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Month&quot;}" trans="316.58249207,315">
+                <!-- Each axis tick and label with its own group -->
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" trans="316.58249207,0">
+          <!-- Title -->
+        </g>
+      </g>
+      <g transform="" trans="334.511785,300">
+        <g transform="" class="legend" data-datum="{&quot;color&quot;:&quot;Cause&quot;}" trans="50.00000048999999,152">
+          <!-- Text and Legend Symbol in their own combined group -->
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="highlightSelectionFrame" fill="none" stroke="#2196f3" stroke-width="2" x="0" y="0" width="0" height="0"/>
+</svg>
