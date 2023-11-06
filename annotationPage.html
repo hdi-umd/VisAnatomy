@@ -675,7 +675,6 @@
               li.id = file.split(".")[0];
               li.textContent = file.split(".")[0];
               li.addEventListener("click", () => {
-                loadDemo(file);
                 d3.selectAll(".demoItem")
                   .style("color", "black")
                   .style("font-weight", "normal");
@@ -683,12 +682,16 @@
                 d3.select("#" + file.split(".")[0])
                   .style("color", "red")
                   .style("font-weight", "bold");
+                loadDemo(file);
               });
               ulElement.appendChild(li);
             });
           });
 
-        // refresh();
+        d3.select("#BarChart1")
+          .style("color", "red")
+          .style("font-weight", "bold");
+        loadDemo("barChart1.svg");
       });
     </script>
   </body>
