@@ -591,7 +591,6 @@
       window.onhashchange = refresh;
 
       function refresh() {
-        console.log(fileName);
         if (fileName) {
           loadDemo(fileName);
         }
@@ -604,12 +603,12 @@
             return resp.text();
           })
           .then((rawSVG) => {
-            if (
-              sessionStorage.getItem("svg")
-                ? sessionStorage.getItem("svg").length > 0
-                : false
-            )
-              rawSVG = sessionStorage.getItem("svg");
+            // if (
+            //   sessionStorage.getItem("svg")
+            //     ? sessionStorage.getItem("svg").length > 0
+            //     : false
+            // )
+            //   rawSVG = sessionStorage.getItem("svg");
 
             titleXaxis = [];
             inXTitle = false;
@@ -649,6 +648,22 @@
       });
 
       $(document).ready(() => {
+        fetch("./SVG_Names.json")
+          .then((response) => response.json())
+          .then((files) => {
+            const ulElement = document.getElementById("demoList");
+
+            // Populate the <ul> list with filenames
+            files.forEach((file) => {
+              const li = document.createElement("li");
+              li.textContent = file;
+              li.addEventListener("click", () => {
+                loadDemo(file);
+              });
+              ulElement.appendChild(li);
+            });
+          });
+
         refresh();
       });
     </script>
