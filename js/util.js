@@ -81,6 +81,7 @@ function post() {
     }
   };
   let data = {};
+  annotations.mainContent = mainContent;
   data["chart"] = sessionStorage.getItem("fileName");
   data["annotations"] = annotations;
   xhr.send(JSON.stringify(data));

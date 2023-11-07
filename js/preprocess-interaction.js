@@ -277,6 +277,7 @@ function drag(ev) {
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
+  let thisText = d3.select("#" + data).datum();
 
   draggedToID = ev.srcElement.id;
   console.log(draggedFromID, draggedToID);
@@ -287,7 +288,6 @@ function drop(ev) {
     draggedToID.startsWith("yTitle") ||
     draggedToID.startsWith("legendTitle")
   ) {
-    let thisText = d3.select("#" + data).datum();
     if (
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
@@ -372,6 +372,7 @@ function drop(ev) {
     draggedToID.startsWith("xLabels") ||
     draggedToID.startsWith("yLabels")
   ) {
+    // need to handle legend label
     let thisText = d3.select("#" + data).datum();
     // when the element is dropped in the detected region
     /*dropping from title region into y label region */
@@ -390,17 +391,14 @@ function drop(ev) {
         case "x":
           titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
           displayTitleXLabel(thisText, "delete");
-          console.log("x title is ", titleXaxis);
           break;
         case "y":
           titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
           displayTitleYLabel(thisText, "delete");
-          console.log("y title is ", titleYaxis);
           break;
         case "legend":
           titleLegend.splice(titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
-          console.log("legend title is ", titleLegend);
           break;
       }
 
@@ -441,12 +439,40 @@ function drop(ev) {
       draggedFromID.startsWith("xLabels") ||
       draggedFromID.startsWith("yLabels")
     ) {
+      console.log(draggedFromID);
       removeAxisLabel(draggedFromID, d3.select("#" + data).datum());
       displayAxis(xAxis);
       displayAxis(yAxis);
     } else if (draggedFromID == "legendLabels") {
       removeLegendLabel(d3.select("#" + data).datum());
       displayLegend(legend);
+    } else if (
+      draggedFromID.startsWith("xTitle") ||
+      draggedFromID.startsWith("yTitle") ||
+      draggedFromID.startsWith("legendTitle")
+    ) {
+      let thisTitle = draggedFromID.startsWith("xTitle")
+        ? "x"
+        : draggedFromID.startsWith("yTitle")
+        ? "y"
+        : "legend";
+
+      console.log(thisText);
+
+      switch (thisTitle) {
+        case "x":
+          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
+          displayTitleXLabel(thisText, "delete");
+          break;
+        case "y":
+          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
+          displayTitleYLabel(thisText, "delete");
+          break;
+        case "legend":
+          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          displayTitleLegendLabel(thisText, "delete");
+          break;
+      }
     }
     ev.stopImmediatePropagation();
   }
