@@ -200,20 +200,11 @@ function displayTitleXLabel(thisText, mode) {
     .on("mouseover", function (event) {
       d3.select(this) // Select the hovered button
         .attr("style", "color: #fff");
-
-      d3.select("body")
-        .append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0.75)
-        .style("width", "100%")
-        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button
         .attr("style", "background-color: #f2f2f2; width: 100%")
         .attr("style", "color: black");
-
-      d3.select(".tooltip").remove();
     });
 }
 
@@ -246,19 +237,11 @@ function displayTitleYLabel(thisText, mode) {
     .on("mouseover", function (event) {
       d3.select(this) // Select the hovered button
         .attr("style", "color: #fff");
-
-      d3.select("body")
-        .append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0.75)
-        .style("width", "100%")
-        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button
         .attr("style", "background-color: #f2f2f2; width: 100%")
         .attr("style", "color: black");
-      d3.select(".tooltip").remove();
     });
 }
 
@@ -294,19 +277,11 @@ function displayTitleLegendLabel(thisText, mode) {
     .on("mouseover", function (event) {
       d3.select(this) // Select the hovered button
         .attr("style", "color: #fff");
-
-      d3.select("body")
-        .append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0.75)
-        .style("width", "100%")
-        .style("background-color: black");
     })
     .on("mouseout", function () {
       d3.select(this) // Select the hovered button
         .attr("style", "background-color: #f2f2f2; width: 100%")
         .attr("style", "color: black");
-      d3.select(".tooltip").remove();
     });
 }
 

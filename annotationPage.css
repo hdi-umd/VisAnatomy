@@ -104,7 +104,7 @@ body {
   margin: 0;
   padding: 20px 5px 20px 25px;
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   list-style: none;
   font-size: 14px;
@@ -437,14 +437,14 @@ span {
   vertical-align: middle;
 }
 #saveButton {
-  width: 100px;
+  /* width: 100px;
   height: 30px;
   background: #eee;
   border: #ccc 1px solid;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  line-height: 10px;
+  line-height: 10px; */
 }
 #loadButton {
   position: absolute;

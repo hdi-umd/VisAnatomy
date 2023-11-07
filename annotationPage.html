@@ -19,6 +19,11 @@
       rel="stylesheet"
       href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="./annotationPage.css" />
     <title> </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -75,28 +80,36 @@
 
     <div id="preprocessUI" style="visibility: visible">
       <div id="annotationStages">
+        <button
+          id="prevButton"
+          onclick="prevSection()"
+          style="position: absolute; right: 80%; top: 8px"
+        >
+          Back
+        </button>
         <div id="breadcrumb"></div>
         <button
           id="nextButton"
           onclick="nextSection()"
-          style="position: absolute; left: calc(50% + 275px); top: 8px"
+          style="position: absolute; left: 80%; top: 8px"
         >
           Next
         </button>
-        <button
-          id="prevButton"
-          onclick="prevSection()"
-          style="position: absolute; right: calc(50% + 260px); top: 8px"
-        >
-          Back
-        </button>
-        <button
+
+        <i
+          class="far fa-save"
+          id="saveButton"
+          onclick="post()"
+          style="position: absolute; top: 8px; right: calc(2%); font-size: 30px"
+        ></i>
+
+        <!-- <button
           id="saveButton"
           onclick="post()"
           style="position: absolute; top: 8px; right: calc(2%)"
         >
           Save
-        </button>
+        </button> -->
       </div>
       <div class="mainbox" id="axisAndLegend">
         <div style="margin-left: 20px">
@@ -692,7 +705,7 @@
               .style("font-weight", "bold");
           });
 
-        loadDemo("barChart1.svg");
+        loadDemo("BarChart1.svg");
       });
     </script>
   </body>

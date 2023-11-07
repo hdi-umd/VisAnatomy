@@ -36,7 +36,9 @@ function loadFile() {
       legend = annotations.legend;
       xGridlines = annotations.xGridlines;
       yGridlines = annotations.yGridlines;
-      markAnnotations = annotations.markAnnotations;
+      markAnnotations = annotations.markAnnotations
+        ? annotations.markAnnotations
+        : {};
       displayAxis(xAxis);
       displayAxis(yAxis);
       displayLegend(legend);

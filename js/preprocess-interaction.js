@@ -422,7 +422,6 @@ function drop(ev) {
     }
     ev.stopImmediatePropagation();
   }
-  d3.select(".tooltip").remove();
 }
 
 function addAxisLabel(TargetID, text) {

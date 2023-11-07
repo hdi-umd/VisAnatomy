@@ -34,6 +34,7 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
         return SimpleHTTPRequestHandler.do_GET(self)
     
     def do_POST(self):
+        print(self.path)
         if self.path.startswith("/save_file"):
             print("saving new file")
             try:
