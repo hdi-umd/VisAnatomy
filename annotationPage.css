@@ -235,20 +235,32 @@ body {
   padding-right: 5px;
 }
 
-.titleXbutton:empty::before {
-  content: "Text element(s) for the X-axis";
+#xTitle:empty::before {
+  content: "Text element(s) for the X-axis title";
   color: lightgray;
 }
-.titleYbutton:empty::before {
-  content: "Text element(s) for the Y-axis";
+#yTitle:empty::before {
+  content: "Text element(s) for the Y-axis title";
   color: lightgray;
 }
-.titleLegendButton:empty::before {
-  content: "Text element(s) for the legend";
+#legendTitle:empty::before {
+  content: "Text element(s) for the legend title";
   color: lightgray;
 }
-.chartTitleButton:empty::before {
+#chartTitle:empty::before {
   content: "Text element(s) for the chart title";
+  color: lightgray;
+}
+#xLabels:empty::before {
+  content: "Text element(s) for the X-axis labels";
+  color: lightgray;
+}
+#yLabels:empty::before {
+  content: "Text element(s) for the Y-axis labels";
+  color: lightgray;
+}
+#legendLabels:empty::before {
+  content: "Text element(s) for the legend labels";
   color: lightgray;
 }
 
