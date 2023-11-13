@@ -80,6 +80,10 @@ function groupSVGElementsByType() {
     ...(yAxis.labels ? yAxis.labels : []),
     ...(xAxis.ticks ? xAxis.ticks : []),
     ...(yAxis.ticks ? yAxis.ticks : []),
+    ...chartTitle,
+    ...titleLegend,
+    ...titleXaxis,
+    ...titleYaxis,
   ].map((element) => element.id);
   referenceElements.push(
     ...[
@@ -93,7 +97,10 @@ function groupSVGElementsByType() {
   // Get all leaf-node elements (elements without child elements)
   const leafElements = Array.from(tempDiv.querySelectorAll("*")).filter(
     (element) =>
-      element.childElementCount === 0 && !referenceElements.includes(element.id)
+      ((element.childElementCount === 0 &&
+        !graphicsElementTypes.includes(element.parentElement.tagName)) ||
+        graphicsElementTypes.includes(element.tagName)) &&
+      !referenceElements.includes(element.id)
   );
 
   // Group the elements by their element type

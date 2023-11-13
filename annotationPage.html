@@ -366,8 +366,8 @@
           <div
             style="
               position: absolute;
-              top: 20%;
-              height: 80%;
+              top: 25%;
+              height: 75%;
               width: 47.5%;
               border: #0ba7bc 1px solid;
               padding: 5px;
@@ -379,7 +379,7 @@
             <div
               id="allMarks"
               style="
-                height: 90%;
+                height: 85%;
                 overflow: scroll;
                 overflow: -moz-scrollbars-vertical;
               "
@@ -388,9 +388,9 @@
           <div
             style="
               position: absolute;
-              top: 20%;
+              top: 25%;
               right: 2.5%;
-              height: 80%;
+              height: 75%;
               width: 47.5%;
               border: #0ba7bc 1px solid;
               padding: 5px;
@@ -402,7 +402,7 @@
             <div
               id="markSelections"
               style="
-                height: 90%;
+                height: 85%;
                 overflow: scroll;
                 overflow: -moz-scrollbars-vertical;
               "
@@ -410,7 +410,7 @@
           </div>
           <div
             style="
-              height: 20%;
+              height: 25%;
               width: 100%;
               position: absolute;
               top: 0;
@@ -612,14 +612,6 @@
       var areaSelection;
       var numOfColor;
       const fileName = sessionStorage.getItem("fileName");
-
-      // window.onhashchange = refresh;
-
-      // function refresh() {
-      //   if (fileName) {
-      //     loadDemo(fileName);
-      //   }
-      // }
 
       function loadDemo(demo) {
         sessionStorage.setItem("fileName", demo.split(".")[0]);

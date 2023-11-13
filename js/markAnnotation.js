@@ -19,6 +19,7 @@ function initilizeMarkAnnotation() {
     d3.select("#" + rid).style("opacity", "0.1");
   });
   markSelection = []; // reset mark selection
+  channelBasedBatchSelections4AllMarks = {}; // reset channel based batch selections
 
   allLeftNodes = Object.keys(mainContentElements)
     .map((key) => mainContentElements[key])
@@ -75,6 +76,11 @@ function initilizeMarkAnnotation() {
       markDiv.id = "mark_" + element.id;
       markDiv.innerHTML = element.id;
       let markID = element.id;
+      if (!markAnnotations[markID])
+        markAnnotations[markID] = {
+          Type: type === "path" ? "none" : type,
+          Role: "none",
+        };
       if (markAnnotations[markID]["Type"] !== "none") {
         let typeTag = document.createElement("span");
         typeTag.innerHTML = "&nbsp;" + markAnnotations[markID]["Type"];
@@ -104,6 +110,7 @@ function initilizeMarkAnnotation() {
   annotations.markAnnotations = markAnnotations;
 
   // then populate all possible mark batch selections
+  console.log(leafNodeTypes);
   leafNodeTypes.forEach((elementType) => {
     channelBasedBatchSelections4AllMarks[elementType] =
       dertermineChannelBasedBatchSelections(elementType);
