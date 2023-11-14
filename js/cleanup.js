@@ -58,7 +58,7 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
 
-    if (!(zeroHeight || zeroWidth)) {
+    if (!(zeroHeight || zeroWidth) && top > -1000 && left > -1000) {
       groupedElements.push({
         left: left,
         top: top,
