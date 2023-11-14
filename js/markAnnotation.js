@@ -25,7 +25,7 @@ function initilizeMarkAnnotation() {
     .map((key) => mainContentElements[key])
     .flat();
 
-  // TBD: handle invisible elements and note their type as "general" and role as "invisible"
+  // to be complete: handle invisible elements
   let invisibleElements = allLeftNodes.filter(
     (element) =>
       element.element.attributes["visibility"]?.value === "hidden" ||
