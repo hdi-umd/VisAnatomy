@@ -10,7 +10,7 @@ function displaySVG(text) {
       if (!Object.keys(indices).includes(element.nodeName)) {
         indices[element.nodeName] = 0;
       }
-      if (element.nodeName !== "linearGradient") {
+      if (element.nodeName !== "linearGradient" && element.nodeName !== "g") {
         element.setAttribute(
           "id",
           element.nodeName + indices[element.nodeName]++
