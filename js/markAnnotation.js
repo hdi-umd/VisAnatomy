@@ -149,9 +149,9 @@ function initilizeMarkAnnotation() {
         if (channel === "fill") {
           // If the channel is 'fill', create a colored rectangle with the same fill color
           selectionDiv.innerHTML +=
-            '<div class="inline-rectangle" style="background-color: ' +
+            '<div class="inline-container"><div class="inline-rectangle" style="background-color: ' +
             value +
-            ';"></div>';
+            ';"></div></div>';
         } else {
           // If the channel is not 'fill', simply append the value
           selectionDiv.innerHTML += value;

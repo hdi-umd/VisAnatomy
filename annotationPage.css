@@ -541,10 +541,15 @@ span {
   cursor: pointer;
 }
 
+.inline-container {
+  display: inline-block;
+  vertical-align: middle; /* Align the container to the bottom of the line */
+}
+
 .inline-rectangle {
-  display: inline-flex;
-  align-items: center;
-  height: 1em; /* Set the height to match the text */
+  display: inline-block;
+  vertical-align: middle; /* Align the rectangle to the bottom of the line */
   width: 1em; /* Set the width as needed */
+  height: 1em; /* Set the height as needed */
   margin-right: 5px; /* Adjust spacing as needed */
 }
