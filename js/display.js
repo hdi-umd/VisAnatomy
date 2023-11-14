@@ -10,10 +10,12 @@ function displaySVG(text) {
       if (!Object.keys(indices).includes(element.nodeName)) {
         indices[element.nodeName] = 0;
       }
-      element.setAttribute(
-        "id",
-        element.nodeName + indices[element.nodeName]++
-      );
+      if (element.nodeName !== "linearGradient") {
+        element.setAttribute(
+          "id",
+          element.nodeName + indices[element.nodeName]++
+        );
+      }
     }
 
     if (element.hasChildNodes()) {
