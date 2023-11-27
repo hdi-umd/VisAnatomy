@@ -145,13 +145,13 @@ function initilizeMarkAnnotation() {
         selectionDiv.id =
           elementType + "_" + channel + "_value" + values.indexOf(value);
         selectionDiv.innerHTML =
-          "Select " + elementType + "s whose " + channel + " is ";
+          "Select " + elementType + "s whose " + channel + " is " + value + " ";
         if (channel === "fill") {
           // If the channel is 'fill', create a colored rectangle with the same fill color
           selectionDiv.innerHTML +=
             '<div class="inline-container"><div class="inline-rectangle" style="background-color: ' +
             value +
-            ';"></div></div>';
+            '; border: 2px solid black;"></div></div>';
         } else {
           // If the channel is not 'fill', simply append the value
           selectionDiv.innerHTML += value;
