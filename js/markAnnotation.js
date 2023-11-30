@@ -36,7 +36,8 @@ function initilizeMarkAnnotation() {
       element.element.attributes["fill"]?.value === "transparent" ||
       element.element.attributes["font-size"]?.value === "0" ||
       (element.element.attributes.localName === "line" &&
-        element.element.attributes["stroke"]?.value === "transparent")
+        element.element.attributes["stroke"]?.value === "transparent") || 
+      element.element.parentNode?.nodeName.toLowerCase() === "clippath"
   );
 
   allLeftNodes = allLeftNodes.filter(
@@ -190,6 +191,12 @@ function markOnClick(markID) {
 
 function selectionOnClick(selectionID, selection) {
   disableAllMarkSelections();
+
+  selection.forEach((markID) => {
+    const markDiv = document.getElementById("mark_" + markID);
+    document.getElementById("allMarks").insertBefore(markDiv, document.getElementById("allMarks").firstChild);
+  });
+
   d3.select("#" + selectionID)
     .style("background-color", "#000000")
     .style("color", "white");
