@@ -433,7 +433,9 @@
                 width: 49%;
               "
             >
-              <h3>All Marks</h3>
+              <h4>
+                All Marks (<span id="numberOfMarksSelected"> 0 </span> Selected)
+              </h4>
               <div
                 id="allMarks"
                 style="
@@ -452,7 +454,7 @@
                 width: 49%;
               "
             >
-              <h3>Group Selections</h3>
+              <h4>Group Selections</h4>
               <div
                 id="markSelections"
                 style="
@@ -582,12 +584,14 @@
             console.log(mainContentElements);
 
             // below for initilizing the mark annotation
+            document.getElementById("numberOfMarksSelected").innerHTML = "0";
             initilizeMarkAnnotation();
 
             document.getElementById("axisAndLegend").style.visibility =
               "hidden";
             document.getElementById("generalizedSelection").style.visibility =
               "visible";
+
             break;
           case "Groups":
           case "Layout":

@@ -181,6 +181,7 @@ function markOnClick(markID) {
     .style("background-color", "#000000")
     .style("color", "white");
   markSelection = [markID];
+  document.getElementById("numberOfMarksSelected").innerHTML = "1";
   document.getElementById("markTypeSelection").value =
     markAnnotations[markID].Type;
   document.getElementById("markRoleSelection").value =
@@ -194,6 +195,8 @@ function selectionOnClick(selectionID, selection) {
     .style("background-color", "#000000")
     .style("color", "white");
   markSelection = selection;
+  document.getElementById("numberOfMarksSelected").innerHTML =
+    markSelection.length.toString();
   markSelection.forEach((markID) => {
     d3.select("#mark_" + markID)
       .style("background-color", "#000000")
