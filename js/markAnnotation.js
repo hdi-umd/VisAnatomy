@@ -266,9 +266,36 @@ function markAnnotationChanged(attr) {
   if (markSelection.length === 0) return;
   console.log(markAnnotations);
   markSelection.map((selectedMarkID) => {
-    markAnnotations[selectedMarkID][attr] = document.getElementById(
-      "mark" + attr + "Selection"
-    ).value;
+    let thisValue = document.getElementById("mark" + attr + "Selection").value;
+    markAnnotations[selectedMarkID][attr] = thisValue;
+    // switch (thisValue) {
+    //   case "Horizontal Gridline":
+    //     xGridlines.push(selectedMarkID);
+    //     break;
+    //   case "Vertical Gridline":
+    //     yGridlines.push(selectedMarkID);
+    //     break;
+    //   case "X Axis Line":
+    //     xAxis["line"] = selectedMarkID;
+    //     break;
+    //   case "Y Axis Line":
+    //     yAxis["line"] = selectedMarkID;
+    //     break;
+    //   case "X Axis Tick":
+    //     if (xAxis["ticks"]) xAxis["ticks"].push(selectedMarkID);
+    //     else xAxis["ticks"] = [selectedMarkID];
+    //     break;
+    //   case "Y Axis Tick":
+    //     if (yAxis["ticks"]) yAxis["ticks"].push(selectedMarkID);
+    //     else yAxis["ticks"] = [selectedMarkID];
+    //     break;
+    //   case "Legend Mark":
+    //     legend.marks.push(selectedMarkID);
+    //     break;
+    //   case "Legend Label":
+    //     legend.labels.push(selectedMarkID);
+    //     break;
+    // }
   });
   reflectChanges();
 }

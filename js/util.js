@@ -82,6 +82,12 @@ function post() {
   let data = {};
   annotations.mainContent = mainContent;
   annotations.chartTitle = chartTitle;
+  // TBD: revise the following values based on 'markAnnotations' value
+  annotations["xGridlines"] = xGridlines;
+  annotations["yGridlines"] = yGridlines;
+  annotations["xAxis"] = xAxis;
+  annotations["yAxis"] = yAxis;
+  annotations["legend"] = legend;
   data["chart"] = sessionStorage.getItem("fileName");
   data["annotations"] = annotations;
   xhr.send(JSON.stringify(data));
