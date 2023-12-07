@@ -690,7 +690,8 @@
               // Create a sublist for each baseName
               const subUl = document.createElement("ul");
               subUl.classList.add("chartSublist");
-              subUl.style.display = "none"; // Initially hide the sublist
+              subUl.id = baseName + "List";
+              subUl.style.display = baseName === "BarChart" ? "block" : "none"; // Initially hide the sublist
               li.appendChild(subUl);
 
               // Add event listener to toggle the sublist display
