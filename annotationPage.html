@@ -657,6 +657,21 @@
         if (e.code == "Escape") deactivateAreaSelect();
       });
 
+      function initilizeVariables() {
+        annotations = {};
+        xAxis = {};
+        yAxis = {};
+        legend = {};
+        xGridlines = [];
+        yGridlines = [];
+        markAnnotations = {};
+        chartTitle = [];
+        titleLegend = [];
+        titleXaxis = [];
+        titleYaxis = [];
+        annotationLoaded = false;
+      }
+
       $(document).ready(() => {
         fetch("./SVG_Names.json")
           .then((response) => response.json())
@@ -670,18 +685,7 @@
               li.id = file.split(".")[0];
               li.textContent = file.split(".")[0];
               li.addEventListener("click", () => {
-                annotations = {};
-                xAxis = {};
-                yAxis = {};
-                legend = {};
-                xGridlines = [];
-                yGridlines = [];
-                markAnnotations = {};
-                chartTitle = [];
-                titleLegend = [];
-                titleXaxis = [];
-                titleYaxis = [];
-                annotationLoaded = false;
+                initilizeVariables();
                 d3.selectAll(".axisLabels").selectAll("button").remove();
                 d3.selectAll(".axisTitle").selectAll("button").remove();
                 d3.selectAll(".chartTitle").selectAll("button").remove();
@@ -703,6 +707,7 @@
               .style("font-weight", "bold");
           });
 
+        initilizeVariables();
         loadDemo("BarChart1.svg");
       });
     </script>
