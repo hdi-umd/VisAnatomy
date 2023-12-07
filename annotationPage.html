@@ -63,19 +63,7 @@
       "notification info when saving"
     </div>
     <div>
-      <ul id="demoList" class="demos"></ul>
-      <!-- <svg
-        id="layers"
-        style="
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 240px;
-          height: 300px;
-          background: #f2f2f2;
-          border-right: 1px solid #ccc;
-        "
-      ></svg> -->
+      <ul id="demoList" class="demos" style="height: 90%"></ul>
     </div>
 
     <div id="preprocessUI" style="visibility: visible">
@@ -677,30 +665,70 @@
         fetch("./SVG_Names.json")
           .then((response) => response.json())
           .then((files) => {
+            const fileGroups = {};
             const ulElement = document.getElementById("demoList");
 
-            // Populate the <ul> list with filenames
             files.forEach((file) => {
+              // Extract base name (e.g., "barChart" from "barChart1")
+              const baseName = file.replace(/\d+\.svg$/, "");
+
+              // Initialize the array for this baseName if it doesn't exist
+              if (!fileGroups[baseName]) {
+                fileGroups[baseName] = [];
+              }
+
+              // Add the file to the appropriate group
+              fileGroups[baseName].push(file);
+            });
+
+            Object.keys(fileGroups).forEach((baseName) => {
+              // Create the primary list item
               const li = document.createElement("li");
-              li.classList.add("demoItem");
-              li.id = file.split(".")[0];
-              li.textContent = file.split(".")[0];
-              li.addEventListener("click", () => {
-                initilizeVariables();
-                d3.selectAll(".axisLabels").selectAll("button").remove();
-                d3.selectAll(".axisTitle").selectAll("button").remove();
-                d3.selectAll(".chartTitle").selectAll("button").remove();
-                d3.selectAll(".demoItem")
-                  .style("color", "black")
-                  .style("font-weight", "normal");
-
-                d3.select("#" + file.split(".")[0])
-                  .style("color", "red")
-                  .style("font-weight", "bold");
-
-                loadDemo(file);
-              });
+              li.textContent = baseName;
               ulElement.appendChild(li);
+
+              // Create a sublist for each baseName
+              const subUl = document.createElement("ul");
+              subUl.classList.add("chartSublist");
+              subUl.style.display = "none"; // Initially hide the sublist
+              li.appendChild(subUl);
+
+              // Add event listener to toggle the sublist display
+              li.addEventListener("click", (event) => {
+                event.stopPropagation(); // Prevent the event from bubbling up
+                document
+                  .querySelectorAll(".chartSublist")
+                  .forEach((el) => (el.style.display = "none"));
+                subUl.style.display =
+                  subUl.style.display === "none" ? "block" : "none";
+              });
+
+              // Create sublist items
+              fileGroups[baseName].forEach((file) => {
+                const subLi = document.createElement("li");
+                subLi.classList.add("demoItem");
+                subLi.id = file.split(".")[0];
+                subLi.textContent = file.split(".")[0];
+
+                // Add the same event listener as before
+                subLi.addEventListener("click", () => {
+                  initilizeVariables();
+                  d3.selectAll(".axisLabels").selectAll("button").remove();
+                  d3.selectAll(".axisTitle").selectAll("button").remove();
+                  d3.selectAll(".chartTitle").selectAll("button").remove();
+                  d3.selectAll(".demoItem")
+                    .style("color", "black")
+                    .style("font-weight", "normal");
+
+                  d3.select("#" + file.split(".")[0])
+                    .style("color", "red")
+                    .style("font-weight", "bold");
+
+                  loadDemo(file);
+                });
+
+                subUl.appendChild(subLi);
+              });
             });
 
             d3.select("#BarChart1")

@@ -122,6 +122,9 @@ body {
 }
 .demos li:hover {
   cursor: pointer;
+}
+.chartSublist li:hover {
+  cursor: pointer;
   color: blue;
 }
 
