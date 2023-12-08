@@ -2,6 +2,10 @@ var undoStack = [],
   redoStack = [];
 var btnCheck = {};
 
+//bugs: doesn't change on the first click; weird when i go between different .svg files
+let clickCounter = 0; // Click counter to track the state
+let originalBox; // Variable to keep track of the original box
+
 function addAxisLevel(t) {
   let axis = t === "x" ? xAxis : yAxis;
   if (!axis) return;
@@ -9,23 +13,81 @@ function addAxisLevel(t) {
     axis["upperLevels"] = [];
   }
   axis["upperLevels"].push([]);
-  d3.select("#" + t + "AxisDiv")
+
+  const axisDiv = d3.select("#" + t + "AxisDiv");
+
+  // Add the button image
+  const button = axisDiv
+    .append("img")
+    .attr("src", "img/plus.png")
+    .attr("width", "16px")
+    .attr("height", "16px")
+    .attr("style", "position: absolute; right: 7px")
+    .attr("class", "selectAreaBtn")
+    .on("click", function () {
+      // Increment the click counter
+      clickCounter++;
+
+      // Update the button image based on the click counter
+      if (clickCounter % 2 === 1) {
+        button.attr("src", "img/minus.png");
+        updateAxisWidth(t, true); // Pass true to indicate minus.png state
+      } else {
+        button.attr("src", "img/plus.png");
+        updateAxisWidth(t, false); // Pass false to indicate plus.png state
+      }
+    });
+
+  // Add the axisLabels div
+  axisDiv
     .append("div")
     .attr("class", "axisLabels")
     .attr("id", t + "Labels" + axis["upperLevels"].length)
     .on("drop", drop)
     .on("dragover", allowDrop);
-  let size = [
-    "calc(",
-    (100 / (axis["upperLevels"].length + 1)).toFixed(1),
-    "% - ",
-    405 / (axis["upperLevels"].length + 1),
-    "px)",
-  ].join("");
-  d3.select("#" + t + "AxisDiv")
+
+  // Update the width of existing boxes
+  updateAxisWidth(t, false);
+}
+
+function updateAxisWidth(t, isMinusState) {
+  let axis = t === "x" ? xAxis : yAxis;
+  if (!axis || !("upperLevels" in axis)) return;
+
+  const axisDiv = d3.select("#" + t + "AxisDiv");
+  const numLevels = axis["upperLevels"].length;
+
+  // If it's the first update, store the original box
+  if (!originalBox) {
+    originalBox = axisDiv.select(".axisLabels");
+  }
+
+  // Remove all existing boxes
+  axisDiv.selectAll(".axisLabels").remove();
+
+  // Add the original box as the left box
+  axisDiv
+    .append(() => originalBox.node().cloneNode(true))
+    .attr("id", t + "Labels1");
+
+  // Add boxes based on the state
+  for (let i = 1; i < (isMinusState ? numLevels + 1 : numLevels); i++) {
+    const newBox = axisDiv
+      .append("div")
+      .attr("class", "axisLabels")
+      .attr("id", t + "Labels" + (i + 1))
+      .on("drop", drop)
+      .on("dragover", allowDrop);
+
+    // Set the opacity of the second-level labels
+    newBox.style("opacity", isMinusState ? 1 : 0.1);
+  }
+
+  // Update the width of existing boxes
+  const width = isMinusState ? 202.5 : 405;
+  axisDiv
     .selectAll(".axisLabels")
-    .style("width", size);
-  //d3.select("#" + t + "AxisDiv").append("<div class="axisLabels" id="xLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>")
+    .style("width", ["calc(", (100 / (isMinusState ? numLevels + 1 : numLevels)).toFixed(1), "% - ", width, "px)"].join(""));
 }
 
 function fieldTypeChanged(xy) {
