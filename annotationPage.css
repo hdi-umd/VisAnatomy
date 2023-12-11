@@ -218,8 +218,8 @@ body {
   transform: translateY(2px);
 }
 
-.titleXbutton,
-.titleYbutton,
+.xTitleButton,
+.yTitleButton,
 .titleLegendButton,
 .chartTitleButton {
   display: inline-block;
@@ -267,14 +267,14 @@ body {
   color: lightgray;
 }
 
-.titleXbutton:hover {
+.xTitleButton:hover {
   opacity: 1;
   /* background-color: #3e8e41; */
   background-color: #333;
   color: #fff;
 }
 
-.titleYbutton:hover {
+.yTitleButton:hover {
   opacity: 1;
   /* background-color: #3e8e41; */
   background-color: #333;

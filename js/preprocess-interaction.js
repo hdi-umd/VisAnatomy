@@ -196,7 +196,7 @@ function drop(ev) {
   let thisText = d3.select("#" + data).datum();
 
   draggedToID = ev.srcElement.id;
-  console.log("Dragging from " + draggedFromID + "to " + draggedToID);
+  console.log("Dragging from " + draggedFromID + " to " + draggedToID);
 
   /* dropping from a x/y axis label box into xtitle box */
   if (
@@ -337,7 +337,6 @@ function drop(ev) {
         btnCheck: Object.assign({}, btnCheck),
       });
       moveAxisLabel(draggedFromID, draggedToID, d3.select("#" + data).datum());
-      buttonCheck(draggedToID, d3.select("#" + data).datum());
       displayAxis(xAxis);
       displayAxis(yAxis);
       ev.stopImmediatePropagation(); // stop the event from bubbling up to the SVG element
@@ -776,54 +775,4 @@ function duplicate(axis) {
     else copy[k] = axis[k];
   }
   return copy;
-}
-
-function buttonCheck(TargetID, thisText) {
-  if (TargetID.split("Labels")[1]) return;
-  let message = "Warnings: ";
-  let attrCond =
-    xAxis["attrX"].length > 0 && TargetID == "xLabels"
-      ? !arrayCompare(Object.keys(thisText), xAxis["attrX"])
-      : !arrayCompare(Object.keys(thisText), yAxis["attrY"]);
-  let levelCond =
-    TargetID == "xLabels"
-      ? !(
-          xAxis["labels"].length == 0 ||
-          thisText.level == xAxis["labels"][0].level
-        )
-      : !(
-          yAxis["labels"].length == 0 ||
-          thisText.level == yAxis["labels"][0].level
-        );
-  let axisCond =
-    TargetID == "xLabels"
-      ? !(
-          !("baseline" in xAxis) ||
-          Math.abs(thisText.y - xAxis["baseline"]) < 200
-        )
-      : !(
-          !("baseline" in xAxis) ||
-          Math.abs(thisText.x - yAxis["baseline"]) < 200
-        );
-  if (attrCond) {
-    message =
-      message +
-      "this text's attribute set is different from that of the detected labels;";
-  }
-
-  if (levelCond) {
-    message =
-      message +
-      "this text's hierarchy level within the SVG is different from that of the detected labels; ";
-  }
-
-  if (axisCond) {
-    message = message + "this text is not close to the detected labels.";
-  }
-
-  if (message != "Warnings: ") {
-    btnCheck[thisText["id"]] = message;
-  } else {
-    if (thisText["id"] in btnCheck) delete btnCheck[thisText["id"]];
-  }
 }

@@ -179,7 +179,7 @@ function displayLegend(legend) {
 function displayTitleXLabel(thisText, mode) {
   if (mode === "delete") {
     d3.select("#xTitle")
-      .select("#" + "xTItleIDinSVG" + thisText["id"])
+      .select("#" + "xTitleIDinSVG" + thisText["id"])
       .remove();
     return;
   } else {
@@ -194,10 +194,10 @@ function displayTitleXLabel(thisText, mode) {
     .append("button")
     .datum(thisText)
     .attr("type", "button")
-    .attr("class", "titleXbutton")
+    .attr("class", "xTitleButton")
     .attr("style", "position: absolute; top: 1px; left: 200px")
     .attr("style", "width: 100%")
-    .attr("id", "xTItleIDinSVG" + thisText["id"]) // this ID is important!!
+    .attr("id", "xTitleIDinSVG" + thisText["id"]) // this ID is important!!
     .attr("draggable", true)
     .text(text)
     .on("dragstart", drag);
@@ -231,7 +231,7 @@ function displayTitleYLabel(thisText, mode) {
     .append("button")
     .datum(thisText)
     .attr("type", "button")
-    .attr("class", "titleYbutton")
+    .attr("class", "yTitleButton")
     .attr("style", "position: absolute; top: 1px; left: 200px")
     .attr("id", "yTitleIDinSVG" + thisText["id"])
     .attr("draggable", true)
@@ -340,8 +340,8 @@ function disPlayTitles(chartTitle, legendTitle, xTitle, yTitle) {
         .append("button")
         .datum(title)
         .attr("type", "button")
-        .attr("class", "chartTitleButton")
-        .attr("id", "chartTitleIDinSVG" + title["id"])
+        .attr("class", id + "Button")
+        .attr("id", id + "IDinSVG" + title["id"])
         .text(title["content"])
         .attr("draggable", true)
         .on("dragstart", drag);
