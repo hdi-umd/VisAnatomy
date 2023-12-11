@@ -571,7 +571,7 @@
           case "Marks":
             d3.select("#container").style("height", "calc(100% - 75px)");
 
-            // remove all reference elements from mainContent
+            // remove all reference elements from contentMarks
             mainContentElements = groupSVGElementsByType();
             console.log(mainContentElements);
 
@@ -601,7 +601,7 @@
         }
       }
 
-      var demoName, mainContent, jsonArr;
+      var demoName, contentMarks, jsonArr;
       var areaSelection;
       const fileName = sessionStorage.getItem("fileName");
 
@@ -633,7 +633,7 @@
             if (!annotationLoaded) {
               // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
               // extract() calls displayAxis() and displayLegend() to display the extracted elements
-              mainContent = extract(jsonArr);
+              contentMarks = extract(jsonArr);
             }
 
             // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window

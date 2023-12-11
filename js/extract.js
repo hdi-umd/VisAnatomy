@@ -284,8 +284,8 @@ function findLegendInArea(tl, br, texts, rects) {
   console.log(legend);
 
   for (let l of labels) {
-    if (mainContent.texts.indexOf(l) >= 0)
-      mainContent.texts.splice(mainContent.texts.indexOf(l), 1);
+    if (contentMarks.texts.indexOf(l) >= 0)
+      contentMarks.texts.splice(contentMarks.texts.indexOf(l), 1);
     if (xAxis.labels.indexOf(l) >= 0)
       xAxis.labels.splice(xAxis.labels.indexOf(l), 1);
     if (yAxis.labels.indexOf(l) >= 0)
@@ -293,8 +293,8 @@ function findLegendInArea(tl, br, texts, rects) {
   }
 
   for (let r of marks) {
-    if (mainContent.rects.indexOf(r) >= 0)
-      mainContent.rects.splice(mainContent.rects.indexOf(r), 1);
+    if (contentMarks.rects.indexOf(r) >= 0)
+      contentMarks.rects.splice(contentMarks.rects.indexOf(r), 1);
   }
 }
 
@@ -601,8 +601,8 @@ function findAxisInArea(o, tl, br, texts, rects, lines) {
   //remove from main content and the other axis/legend
   let otherAxis = o == "y" ? xAxis : yAxis;
   for (let l of labels) {
-    if (mainContent.texts.indexOf(l) >= 0)
-      mainContent.texts.splice(mainContent.texts.indexOf(l), 1);
+    if (contentMarks.texts.indexOf(l) >= 0)
+      contentMarks.texts.splice(contentMarks.texts.indexOf(l), 1);
     if (otherAxis.labels.indexOf(l) >= 0)
       otherAxis.labels.splice(otherAxis.labels.indexOf(l), 1);
     if (legend.labels.indexOf(l) >= 0)

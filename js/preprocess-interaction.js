@@ -98,18 +98,18 @@ function enableAreaSelection() {
             areaSelection,
             topLeft,
             btmRight,
-            mainContent.texts,
-            mainContent.rects,
-            mainContent.lines
+            contentMarks.texts,
+            contentMarks.rects,
+            contentMarks.lines
           );
         } else if (areaSelection == "legend") {
-          let rects = mainContent.rects;
+          let rects = contentMarks.rects;
           if (xAxis.path) rects = rects.concat([xAxis.path]);
           if (yAxis.path) rects = rects.concat([yAxis.path]);
           findLegendInArea(
             topLeft,
             btmRight,
-            mainContent.texts.concat(xAxis.labels).concat(yAxis.labels),
+            contentMarks.texts.concat(xAxis.labels).concat(yAxis.labels),
             rects
           );
         }
@@ -145,7 +145,7 @@ function save() {
     xAxis: xAxis,
     yAxis: yAxis,
     legend: legend,
-    mainContent: mainContent,
+    contentMarks: contentMarks,
   };
   var file = new Blob([JSON.stringify(result)], { type: "json" });
   if (window.navigator.msSaveOrOpenBlob)
@@ -412,14 +412,14 @@ function addAxisLabel(TargetID, text) {
   } else {
     if (axis["labels"].indexOf(text) < 0) axis["labels"].push(text);
   }
-  if (mainContent.texts.indexOf(text) >= 0)
-    mainContent.texts.splice(mainContent.texts.indexOf(text), 1);
+  if (contentMarks.texts.indexOf(text) >= 0)
+    contentMarks.texts.splice(contentMarks.texts.indexOf(text), 1);
 }
 
 function addLegendLabel(text) {
   if (legend["labels"].indexOf(text) < 0) legend["labels"].push(text);
-  if (mainContent.texts.indexOf(text) >= 0)
-    mainContent.texts.splice(mainContent.texts.indexOf(text), 1);
+  if (contentMarks.texts.indexOf(text) >= 0)
+    contentMarks.texts.splice(contentMarks.texts.indexOf(text), 1);
 }
 
 function moveAxisLabel(fromID, toID, text) {
@@ -448,14 +448,14 @@ function removeAxisLabel(fromID, text) {
       if (level.indexOf(text) >= 0) level.splice(level.indexOf(text), 1);
     }
   }
-  mainContent.texts.push(text);
+  contentMarks.texts.push(text);
 }
 
 function removeLegendLabel(text) {
   if (legend["labels"].indexOf(text) >= 0) {
     legend["labels"].splice(legend["labels"].indexOf(text), 1);
   }
-  mainContent.texts.push(text);
+  contentMarks.texts.push(text);
 }
 
 function enableDragDrop(texts) {

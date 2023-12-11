@@ -43,7 +43,7 @@ function initilizeMarkAnnotation() {
     (element) => !invisibleElements.includes(element)
   );
   Object.keys(mainContentElements).forEach((key) => {
-    // remove invisible elements from mainContent
+    // remove invisible elements from contentMarks
     mainContentElements[key] = mainContentElements[key].filter(
       (element) => !invisibleElements.includes(element)
     );
