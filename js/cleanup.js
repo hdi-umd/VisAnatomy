@@ -83,14 +83,15 @@ function groupSVGElementsByType() {
     ...titleXaxis,
     ...titleYaxis,
   ].map((element) => element.id); // those contain mark elements
-  referenceElements.push(
-    ...[
-      ...(xAxis.ticks ? xAxis.ticks : []),
-      ...(yAxis.ticks ? yAxis.ticks : []),
-      ...(xAxis.path ? xAxis.path : []),
-      ...(yAxis.path ? yAxis.path : []),
-    ] // those contain mark IDs
-  );
+  // // we move ticks and paths outisde referenceElements because they can be annotated as well and should be able to be revised
+  // referenceElements.push(
+  //   ...[
+  //     ...(xAxis.ticks ? xAxis.ticks : []),
+  //     ...(yAxis.ticks ? yAxis.ticks : []),
+  //     ...(xAxis.path ? xAxis.path : []),
+  //     ...(yAxis.path ? yAxis.path : []),
+  //   ] // those contain mark IDs
+  // );
 
   const tempDiv = document.getElementById("rbox1");
 
