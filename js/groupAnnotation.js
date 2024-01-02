@@ -54,7 +54,6 @@ function initilizeGroupAnnotation() {
       // we may also allow inferrence when we have >1 groups
       if (groupAnnotations.length === 1) {
         possibleOtherGroups = inferOtherGroups();
-        console.log(possibleOtherGroups);
         if (possibleOtherGroups.length > 0) {
           document.getElementById(
             "possibleOtherGroupsContainer"
@@ -305,14 +304,12 @@ unhighlightOnePossibleGroup = (group) => {
   });
   document.getElementById("selectedGroup").childNodes.forEach((button) => {
     let markID = button.innerHTML;
-    console.log(markID);
     d3.select("#" + markID).style("opacity", "1");
   });
 };
 
 acceptInferredGroups = () => {
   possibleOtherGroups.forEach((group) => {
-    console.log(groupAnnotations);
     groupAnnotations.push(group);
     marksHaveGroupAnnotation = marksHaveGroupAnnotation.concat(group);
     let groupDiv = document.createElement("div");
@@ -347,14 +344,10 @@ acceptInferredGroups = () => {
   possibleOtherGroups = [];
   document.getElementById("possibleOtherGroupsContainer").style.visibility =
     "hidden";
-  // console.log(groupAnnotations);
-  // console.log(marksHaveGroupAnnotation);
 };
 
 rejectInferredGroups = () => {
   possibleOtherGroups = [];
   document.getElementById("possibleOtherGroupsContainer").style.visibility =
     "hidden";
-  // console.log(groupAnnotations);
-  // console.log(marksHaveGroupAnnotation);
 };
