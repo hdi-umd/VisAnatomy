@@ -105,8 +105,30 @@ function displayAxis(axis) {
   for (let label of labels) {
     displayAxisLabel(label, axis.type + "Labels");
   }
+
+  [1, 2, 3].forEach((i) => {
+    d3.select("#" + axis.type + "Labels" + i).remove();
+  });
+  d3.select("#" + axis.type + "Labels").style("width", "calc(100% - 405px)");
+
   if (axis.upperLevels) {
+    let size = [
+      "calc(",
+      (100 / (axis["upperLevels"].length + 1)).toFixed(1),
+      "% - ",
+      405 / (axis["upperLevels"].length + 1),
+      "px)",
+    ].join("");
     for (let [i, level] of axis.upperLevels.entries()) {
+      d3.select("#" + axis.type + "AxisDiv")
+        .append("div")
+        .attr("class", "axisLabels")
+        .attr("id", axis.type + "Labels" + (i + 1))
+        .on("drop", drop)
+        .on("dragover", allowDrop);
+      d3.select("#" + axis.type + "AxisDiv")
+        .selectAll(".axisLabels")
+        .style("width", size);
       for (let label of level) {
         displayAxisLabel(label, axis.type + "Labels" + (i + 1));
       }

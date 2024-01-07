@@ -660,6 +660,10 @@
             document.getElementById(
               "possibleOtherGroupsContainer"
             ).style.visibility = "hidden";
+            d3.select("#vis")
+              .on("mousedown", null)
+              .on("mouseup", null)
+              .on("mousemove", null);
             if (jsonArr?.texts) svgTextHighlight(jsonArr.texts);
             break;
           case "Marks":
@@ -685,6 +689,10 @@
             document.getElementById(
               "possibleOtherGroupsContainer"
             ).style.visibility = "hidden";
+            d3.select("#vis")
+              .on("mousedown", null)
+              .on("mouseup", null)
+              .on("mousemove", null);
             d3.select("#rbox1")
               .selectAll("text")
               .style("pointer-events", "none");

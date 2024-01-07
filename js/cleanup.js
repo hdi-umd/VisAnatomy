@@ -78,6 +78,8 @@ function groupSVGElementsByType() {
     ...(legend.marks ? legend.marks : []),
     ...(xAxis.labels ? xAxis.labels : []),
     ...(yAxis.labels ? yAxis.labels : []),
+    ...(xAxis.upperLevels ? xAxis.upperLevels.flat() : []),
+    ...(yAxis.upperLevels ? yAxis.upperLevels.flat() : []),
     ...chartTitle,
     ...titleLegend,
     ...titleXaxis,
