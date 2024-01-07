@@ -179,13 +179,25 @@ function extractNumber(str) {
   return matches ? parseInt(matches[0], 10) : 0;
 }
 
+function extractNonNumeric(str) {
+  // Extract the non-numeric part of the string
+  let nonNumeric = str.replace(/(\d+)$/, "");
+  return nonNumeric;
+}
+
 function sortByEndingNumber(strings) {
   return strings.sort((a, b) => {
-    // Extract numbers from strings
+    // Extract non-numeric parts
+    let nonNumericA = extractNonNumeric(a);
+    let nonNumericB = extractNonNumeric(b);
+
+    // Compare non-numeric parts
+    if (nonNumericA < nonNumericB) return -1;
+    if (nonNumericA > nonNumericB) return 1;
+
+    // If non-numeric parts are equal, extract and compare numbers
     let numA = extractNumber(a);
     let numB = extractNumber(b);
-
-    // Compare the numbers
     return numA - numB;
   });
 }

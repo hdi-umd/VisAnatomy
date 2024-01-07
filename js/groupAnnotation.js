@@ -1,7 +1,7 @@
 var groupSelection = false,
   isDragging = false;
 var theGroup;
-var groupAnnotations = [];
+var groupAnnotations;
 var marksHaveGroupAnnotation;
 var possibleOtherGroups;
 
@@ -84,17 +84,18 @@ function initilizeGroupAnnotation() {
         }
       }
 
-      // for debugging
-      theGroup = [];
       console.log(marksHaveGroupAnnotation);
       console.log(groupAnnotations);
     });
+
+  // TBD: variable initilization
+  theGroup = [];
+  marksHaveGroupAnnotation = groupAnnotations.flat();
 
   // To be completed
   mainChartMarks = Object.keys(markInfo).filter(
     (m) => markInfo[m].Role === "Main Chart Mark"
   ); // main chart marks
-  theGroup = [];
 
   allSVGElementID.forEach((id) => {
     d3.select("#" + id).style(
@@ -114,6 +115,7 @@ function initilizeGroupAnnotation() {
 }
 
 function inferOtherGroups() {
+  possibleOtherGroups = [];
   let referenceGroup = sortByEndingNumber(groupAnnotations[0]);
   if (referenceGroup.length === 0) return;
   let remainingMarks = sortByEndingNumber(
@@ -121,10 +123,21 @@ function inferOtherGroups() {
   );
   let remainingGroups = [];
   while (remainingMarks.length > 0) {
-    // TBD: check also the differences between the number part of corresponding marks
     let thisGroup = [];
-    referenceGroup.forEach((mark) => {
-      let matchingString = findMatchingString(mark, remainingMarks);
+    referenceGroup.forEach((mark, i) => {
+      let matchingString;
+      if (
+        i === 0 ||
+        extractNonNumeric(mark) !== extractNonNumeric(referenceGroup[i - 1])
+      )
+        matchingString = findMatchingString(mark, remainingMarks);
+      else {
+        matchingString =
+          extractNonNumeric(mark) +
+          (extractNumber(thisGroup[i - 1]) +
+            (extractNumber(referenceGroup[i]) -
+              extractNumber(referenceGroup[i - 1])));
+      }
       if (matchingString !== undefined) {
         thisGroup.push(matchingString);
         remainingMarks = remainingMarks.filter((m) => m !== matchingString);

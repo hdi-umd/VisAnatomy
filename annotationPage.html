@@ -806,6 +806,12 @@
                   d3.selectAll(".axisLabels").selectAll("button").remove();
                   d3.selectAll(".axisTitle").selectAll("button").remove();
                   d3.selectAll(".chartTitle").selectAll("button").remove();
+                  d3.select("#specifiedGroups").selectAll("div").remove();
+                  d3.select("#selectedGroup").selectAll("button").remove();
+                  d3.select("#possibleOtherGroupsContainer").style(
+                    "visibility",
+                    "hidden"
+                  );
                   d3.selectAll(".demoItem")
                     .style("color", "black")
                     .style("font-weight", "normal");
