@@ -407,45 +407,46 @@ function processGroup(group, parentElement) {
     parentElement.appendChild(thisLabel);
   }
 
+  let thisGroup = Array.isArray(group)
+    ? group
+        .flat(Infinity)
+        .map((gID) => groupAnnotations[gID])
+        .flat(Infinity)
+    : groupAnnotations[group];
+  d3.select(thisLabel)
+    .on("mouseover", function (e) {
+      e.stopPropagation();
+      d3.select(this)
+        .style("background-color", "#e9e9e9")
+        .style("cursor", "pointer");
+      thisGroup.forEach((id) => {
+        d3.select("#" + id).style("opacity", "1");
+      });
+    })
+    .on("mouseout", function () {
+      d3.select(this).style("background-color", "#f0f0f0");
+      if (d3.select(this).style("border") === "2.5px solid black")
+        thisGroup.forEach((id) => {
+          d3.select("#" + id).style("opacity", "0.3");
+        });
+    });
   if (parentElement.id === "higherLevelGroups") {
-    let thisGroup = Array.isArray(group)
-      ? group
-          .flat(Infinity)
-          .map((gID) => groupAnnotations[gID])
-          .flat(Infinity)
-      : groupAnnotations[group];
-    d3.select(thisLabel)
-      .on("mouseover", function () {
-        d3.select(this)
-          .style("background-color", "#e9e9e9")
-          .style("cursor", "pointer");
+    d3.select(thisLabel).on("click", function () {
+      let newBorder =
+        d3.select(this).style("border") === "2.5px solid black"
+          ? "2.5px solid red"
+          : "2.5px solid black";
+      d3.select(this).style("border", newBorder);
+      if (newBorder === "2.5px solid red") {
         thisGroup.forEach((id) => {
           d3.select("#" + id).style("opacity", "1");
         });
-      })
-      .on("mouseout", function () {
-        d3.select(this).style("background-color", "#f0f0f0");
-        if (d3.select(this).style("border") === "2.5px solid black")
-          thisGroup.forEach((id) => {
-            d3.select("#" + id).style("opacity", "0.3");
-          });
-      })
-      .on("click", function () {
-        let newBorder =
-          d3.select(this).style("border") === "2.5px solid black"
-            ? "2.5px solid red"
-            : "2.5px solid black";
-        d3.select(this).style("border", newBorder);
-        if (newBorder === "2.5px solid red") {
-          thisGroup.forEach((id) => {
-            d3.select("#" + id).style("opacity", "1");
-          });
-        } else {
-          thisGroup.forEach((id) => {
-            d3.select("#" + id).style("opacity", "0.3");
-          });
-        }
-      });
+      } else {
+        thisGroup.forEach((id) => {
+          d3.select("#" + id).style("opacity", "0.3");
+        });
+      }
+    });
   }
 }
 
@@ -461,8 +462,6 @@ function go2HigherGrouping() {
   d3.select("#specifiedGroups").style("visibility", "hidden");
   d3.select("#higherLevelGroups").style("visibility", "visible");
   d3.select("#higherLevelGroups").selectAll("label").remove();
-
-  // TBD: need to have a function to generate nested grouping if there is one
 
   nestedGrouping =
     nestedGrouping.length === 0
@@ -565,9 +564,7 @@ function mergeGroups() {
   selectedLabels.forEach((selectedlabel) => {
     d3.select(selectedlabel)
       .style("border", "2.5px solid black")
-      .on("click", null)
-      .on("mouseover", null)
-      .on("mouseout", null);
+      .on("click", null);
     label.appendChild(selectedlabel);
   });
 
@@ -583,7 +580,8 @@ function mergeGroups() {
     .style("border", "2.5px solid black")
     .style("border-radius", "4px")
     .style("display", "inline-block")
-    .on("mouseover", function () {
+    .on("mouseover", function (e) {
+      e.stopPropagation();
       d3.select(this)
         .style("background-color", "#e9e9e9")
         .style("cursor", "pointer");
@@ -622,6 +620,14 @@ function processLabelInnerHtml(node) {
   } else {
     selectedGroups.push(...node.innerHTML.split(", "));
   }
+}
+
+function clearMergedGroups() {
+  nestedGrouping = groupAnnotations.map((g, i) => i);
+  d3.select("#higherLevelGroups").selectAll("label").remove();
+  nestedGrouping.forEach((group) => {
+    processGroup(group, document.getElementById("higherLevelGroups"));
+  });
 }
 
 function concludeFinalGrouping() {}
