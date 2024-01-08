@@ -776,9 +776,22 @@
               "hidden";
             d3.select("#container").style("height", "calc(100% - 75px)");
             initilizeGroupAnnotation();
+            break;
           case "Layout":
+            initilizeLayoutAnnotation();
+            document.getElementById("groupSelection").style.visibility =
+              "hidden";
+            d3.select("#current-section").style("visibility", "hidden");
+            d3.select("#specifiedGroups").style("visibility", "hidden");
+            document.getElementById("higherLevelGroups").style.visibility =
+              "hidden";
+            break;
           case "Encodings":
+            initilizeEncodingAnnotation();
+            break;
           case "Constraints":
+            initilizeConstraintAnnotation();
+            break;
           default:
             document.getElementById("axisAndLegend").style.visibility =
               "hidden";
