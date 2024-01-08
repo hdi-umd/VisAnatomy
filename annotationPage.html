@@ -526,19 +526,7 @@
               >
                 specify higher-level groups
               </button>
-              or
-              <button
-                type="button"
-                style="
-                  padding: 1px 1px;
-                  margin-left: 2.5px;
-                  margin-right: 2.5px;
-                  vertical-align: middle;
-                "
-                onclick="concludeFinalGrouping()"
-              >
-                conclude the final grouping</button
-              >.
+              .
             </h4>
           </div>
 
@@ -717,6 +705,10 @@
             document.getElementById(
               "possibleOtherGroupsContainer"
             ).style.visibility = "hidden";
+            d3.select("#current-section").style("visibility", "hidden");
+            d3.select("#specifiedGroups").style("visibility", "hidden");
+            document.getElementById("higherLevelGroups").style.visibility =
+              "hidden";
             d3.select("#vis")
               .on("mousedown", null)
               .on("mouseup", null)
@@ -743,9 +735,13 @@
               "visible";
             document.getElementById("groupSelection").style.visibility =
               "hidden";
+            d3.select("#current-section").style("visibility", "hidden");
+            d3.select("#specifiedGroups").style("visibility", "hidden");
             document.getElementById(
               "possibleOtherGroupsContainer"
             ).style.visibility = "hidden";
+            document.getElementById("higherLevelGroups").style.visibility =
+              "hidden";
             d3.select("#vis")
               .on("mousedown", null)
               .on("mouseup", null)
@@ -762,6 +758,10 @@
               "hidden";
             document.getElementById("groupSelection").style.visibility =
               "visible";
+            d3.select("#current-section").style("visibility", "visible");
+            d3.select("#specifiedGroups").style("visibility", "visible");
+            document.getElementById("higherLevelGroups").style.visibility =
+              "hidden";
             d3.select("#container").style("height", "calc(100% - 75px)");
             initilizeGroupAnnotation();
           case "Layout":

@@ -9,6 +9,33 @@ function initilizeGroupAnnotation() {
   // TBD: variable initilization
   theGroup = [];
   marksHaveGroupAnnotation = groupAnnotations.flat();
+  groupAnnotations.forEach((group) => {
+    let groupDiv = document.createElement("div");
+    let label = document.createElement("label");
+    label.classList.add("specifiedGroup");
+    label.innerHTML = group.join(", ");
+    d3.select(label)
+      .style("font-family", "'Arial', sans-serif")
+      .style("font-size", "16px")
+      .style("color", "#333")
+      .style("background-color", "#f0f0f0")
+      .style("padding", "8px 12px")
+      .style("border-radius", "4px")
+      .style("display", "inline-block")
+      .style("margin-bottom", "5px")
+      .on("mouseover", function () {
+        d3.select(this)
+          .style("background-color", "#e9e9e9")
+          .style("cursor", "pointer");
+        highlightOnePossibleGroup(group);
+      })
+      .on("mouseout", function () {
+        d3.select(this).style("background-color", "#f0f0f0");
+        unhighlightOnePossibleGroup(group);
+      });
+    groupDiv.appendChild(label);
+    document.getElementById("specifiedGroups").appendChild(groupDiv);
+  });
 
   // To be completed
   mainChartMarks = Object.keys(markInfo).filter(
@@ -360,11 +387,14 @@ function go2HigherGrouping() {
   d3.select("#current-section").style("visibility", "hidden");
   d3.select("#specifiedGroups").style("visibility", "hidden");
   d3.select("#higherLevelGroups").style("visibility", "visible");
+  d3.select("#higherLevelGroups").selectAll("label").remove();
+
+  // TBD: need to have a function to generate nested grouping if there is one
   groupAnnotations.forEach((group) => {
     let label = document.createElement("label");
     label.classList.add("specifiedGroup");
     label.innerHTML = group.join(", ");
-    // TBD: unify the label style with the one in the previous section
+    // TBD: unify the label style with the one in the previous section; can use a inficator nexted variable to control
     d3.select(label)
       .style("font-family", "'Arial', sans-serif")
       .style("font-size", "16px")
