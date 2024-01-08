@@ -9,6 +9,7 @@ function initilizeGroupAnnotation() {
   // TBD: variable initilization
   theGroup = [];
   marksHaveGroupAnnotation = groupAnnotations.flat();
+  d3.select("#specifiedGroups").selectAll("label").remove();
   groupAnnotations.forEach((group) => {
     let groupDiv = document.createElement("div");
     let label = document.createElement("label");
