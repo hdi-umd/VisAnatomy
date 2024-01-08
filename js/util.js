@@ -51,6 +51,9 @@ function tryLoadAnnotations(filename) {
       groupAnnotations = annotations.groupAnnotations
         ? annotations.groupAnnotations
         : [];
+      nestedGrouping = annotations.nestedGrouping
+        ? annotations.nestedGrouping
+        : [];
       chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
       contentMarks = annotations.contentMarks ? annotations.contentMarks : [];
       titleLegend = annotations.legend.title ? annotations.legend.title : [];
@@ -104,6 +107,7 @@ function post() {
   annotations.markInfo = markInfo;
   annotations.contentMarks = contentMarks;
   annotations.groupAnnotations = groupAnnotations;
+  annotations.nestedGrouping = nestedGrouping;
 
   annotations["xGridlines"] = Object.keys(markInfo).filter(
     (mark) => markInfo[mark].Role === "Horizontal Gridline"

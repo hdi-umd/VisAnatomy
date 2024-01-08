@@ -4,6 +4,7 @@ var theGroup;
 var groupAnnotations;
 var marksHaveGroupAnnotation;
 var possibleOtherGroups;
+var nestedGrouping;
 
 function initilizeGroupAnnotation() {
   // TBD: variable initilization
@@ -377,6 +378,77 @@ rejectInferredGroups = () => {
     "hidden";
 };
 
+function createLabel(text) {
+  let label = document.createElement("label");
+  label.classList.add("specifiedGroup");
+  label.innerHTML = text;
+  label.style.fontFamily = "'Arial', sans-serif";
+  label.style.fontSize = "16px";
+  label.style.color = "#333";
+  label.style.backgroundColor = "#f0f0f0";
+  label.style.padding = "3px";
+  label.style.margin = "5px";
+  label.style.border = "2.5px solid black";
+  label.style.borderRadius = "4px";
+  label.style.display = "inline-block";
+  return label;
+}
+
+function processGroup(group, parentElement) {
+  let thisLabel;
+  if (Array.isArray(group)) {
+    // Create a parent label if the group is an array
+    thisLabel = createLabel("");
+    group.forEach((subGroup) => processGroup(subGroup, thisLabel));
+    parentElement.appendChild(thisLabel);
+  } else {
+    // Create a label for individual elements
+    thisLabel = createLabel(groupAnnotations[group].join(", "));
+    parentElement.appendChild(thisLabel);
+  }
+
+  if (parentElement.id === "higherLevelGroups") {
+    let thisGroup = Array.isArray(group)
+      ? group
+          .flat(Infinity)
+          .map((gID) => groupAnnotations[gID])
+          .flat(Infinity)
+      : groupAnnotations[group];
+    d3.select(thisLabel)
+      .on("mouseover", function () {
+        d3.select(this)
+          .style("background-color", "#e9e9e9")
+          .style("cursor", "pointer");
+        thisGroup.forEach((id) => {
+          d3.select("#" + id).style("opacity", "1");
+        });
+      })
+      .on("mouseout", function () {
+        d3.select(this).style("background-color", "#f0f0f0");
+        if (d3.select(this).style("border") === "2.5px solid black")
+          thisGroup.forEach((id) => {
+            d3.select("#" + id).style("opacity", "0.3");
+          });
+      })
+      .on("click", function () {
+        let newBorder =
+          d3.select(this).style("border") === "2.5px solid black"
+            ? "2.5px solid red"
+            : "2.5px solid black";
+        d3.select(this).style("border", newBorder);
+        if (newBorder === "2.5px solid red") {
+          thisGroup.forEach((id) => {
+            d3.select("#" + id).style("opacity", "1");
+          });
+        } else {
+          thisGroup.forEach((id) => {
+            d3.select("#" + id).style("opacity", "0.3");
+          });
+        }
+      });
+  }
+}
+
 function go2HigherGrouping() {
   if (mainChartMarks.length !== marksHaveGroupAnnotation.length) {
     alert(
@@ -391,54 +463,64 @@ function go2HigherGrouping() {
   d3.select("#higherLevelGroups").selectAll("label").remove();
 
   // TBD: need to have a function to generate nested grouping if there is one
-  groupAnnotations.forEach((group) => {
-    let label = document.createElement("label");
-    label.classList.add("specifiedGroup");
-    label.innerHTML = group.join(", ");
-    // TBD: unify the label style with the one in the previous section; can use a inficator nexted variable to control
-    d3.select(label)
-      .style("font-family", "'Arial', sans-serif")
-      .style("font-size", "16px")
-      .style("color", "#333")
-      .style("background-color", "#f0f0f0")
-      .style("padding", "3px")
-      .style("margin", "5px")
-      .style("border", "2.5px solid black")
-      .style("border-radius", "4px")
-      .style("display", "inline-block")
-      .on("mouseover", function () {
-        d3.select(this)
-          .style("background-color", "#e9e9e9")
-          .style("cursor", "pointer");
-        group.forEach((id) => {
-          d3.select("#" + id).style("opacity", "1");
-        });
-      })
-      .on("mouseout", function () {
-        d3.select(this).style("background-color", "#f0f0f0");
-        if (d3.select(this).style("border") === "2.5px solid black")
-          group.forEach((id) => {
-            d3.select("#" + id).style("opacity", "0.3");
-          });
-      })
-      .on("click", function () {
-        let newBorder =
-          d3.select(this).style("border") === "2.5px solid black"
-            ? "2.5px solid red"
-            : "2.5px solid black";
-        d3.select(this).style("border", newBorder);
-        if (newBorder === "2.5px solid red") {
-          group.forEach((id) => {
-            d3.select("#" + id).style("opacity", "1");
-          });
-        } else {
-          group.forEach((id) => {
-            d3.select("#" + id).style("opacity", "0.3");
-          });
-        }
-      });
-    document.getElementById("higherLevelGroups").appendChild(label);
+
+  nestedGrouping =
+    nestedGrouping.length === 0
+      ? groupAnnotations.map((g, i) => i)
+      : nestedGrouping;
+
+  nestedGrouping.forEach((group) => {
+    processGroup(group, document.getElementById("higherLevelGroups"));
   });
+
+  // groupAnnotations.forEach((group) => {
+  //   let label = document.createElement("label");
+  //   label.classList.add("specifiedGroup");
+  //   label.innerHTML = group.join(", ");
+  //   // TBD: unify the label style with the one in the previous section; can use a inficator nexted variable to control
+  //   d3.select(label)
+  //     .style("font-family", "'Arial', sans-serif")
+  //     .style("font-size", "16px")
+  //     .style("color", "#333")
+  //     .style("background-color", "#f0f0f0")
+  //     .style("padding", "3px")
+  //     .style("margin", "5px")
+  //     .style("border", "2.5px solid black")
+  //     .style("border-radius", "4px")
+  //     .style("display", "inline-block")
+  //     .on("mouseover", function () {
+  //       d3.select(this)
+  //         .style("background-color", "#e9e9e9")
+  //         .style("cursor", "pointer");
+  //       group.forEach((id) => {
+  //         d3.select("#" + id).style("opacity", "1");
+  //       });
+  //     })
+  //     .on("mouseout", function () {
+  //       d3.select(this).style("background-color", "#f0f0f0");
+  //       if (d3.select(this).style("border") === "2.5px solid black")
+  //         group.forEach((id) => {
+  //           d3.select("#" + id).style("opacity", "0.3");
+  //         });
+  //     })
+  //     .on("click", function () {
+  //       let newBorder =
+  //         d3.select(this).style("border") === "2.5px solid black"
+  //           ? "2.5px solid red"
+  //           : "2.5px solid black";
+  //       d3.select(this).style("border", newBorder);
+  //       if (newBorder === "2.5px solid red") {
+  //         group.forEach((id) => {
+  //           d3.select("#" + id).style("opacity", "1");
+  //         });
+  //       } else {
+  //         group.forEach((id) => {
+  //           d3.select("#" + id).style("opacity", "0.3");
+  //         });
+  //       }
+  //     });
+  //   document.getElementById("higherLevelGroups").appendChild(label);
+  // });
 }
 
 var selectedGroups;
@@ -446,18 +528,30 @@ var selectedGroups;
 function mergeGroups() {
   selectedGroups = [];
   let selectedLabels = [];
-  document.getElementById("higherLevelGroups").childNodes.forEach((label) => {
-    if (label.nodeName !== "LABEL") return;
-    if (label.style.border === "2.5px solid red") {
-      selectedLabels.push(label);
-      processLabelInnerHtml(label);
-    }
-  });
+  let thisNestedGroup = [];
+  let indices2beRemoved = [];
+  document
+    .getElementById("higherLevelGroups")
+    .childNodes.forEach((label, i) => {
+      if (label.nodeName !== "LABEL") return;
+      if (label.style.border === "2.5px solid red") {
+        selectedLabels.push(label);
+        processLabelInnerHtml(label);
+        indices2beRemoved.push(i - 3); // 3 is the number of divs before the first label by inspecting the DOM
+        thisNestedGroup.push(nestedGrouping[i - 3]);
+      }
+    });
 
-  if (selectedGroups.length === 0) {
+  if (selectedGroups.length === 0 || indices2beRemoved.length === 1) {
     alert("Please select at least one group.");
     return;
   }
+
+  nestedGrouping = nestedGrouping.filter(
+    (g, i) => !indices2beRemoved.includes(i)
+  );
+  nestedGrouping.push(thisNestedGroup);
+  console.log(nestedGrouping);
 
   let mergedGroup = [...selectedGroups.flat()];
 
