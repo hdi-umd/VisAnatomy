@@ -604,7 +604,7 @@
           </div>
         </div>
         <div
-          id="LayoutAnnotationDiv"
+          id="LayoutAnnotation"
           style="
             position: absolute;
             top: 20px;
@@ -779,7 +779,7 @@
 
             break;
           case "Groups":
-            d3.select("#LayoutAnnotationDiv").style("visibility", "hidden");
+            d3.select("#LayoutAnnotation").style("visibility", "hidden");
             document.getElementById("axisAndLegend").style.visibility =
               "hidden";
             document.getElementById("generalizedSelection").style.visibility =
@@ -794,6 +794,7 @@
             initilizeGroupAnnotation();
             break;
           case "Layout":
+            d3.select("#LayoutAnnotation").style("visibility", "visible");
             initilizeLayoutAnnotation();
             document.getElementById("groupSelection").style.visibility =
               "hidden";
@@ -803,7 +804,7 @@
               "hidden";
             break;
           case "Encodings":
-            d3.select("#LayoutAnnotationDiv").style("visibility", "hidden");
+            d3.select("#LayoutAnnotation").style("visibility", "hidden");
             initilizeEncodingAnnotation();
             break;
           case "Constraints":

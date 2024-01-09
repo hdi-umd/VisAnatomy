@@ -561,3 +561,18 @@ span {
   height: 1em; /* Set the height as needed */
   margin-right: 5px; /* Adjust spacing as needed */
 }
+
+.foldable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.foldable ul {
+  list-style-type: none; /* This removes the bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
