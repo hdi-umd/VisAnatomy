@@ -153,7 +153,21 @@ function recordBatchEncoding() {
   } else if (!selectedGroup) {
     alert("Please select a group");
   } else {
-    objectEncodings[selectedGroup] = selectedChannels;
+    if (selectedGroup.startsWith("Group")) {
+      Object.keys(objectsByDepth).forEach((depth) => {
+        let group = objectsByDepth[depth];
+        if (group.includes(parseInt(selectedGroup.split(" ")[1]))) {
+          group.forEach((groupID) => {
+            objectEncodings["Group " + groupID] = selectedChannels;
+          });
+        }
+      });
+    } else {
+      groupAnnotations.flat(Infinity).forEach((mark) => {
+        if (extractNonNumeric(mark) == extractNonNumeric(selectedGroup))
+          objectEncodings[mark] = selectedChannels;
+      });
+    }
   }
   console.log(objectEncodings);
 }
