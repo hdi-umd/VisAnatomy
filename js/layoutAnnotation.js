@@ -3,7 +3,6 @@ var groupsByDepth = {};
 
 function initilizeLayoutAnnotation() {
   // assuming nestedGrouping is a length 1 array and the first element is the nested grouping
-  console.log(convertToJSON(nestedGrouping[0]));
   document.getElementById("LayoutAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
   document

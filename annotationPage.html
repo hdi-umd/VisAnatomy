@@ -699,7 +699,7 @@
               style="margin-top: 10px"
               onclick="recordSingleGroupLayout(event)"
             >
-              Record Layout for <span id="selectedGroup4LayoutStage2"></span>
+              Record layout for <span id="selectedGroup4LayoutStage2"></span>
             </button>
             <button
               class="btn"
@@ -707,79 +707,96 @@
               style="margin-top: 10px"
               onclick="recordBatchGroupLayout(event)"
             >
-              Record Layout for all same-level groups
+              Record layout for all same-level groups
             </button>
           </div>
         </div>
-      </div>
 
-      <div
-        style="
-          position: absolute;
-          top: 20px;
-          right: 10px;
-          display: flex;
-          flex-grow: 1;
-          width: 40%;
-          height: calc(100% - 50px);
-          visibility: hidden;
-        "
-      >
         <div
-          id="EncodingAnnotation"
           style="
-            padding: 25px;
-            margin-bottom: 10px;
-            vertical-align: top;
-            width: 49%;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            display: flex;
+            flex-grow: 1;
+            width: 40%;
+            height: calc(100% - 50px);
+            visibility: hidden;
           "
         >
-          <h4>Grouping Structure</h4>
-        </div>
-        <div
-          id="EncodingSpec"
-          style="
-            padding: 25px;
-            margin-bottom: 10px;
-            vertical-align: top;
-            width: 49%;
-          "
-        >
-          <h4 style="text-align: center">Encoded Channels</h4>
-          <p>
-            Select the channels that are used for encoding data for the selected
-            object
-            <span id="selectedGroup4EncodingStage" style="color: red"></span>:
-          </p>
-          <ul id="channelList">
-            <li class="list-item">
-              <span class="dot" onclick="toggleDot(this)"></span>Item 1
-            </li>
-            <li class="list-item">
-              <span class="dot" onclick="toggleDot(this)"></span>Item 2
-            </li>
-            <li class="list-item">
-              <span class="dot" onclick="toggleDot(this)"></span>Item 3
-            </li>
-          </ul>
+          <div
+            id="EncodingAnnotation"
+            style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            "
+          >
+            <h4>Grouping Structure</h4>
+          </div>
+          <div
+            id="EncodingSpec"
+            style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            "
+          >
+            <h4 style="text-align: center">Encoded Channels</h4>
+            <p>
+              Select the channels that are used for encoding data for the
+              selected object
+              <span id="selectedGroup4EncodingStage1" style="color: red"></span
+              >:
+            </p>
+            <ul id="channelList">
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> width
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> height
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> color
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> x
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> y
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> opacity
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> shape
+              </li>
+              <li class="list-item" onclick="toggleItem(this)">
+                <span class="dot"></span> size
+              </li>
+            </ul>
 
-          <div>
-            <button
-              class="btn"
-              id="button4EncodingSpec1"
-              style="margin-top: 10px"
-              onclick="recordSingleEncoding(event)"
-            >
-              Record Encodings for <span id="selectedGroup4LayoutStage2"></span>
-            </button>
-            <button
-              class="btn"
-              id="button4EncodingSpec"
-              style="margin-top: 10px"
-              onclick="recordBatchEncoding(event)"
-            >
-              Record Encodings for all same-level groups
-            </button>
+            <div>
+              <button
+                class="btn"
+                id="button4EncodingSpec1"
+                style="margin-top: 10px"
+                onclick="recordSingleEncoding(event)"
+              >
+                Record encodings for
+                <span id="selectedGroup4EncodingStage2"></span>
+              </button>
+              <button
+                class="btn"
+                id="button4EncodingSpec"
+                style="margin-top: 10px"
+                onclick="recordBatchEncoding(event)"
+              >
+                Record encodings for all same-level groups / same-type marks
+              </button>
+            </div>
           </div>
         </div>
       </div>

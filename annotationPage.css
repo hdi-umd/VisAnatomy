@@ -581,6 +581,8 @@ span {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  cursor: pointer;
+  color: #000; /* Default text color */
 }
 
 .dot {
@@ -590,9 +592,12 @@ span {
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
-  cursor: pointer;
+}
+
+.selected .dot {
+  background-color: #4caf50; /* Green */
 }
 
 .selected {
-  background-color: #4caf50; /* Green */
+  color: #4caf50; /* Text color changes when selected */
 }
