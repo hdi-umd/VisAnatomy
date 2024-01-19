@@ -612,6 +612,7 @@
             flex-grow: 1;
             width: 40%;
             height: calc(100% - 50px);
+            visibility: hidden;
           "
         >
           <div
@@ -635,9 +636,12 @@
             "
           >
             <h4 style="text-align: center">Layout Specification</h4>
-            <p>Select a layout type:</p>
+            <p>
+              Select a layout type for the selected group
+              <span id="selectedGroup4LayoutStage" style="color: red"></span>:
+            </p>
             <select class="fieldType" id="layoutTypeSelection">
-              <option value="none">Not Assigned</option>
+              <option value="none"></option>
               <option value="Grid">Grid</option>
               <option value="Stack">Stack</option>
               <option value="Packing">Packing</option>
@@ -649,14 +653,36 @@
               style="
                 width: 100%;
                 height: 40%;
-                padding-top: 15px;
+                padding-top: 8px;
+                padding-left: 2.5px;
+                margin-top: 8px;
                 border: 2.5px solid lightblue;
               "
             >
-              TBD: this DIV is to display layout parameters
+              <p>
+                <span> Orientation: </span>
+                <select class="fieldType" id="layoutOriSelection">
+                  <option value="none"></option>
+                  <option value="Horizontal">Horizontal</option>
+                  <option value="Vertical">Vertical</option>
+                  <option value="Customized">Customized</option>
+                </select>
+              </p>
+              <p>
+                <span> Alignment: </span>
+                <select class="fieldType" id="layoutAlignSelection">
+                  <option value="none"></option>
+                  <option value="Bottom">Bottom</option>
+                  <option value="Middle">Middle</option>
+                  <option value="Top">Top</option>
+                  <option value="Left">Left</option>
+                  <option value="Center">Center</option>
+                  <option value="Right">Right</option>
+                </select>
+              </p>
             </div>
 
-            <div>
+            <!-- <div>
               <label for="Checkbox4Layout">
                 Apply across same-level groups
               </label>
@@ -665,15 +691,23 @@
                 id="Checkbox4Layout"
                 name="batchLayoutAssignment"
               />
-            </div>
+            </div> -->
 
             <button
               class="btn"
               id="button4LayoutSpec"
               style="margin-top: 10px"
-              onclick="clickEvent4LayoutSpecButton(event)"
+              onclick="recordSingleGroupLayout(event)"
             >
-              Record Layout!
+              Record Layout for <span id="selectedGroup4LayoutStage2"></span>
+            </button>
+            <button
+              class="btn"
+              id="button4LayoutSpec"
+              style="margin-top: 10px"
+              onclick="recordBatchGroupLayout(event)"
+            >
+              Record Layout for all same-level groups
             </button>
           </div>
         </div>
