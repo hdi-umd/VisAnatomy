@@ -576,3 +576,23 @@ span {
 .hidden {
   display: none;
 }
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #4caf50; /* Green */
+}

@@ -695,7 +695,7 @@
 
             <button
               class="btn"
-              id="button4LayoutSpec"
+              id="button4LayoutSpec1"
               style="margin-top: 10px"
               onclick="recordSingleGroupLayout(event)"
             >
@@ -703,11 +703,82 @@
             </button>
             <button
               class="btn"
-              id="button4LayoutSpec"
+              id="button4LayoutSpec2"
               style="margin-top: 10px"
               onclick="recordBatchGroupLayout(event)"
             >
               Record Layout for all same-level groups
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="
+          position: absolute;
+          top: 20px;
+          right: 10px;
+          display: flex;
+          flex-grow: 1;
+          width: 40%;
+          height: calc(100% - 50px);
+          visibility: hidden;
+        "
+      >
+        <div
+          id="EncodingAnnotation"
+          style="
+            padding: 25px;
+            margin-bottom: 10px;
+            vertical-align: top;
+            width: 49%;
+          "
+        >
+          <h4>Grouping Structure</h4>
+        </div>
+        <div
+          id="EncodingSpec"
+          style="
+            padding: 25px;
+            margin-bottom: 10px;
+            vertical-align: top;
+            width: 49%;
+          "
+        >
+          <h4 style="text-align: center">Encoded Channels</h4>
+          <p>
+            Select the channels that are used for encoding data for the selected
+            object
+            <span id="selectedGroup4EncodingStage" style="color: red"></span>:
+          </p>
+          <ul id="channelList">
+            <li class="list-item">
+              <span class="dot" onclick="toggleDot(this)"></span>Item 1
+            </li>
+            <li class="list-item">
+              <span class="dot" onclick="toggleDot(this)"></span>Item 2
+            </li>
+            <li class="list-item">
+              <span class="dot" onclick="toggleDot(this)"></span>Item 3
+            </li>
+          </ul>
+
+          <div>
+            <button
+              class="btn"
+              id="button4EncodingSpec1"
+              style="margin-top: 10px"
+              onclick="recordSingleEncoding(event)"
+            >
+              Record Encodings for <span id="selectedGroup4LayoutStage2"></span>
+            </button>
+            <button
+              class="btn"
+              id="button4EncodingSpec"
+              style="margin-top: 10px"
+              onclick="recordBatchEncoding(event)"
+            >
+              Record Encodings for all same-level groups
             </button>
           </div>
         </div>
@@ -891,6 +962,8 @@
             initilizeGroupAnnotation();
             break;
           case "Layout":
+            d3.select("#EncodingAnnotation").style("visibility", "hidden");
+            d3.select("#EncodingSpec").style("visibility", "hidden");
             d3.select("#LayoutAnnotation").style("visibility", "visible");
             d3.select("#LayoutSpec").style("visibility", "visible");
             initilizeLayoutAnnotation();
@@ -904,9 +977,13 @@
           case "Encodings":
             d3.select("#LayoutAnnotation").style("visibility", "hidden");
             d3.select("#LayoutSpec").style("visibility", "hidden");
+            d3.select("#EncodingAnnotation").style("visibility", "visible");
+            d3.select("#EncodingSpec").style("visibility", "visible");
             initilizeEncodingAnnotation();
             break;
           case "Constraints":
+            d3.select("#EncodingAnnotation").style("visibility", "hidden");
+            d3.select("#EncodingSpec").style("visibility", "hidden");
             initilizeConstraintAnnotation();
             break;
           default:
