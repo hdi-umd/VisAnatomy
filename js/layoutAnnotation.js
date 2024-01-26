@@ -13,12 +13,20 @@ function createList(item) {
   const container = document.createElement("div");
   container.style.backgroundColor = "#f0f0f0"; // Background color for each list
 
-  const toggleButton = document.createElement("button");
-  toggleButton.textContent = "+";
-  toggleButton.style.cursor = "pointer";
-  toggleButton.style.cssText =
-    "background-color: #75739e; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
-  container.appendChild(toggleButton);
+  if (item.children && item.children !== "none") {
+    const toggleButton = document.createElement("button");
+    toggleButton.textContent = "+";
+    toggleButton.style.cursor = "pointer";
+    toggleButton.style.cssText =
+      "background-color: #75739e; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
+    toggleButton.addEventListener("click", function () {
+      childrenContainer.classList.toggle("hidden");
+      toggleButton.textContent = childrenContainer.classList.contains("hidden")
+        ? "+"
+        : "-";
+    });
+    container.appendChild(toggleButton);
+  }
 
   const content = document.createElement("span");
   content.textContent = "Group " + item.id;
@@ -121,14 +129,6 @@ function createList(item) {
   // }
 
   container.appendChild(childrenContainer);
-
-  toggleButton.addEventListener("click", function () {
-    childrenContainer.classList.toggle("hidden");
-    toggleButton.textContent = childrenContainer.classList.contains("hidden")
-      ? "+"
-      : "-";
-  });
-
   return container;
 }
 
