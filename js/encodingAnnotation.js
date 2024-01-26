@@ -1,4 +1,45 @@
 var objectsByDepth = {};
+const typeSpecificChannels = {
+  "Straight Line": [
+    "x (x1)",
+    "y (y1)",
+    "x2",
+    "y2",
+    "stroke (color)",
+    "strokeWidth",
+    "opacity",
+    "length",
+  ],
+  Polyline: ["vertices", "stroke (color)", "strokeWidth", "opacity", "length"],
+  Rectangle: [
+    "x (left)",
+    "y (top)",
+    "right",
+    "bottom",
+    "width",
+    "height",
+    "fill",
+    "opacity",
+    "area",
+  ],
+  Circle: ["x", "y", "radius", "fill", "opacity", "area"],
+  Ploygon: ["vertices", "radius", "fill", "opacity"],
+  Ellipse: ["x", "y", "rx", "ry", "fill", "opacity"],
+  Arc: [
+    "x",
+    "y",
+    "innerRadius",
+    "outerRadius",
+    "angle",
+    "startAngle",
+    "endAngle",
+    "fill",
+    "opacity",
+  ],
+  Text: ["x", "y", "text", "color", "opacity", "fontSize", "fontWeight"],
+  Image: ["x", "y", "width", "height", "opacity"],
+  area: ["x list", "y list", "fill", "opacity"],
+};
 
 function initilizeEncodingAnnotation() {
   console.log(convertToJSON2(nestedGrouping[0]));
@@ -15,7 +56,7 @@ function createList2(item) {
   container.style.backgroundColor = "#f0f0f0"; // Background color for each list
 
   const toggleButton = document.createElement("button");
-  toggleButton.textContent = "+";
+  toggleButton.textContent = "-";
   toggleButton.style.cursor = "pointer";
   toggleButton.style.cssText =
     "background-color: #75739e; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
@@ -124,6 +165,8 @@ function createList2(item) {
       ? "+"
       : "-";
   });
+
+  childrenContainer.classList.toggle("hidden");
 
   return container;
 }
