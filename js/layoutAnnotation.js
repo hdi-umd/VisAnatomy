@@ -36,7 +36,6 @@ function createList(item) {
     })
     .on("click", function () {
       d3.select("#selectedGroup4LayoutStage").text("Group " + item.id);
-      d3.select("#selectedGroup4LayoutStage2").text("Group " + item.id);
       if (Object.keys(groupLayouts).includes(item.id.toString())) {
         let thisLayout = groupLayouts[item.id];
         let selectElement = document.getElementById("layoutTypeSelection");

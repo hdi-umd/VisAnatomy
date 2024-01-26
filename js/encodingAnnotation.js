@@ -10,6 +10,7 @@ function initilizeEncodingAnnotation() {
 }
 
 function createList2(item) {
+  // TBD: create object-type-specific list; can use annotated mark types and roles
   const container = document.createElement("div");
   container.style.backgroundColor = "#f0f0f0"; // Background color for each list
 
@@ -36,7 +37,6 @@ function createList2(item) {
     })
     .on("click", function () {
       d3.select("#selectedGroup4EncodingStage1").text("Group " + item.id);
-      d3.select("#selectedGroup4EncodingStage2").text("Group " + item.id);
       if (Object.keys(objectEncodings).includes(item.id.toString())) {
         let thisEncoding = objectEncodings["Group " + item.id];
         let channelList = document.getElementById("channelList");
@@ -47,6 +47,12 @@ function createList2(item) {
           } else {
             item.classList.remove("selected");
           }
+        });
+      } else {
+        let channelList = document.getElementById("channelList");
+        let listItems = channelList.querySelectorAll(".list-item");
+        listItems.forEach((item) => {
+          item.classList.remove("selected");
         });
       }
     });
@@ -97,6 +103,12 @@ function createList2(item) {
               } else {
                 item.classList.remove("selected");
               }
+            });
+          } else {
+            let channelList = document.getElementById("channelList");
+            let listItems = channelList.querySelectorAll(".list-item");
+            listItems.forEach((item) => {
+              item.classList.remove("selected");
             });
           }
         });
