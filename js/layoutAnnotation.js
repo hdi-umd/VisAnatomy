@@ -1,4 +1,3 @@
-var groupLayouts = {};
 var groupsByDepth = {};
 
 function initilizeLayoutAnnotation() {
@@ -38,6 +37,46 @@ function createList(item) {
     .on("click", function () {
       d3.select("#selectedGroup4LayoutStage").text("Group " + item.id);
       d3.select("#selectedGroup4LayoutStage2").text("Group " + item.id);
+      if (Object.keys(groupLayouts).includes(item.id.toString())) {
+        let thisLayout = groupLayouts[item.id];
+        let selectElement = document.getElementById("layoutTypeSelection");
+        let thisLayoutType = thisLayout.type;
+        for (let i = 0; i < selectElement.options.length; i++) {
+          if (selectElement.options[i].text == thisLayoutType) {
+            selectElement.selectedIndex = i;
+            break;
+          }
+        }
+        let orientationSelection =
+          document.getElementById("layoutOriSelection");
+        let thisLayoutOri = thisLayout.params.orientation;
+        for (let i = 0; i < orientationSelection.options.length; i++) {
+          if (orientationSelection.options[i].text == thisLayoutOri) {
+            orientationSelection.selectedIndex = i;
+            break;
+          }
+        }
+        let alignmentSelection = document.getElementById(
+          "layoutAlignSelection"
+        );
+        let thisLayoutAlign = thisLayout.params.alignment;
+        for (let i = 0; i < alignmentSelection.options.length; i++) {
+          if (alignmentSelection.options[i].text == thisLayoutAlign) {
+            alignmentSelection.selectedIndex = i;
+            break;
+          }
+        }
+      } else {
+        let selectElement = document.getElementById("layoutTypeSelection");
+        selectElement.selectedIndex = 0;
+        let orientationSelection =
+          document.getElementById("layoutOriSelection");
+        orientationSelection.selectedIndex = 0;
+        let alignmentSelection = document.getElementById(
+          "layoutAlignSelection"
+        );
+        alignmentSelection.selectedIndex = 0;
+      }
     });
   container.appendChild(content);
 
@@ -46,6 +85,11 @@ function createList(item) {
   layoutIndicator.id = "layoutIndicator" + item.id;
   layoutIndicator.style.cssText =
     "margin-left: 2px; vertical-align: middle; color: #03C03C;";
+  layoutIndicator.textContent =
+    " " +
+    (Object.keys(groupLayouts).includes(item.id.toString())
+      ? groupLayouts[item.id].type
+      : "");
   container.appendChild(layoutIndicator);
 
   const childrenContainer = document.createElement("ul");
@@ -128,7 +172,7 @@ function convertToJSON(thisNestedGrouping) {
   return processGroup(thisNestedGrouping, 0);
 }
 
-function recordSingleGroupLayout() {
+function recordlayout() {
   // first, get the determined group
   let selectedGroup = d3
     .select("#selectedGroup4LayoutStage")
@@ -146,6 +190,7 @@ function recordSingleGroupLayout() {
     groupLayouts[selectedGroup] = getThisLayoutJson(selectedGroup);
     d3.select("#layoutIndicator" + selectedGroup).text(" " + thisLayoutType);
   }
+  console.log(groupLayouts);
 }
 
 function recordBatchGroupLayout() {
@@ -175,6 +220,7 @@ function recordBatchGroupLayout() {
       }
     });
   }
+  console.log(groupLayouts);
 }
 
 function getThisLayoutJson() {

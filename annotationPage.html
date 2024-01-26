@@ -640,7 +640,11 @@
               Select a layout type for the selected group
               <span id="selectedGroup4LayoutStage" style="color: red"></span>:
             </p>
-            <select class="fieldType" id="layoutTypeSelection">
+            <select
+              class="fieldType"
+              id="layoutTypeSelection"
+              onchange="recordlayout()"
+            >
               <option value="none"></option>
               <option value="Grid">Grid</option>
               <option value="Stack">Stack</option>
@@ -661,7 +665,11 @@
             >
               <p>
                 <span> Orientation: </span>
-                <select class="fieldType" id="layoutOriSelection">
+                <select
+                  class="fieldType"
+                  id="layoutOriSelection"
+                  onchange="recordlayout()"
+                >
                   <option value="none"></option>
                   <option value="Horizontal">Horizontal</option>
                   <option value="Vertical">Vertical</option>
@@ -670,7 +678,11 @@
               </p>
               <p>
                 <span> Alignment: </span>
-                <select class="fieldType" id="layoutAlignSelection">
+                <select
+                  class="fieldType"
+                  id="layoutAlignSelection"
+                  onchange="recordlayout()"
+                >
                   <option value="none"></option>
                   <option value="Bottom">Bottom</option>
                   <option value="Middle">Middle</option>
@@ -681,26 +693,14 @@
                 </select>
               </p>
             </div>
-
-            <!-- <div>
-              <label for="Checkbox4Layout">
-                Apply across same-level groups
-              </label>
-              <input
-                type="checkbox"
-                id="Checkbox4Layout"
-                name="batchLayoutAssignment"
-              />
-            </div> -->
-
-            <button
+            <!-- <button
               class="btn"
               id="button4LayoutSpec1"
               style="margin-top: 10px"
               onclick="recordSingleGroupLayout(event)"
             >
               Record layout for <span id="selectedGroup4LayoutStage2"></span>
-            </button>
+            </button> -->
             <button
               class="btn"
               id="button4LayoutSpec2"
@@ -779,7 +779,7 @@
             </ul>
 
             <div>
-              <button
+              <!-- <button
                 class="btn"
                 id="button4EncodingSpec1"
                 style="margin-top: 10px"
@@ -787,7 +787,7 @@
               >
                 Record encodings for
                 <span id="selectedGroup4EncodingStage2"></span>
-              </button>
+              </button> -->
               <button
                 class="btn"
                 id="button4EncodingSpec"

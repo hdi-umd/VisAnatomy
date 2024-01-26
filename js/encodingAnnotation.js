@@ -1,4 +1,3 @@
-var objectEncodings = {};
 var objectsByDepth = {};
 
 function initilizeEncodingAnnotation() {
@@ -38,9 +37,11 @@ function createList2(item) {
     .on("click", function () {
       d3.select("#selectedGroup4EncodingStage1").text("Group " + item.id);
       d3.select("#selectedGroup4EncodingStage2").text("Group " + item.id);
+      // TBD: toggle encoding channels
     });
   container.appendChild(content);
 
+  // TBD: add encoding indicator
   const EncIndicator = document.createElement("span");
   EncIndicator.textContent = " ";
   EncIndicator.id = "EncIndicator" + item.id;
@@ -75,6 +76,7 @@ function createList2(item) {
         .on("click", function () {
           d3.select("#selectedGroup4EncodingStage1").text(markItem.textContent);
           d3.select("#selectedGroup4EncodingStage2").text(markItem.textContent);
+          // TBD: toggle encoding channels
         });
       childrenContainer.appendChild(markItem);
     });
@@ -136,9 +138,11 @@ function recordSingleEncoding() {
   const selectedChannels = getSelectedChannelsTexts();
   const selectedGroup = d3.select("#selectedGroup4EncodingStage1").text();
   if (selectedChannels.length == 0) {
-    alert("Please select at least one channel");
+    // alert("Please select at least one channel");
+    return;
   } else if (!selectedGroup) {
-    alert("Please select a group");
+    // alert("Please select a group");
+    return;
   } else {
     objectEncodings[selectedGroup] = selectedChannels;
   }
@@ -188,4 +192,7 @@ function getSelectedChannelsTexts() {
 
 function toggleItem(listItem) {
   listItem.classList.toggle("selected");
+  if (listItem.classList.contains("selected")) {
+    recordSingleEncoding();
+  }
 }

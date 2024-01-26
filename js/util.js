@@ -13,6 +13,8 @@ function initilizeVariables() {
   annotationLoaded = false;
   groupAnnotations = [];
   marksHaveGroupAnnotation = [];
+  groupLayouts = {};
+  objectEncodings = {};
 }
 
 function tryLoadAnnotations(filename) {
@@ -54,6 +56,12 @@ function tryLoadAnnotations(filename) {
       nestedGrouping = annotations.nestedGrouping
         ? annotations.nestedGrouping
         : [];
+      groupLayouts = annotations.layoutAnnotaton
+        ? annotations.layoutAnnotaton
+        : {};
+      objectEncodings = annotations.objectEncodings
+        ? annotations.objectEncodings
+        : {};
       chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
       contentMarks = annotations.contentMarks ? annotations.contentMarks : [];
       titleLegend = annotations.legend.title ? annotations.legend.title : [];
@@ -108,6 +116,8 @@ function post() {
   annotations.contentMarks = contentMarks;
   annotations.groupAnnotations = groupAnnotations;
   annotations.nestedGrouping = nestedGrouping;
+  annotations.layoutAnnotaton = groupLayouts;
+  annotations.objectEncodings = objectEncodings;
 
   annotations["xGridlines"] = Object.keys(markInfo).filter(
     (mark) => markInfo[mark].Role === "Horizontal Gridline"
