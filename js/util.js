@@ -11,6 +11,7 @@ function initilizeVariables() {
   titleXaxis = [];
   titleYaxis = [];
   annotationLoaded = false;
+  nestedGrouping = [];
   groupAnnotations = [];
   marksHaveGroupAnnotation = [];
   groupLayouts = {};
@@ -44,29 +45,31 @@ function tryLoadAnnotations(filename) {
       // alertBox.style.visibility = "visible";
       // alertBox.style.opacity = "1";
       // update the values and the display boxes
-      xAxis = annotations.xAxis;
-      yAxis = annotations.yAxis;
-      legend = annotations.legend;
-      xGridlines = annotations.xGridlines;
-      yGridlines = annotations.yGridlines;
+      xAxis = annotations.referenceElement.xAxis;
+      yAxis = annotations.referenceElement.yAxis;
+      legend = annotations.referenceElement.legend;
+      xGridlines = annotations.referenceElement.xGridlines;
+      yGridlines = annotations.referenceElement.yGridlines;
       markInfo = annotations.markInfo ? annotations.markInfo : {};
-      groupAnnotations = annotations.groupAnnotations
-        ? annotations.groupAnnotations
-        : [];
+      groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
       nestedGrouping = annotations.nestedGrouping
         ? annotations.nestedGrouping
         : [];
-      groupLayouts = annotations.layoutAnnotaton
-        ? annotations.layoutAnnotaton
-        : {};
-      objectEncodings = annotations.objectEncodings
-        ? annotations.objectEncodings
+      groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : {};
+      objectEncodings = annotations.encodingInfo
+        ? annotations.encodingInfo
         : {};
       chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
       contentMarks = annotations.contentMarks ? annotations.contentMarks : [];
-      titleLegend = annotations.legend.title ? annotations.legend.title : [];
-      titleXaxis = annotations.xAxis.title ? annotations.xAxis.title : [];
-      titleYaxis = annotations.yAxis.title ? annotations.yAxis.title : [];
+      titleLegend = annotations.referenceElement.legend.title
+        ? annotations.legend.title
+        : [];
+      titleXaxis = annotations.referenceElement.xAxis.title
+        ? annotations.xAxis.title
+        : [];
+      titleYaxis = annotations.referenceElement.yAxis.title
+        ? annotations.yAxis.title
+        : [];
       displayAxis(xAxis);
       displayAxis(yAxis);
       displayLegend(legend);
@@ -112,17 +115,18 @@ function post() {
   let data = {};
 
   annotations.chartTitle = chartTitle;
-  annotations.markInfo = markInfo;
   annotations.contentMarks = contentMarks;
-  annotations.groupAnnotations = groupAnnotations;
+  annotations.markInfo = markInfo;
+  annotations.groupInfo = groupAnnotations;
   annotations.nestedGrouping = nestedGrouping;
-  annotations.layoutAnnotaton = groupLayouts;
-  annotations.objectEncodings = objectEncodings;
+  annotations.layoutInfo = groupLayouts;
+  annotations.encodingInfo = objectEncodings;
+  annotations.referenceElement = {};
 
-  annotations["xGridlines"] = Object.keys(markInfo).filter(
+  annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(
     (mark) => markInfo[mark].Role === "Horizontal Gridline"
   );
-  annotations["yGridlines"] = Object.keys(markInfo).filter(
+  annotations.referenceElement["yGridlines"] = Object.keys(markInfo).filter(
     (mark) => markInfo[mark].Role === "Vertical Gridline"
   );
 
@@ -134,7 +138,7 @@ function post() {
     (mark) => markInfo[mark].Role === "X Axis Tick"
   );
   xAxis.title = titleXaxis;
-  annotations["xAxis"] = xAxis;
+  annotations.referenceElement["xAxis"] = xAxis;
 
   // complete y axis elements
   yAxis.path = Object.keys(markInfo).filter(
@@ -144,11 +148,11 @@ function post() {
     (mark) => markInfo[mark].Role === "Y Axis Tick"
   );
   yAxis.title = titleYaxis;
-  annotations["yAxis"] = yAxis;
+  annotations.referenceElement["yAxis"] = yAxis;
 
   // complete legend elements
   legend.title = titleLegend;
-  annotations["legend"] = legend;
+  annotations.referenceElement["legend"] = legend;
 
   data["chart"] = sessionStorage.getItem("fileName");
   data["annotations"] = annotations;

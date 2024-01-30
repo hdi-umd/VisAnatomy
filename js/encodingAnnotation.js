@@ -81,14 +81,18 @@ function createList2(item) {
     .on("click", function () {
       d3.select("#selectedGroup4EncodingStage1").text("Group " + item.id);
       populateChannelList(["x", "y"]);
-      if (Object.keys(objectEncodings).includes(item.id.toString())) {
+      if (Object.keys(objectEncodings).includes("Group " + item.id)) {
         let channelList = document.getElementById("channelList");
         let listItems = channelList.querySelectorAll(".list-item");
-        listItems.forEach((item) => {
-          if (thisEncoding.includes(item.textContent.trim())) {
-            item.classList.add("selected");
+        listItems.forEach((listItem) => {
+          if (
+            objectEncodings["Group " + item.id].includes(
+              listItem.textContent.trim()
+            )
+          ) {
+            listItem.classList.add("selected");
           } else {
-            item.classList.remove("selected");
+            listItem.classList.remove("selected");
           }
         });
       } else {
@@ -127,7 +131,7 @@ function createList2(item) {
     item.marks.forEach((mark) => {
       let thisMarkEncoding = objectEncodings[mark];
       const markItem = document.createElement("li");
-      markItem.textContent = mark;
+      markItem.textContent = mark.split(" ")[0];
       d3.select(markItem)
         .on("mouseover", function () {
           d3.select(this).style("cursor", "pointer");
@@ -137,19 +141,19 @@ function createList2(item) {
           d3.select("#" + mark).style("opacity", "0.3");
         })
         .on("click", function () {
-          d3.select("#selectedGroup4EncodingStage1").text(markItem.textContent);
-          d3.select("#selectedGroup4EncodingStage2").text(markItem.textContent);
+          d3.select("#selectedGroup4EncodingStage1").text(
+            markItem.textContent.split(" ")[0]
+          );
           let channelList = typeSpecificChannels[markInfo[mark].Type];
-          console.log(mark, markInfo[mark]);
           populateChannelList(channelList);
           if (Object.keys(objectEncodings).includes(mark)) {
             let channelListHTML = document.getElementById("channelList");
             let listItems = channelListHTML.querySelectorAll(".list-item");
-            listItems.forEach((item) => {
-              if (thisMarkEncoding.includes(item.textContent.trim())) {
-                item.classList.add("selected");
+            listItems.forEach((listItem) => {
+              if (objectEncodings[mark].includes(listItem.textContent.trim())) {
+                listItem.classList.add("selected");
               } else {
-                item.classList.remove("selected");
+                listItem.classList.remove("selected");
               }
             });
           } else {
@@ -229,24 +233,35 @@ function convertToJSON2(thisNestedGrouping) {
 function recordSingleEncoding() {
   const selectedChannels = getSelectedChannelsTexts();
   const selectedGroup = d3.select("#selectedGroup4EncodingStage1").text();
-  if (selectedChannels.length == 0) {
-    // alert("Please select at least one channel");
-    return;
-  } else if (!selectedGroup) {
+  if (!selectedGroup) {
     // alert("Please select a group");
     return;
   } else {
-    objectEncodings[selectedGroup] = selectedChannels;
+    objectEncodings[selectedGroup.trim()] = selectedChannels;
+    console.log(objectEncodings);
+    if (selectedGroup.startsWith("Group")) {
+      document.getElementById(
+        "EncIndicator" + selectedGroup.split(" ")[1]
+      ).textContent =
+        selectedChannels.length > 0
+          ? " [" + selectedChannels.toString() + "]"
+          : " ";
+    } else {
+      console.log(selectedChannels);
+      document.getElementById(
+        "EncIndicator" + selectedGroup.split(" ")[0]
+      ).textContent =
+        selectedChannels.length > 0
+          ? " [" + selectedChannels.toString() + "]"
+          : " ";
+    }
   }
-  console.log(objectEncodings);
 }
 
 function recordBatchEncoding() {
   const selectedChannels = getSelectedChannelsTexts();
   const selectedGroup = d3.select("#selectedGroup4EncodingStage1").text();
-  if (selectedChannels.length == 0) {
-    alert("Please select at least one channel");
-  } else if (!selectedGroup) {
+  if (!selectedGroup) {
     alert("Please select a group");
   } else {
     if (selectedGroup.startsWith("Group")) {
@@ -255,17 +270,27 @@ function recordBatchEncoding() {
         if (group.includes(parseInt(selectedGroup.split(" ")[1]))) {
           group.forEach((groupID) => {
             objectEncodings["Group " + groupID] = selectedChannels;
+            document.getElementById("EncIndicator" + groupID).textContent =
+              selectedChannels.length > 0
+                ? " [" + selectedChannels.toString() + "]"
+                : " ";
           });
         }
       });
     } else {
       groupAnnotations.flat(Infinity).forEach((mark) => {
-        if (extractNonNumeric(mark) == extractNonNumeric(selectedGroup))
+        if (selectedGroup.startsWith(extractNonNumeric(mark))) {
           objectEncodings[mark] = selectedChannels;
+          document.getElementById(
+            "EncIndicator" + mark.split(" ")[0]
+          ).textContent =
+            selectedChannels.length > 0
+              ? " [" + selectedChannels.toString() + "]"
+              : " ";
+        }
       });
     }
   }
-  console.log(objectEncodings);
 }
 
 function getSelectedChannelsTexts() {
