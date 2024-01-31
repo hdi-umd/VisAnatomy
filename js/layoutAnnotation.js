@@ -95,7 +95,11 @@ function createList(item) {
   layoutIndicator.textContent =
     " " +
     (Object.keys(groupLayouts).includes(item.id.toString())
-      ? groupLayouts[item.id].type
+      ? groupLayouts[item.id].type +
+        "-" +
+        groupLayouts[item.id].params.orientation[0] +
+        "-" +
+        groupLayouts[item.id].params.alignment[0]
       : "");
   container.appendChild(layoutIndicator);
 
@@ -188,7 +192,14 @@ function recordlayout() {
     let thisLayoutType =
       selectElement.options[selectElement.selectedIndex].text;
     groupLayouts[selectedGroup] = getThisLayoutJson(selectedGroup);
-    d3.select("#layoutIndicator" + selectedGroup).text(" " + thisLayoutType);
+    d3.select("#layoutIndicator" + selectedGroup).text(
+      " " +
+        thisLayoutType +
+        "-" +
+        groupLayouts[selectedGroup].params.orientation[0] +
+        "-" +
+        groupLayouts[selectedGroup].params.alignment[0]
+    );
   }
   console.log(groupLayouts);
 }
