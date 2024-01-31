@@ -62,13 +62,13 @@ function tryLoadAnnotations(filename) {
       chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
       contentMarks = annotations.contentMarks ? annotations.contentMarks : [];
       titleLegend = annotations.referenceElement.legend.title
-        ? annotations.legend.title
+        ? annotations.referenceElement.legend.title
         : [];
       titleXaxis = annotations.referenceElement.xAxis.title
-        ? annotations.xAxis.title
+        ? annotations.referenceElement.xAxis.title
         : [];
       titleYaxis = annotations.referenceElement.yAxis.title
-        ? annotations.yAxis.title
+        ? annotations.referenceElement.yAxis.title
         : [];
       displayAxis(xAxis);
       displayAxis(yAxis);

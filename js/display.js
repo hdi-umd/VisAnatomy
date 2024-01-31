@@ -134,13 +134,6 @@ function displayAxis(axis) {
       }
     }
   }
-
-  // updating annotations object
-  if (axis.type == "x") {
-    annotations["xAxis"] = axis;
-  } else if (axis.type == "y") {
-    annotations["yAxis"] = axis;
-  }
 }
 
 function displayAxisLabel(label, divID) {
@@ -156,7 +149,6 @@ function displayAxisLabel(label, divID) {
 }
 
 function displayLegend(legend) {
-  annotations["legend"] = legend;
   if (Object.keys(legend) === 0) return;
   d3.select("#legendLabels").selectAll("button").remove();
 
@@ -285,8 +277,6 @@ function displayTitleLegendLabel(thisText, mode) {
     if (titleLegend.includes(thisText)) return;
     else titleLegend.push(thisText);
   }
-
-  annotations["legend_title"] = titleLegend;
 
   let text = thisText["content"];
 
