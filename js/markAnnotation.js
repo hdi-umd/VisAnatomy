@@ -170,31 +170,65 @@ function initilizeMarkAnnotation() {
 }
 
 function markOnClick(markID) {
-  disableAllMarkSelections();
-  d3.select("#mark_" + markID)
-    .style("background-color", "#000000")
-    .style("color", "white");
-  markSelection = [markID];
-  document.getElementById("numberOfMarksSelected").innerHTML = "1";
-  document.getElementById("markTypeSelection").value = markInfo[markID].Type;
-  document.getElementById("markRoleSelection").value = markInfo[markID].Role;
+  // disableAllMarkSelections();
+  if (
+    d3.select("#mark_" + markID).style("background-color") === "rgb(0, 0, 0)"
+  ) {
+    d3.selectAll("#mark_" + markID)
+      .style("background-color", "white")
+      .style("color", "black");
+    markSelection.splice(markSelection.indexOf(markID), 1);
+    document.getElementById("numberOfMarksSelected").innerHTML =
+      parseInt(document.getElementById("numberOfMarksSelected").innerHTML) - 1;
+  } else {
+    d3.select("#mark_" + markID)
+      .style("background-color", "#000000")
+      .style("color", "white");
+    markSelection.push(markID);
+    document.getElementById("numberOfMarksSelected").innerHTML =
+      parseInt(document.getElementById("numberOfMarksSelected").innerHTML) + 1;
+  }
+
+  document.getElementById("markTypeSelection").value =
+    markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
+      ? markInfo[markID].Type
+      : "none";
+  document.getElementById("markRoleSelection").value =
+    markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
+      ? markInfo[markID].Role
+      : "none";
   svgHighlighting();
 }
 
 function selectionOnClick(selectionID, selection) {
-  disableAllMarkSelections();
+  // disableAllMarkSelections();
 
+  // if (
+  //   d3.select("#" + selectionID).style("background-color") === "rgb(0, 0, 0)"
+  // ) {
+  //   d3.select("#" + selectionID)
+  //     .style("background-color", "white")
+  //     .style("color", "black");
+  //   markSelection = markSelection.filter((r) => !selection.includes(r));
+  //   selection.forEach((markID) => {
+  //     d3.select("#mark_" + markID)
+  //       .style("background-color", "white")
+  //       .style("color", "black");
+  //   });
+  //   document.getElementById("numberOfMarksSelected").innerHTML =
+  //     markSelection.length;
+  // } else {
   selection.forEach((markID) => {
     const markDiv = document.getElementById("mark_" + markID);
     document
       .getElementById("allMarks")
       .insertBefore(markDiv, document.getElementById("allMarks").firstChild);
+    if (!markSelection.includes(markID)) markSelection.push(markID);
   });
-
-  d3.select("#" + selectionID)
-    .style("background-color", "#000000")
-    .style("color", "white");
-  markSelection = selection;
+  // d3.select("#" + selectionID)
+  //   .style("background-color", "#000000")
+  //   .style("color", "white");
+  // markSelection.push(...selection);
   document.getElementById("numberOfMarksSelected").innerHTML =
     markSelection.length.toString();
   markSelection.forEach((markID) => {
@@ -202,10 +236,15 @@ function selectionOnClick(selectionID, selection) {
       .style("background-color", "#000000")
       .style("color", "white");
   });
+  // }
   document.getElementById("markTypeSelection").value =
-    "none"; /* reset mark type selection */
+    markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
+      ? markInfo[markSelection[0]].Type
+      : "none";
   document.getElementById("markRoleSelection").value =
-    "none"; /* reset mark role selection */
+    markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
+      ? markInfo[markSelection[0]].Role
+      : "none";
   svgHighlighting();
 }
 
