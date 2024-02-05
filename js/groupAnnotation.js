@@ -614,6 +614,13 @@ function mergeGroups() {
     });
 }
 
+function selectAllGroups() {
+  document.getElementById("higherLevelGroups").childNodes.forEach((label) => {
+    if (label.nodeName !== "LABEL") return;
+    d3.select(label).style("border", "2.5px solid red");
+  });
+}
+
 function processLabelInnerHtml(node) {
   if (node.childNodes.length >= 2) {
     node.childNodes.forEach((childNode) => processLabelInnerHtml(childNode));
