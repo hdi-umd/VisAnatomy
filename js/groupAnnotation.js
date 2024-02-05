@@ -331,18 +331,66 @@ function enableAreaSelection4GroupAnnotation() {
     });
 }
 
+// function showSelectedMarks() {
+//   document.getElementById("selectedGroup").innerHTML = "";
+//   theGroup.forEach((element) => {
+//     // for each selected mark, append a button whose text is the mark's ID in the selectedGroup div
+//     let markID = element.id;
+//     let button = document.createElement("button");
+//     button.setAttribute("class", "btn btn-outline-secondary");
+//     button.setAttribute("type", "button");
+//     button.setAttribute("data-toggle", "tooltip");
+//     button.setAttribute("data-placement", "top");
+//     button.setAttribute("padding-right", "5px");
+//     button.innerHTML = markID;
+//     document.getElementById("selectedGroup").appendChild(button);
+//   });
+// }
+
 function showSelectedMarks() {
   document.getElementById("selectedGroup").innerHTML = "";
   theGroup.forEach((element) => {
-    // for each selected mark, append a button whose text is the mark's ID in the selectedGroup div
     let markID = element.id;
+
+    // Create a container div for each button and its cross mark
+    let container = document.createElement("div");
+    container.setAttribute("class", "button-container");
+    container.style.position = "relative";
+    container.style.display = "inline-block"; // Ensure buttons are in a line
+    container.style.marginRight = "10px"; // Gap between buttons
+
+    // Create the button
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-outline-secondary");
     button.setAttribute("type", "button");
     button.setAttribute("data-toggle", "tooltip");
     button.setAttribute("data-placement", "top");
     button.innerHTML = markID;
-    document.getElementById("selectedGroup").appendChild(button);
+
+    // Create the cross mark
+    let crossMark = document.createElement("span");
+    crossMark.innerHTML = "&times;"; // Cross symbol
+    crossMark.setAttribute("id", "cross-mark_" + markID);
+    crossMark.style.color = "red";
+    crossMark.style.position = "absolute";
+    crossMark.style.top = "4px";
+    crossMark.style.right = "4px";
+    crossMark.style.cursor = "pointer";
+    crossMark.style.fontSize = "20px"; // Adjust size as needed
+    crossMark.style.transform = "translate(50%, -50%)"; // Center the cross mark
+
+    // Add click event to the cross mark for removing the button
+    crossMark.onclick = function (e) {
+      e.stopPropagation();
+      let thisMarkID = e.target.id.split("_")[1];
+      e.target.parentElement.remove();
+      theGroup = theGroup.filter((item) => item.id !== thisMarkID);
+      d3.select("#" + thisMarkID).style("opacity", "0.3");
+    };
+
+    container.appendChild(button);
+    container.appendChild(crossMark);
+    document.getElementById("selectedGroup").appendChild(container);
   });
 }
 

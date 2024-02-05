@@ -197,11 +197,11 @@ function recordlayout() {
     d3.select("#layoutIndicator" + selectedGroup).text(
       " " +
         thisLayoutType +
-        (groupLayouts[item.id].params.orientation[0]
-          ? "-" + groupLayouts[item.id].params.orientation[0]
+        (groupLayouts[selectedGroup].params.orientation[0]
+          ? "-" + groupLayouts[selectedGroup].params.orientation[0]
           : "") +
-        (groupLayouts[item.id].params.alignment[0]
-          ? "-" + groupLayouts[item.id].params.alignment[0]
+        (groupLayouts[selectedGroup].params.alignment[0]
+          ? "-" + groupLayouts[selectedGroup].params.alignment[0]
           : "")
     );
   }
