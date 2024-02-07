@@ -1,16 +1,16 @@
 var rects4Grouping;
 var numOfColor;
 
-function extract(jsonArr) {
-  let nodes = jsonArr["allNodes"];
-  let rects = jsonArr["rects"];
+function extract(groupedGraphicsElement) {
+  let nodes = groupedGraphicsElement["allNodes"];
+  let rects = groupedGraphicsElement["rects"];
   let originalRects = [...rects];
   // console.log([...rects])
   rects = rects.filter(filterRect);
 
-  let texts = textProcessor(jsonArr["texts"]);
-  let lines = jsonArr["lines"];
-  let rectWith0WH = jsonArr["rectWith0WH"];
+  let texts = textProcessor(groupedGraphicsElement["texts"]);
+  let lines = groupedGraphicsElement["lines"];
+  let rectWith0WH = groupedGraphicsElement["rectWith0WH"];
 
   let nodeIndex = {};
   nodes.map((n, i) => (nodeIndex[n["id"]] = i));

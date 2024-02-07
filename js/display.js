@@ -203,7 +203,6 @@ function displayTitleXLabel(thisText, mode) {
     else titleXaxis.push(thisText);
   }
 
-  console.log(titleXaxis);
   let text = thisText["content"];
   let btn = d3
     .select("#xTitle")

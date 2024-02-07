@@ -80,6 +80,8 @@ function groupSVGElementsByTypeWithCoordinates() {
         width: bbox.width,
         id: element.id,
         tagName: element.tagName,
+        content:
+          element.tagName === "text" ? element.textContent : element.innerHTML,
       });
     }
   });

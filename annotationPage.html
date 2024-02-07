@@ -958,7 +958,8 @@
               .on("mousedown", null)
               .on("mouseup", null)
               .on("mousemove", null);
-            if (jsonArr?.texts) svgTextHighlight(jsonArr.texts);
+            if (groupedGraphicsElement?.texts)
+              svgTextHighlight(groupedGraphicsElement.texts);
             break;
           case "Marks":
             allSVGElementID.forEach((rid) => {
@@ -1045,7 +1046,7 @@
         }
       }
 
-      var demoName, contentMarks, jsonArr;
+      var demoName, contentMarks, groupedGraphicsElement;
       var areaSelection;
       const fileName = sessionStorage.getItem("fileName");
       var mainChartMarks;
@@ -1060,9 +1061,6 @@
             return resp.text();
           })
           .then((rawSVG) => {
-            // TBD: we need to update the flattenSVG function to be consistent with groupSVGElementsByType(), to avoid the previous complex lead-node processing
-            jsonArr = flattenSVG(rawSVG);
-
             currentSectionIndex = 0;
             updateBreadcrumb();
 
@@ -1072,13 +1070,19 @@
             // in display.js, adding id and class attributes to the svg file
             displaySVG(rawSVG);
 
+            // TBD: we need to update the flattenSVG function to be consistent with groupSVGElementsByType(), to avoid the previous complex lead-node processing
+            groupedGraphicsElement = groupLeftNodesByTag(
+              groupSVGElementsByTypeWithCoordinates()
+            );
+            console.log(groupedGraphicsElement);
+
             // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
-            enableDragDrop(jsonArr.texts);
+            enableDragDrop(groupedGraphicsElement.texts);
 
             if (!annotationLoaded) {
               // in extract.js, extracting from the svg file the legend mark and labels, and the x and y axis labels, ticks, and paths if any, and the grid lines if any
               // extract() calls displayAxis() and displayLegend() to display the extracted elements
-              contentMarks = extract(jsonArr);
+              contentMarks = extract(groupedGraphicsElement);
             }
 
             // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window

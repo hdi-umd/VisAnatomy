@@ -543,7 +543,7 @@ function enableDragDrop(texts) {
               : !("baseline" in yAxis) ||
                 Math.abs(yAxis["baseline"] - thisText.x) <= 30
           ) {
-            let thisOri = TargetID.startsWith("xLabels") ? "y" : "x";
+            let thisOri = TargetID.startsWith("xLabels") ? "top" : "left";
             let thisHtml =
               "Add the other texts sharing the same " +
               thisOri +

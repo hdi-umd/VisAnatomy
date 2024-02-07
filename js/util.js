@@ -159,6 +159,19 @@ function post() {
   xhr.send(JSON.stringify(data));
 }
 
+function groupLeftNodesByTag(arr) {
+  let result = {};
+  arr.forEach((node) => {
+    let tag = node.tagName + "s";
+    if (Object.keys(result).includes(tag)) {
+      result[tag].push(node);
+    } else {
+      result[tag] = [node];
+    }
+  });
+  return result;
+}
+
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
