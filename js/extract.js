@@ -8,7 +8,7 @@ function extract() {
   let originalRects = [...rects];
   rects = rects.filter(filterRect);
 
-  let texts = textProcessor(groupedGraphicsElement["texts"]);
+  let texts = textProcessor([...groupedGraphicsElement["texts"]]);
 
   let thisColors;
   thisColors = rects
@@ -27,81 +27,18 @@ function extract() {
   legend = findLegend(texts, groupedGraphicsElement["rects"], numOfColor);
   console.log("legend", legend);
   displayLegend(legend);
+  texts = texts.filter((text) => !legend.labels.includes(text));
 
-  // further filtering out rects
-  // cannot filter rects that are not within the mapping values because the bars' colors could be coded differently from that of the legend squares (e.g., Grouped Bar Chart V2)
-  // if (Object.values(colorMapping).length > 0) rects = rects.filter(rect => rect.fill ? Object.values(colorMapping).includes(rect.fill) : true);
-  let backgroundRect = rects.filter(
-    (rect) =>
-      Math.abs(rect.y - Math.min(...rects.map((r) => r.y))) < 0.1 &&
-      Math.abs(rect.x - Math.min(...rects.map((r) => r.x))) < 0.1 &&
-      Math.abs(rect.bottom - Math.max(...rects.map((r) => r.bottom))) < 0.1 &&
-      Math.abs(rect.right - Math.max(...rects.map((r) => r.right))) < 0.1
-  );
-  if (backgroundRect.length == 1) {
-    if (backgroundRect[0].fill) {
-      rects = rects.filter((rect) =>
-        rect.fill ? rect.fill !== backgroundRect[0].fill : true
-      );
-      if (
-        !["#ffffff", "#FFFFFF", "white", "none", "transparent"].includes(
-          backgroundRect[0].fill
-        )
-      ) {
-        rects = [
-          ...rects,
-          ...originalRects.filter((r) =>
-            r.fill
-              ? ["#ffffff", "#FFFFFF", "white", "none", "transparent"].includes(
-                  r.fill
-                )
-                ? rects.filter(
-                    (r2) =>
-                      r2 != r &&
-                      !(
-                        r.right < r2.x ||
-                        r.x > r2.right ||
-                        r.y > r2.bottom ||
-                        r.bottom < r2.y
-                      )
-                  ).length > 0
-                : false
-              : false
-          ),
-        ];
-      }
-    } else rects.splice(rects.indexOf(backgroundRect[0]), 1);
-  }
+  // X axis
+  xAxis = findxAxis(texts);
+  console.log("x axis", xAxis);
+  displayAxis(xAxis);
+  texts = texts.filter((text) => !xAxis.labels.includes(text));
 
-  // filter out rects who contain the legend area if any
-  if (legend.marks)
-    rects = rects.filter(
-      (r) =>
-        legend["marks"].filter(
-          (e) =>
-            e.x >= r.x &&
-            e.x <= r.right - 10 &&
-            e.y >= r.y &&
-            e.y <= r.bottom - 10
-        ).length == 0
-    );
-
-  // // X axis
-  // xAxis = findxAxis(texts, rects, lines, nodes, nodeIndex);
-  // console.log("x axis", xAxis);
-  // displayAxis(xAxis);
-
-  // // Y axis
-  // yAxis = findyAxis(texts, rects, lines, nodes, nodeIndex, xAxis);
-  // console.log("y axis", yAxis);
-  // displayAxis(yAxis);
-
-  // // if Y labels are found while X labels are not; perform X label heuristic again
-  // if ("labels" in yAxis && !("labels" in xAxis)) {
-  //   xAxis = findxAxis(texts, rects, lines, nodes, nodeIndex);
-  //   console.log("x axis", xAxis);
-  //   displayAxis(xAxis);
-  // }
+  // Y axis
+  yAxis = findyAxis(texts);
+  console.log("y axis", yAxis);
+  displayAxis(yAxis);
 
   return { rects: rects, texts: texts };
 }
@@ -305,7 +242,6 @@ function findLegend(texts, rects, numOfColor) {
     }
     let alllegendElements = [],
       isLegend;
-    console.log(candidateRects);
     if (candidateRects != []) {
       // find any horizontal legend
       allY = candidateRects.map((c) => c["top"]);
@@ -507,207 +443,45 @@ function findAxisInArea(o, tl, br, texts, rects, lines) {
   axis.path = path;
 }
 
-function findxAxis(texts, rects, lines, nodes, nodeIndex) {
-  let allY = texts.map((text) => text["y"]).filter(onlyUnique);
-  let mostFrenquentY;
-  let possible_Xlabels = {};
-  // XLabelsExist = false;
-  let Labels = [];
-  let xAxis = { labels: [], type: "x" };
+function findxAxis(texts) {
+  // find the set of texts whose y coordinates are very close and they form the largest set among all possible sets
+  let allY = texts.map((text) => text["top"]).filter(onlyUnique);
+  let xAxis = { labels: [], type: "x", ticks: [], path: [] };
   for (let y of allY) {
-    let yLabels = texts.filter((text) => text["y"] === y);
+    let thisLabels = texts.filter((text) => Math.abs(text["top"] - y) <= 1);
     let leftout = texts.filter(
       (text) =>
-        yLabels.includes(text) == false &&
-        range(yLabels.map((l) => l["height"]).concat(text["height"])) < 1 &&
-        range(yLabels.map((l) => l["y"]).concat(text["y"])) < 3
+        thisLabels.includes(text) == false &&
+        range(thisLabels.map((l) => l["height"]).concat(text["height"])) <= 1 &&
+        range(thisLabels.map((l) => l["bottom"]).concat(text["bottom"])) <= 1 &&
+        range(thisLabels.map((l) => l["top"]).concat(text["top"])) <= 1
     );
-    yLabels = yLabels.concat(leftout);
-    // below if for checking the relative position of rects and possible labels
-    let withinRect = false;
-    for (let yl of yLabels) {
-      for (let rect of rects) {
-        if (rect["tag"] == "circle") {
-          continue;
-        } else {
-          if (
-            yl["x"] > rect["x"] &&
-            yl["x"] < rect["right"] &&
-            yl["y"] > rect["y"] &&
-            yl["y"] < rect["bottom"]
-          ) {
-            withinRect = true;
-            break;
-          }
-        }
-      }
-      if (withinRect == true) break;
-    }
-    if (
-      withinRect == false &&
-      yLabels.map((l) => l["level"]).filter(onlyUnique).length == 1
-    ) {
-      possible_Xlabels[y] = yLabels;
+    thisLabels = thisLabels.concat(leftout);
+    if (thisLabels.length > 1 && thisLabels.length > xAxis.labels.length) {
+      xAxis.labels = thisLabels;
     }
   }
-  ys = FindKeysWithTheMostValues(possible_Xlabels);
-  if (ys.length == 1) {
-    Labels = possible_Xlabels[ys[0]];
-    mostFrenquentY = ys[0];
-  } else {
-    if (
-      ys
-        .map((k) =>
-          possible_Xlabels[k]
-            .map((t) => t["id"])
-            .sort()
-            .join(",")
-        )
-        .filter(onlyUnique).length == 1 &&
-      range(ys) < 3
-    ) {
-      let possibleLabelsGroupedByY = ys.map((k) =>
-        texts.filter((text) => text["y"] == parseFloat(k))
-      );
-      let indexOflongestSubArr = possibleLabelsGroupedByY.reduce(
-        (maxI, el, i, arr) => (el.length > arr[maxI].length ? i : maxI),
-        0
-      );
-      mostFrenquentY = parseFloat(ys[indexOflongestSubArr]);
-      Labels = possibleLabelsGroupedByY[indexOflongestSubArr];
-      for (let i = 0; i < possibleLabelsGroupedByY.length; i++) {
-        if (i == indexOflongestSubArr) {
-          continue;
-        } else {
-          if (
-            findNearesrParent(nodeIndex, nodes, Labels) ==
-            findNearesrParent(
-              nodeIndex,
-              nodes,
-              Labels.concat(possibleLabelsGroupedByY[i])
-            )
-          ) {
-            let controllabel = Labels[0];
-            for (let nl of possibleLabelsGroupedByY[i]) {
-              if (arrayCompare(Object.keys(nl), Object.keys(controllabel))) {
-                Labels.push(nl);
-              }
-            }
-          }
-        }
-      }
-    } else {
-      Labels = [];
-      mostFrenquentY = ys[0];
-    }
-  }
-  xAxis["type"] = "x";
-  xAxis["labels"] = Labels;
-  xAxis["ticks"] = [];
-  xAxis["path"] = [];
-
   return xAxis;
 }
 
-function findyAxis(texts, rects, lines, nodes, nodeIndex, xAxis) {
-  let allX = texts.map((text) => text["x"]).filter(onlyUnique);
-  let mostFrenquentX;
-  let YLabelsExist = false;
-  let Labels = [];
-  let possible_Ylabels = {};
-  let yAxis = { labels: [], type: "y" };
+function findyAxis(texts) {
+  // find the set of texts whose y coordinates are very close and they form the largest set among all possible sets
+  let allX = texts.map((text) => text["left"]).filter(onlyUnique);
+  let yAxis = { labels: [], type: "y", ticks: [], path: [] };
   for (let x of allX) {
-    xLabels = texts.filter((text) => text["x"] === x);
+    let thisLabels = texts.filter((text) => Math.abs(text["left"] - x) <= 1);
     let leftout = texts.filter(
       (text) =>
-        xLabels.includes(text) == false &&
-        range(xLabels.map((l) => l["height"]).concat(text["height"])) < 1 &&
-        (range(xLabels.map((l) => l["left"]).concat(text["left"])) < 5 ||
-          range(xLabels.map((l) => l["right"]).concat(text["right"])) < 5)
+        thisLabels.includes(text) == false &&
+        range(thisLabels.map((l) => l["height"]).concat(text["height"])) <= 1 &&
+        (range(thisLabels.map((l) => l["left"]).concat(text["left"])) <= 1 ||
+          range(thisLabels.map((l) => l["right"]).concat(text["right"])) <= 1)
     );
-    xLabels = xLabels.concat(leftout);
-    // below if for checking the relative position of rects and possible labels
-    let withinRect = false;
-    for (let xl of xLabels) {
-      for (let rect of rects) {
-        if (rect["tag"] == "circle") {
-          continue;
-        } else {
-          if (
-            xl["x"] > rect["x"] &&
-            xl["x"] < rect["right"] &&
-            xl["y"] > rect["y"] &&
-            xl["y"] < rect["bottom"]
-          ) {
-            withinRect = true;
-            break;
-          }
-        }
-      }
-      if (withinRect == true) break;
-    }
-    if (
-      withinRect == false &&
-      xLabels.map((l) => l["level"]).filter(onlyUnique).length == 1
-    ) {
-      possible_Ylabels[x] = xLabels;
+    thisLabels = thisLabels.concat(leftout);
+    if (thisLabels.length > 1 && thisLabels.length > yAxis.labels.length) {
+      yAxis.labels = thisLabels;
     }
   }
-  xs = FindKeysWithTheMostValues(possible_Ylabels);
-  if (xs.length == 1) {
-    Labels = possible_Ylabels[xs[0]];
-    mostFrenquentX = xs[0];
-  } else {
-    if (
-      xs
-        .map((k) =>
-          possible_Ylabels[k]
-            .map((t) => t["id"])
-            .sort()
-            .join(",")
-        )
-        .filter(onlyUnique).length == 1
-    ) {
-      let possibleLabelsGroupedByX = xs.map((k) =>
-        texts.filter((text) => text["x"] == parseFloat(k))
-      );
-      let indexOflongestSubArr = possibleLabelsGroupedByX.reduce(
-        (maxI, el, i, arr) => (el.length > arr[maxI].length ? i : maxI),
-        0
-      );
-      mostFrenquentX = parseFloat(ys[indexOflongestSubArr]);
-      Labels = possibleLabelsGroupedByX[indexOflongestSubArr];
-      for (let i = 0; i < possibleLabelsGroupedByX.length; i++) {
-        if (i == indexOflongestSubArr) {
-          continue;
-        } else {
-          if (
-            findNearesrParent(nodeIndex, nodes, Labels) ==
-            findNearesrParent(
-              nodeIndex,
-              nodes,
-              Labels.concat(possibleLabelsGroupedByX[i])
-            )
-          ) {
-            let controllabel = Labels[0];
-            for (let nl of possibleLabelsGroupedByX[i]) {
-              if (arrayCompare(Object.keys(nl), Object.keys(controllabel))) {
-                Labels.push(nl);
-              }
-            }
-          }
-        }
-      }
-    } else {
-      Labels = [];
-      mostFrenquentX = xs[0];
-    }
-  }
-  yAxis["type"] = "y";
-  yAxis["labels"] = Labels;
-  yAxis["ticks"] = [];
-  yAxis["path"] = [];
-
   return yAxis;
 }
 
