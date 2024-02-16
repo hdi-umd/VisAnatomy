@@ -1,13 +1,26 @@
-<svg class="plot-7215535d8874c" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" width="230" height="230" viewBox="0 0 230 230" style="transform: rotate(45deg); background: transparent;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>
-        .plot-7215535d8874c {
-          display: block;
-          background: white;
-          height: auto;
-          height: intrinsic;
-          max-width: 100%;
-        }
-        .plot-7215535d8874c text,
-        .plot-7215535d8874c tspan {
-          white-space: pre;
-        }
-      </style><g aria-label="cell" fill="white" stroke="black"><rect x="41" width="37" y="41" height="37"/><rect x="78" width="37" y="41" height="37"/><rect x="78" width="37" y="78" height="37"/><rect x="115" width="37" y="41" height="37"/><rect x="115" width="37" y="78" height="37"/><rect x="115" width="37" y="115" height="37"/><rect x="152" width="37" y="41" height="37"/><rect x="152" width="37" y="78" height="37"/><rect x="152" width="37" y="115" height="37"/><rect x="152" width="37" y="152" height="37"/></g><g aria-label="dot" fill="brown" stroke="brown" stroke-width="5" transform="translate(18.5,18.5)"><circle cx="78" cy="41" r="11" fill-opacity="1"/><circle cx="115" cy="78" r="11" fill-opacity="0"/><circle cx="152" cy="41" r="11" fill-opacity="1"/><circle cx="152" cy="78" r="11" fill-opacity="1"/></g><g aria-label="text" transform="translate(18.5,18.5)"><text y="0.32em" transform="translate(41,41) rotate(-45)">A</text><text y="0.32em" transform="translate(78,78) rotate(-45)">B</text><text y="0.32em" transform="translate(115,115) rotate(-45)">C</text><text y="0.32em" transform="translate(152,152) rotate(-45)">D</text></g></svg>
+<svg class="plot-d6a7b5" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" width="230" height="230" viewBox="0 0 230 230" style="transform: rotate(45deg); background: transparent;">
+  <g aria-label="cell" fill="white" stroke="black">
+    <rect x="41" width="37" y="41" height="37"/>
+    <rect x="78" width="37" y="41" height="37"/>
+    <rect x="78" width="37" y="78" height="37"/>
+    <rect x="115" width="37" y="41" height="37"/>
+    <rect x="115" width="37" y="78" height="37"/>
+    <rect x="115" width="37" y="115" height="37"/>
+    <rect x="152" width="37" y="41" height="37"/>
+    <rect x="152" width="37" y="78" height="37"/>
+    <rect x="152" width="37" y="115" height="37"/>
+    <rect x="152" width="37" y="152" height="37"/>
+  </g>
+  <g aria-label="dot" fill="brown" stroke="brown" stroke-width="5" transform="translate(18.5,18.5)">
+    <circle cx="78" cy="41" r="11" fill-opacity="1"/>
+    <circle cx="115" cy="78" r="11" fill-opacity="0"/>
+    <circle cx="152" cy="41" r="11" fill-opacity="1"/>
+    <circle cx="152" cy="78" r="11" fill-opacity="1"/>
+  </g>
+  <g aria-label="text" transform="translate(18.5,18.5)">
+    <text y="0.32em" transform="translate(41,41) rotate(-45)">A</text>
+    <text y="0.32em" transform="translate(78,78) rotate(-45)">B</text>
+    <text y="0.32em" transform="translate(115,115) rotate(-45)">C</text>
+    <text y="0.32em" transform="translate(152,152) rotate(-45)">D</text>
+  </g>
+</svg>
