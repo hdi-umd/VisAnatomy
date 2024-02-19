@@ -72,6 +72,7 @@ function findLegendInArea(tl, br, texts) {
   // Below only works for discrete legends
   let legendLabels = [],
     legendMarks = [];
+  if (!texts || texts.length === 0) return;
   for (let text of texts) {
     if (
       !(

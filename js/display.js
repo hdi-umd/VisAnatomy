@@ -32,7 +32,6 @@ function addClassAndIdToLeaves(element) {
       let newId = element.nodeName + indices[element.nodeName]++;
       element.setAttribute("id", newId);
       allSVGElementID.push(newId);
-      console.log(originalId, newId);
       if (originalId) {
         idMappings[originalId] = newId; // Track original to new ID
       }
