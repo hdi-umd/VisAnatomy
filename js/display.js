@@ -1,76 +1,153 @@
 var allSVGElementID = [];
+var idMappings = {}; // To track original to new ID mappings
+var indices = {}; // To track the number of each element type
+
 function displaySVG(text) {
   allSVGElementID = [];
+  idMappings = {}; // Reset ID mappings
+  indices = {}; // Reset indices
   document.getElementById("rbox1").innerHTML = text;
   let vis = d3.select("#rbox1").select("svg").attr("id", "vis");
-
-  let indices = {};
-
-  function addClassAndIdToLeaves(element) {
-    // set ID
-    if (element.nodeType === Node.ELEMENT_NODE && element.nodeName !== "svg") {
-      if (!Object.keys(indices).includes(element.nodeName)) {
-        indices[element.nodeName] = 0;
-      }
-      if (
-        element.nodeName !== "linearGradient" &&
-        element.nodeName !== "g" &&
-        element.nodeName.indexOf(":") === -1
-      ) {
-        element.setAttribute(
-          "id",
-          element.nodeName + indices[element.nodeName]++
-        );
-        allSVGElementID.push(element.id);
-      }
-    }
-
-    if (element.hasChildNodes()) {
-      element.childNodes.forEach((childNode) => {
-        addClassAndIdToLeaves(childNode);
-      });
-    } else {
-      // set class
-      if (
-        [
-          "rect",
-          "circle",
-          "ellipse",
-          "text",
-          "line",
-          "polyline",
-          "polygon",
-          "path",
-          "image",
-          "use",
-        ].includes(element.nodeName)
-      ) {
-        if (element.hasAttribute("class")) {
-          const existingClasses = element.getAttribute("class").split(" ");
-          if (!existingClasses.includes("mark")) {
-            element.setAttribute(
-              "class",
-              `${element.getAttribute("class")} mark`
-            );
-          }
-        } else {
-          element.setAttribute("class", "mark");
-        }
-        // element.addEventListener("contextmenu", (event) => {
-        //   event.preventDefault();
-        //   console.log('Right-clicked on leaf node with class "mark"');
-        //   // Your code to handle the right-click event goes here
-        // });
-      }
-    }
-  }
 
   const svgElement = document.querySelector("#vis");
   svgElement.removeAttribute("viewBox");
   addClassAndIdToLeaves(svgElement);
+  updateUseElementReferences(svgElement);
 
   vis.style("height", "100%").style("width", "100%");
 }
+
+function addClassAndIdToLeaves(element) {
+  // Set ID
+  if (element.nodeType === Node.ELEMENT_NODE && element.nodeName !== "svg") {
+    let originalId = element.getAttribute("id"); // Get original ID if exists
+    if (!Object.keys(indices).includes(element.nodeName)) {
+      indices[element.nodeName] = 0;
+    }
+    if (
+      element.nodeName !== "linearGradient" &&
+      element.nodeName !== "g" &&
+      element.nodeName.indexOf(":") === -1
+    ) {
+      let newId = element.nodeName + indices[element.nodeName]++;
+      element.setAttribute("id", newId);
+      allSVGElementID.push(newId);
+      console.log(originalId, newId);
+      if (originalId) {
+        idMappings[originalId] = newId; // Track original to new ID
+      }
+    }
+  }
+
+  if (element.hasChildNodes()) {
+    element.childNodes.forEach((childNode) => {
+      addClassAndIdToLeaves(childNode);
+    });
+  } else {
+    // Set class for specific elements
+    setClassForSpecificElements(element);
+  }
+}
+
+function setClassForSpecificElements(element) {
+  if (
+    [
+      "rect",
+      "circle",
+      "ellipse",
+      "text",
+      "line",
+      "polyline",
+      "polygon", // Fixed typo 'ploygon' to 'polygon'
+      "path",
+      "image",
+      "use",
+    ].includes(element.nodeName)
+  ) {
+    if (element.hasAttribute("class")) {
+      const existingClasses = element.getAttribute("class").split(" ");
+      if (!existingClasses.includes("mark")) {
+        element.setAttribute("class", `${element.getAttribute("class")} mark`);
+      }
+    } else {
+      element.setAttribute("class", "mark");
+    }
+  }
+}
+
+// After all elements have been processed, update <use> element references
+function updateUseElementReferences(svgElement) {
+  svgElement.querySelectorAll("use").forEach((use) => {
+    let href = use.getAttribute("href") || use.getAttribute("xlink:href");
+    if (href && href.includes("#")) {
+      let originalId = href.split("#")[1];
+      if (idMappings[originalId]) {
+        let newHref = "#" + idMappings[originalId];
+        use.setAttribute("href", newHref); // Update for modern browsers
+        use.setAttribute("xlink:href", newHref); // Update for compatibility
+      }
+    }
+  });
+}
+
+// function addClassAndIdToLeaves(element) { // Original function to add class and ID to leaves
+//   // set ID
+//   if (element.nodeType === Node.ELEMENT_NODE && element.nodeName !== "svg") {
+//     if (!Object.keys(indices).includes(element.nodeName)) {
+//       indices[element.nodeName] = 0;
+//     }
+//     if (
+//       element.nodeName !== "linearGradient" &&
+//       element.nodeName !== "g" &&
+//       element.nodeName.indexOf(":") === -1
+//     ) {
+//       element.setAttribute(
+//         "id",
+//         element.nodeName + indices[element.nodeName]++
+//       );
+//       allSVGElementID.push(element.id);
+//     }
+//   }
+
+//   if (element.hasChildNodes()) {
+//     element.childNodes.forEach((childNode) => {
+//       addClassAndIdToLeaves(childNode);
+//     });
+//   } else {
+//     // set class
+//     if (
+//       [
+//         "rect",
+//         "circle",
+//         "ellipse",
+//         "text",
+//         "line",
+//         "polyline",
+//         "polygon",
+//         "path",
+//         "image",
+//         "use",
+//       ].includes(element.nodeName)
+//     ) {
+//       if (element.hasAttribute("class")) {
+//         const existingClasses = element.getAttribute("class").split(" ");
+//         if (!existingClasses.includes("mark")) {
+//           element.setAttribute(
+//             "class",
+//             `${element.getAttribute("class")} mark`
+//           );
+//         }
+//       } else {
+//         element.setAttribute("class", "mark");
+//       }
+//       // element.addEventListener("contextmenu", (event) => {
+//       //   event.preventDefault();
+//       //   console.log('Right-clicked on leaf node with class "mark"');
+//       //   // Your code to handle the right-click event goes here
+//       // });
+//     }
+//   }
+// }
 
 function displayAxis(axis) {
   if (Object.keys(axis) === 0) return;
