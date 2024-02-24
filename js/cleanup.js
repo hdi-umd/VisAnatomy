@@ -70,7 +70,7 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
 
-    if (!(zeroHeight || zeroWidth) && top > -1000 && left > -1000) {
+    if (!(zeroHeight && zeroWidth) && top > -1000 && left > -1000) {
       allGraphicsElement[element.id] = {
         left: left,
         top: top,
@@ -185,7 +185,7 @@ function groupSVGElementsByType() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
 
-    if (!(zeroHeight || zeroWidth)) {
+    if (!(zeroHeight && zeroWidth)) {
       groupedElements[elementType].push({
         element: addStyleAttributesToElement(element),
         id: element.id,
