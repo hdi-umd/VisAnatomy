@@ -396,7 +396,7 @@ function dertermineChannelBasedBatchSelections(elementType) {
             r.element.attributes[channel]?.value === value ||
             (value === "undefined" && !r.element.attributes[channel]) ||
             (channel === "fill" &&
-              allGraphicsElement[r.element.id].fill === value)
+              allGraphicsElement[r.element.id]?.fill === value)
         )
         .map((r) => r.id);
     });
