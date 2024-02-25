@@ -52,7 +52,7 @@ const typeSpecificChannels = {
   ],
   Text: ["x", "y", "text", "color", "opacity", "fontSize", "fontWeight"],
   Image: ["x", "y", "width", "height", "opacity"],
-  Area: ["x list", "y list", "fill", "opacity", "shape"],
+  Area: ["x list", "y list", "fill", "opacity", "shape", "stroke color"],
   Path: [
     "shape",
     "x",
