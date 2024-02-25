@@ -10,14 +10,7 @@ const typeSpecificChannels = {
     "opacity",
     "length",
   ],
-  Polyline: [
-    "vertices",
-    "color",
-    "strokeWidth",
-    "opacity",
-    "length",
-    "vertices",
-  ],
+  Polyline: ["vertices", "color", "strokeWidth", "opacity", "length"],
   Rectangle: [
     "x (left)",
     "y (top)",
@@ -309,7 +302,10 @@ function recordBatchEncoding() {
       });
     } else {
       groupAnnotations.flat(Infinity).forEach((mark) => {
-        if (selectedGroup.startsWith(extractNonNumeric(mark))) {
+        if (
+          selectedGroup.startsWith(extractNonNumeric(mark)) &&
+          markInfo[mark].Type === markInfo[selectedGroup].Type
+        ) {
           objectEncodings[mark] = selectedChannels;
           document.getElementById(
             "EncIndicator" + mark.split(" ")[0]
