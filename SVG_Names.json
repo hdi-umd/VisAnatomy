@@ -19,6 +19,7 @@
   "AreaChart8.svg",
   "AreaChart9.svg",
   "AreaChart10.svg",
+  "AreaChart11.svg",
   "BarChart1.svg",
   "BarChart2.svg",
   "BarChart3.svg",
@@ -182,6 +183,7 @@
   "DotPlot12.svg",
   "DotPlot13.svg",
   "DotPlot14.svg",
+  "GanttChart1.svg",
   "GanttChart2.svg",
   "GanttChart3.svg",
   "GanttChart4.svg",
@@ -332,6 +334,7 @@
   "RangeChart1.svg",
   "RangeChart2.svg",
   "RangeChart3.svg",
+  "RangeChart4.svg",
   "RangeChart5.svg",
   "RangeChart6.svg",
   "RangeChart7.svg",
@@ -461,8 +464,8 @@
   "WordCloud4.svg",
   "WordCloud5.svg",
   "WordCloud6.svg",
+  "WordCloud7.svg",
   "WordCloud8.svg",
   "WordCloud9.svg",
-  "WordCloud10.svg",
-  "WordCloud11.svg"
+  "WordCloud10.svg"
 ]
