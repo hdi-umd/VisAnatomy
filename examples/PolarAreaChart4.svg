@@ -1,396 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!--Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="730px"
-	 height="320px" viewBox="0 0 730 320" enable-background="new 0 0 730 320" xml:space="preserve">
-<g id="Layer_1">
-</g>
-<g id="Layer_2">
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M33.142,166.227c0-20.395,5.368-40.429,15.565-58.091
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px"  xml:space="preserve">
+  <g id="Layer_2">
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M33.142,166.227c0-20.395,5.368-40.429,15.565-58.091
 		l100.616,58.091H33.142z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M33.142,166.227c0-20.395,5.368-40.429,15.565-58.091l100.616,58.091
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M33.142,166.227c0-20.395,5.368-40.429,15.565-58.091l100.616,58.091
 		H33.142z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M109.161,166.227c0-7.051,1.856-13.976,5.381-20.082
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M109.161,166.227c0-7.051,1.856-13.976,5.381-20.082
 		l34.781,20.082H109.161z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M109.161,166.227c0-7.05,1.856-13.976,5.381-20.082l34.781,20.082
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M109.161,166.227c0-7.05,1.856-13.976,5.381-20.082l34.781,20.082
 		H109.161z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M112.468,166.227c0-6.471,1.702-12.826,4.938-18.428
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M112.468,166.227c0-6.471,1.702-12.826,4.938-18.428
 		l31.917,18.428H112.468z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M112.468,166.227c0-6.471,1.702-12.826,4.938-18.428l31.917,18.428
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M112.468,166.227c0-6.471,1.702-12.826,4.938-18.428l31.917,18.428
 		H112.468z"/>
-	
-		<text transform="matrix(0.2588 -0.9659 0.9659 0.2588 31.1191 139.9932)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">A</text>
-	
-		<text transform="matrix(0.2588 -0.9659 0.9659 0.2588 32.8701 133.4585)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">p</text>
-	
-		<text transform="matrix(0.2588 -0.9659 0.9659 0.2588 34.3301 128.0107)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">r</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M50.316,109.064C60.35,91.685,74.781,77.253,92.161,67.218
+    <text transform="matrix(0.2588 -0.9659 0.9659 0.2588 31.1191 139.9932)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">A</text>
+    <text transform="matrix(0.2588 -0.9659 0.9659 0.2588 32.8701 133.4585)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">p</text>
+    <text transform="matrix(0.2588 -0.9659 0.9659 0.2588 34.3301 128.0107)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">r</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M50.316,109.064C60.35,91.685,74.781,77.253,92.161,67.218
 		l57.162,99.008L50.316,109.064z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M50.316,109.064C60.35,91.685,74.781,77.253,92.161,67.218
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M50.316,109.064C60.35,91.685,74.781,77.253,92.161,67.218
 		l57.162,99.008L50.316,109.064z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M118.574,148.473c3.117-5.397,7.598-9.88,12.996-12.996
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M118.574,148.473c3.117-5.397,7.598-9.88,12.996-12.996
 		l17.753,30.75L118.574,148.473z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M118.574,148.473c3.117-5.397,7.598-9.88,12.996-12.996l17.753,30.75
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M118.574,148.473c3.117-5.397,7.598-9.88,12.996-12.996l17.753,30.75
 		L118.574,148.473z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M122.603,150.799c2.708-4.69,6.603-8.585,11.293-11.292
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M122.603,150.799c2.708-4.69,6.603-8.585,11.293-11.292
 		l15.427,26.72L122.603,150.799z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M122.603,150.8c2.708-4.691,6.603-8.586,11.293-11.293l15.427,26.72
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M122.603,150.8c2.708-4.691,6.603-8.586,11.293-11.293l15.427,26.72
 		L122.603,150.8z"/>
-	
-		<text transform="matrix(0.6982 -0.7159 0.7159 0.6982 58.9067 87.8223)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">M</text>
-	
-		<text transform="matrix(0.6982 -0.7159 0.7159 0.6982 64.8057 81.7744)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
-	
-		<text transform="matrix(0.6982 -0.7159 0.7159 0.6982 68.7441 77.7363)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">y</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M80.704,47.375c20.863-12.045,44.529-18.386,68.62-18.386v137.238
+    <text transform="matrix(0.6982 -0.7159 0.7159 0.6982 58.9067 87.8223)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">M</text>
+    <text transform="matrix(0.6982 -0.7159 0.7159 0.6982 64.8057 81.7744)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
+    <text transform="matrix(0.6982 -0.7159 0.7159 0.6982 68.7441 77.7363)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">y</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M80.704,47.375c20.863-12.045,44.529-18.386,68.62-18.386v137.238
 		L80.704,47.375z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M80.704,47.375c20.863-12.044,44.529-18.386,68.62-18.386v137.238
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M80.704,47.375c20.863-12.044,44.529-18.386,68.62-18.386v137.238
 		L80.704,47.375z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M114.294,105.553c10.65-6.148,22.731-9.385,35.029-9.385v70.059
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M114.294,105.553c10.65-6.148,22.731-9.385,35.029-9.385v70.059
 		L114.294,105.553z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M114.294,105.554c10.65-6.149,22.731-9.386,35.029-9.386v70.059
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M114.294,105.554c10.65-6.149,22.731-9.386,35.029-9.386v70.059
 		L114.294,105.554z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M135.833,142.859c4.102-2.368,8.754-3.614,13.491-3.614v26.981
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M135.833,142.859c4.102-2.368,8.754-3.614,13.491-3.614v26.981
 		L135.833,142.859z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M135.833,142.859c4.102-2.368,8.754-3.614,13.491-3.614v26.981
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M135.833,142.859c4.102-2.368,8.754-3.614,13.491-3.614v26.981
 		L135.833,142.859z"/>
-	
-		<text transform="matrix(0.9659 -0.2588 0.2588 0.9659 104.1187 31.8418)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
-	
-		<text transform="matrix(0.9659 -0.2588 0.2588 0.9659 109.0161 30.5298)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
-	
-		<text transform="matrix(0.9659 -0.2588 0.2588 0.9659 114.4639 29.0703)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">n</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M149.323,75.811c15.871,0,31.463,4.178,45.208,12.113
+    <text transform="matrix(0.9659 -0.2588 0.2588 0.9659 104.1187 31.8418)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
+    <text transform="matrix(0.9659 -0.2588 0.2588 0.9659 109.0161 30.5298)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
+    <text transform="matrix(0.9659 -0.2588 0.2588 0.9659 114.4639 29.0703)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">n</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M149.323,75.811c15.871,0,31.463,4.178,45.208,12.113
 		l-45.208,78.303V75.811z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,75.811c15.871,0,31.463,4.178,45.208,12.113l-45.208,78.303
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,75.811c15.871,0,31.463,4.178,45.208,12.113l-45.208,78.303
 		V75.811z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M149.323,112.675c9.4,0,18.634,2.475,26.775,7.174l-26.775,46.377
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M149.323,112.675c9.4,0,18.634,2.475,26.775,7.174l-26.775,46.377
 		V112.675z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,112.675c9.4,0,18.634,2.475,26.775,7.174l-26.775,46.377
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,112.675c9.4,0,18.634,2.475,26.775,7.174l-26.775,46.377
 		V112.675z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M149.323,139.651c4.665,0,9.247,1.228,13.288,3.56l-13.288,23.015
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M149.323,139.651c4.665,0,9.247,1.228,13.288,3.56l-13.288,23.015
 		V139.651z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,139.651c4.665,0,9.247,1.229,13.288,3.561l-13.288,23.015
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,139.651c4.665,0,9.247,1.229,13.288,3.561l-13.288,23.015
 		V139.651z"/>
-	
-		<text transform="matrix(0.9842 0.1773 -0.1773 0.9842 167.5498 73.8213)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
-	
-		<text transform="matrix(0.9842 0.1773 -0.1773 0.9842 172.54 74.7207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
-	
-		<text transform="matrix(0.9842 0.1773 -0.1773 0.9842 178.0908 75.7207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">l</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M199.023,80.142c15.11,8.725,27.66,21.273,36.384,36.384
+    <text transform="matrix(0.9842 0.1773 -0.1773 0.9842 167.5498 73.8213)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
+    <text transform="matrix(0.9842 0.1773 -0.1773 0.9842 172.54 74.7207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
+    <text transform="matrix(0.9842 0.1773 -0.1773 0.9842 178.0908 75.7207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">l</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M199.023,80.142c15.11,8.725,27.66,21.273,36.384,36.384
 		l-86.084,49.701L199.023,80.142z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M199.023,80.142c15.11,8.725,27.66,21.273,36.384,36.384
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M199.023,80.142c15.11,8.725,27.66,21.273,36.384,36.384
 		l-86.084,49.701L199.023,80.142z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M178.284,116.064c8.805,5.083,16.118,12.396,21.201,21.201
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M178.284,116.064c8.805,5.083,16.118,12.396,21.201,21.201
 		l-50.162,28.961L178.284,116.064z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M178.284,116.064c8.805,5.083,16.118,12.396,21.201,21.201
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M178.284,116.064c8.805,5.083,16.118,12.396,21.201,21.201
 		l-50.162,28.961L178.284,116.064z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M160.631,146.641c3.438,1.985,6.292,4.84,8.277,8.278
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M160.631,146.641c3.438,1.985,6.292,4.84,8.277,8.278
 		l-19.585,11.308L160.631,146.641z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M160.631,146.641c3.438,1.985,6.292,4.84,8.277,8.278l-19.585,11.308
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M160.631,146.641c3.438,1.985,6.292,4.84,8.277,8.278l-19.585,11.308
 		L160.631,146.641z"/>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 216.3833 86.4087)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">A</text>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 221.166 91.1914)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 225.1543 95.1797)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">g</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M212.222,129.911c6.375,11.041,9.731,23.566,9.731,36.316h-72.63
+    <text transform="matrix(0.7071 0.7071 -0.7071 0.7071 216.3833 86.4087)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">A</text>
+    <text transform="matrix(0.7071 0.7071 -0.7071 0.7071 221.166 91.1914)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">u</text>
+    <text transform="matrix(0.7071 0.7071 -0.7071 0.7071 225.1543 95.1797)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">g</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M212.222,129.911c6.375,11.041,9.731,23.566,9.731,36.316h-72.63
 		L212.222,129.911z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M212.222,129.911c6.375,11.042,9.731,23.566,9.731,36.316h-72.63
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M212.222,129.911c6.375,11.042,9.731,23.566,9.731,36.316h-72.63
 		L212.222,129.911z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M201.373,136.175c5.275,9.137,8.054,19.501,8.054,30.052h-60.104
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M201.373,136.175c5.275,9.137,8.054,19.501,8.054,30.052h-60.104
 		L201.373,136.175z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M201.373,136.175c5.275,9.137,8.054,19.501,8.054,30.052h-60.104
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M201.373,136.175c5.275,9.137,8.054,19.501,8.054,30.052h-60.104
 		L201.373,136.175z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M166.255,156.451c1.715,2.972,2.619,6.343,2.619,9.776h-19.551
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M166.255,156.451c1.715,2.972,2.619,6.343,2.619,9.776h-19.551
 		L166.255,156.451z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M166.255,156.451c1.715,2.972,2.619,6.343,2.619,9.776h-19.551
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M166.255,156.451c1.715,2.972,2.619,6.343,2.619,9.776h-19.551
 		L166.255,156.451z"/>
-	
-		<text transform="matrix(0.2588 0.9659 -0.9659 0.2588 222.4619 134.6074)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">S</text>
-	
-		<text transform="matrix(0.2588 0.9659 -0.9659 0.2588 224.2129 141.1436)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
-	
-		<text transform="matrix(0.2588 0.9659 -0.9659 0.2588 225.6724 146.5908)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">p</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M199.258,166.227c0,8.766-2.307,17.376-6.69,24.967
+    <text transform="matrix(0.2588 0.9659 -0.9659 0.2588 222.4619 134.6074)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">S</text>
+    <text transform="matrix(0.2588 0.9659 -0.9659 0.2588 224.2129 141.1436)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
+    <text transform="matrix(0.2588 0.9659 -0.9659 0.2588 225.6724 146.5908)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">p</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M199.258,166.227c0,8.766-2.307,17.376-6.69,24.967
 		l-43.244-24.967H199.258z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M199.258,166.227c0,8.766-2.307,17.376-6.69,24.967l-43.244-24.967
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M199.258,166.227c0,8.766-2.307,17.376-6.69,24.967l-43.244-24.967
 		H199.258z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M181.455,166.227c0,5.64-1.485,11.181-4.305,16.065
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M181.455,166.227c0,5.64-1.485,11.181-4.305,16.065
 		l-27.827-16.065H181.455z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M181.455,166.227c0,5.64-1.485,11.181-4.305,16.065l-27.827-16.065
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M181.455,166.227c0,5.64-1.485,11.181-4.305,16.065l-27.827-16.065
 		H181.455z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M168.048,166.227c0,3.287-0.865,6.516-2.509,9.362l-16.216-9.362
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M168.048,166.227c0,3.287-0.865,6.516-2.509,9.362l-16.216-9.362
 		H168.048z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M168.048,166.227c0,3.287-0.865,6.516-2.509,9.362l-16.216-9.362
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M168.048,166.227c0,3.287-0.865,6.516-2.509,9.362l-16.216-9.362
 		H168.048z"/>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 205.3389 172.5098)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">O</text>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 203.2969 180.1289)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">c</text>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 201.9844 185.0273)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">t</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M206.057,198.982c-5.749,9.959-14.02,18.229-23.979,23.979
+    <text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 205.3389 172.5098)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">O</text>
+    <text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 203.2969 180.1289)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">c</text>
+    <text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 201.9844 185.0273)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">t</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M206.057,198.982c-5.749,9.959-14.02,18.229-23.979,23.979
 		l-32.755-56.734L206.057,198.982z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M206.057,198.982c-5.749,9.959-14.02,18.229-23.979,23.979
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M206.057,198.982c-5.749,9.959-14.02,18.229-23.979,23.979
 		l-32.755-56.734L206.057,198.982z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M173.751,180.33c-2.476,4.288-6.037,7.849-10.325,10.325
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M173.751,180.33c-2.476,4.288-6.037,7.849-10.325,10.325
 		l-14.103-24.429L173.751,180.33z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M173.751,180.33c-2.476,4.288-6.037,7.849-10.325,10.325
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M173.751,180.33c-2.476,4.288-6.037,7.849-10.325,10.325
 		l-14.103-24.429L173.751,180.33z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M173.378,180.114c-2.438,4.223-5.943,7.729-10.167,10.167
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M173.378,180.114c-2.438,4.223-5.943,7.729-10.167,10.167
 		l-13.888-24.055L173.378,180.114z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M173.378,180.114c-2.438,4.223-5.943,7.729-10.167,10.167
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M173.378,180.114c-2.438,4.223-5.943,7.729-10.167,10.167
 		l-13.888-24.055L173.378,180.114z"/>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 206.7725 209.4248)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">N</text>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 201.5938 214.6035)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">o</text>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 197.6055 218.5918)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">v</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M171.242,204.19c-6.665,3.848-14.224,5.873-21.919,5.873v-43.837
+    <text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 206.7725 209.4248)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">N</text>
+    <text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 201.5938 214.6035)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">o</text>
+    <text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 197.6055 218.5918)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">v</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M171.242,204.19c-6.665,3.848-14.224,5.873-21.919,5.873v-43.837
 		L171.242,204.19z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M171.242,204.19c-6.665,3.848-14.224,5.873-21.919,5.873v-43.837
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M171.242,204.19c-6.665,3.848-14.224,5.873-21.919,5.873v-43.837
 		L171.242,204.19z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M161.481,187.285c-3.696,2.134-7.891,3.258-12.158,3.258v-24.316
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M161.481,187.285c-3.696,2.134-7.891,3.258-12.158,3.258v-24.316
 		L161.481,187.285z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M161.481,187.285c-3.696,2.134-7.891,3.258-12.158,3.258v-24.316
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M161.481,187.285c-3.696,2.134-7.891,3.258-12.158,3.258v-24.316
 		L161.481,187.285z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M159.071,183.111c-2.963,1.711-6.326,2.612-9.748,2.612v-19.497
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M159.071,183.111c-2.963,1.711-6.326,2.612-9.748,2.612v-19.497
 		L159.071,183.111z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M159.071,183.111c-2.963,1.711-6.326,2.612-9.748,2.612v-19.497
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M159.071,183.111c-2.963,1.711-6.326,2.612-9.748,2.612v-19.497
 		L159.071,183.111z"/>
-	
-		<text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 170.9385 211.8652)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">D</text>
-	
-		<text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 163.8633 213.7607)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
-	
-		<text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 158.415 215.2207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">c</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M149.323,197.704c-5.525,0-10.954-1.455-15.74-4.217l15.74-27.261
+    <text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 170.9385 211.8652)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">D</text>
+    <text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 163.8633 213.7607)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
+    <text transform="matrix(-0.9659 0.2588 -0.2588 -0.9659 158.415 215.2207)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">c</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M149.323,197.704c-5.525,0-10.954-1.455-15.74-4.217l15.74-27.261
 		V197.704z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,197.704c-5.525,0-10.954-1.455-15.74-4.217l15.74-27.261
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,197.704c-5.525,0-10.954-1.455-15.74-4.217l15.74-27.261
 		V197.704z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M149.323,195.671c-5.169,0-10.246-1.361-14.723-3.944l14.723-25.5
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M149.323,195.671c-5.169,0-10.246-1.361-14.723-3.944l14.723-25.5
 		V195.671z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,195.671c-5.169,0-10.246-1.361-14.723-3.944l14.723-25.5
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,195.671c-5.169,0-10.246-1.361-14.723-3.944l14.723-25.5
 		V195.671z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M149.323,172.651c-1.128,0-2.236-0.297-3.212-0.86l3.212-5.564
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M149.323,172.651c-1.128,0-2.236-0.297-3.212-0.86l3.212-5.564
 		V172.651z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,172.651c-1.128,0-2.236-0.297-3.212-0.86l3.212-5.564
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M149.323,172.651c-1.128,0-2.236-0.297-3.212-0.86l3.212-5.564
 		V172.651z"/>
-	
-		<text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 143.8184 215.3164)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
-	
-		<text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 138.9209 214.0049)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
-	
-		<text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 133.4717 212.5449)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">n</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M138.101,185.663c-3.411-1.97-6.244-4.803-8.214-8.216
+    <text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 143.8184 215.3164)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">J</text>
+    <text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 138.9209 214.0049)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
+    <text transform="matrix(-0.9659 -0.2588 0.2588 -0.9659 133.4717 212.5449)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">n</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M138.101,185.663c-3.411-1.97-6.244-4.803-8.214-8.216
 		l19.437-11.221L138.101,185.663z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M138.101,185.663c-3.411-1.97-6.244-4.803-8.214-8.216l19.437-11.221
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M138.101,185.663c-3.411-1.97-6.244-4.803-8.214-8.216l19.437-11.221
 		L138.101,185.663z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M139.338,183.521c-3.035-1.753-5.557-4.274-7.309-7.31
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M139.338,183.521c-3.035-1.753-5.557-4.274-7.309-7.31
 		l17.294-9.984L139.338,183.521z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M139.338,183.521c-3.035-1.753-5.557-4.274-7.309-7.31l17.294-9.984
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M139.338,183.521c-3.035-1.753-5.557-4.274-7.309-7.31l17.294-9.984
 		L139.338,183.521z"/>
-	
-		<text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 119.9292 206.4756)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">F</text>
-	
-		<text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 115.5503 203.0967)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
-	
-		<text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 111.5605 198.1064)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">b</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M126.537,179.382c-2.31-4-3.525-8.538-3.525-13.155h26.312
+    <text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 119.9292 206.4756)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">F</text>
+    <text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 115.5503 203.0967)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">e</text>
+    <text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 111.5605 198.1064)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">b</text>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M126.537,179.382c-2.31-4-3.525-8.538-3.525-13.155h26.312
 		L126.537,179.382z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M126.537,179.383c-2.31-4.001-3.525-8.539-3.525-13.156h26.312
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M126.537,179.383c-2.31-4.001-3.525-8.539-3.525-13.156h26.312
 		L126.537,179.383z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M134.405,174.839c-1.511-2.618-2.308-5.589-2.308-8.612h17.226
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M134.405,174.839c-1.511-2.618-2.308-5.589-2.308-8.612h17.226
 		L134.405,174.839z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M134.405,174.839c-1.511-2.618-2.308-5.589-2.308-8.612h17.226
+    <path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M134.405,174.839c-1.511-2.618-2.308-5.589-2.308-8.612h17.226
 		L134.405,174.839z"/>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 107.1084 187.0654)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">M</text>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 104.9229 179.1562)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 103.4619 173.4561)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">r</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M520.935,149.226c0-4.05,1.067-8.029,3.092-11.537l19.982,11.537
-		H520.935z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M520.935,149.226c0-4.05,1.067-8.029,3.092-11.537l19.982,11.537
-		H520.935z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M533.69,149.226c0-1.812,0.477-3.591,1.383-5.16l8.936,5.16
-		H533.69z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M533.69,149.226c0-1.812,0.477-3.591,1.383-5.16l8.936,5.16H533.69z"
-		/>
-	
-		<text transform="matrix(0.3496 -0.9369 0.9369 0.3496 483.7188 136.8936)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">A</text>
-	
-		<text transform="matrix(0.3496 -0.9369 0.9369 0.3496 486.084 130.5547)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">p</text>
-	
-		<text transform="matrix(0.3496 -0.9369 0.9369 0.3496 488.0557 125.2705)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">r</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M525.247,138.394c1.9-3.294,4.637-6.029,7.931-7.93l10.831,18.762
-		L525.247,138.394z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M525.247,138.394c1.9-3.294,4.637-6.028,7.931-7.93l10.831,18.762
-		L525.247,138.394z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M527.761,139.845c1.647-2.852,4.015-5.22,6.866-6.867
-		l9.382,16.249L527.761,139.845z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M527.761,139.845c1.647-2.852,4.015-5.22,6.866-6.867l9.382,16.249
-		L527.761,139.845z"/>
-	
-		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 496.9971 112.0962)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">M</text>
-	
-		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 502.9707 106.1221)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">a</text>
-	
-		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 506.96 102.1333)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">y</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M534.598,132.924c2.862-1.652,6.107-2.522,9.411-2.522v18.824
-		L534.598,132.924z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M534.598,132.924c2.862-1.652,6.107-2.521,9.411-2.521v18.823
-		L534.598,132.924z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M537.059,137.186c2.113-1.22,4.51-1.862,6.95-1.862v13.902
-		L537.059,137.186z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M537.059,137.187c2.113-1.221,4.51-1.863,6.95-1.863v13.902
-		L537.059,137.187z"/>
-	
-		<text transform="matrix(0.9804 -0.1969 0.1969 0.9804 521.6367 95.7231)" fill="#1A1A1A" font-family="'Helvetica-Light'" font-size="10.1419">J</text>
-	
-		<text transform="matrix(0.9804 -0.1969 0.1969 0.9804 526.6084 94.7241)" fill="#1A1A1A" font-family="'Helvetica-Light'" font-size="10.1419">u</text>
-	
-		<text transform="matrix(0.9804 -0.1969 0.1969 0.9804 532.1387 93.6138)" fill="#1A1A1A" font-family="'Helvetica-Light'" font-size="10.1419">n</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M544.009,42.513c18.732,0,37.134,4.931,53.356,14.297
-		l-53.356,92.416V42.513z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M544.009,42.513c18.732,0,37.134,4.931,53.356,14.297l-53.356,92.416
-		V42.513z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M544.009,122.216c4.741,0,9.4,1.248,13.506,3.619l-13.506,23.392
-		V122.216z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M544.009,122.216c4.741,0,9.4,1.248,13.506,3.619l-13.506,23.392
-		V122.216z"/>
-	
-		<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 566.1523 41.5342)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">J</text>
-	
-		<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 571.0518 42.8472)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">u</text>
-	
-		<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 576.5 44.3066)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">l</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M623.041,12.338c24.03,13.873,43.983,33.827,57.856,57.855
-		l-136.889,79.033L623.041,12.338z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M623.041,12.338c24.03,13.873,43.983,33.827,57.856,57.855
-		l-136.889,79.033L623.041,12.338z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M559.054,123.17c4.572,2.641,8.372,6.439,11.012,11.013
-		l-26.057,15.043L559.054,123.17z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M559.054,123.17c4.572,2.641,8.372,6.439,11.012,11.013
-		l-26.057,15.043L559.054,123.17z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M546.755,144.469c0.836,0.482,1.529,1.176,2.011,2.01
-		l-4.757,2.747L546.755,144.469z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M546.756,144.469c0.835,0.482,1.528,1.176,2.01,2.01l-4.757,2.747
-		L546.756,144.469z"/>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 653.5498 26.9282)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">A</text>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 658.332 31.7104)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">u</text>
-	
-		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 662.3203 35.6987)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">g</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M677.453,72.183c13.524,23.424,20.645,49.996,20.645,77.043
-		H544.009L677.453,72.183z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M677.453,72.183c13.524,23.424,20.645,49.996,20.645,77.043H544.009
-		L677.453,72.183z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M586.793,124.525c4.336,7.51,6.619,16.029,6.619,24.701h-49.403
-		L586.793,124.525z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M586.793,124.525c4.336,7.511,6.619,16.029,6.619,24.701h-49.403
-		L586.793,124.525z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M583.782,126.264c4.029,6.981,6.152,14.901,6.152,22.962h-45.926
-		L583.782,126.264z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M583.782,126.264c4.029,6.981,6.152,14.901,6.152,22.962h-45.926
-		L583.782,126.264z"/>
-	
-		<text transform="matrix(0.2959 0.9552 -0.9552 0.2959 693.1338 96.0107)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">S</text>
-	
-		<text transform="matrix(0.2959 0.9552 -0.9552 0.2959 695.1348 102.4707)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">e</text>
-	
-		<text transform="matrix(0.2959 0.9552 -0.9552 0.2959 696.8047 107.8594)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">p</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M666.406,149.226c0,21.486-5.655,42.592-16.397,61.199
-		l-106-61.199H666.406z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M666.406,149.226c0,21.486-5.655,42.592-16.397,61.199l-106-61.199
-		H666.406z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M605.755,149.226c0,10.839-2.854,21.486-8.273,30.873
-		l-53.473-30.873H605.755z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M605.755,149.226c0,10.839-2.854,21.486-8.273,30.873l-53.473-30.873
-		H605.755z"/>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 668.2158 172.0723)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">O</text>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 666.1748 179.6934)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">c</text>
-	
-		<text transform="matrix(-0.2588 0.9659 -0.9659 -0.2588 664.8623 184.5918)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">t</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M683.395,229.701c-14.127,24.466-34.445,44.784-58.911,58.909
-		l-80.475-139.384L683.395,229.701z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M683.395,229.701c-14.127,24.466-34.445,44.784-58.911,58.909
-		l-80.475-139.384L683.395,229.701z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M625.289,196.153c-8.237,14.268-20.085,26.116-34.353,34.354
-		l-46.928-81.281L625.289,196.153z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M625.289,196.153c-8.237,14.268-20.085,26.116-34.353,34.354
-		l-46.928-81.281L625.289,196.153z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M593.406,177.746c-5.006,8.67-12.207,15.871-20.878,20.876
-		l-28.52-49.396L593.406,177.746z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M593.406,177.746c-5.006,8.67-12.207,15.871-20.878,20.876
-		l-28.52-49.396L593.406,177.746z"/>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 668.3447 259.8076)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">N</text>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 663.165 264.9873)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">o</text>
-	
-		<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 659.1768 268.9756)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1421">v</text>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M653.587,339.021c-33.315,19.234-71.108,29.36-109.578,29.36
-		V149.226L653.587,339.021z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M653.587,339.021c-33.316,19.234-71.108,29.36-109.578,29.36V149.226
-		L653.587,339.021z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M574.206,201.529c-9.181,5.3-19.596,8.091-30.197,8.091v-60.394
-		L574.206,201.529z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M574.206,201.529c-9.181,5.3-19.596,8.091-30.197,8.091v-60.394
-		L574.206,201.529z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M572.179,198.017c-8.563,4.944-18.28,7.549-28.17,7.549v-56.339
-		L572.179,198.017z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M572.179,198.018c-8.564,4.943-18.28,7.548-28.17,7.548v-56.339
-		L572.179,198.018z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M544.009,428.136c-48.959,0-97.056-12.888-139.454-37.368
-		l139.454-241.542V428.136z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M544.009,428.136c-48.958,0-97.056-12.888-139.454-37.368
-		l139.454-241.542V428.136z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M544.009,244.771c-16.771,0-33.247-4.416-47.771-12.802
-		l47.771-82.743V244.771z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M544.009,244.771c-16.771,0-33.247-4.416-47.771-12.802l47.771-82.743
-		V244.771z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M544.009,197.585c-8.488,0-16.827-2.235-24.178-6.479
-		l24.178-41.879V197.585z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M544.009,197.585c-8.488,0-16.827-2.235-24.178-6.479l24.178-41.879
-		V197.585z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M418.931,365.867c-38.029-21.955-69.607-53.535-91.563-91.563
-		l216.641-125.078L418.931,365.867z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M418.931,365.867c-38.029-21.955-69.607-53.535-91.563-91.563
-		l216.641-125.078L418.931,365.867z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M492.396,238.625c-15.695-9.062-28.724-22.092-37.785-37.784
-		l89.397-51.615L492.396,238.625z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M492.396,238.625c-15.695-9.062-28.724-22.092-37.785-37.784
-		l89.397-51.615L492.396,238.625z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M526.403,179.719c-5.352-3.09-9.797-7.534-12.887-12.888
-		l30.492-17.605L526.403,179.719z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M526.403,179.719c-5.353-3.09-9.797-7.534-12.887-12.888
-		l30.492-17.605L526.403,179.719z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#87C0E6" d="M378.491,244.788c-16.774-29.054-25.606-62.013-25.606-95.562
-		h191.124L378.491,244.788z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M378.491,244.788c-16.774-29.054-25.606-62.013-25.606-95.562h191.124
-		L378.491,244.788z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#808080" d="M481.476,185.329c-6.338-10.976-9.675-23.428-9.675-36.103h72.208
-		L481.476,185.329z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M481.476,185.329c-6.338-10.976-9.675-23.428-9.675-36.103h72.208
-		L481.476,185.329z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFA0AA" d="M517.035,164.799c-2.732-4.735-4.171-10.105-4.171-15.573h31.145
-		L517.035,164.799z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.6737" d="M517.035,164.799c-2.732-4.735-4.171-10.105-4.171-15.573h31.145
-		L517.035,164.799z"/>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 356.7197 205.916)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">M</text>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 354.5332 197.7549)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">a</text>
-	
-		<text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 353.0737 192.3076)" fill="#333333" font-family="'Helvetica-Light'" font-size="10.1419">r</text>
-</g>
+    <text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 107.1084 187.0654)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">M</text>
+    <text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 104.9229 179.1562)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">a</text>
+    <text transform="matrix(-0.2588 -0.9659 0.9659 -0.2588 103.4619 173.4561)" fill="#333333" font-family="'Helvetica-Light'" font-size="8">r</text>
+
+  </g>
 </svg>
