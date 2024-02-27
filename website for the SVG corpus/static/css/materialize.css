@@ -3511,6 +3511,7 @@ table span.badge {
   margin-left: auto;
   left: auto;
   right: auto;
+  overflow-y: scroll;
 }
 
 .row .col.s4 {
@@ -4268,6 +4269,8 @@ table span.badge {
     left: 100%;
   }
 }
+
+
 
 nav {
   color: #fff;

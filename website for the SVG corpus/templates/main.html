@@ -7,516 +7,295 @@
     <div class="content">
         <div class="row">
             <!-- faceted browsing navigation -->
-            <div class="col s3"> 
-                <div id="browserFrom">
-                    <form action="#" id ="facetedbrowsingform">
-                        <div class="criteriagroup">
-                            <ul class="collapsible">
-                              <!-- Dataset types -->
-                                <li>
-                                  <div class="collapsible-header">Dataset Types</div>
-                                  <div class="collapsible-body">
-                                    <div class="row">
-                                      <div>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="hierarchies" value="hierarchies" />
-                                            <span>Hierarchies</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="time series" value="time series" />
-                                            <span>Time Series</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="categories" value="categories"/>
-                                              <span>Categories</span>
-                                            </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="two variables" value="two variables" />
-                                            <span>Two Variables</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="three or more variables" value="three or more variables"/>
-                                              <span>Three or More Variables </span>
-                                            </label>
-                                        </p> 
-                                      </div>
-                                    </div>
-                                  </div>
-                                </li>
-                                <!-- Relevant topics -->
-                                <li>
-                                  <div class="collapsible-header">Relevant Topics</div>
-                                  <div class="collapsible-body">
-                                    <div class="row">
-                                      <div class="col s6">
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="climate" value="climate" />
-                                            <span>Climate</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="nasa" value="nasa" />
-                                            <span>NASA</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="agriculture" value="agriculture"/>
-                                              <span>Agriculture</span>
-                                            </label>
-                                        </p>
-                        
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="ontology" value="ontology"/>
-                                              <span>Ontotlogy</span>
-                                            </label>
-                                        </p>
-                        
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="land" value="land"/>
-                                              <span>Land</span>
-                                            </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="economy" value="economy"/>
-                                            <span>Economy</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="cultutre" value="culture"/>
-                                            <span>Culture</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="entertainment" value="entertainment"/>
-                                            <span>Entertainment</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="temperature" value="temperature"/>
-                                            <span>Temperature</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="geographic" value="geographic"/>
-                                            <span>Geographic</span>
-                                          </label>
-                                        </p>
-                                      </div>
-                                      <div class="col s6">
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="science" value="science"/>
-                                            <span>Science</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="food" value="food"/>
-                                            <span>Food</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="covid" value="covid"/>
-                                            <span>COVID</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="human rights" value="human rights"/>
-                                            <span>Human Rights</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="health" value="health"/>
-                                            <span>Health</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="security" value="security"/>
-                                            <span>Security</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="population" value="population"/>
-                                            <span>Population</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="energy" value="energy"/>
-                                            <span>Energy</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="exports" value="exports"/>
-                                            <span>Exports</span>
-                                          </label>
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </li>
-                                <!-- Visualization elements -->
-                                <li>
-                                  <div class="collapsible-header">Visualization Elements</div>
-                                  <div class="collapsible-body">
-                                    <div class="row">
-                                      <div class="col s6">
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="line" value="line" />
-                                            <span >Line Graph</span>
-                                          </label>
-                                        </p>
-                      
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="bar" value="bar"/>
-                                              <span >Bar Chart</span>
-                                            </label>
-                                        </p>
-                        
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="dot" value="dot"/>
-                                              <span >Dot Plot</span>
-                                            </label>
-                                        </p>
-                        
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="marimekko" value="marimekko"/>
-                                              <span >Marimekko Chart</span>
-                                            </label>
-                                        </p>
+            <div class="col s3" style="position: fixed; top: 70px; left: 0px; bottom: 0px; overflow-y: auto;"> 
+              <div id="browserFrom">
+                <form action="#" id ="facetedbrowsingform">
+                    <div class="criteriagroup">
+                        <ul class="collapsible">
+                            <!-- Visualization elements -->
+                            <li>
+                              <div class="collapsible-header">Visualization Elements</div>
+                              <div class="collapsible-body">
+                                <div class="row">
+                                  <div class="col s6">
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="line" value="line" />
+                                        <span >Line Graph</span>
+                                      </label>
+                                    </p>
+                  
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" name="bar" value="bar"/>
+                                          <span >Bar Chart</span>
+                                        </label>
+                                    </p>
+                    
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" name="dot" value="dot"/>
+                                          <span >Dot Plot</span>
+                                        </label>
+                                    </p>
+                    
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" name="marimekko" value="marimekko"/>
+                                          <span >Marimekko Chart</span>
+                                        </label>
+                                    </p>
 
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="arc" value="arc"/>
-                                            <span >Arc</span>
-                                          </label>
-                                        </p>
-                                        
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="grouped" value="grouped" />
-                                            <span >Grouped Bar Chart</span>
-                                          </label>
-                                        </p>
-                      
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" name="pie" value="pie"/>
-                                              <span >Pie Chart</span>
-                                            </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="stacked" value="stacked"/>
-                                            <span >Stacked Bar Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="waterfall" value="waterfall"/>
-                                            <span >Waterfall Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="scatterplot" value="scatterplot"/>
-                                            <span >Scatterplot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="connected" value="connected"/>
-                                            <span >Connected Scatterplot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="diverging" value="diverging"/>
-                                            <span >Diverging Stacked Bar Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="waffle" value="waffle"/>
-                                            <span >Waffle Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="diverging" value="diverging"/>
-                                            <span >Donut Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="treemap" value="treemap"/>
-                                            <span >Treemap</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="area" value="area"/>
-                                            <span >Area Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="bubble" value="bubble"/>
-                                            <span >Bubble Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="stacked" value="stacked"/>
-                                            <span >Stacked Area Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="calendar" value="calendar"/>
-                                            <span >Calendar</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="density" value="density"/>
-                                            <span >Density Plot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="circle" value="circle"/>
-                                            <span >Circle Packing</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="connected" value="connected"/>
-                                            <span >Connected Dot Plot</span>
-                                          </label>
-                                        </p>
-                                      </div>
-                                      <div class="col s6">
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="polar" value="polar"/>
-                                            <span >Polar Area Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="radial" value="radial"/>
-                                            <span >Radial Bar Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="radar" value="radar"/>
-                                            <span >Radar Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="matrix" value="matrix"/>
-                                            <span >Matrix Diagram</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="box" value="box"/>
-                                            <span >Box and Whisker Plot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="candlestick" value="candlestick"/>
-                                            <span >Candlestick Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="venn" value="venn"/>
-                                            <span >Venn Diagram</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="stream" value="stream"/>
-                                            <span >Stream Graph</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="parallel" value="parallel"/>
-                                            <span >Parallel Coordinates Plot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="kagi" value="kagi"/>
-                                            <span >Kagi Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="spiral" value="spiral"/>
-                                            <span >Spiral Plot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="parallels" value="parallels"/>
-                                            <span >Parallel Sets</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="bullet" value="bullet"/>
-                                            <span >Bullet Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="range" value="range"/>
-                                            <span >Range Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="heatmap" value="heatmap"/>
-                                            <span >Heatmap</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="geo" value="geo"/>
-                                            <span >Geo Heatmap</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="violin" value="violin"/>
-                                            <span >Violin Plot</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="word" value="word"/>
-                                            <span >Word Cloud</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="bump" value="bump"/>
-                                            <span >Bump Chart</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" name="composite" value="composite"/>
-                                            <span >Composite</span>
-                                          </label>
-                                        </p>
-                                      </div>
-                                    </div>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="arc" value="arc"/>
+                                        <span >Arc</span>
+                                      </label>
+                                    </p>
+                                    
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="grouped" value="grouped" />
+                                        <span >Grouped Bar Chart</span>
+                                      </label>
+                                    </p>
+                  
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" name="pie" value="pie"/>
+                                          <span >Pie Chart</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="stacked" value="stacked"/>
+                                        <span >Stacked Bar Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="waterfall" value="waterfall"/>
+                                        <span >Waterfall Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="scatterplot" value="scatterplot"/>
+                                        <span >Scatterplot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="connected" value="connected"/>
+                                        <span >Connected Scatterplot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="diverging" value="diverging"/>
+                                        <span >Diverging Stacked Bar Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="waffle" value="waffle"/>
+                                        <span >Waffle Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="diverging" value="diverging"/>
+                                        <span >Donut Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="treemap" value="treemap"/>
+                                        <span >Treemap</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="area" value="area"/>
+                                        <span >Area Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="bubble" value="bubble"/>
+                                        <span >Bubble Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="stacked" value="stacked"/>
+                                        <span >Stacked Area Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="calendar" value="calendar"/>
+                                        <span >Calendar</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="density" value="density"/>
+                                        <span >Density Plot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="circle" value="circle"/>
+                                        <span >Circle Packing</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="connected" value="connected"/>
+                                        <span >Connected Dot Plot</span>
+                                      </label>
+                                    </p>
                                   </div>
-                                </li>
-                                <!-- Visualiation tasks -->
-                                <li>
-                                    <div class="collapsible-header">Task</div>
-                                    <div class="collapsible-body">
-                                      <div class="row">
-                                        <div class="col s6">
-                                          <p>
-                                            <label>
-                                              <input type="checkbox" name="trend" value="trend" />
-                                              <span>Trend</span>
-                                            </label>
-                                          </p>
-                        
-                                          <p>
-                                              <label>
-                                                <input type="checkbox" name="comparison" value="comparison"/>
-                                                <span>Comparison</span>
-                                              </label>
-                                          </p>
-                          
-                                          <p>
-                                              <label>
-                                                <input type="checkbox" name="correlation" value="correlation"/>
-                                                <span>Correlation</span>
-                                              </label>
-                                          </p>
-                          
-                                          <p>
-                                              <label>
-                                                <input type="checkbox" name="relationship" value="relationship"/>
-                                                <span>Relationship</span>
-                                              </label>
-                                          </p>
-                                        </div>
-                                        <div class="col s6">
-                                          <p>
-                                            <label>
-                                              <input type="checkbox" name="composition" value="composition" />
-                                              <span>Composition</span>
-                                            </label>
-                                          </p>
-                        
-                                          <p>
-                                              <label>
-                                                <input type="checkbox" name="distribution" value="distribution"/>
-                                                <span>Distribution</span>
-                                              </label>
-                                          </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </li>
-                              </ul>
-                        </div>
-                    </form>
-                </div>
+                                  <div class="col s6">
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="polar" value="polar"/>
+                                        <span >Polar Area Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="radial" value="radial"/>
+                                        <span >Radial Bar Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="radar" value="radar"/>
+                                        <span >Radar Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="matrix" value="matrix"/>
+                                        <span >Matrix Diagram</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="box" value="box"/>
+                                        <span >Box and Whisker Plot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="candlestick" value="candlestick"/>
+                                        <span >Candlestick Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="venn" value="venn"/>
+                                        <span >Venn Diagram</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="stream" value="stream"/>
+                                        <span >Stream Graph</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="parallel" value="parallel"/>
+                                        <span >Parallel Coordinates Plot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="kagi" value="kagi"/>
+                                        <span >Kagi Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="spiral" value="spiral"/>
+                                        <span >Spiral Plot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="parallels" value="parallels"/>
+                                        <span >Parallel Sets</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="bullet" value="bullet"/>
+                                        <span >Bullet Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="range" value="range"/>
+                                        <span >Range Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="heatmap" value="heatmap"/>
+                                        <span >Heatmap</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="geo" value="geo"/>
+                                        <span >Geo Heatmap</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="violin" value="violin"/>
+                                        <span >Violin Plot</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="word" value="word"/>
+                                        <span >Word Cloud</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="bump" value="bump"/>
+                                        <span >Bump Chart</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input type="checkbox" name="composite" value="composite"/>
+                                        <span >Composite</span>
+                                      </label>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                    </div>
+                </form>
+              </div>
             </div>
-
             <!-- search result image cards go here -->
-            <div class="col s9">
+            <div class="col s9" style="position: fixed; top: 75px; right: 0px; bottom: 0px; overflow-y: auto;">
               <!-- <span>Search Results....</span> -->
               
               <!-- TODO: submit user data -->
               <a href="{{url_for('submit')}}" style="float: right; display: none;" id="nextButton"><button class="btn waves-effect waves-light" type="submit" name="action">Next</button></a>
               <!-- Modal Trigger -->
               <a class="waves-effect waves-light btn modal-trigger" href="#bookmarkModal" style="float: right; margin-right: 2px;">Bookmarks</a>
-               <!-- Modal Trigger -->
+              <!-- Modal Trigger -->
               <a class="waves-effect waves-light btn modal-trigger" href="#modal1" style="float: right; margin-right: 2px;">Instructions</a>
 
               <div id="selectedterms">
@@ -524,9 +303,9 @@
               </div>
               <div id="examplecards">
               </div>
-          </div>
+            </div>
         </div>
-    </div>
+      </div>
 
      <!-- Instructions Modal Structure -->
   <div id="modal1" class="modal modal-fixed-footer">
