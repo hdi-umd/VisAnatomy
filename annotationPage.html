@@ -432,17 +432,19 @@
           <div style="display: flex; flex-grow: 1; width: 100%; height: 95%">
             <div
               style="
-                padding: 5px;
+                padding: 0px;
                 margin-bottom: 10px;
                 vertical-align: top;
                 width: 49%;
               "
             >
               <h4>
-                All Marks (<span style="color: red" id="numberOfMarksSelected">
+                <!-- All Marks (<span style="color: red" id="numberOfMarksSelected">
                   0
                 </span>
-                Selected)
+                Selected) -->
+                <span style="color: red" id="numberOfMarksSelected">0</span> of 
+                <span style="color: black" id="totalNumberOfMarks"></span> Marks Selected
                 <button onclick="disableAllMarkSelections()">Clear</button>
               </h4>
               <div
@@ -451,6 +453,8 @@
                   height: 85%;
                   overflow: scroll;
                   overflow: -moz-scrollbars-vertical;
+                  border: 1px solid #ccc;
+                  padding-left: 3px;
                 "
               ></div>
             </div>
@@ -462,7 +466,7 @@
                 width: 49%;
               "
             >
-              <h4>Batch Selections</h4>
+              <h4 style="visibility: hidden;">Batch Selections</h4>
               <div
                 id="markSelections"
                 style="

@@ -44,6 +44,7 @@ function initilizeMarkAnnotation() {
     graphicsElementTypes.includes(key)
   );
 
+  document.getElementById("totalNumberOfMarks").innerHTML = leafNodeTypes.map((type) => mainContentElements[type].length).reduce((a, b) => a + b)
   document.getElementById("allMarks").innerHTML = "";
 
   if (Object.keys(markInfo).length === 0) {
@@ -72,23 +73,24 @@ function initilizeMarkAnnotation() {
           Type: type === "path" ? "none" : type,
           Role: "none",
         };
-      if (markInfo[markID]["Type"] !== "none") {
-        let typeTag = document.createElement("span");
-        typeTag.innerHTML = "&nbsp;" + markInfo[markID]["Type"];
-        typeTag.style.color = "#E69F00";
-        markDiv.appendChild(typeTag);
-      }
-      if (markInfo[markID]["Role"] !== "none") {
-        let roleTag = document.createElement("span");
-        roleTag.innerHTML = "&nbsp;" + markInfo[markID]["Role"];
-        roleTag.style.color = "#009E73";
-        markDiv.appendChild(roleTag);
-      }
+      showMarkTypeRole(markInfo[markID], markDiv);
+      // if (markInfo[markID]["Type"] !== "none") {
+      //   let typeTag = document.createElement("span");
+      //   typeTag.innerHTML = "&nbsp;" + markInfo[markID]["Type"];
+      //   typeTag.style.color = "#E69F00";
+      //   markDiv.appendChild(typeTag);
+      // }
+      // if (markInfo[markID]["Role"] !== "none") {
+      //   let roleTag = document.createElement("span");
+      //   roleTag.innerHTML = "&nbsp;" + markInfo[markID]["Role"];
+      //   roleTag.style.color = "#009E73";
+      //   markDiv.appendChild(roleTag);
+      // }
       markDiv.style.display = "inline-block";
-      markDiv.style.width = "95%";
+      markDiv.style.width = "99%";
       markDiv.style.height = "fit-content";
-      markDiv.style.border = "1px solid #eee";
-      markDiv.style.padding = "2px";
+      markDiv.style.border = "0px solid #eee";
+      markDiv.style.padding = "3px";
       markDiv.style.margin = "0px";
       markDiv.style.cursor = "pointer";
       document.getElementById("allMarks").appendChild(markDiv);
@@ -146,7 +148,7 @@ function initilizeMarkAnnotation() {
           selectionDiv.innerHTML +=
             ' <div class="inline-container"><div class="inline-rectangle" style="background-color: ' +
             value +
-            '; border: 2px solid black;"></div></div>';
+            '; border: 2px solid black; margin-bottom:4px;"></div></div>';
         }
 
         document.getElementById("markSelections").appendChild(selectionDiv);
@@ -173,10 +175,12 @@ function initilizeMarkAnnotation() {
     .style("display", "inline-block")
     .style("width", "95%")
     .style("height", "fit-content")
-    .style("border", "1px solid #000")
+    .style("border", "1px solid #ccc")
     .style("padding", "2px")
-    .style("margin", "2px")
-    .style("cursor", "pointer");
+    .style("margin", "4px")
+    .style("cursor", "pointer")
+    .style("background", "#FAFAFA")
+    .style("border-radius", "5px");
 
   svgHighlighting();
 }
@@ -355,22 +359,40 @@ function markAnnotationChanged(attr) {
   reflectChanges();
 }
 
+function showMarkTypeRole(mark, markDiv) {
+  if (mark["Type"] !== "none") {
+    let typeTag = document.createElement("span");
+    typeTag.innerHTML = "&nbsp;(" + mark["Type"] + ", ";
+    typeTag.style.color = "#444";
+    typeTag.style.fontSize = "12.5px";
+    markDiv.appendChild(typeTag);
+  }
+  if (mark["Role"] !== "none") {
+    let roleTag = document.createElement("span");
+    roleTag.innerHTML = "&nbsp;" + mark["Role"] + ")";
+    roleTag.style.color = "#444";
+    roleTag.style.fontSize = "12.5px";
+    markDiv.appendChild(roleTag);
+  }
+}
+
 function reflectChanges() {
   markSelection.forEach((markID) => {
     let markDiv = document.getElementById("mark_" + markID);
     markDiv.innerHTML = markID;
-    if (markInfo[markID]["Type"] !== "none") {
-      let typeTag = document.createElement("span");
-      typeTag.innerHTML = "&nbsp;" + markInfo[markID]["Type"];
-      typeTag.style.color = "#E69F00";
-      markDiv.appendChild(typeTag);
-    }
-    if (markInfo[markID]["Role"] !== "none") {
-      let roleTag = document.createElement("span");
-      roleTag.innerHTML = "&nbsp;" + markInfo[markID]["Role"];
-      roleTag.style.color = "#009E73";
-      markDiv.appendChild(roleTag);
-    }
+    showMarkTypeRole(markInfo[markID], markDiv);
+    // if (markInfo[markID]["Type"] !== "none") {
+    //   let typeTag = document.createElement("span");
+    //   typeTag.innerHTML = "&nbsp;(" + markInfo[markID]["Type"];
+    //   typeTag.style.color = "#E69F00";
+    //   markDiv.appendChild(typeTag);
+    // }
+    // if (markInfo[markID]["Role"] !== "none") {
+    //   let roleTag = document.createElement("span");
+    //   roleTag.innerHTML = "&nbsp;" + markInfo[markID]["Role"] + ")";
+    //   roleTag.style.color = "#009E73";
+    //   markDiv.appendChild(roleTag);
+    // }
   });
 }
 
