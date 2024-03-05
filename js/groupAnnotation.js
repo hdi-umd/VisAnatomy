@@ -17,22 +17,22 @@ function initilizeGroupAnnotation() {
     label.classList.add("specifiedGroup");
     label.innerHTML = group.join(", ");
     d3.select(label)
-      .style("font-family", "'Arial', sans-serif")
-      .style("font-size", "16px")
-      .style("color", "#333")
-      .style("background-color", "#f0f0f0")
-      .style("padding", "8px 12px")
-      .style("border-radius", "4px")
-      .style("display", "inline-block")
-      .style("margin-bottom", "5px")
+      // .style("font-family", "'Arial', sans-serif")
+      // .style("font-size", "16px")
+      // .style("color", "#333")
+      // .style("background-color", "#CCFFFF")
+      // .style("padding", "8px 12px")
+      // .style("border-radius", "4px")
+      // .style("display", "inline-block")
+      // .style("margin-bottom", "5px")
       .on("mouseover", function () {
-        d3.select(this)
-          .style("background-color", "#e9e9e9")
-          .style("cursor", "pointer");
+        // d3.select(this)
+        //   .style("background-color", "#e9e9e9")
+        //   .style("cursor", "pointer");
         highlightOnePossibleGroup(group);
       })
       .on("mouseout", function () {
-        d3.select(this).style("background-color", "#f0f0f0");
+        //d3.select(this).style("background-color", "#f0f0f0");
         unhighlightOnePossibleGroup(group);
       });
     groupDiv.appendChild(label);
@@ -163,22 +163,22 @@ function clickEvent4FormingGroupButton(e) {
   label.classList.add("specifiedGroup");
   label.innerHTML = theGroup.map((e) => e.id).join(", ");
   d3.select(label)
-    .style("font-family", "'Arial', sans-serif")
-    .style("font-size", "16px")
-    .style("color", "#333")
-    .style("background-color", "#f0f0f0")
-    .style("padding", "8px 12px")
-    .style("border-radius", "4px")
-    .style("display", "inline-block")
-    .style("margin-bottom", "5px")
+    // .style("font-family", "'Arial', sans-serif")
+    // .style("font-size", "16px")
+    // .style("color", "#333")
+    // .style("background-color", "#f0f0f0")
+    // .style("padding", "8px 12px")
+    // .style("border-radius", "4px")
+    // .style("display", "inline-block")
+    // .style("margin-bottom", "5px")
     .on("mouseover", function () {
-      d3.select(this)
-        .style("background-color", "#e9e9e9")
-        .style("cursor", "pointer");
+      // d3.select(this)
+      //   .style("background-color", "#e9e9e9")
+      //   .style("cursor", "pointer");
       highlightOnePossibleGroup(label.innerHTML.split(", "));
     })
     .on("mouseout", function () {
-      d3.select(this).style("background-color", "#f0f0f0");
+      //d3.select(this).style("background-color", "#f0f0f0");
       unhighlightOnePossibleGroup(label.innerHTML.split(", "));
     });
   groupDiv.appendChild(label);
@@ -496,22 +496,22 @@ acceptInferredGroups = () => {
     label.classList.add("specifiedGroup");
     label.innerHTML = group.join(", ");
     d3.select(label)
-      .style("font-family", "'Arial', sans-serif")
-      .style("font-size", "16px")
-      .style("color", "#333")
-      .style("background-color", "#f0f0f0")
-      .style("padding", "8px 12px")
-      .style("border-radius", "4px")
-      .style("display", "inline-block")
-      .style("margin-bottom", "5px")
+      // .style("font-family", "'Arial', sans-serif")
+      // .style("font-size", "16px")
+      // .style("color", "#333")
+      // .style("background-color", "#CCFFFF")
+      // .style("padding", "8px 12px")
+      // .style("border-radius", "4px")
+      // .style("display", "inline-block")
+      // .style("margin-bottom", "5px")
       .on("mouseover", function () {
-        d3.select(this)
-          .style("background-color", "#e9e9e9")
-          .style("cursor", "pointer");
+        // d3.select(this)
+        //   .style("background-color", "#e9e9e9")
+        //   .style("cursor", "pointer");
         highlightOnePossibleGroup(group);
       })
       .on("mouseout", function () {
-        d3.select(this).style("background-color", "#f0f0f0");
+        //d3.select(this).style("background-color", "#f0f0f0");
         unhighlightOnePossibleGroup(group);
       });
     groupDiv.appendChild(label);
@@ -532,15 +532,16 @@ function createLabel(text) {
   let label = document.createElement("label");
   label.classList.add("specifiedGroup");
   label.innerHTML = text;
-  label.style.fontFamily = "'Arial', sans-serif";
-  label.style.fontSize = "16px";
-  label.style.color = "#333";
-  label.style.backgroundColor = "#f0f0f0";
-  label.style.padding = "3px";
-  label.style.margin = "5px";
+  // label.style.fontFamily = "'Arial', sans-serif";
+  // label.style.fontSize = "16px";
+  // label.style.color = "#333";
+  // // label.style.backgroundColor = "#f0f0f0";
+  // label.style.backgroundColor = "#CCFFFF";
+  // label.style.padding = "3px";
+  // label.style.margin = "40px 5px 5px 5px";
   label.style.border = "2.5px solid black";
-  label.style.borderRadius = "4px";
-  label.style.display = "inline-block";
+  // label.style.borderRadius = "4px";
+  // label.style.display = "inline-block";
   return label;
 }
 
@@ -566,15 +567,15 @@ function processGroup(group, parentElement) {
   d3.select(thisLabel)
     .on("mouseover", function (e) {
       e.stopPropagation();
-      d3.select(this)
-        .style("background-color", "#e9e9e9")
-        .style("cursor", "pointer");
+      // d3.select(this)
+      //   .style("background-color", "#e9e9e9")
+      //   .style("cursor", "pointer");
       thisGroup.forEach((id) => {
         d3.select("#" + id).style("opacity", "1");
       });
     })
     .on("mouseout", function () {
-      d3.select(this).style("background-color", "#f0f0f0");
+      //d3.select(this).style("background-color", "#f0f0f0");
       if (d3.select(this).style("border") === "2.5px solid black")
         thisGroup.forEach((id) => {
           d3.select("#" + id).style("opacity", "0.3");
@@ -610,6 +611,8 @@ function go2HigherGrouping() {
 
   d3.select("#current-section").style("visibility", "hidden");
   d3.select("#specifiedGroups").style("visibility", "hidden");
+  d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+  d3.select("#higherGroupBtn").style("visibility", "hidden");
   d3.select("#higherLevelGroups").style("visibility", "visible");
   d3.select("#higherLevelGroups").selectAll("label").remove();
 
@@ -721,26 +724,26 @@ function mergeGroups() {
   document.getElementById("higherLevelGroups").appendChild(label);
 
   d3.select(label)
-    .style("font-family", "'Arial', sans-serif")
-    .style("font-size", "16px")
-    .style("color", "#333")
-    .style("background-color", "#f0f0f0")
-    .style("padding", "3px")
-    .style("margin", "5px")
-    .style("border", "2.5px solid black")
-    .style("border-radius", "4px")
-    .style("display", "inline-block")
+    // .style("font-family", "'Arial', sans-serif")
+    // .style("font-size", "16px")
+    // .style("color", "#333")
+    // .style("background-color", "#f0f0f0")
+    // .style("padding", "3px")
+    // .style("margin", "5px")
+    // .style("border", "2.5px solid black")
+    // .style("border-radius", "4px")
+    // .style("display", "inline-block")
     .on("mouseover", function (e) {
       e.stopPropagation();
-      d3.select(this)
-        .style("background-color", "#e9e9e9")
-        .style("cursor", "pointer");
+      // d3.select(this)
+      //   .style("background-color", "#e9e9e9")
+      //   .style("cursor", "pointer");
       mergedGroup.forEach((id) => {
         d3.select("#" + id).style("opacity", "1");
       });
     })
     .on("mouseout", function () {
-      d3.select(this).style("background-color", "#f0f0f0");
+      //d3.select(this).style("background-color", "#f0f0f0");
       if (d3.select(this).style("border") === "2.5px solid black")
         mergedGroup.forEach((id) => {
           d3.select("#" + id).style("opacity", "0.3");

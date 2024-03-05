@@ -610,3 +610,19 @@ span {
   margin-bottom: 5px;
   cursor: pointer;
 }
+
+.specifiedGroup {
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #333;
+  background-color: #E5FFFF;
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0px 2.5px 5px 2.5px;
+}
+
+.specifiedGroup:hover {
+  background-color: #CCFFFF;
+  cursor: pointer;
+}

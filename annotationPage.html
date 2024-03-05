@@ -499,14 +499,30 @@
               overflow: -moz-scrollbars-vertical;
               height: 100%;
               width: 100%;
-              border: 2px solid rgb(102, 105, 105);
+              border: 0px solid rgb(102, 105, 105);
               padding: 5px;
               margin-bottom: 10px;
               visibility: hidden;
             "
           >
             <h4>
-              Select groups by clicking and then
+              Select groups by clicking or <button
+              type="button"
+              style="
+                padding: 1px 1px;
+                margin-left: 2.5px;
+                margin-right: 2.5px;
+                vertical-align: middle;
+              "
+              onclick="selectAllGroups()"
+            >
+              select all groups</button
+            > 
+
+               <!-- to select all current groups, please click -->
+               <!-- if you want to redo the grouping, please click -->
+            </h4>
+            <div style="margin-bottom: 40px;">
               <button
                 type="button"
                 style="
@@ -517,20 +533,8 @@
                 "
                 onclick="mergeGroups()"
               >
-                merge</button
-              >; to select all current groups, please click
-              <button
-                type="button"
-                style="
-                  padding: 1px 1px;
-                  margin-left: 2.5px;
-                  margin-right: 2.5px;
-                  vertical-align: middle;
-                "
-                onclick="selectAllGroups()"
+                merge selected groups</button
               >
-                selectAllGroups</button
-              >; if you want to redo the grouping, please click
               <button
                 type="button"
                 style="
@@ -541,9 +545,9 @@
                 "
                 onclick="clearMergedGroups()"
               >
-                clear</button
-              >.
-            </h4>
+                clear grouping</button
+              >
+            </div>
           </div>
           <div id="current-section" style="
                       border: 0px solid rgb(102, 105, 105);
@@ -582,7 +586,7 @@
                       "></div>
           </div>
 
-          <div style="margin-top: 20px">
+          <div id="specifiedGroupsHeader" style="margin-top: 20px">
             Current grouping
             <button
                 type="button"
@@ -598,7 +602,7 @@
               overflow: scroll;
               overflow: -moz-scrollbars-vertical;
               height: 200px;
-              border: 1.5px solid #aaa;
+              border: 0.5px solid #aaa;
               padding: 5px;
               margin-bottom: 10px;
             "
@@ -644,6 +648,7 @@
               margin-top: 20px;
               vertical-align: middle;
             "
+            id="higherGroupBtn"
             onclick="go2HigherGrouping()"
           >
           Next: Specify higher-level groups >>
@@ -999,6 +1004,8 @@
             ).style.visibility = "hidden";
             d3.select("#current-section").style("visibility", "hidden");
             d3.select("#specifiedGroups").style("visibility", "hidden");
+            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+            d3.select("#higherGroupBtn").style("visibility", "hidden");
             document.getElementById("higherLevelGroups").style.visibility =
               "hidden";
             d3.select("#EncodingAnnotation").style("visibility", "hidden");
@@ -1033,6 +1040,8 @@
               "hidden";
             d3.select("#current-section").style("visibility", "hidden");
             d3.select("#specifiedGroups").style("visibility", "hidden");
+            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+            d3.select("#higherGroupBtn").style("visibility", "hidden");
             document.getElementById(
               "possibleOtherGroupsContainer"
             ).style.visibility = "hidden";
@@ -1058,6 +1067,8 @@
               "visible";
             d3.select("#current-section").style("visibility", "visible");
             d3.select("#specifiedGroups").style("visibility", "visible");
+            d3.select("#specifiedGroupsHeader").style("visibility", "visible");
+            d3.select("#higherGroupBtn").style("visibility", "visible");
             document.getElementById("higherLevelGroups").style.visibility =
               "hidden";
             d3.select("#container").style("height", "calc(100% - 75px)");
@@ -1073,6 +1084,8 @@
               "hidden";
             d3.select("#current-section").style("visibility", "hidden");
             d3.select("#specifiedGroups").style("visibility", "hidden");
+            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+            d3.select("#higherGroupBtn").style("visibility", "hidden");
             document.getElementById("higherLevelGroups").style.visibility =
               "hidden";
             break;

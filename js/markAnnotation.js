@@ -360,19 +360,24 @@ function markAnnotationChanged(attr) {
 }
 
 function showMarkTypeRole(mark, markDiv) {
+  let typeTag = document.createElement("span");
+  typeTag.style.color = "#444";
+  typeTag.style.fontSize = "12.5px";
+  markDiv.appendChild(typeTag);
   if (mark["Type"] !== "none") {
-    let typeTag = document.createElement("span");
     typeTag.innerHTML = "&nbsp;(" + mark["Type"] + ", ";
-    typeTag.style.color = "#444";
-    typeTag.style.fontSize = "12.5px";
-    markDiv.appendChild(typeTag);
+  } else {
+    typeTag.innerHTML = "&nbsp;(?, ";
   }
+
+  let roleTag = document.createElement("span");
+  roleTag.style.color = "#444";
+  roleTag.style.fontSize = "12.5px";
+  markDiv.appendChild(roleTag);
   if (mark["Role"] !== "none") {
-    let roleTag = document.createElement("span");
     roleTag.innerHTML = "&nbsp;" + mark["Role"] + ")";
-    roleTag.style.color = "#444";
-    roleTag.style.fontSize = "12.5px";
-    markDiv.appendChild(roleTag);
+  } else {
+    roleTag.innerHTML = "&nbsp;?)";
   }
 }
 
