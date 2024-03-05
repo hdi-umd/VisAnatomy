@@ -17,19 +17,20 @@ function initilizeLayoutAnnotation() {
 
 function createList(item) {
   const container = document.createElement("div");
-  container.style.backgroundColor = "#f0f0f0"; // Background color for each list
+  container.style.backgroundColor = "#E5FFFF"; // Background color for each list
+  container.style.padding = "3px";
 
   if (item.children && item.children !== "none") {
     const toggleButton = document.createElement("button");
     toggleButton.textContent = "+";
     toggleButton.style.cursor = "pointer";
     toggleButton.style.cssText =
-      "background-color: #75739e; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
+      "background-color: #eee; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
     toggleButton.addEventListener("click", function () {
       childrenContainer.classList.toggle("hidden");
       toggleButton.textContent = childrenContainer.classList.contains("hidden")
         ? "+"
-        : "-";
+        : "–";
     });
     container.appendChild(toggleButton);
   }
@@ -97,9 +98,9 @@ function createList(item) {
   layoutIndicator.textContent = " ";
   layoutIndicator.id = "layoutIndicator" + item.id;
   layoutIndicator.style.cssText =
-    "margin-left: 2px; vertical-align: middle; color: #03C03C;";
+    "margin-left: 2px; vertical-align: middle; color: #333;"; //03C03C
   layoutIndicator.textContent =
-    " " +
+    ": " +
     (Object.keys(groupLayouts).includes(item.id.toString())
       ? groupLayouts[item.id].type +
         (groupLayouts[item.id].params.orientation[0]
@@ -113,7 +114,8 @@ function createList(item) {
 
   const childrenContainer = document.createElement("ul");
   childrenContainer.classList.add("hidden");
-  childrenContainer.style.paddingLeft = "20px"; // Indent child lists
+  childrenContainer.style.paddingLeft = "40px"; // Indent child lists
+  childrenContainer.style.marginTop = "5px";
 
   if (item.children && item.children !== "none") {
     item.children.forEach((child) => {
@@ -201,7 +203,7 @@ function recordlayout() {
       selectElement.options[selectElement.selectedIndex].text;
     groupLayouts[selectedGroup] = getThisLayoutJson(selectedGroup);
     d3.select("#layoutIndicator" + selectedGroup).text(
-      " " +
+      ": " +
         thisLayoutType +
         (groupLayouts[selectedGroup].params.orientation[0]
           ? "-" + groupLayouts[selectedGroup].params.orientation[0]
@@ -237,7 +239,7 @@ function recordBatchGroupLayout() {
         group.forEach((groupID) => {
           groupLayouts[groupID] = thisLayoutJson;
           d3.select("#layoutIndicator" + groupID).text(
-            " " +
+            ": " +
               thisLayoutType +
               (thisLayoutJson.params.orientation[0]
                 ? "-" + thisLayoutJson.params.orientation[0]

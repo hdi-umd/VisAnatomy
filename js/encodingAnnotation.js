@@ -76,13 +76,14 @@ function initilizeEncodingAnnotation() {
 
 function createList2(item) {
   const container = document.createElement("div");
-  container.style.backgroundColor = "#f0f0f0"; // Background color for each list
+  container.style.backgroundColor = "#E5FFFF"; // Background color for each list
+  container.style.padding = "3px";
 
   const toggleButton = document.createElement("button");
-  toggleButton.textContent = "-";
+  toggleButton.textContent = "–";
   toggleButton.style.cursor = "pointer";
   toggleButton.style.cssText =
-    "background-color: #75739e; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
+    "background-color: #eee; border: none; font-size: 16px; margin-right: 5px; vertical-align: middle; cursor: pointer; width: 20px; height: 20px;";
   container.appendChild(toggleButton);
 
   const content = document.createElement("span");
@@ -140,7 +141,8 @@ function createList2(item) {
 
   const childrenContainer = document.createElement("ul");
   childrenContainer.classList.add("hidden");
-  childrenContainer.style.paddingLeft = "20px"; // Indent child lists
+  childrenContainer.style.paddingLeft = "40px"; // Indent child lists
+  childrenContainer.style.marginTop = "5px";
 
   if (item.children && item.children !== "none") {
     item.children.forEach((child) => {
@@ -154,7 +156,7 @@ function createList2(item) {
     item.marks.forEach((mark) => {
       let thisMarkEncoding = objectEncodings[mark];
       const markItem = document.createElement("li");
-      markItem.textContent = mark.split(" ")[0];
+      markItem.textContent = mark.split(" ")[0] + " ";
       d3.select(markItem)
         .on("mouseover", function () {
           d3.select(this).style("cursor", "pointer");
@@ -205,7 +207,7 @@ function createList2(item) {
     childrenContainer.classList.toggle("hidden");
     toggleButton.textContent = childrenContainer.classList.contains("hidden")
       ? "+"
-      : "-";
+      : "–";
   });
 
   childrenContainer.classList.toggle("hidden");
