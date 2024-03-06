@@ -79,7 +79,7 @@ function tryLoadAnnotations(filename) {
       displayAxis(xAxis);
       displayAxis(yAxis);
       displayLegend(legend);
-      disPlayTitles(chartTitle, titleLegend, titleXaxis, titleYaxis);
+      displayTitles(chartTitle, titleLegend, titleXaxis, titleYaxis);
     })
     .catch(function () {
       this.dataError = true;

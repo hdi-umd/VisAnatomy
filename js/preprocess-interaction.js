@@ -247,6 +247,7 @@ function drop(ev) {
           displayTitleLegendLabel(thisText);
           break;
         case "chart":
+          displayChartTitle(thisText);
           break;
       }
 
@@ -280,6 +281,7 @@ function drop(ev) {
           displayTitleLegendLabel(thisText, "delete");
           break;
         case "chart":
+          displayChartTitle(thisText, "delete");
           break;
       }
 
@@ -297,6 +299,7 @@ function drop(ev) {
           displayTitleLegendLabel(thisText);
           break;
         case "chart":
+          displayChartTitle(thisText);
           break;
       }
     }
@@ -308,12 +311,20 @@ function drop(ev) {
     /*dropping from title region into y label region */
     if (
       draggedFromID.startsWith("axisTitle") ||
-      draggedFromID.startsWith("legendTitle")
+      draggedFromID.startsWith("legendTitle") ||
+      draggedFromID.startsWith("chartTitle")
     ) {
       console.log("dropping from title boxes to label boxes");
-      let thisTitle = draggedFromID.startsWith("axisTitle") ? "axis" : "legend";
+      let thisTitle = draggedFromID.startsWith("axisTitle")
+        ? "axis"
+        : draggedFromID.startsWith("chartTitle")
+        ? "chart"
+        : "legend";
 
       switch (thisTitle) {
+        case "chart":
+          displayChartTitle(thisText, "delete");
+          break;
         case "axis":
           let thisIndex = draggedFromID.split("_")[1];
           axes[thisIndex].title.splice(

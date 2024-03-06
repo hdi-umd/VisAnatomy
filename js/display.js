@@ -293,7 +293,7 @@ function displayAxisTitle(thisText, axisIndex, mode) {
       .append("button")
       .datum(title)
       .attr("type", "button")
-      .attr("class", "titleButton")
+      .attr("class", "labelButton")
       .attr("style", "position: absolute; top: 1px; left: 200px")
       .attr("style", "width: 100%")
       .attr("id", "axis_" + axisIndex + "_titleIDinSVG" + title["id"]) // this ID is important!!
@@ -332,7 +332,7 @@ function displayTitleLegendLabel(thisText, mode) {
     .append("button")
     .datum(thisText)
     .attr("type", "button")
-    .attr("class", "titleLegendButton")
+    .attr("class", "labelButton")
     .attr("id", "legendTitleIDinSVG" + thisText["id"])
     .text(text)
     .attr("draggable", true)
@@ -353,42 +353,40 @@ function displayTitleLegendLabel(thisText, mode) {
 
 function displayChartTitle(thisText, mode) {
   if (mode === "delete") {
-    d3.select("#chartTitle")
-      .select("#" + "chartTitleIDinSVG" + thisText["id"])
-      .remove();
-    return;
+    chartTitle.splice(chartTitle.indexOf(thisText), 1);
   } else {
-    if (chartTitle.includes(thisText)) return;
-    else chartTitle.push(thisText);
+    if (!chartTitle.includes(thisText)) chartTitle.push(thisText);
   }
 
-  let text = thisText["content"];
+  d3.select("#chartTitle").selectAll("button").remove();
 
-  let btn = d3
-    .select("#chartTitle")
-    .append("button")
-    .datum(thisText)
-    .attr("type", "button")
-    .attr("class", "chartTitleButton")
-    .attr("id", "chartTitleIDinSVG" + thisText["id"])
-    .text(text)
-    .attr("draggable", true)
-    .on("dragstart", drag);
+  for (let thisTitle of chartTitle) {
+    let btn = d3
+      .select("#chartTitle")
+      .append("button")
+      .datum(thisTitle)
+      .attr("type", "button")
+      .attr("class", "chartTitleButton")
+      .attr("id", "chartTitleIDinSVG" + thisTitle["id"])
+      .text(thisTitle["content"])
+      .attr("draggable", true)
+      .on("dragstart", drag);
 
-  btn
-    .attr("style", "background-color: #f2f2f2")
-    .on("mouseover", function (event) {
-      d3.select(this) // Select the hovered button
-        .attr("style", "color: #fff");
-    })
-    .on("mouseout", function () {
-      d3.select(this) // Select the hovered button
-        .attr("style", "background-color: #f2f2f2; width: 100%")
-        .attr("style", "color: black");
-    });
+    btn
+      .attr("style", "background-color: #f2f2f2")
+      .on("mouseover", function (event) {
+        d3.select(this) // Select the hovered button
+          .attr("style", "color: #fff");
+      })
+      .on("mouseout", function () {
+        d3.select(this) // Select the hovered button
+          .attr("style", "background-color: #f2f2f2; width: 100%")
+          .attr("style", "color: black");
+      });
+  }
 }
 
-function disPlayTitles(chartTitle, legendTitle, xTitle, yTitle) {
+function displayTitles(chartTitle, legendTitle, xTitle, yTitle) {
   let allTitles = [chartTitle, legendTitle, xTitle, yTitle];
   ["chartTitle", "legendTitle", "xTitle", "yTitle"].forEach((id) => {
     d3.select("#" + id)
