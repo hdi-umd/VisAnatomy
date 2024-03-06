@@ -1,0 +1,8 @@
+SpiralPlot9.svg
+SpiralPlot8.svg
+CirclePacking9.svg
+Calendar10.svg
+SpiralPlot10.svg
+SpiralPlot3.svg
+SpiralPlot5.svg
+SpiralPlot6.svg
