@@ -53,13 +53,15 @@ function extract() {
   // X axis
   xAxis = findxAxis(texts);
   console.log("x axis", xAxis);
-  displayAxis(xAxis);
+  axes[1] = xAxis;
+  displayAxis(1);
   texts = texts.filter((text) => !xAxis.labels.includes(text));
 
   // Y axis
   yAxis = findyAxis(texts);
   console.log("y axis", yAxis);
-  displayAxis(yAxis);
+  axes[2] = yAxis;
+  displayAxis(2);
 
   [...legend.labels, ...legend.marks, ...xAxis.labels, ...yAxis.labels].forEach(
     (object) => {
@@ -426,21 +428,23 @@ function findAxisInArea(o, tl, br, texts) {
   }
   if (labels.length == 0) return;
 
-  let axis = o == "x" ? xAxis : yAxis;
-  axis["type"] = o;
+  let axis = axes[o];
+  axis["type"] = axis["type"] ? axis["type"] : o;
   axis["labels"] = labels;
   axis["ticks"] = [];
   axis["path"] = [];
+  axis["title"] = [];
+  axis["fieldType"] = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
 
   //remove from main content and the other axis/legend
-  let otherAxis = o == "y" ? xAxis : yAxis;
   for (let l of labels) {
     allGraphicsElement[l.id].isReferenceElement = true;
-    if (otherAxis.labels.indexOf(l) >= 0)
-      otherAxis.labels.splice(otherAxis.labels.indexOf(l), 1);
-    if (legend.labels.indexOf(l) >= 0)
-      legend.labels.splice(legend.labels.indexOf(l), 1);
   }
+  Object.keys(axes).forEach((key) => {
+    if (key != o) {
+      axes[key].labels = axes[key].labels.filter((l) => !labels.includes(l));
+    }
+  });
 
   // we leave the ticks and path to the mark annotation stage
 }
@@ -453,6 +457,7 @@ function findxAxis(texts) {
     type: "x",
     ticks: [],
     path: [],
+    title: [],
     fieldType: undefined,
   };
   for (let y of allY) {
@@ -480,6 +485,7 @@ function findyAxis(texts) {
     type: "y",
     ticks: [],
     path: [],
+    title: [],
     fieldType: undefined,
   };
   for (let x of allX) {

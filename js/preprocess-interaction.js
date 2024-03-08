@@ -43,34 +43,25 @@ function legendFieldTypeChanged() {
   }
 }
 
-function fieldTypeChanged(xy) {
-  let val = d3.select("#" + xy + "FieldType").property("value");
-  switch (xy) {
-    case "x":
-      if (val == "Null") {
-        let labels = xAxis.labels.map((d) => d);
-        for (let l of labels) {
-          removeAxisLabel(xy + "Labels", l);
-        }
-        xAxis.ticks = [];
-        displayAxis(xAxis);
-      }
-      xAxis.fieldType = val;
-      console.log(xAxis);
-      break;
-    case "y":
-      if (val == "Null") {
-        let labels = yAxis.labels.map((d) => d);
-        for (let l of labels) {
-          removeAxisLabel(xy + "Labels", l);
-        }
-        yAxis.ticks = [];
-        displayAxis(yAxis);
-      }
-      yAxis.fieldType = val;
-      console.log(yAxis);
-      break;
+function fieldTypeChanged(index) {
+  let val = d3.select("#fieldType_" + index).property("value");
+  index = parseInt(index);
+  if (val == "Null") {
+    let labels = axes[index].labels.map((d) => d);
+    for (let l of labels) {
+      removeAxisLabel("axisLabel_" + index, l);
+    }
+    axes[index] = { labels: [], fieldType: "Null" };
   }
+
+  axes[index].fieldType = val;
+  displayAxis(index);
+}
+
+function axisTypeChanged(index) {
+  let val = d3.select("#axisType_" + index).property("value");
+  axes[index].type = val;
+  displayAxis(index);
 }
 
 function enableAreaSelection() {
@@ -118,19 +109,21 @@ function enableAreaSelection() {
           btm = Math.max(y, clientY);
         const topLeft = clientPt2SVGPt(left, top),
           btmRight = clientPt2SVGPt(right, btm);
-        if (areaSelection == "x" || areaSelection == "y") {
+        if (areaSelection == "legend") {
+          findLegendInArea(topLeft, btmRight, groupedGraphicsElement.texts);
+        } else {
           findAxisInArea(
             areaSelection,
             topLeft,
             btmRight,
             groupedGraphicsElement.texts
           );
-        } else if (areaSelection == "legend") {
-          findLegendInArea(topLeft, btmRight, groupedGraphicsElement.texts);
         }
 
-        displayAxis(xAxis);
-        displayAxis(yAxis);
+        Object.keys(axes).forEach((k) => {
+          let index = parseInt(k);
+          displayAxis(index);
+        });
         displayLegend(legend);
         deactivateAreaSelect();
       }
@@ -139,11 +132,11 @@ function enableAreaSelection() {
     });
 }
 
-function activateAreaSelect(type) {
-  areaSelection = type;
+function activateAreaSelect(index) {
+  areaSelection = index;
   document.body.style.cursor = "crosshair";
   d3.selectAll(".selectAreaBtn").style("background", "#eee");
-  d3.select("#" + type + "Area").style("background", "#c8e6fa");
+  d3.select("#" + index + "Area").style("background", "#c8e6fa");
 }
 
 function deactivateAreaSelect() {
@@ -208,21 +201,24 @@ function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   let thisText = d3.select("#" + data).datum();
+  console.log(thisText);
 
   draggedToID = ev.srcElement.id;
+  if (draggedToID.includes("IDinSVG")) {
+    // make it its parent ID
+    draggedToID = ev.srcElement.parentNode.id;
+  }
   console.log("Dragging from " + draggedFromID + " to " + draggedToID);
 
-  /* dropping from a x/y axis label box into xtitle box */
   if (
-    draggedToID.startsWith("xTitle") ||
-    draggedToID.startsWith("yTitle") ||
-    draggedToID.startsWith("legendTitle")
+    draggedToID.startsWith("axisTitle") ||
+    draggedToID.startsWith("legendTitle") ||
+    draggedToID.startsWith("chartTitle")
   ) {
-    if (
-      draggedFromID.startsWith("xLabels") ||
-      draggedFromID.startsWith("yLabels")
-    ) {
-      let thisAxis = draggedFromID.startsWith("xLabels") ? xAxis : yAxis;
+    console.log("dropping into title boxes");
+    if (draggedFromID.startsWith("axisLabel")) {
+      console.log("dropping from axis label to title boxes");
+      let thisAxis = axes[draggedFromID.split("_")[1]];
       if (thisAxis["labels"].indexOf(thisText) >= 0) {
         thisAxis["labels"].splice(thisAxis["labels"].indexOf(thisText), 1);
       }
@@ -234,97 +230,108 @@ function drop(ev) {
         }
       }
 
-      let thisTitle = draggedToID.startsWith("xTitle")
-        ? "x"
-        : draggedToID.startsWith("yTitle")
-        ? "y"
-        : "legend";
+      let thisTitle =
+        draggedToID === "legendTitle"
+          ? "legend"
+          : draggedToID === "chartTitle"
+          ? "chart"
+          : "axis";
 
       switch (thisTitle) {
-        case "x":
-          displayTitleXLabel(thisText);
-          break;
-        case "y":
-          displayTitleYLabel(thisText);
+        case "axis":
+          console.log("dropping from axis label to axis title");
+          // need a new displayAxisTitle function
+          displayAxisTitle(thisText, draggedToID.split("_")[1]);
           break;
         case "Legend":
           displayTitleLegendLabel(thisText);
           break;
+        case "chart":
+          displayChartTitle(thisText);
+          break;
       }
 
-      displayAxis(xAxis);
-      displayAxis(yAxis);
+      Object.keys(axes).forEach((k) => {
+        let index = parseInt(k);
+        displayAxis(index);
+      });
     } else if (
       draggedFromID.startsWith("legendTitle") ||
-      draggedFromID.startsWith("xTitle") ||
-      draggedFromID.startsWith("yTitle")
+      draggedFromID.startsWith("axisTitle") ||
+      draggedFromID.startsWith("chartTitle")
     ) {
-      let sourceTitle = draggedFromID.startsWith("xTitle")
-        ? "x"
-        : draggedFromID.startsWith("yTitle")
-        ? "y"
-        : "legend";
+      console.log("dropping from title boxes to title boxes");
+      let sourceTitle = draggedFromID.startsWith("legendTitle")
+        ? "legend"
+        : draggedFromID.startsWith("chartTitle")
+        ? "chart"
+        : "axis";
 
       switch (sourceTitle) {
-        case "x":
-          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-          displayTitleXLabel(thisText, "delete");
-          break;
-        case "y":
-          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-          displayTitleYLabel(thisText, "delete");
+        case "axis":
+          let thisIndex = draggedFromID.split("_")[1];
+          axes[thisIndex].title.splice(
+            axes[thisIndex].title.indexOf(thisText),
+            1
+          );
+          displayAxisTitle(thisText, thisIndex, "delete");
           break;
         case "legend":
           titleLegend.splice(titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
           break;
+        case "chart":
+          displayChartTitle(thisText, "delete");
+          break;
       }
 
-      let thisTitle = draggedToID.startsWith("xTitle")
-        ? "x"
-        : draggedToID.startsWith("yTitle")
-        ? "y"
-        : "legend";
+      let thisTitle = draggedToID.startsWith("axisTitle")
+        ? "axis"
+        : draggedToID.startsWith("legendTitle")
+        ? "legend"
+        : "chart";
 
       switch (thisTitle) {
-        case "x":
-          displayTitleXLabel(thisText);
-          break;
-        case "y":
-          displayTitleYLabel(thisText);
+        case "axis":
+          displayAxisTitle(thisText, draggedToID.split("_")[1]);
           break;
         case "legend":
           displayTitleLegendLabel(thisText);
           break;
+        case "chart":
+          displayChartTitle(thisText);
+          break;
       }
     }
-  } else if (
-    draggedToID.startsWith("xLabels") ||
-    draggedToID.startsWith("yLabels")
-  ) {
+  } else if (draggedToID.startsWith("axisLabel")) {
+    console.log("dropping into axis label boxes");
     // need to handle legend label
     let thisText = d3.select("#" + data).datum();
     // when the element is dropped in the detected region
     /*dropping from title region into y label region */
     if (
-      draggedFromID.startsWith("xTitle") ||
-      draggedFromID.startsWith("yTitle") ||
-      draggedFromID.startsWith("legendTitle")
+      draggedFromID.startsWith("axisTitle") ||
+      draggedFromID.startsWith("legendTitle") ||
+      draggedFromID.startsWith("chartTitle")
     ) {
-      let thisTitle = draggedFromID.startsWith("xTitle")
-        ? "x"
-        : draggedFromID.startsWith("yTitle")
-        ? "y"
+      console.log("dropping from title boxes to label boxes");
+      let thisTitle = draggedFromID.startsWith("axisTitle")
+        ? "axis"
+        : draggedFromID.startsWith("chartTitle")
+        ? "chart"
         : "legend";
 
       switch (thisTitle) {
-        case "x":
-          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-          displayTitleXLabel(thisText, "delete");
+        case "chart":
+          displayChartTitle(thisText, "delete");
           break;
-        case "y":
-          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-          displayTitleYLabel(thisText, "delete");
+        case "axis":
+          let thisIndex = draggedFromID.split("_")[1];
+          axes[thisIndex].title.splice(
+            axes[thisIndex].title.indexOf(thisText),
+            1
+          );
+          displayAxisTitle(thisText, draggedFromID.split("_")[1], "delete");
           break;
         case "legend":
           titleLegend.splice(titleLegend.indexOf(thisText), 1);
@@ -332,66 +339,49 @@ function drop(ev) {
           break;
       }
 
-      let thisAxis = draggedToID.startsWith("xLabels") ? xAxis : yAxis;
+      axes[draggedToID.split("_")[1]]["labels"].push(thisText); // TBD: need to handle upper levels [IMPORTANT]
 
-      thisAxis["labels"].push(thisText); // TBD: need to handle upper levels [IMPORTANT]
-
-      displayAxis(xAxis);
-      displayAxis(yAxis);
-    }
-    if (
-      draggedFromID.startsWith("xLabels") ||
-      draggedFromID.startsWith("yLabels")
-    ) {
-      // check if the dragged element is also from an axis display box
-      undoStack.push({
-        xAxis: duplicate(xAxis),
-        yAxis: duplicate(yAxis),
-        legend: duplicate(legend),
-        btnCheck: Object.assign({}, btnCheck),
+      Object.keys(axes).forEach((k) => {
+        let index = parseInt(k);
+        displayAxis(index);
       });
+    }
+    if (draggedFromID.startsWith("axisLabel")) {
+      console.log("dropping from axis label to axis label");
       moveAxisLabel(draggedFromID, draggedToID, d3.select("#" + data).datum());
-      displayAxis(xAxis);
-      displayAxis(yAxis);
+      Object.keys(axes).forEach((k) => {
+        let index = parseInt(k);
+        displayAxis(index);
+      });
       ev.stopImmediatePropagation(); // stop the event from bubbling up to the SVG element
     }
   } else {
-    // when an label from detected region are dropped outside, delete it
-    undoStack.push({
-      xAxis: duplicate(xAxis),
-      yAxis: duplicate(yAxis),
-      legend: duplicate(legend),
-      btnCheck: Object.assign({}, btnCheck),
-    });
-    if (
-      draggedFromID.startsWith("xLabels") ||
-      draggedFromID.startsWith("yLabels")
-    ) {
+    if (draggedFromID.startsWith("axisLabel")) {
+      console.log("dropping from axis label to other regions");
       removeAxisLabel(draggedFromID, d3.select("#" + data).datum());
-      displayAxis(xAxis);
-      displayAxis(yAxis);
+      Object.keys(axes).forEach((k) => {
+        let index = parseInt(k);
+        displayAxis(index);
+      });
     } else if (draggedFromID == "legendLabels") {
       removeLegendLabel(d3.select("#" + data).datum());
       displayLegend(legend);
     } else if (
-      draggedFromID.startsWith("xTitle") ||
-      draggedFromID.startsWith("yTitle") ||
+      draggedFromID.startsWith("axisTitle") ||
       draggedFromID.startsWith("legendTitle")
     ) {
-      let thisTitle = draggedFromID.startsWith("xTitle")
-        ? "x"
-        : draggedFromID.startsWith("yTitle")
-        ? "y"
-        : "legend";
+      let thisTitle = draggedFromID.startsWith("legendTitle")
+        ? "legend"
+        : "axis";
 
       switch (thisTitle) {
-        case "x":
-          titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-          displayTitleXLabel(thisText, "delete");
-          break;
-        case "y":
-          titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-          displayTitleYLabel(thisText, "delete");
+        case "axis":
+          let thisIndex = draggedFromID.split("_")[1];
+          axes[thisIndex].title.splice(
+            axes[thisIndex].title.indexOf(thisText),
+            1
+          );
+          displayAxisTitle(thisText, thisIndex, "delete");
           break;
         case "legend":
           titleLegend.splice(titleLegend.indexOf(thisText), 1);
@@ -407,25 +397,17 @@ function drop(ev) {
 }
 
 function addAxisLabel(TargetID, text) {
-  let axis = TargetID.startsWith("xLabels") ? xAxis : yAxis,
-    otherAxis = TargetID.startsWith("xLabels") ? yAxis : xAxis;
-  let accessor = TargetID.split("Labels")[1];
-  if (otherAxis["labels"].indexOf(text) >= 0) {
-    otherAxis["labels"].splice(otherAxis["labels"].indexOf(text), 1);
-  }
-  if (otherAxis["upperLevels"]) {
-    for (let level of otherAxis.upperLevels) {
-      if (level.indexOf(text) >= 0) {
-        level.splice(level.indexOf(text), 1);
-      }
+  Object.keys(axes).forEach((k) => {
+    let index = parseInt(k);
+    if (axes[index]["labels"].indexOf(text) >= 0) {
+      axes[index]["labels"].splice(axes[index]["labels"].indexOf(text), 1);
     }
-  }
-  if (accessor) {
-    let level = axis["upperLevels"][parseInt(accessor) - 1];
-    if (level.indexOf(text) < 0) level.push(text);
-  } else {
-    if (axis["labels"].indexOf(text) < 0) axis["labels"].push(text);
-  }
+  });
+  axes[TargetID.split("_")[1]]["labels"].push(text);
+  Object.keys(axes).forEach((k) => {
+    let index = parseInt(k);
+    displayAxis(index);
+  });
   allGraphicsElement[text.id].isReferenceElement = true;
 }
 
@@ -435,24 +417,20 @@ function addLegendLabel(text) {
 }
 
 function moveAxisLabel(fromID, toID, text) {
-  let from = fromID.startsWith("xLabels") ? xAxis : yAxis,
-    to = toID.startsWith("xLabels") ? xAxis : yAxis;
-  if (from["labels"].indexOf(text) >= 0) {
-    from["labels"].splice(from["labels"].indexOf(text), 1);
+  let from = fromID.split("_")[1],
+    to = toID.split("_")[1];
+  if (axes[from]["labels"].indexOf(text) >= 0) {
+    axes[from]["labels"].splice(axes[from]["labels"].indexOf(text), 1);
   } else if (from.upperLevels) {
     for (let level of from.upperLevels) {
       if (level.indexOf(text) >= 0) level.splice(level.indexOf(text), 1);
     }
   }
-  let accessor = toID.split("Labels")[1];
-  if (accessor) {
-    let level = to["upperLevels"][parseInt(accessor) - 1];
-    if (level.indexOf(text) < 0) level.push(text);
-  } else if (to["labels"].indexOf(text) < 0) to["labels"].push(text);
+  if (axes[to]["labels"].indexOf(text) < 0) axes[to]["labels"].push(text);
 }
 
 function removeAxisLabel(fromID, text) {
-  let axis = fromID.startsWith("xLabels") ? xAxis : yAxis;
+  let axis = axes[fromID.split("_")[1]];
   if (axis["labels"].indexOf(text) >= 0) {
     axis["labels"].splice(axis["labels"].indexOf(text), 1);
   } else if (axis.upperLevels) {
@@ -528,108 +506,96 @@ function enableDragDrop(texts) {
       for (let e of elements) {
         if (e.tagName !== "DIV") continue;
         if (e.id == "legendLabels") {
-          undoStack.push({
-            xAxis: duplicate(xAxis),
-            yAxis: duplicate(yAxis),
-            legend: duplicate(legend),
-            btnCheck: Object.assign({}, btnCheck),
-          });
           addLegendLabel(thisText);
           displayLegend(legend);
-        } else if (e.id.startsWith("xLabels") || e.id.startsWith("yLabels")) {
+        } else if (e.id.startsWith("axisLabel")) {
           TargetID = e.id;
-          undoStack.push({
-            xAxis: duplicate(xAxis),
-            yAxis: duplicate(yAxis),
-            legend: duplicate(legend),
-            btnCheck: Object.assign({}, btnCheck),
-          });
           addAxisLabel(TargetID, thisText);
-          displayAxis(xAxis);
-          displayAxis(yAxis);
+          Object.keys(axes).forEach((k) => {
+            let index = parseInt(k);
+            displayAxis(index);
+          });
 
-          if (
-            TargetID.startsWith("xLabels")
-              ? !("baseline" in xAxis) ||
-                Math.abs(xAxis["baseline"] - thisText.y) <= 30
-              : !("baseline" in yAxis) ||
-                Math.abs(yAxis["baseline"] - thisText.x) <= 30
-          ) {
-            let thisOri = TargetID.startsWith("xLabels") ? "top" : "left";
-            let thisHtml =
-              "Add the other texts sharing the same " +
-              thisOri +
-              " coordinate as axis labels?";
-            d3.select("body")
-              .append("div")
-              .attr("class", "tooltip2")
-              .style("border", "#ccc 1px solid")
-              .style("padding", "20px")
-              .html(thisHtml)
-              .style("left", event.sourceEvent.pageX + "px")
-              .style("top", event.sourceEvent.pageY - 60 + "px");
-            d3.select(".tooltip2")
-              .append("button")
-              .attr("type", "button")
-              .attr("id", "yes")
-              .style("fill", "white")
-              .style("margin-top", "10px")
-              .style("width", "100px")
-              .html("yes")
-              .on("click", function (e) {
-                let toAdd = texts.filter(
-                  (d) => d[thisOri] == thisText[thisOri] && d.id != thisText.id
-                );
-                if (toAdd.length > 0) {
-                  undoStack.push({
-                    xAxis: duplicate(xAxis),
-                    yAxis: duplicate(yAxis),
-                    legend: duplicate(legend),
-                    btnCheck: Object.assign({}, btnCheck),
-                  });
-                  for (let t of toAdd) {
-                    addAxisLabel(TargetID, t);
-                  }
-                  displayAxis(xAxis);
-                  displayAxis(yAxis);
-                }
-                d3.selectAll(".tooltip2").remove();
-              });
-            d3.select(".tooltip2")
-              .append("button")
-              .attr("type", "button")
-              .attr("id", "no")
-              .style("fill", "white")
-              .style("margin-top", "10px")
-              .style("width", "100px")
-              .html("no")
-              .on("click", function (e) {
-                d3.selectAll(".tooltip2").remove();
-              });
-          }
+          //// TBD: handle the batch add based on the x or y coordinates
+          // if (
+          //   TargetID.startsWith("xLabels")
+          //     ? !("baseline" in xAxis) ||
+          //       Math.abs(xAxis["baseline"] - thisText.y) <= 30
+          //     : !("baseline" in yAxis) ||
+          //       Math.abs(yAxis["baseline"] - thisText.x) <= 30
+          // ) {
+          //   let thisOri = TargetID.startsWith("xLabels") ? "top" : "left";
+          //   let thisHtml =
+          //     "Add the other texts sharing the same " +
+          //     thisOri +
+          //     " coordinate as axis labels?";
+          //   d3.select("body")
+          //     .append("div")
+          //     .attr("class", "tooltip2")
+          //     .style("border", "#ccc 1px solid")
+          //     .style("padding", "20px")
+          //     .html(thisHtml)
+          //     .style("left", event.sourceEvent.pageX + "px")
+          //     .style("top", event.sourceEvent.pageY - 60 + "px");
+          //   d3.select(".tooltip2")
+          //     .append("button")
+          //     .attr("type", "button")
+          //     .attr("id", "yes")
+          //     .style("fill", "white")
+          //     .style("margin-top", "10px")
+          //     .style("width", "100px")
+          //     .html("yes")
+          //     .on("click", function (e) {
+          //       let toAdd = texts.filter(
+          //         (d) => d[thisOri] == thisText[thisOri] && d.id != thisText.id
+          //       );
+          //       if (toAdd.length > 0) {
+          //         undoStack.push({
+          //           xAxis: duplicate(xAxis),
+          //           yAxis: duplicate(yAxis),
+          //           legend: duplicate(legend),
+          //           btnCheck: Object.assign({}, btnCheck),
+          //         });
+          //         for (let t of toAdd) {
+          //           addAxisLabel(TargetID, t);
+          //         }
+          //         displayAxis(xAxis);
+          //         displayAxis(yAxis);
+          //       }
+          //       d3.selectAll(".tooltip2").remove();
+          //     });
+          //   d3.select(".tooltip2")
+          //     .append("button")
+          //     .attr("type", "button")
+          //     .attr("id", "no")
+          //     .style("fill", "white")
+          //     .style("margin-top", "10px")
+          //     .style("width", "100px")
+          //     .html("no")
+          //     .on("click", function (e) {
+          //       d3.selectAll(".tooltip2").remove();
+          //     });
+          // }
 
-          // buttonCheck(TargetID, thisText);
           break;
         } else if (e.id.startsWith("legendTitle")) {
-          //check if the dragged element is present in the xAxis label
+          //check if the dragged element is present in the axis labels
           //and remove it from the label if present
-          for (let i = 0; i < xAxis["labels"].length; i++) {
-            if (xAxis["labels"][i]["content"] === thisText["content"]) {
-              xAxis["labels"].splice(i, 1);
-              displayAxis(xAxis);
-              break;
+          Object.keys(axes).forEach((k) => {
+            let index = parseInt(k);
+            if (axes[index]["labels"].indexOf(thisText) >= 0) {
+              axes[index]["labels"].splice(
+                axes[index]["labels"].indexOf(thisText),
+                1
+              );
             }
-          }
-
-          //check if the dragged element is present in the yAxis label
-          //and remove it from the label if present
-          for (let i = 0; i < yAxis["labels"].length; i++) {
-            if (yAxis["labels"][i]["content"] === thisText["content"]) {
-              yAxis["labels"].splice(i, 1);
-              displayAxis(yAxis);
-              break;
+            if (axes[index]["title"].indexOf(thisText) >= 0) {
+              axes[index]["title"].splice(
+                axes[index]["title"].indexOf(thisText),
+                1
+              );
             }
-          }
+          });
 
           //check if the dragged element is present in the legend label
           //and remove it from the label if present
@@ -640,42 +606,30 @@ function enableDragDrop(texts) {
               displayLegend(legend);
               break;
             }
-          }
-
-          if (titleYaxis.includes(thisText)) {
-            titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-            displayTitleYLabel(thisText, "delete");
-          }
-
-          if (titleXaxis.includes(thisText)) {
-            titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-            displayTitleXLabel(thisText, "delete");
           }
 
           displayTitleLegendLabel(thisText);
         }
 
         //if we drop the dragged element in the title box region
-        else if (e.id.startsWith("xTitle")) {
-          //check if the dragged element is present in the xAxis label
+        else if (e.id.startsWith("axisTitle")) {
+          //check if the dragged element is present in the axis label
           //and remove it from the label if present
-          for (let i = 0; i < xAxis["labels"].length; i++) {
-            if (xAxis["labels"][i]["content"] === thisText["content"]) {
-              xAxis["labels"].splice(i, 1);
-              displayAxis(xAxis);
-              break;
+          Object.keys(axes).forEach((k) => {
+            let index = parseInt(k);
+            if (axes[index]["labels"].indexOf(thisText) >= 0) {
+              axes[index]["labels"].splice(
+                axes[index]["labels"].indexOf(thisText),
+                1
+              );
             }
-          }
-
-          //check if the dragged element is present in the yAxis label
-          //and remove it from the label if present
-          for (let i = 0; i < yAxis["labels"].length; i++) {
-            if (yAxis["labels"][i]["content"] === thisText["content"]) {
-              yAxis["labels"].splice(i, 1);
-              displayAxis(yAxis);
-              break;
+            if (axes[index]["title"].indexOf(thisText) >= 0) {
+              axes[index]["title"].splice(
+                axes[index]["title"].indexOf(thisText),
+                1
+              );
             }
-          }
+          });
 
           //check if the dragged element is present in the legend label
           //and remove it from the label if present
@@ -688,63 +642,7 @@ function enableDragDrop(texts) {
             }
           }
 
-          //if the dragged element is already present in the y title display
-          //remove the button from there and display the dragged element in x title
-          if (titleYaxis.includes(thisText)) {
-            titleYaxis.splice(titleYaxis.indexOf(thisText), 1);
-            displayTitleYLabel(thisText, "delete");
-          }
-          if (titleLegend.includes(thisText)) {
-            titleLegend.splice(titleLegend.indexOf(thisText), 1);
-            displayTitleLegendLabel(thisText, "delete");
-          }
-
-          displayTitleXLabel(thisText);
-        } else if (e.id.startsWith("yTitle")) {
-          //check if the dragged element is present in the xAxis label
-          //and remove it from the label if present
-          for (let i = 0; i < xAxis["labels"].length; i++) {
-            if (xAxis["labels"][i]["content"] === thisText["content"]) {
-              xAxis["labels"].splice(i, 1);
-              displayAxis(xAxis);
-              break;
-            }
-          }
-
-          //check if the dragged element is present in the yAxis label
-          //and remove it from the label if present
-          for (let i = 0; i < yAxis["labels"].length; i++) {
-            if (yAxis["labels"][i]["content"] === thisText["content"]) {
-              yAxis["labels"].splice(i, 1);
-              displayAxis(yAxis);
-              break;
-            }
-          }
-
-          //check if the dragged element is present in the legend label
-          //and remove it from the label if present
-
-          for (let i = 0; i < legend["labels"].length; i++) {
-            if (legend["labels"][i]["content"] === thisText["content"]) {
-              legend["labels"].splice(i, 1);
-              displayLegend(legend);
-              break;
-            }
-          }
-
-          //if the dragged element is already present in the y title display
-          //remove the button from there and display the dragged element in x title
-          if (titleXaxis.includes(thisText)) {
-            titleXaxis.splice(titleXaxis.indexOf(thisText), 1);
-            displayTitleXLabel(thisText, "delete");
-          }
-
-          if (titleLegend.includes(thisText)) {
-            titleLegend.splice(titleLegend.indexOf(thisText), 1);
-            displayTitleLegendLabel(thisText, "delete");
-          }
-
-          displayTitleYLabel(thisText);
+          displayAxisTitle(thisText, e.id.split("_")[1]);
         } else if (e.id.startsWith("chartTitle")) {
           displayChartTitle(thisText);
         }

@@ -4,6 +4,10 @@ function initilizeVariables() {
   annotations = {};
   xAxis = {};
   yAxis = {};
+  axes = {
+    1: { labels: [], fieldType: "Null", title: [], type: "x" },
+    2: { labels: [], fieldType: "Null", title: [], type: "y" },
+  };
   legend = {};
   xGridlines = [];
   yGridlines = [];
@@ -48,8 +52,16 @@ function tryLoadAnnotations(filename) {
       groupedGraphicsElement = annotations.groupedGraphicsElement
         ? annotations.groupedGraphicsElement
         : {};
-      xAxis = annotations.referenceElement.xAxis;
-      yAxis = annotations.referenceElement.yAxis;
+      xAxis = annotations.referenceElement.xAxis
+        ? annotations.referenceElement.xAxis
+        : {};
+      yAxis = annotations.referenceElement.yAxis
+        ? annotations.referenceElement.yAxis
+        : {};
+      axes = annotations.referenceElement.axes
+        ? annotations.referenceElement.axes
+        : { 1: xAxis, 2: yAxis };
+      console.log(axes);
       legend = annotations.referenceElement.legend;
       xGridlines = annotations.referenceElement.xGridlines;
       yGridlines = annotations.referenceElement.yGridlines;
@@ -66,18 +78,18 @@ function tryLoadAnnotations(filename) {
       titleLegend = annotations.referenceElement.legend.title
         ? annotations.referenceElement.legend.title
         : [];
-      titleXaxis = annotations.referenceElement.xAxis.title
-        ? annotations.referenceElement.xAxis.title
-        : [];
-      titleYaxis = annotations.referenceElement.yAxis.title
-        ? annotations.referenceElement.yAxis.title
-        : [];
-      displayAxis(xAxis);
-      displayAxis(yAxis);
+      console.log("start loading axes");
+      Object.keys(axes).forEach((k) => {
+        let index = parseInt(k);
+        console.log("loading axis", index, axes[index]);
+        displayAxis(index);
+      });
+      console.log("end loading axes");
       displayLegend(legend);
-      disPlayTitles(chartTitle, titleLegend, titleXaxis, titleYaxis);
+      displayTitles(chartTitle, titleLegend);
     })
     .catch(function () {
+      console.log("error loading the annotation file");
       this.dataError = true;
     });
 }
@@ -120,10 +132,8 @@ function post() {
     legend.marks,
     legend.labels,
     legend.title,
-    xAxis.labels,
-    yAxis.labels,
-    xAxis.title,
-    yAxis.title,
+    ...Object.keys(axes).map((k) => axes[k].labels),
+    ...Object.keys(axes).map((k) => axes[k].title),
   ].forEach((object) => {
     if (!object) return;
     if (object.length > 0) {
@@ -132,20 +142,21 @@ function post() {
       });
     }
   });
-  if (xAxis.upperLevels) {
-    xAxis.upperLevels.forEach((level) => {
-      level.forEach((element) => {
-        allGraphicsElement[element.id].isReferenceElement = true;
-      });
-    });
-  }
-  if (yAxis.upperLevels) {
-    yAxis.upperLevels.forEach((level) => {
-      level.forEach((element) => {
-        allGraphicsElement[element.id].isReferenceElement = true;
-      });
-    });
-  }
+  //// TBD: handle higher level labels using new axes?
+  // if (xAxis.upperLevels) {
+  //   xAxis.upperLevels.forEach((level) => {
+  //     level.forEach((element) => {
+  //       allGraphicsElement[element.id].isReferenceElement = true;
+  //     });
+  //   });
+  // }
+  // if (yAxis.upperLevels) {
+  //   yAxis.upperLevels.forEach((level) => {
+  //     level.forEach((element) => {
+  //       allGraphicsElement[element.id].isReferenceElement = true;
+  //     });
+  //   });
+  // }
   annotations.allGraphicsElement = allGraphicsElement;
   annotations.groupedGraphicsElement = groupedGraphicsElement;
   annotations.chartTitle =
@@ -168,63 +179,66 @@ function post() {
     (mark) => markInfo[mark].Role === "Vertical Gridline"
   );
 
-  // complete x axis elements
-  xAxis.path = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "X Axis Line"
-  );
-  xAxis.ticks = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "X Axis Tick"
-  );
-  xAxis.title =
-    titleXaxis.length > 0
-      ? titleXaxis.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "X Axis Title")
-          .map((title) => allGraphicsElement[title]);
-  xAxis.labels =
-    xAxis.labels.length > 0
-      ? xAxis.labels.map((label) => allGraphicsElement[label.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "X Axis Label")
-          .map((label) => allGraphicsElement[label]);
-  xAxis.fieldType = d3.select("#xFieldType").property("value");
-  if (xAxis.upperLevels) {
-    let newUpperLevels = [];
-    xAxis.upperLevels.forEach((level) => {
-      newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-    });
-    xAxis.upperLevels = newUpperLevels;
-  }
-  annotations.referenceElement["xAxis"] = xAxis;
+  // save the axes
+  annotations.referenceElement["axes"] = axes;
 
-  // complete y axis elements
-  yAxis.path = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Y Axis Line"
-  );
-  yAxis.ticks = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Y Axis Tick"
-  );
-  yAxis.title =
-    titleYaxis.length > 0
-      ? titleYaxis.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Y Axis Title")
-          .map((title) => allGraphicsElement[title]);
-  yAxis.labels =
-    yAxis.labels.length > 0
-      ? yAxis.labels.map((label) => allGraphicsElement[label.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Y Axis Label")
-          .map((label) => allGraphicsElement[label]);
-  yAxis.fieldType = d3.select("#yFieldType").property("value");
-  if (yAxis.upperLevels) {
-    let newUpperLevels = [];
-    yAxis.upperLevels.forEach((level) => {
-      newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-    });
-    yAxis.upperLevels = newUpperLevels;
-  }
-  annotations.referenceElement["yAxis"] = yAxis;
+  // // complete x axis elements
+  // xAxis.path = Object.keys(markInfo).filter(
+  //   (mark) => markInfo[mark].Role === "X Axis Line"
+  // );
+  // xAxis.ticks = Object.keys(markInfo).filter(
+  //   (mark) => markInfo[mark].Role === "X Axis Tick"
+  // );
+  // xAxis.title =
+  //   titleXaxis.length > 0
+  //     ? titleXaxis.map((title) => allGraphicsElement[title.id])
+  //     : Object.keys(markInfo)
+  //         .filter((mark) => markInfo[mark].Role === "X Axis Title")
+  //         .map((title) => allGraphicsElement[title]);
+  // xAxis.labels =
+  //   xAxis.labels.length > 0
+  //     ? xAxis.labels.map((label) => allGraphicsElement[label.id])
+  //     : Object.keys(markInfo)
+  //         .filter((mark) => markInfo[mark].Role === "X Axis Label")
+  //         .map((label) => allGraphicsElement[label]);
+  // xAxis.fieldType = d3.select("#xFieldType").property("value");
+  // if (xAxis.upperLevels) {
+  //   let newUpperLevels = [];
+  //   xAxis.upperLevels.forEach((level) => {
+  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
+  //   });
+  //   xAxis.upperLevels = newUpperLevels;
+  // }
+  // annotations.referenceElement["xAxis"] = xAxis;
+
+  // // complete y axis elements
+  // yAxis.path = Object.keys(markInfo).filter(
+  //   (mark) => markInfo[mark].Role === "Y Axis Line"
+  // );
+  // yAxis.ticks = Object.keys(markInfo).filter(
+  //   (mark) => markInfo[mark].Role === "Y Axis Tick"
+  // );
+  // yAxis.title =
+  //   titleYaxis.length > 0
+  //     ? titleYaxis.map((title) => allGraphicsElement[title.id])
+  //     : Object.keys(markInfo)
+  //         .filter((mark) => markInfo[mark].Role === "Y Axis Title")
+  //         .map((title) => allGraphicsElement[title]);
+  // yAxis.labels =
+  //   yAxis.labels.length > 0
+  //     ? yAxis.labels.map((label) => allGraphicsElement[label.id])
+  //     : Object.keys(markInfo)
+  //         .filter((mark) => markInfo[mark].Role === "Y Axis Label")
+  //         .map((label) => allGraphicsElement[label]);
+  // yAxis.fieldType = d3.select("#yFieldType").property("value");
+  // if (yAxis.upperLevels) {
+  //   let newUpperLevels = [];
+  //   yAxis.upperLevels.forEach((level) => {
+  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
+  //   });
+  //   yAxis.upperLevels = newUpperLevels;
+  // }
+  // annotations.referenceElement["yAxis"] = yAxis;
 
   // complete legend elements
   legend.title =

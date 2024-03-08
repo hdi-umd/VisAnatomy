@@ -102,11 +102,44 @@
           Save
         </button> -->
       </div>
-      <div class="mainbox" id="axisAndLegend">
+
+      <div class="pop-out-container" id="popOutContainer">
+        <span class="close-button" id="closeButton">&times;</span>
+        <div class="pop-out-content">
+          Axes allow you to associate data points with specific values. Axis
+          ticks help indicate the value of a chart's point. Axis titles provide
+          you with context about these values. Axis labels describe portions of
+          the axis.<br /><br />
+          Legends help you to understand marks used in a visualization. Titles
+          describe what part of the visualization the legend is describing. Keys
+          are items that correspond to marks in the chart. Key labels describe
+          what each key represents.<br /><br />
+          Please refer to this
+          <a
+            href="https://docs.google.com/presentation/d/16inrHVY68xlDkUvm1-vOiDvc73Lzdrz4k1TeXARsj_g/edit#slide=id.g284e6c3512f_0_24"
+            target="_blank"
+            >link</a
+          >
+          for more information.
+        </div>
+      </div>
+
+      <div
+        class="mainbox"
+        id="axisAndLegend"
+        style="overflow-y: auto; max-height: 400px"
+      >
         <div style="margin-left: 20px">
           <span style="margin-right: 30px; font-weight: bold"
             >Axis & Legend Detection Results</span
           >
+          <span
+            ><img
+              src="img/plus.png"
+              alt="Add Axis"
+              style="width: 15px; height: 15px; cursor: pointer"
+              onclick="addAxisConfiguration();"
+          /></span>
           <span
             ><img
               id="questionMark"
@@ -127,140 +160,138 @@
             ondrop="drop(event)"
             ondragover="allowDrop(event)"
           ></div>
-          <div class="pop-out-container" id="popOutContainer">
-            <span class="close-button" id="closeButton">&times;</span>
-            <div class="pop-out-content">
-              Axes allow you to associate data points with specific values. Axis
-              ticks help indicate the value of a chart's point. Axis titles
-              provide you with context about these values. Axis labels describe
-              portions of the axis.<br /><br />
-              Legends help you to understand marks used in a visualization.
-              Titles describe what part of the visualization the legend is
-              describing. Keys are items that correspond to marks in the chart.
-              Key labels describe what each key represents.<br /><br />
-              Please refer to this
-              <a
-                href="https://docs.google.com/presentation/d/16inrHVY68xlDkUvm1-vOiDvc73Lzdrz4k1TeXARsj_g/edit#slide=id.g284e6c3512f_0_24"
-                target="_blank"
-                >link</a
-              >
-              for more information.
-            </div>
-          </div>
         </div>
         <div class="float-container" id="buttons" style="display: block">
-          <!-- This is the main x axis div -->
-          <div class="axisDiv" id="xAxisDiv">
+          <!-- This is the main axis div -->
+          <div class="axisDiv" id="axis_1">
             <!--This is the first part of the column-->
-            <div class="axisMeta" id="xAxisMeta">
-              <b>X axis</b>
+            <div class="axisMeta">
+              <select
+                class="axisType fieldType"
+                id="axisType_1"
+                onchange="axisTypeChanged(1)"
+                style="font-size: 12px; width: 60px"
+              >
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="polar">Polar</option>
+              </select>
+              <b>Axis</b>
+              <div style="display: inline-block">
+                <select
+                  class="fieldType"
+                  id="fieldType_1"
+                  onchange="fieldTypeChanged(1)"
+                  style="width: 75px; font-size: 12px"
+                >
+                  <option value="Null">none</option>
+                  <option value="string">categories</option>
+                  <option value="number">numbers</option>
+                  <option value="date">dates</option>
+                </select>
+                <input
+                  type="image"
+                  src="img/select-area.png"
+                  onclick="activateAreaSelect(1);"
+                  width="16px"
+                  height="16px"
+                  class="selectAreaBtn"
+                  style="margin-left: 0px; margin-top: 5px"
+                />
+              </div>
               <input
                 type="image"
-                src="img/select-area.png"
-                id="xArea"
-                onclick="activateAreaSelect('x');"
+                src="img/plus.png"
+                onclick="addAxisLevel(1);"
                 width="16px"
                 height="16px"
+                style="position: absolute; right: 7px"
                 class="selectAreaBtn"
-              /><br />
-              <select
-                class="fieldType"
-                id="xFieldType"
-                onchange="fieldTypeChanged('x')"
-              >
-                <option value="Null">none</option>
-                <option value="string">categories</option>
-                <option value="number">numbers</option>
-                <option value="date">dates</option>
-              </select>
+              />
             </div>
 
             <!--This is the second part of the column (title)-->
-
             <div
               class="axisTitle"
+              id="axisTitle_1"
               ondrop="drop(event)"
               ondragover="allowDrop(event)"
-              id="xTitle"
             ></div>
 
             <!--This is the third part of the column (the label)-->
             <div
               class="axisLabels"
-              id="xLabels"
+              id="axisLabel_1"
               ondrop="drop(event)"
               ondragover="allowDrop(event)"
             ></div>
-            <input
-              type="image"
-              src="img/plus.png"
-              id="addXAxis"
-              onclick="addAxisLevel('x');"
-              width="16px"
-              height="16px"
-              style="position: absolute; right: 7px"
-              class="selectAreaBtn"
-            />
           </div>
 
-          <!-- This is the main y axis div -->
-          <div class="axisDiv" id="yAxisDiv">
-            <!-- This is the 1st column div -->
-
+          <div class="axisDiv" id="axis_2">
+            <!--This is the first part of the column-->
             <div class="axisMeta">
-              <b>Y axis</b
-              ><input
+              <select
+                class="axisType fieldType"
+                id="axisType_2"
+                onchange="axisTypeChanged(2)"
+                style="font-size: 12px; width: 60px"
+              >
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="polar">Polar</option>
+              </select>
+              <b>Axis</b>
+              <div style="display: inline-block">
+                <select
+                  class="fieldType"
+                  id="fieldType_2"
+                  onchange="fieldTypeChanged(2)"
+                  style="width: 75px; font-size: 12px"
+                >
+                  <option value="Null">none</option>
+                  <option value="string">categories</option>
+                  <option value="number">numbers</option>
+                  <option value="date">dates</option>
+                </select>
+                <input
+                  type="image"
+                  src="img/select-area.png"
+                  onclick="activateAreaSelect(2);"
+                  width="16px"
+                  height="16px"
+                  class="selectAreaBtn"
+                  style="margin-left: 0px; margin-top: 5px"
+                />
+              </div>
+              <input
                 type="image"
-                src="img/select-area.png"
-                id="yArea"
-                onclick="activateAreaSelect('y');"
+                src="img/plus.png"
+                onclick="addAxisLevel(2);"
                 width="16px"
                 height="16px"
+                style="position: absolute; right: 7px"
                 class="selectAreaBtn"
-              /><br />
-              <select
-                class="fieldType"
-                id="yFieldType"
-                onchange="fieldTypeChanged('y')"
-              >
-                <option value="Null">none</option>
-                <option value="string">categories</option>
-                <option value="number">numbers</option>
-                <option value="date">dates</option>
-              </select>
+              />
             </div>
 
-            <!-- This is the 2nd column div -->
-
+            <!--This is the second part of the column (title)-->
             <div
               class="axisTitle"
+              id="axisTitle_2"
               ondrop="drop(event)"
               ondragover="allowDrop(event)"
-              id="yTitle"
             ></div>
 
-            <!-- This is the 3rd column div -->
+            <!--This is the third part of the column (the label)-->
             <div
               class="axisLabels"
-              id="yLabels"
+              id="axisLabel_2"
               ondrop="drop(event)"
               ondragover="allowDrop(event)"
             ></div>
-
-            <input
-              type="image"
-              src="img/plus.png"
-              id="addYAxis"
-              onclick="addAxisLevel('y');"
-              width="16px"
-              height="16px"
-              style="position: absolute; right: 7px"
-              class="selectAreaBtn"
-            />
           </div>
 
-          <!-- This is the  main legend div -->
-
+          <!-- This is the main legend div -->
           <div class="axisDiv">
             <!-- This is the 1st column div -->
 
@@ -305,6 +336,7 @@
           </div>
         </div>
       </div>
+
       <div id="container">
         <div
           id="rbox1"
@@ -443,8 +475,9 @@
                   0
                 </span>
                 Selected) -->
-                <span style="color: red" id="numberOfMarksSelected">0</span> of 
-                <span style="color: black" id="totalNumberOfMarks"></span> Marks Selected
+                <span style="color: red" id="numberOfMarksSelected">0</span> of
+                <span style="color: black" id="totalNumberOfMarks"></span> Marks
+                Selected
                 <button onclick="disableAllMarkSelections()">Clear</button>
               </h4>
               <div
@@ -466,7 +499,7 @@
                 width: 49%;
               "
             >
-              <h4 style="visibility: hidden;">Batch Selections</h4>
+              <h4 style="visibility: hidden">Batch Selections</h4>
               <div
                 id="markSelections"
                 style="
@@ -506,23 +539,24 @@
             "
           >
             <h4>
-              Select groups by clicking or <button
-              type="button"
-              style="
-                padding: 1px 1px;
-                margin-left: 2.5px;
-                margin-right: 2.5px;
-                vertical-align: middle;
-              "
-              onclick="selectAllGroups()"
-            >
-              select all groups</button
-            > 
+              Select groups by clicking or
+              <button
+                type="button"
+                style="
+                  padding: 1px 1px;
+                  margin-left: 2.5px;
+                  margin-right: 2.5px;
+                  vertical-align: middle;
+                "
+                onclick="selectAllGroups()"
+              >
+                select all groups
+              </button>
 
-               <!-- to select all current groups, please click -->
-               <!-- if you want to redo the grouping, please click -->
+              <!-- to select all current groups, please click -->
+              <!-- if you want to redo the grouping, please click -->
             </h4>
-            <div style="margin-bottom: 40px;">
+            <div style="margin-bottom: 40px">
               <button
                 type="button"
                 style="
@@ -533,8 +567,8 @@
                 "
                 onclick="mergeGroups()"
               >
-                merge selected groups</button
-              >
+                merge selected groups
+              </button>
               <button
                 type="button"
                 style="
@@ -545,18 +579,22 @@
                 "
                 onclick="clearMergedGroups()"
               >
-                clear grouping</button
-              >
+                clear grouping
+              </button>
             </div>
           </div>
-          <div id="current-section" style="
-                      border: 0px solid rgb(102, 105, 105);
-                      padding: 5px;
-                      margin-bottom: 10px;
-                    ">
-            <div style="font-weight: bold; margin-bottom: 3px;">
-              Select a group of main chart marks by drawing a rectangle
-              using your mouse on the visualization; or choose one of the options below: 
+          <div
+            id="current-section"
+            style="
+              border: 0px solid rgb(102, 105, 105);
+              padding: 5px;
+              margin-bottom: 10px;
+            "
+          >
+            <div style="font-weight: bold; margin-bottom: 3px">
+              Select a group of main chart marks by drawing a rectangle using
+              your mouse on the visualization; or choose one of the options
+              below:
             </div>
             <button class="btn selectionBtn" onclick="selectAllMarks()">
               <!-- selectAllMarks -->
@@ -570,31 +608,38 @@
 
             <div style="margin-top: 20px">
               <span id="selectionForGrouping">0</span> marks selected
-              <button class="btn" id="button4FormingGroups" style="margin-bottom: 5px"
-              onclick="clickEvent4FormingGroupButton(event)">
-              <!-- selected marks form a group! -->
-              Group selected marks
-            </button>
+              <button
+                class="btn"
+                id="button4FormingGroups"
+                style="margin-bottom: 5px"
+                onclick="clickEvent4FormingGroupButton(event)"
+              >
+                <!-- selected marks form a group! -->
+                Group selected marks
+              </button>
             </div>
-            <div id="selectedGroup" style="
-                        border: 1.5px solid #aaa;
-                        height: 75px;
-                        overflow: scroll;
-                        overflow: -moz-scrollbars-vertical;
-                        padding: 5px;
-                        margin: 0px 0 5px 0;
-                      "></div>
+            <div
+              id="selectedGroup"
+              style="
+                border: 1.5px solid #aaa;
+                height: 75px;
+                overflow: scroll;
+                overflow: -moz-scrollbars-vertical;
+                padding: 5px;
+                margin: 0px 0 5px 0;
+              "
+            ></div>
           </div>
 
           <div id="specifiedGroupsHeader" style="margin-top: 20px">
             Current grouping
             <button
-                type="button"
-                onclick="clearGrouping()"
-                style="margin-bottom: 5px;"
-              >
+              type="button"
+              onclick="clearGrouping()"
+              style="margin-bottom: 5px"
+            >
               Clear Grouping
-              </button>
+            </button>
           </div>
           <div
             id="specifiedGroups"
@@ -608,7 +653,7 @@
             "
           >
             <!-- <h4> -->
-              <!-- Here display specified mark groups. Once all the main chart marks
+            <!-- Here display specified mark groups. Once all the main chart marks
               have been grouped, you can further
               <button
                 type="button"
@@ -622,9 +667,9 @@
               >
                 specify higher-level groups
               </button> -->
-               
-              <!-- Click -->
-              <!-- <button
+
+            <!-- Click -->
+            <!-- <button
                 type="button"
                 style="
                   padding: 1px 1px;
@@ -636,7 +681,7 @@
               >
                 redoGrouping
               </button> -->
-              <!-- if you want to redo the lowest-level grouping. -->
+            <!-- if you want to redo the lowest-level grouping. -->
             <!-- </h4> -->
           </div>
           <button
@@ -651,9 +696,8 @@
             id="higherGroupBtn"
             onclick="go2HigherGrouping()"
           >
-          Next: Specify higher-level groups >>
+            Next: Specify higher-level groups >>
           </button>
-
 
           <div
             id="possibleOtherGroupsContainer"
@@ -830,13 +874,15 @@
           >
             <h4 style="text-align: center">Encoded Channels</h4>
             <p>
-              Click to select one group or mark on the left, a set of channels will show below. 
+              Click to select one group or mark on the left, a set of channels
+              will show below.
             </p>
             <p>
-              Select the
-              channels that encode data for
-              the selected object 
-              <span id="selectedGroup4EncodingStage1" style="color: red;margin-bottom: 2px;"></span
+              Select the channels that encode data for the selected object
+              <span
+                id="selectedGroup4EncodingStage1"
+                style="color: red; margin-bottom: 2px"
+              ></span
               >:
             </p>
             <ul id="channelList">
@@ -1117,6 +1163,41 @@
       var areaSelection;
       const fileName = sessionStorage.getItem("fileName");
       var mainChartMarks;
+
+      let axisCount = 2;
+
+      function addAxisConfiguration() {
+        axisCount++;
+        axes[axisCount] = { labels: [], fieldType: "Null", title: [] };
+        const axisDiv = document.createElement("div");
+        axisDiv.className = "axisDiv";
+        axisDiv.id = `axis_${axisCount}`;
+        axisDiv.innerHTML = `
+      <div class="axisMeta">
+        <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
+          <option value="x">X</option>
+          <option value="y">Y</option>
+          <option value="polar">Polar</option>
+        </select>
+        <b>Axis</b>
+        <div style="display: inline-block;">
+          <select class="fieldType" id="fieldType_${axisCount}" onchange="fieldTypeChanged(${axisCount})" style="width: 75px; font-size: 12px;">
+            <option value="Null">none</option>
+            <option value="string">categories</option>
+            <option value="number">numbers</option>
+            <option value="date">dates</option>
+          </select>
+          <input type="image" src="img/select-area.png" onclick="activateAreaSelect(${axisCount});" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
+        </div>
+        <input type="image" src="img/plus.png" onclick="addAxisLevel(${axisCount});" width="16px" height="16px" style="position: absolute; right: 7px;" class="selectAreaBtn" />
+      </div>
+      <div class="axisTitle" id="axisTitle_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    `;
+        document
+          .getElementById("buttons")
+          .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
+      }
 
       function loadDemo(demo) {
         // demo is the full name of a SVG file, e.g., "BarChart1.svg"
