@@ -218,6 +218,8 @@ function displayAxis(index) {
       }
     }
   }
+
+  displayAxisTitle(axis.title, index, "load");
 }
 
 function displayAxisLabel(label, divID) {
@@ -279,11 +281,13 @@ function displayLegend(legend) {
 
 function displayAxisTitle(thisText, axisIndex, mode) {
   let axis = axes[axisIndex];
+
   if (mode === "delete") {
     let index = axis.title.indexOf(thisText);
     if (index > -1) axis.title.splice(index, 1);
   } else {
-    if (axis.title.indexOf(thisText) < 0) axis.title.push(thisText);
+    if (mode !== "load" && axis.title.indexOf(thisText) < 0)
+      axis.title.push(thisText);
   }
 
   let thisDiv = d3.select("#axisTitle_" + axisIndex);
@@ -296,7 +300,7 @@ function displayAxisTitle(thisText, axisIndex, mode) {
       .attr("class", "labelButton")
       .attr("style", "position: absolute; top: 1px; left: 200px")
       .attr("style", "width: 100%")
-      .attr("id", "axis_" + axisIndex + "_titleIDinSVG" + title["id"]) // this ID is important!!
+      .attr("id", "axis_" + axisIndex + "_titleIDinSVG" + title["id"]) // TBD: make the ID consistent with the rest
       .attr("draggable", true)
       .text(title["content"])
       .on("dragstart", drag);
@@ -386,15 +390,13 @@ function displayChartTitle(thisText, mode) {
   }
 }
 
-function displayTitles(chartTitle, legendTitle, xTitle, yTitle) {
-  let allTitles = [chartTitle, legendTitle, xTitle, yTitle];
-  ["chartTitle", "legendTitle", "xTitle", "yTitle"].forEach((id) => {
+function displayTitles(chartTitle, legendTitle) {
+  let allTitles = [chartTitle, legendTitle];
+  ["chartTitle", "legendTitle"].forEach((id) => {
     d3.select("#" + id)
       .selectAll("button")
       .remove();
-    for (let title of allTitles[
-      ["chartTitle", "legendTitle", "xTitle", "yTitle"].indexOf(id)
-    ]) {
+    for (let title of allTitles[["chartTitle", "legendTitle"].indexOf(id)]) {
       let btn = d3
         .select("#" + id)
         .append("button")
