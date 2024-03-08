@@ -21,8 +21,8 @@ const typeSpecificChannels = {
     "length",
   ],
   Rectangle: [
-    "centroid-x",
-    "centroid-y",
+    "x",
+    "y",
     "top",
     "left",
     "right",
@@ -34,15 +34,7 @@ const typeSpecificChannels = {
     "area",
     "shape",
   ],
-  Circle: [
-    "centroid-x",
-    "centroid-y",
-    "radius",
-    "fill",
-    "opacity",
-    "area",
-    "shape",
-  ],
+  Circle: ["x", "y", "radius", "fill", "opacity", "area", "shape"],
   Ploygon: ["x", "y", "vertices", "radius", "fill", "opacity", "shape"],
   Ellipse: ["x", "y", "rx", "ry", "fill", "opacity", "shape", "size"],
   Arc: [
