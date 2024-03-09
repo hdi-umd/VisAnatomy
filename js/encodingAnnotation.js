@@ -66,6 +66,8 @@ const typeSpecificChannels = {
   Text: ["x", "y", "text", "color", "opacity", "fontSize", "fontWeight"],
   Image: ["x", "y", "width", "height", "opacity"],
   Area: [
+    "x",
+    "y",
     "top-vertices-x",
     "top-vertices-y",
     "bottom-vertices-x",
