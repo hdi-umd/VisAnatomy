@@ -123,9 +123,16 @@ function createList(item) {
         (groupLayouts[item.id].params.orientation[0]
           ? "-" + groupLayouts[item.id].params.orientation[0]
           : "") +
-        (groupLayouts[item.id].params.alignment[0]
-          ? "-" + groupLayouts[item.id].params.alignment[0]
-          : "")
+        (groupLayouts[item.id].params.alignment
+          ? groupLayouts[item.id].params.alignment[0]
+            ? "-" + groupLayouts[item.id].params.alignment[0]
+            : ""
+          : (groupLayouts[item.id].params.horiAlignment
+              ? "-" + groupLayouts[item.id].params.horiAlignment[0]
+              : "") +
+            (groupLayouts[item.id].params.vertAlignment
+              ? "-" + groupLayouts[item.id].params.vertAlignment[0]
+              : ""))
       : "");
   container.appendChild(layoutIndicator);
 
