@@ -89,7 +89,10 @@ function createList(item) {
           "vertLayoutAlignSelection"
         );
         for (let i = 0; i < vertAlignmentSelection.options.length; i++) {
-          if (vertAlignmentSelection.options[i].text === thisVertLayoutAlign) {
+          if (
+            vertAlignmentSelection.options[i].text ===
+            (thisVertLayoutAlign ? thisVertLayoutAlign : thisLayoutAlign)
+          ) {
             vertAlignmentSelection.selectedIndex = i;
             break;
           }
