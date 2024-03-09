@@ -103,10 +103,8 @@ function createList(item) {
         let orientationSelection =
           document.getElementById("layoutOriSelection");
         orientationSelection.selectedIndex = 0;
-        let alignmentSelection = document.getElementById(
-          "layoutAlignSelection"
-        );
-        alignmentSelection.selectedIndex = 0;
+        document.getElementById("horiLayoutAlignSelection").selectedIndex = 0;
+        document.getElementById("vertLayoutAlignSelection").selectedIndex = 0;
       }
     });
   container.appendChild(content);
