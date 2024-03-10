@@ -68,6 +68,8 @@ const typeSpecificChannels = {
   Area: [
     "x",
     "y",
+    "width",
+    "height",
     "top-vertices-x",
     "top-vertices-y",
     "bottom-vertices-x",
