@@ -154,14 +154,16 @@ function groupSVGElementsByType() {
     ...(legend.labels ? legend.labels : []),
     ...(legend.marks ? legend.marks : []),
     ...Object.keys(axes)
-      .map((key) => axes[key].labels)
+      .map((key) => (axes[key].labels ? axes[key].labels : []))
       .flat(),
     ...Object.keys(axes)
-      .map((key) => axes[key].title)
+      .map((key) => (axes[key].title ? axes[key].title : []))
       .flat(),
     ...chartTitle,
     ...titleLegend,
-  ].map((element) => element.id);
+  ]
+    .filter((e) => e !== null)
+    .map((element) => element.id);
 
   const tempDiv = document.getElementById("rbox1");
 
