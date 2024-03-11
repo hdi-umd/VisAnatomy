@@ -913,43 +913,9 @@
               ></span
               >:
             </p>
-            <ul id="channelList">
-              <!-- <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> width
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> height
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> color
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> x
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> y
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> opacity
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> shape
-              </li>
-              <li class="list-item" onclick="toggleItem(this)">
-                <span class="dot"></span> size
-              </li> -->
-            </ul>
+            <ul id="channelList"></ul>
 
             <div>
-              <!-- <button
-                class="btn"
-                id="button4EncodingSpec1"
-                style="margin-top: 10px"
-                onclick="recordSingleEncoding(event)"
-              >
-                Record encodings for
-                <span id="selectedGroup4EncodingStage2"></span>
-              </button> -->
               <button
                 class="btn"
                 id="button4EncodingSpec"
@@ -1165,8 +1131,18 @@
             d3.select("#higherGroupBtn").style("visibility", "hidden");
             document.getElementById("higherLevelGroups").style.visibility =
               "hidden";
+            d3.select("#vis")
+              .on("mousedown", null)
+              .on("mouseup", null)
+              .on("mousemove", null);
             break;
           case "Encodings":
+            d3.select("#rbox1")
+              .selectAll("text")
+              .style("opacity", "0.3")
+              .style("pointer-events", "none")
+              .selectAll("tspan")
+              .style("opacity", "0.3");
             d3.select("#LayoutAnnotation").style("visibility", "hidden");
             d3.select("#LayoutSpec").style("visibility", "hidden");
             d3.select("#EncodingAnnotation").style("visibility", "visible");
@@ -1201,28 +1177,28 @@
         axisDiv.className = "axisDiv";
         axisDiv.id = `axis_${axisCount}`;
         axisDiv.innerHTML = `
-      <div class="axisMeta">
-        <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
-          <option value="x">X</option>
-          <option value="y">Y</option>
-          <option value="radian">Radian</option>
-          <option value="angular">Angular</option>
-        </select>
-        <b>Axis</b>
-        <div style="display: inline-block;">
-          <select class="fieldType" id="fieldType_${axisCount}" onchange="fieldTypeChanged(${axisCount})" style="width: 75px; font-size: 12px;">
-            <option value="Null">none</option>
-            <option value="string">categories</option>
-            <option value="number">numbers</option>
-            <option value="date">dates</option>
+        <div class="axisMeta">
+          <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
+            <option value="x">X</option>
+            <option value="y">Y</option>
+            <option value="radian">Radian</option>
+            <option value="angular">Angular</option>
           </select>
-          <input type="image" src="img/select-area.png" onclick="activateAreaSelect(${axisCount});" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
+          <b>Axis</b>
+          <div style="display: inline-block;">
+            <select class="fieldType" id="fieldType_${axisCount}" onchange="fieldTypeChanged(${axisCount})" style="width: 75px; font-size: 12px;">
+              <option value="Null">none</option>
+              <option value="string">categories</option>
+              <option value="number">numbers</option>
+              <option value="date">dates</option>
+            </select>
+            <input type="image" src="img/select-area.png" onclick="activateAreaSelect(${axisCount});" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
+          </div>
+          <input type="image" src="img/plus.png" onclick="addAxisLevel(${axisCount});" width="16px" height="16px" style="position: absolute; right: 7px;" class="selectAreaBtn" />
         </div>
-        <input type="image" src="img/plus.png" onclick="addAxisLevel(${axisCount});" width="16px" height="16px" style="position: absolute; right: 7px;" class="selectAreaBtn" />
-      </div>
-      <div class="axisTitle" id="axisTitle_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    `;
+        <div class="axisTitle" id="axisTitle_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      `;
         document
           .getElementById("buttons")
           .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
