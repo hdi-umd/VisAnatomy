@@ -1,6 +1,9 @@
 var groupsByDepth = {};
 
 function initilizeLayoutAnnotation() {
+  mainChartMarks.forEach((markID) => {
+    d3.select("#" + markID).style("opacity", "0.3");
+  });
   // avoid the need for clicking go2higherLevelGroups button when only one group presents
   nestedGrouping =
     nestedGrouping.length === 0

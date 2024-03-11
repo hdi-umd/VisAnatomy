@@ -928,6 +928,40 @@
             </div>
           </div>
         </div>
+
+        <div
+          style="
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            display: flex;
+            flex-grow: 1;
+            width: 40%;
+            height: calc(100% - 50px);
+            visibility: hidden;
+          "
+        >
+          <div
+            id="ConstraintAnnotation"
+            style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            "
+          >
+            <h4>Grouping Structure</h4>
+          </div>
+          <div
+            id="ConstraintSpec"
+            style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            "
+          ></div>
+        </div>
       </div>
     </div>
 
@@ -1145,6 +1179,8 @@
               .style("opacity", "0.3");
             d3.select("#LayoutAnnotation").style("visibility", "hidden");
             d3.select("#LayoutSpec").style("visibility", "hidden");
+            d3.select("#ConstraintAnnotation").style("visibility", "hidden");
+            d3.select("#ConstraintSpec").style("visibility", "hidden");
             d3.select("#EncodingAnnotation").style("visibility", "visible");
             d3.select("#EncodingSpec").style("visibility", "visible");
             initilizeEncodingAnnotation();
@@ -1152,6 +1188,8 @@
           case "Constraints":
             d3.select("#EncodingAnnotation").style("visibility", "hidden");
             d3.select("#EncodingSpec").style("visibility", "hidden");
+            d3.select("#ConstraintAnnotation").style("visibility", "visible");
+            d3.select("#ConstraintSpec").style("visibility", "visible");
             initilizeConstraintAnnotation();
             break;
           default:
