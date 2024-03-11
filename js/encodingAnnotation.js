@@ -56,6 +56,7 @@ const typeSpecificChannels = {
   Arc: [
     "x",
     "y",
+    "thickness",
     "innerRadius",
     "outerRadius",
     "angle",
