@@ -136,10 +136,10 @@ function post() {
     legend.marks,
     legend.labels,
     legend.title,
-    ...Object.keys(axes).map((k) => axes[k].labels),
-    ...Object.keys(axes).map((k) => axes[k].title),
+    ...Object.keys(axes).map((k) => (axes[k].labels ? axes[k].labels : [])),
+    ...Object.keys(axes).map((k) => (axes[k].title ? axes[k].title : [])),
   ]
-    .filter((e) => e.length > 0)
+    .filter((e) => e?.length > 0)
     .forEach((object) => {
       object.forEach((element) => {
         switch (typeof element) {
