@@ -22,6 +22,7 @@ function initilizeVariables() {
   marksHaveGroupAnnotation = [];
   groupLayouts = {};
   objectEncodings = {};
+  textObjectLinking = {};
 }
 
 function tryLoadAnnotations(filename) {
@@ -73,6 +74,9 @@ function tryLoadAnnotations(filename) {
       groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : {};
       objectEncodings = annotations.encodingInfo
         ? annotations.encodingInfo
+        : {};
+      textObjectLinking = annotations.textObjectLinking
+        ? annotations.textObjectLinking
         : {};
       chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
       titleLegend = annotations.referenceElement.legend.title
@@ -176,6 +180,7 @@ function post() {
   annotations.nestedGrouping = nestedGrouping;
   annotations.layoutInfo = groupLayouts;
   annotations.encodingInfo = objectEncodings;
+  annotations.textObjectLinking = textObjectLinking;
   annotations.referenceElement = {};
 
   annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(

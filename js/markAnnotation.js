@@ -44,7 +44,9 @@ function initilizeMarkAnnotation() {
     graphicsElementTypes.includes(key)
   );
 
-  document.getElementById("totalNumberOfMarks").innerHTML = leafNodeTypes.map((type) => mainContentElements[type].length).reduce((a, b) => a + b)
+  document.getElementById("totalNumberOfMarks").innerHTML = leafNodeTypes
+    .map((type) => mainContentElements[type].length)
+    .reduce((a, b) => a + b);
   document.getElementById("allMarks").innerHTML = "";
 
   if (Object.keys(markInfo).length === 0) {
