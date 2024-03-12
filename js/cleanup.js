@@ -159,6 +159,11 @@ function groupSVGElementsByType() {
     ...Object.keys(axes)
       .map((key) => (axes[key].title ? axes[key].title : []))
       .flat(),
+    ...Object.keys(axes)
+      .map((key) =>
+        axes[key].upperLevels ? axes[key].upperLevels.flat(Infinity) : []
+      )
+      .flat(),
     ...chartTitle,
     ...titleLegend,
   ]

@@ -152,16 +152,21 @@ function displayAxis(index) {
   console.log(axes);
   let axis = axes[index];
   if (Object.keys(axis).length === 0) return;
+  d3.select("#axis_" + index)
+    .selectAll(".higerLevelLabelBox")
+    .remove();
+  d3.select("axisLabel_" + index).style("width", "calc(100% - 405px)");
   d3.select("#axisLabel_" + index)
     .selectAll("button")
     .remove();
-  if (axis.upperLevels) {
-    for (let [i, level] of axis.upperLevels.entries()) {
-      d3.select("#" + "#axisLabel" + index + (i + 1))
-        .selectAll("button")
-        .remove();
-    }
-  }
+  // if (axis.upperLevels) {
+  //   for (let [i, level] of axis.upperLevels.entries()) {
+  //     console.log(i);
+  //     d3.select("#" + "#axisLabel" + index + (i + 1))
+  //       .selectAll("button")
+  //       .remove();
+  //   }
+  // }
 
   let labels = axis["labels"];
   let type;
@@ -204,17 +209,37 @@ function displayAxis(index) {
       "px)",
     ].join("");
     for (let [i, level] of axis.upperLevels.entries()) {
-      d3.select("#" + axis.type + "AxisDiv")
-        .append("div")
-        .attr("class", "axisLabels")
-        .attr("id", "#axisLabel" + index + (i + 1))
-        .on("drop", drop)
-        .on("dragover", allowDrop);
-      d3.select("#" + axis.type + "AxisDiv")
+      let thisHigherLevelLabelBoxID = "#axisLabel_" + index + "_" + (i + 1);
+      if (!document.getElementById(thisHigherLevelLabelBoxID)) {
+        d3.select("#axis_" + index)
+          .append("div")
+          .attr("class", "axisLabels higerLevelLabelBox") // add another class to the div
+          .attr("id", thisHigherLevelLabelBoxID)
+          .on("drop", drop)
+          .on("dragover", allowDrop);
+      }
+      d3.select("#axis_" + index)
         .selectAll(".axisLabels")
         .style("width", size);
+    }
+
+    for (let [i, level] of axis.upperLevels.entries()) {
+      let thisHigherLevelLabelBoxID = "#axisLabel_" + index + "_" + (i + 1);
+
+      document.getElementById(thisHigherLevelLabelBoxID).innerHTML = "";
+
       for (let label of level) {
-        displayAxisLabel(label, "#axisLabel" + index + (i + 1));
+        // this is pretty weird that using d3 won't work so has to use pure html
+        let thisLabel = document.createElement("button");
+        thisLabel.innerHTML = label.content;
+        thisLabel.setAttribute("draggable", true);
+        thisLabel.setAttribute("id", "IDinSVG" + label.id);
+        thisLabel.setAttribute("type", "button");
+        thisLabel.setAttribute("class", "labelButton");
+        thisLabel.addEventListener("dragstart", drag);
+        document
+          .getElementById(thisHigherLevelLabelBoxID)
+          .appendChild(thisLabel);
       }
     }
   }
