@@ -1396,6 +1396,13 @@
                     .style("color", "red")
                     .style("font-weight", "bold");
 
+                  // reset the constraint stage
+                  d3.select("#ConstraintAnnotation").style(
+                    "visibility",
+                    "hidden"
+                  );
+                  d3.select("#ConstraintSpec").style("visibility", "hidden");
+
                   loadDemo(file);
 
                   document
