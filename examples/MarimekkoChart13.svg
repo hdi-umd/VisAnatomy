@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450.00 360.00">
+<defs>
+  <style type="text/css"><![CDATA[
+    line, polyline, path, rect, circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width="100%" height="100%" style="stroke: none; fill: #FFFFFF;"/>
+<rect x="115.20" y="115.20" width="70.33" height="17.00" style="stroke-width: 0.75; fill: #D497D3;"/>
+<rect x="115.20" y="132.20" width="70.33" height="3.19" style="stroke-width: 0.75; fill: #99A9E2;"/>
+<rect x="115.20" y="135.39" width="70.33" height="13.05" style="stroke-width: 0.75; fill: #46BAC8;"/>
+<rect x="115.20" y="148.44" width="70.33" height="172.79" style="stroke-width: 0.75; fill: #56BD96;"/>
+<rect x="115.20" y="321.23" width="70.33" height="21.85" style="stroke-width: 0.75; fill: #9CB469;"/>
+<rect x="115.20" y="343.08" width="70.33" height="1.17" style="stroke-width: 0.75; fill: #CEA472;"/>
+<rect x="115.20" y="344.25" width="70.33" height="1.35" style="stroke-width: 0.75; fill: #E495A5;"/>
+<rect x="189.85" y="115.20" width="194.82" height="4.69" style="stroke-width: 0.75; fill: #D497D3;"/>
+<rect x="189.85" y="119.89" width="194.82" height="17.62" style="stroke-width: 0.75; fill: #99A9E2;"/>
+<rect x="189.85" y="137.52" width="194.82" height="29.05" style="stroke-width: 0.75; fill: #46BAC8;"/>
+<rect x="189.85" y="166.57" width="194.82" height="163.84" style="stroke-width: 0.75; fill: #56BD96;"/>
+<rect x="189.85" y="330.40" width="194.82" height="13.48" style="stroke-width: 0.75; fill: #9CB469;"/>
+<rect x="189.85" y="343.89" width="194.82" height="1.06" style="stroke-width: 0.75; fill: #CEA472;"/>
+<rect x="189.85" y="344.94" width="194.82" height="0.66" style="stroke-width: 0.75; fill: #E495A5;"/>
+<rect x="388.99" y="115.20" width="40.06" height="1.50" style="stroke-width: 0.75; fill: #D497D3;"/>
+<rect x="388.99" y="116.70" width="40.06" height="4.15" style="stroke-width: 0.75; fill: #99A9E2;"/>
+<rect x="388.99" y="120.85" width="40.06" height="16.86" style="stroke-width: 0.75; fill: #46BAC8;"/>
+<rect x="388.99" y="137.71" width="40.06" height="152.45" style="stroke-width: 0.75; fill: #56BD96;"/>
+<rect x="388.99" y="290.15" width="40.06" height="47.75" style="stroke-width: 0.75; fill: #9CB469;"/>
+<rect x="388.99" y="337.90" width="40.06" height="4.97" style="stroke-width: 0.75; fill: #CEA472;"/>
+<rect x="388.99" y="342.87" width="40.06" height="2.73" style="stroke-width: 0.75; fill: #E495A5;"/>
+<rect x="433.37" y="115.20" width="2.23" height="5.74" style="stroke-width: 0.75; fill: #D497D3;"/>
+<rect x="433.37" y="120.94" width="2.23" height="11.48" style="stroke-width: 0.75; fill: #99A9E2;"/>
+<rect x="433.37" y="132.42" width="2.23" height="25.42" style="stroke-width: 0.75; fill: #46BAC8;"/>
+<rect x="433.37" y="157.84" width="2.23" height="89.37" style="stroke-width: 0.75; fill: #56BD96;"/>
+<rect x="433.37" y="247.21" width="2.23" height="48.38" style="stroke-width: 0.75; fill: #9CB469;"/>
+<rect x="433.37" y="295.58" width="2.23" height="35.26" style="stroke-width: 0.75; fill: #CEA472;"/>
+<rect x="433.37" y="330.84" width="2.23" height="14.76" style="stroke-width: 0.75; fill: #E495A5;"/>
+<text x="258.07" y="47.49" style="font-size: 12.00px; font-weight: bold; font-family: Arial;" textLength="34.67px" lengthAdjust="spacingAndGlyphs">Drugs</text>
+<text transform="translate(33.09,252.40) rotate(-90)" style="font-size: 12.00px; font-weight: bold; font-family: Arial;" textLength="44.00px" lengthAdjust="spacingAndGlyphs">Alcohol</text>
+<text transform="translate(154.66,100.80) rotate(-90)" style="font-size: 12.00px; font-family: Arial;" textLength="40.68px" lengthAdjust="spacingAndGlyphs">missing</text>
+<text x="100.80" y="340.58" style="font-size: 12.00px; font-family: Arial;" textLength="0.00px" lengthAdjust="spacingAndGlyphs"/>
+<text x="38.76" y="357.86" style="font-size: 12.00px; font-family: Arial;" textLength="62.04px" lengthAdjust="spacingAndGlyphs">desperately</text>
+<text x="48.11" y="347.96" style="font-size: 12.00px; font-family: Arial;" textLength="52.69px" lengthAdjust="spacingAndGlyphs">very often</text>
+<text x="74.11" y="336.45" style="font-size: 12.00px; font-family: Arial;" textLength="26.69px" lengthAdjust="spacingAndGlyphs">often</text>
+<text x="61.45" y="239.13" style="font-size: 12.00px; font-family: Arial;" textLength="39.35px" lengthAdjust="spacingAndGlyphs">socially</text>
+<text x="70.79" y="146.21" style="font-size: 12.00px; font-family: Arial;" textLength="30.01px" lengthAdjust="spacingAndGlyphs">rarely</text>
+<text x="55.44" y="138.09" style="font-size: 12.00px; font-family: Arial;" textLength="45.36px" lengthAdjust="spacingAndGlyphs">not at all</text>
+<text x="60.12" y="127.99" style="font-size: 12.00px; font-family: Arial;" textLength="40.68px" lengthAdjust="spacingAndGlyphs">missing</text>
+<text transform="translate(291.56,100.80) rotate(-90)" style="font-size: 12.00px; font-family: Arial;" textLength="30.02px" lengthAdjust="spacingAndGlyphs">never</text>
+<text transform="translate(413.32,100.80) rotate(-90)" style="font-size: 12.00px; font-family: Arial;" textLength="58.01px" lengthAdjust="spacingAndGlyphs">sometimes</text>
+<text transform="translate(438.78,100.80) rotate(-90)" style="font-size: 12.00px; font-family: Arial;" textLength="26.69px" lengthAdjust="spacingAndGlyphs">often</text>
+</svg>
