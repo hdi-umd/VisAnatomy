@@ -51,7 +51,17 @@ const typeSpecificChannels = {
     "polarAngle",
     "polarRadius",
   ],
-  Ploygon: ["x", "y", "vertices", "radius", "fill", "opacity", "shape"],
+  Ploygon: [
+    "x",
+    "y",
+    "vertices",
+    "radius",
+    "fill",
+    "opacity",
+    "shape",
+    "vertices-polarAngle",
+    "vertices-polarRadius",
+  ],
   Ellipse: ["x", "y", "rx", "ry", "fill", "opacity", "shape", "size"],
   Arc: [
     "x",
