@@ -35,6 +35,7 @@ def add_id_to_leaves(element, indices, all_svg_element_id, id_mappings):
             all_svg_element_id.append(new_id)
             print (original_id, new_id)
             fill_colors[new_id] = get_fill_color(element)
+            # RBD: also record the class attribute if any
             if original_id:
                 id_mappings[original_id] = new_id  # Track original to new ID
 
