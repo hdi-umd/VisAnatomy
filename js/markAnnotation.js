@@ -60,15 +60,19 @@ function populateSublist(sublist) {
       let height = Math.max(...labelPositions.map((pos) => pos.y + pos.height));
       let svg = document.getElementById("rbox1").querySelector("svg");
       let rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-      rect.setAttribute("x", x - 5);
-      rect.setAttribute("y", y - 5);
-      rect.setAttribute("width", width - x + 10);
-      rect.setAttribute("height", height - y + 10);
-      rect.setAttribute("stroke", "red");
-      rect.setAttribute("stroke-width", "2");
-      rect.setAttribute("fill", "none");
-      rect.classList.add("highlightRect");
-      svg.appendChild(rect);
+      try {
+        rect.setAttribute("x", x - 5);
+        rect.setAttribute("y", y - 5);
+        rect.setAttribute("width", width - x + 10);
+        rect.setAttribute("height", height - y + 10);
+        rect.setAttribute("stroke", "red");
+        rect.setAttribute("stroke-width", "2");
+        rect.setAttribute("fill", "none");
+        rect.classList.add("highlightRect");
+        svg.appendChild(rect);
+      } catch (e) {
+        console.log(e);
+      }
     };
     subOption.onmouseout = () => {
       d3.selectAll(".highlightRect").remove();
