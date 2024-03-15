@@ -40,6 +40,7 @@ function populateSublist(sublist) {
     subOption.textContent = "axis " + i;
     subOption.onclick = () => {
       markAnnotationChanged("Axis " + i + " " + sublist.id.substring(3));
+      d3.selectAll(".highlightRect").remove();
     };
     subOption.onmouseover = () => {
       // get axes[i].labels and fetch their positions through allGraphicsElement using their IDs and draw a rectangle around them, with padding 5px
@@ -483,6 +484,14 @@ function markAnnotationChanged(attr) {
       markInfo[selectedMarkID].Role = attr;
     }
   });
+  if (attr.includes("Axis")) {
+    let axisID = parseInt(attr.split(" ")[1]);
+    let component = attr.split(" ")[2];
+    axes[axisID][component] =
+      component === "Label" || component === "title"
+        ? markSelection.map((r) => allGraphicsElement[r])
+        : markSelection;
+  }
   reflectChanges();
 }
 

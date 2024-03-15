@@ -208,7 +208,6 @@ function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   let thisText = d3.select("#" + data).datum();
-  console.log(thisText);
 
   draggedToID = ev.srcElement.id;
   if (draggedToID.includes("IDinSVG")) {
