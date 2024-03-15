@@ -124,6 +124,8 @@
         </div>
       </div>
 
+      <div id="axisOptionList" class="axis-option-list"></div>
+
       <div
         class="mainbox"
         id="axisAndLegend"
@@ -431,7 +433,7 @@
                     <option value="Path">Path</option>
                   </select>
                 </div>
-                <div style="flex-grow: 1; margin-right: 5px">
+                <!-- <div style="flex-grow: 1; margin-right: 5px">
                   Assign a Mark Role
                   <select
                     class="fieldType"
@@ -474,6 +476,110 @@
                     <option value="Legend Tick">Legend Tick</option>
                     <option value="Noise">Noise</option>
                   </select>
+                </div> -->
+                <div id="dropdown" class="dropdown">
+                  <div class="selected-option" onclick="toggleDropdown()">
+                    Assign a Mark Role
+                  </div>
+                  <div id="optionList" class="option-list">
+                    <div class="option" onclick="markAnnotationChanged('none')">
+                      Not Assigned
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Chart Title')"
+                    >
+                      Chart Title
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Main Chart Mark')"
+                    >
+                      Main Chart Mark
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Horizontal Gridline')"
+                    >
+                      Horizontal Gridline
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Chart Title')"
+                    >
+                      Chart Title
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Radian Gridline')"
+                    >
+                      Radian Gridline
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Radian Gridline')"
+                    >
+                      Radian Gridline
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('Annotation')"
+                    >
+                      Annotation
+                    </div>
+                    <div
+                      class="option"
+                      onclick="toggleSublist(event, 'Axis Label')"
+                    >
+                      Axis Label
+                      <div class="sublist" id="sublabel"></div>
+                    </div>
+                    <div
+                      class="option"
+                      onclick="toggleSublist(event, 'Axis Title')"
+                    >
+                      Axis Title
+                      <div class="sublist" id="subtitle"></div>
+                    </div>
+                    <div
+                      class="option"
+                      onclick="toggleSublist(event, 'Axis Path')"
+                    >
+                      Axis Path
+                      <div class="sublist" id="subpath"></div>
+                    </div>
+                    <div
+                      class="option"
+                      onclick="toggleSublist(event, 'Axis Ticks')"
+                    >
+                      Axis Ticks
+                      <div class="sublist" id="subticks"></div>
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('legend Label')"
+                    >
+                      Legend Label
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('legend Title')"
+                    >
+                      Legend Title
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('legend Path')"
+                    >
+                      Legend Path
+                    </div>
+                    <div
+                      class="option"
+                      onclick="markAnnotationChanged('legend Ticks')"
+                    >
+                      Legend Ticks
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

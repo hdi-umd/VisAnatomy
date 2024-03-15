@@ -13,11 +13,11 @@ body {
   overflow: hidden;
   overflow-y: auto;
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
   /* background-image: -moz-linear-gradient(90deg, #e0e0e0, #fff);
         background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #e0e0e0), color-stop(0.25, #fff));
@@ -633,4 +633,59 @@ span {
 .specifiedGroup:hover {
   background-color: #ccffff;
   cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selected-option {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.option-list {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .option-list {
+  display: block;
+}
+
+.option {
+  padding: 4px 0;
+}
+
+.option:hover {
+  background-color: #ddd;
+}
+
+.sublist {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.sub-option {
+  padding: 4px 0;
+}
+
+.sub-option:hover {
+  background-color: #ddd;
 }

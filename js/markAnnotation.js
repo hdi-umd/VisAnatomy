@@ -2,6 +2,97 @@ var markSelection = [];
 var channelBasedBatchSelections4AllMarks = {};
 var allLeftNodes = [];
 
+function toggleDropdown() {
+  const optionList = document.getElementById("optionList");
+  optionList.style.display =
+    optionList.style.display === "block" ? "none" : "block";
+  hideAllSublists();
+}
+
+function toggleSublist(event, optionValue) {
+  const sublistId = getSublistId(optionValue);
+  const sublist = document.getElementById(sublistId);
+
+  if (sublist.style.display === "block") {
+    sublist.style.display = "none";
+  } else {
+    hideAllSublists();
+    populateSublist(sublist);
+    sublist.style.display = "block";
+  }
+
+  event.stopPropagation();
+}
+
+function hideAllSublists() {
+  const sublists = document.getElementsByClassName("sublist");
+  for (let i = 0; i < sublists.length; i++) {
+    sublists[i].style.display = "none";
+  }
+}
+
+function populateSublist(sublist) {
+  sublist.innerHTML = "";
+
+  for (let i = 1; i <= Object.keys(axes).length; i++) {
+    const subOption = document.createElement("div");
+    subOption.className = "sub-option";
+    subOption.textContent = "axis " + i;
+    subOption.onclick = () => {
+      markAnnotationChanged("Axis " + i + " " + sublist.id.substring(3));
+    };
+    subOption.onmouseover = () => {
+      // get axes[i].labels and fetch their positions through allGraphicsElement using their IDs and draw a rectangle around them, with padding 5px
+      let axis = axes[i];
+      let labels = axis.labels;
+      let labelPositions = labels.map((label) => {
+        let labelElement = allGraphicsElement[label.id];
+        return {
+          x: labelElement.left,
+          y: labelElement.top,
+          width: labelElement.width,
+          height: labelElement.height,
+        };
+      });
+      let x = Math.min(...labelPositions.map((pos) => pos.x));
+      let y = Math.min(...labelPositions.map((pos) => pos.y));
+      let width = Math.max(...labelPositions.map((pos) => pos.x + pos.width));
+      let height = Math.max(...labelPositions.map((pos) => pos.y + pos.height));
+      let svg = document.getElementById("rbox1").querySelector("svg");
+      let rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      rect.setAttribute("x", x - 5);
+      rect.setAttribute("y", y - 5);
+      rect.setAttribute("width", width - x + 10);
+      rect.setAttribute("height", height - y + 10);
+      rect.setAttribute("stroke", "red");
+      rect.setAttribute("stroke-width", "2");
+      rect.setAttribute("fill", "none");
+      rect.classList.add("highlightRect");
+      svg.appendChild(rect);
+    };
+    subOption.onmouseout = () => {
+      d3.selectAll(".highlightRect").remove();
+    };
+
+    sublist.appendChild(subOption);
+  }
+}
+
+function getSublistId(optionValue) {
+  switch (optionValue) {
+    case "Axis Label":
+      return "sublabel";
+    case "Axis Title":
+      return "subtitle";
+    case "Axis Path":
+      return "subpath";
+    case "Axis Ticks":
+      return "subticks";
+    default:
+      return "";
+  }
+}
+
 function initilizeMarkAnnotation() {
   referenceElements.forEach((rid) => {
     d3.select("#" + rid).style("opacity", "0.1");
@@ -262,10 +353,10 @@ function markOnClick(markID, event) {
     markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
       ? markInfo[markID].Type
       : "none";
-  document.getElementById("markRoleSelection").value =
-    markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
-      ? markInfo[markID].Role
-      : "none";
+  // document.getElementById("markRoleSelection").value =
+  //   markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
+  //     ? markInfo[markID].Role
+  //     : "none";
   svgHighlighting();
 }
 
@@ -309,10 +400,10 @@ function selectionOnClick(selectionID, selection) {
     markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
       ? markInfo[markSelection[0]].Type
       : "none";
-  document.getElementById("markRoleSelection").value =
-    markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
-      ? markInfo[markSelection[0]].Role
-      : "none";
+  // document.getElementById("markRoleSelection").value =
+  //   markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
+  //     ? markInfo[markSelection[0]].Role
+  //     : "none";
   svgHighlighting();
 }
 
@@ -326,7 +417,7 @@ function disableAllMarkSelections() {
   markSelection = [];
   document.getElementById("numberOfMarksSelected").innerHTML = "0";
   document.getElementById("markTypeSelection").value = "none";
-  document.getElementById("markRoleSelection").value = "none";
+  // document.getElementById("markRoleSelection").value = "none";
   svgHighlighting();
 }
 
@@ -373,39 +464,21 @@ function svgHighlighting() {
 }
 
 function markAnnotationChanged(attr) {
-  if (markSelection.length === 0) return;
+  if (markSelection.length === 0) {
+    toggleDropdown();
+    return;
+  }
   console.log(markInfo);
   markSelection.map((selectedMarkID) => {
-    let thisValue = document.getElementById("mark" + attr + "Selection").value;
-    markInfo[selectedMarkID][attr] = thisValue;
-    // switch (thisValue) {
-    //   case "Horizontal Gridline":
-    //     xGridlines.push(selectedMarkID);
-    //     break;
-    //   case "Vertical Gridline":
-    //     yGridlines.push(selectedMarkID);
-    //     break;
-    //   case "X Axis Line":
-    //     xAxis["line"] = selectedMarkID;
-    //     break;
-    //   case "Y Axis Line":
-    //     yAxis["line"] = selectedMarkID;
-    //     break;
-    //   case "X Axis Tick":
-    //     if (xAxis["ticks"]) xAxis["ticks"].push(selectedMarkID);
-    //     else xAxis["ticks"] = [selectedMarkID];
-    //     break;
-    //   case "Y Axis Tick":
-    //     if (yAxis["ticks"]) yAxis["ticks"].push(selectedMarkID);
-    //     else yAxis["ticks"] = [selectedMarkID];
-    //     break;
-    //   case "Legend Mark":
-    //     legend.marks.push(selectedMarkID);
-    //     break;
-    //   case "Legend Label":
-    //     legend.labels.push(selectedMarkID);
-    //     break;
-    // }
+    if (attr === "Type") {
+      let thisValue = document.getElementById(
+        "mark" + attr + "Selection"
+      ).value;
+      markInfo[selectedMarkID][attr] = thisValue;
+    } else {
+      markInfo[selectedMarkID].Role = attr;
+      toggleDropdown();
+    }
   });
   reflectChanges();
 }
