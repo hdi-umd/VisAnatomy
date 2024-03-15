@@ -11,6 +11,7 @@ const typeSpecificChannels = {
     "strokeWidth",
     "opacity",
     "length",
+    "strokeDash",
   ],
   Polyline: [
     "vertices-x",
@@ -23,6 +24,7 @@ const typeSpecificChannels = {
     "length",
     "vertices-polarAngle",
     "vertices-polarRadius",
+    "strokeDash",
   ],
   Rectangle: [
     "x",
@@ -136,6 +138,7 @@ const typeSpecificChannels = {
     "fill",
     "opacity",
     "vertices",
+    "strokeDash",
   ],
 };
 
