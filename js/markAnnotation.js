@@ -468,8 +468,8 @@ function svgHighlighting() {
 }
 
 function markAnnotationChanged(attr) {
+  optionList.style.display = "none";
   if (markSelection.length === 0) {
-    toggleDropdown();
     return;
   }
   console.log(markInfo);
@@ -481,7 +481,6 @@ function markAnnotationChanged(attr) {
       markInfo[selectedMarkID][attr] = thisValue;
     } else {
       markInfo[selectedMarkID].Role = attr;
-      toggleDropdown();
     }
   });
   reflectChanges();
