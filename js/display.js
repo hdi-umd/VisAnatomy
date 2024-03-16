@@ -155,7 +155,6 @@ function displayAxis(index) {
   d3.select("#axis_" + index)
     .selectAll(".higerLevelLabelBox")
     .remove();
-  d3.select("axisLabel_" + index).style("width", "calc(100% - 405px)");
   d3.select("#axisLabel_" + index)
     .selectAll("button")
     .remove();
@@ -198,7 +197,6 @@ function displayAxis(index) {
   [1, 2, 3].forEach((i) => {
     d3.select("#" + "axisLabel_" + index + "_" + i).remove();
   });
-  d3.select("#" + "axisLabel_" + index).style("width", "calc(100% - 405px)");
 
   if (axis.upperLevels) {
     let size = [

@@ -124,225 +124,6 @@
         </div>
       </div>
 
-      <div id="axisOptionList" class="axis-option-list"></div>
-
-      <div
-        class="mainbox"
-        id="axisAndLegend"
-        style="overflow-y: auto; max-height: 400px"
-      >
-        <div style="margin-left: 20px">
-          <span style="margin-right: 30px; font-weight: bold"
-            >Axis & Legend Detection Results</span
-          >
-          <span
-            ><img
-              src="img/plus.png"
-              alt="Add Axis"
-              style="width: 15px; height: 15px; cursor: pointer"
-              onclick="addAxisConfiguration();"
-          /></span>
-          <span
-            ><img
-              id="questionMark"
-              src="img/question mark.png"
-              alt="Question Mark"
-              style="width: 15px; height: 15px; cursor: pointer"
-          /></span>
-          <div
-            id="chartTitle"
-            class="chartTitle"
-            style="
-              height: 40px;
-              position: absolute;
-              top: -5px;
-              right: 5px;
-              width: 50%;
-            "
-            ondrop="drop(event)"
-            ondragover="allowDrop(event)"
-          ></div>
-        </div>
-        <div class="float-container" id="buttons" style="display: block">
-          <!-- This is the main axis div -->
-          <div class="axisDiv" id="axis_1">
-            <!--This is the first part of the column-->
-            <div class="axisMeta">
-              <select
-                class="axisType fieldType"
-                id="axisType_1"
-                onchange="axisTypeChanged(1)"
-                style="font-size: 12px; width: 60px"
-              >
-                <option value="x">X</option>
-                <option value="y">Y</option>
-                <option value="radian">Radian</option>
-                <option value="angular">Angular</option>
-              </select>
-              <b>Axis</b>
-              <div style="display: inline-block">
-                <select
-                  class="fieldType"
-                  id="fieldType_1"
-                  onchange="fieldTypeChanged(1)"
-                  style="width: 75px; font-size: 12px"
-                >
-                  <option value="Null">none</option>
-                  <option value="string">categories</option>
-                  <option value="number">numbers</option>
-                  <option value="date">dates</option>
-                </select>
-                <input
-                  type="image"
-                  src="img/select-area.png"
-                  onclick="activateAreaSelect(1);"
-                  id="axis1Area"
-                  width="16px"
-                  height="16px"
-                  class="selectAreaBtn"
-                  style="margin-left: 0px; margin-top: 5px"
-                />
-              </div>
-              <input
-                type="image"
-                src="img/plus.png"
-                onclick="addAxisLevel(1);"
-                width="16px"
-                height="16px"
-                style="position: absolute; right: 7px"
-                class="selectAreaBtn"
-              />
-            </div>
-
-            <!--This is the second part of the column (title)-->
-            <div
-              class="axisTitle"
-              id="axisTitle_1"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-            ></div>
-
-            <!--This is the third part of the column (the label)-->
-            <div
-              class="axisLabels"
-              id="axisLabel_1"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-            ></div>
-          </div>
-
-          <div class="axisDiv" id="axis_2">
-            <!--This is the first part of the column-->
-            <div class="axisMeta">
-              <select
-                class="axisType fieldType"
-                id="axisType_2"
-                onchange="axisTypeChanged(2)"
-                style="font-size: 12px; width: 60px"
-              >
-                <option value="x">X</option>
-                <option value="y">Y</option>
-                <option value="radian">Radian</option>
-                <option value="angular">Angular</option>
-              </select>
-              <b>Axis</b>
-              <div style="display: inline-block">
-                <select
-                  class="fieldType"
-                  id="fieldType_2"
-                  onchange="fieldTypeChanged(2)"
-                  style="width: 75px; font-size: 12px"
-                >
-                  <option value="Null">none</option>
-                  <option value="string">categories</option>
-                  <option value="number">numbers</option>
-                  <option value="date">dates</option>
-                </select>
-                <input
-                  type="image"
-                  src="img/select-area.png"
-                  onclick="activateAreaSelect(2);"
-                  id="axis2Area"
-                  width="16px"
-                  height="16px"
-                  class="selectAreaBtn"
-                  style="margin-left: 0px; margin-top: 5px"
-                />
-              </div>
-              <input
-                type="image"
-                src="img/plus.png"
-                onclick="addAxisLevel(2);"
-                width="16px"
-                height="16px"
-                style="position: absolute; right: 7px"
-                class="selectAreaBtn"
-              />
-            </div>
-
-            <!--This is the second part of the column (title)-->
-            <div
-              class="axisTitle"
-              id="axisTitle_2"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-            ></div>
-
-            <!--This is the third part of the column (the label)-->
-            <div
-              class="axisLabels"
-              id="axisLabel_2"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-            ></div>
-          </div>
-
-          <!-- This is the main legend div -->
-          <div class="axisDiv">
-            <!-- This is the 1st column div -->
-
-            <div class="axisMeta">
-              <b>Legend</b
-              ><input
-                type="image"
-                src="img/select-area.png"
-                id="legendArea"
-                onclick="activateAreaSelect('legend');"
-                width="16px"
-                height="16px"
-                class="selectAreaBtn"
-              /><br />
-              <select
-                class="fieldType"
-                id="legendFieldType"
-                onchange="legendFieldTypeChanged()"
-              >
-                <option value="Null">none</option>
-                <option value="string">categories</option>
-                <option value="number">numbers</option>
-                <option value="date">dates</option>
-              </select>
-            </div>
-
-            <!-- This is the 2nd column div-->
-            <div
-              class="axisTitle"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-              id="legendTitle"
-            ></div>
-
-            <!-- This is the 3rd column div-->
-            <div
-              class="axisLabels"
-              id="legendLabels"
-              ondrop="drop(event)"
-              ondragover="allowDrop(event)"
-            ></div>
-          </div>
-        </div>
-      </div>
-
       <div id="container">
         <div
           id="rbox1"
@@ -384,6 +165,200 @@
             ></rect>
           </svg>
         </div>
+        <div id="chartTitleDiv" style="overflow-y: auto; max-height: 400px">
+          <div style="margin-left: 20px; font-weight: bold">Chart Title</div>
+          <div
+            id="chartTitle"
+            class="chartTitle"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          ></div>
+        </div>
+        <div class="mainbox" id="axisAndLegend" style="overflow-y: auto">
+          <div style="margin-left: 20px">
+            <span style="margin-right: 30px; font-weight: bold"
+              >Axis & Legend Detection Results</span
+            >
+            <span
+              ><img
+                src="img/plus.png"
+                alt="Add Axis"
+                style="width: 15px; height: 15px; cursor: pointer"
+                onclick="addAxisConfiguration();"
+            /></span>
+            <span
+              ><img
+                id="questionMark"
+                src="img/question mark.png"
+                alt="Question Mark"
+                style="width: 15px; height: 15px; cursor: pointer"
+            /></span>
+          </div>
+          <div class="float-container" id="buttons" style="display: block">
+            <!-- This is the main axis div -->
+            <div class="axisDiv" id="axis_1">
+              <!--This is the first part of the column-->
+              <div class="axisRow">
+                <div class="axisMeta">
+                  <select
+                    class="axisType fieldType"
+                    id="axisType_1"
+                    onchange="axisTypeChanged(1)"
+                    style="font-size: 12px; width: 60px"
+                  >
+                    <option value="x">X</option>
+                    <option value="y">Y</option>
+                    <option value="radian">Radian</option>
+                    <option value="angular">Angular</option>
+                  </select>
+                  <b>Axis</b>
+                  <div style="display: inline-block">
+                    <select
+                      class="fieldType"
+                      id="fieldType_1"
+                      onchange="fieldTypeChanged(1)"
+                      style="width: 100px; font-size: 12px"
+                    >
+                      <option value="Null">none</option>
+                      <option value="string">categories</option>
+                      <option value="number">numbers</option>
+                      <option value="date">dates</option>
+                    </select>
+                    <input
+                      type="image"
+                      src="img/select-area.png"
+                      onclick="activateAreaSelect(1);"
+                      id="axis1Area"
+                      width="16px"
+                      height="16px"
+                      class="selectAreaBtn"
+                      style="margin-left: 0px; margin-top: 5px"
+                    />
+                  </div>
+                </div>
+
+                <!--This is the second part of the column (title)-->
+                <div
+                  class="axisTitle"
+                  id="axisTitle_1"
+                  ondrop="drop(event)"
+                  ondragover="allowDrop(event)"
+                ></div>
+              </div>
+
+              <!--This is the third part of the column (the label)-->
+              <div
+                class="axisLabels"
+                id="axisLabel_1"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+              ></div>
+            </div>
+
+            <div class="axisDiv" id="axis_2">
+              <!--This is the first part of the column-->
+              <div class="axisRow">
+                <div class="axisMeta">
+                  <select
+                    class="axisType fieldType"
+                    id="axisType_2"
+                    onchange="axisTypeChanged(2)"
+                    style="font-size: 12px; width: 60px"
+                  >
+                    <option value="x">X</option>
+                    <option value="y">Y</option>
+                    <option value="radian">Radian</option>
+                    <option value="angular">Angular</option>
+                  </select>
+                  <b>Axis</b>
+                  <div style="display: inline-block">
+                    <select
+                      class="fieldType"
+                      id="fieldType_2"
+                      onchange="fieldTypeChanged(2)"
+                      style="width: 100px; font-size: 12px"
+                    >
+                      <option value="Null">none</option>
+                      <option value="string">categories</option>
+                      <option value="number">numbers</option>
+                      <option value="date">dates</option>
+                    </select>
+                    <input
+                      type="image"
+                      src="img/select-area.png"
+                      onclick="activateAreaSelect(2);"
+                      id="axis2Area"
+                      width="16px"
+                      height="16px"
+                      class="selectAreaBtn"
+                      style="margin-left: 0px; margin-top: 5px"
+                    />
+                  </div>
+                </div>
+
+                <!--This is the second part of the column (title)-->
+                <div
+                  class="axisTitle"
+                  id="axisTitle_2"
+                  ondrop="drop(event)"
+                  ondragover="allowDrop(event)"
+                ></div>
+              </div>
+
+              <!--This is the third part of the column (the label)-->
+
+              <div
+                class="axisLabels"
+                id="axisLabel_2"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+              ></div>
+            </div>
+
+            <!-- This is the main legend div -->
+            <div class="axisDiv">
+              <div class="axisRow">
+                <div class="axisMeta">
+                  <b>Legend</b>
+                  <input
+                    type="image"
+                    src="img/select-area.png"
+                    id="legendArea"
+                    onclick="activateAreaSelect('legend');"
+                    width="16px"
+                    height="16px"
+                    class="selectAreaBtn"
+                  />
+                  <select
+                    class="fieldType"
+                    id="legendFieldType"
+                    onchange="legendFieldTypeChanged()"
+                  >
+                    <option value="Null">none</option>
+                    <option value="string">categories</option>
+                    <option value="number">numbers</option>
+                    <option value="date">dates</option>
+                  </select>
+                </div>
+                <div
+                  class="axisTitle"
+                  ondrop="drop(event)"
+                  ondragover="allowDrop(event)"
+                  id="legendTitle"
+                ></div>
+              </div>
+              <div class="axisRow">
+                <div
+                  class="axisLabels"
+                  id="legendLabels"
+                  ondrop="drop(event)"
+                  ondragover="allowDrop(event)"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div
           id="generalizedSelection"
           style="
@@ -1193,8 +1168,6 @@
             allSVGElementID.forEach((rid) => {
               d3.select("#" + rid).style("opacity", "1");
             });
-            // set the height of the container div
-            d3.select("#container").style("height", "calc(100% - 300px)");
 
             referenceElements.forEach((rid) => {
               d3.select("#" + rid).style("opacity", "1");
@@ -1234,7 +1207,6 @@
             allSVGElementID.forEach((rid) => {
               d3.select("#" + rid).style("opacity", "1");
             });
-            d3.select("#container").style("height", "calc(100% - 75px)");
 
             // remove all reference elements from the svg
             mainContentElements = groupSVGElementsByType();
@@ -1282,7 +1254,6 @@
             d3.select("#higherGroupBtn").style("visibility", "visible");
             document.getElementById("higherLevelGroups").style.visibility =
               "hidden";
-            d3.select("#container").style("height", "calc(100% - 75px)");
             initilizeGroupAnnotation();
             break;
           case "Layout":
@@ -1354,28 +1325,31 @@
         axisDiv.className = "axisDiv";
         axisDiv.id = `axis_${axisCount}`;
         axisDiv.innerHTML = `
-        <div class="axisMeta">
-          <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
-            <option value="x">X</option>
-            <option value="y">Y</option>
-            <option value="radian">Radian</option>
-            <option value="angular">Angular</option>
-          </select>
-          <b>Axis</b>
-          <div style="display: inline-block;">
-            <select class="fieldType" id="fieldType_${axisCount}" onchange="fieldTypeChanged(${axisCount})" style="width: 75px; font-size: 12px;">
-              <option value="Null">none</option>
-              <option value="string">categories</option>
-              <option value="number">numbers</option>
-              <option value="date">dates</option>
-            </select>
-            <input type="image" src="img/select-area.png" onclick="activateAreaSelect(${axisCount});" id="axis${axisCount}Area" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
+          <div class="axisRow">
+            <div class="axisMeta">
+              <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="radian">Radian</option>
+                <option value="angular">Angular</option>
+              </select>
+              <b>Axis</b>
+              <div style="display: inline-block;">
+                <select class="fieldType" id="fieldType_${axisCount}" onchange="fieldTypeChanged(${axisCount})" style="width: 100px; font-size: 12px;">
+                  <option value="Null">none</option>
+                  <option value="string">categories</option>
+                  <option value="number">numbers</option>
+                  <option value="date">dates</option>
+                </select>
+                <input type="image" src="img/select-area.png" onclick="activateAreaSelect(${axisCount});" id="axis${axisCount}Area" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
+              </div>
+            </div>
+            <div class="axisTitle" id="axisTitle_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
           </div>
-          <input type="image" src="img/plus.png" onclick="addAxisLevel(${axisCount});" width="16px" height="16px" style="position: absolute; right: 7px;" class="selectAreaBtn" />
-        </div>
-        <div class="axisTitle" id="axisTitle_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      `;
+          <div class="axisRow">
+            <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+        `;
         document
           .getElementById("buttons")
           .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
