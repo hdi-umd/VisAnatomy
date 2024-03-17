@@ -1,7 +1,7 @@
 import os
 import json
 
-script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))));
+script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 annotations_folder = os.path.join(script_dir, "annotations")
 
 # next get the list of all the files in the annotations folder, and loop through them
