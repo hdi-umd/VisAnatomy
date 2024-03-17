@@ -69,7 +69,6 @@ function groupSVGElementsByTypeWithCoordinates() {
 
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
-    console.log(element.id, zeroWidth, zeroHeight, top, left, right, bottom);
     if (!(zeroHeight && zeroWidth) && top > -4000 && left > -4000) {
       allGraphicsElement[element.id] = {
         left: left,
