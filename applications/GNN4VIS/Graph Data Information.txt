@@ -1,0 +1,2 @@
+graphData_v1:
+	features for nodes: [oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]

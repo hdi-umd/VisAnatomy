@@ -22,7 +22,7 @@ graphicsElementTypes = [
   "path",
   "image",
   "text",
-#   "use",
+  "use",
   "g",
 ]
 
@@ -170,7 +170,7 @@ def generateGraphData(chartName):
                 if node.startswith(nodeType):
                     nodeFeature[i] = 1
                     break
-            if (nodeType == "use"):
+            if (node.startswith("use")):
                 # get the element using ET
                 element = root.find(f".//*[@id='{node}']")
                 # get the href attribute
@@ -186,17 +186,17 @@ def generateGraphData(chartName):
                         # get the type of the element
                         for i, nodeType in enumerate(graphicsElementTypes):
                             if referredElementID.startswith(nodeType):
+                                nodeFeature = [0] * len(graphicsElementTypes)
                                 nodeFeature[i] = 1
                                 break
                         # in visualStyles[node], if a value is none then use the value of the referred element
-                        for i in range(3):
-                            if visualStyles[node][i] is None:
-                                visualStyles[node][i] = visualStyles[referredElementID][i]
+                        if (visualStyles[node] != None):    
+                            for i in range(3):
+                                if visualStyles[node][i] is None and visualStyles[referredElementID][i] is not None:
+                                    visualStyles[node][i] = visualStyles[referredElementID][i]
 
 
             # second part, the boudning box information from annotations
-            print(allElements.keys())
-            print(node)
             nodeFeature.extend([allElements[node]['top']/max_y, allElements[node]['right']/max_x, allElements[node]['bottom']/max_y, allElements[node]['left']/max_x])
             nodeFeature.extend(visualStyles[node])
             nodeFeatures.append(nodeFeature)
