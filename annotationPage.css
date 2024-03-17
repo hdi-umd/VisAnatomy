@@ -191,7 +191,7 @@ body {
 }
 
 .float-container {
-  padding: 10px;
+  padding: 0px;
   width: 100%;
   border: #ccc 0px solid;
 }
@@ -247,32 +247,32 @@ body {
   padding-right: 5px;
 }
 
-#xTitle:empty::before {
-  content: "Text element(s) for the X-axis title";
+.axisTitle:empty::before {
+  content: " axis title";
   color: lightgray;
 }
-#yTitle:empty::before {
-  content: "Text element(s) for the Y-axis title";
+/* #axisTitle:empty::before {
+  content: " axis title";
   color: lightgray;
-}
+} */
 #legendTitle:empty::before {
-  content: "Text element(s) for the legend title";
+  content: " legend title";
   color: lightgray;
 }
 #chartTitle:empty::before {
-  content: "Text element(s) for the chart title";
+  content: " chart title";
   color: lightgray;
 }
-#xLabels:empty::before {
-  content: "Text element(s) for the X-axis labels";
+.axisLabels:empty::before {
+  content: " axis labels";
   color: lightgray;
 }
-#yLabels:empty::before {
-  content: "Text element(s) for the Y-axis labels";
+/* #yLabels:empty::before {
+  content: " axis labels";
   color: lightgray;
-}
+} */
 #legendLabels:empty::before {
-  content: "Text element(s) for the legend labels";
+  content: " legend labels";
   color: lightgray;
 }
 
@@ -385,9 +385,11 @@ td:hover {
 .axisDiv {
   width: 100%;
   height: auto;
-  border: 2px solid #add8e6;
-  margin-bottom: 20px;
+  border: 1px solid #b8cdd4;
+  margin-top: 15px;
+  margin-bottom: 5px;
   padding: 5px;
+  border-radius: 5px;
 }
 
 .deleteAxis {
@@ -403,11 +405,16 @@ td:hover {
   height: 20px;
 }
 
+.axisType {
+  background-color: #fff;
+}
+
 .axisRow {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   position: relative;
+  margin-right:2px;
 }
 
 .axisMeta {
@@ -421,24 +428,28 @@ td:hover {
 
 .axisTitle {
   width: calc(100% - 120px);
-  border: #bbb 1px solid;
-  height: 30px;
+  border: #eee 1px solid;
+  padding: 3px 0 3px 3px;
+  height: 25px;
   overflow: auto;
-  margin-left: 0px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+  background-color: #fff;
 }
 
 .axisLabels {
   width: 100%;
-  border: #bbb 1px solid;
+  border: #eee 1px solid;
+  padding: 3px;
   height: 45px;
   overflow: scroll;
+  background-color: #fff;
 }
 
 .fieldType {
   margin-left: 0px;
   border: #ddd 1px solid;
-  background: #f2f2f2;
+  background: #fff;
 }
 
 #preprocessUI select option {

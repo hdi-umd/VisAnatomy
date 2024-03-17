@@ -166,7 +166,7 @@
           </svg>
         </div>
         <div id="chartTitleDiv" style="overflow-y: auto; max-height: 400px">
-          <div style="margin-left: 20px; font-weight: bold">Chart Title</div>
+          <div style="margin-left: 5px; font-weight: bold">Chart Title</div>
           <div
             id="chartTitle"
             class="chartTitle"
@@ -175,12 +175,12 @@
           ></div>
         </div>
         <div class="mainbox" id="axisAndLegend" style="overflow-y: auto">
-          <div style="margin-left: 20px">
-            <span style="margin-right: 30px; font-weight: bold"
-              >Axis & Legend Detection Results</span
+          <div style="margin-left: 5px">
+            <span style="margin-right: 20px; font-weight: bold"
+              >Axes and Legends</span
             >
             <button
-              style="height: 30px; cursor: pointer"
+              style="height: 20px; cursor: pointer; font-size: 12.5px;"
               onclick="addAxisConfiguration();"
             >
               Add an Axis
@@ -201,7 +201,7 @@
               <div class="axisRow">
                 <span class="deleteAxis" onclick="deleteAxis(1)">
                   <svg width="20" height="20">
-                    <circle cx="10" cy="10" r="8" fill="red" />
+                    <circle cx="10" cy="10" r="8" fill="#FF6666" />
                     <line
                       x1="6"
                       y1="10"
@@ -217,7 +217,7 @@
                     class="axisType fieldType"
                     id="axisType_1"
                     onchange="axisTypeChanged(1)"
-                    style="font-size: 12px; width: 60px"
+                    style="font-size: 12px; width: 60px;color: #fff;                    "
                   >
                     <option value="x">X</option>
                     <option value="y">Y</option>
@@ -274,7 +274,7 @@
               <div class="axisRow">
                 <span class="deleteAxis" onclick="deleteAxis(2)">
                   <svg width="20" height="20">
-                    <circle cx="10" cy="10" r="8" fill="red" />
+                    <circle cx="10" cy="10" r="8" fill="#FF6666" />
                     <line
                       x1="6"
                       y1="10"
@@ -1400,7 +1400,7 @@
           <div class="axisRow">
             <span class="deleteAxis" onclick="deleteAxis(${axisCount})">
               <svg width="20" height="20">
-                <circle cx="10" cy="10" r="8" fill="red" />
+                <circle cx="10" cy="10" r="8" fill="#FF6666" />
                 <line x1="6" y1="10" x2="14" y2="10" stroke="white" stroke-width="2" />
               </svg>
             </span>
