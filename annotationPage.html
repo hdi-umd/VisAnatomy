@@ -197,20 +197,21 @@
             <!-- This is the main axis div -->
             <div class="axisDiv" id="axis_1">
               <!--This is the first part of the column-->
-              <!-- <span class="deleteAxis" onclick="deleteAxis(1)">
-                <svg width="20" height="20">
-                  <circle cx="10" cy="10" r="8" fill="red" />
-                  <line
-                    x1="6"
-                    y1="10"
-                    x2="14"
-                    y2="10"
-                    stroke="white"
-                    stroke-width="2"
-                  />
-                </svg>
-              </span> -->
+
               <div class="axisRow">
+                <span class="deleteAxis" onclick="deleteAxis(1)">
+                  <svg width="20" height="20">
+                    <circle cx="10" cy="10" r="8" fill="red" />
+                    <line
+                      x1="6"
+                      y1="10"
+                      x2="14"
+                      y2="10"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </span>
                 <div class="axisMeta">
                   <select
                     class="axisType fieldType"
@@ -269,20 +270,21 @@
 
             <div class="axisDiv" id="axis_2">
               <!--This is the first part of the column-->
-              <!-- <span class="deleteAxis" onclick="deleteAxis(2)">
-                <svg width="20" height="20">
-                  <circle cx="10" cy="10" r="8" fill="red" />
-                  <line
-                    x1="6"
-                    y1="10"
-                    x2="14"
-                    y2="10"
-                    stroke="white"
-                    stroke-width="2"
-                  />
-                </svg>
-              </span> -->
+
               <div class="axisRow">
+                <span class="deleteAxis" onclick="deleteAxis(2)">
+                  <svg width="20" height="20">
+                    <circle cx="10" cy="10" r="8" fill="red" />
+                    <line
+                      x1="6"
+                      y1="10"
+                      x2="14"
+                      y2="10"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </span>
                 <div class="axisMeta">
                   <select
                     class="axisType fieldType"
@@ -1396,6 +1398,12 @@
         axisDiv.id = `axis_${axisCount}`;
         axisDiv.innerHTML = `
           <div class="axisRow">
+            <span class="deleteAxis" onclick="deleteAxis(${axisCount})">
+              <svg width="20" height="20">
+                <circle cx="10" cy="10" r="8" fill="red" />
+                <line x1="6" y1="10" x2="14" y2="10" stroke="white" stroke-width="2" />
+              </svg>
+            </span>
             <div class="axisMeta">
               <select class="axisType fieldType" id="axisType_${axisCount}" onchange="axisTypeChanged(${axisCount})" style="font-size: 12px; width: 60px;">
                 <option value="x">X</option>

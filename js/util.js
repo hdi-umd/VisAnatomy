@@ -30,15 +30,10 @@ function tryLoadAnnotations(filename) {
   console.log("loading from: " + filename);
 
   // remove axes whose id is more than 3
-  for (let thisIndex = 3; thisIndex <= 20; thisIndex++) {
-    // check if the axis with ID "#axis_" + thisIndex exists
-    if (d3.select("#axis_" + thisIndex).empty()) {
-      // if it exists, remove it
-      break;
-    }
+  for (let thisIndex = 1; thisIndex <= 20; thisIndex++) {
     d3.select("#axis_" + thisIndex).remove();
   }
-  axisCount = 2;
+  axisCount = 0;
 
   fetch("/annotations/" + filename + ".json")
     .then((response) => {
@@ -98,10 +93,11 @@ function tryLoadAnnotations(filename) {
       Object.keys(axes).forEach((k) => {
         let index = parseInt(k);
         console.log("loading axis", index, axes[index]);
-        if (parseInt(k) > axisCount) {
-          console.log("add an axis");
-          addAxisConfiguration();
-        }
+        // if (parseInt(k) > axisCount) {
+        //   console.log("add an axis");
+        //   addAxisConfiguration();
+        // }
+        addAxisConfiguration();
         displayAxis(index);
       });
       console.log("finish loading axes");

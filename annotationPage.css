@@ -407,6 +407,7 @@ td:hover {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .axisMeta {
@@ -423,7 +424,8 @@ td:hover {
   border: #bbb 1px solid;
   height: 30px;
   overflow: auto;
-  margin-left: 10px;
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
 .axisLabels {
