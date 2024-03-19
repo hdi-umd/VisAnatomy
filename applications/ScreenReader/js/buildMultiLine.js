@@ -104,6 +104,37 @@ function builtTree_multiLine(annotation) {
     parent: "2_half",
   };
 
+  // add grid nodes
+  horiGridLines = referenceElements.xGridlines
+    .map((line) => allElements[line])
+    .sort((a, b) => a.top - b.top);
+  vetiGridLines = referenceElements.yGridlines
+    .map((line) => allElements[line])
+    .sort((a, b) => a.left - b.left);
+  for (let i = 0; i < horiGridLines.length; i++) {
+    for (let j = 0; j < vetiGridLines.length; j++) {
+      treeRepresentation[i + "_" + j] = {
+        level: 3,
+        name: "The grid view, now at " + i + "," + j,
+        marks: mainChartMarks.filter(
+          (mark) =>
+            parseFloat(mark.top) >= parseFloat(horiGridLines[i].top) &&
+            parseFloat(mark.left) >= parseFloat(vetiGridLines[j].left) &&
+            parseFloat(mark.top) <
+              (horiGridLines[i + 1]
+                ? parseFloat(horiGridLines[i + 1].top)
+                : 10000000) &&
+            parseFloat(mark.left) <
+              (vetiGridLines[j + 1]
+                ? parseFloat(vetiGridLines[j + 1].left)
+                : 10000000)
+        ),
+        children: null,
+        parent: "root",
+      };
+    }
+  }
+
   console.log(treeRepresentation);
   addKeyBoardNavigation_multiLine(treeRepresentation, mainChartMarks);
 }
@@ -128,6 +159,57 @@ function addKeyBoardNavigation_multiLine(treeRepresentation, allMarks) {
       case "ArrowLeft":
         navigateLeft_multiLine(treeRepresentation);
         lastKeyPressedDiv.textContent = "Last key pressed: ArrowLeft";
+        break;
+      case "s":
+        lastKeyPressedDiv.textContent = "Last key pressed: s";
+        if (treeRepresentation[currentNode].level === 3) {
+          nextNode =
+            parseInt(currentNode.split("_")[0]) +
+            1 +
+            "_" +
+            parseInt(currentNode.split("_")[1]);
+          if (treeRepresentation[nextNode] !== undefined) {
+            currentNode = nextNode;
+            console.log("Navigated to:", treeRepresentation[currentNode].name);
+          }
+        } else {
+          currentNode = "0_0";
+          console.log("Navigated to: the grid view, now at 0,0");
+        }
+        break;
+      case "w":
+        lastKeyPressedDiv.textContent = "Last key pressed: w";
+        nextNode =
+          parseInt(currentNode.split("_")[0]) -
+          1 +
+          "_" +
+          parseInt(currentNode.split("_")[1]);
+        if (treeRepresentation[nextNode] !== undefined) {
+          currentNode = nextNode;
+          console.log("Navigated to:", treeRepresentation[currentNode].name);
+        }
+        break;
+      case "a":
+        lastKeyPressedDiv.textContent = "Last key pressed: a";
+        nextNode =
+          parseInt(currentNode.split("_")[0]) +
+          "_" +
+          (parseInt(currentNode.split("_")[1]) - 1);
+        if (treeRepresentation[nextNode] !== undefined) {
+          currentNode = nextNode;
+          console.log("Navigated to:", treeRepresentation[currentNode].name);
+        }
+        break;
+      case "d":
+        lastKeyPressedDiv.textContent = "Last key pressed: d";
+        nextNode =
+          parseInt(currentNode.split("_")[0]) +
+          "_" +
+          (parseInt(currentNode.split("_")[1]) + 1);
+        if (treeRepresentation[nextNode] !== undefined) {
+          currentNode = nextNode;
+          console.log("Navigated to:", treeRepresentation[currentNode].name);
+        }
         break;
       default:
         break;
