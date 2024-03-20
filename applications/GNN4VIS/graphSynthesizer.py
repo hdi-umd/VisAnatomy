@@ -2,6 +2,9 @@ import xml.etree.ElementTree as ET
 import numpy as np
 import os
 import json
+
+dataSplition = json.load(open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "dataSplition.json"), "r"))
+
 # Initialize variables
 indices = {}
 visualStyles = {}
@@ -26,6 +29,22 @@ graphicsElementTypes = [
   "g",
 ]
 
+markTypeGroundtruths = [
+  "Straight Line",
+  "Polyline",
+  "Rectangle",
+  "Ploygon",
+  "geoPolygon",
+  "Circle",
+  "Ellipse",
+  "Pie",
+  "Arc",
+  "Area",
+  "Image",
+  "Text",
+  "Path"
+]
+
 def getAllChartNames():
     script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
     annotations_folder = os.path.join(script_dir, "annotations")
@@ -34,7 +53,6 @@ def getAllChartNames():
     for file in files:
         chartNames.append(file.split(".")[0])
     return chartNames
-
 
 def remove_namespace_prefix(root):
     # Remove namespace prefix from the SVG root element
@@ -108,12 +126,12 @@ def add_id_to_leaves(element, indices, all_svg_element_id, id_mappings, currentV
             id_mappings[original_id] = new_id  # Track original to new ID mapping
 
     parent_child_relationship[element.get('id')] = parent.get('id')
-    if (len(list(element)) > 0 and (thisTag not in graphicsElementTypes or thisTag == "g")):
+    if (len(list(element)) > 0 and (thisTag not in graphicsElementTypes or thisTag == "g" or thisTag == "text")):
         # add parent-child relationship
         for child_node in element:
             add_id_to_leaves(child_node, indices, all_svg_element_id, id_mappings, thisVisualStyles, element)
 
-def generateGraphData(chartName):
+def generateGraphData(chartName, folderName):
     script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
     svg_file_path = os.path.join(script_dir, "examples", chartName+".svg")
@@ -127,6 +145,7 @@ def generateGraphData(chartName):
     with open(annotation_file_path, "r") as f:
         annotations = json.load(f)['annotations']
         mark_info = annotations['markInfo']
+        groupInfo = annotations['groupInfo']
         allElements = annotations["allGraphicsElement"]
         # allElements is a JSON, whose keys are element IDs and values are the bounding box information, enumerated the values and extract the overall bounding box
         # Initialize variables for the overall bounding box
@@ -143,77 +162,117 @@ def generateGraphData(chartName):
             max_x = max(max_x, right)
             max_y = max(max_y, bottom)
 
-        main_chart_marks = [key for key, value in mark_info.items() if value['Role'] == 'Main Chart Mark']
-        allNodes = main_chart_marks.copy()
-        # get ancesters of main_chart_marks
-        for mark in main_chart_marks:
-            child = mark
-            parent = parent_child_relationship[mark]
-            while parent:
-                if (parent not in allNodes):
-                    allNodes.append(parent)
-                if ([allNodes.index(child), allNodes.index(parent)] not in edges):
-                    edges.append([allNodes.index(child), allNodes.index(parent)])
-                if (parent == root.get('id') or parent.startswith('svg')):
-                    break
-                child = parent
-                parent = parent_child_relationship[parent]
+        # if target main chart marks
+        targetedElements = [key for key, value in mark_info.items() if value['Role'] == 'Main Chart Mark']
+        # # if target all basic elements
+        # targetedElements = [key for key, value in allElements.items() if key]
+
+        allNodes = targetedElements.copy()
+
+        ## get ancesters of main_chart_marks and form edges
+
+        # # if using the parent-child relationship in the SVG
+        # for mark in targetedElements:
+        #     if (mark in parent_child_relationship):
+        #         child = mark
+        #         parent = parent_child_relationship[mark]
+        #         while parent:
+        #             if (parent not in allNodes):
+        #                 allNodes.append(parent)
+        #             if ([allNodes.index(child), allNodes.index(parent)] not in edges):
+        #                 edges.append([allNodes.index(child), allNodes.index(parent)])
+        #             if (parent == root.get('id') or parent.startswith('svg')):
+        #                 break
+        #             child = parent
+        #             parent = parent_child_relationship[parent]
+
+        # if using the nestedGrouping in the annotations to form the edges
+        def addEdges(node):
+            # if the node is a number
+            if (isinstance(node, int)):
+                allNodes.append("group" + str(node))
+                for child in groupInfo[node]:
+                    edges.append(["group" + str(node), child])
+            else:
+                allNodes.append("group" + str(node))
+                for child in node:
+                    edges.append(["group" + str(node), "group" + str(child)])
+                for child in node:
+                    addEdges(child)
+        nestedGrouping = annotations['nestedGrouping'][0]
+        addEdges(nestedGrouping)
+            
         for node in allNodes:
             # first part, one-hot encoding of the node type referring to the nodes name starting with which dimension of graphicsElementTypes
-            nodeFeature = [0] * len(graphicsElementTypes)
-            if (node not in main_chart_marks):
-                # the last element of the nodeFeature is 1
+
+            # # if using just the SVG type
+            # nodeFeature = [0] * len(graphicsElementTypes)
+            # if (node not in targetedElements):
+            #     # the last element of the nodeFeature is 1
+            #     nodeFeature[-1] = 1
+            #     nodeFeature.extend([0, 0, 0, 0, 0, 0, 0])
+            #     nodeFeatures.append(nodeFeature)
+            #     continue
+            # for i, nodeType in enumerate(graphicsElementTypes):
+            #     if node.startswith(nodeType):
+            #         nodeFeature[i] = 1
+            #         break
+            # if (node.startswith("tspan") or node.startswith("textPath")):
+            #     nodeFeature[8] = 1
+            # if (node.startswith("use")):
+            #     # get the element using ET
+            #     element = root.find(f".//*[@id='{node}']")
+            #     if (element):
+            #         # get the href attribute
+            #         href = element.get("{http://www.w3.org/1999/xlink}href")
+            #         if (href == None):
+            #             # get the xlink:href attribute
+            #             href = element.get("{http://www.w3.org/1999/xlink}xlink:href")
+            #         if (href != None):
+            #             # get the href attribute
+            #             if (href[0] == "#" and href[1:] in id_mappings):
+            #                 # get the element using ET
+            #                 referredElementID = id_mappings[href[1:]]
+            #                 # get the type of the element
+            #                 for i, nodeType in enumerate(graphicsElementTypes):
+            #                     if referredElementID.startswith(nodeType):
+            #                         nodeFeature = [0] * len(graphicsElementTypes)
+            #                         nodeFeature[i] = 1
+            #                         break
+            #                 # in visualStyles[node], if a value is none then use the value of the referred element
+            #                 if (visualStyles[node] != None):    
+            #                     for i in range(3):
+            #                         if visualStyles[node][i] is None and visualStyles[referredElementID][i] is not None:
+            #                             visualStyles[node][i] = visualStyles[referredElementID][i]
+
+            # if using their ground truth mark type in the annotations
+            nodeFeature = [0] * (len(markTypeGroundtruths) + 1)
+            if (node not in targetedElements):
                 nodeFeature[-1] = 1
+                nodeFeature.extend([0, 0, 0, 0, 0, 0, 0])
                 nodeFeatures.append(nodeFeature)
                 continue
-            for i, nodeType in enumerate(graphicsElementTypes):
-                if node.startswith(nodeType):
-                    nodeFeature[i] = 1
-                    break
-            if (node.startswith("use")):
-                # get the element using ET
-                element = root.find(f".//*[@id='{node}']")
-                # get the href attribute
-                href = element.get("{http://www.w3.org/1999/xlink}href")
-                if (href == None):
-                    # get the xlink:href attribute
-                    href = element.get("{http://www.w3.org/1999/xlink}xlink:href")
-                if (href != None):
-                    # get the href attribute
-                    if (href[0] == "#"):
-                        # get the element using ET
-                        referredElementID = id_mappings[href[1:]]
-                        # get the type of the element
-                        for i, nodeType in enumerate(graphicsElementTypes):
-                            if referredElementID.startswith(nodeType):
-                                nodeFeature = [0] * len(graphicsElementTypes)
-                                nodeFeature[i] = 1
-                                break
-                        # in visualStyles[node], if a value is none then use the value of the referred element
-                        if (visualStyles[node] != None):    
-                            for i in range(3):
-                                if visualStyles[node][i] is None and visualStyles[referredElementID][i] is not None:
-                                    visualStyles[node][i] = visualStyles[referredElementID][i]
-
+            else:
+                markType = mark_info[node]['Type']
+                for i, nodeType in enumerate(markTypeGroundtruths):
+                    if markType == nodeType:
+                        nodeFeature[i] = 1
+                        break
 
             # second part, the boudning box information from annotations
             nodeFeature.extend([allElements[node]['top']/max_y, allElements[node]['right']/max_x, allElements[node]['bottom']/max_y, allElements[node]['left']/max_x])
-            nodeFeature.extend(visualStyles[node])
+            if (node in visualStyles):
+                nodeFeature.extend(visualStyles[node])
+            else:
+                nodeFeature.extend([0, 0, 0])
             nodeFeatures.append(nodeFeature)
 
         # save the nodeFeatures and edges to a json file within the current folder
-        with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), chartName+".json"), "w") as f:
-            json.dump({"nodeNames": allNodes ,"nodes": nodeFeatures, "edges": edges}, f)
+        with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), folderName, chartName+".json"), "w") as f:
+            json.dump({"nodeNames": allNodes ,"nodes": nodeFeatures, "edges": edges, "splition": dataSplition[chartName]['role'], "label": dataSplition[chartName]['label']}, f)
 
-
-
-# print(len(getAllChartNames()))
+folderName = "graphData_v3_0319"
 for chartName in getAllChartNames():
-    # if the chart has already been processed, i.e., the json file exists, then skip it
-    if (os.path.exists(os.path.join(os.path.dirname(os.path.realpath(__file__)), chartName+".json"))):
-        continue
-    # show the percentage of the progress
-    print(f"processing {chartName} ...")
     # Initialize variables
     indices = {}
     visualStyles = {}
@@ -223,4 +282,9 @@ for chartName in getAllChartNames():
     edges = []
     nodeFeatures = []
     allNodes = []
-    generateGraphData(chartName)
+    # if the chart has already been processed, i.e., the json file exists, then skip it
+    if (os.path.exists(os.path.join(os.path.dirname(os.path.realpath(__file__)), folderName, chartName+".json"))):
+        continue
+    # show the percentage of the progress
+    print(f"processing {chartName} ...")
+    generateGraphData(chartName, folderName)

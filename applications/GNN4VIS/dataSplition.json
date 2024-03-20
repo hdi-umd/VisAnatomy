@@ -1,0 +1,1970 @@
+{
+    "AreaChart1": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart10": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart11": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart2": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart3": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart4": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart5": {
+        "label": 0,
+        "role": "training"
+    },
+    "AreaChart6": {
+        "label": 0,
+        "role": "test"
+    },
+    "AreaChart7": {
+        "label": 0,
+        "role": "test"
+    },
+    "AreaChart8": {
+        "label": 0,
+        "role": "test"
+    },
+    "AreaChart9": {
+        "label": 0,
+        "role": "test"
+    },
+    "AreaChart_count": {
+        "test": 4,
+        "training": 7
+    },
+    "BarChart1": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart10": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart2": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart3": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart4": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart5": {
+        "label": 1,
+        "role": "training"
+    },
+    "BarChart6": {
+        "label": 1,
+        "role": "test"
+    },
+    "BarChart7": {
+        "label": 1,
+        "role": "test"
+    },
+    "BarChart8": {
+        "label": 1,
+        "role": "test"
+    },
+    "BarChart9": {
+        "label": 1,
+        "role": "test"
+    },
+    "BarChartInRadialLayout1": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout10": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout2": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout3": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout4": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout5": {
+        "label": 2,
+        "role": "training"
+    },
+    "BarChartInRadialLayout6": {
+        "label": 2,
+        "role": "test"
+    },
+    "BarChartInRadialLayout7": {
+        "label": 2,
+        "role": "test"
+    },
+    "BarChartInRadialLayout8": {
+        "label": 2,
+        "role": "test"
+    },
+    "BarChartInRadialLayout9": {
+        "label": 2,
+        "role": "test"
+    },
+    "BarChartInRadialLayout_count": {
+        "test": 4,
+        "training": 6
+    },
+    "BarChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "BoxAndWhisker1": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker10": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker11": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker2": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker3": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker4": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker5": {
+        "label": 3,
+        "role": "training"
+    },
+    "BoxAndWhisker6": {
+        "label": 3,
+        "role": "test"
+    },
+    "BoxAndWhisker7": {
+        "label": 3,
+        "role": "test"
+    },
+    "BoxAndWhisker8": {
+        "label": 3,
+        "role": "test"
+    },
+    "BoxAndWhisker9": {
+        "label": 3,
+        "role": "test"
+    },
+    "BoxAndWhisker_count": {
+        "test": 4,
+        "training": 7
+    },
+    "BubbleChart1": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart10": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart11": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart12": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart2": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart3": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart4": {
+        "label": 4,
+        "role": "training"
+    },
+    "BubbleChart5": {
+        "label": 4,
+        "role": "test"
+    },
+    "BubbleChart6": {
+        "label": 4,
+        "role": "test"
+    },
+    "BubbleChart7": {
+        "label": 4,
+        "role": "test"
+    },
+    "BubbleChart8": {
+        "label": 4,
+        "role": "test"
+    },
+    "BubbleChart9": {
+        "label": 4,
+        "role": "test"
+    },
+    "BubbleChart_count": {
+        "test": 5,
+        "training": 7
+    },
+    "BulletChart1": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart10": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart2": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart3": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart4": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart5": {
+        "label": 5,
+        "role": "training"
+    },
+    "BulletChart6": {
+        "label": 5,
+        "role": "test"
+    },
+    "BulletChart7": {
+        "label": 5,
+        "role": "test"
+    },
+    "BulletChart8": {
+        "label": 5,
+        "role": "test"
+    },
+    "BulletChart9": {
+        "label": 5,
+        "role": "test"
+    },
+    "BulletChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "BumpChart1": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart10": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart11": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart2": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart3": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart4": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart5": {
+        "label": 6,
+        "role": "training"
+    },
+    "BumpChart6": {
+        "label": 6,
+        "role": "test"
+    },
+    "BumpChart7": {
+        "label": 6,
+        "role": "test"
+    },
+    "BumpChart8": {
+        "label": 6,
+        "role": "test"
+    },
+    "BumpChart9": {
+        "label": 6,
+        "role": "test"
+    },
+    "BumpChart_count": {
+        "test": 4,
+        "training": 7
+    },
+    "Calendar1": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar10": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar2": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar3": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar4": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar5": {
+        "label": 7,
+        "role": "training"
+    },
+    "Calendar6": {
+        "label": 7,
+        "role": "test"
+    },
+    "Calendar7": {
+        "label": 7,
+        "role": "test"
+    },
+    "Calendar8": {
+        "label": 7,
+        "role": "test"
+    },
+    "Calendar9": {
+        "label": 7,
+        "role": "test"
+    },
+    "Calendar_count": {
+        "test": 4,
+        "training": 6
+    },
+    "CandlestickChart1": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart10": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart2": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart3": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart4": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart5": {
+        "label": 8,
+        "role": "training"
+    },
+    "CandlestickChart6": {
+        "label": 8,
+        "role": "test"
+    },
+    "CandlestickChart7": {
+        "label": 8,
+        "role": "test"
+    },
+    "CandlestickChart8": {
+        "label": 8,
+        "role": "test"
+    },
+    "CandlestickChart9": {
+        "label": 8,
+        "role": "test"
+    },
+    "CandlestickChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "CirclePacking1": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking10": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking2": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking3": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking4": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking5": {
+        "label": 9,
+        "role": "training"
+    },
+    "CirclePacking6": {
+        "label": 9,
+        "role": "test"
+    },
+    "CirclePacking7": {
+        "label": 9,
+        "role": "test"
+    },
+    "CirclePacking8": {
+        "label": 9,
+        "role": "test"
+    },
+    "CirclePacking9": {
+        "label": 9,
+        "role": "test"
+    },
+    "CirclePacking_count": {
+        "test": 4,
+        "training": 6
+    },
+    "ConnectedDotPlot1": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot10": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot2": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot3": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot4": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot5": {
+        "label": 10,
+        "role": "training"
+    },
+    "ConnectedDotPlot6": {
+        "label": 10,
+        "role": "test"
+    },
+    "ConnectedDotPlot7": {
+        "label": 10,
+        "role": "test"
+    },
+    "ConnectedDotPlot8": {
+        "label": 10,
+        "role": "test"
+    },
+    "ConnectedDotPlot9": {
+        "label": 10,
+        "role": "test"
+    },
+    "ConnectedDotPlot_count": {
+        "test": 4,
+        "training": 6
+    },
+    "ConnectedScatterPlot1": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot10": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot2": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot3": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot4": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot5": {
+        "label": 11,
+        "role": "training"
+    },
+    "ConnectedScatterPlot6": {
+        "label": 11,
+        "role": "test"
+    },
+    "ConnectedScatterPlot7": {
+        "label": 11,
+        "role": "test"
+    },
+    "ConnectedScatterPlot8": {
+        "label": 11,
+        "role": "test"
+    },
+    "ConnectedScatterPlot9": {
+        "label": 11,
+        "role": "test"
+    },
+    "ConnectedScatterPlot_count": {
+        "test": 4,
+        "training": 6
+    },
+    "DensityPlot1": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot10": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot11": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot2": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot3": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot4": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot5": {
+        "label": 12,
+        "role": "training"
+    },
+    "DensityPlot6": {
+        "label": 12,
+        "role": "test"
+    },
+    "DensityPlot7": {
+        "label": 12,
+        "role": "test"
+    },
+    "DensityPlot8": {
+        "label": 12,
+        "role": "test"
+    },
+    "DensityPlot9": {
+        "label": 12,
+        "role": "test"
+    },
+    "DensityPlot_count": {
+        "test": 4,
+        "training": 7
+    },
+    "DivergingStackedBarChart1": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart10": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart11": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart12": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart2": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart3": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart4": {
+        "label": 13,
+        "role": "training"
+    },
+    "DivergingStackedBarChart5": {
+        "label": 13,
+        "role": "test"
+    },
+    "DivergingStackedBarChart6": {
+        "label": 13,
+        "role": "test"
+    },
+    "DivergingStackedBarChart7": {
+        "label": 13,
+        "role": "test"
+    },
+    "DivergingStackedBarChart8": {
+        "label": 13,
+        "role": "test"
+    },
+    "DivergingStackedBarChart9": {
+        "label": 13,
+        "role": "test"
+    },
+    "DivergingStackedBarChart_count": {
+        "test": 5,
+        "training": 7
+    },
+    "DonutChart1": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart10": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart11": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart12": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart3": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart4": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart5": {
+        "label": 14,
+        "role": "training"
+    },
+    "DonutChart6": {
+        "label": 14,
+        "role": "test"
+    },
+    "DonutChart7": {
+        "label": 14,
+        "role": "test"
+    },
+    "DonutChart8": {
+        "label": 14,
+        "role": "test"
+    },
+    "DonutChart9": {
+        "label": 14,
+        "role": "test"
+    },
+    "DonutChart_count": {
+        "test": 4,
+        "training": 7
+    },
+    "DotPlot1": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot10": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot2": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot3": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot4": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot5": {
+        "label": 15,
+        "role": "training"
+    },
+    "DotPlot6": {
+        "label": 15,
+        "role": "test"
+    },
+    "DotPlot7": {
+        "label": 15,
+        "role": "test"
+    },
+    "DotPlot8": {
+        "label": 15,
+        "role": "test"
+    },
+    "DotPlot9": {
+        "label": 15,
+        "role": "test"
+    },
+    "DotPlot_count": {
+        "test": 4,
+        "training": 6
+    },
+    "GanttChart1": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart10": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart2": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart3": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart4": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart5": {
+        "label": 16,
+        "role": "training"
+    },
+    "GanttChart6": {
+        "label": 16,
+        "role": "test"
+    },
+    "GanttChart7": {
+        "label": 16,
+        "role": "test"
+    },
+    "GanttChart8": {
+        "label": 16,
+        "role": "test"
+    },
+    "GanttChart9": {
+        "label": 16,
+        "role": "test"
+    },
+    "GanttChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "GeoHeatmap1": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap10": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap2": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap3": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap4": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap5": {
+        "label": 17,
+        "role": "training"
+    },
+    "GeoHeatmap6": {
+        "label": 17,
+        "role": "test"
+    },
+    "GeoHeatmap7": {
+        "label": 17,
+        "role": "test"
+    },
+    "GeoHeatmap8": {
+        "label": 17,
+        "role": "test"
+    },
+    "GeoHeatmap9": {
+        "label": 17,
+        "role": "test"
+    },
+    "GeoHeatmap_count": {
+        "test": 4,
+        "training": 6
+    },
+    "GroupedBarChart1": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart10": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart2": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart3": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart4": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart5": {
+        "label": 18,
+        "role": "training"
+    },
+    "GroupedBarChart6": {
+        "label": 18,
+        "role": "test"
+    },
+    "GroupedBarChart7": {
+        "label": 18,
+        "role": "test"
+    },
+    "GroupedBarChart8": {
+        "label": 18,
+        "role": "test"
+    },
+    "GroupedBarChart9": {
+        "label": 18,
+        "role": "test"
+    },
+    "GroupedBarChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "Heatmap1": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap10": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap11": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap12": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap13": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap2": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap3": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap4": {
+        "label": 19,
+        "role": "training"
+    },
+    "Heatmap5": {
+        "label": 19,
+        "role": "test"
+    },
+    "Heatmap6": {
+        "label": 19,
+        "role": "test"
+    },
+    "Heatmap7": {
+        "label": 19,
+        "role": "test"
+    },
+    "Heatmap8": {
+        "label": 19,
+        "role": "test"
+    },
+    "Heatmap9": {
+        "label": 19,
+        "role": "test"
+    },
+    "Heatmap_count": {
+        "test": 5,
+        "training": 8
+    },
+    "KagiChart1": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart10": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart2": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart3": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart4": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart5": {
+        "label": 20,
+        "role": "training"
+    },
+    "KagiChart6": {
+        "label": 20,
+        "role": "test"
+    },
+    "KagiChart7": {
+        "label": 20,
+        "role": "test"
+    },
+    "KagiChart8": {
+        "label": 20,
+        "role": "test"
+    },
+    "KagiChart9": {
+        "label": 20,
+        "role": "test"
+    },
+    "KagiChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "LineGraph1": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph10": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph11": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph12": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph13": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph14": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph15": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph16": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph17": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph18": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph19": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph2": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph20": {
+        "label": 21,
+        "role": "training"
+    },
+    "LineGraph21": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph3": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph4": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph5": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph6": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph7": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph8": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph9": {
+        "label": 21,
+        "role": "test"
+    },
+    "LineGraph_count": {
+        "test": 8,
+        "training": 13
+    },
+    "MarimekkoChart1": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart10": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart11": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart12": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart13": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart2": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart3": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart4": {
+        "label": 22,
+        "role": "training"
+    },
+    "MarimekkoChart5": {
+        "label": 22,
+        "role": "test"
+    },
+    "MarimekkoChart6": {
+        "label": 22,
+        "role": "test"
+    },
+    "MarimekkoChart7": {
+        "label": 22,
+        "role": "test"
+    },
+    "MarimekkoChart8": {
+        "label": 22,
+        "role": "test"
+    },
+    "MarimekkoChart9": {
+        "label": 22,
+        "role": "test"
+    },
+    "MarimekkoChart_count": {
+        "test": 5,
+        "training": 8
+    },
+    "MatrixDiagram1": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram10": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram2": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram3": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram4": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram5": {
+        "label": 23,
+        "role": "training"
+    },
+    "MatrixDiagram6": {
+        "label": 23,
+        "role": "test"
+    },
+    "MatrixDiagram7": {
+        "label": 23,
+        "role": "test"
+    },
+    "MatrixDiagram8": {
+        "label": 23,
+        "role": "test"
+    },
+    "MatrixDiagram9": {
+        "label": 23,
+        "role": "test"
+    },
+    "MatrixDiagram_count": {
+        "test": 4,
+        "training": 6
+    },
+    "ParallelCoordinatesPlot1": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot10": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot2": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot3": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot4": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot5": {
+        "label": 24,
+        "role": "training"
+    },
+    "ParallelCoordinatesPlot6": {
+        "label": 24,
+        "role": "test"
+    },
+    "ParallelCoordinatesPlot7": {
+        "label": 24,
+        "role": "test"
+    },
+    "ParallelCoordinatesPlot8": {
+        "label": 24,
+        "role": "test"
+    },
+    "ParallelCoordinatesPlot9": {
+        "label": 24,
+        "role": "test"
+    },
+    "ParallelCoordinatesPlot_count": {
+        "test": 4,
+        "training": 6
+    },
+    "PieChart1": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart10": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart11": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart12": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart13": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart14": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart2": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart3": {
+        "label": 25,
+        "role": "training"
+    },
+    "PieChart4": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart5": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart6": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart7": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart8": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart9": {
+        "label": 25,
+        "role": "test"
+    },
+    "PieChart_count": {
+        "test": 6,
+        "training": 8
+    },
+    "PolarAreaChart1": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart10": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart2": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart3": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart4": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart5": {
+        "label": 26,
+        "role": "training"
+    },
+    "PolarAreaChart6": {
+        "label": 26,
+        "role": "test"
+    },
+    "PolarAreaChart7": {
+        "label": 26,
+        "role": "test"
+    },
+    "PolarAreaChart8": {
+        "label": 26,
+        "role": "test"
+    },
+    "PolarAreaChart9": {
+        "label": 26,
+        "role": "test"
+    },
+    "PolarAreaChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "RadarChart1": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart10": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart2": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart3": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart4": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart5": {
+        "label": 27,
+        "role": "training"
+    },
+    "RadarChart6": {
+        "label": 27,
+        "role": "test"
+    },
+    "RadarChart7": {
+        "label": 27,
+        "role": "test"
+    },
+    "RadarChart8": {
+        "label": 27,
+        "role": "test"
+    },
+    "RadarChart9": {
+        "label": 27,
+        "role": "test"
+    },
+    "RadarChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "RadialBarChart1": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart10": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart2": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart3": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart4": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart5": {
+        "label": 28,
+        "role": "training"
+    },
+    "RadialBarChart6": {
+        "label": 28,
+        "role": "test"
+    },
+    "RadialBarChart7": {
+        "label": 28,
+        "role": "test"
+    },
+    "RadialBarChart8": {
+        "label": 28,
+        "role": "test"
+    },
+    "RadialBarChart9": {
+        "label": 28,
+        "role": "test"
+    },
+    "RadialBarChart_count": {
+        "test": 4,
+        "training": 6
+    },
+    "RangeChart1": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart10": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart11": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart2": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart3": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart4": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart5": {
+        "label": 29,
+        "role": "training"
+    },
+    "RangeChart6": {
+        "label": 29,
+        "role": "test"
+    },
+    "RangeChart7": {
+        "label": 29,
+        "role": "test"
+    },
+    "RangeChart8": {
+        "label": 29,
+        "role": "test"
+    },
+    "RangeChart9": {
+        "label": 29,
+        "role": "test"
+    },
+    "RangeChart_count": {
+        "test": 4,
+        "training": 7
+    },
+    "Scatterplot1": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot10": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot11": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot12": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot13": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot14": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot2": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot3": {
+        "label": 30,
+        "role": "training"
+    },
+    "Scatterplot4": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot5": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot6": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot7": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot8": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot9": {
+        "label": 30,
+        "role": "test"
+    },
+    "Scatterplot_count": {
+        "test": 6,
+        "training": 8
+    },
+    "SpiralPlot1": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot10": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot2": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot3": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot4": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot5": {
+        "label": 31,
+        "role": "training"
+    },
+    "SpiralPlot6": {
+        "label": 31,
+        "role": "test"
+    },
+    "SpiralPlot7": {
+        "label": 31,
+        "role": "test"
+    },
+    "SpiralPlot8": {
+        "label": 31,
+        "role": "test"
+    },
+    "SpiralPlot9": {
+        "label": 31,
+        "role": "test"
+    },
+    "SpiralPlot_count": {
+        "test": 4,
+        "training": 6
+    },
+    "StackedAreaChart1": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart10": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart11": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart12": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart2": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart3": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart4": {
+        "label": 32,
+        "role": "training"
+    },
+    "StackedAreaChart5": {
+        "label": 32,
+        "role": "test"
+    },
+    "StackedAreaChart6": {
+        "label": 32,
+        "role": "test"
+    },
+    "StackedAreaChart7": {
+        "label": 32,
+        "role": "test"
+    },
+    "StackedAreaChart8": {
+        "label": 32,
+        "role": "test"
+    },
+    "StackedAreaChart9": {
+        "label": 32,
+        "role": "test"
+    },
+    "StackedAreaChart_count": {
+        "test": 5,
+        "training": 7
+    },
+    "StackedBarChart1": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart10": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart11": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart12": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart2": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart3": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart4": {
+        "label": 33,
+        "role": "training"
+    },
+    "StackedBarChart5": {
+        "label": 33,
+        "role": "test"
+    },
+    "StackedBarChart6": {
+        "label": 33,
+        "role": "test"
+    },
+    "StackedBarChart7": {
+        "label": 33,
+        "role": "test"
+    },
+    "StackedBarChart8": {
+        "label": 33,
+        "role": "test"
+    },
+    "StackedBarChart9": {
+        "label": 33,
+        "role": "test"
+    },
+    "StackedBarChart_count": {
+        "test": 5,
+        "training": 7
+    },
+    "StreamGraph1": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph10": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph2": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph3": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph4": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph5": {
+        "label": 34,
+        "role": "training"
+    },
+    "StreamGraph6": {
+        "label": 34,
+        "role": "test"
+    },
+    "StreamGraph7": {
+        "label": 34,
+        "role": "test"
+    },
+    "StreamGraph8": {
+        "label": 34,
+        "role": "test"
+    },
+    "StreamGraph9": {
+        "label": 34,
+        "role": "test"
+    },
+    "StreamGraph_count": {
+        "test": 4,
+        "training": 6
+    },
+    "Treemap1": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap10": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap11": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap12": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap13": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap2": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap3": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap4": {
+        "label": 35,
+        "role": "training"
+    },
+    "Treemap5": {
+        "label": 35,
+        "role": "test"
+    },
+    "Treemap6": {
+        "label": 35,
+        "role": "test"
+    },
+    "Treemap7": {
+        "label": 35,
+        "role": "test"
+    },
+    "Treemap8": {
+        "label": 35,
+        "role": "test"
+    },
+    "Treemap9": {
+        "label": 35,
+        "role": "test"
+    },
+    "Treemap_count": {
+        "test": 5,
+        "training": 8
+    },
+    "ViolinPlot1": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot10": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot11": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot12": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot13": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot2": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot3": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot4": {
+        "label": 36,
+        "role": "training"
+    },
+    "ViolinPlot5": {
+        "label": 36,
+        "role": "test"
+    },
+    "ViolinPlot6": {
+        "label": 36,
+        "role": "test"
+    },
+    "ViolinPlot7": {
+        "label": 36,
+        "role": "test"
+    },
+    "ViolinPlot8": {
+        "label": 36,
+        "role": "test"
+    },
+    "ViolinPlot9": {
+        "label": 36,
+        "role": "test"
+    },
+    "ViolinPlot_count": {
+        "test": 5,
+        "training": 8
+    },
+    "WaffleChart1": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart10": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart11": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart12": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart13": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart14": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart2": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart3": {
+        "label": 37,
+        "role": "training"
+    },
+    "WaffleChart4": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart5": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart6": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart7": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart8": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart9": {
+        "label": 37,
+        "role": "test"
+    },
+    "WaffleChart_count": {
+        "test": 6,
+        "training": 8
+    },
+    "WaterfallChart1": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart10": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart11": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart12": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart13": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart2": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart3": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart4": {
+        "label": 38,
+        "role": "training"
+    },
+    "WaterfallChart5": {
+        "label": 38,
+        "role": "test"
+    },
+    "WaterfallChart6": {
+        "label": 38,
+        "role": "test"
+    },
+    "WaterfallChart7": {
+        "label": 38,
+        "role": "test"
+    },
+    "WaterfallChart8": {
+        "label": 38,
+        "role": "test"
+    },
+    "WaterfallChart9": {
+        "label": 38,
+        "role": "test"
+    },
+    "WaterfallChart_count": {
+        "test": 5,
+        "training": 8
+    },
+    "WordCloud1": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud10": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud2": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud3": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud4": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud5": {
+        "label": 39,
+        "role": "training"
+    },
+    "WordCloud6": {
+        "label": 39,
+        "role": "test"
+    },
+    "WordCloud7": {
+        "label": 39,
+        "role": "test"
+    },
+    "WordCloud8": {
+        "label": 39,
+        "role": "test"
+    },
+    "WordCloud9": {
+        "label": 39,
+        "role": "test"
+    },
+    "WordCloud_count": {
+        "test": 4,
+        "training": 6
+    }
+}

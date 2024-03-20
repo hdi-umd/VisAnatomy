@@ -1,2 +1,16 @@
+graphData_v0:
+	nodeFeature: [oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]
+	node: all leaf elements
+	edges: SVG structure
 graphData_v1:
-	features for nodes: [oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]
+	nodeFeature: [oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]
+	node: main chart marks
+	edges: SVG structure
+graphData_v2:
+	nodeFeature: [GROUND_TRUTH_oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]
+	node: all leaf elements
+	edges: SVG structure
+graphData_v3:
+	nodeFeature: [GROUND_TRUTH_oneHotEncoding_4_elementType, top (0-1), right (0-1), bottom (0-1), left (0-1), colorExistence (0 or 1), strokeExistence (0 or 1), strokeWidthExistence (0 or 1)]
+	node: main chart marks
+	edges: GROUND_TRUTH_markGrouping
