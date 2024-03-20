@@ -49,19 +49,27 @@ function createExampleCards(examples){
     source = ""
     subdiv.className = "col s12 m6 l3"
     subdiv.innerHTML += '<div class="card sticky-action">'+
-          '<div class="card-image waves-effect waves-block waves-light">'+
-            '<img class="activator" id="'+examples[i].filename+'" src="/static/ExampleFiles/'+examples[i].filename+'">'+
+        '<div class="card-image-pop">'+
+          '<div class="card-image waves-effect waves-block waves-light"  id="wholeCard">'+
+            '<img class="activator" id="'+examples[i].filename+'" src="/static/examples_png/'+examples[i].filename+'">'+
           '</div>'+
           '<div class="card-content">'+
-            '<span class="card-title activator grey-text text-darken-4"><i class="material-icons right extext" id="'+examples[i].filename+'">more_vert</i></span>'+
+            // '<span class="card-title activator grey-text text-darken-4"><i class="material-icons right extext" id="'+examples[i].filename+'">more_vert</i></span>'+
             // '<p><a id="'+examples[i].filename+'" href="/static/ExampleFiles/'+examples[i].filename+'" target="_blank">Example source</a></p>'+
             // '<p><a id="'+examples[i].filename+'" onclick=expandExample("'+String(examples[i].filename)+'") target="_blank">Example source</a></p>'+
-            '<p><a id="'+examples[i].filename+'" onclick=expandExample("'+String(examples[i].filename)+'","'+String(examples[i].source)+'") target="_blank">Example source</a></p>'+
+            '<p><a id="'+examples[i].filename+'" onclick=expandExample("'+String(examples[i].filename)+'","'+String(examples[i].source)+'") target="_blank">' +examples[i].filename.slice(0, -4)+ '</a></p>'+
           '</div>'+
-          '<div class="card-reveal">'+
-            '<span class="card-title grey-text text-darken-4"><i class="material-icons right extext">close</i></span>'+
-            '<p>'+examples[i].description+'</p>'+
+          '<div class="card-pop-out-container" id="cardPopOutContainer">'+
+            '<span class="close-button" id="cardPopOutCloseButton">&times;</span>'+
+            '<div class="card-pop-out-content">'+
+              '<img target="_blank" id="imagepopout" src="../examples/' + examples[i].filename.slice(0, -4) + 'svg" alt="' + examples[i].filename.slice(0, -4) + '">'+
+            '</div>'+
           '</div>'+
+        '</div>'+
+          // '<div class="card-reveal">'+
+          //   '<span class="card-title grey-text text-darken-4"><i class="material-icons right extext">close</i></span>'+
+          //   '<p>'+examples[i].description+'</p>'+
+          // '</div>'+
           '<div class="card-action">'+
             '<a href="javascript:void(0)"><i class="material-icons bk" id="bk_'+examples[i].filename+'">bookmark_border</i></a>'+
             tagdiv+
@@ -81,6 +89,96 @@ function createExampleCards(examples){
    //add logging for viewed examples
    logImageViews()
 }
+
+// Define CSS styles as strings using template literals
+const cssStyles = `
+.card-pop-out-container {
+  display: none;
+  position: fixed; /* Change position to fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 85%; /* Set width to 85% */
+  max-width: 85vw; /* Limit width to 85% of viewport width */
+  height: 75%; /* Set height to 75% */
+  max-height: 75vh; /* Limit height to 75% of viewport height */
+  overflow: auto; /* Add overflow:auto to allow scrolling if content exceeds size */
+}
+
+.card-pop-out-content {
+  text-align: center;
+}
+
+.card-pop-out-content img {
+  max-width: 100%;
+  max-height: 80vh; /* Adjust max-height as needed */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+`;
+
+// Create a <style> element and append it to the <head> of the document
+const styleElement = document.createElement('style');
+styleElement.textContent = cssStyles;
+document.head.appendChild(styleElement);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElement = document.getElementById('imagepopout');
+  const wholeCards = document.getElementById("wholeCard");
+  
+  const popOutContainer = document.getElementById("cardPopOutContainer");
+
+  let popOutOpen = false; 
+  const cardImages = document.getElementsByClassName("card-image-pop");
+  setTimeout(() => {
+    cardImage = Array.from(cardImages);
+    for (let i = 0; i < cardImage.length; i++) {
+      const card = cardImage[i];
+      console.log(card);
+      cardImage[i].addEventListener("click", function() {
+        if (!popOutOpen) {
+          console.log("Card clicked");
+          var popOutContainer = card.querySelector(".card-pop-out-container");
+          popOutContainer.style.display = "block";
+          popOutOpen = true;
+
+          // Event delegation for the close button
+          document.body.addEventListener("click", closeButtonHandler);
+        }
+      });
+    }
+  }, 1000);
+
+  function closeButtonHandler(event) {
+    if (event.target.id === "cardPopOutCloseButton") {
+      event.stopPropagation();
+      console.log("Close button clicked");
+      
+      // Find the pop-out container
+      const popOutContainer = event.target.closest(".card-pop-out-container");
+  
+      if (popOutContainer) {
+        // Hide the pop-out container
+        popOutContainer.style.display = "none";
+        popOutOpen = false;
+      } else {
+        console.log("Pop-out container not found");
+      }
+    }
+  }
+  
+  });
 
 function clearEndContent(){
   document.getElementById("wiz").style.display = "block"
@@ -295,7 +393,7 @@ function bookmarkModal(){
     subdiv.className = "col s12 m6"
     subdiv.innerHTML += '<div class="card">'+
           '<div class="card-image">'+
-            '<img id="'+bk[i]+'" src="/static/ExampleFiles/'+bk[i]+'" width=250 height=200>'+
+            '<img id="'+bk[i]+'" src="/static/examples_png/'+bk[i]+'" width=250 height=200>'+
           '</div>'+
           '<div class="card-content">'+
           '</div>'+
