@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      { "Tool": "D3.js", "Count": 95 },
+      { "Tool": "Datylon", "Count": 39 },
+      { "Tool": "R", "Count": 32 },
+      { "Tool": "Mascot.js", "Count": 31 },
+      { "Tool": "Vega Lite", "Count": 28 },
+      { "Tool": "ApexCharts", "Count": 24 },
+      { "Tool": "HighCharts", "Count": 23 },
+      { "Tool": "AnyChart", "Count": 16 },
+      { "Tool": "Plotly", "Count": 15 },
+      { "Tool": "Diagrammm", "Count": 9 },
+      { "Tool": "FusionCharts", "Count": 9 },
+      { "Tool": "Vega", "Count": 9 },
+      { "Tool": "PyWaffle", "Count": 5 },
+      { "Tool": "ObservablePlot", "Count": 5 },
+      { "Tool": "Charticulator", "Count": 4 },
+      { "Tool": "Datawrapper", "Count": 4 },
+      { "Tool": "PlotDB", "Count": 4 },
+      { "Tool": "ZingChart", "Count": 4 },
+      { "Tool": "Data Illustrator", "Count": 3 },
+      { "Tool": "GoogleChart", "Count": 3 }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Tool",
+      "type": "nominal",
+      "axis": { "labelAngle": 0 },
+      "sort": {},
+      "title": "Charting Tool"
+    },
+    "x": {
+      "field": "Count",
+      "type": "quantitative",
+      "title": "Number Of Charts"
+    }
+  },
+  "height": 400,
+  "width": 400
+}
