@@ -38,8 +38,28 @@
       "field": "Count",
       "type": "quantitative",
       "title": "Number Of Charts"
+    },
+    "text": {
+      "field": "Count",
+      "type": "quantitative"
     }
   },
-  "height": 400,
+  "layer": [
+    {
+      "mark": "bar"
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -1,
+        "color": "white"
+      },
+      "encoding": {
+        "text": { "field": "Count", "type": "quantitative" }
+      }
+    }
+  ],
+  "height": 300,
   "width": 400
 }
