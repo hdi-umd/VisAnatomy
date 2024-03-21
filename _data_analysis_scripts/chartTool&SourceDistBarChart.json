@@ -44,14 +44,22 @@
             "x": {
               "field": "Count",
               "type": "quantitative",
-              "title": "Number of Charts"
+              "title": "Number of Charts",
+              "axis": {
+                "labelFontSize": "14",
+                "titleFontSize": "16"
+              }
             },
             "y": {
               "field": "Tool",
               "type": "nominal",
               "axis": { "labelAngle": 0 },
               "sort": "-x",
-              "title": "Charting Tool"
+              "title": "Charting Tool",
+              "axis": {
+                "labelFontSize": "14",
+                "titleFontSize": "16"
+              }
             },
             "color": { "value": "#1f77b4" }
           }
@@ -60,8 +68,9 @@
           "mark": {
             "type": "text",
             "align": "right",
-            "dx": -1,
-            "color": "white"
+            "dx": 0,
+            "color": "white",
+            "size": "14"
           },
           "encoding": {
             "x": { "field": "Count", "type": "quantitative" },
@@ -74,7 +83,9 @@
         { "filter": "datum.Type === 'Chart Tool'" },
         { "window": [{ "op": "rank", "as": "rank" }] },
         { "filter": "datum.rank <= 15" }
-      ]
+      ],
+      "width": 200,
+      "height": 250
     },
     {
       "layer": [
@@ -84,14 +95,22 @@
             "x": {
               "field": "Count",
               "type": "quantitative",
-              "title": "Number of Charts"
+              "title": "Number of Charts",
+              "axis": {
+                "labelFontSize": "14",
+                "titleFontSize": "16"
+              }
             },
             "y": {
               "field": "Source",
               "type": "nominal",
               "axis": { "labelAngle": 0 },
               "sort": "-x",
-              "title": "Chart Source"
+              "title": "Chart Source",
+              "axis": {
+                "labelFontSize": "14",
+                "titleFontSize": "16"
+              }
             },
             "color": { "value": "#ff7f0e" }
           }
@@ -100,8 +119,9 @@
           "mark": {
             "type": "text",
             "align": "right",
-            "dx": -1,
-            "color": "white"
+            "dx": 0,
+            "color": "white",
+            "size": "14"
           },
           "encoding": {
             "x": { "field": "Count", "type": "quantitative" },
@@ -114,7 +134,9 @@
         { "filter": "datum.Type === 'Chart Source'" },
         { "window": [{ "op": "rank", "as": "rank" }] },
         { "filter": "datum.rank <= 15" }
-      ]
+      ],
+      "width": 200,
+      "height": 250
     }
   ],
   "resolve": { "scale": { "x": "independent", "y": "independent" } },
