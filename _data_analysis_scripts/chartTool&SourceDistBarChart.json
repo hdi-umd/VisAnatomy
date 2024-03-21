@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Top 15 chart tools and chart sources",
+  "data": {
+    "values": [
+      { "Tool": "D3.js", "Count": 95, "Type": "Chart Tool" },
+      { "Tool": "Datylon", "Count": 39, "Type": "Chart Tool" },
+      { "Tool": "R", "Count": 32, "Type": "Chart Tool" },
+      { "Tool": "Mascot.js", "Count": 31, "Type": "Chart Tool" },
+      { "Tool": "Vega Lite", "Count": 28, "Type": "Chart Tool" },
+      { "Tool": "ApexCharts", "Count": 24, "Type": "Chart Tool" },
+      { "Tool": "HighCharts", "Count": 23, "Type": "Chart Tool" },
+      { "Tool": "AnyChart", "Count": 16, "Type": "Chart Tool" },
+      { "Tool": "Plotly", "Count": 15, "Type": "Chart Tool" },
+      { "Tool": "Diagrammm", "Count": 9, "Type": "Chart Tool" },
+      { "Tool": "FusionCharts", "Count": 9, "Type": "Chart Tool" },
+      { "Tool": "Vega", "Count": 9, "Type": "Chart Tool" },
+      { "Tool": "PyWaffle", "Count": 5, "Type": "Chart Tool" },
+      { "Tool": "ObservablePlot", "Count": 5, "Type": "Chart Tool" },
+      { "Tool": "Charticulator", "Count": 4, "Type": "Chart Tool" },
+      { "Source": "spotfire.com", "Count": 9, "Type": "Chart Source" },
+      { "Source": "datavizcatalogue.com", "Count": 8, "Type": "Chart Source" },
+      { "Source": "commons.wikimedia.org", "Count": 8, "Type": "Chart Source" },
+      { "Source": "Observable.com", "Count": 6, "Type": "Chart Source" },
+      { "Source": "bookdown.org", "Count": 5, "Type": "Chart Source" },
+      { "Source": "gist.github.com", "Count": 5, "Type": "Chart Source" },
+      { "Source": "dash.gallery", "Count": 3, "Type": "Chart Source" },
+      { "Source": "en.wikipedia.org", "Count": 3, "Type": "Chart Source" },
+      { "Source": "mckinsey.com", "Count": 2, "Type": "Chart Source" },
+      { "Source": "dataviz.unhcr.org", "Count": 2, "Type": "Chart Source" },
+      { "Source": "data-to-viz.com", "Count": 2, "Type": "Chart Source" },
+      { "Source": "filipr.com", "Count": 2, "Type": "Chart Source" },
+      { "Source": "kaggle.com", "Count": 2, "Type": "Chart Source" },
+      { "Source": "help.macrobond.com", "Count": 2, "Type": "Chart Source" },
+      { "Source": "mathspace.co", "Count": 2, "Type": "Chart Source" }
+    ]
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "Count",
+              "type": "quantitative",
+              "title": "Number of Charts"
+            },
+            "y": {
+              "field": "Tool",
+              "type": "nominal",
+              "axis": { "labelAngle": 0 },
+              "sort": "-x",
+              "title": "Charting Tool"
+            },
+            "color": { "value": "#1f77b4" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -1,
+            "color": "white"
+          },
+          "encoding": {
+            "x": { "field": "Count", "type": "quantitative" },
+            "y": { "field": "Tool", "type": "nominal", "sort": "-x" },
+            "text": { "field": "Count", "type": "quantitative" }
+          }
+        }
+      ],
+      "transform": [
+        { "filter": "datum.Type === 'Chart Tool'" },
+        { "window": [{ "op": "rank", "as": "rank" }] },
+        { "filter": "datum.rank <= 15" }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "Count",
+              "type": "quantitative",
+              "title": "Number of Charts"
+            },
+            "y": {
+              "field": "Source",
+              "type": "nominal",
+              "axis": { "labelAngle": 0 },
+              "sort": "-x",
+              "title": "Chart Source"
+            },
+            "color": { "value": "#ff7f0e" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -1,
+            "color": "white"
+          },
+          "encoding": {
+            "x": { "field": "Count", "type": "quantitative" },
+            "y": { "field": "Source", "type": "nominal", "sort": "-x" },
+            "text": { "field": "Count", "type": "quantitative" }
+          }
+        }
+      ],
+      "transform": [
+        { "filter": "datum.Type === 'Chart Source'" },
+        { "window": [{ "op": "rank", "as": "rank" }] },
+        { "filter": "datum.rank <= 15" }
+      ]
+    }
+  ],
+  "resolve": { "scale": { "x": "independent", "y": "independent" } },
+  "config": {
+    "view": { "stroke": "transparent" },
+    "axis": { "domainWidth": 1 }
+  }
+}

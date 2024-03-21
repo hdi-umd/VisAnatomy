@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Website count visualization",
+  "data": {
+    "values": [
+      { "Website": "spotfire.com", "Count": 9 },
+      { "Website": "datavizcatalogue.com", "Count": 8 },
+      { "Website": "commons.wikimedia.org", "Count": 8 },
+      { "Website": "Observable.com", "Count": 6 },
+      { "Website": "bookdown.org", "Count": 5 },
+      { "Website": "gist.github.com", "Count": 5 },
+      { "Website": "dash.gallery", "Count": 3 },
+      { "Website": "en.wikipedia.org", "Count": 3 },
+      { "Website": "mckinsey.com", "Count": 2 },
+      { "Website": "dataviz.unhcr.org", "Count": 2 },
+      { "Website": "data-to-viz.com", "Count": 2 },
+      { "Website": "filipr.com", "Count": 2 },
+      { "Website": "kaggle.com", "Count": 2 },
+      { "Website": "help.macrobond.com", "Count": 2 },
+      { "Website": "mathspace.co", "Count": 2 }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Website",
+      "type": "nominal",
+      "axis": { "labelAngle": 0 },
+      "sort": "-x",
+      "title": "Website"
+    },
+    "x": {
+      "field": "Count",
+      "type": "quantitative",
+      "title": "Count"
+    },
+    "text": {
+      "field": "Count",
+      "type": "quantitative"
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar"
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -1,
+        "color": "white"
+      },
+      "encoding": {
+        "text": { "field": "Count", "type": "quantitative" }
+      }
+    }
+  ],
+  "width": 300,
+  "height": 400
+}
