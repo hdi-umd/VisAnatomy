@@ -1,0 +1,114 @@
+{
+    "horizontalGridlines": [],
+    "verticalGridlines": ["path2"],
+    "axes": {
+        "1": {
+            "labels": ["text0","text1","text2","text3","text4","text5"],
+            "type": "x",
+            "ticks": ["path4"],
+            "path": ["path5"],
+            "title": ["text6"],
+            "fieldType": "number"
+        },
+        "2": {
+            "labels": ["text7","text8","text9","text10","text11",
+            "text12","text13","text14","text15","text16"],
+            "type": "y",
+            "ticks": ["path7"],
+            "path": ["path8"],
+            "title": ["text17"],
+            "fieldType": "string"
+        }
+    },
+    "legend": {
+        "labels": ["text18","text19","text20","text21","text22","text23"],
+        "marks": ["path72","path74","path76","path78","path80","path82"],
+        "type": "discrete",
+        "orientation": "vert",
+        "mapping": {"Crookston": "#4c78a8","Duluth": "#f58518","Grand Rapids": "#e45756",
+            "Morris": "#72b7b2","University Farm": "#54a24b","Waseca": "#eeca3b"
+        },
+        "title": ["text24"],
+        "ticks": []
+    }
+}
+
+{
+    "Group1": {
+      "Objects": ["path15","path16","path17","path18","path19","path20"],
+      "Layout": {
+        "type": "Stack",
+        "params": {
+            "orientation": "Horizontal",
+            "horiAlignment": "",
+            "vertAlignment": "Middle"
+        }
+      }
+    },
+    "Group2":[
+      "path9","path10","path11","path12","path13","path14"],
+    "Group3":[
+      "path21","path22","path23","path24","path25","path26"],
+    "Group4":[
+      "path27","path28","path29","path30","path31","path32"],
+    "Group5":[
+      "path33","path34","path35","path36","path37","path38"],
+    "Group6":[
+      "path39","path40","path41","path42","path43","path44"],
+    "Group7":[
+      "path45","path46","path47","path48","path49","path50"],
+    "Group8":[
+      "path51","path52","path53","path54","path55","path56"],
+    "Group9":[
+      "path57","path58","path59","path60","path61","path62"],
+    "Group10":[
+      "path63","path64","path65","path66","path67","path68"],
+    "Group11":{
+      "Objects": ["Group1","Group2","Group3","Group4","Group5",
+      "Group6","Group7","Group8","Group9","Group10"],
+      "Layout": {
+          "type": "Grid",
+          "params": {
+            "orientation": "Vertical",
+            "horiAlignment": "Left",
+            "vertAlignment": ""
+        }
+      }
+    }
+  }
+  
+
+  {
+    ...
+    "path2": {
+      "Property":{
+        "left": 105.5,"top": 5.5,"right": 305.5,"bottom": 205.5,
+        "height": 200,"width": 200,"id": "path2",
+        "tagName": "path","content": "", "fill": "none",
+      }
+      "Type": "Path", 
+      "Role": "Vertical Gridline"
+    },
+    ...
+    "path68": {
+      "Property":{
+        "left": 139.3,"top": 186,"right": 163.7,"bottom": 204,
+        "height": 18,"width": 24.37,"id": "path68",
+        "tagName": "path","content": "","fill": "#f58518",
+      }
+      "Type": "Rectangle", 
+      "Role": "Main Chart Mark", 
+      "Encoded Channels": ["Width", "Fill"]
+    },
+    ...
+    "text0": {
+      "Property":{
+        "left": 105.5,"top": 211.7,"right": 111.1,"bottom": 222.9,
+        "height": 11.2,"width": 5.6,"id": "text0",
+        "tagName": "text","content": "0","fill": "#000",
+      }
+      "Type": "text", 
+      "Role": "Axis 1 Label"
+    }
+    ...
+}
