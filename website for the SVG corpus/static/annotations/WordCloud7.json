@@ -1,0 +1,384 @@
+{
+  "chart": "WordCloud7",
+  "annotations": {
+    "allGraphicsElement": {
+      "text0": {
+        "left": 37.5908203125,
+        "top": 158.7038116455078,
+        "right": 189.6089630126953,
+        "bottom": 285.2694854736328,
+        "height": 126.565673828125,
+        "width": 152.0181427001953,
+        "id": "text0",
+        "tagName": "text",
+        "content": "Hello",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text1": {
+        "left": 164.042724609375,
+        "top": 120.04629516601562,
+        "right": 364.1778869628906,
+        "bottom": 399.4906311035156,
+        "height": 279.4443359375,
+        "width": 200.13516235351562,
+        "id": "text1",
+        "tagName": "text",
+        "content": "Everybody",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text2": {
+        "left": 276.6000061035156,
+        "top": 118.98124694824219,
+        "right": 343.80001068115234,
+        "bottom": 239.01874542236328,
+        "height": 120.0374984741211,
+        "width": 67.20000457763672,
+        "id": "text2",
+        "tagName": "text",
+        "content": "How",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text3": {
+        "left": 120.51248168945312,
+        "top": 246.59999084472656,
+        "right": 214.68748474121094,
+        "bottom": 313.7999954223633,
+        "height": 67.20000457763672,
+        "width": 94.17500305175781,
+        "id": "text3",
+        "tagName": "text",
+        "content": "Are",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text4": {
+        "left": 42.5999755859375,
+        "top": 299.37501525878906,
+        "right": 109.79998016357422,
+        "bottom": 401.4250183105469,
+        "height": 102.05000305175781,
+        "width": 67.20000457763672,
+        "id": "text4",
+        "tagName": "text",
+        "content": "You",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text5": {
+        "left": 311.6000061035156,
+        "top": 259.20509338378906,
+        "right": 378.80001068115234,
+        "bottom": 292.67504119873047,
+        "height": 33.469947814941406,
+        "width": 67.20000457763672,
+        "id": "text5",
+        "tagName": "text",
+        "content": "It",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text6": {
+        "left": 89.2198486328125,
+        "top": 97.58927917480469,
+        "right": 170.7542495727539,
+        "bottom": 171.61103057861328,
+        "height": 74.0217514038086,
+        "width": 81.5344009399414,
+        "id": "text6",
+        "tagName": "text",
+        "content": "Is",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text7": {
+        "left": 140.50839233398438,
+        "top": 299.77601623535156,
+        "right": 219.50531768798828,
+        "bottom": 369.4026565551758,
+        "height": 69.62664031982422,
+        "width": 78.9969253540039,
+        "id": "text7",
+        "tagName": "text",
+        "content": "A",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text8": {
+        "left": 169.39779663085938,
+        "top": 24.21302032470703,
+        "right": 295.7484359741211,
+        "bottom": 135.95954132080078,
+        "height": 111.74652099609375,
+        "width": 126.35063934326172,
+        "id": "text8",
+        "tagName": "text",
+        "content": "Day",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text9": {
+        "left": 203.3797607421875,
+        "top": 304.71949768066406,
+        "right": 251.42068099975586,
+        "bottom": 371.25389862060547,
+        "height": 66.5344009399414,
+        "width": 48.04092025756836,
+        "id": "text9",
+        "tagName": "text",
+        "content": "I",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text10": {
+        "left": 269.9437561035156,
+        "top": 8.599998474121094,
+        "right": 400.05625915527344,
+        "bottom": 75.80000305175781,
+        "height": 67.20000457763672,
+        "width": 130.1125030517578,
+        "id": "text10",
+        "tagName": "text",
+        "content": "Love",
+        "fill": "undefined",
+        "isReferenceElement": false
+      },
+      "text11": {
+        "left": 98.37591552734375,
+        "top": 12.12811279296875,
+        "right": 181.59783935546875,
+        "bottom": 89.07268524169922,
+        "height": 76.94457244873047,
+        "width": 83.221923828125,
+        "id": "text11",
+        "tagName": "text",
+        "content": "In",
+        "fill": "undefined",
+        "isReferenceElement": false
+      }
+    },
+    "groupedGraphicsElement": {
+      "texts": [
+        {
+          "left": 37.5908203125,
+          "top": 91.5038070678711,
+          "right": 174.3283233642578,
+          "bottom": 285.2694854736328,
+          "height": 67.20000457763672,
+          "width": 136.7375030517578,
+          "id": "text0",
+          "tagName": "text",
+          "content": "Hello",
+          "fill": "undefined"
+        },
+        {
+          "left": 164.042724609375,
+          "top": 52.846290588378906,
+          "right": 447.9192810058594,
+          "bottom": 399.4906311035156,
+          "height": 67.20000457763672,
+          "width": 283.8765563964844,
+          "id": "text1",
+          "tagName": "text",
+          "content": "Everybody",
+          "fill": null
+        },
+        {
+          "left": 276.6000061035156,
+          "top": 51.78124237060547,
+          "right": 396.6375045776367,
+          "bottom": 239.01874542236328,
+          "height": 67.20000457763672,
+          "width": 120.0374984741211,
+          "id": "text2",
+          "tagName": "text",
+          "content": "How",
+          "fill": null
+        },
+        {
+          "left": 120.51248168945312,
+          "top": 179.39998626708984,
+          "right": 214.68748474121094,
+          "bottom": 313.7999954223633,
+          "height": 67.20000457763672,
+          "width": 94.17500305175781,
+          "id": "text3",
+          "tagName": "text",
+          "content": "Are",
+          "fill": null
+        },
+        {
+          "left": 42.5999755859375,
+          "top": 232.17501068115234,
+          "right": 144.6499786376953,
+          "bottom": 401.4250183105469,
+          "height": 67.20000457763672,
+          "width": 102.05000305175781,
+          "id": "text4",
+          "tagName": "text",
+          "content": "You",
+          "fill": null
+        },
+        {
+          "left": 311.6000061035156,
+          "top": 192.00508880615234,
+          "right": 345.0699272155762,
+          "bottom": 292.67504119873047,
+          "height": 67.20000457763672,
+          "width": 33.46992111206055,
+          "id": "text5",
+          "tagName": "text",
+          "content": "It",
+          "fill": null
+        },
+        {
+          "left": 89.2198486328125,
+          "top": 30.38927459716797,
+          "right": 135.89484786987305,
+          "bottom": 171.61103057861328,
+          "height": 67.20000457763672,
+          "width": 46.67499923706055,
+          "id": "text6",
+          "tagName": "text",
+          "content": "Is",
+          "fill": null
+        },
+        {
+          "left": 140.50839233398438,
+          "top": 232.57601165771484,
+          "right": 182.10839462280273,
+          "bottom": 369.4026565551758,
+          "height": 67.20000457763672,
+          "width": 41.60000228881836,
+          "id": "text7",
+          "tagName": "text",
+          "content": "A",
+          "fill": null
+        },
+        {
+          "left": 169.39779663085938,
+          "top": -42.98698425292969,
+          "right": 276.4970169067383,
+          "bottom": 135.95954132080078,
+          "height": 67.20000457763672,
+          "width": 107.0992202758789,
+          "id": "text8",
+          "tagName": "text",
+          "content": "Day",
+          "fill": null
+        },
+        {
+          "left": 203.3797607421875,
+          "top": 237.51949310302734,
+          "right": 220.05476188659668,
+          "bottom": 371.25389862060547,
+          "height": 67.20000457763672,
+          "width": 16.67500114440918,
+          "id": "text9",
+          "tagName": "text",
+          "content": "I",
+          "fill": null
+        },
+        {
+          "left": 269.9437561035156,
+          "top": -58.600006103515625,
+          "right": 400.05625915527344,
+          "bottom": 75.80000305175781,
+          "height": 67.20000457763672,
+          "width": 130.1125030517578,
+          "id": "text10",
+          "tagName": "text",
+          "content": "Love",
+          "fill": null
+        },
+        {
+          "left": 98.37591552734375,
+          "top": -55.07189178466797,
+          "right": 148.4259147644043,
+          "bottom": 89.07268524169922,
+          "height": 67.20000457763672,
+          "width": 50.04999923706055,
+          "id": "text11",
+          "tagName": "text",
+          "content": "In",
+          "fill": null
+        }
+      ]
+    },
+    "chartTitle": [],
+    "markInfo": {
+      "text0": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text1": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text2": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text3": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text4": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text5": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text6": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text7": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text8": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text9": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text10": { "Type": "Text", "Role": "Main Chart Mark" },
+      "text11": { "Type": "Text", "Role": "Main Chart Mark" }
+    },
+    "groupInfo": [
+      [
+        "text0",
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7",
+        "text8",
+        "text9",
+        "text10",
+        "text11"
+      ]
+    ],
+    "nestedGrouping": [0],
+    "layoutInfo": {
+      "0": {
+        "type": "Packing",
+        "params": { "orientation": "", "alignment": "" }
+      }
+    },
+    "encodingInfo": {
+      "text0": ["fontSize"],
+      "text1": ["fontSize"],
+      "text2": ["fontSize"],
+      "text3": ["fontSize"],
+      "text4": ["fontSize"],
+      "text5": ["fontSize"],
+      "text6": ["fontSize"],
+      "text7": ["fontSize"],
+      "text8": ["fontSize"],
+      "text9": ["fontSize"],
+      "text10": ["fontSize"],
+      "text11": ["fontSize"]
+    },
+    "referenceElement": {
+      "xGridlines": [],
+      "yGridlines": [],
+      "xAxis": {
+        "labels": [],
+        "type": "x",
+        "ticks": [],
+        "path": [],
+        "fieldType": "Null",
+        "title": []
+      },
+      "yAxis": {
+        "labels": [],
+        "type": "y",
+        "ticks": [],
+        "path": [],
+        "fieldType": "Null",
+        "title": []
+      },
+      "legend": { "labels": [], "marks": [], "title": [], "ticks": [] }
+    }
+  }
+}

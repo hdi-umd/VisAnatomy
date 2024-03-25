@@ -38,20 +38,15 @@ function createExampleCards(examples){
   while (i < examples.length){
     shortDesc = examples[i].description.split(" ").slice(0,10).join(" ")
     tags = examples[i].tag
-    var tagdiv = ''
-    tags.forEach((d) =>{
-      tagdiv += '<div class="search-chip">'+
-        d
-        +'<i class=" material-icons"></i>'+
-      '</div>'
-    })
+    altimg = "/static/images/sample-1.jpeg"
+
     var subdiv = document.createElement('div')
     source = ""
     subdiv.className = "col s12 m6 l3"
     subdiv.innerHTML += '<div class="card sticky-action">'+
         '<div class="card-image-pop">'+
           '<div class="card-image waves-effect waves-block waves-light"  id="wholeCard">'+
-            '<img class="activator" id="'+examples[i].filename+'" src="/static/examples_png/'+examples[i].filename+'">'+
+            '<img class="activator" id="'+examples[i].filename+'" src="/static/examples_png/'+examples[i].filename+'" alt="missing image">'+
           '</div>'+
           '<div class="card-content">'+
             // '<span class="card-title activator grey-text text-darken-4"><i class="material-icons right extext" id="'+examples[i].filename+'">more_vert</i></span>'+
@@ -60,20 +55,17 @@ function createExampleCards(examples){
             '<p><a class ="modal-trigger" id="'+examples[i].filename+'" href="#bookmarkModal" data-id="'+examples[i].filename+'">'+examples[i].filename.slice(0, -4)+'</a></p>'+
             // '<p><a id="'+examples[i].filename+'" onclick=expandExample("'+String(examples[i].filename)+'","'+String(examples[i].source)+'")>' +examples[i].filename.slice(0, -4)+ '</a></p>'+
           '</div>'+
-          // '<div class="card-pop-out-container" id="cardPopOutContainer">'+
-          //   '<span class="close-button" id="cardPopOutCloseButton">&times;</span>'+
-          //   '<div class="card-pop-out-content">'+
-          //     '<img target="_blank" id="imagepopout" src="/static/examples/'+ examples[i].filename.replace('png', "svg") + '" alt="' + examples[i].filename.slice(0, -4) + '">'+
-          //   '</div>'+
-          // '</div>'+
         '</div>'+
           // '<div class="card-reveal">'+
           //   '<span class="card-title grey-text text-darken-4"><i class="material-icons right extext">close</i></span>'+
           //   '<p>'+examples[i].description+'</p>'+
           // '</div>'+
           '<div class="card-action">'+
-            '<a href="javascript:void(0)"><i class="material-icons bk" id="bk_'+examples[i].filename+'">bookmark_border</i></a>'+
-            tagdiv+
+            // '<a href="javascript:void(0)"><i class="material-icons bk" id="bk_'+examples[i].filename+'">bookmark_border</i></a>'+
+            '<div class="search-chip">'+
+                tags
+              +'<i class=" material-icons"></i>'+
+            '</div>'
           '</div>'+        
         '</div>'
       
@@ -88,98 +80,9 @@ function createExampleCards(examples){
     i++;
   }
    //add logging for viewed examples
-   logImageViews()
+  //  logImageViews()
 }
 
-// Define CSS styles as strings using template literals
-const cssStyles = `
-.card-pop-out-container {
-  display: none;
-  position: fixed; /* Change position to fixed */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  width: 85%; /* Set width to 85% */
-  max-width: 85vw; /* Limit width to 85% of viewport width */
-  height: 75%; /* Set height to 75% */
-  max-height: 75vh; /* Limit height to 75% of viewport height */
-  overflow: auto; /* Add overflow:auto to allow scrolling if content exceeds size */
-}
-
-.card-pop-out-content {
-  text-align: center;
-}
-
-.card-pop-out-content img {
-  max-width: 100%;
-  max-height: 80vh; /* Adjust max-height as needed */
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-}
-`;
-
-// Create a <style> element and append it to the <head> of the document
-const styleElement = document.createElement('style');
-styleElement.textContent = cssStyles;
-document.head.appendChild(styleElement);
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   const imgElement = document.getElementById('imagepopout');
-//   const wholeCards = document.getElementById("wholeCard");
-  
-//   const popOutContainer = document.getElementById("cardPopOutContainer");
-
-//   let popOutOpen = false; 
-//   const cardImages = document.getElementsByClassName("card-image-pop");
-//   setTimeout(() => {
-//     cardImage = Array.from(cardImages);
-//     for (let i = 0; i < cardImage.length; i++) {
-//       const card = cardImage[i];
-//       console.log(card);
-//       cardImage[i].addEventListener("click", function() {
-//         if (!popOutOpen) {
-//           console.log("Card clicked");
-//           var popOutContainer = card.querySelector(".card-pop-out-container");
-//           popOutContainer.style.display = "block";
-//           popOutOpen = true;
-
-//           // Event delegation for the close button
-//           document.body.addEventListener("click", closeButtonHandler);
-//         }
-//       });
-//     }
-//   }, 1000);
-
-//   function closeButtonHandler(event) {
-//     if (event.target.id === "cardPopOutCloseButton") {
-//       event.stopPropagation();
-//       console.log("Close button clicked");
-      
-//       // Find the pop-out container
-//       const popOutContainer = event.target.closest(".card-pop-out-container");
-  
-//       if (popOutContainer) {
-//         // Hide the pop-out container
-//         popOutContainer.style.display = "none";
-//         popOutOpen = false;
-//       } else {
-//         console.log("Pop-out container not found");
-//       }
-//     }
-//   }
-  
-//   });
 
 function clearEndContent(){
   document.getElementById("wiz").style.display = "block"
@@ -212,12 +115,6 @@ function expandExample(filename, link){
   // window.open("/scratch/"+filename+"/", "_blank");
   window.open(link, "_blank")
 }
-
-// function openModal(filename, link){
-//   console.log("modal triggered")
-//   $('#bookmarkModal').modal()
-//   $('#bookmarkModal').modal(open)
-// }
 
 function initiateChips(data){
   //fetch tags for autocomplete
@@ -308,7 +205,6 @@ function fetchExamples(selectedtags){
   })
   .then((response) => response.json())
   .then((data) => {
-    console.log(data)
     createExampleCards(data)
   })
   .catch((error) => {
@@ -376,9 +272,6 @@ function initializeModal(){
         
         bookmarkModal(trigger.id)
       }
-      // ready: function(modal, trigger) {
-      //   modal.find('input[name="id"]').val(trigger.data('id'))
-      // }
     });
   });
        
@@ -393,9 +286,22 @@ function bookmarkModal(id){
   fetch("/static/examples/"+id.replace("png", "svg"))
   .then(r=> r.text())
   .then((text)=>{
-    exampleCards.innerHTML=text
+    displaySVG(text)
+    // console.log("svg retrieved")
   } )
   
+  fetch("/static/annotations/"+id.replace("png", "json"))
+  .then(r=> r.text())
+  .then((text)=>{
+    try {
+      $('#json-display').jsonViewer(JSON.parse(text))
+    } catch (error) {
+      j = '{"file": "missing"}'
+      $('#json-display').jsonViewer(JSON.parse(j), {collasped: false})
+    }
+    // $('#json-display').jsonViewer(JSON.parse(text), {collasped: false}) //https://github.com/abodelot/jquery.json-viewer
+  } )
+
 }
 
 function addBookmark(d){
@@ -411,38 +317,38 @@ function addBookmark(d){
   }
 }
 
-function logImageViews(){
-  //log hover over image
-  document.querySelectorAll(".activator").forEach(item =>{
-    item.addEventListener("mouseover", (d)=>{
-      log("hover over example", d.target.id)
-    })
-  })
+// function logImageViews(){
+//   //log hover over image
+//   document.querySelectorAll(".activator").forEach(item =>{
+//     item.addEventListener("mouseover", (d)=>{
+//       log("hover over example", d.target.id)
+//     })
+//   })
   
-  // //log click on example source
-  // document.addEventListener('click', e =>{
-  //   const origin = e.target.closest('a');
-  //   if (origin.id)
-  //     console.log("expand example", origin.id)
-  //     log("clicked on example source", origin.id);
-  // })
+//   // //log click on example source
+//   // document.addEventListener('click', e =>{
+//   //   const origin = e.target.closest('a');
+//   //   if (origin.id)
+//   //     console.log("expand example", origin.id)
+//   //     log("clicked on example source", origin.id);
+//   // })
 
-  //log click on example description
-  document.querySelectorAll(".extext").forEach(item =>{
-    item.addEventListener("click", (d)=>{
-      if (d.target.id)
-      log("viewed example description", d.target.id);
-    })
-  })
+//   //log click on example description
+//   document.querySelectorAll(".extext").forEach(item =>{
+//     item.addEventListener("click", (d)=>{
+//       if (d.target.id)
+//       log("viewed example description", d.target.id);
+//     })
+//   })
 
-  // add onclick for bookmarks
-  document.querySelectorAll('i[class*="bk"]').forEach(item =>{
-    item.addEventListener("click", (d)=>{
-      if (d.target.id)
-       addBookmark(d.target.id)
-    })
-  })
-}
+//   // add onclick for bookmarks
+//   document.querySelectorAll('i[class*="bk"]').forEach(item =>{
+//     item.addEventListener("click", (d)=>{
+//       if (d.target.id)
+//        addBookmark(d.target.id)
+//     })
+//   })
+// }
 
 //main function that initializes the main page. 
 function init (){

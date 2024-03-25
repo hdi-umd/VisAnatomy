@@ -45,11 +45,12 @@ class Examples:
                 else:
                     img = copy.deepcopy(image)
                     img = img.__dict__
-                    img["tag"] = list(image.getMatchingTags(tag))
+                    # img["tag"] = list(image.getMatchingTags(tag))
+                    img["tag"] = t
                     examples.append(img)
                     examples_ids.add(img["filename"])
         random.shuffle(examples)
-        return examples[:5]
+        return examples
 
     def getAllImages(self) -> list:
         examples =[]

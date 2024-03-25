@@ -1,2 +1,3 @@
 FLASK_APP=EIDInterface.py
-FLASK_DEBUG=True
+FLASK_DEBUG=1
+FLASK_ENV=development

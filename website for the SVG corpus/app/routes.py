@@ -68,7 +68,6 @@ def getExamples():
         data = request.json
         if data['tags'] == 'all':
             images = examples.getAllImages()
-            print(images)
             return json.dumps(images)
         images = examples.getImages(data['tags'])
         
@@ -77,14 +76,15 @@ def getExamples():
 
 @app.route('/log', methods=['POST', 'GET'])
 def log():
-    if request.method == "POST":
-        data = request.json
-        file =""
-        # # print(data['log'])
-        with open("app/logs/"+"logs.txt", "r") as f:
-            file = json.loads(f.read())
-            file.append(data['log'])
-        with open("app/logs/"+str(data['id'])+".txt", "w") as f:
-            f.write(json.dumps(file))
-        return json.dumps({'success':True}), 200, {'ContentType':'application/json'} 
-    return json.dumps({'success':False}), 400, {'ContentType':'application/json'} 
+    # if request.method == "POST":
+        # data = request.json
+        # file =""
+        # # # print(data['log'])
+        # with open("app/logs/"+"logs.txt", "r") as f:
+        #     file = json.loads(f.read())
+        #     file.append(data['log'])
+        # with open("app/logs/"+str(data['id'])+".txt", "w") as f:
+        #     f.write(json.dumps(file))
+        # return json.dumps({'success':True}), 200, {'ContentType':'application/json'} 
+    # return json.dumps({'success':False}), 400, {'ContentType':'application/json'} 
+    return json.dumps({'success':True}), 200, {'ContentType':'application/json'} 
