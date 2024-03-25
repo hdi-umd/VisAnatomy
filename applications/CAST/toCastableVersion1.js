@@ -19,6 +19,19 @@ let axisCounter = 2001;
 let vertexCounter = 1001;
 let markCounter = 1;
 let pathCounter = -1;
+let datumCounter = 1;
+let xyCrossCounter = 0
+
+let cumulativeDataObj = {}
+let xyCrossObj = {}
+let legendObj = {}
+
+let linkArr = [];
+let symbolArr = [];
+let legendArr = [];
+let legendStoreArr = [];
+let axisTicksArr = [];
+let axisLabelsArr = [];
 
 // Check if the user has provided exactly one argument
 if (process.argv.length !== 3) {
@@ -57,6 +70,27 @@ if (process.argv.length !== 3) {
     let collectionArr = axisAndCollectionArr.filter(x => x.type == "collection")[0];
     let collectionArrChildren = collectionArr.children;
 
+
+
+    // Comment out for barcharthorz
+    // let x_axis = axisAndCollectionArr.filter(x => x.type == "axis" && x.channel == "x")[0]
+    // let {field: xfield} = x_axis
+    // // console.log(xfield)
+
+    // let y_axis = axisAndCollectionArr.filter(x => x.type == "axis" && x.channel == "y")[0]
+    // let {field: yfield} = y_axis
+
+    // let legend = axisAndCollectionArr.filter(x => x.type == "legend")[0]
+    // let {field: legend_field} = legend
+
+    // Make structure for xy comparison
+    
+
+
+
+
+
+
     collectionArrChildren = collectionArrChildren.reverse();
     
     let previousData = null;
@@ -64,6 +98,14 @@ if (process.argv.length !== 3) {
     let collection = false;
 
     let pathProcessSize = collectionArrChildren.filter(x => x.type === "path").length
+
+    let verticesSize
+    
+    if (collectionArrChildren.filter(x => x.type === "path")[0]){
+      if(collectionArrChildren.filter(x => x.type === "path")[0].hasOwnProperty("vertices")) {
+        verticesSize = collectionArrChildren.filter(x => x.type === "path")[0].vertices.length
+      }
+    } 
 
     while (collectionArrChildren.length > 0) {
 
@@ -90,14 +132,14 @@ if (process.argv.length !== 3) {
         }
 
       } else if (data.type == "rect") {
-        processRect(data)
+        processRect(data, axisAndCollectionArr)
         
       } else if (data.type == "path") {
         //processPath(data);
         pathCounter++;
         processBump(data, pathProcessSize)
       } else if (data.type == "pie") {
-        processPie(data, previousData);
+        processPie(data, previousData, axisAndCollectionArr);
 
         previousData = data;
       }
@@ -108,14 +150,73 @@ if (process.argv.length !== 3) {
       newSVG += `</g>`
     }
 
+
+    
+    // Added while trying to convert to toCastableBump
+
+    newSVG += `<g transform="translate(0,0)" opacity="1">`
+
+
+    let j = 0;
+
+    for (let i = 0; i < pathProcessSize; i++) {
+      newSVG += `<g transform="translate(0,0)" opacity="1">`
+
+      while ((j < verticesSize * (i + 1)) && j < linkArr.length) {
+          newSVG += linkArr[j]
+
+          j++;
+      }
+
+      newSVG += `</g>`
+    }
+
+    newSVG += `</g>`
+
+
+
+
+
+
+    
+    newSVG += `<g transform="translate(0,0)" opacity="1">`
+
+    for (let i = 0; i < symbolArr.length; i++) {
+
+      newSVG += `<g transform="translate(0,0)" opacity="1">`
+      newSVG += symbolArr[i]
+      newSVG += `</g>`
+
+    }
+
+    newSVG += `</g>`
+
+
+
+
+
+
+
     // End of the content group
     newSVG += `</g>`
 
     // Start of the axis group
     // newSVG += `<g transform="translate(0,0)" opacity="1">`
-    newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;}" opacity="1">`
-
     let axisArr = axisAndCollectionArr.filter(x => x.type == "axis");
+
+
+    // Would need to fix here for multi-line chart
+    let xAxisArr = axisArr.filter(x => x.channel == "x")
+
+
+
+    if (symbolArr.length > 0) {
+      let field = xAxisArr[0].field
+      newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;${field}&quot;}" opacity="1">`
+    } else{
+      newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;}" opacity="1">`
+    }
+
 
     for (let axisObj of axisArr) {
 
@@ -165,6 +266,7 @@ if (process.argv.length !== 3) {
       }
 
     }
+
 
     // Close end of axis group
     newSVG += `</g>`;
@@ -238,7 +340,7 @@ if (process.argv.length !== 3) {
 
 
 
-function processRect(obj) {
+function processRect(obj, axisAndCollectionArr) {
   let ans = "";
   let id = obj.id;
   let {fillColor, strokeWidth, strokeColor, strokeDash, width, height, top, left} = obj.args;
@@ -294,7 +396,7 @@ function processRect(obj) {
   // ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:${left},&quot;_y&quot;:${top},&quot;_id&quot;:&quot;${idNum}&quot;}">`;
   ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
   
-  ans = processDataDatum(obj, ans)
+  ans = processDataDatum(obj, ans, axisAndCollectionArr)
   
   ans += `}">`
 
@@ -371,7 +473,7 @@ function processPath(obj) {
   newSVG += ans;
 }
 
-function processPie(obj, previousObj) {
+function processPie(obj, previousObj, axisAndCollectionArr) {
   let ans = "";
   let id = obj.id;
   let {strokeWidth, strokeColor, strokeDash, fillColor, x, y, innerRadius, outerRadius, startAngle, endAngle, vxFillColor, vxStrokeColor, vxStrokeWidth, vxOpacity} = obj.args;
@@ -429,7 +531,7 @@ function processPie(obj, previousObj) {
 
   ans += `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
   
-  ans = processDataDatum(obj, ans)
+  ans = processDataDatum(obj, ans, axisAndCollectionArr)
   
   ans += `}">`
 
@@ -488,6 +590,33 @@ function processLine(obj) {
 
   if (visibility != "hidden") {
 
+
+    // const line = {
+    //   type: "element",
+    //   name: "line",
+    //   attributes: {
+    //     x1: obj.vertices[0].x,
+    //     x2: obj.vertices[1].x,
+    //     y1: obj.vertices[0].y,
+    //     y2: obj.vertices[1].y,
+    //   }
+    // }
+
+    // const path = toPath(line)
+
+    // let ans = ""
+
+    // ans += `<path d="mark${axisCounter++}" class=" mark axis-tick" `
+    // ans += `d="${path}" `
+    // ans += `data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" `
+    // ans += `stroke="${strokeColor}" stroke-width="${strokeWidth}"`
+    // ans += `></path>`
+
+    // newSVG += ans
+
+
+
+
   let x1 = obj.vertices[0].x
   let y1 = obj.vertices[0].y
   let x2 = obj.vertices[1].x
@@ -506,6 +635,20 @@ function processLine(obj) {
   ans += `></line>`
 
   newSVG += ans
+
+
+
+  // const circle = {
+  //   type: "element",
+  //   name: "circle",
+  //   attributes: {
+  //     cx: vertex.x,
+  //     cy: vertex.y,
+  //     r: vertex.radius
+  //   }
+  // }
+
+  // const path = toPath(circle)
   }
 }
 
@@ -629,13 +772,99 @@ function processPointTextLegend(obj) {
   newSVG += ans
 }
 
-function processDataDatum(obj, ans) {
+function processDataDatum(obj, ans, axisAndCollectionArr) {
+  // console.log(obj)
   let { dataScope } = obj
   let { f2v } = dataScope
 
   for (let key in f2v) {
 
     ans += `,&quot;${key}&quot;:&quot;${f2v[key]}&quot;`
+
+  }
+
+  ans += `,&quot;Counter&quot;:${datumCounter++}`
+
+
+  // cumulativeDataObj is a list of values seen
+  for (let key in f2v) {
+    if (cumulativeDataObj.hasOwnProperty(key)) {
+      // filtered = cumulativeDataObj[key].filter((item) => item == f2v[key])
+      // if (filtered.length)
+      if (cumulativeDataObj[key].includes(f2v[key])) {
+        number = cumulativeDataObj[key].indexOf(f2v[key]) + 1
+        ans += `,&quot;${key}_numeric&quot;:&quot;${number}&quot;`
+      } else {
+        // Value does not exist in list yet
+        cumulativeDataObj[key].push(f2v[key])
+        number = cumulativeDataObj[key].indexOf(f2v[key]) + 1
+        ans += `,&quot;${key}_numeric&quot;:&quot;${number}&quot;`
+      }
+
+    } else {
+      // There is no key yet
+      cumulativeDataObj[key] = [f2v[key]]
+      ans += `,&quot;${key}_numeric&quot;:&quot;${cumulativeDataObj[key].length}&quot;`
+    }
+  }
+
+
+
+
+    // Comment out for BarChartHorz
+
+    // let x_axis = axisAndCollectionArr.filter(x => x.type == "axis" && x.channel == "x")[0]
+    // let {field: xfield} = x_axis
+
+    // let y_axis = axisAndCollectionArr.filter(x => x.type == "axis" && x.channel == "y")[0]
+    // let {field: yfield} = y_axis
+
+    // let legend = axisAndCollectionArr.filter(x => x.type == "legend")[0]
+    // let {field: legend_field} = legend
+
+    // let x = f2v[xfield]
+    // let y = f2v[yfield]
+    // let keyStr = `${x},${y}`
+
+
+    // if (xyCrossObj.hasOwnProperty(keyStr)) {
+    //   ans += `,&quot;xyCross&quot;:&quot;${xyCrossObj[keyStr]}&quot;`
+    // } else {
+    //   let values = Object.values(xyCrossObj)
+    //   if (values.length == 0) {
+    //     xyCrossObj[keyStr] = 0
+    //   } else {
+    //     xyCrossObj[keyStr] = Math.max(...values) + 1
+    //   }
+    //   ans += `,&quot;xyCross&quot;:&quot;${xyCrossObj[keyStr]}&quot;`
+    // }
+
+    // let legend_inst = f2v[legend_field]
+    // if (legendObj.hasOwnProperty(legend_inst)) {
+    //   ans += `,&quot;legendNum&quot;:&quot;${legendObj[legend_inst]}&quot;`
+    // } else {
+    //   let values = Object.values(legendObj)
+    //   if (values.length == 0) {
+    //     legendObj[legend_inst] = 0
+    //   } else {
+    //     legendObj[legend_inst] = Math.max(...values) + 1
+    //   }
+    //   ans += `,&quot;legendNum&quot;:&quot;${legendObj[legend_inst]}&quot;`
+    // }
+
+
+
+
+  return ans
+}
+
+function processDataDatumNum(obj, ans, num) {
+  let { dataScope } = obj
+  let { f2v } = dataScope
+
+  for (let key in f2v) {
+
+    ans += `,&quot;${key}&quot;:&quot;${num}&quot;`
 
   }
 
@@ -690,11 +919,13 @@ function processBump(obj, num) {
   let localIdCounter = 0;
   let {strokeWidth, strokeColor, strokeDash, fillColor} = obj.args;
 
-  ans += `<g transform="translate(0,0)" opacity="1">`;
+  // ans += `<g transform="translate(0,0)" opacity="1">`;
 
   let { vertices } = obj;
 
   for (let i = 0; i < vertices.length - 1 ; i++) {
+
+    ans = ""
 
     ans += `<path id="mark${markCounter++}" class=" mark Link1 link" `;
 
@@ -711,62 +942,57 @@ function processBump(obj, num) {
     ans += `data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:${obj.vertices[i].x},&quot;_y&quot;:${obj.vertices[i].y},&quot;_id&quot;:&quot;${((localIdCounter) * num) + pathCounter}&quot;`;
 
     let { dataScope } = obj.vertices[i]
-    let { f2v } = dataScope
+    let { f2v, tuples } = dataScope
 
     for (let key in f2v) {
       ans += `,&quot;${key}&quot;:&quot;${f2v[key]}&quot;`
+    }
+
+    for (let key in tuples) {
+      ans += `,&quot;Value&quot;:&quot;${tuples[key]}&quot;`
     }
 
     ans += `},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:${obj.vertices[i + 1].x},&quot;_y&quot;:${obj.vertices[i + 1].y},&quot;_id&quot;:&quot;${((++localIdCounter) * num) + pathCounter}&quot;`
 
     dataScope = obj.vertices[i + 1].dataScope
     f2v = dataScope.f2v
+    tuples = dataScope.tuples
 
     for (let key in f2v) {
       ans += `,&quot;${key}&quot;:&quot;${f2v[key]}&quot;`
+    }
+
+    for (let key in tuples) {
+      ans += `,&quot;Value&quot;:&quot;${tuples[key]}&quot;`
     }
 
     ans += `}]">`
 
     ans += `</path>`;
 
+    linkArr.push(ans)
+
   }
 
-  ans += `</g>`;
-
-
-
-  // // Start of verticies
-  // ans += `<g transform="translate(0,0)" opacity="1">`;
-
-  // for (let vertex of obj.vertices) {
-  //   ans += `<g transform="translate(0,0)" opacity="1">`;
-
-  //   if (vertex.shape == "circle") {
-  //     ans += `<circle id="mark${vertexCounter++}" class=" mark Symbol1 symbol" cx="${vertex.x}" cy="${vertex.y}" r="${vertex.radius}" `
-
-  //     ans += `style="stroke-linecap: round; stroke-linejoin: round; text-anchor: start; cursor: pointer; pointer-events: all;" `
-
-  //     ans += `fill="${vertex.fillColor}" `
-
-  //     ans += `data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:${vertex.x},&quot;_y&quot;:${vertex.y},&quot;_id&quot;:&quot;${vertexCounter - 1002}&quot;}">`
-
-  //     ans += `</circle>`
-  //   }
-
-  //   ans += `</g>`;
-  // }
-
   // ans += `</g>`;
-  // // End of verticies
+
 
 
 
   // Start of verticies
-  ans += `<g transform="translate(0,0)" opacity="1">`;
+  // ans += `<g transform="translate(0,0)" opacity="1">`;
 
   for (let vertex of obj.vertices) {
-    ans += `<g transform="translate(0,0)" opacity="1">`;
+
+    // Added this while trying to copy toCastableBump
+    ans = ""
+
+
+
+    // ans += `<g transform="translate(0,0)" opacity="1">`;
+
+
+
 
     if (vertex.shape == "circle") {
       
@@ -781,11 +1007,9 @@ function processBump(obj, num) {
         }
       }
 
-      console.log(circle)
 
       const path = toPath(circle)
 
-      console.log(path)
 
       ans += `<path id="mark${vertexCounter++}" class=" mark Symbol1 symbol" `
       ans += `d="${path}" `
@@ -793,9 +1017,14 @@ function processBump(obj, num) {
 
       dataScope = vertex.dataScope
       f2v = dataScope.f2v
+      tuples = dataScope.tuples
 
       for (let key in f2v) {
         ans += `,&quot;${key}&quot;:&quot;${f2v[key]}&quot;`
+      }
+
+      for (let key in tuples) {
+        ans += `,&quot;Value&quot;:&quot;${tuples[key]}&quot;`
       }
 
       ans += `}" `
@@ -806,7 +1035,10 @@ function processBump(obj, num) {
 
       ans += `</path>`
 
+
     } else {
+
+      ans = ""
 
       // Added to handle multiline graph
 
@@ -841,21 +1073,24 @@ function processBump(obj, num) {
 
       ans += `</path>`
 
+
     }
 
 
 
 
+    // ans += `</g>`;
 
-
-
-    ans += `</g>`;
+    symbolArr.push(ans)
   }
 
-  ans += `</g>`;
+  // ans += `</g>`;
   // End of verticies
 
-  newSVG += ans;
+
+
+  // Comment out while trying to convert toCastableBump
+  // newSVG += ans;
 
 }
 

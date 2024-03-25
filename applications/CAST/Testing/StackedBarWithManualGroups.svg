@@ -1,0 +1,288 @@
+<svg id="visChart" viewBox="37.173828125 100 951.1591796875 472.9130434782609" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+  <g id="chartContent">
+    <g transform="translate(0,0)" opacity="1">
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1720" class=" mark Shape1 rectangle" x="100" y="100" width="20" height="130" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;USA&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;0&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1721" class=" mark Shape1 rectangle" x="100" y="230.00000000000006" width="20" height="81.95652173913044" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;USA&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;0&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1722" class=" mark Shape1 rectangle" x="100" y="311.95652173913044" width="20" height="81.95652173913044" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;USA&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;0&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1723" class=" mark Shape1 rectangle" x="135" y="145.21739130434779" width="20" height="107.3913043478261" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;CHN&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;1&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1724" class=" mark Shape1 rectangle" x="135" y="252.60869565217385" width="20" height="76.30434782608702" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;CHN&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;1&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1725" class=" mark Shape1 rectangle" x="135" y="328.9130434782609" width="20" height="65" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;CHN&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;1&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1726" class=" mark Shape1 rectangle" x="170" y="162.17391304347825" width="20" height="67.82608695652175" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;RUS&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;2&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1727" class=" mark Shape1 rectangle" x="170" y="230" width="20" height="73.47826086956525" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;RUS&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;2&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1728" class=" mark Shape1 rectangle" x="170" y="303.47826086956525" width="20" height="90.43478260869563" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;RUS&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;2&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1729" class=" mark Shape1 rectangle" x="205" y="210.21739130434787" width="20" height="81.95652173913044" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GBR&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;3&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1730" class=" mark Shape1 rectangle" x="205" y="292.17391304347825" width="20" height="48.04347826086956" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GBR&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;3&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1731" class=" mark Shape1 rectangle" x="205" y="340.2173913043478" width="20" height="53.69565217391306" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GBR&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;3&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1732" class=" mark Shape1 rectangle" x="240" y="269.56521739130426" width="20" height="31.086956521739125" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;DEU&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;4&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1733" class=" mark Shape1 rectangle" x="240" y="300.6521739130434" width="20" height="53.69565217391306" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;DEU&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;4&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1734" class=" mark Shape1 rectangle" x="240" y="354.3478260869565" width="20" height="39.56521739130437" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;DEU&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;4&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1735" class=" mark Shape1 rectangle" x="275" y="286.52173913043475" width="20" height="19.782608695652186" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JPN&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;5&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1736" class=" mark Shape1 rectangle" x="275" y="306.30434782608694" width="20" height="39.56521739130437" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JPN&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;5&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1737" class=" mark Shape1 rectangle" x="275" y="345.8695652173913" width="20" height="48.04347826086956" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JPN&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;5&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1738" class=" mark Shape1 rectangle" x="310" y="297.82608695652175" width="20" height="31.086956521739125" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;FRA&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;6&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1739" class=" mark Shape1 rectangle" x="310" y="328.9130434782609" width="20" height="31.086956521739125" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;FRA&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;6&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1740" class=" mark Shape1 rectangle" x="310" y="360" width="20" height="33.913043478260875" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;FRA&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;6&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1741" class=" mark Shape1 rectangle" x="345" y="314.78260869565224" width="20" height="22.60869565217388" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ITA&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;7&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1742" class=" mark Shape1 rectangle" x="345" y="337.3913043478261" width="20" height="25.434782608695627" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ITA&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;7&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1743" class=" mark Shape1 rectangle" x="345" y="362.82608695652175" width="20" height="31.086956521739125" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ITA&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;7&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1744" class=" mark Shape1 rectangle" x="380" y="345.86956521739137" width="20" height="8.478260869565247" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BRA&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;8&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1745" class=" mark Shape1 rectangle" x="380" y="354.3478260869566" width="20" height="14.130434782608688" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BRA&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;8&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1746" class=" mark Shape1 rectangle" x="380" y="368.47826086956525" width="20" height="25.434782608695627" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BRA&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;8&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1747" class=" mark Shape1 rectangle" x="415" y="376.9565217391304" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;IND&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;9&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1748" class=" mark Shape1 rectangle" x="415" y="376.9565217391304" width="20" height="5.652173913043498" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;IND&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;9&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1749" class=" mark Shape1 rectangle" x="415" y="382.60869565217394" width="20" height="11.30434782608694" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;IND&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;9&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1750" class=" mark Shape1 rectangle" x="450" y="360" width="20" height="11.304347826086996" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JAM&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;10&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1751" class=" mark Shape1 rectangle" x="450" y="371.304347826087" width="20" height="11.30434782608694" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JAM&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;10&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1752" class=" mark Shape1 rectangle" x="450" y="382.60869565217394" width="20" height="11.30434782608694" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;JAM&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;10&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1753" class=" mark Shape1 rectangle" x="485" y="374.13043478260875" width="20" height="2.826086956521749" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GEO&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;11&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1754" class=" mark Shape1 rectangle" x="485" y="376.9565217391305" width="20" height="8.478260869565247" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GEO&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;11&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1755" class=" mark Shape1 rectangle" x="485" y="385.4347826086957" width="20" height="8.47826086956519" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GEO&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;11&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1756" class=" mark Shape1 rectangle" x="520" y="376.9565217391304" width="20" height="11.304347826086996" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;PRK&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;12&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1757" class=" mark Shape1 rectangle" x="520" y="388.2608695652174" width="20" height="0" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;PRK&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;12&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1758" class=" mark Shape1 rectangle" x="520" y="388.2608695652174" width="20" height="5.652173913043498" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;PRK&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;12&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1759" class=" mark Shape1 rectangle" x="555" y="385.4347826086956" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ARM&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;13&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1760" class=" mark Shape1 rectangle" x="555" y="385.4347826086956" width="20" height="2.826086956521749" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ARM&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;13&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1761" class=" mark Shape1 rectangle" x="555" y="388.2608695652174" width="20" height="5.652173913043498" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;ARM&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;13&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1762" class=" mark Shape1 rectangle" x="590" y="379.78260869565213" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNG&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;14&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1763" class=" mark Shape1 rectangle" x="590" y="379.78260869565213" width="20" height="5.652173913043498" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNG&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;14&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1764" class=" mark Shape1 rectangle" x="590" y="385.4347826086957" width="20" height="8.47826086956519" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNG&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;14&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1765" class=" mark Shape1 rectangle" x="625" y="391.0869565217391" width="20" height="2.826086956521749" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BHS&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;15&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1766" class=" mark Shape1 rectangle" x="625" y="393.9130434782609" width="20" height="0" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BHS&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;15&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1767" class=" mark Shape1 rectangle" x="625" y="393.9130434782609" width="20" height="0" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;BHS&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;15&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1768" class=" mark Shape1 rectangle" x="660" y="388.2608695652174" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MDA&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;16&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1769" class=" mark Shape1 rectangle" x="660" y="388.2608695652174" width="20" height="0" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MDA&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;16&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1770" class=" mark Shape1 rectangle" x="660" y="388.2608695652174" width="20" height="5.652173913043498" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MDA&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;16&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1771" class=" mark Shape1 rectangle" x="695" y="391.0869565217391" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;TJK&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;17&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1772" class=" mark Shape1 rectangle" x="695" y="391.0869565217391" width="20" height="0" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;TJK&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;17&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1773" class=" mark Shape1 rectangle" x="695" y="391.0869565217391" width="20" height="2.826086956521749" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;TJK&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;17&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1774" class=" mark Shape1 rectangle" x="730" y="391.0869565217391" width="20" height="0" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNE&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;18&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1775" class=" mark Shape1 rectangle" x="730" y="391.0869565217391" width="20" height="2.826086956521749" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNE&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;18&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+        </g>
+        <g transform="translate(0,0)" opacity="1">
+          <rect id="mark1776" class=" mark Shape1 rectangle" x="730" y="393.9130434782609" width="20" height="0" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;MNE&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;18&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+        </g>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1777" class=" mark Shape1 rectangle" x="765" y="391.0869565217391" width="20" height="2.826086956521749" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GRD&quot;,&quot;Medal_Type&quot;:&quot;Gold&quot;,&quot;Country_Code_num&quot;:&quot;19&quot;,&quot;Medal&quot;:&quot;0&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1778" class=" mark Shape1 rectangle" x="765" y="393.9130434782609" width="20" height="0" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GRD&quot;,&quot;Medal_Type&quot;:&quot;Silver&quot;,&quot;Country_Code_num&quot;:&quot;19&quot;,&quot;Medal&quot;:&quot;1&quot;}"/>
+      </g>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark1779" class=" mark Shape1 rectangle" x="765" y="393.9130434782609" width="20" height="0" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;Country_Code&quot;:&quot;GRD&quot;,&quot;Medal_Type&quot;:&quot;Bronze&quot;,&quot;Country_Code_num&quot;:&quot;19&quot;,&quot;Medal&quot;:&quot;2&quot;}"/>
+      </g>
+    </g>
+    <g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;}" opacity="1">
+      <line id="mark2001" class=" mark axis-tick" x1="110" y1="393.9130434782609" x2="110" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2002" class=" mark axis-tick" x1="145" y1="393.9130434782609" x2="145" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2003" class=" mark axis-tick" x1="180" y1="393.9130434782609" x2="180" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2004" class=" mark axis-tick" x1="215" y1="393.9130434782609" x2="215" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2005" class=" mark axis-tick" x1="250" y1="393.9130434782609" x2="250" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2006" class=" mark axis-tick" x1="285" y1="393.9130434782609" x2="285" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2007" class=" mark axis-tick" x1="320" y1="393.9130434782609" x2="320" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2008" class=" mark axis-tick" x1="355" y1="393.9130434782609" x2="355" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2009" class=" mark axis-tick" x1="390" y1="393.9130434782609" x2="390" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2010" class=" mark axis-tick" x1="425" y1="393.9130434782609" x2="425" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2011" class=" mark axis-tick" x1="460" y1="393.9130434782609" x2="460" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2012" class=" mark axis-tick" x1="495" y1="393.9130434782609" x2="495" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2013" class=" mark axis-tick" x1="530" y1="393.9130434782609" x2="530" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2014" class=" mark axis-tick" x1="565" y1="393.9130434782609" x2="565" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2015" class=" mark axis-tick" x1="600" y1="393.9130434782609" x2="600" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2016" class=" mark axis-tick" x1="635" y1="393.9130434782609" x2="635" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2017" class=" mark axis-tick" x1="670" y1="393.9130434782609" x2="670" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2018" class=" mark axis-tick" x1="705" y1="393.9130434782609" x2="705" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2019" class=" mark axis-tick" x1="740" y1="393.9130434782609" x2="740" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2020" class=" mark axis-tick" x1="775" y1="393.9130434782609" x2="775" y2="398.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <text id="mark2021" class=" mark axis-label" x="110" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;USA&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">USA</text>
+      <text id="mark2022" class=" mark axis-label" x="145" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;CHN&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">CHN</text>
+      <text id="mark2023" class=" mark axis-label" x="180" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;RUS&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">RUS</text>
+      <text id="mark2024" class=" mark axis-label" x="215" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;GBR&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">GBR</text>
+      <text id="mark2025" class=" mark axis-label" x="250" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;DEU&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">DEU</text>
+      <text id="mark2026" class=" mark axis-label" x="285" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;JPN&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">JPN</text>
+      <text id="mark2027" class=" mark axis-label" x="320" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;FRA&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">FRA</text>
+      <text id="mark2028" class=" mark axis-label" x="355" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;ITA&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">ITA</text>
+      <text id="mark2029" class=" mark axis-label" x="390" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;BRA&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">BRA</text>
+      <text id="mark2030" class=" mark axis-label" x="425" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;IND&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">IND</text>
+      <text id="mark2031" class=" mark axis-label" x="460" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;JAM&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">JAM</text>
+      <text id="mark2032" class=" mark axis-label" x="495" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;GEO&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">GEO</text>
+      <text id="mark2033" class=" mark axis-label" x="530" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;PRK&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">PRK</text>
+      <text id="mark2034" class=" mark axis-label" x="565" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;ARM&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">ARM</text>
+      <text id="mark2035" class=" mark axis-label" x="600" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;MNG&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">MNG</text>
+      <text id="mark2036" class=" mark axis-label" x="635" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;BHS&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">BHS</text>
+      <text id="mark2037" class=" mark axis-label" x="670" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;MDA&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">MDA</text>
+      <text id="mark2038" class=" mark axis-label" x="705" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;TJK&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">TJK</text>
+      <text id="mark2039" class=" mark axis-label" x="740" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;MNE&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">MNE</text>
+      <text id="mark2040" class=" mark axis-label" x="775" y="408.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;GRD&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">GRD</text>
+      <line id="mark2041" class=" mark axis-tick" x1="100" y1="393.9130434782609" x2="785" y2="393.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2042" class=" mark axis-tick" x1="90" y1="393.9130434782609" x2="95" y2="393.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2043" class=" mark axis-tick" x1="90" y1="365.6521739130435" x2="95" y2="365.6521739130435" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2044" class=" mark axis-tick" x1="90" y1="337.3913043478261" x2="95" y2="337.3913043478261" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2045" class=" mark axis-tick" x1="90" y1="309.1304347826087" x2="95" y2="309.1304347826087" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2046" class=" mark axis-tick" x1="90" y1="280.8695652173913" x2="95" y2="280.8695652173913" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2047" class=" mark axis-tick" x1="90" y1="252.60869565217394" x2="95" y2="252.60869565217394" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2048" class=" mark axis-tick" x1="90" y1="224.34782608695653" x2="95" y2="224.34782608695653" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2049" class=" mark axis-tick" x1="90" y1="196.08695652173913" x2="95" y2="196.08695652173913" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2050" class=" mark axis-tick" x1="90" y1="167.82608695652175" x2="95" y2="167.82608695652175" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2051" class=" mark axis-tick" x1="90" y1="139.56521739130434" x2="95" y2="139.56521739130434" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <line id="mark2052" class=" mark axis-tick" x1="90" y1="111.304347826087" x2="95" y2="111.304347826087" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <text id="mark2053" class=" mark axis-label" x="90" y="393.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;0&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">0</text>
+      <text id="mark2054" class=" mark axis-label" x="90" y="365.6521739130435" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;10&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">10</text>
+      <text id="mark2055" class=" mark axis-label" x="90" y="337.3913043478261" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;20&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">20</text>
+      <text id="mark2056" class=" mark axis-label" x="90" y="309.1304347826087" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;30&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">30</text>
+      <text id="mark2057" class=" mark axis-label" x="90" y="280.8695652173913" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;40&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">40</text>
+      <text id="mark2058" class=" mark axis-label" x="90" y="252.60869565217394" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;50&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">50</text>
+      <text id="mark2059" class=" mark axis-label" x="90" y="224.34782608695653" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;60&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">60</text>
+      <text id="mark2060" class=" mark axis-label" x="90" y="196.08695652173913" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;70&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">70</text>
+      <text id="mark2061" class=" mark axis-label" x="90" y="167.82608695652175" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;80&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">80</text>
+      <text id="mark2062" class=" mark axis-label" x="90" y="139.56521739130434" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;90&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">90</text>
+      <text id="mark2063" class=" mark axis-label" x="90" y="111.304347826087" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;100&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="end" alignment-baseline="middle" dominant-baseline="middle">100</text>
+      <line id="mark2064" class=" mark axis-tick" x1="95" y1="100" x2="95" y2="393.9130434782609" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" stroke="#555" stroke-width="1"/>
+      <text id="mark2065" class=" mark axis-label" x="54.5" y="246.95652173913044" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Count&quot;}" fill="#555" font-weight="bold" font-family="Arial, sans-serif" font-size="12px" text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle">Count</text>
+    </g>
+    <g transform="translate(0,0)" opacity="1">
+      <text id="mark3001" class=" mark legend-text" x="720" y="268" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start">Bronze</text>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark3002" class=" mark legend-symbol" x="700" y="257" width="10" height="10" style="fill: #ad8a56; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}"/>
+      </g>
+      <text id="mark3003" class=" mark legend-text" x="720" y="249" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start">Silver</text>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark3004" class=" mark legend-symbol" x="700" y="238" width="10" height="10" style="fill: #d7d7d7; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}"/>
+      </g>
+      <text id="mark3005" class=" mark legend-text" x="720" y="230" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start">Gold</text>
+      <g transform="translate(0,0)" opacity="1">
+        <rect id="mark3006" class=" mark legend-symbol" x="700" y="219" width="10" height="10" style="fill: #c9b037; stroke-width: 1; stroke: #ccc; stroke-dasharray: none;" text-anchor="start" cursor="pointer" pointer-events="all" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}"/>
+      </g>
+      <text id="mark3007" class=" mark legend-text" x="700" y="200" data-datum="{&quot;_TYPE&quot;:&quot;legend-text&quot;}" fill="#555" font-weight="normal" font-family="Arial, sans-serif" font-size="12px" text-anchor="start" alignment-baseline="text-before-edge" dominant-baseline="text-before-edge">Medal_Type</text>
+    </g>
+  </g>
+</svg>

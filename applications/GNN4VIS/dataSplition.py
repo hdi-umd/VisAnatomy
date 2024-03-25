@@ -25,8 +25,8 @@ def process_chart_array(chart_array, output_file):
     sorted_chart_types = sorted(chart_types.keys())
     
     output = {}
-    trainingNum = 0;
-    testNum = 0;
+    trainingNum = 0
+    testNum = 0
     
     for label, chart_type in enumerate(sorted_chart_types):
         charts = chart_types[chart_type]

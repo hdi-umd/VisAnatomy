@@ -187,20 +187,24 @@ def generateGraphData(chartName, folderName):
         #             parent = parent_child_relationship[parent]
 
         # if using the nestedGrouping in the annotations to form the edges
+        idEdges = []
         def addEdges(node):
             # if the node is a number
             if (isinstance(node, int)):
                 allNodes.append("group" + str(node))
                 for child in groupInfo[node]:
-                    edges.append(["group" + str(node), child])
+                    idEdges.append(["group" + str(node), child])
             else:
                 allNodes.append("group" + str(node))
                 for child in node:
-                    edges.append(["group" + str(node), "group" + str(child)])
+                    idEdges.append(["group" + str(node), "group" + str(child)])
                 for child in node:
                     addEdges(child)
         nestedGrouping = annotations['nestedGrouping'][0]
         addEdges(nestedGrouping)
+        for edge in idEdges:
+            if (edge[0] in allNodes and edge[1] in allNodes):
+                edges.append([allNodes.index(edge[0]), allNodes.index(edge[1])])
             
         for node in allNodes:
             # first part, one-hot encoding of the node type referring to the nodes name starting with which dimension of graphicsElementTypes
@@ -271,7 +275,7 @@ def generateGraphData(chartName, folderName):
         with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), folderName, chartName+".json"), "w") as f:
             json.dump({"nodeNames": allNodes ,"nodes": nodeFeatures, "edges": edges, "splition": dataSplition[chartName]['role'], "label": dataSplition[chartName]['label']}, f)
 
-folderName = "graphData_v3_0319"
+folderName = "graphData_v3_0324"
 for chartName in getAllChartNames():
     # Initialize variables
     indices = {}
