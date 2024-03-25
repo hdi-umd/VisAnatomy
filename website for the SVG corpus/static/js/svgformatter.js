@@ -21,8 +21,10 @@ function displaySVG(text) {
 //   svgElement.removeAttribute("viewBox");
     // svgElement.removeAttribute("width")
     svgElement.removeAttribute("height")
-  addClassAndIdToLeaves(svgElement);
-  updateUseElementReferences(svgElement);
+   
+// TODO: uncomment the follwoing to add ids to svg elements when working on highlighting stuff
+//   addClassAndIdToLeaves(svgElement);
+//   updateUseElementReferences(svgElement);
 
 
   vis //sanity check to make sure height doesn't become 1

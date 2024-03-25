@@ -140,10 +140,10 @@
         return false;
       });
 
-      if (options.collapsed == true) {
-        /* Trigger click to collapse all nodes */
-        $(this).find('a.json-toggle').click();
-      }
+      // if (options.collapsed == true) {
+      //   /* Trigger click to collapse all nodes */
+      //   $(this).find('a.json-toggle').click();
+      // }
     });
   };
 })(jQuery);

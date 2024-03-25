@@ -294,12 +294,21 @@ function bookmarkModal(id){
   .then(r=> r.text())
   .then((text)=>{
     try {
-      $('#json-display').jsonViewer(JSON.parse(text))
+      $('#json-display').jsonViewer(JSON.parse(text)) //https://github.com/abodelot/jquery.json-viewer
+      // collaspe all but root
+      var elements = document.getElementsByClassName("json-toggle")
+      for (var i = 0, len = elements.length; i < len; i++) {
+        if (i <= 1){
+          continue
+        }
+        elements[i].click()
+      }
     } catch (error) {
+      console.log(error)
       j = '{"file": "missing"}'
-      $('#json-display').jsonViewer(JSON.parse(j), {collasped: false})
+      $('#json-display').jsonViewer(JSON.parse(j))
     }
-    // $('#json-display').jsonViewer(JSON.parse(text), {collasped: false}) //https://github.com/abodelot/jquery.json-viewer
+    
   } )
 
 }
