@@ -5,17 +5,17 @@ import xml.etree.ElementTree as ET
 
 # Specify the input folder containing SVG files and output folder for PNG files
 input_folder = "./examples"
-output_folder = "./examples_png"
+output_folder = "./examples_png_v2"
 
-# Specify the default output size (in pixels) if SVG size is undefined
-default_width = 800
-default_height = 600
+# # Specify the default output size (in pixels) if SVG size is undefined
+# default_width = 800
+# default_height = 600
 
 # Create the output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
 
 # Create a text file to store conversion errors
-error_file = os.path.join(output_folder, "conversion_errors.txt")
+error_file = os.path.join(output_folder, "__conversion_errors.txt")
 
 # Iterate over all files in the input folder
 with open(error_file, "w") as ef:
@@ -27,7 +27,7 @@ with open(error_file, "w") as ef:
             
             try:
                 # Convert SVG to PNG using cairosvg with default size
-                svg2png(url=svg_path, write_to=png_path, output_width=default_width, output_height=default_height)
+                svg2png(url=svg_path, write_to=png_path)
                 print(f"Converted {filename} to PNG.")
             except (ValueError, AttributeError, ET.ParseError) as e:
                 print(f"Error converting {filename}: {str(e)}")
