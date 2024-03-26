@@ -33,6 +33,9 @@ let fillArr = []
 let groupArr = []
 let otherArr = []
 
+let lineSymbolArr = []
+let lineLinkArr = []
+
 // Check if the user has provided exactly one argument
 if (process.argv.length !== 4) {
   console.log("Please provide exactly 2 arguments.");
@@ -62,18 +65,41 @@ if (process.argv.length !== 4) {
     // Can use https://jsongrid.com/json-grid to see structure of JSON
     const jsonObj = JSON.parse(jsonString);
 
-    const re = new RegExp("<svg .*>");
+    const re = new RegExp("<svg [^>]*>");
 
     previous_svg_string = tool_svg.match(re)[0]
 
     const re_height = new RegExp(`height="([^"]+)"`)
-    height = previous_svg_string.match(re_height)[1]
+    height = previous_svg_string.match(re_height)
+    if (height) {
+      height = height[1]
+    }
 
     const re_width = new RegExp(`width="([^"]+)"`)
-    width = previous_svg_string.match(re_width)[1]
+    width = previous_svg_string.match(re_width)
+    if (width) {
+      width = width[1]
+    }
 
     const re_id = new RegExp(`id=".+".*>`)
-    new_svg_string = previous_svg_string.replace(re_id, `id="visChart" viewbox="0 0 ${width} ${height}">`)
+
+    if (height && width) {
+      width = parseInt(width)
+      height = parseInt(height)
+      new_svg_string = previous_svg_string.replace(re_id, `id="visChart" viewbox="0 0 ${width} ${height}">`)
+    } else {
+
+      re2 = /view(b|B)ox="[^,]*,[^,]*,([^,]*),([^"]*)"/
+      
+      match = previous_svg_string.match(re2)
+      console.log(match)
+      if (match) {
+        new_svg_string = previous_svg_string.replace(match[0], `viewbox="0 0 ${parseInt(match[2]) + 15} ${parseInt(match[3]) + 15}"`)
+      } else {
+        new_svg_string = previous_svg_string
+      }
+
+    }
 
 
     // new_svg_string = previous_svg_string.replace(`id="vis"`, `id="visChart"`)
@@ -120,18 +146,24 @@ if (process.argv.length !== 4) {
         const markObj = allGraphicElements[key]
 
         if (markObj.tagName == "path") {
+          // processPath(markObj, annotations)
 
-            processPath(markObj, annotations)
         } else if (markObj.tagName == "circle") {
-            processCircle(markObj, annotations)
+          processCircle(markObj, annotations)
 
         } else if (markObj.tagName == "rect") {
-          console.log("rect process")
+          processRect(markObj, annotations)
 
         } else if (markObj.tagName == "text") {
-          processText(markObj)
+          processText(markObj, annotations)
+
+        } else if (markObj.tagName == "line") {
+          processLine(markObj, annotations)
+
+        } else if (markObj.tagName == "polygon") {
+          processPolygon(markObj, annotations)
+
         }
-        
     }
 
 
@@ -142,9 +174,9 @@ if (process.argv.length !== 4) {
     // Put all symbols in
     for (let i = 0; i < symbolArr.length; i++) {
 
-        newSVG += `<g transform="translate(0,0)" opacity="1">`
-        newSVG += symbolArr[i]
-        newSVG += `</g>`
+      newSVG += `<g transform="translate(0,0)" opacity="1">`
+      newSVG += symbolArr[i]
+      newSVG += `</g>`
 
     }
 
@@ -153,12 +185,6 @@ if (process.argv.length !== 4) {
 
 
 
-    // if (symbolArr.length > 0) {
-    //   let field = xAxisArr[0].field
-    //   newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;${field}&quot;}" opacity="1">`
-    // } else{
-      // newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;angular&quot;,&quot;position&quot;:&quot;Month&quot;}" opacity="1">`
-    // }
 
     newSVG += `<g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;}" opacity="1">`
 
@@ -266,7 +292,8 @@ function processPath(markObj, annotations) {
 
 
     // Add a . after for the ending >
-    const re = new RegExp(".*id=\"" + markObj.id + "\"");
+    // const re = new RegExp(".*id=\"" + markObj.id + "\"");
+    const re = new RegExp("<[^<]+id=\"" + markObj.id + "\"");
     previous_svg_string = tool_svg.match(re)
 
     // console.log(previous_svg_string[0])
@@ -274,6 +301,7 @@ function processPath(markObj, annotations) {
 
 
     if (is_main_mark) {
+      console.log("process main path")
       // If it is a main mark, we replace id, add data-datum, add class
       // const re2 = new RegExp("id=\"" + markObj.id + "\"");
       previous_svg_string = previous_svg_string[0]
@@ -326,13 +354,65 @@ function processPath(markObj, annotations) {
 
       ans += "/>"
 
+      console.log(ans)
+
       symbolArr.push(ans)
 
-    } else if (is_axis_mark) {
+    // } else if (is_axis_mark) {
+    //   console.log("process axis path")
 
-      // const re2 = new RegExp("id=\"" + markObj.id + "\"");
+    //   previous_svg_string = previous_svg_string[0]
+    //   previous_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${axisCounter++}"`)
+
+    //   data_datum = ` data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}"`
+
+
+    //   ans += previous_svg_string
+    //   ans += ` class=" mark axis-tick"`
+    //   ans += data_datum
+    //   ans += `/>`
+
+    //   console.log(ans)
+
+    //   axisArr.push(ans)
+
+    } else {
+      console.log("process other path")
+
+      // Previous
+      // previous_svg_string = previous_svg_string[0]
+      // ans += previous_svg_string
+      // ans += `/>`
+      // otherArr.push(ans)
+
+      // Trying to make symbol2 stuff work
+      // previous_svg_string = previous_svg_string[0]
+      // previous_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${axisCounter++}"`)
+
+      // data_datum = ` data-datum="{&quot;counter&quot;:&quot;${axisCounter-2001}&quot;}"`
+
+      // ans += previous_svg_string
+      // ans += ` class="mark Symbol2 symbol"`
+      // ans += data_datum
+      // ans += `/>`
+
+      // symbolArr.push(ans)
+
+
+      // Stealing from axis to test
       previous_svg_string = previous_svg_string[0]
       previous_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${axisCounter++}"`)
+
+      re2 = /transform="translate\(([^ ]*) ([^)]*)\)"/
+      match = previous_svg_string.match(re2)
+
+      if (match) {
+        // Can you do an x and y here?
+        // previous_svg_string = previous_svg_string.replace(match[0], ``)
+        previous_svg_string = previous_svg_string.replace(match[0], `x="${match[1]}" y="${match[2]}"`)
+      }
+
+
 
       data_datum = ` data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}"`
 
@@ -342,16 +422,11 @@ function processPath(markObj, annotations) {
       ans += data_datum
       ans += `/>`
 
+      console.log(ans)
+
       axisArr.push(ans)
 
-    } else {
 
-      previous_svg_string = previous_svg_string[0]
-
-      ans += previous_svg_string
-      // ans += `/>`
-
-      otherArr.push()
 
     }
 
@@ -362,7 +437,7 @@ function processPath(markObj, annotations) {
 }
 
 function processCircle(markObj, annotations) {
-  console.log("process circle")
+  // console.log("process circle")
 
   const mark_id = markObj.id
   let is_main_mark = false
@@ -378,23 +453,68 @@ function processCircle(markObj, annotations) {
     || annotations.markInfo[mark_id].Role == "Y Axis Tick"
   }
 
-  const re = new RegExp(".*id=\"" + mark_id + "\".*");
-  previous_svg_string = tool_svg.match(re)
+  // const re = new RegExp(".*id=\"" + mark_id + "\".*");
+  const re = new RegExp("<[^<]+id=\"" + markObj.id + "\"");
+  previous_svg_string = tool_svg.match(re)[0]
 
   ans = ``
 
 
 
   if (is_main_mark) {
+    previous_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${vertexCounter++}"`)
+
+      // Get group value
+      let group = 0
+      if (annotations.groupInfo.length > 0) {
+        for (let i = 0; i < annotations.groupInfo.length; i++) {
+          if (annotations.groupInfo[i].includes(mark_id)) {
+            group = i+1
+            break
+          }
+        }
+      }
+
+      let group_num
+      if (groupArr.includes(group)) {
+        group_num = groupArr.indexOf(group) + 1
+      } else {
+        groupArr.push(group)
+        group_num = groupArr.indexOf(group) + 1
+      }
+
+      // Get fill value
+      let fill_num
+      if (fillArr.includes(markObj.fill)) {
+        fill_num = fillArr.indexOf(markObj.fill) + 1
+      } else {
+        fillArr.push(markObj.fill)
+        fill_num = fillArr.indexOf(markObj.fill) + 1
+      }
+
+      data_datum = `data-datum="`
+      data_datum += `{&quot;counter&quot;:&quot;${vertexCounter-1001}&quot;`
+      // data_datum += `,&quot;fill&quot;:&quot;${fill_num}&quot;`
+      // data_datum += `,&quot;group&quot;:&quot;${group_num}&quot;`
+      data_datum += `}"`
+
+      ans += previous_svg_string
+      ans += ` class="mark Symbol1 symbol" `
+      ans += data_datum
+      ans += "/>"
+
+      symbolArr.push(ans)
+
+
 
   } else if (is_axis_mark) {
 
   } else {
 
-    previous_svg_string = previous_svg_string[0]
     previous_svg_string = previous_svg_string.replace(`id="${mark_id}" class="mark"`, `id="mark${axisCounter++}" class=" mark axis-tick"  data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}"`)
 
     ans += previous_svg_string
+    ans += "/>"
 
     otherArr.push(ans)
 
@@ -405,19 +525,280 @@ function processCircle(markObj, annotations) {
 
 }
 
-function processText(markObj) {
-  console.log("texting")
+function processText(markObj, annotations) {
+  // console.log("texting")
 
   const re = new RegExp("<[^<]+id=\"" + markObj.id + "\"[^>]*>");
   previous_svg_string = tool_svg.match(re)[0]
-  console.log(previous_svg_string)
-
 
   data_datum = `data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;${markObj.content}&quot;}" `
 
+  new_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${axisCounter++}" class=" mark axis-label" `)
+  new_svg_string = new_svg_string.replace(">", ` ${data_datum}>${markObj.content}</text>`)
 
-  new_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${axisCounter++}" ${data_datum}>${markObj.content}</text`)
+
+  let {left, top} = markObj
+
+  re2 = new RegExp(`x="[^"]*"`)
+  new_svg_string = new_svg_string.replace(re2, `x="${left}"`)
+
+  re3 = new RegExp(`y="[^"]*"`)
+  new_svg_string = new_svg_string.replace(re3, `y="${top}"`)
+
+  re4 = /transform="translate\(([^ ]*) ([^)]*)\)"/
+  match = new_svg_string.match(re4)
+
+  if (match) {
+    new_svg_string = new_svg_string.replace(match[0], `x="${match[1]}" y="${match[2]}"`)
+  }
+
 
   axisArr.push(new_svg_string)
+}
+
+
+
+
+
+function processLine(markObj, annotations) {
+
+  const mark_id = markObj.id
+  let is_main_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_main_mark = annotations.markInfo[mark_id].Role == "Main Chart Mark"
+  }
+
+  let is_axis_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_axis_mark = annotations.markInfo[mark_id].Role == "X Axis Line" 
+    || annotations.markInfo[mark_id].Role == "X Axis Tick" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Line" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Tick"
+  }
+
+  ans = ""
+
+  const re = new RegExp("<[^<]+id=\"" + markObj.id + "\"");
+  previous_svg_string = tool_svg.match(re)[0]
+
+  if (is_main_mark) {
+    previous_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${markCounter++}"`)
+
+      // Get group value
+      let group = 0
+      if (annotations.groupInfo.length > 0) {
+        for (let i = 0; i < annotations.groupInfo.length; i++) {
+          if (annotations.groupInfo[i].includes(mark_id)) {
+            group = i+1
+            break
+          }
+        }
+      }
+
+      let group_num
+      if (groupArr.includes(group)) {
+        group_num = groupArr.indexOf(group) + 1
+      } else {
+        groupArr.push(group)
+        group_num = groupArr.indexOf(group) + 1
+      }
+
+      // Get fill value
+      let fill_num
+      if (fillArr.includes(markObj.fill)) {
+        fill_num = fillArr.indexOf(markObj.fill) + 1
+      } else {
+        fillArr.push(markObj.fill)
+        fill_num = fillArr.indexOf(markObj.fill) + 1
+      }
+
+      data_datum = `data-datum="`
+      data_datum += `[{&quot;counter&quot;:&quot;${markCounter-1}&quot;`
+      // data_datum += `,&quot;fill&quot;:&quot;${fill_num}&quot;`
+      // data_datum += `,&quot;group&quot;:&quot;${group_num}&quot;`
+      data_datum += `}]"`
+
+      ans += previous_svg_string
+      ans += ` class="mark Link1 link" `
+      ans += data_datum
+      ans += "/>"
+
+      symbolArr.push(ans)
+  } else if (is_axis_mark) {
+
+  } else {
+
+  }
+}
+
+
+
+
+
+
+function processRect(markObj, annotations) {
+  // console.log("recting")
+
+  const mark_id = markObj.id
+  let is_main_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_main_mark = annotations.markInfo[mark_id].Role == "Main Chart Mark"
+  }
+
+  let is_axis_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_axis_mark = annotations.markInfo[mark_id].Role == "X Axis Line" 
+    || annotations.markInfo[mark_id].Role == "X Axis Tick" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Line" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Tick"
+  }
+
+  let {left, top, width, height, fill} = markObj
+
+  const re = new RegExp("<[^<]+id=\"" + markObj.id + "\"");
+  previous_svg_string = tool_svg.match(re)[0]
+
+  ans = ``
+
+  if (is_main_mark) {
+    let stroke = ""
+    re2 = new RegExp(`stroke="([^"]*)"`)
+    match = previous_svg_string.match(re2)
+    if (match) {
+      stroke = match[1]
+    }
+
+    let stroke_width = ""
+    re3 = new RegExp(`stroke-width="([^"]*)"`)
+    match2 = previous_svg_string.match(re3)
+    if (match2) {
+      stroke_width = match2[1]
+    }
+
+    
+
+    // Get group value
+    let group = 0
+    if (annotations.groupInfo.length > 0) {
+      for (let i = 0; i < annotations.groupInfo.length; i++) {
+        if (annotations.groupInfo[i].includes(mark_id)) {
+          group = i+1
+          break
+        }
+      }
+    }
+
+    let group_num
+    if (groupArr.includes(group)) {
+      group_num = groupArr.indexOf(group) + 1
+    } else {
+      groupArr.push(group)
+      group_num = groupArr.indexOf(group) + 1
+    }
+
+    // Get fill value
+    let fill_num
+    if (fillArr.includes(markObj.fill)) {
+      fill_num = fillArr.indexOf(markObj.fill) + 1
+    } else {
+      fillArr.push(markObj.fill)
+      fill_num = fillArr.indexOf(markObj.fill) + 1
+    }
+
+
+
+
+    ans += `<rect id="mark${markCounter++}" class=" mark Shape1 rectangle" x="${left}" y="${top}" width="${width}" height="${height}" style="fill: ${fill}; stroke-width: ${stroke_width}; stroke: ${stroke};" `;
+
+    data_datum = `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
+    // data_datum += `,&quot;counter&quot;:&quot;${markCounter-1}&quot;`
+    data_datum += `,&quot;fill&quot;:&quot;${fill_num}&quot;`
+    data_datum += `,&quot;group&quot;:&quot;${group_num}&quot;`
+    data_datum += `}"`
+
+    ans += data_datum
+    ans += `/>`
+
+    symbolArr.push(ans)
+
+  } else if (is_axis_mark) {
+
+  } else {
+
+  }
+
+}
+
+
+
+function processPolygon(markObj, annotations) {
+
+  const mark_id = markObj.id
+  let is_main_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_main_mark = annotations.markInfo[mark_id].Role == "Main Chart Mark"
+  }
+
+  let is_axis_mark = false
+  if (annotations.markInfo[mark_id] != null) {
+    is_axis_mark = annotations.markInfo[mark_id].Role == "X Axis Line" 
+    || annotations.markInfo[mark_id].Role == "X Axis Tick" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Line" 
+    || annotations.markInfo[mark_id].Role == "Y Axis Tick"
+  }
+
+  // NEED TO FIX HERE
+  const re = new RegExp("<[^<]+id=\"" + markObj.id + "\".+?/>")
+  previous_svg_string = tool_svg.match(re)[0]
+
+  ans = ``
+
+  if (is_main_mark) {
+
+    // Get group value
+    let group = 0
+    if (annotations.groupInfo.length > 0) {
+      for (let i = 0; i < annotations.groupInfo.length; i++) {
+        if (annotations.groupInfo[i].includes(mark_id)) {
+          group = i+1
+          break
+        }
+      }
+    }
+
+    let group_num
+    if (groupArr.includes(group)) {
+      group_num = groupArr.indexOf(group) + 1
+    } else {
+      groupArr.push(group)
+      group_num = groupArr.indexOf(group) + 1
+    }
+
+    // Get fill value
+    let fill_num
+    if (fillArr.includes(markObj.fill)) {
+      fill_num = fillArr.indexOf(markObj.fill) + 1
+    } else {
+      fillArr.push(markObj.fill)
+      fill_num = fillArr.indexOf(markObj.fill) + 1
+    }
+
+    console.log(previous_svg_string)
+    
+
+
+    data_datum = `data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;`
+    data_datum += `,&quot;counter&quot;:&quot;${markCounter-1}&quot;`
+    data_datum += `,&quot;fill&quot;:&quot;${fill_num}&quot;`
+    data_datum += `,&quot;group&quot;:&quot;${group_num}&quot;`
+    data_datum += `}"`
+
+    new_svg_string = previous_svg_string.replace(`id="${markObj.id}"`, `id="mark${markCounter++}" class=" mark Shape1 rectangle" ${data_datum}`)
+
+    symbolArr.push(ans)
+
+  }
+
+
 
 }
