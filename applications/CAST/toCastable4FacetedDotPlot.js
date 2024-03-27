@@ -128,9 +128,24 @@ if (process.argv.length !== 4) {
         element.classList.add("mark", thisShape);
         data_datum = `{"_TYPE":"${markInfo[element.id].Type.split(" ").join(
           ""
-        )}","_MARKID":"${thisShape}","fill":"${allColors.indexOf(
-          allGraphicElements[element.id].fill
-        )}","year":"${extractNumber(element.id)}"}`;
+        )}","_MARKID":"${thisShape}","xPosition":"${
+          "x" +
+          (Math.floor(
+            groupInfo.indexOf(
+              groupInfo.filter((g) => g.includes(element.id))[0]
+            ) / 4
+          ) +
+            1)
+        }","yPosition":"${
+          "y" +
+          ((groupInfo.indexOf(
+            groupInfo.filter((g) => g.includes(element.id))[0]
+          ) %
+            4) +
+            1)
+        }","category":"${
+          "c" + allColors.indexOf(element.getAttribute("fill"))
+        }"}`;
         element.setAttribute("data-datum", data_datum);
       } else {
         if (markInfo[element.id])
@@ -183,14 +198,27 @@ if (process.argv.length !== 4) {
       }
       group0.appendChild(group);
     }
+
     // add reference <g> elements
     let groupRef = dom.window.document.createElement("g");
     groupRef.setAttribute("class", "axis");
     groupRef.setAttribute(
       "data-datum",
-      '{"_TYPE":"Axis", "type":"x", "position":"year"}'
+      '{"_TYPE":"Axis", "type":"x", "position":"xPosition"}'
     );
     group0.appendChild(groupRef);
+    groupRef = dom.window.document.createElement("g");
+    groupRef.setAttribute("class", "axis");
+    groupRef.setAttribute(
+      "data-datum",
+      '{"_TYPE":"Axis", "type":"y", "position":"yPosition"}'
+    );
+    group0.appendChild(groupRef);
+    groupRef = dom.window.document.createElement("g");
+    groupRef.setAttribute("class", "legend");
+    groupRef.setAttribute("data-datum", '{"color":"category"}');
+    group0.appendChild(groupRef);
+
     // remove all elements before group0 form svgElement
     let childNode = svgElement.firstChild;
     while (childNode) {
