@@ -64,7 +64,21 @@ if (process.argv.length !== 4) {
     const svgElement = dom.window.document.documentElement;
     const { Node } = dom.window;
 
-    function traverseSVG(element, depth = 0) {
+    function traverseSVG(element, depth = 0, cumulativeTranslate) {
+      if (element.tagName === "g") {
+        const translateMatch = element
+          .getAttribute("transform")
+          ?.match(
+            /translate\(\s*(\d+(?:\.\d+)?)\s*[,\s]\s*(\d+(?:\.\d+)?)\s*\)/
+          );
+        if (translateMatch) {
+          const translateX = parseFloat(translateMatch[1]);
+          const translateY = parseFloat(translateMatch[2]);
+          cumulativeTranslate.x += translateX;
+          cumulativeTranslate.y += translateY;
+          console.log(cumulativeTranslate);
+        }
+      }
       // console.log(element.tagName.toLowerCase());
       // if the element is just the SVG root
       if (element.tagName === "svg") {
@@ -87,31 +101,71 @@ if (process.argv.length !== 4) {
         element.setAttribute("perserveAspectRatio", "xMidYMid");
       }
       if (element.nodeType === Node.TEXT_NODE) {
-        console.log("removing a text!", element.id);
         element.remove();
       }
       // form dSVG attributes
-      if (markInfo[element.id]?.Role === "Main Chart Mark") {
-        console.log("a main chart mark", element.id);
-        thisShape =
-          "Shape" + (shapeTypes.indexOf(markInfo[element.id].Type) + 1);
-        element.classList.add("mark", thisShape);
-        data_datum = `{"_TYPE":"${markInfo[element.id].Type.split(" ").join(
-          ""
-        )}","_MARKID":"${thisShape}","fill":"${allColors.indexOf(
-          allGraphicElements[element.id].fill
-        )}","year":"${extractNumber(element.id)}"}`;
-        element.setAttribute("data-datum", data_datum);
+      if (
+        markInfo[element.id]?.Role === "Main Chart Mark" ||
+        legendMarks.includes(element.id) ||
+        axisLabels.includes(element.id) ||
+        legendLabels.includes(element.id)
+      ) {
+        console.log(element.id);
+        const currentTransform = element.getAttribute("transform") || "";
+        const newTransform = `translate(${cumulativeTranslate.x}, ${cumulativeTranslate.y}) ${currentTransform}`;
+        element.setAttribute("transform", newTransform);
+        if (markInfo[element.id]?.Role === "Main Chart Mark") {
+          let thisContinent = Object.keys(
+            referenceElements.legend.mapping
+          ).filter(
+            (k) =>
+              referenceElements.legend.mapping[k] ===
+              element.getAttribute("fill")
+          )[0];
+          thisShape =
+            "Shape" + (shapeTypes.indexOf(markInfo[element.id].Type) + 1);
+          element.classList.add("mark", thisShape);
+          data_datum = `{"_TYPE":"${markInfo[element.id].Type.split(" ").join(
+            ""
+          )}","_MARKID":"${thisShape}","continent":"${
+            Object.keys(referenceElements.legend.mapping).indexOf(
+              thisContinent
+            ) +
+            "_" +
+            thisContinent
+          }","person":"${
+            allGraphicElements[
+              axisLabels
+                .map((l) => [
+                  l,
+                  Math.abs(
+                    allGraphicElements[l].top +
+                      allGraphicElements[l].height / 2 -
+                      allGraphicElements[element.id].top -
+                      allGraphicElements[element.id].height / 2
+                  ),
+                ])
+                .sort((a, b) => a[1] - b[1])[0][0]
+            ].content
+          }"}`;
+          element.setAttribute("data-datum", data_datum);
+        } else {
+          let area = axisLabels.includes(element.id) ? "axis" : "legend";
+          let role = legendMarks.includes(element.id) ? "symbol" : "text";
+          element.setAttribute(
+            "data-datum",
+            `{"_TYPE":"${area + "-" + role}"}`
+          );
+          element.classList.add("mark", area + "-" + role);
+        }
       } else {
         if (markInfo[element.id])
           if (markInfo[element.id].Role === "nono") {
-            console.log("removing an no-role element!", element.id);
             element.remove();
           }
         if (graphicsElementTypes.includes(element.tagName?.toLowerCase())) {
           // delete element;
           {
-            console.log("removing an random element!", element.id);
             element.remove();
           }
         }
@@ -121,23 +175,12 @@ if (process.argv.length !== 4) {
       let childNode = element.firstChild;
       while (childNode) {
         const nextNode = childNode.nextSibling;
-        traverseSVG(childNode, depth + 1);
+        traverseSVG(childNode, depth + 1, { ...cumulativeTranslate });
         childNode = nextNode;
       }
     }
 
-    traverseSVG(svgElement);
-    [
-      ...axisLabels,
-      ...axisDomain,
-      ...axisTicks,
-      ...legendLabels,
-      ...legendMarks,
-    ].forEach((label) => {
-      // delete this label from svgElement
-      if (svgElement.querySelector(`#${label}`))
-        svgElement.querySelector(`#${label}`).remove();
-    });
+    traverseSVG(svgElement, 0, { x: 0, y: 0 });
 
     // group elements into <g> elements
     let group0 = dom.window.document.createElement("g");
@@ -153,14 +196,52 @@ if (process.argv.length !== 4) {
       }
       group0.appendChild(group);
     }
+
     // add reference <g> elements
+    // y axis
     let groupRef = dom.window.document.createElement("g");
     groupRef.setAttribute("class", "axis");
     groupRef.setAttribute(
       "data-datum",
-      '{"_TYPE":"Axis", "type":"x", "position":"year"}'
+      '{"_TYPE":"Axis", "type":"y", "position":"person"}'
     );
+    for (let label of yAxisLabels) {
+      let element = svgElement.querySelector(`#${label}`);
+      element.innerHTML = allGraphicElements[label].content;
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    }
     group0.appendChild(groupRef);
+
+    // x axis
+    groupRef = dom.window.document.createElement("g");
+    groupRef.setAttribute("class", "axis");
+    groupRef.setAttribute("data-datum", '{"_TYPE":"Axis", "type":"x"}');
+    for (let label of xAxisLabels) {
+      let element = svgElement.querySelector(`#${label}`);
+      element.innerHTML = allGraphicElements[label].content;
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    }
+    group0.appendChild(groupRef);
+
+    // legend
+    groupRef = dom.window.document.createElement("g");
+    groupRef.setAttribute("class", "legend");
+    groupRef.setAttribute("data-datum", '{"color":"continent"}');
+    [...legendLabels].forEach((label) => {
+      let element = svgElement.querySelector(`#${label}`);
+      element.innerHTML = allGraphicElements[label].content;
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    });
+    [...legendMarks].forEach((label) => {
+      let element = svgElement.querySelector(`#${label}`);
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    });
+    group0.appendChild(groupRef);
+
     // remove all elements before group0 form svgElement
     let childNode = svgElement.firstChild;
     while (childNode) {
@@ -184,16 +265,20 @@ if (process.argv.length !== 4) {
     .filter((k) => markInfo[k].Role === "Main Chart Mark")
     .map((k) => markInfo[k].Type)
     .filter(onlyUnique);
-  console.log(shapeTypes);
   const allColors = Object.values(allGraphicElements)
     .map((e) => e.fill)
     .filter(onlyUnique)
     .filter((f) => f !== undefined);
-  console.log(allColors);
   const referenceElements = annotations.referenceElement;
   const axisLabels = Object.values(referenceElements.axes)
     .map((axis) => axis.labels.map((l) => (typeof l === "string" ? l : l.id)))
     .flat();
+  const xAxisLabels = referenceElements.axes[1].labels.map((l) =>
+    typeof l === "string" ? l : l.id
+  );
+  const yAxisLabels = referenceElements.axes[2].labels.map((l) =>
+    typeof l === "string" ? l : l.id
+  );
   const axisTicks = Object.values(referenceElements.axes)
     .map((axis) => axis.ticks)
     .flat();

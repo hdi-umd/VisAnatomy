@@ -1,15 +1,9 @@
 /*
  * This script is able to turn a annotation json from the tool into usable by the CAST animation tool.
  */
-const SVGPathCommander = require("svg-path-commander");
-
-const toPath = require("element-to-path");
 
 const fs = require("fs");
 const path = require("path");
-const { text } = require("stream/consumers");
-const { rejects } = require("assert");
-const { prependListener } = require("process");
 
 const { JSDOM } = require("jsdom");
 
@@ -37,29 +31,6 @@ function extractNumber(str) {
 }
 
 let newSVG = "";
-let legendCounter = 3001;
-let axisCounter = 2001;
-let vertexCounter = 1001;
-let markCounter = 1;
-let pathCounter = -1;
-
-let linkArr = [];
-let symbolArr = [];
-let legendArr = [];
-let legendStoreArr = [];
-let axisTicksArr = [];
-let axisLabelsArr = [];
-let axisArr = [];
-
-let alreadyProcessed = [];
-let rectangleArr = [];
-
-let fillArr = [];
-let groupArr = [];
-let otherArr = [];
-
-let lineSymbolArr = [];
-let lineLinkArr = [];
 
 // Check if the user has provided exactly one argument
 if (process.argv.length !== 4) {
@@ -232,29 +203,6 @@ if (process.argv.length !== 4) {
     tool_svg = svgElement.outerHTML;
     // remove all "&amp" from tool_svg
     tool_svg = tool_svg.replaceAll("amp;", "");
-  }
-
-  function dSVG() {
-    const dom = new JSDOM("<svg></svg>", { contentType: "image/svg+xml" });
-    const svgElement = dom.window.document.documentElement;
-    const { Node } = dom.window;
-    for (let g of groupInfo) {
-      let group = dom.window.document.createElement("g");
-      group.setAttribute("class", "data-group");
-      for (let mark of g) {
-        thisType =
-          markInfo[mark].Type === "Rectangle"
-            ? "rect"
-            : markInfo[mark].Type === "circle"
-            ? "circle"
-            : "line";
-        let element = dom.window.document.createElement(thisType);
-        thisShape =
-          "Shape" + (shapeTypes.indexOf(markInfo[element.id].Type) + 1);
-        element.classList.add("mark", thisShape);
-      }
-      svgElement.appendChild(group);
-    }
   }
 
   const annotations = jsonObj.annotations;
