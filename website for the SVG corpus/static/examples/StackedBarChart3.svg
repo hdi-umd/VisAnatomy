@@ -1,0 +1,563 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" xmlns:data="ApexChartsNS" id="SvgjsSvg1463" width="565" height="350" version="1.1" class="apexcharts-svg" transform="translate(0, 0)" style="background: transparent;">
+  <g id="SvgjsG1465" class="apexcharts-inner apexcharts-graphical" transform="translate(52.35302734375, 54)">
+    <defs id="SvgjsDefs1464">
+      <linearGradient id="SvgjsLinearGradient1470" x1="0" y1="0" x2="0" y2="1">
+        <stop id="SvgjsStop1471" stop-opacity="0.4" stop-color="rgba(216,227,240,0.4)" offset="0"/>
+        <stop id="SvgjsStop1472" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"/>
+        <stop id="SvgjsStop1473" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"/>
+      </linearGradient>
+      <clipPath id="gridRectMaskfc3noor2">
+        <rect id="SvgjsRect1475" width="376.47314453125" height="263.348" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"/>
+      </clipPath>
+      <clipPath id="forecastMaskfc3noor2"/>
+      <clipPath id="nonForecastMaskfc3noor2"/>
+      <clipPath id="gridRectMarkerMaskfc3noor2">
+        <rect id="SvgjsRect1476" width="374.47314453125" height="265.348" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"/>
+      </clipPath>
+      <pattern id="SvgjsPattern1482" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1483" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1485" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1486" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1486Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1487" in="SvgjsFeFlood1486Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1487Out"/>
+        <feOffset id="SvgjsFeOffset1488" dx="2" dy="2" result="SvgjsFeOffset1488Out" in="SvgjsFeComposite1487Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1489" stdDeviation="1 " result="SvgjsFeGaussianBlur1489Out" in="SvgjsFeOffset1488Out"/>
+        <feMerge id="SvgjsFeMerge1490" result="SvgjsFeMerge1490Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1491" in="SvgjsFeGaussianBlur1489Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1492" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1493" in="SourceGraphic" in2="SvgjsFeMerge1490Out" mode="normal" result="SvgjsFeBlend1493Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1495" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1496" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1498" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1499" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1499Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1500" in="SvgjsFeFlood1499Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1500Out"/>
+        <feOffset id="SvgjsFeOffset1501" dx="2" dy="2" result="SvgjsFeOffset1501Out" in="SvgjsFeComposite1500Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1502" stdDeviation="1 " result="SvgjsFeGaussianBlur1502Out" in="SvgjsFeOffset1501Out"/>
+        <feMerge id="SvgjsFeMerge1503" result="SvgjsFeMerge1503Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1504" in="SvgjsFeGaussianBlur1502Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1505" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1506" in="SourceGraphic" in2="SvgjsFeMerge1503Out" mode="normal" result="SvgjsFeBlend1506Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1508" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1509" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1511" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1512" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1512Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1513" in="SvgjsFeFlood1512Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1513Out"/>
+        <feOffset id="SvgjsFeOffset1514" dx="2" dy="2" result="SvgjsFeOffset1514Out" in="SvgjsFeComposite1513Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1515" stdDeviation="1 " result="SvgjsFeGaussianBlur1515Out" in="SvgjsFeOffset1514Out"/>
+        <feMerge id="SvgjsFeMerge1516" result="SvgjsFeMerge1516Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1517" in="SvgjsFeGaussianBlur1515Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1518" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1519" in="SourceGraphic" in2="SvgjsFeMerge1516Out" mode="normal" result="SvgjsFeBlend1519Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1521" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1522" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1524" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1525" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1525Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1526" in="SvgjsFeFlood1525Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1526Out"/>
+        <feOffset id="SvgjsFeOffset1527" dx="2" dy="2" result="SvgjsFeOffset1527Out" in="SvgjsFeComposite1526Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1528" stdDeviation="1 " result="SvgjsFeGaussianBlur1528Out" in="SvgjsFeOffset1527Out"/>
+        <feMerge id="SvgjsFeMerge1529" result="SvgjsFeMerge1529Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1530" in="SvgjsFeGaussianBlur1528Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1531" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1532" in="SourceGraphic" in2="SvgjsFeMerge1529Out" mode="normal" result="SvgjsFeBlend1532Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1534" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1535" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1537" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1538" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1538Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1539" in="SvgjsFeFlood1538Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1539Out"/>
+        <feOffset id="SvgjsFeOffset1540" dx="2" dy="2" result="SvgjsFeOffset1540Out" in="SvgjsFeComposite1539Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1541" stdDeviation="1 " result="SvgjsFeGaussianBlur1541Out" in="SvgjsFeOffset1540Out"/>
+        <feMerge id="SvgjsFeMerge1542" result="SvgjsFeMerge1542Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1543" in="SvgjsFeGaussianBlur1541Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1544" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1545" in="SourceGraphic" in2="SvgjsFeMerge1542Out" mode="normal" result="SvgjsFeBlend1545Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1547" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1548" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1550" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1551" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1551Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1552" in="SvgjsFeFlood1551Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1552Out"/>
+        <feOffset id="SvgjsFeOffset1553" dx="2" dy="2" result="SvgjsFeOffset1553Out" in="SvgjsFeComposite1552Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1554" stdDeviation="1 " result="SvgjsFeGaussianBlur1554Out" in="SvgjsFeOffset1553Out"/>
+        <feMerge id="SvgjsFeMerge1555" result="SvgjsFeMerge1555Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1556" in="SvgjsFeGaussianBlur1554Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1557" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1558" in="SourceGraphic" in2="SvgjsFeMerge1555Out" mode="normal" result="SvgjsFeBlend1558Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1560" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <circle id="SvgjsCircle1561" r="3" cx="3" cy="3" fill="none" stroke="#008ffb" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1563" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1564" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1564Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1565" in="SvgjsFeFlood1564Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1565Out"/>
+        <feOffset id="SvgjsFeOffset1566" dx="2" dy="2" result="SvgjsFeOffset1566Out" in="SvgjsFeComposite1565Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1567" stdDeviation="1 " result="SvgjsFeGaussianBlur1567Out" in="SvgjsFeOffset1566Out"/>
+        <feMerge id="SvgjsFeMerge1568" result="SvgjsFeMerge1568Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1569" in="SvgjsFeGaussianBlur1567Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1570" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1571" in="SourceGraphic" in2="SvgjsFeMerge1568Out" mode="normal" result="SvgjsFeBlend1571Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1576" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1577" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1579" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1580" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1580Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1581" in="SvgjsFeFlood1580Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1581Out"/>
+        <feOffset id="SvgjsFeOffset1582" dx="2" dy="2" result="SvgjsFeOffset1582Out" in="SvgjsFeComposite1581Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1583" stdDeviation="1 " result="SvgjsFeGaussianBlur1583Out" in="SvgjsFeOffset1582Out"/>
+        <feMerge id="SvgjsFeMerge1584" result="SvgjsFeMerge1584Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1585" in="SvgjsFeGaussianBlur1583Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1586" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1587" in="SourceGraphic" in2="SvgjsFeMerge1584Out" mode="normal" result="SvgjsFeBlend1587Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1589" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1590" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1592" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1593" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1593Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1594" in="SvgjsFeFlood1593Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1594Out"/>
+        <feOffset id="SvgjsFeOffset1595" dx="2" dy="2" result="SvgjsFeOffset1595Out" in="SvgjsFeComposite1594Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1596" stdDeviation="1 " result="SvgjsFeGaussianBlur1596Out" in="SvgjsFeOffset1595Out"/>
+        <feMerge id="SvgjsFeMerge1597" result="SvgjsFeMerge1597Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1598" in="SvgjsFeGaussianBlur1596Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1599" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1600" in="SourceGraphic" in2="SvgjsFeMerge1597Out" mode="normal" result="SvgjsFeBlend1600Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1602" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1603" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1605" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1606" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1606Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1607" in="SvgjsFeFlood1606Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1607Out"/>
+        <feOffset id="SvgjsFeOffset1608" dx="2" dy="2" result="SvgjsFeOffset1608Out" in="SvgjsFeComposite1607Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1609" stdDeviation="1 " result="SvgjsFeGaussianBlur1609Out" in="SvgjsFeOffset1608Out"/>
+        <feMerge id="SvgjsFeMerge1610" result="SvgjsFeMerge1610Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1611" in="SvgjsFeGaussianBlur1609Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1612" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1613" in="SourceGraphic" in2="SvgjsFeMerge1610Out" mode="normal" result="SvgjsFeBlend1613Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1615" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1616" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1618" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1619" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1619Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1620" in="SvgjsFeFlood1619Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1620Out"/>
+        <feOffset id="SvgjsFeOffset1621" dx="2" dy="2" result="SvgjsFeOffset1621Out" in="SvgjsFeComposite1620Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1622" stdDeviation="1 " result="SvgjsFeGaussianBlur1622Out" in="SvgjsFeOffset1621Out"/>
+        <feMerge id="SvgjsFeMerge1623" result="SvgjsFeMerge1623Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1624" in="SvgjsFeGaussianBlur1622Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1625" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1626" in="SourceGraphic" in2="SvgjsFeMerge1623Out" mode="normal" result="SvgjsFeBlend1626Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1628" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1629" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1631" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1632" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1632Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1633" in="SvgjsFeFlood1632Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1633Out"/>
+        <feOffset id="SvgjsFeOffset1634" dx="2" dy="2" result="SvgjsFeOffset1634Out" in="SvgjsFeComposite1633Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1635" stdDeviation="1 " result="SvgjsFeGaussianBlur1635Out" in="SvgjsFeOffset1634Out"/>
+        <feMerge id="SvgjsFeMerge1636" result="SvgjsFeMerge1636Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1637" in="SvgjsFeGaussianBlur1635Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1638" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1639" in="SourceGraphic" in2="SvgjsFeMerge1636Out" mode="normal" result="SvgjsFeBlend1639Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1641" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1642" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1644" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1645" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1645Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1646" in="SvgjsFeFlood1645Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1646Out"/>
+        <feOffset id="SvgjsFeOffset1647" dx="2" dy="2" result="SvgjsFeOffset1647Out" in="SvgjsFeComposite1646Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1648" stdDeviation="1 " result="SvgjsFeGaussianBlur1648Out" in="SvgjsFeOffset1647Out"/>
+        <feMerge id="SvgjsFeMerge1649" result="SvgjsFeMerge1649Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1650" in="SvgjsFeGaussianBlur1648Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1651" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1652" in="SourceGraphic" in2="SvgjsFeMerge1649Out" mode="normal" result="SvgjsFeBlend1652Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1654" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1655" x1="0" y1="0" x2="6" y2="6" stroke="#00e396" stroke-width="2"/>
+      </pattern>
+      <filter id="SvgjsFilter1657" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1658" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1658Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1659" in="SvgjsFeFlood1658Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1659Out"/>
+        <feOffset id="SvgjsFeOffset1660" dx="2" dy="2" result="SvgjsFeOffset1660Out" in="SvgjsFeComposite1659Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1661" stdDeviation="1 " result="SvgjsFeGaussianBlur1661Out" in="SvgjsFeOffset1660Out"/>
+        <feMerge id="SvgjsFeMerge1662" result="SvgjsFeMerge1662Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1663" in="SvgjsFeGaussianBlur1661Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1664" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1665" in="SourceGraphic" in2="SvgjsFeMerge1662Out" mode="normal" result="SvgjsFeBlend1665Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1670" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1671" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1673" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1674" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1674Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1675" in="SvgjsFeFlood1674Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1675Out"/>
+        <feOffset id="SvgjsFeOffset1676" dx="2" dy="2" result="SvgjsFeOffset1676Out" in="SvgjsFeComposite1675Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1677" stdDeviation="1 " result="SvgjsFeGaussianBlur1677Out" in="SvgjsFeOffset1676Out"/>
+        <feMerge id="SvgjsFeMerge1678" result="SvgjsFeMerge1678Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1679" in="SvgjsFeGaussianBlur1677Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1680" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1681" in="SourceGraphic" in2="SvgjsFeMerge1678Out" mode="normal" result="SvgjsFeBlend1681Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1683" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1684" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1686" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1687" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1687Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1688" in="SvgjsFeFlood1687Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1688Out"/>
+        <feOffset id="SvgjsFeOffset1689" dx="2" dy="2" result="SvgjsFeOffset1689Out" in="SvgjsFeComposite1688Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1690" stdDeviation="1 " result="SvgjsFeGaussianBlur1690Out" in="SvgjsFeOffset1689Out"/>
+        <feMerge id="SvgjsFeMerge1691" result="SvgjsFeMerge1691Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1692" in="SvgjsFeGaussianBlur1690Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1693" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1694" in="SourceGraphic" in2="SvgjsFeMerge1691Out" mode="normal" result="SvgjsFeBlend1694Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1696" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1697" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1699" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1700" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1700Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1701" in="SvgjsFeFlood1700Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1701Out"/>
+        <feOffset id="SvgjsFeOffset1702" dx="2" dy="2" result="SvgjsFeOffset1702Out" in="SvgjsFeComposite1701Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1703" stdDeviation="1 " result="SvgjsFeGaussianBlur1703Out" in="SvgjsFeOffset1702Out"/>
+        <feMerge id="SvgjsFeMerge1704" result="SvgjsFeMerge1704Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1705" in="SvgjsFeGaussianBlur1703Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1706" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1707" in="SourceGraphic" in2="SvgjsFeMerge1704Out" mode="normal" result="SvgjsFeBlend1707Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1709" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1710" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1712" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1713" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1713Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1714" in="SvgjsFeFlood1713Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1714Out"/>
+        <feOffset id="SvgjsFeOffset1715" dx="2" dy="2" result="SvgjsFeOffset1715Out" in="SvgjsFeComposite1714Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1716" stdDeviation="1 " result="SvgjsFeGaussianBlur1716Out" in="SvgjsFeOffset1715Out"/>
+        <feMerge id="SvgjsFeMerge1717" result="SvgjsFeMerge1717Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1718" in="SvgjsFeGaussianBlur1716Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1719" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1720" in="SourceGraphic" in2="SvgjsFeMerge1717Out" mode="normal" result="SvgjsFeBlend1720Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1722" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1723" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1725" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1726" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1726Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1727" in="SvgjsFeFlood1726Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1727Out"/>
+        <feOffset id="SvgjsFeOffset1728" dx="2" dy="2" result="SvgjsFeOffset1728Out" in="SvgjsFeComposite1727Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1729" stdDeviation="1 " result="SvgjsFeGaussianBlur1729Out" in="SvgjsFeOffset1728Out"/>
+        <feMerge id="SvgjsFeMerge1730" result="SvgjsFeMerge1730Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1731" in="SvgjsFeGaussianBlur1729Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1732" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1733" in="SourceGraphic" in2="SvgjsFeMerge1730Out" mode="normal" result="SvgjsFeBlend1733Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1735" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1736" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1738" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1739" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1739Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1740" in="SvgjsFeFlood1739Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1740Out"/>
+        <feOffset id="SvgjsFeOffset1741" dx="2" dy="2" result="SvgjsFeOffset1741Out" in="SvgjsFeComposite1740Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1742" stdDeviation="1 " result="SvgjsFeGaussianBlur1742Out" in="SvgjsFeOffset1741Out"/>
+        <feMerge id="SvgjsFeMerge1743" result="SvgjsFeMerge1743Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1744" in="SvgjsFeGaussianBlur1742Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1745" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1746" in="SourceGraphic" in2="SvgjsFeMerge1743Out" mode="normal" result="SvgjsFeBlend1746Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1748" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1749" x1="0" y1="0" x2="0" y2="6" stroke="#feb019" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1751" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1752" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1752Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1753" in="SvgjsFeFlood1752Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1753Out"/>
+        <feOffset id="SvgjsFeOffset1754" dx="2" dy="2" result="SvgjsFeOffset1754Out" in="SvgjsFeComposite1753Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1755" stdDeviation="1 " result="SvgjsFeGaussianBlur1755Out" in="SvgjsFeOffset1754Out"/>
+        <feMerge id="SvgjsFeMerge1756" result="SvgjsFeMerge1756Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1757" in="SvgjsFeGaussianBlur1755Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1758" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1759" in="SourceGraphic" in2="SvgjsFeMerge1756Out" mode="normal" result="SvgjsFeBlend1759Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1764" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1765" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1767" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1768" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1768Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1769" in="SvgjsFeFlood1768Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1769Out"/>
+        <feOffset id="SvgjsFeOffset1770" dx="2" dy="2" result="SvgjsFeOffset1770Out" in="SvgjsFeComposite1769Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1771" stdDeviation="1 " result="SvgjsFeGaussianBlur1771Out" in="SvgjsFeOffset1770Out"/>
+        <feMerge id="SvgjsFeMerge1772" result="SvgjsFeMerge1772Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1773" in="SvgjsFeGaussianBlur1771Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1774" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1775" in="SourceGraphic" in2="SvgjsFeMerge1772Out" mode="normal" result="SvgjsFeBlend1775Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1777" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1778" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1780" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1781" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1781Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1782" in="SvgjsFeFlood1781Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1782Out"/>
+        <feOffset id="SvgjsFeOffset1783" dx="2" dy="2" result="SvgjsFeOffset1783Out" in="SvgjsFeComposite1782Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1784" stdDeviation="1 " result="SvgjsFeGaussianBlur1784Out" in="SvgjsFeOffset1783Out"/>
+        <feMerge id="SvgjsFeMerge1785" result="SvgjsFeMerge1785Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1786" in="SvgjsFeGaussianBlur1784Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1787" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1788" in="SourceGraphic" in2="SvgjsFeMerge1785Out" mode="normal" result="SvgjsFeBlend1788Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1790" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1791" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1793" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1794" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1794Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1795" in="SvgjsFeFlood1794Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1795Out"/>
+        <feOffset id="SvgjsFeOffset1796" dx="2" dy="2" result="SvgjsFeOffset1796Out" in="SvgjsFeComposite1795Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1797" stdDeviation="1 " result="SvgjsFeGaussianBlur1797Out" in="SvgjsFeOffset1796Out"/>
+        <feMerge id="SvgjsFeMerge1798" result="SvgjsFeMerge1798Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1799" in="SvgjsFeGaussianBlur1797Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1800" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1801" in="SourceGraphic" in2="SvgjsFeMerge1798Out" mode="normal" result="SvgjsFeBlend1801Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1803" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1804" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1806" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1807" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1807Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1808" in="SvgjsFeFlood1807Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1808Out"/>
+        <feOffset id="SvgjsFeOffset1809" dx="2" dy="2" result="SvgjsFeOffset1809Out" in="SvgjsFeComposite1808Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1810" stdDeviation="1 " result="SvgjsFeGaussianBlur1810Out" in="SvgjsFeOffset1809Out"/>
+        <feMerge id="SvgjsFeMerge1811" result="SvgjsFeMerge1811Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1812" in="SvgjsFeGaussianBlur1810Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1813" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1814" in="SourceGraphic" in2="SvgjsFeMerge1811Out" mode="normal" result="SvgjsFeBlend1814Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1816" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1817" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1819" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1820" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1820Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1821" in="SvgjsFeFlood1820Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1821Out"/>
+        <feOffset id="SvgjsFeOffset1822" dx="2" dy="2" result="SvgjsFeOffset1822Out" in="SvgjsFeComposite1821Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1823" stdDeviation="1 " result="SvgjsFeGaussianBlur1823Out" in="SvgjsFeOffset1822Out"/>
+        <feMerge id="SvgjsFeMerge1824" result="SvgjsFeMerge1824Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1825" in="SvgjsFeGaussianBlur1823Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1826" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1827" in="SourceGraphic" in2="SvgjsFeMerge1824Out" mode="normal" result="SvgjsFeBlend1827Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1829" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1830" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1832" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1833" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1833Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1834" in="SvgjsFeFlood1833Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1834Out"/>
+        <feOffset id="SvgjsFeOffset1835" dx="2" dy="2" result="SvgjsFeOffset1835Out" in="SvgjsFeComposite1834Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1836" stdDeviation="1 " result="SvgjsFeGaussianBlur1836Out" in="SvgjsFeOffset1835Out"/>
+        <feMerge id="SvgjsFeMerge1837" result="SvgjsFeMerge1837Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1838" in="SvgjsFeGaussianBlur1836Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1839" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1840" in="SourceGraphic" in2="SvgjsFeMerge1837Out" mode="normal" result="SvgjsFeBlend1840Out"/>
+      </filter>
+      <pattern id="SvgjsPattern1842" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+        <line id="SvgjsLine1843" x1="0" y1="0" x2="6" y2="0" stroke="#ff4560" stroke-width="3"/>
+      </pattern>
+      <filter id="SvgjsFilter1845" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%">
+        <feFlood id="SvgjsFeFlood1846" flood-color="#000000" flood-opacity="0.25" result="SvgjsFeFlood1846Out" in="SourceGraphic"/>
+        <feComposite id="SvgjsFeComposite1847" in="SvgjsFeFlood1846Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1847Out"/>
+        <feOffset id="SvgjsFeOffset1848" dx="2" dy="2" result="SvgjsFeOffset1848Out" in="SvgjsFeComposite1847Out"/>
+        <feGaussianBlur id="SvgjsFeGaussianBlur1849" stdDeviation="1 " result="SvgjsFeGaussianBlur1849Out" in="SvgjsFeOffset1848Out"/>
+        <feMerge id="SvgjsFeMerge1850" result="SvgjsFeMerge1850Out" in="SourceGraphic">
+          <feMergeNode id="SvgjsFeMergeNode1851" in="SvgjsFeGaussianBlur1849Out"/>
+          <feMergeNode id="SvgjsFeMergeNode1852" in="[object Arguments]"/>
+        </feMerge>
+        <feBlend id="SvgjsFeBlend1853" in="SourceGraphic" in2="SvgjsFeMerge1850Out" mode="normal" result="SvgjsFeBlend1853Out"/>
+      </filter>
+    </defs>
+    <rect id="SvgjsRect1474" width="0" height="261.348" x="-500" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke-dasharray="3" fill="url(#SvgjsLinearGradient1470)" class="apexcharts-xcrosshairs" y2="261.348" filter="none" fill-opacity="0.9" x1="-500" x2="-500"/>
+    <line id="SvgjsLine1858" x1="0" y1="262.348" x2="0" y2="268.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"/>
+    <line id="SvgjsLine1859" x1="92.9182861328125" y1="262.348" x2="92.9182861328125" y2="268.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"/>
+    <line id="SvgjsLine1860" x1="185.83657226562502" y1="262.348" x2="185.83657226562502" y2="268.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"/>
+    <line id="SvgjsLine1861" x1="278.75485839843753" y1="262.348" x2="278.75485839843753" y2="268.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"/>
+    <line id="SvgjsLine1862" x1="371.67314453125005" y1="262.348" x2="371.67314453125005" y2="268.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"/>
+    <g id="SvgjsG1854" class="apexcharts-grid">
+      <g id="SvgjsG1855" class="apexcharts-gridlines-horizontal">
+        <line id="SvgjsLine1864" x1="0" y1="37.33542857142857" x2="370.47314453125" y2="37.33542857142857" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+        <line id="SvgjsLine1865" x1="0" y1="74.67085714285714" x2="370.47314453125" y2="74.67085714285714" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+        <line id="SvgjsLine1866" x1="0" y1="112.00628571428572" x2="370.47314453125" y2="112.00628571428572" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+        <line id="SvgjsLine1867" x1="0" y1="149.3417142857143" x2="370.47314453125" y2="149.3417142857143" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+        <line id="SvgjsLine1868" x1="0" y1="186.67714285714285" x2="370.47314453125" y2="186.67714285714285" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+        <line id="SvgjsLine1869" x1="0" y1="224.01257142857142" x2="370.47314453125" y2="224.01257142857142" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+      </g>
+      <g id="SvgjsG1856" class="apexcharts-gridlines-vertical"/>
+      <line id="SvgjsLine1872" x1="0" y1="261.348" x2="370.47314453125" y2="261.348" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"/>
+      <line id="SvgjsLine1871" x1="0" y1="1" x2="0" y2="261.348" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"/>
+    </g>
+    <g id="SvgjsG1477" class="apexcharts-bar-series apexcharts-plot-series">
+      <g id="SvgjsG1478" class="apexcharts-series" seriesName="MarinexSprite" rel="1" data:realIndex="0">
+        <path id="SvgjsPath1484" d="M 0.101 7.467085714285714 L 135.94115299479168 7.467085714285714 L 135.94115299479168 27.868342857142856 L 0.101 27.868342857142856 z" fill="url(#SvgjsPattern1482)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1485)" pathTo="M 0.101 7.467085714285714 L 135.94115299479168 7.467085714285714 L 135.94115299479168 27.868342857142856 L 0.101 27.868342857142856 z" pathFrom="M 0.101 7.467085714285714 L 0.101 7.467085714285714 L 0.101 27.868342857142856 L 0.101 27.868342857142856 L 0.101 27.868342857142856 L 0.101 27.868342857142856 L 0.101 27.868342857142856 L 0.101 7.467085714285714 z" cy="44.80251428571429" cx="135.94015299479167" j="0" val="44" barHeight="22.401257142857144" barWidth="135.84015299479168"/>
+        <path id="SvgjsPath1497" d="M 0.101 44.80251428571429 L 169.9011912434896 44.80251428571429 L 169.9011912434896 65.20377142857143 L 0.101 65.20377142857143 z" fill="url(#SvgjsPattern1495)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1498)" pathTo="M 0.101 44.80251428571429 L 169.9011912434896 44.80251428571429 L 169.9011912434896 65.20377142857143 L 0.101 65.20377142857143 z" pathFrom="M 0.101 44.80251428571429 L 0.101 44.80251428571429 L 0.101 65.20377142857143 L 0.101 65.20377142857143 L 0.101 65.20377142857143 L 0.101 65.20377142857143 L 0.101 65.20377142857143 L 0.101 44.80251428571429 z" cy="82.13794285714286" cx="169.9001912434896" j="1" val="55" barHeight="22.401257142857144" barWidth="169.8001912434896"/>
+        <path id="SvgjsPath1510" d="M 0.101 82.13794285714286 L 126.67932438151043 82.13794285714286 L 126.67932438151043 102.53920000000001 L 0.101 102.53920000000001 z" fill="url(#SvgjsPattern1508)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1511)" pathTo="M 0.101 82.13794285714286 L 126.67932438151043 82.13794285714286 L 126.67932438151043 102.53920000000001 L 0.101 102.53920000000001 z" pathFrom="M 0.101 82.13794285714286 L 0.101 82.13794285714286 L 0.101 102.53920000000001 L 0.101 102.53920000000001 L 0.101 102.53920000000001 L 0.101 102.53920000000001 L 0.101 102.53920000000001 L 0.101 82.13794285714286 z" cy="119.47337142857143" cx="126.67832438151042" j="2" val="41" barHeight="22.401257142857144" barWidth="126.57832438151043"/>
+        <path id="SvgjsPath1523" d="M 0.101 119.47337142857143 L 114.33021956380209 119.47337142857143 L 114.33021956380209 139.87462857142856 L 0.101 139.87462857142856 z" fill="url(#SvgjsPattern1521)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1524)" pathTo="M 0.101 119.47337142857143 L 114.33021956380209 119.47337142857143 L 114.33021956380209 139.87462857142856 L 0.101 139.87462857142856 z" pathFrom="M 0.101 119.47337142857143 L 0.101 119.47337142857143 L 0.101 139.87462857142856 L 0.101 139.87462857142856 L 0.101 139.87462857142856 L 0.101 139.87462857142856 L 0.101 139.87462857142856 L 0.101 119.47337142857143 z" cy="156.8088" cx="114.32921956380208" j="3" val="37" barHeight="22.401257142857144" barWidth="114.22921956380209"/>
+        <path id="SvgjsPath1536" d="M 0.101 156.8088 L 68.02107649739584 156.8088 L 68.02107649739584 177.21005714285712 L 0.101 177.21005714285712 z" fill="url(#SvgjsPattern1534)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1537)" pathTo="M 0.101 156.8088 L 68.02107649739584 156.8088 L 68.02107649739584 177.21005714285712 L 0.101 177.21005714285712 z" pathFrom="M 0.101 156.8088 L 0.101 156.8088 L 0.101 177.21005714285712 L 0.101 177.21005714285712 L 0.101 177.21005714285712 L 0.101 177.21005714285712 L 0.101 177.21005714285712 L 0.101 156.8088 z" cy="194.14422857142856" cx="68.02007649739583" j="4" val="22" barHeight="22.401257142857144" barWidth="67.92007649739584"/>
+        <path id="SvgjsPath1549" d="M 0.101 194.14422857142856 L 132.85387679036458 194.14422857142856 L 132.85387679036458 214.5454857142857 L 0.101 214.5454857142857 z" fill="url(#SvgjsPattern1547)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1550)" pathTo="M 0.101 194.14422857142856 L 132.85387679036458 194.14422857142856 L 132.85387679036458 214.5454857142857 L 0.101 214.5454857142857 z" pathFrom="M 0.101 194.14422857142856 L 0.101 194.14422857142856 L 0.101 214.5454857142857 L 0.101 214.5454857142857 L 0.101 214.5454857142857 L 0.101 214.5454857142857 L 0.101 214.5454857142857 L 0.101 194.14422857142856 z" cy="231.47965714285712" cx="132.85287679036458" j="5" val="43" barHeight="22.401257142857144" barWidth="132.75287679036458"/>
+        <path id="SvgjsPath1562" d="M 0.101 231.47965714285712 L 64.93380029296875 231.47965714285712 L 64.93380029296875 251.88091428571425 L 0.101 251.88091428571425 z" fill="url(#SvgjsPattern1560)" fill-opacity="1" stroke="#008ffb" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1563)" pathTo="M 0.101 231.47965714285712 L 64.93380029296875 231.47965714285712 L 64.93380029296875 251.88091428571425 L 0.101 251.88091428571425 z" pathFrom="M 0.101 231.47965714285712 L 0.101 231.47965714285712 L 0.101 251.88091428571425 L 0.101 251.88091428571425 L 0.101 251.88091428571425 L 0.101 251.88091428571425 L 0.101 251.88091428571425 L 0.101 231.47965714285712 z" cy="268.8150857142857" cx="64.93280029296875" j="6" val="21" barHeight="22.401257142857144" barWidth="64.83280029296876"/>
+        <g id="SvgjsG1480" class="apexcharts-bar-goals-markers" style="pointer-events: none">
+          <g id="SvgjsG1481" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1494" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1507" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1520" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1533" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1546" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1559" className="apexcharts-bar-goals-groups"/>
+        </g>
+      </g>
+      <g id="SvgjsG1572" class="apexcharts-series" seriesName="StrikingxCalf" rel="2" data:realIndex="1">
+        <path id="SvgjsPath1578" d="M 135.94215299479168 7.467085714285714 L 299.56779182942705 7.467085714285714 L 299.56779182942705 27.868342857142856 L 135.94215299479168 27.868342857142856 z" fill="url(#SvgjsPattern1576)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1579)" pathTo="M 135.94215299479168 7.467085714285714 L 299.56779182942705 7.467085714285714 L 299.56779182942705 27.868342857142856 L 135.94215299479168 27.868342857142856 z" pathFrom="M 135.94215299479168 7.467085714285714 L 135.94215299479168 7.467085714285714 L 135.94215299479168 27.868342857142856 L 135.94215299479168 27.868342857142856 L 135.94215299479168 27.868342857142856 L 135.94215299479168 27.868342857142856 L 135.94215299479168 27.868342857142856 L 135.94215299479168 7.467085714285714 z" cy="44.80251428571429" cx="299.5667918294271" j="0" val="53" barHeight="22.401257142857144" barWidth="163.62563883463542"/>
+        <path id="SvgjsPath1591" d="M 169.9021912434896 44.80251428571429 L 268.69502978515624 44.80251428571429 L 268.69502978515624 65.20377142857143 L 169.9021912434896 65.20377142857143 z" fill="url(#SvgjsPattern1589)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1592)" pathTo="M 169.9021912434896 44.80251428571429 L 268.69502978515624 44.80251428571429 L 268.69502978515624 65.20377142857143 L 169.9021912434896 65.20377142857143 z" pathFrom="M 169.9021912434896 44.80251428571429 L 169.9021912434896 44.80251428571429 L 169.9021912434896 65.20377142857143 L 169.9021912434896 65.20377142857143 L 169.9021912434896 65.20377142857143 L 169.9021912434896 65.20377142857143 L 169.9021912434896 65.20377142857143 L 169.9021912434896 44.80251428571429 z" cy="82.13794285714286" cx="268.69402978515626" j="1" val="32" barHeight="22.401257142857144" barWidth="98.79283854166667"/>
+        <path id="SvgjsPath1604" d="M 126.68032438151043 82.13794285714286 L 228.56043912760418 82.13794285714286 L 228.56043912760418 102.53920000000001 L 126.68032438151043 102.53920000000001 z" fill="url(#SvgjsPattern1602)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1605)" pathTo="M 126.68032438151043 82.13794285714286 L 228.56043912760418 82.13794285714286 L 228.56043912760418 102.53920000000001 L 126.68032438151043 102.53920000000001 z" pathFrom="M 126.68032438151043 82.13794285714286 L 126.68032438151043 82.13794285714286 L 126.68032438151043 102.53920000000001 L 126.68032438151043 102.53920000000001 L 126.68032438151043 102.53920000000001 L 126.68032438151043 102.53920000000001 L 126.68032438151043 102.53920000000001 L 126.68032438151043 82.13794285714286 z" cy="119.47337142857143" cx="228.55943912760418" j="2" val="33" barHeight="22.401257142857144" barWidth="101.88011474609375"/>
+        <path id="SvgjsPath1617" d="M 114.3312195638021 119.47337142857143 L 274.8695821940104 119.47337142857143 L 274.8695821940104 139.87462857142856 L 114.3312195638021 139.87462857142856 z" fill="url(#SvgjsPattern1615)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1618)" pathTo="M 114.3312195638021 119.47337142857143 L 274.8695821940104 119.47337142857143 L 274.8695821940104 139.87462857142856 L 114.3312195638021 139.87462857142856 z" pathFrom="M 114.3312195638021 119.47337142857143 L 114.3312195638021 119.47337142857143 L 114.3312195638021 139.87462857142856 L 114.3312195638021 139.87462857142856 L 114.3312195638021 139.87462857142856 L 114.3312195638021 139.87462857142856 L 114.3312195638021 139.87462857142856 L 114.3312195638021 119.47337142857143 z" cy="156.8088" cx="274.8685821940104" j="3" val="52" barHeight="22.401257142857144" barWidth="160.53836263020833"/>
+        <path id="SvgjsPath1630" d="M 68.02207649739584 156.8088 L 108.15666715494793 156.8088 L 108.15666715494793 177.21005714285712 L 68.02207649739584 177.21005714285712 z" fill="url(#SvgjsPattern1628)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1631)" pathTo="M 68.02207649739584 156.8088 L 108.15666715494793 156.8088 L 108.15666715494793 177.21005714285712 L 68.02207649739584 177.21005714285712 z" pathFrom="M 68.02207649739584 156.8088 L 68.02207649739584 156.8088 L 68.02207649739584 177.21005714285712 L 68.02207649739584 177.21005714285712 L 68.02207649739584 177.21005714285712 L 68.02207649739584 177.21005714285712 L 68.02207649739584 177.21005714285712 L 68.02207649739584 156.8088 z" cy="194.14422857142856" cx="108.15566715494792" j="4" val="13" barHeight="22.401257142857144" barWidth="40.13459065755208"/>
+        <path id="SvgjsPath1643" d="M 132.85487679036459 194.14422857142856 L 265.60775358072914 194.14422857142856 L 265.60775358072914 214.5454857142857 L 132.85487679036459 214.5454857142857 z" fill="url(#SvgjsPattern1641)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1644)" pathTo="M 132.85487679036459 194.14422857142856 L 265.60775358072914 194.14422857142856 L 265.60775358072914 214.5454857142857 L 132.85487679036459 214.5454857142857 z" pathFrom="M 132.85487679036459 194.14422857142856 L 132.85487679036459 194.14422857142856 L 132.85487679036459 214.5454857142857 L 132.85487679036459 214.5454857142857 L 132.85487679036459 214.5454857142857 L 132.85487679036459 214.5454857142857 L 132.85487679036459 214.5454857142857 L 132.85487679036459 194.14422857142856 z" cy="231.47965714285712" cx="265.60675358072916" j="5" val="43" barHeight="22.401257142857144" barWidth="132.75287679036458"/>
+        <path id="SvgjsPath1656" d="M 64.93480029296876 231.47965714285712 L 163.72763883463543 231.47965714285712 L 163.72763883463543 251.88091428571425 L 64.93480029296876 251.88091428571425 z" fill="url(#SvgjsPattern1654)" fill-opacity="1" stroke="#00e396" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1657)" pathTo="M 64.93480029296876 231.47965714285712 L 163.72763883463543 231.47965714285712 L 163.72763883463543 251.88091428571425 L 64.93480029296876 251.88091428571425 z" pathFrom="M 64.93480029296876 231.47965714285712 L 64.93480029296876 231.47965714285712 L 64.93480029296876 251.88091428571425 L 64.93480029296876 251.88091428571425 L 64.93480029296876 251.88091428571425 L 64.93480029296876 251.88091428571425 L 64.93480029296876 251.88091428571425 L 64.93480029296876 231.47965714285712 z" cy="268.8150857142857" cx="163.72663883463542" j="6" val="32" barHeight="22.401257142857144" barWidth="98.79283854166667"/>
+        <g id="SvgjsG1574" class="apexcharts-bar-goals-markers" style="pointer-events: none">
+          <g id="SvgjsG1575" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1588" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1601" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1614" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1627" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1640" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1653" className="apexcharts-bar-goals-groups"/>
+        </g>
+      </g>
+      <g id="SvgjsG1666" class="apexcharts-series" seriesName="TankxPicture" rel="3" data:realIndex="2">
+        <path id="SvgjsPath1672" d="M 299.568791829427 7.467085714285714 L 336.61610628255204 7.467085714285714 L 336.61610628255204 27.868342857142856 L 299.568791829427 27.868342857142856 z" fill="url(#SvgjsPattern1670)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1673)" pathTo="M 299.568791829427 7.467085714285714 L 336.61610628255204 7.467085714285714 L 336.61610628255204 27.868342857142856 L 299.568791829427 27.868342857142856 z" pathFrom="M 299.568791829427 7.467085714285714 L 299.568791829427 7.467085714285714 L 299.568791829427 27.868342857142856 L 299.568791829427 27.868342857142856 L 299.568791829427 27.868342857142856 L 299.568791829427 27.868342857142856 L 299.568791829427 27.868342857142856 L 299.568791829427 7.467085714285714 z" cy="44.80251428571429" cx="336.61510628255206" j="0" val="12" barHeight="22.401257142857144" barWidth="37.047314453125004"/>
+        <path id="SvgjsPath1685" d="M 268.6960297851562 44.80251428571429 L 321.1797252604166 44.80251428571429 L 321.1797252604166 65.20377142857143 L 268.6960297851562 65.20377142857143 z" fill="url(#SvgjsPattern1683)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1686)" pathTo="M 268.6960297851562 44.80251428571429 L 321.1797252604166 44.80251428571429 L 321.1797252604166 65.20377142857143 L 268.6960297851562 65.20377142857143 z" pathFrom="M 268.6960297851562 44.80251428571429 L 268.6960297851562 44.80251428571429 L 268.6960297851562 65.20377142857143 L 268.6960297851562 65.20377142857143 L 268.6960297851562 65.20377142857143 L 268.6960297851562 65.20377142857143 L 268.6960297851562 65.20377142857143 L 268.6960297851562 44.80251428571429 z" cy="82.13794285714286" cx="321.1787252604166" j="1" val="17" barHeight="22.401257142857144" barWidth="52.48369547526042"/>
+        <path id="SvgjsPath1698" d="M 228.5614391276042 82.13794285714286 L 262.5214773763021 82.13794285714286 L 262.5214773763021 102.53920000000001 L 228.5614391276042 102.53920000000001 z" fill="url(#SvgjsPattern1696)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1699)" pathTo="M 228.5614391276042 82.13794285714286 L 262.5214773763021 82.13794285714286 L 262.5214773763021 102.53920000000001 L 228.5614391276042 102.53920000000001 z" pathFrom="M 228.5614391276042 82.13794285714286 L 228.5614391276042 82.13794285714286 L 228.5614391276042 102.53920000000001 L 228.5614391276042 102.53920000000001 L 228.5614391276042 102.53920000000001 L 228.5614391276042 102.53920000000001 L 228.5614391276042 102.53920000000001 L 228.5614391276042 82.13794285714286 z" cy="119.47337142857143" cx="262.5204773763021" j="2" val="11" barHeight="22.401257142857144" barWidth="33.96003824869792"/>
+        <path id="SvgjsPath1711" d="M 274.87058219401035 119.47337142857143 L 302.6560680338541 119.47337142857143 L 302.6560680338541 139.87462857142856 L 274.87058219401035 139.87462857142856 z" fill="url(#SvgjsPattern1709)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1712)" pathTo="M 274.87058219401035 119.47337142857143 L 302.6560680338541 119.47337142857143 L 302.6560680338541 139.87462857142856 L 274.87058219401035 139.87462857142856 z" pathFrom="M 274.87058219401035 119.47337142857143 L 274.87058219401035 119.47337142857143 L 274.87058219401035 139.87462857142856 L 274.87058219401035 139.87462857142856 L 274.87058219401035 139.87462857142856 L 274.87058219401035 139.87462857142856 L 274.87058219401035 139.87462857142856 L 274.87058219401035 119.47337142857143 z" cy="156.8088" cx="302.65506803385415" j="3" val="9" barHeight="22.401257142857144" barWidth="27.78548583984375"/>
+        <path id="SvgjsPath1724" d="M 108.15766715494793 156.8088 L 154.46681022135417 156.8088 L 154.46681022135417 177.21005714285712 L 108.15766715494793 177.21005714285712 z" fill="url(#SvgjsPattern1722)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1725)" pathTo="M 108.15766715494793 156.8088 L 154.46681022135417 156.8088 L 154.46681022135417 177.21005714285712 L 108.15766715494793 177.21005714285712 z" pathFrom="M 108.15766715494793 156.8088 L 108.15766715494793 156.8088 L 108.15766715494793 177.21005714285712 L 108.15766715494793 177.21005714285712 L 108.15766715494793 177.21005714285712 L 108.15766715494793 177.21005714285712 L 108.15766715494793 177.21005714285712 L 108.15766715494793 156.8088 z" cy="194.14422857142856" cx="154.46581022135416" j="4" val="15" barHeight="22.401257142857144" barWidth="46.30914306640625"/>
+        <path id="SvgjsPath1737" d="M 265.6087535807291 194.14422857142856 L 299.568791829427 194.14422857142856 L 299.568791829427 214.5454857142857 L 265.6087535807291 214.5454857142857 z" fill="url(#SvgjsPattern1735)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1738)" pathTo="M 265.6087535807291 194.14422857142856 L 299.568791829427 194.14422857142856 L 299.568791829427 214.5454857142857 L 265.6087535807291 214.5454857142857 z" pathFrom="M 265.6087535807291 194.14422857142856 L 265.6087535807291 194.14422857142856 L 265.6087535807291 214.5454857142857 L 265.6087535807291 214.5454857142857 L 265.6087535807291 214.5454857142857 L 265.6087535807291 214.5454857142857 L 265.6087535807291 214.5454857142857 L 265.6087535807291 194.14422857142856 z" cy="231.47965714285712" cx="299.56779182942705" j="5" val="11" barHeight="22.401257142857144" barWidth="33.96003824869792"/>
+        <path id="SvgjsPath1750" d="M 163.72863883463543 231.47965714285712 L 225.4741629231771 231.47965714285712 L 225.4741629231771 251.88091428571425 L 163.72863883463543 251.88091428571425 z" fill="url(#SvgjsPattern1748)" fill-opacity="1" stroke="#feb019" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1751)" pathTo="M 163.72863883463543 231.47965714285712 L 225.4741629231771 231.47965714285712 L 225.4741629231771 251.88091428571425 L 163.72863883463543 251.88091428571425 z" pathFrom="M 163.72863883463543 231.47965714285712 L 163.72863883463543 231.47965714285712 L 163.72863883463543 251.88091428571425 L 163.72863883463543 251.88091428571425 L 163.72863883463543 251.88091428571425 L 163.72863883463543 251.88091428571425 L 163.72863883463543 251.88091428571425 L 163.72863883463543 231.47965714285712 z" cy="268.8150857142857" cx="225.47316292317709" j="6" val="20" barHeight="22.401257142857144" barWidth="61.74552408854167"/>
+        <g id="SvgjsG1668" class="apexcharts-bar-goals-markers" style="pointer-events: none">
+          <g id="SvgjsG1669" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1682" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1695" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1708" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1721" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1734" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1747" className="apexcharts-bar-goals-groups"/>
+        </g>
+      </g>
+      <g id="SvgjsG1760" class="apexcharts-series" seriesName="BucketxSlope" rel="4" data:realIndex="3">
+        <path id="SvgjsPath1766" d="M 336.617106282552 7.467085714285714 L 364.4025921223958 7.467085714285714 L 364.4025921223958 27.868342857142856 L 336.617106282552 27.868342857142856 z" fill="url(#SvgjsPattern1764)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1767)" pathTo="M 336.617106282552 7.467085714285714 L 364.4025921223958 7.467085714285714 L 364.4025921223958 27.868342857142856 L 336.617106282552 27.868342857142856 z" pathFrom="M 336.617106282552 7.467085714285714 L 336.617106282552 7.467085714285714 L 336.617106282552 27.868342857142856 L 336.617106282552 27.868342857142856 L 336.617106282552 27.868342857142856 L 336.617106282552 27.868342857142856 L 336.617106282552 27.868342857142856 L 336.617106282552 7.467085714285714 z" cy="44.80251428571429" cx="364.4015921223958" j="0" val="9" barHeight="22.401257142857144" barWidth="27.78548583984375"/>
+        <path id="SvgjsPath1779" d="M 321.1807252604166 44.80251428571429 L 342.79165869140616 44.80251428571429 L 342.79165869140616 65.20377142857143 L 321.1807252604166 65.20377142857143 z" fill="url(#SvgjsPattern1777)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1780)" pathTo="M 321.1807252604166 44.80251428571429 L 342.79165869140616 44.80251428571429 L 342.79165869140616 65.20377142857143 L 321.1807252604166 65.20377142857143 z" pathFrom="M 321.1807252604166 44.80251428571429 L 321.1807252604166 44.80251428571429 L 321.1807252604166 65.20377142857143 L 321.1807252604166 65.20377142857143 L 321.1807252604166 65.20377142857143 L 321.1807252604166 65.20377142857143 L 321.1807252604166 65.20377142857143 L 321.1807252604166 44.80251428571429 z" cy="82.13794285714286" cx="342.7906586914062" j="1" val="7" barHeight="22.401257142857144" barWidth="21.610933430989583"/>
+        <path id="SvgjsPath1792" d="M 262.52247737630205 82.13794285714286 L 277.9588583984375 82.13794285714286 L 277.9588583984375 102.53920000000001 L 262.52247737630205 102.53920000000001 z" fill="url(#SvgjsPattern1790)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1793)" pathTo="M 262.52247737630205 82.13794285714286 L 277.9588583984375 82.13794285714286 L 277.9588583984375 102.53920000000001 L 262.52247737630205 102.53920000000001 z" pathFrom="M 262.52247737630205 82.13794285714286 L 262.52247737630205 82.13794285714286 L 262.52247737630205 102.53920000000001 L 262.52247737630205 102.53920000000001 L 262.52247737630205 102.53920000000001 L 262.52247737630205 102.53920000000001 L 262.52247737630205 102.53920000000001 L 262.52247737630205 82.13794285714286 z" cy="119.47337142857143" cx="277.9578583984375" j="2" val="5" barHeight="22.401257142857144" barWidth="15.436381022135418"/>
+        <path id="SvgjsPath1805" d="M 302.6570680338541 119.47337142857143 L 327.3552776692708 119.47337142857143 L 327.3552776692708 139.87462857142856 L 302.6570680338541 139.87462857142856 z" fill="url(#SvgjsPattern1803)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1806)" pathTo="M 302.6570680338541 119.47337142857143 L 327.3552776692708 119.47337142857143 L 327.3552776692708 139.87462857142856 L 302.6570680338541 139.87462857142856 z" pathFrom="M 302.6570680338541 119.47337142857143 L 302.6570680338541 119.47337142857143 L 302.6570680338541 139.87462857142856 L 302.6570680338541 139.87462857142856 L 302.6570680338541 139.87462857142856 L 302.6570680338541 139.87462857142856 L 302.6570680338541 139.87462857142856 L 302.6570680338541 119.47337142857143 z" cy="156.8088" cx="327.3542776692708" j="3" val="8" barHeight="22.401257142857144" barWidth="24.698209635416667"/>
+        <path id="SvgjsPath1818" d="M 154.46781022135417 156.8088 L 172.99146744791668 156.8088 L 172.99146744791668 177.21005714285712 L 154.46781022135417 177.21005714285712 z" fill="url(#SvgjsPattern1816)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1819)" pathTo="M 154.46781022135417 156.8088 L 172.99146744791668 156.8088 L 172.99146744791668 177.21005714285712 L 154.46781022135417 177.21005714285712 z" pathFrom="M 154.46781022135417 156.8088 L 154.46781022135417 156.8088 L 154.46781022135417 177.21005714285712 L 154.46781022135417 177.21005714285712 L 154.46781022135417 177.21005714285712 L 154.46781022135417 177.21005714285712 L 154.46781022135417 177.21005714285712 L 154.46781022135417 156.8088 z" cy="194.14422857142856" cx="172.99046744791667" j="4" val="6" barHeight="22.401257142857144" barWidth="18.523657226562502"/>
+        <path id="SvgjsPath1831" d="M 299.569791829427 194.14422857142856 L 327.3552776692708 194.14422857142856 L 327.3552776692708 214.5454857142857 L 299.569791829427 214.5454857142857 z" fill="url(#SvgjsPattern1829)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1832)" pathTo="M 299.569791829427 194.14422857142856 L 327.3552776692708 194.14422857142856 L 327.3552776692708 214.5454857142857 L 299.569791829427 214.5454857142857 z" pathFrom="M 299.569791829427 194.14422857142856 L 299.569791829427 194.14422857142856 L 299.569791829427 214.5454857142857 L 299.569791829427 214.5454857142857 L 299.569791829427 214.5454857142857 L 299.569791829427 214.5454857142857 L 299.569791829427 214.5454857142857 L 299.569791829427 194.14422857142856 z" cy="231.47965714285712" cx="327.3542776692708" j="5" val="9" barHeight="22.401257142857144" barWidth="27.78548583984375"/>
+        <path id="SvgjsPath1844" d="M 225.4751629231771 231.47965714285712 L 237.82426774088543 231.47965714285712 L 237.82426774088543 251.88091428571425 L 225.4751629231771 251.88091428571425 z" fill="url(#SvgjsPattern1842)" fill-opacity="1" stroke="#ff4560" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectMaskfc3noor2)" filter="url(#SvgjsFilter1845)" pathTo="M 225.4751629231771 231.47965714285712 L 237.82426774088543 231.47965714285712 L 237.82426774088543 251.88091428571425 L 225.4751629231771 251.88091428571425 z" pathFrom="M 225.4751629231771 231.47965714285712 L 225.4751629231771 231.47965714285712 L 225.4751629231771 251.88091428571425 L 225.4751629231771 251.88091428571425 L 225.4751629231771 251.88091428571425 L 225.4751629231771 251.88091428571425 L 225.4751629231771 251.88091428571425 L 225.4751629231771 231.47965714285712 z" cy="268.8150857142857" cx="237.82326774088543" j="6" val="4" barHeight="22.401257142857144" barWidth="12.349104817708334"/>
+        <g id="SvgjsG1762" class="apexcharts-bar-goals-markers" style="pointer-events: none">
+          <g id="SvgjsG1763" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1776" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1789" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1802" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1815" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1828" className="apexcharts-bar-goals-groups"/>
+          <g id="SvgjsG1841" className="apexcharts-bar-goals-groups"/>
+        </g>
+      </g>
+      <g id="SvgjsG1479" class="apexcharts-datalabels" data:realIndex="0"/>
+      <g id="SvgjsG1573" class="apexcharts-datalabels" data:realIndex="1"/>
+      <g id="SvgjsG1667" class="apexcharts-datalabels" data:realIndex="2"/>
+      <g id="SvgjsG1761" class="apexcharts-datalabels" data:realIndex="3"/>
+    </g>
+    <g id="SvgjsG1857" class="apexcharts-grid-borders">
+      <line id="SvgjsLine1863" x1="0" y1="0" x2="370.47314453125" y2="0" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+      <line id="SvgjsLine1870" x1="0" y1="261.348" x2="370.47314453125" y2="261.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"/>
+      <line id="SvgjsLine1892" x1="0" y1="261.348" x2="370.47314453125" y2="261.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt"/>
+      <line id="SvgjsLine1916" x1="0" y1="1" x2="0" y2="261.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt"/>
+    </g>
+    <line id="SvgjsLine1873" x1="0" y1="-100" x2="370.47314453125" y2="-100" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs" y="-100"/>
+    <line id="SvgjsLine1874" x1="0" y1="0" x2="370.47314453125" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"/>
+    <g id="SvgjsG1893" class="apexcharts-yaxis apexcharts-xaxis-inversed" rel="0">
+      <g id="SvgjsG1894" class="apexcharts-yaxis-texts-g apexcharts-xaxis-inversed-texts-g" transform="translate(0, 0)">
+        <text id="SvgjsText1896" font-family="Helvetica, Arial, sans-serif" x="-15" y="20.364779220779223" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1897">2008</tspan><title>2008</title></text>
+        <text id="SvgjsText1899" font-family="Helvetica, Arial, sans-serif" x="-15" y="57.70020779220779" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1900">2009</tspan><title>2009</title></text>
+        <text id="SvgjsText1902" font-family="Helvetica, Arial, sans-serif" x="-15" y="95.03563636363637" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1903">2010</tspan><title>2010</title></text>
+        <text id="SvgjsText1905" font-family="Helvetica, Arial, sans-serif" x="-15" y="132.37106493506494" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1906">2011</tspan><title>2011</title></text>
+        <text id="SvgjsText1908" font-family="Helvetica, Arial, sans-serif" x="-15" y="169.7064935064935" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1909">2012</tspan><title>2012</title></text>
+        <text id="SvgjsText1911" font-family="Helvetica, Arial, sans-serif" x="-15" y="207.04192207792207" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1912">2013</tspan><title>2013</title></text>
+        <text id="SvgjsText1914" font-family="Helvetica, Arial, sans-serif" x="-15" y="244.37735064935063" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1915">2014</tspan><title>2014</title></text>
+      </g>
+    </g>
+    <g id="SvgjsG1875" class="apexcharts-xaxis apexcharts-yaxis-inversed">
+      <g id="SvgjsG1876" class="apexcharts-xaxis-texts-g" transform="translate(0, -8)">
+        <text id="SvgjsText1877" font-family="Helvetica, Arial, sans-serif" x="370.47314453125" y="291.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1879">120</tspan><title>120</title></text>
+        <text id="SvgjsText1880" font-family="Helvetica, Arial, sans-serif" x="277.7548583984375" y="291.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1882">90</tspan><title>90</title></text>
+        <text id="SvgjsText1883" font-family="Helvetica, Arial, sans-serif" x="185.03657226562504" y="291.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1885">60</tspan><title>60</title></text>
+        <text id="SvgjsText1886" font-family="Helvetica, Arial, sans-serif" x="92.31828613281255" y="291.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1888">30</tspan><title>30</title></text>
+        <text id="SvgjsText1889" font-family="Helvetica, Arial, sans-serif" x="-0.39999999999997726" y="291.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1891">0</tspan><title>0</title></text>
+      </g>
+    </g>
+    <g id="SvgjsG1917" class="apexcharts-yaxis-annotations"/>
+    <g id="SvgjsG1918" class="apexcharts-xaxis-annotations"/>
+    <g id="SvgjsG1919" class="apexcharts-point-annotations"/>
+  </g>
+  <text id="SvgjsText1467" font-family="Helvetica, Arial, sans-serif" x="10" y="16.5" text-anchor="start" dominant-baseline="auto" font-size="14px" font-weight="900" fill="#373d3f" class="apexcharts-title-text" style="font-family: Helvetica, Arial, sans-serif; opacity: 1;" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Compare Sales Strategy</text>
+  <g id="SvgjsG1466" class="apexcharts-annotations"/>
+
+
+  <text x="450" y="70">
+    <tspan class="apexcharts-legend-marker" rel="1" data:collapsed="false" fill="rgb(0, 143, 251)" style="background: rgb(0, 143, 251) !important; color: rgb(0, 143, 251); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 2px; font: bold 100px sans-serif;">.</tspan>
+    <tspan class="apexcharts-legend-text" rel="1" i="0" data:default-text="Marine%20Sprite" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Marine Sprite</tspan>
+  </text>
+
+  <text x="450" y="90">
+    <tspan class="apexcharts-legend-marker" rel="2" data:collapsed="false" fill="rgb(0, 227, 150)" style="background: rgb(0, 227, 150) !important; color: rgb(0, 227, 150); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 2px; font: bold 100px sans-serif;">.</tspan>
+    <tspan class="apexcharts-legend-text" rel="2" i="1" data:default-text="Striking%20Calf" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Striking Calf</tspan>
+  </text>
+
+  <text x="450" y="110">
+    <tspan class="apexcharts-legend-marker" rel="3" data:collapsed="false" fill="rgb(254, 176, 25)" style="background: rgb(254, 176, 25) !important; color: rgb(254, 176, 25); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 2px; font: bold 100px sans-serif;">.</tspan>
+    <tspan class="apexcharts-legend-text" rel="3" i="2" data:default-text="Tank%20Picture" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Tank Picture</tspan>
+  </text>
+
+  <text x="450" y="130">
+    <tspan class="apexcharts-legend-marker" rel="4" data:collapsed="false" fill="rgb(255, 69, 96)" style="background: rgb(255, 69, 96) !important; color: rgb(255, 69, 96); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 2px; font: bold 100px sans-serif;">.</tspan>
+    <tspan class="apexcharts-legend-text" rel="4" i="3" data:default-text="Bucket%20Slope" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Bucket Slope</tspan>
+  </text>
+  
+</svg>

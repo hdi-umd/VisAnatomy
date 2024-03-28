@@ -62,14 +62,13 @@ function createExampleCards(examples){
           '<div class="card-pop-out-container" id="cardPopOutContainer">'+
             '<span class="close-button" id="cardPopOutCloseButton">&times;</span>'+
             '<div class="card-pop-out-content">'+
-              '<img target="_blank" id="imagepopout" src="../examples/' + examples[i].filename.slice(0, -4) + 'svg" alt="' + examples[i].filename.slice(0, -4) + '">'+
+              // '<img target="_blank" id="imagepopout" src="../examples/' + examples[i].filename.slice(0, -4) + 'svg" alt="' + examples[i].filename.slice(0, -4) + '">'+
+              '<object type="image/svg+xml" data="/static/examples/' + examples[i].filename.slice(0, -4) + '.svg"></object>' +
+
+              // '<object type="image/svg+xml" data="example.svg"></object>'
             '</div>'+
           '</div>'+
         '</div>'+
-          // '<div class="card-reveal">'+
-          //   '<span class="card-title grey-text text-darken-4"><i class="material-icons right extext">close</i></span>'+
-          //   '<p>'+examples[i].description+'</p>'+
-          // '</div>'+
           '<div class="card-action">'+
             '<a href="javascript:void(0)"><i class="material-icons bk" id="bk_'+examples[i].filename+'">bookmark_border</i></a>'+
             tagdiv+

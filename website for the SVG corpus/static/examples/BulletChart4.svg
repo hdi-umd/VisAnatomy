@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="350px"
+	 height="365px" viewBox="0 0 350 365" enable-background="new 0 0 350 365" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+	<text transform="matrix(1 0 0 1 50.877 31.042)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">Revenue 2016 YTD</text>
+	<text transform="matrix(1 0 0 1 69.4912 48.042)" fill="#808080" font-family="'Helvetica'" font-size="11">UK, £ in hundreds</text>
+	<rect x="91.432" y="61" fill="#B3B3B3" width="44.172" height="168.377"/>
+	<rect x="91.432" y="229.377" fill="#CCCCCC" width="44.172" height="55.698"/>
+	<rect x="91.432" y="284.165" fill="#E6E6E6" width="44.172" height="55.835"/>
+	<text transform="matrix(1 0 0 1 75.1104 65.2119)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<g>
+		<g>
+			<g>
+				<polyline fill="none" stroke="#FF0000" stroke-width="0.5" points="129.512,105.956 150.542,105.956 150.542,298.068 
+					129.512,298.068 				"/>
+				<g>
+					<circle fill="#FF0000" cx="129.653" cy="105.956" r="2.82"/>
+				</g>
+				<g>
+					<circle fill="#FF0000" cx="129.653" cy="298.068" r="2.82"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 68.9927 134.7119)" fill="#333333" font-family="'Helvetica'" font-size="11">15</text>
+	<text transform="matrix(1 0 0 1 68.9927 204.4619)" fill="#333333" font-family="'Helvetica'" font-size="11">30</text>
+	<text transform="matrix(1 0 0 1 68.9927 272.9619)" fill="#333333" font-family="'Helvetica'" font-size="11">45</text>
+	<text transform="matrix(1 0 0 1 68.9927 342.5449)" fill="#333333" font-family="'Helvetica'" font-size="11">60</text>
+	<line fill="none" stroke="#666666" x1="91.457" y1="61.5" x2="83.5" y2="61.5"/>
+	<line fill="none" stroke="#666666" x1="91.457" y1="131" x2="83.5" y2="131"/>
+	<line fill="none" stroke="#666666" x1="91.457" y1="200.5" x2="83.5" y2="200.5"/>
+	<line fill="none" stroke="#666666" x1="91.457" y1="270" x2="83.5" y2="270"/>
+	<line fill="none" stroke="#666666" x1="91.457" y1="339.5" x2="83.5" y2="339.5"/>
+	<rect x="107.685" y="61" fill="#333333" width="11.667" height="210"/>
+	<rect x="100.495" y="320.582" fill="#333333" width="26.047" height="3"/>
+	<text transform="matrix(1 0 0 1 236.5 40.083)" fill="#FF0000" font-family="'Helvetica'" font-size="14">Text label</text>
+	<text transform="matrix(1 0 0 1 195.5 181)"><tspan x="0" y="0" fill="#FF0000" font-family="'Helvetica'" font-size="14">Feature Measure</tspan><tspan x="0" y="16.8" fill="#FF0000" font-family="'Helvetica'" font-size="14">(Bar length =</tspan><tspan x="0" y="33.6" fill="#FF0000" font-family="'Helvetica'" font-size="14">performance score)</tspan></text>
+	<text transform="matrix(1 0 0 1 195.5 308.082)"><tspan x="0" y="0" fill="#FF0000" font-family="'Helvetica'" font-size="14">Comparative Measure</tspan><tspan x="0" y="16.801" fill="#FF0000" font-family="'Helvetica'" font-size="14">(Target marker for</tspan><tspan x="0" y="33.601" fill="#FF0000" font-family="'Helvetica'" font-size="14">comparative measure)</tspan></text>
+	<text transform="matrix(1 0 0 1 195.5 101.9561)"><tspan x="0" y="0" fill="#FF0000" font-family="'Helvetica'" font-size="14">Each shade is a</tspan><tspan x="0" y="16.8" fill="#FF0000" font-family="'Helvetica'" font-size="14">qualitative range</tspan></text>
+	<text transform="matrix(1 0 0 1 13.4795 204)" fill="#FF0000" font-family="'Helvetica'" font-size="14">Scale</text>
+	<polyline fill="none" stroke="#FF0000" stroke-width="0.5" points="65.491,340.07 58.491,340.07 58.491,60.93 65.491,60.93 	"/>
+	<polyline fill="none" stroke="#FF0000" stroke-width="0.5" points="180.5,16.209 187.5,16.209 187.5,53.105 180.5,53.105 	"/>
+	<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="58.491" y1="200.5" x2="51.166" y2="200.5"/>
+	<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="187.5" y1="34.657" x2="231.5" y2="34.657"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="188.334" y1="322.082" x2="129.041" y2="322.082"/>
+			<g>
+				<polygon fill="#FF0000" points="133.183,316.97 134.036,317.885 129.521,322.081 134.036,326.277 133.183,327.193 
+					127.686,322.081 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="151.417" y1="256.226" x2="129.22" y2="256.226"/>
+			<g>
+				<circle fill="#FF0000" cx="129.361" cy="256.226" r="2.819"/>
+			</g>
+		</g>
+	</g>
+	<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="150.542" y1="105.956" x2="188.334" y2="105.956"/>
+	<rect x="147.833" y="191.834" fill="#FFFFFF" width="5" height="6.332"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-width="0.5" x1="188.334" y1="195" x2="113.179" y2="195"/>
+			<g>
+				<circle fill="#FF0000" cx="113.32" cy="195" r="2.819"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
