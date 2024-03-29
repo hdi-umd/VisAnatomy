@@ -124,13 +124,13 @@ if (process.argv.length !== 4) {
             console.log("removing an no-role element!", element.id);
             element.remove();
           }
-        if (graphicsElementTypes.includes(element.tagName?.toLowerCase())) {
-          // delete element;
-          {
-            console.log("removing an random element!", element.id);
-            element.remove();
-          }
-        }
+        // if (graphicsElementTypes.includes(element.tagName?.toLowerCase())) {
+        //   // delete element;
+        //   {
+        //     console.log("removing an random element!", element.id);
+        //     element.remove();
+        //   }
+        // }
       }
 
       // Recursively traverse child elements
@@ -177,6 +177,21 @@ if (process.argv.length !== 4) {
       "data-datum",
       '{"_TYPE":"Axis", "type":"x", "position":"xPosition"}'
     );
+    for (let annotationMarkID of Object.keys(markInfo).filter(
+      (m) => markInfo[m].Role === "Annotation"
+    )) {
+      let element = svgElement.querySelector(`#${annotationMarkID}`);
+      if (element.tagName === "text") {
+        element.innerHTML = allGraphicElements[annotationMarkID].content;
+        element.setAttribute("class", "axis-text");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-text"}`);
+      } else {
+        element.setAttribute("class", "axis-symbol");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-symbol"}`);
+      }
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    }
     group0.appendChild(groupRef);
     groupRef = dom.window.document.createElement("g");
     groupRef.setAttribute("class", "axis");
