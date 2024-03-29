@@ -54,12 +54,15 @@ function extract() {
   xAxis = findxAxis(texts);
   console.log("x axis", xAxis);
   axes[1] = xAxis;
+  // see if an axis div is there
+  if (d3.select("#axis_1").empty()) addAxisConfiguration();
   displayAxis(1);
   texts = texts.filter((text) => !xAxis.labels.includes(text));
 
   // Y axis
   yAxis = findyAxis(texts);
   console.log("y axis", yAxis);
+  if (d3.select("#axis_2").empty()) addAxisConfiguration();
   axes[2] = yAxis;
   displayAxis(2);
 
