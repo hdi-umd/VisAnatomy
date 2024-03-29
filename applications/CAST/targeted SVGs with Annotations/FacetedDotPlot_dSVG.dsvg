@@ -1,5 +1,39 @@
 <svg height="942.5000333786011" id="visChart" viewBox="0 0 1128.1563301086426 942.5000333786011" width="1128.1563301086426" perserveAspectRatio="xMidYMid">
   <g class="data-group" id="mark-group">
+    <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;Axis&quot;, &quot;type&quot;:&quot;x&quot;, &quot;position&quot;:&quot;xPosition&quot;}">
+      <rect class="axis-symbol" x="120" y="430" width="160" height="30" opacity="0.2" fill="grey" id="rect0" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="120" y="630" width="160" height="30" opacity="0.2" fill="grey" id="rect1" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="120" y="830" width="160" height="30" opacity="0.2" fill="grey" id="rect2" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="120" y="230" width="160" height="30" opacity="0.2" fill="grey" id="rect3" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="320" y="430" width="160" height="30" opacity="0.2" fill="grey" id="rect4" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="320" y="630" width="160" height="30" opacity="0.2" fill="grey" id="rect5" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="320" y="830" width="160" height="30" opacity="0.2" fill="grey" id="rect6" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="320" y="230" width="160" height="30" opacity="0.2" fill="grey" id="rect7" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="520" y="430" width="160" height="30" opacity="0.2" fill="grey" id="rect8" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="520" y="630" width="160" height="30" opacity="0.2" fill="grey" id="rect9" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="520" y="830" width="160" height="30" opacity="0.2" fill="grey" id="rect10" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="520" y="230" width="160" height="30" opacity="0.2" fill="grey" id="rect11" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="720" y="430" width="160" height="30" opacity="0.2" fill="grey" id="rect12" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="720" y="630" width="160" height="30" opacity="0.2" fill="grey" id="rect13" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="720" y="830" width="160" height="30" opacity="0.2" fill="grey" id="rect14" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <rect class="axis-symbol" x="720" y="230" width="160" height="30" opacity="0.2" fill="grey" id="rect15" data-datum="{&quot;_TYPE&quot;:&quot;axis-symbol&quot;}"/>
+      <text class="axis-text" opacity="1" x="200" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text4" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 23.9%</text>
+      <text class="axis-text" opacity="1" x="200" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text5" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 48.3%</text>
+      <text class="axis-text" opacity="1" x="200" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text6" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 50.9%</text>
+      <text class="axis-text" opacity="1" x="200" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text7" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 48.3%</text>
+      <text class="axis-text" opacity="1" x="400" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text8" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 31.2%</text>
+      <text class="axis-text" opacity="1" x="400" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text9" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 40.5%</text>
+      <text class="axis-text" opacity="1" x="400" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text10" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 35%</text>
+      <text class="axis-text" opacity="1" x="400" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text11" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 60.4%</text>
+      <text class="axis-text" opacity="1" x="600" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text12" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 79.5%</text>
+      <text class="axis-text" opacity="1" x="600" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text13" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 55.4%</text>
+      <text class="axis-text" opacity="1" x="600" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text14" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 58.7%</text>
+      <text class="axis-text" opacity="1" x="600" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text15" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 74.9%</text>
+      <text class="axis-text" opacity="1" x="800" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text16" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 63.2%</text>
+      <text class="axis-text" opacity="1" x="800" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text17" style="pointer-events: auto; cursor: pointer; fill: black;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 79.4%</text>
+      <text class="axis-text" opacity="1" x="800" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text18" style="pointer-events: auto; cursor: pointer;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 65.9%</text>
+      <text class="axis-text" opacity="1" x="800" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle" id="text19" style="pointer-events: auto; cursor: pointer; fill: black;" data-datum="{&quot;_TYPE&quot;:&quot;axis-text&quot;}">% Female: 77.1%</text>
+    </g>
     <g class="data-group">
       <circle fill="rgb(0, 0, 255)" r="15.90909090909091" cx="197.05557056056918" cy="177.9919013167399" opacity="0.8" id="circle19" class="mark Shape1" data-datum="{&quot;_TYPE&quot;:&quot;Circle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;xPosition&quot;:&quot;x1&quot;,&quot;yPosition&quot;:&quot;y1&quot;,&quot;category&quot;:&quot;c2&quot;}"/>
       <circle fill="rgb(128, 128, 128)" r="14.545454545454547" cx="187.16492981910446" cy="140.8305441466234" opacity="0.8" id="circle29" class="mark Shape1" data-datum="{&quot;_TYPE&quot;:&quot;Circle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;xPosition&quot;:&quot;x1&quot;,&quot;yPosition&quot;:&quot;y1&quot;,&quot;category&quot;:&quot;c3&quot;}"/>
@@ -205,7 +239,6 @@
       <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="806.3971221588278" cy="752.7608177487224" opacity="0.8" id="circle93" class="mark Shape1" data-datum="{&quot;_TYPE&quot;:&quot;Circle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;xPosition&quot;:&quot;x4&quot;,&quot;yPosition&quot;:&quot;y4&quot;,&quot;category&quot;:&quot;c4&quot;}"/>
       <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="805.9278230254184" cy="725.9011770083625" opacity="0.8" id="circle96" class="mark Shape1" data-datum="{&quot;_TYPE&quot;:&quot;Circle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;xPosition&quot;:&quot;x4&quot;,&quot;yPosition&quot;:&quot;y4&quot;,&quot;category&quot;:&quot;c4&quot;}"/>
     </g>
-    <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;Axis&quot;, &quot;type&quot;:&quot;x&quot;, &quot;position&quot;:&quot;xPosition&quot;}"/>
     <g class="axis" data-datum="{&quot;_TYPE&quot;:&quot;Axis&quot;, &quot;type&quot;:&quot;y&quot;, &quot;position&quot;:&quot;yPosition&quot;}"/>
     <g class="legend" data-datum="{&quot;color&quot;:&quot;category&quot;}"/>
   </g>
