@@ -71,16 +71,22 @@
     "x": {
       "field": "Chart Type",
       "type": "nominal",
-      "sort": "-y",
+      "sort": "",
       "axis": { "labelAngle": -45, "labelFontSize": 14, "titleFontSize": 16 }
     },
     "y": {
       "field": "Count",
       "type": "quantitative",
       "title": "Count",
-      "axis": { "titleFontSize": 16, "labelFontSize": 14, "titleFontSize": 16 }
+      "axis": { "titleFontSize": 16, "labelFontSize": 14 }
     },
-    "color": { "value": "#17BECF" }
+    "color": {
+      "condition": {
+        "test": "datum['Chart Type'] === 'Others'",
+        "value": "#81C784"
+      },
+      "value": "#17BECF"
+    }
   },
   "layer": [
     {
