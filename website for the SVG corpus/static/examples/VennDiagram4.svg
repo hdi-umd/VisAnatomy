@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 232.5 208.3" style="enable-background:new 0 0 232.5 208.3;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill:#79B8F0;fill-opacity:0.3;stroke:#5CADD3;stroke-width:0.2247;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st1{fill:#79B8F0;fill-opacity:0.3;stroke:#5CADD3;stroke-width:0.4341;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#333333;}
+	.st3{font-family:'Roboto', sans-serif; font-weight:400;}
+	.st4{font-size:11px;}
+</style>
+<g id="ai2html-settings">
+</g>
+<circle class="st0" cx="176" cy="84.9" r="44.6"/>
+<circle class="st0" cx="176" cy="125.5" r="44.6"/>
+<circle class="st1" cx="93.9" cy="104.6" r="86.3"/>
+<g>
+	<text transform="matrix(1 0 0 1 186.3001 69.8952)" class="st2 st3 st4">B</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 186.3008 108.2481)" class="st2 st3 st4">BC</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 151.0996 108.2484)" class="st2 st3 st4">ABC</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 186.3005 151.0174)" class="st2 st3 st4">C</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 145.6911 141.0332)" class="st2 st3 st4">AC</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 145.6908 73.6393)" class="st2 st3 st4">AB</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 90.4229 105.2562)" class="st2 st3 st4">A</text>
+</g>
+</svg>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="141px" viewBox="0 0 169 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Bullet Graphs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fusionCharts-XT" transform="translate(-1041.000000, -1003.000000)">
+            <g id="Chart-1" transform="translate(1012.000000, 978.000000)">
+                <g id="Bullet-Graphs" transform="translate(29.000000, 24.000000)">
+                    <text id="Horizontal-Bullet-Gr" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="5.84800026" font-weight="bold" fill="#000000">
+                        <tspan x="73.1751946" y="6">Horizontal Bullet Graph</tspan>
+                    </text>
+                    <g id="Group-7" transform="translate(9.000000, 24.000000)">
+                        <text id="Revenue-US$-(1000s)" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500" fill="#7A869B">
+                            <tspan x="6.71916727" y="4">Revenue </tspan>
+                            <tspan x="0.925261014" y="9">US$ (1000s)</tspan>
+                        </text>
+                        <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="30.7324762" y="6" width="127" height="1"></rect>
+                        <rect id="Rectangle-2" fill="#DCDDEE" x="31" y="1" width="127" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#DAF2FF" x="31" y="1" width="91" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#87D8FF" x="31" y="1" width="63" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="31" y="4" width="106" height="3"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="134" y="3" width="1" height="5"></rect>
+                        <text id="0" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="31.410079" y="17">0</tspan>
+                        </text>
+                        <text id="75" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="59.3201579" y="17">75</tspan>
+                        </text>
+                        <text id="150" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="90.2302369" y="17">150</tspan>
+                        </text>
+                        <text id="225" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="120.230237" y="17">225</tspan>
+                        </text>
+                        <text id="300" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="153.230237" y="17">300</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(20.000000, 50.000000)">
+                        <text id="Profit-%" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500" fill="#7A869B">
+                            <tspan x="1.31570352" y="4">Profit </tspan>
+                            <tspan x="8.31137384" y="9">%</tspan>
+                        </text>
+                        <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19.7324762" y="5" width="127" height="1"></rect>
+                        <rect id="Rectangle-2" fill="#DCDDEE" x="20" y="0" width="127" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="126" y="2" width="1" height="5"></rect>
+                        <rect id="Rectangle-2" fill="#DAF2FF" x="20" y="0" width="99" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#87D8FF" x="20" y="0" width="83" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="20" y="3" width="91" height="3"></rect>
+                        <text id="0%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="19.6030469" y="16">0%</tspan>
+                        </text>
+                        <text id="6%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="42.6030469" y="16">6%</tspan>
+                        </text>
+                        <text id="12%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="65.5131258" y="16">12% </tspan>
+                        </text>
+                        <text id="18%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="90.5131258" y="16">18%</tspan>
+                        </text>
+                        <text id="24%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="115.513126" y="16">24%</tspan>
+                        </text>
+                        <text id="30%" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="140.513126" y="16">30%</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(3.000000, 74.000000)">
+                        <text id="Avg-Order-Size-US$" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500" fill="#7A869B">
+                            <tspan x="1.86820279" y="4">Avg Order Size </tspan>
+                            <tspan x="21.5569577" y="9">US$</tspan>
+                        </text>
+                        <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="36.7324762" y="6" width="127" height="1"></rect>
+                        <rect id="Rectangle-2" fill="#DCDDEE" x="37" y="1" width="127" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="150" y="3" width="1" height="5"></rect>
+                        <rect id="Rectangle-2" fill="#DAF2FF" x="37" y="1" width="102" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#87D8FF" x="37" y="1" width="69" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="37" y="4" width="59" height="3"></rect>
+                        <text id="0" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="37.410079" y="17">0</tspan>
+                        </text>
+                        <text id="150" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="64.2302369" y="17">150</tspan>
+                        </text>
+                        <text id="300" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="96.2302369" y="17">300</tspan>
+                        </text>
+                        <text id="450" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="126.230237" y="17">450</tspan>
+                        </text>
+                        <text id="600" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="159.230237" y="17">600</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(2.000000, 99.000000)">
+                        <text id="New-Customers-Count" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500" fill="#7A869B">
+                            <tspan x="0.583096686" y="4">New Customers</tspan>
+                            <tspan x="18.6007855" y="9">Count</tspan>
+                        </text>
+                        <rect id="Rectangle-2" fill="#DCDDEE" x="38" y="1" width="120" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="151" y="3" width="1" height="5"></rect>
+                        <rect id="Rectangle-2" fill="#DAF2FF" x="38" y="1" width="107" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#87D8FF" x="38" y="1" width="62" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="38" y="4" width="102" height="3"></rect>
+                        <text id="0" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="38.410079" y="17">0</tspan>
+                        </text>
+                        <text id="500" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="65.2302369" y="17">500</tspan>
+                        </text>
+                        <text id="1000" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="96.1403158" y="17">1000</tspan>
+                        </text>
+                        <text id="1500" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="126.140316" y="17">1500</tspan>
+                        </text>
+                        <text id="2000" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#686980">
+                            <tspan x="152.140316" y="17">2000</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(0.000000, 124.000000)">
+                        <text id="Cust-Satisfaction-To" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500" fill="#7A869B">
+                            <tspan x="0.205884579" y="4">Cust Satisfaction</tspan>
+                            <tspan x="3.98661675" y="9">Top Rating of 5</tspan>
+                        </text>
+                        <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="39.7324762" y="6" width="127" height="1"></rect>
+                        <rect id="Rectangle-2" fill="#DCDDEE" x="40" y="1" width="127" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#DAF2FF" x="40" y="1" width="116" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="158" y="3" width="1" height="5"></rect>
+                        <rect id="Rectangle-2" fill="#87D8FF" x="40" y="1" width="86" height="9"></rect>
+                        <rect id="Rectangle-2" fill="#005781" x="40" y="4" width="121" height="3"></rect>
+                        <text id="0" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="40.410079" y="17">0</tspan>
+                        </text>
+                        <text id="1" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="63.410079" y="17">1</tspan>
+                        </text>
+                        <text id="2" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="85.410079" y="17">2</tspan>
+                        </text>
+                        <text id="3" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="108.410079" y="17">3</tspan>
+                        </text>
+                        <text id="4" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="131.410079" y="17">4</tspan>
+                        </text>
+                        <text id="5" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal" fill="#7A869B">
+                            <tspan x="154.410079" y="17">5</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

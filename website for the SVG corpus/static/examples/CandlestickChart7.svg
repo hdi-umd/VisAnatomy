@@ -1,0 +1,1391 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="1100" height="500" id="svg2" sodipodi:version="0.32" inkscape:version="0.48.3.1 r9886" sodipodi:docname="Candle_chart scheme 01-en.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <title id="title3877">Candle bar-en.svg</title>
+  <metadata id="metadata35">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Candle bar-en.svg</dc:title>
+        <dc:date>2013</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>http://www.probe-meteo.com</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC-by-sa</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>http://www.probe-meteo.com</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>http://www.probe-meteo.com</dc:source>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>meteo</rdf:li>
+            <rdf:li>candle bar</rdf:li>
+            <rdf:li>visualization</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:window-height="744" inkscape:window-width="1227" inkscape:pageshadow="2" inkscape:pageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscape:zoom="0.21826938" inkscape:cx="-813.43345" inkscape:cy="-22.060623" inkscape:window-x="53" inkscape:window-y="371" inkscape:current-layer="g3970" width="410px" height="398px" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-maximized="1"/>
+  <defs id="defs9">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 199 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="410 : 199 : 1" inkscape:persp3d-origin="205 : 132.66667 : 1" id="perspective2507"/>
+    <marker inkscape:stockid="Arrow2Lend" orient="auto" refY="0" refX="0" id="marker5351" style="overflow:visible">
+      <path id="path4202" style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" inkscape:connector-curvature="0"/>
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="Arrow1Lend" style="overflow:visible">
+      <path id="path4184" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" transform="matrix(-0.8,0,0,-0.8,-10,0)" inkscape:connector-curvature="0"/>
+    </marker>
+    <marker refX="0" refY="0" orient="auto" style="overflow:visible" id="Arrow2Lend">
+      <path d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" id="path5173" inkscape:connector-curvature="0"/>
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="Arrow1Lend-8" style="overflow:visible">
+      <path id="path4848" d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" transform="matrix(-0.8,0,0,-0.8,-10,0)" inkscape:connector-curvature="0"/>
+    </marker>
+  </defs>
+  <g id="g3990" transform="translate(-2162.2448,-58.194306)">
+    <g transform="translate(1.9073486e-5,0)" id="g3970">
+      <g transform="translate(2205.3456,82.496636)" id="g5285">
+        <rect y="-24.30233" x="-43.100796" height="500" width="1100" id="rect4071" style="fill:#ffffff;fill-opacity:1;stroke:none"/>
+        <g style="fill:#333333;stroke:none" id="g8" transform="translate(-51.034496,460.30039)" class="x axis">
+          <g id="g10" transform="matrix(2,0,0,2,54.746094,-3.8740219)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line12" x2="0" y2="4" class="tick"/>
+            <text id="text14" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">May01</text>
+          </g>
+          <g id="g16" transform="matrix(2,0,0,2,202.86067,-2.5263656)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line18" x2="0" y2="4" class="tick"/>
+            <text id="text20" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">Thu 02</text>
+          </g>
+          <g id="g22" transform="matrix(2,0,0,2,349.21745,-2.5263656)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line24" x2="0" y2="4" class="tick"/>
+            <text id="text26" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">Fri 03</text>
+          </g>
+          <g id="g28" transform="matrix(2,0,0,2,496.35059,-2.6318344)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line30" x2="0" y2="4" class="tick"/>
+            <text id="text32" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">Sat 04</text>
+          </g>
+          <g id="g34" transform="matrix(2,0,0,2,643.42806,-3.7949203)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line36" x2="0" y2="4" class="tick"/>
+            <text id="text38" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">May 05</text>
+          </g>
+          <g id="g40" transform="matrix(2,0,0,2,790.36491,-2.6318344)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line42" x2="0" y2="4" class="tick"/>
+            <text id="text44" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">Mon 06</text>
+          </g>
+          <g id="g46" transform="matrix(2,0,0,2,938.18945,-2.6318344)" style="fill:#333333;stroke:none">
+            <line y1="0" x1="0" style="fill:#333333;stroke:none" id="line48" x2="0" y2="4" class="tick"/>
+            <text id="text50" style="text-anchor:middle;fill:#333333;stroke:none" dy="-1.5570614e-06" x="0" y="7">Tue 07</text>
+          </g>
+        </g>
+        <g style="fill:#4d4d4d;stroke:#4d4d4d" id="g84" transform="translate(0,-7.505073)" class="y axis">
+          <g id="g86" transform="translate(0,356.76539)" style="fill:#000000;stroke:#4d4d4d">
+            <line y1="0" x1="0" style="fill:#000000;stroke:#4d4d4d" id="line88" y2="0" x2="-3" class="tick"/>
+            <text id="text90" style="text-anchor:end;fill:#000000;stroke:#4d4d4d" dy="-1.5570614e-06" y="0" x="-6">1,015</text>
+          </g>
+          <g id="g92" transform="translate(0,179.44661)" style="fill:#000000;stroke:#4d4d4d">
+            <line y1="0" x1="0" style="fill:#000000;stroke:#4d4d4d" id="line94" y2="0" x2="-3" class="tick"/>
+            <text id="text96" style="text-anchor:end;fill:#000000;stroke:#4d4d4d" dy="-1.5570614e-06" y="0" x="-6">1,020</text>
+          </g>
+          <g id="g98" transform="translate(0,2.1278254)" style="fill:#000000;stroke:#4d4d4d">
+            <line y1="0" x1="0" style="fill:#000000;stroke:#4d4d4d" id="line100" y2="0" x2="-3" class="tick"/>
+            <text id="text102" style="text-anchor:end;fill:#000000;stroke:#4d4d4d" dy="-1.5570614e-06" y="0" x="-6">1,025</text>
+          </g>
+          <path inkscape:connector-curvature="0" style="fill:#000000;stroke:#4d4d4d" id="path104" d="M 0,0 H 0 V 455 H 0" class="domain"/>
+        </g>
+        <g transform="matrix(1.5,0,0,2,0,-459.86594)" style="fill:#87cdde;stroke:#000000" id="g106" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line108" y2="441.87842" x2="0" y1="446.84332" x1="0" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line110" y2="444.00623" x2="4" y1="444.00623" x1="-4" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line112" y2="446.84332" x2="2" y1="446.84332" x1="-2" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line114" y2="441.87842" x2="2" y1="441.87842" x1="-2" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect116" height="2.8371005" width="4" y="442.58768" x="-2" class="rect"/>
+          <title id="title118">Tue Apr 30 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1012.6
+[Avg+Ecart-Type]		: 1012.58
+Average				: 1012.54
+Ecart-Type				: 0.04
+[Avg-Ecart-Type]		: 1012.5
+Min					: 1012.46</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-6.1284723,-463.94428)" style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="g120" class="box">
+          <line style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="line122" y2="441.87842" x2="12.256945" y1="455" x1="12.256945" class="line"/>
+          <line style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="line124" y2="447.19797" x2="16.256945" y1="447.19797" x1="8.2569447" class="line"/>
+          <line style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="line126" y2="455" x2="14.256945" y1="455" x1="10.256945" class="line"/>
+          <line style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="line128" y2="441.87842" x2="14.256945" y1="441.87842" x1="10.256945" class="line"/>
+          <rect style="fill:#87cdde;fill-opacity:1;stroke:#000000" id="rect130" height="7.0927515" width="4" y="443.65161" x="10.256945" class="rect"/>
+          <title id="title132">Tue Apr 30 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1012.6
+[Avg+Ecart-Type]		: 1012.55
+Average				: 1012.45
+Ecart-Type				: 0.1
+[Avg-Ecart-Type]		: 1012.35
+Min					: 1012.23</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-12.256945,-451.14029)" style="fill:#87cdde;stroke:#000000" id="g134" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line136" y2="384.42712" x2="24.513889" y1="446.84332" x1="24.513889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line138" y2="423.43726" x2="28.513889" y1="423.43726" x1="20.513889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line140" y2="446.84332" x2="26.513889" y1="446.84332" x1="22.513889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line142" y2="384.42712" x2="26.513889" y1="384.42712" x1="22.513889" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect144" height="42.20187" width="4" y="402.159" x="22.513889" class="rect"/>
+          <title id="title146">Tue Apr 30 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1014.22
+[Avg+Ecart-Type]		: 1013.72
+Average				: 1013.12
+Ecart-Type				: 0.595
+[Avg-Ecart-Type]		: 1012.53
+Min					: 1012.46</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-18.385416,-380.60445)" style="fill:#87cdde;stroke:#000000" id="g148" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line150" y2="345.77164" x2="36.770832" y1="384.42712" x1="36.770832" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line152" y2="369.88699" x2="40.770832" y1="369.88699" x1="32.770832" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line154" y2="384.42712" x2="38.770832" y1="384.42712" x1="34.770832" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line156" y2="345.77164" x2="38.770832" y1="345.77164" x1="34.770832" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect158" height="26.597818" width="4" y="356.41077" x="34.770832" class="rect"/>
+          <title id="title160">Tue Apr 30 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1015.31
+[Avg+Ecart-Type]		: 1015.01
+Average				: 1014.63
+Ecart-Type				: 0.375
+[Avg-Ecart-Type]		: 1014.26
+Min					: 1014.22</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-24.513889,-389.64771)" style="fill:#87cdde;stroke:#000000" id="g162" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line164" y2="348.25409" x2="49.027779" y1="400.03119" x1="49.027779" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line166" y2="369.1777" x2="53.027779" y1="369.1777" x1="45.027779" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line168" y2="400.03119" x2="51.027779" y1="400.03119" x1="47.027779" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line170" y2="348.25409" x2="51.027779" y1="348.25409" x1="47.027779" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect172" height="28.016367" width="4" y="355.34683" x="47.027779" class="rect"/>
+          <title id="title174">Tue Apr 30 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1015.24
+[Avg+Ecart-Type]		: 1015.04
+Average				: 1014.65
+Ecart-Type				: 0.395
+[Avg-Ecart-Type]		: 1014.25
+Min					: 1013.78</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-30.642361,-405.07444)" style="fill:#87cdde;stroke:#000000" id="g176" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line178" y2="370.9509" x2="61.284721" y1="408.18784" x1="61.284721" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line180" y2="387.61887" x2="65.284721" y1="387.61887" x1="57.284721" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line182" y2="408.18784" x2="63.284721" y1="408.18784" x1="59.284721" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line184" y2="370.9509" x2="63.284721" y1="370.9509" x1="59.284721" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect186" height="24.824629" width="4" y="375.20654" x="59.284721" class="rect"/>
+          <title id="title188">Wed May 01 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1014.6
+[Avg+Ecart-Type]		: 1014.48
+Average				: 1014.13
+Ecart-Type				: 0.35
+[Avg-Ecart-Type]		: 1013.78
+Min					: 1013.55</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-36.770832,-393.19408)" style="fill:#87cdde;stroke:#000000" id="g190" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line192" y2="367.40451" x2="73.541664" y1="387.97351" x1="73.541664" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line194" y2="379.81683" x2="77.541664" y1="379.81683" x1="69.541664" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line196" y2="387.97351" x2="75.541664" y1="387.97351" x1="71.541664" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line198" y2="367.40451" x2="75.541664" y1="367.40451" x1="71.541664" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect200" height="11.70304" width="4" y="373.78799" x="71.541664" class="rect"/>
+          <title id="title202">Wed May 01 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1014.7
+[Avg+Ecart-Type]		: 1014.52
+Average				: 1014.35
+Ecart-Type				: 0.165
+[Avg-Ecart-Type]		: 1014.19
+Min					: 1014.12</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-42.899307,-377.05806)" style="fill:#87cdde;stroke:#000000" id="g204" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line206" y2="348.25409" x2="85.798615" y1="374.8519" x1="85.798615" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line208" y2="358.18393" x2="89.798615" y1="358.18393" x1="81.798615" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line210" y2="374.8519" x2="87.798615" y1="374.8519" x1="83.798615" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line212" y2="348.25409" x2="87.798615" y1="348.25409" x1="83.798615" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect214" height="15.604053" width="4" y="350.38193" x="83.798615" class="rect"/>
+          <title id="title216">Wed May 01 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1015.24
+[Avg+Ecart-Type]		: 1015.18
+Average				: 1014.96
+Ecart-Type				: 0.22
+[Avg-Ecart-Type]		: 1014.74
+Min					: 1014.49</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-49.027779,-340.88503)" style="fill:#87cdde;stroke:#000000" id="g218" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line220" y2="301.44193" x2="98.055557" y1="349.31799" x1="98.055557" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line222" y2="326.26657" x2="102.05556" y1="326.26657" x1="94.055557" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line224" y2="349.31799" x2="100.05556" y1="349.31799" x1="96.055557" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line226" y2="301.44193" x2="100.05556" y1="301.44193" x1="96.055557" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect228" height="37.591583" width="4" y="307.47076" x="96.055557" class="rect"/>
+          <title id="title230">Wed May 01 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1016.56
+[Avg+Ecart-Type]		: 1016.39
+Average				: 1015.86
+Ecart-Type				: 0.53
+[Avg-Ecart-Type]		: 1015.33
+Min					: 1015.21</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-55.15625,-319.25214)" style="fill:#87cdde;stroke:#000000" id="g232" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line234" y2="295.41309" x2="110.3125" y1="312.08105" x1="110.3125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line236" y2="303.92441" x2="114.3125" y1="303.92441" x1="106.3125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line238" y2="312.08105" x2="112.3125" y1="312.08105" x1="108.3125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line240" y2="295.41309" x2="112.3125" y1="295.41309" x1="108.3125" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect242" height="12.057677" width="4" y="297.89557" x="108.3125" class="rect"/>
+          <title id="title244">Wed May 01 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1016.73
+[Avg+Ecart-Type]		: 1016.66
+Average				: 1016.49
+Ecart-Type				: 0.17
+[Avg-Ecart-Type]		: 1016.32
+Min					: 1016.26</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-61.284721,-303.82541)" style="fill:#87cdde;stroke:#000000" id="g246" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line248" y2="269.16992" x2="122.56944" y1="307.47076" x1="122.56944" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line250" y2="292.22134" x2="126.56944" y1="292.22134" x1="118.56944" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line252" y2="307.47076" x2="124.56944" y1="307.47076" x1="120.56944" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line254" y2="269.16992" x2="124.56944" y1="269.16992" x1="120.56944" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect256" height="26.243179" width="4" y="279.09976" x="120.56944" class="rect"/>
+          <title id="title258">Wed May 01 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1017.47
+[Avg+Ecart-Type]		: 1017.19
+Average				: 1016.82
+Ecart-Type				: 0.37
+[Avg-Ecart-Type]		: 1016.45
+Min					: 1016.39</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-67.413193,-285.20693)" style="fill:#87cdde;stroke:#000000" id="g260" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line262" y2="260.6586" x2="134.82639" y1="278.74512" x1="134.82639" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line264" y2="269.87918" x2="138.82639" y1="269.87918" x1="130.82639" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line266" y2="278.74512" x2="136.82639" y1="278.74512" x1="132.82639" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line268" y2="260.6586" x2="136.82639" y1="260.6586" x1="132.82639" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect270" height="12.057677" width="4" y="263.85034" x="132.82639" class="rect"/>
+          <title id="title272">Wed May 01 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1017.71
+[Avg+Ecart-Type]		: 1017.62
+Average				: 1017.45
+Ecart-Type				: 0.17
+[Avg-Ecart-Type]		: 1017.28
+Min					: 1017.2</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-73.541664,-304.35736)" style="fill:#87cdde;stroke:#000000" id="g274" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line276" y2="277.32657" x2="147.08333" y1="300.37802" x1="147.08333" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line278" y2="290.09354" x2="151.08333" y1="290.09354" x1="143.08333" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line280" y2="300.37802" x2="149.08333" y1="300.37802" x1="145.08333" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line282" y2="277.32657" x2="149.08333" y1="277.32657" x1="145.08333" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect284" height="13.476228" width="4" y="283.35541" x="145.08333" class="rect"/>
+          <title id="title286">Wed May 01 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1017.24
+[Avg+Ecart-Type]		: 1017.07
+Average				: 1016.88
+Ecart-Type				: 0.19
+[Avg-Ecart-Type]		: 1016.69
+Min					: 1016.59</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-79.670135,-305.42128)" style="fill:#87cdde;stroke:#000000" id="g288" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line290" y2="283.35541" x2="159.34027" y1="296.47702" x1="159.34027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line292" y2="288.32034" x2="163.34027" y1="288.32034" x1="155.34027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line294" y2="296.47702" x2="161.34027" y1="296.47702" x1="157.34027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line296" y2="283.35541" x2="161.34027" y1="283.35541" x1="157.34027" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect298" height="6.0288386" width="4" y="285.48325" x="157.34027" class="rect"/>
+          <title id="title300">Wed May 01 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1017.07
+[Avg+Ecart-Type]		: 1017.01
+Average				: 1016.93
+Ecart-Type				: 0.085
+[Avg-Ecart-Type]		: 1016.84
+Min					: 1016.7</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-85.798615,-304.35736)" style="fill:#87cdde;stroke:#000000" id="g302" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line304" y2="278.74512" x2="171.59723" y1="298.95947" x1="171.59723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line306" y2="292.22134" x2="175.59723" y1="292.22134" x1="167.59723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line308" y2="298.95947" x2="173.59723" y1="298.95947" x1="169.59723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line310" y2="278.74512" x2="173.59723" y1="278.74512" x1="169.59723" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect312" height="10.28449" width="4" y="287.25644" x="169.59723" class="rect"/>
+          <title id="title314">Wed May 01 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1017.2
+[Avg+Ecart-Type]		: 1016.96
+Average				: 1016.82
+Ecart-Type				: 0.145
+[Avg-Ecart-Type]		: 1016.67
+Min					: 1016.63</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-91.927086,-278.46883)" style="fill:#87cdde;stroke:#000000" id="g316" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line318" y2="251.0834" x2="183.85417" y1="274.84412" x1="183.85417" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line320" y2="261.36789" x2="187.85417" y1="261.36789" x1="179.85417" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line322" y2="274.84412" x2="185.85417" y1="274.84412" x1="181.85417" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line324" y2="251.0834" x2="185.85417" y1="251.0834" x1="181.85417" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect326" height="13.476228" width="4" y="254.62978" x="181.85417" class="rect"/>
+          <title id="title328">Wed May 01 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1017.98
+[Avg+Ecart-Type]		: 1017.88
+Average				: 1017.69
+Ecart-Type				: 0.19
+[Avg-Ecart-Type]		: 1017.5
+Min					: 1017.31</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-98.055557,-253.82151)" style="fill:#87cdde;stroke:#000000" id="g330" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line332" y2="228.03195" x2="196.11111" y1="248.60094" x1="196.11111" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line334" y2="242.21745" x2="200.11111" y1="242.21745" x1="192.11111" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line336" y2="248.60094" x2="198.11111" y1="248.60094" x1="194.11111" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line338" y2="228.03195" x2="198.11111" y1="228.03195" x1="194.11111" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect340" height="12.412314" width="4" y="236.18861" x="194.11111" class="rect"/>
+          <title id="title342">Wed May 01 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1018.63
+[Avg+Ecart-Type]		: 1018.4
+Average				: 1018.23
+Ecart-Type				: 0.175
+[Avg-Ecart-Type]		: 1018.05
+Min					: 1018.05</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-104.18403,-255.06274)" style="fill:#87cdde;stroke:#000000" id="g344" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line346" y2="229.4505" x2="208.36806" y1="249.66484" x1="208.36806" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line348" y2="237.60718" x2="212.36806" y1="237.60718" x1="204.36806" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line350" y2="249.66484" x2="210.36806" y1="249.66484" x1="206.36806" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line352" y2="229.4505" x2="210.36806" y1="229.4505" x1="206.36806" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect354" height="11.70304" width="4" y="231.57834" x="206.36806" class="rect"/>
+          <title id="title356">Thu May 02 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1018.59
+[Avg+Ecart-Type]		: 1018.53
+Average				: 1018.36
+Ecart-Type				: 0.165
+[Avg-Ecart-Type]		: 1018.2
+Min					: 1018.02</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-110.3125,-276.69564)" style="fill:#87cdde;stroke:#000000" id="g358" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line360" y2="254.62978" x2="220.625" y1="267.75137" x1="220.625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line362" y2="261.72253" x2="224.625" y1="261.72253" x1="216.625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line364" y2="267.75137" x2="222.625" y1="267.75137" x1="218.625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line366" y2="254.62978" x2="222.625" y1="254.62978" x1="218.625" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect368" height="7.8020263" width="4" y="257.8215" x="218.625" class="rect"/>
+          <title id="title370">Thu May 02 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1017.88
+[Avg+Ecart-Type]		: 1017.79
+Average				: 1017.68
+Ecart-Type				: 0.11
+[Avg-Ecart-Type]		: 1017.57
+Min					: 1017.51</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-116.44097,-277.75954)" style="fill:#87cdde;stroke:#000000" id="g372" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line374" y2="259.24005" x2="232.88194" y1="265.26889" x1="232.88194" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line376" y2="262.43179" x2="236.88194" y1="262.43179" x1="228.88194" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line378" y2="265.26889" x2="234.88194" y1="265.26889" x1="230.88194" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line380" y2="259.24005" x2="234.88194" y1="259.24005" x1="230.88194" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect382" height="2.8371005" width="4" y="261.01324" x="230.88194" class="rect"/>
+          <title id="title384">Thu May 02 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1017.75
+[Avg+Ecart-Type]		: 1017.7
+Average				: 1017.66
+Ecart-Type				: 0.04
+[Avg-Ecart-Type]		: 1017.62
+Min					: 1017.58</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-122.56944,-261.09159)" style="fill:#87cdde;stroke:#000000" id="g386" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line388" y2="229.4505" x2="245.13889" y1="261.72253" x1="245.13889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line390" y2="245.05457" x2="249.13889" y1="245.05457" x1="241.13889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line392" y2="261.72253" x2="247.13889" y1="261.72253" x1="243.13889" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line394" y2="229.4505" x2="247.13889" y1="229.4505" x1="243.13889" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect396" height="17.731878" width="4" y="236.18861" x="243.13889" class="rect"/>
+          <title id="title398">Thu May 02 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1018.59
+[Avg+Ecart-Type]		: 1018.4
+Average				: 1018.15
+Ecart-Type				: 0.25
+[Avg-Ecart-Type]		: 1017.9
+Min					: 1017.68</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-128.69792,-238.39478)" style="fill:#87cdde;stroke:#000000" id="g400" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line402" y2="216.32892" x2="257.39584" y1="229.4505" x1="257.39584" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line404" y2="221.64848" x2="261.39584" y1="221.64848" x1="253.39583" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line406" y2="229.4505" x2="259.39584" y1="229.4505" x1="255.39583" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line408" y2="216.32892" x2="259.39584" y1="216.32892" x1="255.39583" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect410" height="6.3834763" width="4" y="218.45674" x="255.39583" class="rect"/>
+          <title id="title412">Thu May 02 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1018.96
+[Avg+Ecart-Type]		: 1018.9
+Average				: 1018.81
+Ecart-Type				: 0.09
+[Avg-Ecart-Type]		: 1018.72
+Min					: 1018.59</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-134.82639,-229.88347)" style="fill:#87cdde;stroke:#000000" id="g414" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line416" y2="211.36398" x2="269.65277" y1="217.39282" x1="269.65277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line418" y2="214.91037" x2="273.65277" y1="214.91037" x1="265.65277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line420" y2="217.39282" x2="271.65277" y1="217.39282" x1="267.65277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line422" y2="211.36398" x2="271.65277" y1="211.36398" x1="267.65277" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect424" height="3.1917381" width="4" y="213.13718" x="267.65277" class="rect"/>
+          <title id="title426">Thu May 02 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1019.1
+[Avg+Ecart-Type]		: 1019.05
+Average				: 1019
+Ecart-Type				: 0.045
+[Avg-Ecart-Type]		: 1018.96
+Min					: 1018.93</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-140.95486,-234.67109)" style="fill:#87cdde;stroke:#000000" id="g428" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line430" y2="216.32892" x2="281.90973" y1="222.00311" x1="281.90973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line432" y2="219.52066" x2="285.90973" y1="219.52066" x1="277.90973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line434" y2="222.00311" x2="283.90973" y1="222.00311" x1="279.90973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line436" y2="216.32892" x2="283.90973" y1="216.32892" x1="279.90973" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect438" height="3.5463758" width="4" y="217.74747" x="279.90973" class="rect"/>
+          <title id="title440">Thu May 02 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1018.96
+[Avg+Ecart-Type]		: 1018.92
+Average				: 1018.87
+Ecart-Type				: 0.05
+[Avg-Ecart-Type]		: 1018.82
+Min					: 1018.8</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-147.08333,-246.01949)" style="fill:#87cdde;stroke:#000000" id="g442" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line444" y2="218.45674" x2="294.16666" y1="242.5721" x1="294.16666" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line446" y2="229.4505" x2="298.16666" y1="229.4505" x1="290.16666" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line448" y2="242.5721" x2="296.16666" y1="242.5721" x1="292.16666" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line450" y2="218.45674" x2="296.16666" y1="218.45674" x1="292.16666" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect452" height="15.249415" width="4" y="221.64848" x="292.16666" class="rect"/>
+          <title id="title454">Thu May 02 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1018.9
+[Avg+Ecart-Type]		: 1018.81
+Average				: 1018.59
+Ecart-Type				: 0.215
+[Avg-Ecart-Type]		: 1018.38
+Min					: 1018.22</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-153.21181,-259.85035)" style="fill:#87cdde;stroke:#000000" id="g456" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line458" y2="239.02573" x2="306.42361" y1="249.66484" x1="306.42361" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line460" y2="243.63602" x2="310.42361" y1="243.63602" x1="302.42361" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line462" y2="249.66484" x2="308.42361" y1="249.66484" x1="304.42361" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line464" y2="239.02573" x2="308.42361" y1="239.02573" x1="304.42361" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect466" height="6.3834763" width="4" y="240.44427" x="304.42361" class="rect"/>
+          <title id="title468">Thu May 02 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1018.32
+[Avg+Ecart-Type]		: 1018.28
+Average				: 1018.19
+Ecart-Type				: 0.09
+[Avg-Ecart-Type]		: 1018.1
+Min					: 1018.02</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-159.34027,-246.01949)" style="fill:#87cdde;stroke:#000000" id="g470" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line472" y2="220.93921" x2="318.68054" y1="240.08963" x1="318.68054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line474" y2="232.99689" x2="322.68054" y1="232.99689" x1="314.68054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line476" y2="240.08963" x2="320.68054" y1="240.08963" x1="316.68054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line478" y2="220.93921" x2="320.68054" y1="220.93921" x1="316.68054" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect480" height="12.412314" width="4" y="226.6134" x="316.68054" class="rect"/>
+          <title id="title482">Thu May 02 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1018.83
+[Avg+Ecart-Type]		: 1018.67
+Average				: 1018.49
+Ecart-Type				: 0.175
+[Avg-Ecart-Type]		: 1018.32
+Min					: 1018.29</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-165.46875,-220.13095)" style="fill:#87cdde;stroke:#000000" id="g484" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line486" y2="190.79501" x2="330.9375" y1="218.45674" x1="330.9375" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line488" y2="202.85269" x2="334.9375" y1="202.85269" x1="326.9375" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line490" y2="218.45674" x2="332.9375" y1="218.45674" x1="328.9375" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line492" y2="190.79501" x2="332.9375" y1="190.79501" x1="328.9375" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect494" height="15.604053" width="4" y="195.05066" x="328.9375" class="rect"/>
+          <title id="title496">Thu May 02 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1019.68
+[Avg+Ecart-Type]		: 1019.56
+Average				: 1019.34
+Ecart-Type				: 0.22
+[Avg-Ecart-Type]		: 1019.12
+Min					: 1018.9</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-171.59723,-199.20733)" style="fill:#87cdde;stroke:#000000" id="g498" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line500" y2="175.19096" x2="343.19446" y1="192.21356" x1="343.19446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line502" y2="182.99298" x2="347.19446" y1="182.99298" x1="339.19446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line504" y2="192.21356" x2="345.19446" y1="192.21356" x1="341.19446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line506" y2="175.19096" x2="345.19446" y1="175.19096" x1="341.19446" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect508" height="8.8659391" width="4" y="178.73734" x="341.19446" class="rect"/>
+          <title id="title510">Thu May 02 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1020.12
+[Avg+Ecart-Type]		: 1020.02
+Average				: 1019.9
+Ecart-Type				: 0.125
+[Avg-Ecart-Type]		: 1019.77
+Min					: 1019.64</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-177.72569,-193.17849)" style="fill:#87cdde;stroke:#000000" id="g512" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line514" y2="168.09821" x2="355.45139" y1="187.24864" x1="355.45139" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line516" y2="177.67342" x2="359.45139" y1="177.67342" x1="351.45139" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line518" y2="187.24864" x2="357.45139" y1="187.24864" x1="353.45139" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line520" y2="168.09821" x2="357.45139" y1="168.09821" x1="353.45139" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect522" height="13.12159" width="4" y="170.9353" x="353.45139" class="rect"/>
+          <title id="title524">Fri May 03 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1020.32
+[Avg+Ecart-Type]		: 1020.24
+Average				: 1020.05
+Ecart-Type				: 0.185
+[Avg-Ecart-Type]		: 1019.87
+Min					: 1019.78</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-183.85417,-202.7537)" style="fill:#87cdde;stroke:#000000" id="g526" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line528" y2="183.70226" x2="367.70834" y1="190.79501" x1="367.70834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line530" y2="186.53937" x2="371.70834" y1="186.53937" x1="363.70834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line532" y2="190.79501" x2="369.70834" y1="190.79501" x1="365.70834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line534" y2="183.70226" x2="369.70834" y1="183.70226" x1="365.70834" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect536" height="3.9010131" width="4" y="184.41153" x="365.70834" class="rect"/>
+          <title id="title538">Fri May 03 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1019.88
+[Avg+Ecart-Type]		: 1019.86
+Average				: 1019.8
+Ecart-Type				: 0.055
+[Avg-Ecart-Type]		: 1019.75
+Min					: 1019.68</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-189.98264,-211.79696)" style="fill:#87cdde;stroke:#000000" id="g540" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line542" y2="190.79501" x2="379.96527" y1="201.78877" x1="379.96527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line544" y2="196.82385" x2="383.96527" y1="196.82385" x1="375.96527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line546" y2="201.78877" x2="381.96527" y1="201.78877" x1="377.96527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line548" y2="190.79501" x2="381.96527" y1="190.79501" x1="377.96527" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect550" height="6.3834763" width="4" y="193.63211" x="377.96527" class="rect"/>
+          <title id="title552">Fri May 03 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1019.68
+[Avg+Ecart-Type]		: 1019.6
+Average				: 1019.51
+Ecart-Type				: 0.09
+[Avg-Ecart-Type]		: 1019.42
+Min					: 1019.37</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-196.11111,-185.55378)" style="fill:#87cdde;stroke:#000000" id="g554" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line556" y2="151.43024" x2="392.22223" y1="188.66719" x1="392.22223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line558" y2="167.38893" x2="396.22223" y1="167.38893" x1="388.22223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line560" y2="188.66719" x2="394.22223" y1="188.66719" x1="390.22223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line562" y2="151.43024" x2="394.22223" y1="151.43024" x1="390.22223" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect564" height="23.40608" width="4" y="155.6859" x="390.22223" class="rect"/>
+          <title id="title566">Fri May 03 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1020.79
+[Avg+Ecart-Type]		: 1020.67
+Average				: 1020.34
+Ecart-Type				: 0.33
+[Avg-Ecart-Type]		: 1020.01
+Min					: 1019.74</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-202.23958,-155.94155)" style="fill:#87cdde;stroke:#000000" id="g568" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line570" y2="130.86127" x2="404.47916" y1="150.01169" x1="404.47916" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line572" y2="140.43648" x2="408.47916" y1="140.43648" x1="400.47916" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line574" y2="150.01169" x2="406.47916" y1="150.01169" x1="402.47916" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line576" y2="130.86127" x2="406.47916" y1="130.86127" x1="402.47916" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect578" height="10.993765" width="4" y="135.11691" x="402.47916" class="rect"/>
+          <title id="title580">Fri May 03 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1021.37
+[Avg+Ecart-Type]		: 1021.25
+Average				: 1021.1
+Ecart-Type				: 0.155
+[Avg-Ecart-Type]		: 1020.94
+Min					: 1020.83</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-208.36806,-147.60756)" style="fill:#87cdde;stroke:#000000" id="g582" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line584" y2="124.83242" x2="416.73611" y1="139.37256" x1="416.73611" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line586" y2="129.44272" x2="420.73611" y1="129.44272" x1="412.73611" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line588" y2="139.37256" x2="418.73611" y1="139.37256" x1="414.73611" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line590" y2="124.83242" x2="418.73611" y1="124.83242" x1="414.73611" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect592" height="7.0927515" width="4" y="125.89634" x="414.73611" class="rect"/>
+          <title id="title594">Fri May 03 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1021.54
+[Avg+Ecart-Type]		: 1021.51
+Average				: 1021.41
+Ecart-Type				: 0.1
+[Avg-Ecart-Type]		: 1021.31
+Min					: 1021.13</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-214.49652,-157.18278)" style="fill:#87cdde;stroke:#000000" id="g596" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line598" y2="136.89011" x2="428.99304" y1="146.46532" x1="428.99304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line600" y2="141.5004" x2="432.99304" y1="141.5004" x1="424.99304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line602" y2="146.46532" x2="430.99304" y1="146.46532" x1="426.99304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line604" y2="136.89011" x2="430.99304" y1="136.89011" x1="426.99304" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect606" height="5.674201" width="4" y="138.66328" x="426.99304" class="rect"/>
+          <title id="title608">Fri May 03 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1021.2
+[Avg+Ecart-Type]		: 1021.15
+Average				: 1021.07
+Ecart-Type				: 0.08
+[Avg-Ecart-Type]		: 1020.99
+Min					: 1020.93</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-220.625,-172.96415)" style="fill:#87cdde;stroke:#000000" id="g610" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line612" y2="141.85503" x2="441.25" y1="173.06314" x1="441.25" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line614" y2="158.16835" x2="445.25" y1="158.16835" x1="437.25" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line616" y2="173.06314" x2="443.25" y1="173.06314" x1="439.25" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line618" y2="141.85503" x2="443.25" y1="141.85503" x1="439.25" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect620" height="20.568979" width="4" y="147.88387" x="439.25" class="rect"/>
+          <title id="title622">Fri May 03 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1021.06
+[Avg+Ecart-Type]		: 1020.89
+Average				: 1020.6
+Ecart-Type				: 0.29
+[Avg-Ecart-Type]		: 1020.31
+Min					: 1020.18</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-226.75348,-193.88777)" style="fill:#87cdde;stroke:#000000" id="g624" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line626" y2="173.06314" x2="453.50696" y1="183.70226" x1="453.50696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line628" y2="178.38269" x2="457.50696" y1="178.38269" x1="449.50696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line630" y2="183.70226" x2="455.50696" y1="183.70226" x1="451.50696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line632" y2="173.06314" x2="455.50696" y1="173.06314" x1="451.50696" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect634" height="6.0288386" width="4" y="175.54559" x="451.50696" class="rect"/>
+          <title id="title636">Fri May 03 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1020.18
+[Avg+Ecart-Type]		: 1020.11
+Average				: 1020.03
+Ecart-Type				: 0.085
+[Avg-Ecart-Type]		: 1019.94
+Min					: 1019.88</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-232.88194,-187.85893)" style="fill:#87cdde;stroke:#000000" id="g638" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line640" y2="162.06937" x2="465.76389" y1="182.63835" x1="465.76389" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line642" y2="175.54559" x2="469.76389" y1="175.54559" x1="461.76389" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line644" y2="182.63835" x2="467.76389" y1="182.63835" x1="463.76389" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line646" y2="162.06937" x2="467.76389" y1="162.06937" x1="463.76389" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect648" height="12.766953" width="4" y="169.16212" x="463.76389" class="rect"/>
+          <title id="title650">Fri May 03 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1020.49
+[Avg+Ecart-Type]		: 1020.29
+Average				: 1020.11
+Ecart-Type				: 0.18
+[Avg-Ecart-Type]		: 1019.93
+Min					: 1019.91</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-239.01042,-158.42401)" style="fill:#87cdde;stroke:#000000" id="g652" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line654" y2="126.25098" x2="478.02084" y1="159.5869" x1="478.02084" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line656" y2="142.5643" x2="482.02084" y1="142.5643" x1="474.02084" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line658" y2="159.5869" x2="480.02084" y1="159.5869" x1="476.02084" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line660" y2="126.25098" x2="480.02084" y1="126.25098" x1="476.02084" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect662" height="21.98753" width="4" y="131.57054" x="476.02084" class="rect"/>
+          <title id="title664">Fri May 03 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1021.5
+[Avg+Ecart-Type]		: 1021.35
+Average				: 1021.04
+Ecart-Type				: 0.31
+[Avg-Ecart-Type]		: 1020.73
+Min					: 1020.56</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-245.13889,-133.7767)" style="fill:#87cdde;stroke:#000000" id="g666" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line668" y2="112.77475" x2="490.27777" y1="123.76851" x1="490.27777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line670" y2="119.51286" x2="494.27777" y1="119.51286" x1="486.27777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line672" y2="123.76851" x2="492.27777" y1="123.76851" x1="488.27777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line674" y2="112.77475" x2="492.27777" y1="112.77475" x1="488.27777" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect676" height="6.0288386" width="4" y="116.32112" x="488.27777" class="rect"/>
+          <title id="title678">Fri May 03 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1021.88
+[Avg+Ecart-Type]		: 1021.78
+Average				: 1021.69
+Ecart-Type				: 0.085
+[Avg-Ecart-Type]		: 1021.61
+Min					: 1021.57</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-251.26736,-130.76228)" style="fill:#87cdde;stroke:#000000" id="g680" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line682" y2="109.22837" x2="502.53473" y1="121.28605" x1="502.53473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line684" y2="114.54794" x2="506.53473" y1="114.54794" x1="498.53473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line686" y2="121.28605" x2="504.53473" y1="121.28605" x1="500.53473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line688" y2="109.22837" x2="504.53473" y1="109.22837" x1="500.53473" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect690" height="7.4473891" width="4" y="111.00156" x="500.53473" class="rect"/>
+          <title id="title692">Sat May 04 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1021.98
+[Avg+Ecart-Type]		: 1021.93
+Average				: 1021.83
+Ecart-Type				: 0.105
+[Avg-Ecart-Type]		: 1021.72
+Min					: 1021.64</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-257.39584,-145.1251)" style="fill:#87cdde;stroke:#000000" id="g694" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line696" y2="122.34996" x2="514.79169" y1="136.89011" x1="514.79169" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line698" y2="129.79735" x2="518.79169" y1="129.79735" x1="510.79166" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line700" y2="136.89011" x2="516.79169" y1="136.89011" x1="512.79169" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line702" y2="122.34996" x2="516.79169" y1="122.34996" x1="512.79169" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect704" height="6.7381139" width="4" y="126.25098" x="512.79169" class="rect"/>
+          <title id="title706">Sat May 04 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1021.61
+[Avg+Ecart-Type]		: 1021.5
+Average				: 1021.4
+Ecart-Type				: 0.095
+[Avg-Ecart-Type]		: 1021.31
+Min					: 1021.2</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-263.52429,-146.36633)" style="fill:#87cdde;stroke:#000000" id="g708" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line710" y2="117.73967" x2="527.04858" y1="143.98285" x1="527.04858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line712" y2="135.47156" x2="531.04858" y1="135.47156" x1="523.04858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line714" y2="143.98285" x2="529.04858" y1="143.98285" x1="525.04858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line716" y2="117.73967" x2="529.04858" y1="117.73967" x1="525.04858" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect718" height="16.313328" width="4" y="127.31489" x="525.04858" class="rect"/>
+          <title id="title720">Sat May 04 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1021.74
+[Avg+Ecart-Type]		: 1021.47
+Average				: 1021.24
+Ecart-Type				: 0.23
+[Avg-Ecart-Type]		: 1021.01
+Min					: 1021</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-269.65277,-116.39946)" style="fill:#87cdde;stroke:#000000" id="g722" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line724" y2="86.53157" x2="539.30554" y1="115.25721" x1="539.30554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line726" y2="102.49026" x2="543.30554" y1="102.49026" x1="535.30554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line728" y2="115.25721" x2="541.30554" y1="115.25721" x1="537.30554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line730" y2="86.53157" x2="541.30554" y1="86.53157" x1="537.30554" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect732" height="17.377241" width="4" y="93.624321" x="537.30554" class="rect"/>
+          <title id="title734">Sat May 04 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1022.62
+[Avg+Ecart-Type]		: 1022.42
+Average				: 1022.17
+Ecart-Type				: 0.245
+[Avg-Ecart-Type]		: 1021.93
+Min					: 1021.81</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-275.78125,-88.205776)" style="fill:#87cdde;stroke:#000000" id="g736" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line738" y2="56.387375" x2="551.5625" y1="89.01403" x1="551.5625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line740" y2="69.863602" x2="555.5625" y1="69.863602" x1="547.5625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line742" y2="89.01403" x2="553.5625" y1="89.01403" x1="549.5625" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line744" y2="56.387375" x2="553.5625" y1="56.387375" x1="549.5625" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect746" height="17.731878" width="4" y="60.997662" x="549.5625" class="rect"/>
+          <title id="title748">Sat May 04 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1023.47
+[Avg+Ecart-Type]		: 1023.34
+Average				: 1023.09
+Ecart-Type				: 0.25
+[Avg-Ecart-Type]		: 1022.84
+Min					: 1022.55</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-281.90973,-83.418167)" style="fill:#87cdde;stroke:#000000" id="g750" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line752" y2="57.805923" x2="563.81946" y1="78.020264" x1="563.81946" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line754" y2="68.090416" x2="567.81946" y1="68.090416" x1="559.81946" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line756" y2="78.020264" x2="565.81946" y1="78.020264" x1="561.81946" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line758" y2="57.805923" x2="565.81946" y1="57.805923" x1="561.81946" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect760" height="12.412314" width="4" y="61.706936" x="561.81946" class="rect"/>
+          <title id="title762">Sat May 04 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1023.43
+[Avg+Ecart-Type]		: 1023.32
+Average				: 1023.14
+Ecart-Type				: 0.175
+[Avg-Ecart-Type]		: 1022.97
+Min					: 1022.86</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-288.03821,-110.37062)" style="fill:#87cdde;stroke:#000000" id="g764" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line766" y2="78.020264" x2="576.07642" y1="111.71083" x1="576.07642" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line768" y2="95.397507" x2="580.07642" y1="95.397507" x1="572.07642" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line770" y2="111.71083" x2="578.07642" y1="111.71083" x1="574.07642" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line772" y2="78.020264" x2="578.07642" y1="78.020264" x1="574.07642" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect774" height="20.214342" width="4" y="85.113014" x="574.07642" class="rect"/>
+          <title id="title776">Sat May 04 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1022.86
+[Avg+Ecart-Type]		: 1022.66
+Average				: 1022.37
+Ecart-Type				: 0.285
+[Avg-Ecart-Type]		: 1022.09
+Min					: 1021.91</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-294.16666,-143.35192)" style="fill:#87cdde;stroke:#000000" id="g778" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line780" y2="112.77475" x2="588.33331" y1="142.91895" x1="588.33331" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line782" y2="127.66953" x2="592.33331" y1="127.66953" x1="584.33331" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line784" y2="142.91895" x2="590.33331" y1="142.91895" x1="586.33331" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line786" y2="112.77475" x2="590.33331" y1="112.77475" x1="586.33331" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect788" height="18.795792" width="4" y="118.09431" x="586.33331" class="rect"/>
+          <title id="title790">Sat May 04 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1021.88
+[Avg+Ecart-Type]		: 1021.73
+Average				: 1021.46
+Ecart-Type				: 0.265
+[Avg-Ecart-Type]		: 1021.2
+Min					: 1021.03</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-300.29514,-160.90648)" style="fill:#87cdde;stroke:#000000" id="g792" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line794" y2="141.85503" x2="600.59027" y1="148.94778" x1="600.59027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line796" y2="144.69212" x2="604.59027" y1="144.69212" x1="596.59027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line798" y2="148.94778" x2="602.59027" y1="148.94778" x1="598.59027" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line800" y2="141.85503" x2="602.59027" y1="141.85503" x1="598.59027" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect802" height="3.5463758" width="4" y="142.91895" x="598.59027" class="rect"/>
+          <title id="title804">Sat May 04 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1021.06
+[Avg+Ecart-Type]		: 1021.03
+Average				: 1020.98
+Ecart-Type				: 0.05
+[Avg-Ecart-Type]		: 1020.93
+Min					: 1020.86</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-306.42361,-158.42401)" style="fill:#87cdde;stroke:#000000" id="g806" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line808" y2="134.40764" x2="612.84723" y1="151.43024" x1="612.84723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line810" y2="145.4014" x2="616.84723" y1="145.4014" x1="608.84723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line812" y2="151.43024" x2="614.84723" y1="151.43024" x1="610.84723" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line814" y2="134.40764" x2="614.84723" y1="134.40764" x1="610.84723" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect816" height="8.1566639" width="4" y="141.5004" x="610.84723" class="rect"/>
+          <title id="title818">Sat May 04 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1021.27
+[Avg+Ecart-Type]		: 1021.07
+Average				: 1020.96
+Ecart-Type				: 0.115
+[Avg-Ecart-Type]		: 1020.84
+Min					: 1020.79</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-312.55209,-132.00351)" style="fill:#87cdde;stroke:#000000" id="g820" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line822" y2="99.65316" x2="625.10419" y1="133.34372" x1="625.10419" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line824" y2="113.12939" x2="629.10419" y1="113.12939" x1="621.10419" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line826" y2="133.34372" x2="627.10419" y1="133.34372" x1="623.10419" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line828" y2="99.65316" x2="627.10419" y1="99.65316" x1="623.10419" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect830" height="21.98753" width="4" y="102.13562" x="623.10419" class="rect"/>
+          <title id="title832">Sat May 04 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1022.25
+[Avg+Ecart-Type]		: 1022.18
+Average				: 1021.87
+Ecart-Type				: 0.31
+[Avg-Ecart-Type]		: 1021.56
+Min					: 1021.3</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-318.68054,-106.11497)" style="fill:#87cdde;stroke:#000000" id="g834" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line836" y2="85.113014" x2="637.36108" y1="96.106781" x1="637.36108" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line838" y2="88.659393" x2="641.36108" y1="88.659393" x1="633.36108" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line840" y2="96.106781" x2="639.36108" y1="96.106781" x1="635.36108" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line842" y2="85.113014" x2="639.36108" y1="85.113014" x1="635.36108" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect844" height="5.3195634" width="4" y="86.176926" x="635.36108" class="rect"/>
+          <title id="title846">Sat May 04 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1022.66
+[Avg+Ecart-Type]		: 1022.63
+Average				: 1022.56
+Ecart-Type				: 0.075
+[Avg-Ecart-Type]		: 1022.48
+Min					: 1022.35</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-324.80902,-114.62627)" style="fill:#87cdde;stroke:#000000" id="g848" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line850" y2="86.53157" x2="649.61804" y1="111.71083" x1="649.61804" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line852" y2="96.816055" x2="653.61804" y1="96.816055" x1="645.61804" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line854" y2="111.71083" x2="651.61804" y1="111.71083" x1="647.61804" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line856" y2="86.53157" x2="651.61804" y1="86.53157" x1="647.61804" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect858" height="14.894778" width="4" y="89.368668" x="647.61804" class="rect"/>
+          <title id="title860">Sun May 05 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1022.62
+[Avg+Ecart-Type]		: 1022.54
+Average				: 1022.33
+Ecart-Type				: 0.21
+[Avg-Ecart-Type]		: 1022.12
+Min					: 1021.91</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-330.9375,-139.62822)" style="fill:#87cdde;stroke:#000000" id="g862" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line864" y2="116.32112" x2="661.875" y1="131.92517" x1="661.875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line866" y2="125.18707" x2="665.875" y1="125.18707" x1="657.875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line868" y2="131.92517" x2="663.875" y1="131.92517" x1="659.875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line870" y2="116.32112" x2="663.875" y1="116.32112" x1="659.875" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect872" height="9.9298515" width="4" y="120.22214" x="659.875" class="rect"/>
+          <title id="title874">Sun May 05 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1021.78
+[Avg+Ecart-Type]		: 1021.67
+Average				: 1021.53
+Ecart-Type				: 0.14
+[Avg-Ecart-Type]		: 1021.39
+Min					: 1021.34</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-337.06598,-142.81996)" style="fill:#87cdde;stroke:#000000" id="g876" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line878" y2="120.22214" x2="674.13196" y1="134.40764" x1="674.13196" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line880" y2="129.44272" x2="678.13196" y1="129.44272" x1="670.13196" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line882" y2="134.40764" x2="676.13196" y1="134.40764" x1="672.13196" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line884" y2="120.22214" x2="676.13196" y1="120.22214" x1="672.13196" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect886" height="8.511302" width="4" y="125.18707" x="672.13196" class="rect"/>
+          <title id="title888">Sun May 05 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1021.67
+[Avg+Ecart-Type]		: 1021.53
+Average				: 1021.41
+Ecart-Type				: 0.12
+[Avg-Ecart-Type]		: 1021.29
+Min					: 1021.27</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-343.19446,-125.97467)" style="fill:#87cdde;stroke:#000000" id="g890" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line892" y2="99.65316" x2="686.38892" y1="121.28605" x1="686.38892" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line894" y2="107.10055" x2="690.38892" y1="107.10055" x1="682.38892" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line896" y2="121.28605" x2="688.38892" y1="121.28605" x1="684.38892" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line898" y2="99.65316" x2="688.38892" y1="99.65316" x1="684.38892" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect900" height="13.12159" width="4" y="100.36243" x="684.38892" class="rect"/>
+          <title id="title902">Sun May 05 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1022.25
+[Avg+Ecart-Type]		: 1022.23
+Average				: 1022.04
+Ecart-Type				: 0.185
+[Avg-Ecart-Type]		: 1021.86
+Min					: 1021.64</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-349.32291,-118.17265)" style="fill:#87cdde;stroke:#000000" id="g904" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line906" y2="98.589241" x2="698.64581" y1="106.74591" x1="698.64581" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line908" y2="101.78098" x2="702.64581" y1="101.78098" x1="694.64581" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line910" y2="106.74591" x2="700.64581" y1="106.74591" x1="696.64581" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line912" y2="98.589241" x2="700.64581" y1="98.589241" x1="696.64581" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect914" height="3.9010131" width="4" y="100.0078" x="696.64581" class="rect"/>
+          <title id="title916">Sun May 05 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1022.28
+[Avg+Ecart-Type]		: 1022.24
+Average				: 1022.19
+Ecart-Type				: 0.055
+[Avg-Ecart-Type]		: 1022.13
+Min					: 1022.05</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-355.45139,-123.66953)" style="fill:#87cdde;stroke:#000000" id="g918" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line920" y2="98.589241" x2="710.90277" y1="117.73967" x1="710.90277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line922" y2="107.45518" x2="714.90277" y1="107.45518" x1="706.90277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line924" y2="117.73967" x2="712.90277" y1="117.73967" x1="708.90277" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line926" y2="98.589241" x2="712.90277" y1="98.589241" x1="708.90277" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect928" height="10.993765" width="4" y="101.78098" x="708.90277" class="rect"/>
+          <title id="title930">Sun May 05 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1022.28
+[Avg+Ecart-Type]		: 1022.19
+Average				: 1022.03
+Ecart-Type				: 0.155
+[Avg-Ecart-Type]		: 1021.88
+Min					: 1021.74</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-361.57986,-148.67147)" style="fill:#87cdde;stroke:#000000" id="g932" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line934" y2="116.32112" x2="723.15973" y1="150.01169" x1="723.15973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line936" y2="132.63445" x2="727.15973" y1="132.63445" x1="719.15973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line938" y2="150.01169" x2="725.15973" y1="150.01169" x1="721.15973" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line940" y2="116.32112" x2="725.15973" y1="116.32112" x1="721.15973" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect942" height="19.150429" width="4" y="123.05923" x="721.15973" class="rect"/>
+          <title id="title944">Sun May 05 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1021.78
+[Avg+Ecart-Type]		: 1021.59
+Average				: 1021.32
+Ecart-Type				: 0.27
+[Avg-Ecart-Type]		: 1021.05
+Min					: 1020.83</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-367.70834,-188.39089)" style="fill:#87cdde;stroke:#000000" id="g946" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line948" y2="152.49416" x2="735.41669" y1="193.27748" x1="735.41669" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line950" y2="172.7085" x2="739.41669" y1="172.7085" x1="731.41669" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line952" y2="193.27748" x2="737.41669" y1="193.27748" x1="733.41669" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line954" y2="152.49416" x2="737.41669" y1="152.49416" x1="733.41669" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect956" height="27.307093" width="4" y="158.87762" x="733.41669" class="rect"/>
+          <title id="title958">Sun May 05 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1020.76
+[Avg+Ecart-Type]		: 1020.58
+Average				: 1020.19
+Ecart-Type				: 0.385
+[Avg-Ecart-Type]		: 1019.81
+Min					: 1019.61</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-373.83679,-214.27943)" style="fill:#87cdde;stroke:#000000" id="g960" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line962" y2="194.69603" x2="747.67358" y1="202.85269" x1="747.67358" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line964" y2="199.30632" x2="751.67358" y1="199.30632" x1="743.67358" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line966" y2="202.85269" x2="749.67358" y1="202.85269" x1="745.67358" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line968" y2="194.69603" x2="749.67358" y1="194.69603" x1="745.67358" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect970" height="4.6102886" width="4" y="196.82385" x="745.67358" class="rect"/>
+          <title id="title972">Sun May 05 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1019.57
+[Avg+Ecart-Type]		: 1019.51
+Average				: 1019.44
+Ecart-Type				: 0.065
+[Avg-Ecart-Type]		: 1019.38
+Min					: 1019.34</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-379.96527,-213.74747)" style="fill:#87cdde;stroke:#000000" id="g974" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line976" y2="194.69603" x2="759.93054" y1="201.78877" x1="759.93054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line978" y2="198.2424" x2="763.93054" y1="198.2424" x1="755.93054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line980" y2="201.78877" x2="761.93054" y1="201.78877" x1="757.93054" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line982" y2="194.69603" x2="761.93054" y1="194.69603" x1="757.93054" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect984" height="2.8371005" width="4" y="196.82385" x="757.93054" class="rect"/>
+          <title id="title986">Sun May 05 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1019.57
+[Avg+Ecart-Type]		: 1019.51
+Average				: 1019.47
+Ecart-Type				: 0.04
+[Avg-Ecart-Type]		: 1019.43
+Min					: 1019.37</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-386.09375,-196.37024)" style="fill:#87cdde;stroke:#000000" id="g988" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line990" y2="167.0343" x2="772.1875" y1="194.69603" x1="772.1875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line992" y2="180.86516" x2="776.1875" y1="180.86516" x1="768.1875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line994" y2="194.69603" x2="774.1875" y1="194.69603" x1="770.1875" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line996" y2="167.0343" x2="774.1875" y1="167.0343" x1="770.1875" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect998" height="17.022604" width="4" y="172.35385" x="770.1875" class="rect"/>
+          <title id="title1000">Sun May 05 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1020.35
+[Avg+Ecart-Type]		: 1020.2
+Average				: 1019.96
+Ecart-Type				: 0.24
+[Avg-Ecart-Type]		: 1019.72
+Min					: 1019.57</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-392.22223,-180.76618)" style="fill:#87cdde;stroke:#000000" id="g1002" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1004" y2="163.48792" x2="784.44446" y1="167.0343" x1="784.44446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1006" y2="164.55183" x2="788.44446" y1="164.55183" x1="780.44446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1008" y2="167.0343" x2="786.44446" y1="167.0343" x1="782.44446" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1010" y2="163.48792" x2="786.44446" y1="163.48792" x1="782.44446" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1012" height="2.1278255" width="4" y="163.48792" x="782.44446" class="rect"/>
+          <title id="title1014">Sun May 05 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1020.45
+[Avg+Ecart-Type]		: 1020.45
+Average				: 1020.42
+Ecart-Type				: 0.03
+[Avg-Ecart-Type]		: 1020.39
+Min					: 1020.35</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-398.35071,-187.85893)" style="fill:#87cdde;stroke:#000000" id="g1016" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1018" y2="164.55183" x2="796.70142" y1="180.15588" x1="796.70142" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1020" y2="170.22603" x2="800.70142" y1="170.22603" x1="792.70142" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1022" y2="180.15588" x2="798.70142" y1="180.15588" x1="794.70142" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1024" y2="164.55183" x2="798.70142" y1="164.55183" x1="794.70142" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1026" height="9.2205772" width="4" y="165.61574" x="794.70142" class="rect"/>
+          <title id="title1028">Mon May 06 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1020.42
+[Avg+Ecart-Type]		: 1020.39
+Average				: 1020.26
+Ecart-Type				: 0.13
+[Avg-Ecart-Type]		: 1020.13
+Min					: 1019.98</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-404.47916,-205.23616)" style="fill:#87cdde;stroke:#000000" id="g1030" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1032" y2="177.67342" x2="808.95831" y1="201.78877" x1="808.95831" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1034" y2="192.92284" x2="812.95831" y1="192.92284" x1="804.95831" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1036" y2="201.78877" x2="810.95831" y1="201.78877" x1="806.95831" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1038" y2="177.67342" x2="810.95831" y1="177.67342" x1="806.95831" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1040" height="15.958691" width="4" y="185.1208" x="806.95831" class="rect"/>
+          <title id="title1042">Mon May 06 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1020.05
+[Avg+Ecart-Type]		: 1019.84
+Average				: 1019.62
+Ecart-Type				: 0.225
+[Avg-Ecart-Type]		: 1019.39
+Min					: 1019.37</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-410.60764,-219.59899)" style="fill:#87cdde;stroke:#000000" id="g1044" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1046" y2="195.75993" x2="821.21527" y1="212.4279" x1="821.21527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1048" y2="207.10834" x2="825.21527" y1="207.10834" x1="817.21527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1050" y2="212.4279" x2="823.21527" y1="212.4279" x1="819.21527" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1052" y2="195.75993" x2="823.21527" y1="195.75993" x1="819.21527" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1054" height="9.5752144" width="4" y="202.14342" x="819.21527" class="rect"/>
+          <title id="title1056">Mon May 06 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1019.54
+[Avg+Ecart-Type]		: 1019.36
+Average				: 1019.22
+Ecart-Type				: 0.135
+[Avg-Ecart-Type]		: 1019.09
+Min					: 1019.07</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-416.73611,-207.00936)" style="fill:#87cdde;stroke:#000000" id="g1058" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1060" y2="181.2198" x2="833.47223" y1="201.78877" x1="833.47223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1062" y2="189.02182" x2="837.47223" y1="189.02182" x1="829.47223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1064" y2="201.78877" x2="835.47223" y1="201.78877" x1="831.47223" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1066" y2="181.2198" x2="835.47223" y1="181.2198" x1="831.47223" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1068" height="14.894778" width="4" y="181.57443" x="831.47223" class="rect"/>
+          <title id="title1070">Mon May 06 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1019.95
+[Avg+Ecart-Type]		: 1019.94
+Average				: 1019.73
+Ecart-Type				: 0.21
+[Avg-Ecart-Type]		: 1019.52
+Min					: 1019.37</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-422.86459,-197.43415)" style="fill:#87cdde;stroke:#000000" id="g1072" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1074" y2="176.60951" x2="845.72919" y1="187.24864" x1="845.72919" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1076" y2="180.86516" x2="849.72919" y1="180.86516" x1="841.72919" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1078" y2="187.24864" x2="847.72919" y1="187.24864" x1="843.72919" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1080" y2="176.60951" x2="847.72919" y1="176.60951" x1="843.72919" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1082" height="6.7381139" width="4" y="177.31879" x="843.72919" class="rect"/>
+          <title id="title1084">Mon May 06 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1020.08
+[Avg+Ecart-Type]		: 1020.06
+Average				: 1019.96
+Ecart-Type				: 0.095
+[Avg-Ecart-Type]		: 1019.87
+Min					: 1019.78</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-428.99304,-202.22175)" style="fill:#87cdde;stroke:#000000" id="g1086" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1088" y2="175.19096" x2="857.98608" y1="198.2424" x1="857.98608" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1090" y2="185.83008" x2="861.98608" y1="185.83008" x1="853.98608" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1092" y2="198.2424" x2="859.98608" y1="198.2424" x1="855.98608" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1094" y2="175.19096" x2="859.98608" y1="175.19096" x1="855.98608" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1096" height="12.766953" width="4" y="179.44661" x="855.98608" class="rect"/>
+          <title id="title1098">Mon May 06 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1020.12
+[Avg+Ecart-Type]		: 1020
+Average				: 1019.82
+Ecart-Type				: 0.18
+[Avg-Ecart-Type]		: 1019.64
+Min					: 1019.47</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-435.12152,-230.41544)" style="fill:#87cdde;stroke:#000000" id="g1100" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1102" y2="199.30632" x2="870.24304" y1="230.51442" x1="870.24304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1104" y2="215.97427" x2="874.24304" y1="215.97427" x1="866.24304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1106" y2="230.51442" x2="872.24304" y1="230.51442" x1="868.24304" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1108" y2="199.30632" x2="872.24304" y1="199.30632" x1="868.24304" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1110" height="18.795792" width="4" y="206.75371" x="868.24304" class="rect"/>
+          <title id="title1112">Mon May 06 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1019.44
+[Avg+Ecart-Type]		: 1019.23
+Average				: 1018.97
+Ecart-Type				: 0.265
+[Avg-Ecart-Type]		: 1018.7
+Min					: 1018.56</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-441.25,-271.90802)" style="fill:#87cdde;stroke:#000000" id="g1114" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1116" y2="234.06079" x2="882.5" y1="278.74512" x1="882.5" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1118" y2="254.27513" x2="886.5" y1="254.27513" x1="878.5" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1120" y2="278.74512" x2="884.5" y1="278.74512" x1="880.5" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1122" y2="234.06079" x2="884.5" y1="234.06079" x1="880.5" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1124" height="26.952456" width="4" y="240.7989" x="880.5" class="rect"/>
+          <title id="title1126">Mon May 06 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1018.46
+[Avg+Ecart-Type]		: 1018.27
+Average				: 1017.89
+Ecart-Type				: 0.38
+[Avg-Ecart-Type]		: 1017.51
+Min					: 1017.2</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-447.37848,-307.90375)" style="fill:#87cdde;stroke:#000000" id="g1128" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1130" y2="279.80905" x2="894.75696" y1="304.98831" x1="894.75696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1132" y2="295.05847" x2="898.75696" y1="295.05847" x1="890.75696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1134" y2="304.98831" x2="896.75696" y1="304.98831" x1="892.75696" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1136" y2="279.80905" x2="896.75696" y1="279.80905" x1="892.75696" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1138" height="13.476228" width="4" y="288.32034" x="892.75696" class="rect"/>
+          <title id="title1140">Mon May 06 2013 17:00:00 GMT+0200 (CEST)
+
+Max					: 1017.17
+[Avg+Ecart-Type]		: 1016.93
+Average				: 1016.74
+Ecart-Type				: 0.19
+[Avg-Ecart-Type]		: 1016.55
+Min					: 1016.46</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-453.50696,-324.21708)" style="fill:#87cdde;stroke:#000000" id="g1142" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1144" y2="306.40686" x2="907.01392" y1="311.01715" x1="907.01392" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1146" y2="309.24396" x2="911.01392" y1="309.24396" x1="903.01392" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1148" y2="311.01715" x2="909.01392" y1="311.01715" x1="905.01392" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1150" y2="306.40686" x2="909.01392" y1="306.40686" x1="905.01392" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1152" height="3.1917381" width="4" y="307.47076" x="905.01392" class="rect"/>
+          <title id="title1154">Mon May 06 2013 19:00:00 GMT+0200 (CEST)
+
+Max					: 1016.42
+[Avg+Ecart-Type]		: 1016.39
+Average				: 1016.34
+Ecart-Type				: 0.045
+[Avg-Ecart-Type]		: 1016.3
+Min					: 1016.29</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-459.63541,-310.91817)" style="fill:#87cdde;stroke:#000000" id="g1156" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1158" y2="280.87296" x2="919.27081" y1="309.95325" x1="919.27081" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1160" y2="294.34918" x2="923.27081" y1="294.34918" x1="915.27081" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1162" y2="309.95325" x2="921.27081" y1="309.95325" x1="917.27081" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1164" y2="280.87296" x2="921.27081" y1="280.87296" x1="917.27081" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1166" height="19.505066" width="4" y="284.41934" x="917.27081" class="rect"/>
+          <title id="title1168">Mon May 06 2013 21:00:00 GMT+0200 (CEST)
+
+Max					: 1017.14
+[Avg+Ecart-Type]		: 1017.04
+Average				: 1016.76
+Ecart-Type				: 0.275
+[Avg-Ecart-Type]		: 1016.49
+Min					: 1016.32</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-465.76389,-303.11614)" style="fill:#87cdde;stroke:#000000" id="g1170" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1172" y2="280.87296" x2="931.52777" y1="294.34918" x1="931.52777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1174" y2="286.1925" x2="935.52777" y1="286.1925" x1="927.52777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1176" y2="294.34918" x2="933.52777" y1="294.34918" x1="929.52777" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1178" y2="280.87296" x2="933.52777" y1="280.87296" x1="929.52777" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1180" height="8.8659391" width="4" y="281.58221" x="929.52777" class="rect"/>
+          <title id="title1182">Mon May 06 2013 23:00:00 GMT+0200 (CEST)
+
+Max					: 1017.14
+[Avg+Ecart-Type]		: 1017.12
+Average				: 1016.99
+Ecart-Type				: 0.125
+[Avg-Ecart-Type]		: 1016.87
+Min					: 1016.76</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-471.89236,-308.4357)" style="fill:#87cdde;stroke:#000000" id="g1184" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1186" y2="289.38425" x2="943.78473" y1="296.47702" x1="943.78473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1188" y2="292.57599" x2="947.78473" y1="292.57599" x1="939.78473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1190" y2="296.47702" x2="945.78473" y1="296.47702" x1="941.78473" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1192" y2="289.38425" x2="945.78473" y1="289.38425" x1="941.78473" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1194" height="3.5463758" width="4" y="290.8028" x="941.78473" class="rect"/>
+          <title id="title1196">Tue May 07 2013 01:00:00 GMT+0200 (CEST)
+
+Max					: 1016.9
+[Avg+Ecart-Type]		: 1016.86
+Average				: 1016.81
+Ecart-Type				: 0.05
+[Avg-Ecart-Type]		: 1016.76
+Min					: 1016.7</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-478.02084,-321.02535)" style="fill:#87cdde;stroke:#000000" id="g1198" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1200" y2="296.47702" x2="956.04169" y1="314.56354" x1="956.04169" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1202" y2="305.69757" x2="960.04169" y1="305.69757" x1="952.04169" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1204" y2="314.56354" x2="958.04169" y1="314.56354" x1="954.04169" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1206" y2="296.47702" x2="958.04169" y1="296.47702" x1="954.04169" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1208" height="8.1566639" width="4" y="301.79657" x="954.04169" class="rect"/>
+          <title id="title1210">Tue May 07 2013 03:00:00 GMT+0200 (CEST)
+
+Max					: 1016.7
+[Avg+Ecart-Type]		: 1016.55
+Average				: 1016.44
+Ecart-Type				: 0.115
+[Avg-Ecart-Type]		: 1016.32
+Min					: 1016.19</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-484.14929,-332.01911)" style="fill:#87cdde;stroke:#000000" id="g1212" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1214" y2="311.01715" x2="968.29858" y1="322.01093" x1="968.29858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1216" y2="317.40063" x2="972.29858" y1="317.40063" x1="964.29858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1218" y2="322.01093" x2="970.29858" y1="322.01093" x1="966.29858" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1220" y2="311.01715" x2="970.29858" y1="311.01715" x1="966.29858" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1222" height="6.3834763" width="4" y="314.20889" x="966.29858" class="rect"/>
+          <title id="title1224">Tue May 07 2013 05:00:00 GMT+0200 (CEST)
+
+Max					: 1016.29
+[Avg+Ecart-Type]		: 1016.2
+Average				: 1016.11
+Ecart-Type				: 0.09
+[Avg-Ecart-Type]		: 1016.02
+Min					: 1015.98</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-490.27777,-322.4439)" style="fill:#87cdde;stroke:#000000" id="g1226" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1228" y2="297.89557" x2="980.55554" y1="315.98209" x1="980.55554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1230" y2="307.82541" x2="984.55554" y1="307.82541" x1="976.55554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1232" y2="315.98209" x2="982.55554" y1="315.98209" x1="978.55554" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1234" y2="297.89557" x2="982.55554" y1="297.89557" x1="978.55554" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1236" height="12.766953" width="4" y="301.44193" x="978.55554" class="rect"/>
+          <title id="title1238">Tue May 07 2013 07:00:00 GMT+0200 (CEST)
+
+Max					: 1016.66
+[Avg+Ecart-Type]		: 1016.56
+Average				: 1016.38
+Ecart-Type				: 0.18
+[Avg-Ecart-Type]		: 1016.2
+Min					: 1016.15</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-496.40625,-310.2089)" style="fill:#87cdde;stroke:#000000" id="g1240" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1242" y2="286.90179" x2="992.8125" y1="302.50586" x1="992.8125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1244" y2="292.22134" x2="996.8125" y1="292.22134" x1="988.8125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1246" y2="302.50586" x2="994.8125" y1="302.50586" x1="990.8125" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1248" y2="286.90179" x2="994.8125" y1="286.90179" x1="990.8125" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1250" height="9.5752144" width="4" y="287.61105" x="990.8125" class="rect"/>
+          <title id="title1252">Tue May 07 2013 09:00:00 GMT+0200 (CEST)
+
+Max					: 1016.97
+[Avg+Ecart-Type]		: 1016.95
+Average				: 1016.82
+Ecart-Type				: 0.135
+[Avg-Ecart-Type]		: 1016.68
+Min					: 1016.53</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-502.53473,-300.10172)" style="fill:#87cdde;stroke:#000000" id="g1254" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1256" y2="274.84412" x2="1005.0695" y1="294.34918" x1="1005.0695" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1258" y2="284.41934" x2="1009.0695" y1="284.41934" x1="1001.0695" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1260" y2="294.34918" x2="1007.0695" y1="294.34918" x1="1003.0695" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1262" y2="274.84412" x2="1007.0695" y1="274.84412" x1="1003.0695" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1264" height="10.993765" width="4" y="279.09976" x="1003.0695" class="rect"/>
+          <title id="title1266">Tue May 07 2013 11:00:00 GMT+0200 (CEST)
+
+Max					: 1017.31
+[Avg+Ecart-Type]		: 1017.19
+Average				: 1017.04
+Ecart-Type				: 0.155
+[Avg-Ecart-Type]		: 1016.88
+Min					: 1016.76</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-508.66321,-300.81099)" style="fill:#87cdde;stroke:#000000" id="g1268" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1270" y2="276.26266" x2="1017.3264" y1="294.34918" x1="1017.3264" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1272" y2="285.1286" x2="1021.3264" y1="285.1286" x1="1013.3264" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1274" y2="294.34918" x2="1019.3264" y1="294.34918" x1="1015.3264" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1276" y2="276.26266" x2="1019.3264" y1="276.26266" x1="1015.3264" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1278" height="11.348402" width="4" y="279.45441" x="1015.3264" class="rect"/>
+          <title id="title1280">Tue May 07 2013 13:00:00 GMT+0200 (CEST)
+
+Max					: 1017.27
+[Avg+Ecart-Type]		: 1017.18
+Average				: 1017.02
+Ecart-Type				: 0.16
+[Avg-Ecart-Type]		: 1016.86
+Min					: 1016.76</title>
+        </g>
+        <g transform="matrix(1.5,0,0,2,-514.79169,-314.46454)" style="fill:#87cdde;stroke:#000000" id="g1282" class="box">
+          <line style="fill:#87cdde;stroke:#000000" id="line1284" y2="285.83789" x2="1029.5834" y1="312.08105" x1="1029.5834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1286" y2="292.57599" x2="1033.5834" y1="292.57599" x1="1025.5834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1288" y2="312.08105" x2="1031.5834" y1="312.08105" x1="1027.5834" class="line"/>
+          <line style="fill:#87cdde;stroke:#000000" id="line1290" y2="285.83789" x2="1031.5834" y1="285.83789" x1="1027.5834" class="line"/>
+          <rect style="fill:#87cdde;stroke:#000000" id="rect1292" height="12.412314" width="4" y="286.1925" x="1027.5834" class="rect"/>
+          <title id="title1294">Tue May 07 2013 15:00:00 GMT+0200 (CEST)
+
+Max					: 1017
+[Avg+Ecart-Type]		: 1016.99
+Average				: 1016.81
+Ecart-Type				: 0.175
+[Avg-Ecart-Type]		: 1016.64
+Min					: 1016.26</title>
+        </g>
+        <path sodipodi:nodetypes="ccc" style="fill:#000000;stroke:#000000;marker-end:url(#Arrow1Lend)" id="path82-6" d="M 0,447.49493 0,447.49493 1034.3381,447.49493" class="domain" inkscape:connector-curvature="0"/>
+        <text sodipodi:linespacing="125%" id="text4067" y="35.231907" x="19.972603" style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans" xml:space="preserve"><tspan y="35.231907" x="19.972603" id="tspan4069" sodipodi:role="line">Pressure:</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="211.3"
+   height="180.3"
+   version="1.1"
+   id="svg60"
+   sodipodi:docname="scatter-plot.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview62"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg60" />
+  <defs
+     id="defs2" />
+  <path
+     d="M 36.9,0 V 149.3 H 211.3"
+     style="fill:none;stroke:#3465a4;stroke-width:1.03"
+     id="path4" />
+  <path
+     d="m 54.1,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path6" />
+  <path
+     d="m 85.3,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path8" />
+  <path
+     d="m 116.6,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path10" />
+  <path
+     d="m 147.8,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path12" />
+  <path
+     d="m 179.1,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path14" />
+  <path
+     d="m 210.3,148.7 v 10.6"
+     style="color:black;overflow:visible;fill:#729fcf;fill-opacity:0.75;stroke:#729fcf;stroke-width:1.03"
+     id="path16" />
+  <path
+     d="m 25.9,10.3 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path18" />
+  <path
+     d="m 25.9,28.1 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path20" />
+  <path
+     d="m 25.9,45.9 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path22" />
+  <path
+     d="m 25.9,63.7 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path24" />
+  <path
+     d="m 25.9,81.6 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path26" />
+  <path
+     d="m 25.9,99.4 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path28" />
+  <path
+     d="m 25.9,117.2 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path30" />
+  <path
+     d="m 25.9,135 h 10.6"
+     style="color:black;overflow:visible;fill:none;stroke:#c4a000;stroke-width:1.03"
+     id="path32" />
+  <path
+     d="m 107.1,59.7 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path34" />
+  <path
+     d="m 58.6,113.3 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path36" />
+  <path
+     d="m 80.9,115.6 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path38" />
+  <path
+     d="m 92,96.9 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path40" />
+  <path
+     d="m 120.7,101.5 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path42" />
+  <path
+     d="m 148.3,82.8 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path44" />
+  <path
+     d="m 150,57 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path46" />
+  <path
+     d="m 177.6,34.7 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path48" />
+  <path
+     d="m 198.1,54.7 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path50" />
+  <path
+     d="m 137.7,27.7 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path52" />
+  <path
+     d="m 196.3,31.2 a 2.4,2.4 0 0 1 -2.4,2.4 2.4,2.4 0 0 1 -2.4,-2.3 2.4,2.4 0 0 1 2.3,-2.4 2.4,2.4 0 0 1 2.4,2.3"
+     style="color:black;overflow:visible;fill:#0000ff;stroke-width:1.03"
+     id="path54" />
+  <text
+     x="98.9"
+     y="175.5"
+     style="color:black;fill:#729fcf;font-family:Arial;font-size:18px;overflow:visible;stroke-width:0.55px;-inkscape-font-specification:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+     id="text56">Weight</text>
+  <text
+     x="-96.3727"
+     y="17.6636"
+     transform="rotate(-90)"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Arial;-inkscape-font-specification:Arial;overflow:visible;fill:#c4a000;stroke-width:0.55px"
+     id="text58">Height</text>
+</svg>
