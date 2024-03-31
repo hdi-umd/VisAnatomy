@@ -20,27 +20,27 @@ Bar Chart,7,Bar Chart 7,BarChart7.png,bar,https://www.diagrammm.com/bar_chart
 Bar Chart,8,Bar Chart 8,BarChart8.png,bar,https://xari.dev/horizontal-bar-plot/
 Bar Chart,9,Bar Chart 9,BarChart9.png,bar,https://observablehq.com/@observablehq/plot-bar
 Bar Chart,10,Bar Chart 10,BarChart10.png,bar,https://gist.github.com/tlfrd/187e45e0629711c4560cf6bcd0767b27
-Bar Chart in Radial Layout,1,Bar Chart in Radial Layout 1,BarChartinRadialLayout1.png,bar,https://agill.xyz/research/haiku/analysis/colors
-Bar Chart in Radial Layout,2,Bar Chart in Radial Layout 2,BarChartinRadialLayout2.png,bar,https://observablehq.com/@d3/radial-stacked-bar-chart
-Bar Chart in Radial Layout,3,Bar Chart in Radial Layout 3,BarChartinRadialLayout3.png,bar,https://observablehq.com/@s0rta/radial-bar-chart-proof-of-conecpt
-Bar Chart in Radial Layout,4,Bar Chart in Radial Layout 4,BarChartinRadialLayout4.png,bar,https://www.predicthq.com/blog/ldi-july22
-Bar Chart in Radial Layout,5,Bar Chart in Radial Layout 5,BarChartinRadialLayout5.png,bar,https://www.commerce.ai/2022-report-register
-Bar Chart in Radial Layout,6,Bar Chart in Radial Layout 6,BarChartinRadialLayout6.png,bar,https://observablehq.com/@instancia/radial-stacked-bar-chart
-Bar Chart in Radial Layout,7,Bar Chart in Radial Layout 7,BarChartinRadialLayout7.png,bar,https://observablehq.com/@kclosu/radial-stacked-bar-chart
-Bar Chart in Radial Layout,8,Bar Chart in Radial Layout 8,BarChartinRadialLayout8.png,bar,https://datavizcatalogue.com/methods/radial_column_chart.html
-Bar Chart in Radial Layout,9,Bar Chart in Radial Layout 9,BarChartinRadialLayout9.png,bar,https://observablehq.com/@paulyiu/radial-stacked-bar-chart/2
-Bar Chart in Radial Layout,10,Bar Chart in Radial Layout 10,BarChartinRadialLayout10.png,bar,https://datavizcatalogue.com/methods/radial_column_chart.html
-Box-and-whisker plot,1,Box-and-whisker plot 1,Box-and-whiskerplot1.png,box-and-whisker,https://www.nagwa.com/en/explainers/812192146073/
-Box-and-whisker plot,2,Box-and-whisker plot 2,Box-and-whiskerplot2.png,box-and-whisker,https://apexcharts.com/wp-content/uploads/2021/02/basic-boxplot.svg
-Box-and-whisker plot,3,Box-and-whisker plot 3,Box-and-whiskerplot3.png,box-and-whisker,https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review
-Box-and-whisker plot,4,Box-and-whisker plot 4,Box-and-whiskerplot4.png,box-and-whisker,https://www.codecademy.com/learn/stats-associations-between-variables/modules/stats-associations-between-variables/cheatsheet
-Box-and-whisker plot,5,Box-and-whisker plot 5,Box-and-whiskerplot5.png,box-and-whisker,https://apexcharts.com/wp-content/uploads/2021/02/horizontal-boxplot.svg
-Box-and-whisker plot,6,Box-and-whisker plot 6,Box-and-whiskerplot6.png,box-and-whisker,https://alex-hhh.github.io/2021/04/box-and-whiskers-plot.html
-Box-and-whisker plot,7,Box-and-whisker plot 7,Box-and-whiskerplot7.png,box-and-whisker,https://observablehq.com/@d3/box-plot
-Box-and-whisker plot,8,Box-and-whisker plot 8,Box-and-whiskerplot8.png,box-and-whisker,https://observablehq.com/@mukhtyar/box-plot
-Box-and-whisker plot,9,Box-and-whisker plot 9,Box-and-whiskerplot9.png,box-and-whisker,https://vega.github.io/vega-lite/examples/boxplot_minmax_2D_vertical.html
-Box-and-whisker plot,10,Box-and-whisker plot 10,Box-and-whiskerplot10.png,box-and-whisker,https://data-illustrator.cs.umd.edu/app/index.html?project=few_box_plot
-Box-and-whisker plot,11,Box-and-whisker plot 11,Box-and-whiskerplot11.png,box-and-whisker,https://bookdown.org/max/FES/stroke-exploration.html
+Bar Chart in Radial Layout,1,Bar Chart in Radial Layout 1,BarChartInRadialLayout1.png,barinradial,https://agill.xyz/research/haiku/analysis/colors
+Bar Chart in Radial Layout,2,Bar Chart in Radial Layout 2,BarChartInRadialLayout2.png,barinradial,https://observablehq.com/@d3/radial-stacked-bar-chart
+Bar Chart in Radial Layout,3,Bar Chart in Radial Layout 3,BarChartInRadialLayout3.png,barinradial,https://observablehq.com/@s0rta/radial-bar-chart-proof-of-conecpt
+Bar Chart in Radial Layout,4,Bar Chart in Radial Layout 4,BarChartInRadialLayout4.png,barinradial,https://www.predicthq.com/blog/ldi-july22
+Bar Chart in Radial Layout,5,Bar Chart in Radial Layout 5,BarChartInRadialLayout5.png,barinradial,https://www.commerce.ai/2022-report-register
+Bar Chart in Radial Layout,6,Bar Chart in Radial Layout 6,BarChartInRadialLayout6.png,barinradial,https://observablehq.com/@instancia/radial-stacked-bar-chart
+Bar Chart in Radial Layout,7,Bar Chart in Radial Layout 7,BarChartInRadialLayout7.png,barinradial,https://observablehq.com/@kclosu/radial-stacked-bar-chart
+Bar Chart in Radial Layout,8,Bar Chart in Radial Layout 8,BarChartInRadialLayout8.png,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
+Bar Chart in Radial Layout,9,Bar Chart in Radial Layout 9,BarChartInRadialLayout9.png,barinradial,https://observablehq.com/@paulyiu/radial-stacked-bar-chart/2
+Bar Chart in Radial Layout,10,Bar Chart in Radial Layout 10,BarChartInRadialLayout10.png,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
+Box-and-whisker plot,1,Box-and-whisker plot 1,BoxAndWhisker1.png,BoxAndWhisker,https://www.nagwa.com/en/explainers/812192146073/
+Box-and-whisker plot,2,Box-and-whisker plot 2,BoxAndWhisker2.png,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/basic-boxplot.svg
+Box-and-whisker plot,3,Box-and-whisker plot 3,BoxAndWhisker3.png,BoxAndWhisker,https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review
+Box-and-whisker plot,4,Box-and-whisker plot 4,BoxAndWhisker4.png,BoxAndWhisker,https://www.codecademy.com/learn/stats-associations-between-variables/modules/stats-associations-between-variables/cheatsheet
+Box-and-whisker plot,5,Box-and-whisker plot 5,BoxAndWhisker5.png,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/horizontal-boxplot.svg
+Box-and-whisker plot,6,Box-and-whisker plot 6,BoxAndWhisker6.png,BoxAndWhisker,https://alex-hhh.github.io/2021/04/box-and-whiskers-plot.html
+Box-and-whisker plot,7,Box-and-whisker plot 7,BoxAndWhisker7.png,BoxAndWhisker,https://observablehq.com/@d3/box-plot
+Box-and-whisker plot,8,Box-and-whisker plot 8,BoxAndWhisker8.png,BoxAndWhisker,https://observablehq.com/@mukhtyar/box-plot
+Box-and-whisker plot,9,Box-and-whisker plot 9,BoxAndWhisker9.png,BoxAndWhisker,https://vega.github.io/vega-lite/examples/boxplot_minmax_2D_vertical.html
+Box-and-whisker plot,10,Box-and-whisker plot 10,BoxAndWhisker10.png,BoxAndWhisker,https://data-illustrator.cs.umd.edu/app/index.html?project=few_box_plot
+Box-and-whisker plot,11,Box-and-whisker plot 11,BoxAndWhisker11.png,BoxAndWhisker,https://bookdown.org/max/FES/stroke-exploration.html
 Bubble Chart,1,Bubble Chart 1,BubbleChart1.png,bubble,https://insights.datylon.com/stories/qS11V4CyLM1etV1Q925FOg
 Bubble Chart,2,Bubble Chart 2,BubbleChart2.png,bubble,https://insights.datylon.com/stories/jVPwg1Q_CeguvLAxY4VJKw
 Bubble Chart,3,Bubble Chart 3,BubbleChart3.png,bubble,https://apexcharts.com/javascript-chart-demos/bubble-charts/simple/
@@ -114,27 +114,27 @@ Connected Dot Plot,7,Connected Dot Plot 7,ConnectedDotPlot7.png,connected,https:
 Connected Dot Plot,8,Connected Dot Plot 8,ConnectedDotPlot8.png,connected,https://mascot-vis.github.io/gallery#LollipopChart
 Connected Dot Plot,9,Connected Dot Plot 9,ConnectedDotPlot9.png,connected,https://mascot-vis.github.io/gallery#DumbbellChart
 Connected Dot Plot,10,Connected Dot Plot 10,ConnectedDotPlot10.png,connected,https://www.datylon.com/resources/chart-library/dot-plot
-Connected Scatterplot,1,Connected Scatterplot 1,ConnectedScatterplot1.png,connected,https://insights.datylon.com/stories/oqOJDl0RCVUMdGl2dJ1Kuw
-Connected Scatterplot,2,Connected Scatterplot 2,ConnectedScatterplot2.png,connected,https://mascot-vis.github.io/gallery.html#ConnectedScatterplot
-Connected Scatterplot,3,Connected Scatterplot 3,ConnectedScatterplot3.png,connected,https://observablehq.com/@d3/connected-scatterplot
-Connected Scatterplot,4,Connected Scatterplot 4,ConnectedScatterplot4.png,connected,https://vega.github.io/vega-lite/examples/connected_scatterplot.html
-Connected Scatterplot,5,Connected Scatterplot 5,ConnectedScatterplot5.png,connected,https://medium.com/mlearning-ai/tableau-tutorial-how-to-create-a-connected-scatterplot-12a67f4a6855
-Connected Scatterplot,6,Connected Scatterplot 6,ConnectedScatterplot6.png,connected,https://d3-graph-gallery.com/graph/connectedscatter_multi.html
-Connected Scatterplot,7,Connected Scatterplot 7,ConnectedScatterplot7.png,connected,https://dataviz.unhcr.org/tools/r/r_scatterplot_connected.html
-Connected Scatterplot,8,Connected Scatterplot 8,ConnectedScatterplot8.png,connected,https://finnstats.com/index.php/2022/11/16/how-to-make-a-connected-scatter-plot-in-r/
-Connected Scatterplot,9,Connected Scatterplot 9,ConnectedScatterplot9.png,connected,http://steveharoz.com/research/connected_scatterplot/
-Connected Scatterplot,10,Connected Scatterplot 10,ConnectedScatterplot10.png,connected,http://steveharoz.com/research/connected_scatterplot/
-Density plot,1,Density plot 1,Densityplot1.png,density,https://en.wikipedia.org/wiki/File:Rating_count_density_by_project_quality_assessment.svg
-Density plot,2,Density plot 2,Densityplot2.png,density,https://datavizcatalogue.com/methods/density_plot.html
-Density plot,3,Density plot 3,Densityplot3.png,density,https://d3-graph-gallery.com/graph/density_basic.html
-Density plot,4,Density plot 4,Densityplot4.png,density,https://commons.wikimedia.org/wiki/File:Reaction_time_density_plot.svg
-Density plot,5,Density plot 5,Densityplot5.png,density,https://vega.github.io/vega-lite/examples/area_density.html
-Density plot,6,Density plot 6,Densityplot6.png,density,https://mascot-vis.github.io/gallery#DensityPlot
-Density plot,7,Density plot 7,Densityplot7.png,density,https://insights.datylon.com/stories/r5Suw19BKP9CwiaV_xBLqA
-Density plot,8,Density plot 8,Densityplot8.png,density,https://mascot-vis.github.io/gallery.html#ridgelinePlot
-Density plot,9,Density plot 9,Densityplot9.png,density,https://wilkelab.org/SDS375/slides/visualizing-distributions-2_files/figure-html/temps_densities_overlapping-1.svg
-Density plot,10,Density plot 10,Densityplot10.png,density,https://people.ohio.edu/ruhil/RBookNew/05-VisualizingData_files/figure-html/05-VisualizingData-28-1.svg
-Density plot,11,Density plot 11,Densityplot11.png,density,https://bookdown.org/max/FES/figures/numeric-kPCA-comparison-1.svg
+Connected Scatterplot,1,Connected Scatterplot 1,ConnectedScatterPlot1.png,connectedsp,https://insights.datylon.com/stories/oqOJDl0RCVUMdGl2dJ1Kuw
+Connected Scatterplot,2,Connected Scatterplot 2,ConnectedScatterPlot2.png,connectedsp,https://mascot-vis.github.io/gallery.html#ConnectedScatterplot
+Connected Scatterplot,3,Connected Scatterplot 3,ConnectedScatterPlot3.png,connectedsp,https://observablehq.com/@d3/connected-scatterplot
+Connected Scatterplot,4,Connected Scatterplot 4,ConnectedScatterPlot4.png,connectedsp,https://vega.github.io/vega-lite/examples/connected_scatterplot.html
+Connected Scatterplot,5,Connected Scatterplot 5,ConnectedScatterPlot5.png,connectedsp,https://medium.com/mlearning-ai/tableau-tutorial-how-to-create-a-connected-scatterplot-12a67f4a6855
+Connected Scatterplot,6,Connected Scatterplot 6,ConnectedScatterPlot6.png,connectedsp,https://d3-graph-gallery.com/graph/connectedscatter_multi.html
+Connected Scatterplot,7,Connected Scatterplot 7,ConnectedScatterPlot7.png,connectedsp,https://dataviz.unhcr.org/tools/r/r_scatterplot_connected.html
+Connected Scatterplot,8,Connected Scatterplot 8,ConnectedScatterPlot8.png,connectedsp,https://finnstats.com/index.php/2022/11/16/how-to-make-a-connected-scatter-plot-in-r/
+Connected Scatterplot,9,Connected Scatterplot 9,ConnectedScatterPlot9.png,connectedsp,http://steveharoz.com/research/connected_scatterplot/
+Connected Scatterplot,10,Connected Scatterplot 10,ConnectedScatterPlot10.png,connectedsp,http://steveharoz.com/research/connected_scatterplot/
+Density plot,1,Density plot 1,DensityPlot1.png,density,https://en.wikipedia.org/wiki/File:Rating_count_density_by_project_quality_assessment.svg
+Density plot,2,Density plot 2,DensityPlot2.png,density,https://datavizcatalogue.com/methods/density_plot.html
+Density plot,3,Density plot 3,DensityPlot3.png,density,https://d3-graph-gallery.com/graph/density_basic.html
+Density plot,4,Density plot 4,DensityPlot4.png,density,https://commons.wikimedia.org/wiki/File:Reaction_time_density_plot.svg
+Density plot,5,Density plot 5,DensityPlot5.png,density,https://vega.github.io/vega-lite/examples/area_density.html
+Density plot,6,Density plot 6,DensityPlot6.png,density,https://mascot-vis.github.io/gallery#DensityPlot
+Density plot,7,Density plot 7,DensityPlot7.png,density,https://insights.datylon.com/stories/r5Suw19BKP9CwiaV_xBLqA
+Density plot,8,Density plot 8,DensityPlot8.png,density,https://mascot-vis.github.io/gallery.html#ridgelinePlot
+Density plot,9,Density plot 9,DensityPlot9.png,density,https://wilkelab.org/SDS375/slides/visualizing-distributions-2_files/figure-html/temps_densities_overlapping-1.svg
+Density plot,10,Density plot 10,DensityPlot10.png,density,https://people.ohio.edu/ruhil/RBookNew/05-VisualizingData_files/figure-html/05-VisualizingData-28-1.svg
+Density plot,11,Density plot 11,DensityPlot11.png,density,https://bookdown.org/max/FES/figures/numeric-kPCA-comparison-1.svg
 Diverging Stacked Bar Chart,1,Diverging Stacked Bar Chart 1,DivergingStackedBarChart1.png,diverging,https://observablehq.com/@d3/diverging-stacked-bar-chart
 Diverging Stacked Bar Chart,2,Diverging Stacked Bar Chart 2,DivergingStackedBarChart2.png,diverging,https://plotly.com/javascript/bar-charts/#diverging-bar-chart
 Diverging Stacked Bar Chart,3,Diverging Stacked Bar Chart 3,DivergingStackedBarChart3.png,diverging,https://vega.github.io/vega-lite/examples/bar_diverging_stack_population_pyramid.html
@@ -451,21 +451,21 @@ Word Cloud,7,Word Cloud 7,WordCloud7.png,word,https://d3-graph-gallery.com/graph
 Word Cloud,8,Word Cloud 8,WordCloud8.png,word,https://observablehq.com/@soezen/word-cloud
 Word Cloud,9,Word Cloud 9,WordCloud9.png,word,https://observablehq.com/@cliffng/word-cloud
 Word Cloud,10,Word Cloud 10,WordCloud10.png,word,https://observablehq.com/d/115a62bd2a944ca6
-others,1,others 1,others1.png,others,https://mascot-vis.github.io/gallery.html#MultipleBarCharts 
-others,2,others 2,others2.png,others,https://gist.github.com/cmgiven/018fd027d443b177e18fffb9afcdb5bd
-others,3,others 3,others3.png,others,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
-others,4,others 4,others4.png,others,https://observablehq.com/@stroked/gantt-calendar
-others,5,others 5,others5.png,others,https://mascot-vis.github.io/gallery#TowerChart
-others,6,others 6,others6.png,others,https://www.highcharts.com/demo/highcharts/column-comparison
-others,7,others 7,others7.png,others,https://apexcharts.com/javascript-chart-demos/column-charts/grouped-stacked-columns/
-others,8,others 8,others8.png,others,https://www.highcharts.com/demo/highcharts/variwide
-others,9,others 9,others9.png,others,https://www.highcharts.com/demo/highcharts/stellar-chart
-others,10,others 10,others10.png,others,https://www.highcharts.com/demo/maps/map-pies
-others,11,others 11,others11.png,others,https://insights.datylon.com/stories/ixceXCfGRapMydRyuEZNJw
-others,12,others 12,others12.png,others,https://gist.github.com/michalskop/8016812
-others,13,others 13,others13.png,others,http://https//bl.ocks.org/fabiovalse/raw/4122230f56cbd9982ba0/?raw=true
-others,14,others 14,others14.png,others,https://jsfiddle.net/fusioncharts/G7hYq/
-others,15,others 15,others15.png,others,https://www.highcharts.com/demo/highcharts/error-bar
-others,16,others 16,others16.png,others,https://www.highcharts.com/demo/highcharts/combo
-others,17,others 17,others17.png,others,https://www.highcharts.com/demo/highcharts/column-placement
-others,18,others 18,others18.png,others,https://cuthchow.github.io/college-majors-visualisation/
+others,1,others 1,_bespoke1.png,_bespoke,https://mascot-vis.github.io/gallery.html#MultipleBarCharts 
+others,2,others 2,_bespoke2.png,_bespoke,https://gist.github.com/cmgiven/018fd027d443b177e18fffb9afcdb5bd
+others,3,others 3,_bespoke3.png,_bespoke,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
+others,4,others 4,_bespoke4.png,_bespoke,https://observablehq.com/@stroked/gantt-calendar
+others,5,others 5,_bespoke5.png,_bespoke,https://mascot-vis.github.io/gallery#TowerChart
+others,6,others 6,_bespoke6.png,_bespoke,https://www.highcharts.com/demo/highcharts/column-comparison
+others,7,others 7,_bespoke7.png,_bespoke,https://apexcharts.com/javascript-chart-demos/column-charts/grouped-stacked-columns/
+others,8,others 8,_bespoke8.png,_bespoke,https://www.highcharts.com/demo/highcharts/variwide
+others,9,others 9,_bespoke9.png,_bespoke,https://www.highcharts.com/demo/highcharts/stellar-chart
+others,10,others 10,_bespoke10.png,_bespoke,https://www.highcharts.com/demo/maps/map-pies
+others,11,others 11,_bespoke11.png,_bespoke,https://insights.datylon.com/stories/ixceXCfGRapMydRyuEZNJw
+others,12,others 12,_bespoke12.png,_bespoke,https://gist.github.com/michalskop/8016812
+others,13,others 13,_bespoke13.png,_bespoke,http://https//bl.ocks.org/fabiovalse/raw/4122230f56cbd9982ba0/?raw=true
+others,14,others 14,_bespoke14.png,_bespoke,https://jsfiddle.net/fusioncharts/G7hYq/
+others,15,others 15,_bespoke15.png,_bespoke,https://www.highcharts.com/demo/highcharts/error-bar
+others,16,others 16,_bespoke16.png,_bespoke,https://www.highcharts.com/demo/highcharts/combo
+others,17,others 17,_bespoke17.png,_bespoke,https://www.highcharts.com/demo/highcharts/column-placement
+others,18,others 18,_bespoke18.png,_bespoke,https://cuthchow.github.io/college-majors-visualisation/

@@ -24,7 +24,7 @@ class Examples:
         self.tags = defaultdict(list)
         self.readTags()
     def readTags(self):
-        self.svgJson = json.load(open("../SVG_NAMES.json"))
+        self.svgJson = json.load(open("SVG_NAMES.json"))
         self.df = pd.read_csv('app/examples_collection_output.csv')
         self.df = self.df.dropna()
         # I need some structure that stores a list of all tags and the example filenames, descriptions and source link for each file in that tag
@@ -38,7 +38,7 @@ class Examples:
             # print(row["Filename"])
             image = Image(row["Filename"], row["Description"], row["Link"], row["Tag"]) #might switch out description with Type
             # for tag in row["Tag"].split(","):
-            self.tags[row["Tag"].strip().lower()].append(image)
+            self.tags[row["Tag"].strip()].append(image)
         #just sanity checking.
         # for t in self.tags:
         #     print(t)
@@ -47,6 +47,8 @@ class Examples:
         examples = []
         examples_ids =set()
         print(tag)
+        print(self.tags.keys())
+        print(len(self.tags.keys()))
         for t in tag:
             for image in self.tags[t]:
                 if image.filename in examples_ids:
