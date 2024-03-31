@@ -2,67 +2,106 @@
 <html>
   <head>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/materialize.min.css') }}"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/jquery.json-viewer.css') }}"  media="screen,projection"/>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/materialize.min.css') }}"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index.css') }}"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/jquery.json-viewer.css') }}"
+      media="screen,projection"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- documentation https://materializecss.com/checkboxes.html -->
-    
+
     <style>
       json-viewer {
-          /* Background, font and indentation */
-          --background-color: #f8f8f2;
-          --color: #2a2f3a;
-          --font-family: monaco, Consolas, 'Lucida Console', monospace;
-          --font-size: 1rem;
-          --indent-size: 1.5em;
-          --indentguide-size: 1px;
-          --indentguide-style: solid;
-          --indentguide-color: #333;
-          --indentguide-color-active: #666;
-          --indentguide: var(--indentguide-size) var(--indentguide-style) var(--indentguide-color);
-          --indentguide-active: var(--indentguide-size) var(--indentguide-style) var(--indentguide-color-active);
+        /* Background, font and indentation */
+        --background-color: #f8f8f2;
+        --color: #2a2f3a;
+        --font-family: monaco, Consolas, "Lucida Console", monospace;
+        --font-size: 1rem;
+        --indent-size: 1.5em;
+        --indentguide-size: 1px;
+        --indentguide-style: solid;
+        --indentguide-color: #333;
+        --indentguide-color-active: #666;
+        --indentguide: var(--indentguide-size) var(--indentguide-style)
+          var(--indentguide-color);
+        --indentguide-active: var(--indentguide-size) var(--indentguide-style)
+          var(--indentguide-color-active);
 
-          /* Types colors */
-          --string-color: #a3eea0;
-          --number-color: #d19a66;
-          --boolean-color: #4ba7ef;
-          --null-color: #df9cf3;
-          --property-color: #6fb3d2;
+        /* Types colors */
+        --string-color: #a3eea0;
+        --number-color: #d19a66;
+        --boolean-color: #4ba7ef;
+        --null-color: #df9cf3;
+        --property-color: #6fb3d2;
 
-          /* Collapsed node preview */
-          --preview-color: rgba(222, 175, 143, 0.9);
+        /* Collapsed node preview */
+        --preview-color: rgba(222, 175, 143, 0.9);
 
-          /* Search highlight color */
-          --highlight-color: #6fb3d2;
+        /* Search highlight color */
+        --highlight-color: #6fb3d2;
       }
     </style>
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <!-- add a divider row to contain the title of the page and other stuff -->
-    <nav style="position: fixed; top: 0px;">
+    <nav style="position: fixed; top: 0px">
       <div class="nav-wrapper">
-          <a href="#" class="brand-logo left">Examples in Design Measurement Study</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="javascript:void(0)"><div id="counter" style="text-align: right; display: none;" class="flow-text">Time left: <span id="timer"></span></div></a></li>
-            <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
-          </ul>
+        <a href="#" class="brand-logo left"
+          >VisAnatomy: A Chart Corpus with Fine-Grained Semantic Labels</a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="javascript:void(0)"
+              ><div
+                id="counter"
+                style="text-align: right; display: none"
+                class="flow-text"
+              >
+                Time left: <span id="timer"></span></div
+            ></a>
+          </li>
+          <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
+        </ul>
       </div>
     </nav>
-    {% block main %}
-    {% endblock %}
+    {% block main %} {% endblock %}
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename= 'js/materialize.min.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename= 'js/index.js') }}"></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename= 'js/materialize.min.js') }}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename= 'js/index.js') }}"
+    ></script>
     <!-- <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.json-viewer.js') }}"></script> -->
-    <script type="text/javascript" src="{{ url_for('static', filename= 'js/svgformatter.js') }}"></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename= 'js/svgformatter.js') }}"
+    ></script>
     <!-- <script src="https://unpkg.com/@alenaksu/json-viewer@2.0.0/dist/json-viewer.bundle.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@textea/json-viewer@3"></script>
   </body>
