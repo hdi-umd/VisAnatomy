@@ -102,19 +102,6 @@ if (process.argv.length !== 4) {
           allGraphicElements[element.id].fill
         )}","year":"${extractNumber(element.id)}"}`;
         element.setAttribute("data-datum", data_datum);
-      } else {
-        if (markInfo[element.id])
-          if (markInfo[element.id].Role === "nono") {
-            console.log("removing an no-role element!", element.id);
-            element.remove();
-          }
-        if (graphicsElementTypes.includes(element.tagName?.toLowerCase())) {
-          // delete element;
-          {
-            console.log("removing an random element!", element.id);
-            element.remove();
-          }
-        }
       }
 
       // Recursively traverse child elements
@@ -127,17 +114,6 @@ if (process.argv.length !== 4) {
     }
 
     traverseSVG(svgElement);
-    [
-      ...axisLabels,
-      ...axisDomain,
-      ...axisTicks,
-      ...legendLabels,
-      ...legendMarks,
-    ].forEach((label) => {
-      // delete this label from svgElement
-      if (svgElement.querySelector(`#${label}`))
-        svgElement.querySelector(`#${label}`).remove();
-    });
 
     // group elements into <g> elements
     let group0 = dom.window.document.createElement("g");
@@ -153,14 +129,61 @@ if (process.argv.length !== 4) {
       }
       group0.appendChild(group);
     }
-    // add reference <g> elements
+    // // add reference <g> elements
+    // add x axis
     let groupRef = dom.window.document.createElement("g");
     groupRef.setAttribute("class", "axis");
     groupRef.setAttribute(
       "data-datum",
       '{"_TYPE":"Axis", "type":"x", "position":"year"}'
     );
+    for (let label of [
+      ...xAxisLabels,
+      ...referenceElements.axes[1].title.map((t) => t.id),
+    ]) {
+      let element = svgElement.querySelector(`#${label}`);
+      if (!element) continue;
+      // element.innerHTML = allGraphicElements[label].content;
+      if (element.tagName === "text") {
+        element.innerHTML = allGraphicElements[label].content;
+        element.setAttribute("class", "axis-text");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-text"}`);
+      } else {
+        element.setAttribute("class", "axis-symbol");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-symbol"}`);
+      }
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    }
     group0.appendChild(groupRef);
+
+    // add y axis
+    groupRef = dom.window.document.createElement("g");
+    groupRef.setAttribute("class", "axis");
+    groupRef.setAttribute(
+      "data-datum",
+      '{"_TYPE":"Axis", "type":"y", "position":"year"}'
+    );
+    for (let label of [
+      ...yAxisLabels,
+      ...referenceElements.axes[2].title.map((t) => t.id),
+    ]) {
+      let element = svgElement.querySelector(`#${label}`);
+      if (!element) continue;
+      // element.innerHTML = allGraphicElements[label].content;
+      if (element.tagName === "text") {
+        element.innerHTML = allGraphicElements[label].content;
+        element.setAttribute("class", "axis-text");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-text"}`);
+      } else {
+        element.setAttribute("class", "axis-symbol");
+        element.setAttribute("data-datum", `{"_TYPE":"axis-symbol"}`);
+      }
+      element.removeAttribute("xmlns");
+      groupRef.appendChild(element);
+    }
+    group0.appendChild(groupRef);
+
     // remove all elements before group0 form svgElement
     let childNode = svgElement.firstChild;
     while (childNode) {
@@ -194,6 +217,12 @@ if (process.argv.length !== 4) {
   const axisLabels = Object.values(referenceElements.axes)
     .map((axis) => axis.labels.map((l) => (typeof l === "string" ? l : l.id)))
     .flat();
+  const xAxisLabels = referenceElements.axes[1].labels.map((l) =>
+    typeof l === "string" ? l : l.id
+  );
+  const yAxisLabels = referenceElements.axes[2].labels.map((l) =>
+    typeof l === "string" ? l : l.id
+  );
   const axisTicks = Object.values(referenceElements.axes)
     .map((axis) => axis.ticks)
     .flat();
