@@ -1,0 +1,84 @@
+<svg version="1.1" class="highcharts-root" style="font-family: Helvetica, Arial, sans-serif; font-size: 1rem;" xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" aria-hidden="false" aria-label="Interactive chart">
+  <desc aria-hidden="true">
+    Created with Highcharts 11.4.0
+  </desc>
+  <defs aria-hidden="true">
+    <filter id="highcharts-drop-shadow-0">
+      <feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"/>
+    </filter>
+    <pattern id="pattern0" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" width="5" height="5" x="0" y="0" patternTransform="scale(1.4 1.4)">
+      <path d="M 0 0 L 5 5 M 4.5 -0.5 L 5.5 0.5 M -0.5 4.5 L 0.5 5.5" stroke="#698F01" stroke-width="2" fill="none"/>
+    </pattern>
+    <pattern id="pattern1" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" width="5" height="5" x="0" y="0" patternTransform="scale(1.4 1.4)">
+      <path d="M 0 5 L 5 0 M -0.5 0.5 L 0.5 -0.5 M 4.5 5.5 L 5.5 4.5" stroke="#265FB5" stroke-width="2" fill="none"/>
+    </pattern>
+    <pattern id="pattern2" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" width="5" height="5" x="0" y="0" patternTransform="scale(1.4 1.4)">
+      <path d="M 2 0 L 2 5 M 4 0 L 4 5" stroke="#F4693E" stroke-width="2" fill="none"/>
+    </pattern>
+    <pattern id="pattern3" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" width="5" height="5" x="0" y="0" patternTransform="scale(1.4 1.4)">
+      <path d="M 0 2 L 5 2 M 0 4 L 5 4" stroke="#222" stroke-width="2" fill="none"/>
+    </pattern>
+    <pattern id="pattern4" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" width="5" height="5" x="0" y="0" patternTransform="scale(1.4 1.4)">
+      <path d="M 0 1.5 L 2.5 1.5 L 2.5 0 M 2.5 5 L 2.5 3.5 L 5 3.5" stroke="#4C0684" stroke-width="2" fill="none"/>
+    </pattern>
+  </defs>
+  <rect fill="#ffffff" class="highcharts-background" filter="none" x="0" y="0" width="700" height="420" rx="0" ry="0" aria-hidden="true"/>
+  <rect fill="none" class="highcharts-plot-background" x="10" y="61" width="680" height="344" filter="none" aria-hidden="true"/>
+  <rect fill="none" class="highcharts-plot-border" data-z-index="1" stroke="#cccccc" stroke-width="0" x="10" y="61" width="680" height="344" aria-hidden="true"/>
+  <g class="highcharts-series-group" data-z-index="3" filter="none" aria-hidden="false">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(10,61) scale(1 1)" filter="none" style="cursor: pointer;" aria-hidden="false" clip-path="none">
+      <path fill="url(#pattern0)" d="M 339.97026388663875 41.500859195118665 A 0.5 0.5 0 0 1 340.47187436899503 41.00075995221039 A 146.5 146.5 0 0 1 422.1413419895308 308.8056055430207 A 0.5 0.5 0 0 1 421.4460261460388 308.67051962015665 L 421.4460261460388 308.67051962015665 A 0.5 0.5 0 0 1 421.58065023533607 307.97758093180556 A 145.5 145.5 0 0 0 340.4686533835411 42.000754764823284 A 0.5 0.5 0 0 1 339.97026388663875 41.500859195118665 Z" class="highcharts-halo highcharts-color-0" data-z-index="-1" fill-opacity="0.25" visibility="hidden"/>
+      <path fill="url(#pattern0)" d="M 339.9707792829323 44.03136528791495 A 3 3 0 0 1 343.0328861033711 41.03139721467957 A 146.5 146.5 0 0 1 424.2494406108066 307.35108158363096 A 3 3 0 0 1 420.03437629481095 306.57035152001777 L 340 187.5 A 0 0 0 0 1 340 187.5 A 0 0 0 0 0 340 187.5 A 0 0 0 0 1 340 187.5 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="3" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="NVDA, 40.6%. This is the most used desktop screen reader Screen reader usage." style="outline: none;"/>
+      <path fill="url(#pattern1)" d="M 419.9152659459512 306.6503263478027 A 3 3 0 0 1 419.0423893153354 310.84727678924634 A 146.5 146.5 0 0 1 201.71628744615901 139.12785055089364 A 3 3 0 0 1 205.59757561340157 137.3079855056136 L 340 187.5 A 0 0 0 0 1 340 187.5 A 0 0 0 0 0 340 187.5 A 0 0 0 0 1 340 187.5 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="3" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-1" tabindex="-1" role="img" aria-label="JAWS, 40.1%. Screen reader usage." style="outline: none;"/>
+      <path fill="url(#pattern2)" d="M 205.6478348207372 137.1736081996326 A 3 3 0 0 1 203.91342877914695 133.25338597339282 A 146.5 146.5 0 0 1 279.6889243340803 53.99035932929897 A 3 3 0 0 1 283.68317135460893 55.54673247196314 L 340 187.5 A 0 0 0 0 1 340 187.5 A 0 0 0 0 0 340 187.5 A 0 0 0 0 1 340 187.5 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="3" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="VoiceOver, 12.9%. Screen reader usage." style="outline: none;"/>
+      <path fill="url(#pattern3)" d="M 283.8151527585568 55.49048162933212 A 3 3 0 0 1 285.4586491899245 51.53128649644336 A 146.5 146.5 0 0 1 296.94477906674695 47.469653466154824 A 3 3 0 0 1 300.71177714057916 49.51563297043941 L 340 187.5 A 0 0 0 0 1 340 187.5 A 0 0 0 0 0 340 187.5 A 0 0 0 0 1 340 187.5 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="3" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="ZoomText, 2%. Screen reader usage." style="outline: none;"/>
+      <path fill="url(#pattern4)" d="M 300.8497811287212 49.47641374630578 A 3 3 0 0 1 302.9777883905695 45.755138197017715 A 146.5 146.5 0 0 1 336.73384409575505 41.0364133116727 A 3 3 0 0 1 339.80072494050916 44.031500706773016 L 340 187.5 A 0 0 0 0 1 340 187.5 A 0 0 0 0 0 340 187.5 A 0 0 0 0 1 340 187.5 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="3" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-4" tabindex="-1" role="img" aria-label="Other, 4.4%. Screen reader usage." style="outline: none;"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series" data-z-index="0.1" opacity="1" transform="translate(10,61) scale(1 1)" aria-hidden="true" clip-path="none"/>
+  </g>
+  <g class="highcharts-exporting-group" data-z-index="3" aria-hidden="true">
+    <g class="highcharts-no-tooltip highcharts-button highcharts-contextbutton" stroke-linecap="round" style="cursor: pointer;" transform="translate(662,10)">
+      <title>Chart context menu</title>
+      <rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="28" height="28" rx="2" ry="2" stroke="none" stroke-width="1"/>
+      <path fill="#666666" d="M 8 9.5 L 22 9.5 M 8 14.5 L 22 14.5 M 8 19.5 L 22 19.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3"/>
+      <text x="0" data-z-index="1" y="18.5" style="color: rgb(51, 51, 51); font-size: 0.8em; font-weight: normal; fill: rgb(51, 51, 51);"/>
+    </g>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="font-size: 1.2em; color: rgb(51, 51, 51); font-weight: bold; fill: rgb(51, 51, 51);" y="25" aria-hidden="true">Primary desktop/laptop screen readers</text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="46" aria-hidden="true">Source: WebAIM. Click on point to visit official website</text>
+  <text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="417" aria-hidden="true"/>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-tracker" data-z-index="6" opacity="1" transform="translate(10,61) scale(1 1)" aria-hidden="true" style="cursor: pointer;">
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke-width="1" stroke="#777" d="M 513.8596771001336 136.13211655480998 L 508.8596771001336 136.13211655480998 L 485.8985878627216 143.1169845586885 L 480.15831555336865 144.86320155965814" opacity="1"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke-width="1" stroke="#777" d="M 225.51232721713794 325.93662632624694 L 230.51232721713788 325.93662632624694 L 245.40016940857527 307.1123825198451 L 249.1221299564346 302.4063215682446" opacity="1"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke-width="1" stroke="#777" d="M 207.48146053638368 65.47019997940615 L 212.4814605363837 65.47019997940615 L 229.8210919648641 82.06348723433109 L 234.1559998219842 86.21180904806232" opacity="1"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke-width="1" stroke="#777" d="M 248.2327264144343 33.79999923706055 L 285.753045974455 33.79999923706055 L 289.24501946024446 43.693943276338196 L 291.2419367273824 49.35188649169538" opacity="1"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke-width="1" stroke="#777" d="M 310.68001369416135 11 L 315.44580164872855 11 L 318.98698067059263 36.45463258126068 L 319.81372241470046 42.39740113544059" opacity="1"/>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" filter="none" style="cursor: pointer;" transform="translate(519,125)" opacity="1">
+      <text x="5" data-z-index="1" y="16" style="color: rgb(0, 0, 0); font-size: 0.7em; font-weight: bold; fill: rgb(0, 0, 0);"><tspan class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round"><tspan style="font-weight: bold;">NVDA</tspan>: 40.6 %<tspan x="5" dy="0">​</tspan></tspan><tspan style="font-weight: bold;">NVDA</tspan>: 40.6 %</text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1" data-z-index="1" filter="none" style="cursor: pointer;" transform="translate(136,315)" opacity="1">
+      <text x="5" data-z-index="1" y="16" style="color: rgb(0, 0, 0); font-size: 0.7em; font-weight: bold; fill: rgb(0, 0, 0);"><tspan class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round"><tspan style="font-weight: bold;">JAWS</tspan>: 40.1 %<tspan x="5" dy="0">​</tspan></tspan><tspan style="font-weight: bold;">JAWS</tspan>: 40.1 %</text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2" data-z-index="1" filter="none" style="cursor: pointer;" transform="translate(95,54)" opacity="1">
+      <text x="5" data-z-index="1" y="16" style="color: rgb(0, 0, 0); font-size: 0.7em; font-weight: bold; fill: rgb(0, 0, 0);"><tspan class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round"><tspan style="font-weight: bold;">VoiceOver</tspan>: 12.9 %<tspan x="5" dy="0">​</tspan></tspan><tspan style="font-weight: bold;">VoiceOver</tspan>: 12.9 %</text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-3" data-z-index="1" filter="none" style="cursor: pointer;" transform="translate(144,22)" opacity="1">
+      <text x="5" data-z-index="1" y="16" style="color: rgb(0, 0, 0); font-size: 0.7em; font-weight: bold; fill: rgb(0, 0, 0);"><tspan class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round"><tspan style="font-weight: bold;">ZoomText</tspan>: 2.0 %<tspan x="5" dy="0">​</tspan></tspan><tspan style="font-weight: bold;">ZoomText</tspan>: 2.0 %</text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-4" data-z-index="1" filter="none" style="cursor: pointer;" transform="translate(230,0)" opacity="1">
+      <text x="5" data-z-index="1" y="16" style="color: rgb(0, 0, 0); font-size: 0.7em; font-weight: bold; fill: rgb(0, 0, 0);"><tspan class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round"><tspan style="font-weight: bold;">Other</tspan>: 4.4 %<tspan x="5" dy="0">​</tspan></tspan><tspan style="font-weight: bold;">Other</tspan>: 4.4 %</text>
+    </g>
+  </g>
+  <g class="highcharts-legend highcharts-no-tooltip" data-z-index="7" visibility="hidden" aria-hidden="true">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" stroke="#999999" stroke-width="0" filter="none" x="0" y="0" width="8" height="8"/>
+    <g data-z-index="1">
+      <g/>
+    </g>
+  </g>
+  <text x="690" class="highcharts-credits" text-anchor="end" data-z-index="8" y="415" style="cursor: pointer; color: rgb(118, 118, 118); font-size: 0.6em; fill: rgb(118, 118, 118);" aria-label="Chart credits: Highcharts.com" aria-hidden="false">Highcharts.com</text>
+  <g class="highcharts-label highcharts-tooltip highcharts-color-0" data-z-index="8" filter="url(#highcharts-drop-shadow-0)" style="cursor: default; pointer-events: auto;" transform="translate(353,160)" opacity="0" aria-hidden="true" visibility="hidden">
+    <path fill="rgba(255, 255, 255, 0.94)" class="highcharts-label-box highcharts-tooltip-box" d="M 3 0 L 187 0 A 3 3 0 0 1 190 3 L 190 40 A 3 3 0 0 1 187 43 L 3 43 A 3 3 0 0 1 0 40 L 0 3 A 3 3 0 0 1 3 0 Z" stroke-width="0" stroke="#8ae"/>
+    <rect x="0" y="0" width="190.25" height="59" fill="rgba(0,0,0,0)" class="highcharts-tracker"/>
+    <text x="8" data-z-index="1" y="18" style="color: rgb(51, 51, 51); font-size: 0.8em; fill: rgb(51, 51, 51);"><tspan style="font-size: 0.8em;">NVDA</tspan><tspan class="highcharts-br" dy="15" x="8">​</tspan><tspan style="fill: url(&quot;#pattern0&quot;);">●</tspan> Screen reader usage: <tspan style="font-weight: bold;">40.6%</tspan><tspan class="highcharts-br">​</tspan></text>
+  </g>
+</svg>
