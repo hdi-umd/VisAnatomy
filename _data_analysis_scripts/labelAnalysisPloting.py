@@ -9703,9 +9703,9 @@ allStat = {
 # num_allElements = [allStat[chartName]['num_allElements'] for chartName in allStat]
 # plt.hist(num_allElements, bins=range(0, 2000, 50), edgecolor='black')
 # # print the number of charts whose number of all elements is larger than 2000 in the chart as an annotation
-# plt.xlabel('Number of All Elements')
+# plt.xlabel('Number of All Graphical Primitives')
 # plt.ylabel('Number of Charts')
-# plt.title('Histogram of the Number of All Elements')
+# plt.title('Histogram of the Number of All Graphical Primitives')
 # plt.show()
 
 # # plot the histogram of the ratio of main over all
@@ -9729,57 +9729,62 @@ allStat = {
 # plt.title('Histogram of the Number of Axes')
 # plt.show()
 
-# # plot the histogram of the nested group depth
-# nestedGroupDepth = [allStat[chartName]['nestedGroupDepth'] for chartName in allStat]
-# # plot the numbers of nested group depth above each bar in the chart
-# # don't show the decimal on the x axis, only integers and place the bars on the interger values
-# plt.hist(nestedGroupDepth, bins=range(1, 5, 1), edgecolor='black')
-# # print the number of charts whose nested group depth is larger than 4 in the chart as an annotation
-# plt.xlabel('Nested Group Depth')
+# Get the nested group depth data
+nestedGroupDepth = [allStat[chartName]['nestedGroupDepth'] for chartName in allStat]
+# Count the occurrence of each nested group depth
+depthCounts = [nestedGroupDepth.count(i) for i in range(1, 5)]
+# Set the x-axis labels
+xLabels = [str(i) for i in range(1, 5)]
+# Create the bar chart
+plt.figure(figsize=(8, 6))
+plt.bar(xLabels, depthCounts, align='center', edgecolor='black')
+# Print the number of charts whose nested group depth is larger than 4 as an annotation
+plt.xlabel('Nested Group Depth')
+plt.ylabel('Number of Charts')
+plt.title('Histogram of the Nested Group Depth')
+plt.tight_layout()
+plt.show()
+
+# # count unique_mainChartMarkTypes occurrence in all charts in the dataset and sort them by occurrence and plot the bar chart
+# unique_mainChartMarkTypes = {}
+# for chartName in allStat:
+#     for markType in allStat[chartName]['unique_mainChartMarkTypes']:
+#         if markType not in unique_mainChartMarkTypes:
+#             unique_mainChartMarkTypes[markType] = 1
+#         else:
+#             unique_mainChartMarkTypes[markType] += 1
+# # sort the unique_mainChartMarkTypes by occurrence
+# unique_mainChartMarkTypes = dict(sorted(unique_mainChartMarkTypes.items(), key=lambda item: item[1], reverse=True))
+# # plot the bar chart
+# plt.bar(unique_mainChartMarkTypes.keys(), unique_mainChartMarkTypes.values())
+# plt.xlabel('Main Chart Mark Types')
+# # rotate the x axis labels for better readability
+# plt.xticks(rotation=45)
 # plt.ylabel('Number of Charts')
-# plt.title('Histogram of the Nested Group Depth')
+# plt.title('Distribution of Main Chart Mark Types')
+# # add space at the bottom to prevent the x-axis label from being cut off
+# plt.subplots_adjust(bottom=0.15)
 # plt.show()
 
-# count unique_mainChartMarkTypes occurrence in all charts in the dataset and sort them by occurrence and plot the bar chart
-unique_mainChartMarkTypes = {}
-for chartName in allStat:
-    for markType in allStat[chartName]['unique_mainChartMarkTypes']:
-        if markType not in unique_mainChartMarkTypes:
-            unique_mainChartMarkTypes[markType] = 1
-        else:
-            unique_mainChartMarkTypes[markType] += 1
-# sort the unique_mainChartMarkTypes by occurrence
-unique_mainChartMarkTypes = dict(sorted(unique_mainChartMarkTypes.items(), key=lambda item: item[1], reverse=True))
-# plot the bar chart
-plt.bar(unique_mainChartMarkTypes.keys(), unique_mainChartMarkTypes.values())
-plt.xlabel('Main Chart Mark Types')
-# rotate the x axis labels for better readability
-plt.xticks(rotation=45)
-plt.ylabel('Number of Charts')
-plt.title('Distribution of Main Chart Mark Types')
-# add space at the bottom to prevent the x-axis label from being cut off
-plt.subplots_adjust(bottom=0.15)
-plt.show()
-
-# count unique_layoutTypes occurrence in all charts in the dataset and sort them by occurrence and plot the bar chart
-unique_layoutTypes = {}
-for chartName in allStat:
-    for layoutType in allStat[chartName]['unique_layoutTypes']:
-        if layoutType not in unique_layoutTypes:
-            unique_layoutTypes[layoutType] = 1
-        else:
-            unique_layoutTypes[layoutType] += 1
-# sort the unique_layoutTypes by occurrence
-unique_layoutTypes = dict(sorted(unique_layoutTypes.items(), key=lambda item: item[1], reverse=True))
-# plot the bar chart
-plt.bar(unique_layoutTypes.keys(), unique_layoutTypes.values())
-plt.xlabel('Layout Types')
-# rotate the x axis labels for better readability
-plt.xticks(rotation=45)
-plt.ylabel('Number of Charts')
-plt.title('Distribution of Layout Types')
-plt.subplots_adjust(bottom=0.15)
-plt.show()
+# # count unique_layoutTypes occurrence in all charts in the dataset and sort them by occurrence and plot the bar chart
+# unique_layoutTypes = {}
+# for chartName in allStat:
+#     for layoutType in allStat[chartName]['unique_layoutTypes']:
+#         if layoutType not in unique_layoutTypes:
+#             unique_layoutTypes[layoutType] = 1
+#         else:
+#             unique_layoutTypes[layoutType] += 1
+# # sort the unique_layoutTypes by occurrence
+# unique_layoutTypes = dict(sorted(unique_layoutTypes.items(), key=lambda item: item[1], reverse=True))
+# # plot the bar chart
+# plt.bar(unique_layoutTypes.keys(), unique_layoutTypes.values())
+# plt.xlabel('Layout Types')
+# # rotate the x axis labels for better readability
+# plt.xticks(rotation=45)
+# plt.ylabel('Number of Charts')
+# plt.title('Distribution of Layout Types')
+# plt.subplots_adjust(bottom=0.15)
+# plt.show()
 
 # # for each mark type, pass all charts and record the occurrence of each encoding channel, and then plot the bar chart for each chart type
 # unique_encodingChannels = {}
