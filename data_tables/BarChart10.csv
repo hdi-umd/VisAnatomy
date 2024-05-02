@@ -1,0 +1,50 @@
+rank,country,annual_growth
+1,Luxembourg,2.05
+2,Cyprus,1.38
+3,Ireland,1.20
+4,Iceland,1.17
+5,Kazakhstan,1.09
+6,Norway,1.07
+7,Azerbaijan,0.92
+8,Turkey,0.90
+9,Spain,0.84
+10,Liechtenstein,0.82
+11,Sweden,0.81
+12,Belgium,0.73
+13,Switzerland,0.70
+14,United Kingdom,0.53
+15,Austria,0.51
+16,France,0.41
+17,Netherlands,0.40
+18,Finland,0.38
+19,Albania,0.31
+20,Malta,0.29
+-,European Union,0.25
+21,Italy,0.23
+22,Denmark,0.22
+23,Macedonia,0.18
+23,Monaco,0.18
+25,Czech Republic,0.14
+26,Andorra,0.07
+26,Portugal,0.07
+28,Slovakia,0.01
+29,Greece,-0.03
+30,Georgia,-0.05
+31,Russia,-0.06
+32,Poland,-0.11
+33,Bosnia and Herzegovina,-0.14
+34,Germany,-0.16
+35,Armenia,-0.18
+36,Belarus,-0.21
+37,Hungary,-0.24
+38,Slovenia,-0.29
+39,Romania,-0.32
+40,Montenegro,-0.35
+41,Ukraine,-0.39
+42,Serbia,-0.46
+43,Croatia,-0.50
+44,Estonia,-0.54
+45,Bulgaria,-0.60
+46,Moldova,-1.04
+47,Lithuania,-1.06
+48,Latvia,-1.07

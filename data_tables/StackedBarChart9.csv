@@ -1,0 +1,62 @@
+Country_Code,Country_Name,Medal_Type,Count
+USA,United States,Gold,46
+USA,United States,Silver,29
+USA,United States,Bronze,29
+CHN,China,Gold,38
+CHN,China,Silver,27
+CHN,China,Bronze,23
+RUS,Russia,Gold,24
+RUS,Russia,Silver,26
+RUS,Russia,Bronze,32
+GBR,United Kingdom,Gold,29
+GBR,United Kingdom,Silver,17
+GBR,United Kingdom,Bronze,19
+DEU,Germany,Gold,11
+DEU,Germany,Silver,19
+DEU,Germany,Bronze,14
+JPN,Japan,Gold,7
+JPN,Japan,Silver,14
+JPN,Japan,Bronze,17
+FRA,France,Gold,11
+FRA,France,Silver,11
+FRA,France,Bronze,12
+ITA,Italy,Gold,8
+ITA,Italy,Silver,9
+ITA,Italy,Bronze,11
+BRA,Brazil,Gold,3
+BRA,Brazil,Silver,5
+BRA,Brazil,Bronze,9
+IND,India,Gold,0
+IND,India,Silver,2
+IND,India,Bronze,4
+JAM,Jamaica,Gold,4
+JAM,Jamaica,Silver,4
+JAM,Jamaica,Bronze,4
+GEO,Georgia,Gold,1
+GEO,Georgia,Silver,3
+GEO,Georgia,Bronze,3
+PRK,North Korea,Gold,4
+PRK,North Korea,Silver,0
+PRK,North Korea,Bronze,2
+ARM,Armenia,Gold,0
+ARM,Armenia,Silver,1
+ARM,Armenia,Bronze,2
+MNG,Mongolia,Gold,0
+MNG,Mongolia,Silver,2
+MNG,Mongolia,Bronze,3
+BHS,Bahamas,Gold,1
+BHS,Bahamas,Silver,0
+BHS,Bahamas,Bronze,0
+MDA,Moldova,Gold,0
+MDA,Moldova,Silver,0
+MDA,Moldova,Bronze,2
+TJK,Tajikistan,Gold,0
+TJK,Tajikistan,Silver,0
+TJK,Tajikistan,Bronze,1
+MNE,Montenegro,Gold,0
+MNE,Montenegro,Silver,1
+MNE,Montenegro,Bronze,0
+GRD,Grenada,Gold,1
+GRD,Grenada,Silver,0
+GRD,Grenada,Bronze,0
+

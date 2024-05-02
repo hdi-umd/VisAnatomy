@@ -1,0 +1,47 @@
+speaker,ruling,count,proportion
+Donald Trump,Pants on fire!,-20,-0.15503875968992248
+Donald Trump,Half true,15,0.11627906976744186
+Donald Trump,Mostly false,-27,-0.20930232558139536
+Donald Trump,False,-55,-0.4263565891472868
+Donald Trump,Mostly true,7,0.05426356589147287
+Donald Trump,True,5,0.03875968992248062
+Bernie Sanders,Mostly true,13,0.325
+Bernie Sanders,Half true,15,0.375
+Bernie Sanders,Mostly false,-4,-0.1
+Bernie Sanders,True,5,0.125
+Bernie Sanders,False,-3,-0.075
+Joe Biden,Mostly true,9,0.25
+Joe Biden,True,4,0.1111111111111111
+Joe Biden,Pants on fire!,-1,-0.027777777777777776
+Joe Biden,Mostly false,-12,-0.3333333333333333
+Joe Biden,False,-5,-0.1388888888888889
+Joe Biden,Half true,5,0.1388888888888889
+Elizabeth Warren,False,-2,-0.07407407407407407
+Elizabeth Warren,Mostly false,-4,-0.14814814814814814
+Elizabeth Warren,Mostly true,7,0.25925925925925924
+Elizabeth Warren,True,7,0.25925925925925924
+Elizabeth Warren,Half true,7,0.25925925925925924
+Kamala Harris,Mostly false,-4,-0.25
+Kamala Harris,False,-5,-0.3125
+Kamala Harris,Mostly true,5,0.3125
+Kamala Harris,Half true,2,0.125
+Pete Buttigieg,Mostly false,-5,-0.3333333333333333
+Pete Buttigieg,Half true,4,0.26666666666666666
+Pete Buttigieg,True,3,0.2
+Pete Buttigieg,False,-1,-0.06666666666666667
+Pete Buttigieg,Mostly true,2,0.13333333333333333
+Amy Klobuchar,Mostly false,-1,-0.07692307692307693
+Amy Klobuchar,True,4,0.3076923076923077
+Amy Klobuchar,Half true,3,0.23076923076923078
+Amy Klobuchar,Mostly true,4,0.3076923076923077
+Amy Klobuchar,False,-1,-0.07692307692307693
+Beto O'Rourke,False,-1,-0.07692307692307693
+Beto O'Rourke,True,3,0.23076923076923078
+Beto O'Rourke,Mostly false,-3,-0.23076923076923078
+Beto O'Rourke,Mostly true,4,0.3076923076923077
+Beto O'Rourke,Half true,2,0.15384615384615385
+Michael Bloomberg,Half true,3,0.25
+Michael Bloomberg,True,3,0.25
+Michael Bloomberg,Mostly true,4,0.3333333333333333
+Michael Bloomberg,Mostly false,-1,-0.08333333333333333
+Michael Bloomberg,False,-1,-0.08333333333333333
