@@ -18,6 +18,9 @@ for chart_type, chart_data in data.items():
             # Convert the list to a tuple so it can be added to a set
             if (len(encodings) > 0):
                 shape_encodings[shape].add(tuple(sorted(encodings)))
+                # # check if encodings include "x list"
+                # if 'shape' in encodings:
+                #     print(f"Chart type: {chart_type}, Shape: {shape}, Encodings: {encodings}")
 
 # Print the results
 for shape, encodings in shape_encodings.items():
