@@ -1,0 +1,60 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="730px"
+	 height="320px" viewBox="300 0 730 320" enable-background="new 0 0 730 320" xml:space="preserve">
+<g id="Layer_1">
+	<g>
+		<g>
+			<path fill="none" stroke="#CCCCCC" d="M523.034,33.708c-70.197,0-127,56.803-127,127s56.803,127,127,127s127-56.803,127-127
+				S593.231,33.708,523.034,33.708z"/>
+			<path fill="none" stroke="#CCCCCC" d="M628.889,160.708c0,58.539-47.377,105.792-105.854,105.792
+				c-58.477,0-105.854-47.253-105.854-105.792S464.558,54.916,523.034,54.916C581.512,54.916,628.889,102.169,628.889,160.708z"/>
+			<path fill="none" stroke="#CCCCCC" d="M523.034,76c-46.818,0-84.646,37.951-84.646,84.708s37.827,84.708,84.646,84.708
+				c46.819,0,84.646-37.951,84.646-84.708S569.854,76,523.034,76z"/>
+			<path fill="none" stroke="#CCCCCC" d="M586.534,160.708c0,35.099-28.4,63.5-63.5,63.5c-35.098,0-63.5-28.401-63.5-63.5
+				s28.402-63.5,63.5-63.5C558.134,97.208,586.534,125.609,586.534,160.708z"/>
+			<path fill="none" stroke="#CCCCCC" d="M523.034,118.416c-23.378,0-42.354,18.852-42.354,42.292S499.656,203,523.034,203
+				c23.379,0,42.354-18.852,42.354-42.292S546.413,118.416,523.034,118.416z"/>
+			<path fill="none" stroke="#CCCCCC" d="M544.181,160.708c0,11.658-9.426,21.208-21.146,21.208c-11.72,0-21.146-9.55-21.146-21.208
+				s9.426-21.208,21.146-21.208C534.755,139.5,544.181,149.05,544.181,160.708z"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#CCCCCC" x1="523.034" y1="160.708" x2="523.034" y2="33.708"/>
+			<line fill="none" stroke="#CCCCCC" x1="523.034" y1="160.708" x2="643.833" y2="121.517"/>
+			<line fill="none" stroke="#CCCCCC" x1="523.034" y1="160.708" x2="597.696" y2="263.399"/>
+			<line fill="none" stroke="#CCCCCC" x1="523.034" y1="160.708" x2="448.372" y2="263.399"/>
+			<line fill="none" stroke="#CCCCCC" x1="523.034" y1="160.708" x2="402.235" y2="121.517"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<text transform="matrix(1 0 0 1 518.2676 26.8345)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">A</text>
+	<text transform="matrix(1 0 0 1 649.0342 124.5166)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">B</text>
+	<text transform="matrix(1 0 0 1 598.6953 277.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">C</text>
+	<text transform="matrix(1 0 0 1 436.3887 277.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">D</text>
+	<text transform="matrix(1 0 0 1 389.2666 122.416)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">E</text>
+	<rect x="560.322" y="151.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+	<rect x="581.729" y="151.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+	<rect x="602.876" y="151.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+	<rect x="624.084" y="151.333" fill="#FFFFFF" width="9.523" height="14.167"/>
+	<rect x="645.23" y="151.333" fill="#FFFFFF" width="9.523" height="14.167"/>
+	<polygon fill="#FFFFFF" points="539.613,163.732 546.946,163.732 547.846,153.667 540.513,155.667 	"/>
+	<text transform="matrix(1 0 0 1 539.5127 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">-2</text>
+	<text transform="matrix(1 0 0 1 561.5957 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">-1</text>
+	<text transform="matrix(1 0 0 1 583.8086 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">0</text>
+	<text transform="matrix(1 0 0 1 605.1416 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">1</text>
+	<text transform="matrix(1 0 0 1 626.3086 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">2</text>
+	<text transform="matrix(1 0 0 1 647.3086 161.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">3</text>
+</g>
+<g id="Layer_3">
+	<line fill="none" stroke="#7EBA2D" stroke-width="10" x1="583.434" y1="141.047" x2="634.588" y2="124.516"/>
+	<line fill="none" stroke="#F15A24" stroke-width="10" x1="583.434" y1="141.047" x2="551.929" y2="151.333"/>
+	<line fill="none" stroke="#7EBA2D" stroke-width="10" x1="523.034" y1="35.75" x2="523.034" y2="97.208"/>
+	<line fill="none" stroke="#F15A24" stroke-width="10" x1="523.034" y1="97.208" x2="523.034" y2="153.667"/>
+	<line fill="none" stroke="#7EBA2D" stroke-width="10" x1="560.323" y1="211.995" x2="572.842" y2="229.214"/>
+	<line fill="none" stroke="#7EBA2D" stroke-width="10" x1="485.567" y1="211.995" x2="460.792" y2="246.316"/>
+	<line fill="none" stroke="#7EBA2D" stroke-width="10" x1="462.636" y1="141.047" x2="435.079" y2="132.782"/>
+	<line fill="none" stroke="#F15A24" stroke-width="10" x1="462.636" y1="141.047" x2="471.648" y2="144.037"/>
+	<line fill="none" stroke="#F15A24" stroke-width="10" x1="485.567" y1="211.995" x2="500.656" y2="191.487"/>
+	<line fill="none" stroke="#F15A24" stroke-width="10" x1="560.323" y1="211.995" x2="534.278" y2="176.174"/>
+</g>
+</svg>

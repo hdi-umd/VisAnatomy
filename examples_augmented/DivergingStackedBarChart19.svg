@@ -1,0 +1,106 @@
+<svg viewBox="0,0,800,281"><g><g fill="#ECC94B"><rect x="519" y="54" width="63" height="30"><title>Duration
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="456" y="118" width="126" height="30"><title>Audience
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="582" y="182" width="0" height="30"><title>Reasoning
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="519" y="86" width="63" height="30"><title>Slides
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="582" y="150" width="0" height="30"><title>Speed
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="582" y="246" width="0" height="30"><title>Agenda
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect><rect x="582" y="214" width="0" height="30"><title>Tone
+function (x) {
+    return format(Math.abs(x));
+  } 4</title></rect></g><g fill="#ED8936"><rect x="394" y="54" width="125" height="30"><title>Duration
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="582" y="118" width="0" height="30"><title>Audience
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="582" y="182" width="0" height="30"><title>Reasoning
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="456" y="86" width="63" height="30"><title>Slides
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="519" y="150" width="63" height="30"><title>Speed
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="582" y="246" width="0" height="30"><title>Agenda
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect><rect x="519" y="214" width="63" height="30"><title>Tone
+function (x) {
+    return format(Math.abs(x));
+  } 3</title></rect></g><g fill="#F56565"><rect x="331" y="54" width="63" height="30"><title>Duration
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="394" y="118" width="62" height="30"><title>Audience
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="456" y="182" width="126" height="30"><title>Reasoning
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="394" y="86" width="62" height="30"><title>Slides
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="456" y="150" width="63" height="30"><title>Speed
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="582" y="246" width="0" height="30"><title>Agenda
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect><rect x="582" y="214" width="0" height="30"><title>Tone
+function (x) {
+    return format(Math.abs(x));
+  } 2</title></rect></g><g fill="#63171B"><rect x="80" y="54" width="251" height="30"><title>Duration
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="331" y="118" width="63" height="30"><title>Audience
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="582" y="182" width="0" height="30"><title>Reasoning
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="268" y="86" width="126" height="30"><title>Slides
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="394" y="150" width="62" height="30"><title>Speed
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="582" y="246" width="0" height="30"><title>Agenda
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect><rect x="582" y="214" width="0" height="30"><title>Tone
+function (x) {
+    return format(Math.abs(x));
+  } 1</title></rect></g><g fill="#48BB78"><rect x="582" y="54" width="125" height="30"><title>Duration
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="118" width="125" height="30"><title>Audience
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="182" width="188" height="30"><title>Reasoning
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="86" width="188" height="30"><title>Slides
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="150" width="63" height="30"><title>Speed
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="246" width="63" height="30"><title>Agenda
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect><rect x="582" y="214" width="63" height="30"><title>Tone
+function (x) {
+    return format(Math.abs(x));
+  } 5</title></rect></g></g><g transform="translate(0,50)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(80.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">8</text></g><g class="tick" opacity="1" transform="translate(143.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">7</text></g><g class="tick" opacity="1" transform="translate(205.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">6</text></g><g class="tick" opacity="1" transform="translate(268.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">5</text></g><g class="tick" opacity="1" transform="translate(331.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">4</text></g><g class="tick" opacity="1" transform="translate(394.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">3</text></g><g class="tick" opacity="1" transform="translate(456.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">2</text></g><g class="tick" opacity="1" transform="translate(519.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">1</text></g><g class="tick" opacity="1" transform="translate(582.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">0</text></g><g class="tick" opacity="1" transform="translate(645.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">1</text></g><g class="tick" opacity="1" transform="translate(707.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">2</text></g><g class="tick" opacity="1" transform="translate(770.5,0)"><line stroke="currentColor" y2="-6"></line><text fill="currentColor" y="-9" dy="0em">3</text></g><text x="602" y="-24" fill="currentColor" text-anchor="start">Do more →</text><text x="562" y="-24" fill="currentColor" text-anchor="end">← Do less</text></g><g fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><path class="domain" stroke="currentColor" d="M0.5,50.5V281.5" transform="translate(582,0)"></path><g class="tick" opacity="1" transform="translate(80,69)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Duration</text></g><g class="tick" opacity="1" transform="translate(268,101)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Slides</text></g><g class="tick" opacity="1" transform="translate(331,133)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Audience</text></g><g class="tick" opacity="1" transform="translate(394,165)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Speed</text></g><g class="tick" opacity="1" transform="translate(456,197)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Reasoning</text></g><g class="tick" opacity="1" transform="translate(519,229)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Tone</text></g><g class="tick" opacity="1" transform="translate(582,261)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">Agenda</text></g></g></svg>

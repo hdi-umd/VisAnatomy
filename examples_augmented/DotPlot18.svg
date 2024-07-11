@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360">
+  <path fill="transparent" d="M0 0h700v360H0z"/>
+  <g transform="translate(40 40)">
+    <g stroke="#ddd">
+      <path d="M103.333 0v280M310 0v280M516.667 0v280"/>
+    </g>
+    <g stroke="#ddd">
+      <path d="M0 280h620M0 252h620M0 224h620M0 196h620M0 168h620M0 140h620M0 112h620M0 84h620M0 56h620M0 28h620M0 0h620"/>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(103.333)"/>
+      <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(103.333) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">group A</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(310)"/>
+      <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(310) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">group B</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(516.667)"/>
+      <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(516.667) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">group C</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0h620"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 280)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 280) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 252)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 252) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 224)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 224) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">100</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 196)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 196) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">150</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 168)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 168) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">200</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 140)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 140) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">250</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 112)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 112) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">300</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 84)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 84) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">350</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 56)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 56) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">400</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620) translate(0 28)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(0 28) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">450</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(620)"/>
+      <text dominant-baseline="central" transform="translate(620) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">500</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0v280" transform="translate(620)"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 280) translate(103.333)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 280) translate(103.333) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">group A</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 280) translate(310)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 280) translate(310) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">group B</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 280) translate(516.667)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 280) translate(516.667) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">group C</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0h620" transform="translate(0 280)"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 280)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 280) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 252)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 252) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 224)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 224) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">100</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 196)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 196) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">150</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 168)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 168) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">200</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 140)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 140) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">250</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 112)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 112) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">300</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 84)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 84) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">350</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 56)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 56) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">400</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 28)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 28) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">450</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">500</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0v280"/>
+    <circle cx="105.121" cy="253.18" r="5" fill="#e8c1a0"/>
+    <circle cx="108.622" cy="264.283" r="5" fill="#e8c1a0"/>
+    <circle cx="102.454" cy="3.906" r="5" fill="#e8c1a0"/>
+    <circle cx="102.776" cy="84.341" r="5" fill="#e8c1a0"/>
+    <circle cx="96.607" cy="32.776" r="5" fill="#e8c1a0"/>
+    <circle cx="100.564" cy="155.733" r="5" fill="#e8c1a0"/>
+    <circle cx="99.655" cy="242.689" r="5" fill="#e8c1a0"/>
+    <circle cx="83.611" cy="72.009" r="5" fill="#e8c1a0"/>
+    <circle cx="104.029" cy="167.468" r="5" fill="#e8c1a0"/>
+    <circle cx="94.375" cy="258.296" r="5" fill="#e8c1a0"/>
+    <circle cx="114.258" cy="61.371" r="5" fill="#e8c1a0"/>
+    <circle cx="97.388" cy="180.889" r="5" fill="#e8c1a0"/>
+    <circle cx="88.863" cy="153.243" r="5" fill="#e8c1a0"/>
+    <circle cx="106.459" cy="39.542" r="5" fill="#e8c1a0"/>
+    <circle cx="87.693" cy="241.889" r="5" fill="#e8c1a0"/>
+    <circle cx="92.078" cy="63.532" r="5" fill="#e8c1a0"/>
+    <circle cx="109.181" cy="183.111" r="5" fill="#e8c1a0"/>
+    <circle cx="100.496" cy="21.477" r="5" fill="#e8c1a0"/>
+    <circle cx="112.033" cy="158.937" r="5" fill="#e8c1a0"/>
+    <circle cx="121.902" cy="70.418" r="5" fill="#e8c1a0"/>
+    <circle cx="103.267" cy="222" r="5" fill="#e8c1a0"/>
+    <circle cx="109.048" cy="147.381" r="5" fill="#e8c1a0"/>
+    <circle cx="92.687" cy="164.646" r="5" fill="#e8c1a0"/>
+    <circle cx="109.537" cy="13.587" r="5" fill="#e8c1a0"/>
+    <circle cx="101.052" cy="206.556" r="5" fill="#e8c1a0"/>
+    <circle cx="80.806" cy="166.33" r="5" fill="#e8c1a0"/>
+    <circle cx="116.791" cy="255.664" r="5" fill="#e8c1a0"/>
+    <circle cx="108.377" cy="118.306" r="5" fill="#e8c1a0"/>
+    <circle cx="95.78" cy="52.177" r="5" fill="#e8c1a0"/>
+    <circle cx="120.646" cy="150.458" r="5" fill="#e8c1a0"/>
+    <circle cx="95.199" cy="75.098" r="5" fill="#e8c1a0"/>
+    <circle cx="111.548" cy="242.996" r="5" fill="#e8c1a0"/>
+    <circle cx="106.594" cy="99.5" r="5" fill="#e8c1a0"/>
+    <circle cx="99.961" cy="109.5" r="5" fill="#e8c1a0"/>
+    <circle cx="120.936" cy="166.805" r="5" fill="#e8c1a0"/>
+    <circle cx="97.869" cy="269.739" r="5" fill="#e8c1a0"/>
+    <circle cx="113.079" cy="130.184" r="5" fill="#e8c1a0"/>
+    <circle cx="107.759" cy="51.475" r="5" fill="#e8c1a0"/>
+    <circle cx="90.991" cy="86.231" r="5" fill="#e8c1a0"/>
+    <circle cx="105.584" cy="195.444" r="5" fill="#e8c1a0"/>
+    <circle cx="103.659" cy="66.671" r="5" fill="#e8c1a0"/>
+    <circle cx="101.36" cy="128.05" r="5" fill="#e8c1a0"/>
+    <circle cx="107.94" cy="276.264" r="5" fill="#e8c1a0"/>
+    <circle cx="90.272" cy="123.461" r="5" fill="#e8c1a0"/>
+    <circle cx="121.14" cy="82.496" r="5" fill="#e8c1a0"/>
+    <circle cx="111.12" cy="75.893" r="5" fill="#e8c1a0"/>
+    <circle cx="303.23" cy="50.261" r="5" fill="#f47560"/>
+    <circle cx="316.732" cy="141.198" r="5" fill="#f47560"/>
+    <circle cx="305.741" cy="62.054" r="5" fill="#f47560"/>
+    <circle cx="310.832" cy="72.899" r="5" fill="#f47560"/>
+    <circle cx="320.023" cy="222.606" r="5" fill="#f47560"/>
+    <circle cx="303.584" cy="184.205" r="5" fill="#f47560"/>
+    <circle cx="320.761" cy="66.267" r="5" fill="#f47560"/>
+    <circle cx="315.501" cy="182.091" r="5" fill="#f47560"/>
+    <circle cx="295.669" cy="146.766" r="5" fill="#f47560"/>
+    <circle cx="312.749" cy="127.623" r="5" fill="#f47560"/>
+    <circle cx="304.862" cy="249.406" r="5" fill="#f47560"/>
+    <circle cx="315.384" cy="55.191" r="5" fill="#f47560"/>
+    <circle cx="311.1" cy="161.808" r="5" fill="#f47560"/>
+    <circle cx="301.767" cy="237.761" r="5" fill="#f47560"/>
+    <circle cx="323.262" cy="234.179" r="5" fill="#f47560"/>
+    <circle cx="309.428" cy="22.648" r="5" fill="#f47560"/>
+    <circle cx="311.358" cy="230.68" r="5" fill="#f47560"/>
+    <circle cx="326.981" cy="161.483" r="5" fill="#f47560"/>
+    <circle cx="307.706" cy="173.249" r="5" fill="#f47560"/>
+    <circle cx="317.944" cy="1.475" r="5" fill="#f47560"/>
+    <circle cx="307.894" cy="7.934" r="5" fill="#f47560"/>
+    <circle cx="293.32" cy="246.072" r="5" fill="#f47560"/>
+    <circle cx="318.697" cy="152.882" r="5" fill="#f47560"/>
+    <circle cx="319.373" cy="170.681" r="5" fill="#f47560"/>
+    <circle cx="305.845" cy="207.444" r="5" fill="#f47560"/>
+    <circle cx="314.372" cy="242.296" r="5" fill="#f47560"/>
+    <circle cx="294.406" cy="58.349" r="5" fill="#f47560"/>
+    <circle cx="316.804" cy="32.043" r="5" fill="#f47560"/>
+    <circle cx="294.218" cy="133.469" r="5" fill="#f47560"/>
+    <circle cx="299.425" cy="164.548" r="5" fill="#f47560"/>
+    <circle cx="324.366" cy="47.153" r="5" fill="#f47560"/>
+    <circle cx="295.027" cy="175.713" r="5" fill="#f47560"/>
+    <circle cx="312.964" cy="43.412" r="5" fill="#f47560"/>
+    <circle cx="305.591" cy="137.082" r="5" fill="#f47560"/>
+    <circle cx="303.876" cy="96.944" r="5" fill="#f47560"/>
+    <circle cx="313.906" cy="198.556" r="5" fill="#f47560"/>
+    <circle cx="307.455" cy="148.936" r="5" fill="#f47560"/>
+    <circle cx="299.289" cy="16.298" r="5" fill="#f47560"/>
+    <circle cx="327.927" cy="145.266" r="5" fill="#f47560"/>
+    <circle cx="298.904" cy="73.016" r="5" fill="#f47560"/>
+    <circle cx="315.825" cy="98.056" r="5" fill="#f47560"/>
+    <circle cx="510.39" cy="247.781" r="5" fill="#f1e15b"/>
+    <circle cx="514.032" cy="139.635" r="5" fill="#f1e15b"/>
+    <circle cx="535.156" cy="32.755" r="5" fill="#f1e15b"/>
+    <circle cx="503.788" cy="145.642" r="5" fill="#f1e15b"/>
+    <circle cx="524.679" cy="22.509" r="5" fill="#f1e15b"/>
+    <circle cx="529.422" cy="191.255" r="5" fill="#f1e15b"/>
+    <circle cx="507.24" cy="167.339" r="5" fill="#f1e15b"/>
+    <circle cx="523.931" cy="132.983" r="5" fill="#f1e15b"/>
+    <circle cx="513.197" cy="68.757" r="5" fill="#f1e15b"/>
+    <circle cx="519.23" cy="84.056" r="5" fill="#f1e15b"/>
+    <circle cx="529.241" cy="143.717" r="5" fill="#f1e15b"/>
+    <circle cx="495.188" cy="81.442" r="5" fill="#f1e15b"/>
+    <circle cx="523.289" cy="181.061" r="5" fill="#f1e15b"/>
+    <circle cx="529.968" cy="79.214" r="5" fill="#f1e15b"/>
+    <circle cx="504.466" cy="60.46" r="5" fill="#f1e15b"/>
+    <circle cx="529.22" cy="11.239" r="5" fill="#f1e15b"/>
+    <circle cx="516.564" cy="123.69" r="5" fill="#f1e15b"/>
+    <circle cx="511.329" cy="179.228" r="5" fill="#f1e15b"/>
+    <circle cx="512.953" cy="20.066" r="5" fill="#f1e15b"/>
+    <circle cx="502.059" cy="25.085" r="5" fill="#f1e15b"/>
+    <circle cx="536.874" cy="69.275" r="5" fill="#f1e15b"/>
+    <circle cx="511.787" cy="31.926" r="5" fill="#f1e15b"/>
+    <circle cx="516.484" cy="237.404" r="5" fill="#f1e15b"/>
+    <circle cx="521.925" cy="153.176" r="5" fill="#f1e15b"/>
+    <circle cx="518.892" cy="169.912" r="5" fill="#f1e15b"/>
+    <circle cx="517.792" cy="45.11" r="5" fill="#f1e15b"/>
+    <circle cx="524.912" cy="68.258" r="5" fill="#f1e15b"/>
+    <circle cx="505.717" cy="6.8" r="5" fill="#f1e15b"/>
+    <circle cx="516.461" cy="267" r="5" fill="#f1e15b"/>
+    <circle cx="508.322" cy="107.965" r="5" fill="#f1e15b"/>
+    <circle cx="515.756" cy="56.985" r="5" fill="#f1e15b"/>
+    <circle cx="529.679" cy="44.749" r="5" fill="#f1e15b"/>
+    <circle cx="501.677" cy="71.767" r="5" fill="#f1e15b"/>
+    <circle cx="520.284" cy="108.441" r="5" fill="#f1e15b"/>
+    <circle cx="527.747" cy="56.592" r="5" fill="#f1e15b"/>
+    <circle cx="506.1" cy="195.368" r="5" fill="#f1e15b"/>
+    <circle cx="517.414" cy="191.37" r="5" fill="#f1e15b"/>
+    <circle cx="507.537" cy="82.239" r="5" fill="#f1e15b"/>
+    <circle cx="523.43" cy="34.459" r="5" fill="#f1e15b"/>
+    <circle cx="517.511" cy="9.016" r="5" fill="#f1e15b"/>
+    <circle cx="506.556" cy="49.099" r="5" fill="#f1e15b"/>
+    <circle cx="527.199" cy="118.249" r="5" fill="#f1e15b"/>
+    <circle cx="510.201" cy="155.734" r="5" fill="#f1e15b"/>
+    <circle cx="501.146" cy="37.143" r="5" fill="#f1e15b"/>
+    <circle cx="522.449" cy="247.816" r="5" fill="#f1e15b"/>
+    <circle cx="506.563" cy="130.235" r="5" fill="#f1e15b"/>
+  </g>
+</svg>

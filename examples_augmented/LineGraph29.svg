@@ -1,0 +1,492 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400">
+  <path fill="transparent" d="M0 0h900v400H0z"/>
+  <path d="M80 20v320m47.059-320v320m47.059-320v320m47.058-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.058-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.059-320v320m47.058-320v320m47.059-320v320M880 20v320m-800 0h800M80 313h800M80 285h800M80 258h800M80 231h800M80 203h800M80 176h800M80 149h800M80 121h800M80 94h800M80 66h800M80 39h800" stroke="#ddd"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 350)" style="font-family:sans-serif;font-size:11px;fill:#333">IO</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(127.059 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(127.059 350)" style="font-family:sans-serif;font-size:11px;fill:#333">AD</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(174.118 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(174.118 350)" style="font-family:sans-serif;font-size:11px;fill:#333">LK</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(221.176 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(221.176 350)" style="font-family:sans-serif;font-size:11px;fill:#333">BS</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(268.235 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(268.235 350)" style="font-family:sans-serif;font-size:11px;fill:#333">RU</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(315.294 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(315.294 350)" style="font-family:sans-serif;font-size:11px;fill:#333">ZW</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(362.353 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(362.353 350)" style="font-family:sans-serif;font-size:11px;fill:#333">NZ</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(409.412 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(409.412 350)" style="font-family:sans-serif;font-size:11px;fill:#333">BZ</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(456.47 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(456.47 350)" style="font-family:sans-serif;font-size:11px;fill:#333">IN</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(503.53 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(503.53 350)" style="font-family:sans-serif;font-size:11px;fill:#333">BN</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(550.588 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(550.588 350)" style="font-family:sans-serif;font-size:11px;fill:#333">DJ</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(597.647 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(597.647 350)" style="font-family:sans-serif;font-size:11px;fill:#333">UY</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(644.706 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(644.706 350)" style="font-family:sans-serif;font-size:11px;fill:#333">HR</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(691.765 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(691.765 350)" style="font-family:sans-serif;font-size:11px;fill:#333">LR</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(738.824 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(738.824 350)" style="font-family:sans-serif;font-size:11px;fill:#333">SZ</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(785.882 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(785.882 350)" style="font-family:sans-serif;font-size:11px;fill:#333">MM</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(832.941 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(832.941 350)" style="font-family:sans-serif;font-size:11px;fill:#333">LS</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(880 340)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(880 350)" style="font-family:sans-serif;font-size:11px;fill:#333">TR</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h800" transform="translate(80 340)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 340)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 340)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 313)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 313)" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 285)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 285)" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 258)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 258)" style="font-family:sans-serif;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 231)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 231)" style="font-family:sans-serif;font-size:11px;fill:#333">80</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 203)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 203)" style="font-family:sans-serif;font-size:11px;fill:#333">100</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 176)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 176)" style="font-family:sans-serif;font-size:11px;fill:#333">120</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 149)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 149)" style="font-family:sans-serif;font-size:11px;fill:#333">140</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 121)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 121)" style="font-family:sans-serif;font-size:11px;fill:#333">160</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 94)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 94)" style="font-family:sans-serif;font-size:11px;fill:#333">180</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 66)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 66)" style="font-family:sans-serif;font-size:11px;fill:#333">200</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 39)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 39)" style="font-family:sans-serif;font-size:11px;fill:#333">220</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v320" transform="translate(80 20)"/>
+  <path d="m80 36 47.059 44 47.059 2 47.058 20 47.059-10 47.059 3 47.059 52 47.059 18 47.059 5 47.058-38 47.059-61 47.059 20 47.059-19 47.059 75 47.059 14 47.058-33 47.059-70L880 20" fill="none" stroke-width="2" stroke="hsl(87, 70%, 50%)"/>
+  <path d="m80 109 47.059-17 47.059 66h47.058l47.059-49 47.059 50 47.059-10 47.059 72 47.059-14 47.058 6 47.059-67 47.059 20 47.059-41 47.059 82 47.059 4 47.058-69 47.059-2L880 101" fill="none" stroke-width="2" stroke="hsl(263, 70%, 50%)"/>
+  <path d="m80 183 47.059-19 47.059 4 47.058 11 47.059-17 47.059 30 47.059 19 47.059 52 47.059-23 47.058 3 47.059-53 47.059 41 47.059-46 47.059 57 47.059 16 47.058-60 47.059-18L880 158" fill="none" stroke-width="2" stroke="hsl(312, 70%, 50%)"/>
+  <path d="m80 247 47.059-21 47.059 10 47.058 21 47.059-15 47.059 17 47.059-11 47.059 50 47.059-21 47.058-7 47.059-41 47.059 74 47.059-53 47.059 28 47.059 32 47.058-82 47.059-41L880 206" fill="none" stroke-width="2" stroke="hsl(34, 70%, 50%)"/>
+  <path d="m80 274 47.059 18 47.059-12 47.058 39 47.059-35 47.059-15 47.059 25 47.059 10 47.059 9 47.058 23 47.059-52 47.059 51 47.059-52 47.059 49h47.059l47.058-60 47.059-11L880 283" fill="none" stroke-width="2" stroke="hsl(189, 70%, 50%)"/>
+  <g transform="translate(880 20)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">59</text>
+  </g>
+  <g transform="translate(832.941 58)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">60</text>
+  </g>
+  <g transform="translate(785.882 128)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+  </g>
+  <g transform="translate(738.824 161)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">37</text>
+  </g>
+  <g transform="translate(691.765 147)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">44</text>
+  </g>
+  <g transform="translate(644.706 72)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">39</text>
+  </g>
+  <g transform="translate(597.647 91)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">55</text>
+  </g>
+  <g transform="translate(550.588 71)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">55</text>
+  </g>
+  <g transform="translate(503.53 132)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">59</text>
+  </g>
+  <g transform="translate(456.47 170)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">27</text>
+  </g>
+  <g transform="translate(409.412 165)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">41</text>
+  </g>
+  <g transform="translate(362.353 147)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">1</text>
+  </g>
+  <g transform="translate(315.294 95)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">47</text>
+  </g>
+  <g transform="translate(268.235 92)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">12</text>
+  </g>
+  <g transform="translate(221.176 102)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">41</text>
+  </g>
+  <g transform="translate(174.118 82)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">56</text>
+  </g>
+  <g transform="translate(127.059 80)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">9</text>
+  </g>
+  <g transform="translate(80 36)" style="pointer-events:none">
+    <circle r="5" fill="hsl(87, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">53</text>
+  </g>
+  <g transform="translate(880 101)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">42</text>
+  </g>
+  <g transform="translate(832.941 140)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">29</text>
+  </g>
+  <g transform="translate(785.882 142)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">41</text>
+  </g>
+  <g transform="translate(738.824 211)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">34</text>
+  </g>
+  <g transform="translate(691.765 207)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">25</text>
+  </g>
+  <g transform="translate(644.706 125)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">44</text>
+  </g>
+  <g transform="translate(597.647 166)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">47</text>
+  </g>
+  <g transform="translate(550.588 146)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">32</text>
+  </g>
+  <g transform="translate(503.53 213)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">22</text>
+  </g>
+  <g transform="translate(456.47 207)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">24</text>
+  </g>
+  <g transform="translate(409.412 221)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">31</text>
+  </g>
+  <g transform="translate(362.353 149)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">46</text>
+  </g>
+  <g transform="translate(315.294 159)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">24</text>
+  </g>
+  <g transform="translate(268.235 109)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">39</text>
+  </g>
+  <g transform="translate(221.176 158)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">15</text>
+  </g>
+  <g transform="translate(174.118 158)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">7</text>
+  </g>
+  <g transform="translate(127.059 92)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">52</text>
+  </g>
+  <g transform="translate(80 109)" style="pointer-events:none">
+    <circle r="5" fill="hsl(263, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">54</text>
+  </g>
+  <g transform="translate(880 158)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">35</text>
+  </g>
+  <g transform="translate(832.941 180)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g transform="translate(785.882 198)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">22</text>
+  </g>
+  <g transform="translate(738.824 258)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">38</text>
+  </g>
+  <g transform="translate(691.765 242)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">27</text>
+  </g>
+  <g transform="translate(644.706 185)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">47</text>
+  </g>
+  <g transform="translate(597.647 231)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">53</text>
+  </g>
+  <g transform="translate(550.588 190)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">29</text>
+  </g>
+  <g transform="translate(503.53 243)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g transform="translate(456.47 240)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">27</text>
+  </g>
+  <g transform="translate(409.412 263)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">25</text>
+  </g>
+  <g transform="translate(362.353 211)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">27</text>
+  </g>
+  <g transform="translate(315.294 192)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">49</text>
+  </g>
+  <g transform="translate(268.235 162)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">58</text>
+  </g>
+  <g transform="translate(221.176 179)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">57</text>
+  </g>
+  <g transform="translate(174.118 168)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+  </g>
+  <g transform="translate(127.059 164)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">46</text>
+  </g>
+  <g transform="translate(80 183)" style="pointer-events:none">
+    <circle r="5" fill="hsl(312, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">47</text>
+  </g>
+  <g transform="translate(880 206)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">56</text>
+  </g>
+  <g transform="translate(832.941 187)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">54</text>
+  </g>
+  <g transform="translate(785.882 228)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">32</text>
+  </g>
+  <g transform="translate(738.824 310)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">16</text>
+  </g>
+  <g transform="translate(691.765 278)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">39</text>
+  </g>
+  <g transform="translate(644.706 250)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">24</text>
+  </g>
+  <g transform="translate(597.647 303)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">23</text>
+  </g>
+  <g transform="translate(550.588 229)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+  </g>
+  <g transform="translate(503.53 270)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">48</text>
+  </g>
+  <g transform="translate(456.47 277)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">26</text>
+  </g>
+  <g transform="translate(409.412 298)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g transform="translate(362.353 248)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">33</text>
+  </g>
+  <g transform="translate(315.294 259)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">7</text>
+  </g>
+  <g transform="translate(268.235 242)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">31</text>
+  </g>
+  <g transform="translate(221.176 257)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">46</text>
+  </g>
+  <g transform="translate(174.118 236)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">32</text>
+  </g>
+  <g transform="translate(127.059 226)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">48</text>
+  </g>
+  <g transform="translate(80 247)" style="pointer-events:none">
+    <circle r="5" fill="hsl(34, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g transform="translate(880 283)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">42</text>
+  </g>
+  <g transform="translate(832.941 261)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">58</text>
+  </g>
+  <g transform="translate(785.882 272)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+  </g>
+  <g transform="translate(738.824 332)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">6</text>
+  </g>
+  <g transform="translate(691.765 332)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">6</text>
+  </g>
+  <g transform="translate(644.706 283)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">42</text>
+  </g>
+  <g transform="translate(597.647 335)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">4</text>
+  </g>
+  <g transform="translate(550.588 284)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">41</text>
+  </g>
+  <g transform="translate(503.53 336)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">3</text>
+  </g>
+  <g transform="translate(456.47 313)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g transform="translate(409.412 304)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">26</text>
+  </g>
+  <g transform="translate(362.353 294)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">34</text>
+  </g>
+  <g transform="translate(315.294 269)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">52</text>
+  </g>
+  <g transform="translate(268.235 284)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">41</text>
+  </g>
+  <g transform="translate(221.176 319)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">15</text>
+  </g>
+  <g transform="translate(174.118 280)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">44</text>
+  </g>
+  <g transform="translate(127.059 292)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">35</text>
+  </g>
+  <g transform="translate(80 274)" style="pointer-events:none">
+    <circle r="5" fill="hsl(189, 70%, 50%)" stroke="transparent" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">48</text>
+  </g>
+  <g transform="translate(80 20)"/>
+</svg>

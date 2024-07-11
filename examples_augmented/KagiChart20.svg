@@ -1,0 +1,102 @@
+<svg width="1039" height="268">
+  <clipPath id="a">
+    <path d="M-1-1h1041v270H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <path fill="transparent" class="wj-plot-area" d="M51 16.5h962.3v186.2H51z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="6.3" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 34.3 231.5)">05/18/12</text>
+    <path stroke="#666" class="wj-tick" d="M59.9 202.7v4"/>
+    <text x="41.9" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 69.9 231.5)">06/29/12</text>
+    <path stroke="#666" class="wj-tick" d="M95.6 202.7v4"/>
+    <text x="77.6" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 105.6 231.5)">08/08/12</text>
+    <path stroke="#666" class="wj-tick" d="M131.2 202.7v4"/>
+    <text x="113.2" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 141.2 231.5)">08/16/12</text>
+    <path stroke="#666" class="wj-tick" d="M166.9 202.7v4"/>
+    <text x="148.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 176.9 231.5)">09/24/12</text>
+    <path stroke="#666" class="wj-tick" d="M202.5 202.7v4"/>
+    <text x="184.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 212.5 231.5)">10/08/12</text>
+    <path stroke="#666" class="wj-tick" d="M238.2 202.7v4"/>
+    <text x="220.1" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 248.1 231.5)">10/26/12</text>
+    <path stroke="#666" class="wj-tick" d="M273.8 202.7v4"/>
+    <text x="255.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 283.8 231.5)">12/17/12</text>
+    <path stroke="#666" class="wj-tick" d="M309.4 202.7v4"/>
+    <text x="291.4" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 319.4 231.5)">01/16/13</text>
+    <path stroke="#666" class="wj-tick" d="M345.1 202.7v4"/>
+    <text x="327.1" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 355.1 231.5)">01/31/13</text>
+    <path stroke="#666" class="wj-tick" d="M380.7 202.7v4"/>
+    <text x="362.7" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 390.7 231.5)">03/15/13</text>
+    <path stroke="#666" class="wj-tick" d="M416.4 202.7v4"/>
+    <text x="398.3" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 426.4 231.5)">04/18/13</text>
+    <path stroke="#666" class="wj-tick" d="M452 202.7v4"/>
+    <text x="434" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 462 231.5)">05/08/13</text>
+    <path stroke="#666" class="wj-tick" d="M487.6 202.7v4"/>
+    <text x="469.6" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 497.6 231.5)">08/15/13</text>
+    <path stroke="#666" class="wj-tick" d="M523.3 202.7v4"/>
+    <text x="505.3" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 533.3 231.5)">10/09/13</text>
+    <path stroke="#666" class="wj-tick" d="M558.9 202.7v4"/>
+    <text x="540.9" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 568.9 231.5)">10/28/13</text>
+    <path stroke="#666" class="wj-tick" d="M594.6 202.7v4"/>
+    <text x="576.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 604.6 231.5)">11/19/13</text>
+    <path stroke="#666" class="wj-tick" d="M630.2 202.7v4"/>
+    <text x="612.2" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 640.2 231.5)">12/30/13</text>
+    <path stroke="#666" class="wj-tick" d="M665.9 202.7v4"/>
+    <text x="647.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 675.8 231.5)">01/24/14</text>
+    <path stroke="#666" class="wj-tick" d="M701.5 202.7v4"/>
+    <text x="683.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 711.5 231.5)">03/17/14</text>
+    <path stroke="#666" class="wj-tick" d="M737.1 202.7v4"/>
+    <text x="719.1" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 747.1 231.5)">04/15/14</text>
+    <path stroke="#666" class="wj-tick" d="M772.8 202.7v4"/>
+    <text x="754.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 782.8 231.5)">04/25/14</text>
+    <path stroke="#666" class="wj-tick" d="M808.4 202.7v4"/>
+    <text x="790.4" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 818.4 231.5)">05/07/14</text>
+    <path stroke="#666" class="wj-tick" d="M844.1 202.7v4"/>
+    <text x="826" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 854.1 231.5)">07/08/14</text>
+    <path stroke="#666" class="wj-tick" d="M879.7 202.7v4"/>
+    <text x="861.7" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 889.7 231.5)">10/10/14</text>
+    <path stroke="#666" class="wj-tick" d="M915.3 202.7v4"/>
+    <text x="897.3" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 925.3 231.5)">10/29/14</text>
+    <path stroke="#666" class="wj-tick" d="M951 202.7v4"/>
+    <text x="933" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 961 231.5)">01/06/15</text>
+    <path stroke="#666" class="wj-tick" d="M986.6 202.7v4"/>
+    <path stroke="#666" class="wj-line" d="M51 202.7h962.4"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M51 196.9h962.4"/>
+    <text x="22.5" y="202.2" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M51 169.3h962.4"/>
+    <text x="22.5" y="174.6" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-gridline" d="M51 141.7h962.4"/>
+    <text x="22.5" y="146.9" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-gridline" d="M51 114h962.4"/>
+    <text x="22.5" y="119.3" fill="#666" class="wj-label">50</text>
+    <path stroke="#666" class="wj-gridline" d="M51 86.4h962.4"/>
+    <text x="22.5" y="91.7" fill="#666" class="wj-label">60</text>
+    <path stroke="#666" class="wj-gridline" d="M51 58.8h962.4"/>
+    <text x="22.5" y="64" fill="#666" class="wj-label">70</text>
+    <path stroke="#666" class="wj-gridline" d="M51 31.1h962.4"/>
+    <text x="22.5" y="36.4" fill="#666" class="wj-label">80</text>
+  </g>
+  <g clip-path="url(#b)" class="wj-series-group">
+    <path stroke="#5e0f99" stroke-width="2" d="M59.9 137.5v41.9m-18.8-41.9h19.8m-2 41.9h19.9m-1 0v-18.3m-1 0h19.8m-1 0V196m-1 0h19.8m-1 0v-3.8m-1 0h19.8m-1 0v2.8m-1 0H150m-1 0v-2.8"/>
+    <path stroke="#00b050" stroke-width="4" d="M149 192.2v-.6m-2 0h21.9m-2 0v3.4"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M166.9 195v7.7m-1 0h19.8m-1 0v-11.1"/>
+    <path stroke="#00b050" stroke-width="4" d="M184.7 191.6v-2.7m-2 0h21.8m-2 0v7.2m-2 0h21.8m-2 0V191m-2 0h21.9m-2 0v5.1"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M238.2 196.1v3.8m-1 0H257m-1 0V191"/>
+    <path stroke="#00b050" stroke-width="4" d="M256 191v-3.9m-2 0h21.8m-2 0v11.2m-2 0h21.8m-2 0v-23.7m-2 0h21.8m-2 0v6.8m-2 0h21.9m-2 0v-16.3m-2 0h21.8m-2 0v4.6m-2 0h21.8m-2 0v-6.4m-2 0h21.8m-2 0v6.4"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M380.7 169.7v8.4m-1 0h19.8m-1 0v-3.9m-1 0h19.9m-1 0v8.2m-1 0h19.8m-1 0v-6.7m-1 0H453m-1 0v5.6m-1 0h19.8m-1 0v-5.6"/>
+    <path stroke="#00b050" stroke-width="4" d="M469.8 175.7v-2.6m-2 0h21.8m-2 0v8.2"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M487.6 181.3v7.7m-1 0h19.9m-1 0v-15.9"/>
+    <path stroke="#00b050" stroke-width="4" d="M505.5 173.1V145m-2 0h21.8m-2 0v6.2m-2 0h21.8m-2 0v-39.5m-2 0h21.8m-2 0v11.9m-2 0h21.8m-2 0v-21.2m-2 0h21.9m-2 0v21m-2 0h21.8m-2 0v-6.9m-2 0h21.8m-2 0v6.9"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M630.2 123.4v4.8m-1 0H649m-1 0v-11.7"/>
+    <path stroke="#00b050" stroke-width="4" d="M648 116.5V92.3m-2 0h21.9m-2 0v9.8m-2 0h21.8m-2 0V91.4m-2 0h21.8m-2 0v10.7"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M701.5 102.1v2.6m-1 0h19.8m-1 0V91.4"/>
+    <path stroke="#00b050" stroke-width="4" d="M719.3 91.4V55.1m-2 0h21.8m-2 0v40.4m-2 0H757m-2 0V83.8m-2 0h21.8m-2 0v8.7m-2 0h21.8m-2 0V78.6m-2 0h21.8m-2 0v13.9"/>
+    <path stroke="#5e0f99" stroke-width="2" d="M808.4 92.5v3.6m-1 0h19.8m-1 0V83m-1 0h19.9m-1 0v11.6m-1 0h19.8m-1 0V83"/>
+    <path stroke="#00b050" stroke-width="4" d="M861.9 83V64.5m-2 0h21.8m-2 0v11.2m-2 0h21.8m-2 0V33.5m-2 0h21.8m-2 0v19.8m-2 0h21.9m-2 0V30.1m-2 0H953m-2 0v19.7m-2 0h21.8m-2 0V27.6m-2 0h21.8m-2 0v19.7m-2 0h21.8m-2 0V16.5"/>
+  </g>
+  <clipPath id="b">
+    <path d="M50 15.5h964.3v188.2H50z"/>
+  </clipPath>
+</svg>

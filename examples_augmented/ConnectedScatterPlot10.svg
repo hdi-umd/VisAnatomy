@@ -1,0 +1,160 @@
+<svg width="520" height="500" tabindex="2">
+  <g>
+    <path class="cheat" transform="translate(40 20)" d="M0,129.375L11.295512277730722,100.62499999999994L17.33276883996615,94.87499999999989L26.486028789161708,103.49999999999989L29.472198701665263,158.125L42.32571267287608,120.75L47.908552074513125,109.24999999999989L48.752469658481516,137.99999999999994L51.933389782670076,175.37499999999994L60.826982782952314,172.5L63.4236522720858,178.25L65.76065481230597,189.74999999999994L72.05757832345472,155.24999999999994L81.47050522156366,123.62499999999994L91.5975162291843,71.87499999999994L101.98419418571831,60.374999999999886L111.46203782105562,11.499999999999886L121.06971493084956,20.124999999999943L132.68981089472197,2.8749999999998863L144.24499012136607,0L155.47558566186848,20.124999999999943L172.67852102737794,31.624999999999886L193.77646062658766,11.499999999999886L206.43522438611348,25.874999999999886L192.8676263053909,152.37499999999994L203.1893875246966,166.74999999999994L221.69065763477278,158.125L236.5565904600621,135.125L254.6683601467683,109.24999999999989L245.19051651143099,106.37499999999994L239.54276037256562,115L243.17809765735254,143.75L250.05927180355633,215.625L262.06886819079875,235.74999999999997L276.6751340671747,221.37499999999997L287.32147897262206,230L299.13632514817954,206.99999999999997L317.8323454699408,209.87499999999991L340.9427039232289,206.99999999999997L354.3804685294948,230L360.67739204064355,247.24999999999994L360.3528083545018,287.5L371.9729043183742,319.125L376.97149308495625,316.25L385.0860852384984,313.375L394.1744284504657,307.625L402.54868755292125,310.5L413.5196161445103,316.25L422.8676263053909,327.75L429.61896697713803,330.625L435.6562235393734,330.625L440.58989556872706,333.49999999999994L447.5359864521592,330.625L449.35365509455266,336.375L460,339.25L459.3508326277166,336.375L458.63674851820497,347.87499999999994L455.7154953429297,365.125L438.12305955405026,405.375L428.45046570702794,442.75L427.86621507197293,454.25L421.4394580863675,460" style="fill: white; stroke: black"/>
+    <g class="axis1" transform="translate(40 480)">
+      <g class="tick" transform="translate(63.81315269545583,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">4,000</text>
+      </g>
+      <g class="tick" transform="translate(128.7298899237934,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">5,000</text>
+      </g>
+      <g class="tick" transform="translate(193.64662715213097,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">6,000</text>
+      </g>
+      <g class="tick" transform="translate(258.56336438046856,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">7,000</text>
+      </g>
+      <g class="tick" transform="translate(323.48010160880614,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">8,000</text>
+      </g>
+      <g class="tick" transform="translate(388.39683883714366,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">9,000</text>
+      </g>
+      <g class="tick" transform="translate(453.31357606548124,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">10,000</text>
+      </g>
+      <path class="domain" d="M0,6V0H460V6"/>
+    </g>
+    <g class="axislabel" transform="translate(500 475)">
+      <text class="axis1" x="0" y="0" text-anchor="end">Vehicle miles driven per capita</text>
+    </g>
+    <g class="axis2" transform="translate(40 20)">
+      <g class="tick" transform="translate(0,414)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">12</text>
+      </g>
+      <g class="tick" transform="translate(0,356.5)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">14</text>
+      </g>
+      <g class="tick" transform="translate(0,299)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">16</text>
+      </g>
+      <g class="tick" transform="translate(0,241.49999999999997)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">18</text>
+      </g>
+      <g class="tick" transform="translate(0,183.99999999999994)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">20</text>
+      </g>
+      <g class="tick" transform="translate(0,126.49999999999994)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">22</text>
+      </g>
+      <g class="tick" transform="translate(0,68.99999999999989)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">24</text>
+      </g>
+      <g class="tick" transform="translate(0,11.499999999999886)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">26</text>
+      </g>
+      <path class="domain" d="M-6,0H0V460H-6"/>
+    </g>
+    <g class="axislabel" transform="translate(56 20) rotate(-90)">
+      <text class="axis2" x="0" y="0" text-anchor="end">Auto fatalities per 100,000 people</text>
+    </g>
+  </g>
+  <g transform="translate(40 20)">
+    <defs>
+      <marker id="arrow" viewBox="0,0,10,6" refX="10" refY="3" markerUnits="strokeWidth" markerWidth="12" markerHeight="8" orient="auto" stroke="white" stroke-width="0.5" fill="purple">
+        <polygon points="0,0 10,3 0,6"/>
+      </marker>
+    </defs>
+    <path d="M0,129.375L11.295512277730722,100.62499999999994L17.33276883996615,94.87499999999989L26.486028789161708,103.49999999999989L29.472198701665263,158.125L42.32571267287608,120.75L47.908552074513125,109.24999999999989L48.752469658481516,137.99999999999994L51.933389782670076,175.37499999999994L60.826982782952314,172.5L63.4236522720858,178.25L65.76065481230597,189.74999999999994L72.05757832345472,155.24999999999994L81.47050522156366,123.62499999999994L91.5975162291843,71.87499999999994L101.98419418571831,60.374999999999886L111.46203782105562,11.499999999999886L121.06971493084956,20.124999999999943L132.68981089472197,2.8749999999998863L144.24499012136607,0L155.47558566186848,20.124999999999943L172.67852102737794,31.624999999999886L193.77646062658766,11.499999999999886L206.43522438611348,25.874999999999886L192.8676263053909,152.37499999999994L203.1893875246966,166.74999999999994L221.69065763477278,158.125L236.5565904600621,135.125L254.6683601467683,109.24999999999989L245.19051651143099,106.37499999999994L239.54276037256562,115L243.17809765735254,143.75L250.05927180355633,215.625L262.06886819079875,235.74999999999997L276.6751340671747,221.37499999999997L287.32147897262206,230L299.13632514817954,206.99999999999997L317.8323454699408,209.87499999999991L340.9427039232289,206.99999999999997L354.3804685294948,230L360.67739204064355,247.24999999999994L360.3528083545018,287.5L371.9729043183742,319.125L376.97149308495625,316.25L385.0860852384984,313.375L394.1744284504657,307.625L402.54868755292125,310.5L413.5196161445103,316.25L422.8676263053909,327.75L429.61896697713803,330.625L435.6562235393734,330.625L440.58989556872706,333.49999999999994L447.5359864521592,330.625L449.35365509455266,336.375L460,339.25L459.3508326277166,336.375L458.63674851820497,347.87499999999994L455.7154953429297,365.125L438.12305955405026,405.375L428.45046570702794,442.75L427.86621507197293,454.25L421.4394580863675,460" class="line" style="fill: white; stroke: black"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="0" cy="129.375"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="11.295512277730722" cy="100.62499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="17.33276883996615" cy="94.87499999999989"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="26.486028789161708" cy="103.49999999999989"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="29.472198701665263" cy="158.125"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="42.32571267287608" cy="120.75"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="47.908552074513125" cy="109.24999999999989"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="48.752469658481516" cy="137.99999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="51.933389782670076" cy="175.37499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="60.826982782952314" cy="172.5"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="63.4236522720858" cy="178.25"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="65.76065481230597" cy="189.74999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="72.05757832345472" cy="155.24999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="81.47050522156366" cy="123.62499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="91.5975162291843" cy="71.87499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="101.98419418571831" cy="60.374999999999886"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="111.46203782105562" cy="11.499999999999886"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="121.06971493084956" cy="20.124999999999943"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="132.68981089472197" cy="2.8749999999998863"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="144.24499012136607" cy="0"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="155.47558566186848" cy="20.124999999999943"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="172.67852102737794" cy="31.624999999999886"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="193.77646062658766" cy="11.499999999999886"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="206.43522438611348" cy="25.874999999999886"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="192.8676263053909" cy="152.37499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="203.1893875246966" cy="166.74999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="221.69065763477278" cy="158.125"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="236.5565904600621" cy="135.125"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="254.6683601467683" cy="109.24999999999989"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="245.19051651143099" cy="106.37499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="239.54276037256562" cy="115"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="243.17809765735254" cy="143.75"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="250.05927180355633" cy="215.625"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="262.06886819079875" cy="235.74999999999997"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="276.6751340671747" cy="221.37499999999997"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="287.32147897262206" cy="230"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="299.13632514817954" cy="206.99999999999997"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="317.8323454699408" cy="209.87499999999991"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="340.9427039232289" cy="206.99999999999997"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="354.3804685294948" cy="230"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="360.67739204064355" cy="247.24999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="360.3528083545018" cy="287.5"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="371.9729043183742" cy="319.125"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="376.97149308495625" cy="316.25"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="385.0860852384984" cy="313.375"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="394.1744284504657" cy="307.625"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="402.54868755292125" cy="310.5"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="413.5196161445103" cy="316.25"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="422.8676263053909" cy="327.75"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="429.61896697713803" cy="330.625"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="435.6562235393734" cy="330.625"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="440.58989556872706" cy="333.49999999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="447.5359864521592" cy="330.625"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="449.35365509455266" cy="336.375"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="460" cy="339.25"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="459.3508326277166" cy="336.375"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="458.63674851820497" cy="347.87499999999994"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="455.7154953429297" cy="365.125"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="438.12305955405026" cy="405.375"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="428.45046570702794" cy="442.75"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="427.86621507197293" cy="454.25"/>
+    <circle r="3" fill-opacity="1" stroke-opacity="1" cx="421.4394580863675" cy="460"/>
+    <line x1="199.6514253457522" y1="89.12499999999991" x2="198.58500412531524" y2="99.0679746947581" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="246.61868473045445" y1="179.6875" x2="247.57170784410874" y2="189.64198376084067" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="27.979113745413486" y1="130.81249999999994" x2="28.52496598841504" y2="140.79759115275414" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="86.53401072537397" y1="97.74999999999994" x2="88.45449409436667" y2="87.93614532258484" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="106.72311600338696" y1="35.937499999999886" x2="108.62685208913244" y2="26.120382861255415" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="446.91927744849" y1="385.25" x2="442.9143260743241" y2="394.4129888404694" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="360.5151001975727" y1="267.375" x2="360.4344609099635" y2="277.3746748599789" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="35.89895568727067" y1="139.4375" x2="39.15107880547726" y2="129.98108972844207" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="433.2867626305391" y1="424.0625" x2="430.78132099313973" y2="433.7435517094779" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="50.342929720575796" y1="156.68749999999994" x2="51.19094630331342" y2="166.65147851640603" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="68.90911656788035" y1="172.49999999999994" x2="70.70464917862529" y2="162.66251746411956" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="366.16285633643804" y1="303.3125" x2="369.61174986296544" y2="312.69893347830674" style="marker-end: url(&quot;#arrow&quot;);"/>
+    <line x1="76.76404177250919" y1="139.43749999999994" x2="79.61677942924813" y2="129.8530392503373" style="marker-end: url(&quot;#arrow&quot;);"/>
+  </g>
+</svg>

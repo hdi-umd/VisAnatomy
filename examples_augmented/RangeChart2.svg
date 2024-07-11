@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" border="0" data-ac-wrapper-id="2" width="100%" height="100%" class="anychart-ui-support" ac-id="ac_stage_f61eb74_0" style="display: block;">
+  <defs>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_c">
+      <path data-ac-wrapper-id="22" id="ac_rect_f61eb74_d" fill="none" stroke="black" d="M 47 40 L 879 40 879 399 47 399 47 40 Z"/>
+    </clipPath>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_w">
+      <path data-ac-wrapper-id="40" id="ac_rect_f61eb74_x" fill="none" stroke="black" d="M 47 40 L 879 40 879 399 47 399 47 40 Z"/>
+    </clipPath>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_2a">
+      <path data-ac-wrapper-id="88" id="ac_rect_f61eb74_2b" fill="none" stroke="black" d="M 48 40 L 879 40 879 398 48 398 48 40 Z"/>
+    </clipPath>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_2z">
+      <path data-ac-wrapper-id="111" id="ac_rect_f61eb74_30" fill="none" stroke="black" d="M 47 40 L 878 40 878 398 47 398 47 40 Z"/>
+    </clipPath>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_4e">
+      <path data-ac-wrapper-id="162" id="ac_rect_f61eb74_4f" fill="none" stroke="black" d="M 33 452 L 879 452 879 545 33 545 33 452 Z"/>
+    </clipPath>
+    <clipPath clip-rule="nonzero" id="ac_clip_f61eb74_53">
+      <path data-ac-wrapper-id="185" id="ac_rect_f61eb74_54" fill="none" stroke="black" d="M 32 452 L 878 452 878 545 32 545 32 452 Z"/>
+    </clipPath>
+  </defs>
+  <g data-ac-wrapper-id="3" id="ac_layer_f61eb74_1">
+    <g data-ac-wrapper-id="12" role="article" aria-label="column chart  entitled Average max and min Temperatures in (°F)
+and Precipitation Totals in mm., with 1 range-column series, . Y-scale minimum value is 0 , maximum value is 100. X-scale with 10 categories: Jan, Feb, Mar, Apr, May, June, July, Aug, Sep, Oct, . " id="ac_chart_f61eb74_2">
+      <g data-ac-wrapper-id="13" id="ac_layer_f61eb74_4">
+        <path data-ac-wrapper-id="14" id="ac_path_f61eb74_3" fill="#ffffff" stroke="none" d="M 0 0 L 898 0 898 0 898 441.75 898 441.75 0 441.75 0 441.75 0 0 0 0 Z"/>
+      </g>
+      <path data-ac-wrapper-id="110" clip-path="url(&quot;#ac_clip_f61eb74_2z&quot;)" clipPathUnits="userSpaceOnUse" id="ac_path_f61eb74_31" fill="none" stroke="none" d="M 0,0"/>
+      <path data-ac-wrapper-id="23" id="ac_path_f61eb74_f" fill="none" stroke="none" d="M 47 398.5 L 878 398.5 878 375.5 47 375.5 Z"/>
+      <path data-ac-wrapper-id="24" id="ac_path_f61eb74_g" fill="none" stroke="none" d="M 47 375.5 L 878 375.5 878 353.5 47 353.5 Z"/>
+      <path data-ac-wrapper-id="25" id="ac_path_f61eb74_h" fill="none" stroke="none" d="M 47 353.5 L 878 353.5 878 330.5 47 330.5 Z"/>
+      <path data-ac-wrapper-id="26" id="ac_path_f61eb74_i" fill="none" stroke="none" d="M 47 330.5 L 878 330.5 878 308.5 47 308.5 Z"/>
+      <path data-ac-wrapper-id="27" id="ac_path_f61eb74_j" fill="none" stroke="none" d="M 47 308.5 L 878 308.5 878 286.5 47 286.5 Z"/>
+      <path data-ac-wrapper-id="28" id="ac_path_f61eb74_k" fill="none" stroke="none" d="M 47 286.5 L 878 286.5 878 263.5 47 263.5 Z"/>
+      <path data-ac-wrapper-id="29" id="ac_path_f61eb74_l" fill="none" stroke="none" d="M 47 263.5 L 878 263.5 878 241.5 47 241.5 Z"/>
+      <path data-ac-wrapper-id="30" id="ac_path_f61eb74_m" fill="none" stroke="none" d="M 47 241.5 L 878 241.5 878 219.5 47 219.5 Z"/>
+      <path data-ac-wrapper-id="31" id="ac_path_f61eb74_n" fill="none" stroke="none" d="M 47 219.5 L 878 219.5 878 196.5 47 196.5 Z"/>
+      <path data-ac-wrapper-id="32" id="ac_path_f61eb74_o" fill="none" stroke="none" d="M 47 196.5 L 878 196.5 878 174.5 47 174.5 Z"/>
+      <path data-ac-wrapper-id="33" id="ac_path_f61eb74_p" fill="none" stroke="none" d="M 47 174.5 L 878 174.5 878 151.5 47 151.5 Z"/>
+      <path data-ac-wrapper-id="34" id="ac_path_f61eb74_q" fill="none" stroke="none" d="M 47 151.5 L 878 151.5 878 129.5 47 129.5 Z"/>
+      <path data-ac-wrapper-id="35" id="ac_path_f61eb74_r" fill="none" stroke="none" d="M 47 129.5 L 878 129.5 878 107.5 47 107.5 Z"/>
+      <path data-ac-wrapper-id="36" id="ac_path_f61eb74_s" fill="none" stroke="none" d="M 47 107.5 L 878 107.5 878 84.5 47 84.5 Z"/>
+      <path data-ac-wrapper-id="37" id="ac_path_f61eb74_t" fill="none" stroke="none" d="M 47 84.5 L 878 84.5 878 62.5 47 62.5 Z"/>
+      <path data-ac-wrapper-id="38" id="ac_path_f61eb74_u" fill="none" stroke="none" d="M 47 62.5 L 878 62.5 878 40.5 47 40.5 Z"/>
+      <path data-ac-wrapper-id="39" clip-path="url(&quot;#ac_clip_f61eb74_w&quot;)" clipPathUnits="userSpaceOnUse" id="ac_path_f61eb74_y" fill="none" stroke="#EAEAEA" d="M 47 398.5 L 878 398.5 M 47 375.5 L 878 375.5 M 47 353.5 L 878 353.5 M 47 330.5 L 878 330.5 M 47 308.5 L 878 308.5 M 47 286.5 L 878 286.5 M 47 263.5 L 878 263.5 M 47 241.5 L 878 241.5 M 47 219.5 L 878 219.5 M 47 196.5 L 878 196.5 M 47 174.5 L 878 174.5 M 47 151.5 L 878 151.5 M 47 129.5 L 878 129.5 M 47 107.5 L 878 107.5 M 47 84.5 L 878 84.5 M 47 62.5 L 878 62.5 M 47 40.5 L 878 40.5"/>
+      <path data-ac-wrapper-id="17" id="ac_path_f61eb74_7" fill="none" stroke="none" d="M 47 398.5 L 878 398.5 878 308.5 47 308.5 Z"/>
+      <path data-ac-wrapper-id="18" id="ac_path_f61eb74_8" fill="none" stroke="none" d="M 47 308.5 L 878 308.5 878 219.5 47 219.5 Z"/>
+      <path data-ac-wrapper-id="19" id="ac_path_f61eb74_9" fill="none" stroke="none" d="M 47 219.5 L 878 219.5 878 129.5 47 129.5 Z"/>
+      <path data-ac-wrapper-id="20" id="ac_path_f61eb74_a" fill="none" stroke="none" d="M 47 129.5 L 878 129.5 878 40.5 47 40.5 Z"/>
+      <path data-ac-wrapper-id="21" clip-path="url(&quot;#ac_clip_f61eb74_c&quot;)" clipPathUnits="userSpaceOnUse" id="ac_path_f61eb74_e" fill="none" stroke="#CECECE" d="M 47 398.5 L 878 398.5 M 47 308.5 L 878 308.5 M 47 219.5 L 878 219.5 M 47 129.5 L 878 129.5 M 47 40.5 L 878 40.5"/>
+      <g data-ac-wrapper-id="77" clip-path="url(&quot;#ac_clip_f61eb74_2a&quot;)" clipPathUnits="userSpaceOnUse" id="ac_layer_f61eb74_2c">
+        <path data-ac-wrapper-id="78" id="ac_path_f61eb74_1z" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 65.5 319.5 L 111.5 319.5 111.5 269.5 65.5 269.5 Z"/>
+        <path data-ac-wrapper-id="79" id="ac_path_f61eb74_20" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 148.5 312.5 L 194.5 312.5 194.5 254.5 148.5 254.5 Z"/>
+        <path data-ac-wrapper-id="80" id="ac_path_f61eb74_21" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 231.5 290.5 L 277.5 290.5 277.5 226.5 231.5 226.5 Z"/>
+        <path data-ac-wrapper-id="81" id="ac_path_f61eb74_22" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 314.5 254.5 L 360.5 254.5 360.5 186.5 314.5 186.5 Z"/>
+        <path data-ac-wrapper-id="82" id="ac_path_f61eb74_23" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 397.5 219.5 L 444.5 219.5 444.5 150.5 397.5 150.5 Z"/>
+        <path data-ac-wrapper-id="83" id="ac_path_f61eb74_24" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" d="M 480.5 186.5 L 527.5 186.5 527.5 118.5 480.5 118.5 Z" stroke-width="1.5"/>
+        <path data-ac-wrapper-id="84" id="ac_path_f61eb74_25" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 564.5 165.5 L 610.5 165.5 610.5 104.5 564.5 104.5 Z"/>
+        <path data-ac-wrapper-id="85" id="ac_path_f61eb74_26" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 647.5 168.5 L 693.5 168.5 693.5 108.5 647.5 108.5 Z"/>
+        <path data-ac-wrapper-id="86" id="ac_path_f61eb74_27" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 730.5 197.5 L 776.5 197.5 776.5 136.5 730.5 136.5 Z"/>
+        <path data-ac-wrapper-id="87" id="ac_path_f61eb74_28" fill="#DB5854" fill-opacity="0.85" stroke="#DB5854" stroke-width="1.5" d="M 813.5 236.5 L 859.5 236.5 859.5 176.5 813.5 176.5 Z"/>
+      </g>
+      <g data-ac-wrapper-id="89" clip-path="url(&quot;#ac_clip_f61eb74_2a&quot;)" clipPathUnits="userSpaceOnUse" id="ac_layer_f61eb74_2x">
+        <g data-ac-wrapper-id="90" id="ac_layer_f61eb74_2e">
+          <text data-ac-wrapper-id="91" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="64.50312500000001" y="262.62" aria-hidden="true" id="ac_text_f61eb74_2d" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="64.50312500000001" dy="0">22 - 36</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="92" id="ac_layer_f61eb74_2g">
+          <text data-ac-wrapper-id="93" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="147.60312500000003" y="248.3" aria-hidden="true" id="ac_text_f61eb74_2f" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="147.60312500000003" dy="0">24 - 40</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="94" id="ac_layer_f61eb74_2i">
+          <text data-ac-wrapper-id="95" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="230.703125" y="219.65999999999997" aria-hidden="true" id="ac_text_f61eb74_2h" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="230.703125" dy="0">30 - 48</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="96" id="ac_layer_f61eb74_2k">
+          <text data-ac-wrapper-id="97" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="313.80312499999997" y="180.28" aria-hidden="true" id="ac_text_f61eb74_2j" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="313.80312499999997" dy="0">40 - 59</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="98" id="ac_layer_f61eb74_2m">
+          <text data-ac-wrapper-id="99" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="396.903125" y="144.48000000000002" aria-hidden="true" id="ac_text_f61eb74_2l" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="396.903125" dy="0">50 - 69</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="100" id="ac_layer_f61eb74_2o">
+          <text data-ac-wrapper-id="101" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="480.003125" y="112.25999999999998" aria-hidden="true" id="ac_text_f61eb74_2n" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="480.003125" dy="0">59 - 78</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="102" id="ac_layer_f61eb74_2q">
+          <text data-ac-wrapper-id="103" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="563.103125" y="97.94000000000001" aria-hidden="true" id="ac_text_f61eb74_2p" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="563.103125" dy="0">65 - 82</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="104" id="ac_layer_f61eb74_2s">
+          <text data-ac-wrapper-id="105" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="646.203125" y="101.51999999999998" aria-hidden="true" id="ac_text_f61eb74_2r" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="646.203125" dy="0">64 - 81</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="106" id="ac_layer_f61eb74_2u">
+          <text data-ac-wrapper-id="107" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="729.303125" y="130.16000000000003" aria-hidden="true" id="ac_text_f61eb74_2t" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="729.303125" dy="0">56 - 73</tspan></text>
+        </g>
+        <g data-ac-wrapper-id="108" id="ac_layer_f61eb74_2w">
+          <text data-ac-wrapper-id="109" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB5854" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="start" x="812.403125" y="169.54" aria-hidden="true" id="ac_text_f61eb74_2v" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="812.403125" dy="0">45 - 62</tspan></text>
+        </g>
+      </g>
+      <path data-ac-wrapper-id="41" id="ac_path_f61eb74_z" fill="none" stroke="#CECECE" d="M 47 399.5 L 879 399.5"/>
+      <path data-ac-wrapper-id="42" id="ac_path_f61eb74_10" fill="none" stroke="#CECECE" d="M 47.5 400 L 47.5 406 M 130.5 400 L 130.5 406 M 213.5 400 L 213.5 406 M 296.5 400 L 296.5 406 M 379.5 400 L 379.5 406 M 462.5 400 L 462.5 406 M 545.5 400 L 545.5 406 M 628.5 400 L 628.5 406 M 711.5 400 L 711.5 406 M 794.5 400 L 794.5 406 M 878.5 400 L 878.5 406"/>
+      <g data-ac-wrapper-id="43" id="ac_layer_f61eb74_1l">
+        <g data-ac-wrapper-id="44" id="ac_layer_f61eb74_12">
+          <g data-ac-wrapper-id="45" id="ac_unmanageable-layer_f61eb74_11">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="78.37109375" y="422">Jan</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="46" id="ac_layer_f61eb74_14">
+          <g data-ac-wrapper-id="47" id="ac_unmanageable-layer_f61eb74_13">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="160.8828125" y="422">Feb</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="48" id="ac_layer_f61eb74_16">
+          <g data-ac-wrapper-id="49" id="ac_unmanageable-layer_f61eb74_15">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="243.255859375" y="422">Mar</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="50" id="ac_layer_f61eb74_18">
+          <g data-ac-wrapper-id="51" id="ac_unmanageable-layer_f61eb74_17">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="327.076171875" y="422">Apr</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="52" id="ac_layer_f61eb74_1a">
+          <g data-ac-wrapper-id="53" id="ac_unmanageable-layer_f61eb74_19">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="408.3359375" y="422">May</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="54" id="ac_layer_f61eb74_1c">
+          <g data-ac-wrapper-id="55" id="ac_unmanageable-layer_f61eb74_1b">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="489.6015625" y="422">June</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="56" id="ac_layer_f61eb74_1e">
+          <g data-ac-wrapper-id="57" id="ac_unmanageable-layer_f61eb74_1d">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="574.77734375" y="422">July</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="58" id="ac_layer_f61eb74_1g">
+          <g data-ac-wrapper-id="59" id="ac_unmanageable-layer_f61eb74_1f">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="657.890625" y="422">Aug</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="60" id="ac_layer_f61eb74_1i">
+          <g data-ac-wrapper-id="61" id="ac_unmanageable-layer_f61eb74_1h">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="741.0859375" y="422">Sep</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="62" id="ac_layer_f61eb74_1k">
+          <g data-ac-wrapper-id="63" id="ac_unmanageable-layer_f61eb74_1j">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="825.28515625" y="422">Oct</text>
+          </g>
+        </g>
+      </g>
+      <path data-ac-wrapper-id="64" id="ac_path_f61eb74_1m" fill="none" stroke="#CECECE" d="M 47.5 40 L 47.5 399"/>
+      <path data-ac-wrapper-id="65" id="ac_path_f61eb74_1n" fill="none" stroke="#CECECE" d="M 47 398.5 L 41 398.5 M 47 308.5 L 41 308.5 M 47 219.5 L 41 219.5 M 47 129.5 L 41 129.5 M 47 40.5 L 41 40.5"/>
+      <g data-ac-wrapper-id="66" id="ac_layer_f61eb74_1y">
+        <g data-ac-wrapper-id="67" id="ac_layer_f61eb74_1p">
+          <g data-ac-wrapper-id="68" id="ac_unmanageable-layer_f61eb74_1o">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="29.3671875" y="402.25">0</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="69" id="ac_layer_f61eb74_1r">
+          <g data-ac-wrapper-id="70" id="ac_unmanageable-layer_f61eb74_1q">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="21.7421875" y="313.25">25</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="71" id="ac_layer_f61eb74_1t">
+          <g data-ac-wrapper-id="72" id="ac_unmanageable-layer_f61eb74_1s">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="21.7421875" y="223.25">50</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="73" id="ac_layer_f61eb74_1v">
+          <g data-ac-wrapper-id="74" id="ac_unmanageable-layer_f61eb74_1u">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="21.7421875" y="134.25">75</text>
+          </g>
+        </g>
+        <g data-ac-wrapper-id="75" id="ac_layer_f61eb74_1x">
+          <g data-ac-wrapper-id="76" id="ac_unmanageable-layer_f61eb74_1w">
+            <text aria-hidden="true" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" letter-spacing="normal" text-decoration="none" fill="#7c868e" opacity="1" x="14.109375" y="44.25">100</text>
+          </g>
+        </g>
+      </g>
+      <g data-ac-wrapper-id="15" transform="matrix(1,0,0,1,141.2578125,10)" id="ac_layer_f61eb74_6">
+        <text data-ac-wrapper-id="16" font-style="normal" font-variant="normal" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#7c868e" letter-spacing="normal" text-decoration="none" direction="ltr" text-anchor="middle" x="302.7421875" y="16" aria-hidden="true" id="ac_text_f61eb74_5" style="user-select: none; font-family: Verdana, Helvetica, Arial, sans-serif; opacity: 1;"><tspan x="302.7421875" dy="0">Average max and min Temperatures in (°F)
+and Precipitation Totals in mm.</tspan></text>
+      </g>
+    </g>
+    <g data-ac-wrapper-id="114" role="article" aria-label="column chart , with 1 column series, . Y-scale minimum value is 0 , maximum value is 6. X-scale with 10 categories: Jan, Feb, Mar, Apr, May, June, July, Aug, Sep, Oct, . " id="ac_chart_f61eb74_32">
+      <g data-ac-wrapper-id="115" id="ac_layer_f61eb74_34">
+        <path data-ac-wrapper-id="116" id="ac_path_f61eb74_33" fill="#ffffff" stroke="none" d="M 0 441.75 L 898 441.75 898 441.75 898 589 898 589 0 589 0 589 0 441.75 0 441.75 Z"/>
+      </g>
+      <path data-ac-wrapper-id="184" clip-path="url(&quot;#ac_clip_f61eb74_53&quot;)" clipPathUnits="userSpaceOnUse" id="ac_path_f61eb74_55" fill="none" stroke="none" d="M 0,0"/>
+    </g>
+  </g>
+</svg>

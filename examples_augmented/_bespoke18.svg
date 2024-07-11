@@ -1,0 +1,449 @@
+<svg width="1000" height="950" opacity="1">
+  <g class="first-axis" transform="translate(0, 0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" stroke-opacity="0.2" stroke-dasharray="2.5" opacity="0">
+    <g class="tick" opacity="1" transform="translate(387.3181818181818,0)">
+      <line stroke="currentColor" y2="930"/>
+      <text fill="currentColor" y="933" dy="0.71em">40,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(628.2272727272727,0)">
+      <line stroke="currentColor" y2="930"/>
+      <text fill="currentColor" y="933" dy="0.71em">60,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(869.1363636363636,0)">
+      <line stroke="currentColor" y2="930"/>
+      <text fill="currentColor" y="933" dy="0.71em">80,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(1110.0454545454545,0)">
+      <line stroke="currentColor" y2="930"/>
+      <text fill="currentColor" y="933" dy="0.71em">100,000</text>
+    </g>
+  </g>
+  <circle fill="rgb(0, 0, 255)" r="35" cx="178.4745466253074" cy="268.31303115494813" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="23.06818181818182" cx="264.2240392686101" cy="352.5779605737201" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(0, 0, 255)" r="22.386363636363637" cx="192.2440527032912" cy="414.18592569115935" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="21.363636363636363" cx="133.3287295920389" cy="360.3451000221323" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="19.659090909090907" cx="301.40465279794705" cy="387.0658758978249" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="19.659090909090907" cx="182.08408325021" cy="365.22510991753893" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="18.636363636363637" cx="175.81476353712924" cy="587.189748914757" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="18.636363636363637" cx="199.24992610307848" cy="745.6707384635047" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.954545454545453" cx="309.9609515696254" cy="334.9742425546781" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.954545454545453" cx="234.41750507621657" cy="313.6777586326412" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.954545454545453" cx="277.51058767905545" cy="305.4054387616339" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.954545454545453" cx="214.70303895610675" cy="456.97964812957986" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="17.954545454545453" cx="100.26627088644184" cy="326.51060321587755" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.954545454545453" cx="118.4569141548313" cy="405.2517886963075" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="17.272727272727273" cx="279.7060739708198" cy="262.23070986342486" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="16.96590909090909" cx="238.37671470698862" cy="270.94773141325766" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="16.93181818181818" cx="171.82337772570472" cy="456.85943915419125" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="16.59090909090909" cx="278.2626277452573" cy="424.7795646063388" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.90909090909091" cx="237.83216363172843" cy="422.1091419826948" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.90909090909091" cx="197.05557056056918" cy="177.9919013167399" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.568181818181818" cx="441.7696316760319" cy="364.2082827851481" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.568181818181818" cx="427.1740002923264" cy="527.0128389215499" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.227272727272727" cx="91.06355596727713" cy="374.5127204577547" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="15.227272727272727" cx="194.6333859134012" cy="324.2084204071346" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.886363636363635" cx="171.89374362223478" cy="545.8577109568805" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="226.67534750805945" cy="385.31626298835334" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="404.8269426924512" cy="769.2490654617354" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="216.35577477078147" cy="594.4183651457843" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="129.42919325747914" cy="298.4164998783282" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="14.545454545454547" cx="187.16492981910446" cy="140.8305441466234" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="156.90164338852685" cy="323.3247426639683" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="255.20170678817772" cy="456.40481817095616" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="14.545454545454547" cx="405.80030271591016" cy="142.6404374154001" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="14.545454545454547" cx="121.25175190245133" cy="262.2529016884347" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="13.863636363636365" cx="633.6819889651283" cy="345.81328097722024" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="13.522727272727273" cx="205.41372404500467" cy="560.0485284727553" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="13.522727272727273" cx="624.3374578930659" cy="554.3045996005385" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="13.181818181818182" cx="175.9767058658882" cy="510.02515207991354" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="13.181818181818182" cx="220.08906988485597" cy="350.2013236667148" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(255, 0, 0)" r="13.181818181818182" cx="215.35021966599723" cy="701.7972715499216" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="12.84090909090909" cx="229.80853442792312" cy="509.33832429534533" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="12.84090909090909" cx="431.2225364213574" cy="329.3582224211202" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="12.84090909090909" cx="396.8051203884212" cy="320.8695726053272" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="12.84090909090909" cx="218.53934603872628" cy="783.7771064096344" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="12.84090909090909" cx="577.4042232535559" cy="329.2481677098135" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="12.84090909090909" cx="412.7037979477167" cy="386.1383072312201" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="12.84090909090909" cx="407.1609308834676" cy="352.9161474648638" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="12.84090909090909" cx="352.0057447638357" cy="361.9969043938272" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="12.84090909090909" cx="561.7906713345262" cy="760.2406758362936" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="12.738636363636363" cx="163.54316518336702" cy="762.2714266871803" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="12.5" cx="150.97114302854035" cy="425.7736655512442" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="11.818181818181817" cx="563.1246023120073" cy="379.59659796033264" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.818181818181817" cx="382.32873950581404" cy="374.1300263298236" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.579545454545455" cx="364.48340976394286" cy="318.346757115511" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.477272727272727" cx="640.6943541689619" cy="761.4451413921581" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="11.477272727272727" cx="549.7330819847274" cy="152.7069352067359" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="11.170454545454547" cx="593.9458739134816" cy="510.5824465942731" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="261.4347552894898" cy="555.5364438046254" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="259.35401151197743" cy="394.45218167630804" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="202.8729515264147" cy="492.1168574665326" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="11.136363636363637" cx="615.7229018252184" cy="318.1286066069687" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="612.3064367309385" cy="790.7646461501782" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="203.4482536949826" cy="527.4472566312442" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="371.13306042096286" cy="511.9690577297126" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="392.97881146201786" cy="532.9212664929195" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="313.8741771877232" cy="298.0863312662146" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="156.0071667671441" cy="393.9059194947577" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="592.9261624870128" cy="752.9623838775957" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="571.7534583127318" cy="531.2242265584591" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="11.136363636363637" cx="766.8735607901766" cy="311.33668724750993" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(255, 0, 0)" r="11.136363636363637" cx="784.6876284470338" cy="542.0311761399419" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="410.6242237383333" cy="557.5166293663301" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="164.68854911956566" cy="730.4223550142643" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="11.136363636363637" cx="404.67830009794676" cy="714.312887089919" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.795454545454545" cx="235.0000656071704" cy="756.7688411203369" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="10.590909090909092" cx="376.9905465589379" cy="725.1375166974326" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.454545454545455" cx="256.00474425719835" cy="526.4490717974122" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="10.454545454545455" cx="230.8048397447664" cy="540.6129348401598" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.454545454545455" cx="621.0739930394282" cy="522.493350491931" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="10.454545454545455" cx="568.3849215305667" cy="560.6226636142537" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.454545454545455" cx="577.4183563017792" cy="706.1273702760825" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="10.28409090909091" cx="387.10807270618074" cy="403.8484213725194" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.25" cx="546.4391659019427" cy="733.2027064217049" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="10.113636363636363" cx="584.7221616128867" cy="781.0323239259214" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.90909090909091" cx="377.503216924385" cy="344.80548528016755" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.840909090909092" cx="231.35825562469043" cy="728.3619984319785" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.772727272727273" cx="235.56297500954713" cy="568.4362896777712" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.772727272727273" cx="217.7108290719842" cy="151.3856701627049" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.772727272727273" cx="555.7983982254533" cy="350.92823633341493" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.772727272727273" cx="214.7573075329931" cy="124.0012338516363" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.772727272727273" cx="188.12592194305478" cy="780.3409887694647" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.772727272727273" cx="766.2478989714052" cy="564.2943099997598" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.636363636363637" cx="598.4743873165278" cy="724.7251313187813" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="806.3971221588278" cy="752.7608177487224" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.431818181818183" cx="230.30426968797377" cy="175.49706810089364" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="429.97784576015135" cy="163.5723337407258" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="805.9278230254184" cy="725.9011770083625" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.431818181818183" cx="256.627023833763" cy="738.6231390148527" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="782.9001575004972" cy="739.7339781198152" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="796.8963361780436" cy="314.4823444988223" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="592.9773749385894" cy="177.79813493520498" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="624.0140643236545" cy="715.5604321852757" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.431818181818183" cx="581.2684137021602" cy="585.3585107200644" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="591.7484914486287" cy="302.5932849216902" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="591.9782285029836" cy="384.3563336184777" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="419.8862804508163" cy="301.28852216190523" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="377.19081425190365" cy="753.161239431457" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="439.1881056879652" cy="557.7503043795463" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="619.3040637395494" cy="742.0046511971124" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.431818181818183" cx="794.6355630032401" cy="154.9240768428595" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="186.4724851259728" cy="711.9398999716848" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="365.282978237376" cy="539.9332377892679" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="9.431818181818183" cx="395.12521436619784" cy="581.51748874079" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="639.8306159287716" cy="157.37358644924143" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.09090909090909" cx="816.3482626809547" cy="332.50960599578747" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="772.1855328907372" cy="380.2701833645385" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="816.1534949343635" cy="386.8138455807948" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="9.09090909090909" cx="592.1887788145632" cy="109.89397040815635" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="583.6041052525363" cy="359.1906926746289" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="578.1212346937947" cy="155.82235928659634" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="9.09090909090909" cx="568.7959794747297" cy="131.36111970442914" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.920454545454545" cx="617.2309760804566" cy="391.90054986743206" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.920454545454545" cx="603.7637664184596" cy="698.7022914670486" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.886363636363637" cx="643.9409312446923" cy="732.754780185588" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="598.78159010538" cy="538.0780023364455" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.75" cx="783.751999657868" cy="765.9019350183597" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="611.4792125730697" cy="366.88798611403246" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="149.34335662285906" cy="523.6678093114582" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="594.2739009329318" cy="135.6438013034546" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="796.1118498556592" cy="370.51121752053325" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="566.8264199903732" cy="179.05520490258192" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.75" cx="595.4514066135462" cy="563.3574868629266" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.75" cx="573.4349786544716" cy="733.0384878427343" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.579545454545455" cx="636.7263967421862" cy="182.8543099151404" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.545454545454547" cx="603.4139196059604" cy="342.9141346044292" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.477272727272727" cx="758.527795279264" cy="338.6156404898104" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.443181818181818" cx="613.8724357196817" cy="193.04966454663293" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.409090909090908" cx="837.6194084237134" cy="346.5727874570842" opacity="0.8" stroke-width="0" stroke="rgb(0, 0, 0)"/>
+  <circle fill="rgb(255, 0, 0)" r="8.409090909090908" cx="636.019200950941" cy="127.59287077509653" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.409090909090908" cx="433.0619055014453" cy="756.5615094637536" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.409090909090908" cx="836.4420906389693" cy="371.3668298409825" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.409090909090908" cx="385.0576364334" cy="165.61565904858972" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.409090909090908" cx="612.5456833578941" cy="581.8173232083626" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="8.409090909090908" cx="383.107951416725" cy="558.6385616512537" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.409090909090908" cx="617.841552572305" cy="144.4766363936787" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.238636363636363" cx="827.2560087634416" cy="543.2631793606957" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.068181818181818" cx="375.1935910752122" cy="143.2157483534728" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="8.068181818181818" cx="580.2849551716962" cy="199.90730262407934" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="8.068181818181818" cx="776.3820261538588" cy="355.46668646991003" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.897727272727273" cx="436.02073836211446" cy="138.97587988568063" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="420.95739237929973" cy="735.680674092155" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="791.4709390803998" cy="568.0263059416653" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="370.0936137508256" cy="578.9656633801039" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="392.3994349356023" cy="188.60944581168786" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="616.726006449586" cy="169.0521212341132" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="814.2323774302113" cy="573.6963124455332" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="794.556742866674" cy="517.0468919083987" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.727272727272727" cx="753.9612965350191" cy="363.4195323472635" opacity="0.8"/>
+  <circle fill="rgb(0, 0, 255)" r="7.386363636363636" cx="816.7561247718494" cy="358.01327908837584" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.386363636363636" cx="361.5028332882631" cy="162.2598774659844" opacity="0.8"/>
+  <circle fill="rgb(128, 128, 128)" r="7.386363636363636" cx="398.26053525662434" cy="740.0502121344393" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.386363636363636" cx="419.9277100711121" cy="582.3559969094351" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.045454545454545" cx="792.0715235868685" cy="393.9520361616503" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.045454545454545" cx="633.9441770262252" cy="374.72024695389734" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="7.045454545454545" cx="613.3771839732718" cy="121.45526903086338" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.875" cx="781.2004850618742" cy="333.0304591551591" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.704545454545454" cx="407.3129816948224" cy="171.85317564355188" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.704545454545454" cx="797.5613933122096" cy="347.10161629424965" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.363636363636364" cx="615.1682627991044" cy="765.4355601141344" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.022727272727273" cx="772.9784709299199" cy="519.7662236230681" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="6.022727272727273" cx="807.2815550089117" cy="553.088911098944" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="5.4772727272727275" cx="807.810643895027" cy="533.5960902424259" opacity="0.8"/>
+  <circle fill="rgb(255, 0, 0)" r="5" cx="600.1749244717446" cy="156.57488115236316" opacity="0.8"/>
+  <rect class="cat-rect" x="120" y="430" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="120" y="630" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="120" y="830" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="120" y="230" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="320" y="430" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="320" y="630" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="320" y="830" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="320" y="230" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="520" y="430" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="520" y="630" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="520" y="830" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="520" y="230" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="720" y="430" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="720" y="630" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="720" y="830" width="160" height="30" opacity="0.2" fill="grey"/>
+  <rect class="cat-rect" x="720" y="230" width="160" height="30" opacity="0.2" fill="grey"/>
+  <text class="lab-text" opacity="1" x="200" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 23.9%</text>
+  <text class="lab-text" opacity="1" x="200" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 48.3%</text>
+  <text class="lab-text" opacity="1" x="200" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 50.9%</text>
+  <text class="lab-text" opacity="1" x="200" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 48.3%</text>
+  <text class="lab-text" opacity="1" x="400" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 31.2%</text>
+  <text class="lab-text" opacity="1" x="400" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 40.5%</text>
+  <text class="lab-text" opacity="1" x="400" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 35%</text>
+  <text class="lab-text" opacity="1" x="400" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 60.4%</text>
+  <text class="lab-text" opacity="1" x="600" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 79.5%</text>
+  <text class="lab-text" opacity="1" x="600" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 55.4%</text>
+  <text class="lab-text" opacity="1" x="600" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 58.7%</text>
+  <text class="lab-text" opacity="1" x="600" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 74.9%</text>
+  <text class="lab-text" opacity="1" x="800" y="450" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 63.2%</text>
+  <text class="lab-text" opacity="1" x="800" y="650" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 79.4%</text>
+  <text class="lab-text" opacity="1" x="800" y="850" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 65.9%</text>
+  <text class="lab-text" opacity="1" x="800" y="250" font-family="Domine" font-size="12px" font-weight="700" fill="black" text-anchor="middle">% Female: 77.1%</text>
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" class="scatter-x" opacity="0" transform="translate(0, 900)">
+    <g class="tick" opacity="1" transform="translate(170.5,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.0</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(254.09532702245792,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.1</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(337.6906540449158,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.2</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(421.28598106737365,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.3</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(504.8813080898316,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.4</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(588.4766351122895,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.5</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(672.0719621347473,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.6</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(755.6672891572052,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.7</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(839.2626161796632,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.8</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(922.8579432021212,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0.9</text>
+    </g>
+  </g>
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end" class="scatter-y" opacity="0" transform="translate(960, 0)" stroke-opacity="0.2" stroke-dasharray="2.5">
+    <g class="tick" opacity="1" transform="translate(0,900.5)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">20,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,806.0555555555555)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">30,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,711.6111111111111)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">40,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,617.1666666666667)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">50,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,522.7222222222222)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">60,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,428.27777777777777)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">70,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,333.83333333333337)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">80,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,239.38888888888889)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">90,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,144.94444444444449)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">100,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,50.5)">
+      <line stroke="currentColor" x2="-810"/>
+      <text fill="currentColor" x="-813" dy="0.32em">110,000</text>
+    </g>
+  </g>
+  <g class="enrolment-axis" transform="translate(0, 700)" opacity="0" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+    <path class="domain" stroke="currentColor" d="M290.5,6V0.5H930.5V6" opacity="1"/>
+    <g class="tick" opacity="1" transform="translate(290.5,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">0</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(371.77293738174154,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">50,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(453.0458747634831,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">100,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(534.3188121452246,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">150,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(615.5917495269662,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">200,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(696.8646869087077,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">250,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(778.1376242904491,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">300,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(859.4105616721906,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">350,000</text>
+    </g>
+  </g>
+  <g class="hist-axis" transform="translate(0, 910)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" opacity="0">
+    <path class="domain" stroke="currentColor" d="M170.5,6V0.5H980.5V6"/>
+    <g class="tick" opacity="1" transform="translate(242.24285714285713,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">30,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(334.8142857142857,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">40,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(427.38571428571424,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">50,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(519.9571428571428,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">60,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(612.5285714285714,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">70,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(705.1,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">80,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(797.6714285714286,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">90,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(890.2428571428571,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">100,000</text>
+    </g>
+  </g>
+  <g class="hist-axis" transform="translate(0, 910)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" opacity="0">
+    <path class="domain" stroke="currentColor" d="M170.5,6V0.5H980.5V6"/>
+    <g class="tick" opacity="1" transform="translate(242.24285714285713,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">30,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(334.8142857142857,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">40,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(427.38571428571424,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">50,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(519.9571428571428,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">60,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(612.5285714285714,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">70,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(705.1,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">80,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(797.6714285714286,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">90,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(890.2428571428571,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">100,000</text>
+    </g>
+  </g>
+  <g class="hist-axis" transform="translate(0, 910)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" opacity="0">
+    <path class="domain" stroke="currentColor" d="M170.5,6V0.5H980.5V6"/>
+    <g class="tick" opacity="1" transform="translate(242.24285714285713,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">30,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(334.8142857142857,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">40,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(427.38571428571424,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">50,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(519.9571428571428,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">60,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(612.5285714285714,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">70,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(705.1,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">80,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(797.6714285714286,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">90,000</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(890.2428571428571,0)">
+      <line stroke="currentColor" y2="6"/>
+      <text fill="currentColor" y="9" dy="0.71em">100,000</text>
+    </g>
+  </g>
+</svg>

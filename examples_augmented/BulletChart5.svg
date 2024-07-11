@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="730px"
+	 height="320px" viewBox="0 0 730 320" enable-background="new 0 0 730 320" xml:space="preserve">
+<g id="Layer_2">
+	<g>
+		<text transform="matrix(1 0 0 1 48.9551 270.25)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">Satisfaction</text>
+		<text transform="matrix(1 0 0 1 58.5952 284.25)" fill="#808080" font-family="'Helvetica'" font-size="11">Top rating of 5</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 22.5 210.625)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">New Customers</text>
+		<text transform="matrix(1 0 0 1 98.9536 224.625)" fill="#808080" font-family="'Helvetica'" font-size="11">Count</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 91.7549 95.875)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">Profit</text>
+		<text transform="matrix(1 0 0 1 118.5259 108.875)" fill="#808080" font-family="'Helvetica'" font-size="11">%</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 69.9482 31.75)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">Revenue</text>
+		<text transform="matrix(1 0 0 1 30.4668 45.75)" fill="#808080" font-family="'Helvetica'" font-size="11">GBP£, in thousands</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 58.2793 150.75)" fill="#333333" font-family="'Helvetica-Bold'" font-size="14">Order Size</text>
+		<text transform="matrix(1 0 0 1 53.0952 165.25)" fill="#808080" font-family="'Helvetica'" font-size="11">GBP£, average</text>
+	</g>
+	<rect x="136.5" y="18.188" fill="#B3B3B3" width="298" height="27.5"/>
+	<rect x="434.5" y="18.188" fill="#CCCCCC" width="124" height="27.5"/>
+	<rect x="558.5" y="18.188" fill="#E6E6E6" width="139" height="27.5"/>
+	<text transform="matrix(1 0 0 1 134.167 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<text transform="matrix(1 0 0 1 201.0005 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">50</text>
+	<text transform="matrix(1 0 0 1 268.0005 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">100</text>
+	<text transform="matrix(1 0 0 1 338.2505 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">150</text>
+	<text transform="matrix(1 0 0 1 407 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">200</text>
+	<text transform="matrix(1 0 0 1 477.5 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">250</text>
+	<text transform="matrix(1 0 0 1 547.5 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">300</text>
+	<text transform="matrix(1 0 0 1 617.5 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">350</text>
+	<text transform="matrix(1 0 0 1 688 62.5)" fill="#333333" font-family="'Helvetica'" font-size="11">400</text>
+	<line fill="none" stroke="#B3B3B3" x1="136.969" y1="45.688" x2="136.969" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="696.958" y1="45.688" x2="696.958" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="556.961" y1="45.688" x2="556.961" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="626.959" y1="45.688" x2="626.959" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="486.962" y1="45.688" x2="486.962" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="346.965" y1="45.688" x2="346.965" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="416.963" y1="45.688" x2="416.963" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="276.966" y1="45.688" x2="276.966" y2="50.927"/>
+	<line fill="none" stroke="#B3B3B3" x1="206.967" y1="45.688" x2="206.967" y2="50.927"/>
+	<rect x="136.5" y="257.665" fill="#B3B3B3" width="280.463" height="27.5"/>
+	<rect x="416.963" y="257.665" fill="#CCCCCC" width="223.996" height="27.5"/>
+	<rect x="640.959" y="257.665" fill="#E6E6E6" width="56.541" height="27.5"/>
+	<text transform="matrix(1 0 0 1 134.167 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<text transform="matrix(1 0 0 1 185.228 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">0.5</text>
+	<text transform="matrix(1 0 0 1 240.3335 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">1.0</text>
+	<text transform="matrix(1 0 0 1 297.333 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">1.5</text>
+	<text transform="matrix(1 0 0 1 353.333 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">2.0</text>
+	<text transform="matrix(1 0 0 1 409.7949 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">2.5</text>
+	<text transform="matrix(1 0 0 1 464.334 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">3.0</text>
+	<text transform="matrix(1 0 0 1 521.4551 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">3.5</text>
+	<text transform="matrix(1 0 0 1 576.5 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">4.0</text>
+	<text transform="matrix(1 0 0 1 633.3574 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">4.5</text>
+	<text transform="matrix(1 0 0 1 690 301.9775)" fill="#333333" font-family="'Helvetica'" font-size="11">5.0</text>
+	<line fill="none" stroke="#B3B3B3" x1="136.969" y1="285.165" x2="136.969" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="696.958" y1="285.165" x2="696.958" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="640.959" y1="285.165" x2="640.959" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="584.96" y1="285.165" x2="584.96" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="472.962" y1="285.165" x2="472.962" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="528.961" y1="285.165" x2="528.961" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="416.963" y1="285.165" x2="416.963" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="304.965" y1="285.165" x2="304.965" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="360.964" y1="285.165" x2="360.964" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="248.967" y1="285.165" x2="248.967" y2="290.404"/>
+	<line fill="none" stroke="#B3B3B3" x1="192.968" y1="285.165" x2="192.968" y2="290.404"/>
+	<rect x="136.5" y="138.854" fill="#B3B3B3" width="397.667" height="27.5"/>
+	<rect x="534.167" y="138.854" fill="#CCCCCC" width="83.333" height="27.5"/>
+	<rect x="617.5" y="138.854" fill="#E6E6E6" width="80" height="27.5"/>
+	<text transform="matrix(1 0 0 1 134.167 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<text transform="matrix(1 0 0 1 219.8506 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">100</text>
+	<text transform="matrix(1 0 0 1 314.6675 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">200</text>
+	<text transform="matrix(1 0 0 1 408 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">300</text>
+	<text transform="matrix(1 0 0 1 501 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">400</text>
+	<text transform="matrix(1 0 0 1 594.5 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">500</text>
+	<text transform="matrix(1 0 0 1 688 183.167)" fill="#333333" font-family="'Helvetica'" font-size="11">600</text>
+	<line fill="none" stroke="#B3B3B3" x1="136.969" y1="166.354" x2="136.969" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="696.958" y1="166.354" x2="696.958" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="416.963" y1="166.354" x2="416.963" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="510.295" y1="166.354" x2="510.295" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="603.627" y1="166.354" x2="603.627" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="323.632" y1="166.354" x2="323.632" y2="171.594"/>
+	<line fill="none" stroke="#B3B3B3" x1="230.3" y1="166.354" x2="230.3" y2="171.594"/>
+	<rect x="136.5" y="79.75" fill="#B3B3B3" width="224.5" height="27.5"/>
+	<rect x="360.964" y="79.75" fill="#CCCCCC" width="111.998" height="27.5"/>
+	<rect x="472.962" y="79.75" fill="#E6E6E6" width="224.538" height="27.5"/>
+	<text transform="matrix(1 0 0 1 134.167 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<text transform="matrix(1 0 0 1 242.3335 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">10</text>
+	<text transform="matrix(1 0 0 1 354.3335 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">20</text>
+	<text transform="matrix(1 0 0 1 467.334 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">30</text>
+	<text transform="matrix(1 0 0 1 578.5 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">40</text>
+	<text transform="matrix(1 0 0 1 691 124.0625)" fill="#333333" font-family="'Helvetica'" font-size="11">50</text>
+	<line fill="none" stroke="#B3B3B3" x1="136.969" y1="107.25" x2="136.969" y2="112.489"/>
+	<line fill="none" stroke="#B3B3B3" x1="696.958" y1="107.25" x2="696.958" y2="112.489"/>
+	<line fill="none" stroke="#B3B3B3" x1="472.962" y1="107.25" x2="472.962" y2="112.489"/>
+	<line fill="none" stroke="#B3B3B3" x1="584.96" y1="107.25" x2="584.96" y2="112.489"/>
+	<line fill="none" stroke="#B3B3B3" x1="360.964" y1="107.25" x2="360.964" y2="112.489"/>
+	<line fill="none" stroke="#B3B3B3" x1="248.967" y1="107.25" x2="248.967" y2="112.489"/>
+	<rect x="136.5" y="197.416" fill="#B3B3B3" width="224.5" height="27.5"/>
+	<rect x="360.964" y="197.416" fill="#CCCCCC" width="173.203" height="27.5"/>
+	<rect x="534.167" y="197.416" fill="#E6E6E6" width="163.333" height="27.5"/>
+	<text transform="matrix(1 0 0 1 134.167 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">0</text>
+	<text transform="matrix(1 0 0 1 239.3335 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">300</text>
+	<text transform="matrix(1 0 0 1 351.3335 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">600</text>
+	<text transform="matrix(1 0 0 1 463.334 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">900</text>
+	<text transform="matrix(1 0 0 1 571.5 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">1200</text>
+	<text transform="matrix(1 0 0 1 685 241.7285)" fill="#333333" font-family="'Helvetica'" font-size="11">1500</text>
+	<line fill="none" stroke="#B3B3B3" x1="136.969" y1="224.916" x2="136.969" y2="230.156"/>
+	<line fill="none" stroke="#B3B3B3" x1="696.958" y1="224.916" x2="696.958" y2="230.156"/>
+	<line fill="none" stroke="#B3B3B3" x1="472.962" y1="224.916" x2="472.962" y2="230.156"/>
+	<line fill="none" stroke="#B3B3B3" x1="584.96" y1="224.916" x2="584.96" y2="230.156"/>
+	<line fill="none" stroke="#B3B3B3" x1="360.964" y1="224.916" x2="360.964" y2="230.156"/>
+	<line fill="none" stroke="#B3B3B3" x1="248.967" y1="224.916" x2="248.967" y2="230.156"/>
+</g>
+<g id="Layer_1">
+	<rect x="136.667" y="27.271" fill="#333333" width="476.667" height="9.333"/>
+	<rect x="606.75" y="21.938" fill="#333333" width="3" height="20"/>
+	<rect x="136.667" y="266.748" fill="#333333" width="448.564" height="9.334"/>
+	<rect x="639.459" y="261.415" fill="#333333" width="3" height="20"/>
+	<rect x="136.667" y="147.938" fill="#333333" width="294.833" height="9.334"/>
+	<rect x="626.5" y="142.604" fill="#333333" width="3" height="20"/>
+	<rect x="136.667" y="88.833" fill="#333333" width="317.333" height="9.333"/>
+	<rect x="493.5" y="83.5" fill="#333333" width="3" height="20"/>
+	<rect x="136.667" y="206.5" fill="#333333" width="389.925" height="9.333"/>
+	<rect x="493.5" y="201.166" fill="#333333" width="3" height="20"/>
+</g>
+</svg>

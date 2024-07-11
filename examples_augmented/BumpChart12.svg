@@ -1,0 +1,1766 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1150" height="595">
+<!-- years are 10px wide, positions are 4px high in svg -->
+<path d="M0,0h1087v538H0z" fill="#fff"/>
+<!-- path d="M245,69h70v380h-70z" fill="#fff"/>
+<path d="M50,69v88m50,0v-88m50,0v88m50,0v-88m150,0v88m50,0v-88m50,0v88m50,0v-88m50,0v88m50,0v-88m50,0v88m50,0v-88m50,0v80m50,0v-80m50,0v80m50,0v-80m50,0v80m50,0v-80m50,0v80" fill="none" stroke="#000" stroke-width="1" stroke-opacity=".15"/>
+<path d="M50,157v292m50,0v-292m50,0v292m50,0v-292m150,0v292m50,0v-292m50,0v292m50,0v-292m50,0v292m50,0v-292m50,0v292m50,0v-292m50-8v300m50,0v-300m50,0v300m50,0v-300m50,0v300m50,0v-300m50,0v300" fill="none" stroke="#fff" stroke-width="1" stroke-opacity=".3"/ -->
+<!-- path d="M52.5,58.5h950v500H45zM38,71h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25h7m-7,25M65,851v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25,-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25,-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25-7v7m25,-7v7m25-7v7m25-7v7m25-7v7m25-7v7" fill="#ddd" stroke="#bbb" stroke-width="1"/ -->
+<path d="M52.5,58.5h950v500H52.5z" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+<path d="M45.5,71h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957m0,25h957m0,25h-957  M65,58.5v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507m25,0v507m25,0v-507" fill="" stroke="#bbb" stroke-width="1"/>
+
+<text font-family="sans-serif" text-anchor="middle" font-size="12px">
+<tspan x="67" y="577">1</tspan>
+<tspan x="92" y="577">2</tspan>
+<tspan x="117" y="577">3</tspan>
+<tspan x="142" y="577">4</tspan>
+<tspan x="167" y="577">5</tspan>
+<tspan x="192" y="577">6</tspan>
+<tspan x="217" y="577">7</tspan>
+<tspan x="242" y="577">8</tspan>
+<tspan x="267" y="577">9</tspan>
+<tspan x="292" y="577">10</tspan>
+<tspan x="317" y="577">11</tspan>
+<tspan x="342" y="577">12</tspan>
+<tspan x="367" y="577">13</tspan>
+<tspan x="392" y="577">14</tspan>
+<tspan x="417" y="577">15</tspan>
+<tspan x="442" y="577">16</tspan>
+<tspan x="467" y="577">17</tspan>
+<tspan x="492" y="577">18</tspan>
+<tspan x="517" y="577">19</tspan>
+<tspan x="542" y="577">20</tspan>
+<tspan x="567" y="577">21</tspan>
+<tspan x="592" y="577">22</tspan>
+<tspan x="617" y="577">23</tspan>
+<tspan x="642" y="577">24</tspan>
+<tspan x="667" y="577">25</tspan>
+<tspan x="692" y="577">26</tspan>
+<tspan x="717" y="577">27</tspan>
+<tspan x="742" y="577">28</tspan>
+<tspan x="767" y="577">29</tspan>
+<tspan x="792" y="577">30</tspan>
+<tspan x="817" y="577">31</tspan>
+<tspan x="842" y="577">32</tspan>
+<tspan x="867" y="577">33</tspan>
+<tspan x="892" y="577">34</tspan>
+<tspan x="917" y="577">35</tspan>
+<tspan x="942" y="577">36</tspan>
+<tspan x="967" y="577">37</tspan>
+<tspan x="992" y="577">38</tspan>
+</text>
+<text x="530" y="38" font-family="sans-serif" font-size="30px" text-anchor="middle">2022–23 Premier League Bump Chart</text>
+<text transform="rotate(-90 20,312)" x="20" y="312" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="15px">Position</text>
+<text x="530" y="594" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="15px">Matchweek</text>
+
+<text text-anchor="end" font-family="sans-serif" font-size="12px">
+<tspan x="41" y="75">1</tspan>
+<tspan x="41" y="100">2</tspan>
+<tspan x="41" y="125">3</tspan>
+<tspan x="41" y="150">4</tspan>
+<tspan x="41" y="175">5</tspan>
+<tspan x="41" y="200">6</tspan>
+<tspan x="41" y="225">7</tspan>
+<tspan x="41" y="250">8</tspan>
+<tspan x="41" y="275">9</tspan>
+<tspan x="41" y="300">10</tspan>
+<tspan x="41" y="325">11</tspan>
+<tspan x="41" y="350">12</tspan>
+<tspan x="41" y="375">13</tspan>
+<tspan x="41" y="400">14</tspan>
+<tspan x="41" y="425">15</tspan>
+<tspan x="41" y="450">16</tspan>
+<tspan x="41" y="475">17</tspan>
+<tspan x="41" y="500">18</tspan>
+<tspan x="41" y="525">19</tspan>
+<tspan x="37" y="550">20</tspan>
+</text>
+
+<text x="1010" y="75" font-family="sans-serif" font-weight="bold" font-size="12px">Manchester City</text>
+<text x="1010" y="100" font-family="sans-serif" font-weight="bold" font-size="12px">Arsenal</text>
+<text x="1010" y="125" font-family="sans-serif" font-weight="bold" font-size="12px">Manchester United</text>
+<text x="1010" y="150" font-family="sans-serif" font-weight="bold" font-size="12px">Newcastle United</text>
+<text x="1010" y="175" font-family="sans-serif" font-weight="bold" font-size="12px">Liverpool</text>
+<text x="1010" y="200" font-family="sans-serif" font-weight="bold" font-size="12px">Brighton &amp; Hove Albion</text>
+<text x="1010" y="225" font-family="sans-serif" font-weight="bold" font-size="12px">Aston Villa</text>
+<text x="1010" y="250" font-family="sans-serif" font-weight="bold" font-size="12px">Tottenham Hotspur</text>
+<text x="1010" y="275" font-family="sans-serif" font-weight="bold" font-size="12px">Brentford</text>
+<text x="1010" y="300" font-family="sans-serif" font-weight="bold" font-size="12px">Fulham</text>
+<text x="1010" y="325" font-family="sans-serif" font-weight="bold" font-size="12px">Crystal Palace</text>
+<text x="1010" y="350" font-family="sans-serif" font-weight="bold" font-size="12px">Chelsea</text>
+<text x="1010" y="375" font-family="sans-serif" font-weight="bold" font-size="12px">Wolverhampton</text>
+<text x="1010" y="400" font-family="sans-serif" font-weight="bold" font-size="12px">West Ham United</text>
+<text x="1010" y="425" font-family="sans-serif" font-weight="bold" font-size="12px">Bournemouth</text>
+<text x="1010" y="450" font-family="sans-serif" font-weight="bold" font-size="12px">Nottingham Forest</text>
+<text x="1010" y="475" font-family="sans-serif" font-weight="bold" font-size="12px">Everton</text>
+<text x="1010" y="500" font-family="sans-serif" font-weight="bold" font-size="12px">Leicester City</text>
+<text x="1010" y="525" font-family="sans-serif" font-weight="bold" font-size="12px">Leeds United</text>
+<text x="1010" y="550" font-family="sans-serif" font-weight="bold" font-size="12px">Southampton</text>
+
+<!-- Lines -->
+<!-- Arsenal -->
+<path d="M65,121l25-25l25-25h475l25,25l25-25h225l25,25h100 " fill="none" stroke="#f00" stroke-width="3"/>
+<!-- Aston Villa -->
+<path d="M65,446l25-175l25,100l25,50l25,100l25-50l50-50l25-25l25,50h25l25,25l25-50l25,25l25-75l25-25h50l25-25h225l25-100l25-25h75l25,50h50l25-25h25 " fill="none" stroke="#680333" stroke-width="3"/>
+<!-- Bournemouth -->
+<path d="M65,96l25,225l25,100l25,50l25-25l25-75l50-25l25,25l25-125l75,150h25l25,75l25-75h25l125,125h25l25-50l25,50l25,25l25-50l25,25l25-25l25-75l25-25l25,25l50-50l25,25h25l25,25h25" fill="none" stroke="#cf1f44" stroke-width="3"/>
+<path d="M65,96l25,225l25,100l25,50l25-25l25-75l50-25l25,25l25-125l75,150h25l25,75l25-75h25l125,125h25l25-50l25,50l25,25l25-50l25,25l25-25l25-75l25-25l25,25l50-50l25,25h25l25,25h25 " fill="none" stroke="#000" stroke-dasharray="6,6" stroke-width="2"/>
+<!-- Brentford -->
+<path d="M65,271l25-150l25,125l25,50l25,25l25-75l50,25l25,25l25,25l25-50l50,50h50l25-25h50l50-50h25l25-25l50,50h50l25-25h25l25,25h50l25,25l25-25h125 " fill="none" stroke="#d4010b" stroke-width="3"/>
+<!-- Brighton -->
+<path d="M65,196l25,50l25-75l25-25h125l25,75h25l25,25l25,25l25-25l25-50l25,25h25l25,50l25-25l25-25l25-25h50l25,25l25,25h25l25-25h25l25-25l25,25h25l25,25h25l25-50l25,25l25-25h50 " fill="none" stroke="#005dac" stroke-width="3"/>
+<!-- Chelsea -->
+<path d="M65,246l25-25l25,125l25-150l25,100l25-100l50,25l25-50l25-25h50l100,100h50l25,50h50l25-25l25,25h125l25,25h100l25,25l25-25h25l25,25h25 " fill="none" stroke="#000c7c" stroke-width="3"/>
+<!-- Crystal Palace -->
+<path d="M65,471l25-25l25-175l25,75l25,25l25,50l50,25l25,25l75-150l25,50l25-75h25l25,25h50l25,25h350l25-25l25,25h25l25-25h25 " fill="none" stroke="#0054a7" stroke-width="3"/>
+<path d="M65,471l25-25l25-175l25,75l25,25l25,50l50,25l25,25l75-150l25,50l25-75h25l25,25h50l25,25h350l25-25l25,25h25l25-25h25 " fill="none" stroke="#de2a1f" stroke-width="2" stroke-dasharray="6,6"/>
+<!-- Everton -->
+<path d="M65,421l25,75l25-25l25,25l50-50l50-75l25-50l25,25l25,50l25,25l25-75h25l25,100l25,25h25l25-25l25,50l25,25h25l25-25h25l25-50l25,50h25l25-75h25l50,50h25l50,50h25l25-50h75 " fill="none" stroke="#00009f" stroke-width="3"/>
+<!-- Fulham -->
+<path d="M65,296l25,75l25-150l25,100l25-75l25,50l50-100l25,50l25,25l25,50l50-100h25l25,50h50l25-50l25-25h25l50,50l50-50l25,25h25l25,50h25l25,25h50l25-25l25,25h125 " fill="none" stroke="#000" stroke-width="3"/>
+<!-- Leeds United -->
+<path d="M65,221l25-25l25-75l25,50l25,50l25,50l50,50l25,25l25,50l25,25l25,25l25,50l25-75l25-75l25,75h25l25-25h50l25,25l25,25l25,25l25,50l25-50h25l25,50l25-125l25-25l25,75h75l25,25l25,50l25-25l25,25h25 " fill="none" stroke="#005dac" stroke-width="3"/>
+<!-- Leicester City -->
+<path d="M65,321l50,200l25,25h100l25-25l25,25l25-25h25l25-50l25,25l25-100l25-25h75l25,50l25-25h25l25-25l25,25h25l75,75l25,50h50l25-50l25,25l25-50l25,50l25,25l25-25h25 " fill="none" stroke="#0052a1" stroke-width="3"/>
+<!-- Liverpool -->
+<path d="M65,346h25l25,100l25-175l25-75l25,25l50,25l50,50l25-50l25-25l50,50l25-25l25-50h50l25,25l25,50h25l25,25l50-50l25-50l25-25l25,25h25l25,50h50l25-25h25l25-50h100 " fill="none" stroke="#f00" stroke-width="3"/>
+<!-- Man City -->
+<path d="M65,146l25-75l25,25h475l25-25l25,25h225l25-25h100 " fill="none" stroke="#5cbfeb" stroke-width="3"/>
+<!-- Man United -->
+<path d="M65,371l25,175l50-300l25-75h75l25,25l25-25h50l25,25l25-25h75l25-25h25l25-25l25,25l25-25h150l25,25h25l25-25l25,25h100l25-25h25 " fill="none" stroke="#f00" stroke-width="3"/>
+<path d="M65,371l25,175l50-300l25-75h75l25,25l25-25h50l25,25l25-25h75l25-25h25l25-25l25,25l25-25h150l25,25h25l25-25l25,25h100l25-25h25 " fill="none" stroke="#cc0" stroke-width="2" stroke-dasharray="6,6"/>
+<!-- Newcastle United -->
+<path d="M65,171h25l25,25l25,25l25,125l25-25l50-25l25-75l25-25h50l25-50h25l25-25h100l25,25l25-25l25,25h25l25,25h25l25,25l25-25h25l25-50h25l25,25l25-25h100l25,25h25 " fill="none" stroke="#000" stroke-width="3"/>
+<path d="M65,171h25l25,25l25,25l25,125l25-25l50-25l25-75l25-25h50l25-50h25l25-25h100l25,25l25-25l25,25h25l25,25h25l25,25l25-25h25l25-50h25l25,25l25-25h100l25,25h25 " fill="none" stroke="#fff" stroke-dasharray="6,6" stroke-width="2"/>
+<!-- Nottingham Forest -->
+<path d="M65,496l25-200h25l25,100l25,25l25,100h50l25,25l25-25l25,25h100l25-50l25,25l25-25l25-75l25-50h50l25,25l25-25h25l25,25h25l25,50l50,50h25l25,25l25-50l25,25l25-50h75 " fill="none" stroke="#f00" stroke-width="3"/>
+<!-- Southampton dd1338 -->
+<path d="M65,546l25-75l25-150l25,50l25-100l25,75l50,50l25,50l50,50l25-100l25,50l100,100h200l25-25l25,25h275 " fill="none" stroke="#dd1338" stroke-width="3"/>
+<path d="M65,546l25-75l25-150l25,50l25-100l25,75l50,50l25,50l50,50l25-100l25,50l100,100h200l25-25l25,25h275 " fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6,6"/>
+<!-- Tottenham -->
+<path d="M65,71l25,75h25l25-25h250l25,25h50l25,25h125l25-25h100l25,25h100l25,50l25-25l25,25l25,25h25" fill="none" stroke="#001c58" stroke-width="3"/>
+<!-- West Ham United -->
+<path d="M65,521h25l25,25l25-100l25-50l25,100h50l25-75l25-50l25-25l25,25l25-75l25,75l25,50l25,25h25l25,25h25l25,25l25-50l25,25l25-25l25,50l25-50h25l50,50l25-75l25-25l25,25l25-50l25,50h75l25-25h25 " fill="none" stroke="#6d2838" stroke-width="3"/>
+<path d="M65,521h25l25,25l25-100l25-50l25,100h50l25-75l25-50l25-25l25,25l25-75l25,75l25,50l25,25h25l25,25h25l25,25l25-50l25,25l25-25l25,50l25-50h25l50,50l25-75l25-25l25,25l25-50l25,50h75l25-25h25 " fill="none" stroke="#29b1d6" stroke-width="2" stroke-dasharray="6,6"/>
+<!-- Wolverhampton -->
+<path d="M65,396h25l25,100l25,25l25-25l25-100l50,75l25,25h25l25-25l50,50h50l25,25l25-50l25,25h25l25-75l25,25l25-50h75l25-50h50l25,25l25-25h25l25,25l25-25l25,25l25-25h75 " fill="none" stroke="#000" stroke-width="3"/>
+<path d="M65,396h25l25,100l25,25l25-25l25-100l50,75l25,25h25l25-25l50,50h50l25,25l25-50l25,25h25l25-75l25,25l25-50h75l25-50h50l25,25l25-25h25l25,25l25-25l25,25l25-25h75 " fill="none" stroke="#fdba0b" stroke-width="2" stroke-dasharray="6,6"/>
+
+<!-- Bubbles -->
+<!-- Arsenal -->
+<g fill="#f00">
+<circle cx="65" cy="121" r="10"/>
+<circle cx="90" cy="96" r="10"/>
+<circle cx="115" cy="71" r="10"/>
+<circle cx="140" cy="71" r="10"/>
+<circle cx="165" cy="71" r="10"/>
+<circle cx="190" cy="71" r="10"/>
+<circle cx="240" cy="71" r="10"/>
+<circle cx="265" cy="71" r="10"/>
+<circle cx="290" cy="71" r="10"/>
+<circle cx="315" cy="71" r="10"/>
+<circle cx="340" cy="71" r="10"/>
+<circle cx="365" cy="71" r="10"/>
+<circle cx="390" cy="71" r="10"/>
+<circle cx="415" cy="71" r="10"/>
+<circle cx="440" cy="71" r="10"/>
+<circle cx="465" cy="71" r="10"/>
+<circle cx="490" cy="71" r="10"/>
+<circle cx="515" cy="71" r="10"/>
+<circle cx="540" cy="71" r="10"/>
+<circle cx="565" cy="71" r="10"/>
+<circle cx="590" cy="71" r="10"/>
+<circle cx="615" cy="96" r="10"/>
+<circle cx="640" cy="71" r="10"/>
+<circle cx="665" cy="71" r="10"/>
+<circle cx="690" cy="71" r="10"/>
+<circle cx="715" cy="71" r="10"/>
+<circle cx="740" cy="71" r="10"/>
+<circle cx="765" cy="71" r="10"/>
+<circle cx="790" cy="71" r="10"/>
+<circle cx="815" cy="71" r="10"/>
+<circle cx="840" cy="71" r="10"/>
+<circle cx="865" cy="71" r="10"/>
+<circle cx="890" cy="96" r="10"/>
+<circle cx="915" cy="96" r="10"/>
+<circle cx="940" cy="96" r="10"/>
+<circle cx="965" cy="96" r="10"/>
+<circle cx="990" cy="96" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="124">ARS</tspan>
+<tspan x="91" y="99">ARS</tspan>
+<tspan x="116" y="74">ARS</tspan>
+<tspan x="141" y="74">ARS</tspan>
+<tspan x="166" y="74">ARS</tspan>
+<tspan x="191" y="74">ARS</tspan>
+<tspan x="241" y="74">ARS</tspan>
+<tspan x="266" y="74">ARS</tspan>
+<tspan x="291" y="74">ARS</tspan>
+<tspan x="316" y="74">ARS</tspan>
+<tspan x="341" y="74">ARS</tspan>
+<tspan x="366" y="74">ARS</tspan>
+<tspan x="391" y="74">ARS</tspan>
+<tspan x="416" y="74">ARS</tspan>
+<tspan x="441" y="74">ARS</tspan>
+<tspan x="466" y="74">ARS</tspan>
+<tspan x="491" y="74">ARS</tspan>
+<tspan x="516" y="74">ARS</tspan>
+<tspan x="541" y="74">ARS</tspan>
+<tspan x="566" y="74">ARS</tspan>
+<tspan x="591" y="74">ARS</tspan>
+<tspan x="615" y="99">ARS</tspan>
+<tspan x="641" y="74">ARS</tspan>
+<tspan x="666" y="74">ARS</tspan>
+<tspan x="691" y="74">ARS</tspan>
+<tspan x="716" y="74">ARS</tspan>
+<tspan x="741" y="74">ARS</tspan>
+<tspan x="766" y="74">ARS</tspan>
+<tspan x="791" y="74">ARS</tspan>
+<tspan x="816" y="74">ARS</tspan>
+<tspan x="841" y="74">ARS</tspan>
+<tspan x="866" y="74">ARS</tspan>
+<tspan x="891" y="99">ARS</tspan>
+<tspan x="916" y="99">ARS</tspan>
+<tspan x="941" y="99">ARS</tspan>
+<tspan x="966" y="99">ARS</tspan>
+<tspan x="990" y="99">ARS</tspan>
+</text>
+
+<!-- Aston Villa -->
+<g fill="#680333">
+<circle cx="65" cy="446" r="10"/>
+<circle cx="90" cy="271" r="10"/>
+<circle cx="115" cy="371" r="10"/>
+<circle cx="140" cy="421" r="10"/>
+<circle cx="165" cy="521" r="10"/>
+<circle cx="190" cy="471" r="10"/>
+<circle cx="240" cy="421" r="10"/>
+<circle cx="265" cy="396" r="10"/>
+<circle cx="290" cy="446" r="10"/>
+<circle cx="315" cy="446" r="10"/>
+<circle cx="340" cy="471" r="10"/>
+<circle cx="365" cy="421" r="10"/>
+<circle cx="390" cy="446" r="10"/>
+<circle cx="415" cy="371" r="10"/>
+<circle cx="440" cy="346" r="10"/>
+<circle cx="465" cy="346" r="10"/>
+<circle cx="490" cy="346" r="10"/>
+<circle cx="515" cy="321" r="10"/>
+<circle cx="540" cy="321" r="10"/>
+<circle cx="565" cy="321" r="10"/>
+<circle cx="590" cy="321" r="10"/>
+<circle cx="615" cy="321" r="10"/>
+<circle cx="640" cy="321" r="10"/>
+<circle cx="665" cy="321" r="10"/>
+<circle cx="690" cy="321" r="10"/>
+<circle cx="715" cy="321" r="10"/>
+<circle cx="740" cy="321" r="10"/>
+<circle cx="765" cy="221" r="10"/>
+<circle cx="790" cy="196" r="10"/>
+<circle cx="815" cy="196" r="10"/>
+<circle cx="840" cy="196" r="10"/>
+<circle cx="865" cy="196" r="10"/>
+<circle cx="890" cy="246" r="10"/>
+<circle cx="915" cy="246" r="10"/>
+<circle cx="940" cy="246" r="10"/>
+<circle cx="965" cy="221" r="10"/>
+<circle cx="990" cy="221" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65" y="450">AVL</tspan>
+<tspan x="90" y="275">AVL</tspan>
+<tspan x="115" y="375">AVL</tspan>
+<tspan x="140" y="425">AVL</tspan>
+<tspan x="165" y="525">AVL</tspan>
+<tspan x="190" y="475">AVL</tspan>
+<tspan x="240" y="425">AVL</tspan>
+<tspan x="265" y="400">AVL</tspan>
+<tspan x="291" y="449">AVL</tspan>
+<tspan x="316" y="449">AVL</tspan>
+<tspan x="341" y="474">AVL</tspan>
+<tspan x="366" y="424">AVL</tspan>
+<tspan x="391" y="449">AVL</tspan>
+<tspan x="416" y="374">AVL</tspan>
+<tspan x="441" y="349">AVL</tspan>
+<tspan x="466" y="349">AVL</tspan>
+<tspan x="491" y="349">AVL</tspan>
+<tspan x="516" y="324">AVL</tspan>
+<tspan x="541" y="324">AVL</tspan>
+<tspan x="566" y="324">AVL</tspan>
+<tspan x="591" y="324">AVL</tspan>
+<tspan x="616" y="324">AVL</tspan>
+<tspan x="641" y="324">AVL</tspan>
+<tspan x="666" y="324">AVL</tspan>
+<tspan x="691" y="324">AVL</tspan>
+<tspan x="716" y="324">AVL</tspan>
+<tspan x="741" y="324">AVL</tspan>
+<tspan x="766" y="224">AVL</tspan>
+<tspan x="791" y="199">AVL</tspan>
+<tspan x="816" y="199">AVL</tspan>
+<tspan x="841" y="199">AVL</tspan>
+<tspan x="866" y="199">AVL</tspan>
+<tspan x="891" y="249">AVL</tspan>
+<tspan x="916" y="249">AVL</tspan>
+<tspan x="941" y="249">AVL</tspan>
+<tspan x="966" y="224">AVL</tspan>
+<tspan x="990" y="224">AVL</tspan>
+</text>
+
+<!-- Bournemouth -->
+<g fill="#cf1f44">
+<circle cx="65" cy="96" r="10"/>
+<circle cx="90" cy="321" r="10"/>
+<circle cx="115" cy="421" r="10"/>
+<circle cx="140" cy="471" r="10"/>
+<circle cx="165" cy="446" r="10"/>
+<circle cx="190" cy="371" r="10"/>
+<circle cx="240" cy="346" r="10"/>
+<circle cx="265" cy="371" r="10"/>
+<circle cx="290" cy="246" r="10"/>
+<circle cx="315" cy="296" r="10"/>
+<circle cx="340" cy="346" r="10"/>
+<circle cx="365" cy="396" r="10"/>
+<circle cx="390" cy="396" r="10"/>
+<circle cx="415" cy="471" r="10"/>
+<circle cx="440" cy="396" r="10"/>
+<circle cx="465" cy="396" r="10"/>
+<circle cx="490" cy="421" r="10"/>
+<circle cx="515" cy="446" r="10"/>
+<circle cx="540" cy="471" r="10"/>
+<circle cx="565" cy="496" r="10"/>
+<circle cx="590" cy="521" r="10"/>
+<circle cx="615" cy="521" r="10"/>
+<circle cx="640" cy="471" r="10"/>
+<circle cx="665" cy="521" r="10"/>
+<circle cx="690" cy="546" r="10"/>
+<circle cx="715" cy="496" r="10"/>
+<circle cx="740" cy="521" r="10"/>
+<circle cx="765" cy="496" r="10"/>
+<circle cx="790" cy="421" r="10"/>
+<circle cx="815" cy="396" r="10"/>
+<circle cx="840" cy="421" r="10"/>
+<circle cx="865" cy="396" r="10"/>
+<circle cx="890" cy="371" r="10"/>
+<circle cx="915" cy="396" r="10"/>
+<circle cx="940" cy="396" r="10"/>
+<circle cx="965" cy="421" r="10"/>
+<circle cx="990" cy="421" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="99">BOU</tspan>
+<tspan x="91" y="324">BOU</tspan>
+<tspan x="116" y="424">BOU</tspan>
+<tspan x="141" y="474">BOU</tspan>
+<tspan x="166" y="449">BOU</tspan>
+<tspan x="191" y="374">BOU</tspan>
+<tspan x="241" y="349">BOU</tspan>
+<tspan x="266" y="374">BOU</tspan>
+<tspan x="291" y="249">BOU</tspan>
+<tspan x="316" y="299">BOU</tspan>
+<tspan x="341" y="349">BOU</tspan>
+<tspan x="366" y="399">BOU</tspan>
+<tspan x="391" y="399">BOU</tspan>
+<tspan x="416" y="474">BOU</tspan>
+<tspan x="441" y="399">BOU</tspan>
+<tspan x="466" y="399">BOU</tspan>
+<tspan x="491" y="424">BOU</tspan>
+<tspan x="516" y="449">BOU</tspan>
+<tspan x="541" y="474">BOU</tspan>
+<tspan x="566" y="499">BOU</tspan>
+<tspan x="591" y="524">BOU</tspan>
+<tspan x="616" y="524">BOU</tspan>
+<tspan x="641" y="474">BOU</tspan>
+<tspan x="666" y="524">BOU</tspan>
+<tspan x="691" y="549">BOU</tspan>
+<tspan x="716" y="499">BOU</tspan>
+<tspan x="741" y="524">BOU</tspan>
+<tspan x="766" y="499">BOU</tspan>
+<tspan x="791" y="424">BOU</tspan>
+<tspan x="816" y="399">BOU</tspan>
+<tspan x="841" y="424">BOU</tspan>
+<tspan x="866" y="399">BOU</tspan>
+<tspan x="891" y="374">BOU</tspan>
+<tspan x="916" y="399">BOU</tspan>
+<tspan x="941" y="399">BOU</tspan>
+<tspan x="966" y="424">BOU</tspan>
+<tspan x="990" y="424">BOU</tspan>
+</text>
+
+<!-- Brentford -->
+<g fill="#d4010b">
+<circle cx="65" cy="271" r="10"/>
+<circle cx="90" cy="121" r="10"/>
+<circle cx="115" cy="246" r="10"/>
+<circle cx="140" cy="296" r="10"/>
+<circle cx="165" cy="321" r="10"/>
+<circle cx="190" cy="246" r="10"/>
+<circle cx="240" cy="271" r="10"/>
+<circle cx="265" cy="296" r="10"/>
+<circle cx="290" cy="321" r="10"/>
+<circle cx="315" cy="271" r="10"/>
+<circle cx="340" cy="296" r="10"/>
+<circle cx="365" cy="321" r="10"/>
+<circle cx="390" cy="321" r="10"/>
+<circle cx="415" cy="321" r="10"/>
+<circle cx="440" cy="296" r="10"/>
+<circle cx="465" cy="296" r="10"/>
+<circle cx="490" cy="296" r="10"/>
+<circle cx="515" cy="271" r="10"/>
+<circle cx="540" cy="246" r="10"/>
+<circle cx="565" cy="246" r="10"/>
+<circle cx="590" cy="221" r="10"/>
+<circle cx="615" cy="246" r="10"/>
+<circle cx="640" cy="271" r="10"/>
+<circle cx="665" cy="271" r="10"/>
+<circle cx="690" cy="271" r="10"/>
+<circle cx="715" cy="246" r="10"/>
+<circle cx="740" cy="246" r="10"/>
+<circle cx="765" cy="271" r="10"/>
+<circle cx="790" cy="271" r="10"/>
+<circle cx="815" cy="271" r="10"/>
+<circle cx="840" cy="296" r="10"/>
+<circle cx="865" cy="271" r="10"/>
+<circle cx="890" cy="271" r="10"/>
+<circle cx="915" cy="271" r="10"/>
+<circle cx="940" cy="271" r="10"/>
+<circle cx="965" cy="271" r="10"/>
+<circle cx="990" cy="271" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="274">BRE</tspan>
+<tspan x="91" y="124">BRE</tspan>
+<tspan x="116" y="249">BRE</tspan>
+<tspan x="141" y="299">BRE</tspan>
+<tspan x="166" y="324">BRE</tspan>
+<tspan x="191" y="249">BRE</tspan>
+<tspan x="241" y="274">BRE</tspan>
+<tspan x="266" y="299">BRE</tspan>
+<tspan x="291" y="324">BRE</tspan>
+<tspan x="316" y="274">BRE</tspan>
+<tspan x="341" y="299">BRE</tspan>
+<tspan x="366" y="324">BRE</tspan>
+<tspan x="391" y="324">BRE</tspan>
+<tspan x="416" y="324">BRE</tspan>
+<tspan x="441" y="299">BRE</tspan>
+<tspan x="466" y="299">BRE</tspan>
+<tspan x="491" y="299">BRE</tspan>
+<tspan x="516" y="274">BRE</tspan>
+<tspan x="541" y="249">BRE</tspan>
+<tspan x="566" y="249">BRE</tspan>
+<tspan x="591" y="224">BRE</tspan>
+<tspan x="616" y="249">BRE</tspan>
+<tspan x="641" y="274">BRE</tspan>
+<tspan x="666" y="274">BRE</tspan>
+<tspan x="691" y="274">BRE</tspan>
+<tspan x="716" y="249">BRE</tspan>
+<tspan x="741" y="249">BRE</tspan>
+<tspan x="766" y="274">BRE</tspan>
+<tspan x="791" y="274">BRE</tspan>
+<tspan x="816" y="274">BRE</tspan>
+<tspan x="841" y="299">BRE</tspan>
+<tspan x="866" y="274">BRE</tspan>
+<tspan x="891" y="274">BRE</tspan>
+<tspan x="916" y="274">BRE</tspan>
+<tspan x="941" y="274">BRE</tspan>
+<tspan x="966" y="274">BRE</tspan>
+<tspan x="990" y="274">BRE</tspan>
+</text>
+
+<!-- Brighton -->
+<g fill="#005dac">
+<circle cx="65" cy="196" r="10"/>
+<circle cx="90" cy="246" r="10"/>
+<circle cx="115" cy="171" r="10"/>
+<circle cx="140" cy="146" r="10"/>
+<circle cx="165" cy="146" r="10"/>
+<circle cx="190" cy="146" r="10"/>
+<circle cx="240" cy="146" r="10"/>
+<circle cx="265" cy="146" r="10"/>
+<circle cx="290" cy="221" r="10"/>
+<circle cx="315" cy="221" r="10"/>
+<circle cx="340" cy="246" r="10"/>
+<circle cx="365" cy="271" r="10"/>
+<circle cx="390" cy="246" r="10"/>
+<circle cx="415" cy="196" r="10"/>
+<circle cx="440" cy="221" r="10"/>
+<circle cx="465" cy="221" r="10"/>
+<circle cx="490" cy="271" r="10"/>
+<circle cx="515" cy="246" r="10"/>
+<circle cx="540" cy="221" r="10"/>
+<circle cx="565" cy="196" r="10"/>
+<circle cx="590" cy="196" r="10"/>
+<circle cx="615" cy="196" r="10"/>
+<circle cx="640" cy="221" r="10"/>
+<circle cx="665" cy="246" r="10"/>
+<circle cx="690" cy="246" r="10"/>
+<circle cx="715" cy="221" r="10"/>
+<circle cx="740" cy="221" r="10"/>
+<circle cx="765" cy="196" r="10"/>
+<circle cx="790" cy="221" r="10"/>
+<circle cx="815" cy="221" r="10"/>
+<circle cx="840" cy="246" r="10"/>
+<circle cx="865" cy="246" r="10"/>
+<circle cx="890" cy="196" r="10"/>
+<circle cx="915" cy="221" r="10"/>
+<circle cx="940" cy="196" r="10"/>
+<circle cx="965" cy="196" r="10"/>
+<circle cx="990" cy="196" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="199">BHA</tspan>
+<tspan x="91" y="249">BHA</tspan>
+<tspan x="116" y="175">BHA</tspan>
+<tspan x="141" y="149">BHA</tspan>
+<tspan x="166" y="149">BHA</tspan>
+<tspan x="191" y="149">BHA</tspan>
+<tspan x="241" y="149">BHA</tspan>
+<tspan x="266" y="149">BHA</tspan>
+<tspan x="291" y="224">BHA</tspan>
+<tspan x="316" y="224">BHA</tspan>
+<tspan x="341" y="249">BHA</tspan>
+<tspan x="366" y="274">BHA</tspan>
+<tspan x="391" y="249">BHA</tspan>
+<tspan x="416" y="199">BHA</tspan>
+<tspan x="441" y="224">BHA</tspan>
+<tspan x="466" y="224">BHA</tspan>
+<tspan x="491" y="274">BHA</tspan>
+<tspan x="516" y="249">BHA</tspan>
+<tspan x="541" y="224">BHA</tspan>
+<tspan x="566" y="199">BHA</tspan>
+<tspan x="591" y="199">BHA</tspan>
+<tspan x="616" y="199">BHA</tspan>
+<tspan x="641" y="224">BHA</tspan>
+<tspan x="666" y="249">BHA</tspan>
+<tspan x="691" y="249">BHA</tspan>
+<tspan x="716" y="224">BHA</tspan>
+<tspan x="741" y="224">BHA</tspan>
+<tspan x="766" y="199">BHA</tspan>
+<tspan x="791" y="224">BHA</tspan>
+<tspan x="816" y="224">BHA</tspan>
+<tspan x="841" y="249">BHA</tspan>
+<tspan x="866" y="249">BHA</tspan>
+<tspan x="891" y="199">BHA</tspan>
+<tspan x="916" y="224">BHA</tspan>
+<tspan x="941" y="199">BHA</tspan>
+<tspan x="966" y="199">BHA</tspan>
+<tspan x="990" y="199">BHA</tspan>
+</text>
+
+<!-- Chelsea -->
+<g fill="#000c7c">
+<circle cx="65" cy="246" r="10"/>
+<circle cx="90" cy="221" r="10"/>
+<circle cx="115" cy="346" r="10"/>
+<circle cx="140" cy="196" r="10"/>
+<circle cx="165" cy="296" r="10"/>
+<circle cx="190" cy="196" r="10"/>
+<circle cx="240" cy="221" r="10"/>
+<circle cx="265" cy="171" r="10"/>
+<circle cx="290" cy="146" r="10"/>
+<circle cx="315" cy="146" r="10"/>
+<circle cx="340" cy="146" r="10"/>
+<circle cx="365" cy="171" r="10"/>
+<circle cx="390" cy="196" r="10"/>
+<circle cx="415" cy="221" r="10"/>
+<circle cx="440" cy="246" r="10"/>
+<circle cx="465" cy="246" r="10"/>
+<circle cx="490" cy="246" r="10"/>
+<circle cx="515" cy="296" r="10"/>
+<circle cx="540" cy="296" r="10"/>
+<circle cx="565" cy="296" r="10"/>
+<circle cx="590" cy="271" r="10"/>
+<circle cx="615" cy="296" r="10"/>
+<circle cx="640" cy="296" r="10"/>
+<circle cx="665" cy="296" r="10"/>
+<circle cx="690" cy="296" r="10"/>
+<circle cx="715" cy="296" r="10"/>
+<circle cx="740" cy="296" r="10"/>
+<circle cx="765" cy="321" r="10"/>
+<circle cx="790" cy="321" r="10"/>
+<circle cx="815" cy="321" r="10"/>
+<circle cx="840" cy="321" r="10"/>
+<circle cx="865" cy="321" r="10"/>
+<circle cx="890" cy="346" r="10"/>
+<circle cx="915" cy="321" r="10"/>
+<circle cx="940" cy="321" r="10"/>
+<circle cx="965" cy="346" r="10"/>
+<circle cx="990" cy="346" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65" y="249">CHE</tspan>
+<tspan x="90" y="224">CHE</tspan>
+<tspan x="115" y="349">CHE</tspan>
+<tspan x="140" y="199">CHE</tspan>
+<tspan x="165" y="299">CHE</tspan>
+<tspan x="190" y="199">CHE</tspan>
+<tspan x="240" y="224">CHE</tspan>
+<tspan x="265" y="174">CHE</tspan>
+<tspan x="290" y="149">CHE</tspan>
+<tspan x="315" y="149">CHE</tspan>
+<tspan x="340" y="149">CHE</tspan>
+<tspan x="365" y="174">CHE</tspan>
+<tspan x="390" y="199">CHE</tspan>
+<tspan x="415" y="224">CHE</tspan>
+<tspan x="440" y="249">CHE</tspan>
+<tspan x="465" y="249">CHE</tspan>
+<tspan x="490" y="249">CHE</tspan>
+<tspan x="515" y="299">CHE</tspan>
+<tspan x="540" y="299">CHE</tspan>
+<tspan x="565" y="299">CHE</tspan>
+<tspan x="590" y="274">CHE</tspan>
+<tspan x="615" y="299">CHE</tspan>
+<tspan x="640" y="299">CHE</tspan>
+<tspan x="665" y="299">CHE</tspan>
+<tspan x="690" y="299">CHE</tspan>
+<tspan x="715" y="299">CHE</tspan>
+<tspan x="740" y="299">CHE</tspan>
+<tspan x="765" y="324">CHE</tspan>
+<tspan x="790" y="324">CHE</tspan>
+<tspan x="815" y="324">CHE</tspan>
+<tspan x="840" y="324">CHE</tspan>
+<tspan x="865" y="324">CHE</tspan>
+<tspan x="890" y="349">CHE</tspan>
+<tspan x="915" y="324">CHE</tspan>
+<tspan x="940" y="324">CHE</tspan>
+<tspan x="965" y="349">CHE</tspan>
+<tspan x="990" y="349">CHE</tspan>
+</text>
+
+<!-- Crystal Palace -->
+<g fill="#de2a1f" stroke="#0054a7" stroke-width="1">
+<circle cx="65" cy="471" r="10"/>
+<circle cx="90" cy="446" r="10"/>
+<circle cx="115" cy="271" r="10"/>
+<circle cx="140" cy="346" r="10"/>
+<circle cx="165" cy="371" r="10"/>
+<circle cx="190" cy="421" r="10"/>
+<circle cx="240" cy="446" r="10"/>
+<circle cx="265" cy="471" r="10"/>
+<circle cx="290" cy="421" r="10"/>
+<circle cx="315" cy="371" r="10"/>
+<circle cx="340" cy="321" r="10"/>
+<circle cx="365" cy="371" r="10"/>
+<circle cx="390" cy="296" r="10"/>
+<circle cx="415" cy="296" r="10"/>
+<circle cx="440" cy="321" r="10"/>
+<circle cx="465" cy="321" r="10"/>
+<circle cx="490" cy="321" r="10"/>
+<circle cx="515" cy="346" r="10"/>
+<circle cx="540" cy="346" r="10"/>
+<circle cx="565" cy="346" r="10"/>
+<circle cx="590" cy="346" r="10"/>
+<circle cx="615" cy="346" r="10"/>
+<circle cx="640" cy="346" r="10"/>
+<circle cx="665" cy="346" r="10"/>
+<circle cx="690" cy="346" r="10"/>
+<circle cx="715" cy="346" r="10"/>
+<circle cx="740" cy="346" r="10"/>
+<circle cx="765" cy="346" r="10"/>
+<circle cx="790" cy="346" r="10"/>
+<circle cx="815" cy="346" r="10"/>
+<circle cx="840" cy="346" r="10"/>
+<circle cx="865" cy="346" r="10"/>
+<circle cx="890" cy="321" r="10"/>
+<circle cx="915" cy="346" r="10"/>
+<circle cx="940" cy="346" r="10"/>
+<circle cx="965" cy="321" r="10"/>
+<circle cx="990" cy="321" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65.5" y="474">CRY</tspan>
+<tspan x="90.5" y="449">CRY</tspan>
+<tspan x="115.5" y="274">CRY</tspan>
+<tspan x="140.5" y="349">CRY</tspan>
+<tspan x="165.5" y="374">CRY</tspan>
+<tspan x="190.5" y="424">CRY</tspan>
+<tspan x="240.5" y="449">CRY</tspan>
+<tspan x="265.5" y="474">CRY</tspan>
+<tspan x="290.5" y="424">CRY</tspan>
+<tspan x="315.5" y="374">CRY</tspan>
+<tspan x="340.5" y="324">CRY</tspan>
+<tspan x="365.5" y="374">CRY</tspan>
+<tspan x="390.5" y="299">CRY</tspan>
+<tspan x="415.5" y="299">CRY</tspan>
+<tspan x="440.5" y="324">CRY</tspan>
+<tspan x="465.5" y="324">CRY</tspan>
+<tspan x="490.5" y="324">CRY</tspan>
+<tspan x="515.5" y="349">CRY</tspan>
+<tspan x="540.5" y="349">CRY</tspan>
+<tspan x="565.5" y="349">CRY</tspan>
+<tspan x="590.5" y="349">CRY</tspan>
+<tspan x="615.5" y="349">CRY</tspan>
+<tspan x="640.5" y="349">CRY</tspan>
+<tspan x="665.5" y="349">CRY</tspan>
+<tspan x="690.5" y="349">CRY</tspan>
+<tspan x="715.5" y="349">CRY</tspan>
+<tspan x="740.5" y="349">CRY</tspan>
+<tspan x="765.5" y="349">CRY</tspan>
+<tspan x="790.5" y="349">CRY</tspan>
+<tspan x="815.5" y="349">CRY</tspan>
+<tspan x="840.5" y="349">CRY</tspan>
+<tspan x="865.5" y="349">CRY</tspan>
+<tspan x="890.5" y="324">CRY</tspan>
+<tspan x="915.5" y="349">CRY</tspan>
+<tspan x="940.5" y="349">CRY</tspan>
+<tspan x="965.5" y="324">CRY</tspan>
+<tspan x="990.5" y="324">CRY</tspan>
+</text>
+
+<!-- Everton -->
+<g fill="#00009f">
+<circle cx="65" cy="421" r="10"/>
+<circle cx="90" cy="496" r="10"/>
+<circle cx="115" cy="471" r="10"/>
+<circle cx="140" cy="496" r="10"/>
+<circle cx="165" cy="471" r="10"/>
+<circle cx="190" cy="446" r="10"/>
+<circle cx="240" cy="371" r="10"/>
+<circle cx="265" cy="321" r="10"/>
+<circle cx="290" cy="346" r="10"/>
+<circle cx="315" cy="396" r="10"/>
+<circle cx="340" cy="421" r="10"/>
+<circle cx="365" cy="346" r="10"/>
+<circle cx="390" cy="346" r="10"/>
+<circle cx="415" cy="446" r="10"/>
+<circle cx="440" cy="471" r="10"/>
+<circle cx="465" cy="471" r="10"/>
+<circle cx="490" cy="446" r="10"/>
+<circle cx="515" cy="496" r="10"/>
+<circle cx="540" cy="521" r="10"/>
+<circle cx="565" cy="521" r="10"/>
+<circle cx="590" cy="496" r="10"/>
+<circle cx="615" cy="496" r="10"/>
+<circle cx="640" cy="446" r="10"/>
+<circle cx="665" cy="496" r="10"/>
+<circle cx="690" cy="496" r="10"/>
+<circle cx="715" cy="421" r="10"/>
+<circle cx="740" cy="421" r="10"/>
+<circle cx="765" cy="446" r="10"/>
+<circle cx="790" cy="471" r="10"/>
+<circle cx="815" cy="471" r="10"/>
+<circle cx="840" cy="496" r="10"/>
+<circle cx="865" cy="521" r="10"/>
+<circle cx="890" cy="521" r="10"/>
+<circle cx="915" cy="471" r="10"/>
+<circle cx="940" cy="471" r="10"/>
+<circle cx="965" cy="471" r="10"/>
+<circle cx="990" cy="471" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65" y="424">EVE</tspan>
+<tspan x="90" y="499">EVE</tspan>
+<tspan x="115" y="474">EVE</tspan>
+<tspan x="140" y="499">EVE</tspan>
+<tspan x="165" y="474">EVE</tspan>
+<tspan x="190" y="449">EVE</tspan>
+<tspan x="240" y="374">EVE</tspan>
+<tspan x="265" y="324">EVE</tspan>
+<tspan x="290" y="349">EVE</tspan>
+<tspan x="315" y="399">EVE</tspan>
+<tspan x="340" y="424">EVE</tspan>
+<tspan x="365" y="349">EVE</tspan>
+<tspan x="390" y="349">EVE</tspan>
+<tspan x="415" y="449">EVE</tspan>
+<tspan x="440" y="474">EVE</tspan>
+<tspan x="465" y="474">EVE</tspan>
+<tspan x="490" y="449">EVE</tspan>
+<tspan x="515" y="499">EVE</tspan>
+<tspan x="540" y="524">EVE</tspan>
+<tspan x="565" y="524">EVE</tspan>
+<tspan x="590" y="499">EVE</tspan>
+<tspan x="615" y="499">EVE</tspan>
+<tspan x="640" y="449">EVE</tspan>
+<tspan x="665" y="499">EVE</tspan>
+<tspan x="690" y="499">EVE</tspan>
+<tspan x="715" y="424">EVE</tspan>
+<tspan x="740" y="424">EVE</tspan>
+<tspan x="765" y="449">EVE</tspan>
+<tspan x="790" y="474">EVE</tspan>
+<tspan x="815" y="474">EVE</tspan>
+<tspan x="840" y="499">EVE</tspan>
+<tspan x="865" y="524">EVE</tspan>
+<tspan x="890" y="524">EVE</tspan>
+<tspan x="915" y="474">EVE</tspan>
+<tspan x="940" y="474">EVE</tspan>
+<tspan x="965" y="474">EVE</tspan>
+<tspan x="990" y="474">EVE</tspan>
+</text>
+
+<!-- Fulham -->
+<circle cx="65" cy="296" r="10"/>
+<circle cx="90" cy="371" r="10"/>
+<circle cx="115" cy="221" r="10"/>
+<circle cx="140" cy="321" r="10"/>
+<circle cx="165" cy="246" r="10"/>
+<circle cx="190" cy="296" r="10"/>
+<circle cx="240" cy="196" r="10"/>
+<circle cx="265" cy="246" r="10"/>
+<circle cx="290" cy="271" r="10"/>
+<circle cx="315" cy="321" r="10"/>
+<circle cx="340" cy="271" r="10"/>
+<circle cx="365" cy="221" r="10"/>
+<circle cx="390" cy="221" r="10"/>
+<circle cx="415" cy="271" r="10"/>
+<circle cx="440" cy="271" r="10"/>
+<circle cx="465" cy="271" r="10"/>
+<circle cx="490" cy="221" r="10"/>
+<circle cx="515" cy="196" r="10"/>
+<circle cx="540" cy="196" r="10"/>
+<circle cx="565" cy="221" r="10"/>
+<circle cx="590" cy="246" r="10"/>
+<circle cx="615" cy="221" r="10"/>
+<circle cx="640" cy="196" r="10"/>
+<circle cx="665" cy="221" r="10"/>
+<circle cx="690" cy="221" r="10"/>
+<circle cx="715" cy="271" r="10"/>
+<circle cx="740" cy="271" r="10"/>
+<circle cx="765" cy="296" r="10"/>
+<circle cx="790" cy="296" r="10"/>
+<circle cx="815" cy="296" r="10"/>
+<circle cx="840" cy="271" r="10"/>
+<circle cx="865" cy="296" r="10"/>
+<circle cx="890" cy="296" r="10"/>
+<circle cx="915" cy="296" r="10"/>
+<circle cx="940" cy="296" r="10"/>
+<circle cx="965" cy="296" r="10"/>
+<circle cx="990" cy="296" r="10"/>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="299">FUL</tspan>
+<tspan x="91" y="374">FUL</tspan>
+<tspan x="116" y="224">FUL</tspan>
+<tspan x="141" y="324">FUL</tspan>
+<tspan x="166" y="249">FUL</tspan>
+<tspan x="191" y="299">FUL</tspan>
+<tspan x="241" y="199">FUL</tspan>
+<tspan x="266" y="249">FUL</tspan>
+<tspan x="291" y="274">FUL</tspan>
+<tspan x="316" y="324">FUL</tspan>
+<tspan x="341" y="274">FUL</tspan>
+<tspan x="366" y="224">FUL</tspan>
+<tspan x="391" y="224">FUL</tspan>
+<tspan x="416" y="274">FUL</tspan>
+<tspan x="441" y="274">FUL</tspan>
+<tspan x="466" y="274">FUL</tspan>
+<tspan x="491" y="224">FUL</tspan>
+<tspan x="516" y="199">FUL</tspan>
+<tspan x="541" y="199">FUL</tspan>
+<tspan x="566" y="224">FUL</tspan>
+<tspan x="591" y="249">FUL</tspan>
+<tspan x="616" y="224">FUL</tspan>
+<tspan x="641" y="199">FUL</tspan>
+<tspan x="666" y="224">FUL</tspan>
+<tspan x="691" y="224">FUL</tspan>
+<tspan x="716" y="274">FUL</tspan>
+<tspan x="741" y="274">FUL</tspan>
+<tspan x="766" y="299">FUL</tspan>
+<tspan x="791" y="299">FUL</tspan>
+<tspan x="816" y="299">FUL</tspan>
+<tspan x="841" y="274">FUL</tspan>
+<tspan x="866" y="299">FUL</tspan>
+<tspan x="891" y="299">FUL</tspan>
+<tspan x="916" y="299">FUL</tspan>
+<tspan x="941" y="299">FUL</tspan>
+<tspan x="966" y="299">FUL</tspan>
+<tspan x="990" y="299">FUL</tspan>
+</text>
+
+<!-- Leeds -->
+<g fill="#ff0" stroke="#0060ab" stroke-width="1">
+<circle cx="65" cy="221" r="10"/>
+<circle cx="90" cy="196" r="10"/>
+<circle cx="115" cy="121" r="10"/>
+<circle cx="140" cy="171" r="10"/>
+<circle cx="165" cy="221" r="10"/>
+<circle cx="190" cy="271" r="10"/>
+<circle cx="240" cy="321" r="10"/>
+<circle cx="265" cy="346" r="10"/>
+<circle cx="290" cy="396" r="10"/>
+<circle cx="315" cy="421" r="10"/>
+<circle cx="340" cy="446" r="10"/>
+<circle cx="365" cy="496" r="10"/>
+<circle cx="390" cy="421" r="10"/>
+<circle cx="415" cy="346" r="10"/>
+<circle cx="440" cy="421" r="10"/>
+<circle cx="465" cy="421" r="10"/>
+<circle cx="490" cy="396" r="10"/>
+<circle cx="515" cy="396" r="10"/>
+<circle cx="540" cy="396" r="10"/>
+<circle cx="565" cy="421" r="10"/>
+<circle cx="590" cy="446" r="10"/>
+<circle cx="615" cy="471" r="10"/>
+<circle cx="640" cy="521" r="10"/>
+<circle cx="665" cy="471" r="10"/>
+<circle cx="690" cy="471" r="10"/>
+<circle cx="715" cy="521" r="10"/>
+<circle cx="740" cy="396" r="10"/>
+<circle cx="765" cy="371" r="10"/>
+<circle cx="790" cy="446" r="10"/>
+<circle cx="815" cy="446" r="10"/>
+<circle cx="840" cy="446" r="10"/>
+<circle cx="865" cy="446" r="10"/>
+<circle cx="890" cy="471" r="10"/>
+<circle cx="915" cy="521" r="10"/>
+<circle cx="940" cy="496" r="10"/>
+<circle cx="965" cy="521" r="10"/>
+<circle cx="990" cy="521" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#000">
+<tspan x="66" y="224">LEE</tspan>
+<tspan x="91" y="199">LEE</tspan>
+<tspan x="116" y="124">LEE</tspan>
+<tspan x="141" y="174">LEE</tspan>
+<tspan x="166" y="224">LEE</tspan>
+<tspan x="191" y="274">LEE</tspan>
+<tspan x="241" y="324">LEE</tspan>
+<tspan x="266" y="349">LEE</tspan>
+<tspan x="291" y="399">LEE</tspan>
+<tspan x="316" y="424">LEE</tspan>
+<tspan x="341" y="449">LEE</tspan>
+<tspan x="366" y="499">LEE</tspan>
+<tspan x="391" y="424">LEE</tspan>
+<tspan x="416" y="349">LEE</tspan>
+<tspan x="441" y="424">LEE</tspan>
+<tspan x="466" y="424">LEE</tspan>
+<tspan x="491" y="399">LEE</tspan>
+<tspan x="516" y="399">LEE</tspan>
+<tspan x="541" y="399">LEE</tspan>
+<tspan x="566" y="424">LEE</tspan>
+<tspan x="591" y="449">LEE</tspan>
+<tspan x="616" y="474">LEE</tspan>
+<tspan x="641" y="524">LEE</tspan>
+<tspan x="666" y="474">LEE</tspan>
+<tspan x="691" y="474">LEE</tspan>
+<tspan x="716" y="524">LEE</tspan>
+<tspan x="741" y="399">LEE</tspan>
+<tspan x="766" y="374">LEE</tspan>
+<tspan x="791" y="449">LEE</tspan>
+<tspan x="816" y="449">LEE</tspan>
+<tspan x="841" y="449">LEE</tspan>
+<tspan x="866" y="449">LEE</tspan>
+<tspan x="891" y="474">LEE</tspan>
+<tspan x="916" y="524">LEE</tspan>
+<tspan x="941" y="499">LEE</tspan>
+<tspan x="966" y="524">LEE</tspan>
+<tspan x="990" y="524">LEE</tspan>
+</text>
+
+<!-- Leicester -->
+<g fill="#0052a1">
+<circle cx="65" cy="321" r="10"/>
+<circle cx="90" cy="421" r="10"/>
+<circle cx="115" cy="521" r="10"/>
+<circle cx="140" cy="546" r="10"/>
+<circle cx="165" cy="546" r="10"/>
+<circle cx="190" cy="546" r="10"/>
+<circle cx="240" cy="546" r="10"/>
+<circle cx="265" cy="521" r="10"/>
+<circle cx="290" cy="546" r="10"/>
+<circle cx="315" cy="521" r="10"/>
+<circle cx="340" cy="521" r="10"/>
+<circle cx="365" cy="471" r="10"/>
+<circle cx="390" cy="496" r="10"/>
+<circle cx="415" cy="396" r="10"/>
+<circle cx="440" cy="371" r="10"/>
+<circle cx="465" cy="371" r="10"/>
+<circle cx="490" cy="371" r="10"/>
+<circle cx="515" cy="371" r="10"/>
+<circle cx="540" cy="421" r="10"/>
+<circle cx="565" cy="396" r="10"/>
+<circle cx="590" cy="396" r="10"/>
+<circle cx="615" cy="371" r="10"/>
+<circle cx="640" cy="396" r="10"/>
+<circle cx="665" cy="396" r="10"/>
+<circle cx="690" cy="421" r="10"/>
+<circle cx="715" cy="446" r="10"/>
+<circle cx="740" cy="471" r="10"/>
+<circle cx="765" cy="521" r="10"/>
+<circle cx="790" cy="521" r="10"/>
+<circle cx="815" cy="521" r="10"/>
+<circle cx="840" cy="471" r="10"/>
+<circle cx="865" cy="496" r="10"/>
+<circle cx="890" cy="446" r="10"/>
+<circle cx="915" cy="496" r="10"/>
+<circle cx="940" cy="521" r="10"/>
+<circle cx="965" cy="496" r="10"/>
+<circle cx="990" cy="496" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65" y="324">LEI</tspan>
+<tspan x="90" y="424">LEI</tspan>
+<tspan x="115" y="524">LEI</tspan>
+<tspan x="140" y="549">LEI</tspan>
+<tspan x="165" y="549">LEI</tspan>
+<tspan x="190" y="549">LEI</tspan>
+<tspan x="240" y="549">LEI</tspan>
+<tspan x="265" y="524">LEI</tspan>
+<tspan x="290" y="549">LEI</tspan>
+<tspan x="315" y="524">LEI</tspan>
+<tspan x="340" y="524">LEI</tspan>
+<tspan x="365" y="474">LEI</tspan>
+<tspan x="390" y="499">LEI</tspan>
+<tspan x="415" y="399">LEI</tspan>
+<tspan x="440" y="374">LEI</tspan>
+<tspan x="465" y="374">LEI</tspan>
+<tspan x="490" y="374">LEI</tspan>
+<tspan x="515" y="374">LEI</tspan>
+<tspan x="540" y="424">LEI</tspan>
+<tspan x="565" y="399">LEI</tspan>
+<tspan x="590" y="399">LEI</tspan>
+<tspan x="615" y="374">LEI</tspan>
+<tspan x="640" y="399">LEI</tspan>
+<tspan x="665" y="399">LEI</tspan>
+<tspan x="690" y="424">LEI</tspan>
+<tspan x="715" y="449">LEI</tspan>
+<tspan x="740" y="474">LEI</tspan>
+<tspan x="765" y="524">LEI</tspan>
+<tspan x="790" y="524">LEI</tspan>
+<tspan x="815" y="524">LEI</tspan>
+<tspan x="840" y="474">LEI</tspan>
+<tspan x="865" y="499">LEI</tspan>
+<tspan x="890" y="449">LEI</tspan>
+<tspan x="915" y="499">LEI</tspan>
+<tspan x="940" y="524">LEI</tspan>
+<tspan x="965" y="499">LEI</tspan>
+<tspan x="990" y="499">LEI</tspan>
+</text>
+
+<!-- Liverpool -->
+<g fill="#f00">
+<circle cx="65" cy="346" r="10"/>
+<circle cx="90" cy="346" r="10"/>
+<circle cx="115" cy="446" r="10"/>
+<circle cx="140" cy="271" r="10"/>
+<circle cx="165" cy="196" r="10"/>
+<circle cx="190" cy="221" r="10"/>
+<circle cx="240" cy="246" r="10"/>
+<circle cx="265" cy="271" r="10"/>
+<circle cx="290" cy="296" r="10"/>
+<circle cx="315" cy="246" r="10"/>
+<circle cx="340" cy="221" r="10"/>
+<circle cx="365" cy="246" r="10"/>
+<circle cx="390" cy="271" r="10"/>
+<circle cx="415" cy="246" r="10"/>
+<circle cx="440" cy="196" r="10"/>
+<circle cx="465" cy="196" r="10"/>
+<circle cx="490" cy="196" r="10"/>
+<circle cx="515" cy="221" r="10"/>
+<circle cx="540" cy="271" r="10"/>
+<circle cx="565" cy="271" r="10"/>
+<circle cx="590" cy="296" r="10"/>
+<circle cx="615" cy="271" r="10"/>
+<circle cx="640" cy="246" r="10"/>
+<circle cx="665" cy="196" r="10"/>
+<circle cx="690" cy="171" r="10"/>
+<circle cx="715" cy="196" r="10"/>
+<circle cx="740" cy="196" r="10"/>
+<circle cx="765" cy="246" r="10"/>
+<circle cx="790" cy="246" r="10"/>
+<circle cx="815" cy="246" r="10"/>
+<circle cx="840" cy="221" r="10"/>
+<circle cx="865" cy="221" r="10"/>
+<circle cx="890" cy="171" r="10"/>
+<circle cx="915" cy="171" r="10"/>
+<circle cx="940" cy="171" r="10"/>
+<circle cx="965" cy="171" r="10"/>
+<circle cx="990" cy="171" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="9px" fill="#fff">
+<tspan x="66" y="350">LIV</tspan>
+<tspan x="91" y="350">LIV</tspan>
+<tspan x="116" y="450">LIV</tspan>
+<tspan x="141" y="275">LIV</tspan>
+<tspan x="166" y="200">LIV</tspan>
+<tspan x="191" y="225">LIV</tspan>
+<tspan x="241" y="250">LIV</tspan>
+<tspan x="266" y="275">LIV</tspan>
+<tspan x="291" y="300">LIV</tspan>
+<tspan x="316" y="250">LIV</tspan>
+<tspan x="341" y="225">LIV</tspan>
+<tspan x="366" y="250">LIV</tspan>
+<tspan x="391" y="275">LIV</tspan>
+<tspan x="416" y="250">LIV</tspan>
+<tspan x="441" y="200">LIV</tspan>
+<tspan x="466" y="200">LIV</tspan>
+<tspan x="491" y="200">LIV</tspan>
+<tspan x="516" y="225">LIV</tspan>
+<tspan x="541" y="275">LIV</tspan>
+<tspan x="566" y="275">LIV</tspan>
+<tspan x="591" y="300">LIV</tspan>
+<tspan x="616" y="275">LIV</tspan>
+<tspan x="641" y="250">LIV</tspan>
+<tspan x="666" y="200">LIV</tspan>
+<tspan x="691" y="175">LIV</tspan>
+<tspan x="716" y="200">LIV</tspan>
+<tspan x="741" y="200">LIV</tspan>
+<tspan x="766" y="250">LIV</tspan>
+<tspan x="791" y="250">LIV</tspan>
+<tspan x="816" y="250">LIV</tspan>
+<tspan x="841" y="225">LIV</tspan>
+<tspan x="866" y="225">LIV</tspan>
+<tspan x="891" y="175">LIV</tspan>
+<tspan x="916" y="175">LIV</tspan>
+<tspan x="941" y="175">LIV</tspan>
+<tspan x="966" y="175">LIV</tspan>
+<tspan x="990" y="175">LIV</tspan>
+</text>
+
+<!-- Man City -->
+<g fill="#5cbfeb">
+<circle cx="65" cy="146" r="10"/>
+<circle cx="90" cy="71" r="10"/>
+<circle cx="115" cy="96" r="10"/>
+<circle cx="140" cy="96" r="10"/>
+<circle cx="165" cy="96" r="10"/>
+<circle cx="190" cy="96" r="10"/>
+<circle cx="240" cy="96" r="10"/>
+<circle cx="265" cy="96" r="10"/>
+<circle cx="290" cy="96" r="10"/>
+<circle cx="315" cy="96" r="10"/>
+<circle cx="340" cy="96" r="10"/>
+<circle cx="365" cy="96" r="10"/>
+<circle cx="390" cy="96" r="10"/>
+<circle cx="415" cy="96" r="10"/>
+<circle cx="440" cy="96" r="10"/>
+<circle cx="465" cy="96" r="10"/>
+<circle cx="490" cy="96" r="10"/>
+<circle cx="515" cy="96" r="10"/>
+<circle cx="540" cy="96" r="10"/>
+<circle cx="565" cy="96" r="10"/>
+<circle cx="590" cy="96" r="10"/>
+<circle cx="615" cy="71" r="10"/>
+<circle cx="640" cy="96" r="10"/>
+<circle cx="665" cy="96" r="10"/>
+<circle cx="690" cy="96" r="10"/>
+<circle cx="715" cy="96" r="10"/>
+<circle cx="740" cy="96" r="10"/>
+<circle cx="765" cy="96" r="10"/>
+<circle cx="790" cy="96" r="10"/>
+<circle cx="815" cy="96" r="10"/>
+<circle cx="840" cy="96" r="10"/>
+<circle cx="865" cy="96" r="10"/>
+<circle cx="890" cy="71" r="10"/>
+<circle cx="915" cy="71" r="10"/>
+<circle cx="940" cy="71" r="10"/>
+<circle cx="965" cy="71" r="10"/>
+<circle cx="990" cy="71" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="149">MCI</tspan>
+<tspan x="91" y="74">MCI</tspan>
+<tspan x="116" y="99">MCI</tspan>
+<tspan x="141" y="99">MCI</tspan>
+<tspan x="166" y="99">MCI</tspan>
+<tspan x="191" y="99">MCI</tspan>
+<tspan x="241" y="99">MCI</tspan>
+<tspan x="266" y="99">MCI</tspan>
+<tspan x="291" y="99">MCI</tspan>
+<tspan x="316" y="99">MCI</tspan>
+<tspan x="341" y="99">MCI</tspan>
+<tspan x="366" y="99">MCI</tspan>
+<tspan x="391" y="99">MCI</tspan>
+<tspan x="416" y="99">MCI</tspan>
+<tspan x="441" y="99">MCI</tspan>
+<tspan x="466" y="99">MCI</tspan>
+<tspan x="491" y="99">MCI</tspan>
+<tspan x="516" y="99">MCI</tspan>
+<tspan x="541" y="99">MCI</tspan>
+<tspan x="566" y="99">MCI</tspan>
+<tspan x="591" y="99">MCI</tspan>
+<tspan x="616" y="74">MCI</tspan>
+<tspan x="641" y="99">MCI</tspan>
+<tspan x="666" y="99">MCI</tspan>
+<tspan x="691" y="99">MCI</tspan>
+<tspan x="716" y="99">MCI</tspan>
+<tspan x="741" y="99">MCI</tspan>
+<tspan x="766" y="99">MCI</tspan>
+<tspan x="791" y="99">MCI</tspan>
+<tspan x="816" y="99">MCI</tspan>
+<tspan x="841" y="99">MCI</tspan>
+<tspan x="866" y="99">MCI</tspan>
+<tspan x="891" y="74">MCI</tspan>
+<tspan x="916" y="74">MCI</tspan>
+<tspan x="941" y="74">MCI</tspan>
+<tspan x="966" y="74">MCI</tspan>
+<tspan x="990" y="74">MCI</tspan>
+</text>
+
+<!-- Man United -->
+<g fill="#f00">
+<circle cx="65" cy="371" r="10"/>
+<circle cx="90" cy="546" r="10"/>
+<circle cx="115" cy="396" r="10"/>
+<circle cx="140" cy="246" r="10"/>
+<circle cx="165" cy="171" r="10"/>
+<circle cx="190" cy="171" r="10"/>
+<circle cx="240" cy="171" r="10"/>
+<circle cx="265" cy="196" r="10"/>
+<circle cx="290" cy="171" r="10"/>
+<circle cx="315" cy="171" r="10"/>
+<circle cx="340" cy="171" r="10"/>
+<circle cx="365" cy="196" r="10"/>
+<circle cx="390" cy="171" r="10"/>
+<circle cx="415" cy="171" r="10"/>
+<circle cx="440" cy="171" r="10"/>
+<circle cx="465" cy="171" r="10"/>
+<circle cx="490" cy="146" r="10"/>
+<circle cx="515" cy="146" r="10"/>
+<circle cx="540" cy="121" r="10"/>
+<circle cx="565" cy="146" r="10"/>
+<circle cx="590" cy="121" r="10"/>
+<circle cx="615" cy="121" r="10"/>
+<circle cx="640" cy="121" r="10"/>
+<circle cx="665" cy="121" r="10"/>
+<circle cx="690" cy="121" r="10"/>
+<circle cx="715" cy="121" r="10"/>
+<circle cx="740" cy="121" r="10"/>
+<circle cx="765" cy="146" r="10"/>
+<circle cx="790" cy="146" r="10"/>
+<circle cx="815" cy="121" r="10"/>
+<circle cx="840" cy="146" r="10"/>
+<circle cx="865" cy="146" r="10"/>
+<circle cx="890" cy="146" r="10"/>
+<circle cx="915" cy="146" r="10"/>
+<circle cx="940" cy="146" r="10"/>
+<circle cx="965" cy="121" r="10"/>
+<circle cx="990" cy="121" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="375">MNU</tspan>
+<tspan x="91" y="549">MNU</tspan>
+<tspan x="116" y="399">MNU</tspan>
+<tspan x="141" y="249">MNU</tspan>
+<tspan x="166" y="174">MNU</tspan>
+<tspan x="191" y="174">MNU</tspan>
+<tspan x="241" y="174">MNU</tspan>
+<tspan x="266" y="199">MNU</tspan>
+<tspan x="291" y="174">MNU</tspan>
+<tspan x="316" y="174">MNU</tspan>
+<tspan x="341" y="174">MNU</tspan>
+<tspan x="366" y="199">MNU</tspan>
+<tspan x="391" y="174">MNU</tspan>
+<tspan x="416" y="174">MNU</tspan>
+<tspan x="441" y="174">MNU</tspan>
+<tspan x="466" y="174">MNU</tspan>
+<tspan x="491" y="149">MNU</tspan>
+<tspan x="516" y="149">MNU</tspan>
+<tspan x="541" y="124">MNU</tspan>
+<tspan x="566" y="149">MNU</tspan>
+<tspan x="591" y="124">MNU</tspan>
+<tspan x="616" y="124">MNU</tspan>
+<tspan x="641" y="124">MNU</tspan>
+<tspan x="666" y="124">MNU</tspan>
+<tspan x="691" y="124">MNU</tspan>
+<tspan x="716" y="124">MNU</tspan>
+<tspan x="741" y="124">MNU</tspan>
+<tspan x="766" y="149">MNU</tspan>
+<tspan x="791" y="149">MNU</tspan>
+<tspan x="816" y="124">MNU</tspan>
+<tspan x="841" y="149">MNU</tspan>
+<tspan x="866" y="149">MNU</tspan>
+<tspan x="891" y="149">MNU</tspan>
+<tspan x="916" y="149">MNU</tspan>
+<tspan x="941" y="149">MNU</tspan>
+<tspan x="966" y="124">MNU</tspan>
+<tspan x="990" y="124">MNU</tspan>
+</text>
+
+<!-- Newcastle -->
+<circle cx="65" cy="171" r="10"/>
+<circle cx="90" cy="171" r="10"/>
+<circle cx="115" cy="196" r="10"/>
+<circle cx="140" cy="221" r="10"/>
+<circle cx="165" cy="346" r="10"/>
+<circle cx="190" cy="321" r="10"/>
+<circle cx="240" cy="296" r="10"/>
+<circle cx="265" cy="221" r="10"/>
+<circle cx="290" cy="196" r="10"/>
+<circle cx="315" cy="196" r="10"/>
+<circle cx="340" cy="196" r="10"/>
+<circle cx="365" cy="146" r="10"/>
+<circle cx="390" cy="146" r="10"/>
+<circle cx="415" cy="121" r="10"/>
+<circle cx="440" cy="121" r="10"/>
+<circle cx="465" cy="121" r="10"/>
+<circle cx="490" cy="121" r="10"/>
+<circle cx="515" cy="121" r="10"/>
+<circle cx="540" cy="146" r="10"/>
+<circle cx="565" cy="121" r="10"/>
+<circle cx="590" cy="146" r="10"/>
+<circle cx="615" cy="146" r="10"/>
+<circle cx="640" cy="171" r="10"/>
+<circle cx="665" cy="171" r="10"/>
+<circle cx="690" cy="196" r="10"/>
+<circle cx="715" cy="171" r="10"/>
+<circle cx="740" cy="171" r="10"/>
+<circle cx="765" cy="121" r="10"/>
+<circle cx="790" cy="121" r="10"/>
+<circle cx="815" cy="146" r="10"/>
+<circle cx="840" cy="121" r="10"/>
+<circle cx="865" cy="121" r="10"/>
+<circle cx="890" cy="121" r="10"/>
+<circle cx="915" cy="121" r="10"/>
+<circle cx="940" cy="121" r="10"/>
+<circle cx="965" cy="146" r="10"/>
+<circle cx="990" cy="146" r="10"/>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="174">NEW</tspan>
+<tspan x="91" y="174">NEW</tspan>
+<tspan x="116" y="199">NEW</tspan>
+<tspan x="141" y="224">NEW</tspan>
+<tspan x="166" y="349">NEW</tspan>
+<tspan x="191" y="324">NEW</tspan>
+<tspan x="241" y="299">NEW</tspan>
+<tspan x="266" y="224">NEW</tspan>
+<tspan x="291" y="199">NEW</tspan>
+<tspan x="316" y="199">NEW</tspan>
+<tspan x="341" y="199">NEW</tspan>
+<tspan x="366" y="149">NEW</tspan>
+<tspan x="391" y="149">NEW</tspan>
+<tspan x="416" y="124">NEW</tspan>
+<tspan x="441" y="124">NEW</tspan>
+<tspan x="466" y="124">NEW</tspan>
+<tspan x="491" y="124">NEW</tspan>
+<tspan x="516" y="124">NEW</tspan>
+<tspan x="541" y="149">NEW</tspan>
+<tspan x="566" y="124">NEW</tspan>
+<tspan x="591" y="149">NEW</tspan>
+<tspan x="616" y="149">NEW</tspan>
+<tspan x="641" y="174">NEW</tspan>
+<tspan x="666" y="174">NEW</tspan>
+<tspan x="691" y="199">NEW</tspan>
+<tspan x="716" y="174">NEW</tspan>
+<tspan x="741" y="174">NEW</tspan>
+<tspan x="766" y="124">NEW</tspan>
+<tspan x="791" y="124">NEW</tspan>
+<tspan x="816" y="149">NEW</tspan>
+<tspan x="841" y="124">NEW</tspan>
+<tspan x="866" y="124">NEW</tspan>
+<tspan x="891" y="124">NEW</tspan>
+<tspan x="916" y="124">NEW</tspan>
+<tspan x="941" y="124">NEW</tspan>
+<tspan x="966" y="149">NEW</tspan>
+<tspan x="990" y="149">NEW</tspan>
+</text>
+
+<!-- Nottingham Forest -->
+<g fill="#f00">
+<circle cx="65" cy="496" r="10"/>
+<circle cx="90" cy="296" r="10"/>
+<circle cx="115" cy="296" r="10"/>
+<circle cx="140" cy="396" r="10"/>
+<circle cx="165" cy="421" r="10"/>
+<circle cx="190" cy="521" r="10"/>
+<circle cx="240" cy="521" r="10"/>
+<circle cx="265" cy="546" r="10"/>
+<circle cx="290" cy="521" r="10"/>
+<circle cx="315" cy="546" r="10"/>
+<circle cx="340" cy="546" r="10"/>
+<circle cx="365" cy="546" r="10"/>
+<circle cx="390" cy="546" r="10"/>
+<circle cx="415" cy="546" r="10"/>
+<circle cx="440" cy="496" r="10"/>
+<circle cx="465" cy="521" r="10"/>
+<circle cx="490" cy="496" r="10"/>
+<circle cx="515" cy="421" r="10"/>
+<circle cx="540" cy="371" r="10"/>
+<circle cx="565" cy="371" r="10"/>
+<circle cx="590" cy="371" r="10"/>
+<circle cx="615" cy="396" r="10"/>
+<circle cx="640" cy="371" r="10"/>
+<circle cx="665" cy="371" r="10"/>
+<circle cx="690" cy="396" r="10"/>
+<circle cx="715" cy="396" r="10"/>
+<circle cx="740" cy="446" r="10"/>
+<circle cx="765" cy="471" r="10"/>
+<circle cx="790" cy="496" r="10"/>
+<circle cx="815" cy="496" r="10"/>
+<circle cx="840" cy="521" r="10"/>
+<circle cx="865" cy="471" r="10"/>
+<circle cx="890" cy="496" r="10"/>
+<circle cx="915" cy="446" r="10"/>
+<circle cx="940" cy="446" r="10"/>
+<circle cx="965" cy="446" r="10"/>
+<circle cx="990" cy="446" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="499">NFO</tspan>
+<tspan x="91" y="299">NFO</tspan>
+<tspan x="116" y="299">NFO</tspan>
+<tspan x="141" y="399">NFO</tspan>
+<tspan x="166" y="424">NFO</tspan>
+<tspan x="191" y="524">NFO</tspan>
+<tspan x="241" y="524">NFO</tspan>
+<tspan x="266" y="549">NFO</tspan>
+<tspan x="291" y="524">NFO</tspan>
+<tspan x="316" y="549">NFO</tspan>
+<tspan x="341" y="549">NFO</tspan>
+<tspan x="366" y="549">NFO</tspan>
+<tspan x="391" y="549">NFO</tspan>
+<tspan x="416" y="549">NFO</tspan>
+<tspan x="441" y="499">NFO</tspan>
+<tspan x="466" y="524">NFO</tspan>
+<tspan x="491" y="499">NFO</tspan>
+<tspan x="516" y="424">NFO</tspan>
+<tspan x="541" y="374">NFO</tspan>
+<tspan x="566" y="374">NFO</tspan>
+<tspan x="591" y="374">NFO</tspan>
+<tspan x="616" y="399">NFO</tspan>
+<tspan x="641" y="374">NFO</tspan>
+<tspan x="666" y="374">NFO</tspan>
+<tspan x="691" y="399">NFO</tspan>
+<tspan x="716" y="399">NFO</tspan>
+<tspan x="741" y="449">NFO</tspan>
+<tspan x="766" y="474">NFO</tspan>
+<tspan x="791" y="499">NFO</tspan>
+<tspan x="816" y="499">NFO</tspan>
+<tspan x="841" y="524">NFO</tspan>
+<tspan x="866" y="474">NFO</tspan>
+<tspan x="891" y="499">NFO</tspan>
+<tspan x="916" y="449">NFO</tspan>
+<tspan x="941" y="449">NFO</tspan>
+<tspan x="966" y="449">NFO</tspan>
+<tspan x="990" y="449">NFO</tspan>
+</text>
+
+<!-- Southampton -->
+<g fill="#dd1338">
+<circle cx="65" cy="546" r="10"/>
+<circle cx="90" cy="471" r="10"/>
+<circle cx="115" cy="321" r="10"/>
+<circle cx="140" cy="371" r="10"/>
+<circle cx="165" cy="271" r="10"/>
+<circle cx="190" cy="346" r="10"/>
+<circle cx="240" cy="396" r="10"/>
+<circle cx="265" cy="446" r="10"/>
+<circle cx="290" cy="471" r="10"/>
+<circle cx="315" cy="496" r="10"/>
+<circle cx="340" cy="396" r="10"/>
+<circle cx="365" cy="446" r="10"/>
+<circle cx="390" cy="471" r="10"/>
+<circle cx="415" cy="496" r="10"/>
+<circle cx="440" cy="521" r="10"/>
+<circle cx="465" cy="546" r="10"/>
+<circle cx="490" cy="546" r="10"/>
+<circle cx="515" cy="546" r="10"/>
+<circle cx="540" cy="546" r="10"/>
+<circle cx="565" cy="546" r="10"/>
+<circle cx="590" cy="546" r="10"/>
+<circle cx="615" cy="546" r="10"/>
+<circle cx="640" cy="546" r="10"/>
+<circle cx="665" cy="546" r="10"/>
+<circle cx="690" cy="521" r="10"/>
+<circle cx="715" cy="546" r="10"/>
+<circle cx="740" cy="546" r="10"/>
+<circle cx="765" cy="546" r="10"/>
+<circle cx="790" cy="546" r="10"/>
+<circle cx="815" cy="546" r="10"/>
+<circle cx="840" cy="546" r="10"/>
+<circle cx="865" cy="546" r="10"/>
+<circle cx="890" cy="546" r="10"/>
+<circle cx="915" cy="546" r="10"/>
+<circle cx="940" cy="546" r="10"/>
+<circle cx="965" cy="546" r="10"/>
+<circle cx="990" cy="546" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="65.5" y="549">SOU</tspan>
+<tspan x="90.5" y="474">SOU</tspan>
+<tspan x="115.5" y="324">SOU</tspan>
+<tspan x="140.5" y="374">SOU</tspan>
+<tspan x="165.5" y="274">SOU</tspan>
+<tspan x="190.5" y="349">SOU</tspan>
+<tspan x="240.5" y="399">SOU</tspan>
+<tspan x="265.5" y="449">SOU</tspan>
+<tspan x="290.5" y="474">SOU</tspan>
+<tspan x="315.5" y="499">SOU</tspan>
+<tspan x="340.5" y="399">SOU</tspan>
+<tspan x="365.5" y="449">SOU</tspan>
+<tspan x="390.5" y="474">SOU</tspan>
+<tspan x="415.5" y="499">SOU</tspan>
+<tspan x="440.5" y="524">SOU</tspan>
+<tspan x="465.5" y="549">SOU</tspan>
+<tspan x="490.5" y="549">SOU</tspan>
+<tspan x="515.5" y="549">SOU</tspan>
+<tspan x="540.5" y="549">SOU</tspan>
+<tspan x="565.5" y="549">SOU</tspan>
+<tspan x="590.5" y="549">SOU</tspan>
+<tspan x="615.5" y="549">SOU</tspan>
+<tspan x="640.5" y="549">SOU</tspan>
+<tspan x="665.5" y="549">SOU</tspan>
+<tspan x="690.5" y="524">SOU</tspan>
+<tspan x="715.5" y="549">SOU</tspan>
+<tspan x="740.5" y="549">SOU</tspan>
+<tspan x="765.5" y="549">SOU</tspan>
+<tspan x="790.5" y="549">SOU</tspan>
+<tspan x="815.5" y="549">SOU</tspan>
+<tspan x="840.5" y="549">SOU</tspan>
+<tspan x="865.5" y="549">SOU</tspan>
+<tspan x="890.5" y="549">SOU</tspan>
+<tspan x="915.5" y="549">SOU</tspan>
+<tspan x="940.5" y="549">SOU</tspan>
+<tspan x="965.5" y="549">SOU</tspan>
+<tspan x="990.5" y="549">SOU</tspan>
+</text>
+
+<!-- Tottenham -->
+<g fill="#001c58">
+<circle cx="65" cy="71" r="10"/>
+<circle cx="90" cy="146" r="10"/>
+<circle cx="115" cy="146" r="10"/>
+<circle cx="140" cy="121" r="10"/>
+<circle cx="165" cy="121" r="10"/>
+<circle cx="190" cy="121" r="10"/>
+<circle cx="240" cy="121" r="10"/>
+<circle cx="265" cy="121" r="10"/>
+<circle cx="290" cy="121" r="10"/>
+<circle cx="315" cy="121" r="10"/>
+<circle cx="340" cy="121" r="10"/>
+<circle cx="365" cy="121" r="10"/>
+<circle cx="390" cy="121" r="10"/>
+<circle cx="415" cy="146" r="10"/>
+<circle cx="440" cy="146" r="10"/>
+<circle cx="465" cy="146" r="10"/>
+<circle cx="490" cy="171" r="10"/>
+<circle cx="515" cy="171" r="10"/>
+<circle cx="540" cy="171" r="10"/>
+<circle cx="565" cy="171" r="10"/>
+<circle cx="590" cy="171" r="10"/>
+<circle cx="615" cy="171" r="10"/>
+<circle cx="640" cy="146" r="10"/>
+<circle cx="665" cy="146" r="10"/>
+<circle cx="690" cy="146" r="10"/>
+<circle cx="715" cy="146" r="10"/>
+<circle cx="740" cy="146" r="10"/>
+<circle cx="765" cy="171" r="10"/>
+<circle cx="790" cy="171" r="10"/>
+<circle cx="815" cy="171" r="10"/>
+<circle cx="840" cy="171" r="10"/>
+<circle cx="865" cy="171" r="10"/>
+<circle cx="890" cy="221" r="10"/>
+<circle cx="915" cy="196" r="10"/>
+<circle cx="940" cy="221" r="10"/>
+<circle cx="965" cy="246" r="10"/>
+<circle cx="990" cy="246" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="74">TOT</tspan>
+<tspan x="91" y="149">TOT</tspan>
+<tspan x="116" y="149">TOT</tspan>
+<tspan x="141" y="124">TOT</tspan>
+<tspan x="166" y="124">TOT</tspan>
+<tspan x="191" y="124">TOT</tspan>
+<tspan x="241" y="124">TOT</tspan>
+<tspan x="266" y="124">TOT</tspan>
+<tspan x="291" y="124">TOT</tspan>
+<tspan x="316" y="124">TOT</tspan>
+<tspan x="341" y="124">TOT</tspan>
+<tspan x="366" y="124">TOT</tspan>
+<tspan x="391" y="124">TOT</tspan>
+<tspan x="416" y="149">TOT</tspan>
+<tspan x="441" y="149">TOT</tspan>
+<tspan x="466" y="149">TOT</tspan>
+<tspan x="491" y="174">TOT</tspan>
+<tspan x="516" y="174">TOT</tspan>
+<tspan x="541" y="174">TOT</tspan>
+<tspan x="566" y="174">TOT</tspan>
+<tspan x="591" y="174">TOT</tspan>
+<tspan x="616" y="174">TOT</tspan>
+<tspan x="641" y="149">TOT</tspan>
+<tspan x="666" y="149">TOT</tspan>
+<tspan x="691" y="149">TOT</tspan>
+<tspan x="716" y="149">TOT</tspan>
+<tspan x="741" y="149">TOT</tspan>
+<tspan x="766" y="174">TOT</tspan>
+<tspan x="791" y="174">TOT</tspan>
+<tspan x="816" y="174">TOT</tspan>
+<tspan x="841" y="174">TOT</tspan>
+<tspan x="866" y="174">TOT</tspan>
+<tspan x="891" y="224">TOT</tspan>
+<tspan x="916" y="199">TOT</tspan>
+<tspan x="941" y="224">TOT</tspan>
+<tspan x="966" y="249">TOT</tspan>
+<tspan x="990" y="249">TOT</tspan>
+</text>
+
+<!-- West Ham United -->
+<g fill="#6d2838" stroke="#29b1d6" stroke-width="1">
+<circle cx="65" cy="521" r="10"/>
+<circle cx="90" cy="521" r="10"/>
+<circle cx="115" cy="546" r="10"/>
+<circle cx="140" cy="446" r="10"/>
+<circle cx="165" cy="396" r="10"/>
+<circle cx="190" cy="496" r="10"/>
+<circle cx="240" cy="496" r="10"/>
+<circle cx="265" cy="421" r="10"/>
+<circle cx="290" cy="371" r="10"/>
+<circle cx="315" cy="346" r="10"/>
+<circle cx="340" cy="371" r="10"/>
+<circle cx="365" cy="296" r="10"/>
+<circle cx="390" cy="371" r="10"/>
+<circle cx="415" cy="421" r="10"/>
+<circle cx="440" cy="446" r="10"/>
+<circle cx="465" cy="446" r="10"/>
+<circle cx="490" cy="471" r="10"/>
+<circle cx="515" cy="471" r="10"/>
+<circle cx="540" cy="496" r="10"/>
+<circle cx="565" cy="446" r="10"/>
+<circle cx="590" cy="471" r="10"/>
+<circle cx="615" cy="446" r="10"/>
+<circle cx="640" cy="496" r="10"/>
+<circle cx="665" cy="446" r="10"/>
+<circle cx="690" cy="446" r="10"/>
+<circle cx="715" cy="471" r="10"/>
+<circle cx="740" cy="496" r="10"/>
+<circle cx="765" cy="421" r="10"/>
+<circle cx="790" cy="396" r="10"/>
+<circle cx="815" cy="421" r="10"/>
+<circle cx="840" cy="371" r="10"/>
+<circle cx="865" cy="421" r="10"/>
+<circle cx="890" cy="421" r="10"/>
+<circle cx="915" cy="421" r="10"/>
+<circle cx="940" cy="421" r="10"/>
+<circle cx="965" cy="396" r="10"/>
+<circle cx="990" cy="396" r="10"/>
+</g>	
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#fff">
+<tspan x="66" y="524">WHU</tspan>
+<tspan x="91" y="524">WHU</tspan>
+<tspan x="116" y="549">WHU</tspan>
+<tspan x="141" y="449">WHU</tspan>
+<tspan x="166" y="399">WHU</tspan>
+<tspan x="191" y="499">WHU</tspan>
+<tspan x="241" y="499">WHU</tspan>
+<tspan x="266" y="424">WHU</tspan>
+<tspan x="291" y="374">WHU</tspan>
+<tspan x="316" y="349">WHU</tspan>
+<tspan x="341" y="374">WHU</tspan>
+<tspan x="366" y="299">WHU</tspan>
+<tspan x="391" y="374">WHU</tspan>
+<tspan x="416" y="424">WHU</tspan>
+<tspan x="441" y="449">WHU</tspan>
+<tspan x="466" y="449">WHU</tspan>
+<tspan x="491" y="474">WHU</tspan>
+<tspan x="516" y="474">WHU</tspan>
+<tspan x="541" y="499">WHU</tspan>
+<tspan x="566" y="449">WHU</tspan>
+<tspan x="591" y="474">WHU</tspan>
+<tspan x="616" y="449">WHU</tspan>
+<tspan x="641" y="499">WHU</tspan>
+<tspan x="666" y="449">WHU</tspan>
+<tspan x="691" y="449">WHU</tspan>
+<tspan x="716" y="474">WHU</tspan>
+<tspan x="741" y="499">WHU</tspan>
+<tspan x="766" y="424">WHU</tspan>
+<tspan x="791" y="399">WHU</tspan>
+<tspan x="816" y="424">WHU</tspan>
+<tspan x="841" y="374">WHU</tspan>
+<tspan x="866" y="424">WHU</tspan>
+<tspan x="891" y="424">WHU</tspan>
+<tspan x="916" y="424">WHU</tspan>
+<tspan x="941" y="424">WHU</tspan>
+<tspan x="966" y="399">WHU</tspan>
+<tspan x="990" y="399">WHU</tspan>
+</text>
+
+<!-- Wolverhampton -->
+<g fill="#fdba0b" stroke="#000" stroke-width="1">
+<circle cx="65" cy="396" r="10"/>
+<circle cx="90" cy="396" r="10"/>
+<circle cx="115" cy="496" r="10"/>
+<circle cx="140" cy="521" r="10"/>
+<circle cx="165" cy="496" r="10"/>
+<circle cx="190" cy="396" r="10"/>
+<circle cx="240" cy="471" r="10"/>
+<circle cx="265" cy="496" r="10"/>
+<circle cx="290" cy="496" r="10"/>
+<circle cx="315" cy="471" r="10"/>
+<circle cx="340" cy="496" r="10"/>
+<circle cx="365" cy="521" r="10"/>
+<circle cx="390" cy="521" r="10"/>
+<circle cx="415" cy="521" r="10"/>
+<circle cx="440" cy="546" r="10"/>
+<circle cx="465" cy="496" r="10"/>
+<circle cx="490" cy="521" r="10"/>
+<circle cx="515" cy="521" r="10"/>
+<circle cx="540" cy="446" r="10"/>
+<circle cx="565" cy="471" r="10"/>
+
+<circle cx="590" cy="421" r="10"/>
+<circle cx="615" cy="421" r="10"/>
+<circle cx="640" cy="421" r="10"/>
+<circle cx="665" cy="421" r="10"/>
+<circle cx="690" cy="371" r="10"/>
+<circle cx="715" cy="371" r="10"/>
+<circle cx="740" cy="371" r="10"/>
+<circle cx="765" cy="396" r="10"/>
+<circle cx="790" cy="371" r="10"/>
+<circle cx="815" cy="371" r="10"/>
+<circle cx="840" cy="396" r="10"/>
+<circle cx="865" cy="371" r="10"/>
+<circle cx="890" cy="396" r="10"/>
+<circle cx="915" cy="371" r="10"/>
+<circle cx="940" cy="371" r="10"/>
+<circle cx="965" cy="371" r="10"/>
+<circle cx="990" cy="371" r="10"/>
+</g>
+
+<text font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="8px" fill="#000">
+<tspan x="66" y="399">WOL</tspan>
+<tspan x="91" y="399">WOL</tspan>
+<tspan x="116" y="499">WOL</tspan>
+<tspan x="141" y="524">WOL</tspan>
+<tspan x="166" y="499">WOL</tspan>
+<tspan x="191" y="399">WOL</tspan>
+<tspan x="241" y="474">WOL</tspan>
+<tspan x="266" y="499">WOL</tspan>
+<tspan x="291" y="499">WOL</tspan>
+<tspan x="316" y="474">WOL</tspan>
+<tspan x="341" y="499">WOL</tspan>
+<tspan x="366" y="524">WOL</tspan>
+<tspan x="391" y="524">WOL</tspan>
+<tspan x="416" y="524">WOL</tspan>
+<tspan x="441" y="549">WOL</tspan>
+<tspan x="466" y="499">WOL</tspan>
+<tspan x="491" y="524">WOL</tspan>
+<tspan x="516" y="524">WOL</tspan>
+<tspan x="541" y="449">WOL</tspan>
+<tspan x="566" y="474">WOL</tspan>
+<tspan x="591" y="424">WOL</tspan>
+<tspan x="616" y="424">WOL</tspan>
+<tspan x="641" y="424">WOL</tspan>
+<tspan x="666" y="424">WOL</tspan>
+<tspan x="691" y="374">WOL</tspan>
+<tspan x="716" y="374">WOL</tspan>
+<tspan x="741" y="374">WOL</tspan>
+<tspan x="766" y="399">WOL</tspan>
+<tspan x="791" y="374">WOL</tspan>
+<tspan x="816" y="374">WOL</tspan>
+<tspan x="841" y="399">WOL</tspan>
+<tspan x="866" y="374">WOL</tspan>
+<tspan x="891" y="399">WOL</tspan>
+<tspan x="916" y="374">WOL</tspan>
+<tspan x="941" y="374">WOL</tspan>
+<tspan x="966" y="374">WOL</tspan>
+<tspan x="990" y="374">WOL</tspan>
+</text>
+
+</svg>

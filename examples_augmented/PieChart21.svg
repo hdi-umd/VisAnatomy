@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <path d="M450 80a170 170 0 0 1 132.252 63.185L450 250Z" fill="#e8c1a0"/>
+  <path d="M582.252 143.185a170 170 0 0 1 16.781 188.601L450 250Z" fill="#f47560"/>
+  <path d="M599.033 331.786a170 170 0 0 1-147.357 88.206L450 250Z" fill="#f1e15b"/>
+  <path d="M451.676 419.992a170 170 0 0 1-5.364-.032L450 250Z" fill="#e8a838"/>
+  <path d="M446.312 419.96a170 170 0 0 1-7.368-.32L450 250Z" fill="#61cdbb"/>
+  <path d="M438.944 419.64a170 170 0 0 1-122.865-64.925L450 250Z" fill="#97e3d5"/>
+  <path d="M316.079 354.715a170 170 0 0 1-22.571-171.124L450 250Z" fill="#e8c1a0"/>
+  <path d="M293.508 183.591a170 170 0 0 1 21.545-36.981L450 250Z" fill="#f47560"/>
+  <path d="M315.053 146.61A170 170 0 0 1 450 80v170Z" fill="#f1e15b"/>
+  <path fill="none" stroke="#777" d="m523.285 96.607 6.898-14.437h24"/>
+  <text transform="translate(560.183 82.17)" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">elixir</text>
+  <path fill="none" stroke="#777" d="m619.331 234.933 15.937-1.418h24"/>
+  <text transform="translate(665.268 233.515)" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">erlang</text>
+  <path fill="none" stroke="#777" d="m537.312 395.865 8.218 13.728h24"/>
+  <text transform="translate(575.53 409.593)" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">javascript</text>
+  <path fill="none" stroke="#777" d="m448.994 419.997-.094 16h-24"/>
+  <text transform="translate(418.9 435.997)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">go</text>
+  <path fill="none" stroke="#777" d="m442.627 419.84-.694 15.985h-24"/>
+  <text transform="translate(411.933 435.825)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">scala</text>
+  <path fill="none" stroke="#777" d="m370.575 400.305-7.475 14.147h-24"/>
+  <text transform="translate(333.1 414.452)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">css</text>
+  <path fill="none" stroke="#777" d="m281.46 272.231-15.863 2.092h-24"/>
+  <text transform="translate(235.597 274.323)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">rust</text>
+  <path fill="none" stroke="#777" d="m303.112 164.42-13.825-8.055h-24"/>
+  <text transform="translate(259.287 156.365)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">java</text>
+  <path fill="none" stroke="#777" d="m374.755 97.559-7.082-14.347h-24"/>
+  <text transform="translate(337.673 83.212)" text-anchor="end" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent">sass</text>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(486.643 173.304)">452</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(534.665 242.467)">599</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(493.656 322.933)">537</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(449.497 334.999)">16</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(446.313 334.92)">22</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(410.287 325.153)">427</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(365.73 261.116)">540</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(376.556 207.21)">128</text>
+  </g>
+  <g style="pointer-events:none">
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(412.377 173.78)">465</text>
+  </g>
+</svg>

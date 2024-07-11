@@ -1,0 +1,259 @@
+<svg width="540" height="500" tabindex="1">
+  <g>
+    <g class="axis" transform="translate(40 480)">
+      <g class="tick" transform="translate(10,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1950</text>
+      </g>
+      <g class="tick" transform="translate(46.06104129263914,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1955</text>
+      </g>
+      <g class="tick" transform="translate(82.12208258527828,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1960</text>
+      </g>
+      <g class="tick" transform="translate(118.20287253141832,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1965</text>
+      </g>
+      <g class="tick" transform="translate(154.26391382405745,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1970</text>
+      </g>
+      <g class="tick" transform="translate(190.3249551166966,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1975</text>
+      </g>
+      <g class="tick" transform="translate(226.38599640933575,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1980</text>
+      </g>
+      <g class="tick" transform="translate(262.46678635547573,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1985</text>
+      </g>
+      <g class="tick" transform="translate(298.5278276481149,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1990</text>
+      </g>
+      <g class="tick" transform="translate(334.5888689407541,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">1995</text>
+      </g>
+      <g class="tick" transform="translate(370.6499102333932,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">2000</text>
+      </g>
+      <g class="tick" transform="translate(406.73070017953324,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">2005</text>
+      </g>
+      <g class="tick" transform="translate(442.79174147217236,0)" style="opacity: 1;">
+        <line y2="6" x2="0"/>
+        <text y="9" x="0" dy=".71em" style="text-anchor: middle;">2010</text>
+      </g>
+      <path class="domain" d="M10,6V0H450V6"/>
+    </g>
+    <g class="axis1" transform="translate(40 20)">
+      <g class="tick" transform="translate(0,396.1868473045442)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">4,000</text>
+      </g>
+      <g class="tick" transform="translate(0,331.2701100762066)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">5,000</text>
+      </g>
+      <g class="tick" transform="translate(0,266.353372847869)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">6,000</text>
+      </g>
+      <g class="tick" transform="translate(0,201.43663561953144)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">7,000</text>
+      </g>
+      <g class="tick" transform="translate(0,136.51989839119386)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">8,000</text>
+      </g>
+      <g class="tick" transform="translate(0,71.60316116285634)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">9,000</text>
+      </g>
+      <g class="tick" transform="translate(0,6.686423934518757)" style="opacity: 1;">
+        <line x2="-6" y2="0"/>
+        <text x="-9" y="0" dy=".32em" style="text-anchor: end;">10,000</text>
+      </g>
+      <path class="domain" d="M-6,0H0V460H-6"/>
+    </g>
+    <g class="axislabel" transform="translate(56 20) rotate(-90)">
+      <text class="axis1" x="0" y="0" text-anchor="end">Vehicle miles driven per capita</text>
+    </g>
+    <g class="axis2" transform="translate(500 20)">
+      <g class="tick" transform="translate(0,414)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">12</text>
+      </g>
+      <g class="tick" transform="translate(0,356.5)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">14</text>
+      </g>
+      <g class="tick" transform="translate(0,299)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">16</text>
+      </g>
+      <g class="tick" transform="translate(0,241.49999999999997)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">18</text>
+      </g>
+      <g class="tick" transform="translate(0,183.99999999999994)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">20</text>
+      </g>
+      <g class="tick" transform="translate(0,126.49999999999994)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">22</text>
+      </g>
+      <g class="tick" transform="translate(0,68.99999999999989)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">24</text>
+      </g>
+      <g class="tick" transform="translate(0,11.499999999999886)" style="opacity: 1;">
+        <line x2="6" y2="0"/>
+        <text x="9" y="0" dy=".32em" style="text-anchor: start;">26</text>
+      </g>
+      <path class="domain" d="M6,0H0V460H6"/>
+    </g>
+    <g class="axislabel" transform="translate(495 20) rotate(-90)">
+      <text class="axis2" x="0" y="0" text-anchor="end">Auto fatalities per 100,000 people</text>
+    </g>
+  </g>
+  <g transform="translate(40 20)">
+    <path class="line line1" d="M10,460L17.20825852782765,448.7044877222693L24.416517055655298,442.66723116003385L31.644524236983845,433.5139712108383L38.852782764811494,430.52780129833474L46.06104129263914,417.6742873271239L53.269299820466784,412.0914479254869L60.497307001795335,411.2475303415185L67.70556552962299,408.0666102173299L74.91382405745064,399.1730172170477L82.12208258527828,396.5763477279142L89.35008976660683,394.239345187694L96.55834829443447,387.9424216765453L103.76660682226213,378.52949477843634L110.97486535008977,368.4024837708157L118.20287253141832,358.0158058142817L125.41113105924597,348.5379621789444L132.6193895870736,338.93028506915044L139.82764811490128,327.310189105278L147.05565529622982,315.7550098786339L154.26391382405745,304.5244143381315L161.4721723518851,287.32147897262206L168.68043087971276,266.22353937341234L175.9084380610413,253.56477561388652L183.11669658886893,267.1323736946091L190.3249551166966,256.8106124753034L197.53321364452427,238.30934236522722L204.7612208258528,223.4434095399379L211.96947935368044,205.3316398532317L219.1777378815081,214.80948348856901L226.38599640933575,220.45723962743438L233.61400359066428,216.82190234264746L240.82226211849195,209.94072819644367L248.0305206463196,197.93113180920125L255.23877917414725,183.32486593282528L262.46678635547573,172.67852102737794L269.6750448833034,160.86367485182046L276.88330341113107,142.16765453005922L284.0915619389587,119.05729607677108L291.31956912028727,105.6195314705052L298.5278276481149,99.32260795935645L305.7360861759426,99.6471916454982L312.9443447037702,88.02709568162578L320.1723518850988,83.02850691504375L327.3806104129264,74.91391476150159L334.5888689407541,65.82557154953429L341.7971274685817,57.45131244707875L349.0251346499103,46.48038385548972L356.23339317773787,37.1323736946091L363.44165170556556,30.38103302286197L370.6499102333932,24.3437764606266L377.87791741472176,19.41010443127294L385.0861759425494,12.464013547840807L392.29443447037704,10.646344905447336L399.5026929982047,0L406.73070017953324,0.6491673722833866L413.9389587073609,1.3632514817950323L421.1472172351885,4.284504657070272L428.3554757630162,21.876940445949742L435.5834829443448,31.549534292972055L442.79174147217236,32.13378492802707L450,38.560541913632505" style="fill: white; stroke: black"/>
+    <path class="line line2" d="M10,129.375L17.20825852782765,100.62499999999994L24.416517055655298,94.87499999999989L31.644524236983845,103.49999999999989L38.852782764811494,158.125L46.06104129263914,120.75L53.269299820466784,109.24999999999989L60.497307001795335,137.99999999999994L67.70556552962299,175.37499999999994L74.91382405745064,172.5L82.12208258527828,178.25L89.35008976660683,189.74999999999994L96.55834829443447,155.24999999999994L103.76660682226213,123.62499999999994L110.97486535008977,71.87499999999994L118.20287253141832,60.374999999999886L125.41113105924597,11.499999999999886L132.6193895870736,20.124999999999943L139.82764811490128,2.8749999999998863L147.05565529622982,0L154.26391382405745,20.124999999999943L161.4721723518851,31.624999999999886L168.68043087971276,11.499999999999886L175.9084380610413,25.874999999999886L183.11669658886893,152.37499999999994L190.3249551166966,166.74999999999994L197.53321364452427,158.125L204.7612208258528,135.125L211.96947935368044,109.24999999999989L219.1777378815081,106.37499999999994L226.38599640933575,115L233.61400359066428,143.75L240.82226211849195,215.625L248.0305206463196,235.74999999999997L255.23877917414725,221.37499999999997L262.46678635547573,230L269.6750448833034,206.99999999999997L276.88330341113107,209.87499999999991L284.0915619389587,206.99999999999997L291.31956912028727,230L298.5278276481149,247.24999999999994L305.7360861759426,287.5L312.9443447037702,319.125L320.1723518850988,316.25L327.3806104129264,313.375L334.5888689407541,307.625L341.7971274685817,310.5L349.0251346499103,316.25L356.23339317773787,327.75L363.44165170556556,330.625L370.6499102333932,330.625L377.87791741472176,333.49999999999994L385.0861759425494,330.625L392.29443447037704,336.375L399.5026929982047,339.25L406.73070017953324,336.375L413.9389587073609,347.87499999999994L421.1472172351885,365.125L428.3554757630162,405.375L435.5834829443448,442.75L442.79174147217236,454.25L450,460" style="fill: white; stroke: black"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="10" cy="460"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="17.20825852782765" cy="448.7044877222693"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="24.416517055655298" cy="442.66723116003385"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="31.644524236983845" cy="433.5139712108383"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="38.852782764811494" cy="430.52780129833474"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="46.06104129263914" cy="417.6742873271239"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="53.269299820466784" cy="412.0914479254869"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="60.497307001795335" cy="411.2475303415185"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="67.70556552962299" cy="408.0666102173299"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="74.91382405745064" cy="399.1730172170477"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="82.12208258527828" cy="396.5763477279142"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="89.35008976660683" cy="394.239345187694"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="96.55834829443447" cy="387.9424216765453"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="103.76660682226213" cy="378.52949477843634"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="110.97486535008977" cy="368.4024837708157"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="118.20287253141832" cy="358.0158058142817"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="125.41113105924597" cy="348.5379621789444"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="132.6193895870736" cy="338.93028506915044"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="139.82764811490128" cy="327.310189105278"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="147.05565529622982" cy="315.7550098786339"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="154.26391382405745" cy="304.5244143381315"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="161.4721723518851" cy="287.32147897262206"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="168.68043087971276" cy="266.22353937341234"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="175.9084380610413" cy="253.56477561388652"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="183.11669658886893" cy="267.1323736946091"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="190.3249551166966" cy="256.8106124753034"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="197.53321364452427" cy="238.30934236522722"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="204.7612208258528" cy="223.4434095399379"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="211.96947935368044" cy="205.3316398532317"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="219.1777378815081" cy="214.80948348856901"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="226.38599640933575" cy="220.45723962743438"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="233.61400359066428" cy="216.82190234264746"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="240.82226211849195" cy="209.94072819644367"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="248.0305206463196" cy="197.93113180920125"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="255.23877917414725" cy="183.32486593282528"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="262.46678635547573" cy="172.67852102737794"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="269.6750448833034" cy="160.86367485182046"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="276.88330341113107" cy="142.16765453005922"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="284.0915619389587" cy="119.05729607677108"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="291.31956912028727" cy="105.6195314705052"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="298.5278276481149" cy="99.32260795935645"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="305.7360861759426" cy="99.6471916454982"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="312.9443447037702" cy="88.02709568162578"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="320.1723518850988" cy="83.02850691504375"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="327.3806104129264" cy="74.91391476150159"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="334.5888689407541" cy="65.82557154953429"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="341.7971274685817" cy="57.45131244707875"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="349.0251346499103" cy="46.48038385548972"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="356.23339317773787" cy="37.1323736946091"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="363.44165170556556" cy="30.38103302286197"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="370.6499102333932" cy="24.3437764606266"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="377.87791741472176" cy="19.41010443127294"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="385.0861759425494" cy="12.464013547840807"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="392.29443447037704" cy="10.646344905447336"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="399.5026929982047" cy="0"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="406.73070017953324" cy="0.6491673722833866"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="413.9389587073609" cy="1.3632514817950323"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="421.1472172351885" cy="4.284504657070272"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="428.3554757630162" cy="21.876940445949742"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="435.5834829443448" cy="31.549534292972055"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="442.79174147217236" cy="32.13378492802707"/>
+    <circle r="3" class="line1" fill-opacity="1" stroke-opacity="1" cx="450" cy="38.560541913632505"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="10" cy="129.375"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="17.20825852782765" cy="100.62499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="24.416517055655298" cy="94.87499999999989"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="31.644524236983845" cy="103.49999999999989"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="38.852782764811494" cy="158.125"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="46.06104129263914" cy="120.75"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="53.269299820466784" cy="109.24999999999989"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="60.497307001795335" cy="137.99999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="67.70556552962299" cy="175.37499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="74.91382405745064" cy="172.5"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="82.12208258527828" cy="178.25"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="89.35008976660683" cy="189.74999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="96.55834829443447" cy="155.24999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="103.76660682226213" cy="123.62499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="110.97486535008977" cy="71.87499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="118.20287253141832" cy="60.374999999999886"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="125.41113105924597" cy="11.499999999999886"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="132.6193895870736" cy="20.124999999999943"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="139.82764811490128" cy="2.8749999999998863"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="147.05565529622982" cy="0"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="154.26391382405745" cy="20.124999999999943"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="161.4721723518851" cy="31.624999999999886"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="168.68043087971276" cy="11.499999999999886"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="175.9084380610413" cy="25.874999999999886"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="183.11669658886893" cy="152.37499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="190.3249551166966" cy="166.74999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="197.53321364452427" cy="158.125"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="204.7612208258528" cy="135.125"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="211.96947935368044" cy="109.24999999999989"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="219.1777378815081" cy="106.37499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="226.38599640933575" cy="115"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="233.61400359066428" cy="143.75"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="240.82226211849195" cy="215.625"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="248.0305206463196" cy="235.74999999999997"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="255.23877917414725" cy="221.37499999999997"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="262.46678635547573" cy="230"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="269.6750448833034" cy="206.99999999999997"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="276.88330341113107" cy="209.87499999999991"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="284.0915619389587" cy="206.99999999999997"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="291.31956912028727" cy="230"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="298.5278276481149" cy="247.24999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="305.7360861759426" cy="287.5"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="312.9443447037702" cy="319.125"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="320.1723518850988" cy="316.25"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="327.3806104129264" cy="313.375"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="334.5888689407541" cy="307.625"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="341.7971274685817" cy="310.5"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="349.0251346499103" cy="316.25"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="356.23339317773787" cy="327.75"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="363.44165170556556" cy="330.625"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="370.6499102333932" cy="330.625"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="377.87791741472176" cy="333.49999999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="385.0861759425494" cy="330.625"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="392.29443447037704" cy="336.375"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="399.5026929982047" cy="339.25"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="406.73070017953324" cy="336.375"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="413.9389587073609" cy="347.87499999999994"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="421.1472172351885" cy="365.125"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="428.3554757630162" cy="405.375"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="435.5834829443448" cy="442.75"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="442.79174147217236" cy="454.25"/>
+    <circle r="3" class="line2" fill-opacity="1" stroke-opacity="1" cx="450" cy="460"/>
+  </g>
+</svg>

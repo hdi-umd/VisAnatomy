@@ -1,0 +1,247 @@
+<svg viewBox="0 0 1152 720">
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(40.5 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(40.5 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(40.5 690)">10,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(100.611 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(100.611 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(100.611 690)">15,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(160.722 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(160.722 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(160.722 690)">20,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(220.833 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(220.833 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(220.833 690)">25,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(280.944 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(280.944 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(280.944 690)">30,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(341.056 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(341.056 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(341.056 690)">35,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(401.167 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(401.167 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(401.167 690)">40,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(461.278 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(461.278 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(461.278 690)">45,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(521.389 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(521.389 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(521.389 690)">50,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(581.5 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(581.5 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(581.5 690)">55,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(641.611 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(641.611 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(641.611 690)">60,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(701.722 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(701.722 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(701.722 690)">65,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(761.833 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(761.833 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(761.833 690)">70,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(821.944 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(821.944 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(821.944 690)">75,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(882.056 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(882.056 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(882.056 690)">80,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(942.167 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(942.167 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(942.167 690)">85,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1002.278 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1002.278 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1002.278 690)">90,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1062.389 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1062.389 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1062.389 690)">95,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1122.5 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1122.5 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1122.5 690)">100,000</text>
+    </g>
+    <text x="1148" y="-4" font-weight="bold" text-anchor="end" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(0 690)">btc price change</text>
+    <text x="1148" y="-4" font-weight="bold" text-anchor="end" fill="#000" transform="translate(0 690)">btc price change</text>
+  </g>
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 690.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 690.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 690.5)">$2.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 623.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 623.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 623.5)">$2.50</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 556.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 556.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 556.5)">$3.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 489.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 489.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 489.5)">$3.50</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 422.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 422.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 422.5)">$4.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 355.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 355.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 355.5)">$4.50</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 288.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 288.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 288.5)">$5.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 221.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 221.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 221.5)">$5.50</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 154.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 154.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 154.5)">$6.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 87.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 87.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 87.5)">$6.50</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 20.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 20.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 20.5)">$7.00</text>
+      <text x="4" dy=".32em" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(40 20.5)">million</text>
+      <text fill="#000" x="4" dy=".32em" text-anchor="start" font-weight="bold" transform="translate(40 20.5)">million</text>
+    </g>
+  </g>
+  <path fill="none" stroke="red" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3100.9560546875,3100.9560546875" d="M52.022 663.2q0 0 0 0l228.422-191.62q0 0 0 0L520.89 329.54q0 0 0 0L761.333 214.3q0 0 0 0S1094.298 50.847 1122 69.58c8.295 5.61 8.684 24.085 0 34.84-28.26 34.998-333.263 43.782-360.667 77.72-8.09 10.02 7.785 23.216 0 32.16-21.387 24.573-211.014-.314-240.444 33.5-17.077 19.621 17.203 63.952 0 81.74-29.514 30.518-206.192-27.377-240.445 8.04-25.563 26.432-24.44 121.61 0 134 51.554 26.134 435.134-375.615 480.89-352.42 18.277 9.266 0 95.14 0 95.14"/>
+  <g fill="#fff" stroke="#000" stroke-width="2">
+    <circle cx="52.022" cy="663.2" r="3"/>
+    <circle cx="52.022" cy="663.2" r="3"/>
+    <circle cx="280.444" cy="471.58" r="3"/>
+    <circle cx="280.444" cy="471.58" r="3"/>
+    <circle cx="520.889" cy="329.54" r="3"/>
+    <circle cx="520.889" cy="329.54" r="3"/>
+    <circle cx="761.333" cy="214.3" r="3"/>
+    <circle cx="761.333" cy="214.3" r="3"/>
+    <circle cx="1122" cy="69.58" r="3"/>
+    <circle cx="1122" cy="104.42" r="3"/>
+    <circle cx="761.333" cy="182.14" r="3"/>
+    <circle cx="761.333" cy="214.3" r="3"/>
+    <circle cx="520.889" cy="247.8" r="3"/>
+    <circle cx="520.889" cy="329.54" r="3"/>
+    <circle cx="280.444" cy="337.58" r="3"/>
+    <circle cx="280.444" cy="471.58" r="3"/>
+    <circle cx="761.333" cy="119.16" r="3"/>
+    <circle cx="761.333" cy="214.3" r="3"/>
+  </g>
+  <g font-family="sans-serif" font-size="10">
+    <g text-anchor="end">
+      <text dx="-.5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(52.022 663.2)">t1-uniswap</text>
+      <text dx="-.5em" dy=".32em" transform="translate(52.022 663.2)">t1-uniswap</text>
+    </g>
+    <text dx=".5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(52.022 663.2)">t1-SuperV2</text>
+    <text dx=".5em" dy=".32em" transform="translate(52.022 663.2)">t1-SuperV2</text>
+    <g text-anchor="end">
+      <text dx="-.5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(280.444 471.58)">t2-uniswap</text>
+      <text dx="-.5em" dy=".32em" transform="translate(280.444 471.58)">t2-uniswap</text>
+    </g>
+    <text dx=".5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(280.444 471.58)">t2-SuperV2</text>
+    <text dx=".5em" dy=".32em" transform="translate(280.444 471.58)">t2-SuperV2</text>
+    <g text-anchor="end">
+      <text dx="-.5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(520.889 329.54)">t3-uniswap</text>
+      <text dx="-.5em" dy=".32em" transform="translate(520.889 329.54)">t3-uniswap</text>
+    </g>
+    <text dx=".5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(520.889 329.54)">t3-SuperV2</text>
+    <text dx=".5em" dy=".32em" transform="translate(520.889 329.54)">t3-SuperV2</text>
+    <g text-anchor="end">
+      <text dx="-.5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 214.3)">t4-uniswap</text>
+      <text dx="-.5em" dy=".32em" transform="translate(761.333 214.3)">t4-uniswap</text>
+    </g>
+    <text dx=".5em" dy=".32em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 214.3)">t4-SuperV2</text>
+    <text dx=".5em" dy=".32em" transform="translate(761.333 214.3)">t4-SuperV2</text>
+    <g text-anchor="middle">
+      <text dy="-.7em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(1122 69.58)">t5-uniswap</text>
+      <text dy="-.7em" transform="translate(1122 69.58)">t5-uniswap</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="1.4em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(1122 104.42)">t5-SuperV2</text>
+      <text dy="1.4em" transform="translate(1122 104.42)">t5-SuperV2</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="-.7em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 182.14)">t6-SuperV2</text>
+      <text dy="-.7em" transform="translate(761.333 182.14)">t6-SuperV2</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="1.4em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 214.3)">t6-uniswap</text>
+      <text dy="1.4em" transform="translate(761.333 214.3)">t6-uniswap</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="-.7em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(520.889 247.8)">t7-SuperV2</text>
+      <text dy="-.7em" transform="translate(520.889 247.8)">t7-SuperV2</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="1.4em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(520.889 329.54)">t7-uniswap</text>
+      <text dy="1.4em" transform="translate(520.889 329.54)">t7-uniswap</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="-.7em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(280.444 337.58)">t8-SuperV2</text>
+      <text dy="-.7em" transform="translate(280.444 337.58)">t8-SuperV2</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="1.4em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(280.444 471.58)">t8-uniswap</text>
+      <text dy="1.4em" transform="translate(280.444 471.58)">t8-uniswap</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="-.7em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 119.16)">t9-SuperV2</text>
+      <text dy="-.7em" transform="translate(761.333 119.16)">t9-SuperV2</text>
+    </g>
+    <g text-anchor="middle">
+      <text dy="1.4em" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(761.333 214.3)">t9-uniswap</text>
+      <text dy="1.4em" transform="translate(761.333 214.3)">t9-uniswap</text>
+    </g>
+  </g>
+</svg>

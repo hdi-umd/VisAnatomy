@@ -1,0 +1,76 @@
+<svg width="1039" height="268">
+  <clipPath id="a">
+    <path d="M-1-1h1041v270H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <path fill="transparent" class="wj-plot-area" d="M51 16.5h962.3v186.2H51z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="21.4" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 49.4 231.5)">05/18/12</text>
+    <path stroke="#666" class="wj-tick" d="M75.1 202.7v4"/>
+    <text x="69.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 97.6 231.5)">06/18/12</text>
+    <path stroke="#666" class="wj-tick" d="M123.2 202.7v4"/>
+    <text x="117.7" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 145.7 231.5)">07/17/12</text>
+    <path stroke="#666" class="wj-tick" d="M171.3 202.7v4"/>
+    <text x="165.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 193.8 231.5)">09/19/12</text>
+    <path stroke="#666" class="wj-tick" d="M219.4 202.7v4"/>
+    <text x="213.9" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 241.9 231.5)">02/12/13</text>
+    <path stroke="#666" class="wj-tick" d="M267.6 202.7v4"/>
+    <text x="262" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 290 231.5)">07/25/13</text>
+    <path stroke="#666" class="wj-tick" d="M315.7 202.7v4"/>
+    <text x="310.1" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 338.1 231.5)">10/30/13</text>
+    <path stroke="#666" class="wj-tick" d="M363.8 202.7v4"/>
+    <text x="358.2" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 386.3 231.5)">12/10/13</text>
+    <path stroke="#666" class="wj-tick" d="M411.9 202.7v4"/>
+    <text x="406.4" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 434.4 231.5)">03/20/14</text>
+    <path stroke="#666" class="wj-tick" d="M460 202.7v4"/>
+    <text x="454.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 482.5 231.5)">04/09/14</text>
+    <path stroke="#666" class="wj-tick" d="M508.1 202.7v4"/>
+    <text x="502.6" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 530.6 231.5)">04/25/14</text>
+    <path stroke="#666" class="wj-tick" d="M556.3 202.7v4"/>
+    <text x="550.7" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 578.7 231.5)">05/01/14</text>
+    <path stroke="#666" class="wj-tick" d="M604.4 202.7v4"/>
+    <text x="598.8" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 626.8 231.5)">07/08/14</text>
+    <path stroke="#666" class="wj-tick" d="M652.5 202.7v4"/>
+    <text x="646.9" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 675 231.5)">07/14/14</text>
+    <path stroke="#666" class="wj-tick" d="M700.6 202.7v4"/>
+    <text x="695.1" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 723.1 231.5)">10/10/14</text>
+    <path stroke="#666" class="wj-tick" d="M748.7 202.7v4"/>
+    <text x="743.2" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 771.2 231.5)">10/21/14</text>
+    <path stroke="#666" class="wj-tick" d="M796.8 202.7v4"/>
+    <text x="791.3" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 819.3 231.5)">10/30/14</text>
+    <path stroke="#666" class="wj-tick" d="M844.9 202.7v4"/>
+    <text x="839.4" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 867.4 231.5)">12/18/14</text>
+    <path stroke="#666" class="wj-tick" d="M893.1 202.7v4"/>
+    <text x="887.5" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 915.5 231.5)">01/06/15</text>
+    <path stroke="#666" class="wj-tick" d="M941.2 202.7v4"/>
+    <text x="935.6" y="236.7" fill="#666" class="wj-label" transform="rotate(-45 963.7 231.5)">02/19/15</text>
+    <path stroke="#666" class="wj-tick" d="M989.3 202.7v4"/>
+    <path stroke="#666" class="wj-line" d="M51 202.7h962.4"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M51 196.5h962.4"/>
+    <text x="22.5" y="201.7" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M51 168.9h962.4"/>
+    <text x="22.5" y="174.2" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-gridline" d="M51 141.3h962.4"/>
+    <text x="22.5" y="146.6" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-gridline" d="M51 113.8h962.4"/>
+    <text x="22.5" y="119" fill="#666" class="wj-label">50</text>
+    <path stroke="#666" class="wj-gridline" d="M51 86.2h962.4"/>
+    <text x="22.5" y="91.5" fill="#666" class="wj-label">60</text>
+    <path stroke="#666" class="wj-gridline" d="M51 58.7h962.4"/>
+    <text x="22.5" y="63.9" fill="#666" class="wj-label">70</text>
+    <path stroke="#666" class="wj-gridline" d="M51 31.1h962.4"/>
+    <text x="22.5" y="36.4" fill="#666" class="wj-label">80</text>
+  </g>
+  <g clip-path="url(#b)" class="wj-series-group">
+    <path stroke="#7030a0" stroke-width="2" d="M75.1 146.2v34.1M26 146.2h50.1m-2 34.1h50.1m-1 0v-19.9m-1 0h50.1m-1 0v42.3m-1 0h50.1m-1 0v-40.6m-1 0h50.2m-1 0v26.4m-1 0h50.1m-1 0v-26.4"/>
+    <path stroke="#00b0f0" stroke-width="4" d="M315.7 162.1v-59.9m-2 0h52.1m-2 0v25.9m-2 0h52.1m-2 0v-75m-2 0H462m-2 0v42.1m-2 0h52.1m-2 0V77.9m-2 0h52.2m-2 0v17.3"/>
+    <path stroke="#7030a0" stroke-width="2" d="M556.3 95.2v1.7m-1 0h50.1m-1 0v-19"/>
+    <path stroke="#00b0f0" stroke-width="4" d="M604.4 77.9V64m-2 0h52.1m-2 0v14.6m-2 0h52.1m-2 0V33.8m-2 0h52.1m-2 0v17.6m-2 0h52.1m-2 0V29m-2 0h52.1m-2 0v20.5m-2 0h52.2m-2 0V27.1m-2 0h52.1m-2 0v20.4m-2 0h52.1m-2 0v-31"/>
+  </g>
+  <clipPath id="b">
+    <path d="M50 15.5h964.3v188.2H50z"/>
+  </clipPath>
+</svg>

@@ -1,0 +1,232 @@
+<svg viewBox="0 0 1152 864">
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(60.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(60.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(60.5 834)">$24,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(149 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(149 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(149 834)">$26,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(237.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(237.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(237.5 834)">$28,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(326 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(326 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(326 834)">$30,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(414.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(414.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(414.5 834)">$32,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(503 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(503 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(503 834)">$34,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(591.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(591.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(591.5 834)">$36,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(680 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(680 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(680 834)">$38,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(768.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(768.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(768.5 834)">$40,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(857 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(857 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(857 834)">$42,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(945.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(945.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(945.5 834)">$44,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1034 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(1034 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1034 834)">$46,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1122.5 834)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-864" transform="translate(1122.5 834)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1122.5 834)">$48,000</text>
+    </g>
+    <text x="1148" y="-4" font-weight="bold" font-size="14" text-anchor="end" fill="#000" transform="translate(0 834)">Median female income</text>
+  </g>
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 834.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 834.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 834.5)">$0</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 718.214)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 718.214)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 718.214)">$50,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 601.929)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 601.929)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 601.929)">$100,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 485.643)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 485.643)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 485.643)">$150,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 369.357)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 369.357)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 369.357)">$200,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 253.071)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 253.071)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 253.071)">$250,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 136.786)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 136.786)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 136.786)">$300,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(60 20.5)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(60 20.5)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(60 20.5)">$350,000</text>
+      <text fill="#000" x="4" dy=".32em" font-size="14" text-anchor="start" font-weight="bold" transform="translate(60 20.5)">Median home price</text>
+    </g>
+  </g>
+  <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1960.23486328125,1960.23486328125" d="M140.535 792.137s20.342-1.33 30.71-2.093c10.644-.784 27.54-.158 32.346-2.558 1.76-.878 1.194-2.367 2.876-3.256 3.969-2.098 14.91-1.94 23.984-3.024 11.882-1.42 24.865-3.537 41.197-4.651 23.781-1.623 67.233-3.836 87.88-2.093 11.396.962 19.858 5.874 26.285 5.116 3.95-.465 5.045-2.929 9.204-4.186 7.733-2.338 25.872-1.748 34.515-5.582 6.243-2.769 12.268-7.474 14.248-11.396 1.305-2.582 1.229-5.449.31-7.907-1.076-2.88-8-5.424-7.434-7.908.967-4.243 25.433-6.136 29.559-11.396 2.407-3.068-.71-7.218 1.372-10.698 3.332-5.569 21.552-10.126 22.479-16.047.805-5.15-7.778-13.35-12.479-16.745-3.643-2.632-7.024-2.339-11.903-3.954-7.784-2.577-30.578-8.173-30.311-10 .27-1.848 21.52 1.227 32.568-.931 12.228-2.388 25.628-9.644 37.391-13.954 10.467-3.836 19.457-7.298 29.736-10.699 10.873-3.596 22.862-5.65 33.851-10.233 11.331-4.724 25.6-9.503 33.055-17.908 6.798-7.665 8.014-20.471 11.505-29.071 2.803-6.905 2.753-13.248 7.744-18.606 6.931-7.441 26.534-12.825 34.736-17.443 4.687-2.639 9.029-7.57 10.753-6.744 1.26.603-.85 5.476.796 6.744 3.153 2.429 23.715-.432 24.647-3.488.78-2.554-11.26-7.7-12.92-11.629-1.137-2.689 1.728-5.734.31-8.14-2.23-3.782-18.207-6.01-17.966-9.07.365-4.647 28.745-9.671 44.206-14.187 16.786-4.903 36.844-8.683 52.923-13.954 13.949-4.573 34.817-7.609 38.32-15.117 2.492-5.34-7.868-13.621-6.593-19.769 1.396-6.732 8.27-13.633 16.682-18.606 13.443-7.946 45.473-5.916 62.171-14.42 13.87-7.062 31.819-19.882 33.276-28.838.982-6.035-6.735-9.463-10.177-17.21-6.127-13.789-10.975-42.022-18.85-60.469-7.197-16.854-16.014-36.248-25.577-46.282-6.55-6.87-21.913-9.977-21.108-13.024 1.545-5.84 87.294-11.991 91.067-3.256 2.857 6.616-37.041 24.513-37.17 36.747-.126 11.953 30.655 37.347 34.736 35.816 1.992-.747 3.042-8.531.62-11.861-4.904-6.743-38.444-2.783-47.038-12.56-8.004-9.105-8.287-27.414-5.575-41.862 3.31-17.637 25.843-37.028 30.355-55.12 3.84-15.398-8.138-35.736-.664-45.584 7.981-10.516 39.702-4.125 50.268-13.256 8.594-7.426 9.95-20.605 13.497-31.63 3.65-11.35-.497-27.977 7.92-35.583 11.264-10.178 43.574-8.377 64.826-7.675 20.769.686 61.287 11.396 61.287 11.396"/>
+  <g fill="#fff" stroke="#000" stroke-width="2">
+    <circle cx="140.535" cy="792.137" r="5"/>
+    <circle cx="171.244" cy="790.044" r="5"/>
+    <circle cx="203.591" cy="787.486" r="5"/>
+    <circle cx="206.467" cy="784.23" r="5"/>
+    <circle cx="230.451" cy="781.206" r="5"/>
+    <circle cx="271.648" cy="776.555" r="5"/>
+    <circle cx="359.528" cy="774.462" r="5"/>
+    <circle cx="385.813" cy="779.578" r="5"/>
+    <circle cx="395.017" cy="775.392" r="5"/>
+    <circle cx="429.532" cy="769.81" r="5"/>
+    <circle cx="443.78" cy="758.414" r="5"/>
+    <circle cx="444.09" cy="750.507" r="5"/>
+    <circle cx="436.656" cy="742.599" r="5"/>
+    <circle cx="466.215" cy="731.203" r="5"/>
+    <circle cx="467.587" cy="720.505" r="5"/>
+    <circle cx="490.066" cy="704.458" r="5"/>
+    <circle cx="477.587" cy="687.713" r="5"/>
+    <circle cx="465.684" cy="683.759" r="5"/>
+    <circle cx="435.373" cy="673.758" r="5"/>
+    <circle cx="467.941" cy="672.828" r="5"/>
+    <circle cx="505.332" cy="658.874" r="5"/>
+    <circle cx="535.068" cy="648.175" r="5"/>
+    <circle cx="568.919" cy="637.942" r="5"/>
+    <circle cx="601.974" cy="620.034" r="5"/>
+    <circle cx="613.479" cy="590.963" r="5"/>
+    <circle cx="621.223" cy="572.357" r="5"/>
+    <circle cx="655.959" cy="554.914" r="5"/>
+    <circle cx="666.712" cy="548.17" r="5"/>
+    <circle cx="667.508" cy="554.914" r="5"/>
+    <circle cx="692.155" cy="551.426" r="5" style="fill:#fff"/>
+    <circle cx="679.234" cy="539.797" r="5"/>
+    <circle cx="679.544" cy="531.657" r="5" style="fill:#fff"/>
+    <circle cx="661.579" cy="522.587" r="5"/>
+    <circle cx="705.784" cy="508.4" r="5" style="fill:#fff"/>
+    <circle cx="758.707" cy="494.446" r="5"/>
+    <circle cx="797.028" cy="479.329" r="5"/>
+    <circle cx="790.435" cy="459.56" r="5"/>
+    <circle cx="807.117" cy="440.954" r="5"/>
+    <circle cx="869.288" cy="426.535" r="5"/>
+    <circle cx="902.564" cy="397.696" r="5"/>
+    <circle cx="892.387" cy="380.486" r="5"/>
+    <circle cx="873.536" cy="320.017" r="5"/>
+    <circle cx="847.96" cy="273.735" r="5"/>
+    <circle cx="826.852" cy="260.711" r="5"/>
+    <circle cx="917.919" cy="257.455" r="5"/>
+    <circle cx="880.749" cy="294.202" r="5"/>
+    <circle cx="915.485" cy="330.018" r="5"/>
+    <circle cx="916.105" cy="318.157" r="5"/>
+    <circle cx="869.067" cy="305.598" r="5"/>
+    <circle cx="863.492" cy="263.735" r="5"/>
+    <circle cx="893.847" cy="208.615" r="5"/>
+    <circle cx="893.183" cy="163.031" r="5"/>
+    <circle cx="943.451" cy="149.775" r="5"/>
+    <circle cx="956.948" cy="118.145" r="5"/>
+    <circle cx="964.868" cy="82.562" r="5"/>
+    <circle cx="1029.694" cy="74.887" r="5"/>
+    <circle cx="1090.981" cy="86.283" r="5"/>
+  </g>
+  <g font-family="sans-serif" font-size="14">
+    <text text-anchor="middle" dy="1.4em" transform="translate(140.535 792.137)">1963</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(171.244 790.044)">1964</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(203.591 787.486)">1965</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(206.467 784.23)">1966</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(230.451 781.206)">1967</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(271.648 776.555)">1968</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(359.528 774.462)">1969</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(385.813 779.578)">1970</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(395.017 775.392)">1971</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(429.532 769.81)">1972</text>
+    <text dx=".5em" dy=".32em" transform="translate(443.78 758.414)">1973</text>
+    <text dx=".5em" dy=".32em" transform="translate(444.09 750.507)">1974</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(436.656 742.6)">1975</text>
+    <text dx=".5em" dy=".32em" transform="translate(466.215 731.203)">1976</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(467.587 720.505)">1977</text>
+    <text dx=".5em" dy=".32em" transform="translate(490.066 704.458)">1978</text>
+    <text dx=".5em" dy=".32em" transform="translate(477.587 687.713)">1979</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(465.684 683.759)">1980</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(435.373 673.758)">1981</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(467.94 672.828)">1982</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(505.332 658.874)">1983</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(535.068 648.175)">1984</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(568.92 637.942)">1985</text>
+    <text dx=".5em" dy=".32em" transform="translate(601.974 620.034)">1986</text>
+    <text dx=".5em" dy=".32em" transform="translate(613.479 590.963)">1987</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(621.223 572.357)">1988</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(655.959 554.914)">1989</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(666.712 548.17)">1990</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(667.508 554.914)">1991</text>
+    <text dx=".5em" dy=".32em" transform="translate(692.155 551.426)">1992</text>
+    <text dx=".5em" dy=".32em" transform="translate(679.234 539.797)">1993</text>
+    <text dx=".5em" dy=".32em" transform="translate(679.544 531.657)">1994</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(661.579 522.587)">1995</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(705.784 508.4)">1996</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(758.707 494.446)">1997</text>
+    <text dx=".5em" dy=".32em" transform="translate(797.028 479.329)">1998</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(790.435 459.56)">1999</text>
+    <text text-anchor="middle" dy="-.7em" transform="translate(807.117 440.954)">2000</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(869.288 426.535)">2001</text>
+    <text dx=".5em" dy=".32em" transform="translate(902.564 397.696)">2002</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(892.387 380.486)">2003</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(873.536 320.017)">2004</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(847.96 273.735)">2005</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(826.852 260.711)">2006</text>
+    <text dx=".5em" dy=".32em" transform="translate(917.919 257.455)">2007</text>
+    <text dx=".5em" dy=".32em" transform="translate(880.749 294.202)">2008</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(915.485 330.018)">2009</text>
+    <text dx=".5em" dy=".32em" transform="translate(916.105 318.157)">2010</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(869.067 305.598)">2011</text>
+    <text dx=".5em" dy=".32em" transform="translate(863.492 263.735)">2012</text>
+    <text dx=".5em" dy=".32em" transform="translate(893.847 208.615)">2013</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(893.183 163.031)">2014</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(943.451 149.775)">2015</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(956.948 118.145)">2016</text>
+    <text dx="-.5em" dy=".32em" text-anchor="end" transform="translate(964.868 82.562)">2017</text>
+    <text text-anchor="middle" dy="1.4em" transform="translate(1029.694 74.887)">2018</text>
+    <text dx=".5em" dy=".32em" transform="translate(1090.98 86.283)">2019</text>
+  </g>
+</svg>

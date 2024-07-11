@@ -1,0 +1,124 @@
+<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" width="700" height="500" style="background:#fff">
+  <defs>
+    <clipPath id="a" class="plotclip">
+      <path d="M0 0h540v320H0z"/>
+    </clipPath>
+  </defs>
+  <g class="bglayer">
+    <path class="bg" style="fill:#e5ecf6;fill-opacity:1;stroke-width:0" d="M80 100h540v320H80z"/>
+  </g>
+  <g class="draglayer cursor-crosshair">
+    <g class="xy">
+      <path class="nsewdrag drag" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M80 100h540v320H80z"/>
+      <path class="nwdrag drag cursor-nw-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M60 80h20v20H60z"/>
+      <path class="nedrag drag cursor-ne-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M620 80h20v20h-20z"/>
+      <path class="swdrag drag cursor-sw-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M60 420h20v20H60z"/>
+      <path class="sedrag drag cursor-se-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M620 420h20v20h-20z"/>
+      <path class="ewdrag drag cursor-ew-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M134 420.5h432v20H134z"/>
+      <path class="wdrag drag cursor-w-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M80 420.5h54v20H80z"/>
+      <path class="edrag drag cursor-e-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M566 420.5h54v20h-54z"/>
+      <path class="nsdrag drag cursor-ns-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M59.5 132h20v256h-20z"/>
+      <path class="sdrag drag cursor-s-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M59.5 388h20v32h-20z"/>
+      <path class="ndrag drag cursor-n-resize" data-subplot="xy" style="fill:transparent;stroke-width:0;pointer-events:all" d="M59.5 100h20v32h-20z"/>
+    </g>
+  </g>
+  <g class="layer-below">
+    <g class="imagelayer"/>
+    <g class="shapelayer"/>
+  </g>
+  <g class="cartesianlayer">
+    <g class="subplot xy">
+      <g class="layer-subplot">
+        <g class="shapelayer"/>
+        <g class="imagelayer"/>
+      </g>
+      <g class="minor-gridlayer">
+        <g class="x"/>
+        <g class="y"/>
+      </g>
+      <g class="gridlayer">
+        <g class="x">
+          <path class="xgrid crisp" transform="translate(164.77)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="xgrid crisp" transform="translate(252.67)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="xgrid crisp" transform="translate(340.58)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="xgrid crisp" transform="translate(428.49)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="xgrid crisp" transform="translate(516.4)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="xgrid crisp" transform="translate(604.3)" d="M0 100v320" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+        </g>
+        <g class="y">
+          <path class="ygrid crisp" transform="translate(0 360.92)" d="M80 0h540" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="ygrid crisp" transform="translate(0 272.49)" d="M80 0h540" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+          <path class="ygrid crisp" transform="translate(0 184.06)" d="M80 0h540" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+        </g>
+      </g>
+      <g class="zerolinelayer"/>
+      <g class="overlines-below"/>
+      <g class="xaxislayer-below"/>
+      <g class="yaxislayer-below"/>
+      <g class="overaxes-below"/>
+      <g class="plot" transform="translate(80 100)" clip-path="url(#a)">
+        <g class="boxlayer mlayer">
+          <g class="trace boxes" style="opacity:1">
+            <path class="box" d="M1.6 46.65h3.08m-3.08 2.5h3.08v-3.5H1.6Zm1.54 0v.28m0-3.78v-5.03m4.74-11.69h3.08m-3.08 6.75h3.08v-7.75H7.88Zm1.54 0v4.13m0-11.88v-2.62m4.74-6.81h3.08m-3.08 8.89h3.08V17.5h-3.08Zm1.54 0v1.22m0-11.11V16" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M20.44 38.91h3.08m-3.08 1h3.08v-2.54h-3.08Zm1.54 0v1.55m0-4.09v-9.2m4.74 16.08h3.07m-3.07 1h3.07v-5.54h-3.07Zm1.54 0v7.3m0-12.84v-3.33m17.29 26.21h3.08m-3.08 1h3.08V40.7h-3.08Zm1.54 0v1.81m0-24.7v-.89m4.74 11.82h3.08m-3.08 0h3.08v-.32h-3.08Zm1.54 0v4.06m0-4.38v-7.52" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M58.11 42.12h3.08m-3.08.3h3.08v-.3h-3.08Zm1.54 0v9.21m0-9.51v-2.25" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M64.39 47.49h3.08m-3.08 1h3.08v-2.53h-3.08Zm1.54 0v6.05m0-8.58v-2.1" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M70.67 59.61h3.08m-3.08 1h3.08v-1.84h-3.08Zm1.54 0v2.41m0-4.25v-5.02m17.3-4.35h3.07m-3.07 5.04h3.07V48.4h-3.07Zm1.54 0v3.28m0-9.32v-2.13" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M95.79 59.4h3.07m-3.07 1h3.07v-6.83h-3.07Zm1.54 0v6.3m0-13.13v-.54" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M102.07 54.47h3.07m-3.07 11.18h3.07V53.47h-3.07Zm1.53-12.18V46.7m4.75 3.03h3.07m-3.07.73h3.07v-.73h-3.07Zm1.53 0V62.2m0-12.47V48.7" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M114.62 70.93h3.08m-3.08 1h3.08v-3.51h-3.08Zm1.54 0v9.75m0-13.26v-5.94m17.3 58.11h3.08m-3.08 1h3.08V81.44h-3.08Zm1.54 0v5.94m0-46.09v-9.92m4.74 40.2h3.08m-3.08 1h3.08v-5.71h-3.08Zm1.54 0v10.82m0-16.53v-3.59" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M146.02 88.25h3.08m-3.08 13.19h3.08V87.25h-3.08Zm1.54-14.19v-7.46m4.74 1.06h3.08m-3.08 24.5h3.08v-25.5h-3.08Zm1.54 0v1.07m0-26.57v-5.24" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M158.58 89.1h3.07m-3.07 1h3.07V76.38h-3.07Zm1.54 0v21.16m0-34.88v-1.69m17.3 8.51h3.07m-3.07 1h3.07v-7.16h-3.07Zm1.53 0v10.99m0-18.15v-.62" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M183.69 67.47h3.08m-3.08 7.34h3.08v-8.34h-3.08Zm1.54 0v2.9m0-11.24v-1.02" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M189.97 63.68h3.08m-3.08 0h3.08v-.39h-3.08Zm1.54 0v1.05m0-1.44v-5.85m4.74 24.63h3.08m-3.08 1h3.08v-19.4h-3.08Zm1.54 0v1.8m0-21.2v-1.82m4.74 29.81h3.08m-3.08 1h3.08v-17.4h-3.08Zm1.54 0v6.48m0-23.88v-2.95" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M221.37 83.43h3.08m-3.08 2.9h3.08v-3.9h-3.08Zm1.54 0v10.16m0-14.06v-2.89m4.74.5h3.07m-3.07 2.57h3.07v-3.57h-3.07Zm1.54 0v2.49m0-6.06V68.92m4.74-7H237m-3.07 6.87H237v-7.87h-3.07Zm1.54-7.87v-2.73" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M240.21 65.1h3.07m-3.07 1h3.07v-7.09h-3.07Zm1.53 0v8.84m0-15.93v-4.95m4.74 26.95h3.08m-3.08 1h3.08v-2.46h-3.08Zm1.54 0v3.45m0-5.91v-8.04m17.3 37.69h3.08m-3.08 1h3.08v-2.8h-3.08Zm1.54 0v16.78m0-19.58v-1.29" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M271.6 88.61h3.08M271.6 114h3.08V87.61h-3.08Zm1.54 0v1.29m0-27.68v-.57" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M277.88 89.26h3.08m-3.08 1h3.08v-7.91h-3.08Zm1.54 0v5.99m0-13.9v-3.93m4.74 14.05h3.08m-3.08 1h3.08v-9.25h-3.08Zm1.54 0v7.27m0-16.52v-3.18m4.74 14.47h3.08m-3.08 1h3.08v-3.93h-3.08Zm1.54 0v6.11m0-10.04v-7.74m17.3 35.66h3.07m-3.07 1h3.07V86.84h-3.07Zm1.53 0v7.81m0-42.47v-.45" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M315.55 122.63h3.08m-3.08 26.21h3.08v-27.21h-3.08Zm1.54-27.21v-8.35" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M321.83 121.85h3.08m-3.08 1h3.08v-3.71h-3.08Zm1.54 0v2.18m0-5.89V100.9" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M328.11 169.77h3.08m-3.08 3.38h3.08v-4.38h-3.08Zm1.54 0v11.21m0-15.59v-16.99m4.74-22.93h3.08m-3.08 30.91h3.08v-31.91h-3.08Zm1.54 0v8.92m0-40.83v-1.83m17.3 19.38h3.08m-3.08 5.78h3.08v-6.78h-3.08Zm1.54 0v18.45m0-25.23v-4.55" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M359.51 189.8h3.07m-3.07 1h3.07v-44.16h-3.07Zm1.54-44.16v-2.84" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M365.79 173.84h3.07m-3.07 23.41h3.07v-24.41h-3.07Zm1.54 0v8.43m0-32.84v-8.16" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M372.07 193h3.07m-3.07 1h3.07v-19.43h-3.07Zm1.53 0v2.97m0-22.4v-9.82m4.75 84.26h3.07m-3.07 1h3.07v-43.63h-3.07Zm1.53-43.63v-2.25" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M397.18 265.05h3.08m-3.08 15.7h3.08v-16.7h-3.08Zm1.54 0V304m0-39.95v-23.51m4.74 27.93h3.08m-3.08 8.96h3.08v-9.96h-3.08Zm1.54 0v.62m0-10.58v-36.55m4.74-37.59h3.08m-3.08 44.37h3.08v-45.37h-3.08Zm1.54 0v1.5m0-46.87" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M416.02 223.27h3.08m-3.08 1h3.08v-29.95h-3.08Zm1.54 0v7.27m0-37.22v-.74" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M422.3 215.89h3.08m-3.08 3.8h3.08v-4.8h-3.08Zm1.54 0v11.97m0-16.77v-36.41m17.3 18.01h3.07m-3.07 11.55h3.07v-12.55h-3.07Zm1.53 0v4.8m0-17.35v-9.04m4.75 12.68h3.07m-3.07 9.66h3.07v-10.66h-3.07Zm1.53 0v15.68m0-26.34v-5.08m4.74-35.24h3.08m-3.08 17.45h3.08v-18.45h-3.08Zm1.54 0v.47m0-18.92v-16.15" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M459.97 152.59h3.08m-3.08 0h3.08v-.83h-3.08Zm1.54 0v14.45m0-15.28v-3.2" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M466.25 151.34h3.08m-3.08 1h3.08v-1.12h-3.08Zm1.54 0v20.22m0-21.34" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M485.09 156.93h3.08m-3.08 1h3.08v-4.68h-3.08Zm1.54 0v1.46m0-6.14v-5.96" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M491.37 145.3h3.08m-3.08 11.87h3.08V144.3h-3.08Zm1.54 0v1.36m0-14.23v-1.32" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M497.65 157.09h3.07m-3.07 1h3.07V141.6h-3.07Zm1.54 0V162m0-20.4v-1.78m4.74 21.81H507m-3.07 1H507v-6.61h-3.07Zm1.54 0v2.55m0-9.16v-7.69m4.74 13.67h3.07m-3.07 1h3.07v-2.79h-3.07Zm1.53 0v2.63m0-5.42v-8.22" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:orange;stroke-opacity:1;fill:orange;fill-opacity:.5;opacity:1"/>
+            <path class="box" d="M529.04 157.57h3.08m-3.08 1h3.08v-1.84h-3.08Zm1.54 0v1.18m0-3.02V140m4.74-18.18h3.08m-3.08 19.69h3.08v-20.69h-3.08Zm1.54 0v2.9m0-23.59v-6.59" style="vector-effect:non-scaling-stroke;stroke-width:2px;stroke:purple;stroke-opacity:1;fill:purple;fill-opacity:.5;opacity:1"/>
+          </g>
+        </g>
+      </g>
+      <g class="overplot"/>
+      <g class="overlines-above"/>
+      <g class="xaxislayer-above" text-anchor="middle">
+        <text y="433" data-unformatted="Jan 16&lt;br&gt;2022" data-math="N" transform="translate(164.77)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" class="xtick"><tspan class="line" dy="0em" x="0" y="433">Jan 16</tspan><tspan class="line" dy="1.3em" x="0" y="433">2022</tspan></text>
+        <text y="433" data-unformatted="Jan 30" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(252.67)" class="xtick">Jan 30</text>
+        <text y="433" data-unformatted="Feb 13" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(340.58)" class="xtick">Feb 13</text>
+        <text y="433" data-unformatted="Feb 27" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(428.49)" class="xtick">Feb 27</text>
+        <text y="433" data-unformatted="Mar 13" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(516.4)" class="xtick">Mar 13</text>
+        <text y="433" data-unformatted="Mar 27" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(604.3)" class="xtick">Mar 27</text>
+      </g>
+      <g class="yaxislayer-above" text-anchor="end">
+        <text x="79" y="4.2" data-unformatted="6000" data-math="N" transform="translate(0 360.92)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" class="ytick">6000</text>
+        <text x="79" y="4.2" data-unformatted="6500" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(0 272.49)" class="ytick">6500</text>
+        <text x="79" y="4.2" data-unformatted="7000" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#2a3f5f;fill-opacity:1;white-space:pre;opacity:1" transform="translate(0 184.06)" class="ytick">7000</text>
+      </g>
+      <g class="overaxes-above"/>
+    </g>
+  </g>
+  <g class="polarlayer"/>
+  <g class="smithlayer"/>
+  <g class="ternarylayer"/>
+  <g class="geolayer"/>
+  <g class="funnelarealayer"/>
+  <g class="pielayer"/>
+  <g class="iciclelayer"/>
+  <g class="treemaplayer"/>
+  <g class="sunburstlayer"/>
+  <g class="glimages"/>
+</svg>

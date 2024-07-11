@@ -1,0 +1,546 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516.5 529.3">
+  <defs>
+    <clipPath id="a" transform="translate(-2 -11.5)">
+      <path class="a" d="M.5.5h518v540H.5z"/>
+    </clipPath>
+    <clipPath id="b" transform="translate(-2 -11.5)">
+      <path class="a" d="M0 0h518.5v540.5H0z"/>
+    </clipPath>
+    <style>
+      .a,.av{fill:none}.a{clip-rule:evenodd}.c{fill:#1768af}.aw,.c,.d,.e{fill-rule:evenodd}.d{fill:#92b8da}.e{fill:#e7eff7}.f,.k,.q,.t,.u,.v,.x{font-size:8.74px;font-family:ArialMT,Arial}.g,.k{letter-spacing:-.02em}.h{letter-spacing:-.07em}.i{letter-spacing:-.02em}.j,.l{letter-spacing:-.08em}.m{letter-spacing:0}.n,.q{letter-spacing:.02em}.o{letter-spacing:-.08em}.p{letter-spacing:-.02em}.r{letter-spacing:-.08em}.s{letter-spacing:0}.t,.x{fill:#fff}.t,.u,.w{letter-spacing:-.03em}.u,.v{fill:#333}.y{letter-spacing:.02em}.ab{letter-spacing:-.02em}.ac{letter-spacing:.02em}.ad{letter-spacing:.03em}.ae{letter-spacing:-.03em}.af{letter-spacing:.02em}.ag{letter-spacing:-.03em}.ai{letter-spacing:.01em}.aj{letter-spacing:-.04em}.al{letter-spacing:.02em}.as{letter-spacing:-.04em}.av{stroke:#666;stroke-linecap:square;stroke-miterlimit:10;stroke-width:0}.aw{fill:#666}
+    </style>
+  </defs>
+  <g style="clip-path:url(#a)">
+    <path class="c" d="M28.4 19.3v31.4h61.5V19.3z"/>
+    <path class="d" d="M89.4 19.3v31.4h31V19.3z"/>
+    <path class="c" d="M119.9 19.3v31.4h30.9V19.3z"/>
+    <path class="d" d="M150.3 19.3v31.4h31V19.3z"/>
+    <path class="c" d="M180.8 19.3v31.4h31V19.3z"/>
+    <path class="e" d="M211.3 19.3v31.4h31V19.3z"/>
+    <path class="d" d="M241.7 19.3v31.4h31V19.3z"/>
+    <path class="c" d="M272.2 19.3v31.4h61.5V19.3z"/>
+    <path class="e" d="M333.2 19.3v31.4h30.9V19.3z"/>
+    <path class="d" d="M363.6 19.3v31.4h31V19.3z"/>
+    <path class="e" d="M394.1 19.3v31.4h31V19.3z"/>
+    <path class="d" d="M424.6 19.3v31.4h31V19.3z"/>
+    <path class="e" d="M455.1 19.3v31.4h61.4V19.3z"/>
+    <path class="c" d="M28.4 50.2v31.4h61.5V50.2z"/>
+    <path class="d" d="M89.4 50.2v31.4h31V50.2z"/>
+    <path class="c" d="M119.9 50.2v31.4h30.9V50.2z"/>
+    <path class="d" d="M150.3 50.2v31.4h31V50.2z"/>
+    <path class="c" d="M180.8 50.2v31.4h31V50.2z"/>
+    <path class="e" d="M211.3 50.2v31.4h31V50.2z"/>
+    <path class="c" d="M241.7 50.2v31.4h31V50.2z"/>
+    <path class="d" d="M272.2 50.2v31.4h31V50.2z"/>
+    <path class="c" d="M302.7 50.2v31.4h31V50.2z"/>
+    <path class="e" d="M333.2 50.2v31.4h30.9V50.2z"/>
+    <path class="d" d="M363.6 50.2v31.4h31V50.2z"/>
+    <path class="e" d="M394.1 50.2v31.4h31V50.2z"/>
+    <path class="d" d="M424.6 50.2v31.4h31V50.2z"/>
+    <path class="e" d="M455.1 50.2v31.4h61.4V50.2z"/>
+    <path class="d" d="M28.4 81.1v31.3h61.5V81.1z"/>
+    <path class="c" d="M89.4 81.1v31.3h61.4V81.1z"/>
+    <path class="d" d="M150.3 81.1v31.3h61.5V81.1z"/>
+    <path class="c" d="M211.3 81.1v31.3h61.4V81.1z"/>
+    <path class="e" d="M272.2 81.1v31.3h61.5V81.1z"/>
+    <path class="d" d="M333.2 81.1v31.3h61.4V81.1z"/>
+    <path class="e" d="M394.1 81.1v31.3h61.5V81.1z"/>
+    <path class="d" d="M455.1 81.1v31.3h61.4V81.1z"/>
+    <path class="c" d="M28.4 111.9v31.4h122.4v-31.4z"/>
+    <path class="d" d="M150.3 111.9v31.4h31v-31.4z"/>
+    <path class="c" d="M180.8 111.9v31.4h91.9v-31.4z"/>
+    <path class="e" d="M272.2 111.9v31.4h31v-31.4z"/>
+    <path class="d" d="M302.7 111.9v31.4h31v-31.4z"/>
+    <path class="e" d="M333.2 111.9v31.4h30.9v-31.4z"/>
+    <path class="d" d="M363.6 111.9v31.4h31v-31.4z"/>
+    <path class="e" d="M394.1 111.9v31.4H486v-31.4z"/>
+    <path class="d" d="M485.5 111.9v31.4h31v-31.4zM28.4 142.8v31.3h122.4v-31.3z"/>
+    <path class="c" d="M150.3 142.8v31.3h31v-31.3z"/>
+    <path class="d" d="M180.8 142.8v31.3h31v-31.3z"/>
+    <path class="c" d="M211.3 142.8v31.3h31v-31.3z"/>
+    <path class="d" d="M241.7 142.8v31.3h31v-31.3z"/>
+    <path class="c" d="M272.2 142.8v31.3h31v-31.3z"/>
+    <path class="e" d="M302.7 142.8v31.3h31v-31.3z"/>
+    <path class="d" d="M333.2 142.8v31.3h30.9v-31.3z"/>
+    <path class="e" d="M363.6 142.8v31.3h31v-31.3z"/>
+    <path class="c" d="M394.1 142.8v31.3h31v-31.3z"/>
+    <path class="d" d="M424.6 142.8v31.3h31v-31.3z"/>
+    <path class="c" d="M455.1 142.8v31.3H486v-31.3z"/>
+    <path class="e" d="M485.5 142.8v31.3h31v-31.3z"/>
+    <path class="c" d="M28.4 173.6V205h61.5v-31.4z"/>
+    <path class="d" d="M89.4 173.6V205h31v-31.4z"/>
+    <path class="c" d="M119.9 173.6V205h30.9v-31.4z"/>
+    <path class="d" d="M150.3 173.6V205h92v-31.4z"/>
+    <path class="c" d="M241.7 173.6V205h31v-31.4z"/>
+    <path class="d" d="M272.2 173.6V205h61.5v-31.4z"/>
+    <path class="e" d="M333.2 173.6V205h30.9v-31.4z"/>
+    <path class="d" d="M363.6 173.6V205h31v-31.4z"/>
+    <path class="e" d="M394.1 173.6V205h31v-31.4z"/>
+    <path class="d" d="M424.6 173.6V205h31v-31.4z"/>
+    <path class="e" d="M455.1 173.6V205h61.4v-31.4zM28.4 204.5v31.4h61.5v-31.4z"/>
+    <path class="c" d="M89.4 204.5v31.4h91.9v-31.4z"/>
+    <path class="d" d="M180.8 204.5v31.4h31v-31.4z"/>
+    <path class="c" d="M211.3 204.5v31.4h61.4v-31.4z"/>
+    <path class="e" d="M272.2 204.5v31.4h61.5v-31.4z"/>
+    <path class="d" d="M333.2 204.5v31.4h30.9v-31.4z"/>
+    <path class="e" d="M363.6 204.5v31.4h31v-31.4z"/>
+    <path class="d" d="M394.1 204.5v31.4h31v-31.4z"/>
+    <path class="e" d="M424.6 204.5v31.4h31v-31.4z"/>
+    <path class="c" d="M455.1 204.5v31.4H486v-31.4z"/>
+    <path class="d" d="M485.5 204.5v31.4h31v-31.4zM28.4 235.3v31.4h31v-31.4z"/>
+    <path class="c" d="M58.9 235.3v31.4h91.9v-31.4z"/>
+    <path class="d" d="M150.3 235.3v31.4h31v-31.4z"/>
+    <path class="c" d="M180.8 235.3v31.4h91.9v-31.4z"/>
+    <path class="e" d="M272.2 235.3v31.4h91.9v-31.4z"/>
+    <path class="d" d="M363.6 235.3v31.4h31v-31.4z"/>
+    <path class="e" d="M394.1 235.3v31.4h31v-31.4z"/>
+    <path class="d" d="M424.6 235.3v31.4h31v-31.4z"/>
+    <path class="e" d="M455.1 235.3v31.4H486v-31.4z"/>
+    <path class="d" d="M485.5 235.3v31.4h31v-31.4z"/>
+    <path class="c" d="M28.4 266.2v31.4h31v-31.4z"/>
+    <path class="d" d="M58.9 266.2v31.4h31v-31.4z"/>
+    <path class="e" d="M89.4 266.2v31.4h61.4v-31.4z"/>
+    <path class="c" d="M150.3 266.2v31.4h31v-31.4z"/>
+    <path class="d" d="M180.8 266.2v31.4h31v-31.4z"/>
+    <path class="e" d="M211.3 266.2v31.4h61.4v-31.4z"/>
+    <path class="c" d="M272.2 266.2v31.4h61.5v-31.4z"/>
+    <path class="d" d="M333.2 266.2v31.4h61.4v-31.4z"/>
+    <path class="c" d="M394.1 266.2v31.4h31v-31.4z"/>
+    <path class="d" d="M424.6 266.2v31.4H486v-31.4z"/>
+    <path class="e" d="M485.5 266.2v31.4h31v-31.4z"/>
+    <path class="c" d="M28.4 297.1v31.3h61.5v-31.3z"/>
+    <path class="e" d="M89.4 297.1v31.3h31v-31.3z"/>
+    <path class="d" d="M119.9 297.1v31.3h30.9v-31.3z"/>
+    <path class="e" d="M150.3 297.1v31.3h31v-31.3z"/>
+    <path class="d" d="M180.8 297.1v31.3h31v-31.3z"/>
+    <path class="e" d="M211.3 297.1v31.3h61.4v-31.3z"/>
+    <path class="c" d="M272.2 297.1v31.3h61.5v-31.3z"/>
+    <path class="d" d="M333.2 297.1v31.3h30.9v-31.3z"/>
+    <path class="c" d="M363.6 297.1v31.3h31v-31.3z"/>
+    <path class="d" d="M394.1 297.1v31.3h31v-31.3z"/>
+    <path class="c" d="M424.6 297.1v31.3h31v-31.3z"/>
+    <path class="e" d="M455.1 297.1v31.3H486v-31.3z"/>
+    <path class="d" d="M485.5 297.1v31.3h31v-31.3z"/>
+    <path class="e" d="M28.4 327.9v31.4h61.5v-31.4z"/>
+    <path class="d" d="M89.4 327.9v31.4h31v-31.4z"/>
+    <path class="e" d="M119.9 327.9v31.4h30.9v-31.4z"/>
+    <path class="d" d="M150.3 327.9v31.4h31v-31.4z"/>
+    <path class="e" d="M180.8 327.9v31.4h31v-31.4z"/>
+    <path class="d" d="M211.3 327.9v31.4h31v-31.4z"/>
+    <path class="e" d="M241.7 327.9v31.4h31v-31.4z"/>
+    <path class="d" d="M272.2 327.9v31.4h61.5v-31.4z"/>
+    <path class="c" d="M333.2 327.9v31.4h91.9v-31.4z"/>
+    <path class="d" d="M424.6 327.9v31.4h31v-31.4z"/>
+    <path class="c" d="M455.1 327.9v31.4h61.4v-31.4z"/>
+    <path class="d" d="M28.4 358.8v31.3h122.4v-31.3z"/>
+    <path class="e" d="M150.3 358.8v31.3h31v-31.3z"/>
+    <path class="d" d="M180.8 358.8v31.3h31v-31.3z"/>
+    <path class="e" d="M211.3 358.8v31.3h31v-31.3z"/>
+    <path class="d" d="M241.7 358.8v31.3h61.5v-31.3z"/>
+    <path class="c" d="M302.7 358.8v31.3h91.9v-31.3z"/>
+    <path class="d" d="M394.1 358.8v31.3H486v-31.3z"/>
+    <path class="c" d="M485.5 358.8v31.3h31v-31.3z"/>
+    <path class="e" d="M28.4 389.6V421h122.4v-31.4z"/>
+    <path class="c" d="M150.3 389.6V421h31v-31.4z"/>
+    <path class="e" d="M180.8 389.6V421h31v-31.4z"/>
+    <path class="d" d="M211.3 389.6V421h31v-31.4z"/>
+    <path class="e" d="M241.7 389.6V421h31v-31.4z"/>
+    <path class="c" d="M272.2 389.6V421h31v-31.4z"/>
+    <path class="d" d="M302.7 389.6V421h31v-31.4z"/>
+    <path class="c" d="M333.2 389.6V421h30.9v-31.4z"/>
+    <path class="d" d="M363.6 389.6V421h31v-31.4z"/>
+    <path class="c" d="M394.1 389.6V421H486v-31.4z"/>
+    <path class="d" d="M485.5 389.6V421h31v-31.4zM28.4 420.5v31.4h61.5v-31.4z"/>
+    <path class="e" d="M89.4 420.5v31.4h61.4v-31.4z"/>
+    <path class="d" d="M150.3 420.5v31.4h61.5v-31.4z"/>
+    <path class="e" d="M211.3 420.5v31.4h31v-31.4z"/>
+    <path class="d" d="M241.7 420.5v31.4h61.5v-31.4z"/>
+    <path class="c" d="M302.7 420.5v31.4h31v-31.4z"/>
+    <path class="d" d="M333.2 420.5v31.4h61.4v-31.4z"/>
+    <path class="c" d="M394.1 420.5v31.4h61.5v-31.4z"/>
+    <path class="d" d="M455.1 420.5v31.4H486v-31.4z"/>
+    <path class="c" d="M485.5 420.5v31.4h31v-31.4z"/>
+    <path class="e" d="M28.4 451.3v31.4h61.5v-31.4z"/>
+    <path class="d" d="M89.4 451.3v31.4h31v-31.4z"/>
+    <path class="e" d="M119.9 451.3v31.4h30.9v-31.4z"/>
+    <path class="c" d="M150.3 451.3v31.4h31v-31.4z"/>
+    <path class="e" d="M180.8 451.3v31.4h31v-31.4z"/>
+    <path class="c" d="M211.3 451.3v31.4h31v-31.4z"/>
+    <path class="e" d="M241.7 451.3v31.4h31v-31.4z"/>
+    <path class="d" d="M272.2 451.3v31.4h31v-31.4z"/>
+    <path class="e" d="M302.7 451.3v31.4h31v-31.4z"/>
+    <path class="c" d="M333.2 451.3v31.4h30.9v-31.4z"/>
+    <path class="d" d="M363.6 451.3v31.4h31v-31.4z"/>
+    <path class="c" d="M394.1 451.3v31.4h31v-31.4z"/>
+    <path class="d" d="M424.6 451.3v31.4h31v-31.4z"/>
+    <path class="c" d="M455.1 451.3v31.4h61.4v-31.4z"/>
+    <path class="e" d="M28.4 482.2v31.4h61.5v-31.4z"/>
+    <path class="d" d="M89.4 482.2v31.4h61.4v-31.4z"/>
+    <path class="e" d="M150.3 482.2v31.4h61.5v-31.4z"/>
+    <path class="d" d="M211.3 482.2v31.4h61.4v-31.4z"/>
+    <path class="e" d="M272.2 482.2v31.4h31v-31.4z"/>
+    <path class="d" d="M302.7 482.2v31.4h31v-31.4z"/>
+    <path class="c" d="M333.2 482.2v31.4h61.4v-31.4z"/>
+    <path class="d" d="M394.1 482.2v31.4h31v-31.4z"/>
+    <path class="c" d="M424.6 482.2v31.4h91.9v-31.4z"/>
+    <text class="f" transform="matrix(.99 0 0 1 33.5 7.5)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 63.5 7.5)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">P</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 95 7.5)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="j" x="11.3" y="0">T</tspan><tspan x="16" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 124.9 7.5)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="j" x="11.3" y="0">T</tspan><tspan x="16" y="0">P</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 155.4 7.5)"><tspan class="g">ES</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 185.4 7.5)"><tspan class="g">ES</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">P</tspan></text>
+    <text class="k" transform="matrix(.99 0 0 1 216.9 7.5)">ES<tspan class="l" x="11.3" y="0">T</tspan><tspan class="m" x="16" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 246.8 7.5)"><tspan class="g">ES</tspan><tspan class="j" x="11.3" y="0">T</tspan><tspan x="16" y="0">P</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 278.8 7.5)"><tspan class="n">I</tspan><tspan class="o" x="2.6" y="0">N</tspan><tspan class="p" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 308.8 7.5)"><tspan class="n">I</tspan><tspan class="o" x="2.6" y="0">N</tspan><tspan class="p" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">P</tspan></text>
+    <text class="q" transform="matrix(.99 0 0 1 340.3 7.5)">I<tspan class="o" x="2.6" y="0">N</tspan><tspan class="r" x="8.2" y="0">T</tspan><tspan class="s" x="12.9" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 370.2 7.5)"><tspan class="n">I</tspan><tspan class="o" x="2.6" y="0">N</tspan><tspan class="r" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">P</tspan></text>
+    <text class="q" transform="matrix(.99 0 0 1 400.7 7.5)">I<tspan class="g" x="2.6" y="0">S</tspan><tspan class="p" x="8.2" y="0">F</tspan><tspan class="s" x="13.4" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 430.7 7.5)"><tspan class="n">I</tspan><tspan class="g" x="2.6" y="0">S</tspan><tspan class="p" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">P</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 462.2 7.5)"><tspan class="n">I</tspan><tspan class="g" x="2.6" y="0">S</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">J</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 492.1 7.5)"><tspan class="n">I</tspan><tspan class="g" x="2.6" y="0">S</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">P</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 3 38.4)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">J</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 38.4)">86<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 38.4)">91<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 38.4)">42<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 38.4)">73<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 38.4)">64<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 187.9 38.4)">80<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 38.4)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 38.4)"><tspan class="w">41</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 279.3 38.4)"><tspan class="w">74</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 38.4)"><tspan class="w">73</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 38.4)"><tspan class="w">16</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 38.4)"><tspan class="w">35</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 38.4)"><tspan class="w">30</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 38.4)"><tspan class="w">40</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 38.4)"><tspan class="w">18</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 495.2 38.4)"><tspan class="w">9</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 2.5 69.2)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">P</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 69.2)">91<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 69.2)">97<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 69.2)">37<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 69.2)">85<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 69.2)">42<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 187.9 69.2)">93<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 69.2)">27<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 69.2)"><tspan class="w">76</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 69.2)"><tspan class="w">51</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 69.2)"><tspan class="w">73</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 69.2)"><tspan class="w">13</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 69.2)"><tspan class="w">36</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 69.2)"><tspan class="w">11</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 69.2)"><tspan class="w">49</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 464.7 69.2)"><tspan class="w">4</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 69.2)"><tspan class="w">14</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 3.6 100.1)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="j" x="11.3" y="0">T</tspan><tspan x="16" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 100.1)">42<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 100.1)">37<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 96.5 100.1)">91<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 100.1)">81<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 100.1)">53<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 100.1)">51<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 100.1)">87<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 100.1)"><tspan class="w">74</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 100.1)"><tspan class="w">25</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 100.1)"><tspan class="w">13</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 100.1)"><tspan class="w">46</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 100.1)"><tspan class="w">47</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 100.1)"><tspan class="w">29</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 434.2 100.1)"><tspan class="w">6</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 100.1)"><tspan class="w">66</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 100.1)"><tspan class="w">41</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 3 130.9)"><tspan class="g">E</tspan><tspan class="h" x="5.7" y="0">N</tspan><tspan class="j" x="11.3" y="0">T</tspan><tspan x="16" y="0">P</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 130.9)">73<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 130.9)">85<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 96.5 130.9)">81<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 130.9)">94<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 130.9)">32<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 187.9 130.9)">87<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 130.9)">70<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 130.9)"><tspan class="w">92</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 130.9)"><tspan class="w">11</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 130.9)"><tspan class="w">35</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 130.9)"><tspan class="w">22</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 130.9)"><tspan class="w">51</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 403.8 130.9)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 130.9)"><tspan class="w">14</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 130.9)"><tspan class="w">11</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 130.9)"><tspan class="w">35</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 3 161.8)"><tspan class="g">ES</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 161.8)">64<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 161.8)">42<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 161.8)">53<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 161.8)">32<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 157.4 161.8)">94<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 161.8)">40<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 161.8)">77<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 161.8)"><tspan class="w">37</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 279.3 161.8)"><tspan class="w">74</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 161.8)"><tspan class="w">17</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 161.8)"><tspan class="w">32</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 373.3 161.8)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 161.8)"><tspan class="w">79</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 161.8)"><tspan class="w">57</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 161.8)"><tspan class="w">71</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 161.8)"><tspan class="w">19</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 2.5 192.7)"><tspan class="g">ES</tspan><tspan class="i" x="11.3" y="0">F</tspan><tspan x="16.5" y="0">P</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 192.7)">80<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 192.7)">93<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 192.7)">51<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 192.7)">87<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 192.7)">40<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 192.7)">70<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 192.7)">39<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 192.7)"><tspan class="w">75</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 192.7)"><tspan class="w">43</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 192.7)"><tspan class="w">58</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 192.7)"><tspan class="w">22</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 192.7)"><tspan class="w">39</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 192.7)"><tspan class="w">12</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 192.7)"><tspan class="w">58</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 464.7 192.7)"><tspan class="w">8</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 192.7)"><tspan class="w">26</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="k" transform="matrix(.99 0 0 1 3.6 223.5)">ES<tspan class="l" x="11.3" y="0">T</tspan><tspan class="m" x="16" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 223.5)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 223.5)">27<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 96.5 223.5)">87<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 223.5)">70<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 157.4 223.5)">77<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 223.5)">39<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 223.5)">96<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 223.5)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 223.5)"><tspan class="w">14</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 312.3 223.5)"><tspan class="w">3</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 223.5)"><tspan class="w">33</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 223.5)"><tspan class="w">22</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 223.5)"><tspan class="w">48</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 223.5)"><tspan class="w">22</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 223.5)"><tspan class="w">79</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 223.5)"><tspan class="w">55</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 3 254.4)"><tspan class="g">ES</tspan><tspan class="l" x="11.3" y="0">T</tspan><tspan x="16" y="0">P</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 254.4)">41<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 254.4)">76<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 96.5 254.4)">74<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 127 254.4)">92<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 254.4)">37<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 187.9 254.4)">75<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 254.4)">78<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 248.9 254.4)"><tspan class="w">95</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 281.9 254.4)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 254.4)"><tspan class="w">24</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 254.4)"><tspan class="w">17</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 254.4)"><tspan class="w">39</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 254.4)"><tspan class="w">12</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 254.4)"><tspan class="w">43</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 254.4)"><tspan class="w">20</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 254.4)"><tspan class="w">62</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 4.6 285.2)"><tspan class="y">I</tspan><tspan class="h" x="2.6" y="0">N</tspan><tspan class="i" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">J</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 285.2)">74<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 285.2)">51<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 285.2)">25<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 285.2)">11<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 157.4 285.2)">74<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 285.2)">43<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 285.2)">14<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 251.4 285.2)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 279.3 285.2)"><tspan class="w">95</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 285.2)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 285.2)"><tspan class="w">65</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 285.2)"><tspan class="w">50</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 285.2)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 285.2)"><tspan class="w">58</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 285.2)"><tspan class="w">53</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 285.2)"><tspan class="w">23</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 4.1 316.1)"><tspan class="y">I</tspan><tspan class="h" x="2.6" y="0">N</tspan><tspan class="i" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">P</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 35.5 316.1)">73<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 66 316.1)">73<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 316.1)">13<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 316.1)">35<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 316.1)">17<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 316.1)">58<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 220.9 316.1)"><tspan class="w">3</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 316.1)"><tspan class="w">24</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 279.3 316.1)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 316.1)"><tspan class="w">97</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 316.1)"><tspan class="w">70</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 370.7 316.1)"><tspan class="w">84</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 316.1)"><tspan class="w">46</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 431.7 316.1)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 316.1)"><tspan class="w">21</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 316.1)"><tspan class="w">49</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 5.1 346.9)"><tspan class="y">I</tspan><tspan class="h" x="2.6" y="0">N</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 346.9)">16<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 346.9)">13<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 346.9)">46<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 346.9)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 346.9)">32<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 346.9)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 346.9)">33<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 346.9)"><tspan class="w">17</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 346.9)"><tspan class="w">65</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 346.9)"><tspan class="w">70</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 340.3 346.9)"><tspan class="w">86</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 370.7 346.9)"><tspan class="w">89</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 346.9)"><tspan class="w">79</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 346.9)"><tspan class="w">45</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 346.9)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 492.6 346.9)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text transform="matrix(.99 0 0 1 4.6 377.8)" style="font-size:8.74px;font-family:ArialMT,Arial;letter-spacing:.02em">I<tspan class="h" x="2.6" y="0">N</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0" style="letter-spacing:0">P</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 377.8)">35<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 377.8)">36<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 377.8)">47<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 377.8)">51<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 160 377.8)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 377.8)">39<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 377.8)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 377.8)"><tspan class="w">39</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 377.8)"><tspan class="w">50</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 377.8)"><tspan class="w">84</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 340.3 377.8)"><tspan class="w">89</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 370.7 377.8)"><tspan class="w">96</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 377.8)"><tspan class="w">38</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 377.8)"><tspan class="w">43</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 377.8)"><tspan class="w">51</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 492.6 377.8)"><tspan class="w">81</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 4.6 408.7)"><tspan class="y">I</tspan><tspan class="ab" x="2.6" y="0">S</tspan><tspan class="i" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 408.7)">30<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 408.7)">11<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 408.7)">29<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 129.5 408.7)"><tspan class="w">5</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 157.4 408.7)">79<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 408.7)">12<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 408.7)">48<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 408.7)"><tspan class="w">12</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 279.3 408.7)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 408.7)"><tspan class="w">46</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 340.3 408.7)"><tspan class="w">79</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 408.7)"><tspan class="w">38</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 408.7)"><tspan class="w">95</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 431.7 408.7)"><tspan class="w">76</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 408.7)"><tspan class="w">93</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 492.6 408.7)"><tspan class="w">62</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 4.1 439.5)"><tspan class="y">I</tspan><tspan class="ab" x="2.6" y="0">S</tspan><tspan class="i" x="8.2" y="0">F</tspan><tspan x="13.4" y="0">P</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 439.5)">40<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 439.5)">49<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 99 439.5)"><tspan class="w">6</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 439.5)">14<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 439.5)">57<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 439.5)">58<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 439.5)">22<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 439.5)"><tspan class="w">43</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 439.5)"><tspan class="w">58</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 309.8 439.5)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 340.3 439.5)"><tspan class="w">45</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 439.5)"><tspan class="w">43</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 439.5)"><tspan class="w">76</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 431.7 439.5)"><tspan class="w">97</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 462.2 439.5)"><tspan class="w">47</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 492.6 439.5)"><tspan class="w">76</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 5.1 470.4)"><tspan class="y">I</tspan><tspan class="ab" x="2.6" y="0">S</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">J</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 35.5 470.4)">18<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 68.6 470.4)"><tspan class="w">4</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 470.4)">66<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 470.4)">11<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 157.4 470.4)">71<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 190.4 470.4)"><tspan class="w">8</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="t" transform="matrix(.99 0 0 1 218.4 470.4)">79<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 470.4)"><tspan class="w">20</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 470.4)"><tspan class="w">53</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 470.4)"><tspan class="w">21</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 340.3 470.4)"><tspan class="w">85</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 370.7 470.4)"><tspan class="w">51</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 401.2 470.4)"><tspan class="w">93</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 431.7 470.4)"><tspan class="w">47</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 470.4)"><tspan class="w">96</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 492.6 470.4)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 4.6 501.2)"><tspan class="y">I</tspan><tspan class="ab" x="2.6" y="0">S</tspan><tspan class="j" x="8.2" y="0">T</tspan><tspan x="12.9" y="0">P</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 38.1 501.2)"><tspan class="w">9</tspan><tspan x="4.6" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 66 501.2)">14<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 96.5 501.2)">41<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 127 501.2)">35<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 157.4 501.2)">19<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 187.9 501.2)">26<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="u" transform="matrix(.99 0 0 1 218.4 501.2)">55<tspan class="m" x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 248.9 501.2)"><tspan class="w">62</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 279.3 501.2)"><tspan class="w">23</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 309.8 501.2)"><tspan class="w">49</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 340.3 501.2)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 370.7 501.2)"><tspan class="w">81</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="v" transform="matrix(.99 0 0 1 401.2 501.2)"><tspan class="w">62</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 431.7 501.2)"><tspan class="w">76</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 462.2 501.2)"><tspan class="w">78</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="x" transform="matrix(.99 0 0 1 492.6 501.2)"><tspan class="w">96</tspan><tspan x="9.3" y="0">%</tspan></text>
+    <text class="f" transform="matrix(.99 0 0 1 0 526.4)"><tspan class="g">S</tspan><tspan class="w" x="5.7" y="0">ou</tspan><tspan class="ac" x="14.9" y="0">r</tspan><tspan class="ad" x="18" y="0">c</tspan><tspan class="ae" x="22.6" y="0">e</tspan><tspan class="af" x="27.3" y="0">: </tspan><tspan class="w" x="32.4" y="0">pe</tspan><tspan class="ac" x="41.7" y="0">r</tspan><tspan class="ag" x="44.8" y="0">s</tspan><tspan class="w" x="48.9" y="0">ona</tspan><tspan x="62.8" y="0" style="letter-spacing:-.05em">l</tspan><tspan class="ai" x="64.3" y="0">i</tspan><tspan class="aj" x="66.4" y="0">t</tspan><tspan x="68.4" y="0" style="letter-spacing:.03em">y</tspan><tspan class="ae" x="73.1" y="0">da</tspan><tspan class="aj" x="82.3" y="0">t</tspan><tspan class="w" x="84.4" y="0">a</tspan><tspan class="y" x="89" y="0">.</tspan><tspan class="w" x="91.6" y="0">o</tspan><tspan class="al" x="96.2" y="0">r</tspan><tspan class="w" x="99.3" y="0">g</tspan><tspan class="y" x="104" y="0">. </tspan><tspan x="109.1" y="0" style="letter-spacing:-.02em">C</tspan><tspan class="al" x="115.3" y="0">r</tspan><tspan class="ae" x="118.3" y="0">ea</tspan><tspan class="aj" x="127.6" y="0">t</tspan><tspan class="ai" x="129.7" y="0">i</tspan><tspan x="131.7" y="0" style="letter-spacing:-.09em">v</tspan><tspan class="w" x="135.3" y="0">e</tspan><tspan class="y" x="140" y="0"> </tspan><tspan x="142.5" y="0" style="letter-spacing:-.02em">C</tspan><tspan class="ae" x="148.7" y="0">o</tspan><tspan x="153.3" y="0" style="letter-spacing:-.07em">mm</tspan><tspan class="w" x="166.7" y="0">on</tspan><tspan class="ag" x="176" y="0">s</tspan><tspan class="y" x="180.1" y="0"> </tspan><tspan class="g" x="182.7" y="0">A</tspan><tspan class="aj" x="188.3" y="0">tt</tspan><tspan class="al" x="192.5" y="0">r</tspan><tspan class="ai" x="195.5" y="0">i</tspan><tspan class="w" x="197.6" y="0">bu</tspan><tspan class="aj" x="206.9" y="0">t</tspan><tspan class="ai" x="208.9" y="0">i</tspan><tspan class="w" x="211" y="0">on</tspan><tspan class="af" x="220.3" y="0"> </tspan><tspan class="w" x="222.8" y="0">4</tspan><tspan class="y" x="227.5" y="0">.</tspan><tspan class="w" x="230" y="0">0</tspan><tspan class="y" x="234.7" y="0" xml:space="preserve"> I</tspan><tspan class="w" x="239.8" y="0">n</tspan><tspan class="aj" x="244.4" y="0">t</tspan><tspan class="ae" x="246.5" y="0">e</tspan><tspan x="251.1" y="0" style="letter-spacing:.02em">r</tspan><tspan class="w" x="254.2" y="0">na</tspan><tspan x="263.5" y="0" style="letter-spacing:-.04em">t</tspan><tspan class="ai" x="265.6" y="0">i</tspan><tspan class="w" x="267.6" y="0">ona</tspan><tspan class="as" x="281.5" y="0">l</tspan><tspan class="af" x="283.1" y="0"> </tspan><tspan class="as" x="285.6" y="0">l</tspan><tspan class="ai" x="287.2" y="0">i</tspan><tspan class="ad" x="289.2" y="0">c</tspan><tspan class="w" x="293.9" y="0">en</tspan><tspan x="303.1" y="0" style="letter-spacing:-.03em">s</tspan><tspan class="w" x="307.2" y="0">e</tspan><tspan x="311.9" y="0">.</tspan></text>
+  </g>
+  <g style="clip-path:url(#b)">
+    <path class="av" d="M28.4 19.3v494.3"/>
+    <path class="aw" d="M28.4 19.3v494.3h.5V19.3z"/>
+    <path class="av" d="M58.9 19.9v493.7"/>
+    <path class="aw" d="M58.9 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M89.4 19.9v493.7"/>
+    <path class="aw" d="M89.4 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M119.9 19.9v493.7"/>
+    <path class="aw" d="M119.9 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M150.3 19.9v493.7"/>
+    <path class="aw" d="M150.3 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M180.8 19.9v493.7"/>
+    <path class="aw" d="M180.8 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M211.3 19.9v493.7"/>
+    <path class="aw" d="M211.3 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M241.7 19.9v493.7"/>
+    <path class="aw" d="M241.7 19.9v493.7h.6V19.9z"/>
+    <path class="av" d="M272.2 19.9v493.7"/>
+    <path class="aw" d="M272.2 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M302.7 19.9v493.7"/>
+    <path class="aw" d="M302.7 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M333.2 19.9v493.7"/>
+    <path class="aw" d="M333.2 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M363.6 19.9v493.7"/>
+    <path class="aw" d="M363.6 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M394.1 19.9v493.7"/>
+    <path class="aw" d="M394.1 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M424.6 19.9v493.7"/>
+    <path class="aw" d="M424.6 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M455.1 19.9v493.7"/>
+    <path class="aw" d="M455.1 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M485.5 19.9v493.7"/>
+    <path class="aw" d="M485.5 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M516 19.9v493.7"/>
+    <path class="aw" d="M516 19.9v493.7h.5V19.9z"/>
+    <path class="av" d="M28.9 19.3h487.6"/>
+    <path class="aw" d="M28.9 19.3v.6h487.6v-.6z"/>
+    <path class="av" d="M28.9 50.2h487.6"/>
+    <path class="aw" d="M28.9 50.2v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 81.1h487.6"/>
+    <path class="aw" d="M28.9 81.1v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 111.9h487.6"/>
+    <path class="aw" d="M28.9 111.9v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 142.8h487.6"/>
+    <path class="aw" d="M28.9 142.8v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 173.6h487.6"/>
+    <path class="aw" d="M28.9 173.6v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 204.5h487.6"/>
+    <path class="aw" d="M28.9 204.5v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 235.3h487.6"/>
+    <path class="aw" d="M28.9 235.3v.6h487.6v-.6z"/>
+    <path class="av" d="M28.9 266.2h487.6"/>
+    <path class="aw" d="M28.9 266.2v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 297.1h487.6"/>
+    <path class="aw" d="M28.9 297.1v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 327.9h487.6"/>
+    <path class="aw" d="M28.9 327.9v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 358.8h487.6"/>
+    <path class="aw" d="M28.9 358.8v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 389.6h487.6"/>
+    <path class="aw" d="M28.9 389.6v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 420.5h487.6"/>
+    <path class="aw" d="M28.9 420.5v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 451.3h487.6"/>
+    <path class="aw" d="M28.9 451.3v.6h487.6v-.6z"/>
+    <path class="av" d="M28.9 482.2h487.6"/>
+    <path class="aw" d="M28.9 482.2v.5h487.6v-.5z"/>
+    <path class="av" d="M28.9 513.1h487.6"/>
+    <path class="aw" d="M28.9 513.1v.5h487.6v-.5z"/>
+  </g>
+</svg>

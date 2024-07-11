@@ -1,0 +1,47 @@
+<svg width="400" height="300" aria-label="A chart." style="overflow:hidden">
+  <path fill="#fff" d="M0 0h400v300H0z"/>
+  <path fill="none" d="M311 58h78v65h-78z"/>
+  <path fill="none" d="M311 58h78v11h-78z"/>
+  <text x="337" y="67.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Segways</text>
+  <path fill-opacity=".3" fill="#109618" d="M311 63.5h22V69h-22z"/>
+  <path d="M311 63.5h22" stroke="#109618" stroke-width="2" fill="none"/>
+  <path fill="none" d="M311 76h78v11h-78z"/>
+  <text x="337" y="85.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Drones</text>
+  <path fill-opacity=".3" fill="#f90" d="M311 81.5h22V87h-22z"/>
+  <path d="M311 81.5h22" stroke="#f90" stroke-width="2" fill="none"/>
+  <path fill="none" d="M311 94h78v11h-78z"/>
+  <text x="337" y="103.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Trucks</text>
+  <path fill-opacity=".3" fill="#dc3912" d="M311 99.5h22v5.5h-22z"/>
+  <path d="M311 99.5h22" stroke="#dc3912" stroke-width="2" fill="none"/>
+  <path fill="none" d="M311 112h78v11h-78z"/>
+  <text x="337" y="121.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Cars</text>
+  <path fill-opacity=".3" fill="#36c" d="M311 117.5h22v5.5h-22z"/>
+  <path d="M311 117.5h22" stroke="#36c" stroke-width="2" fill="none"/>
+  <path fill="none" d="M100 58h200v185H100z"/>
+  <g clip-path="url(https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/areachart_6f6de7a6dc3d2b069b6134f6d6ef97e89b2f0b088fcbada99a41df0539163b43.frame#_ABSTRACT_RENDERER_ID_3)">
+    <path fill="#ccc" d="M100 242h200v1H100zm0-46h200v1H100zm0-46h200v1H100zm0-46h200v1H100zm0-46h200v1H100z"/>
+    <path fill="#ebebeb" d="M100 219h200v1H100zm0-46h200v1H100zm0-46h200v1H100zm0-46h200v1H100z"/>
+    <path d="M100.5 242.5v-80.04l66.333 37.72 66.334-43.24 66.333-6.44v92z" fill-opacity=".3" fill="#36c"/>
+    <path d="M100.5 242.5V120.14l66.333 13.8 66.334-26.68 66.333 6.44v128.8-92l-66.333 6.44-66.334 43.24-66.333-37.72z" fill-opacity=".3" fill="#dc3912"/>
+    <path d="M100.5 242.5V119.22l66.333 12.88 66.334-37.72 66.333 11.96V242.5 113.7l-66.333-6.44-66.334 26.68-66.333-13.8z" fill-opacity=".3" fill="#f90"/>
+    <path d="M100.5 242.5V108.18l66.333 18.4 66.334-34.96 66.333 13.34V242.5 106.34l-66.333-11.96-66.334 37.72-66.333-12.88z" fill-opacity=".3" fill="#109618"/>
+    <path fill="#333" d="M100 242h200v1H100z"/>
+    <g stroke-width="2" fill="none">
+      <path d="m100.5 162.46 66.333 37.72 66.334-43.24 66.333-6.44" stroke="#36c"/>
+      <path d="m100.5 120.14 66.333 13.8 66.334-26.68 66.333 6.44" stroke="#dc3912"/>
+      <path d="m100.5 119.22 66.333 12.88 66.334-37.72 66.333 11.96" stroke="#f90"/>
+      <path d="m100.5 108.18 66.333 18.4 66.334-34.96 66.333 13.34" stroke="#109618"/>
+    </g>
+  </g>
+  <g/>
+  <text text-anchor="middle" x="100.5" y="259.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">2013</text>
+  <text text-anchor="middle" x="166.833" y="259.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">2014</text>
+  <text text-anchor="middle" x="233.167" y="259.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">2015</text>
+  <text text-anchor="middle" x="299.5" y="259.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">2016</text>
+  <text text-anchor="end" x="89" y="246.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">0</text>
+  <text text-anchor="end" x="89" y="200.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">500</text>
+  <text text-anchor="end" x="89" y="154.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">1,000</text>
+  <text text-anchor="end" x="89" y="108.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">1,500</text>
+  <text text-anchor="end" x="89" y="62.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">2,000</text>
+  <g/>
+</svg>

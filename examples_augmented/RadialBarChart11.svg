@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <path fill="transparent" d="M0 0h400v400H0z"/>
+  <path stroke="#ddd" d="M200 152V40m20.607 116.649L268.69 55.495m-31.468 114.198 86.852-70.716m-77.445 89.631 108.8-26.58M247.004 209.73l109.674 22.702m-118.404-3.465 89.307 67.589m-105.448-53.963 51.643 99.383m-72.072-94.006 3.975 111.93m-24.734-115.844-44.463 102.796m27.394-115.244-84.288 73.753m74.217-92.321L46.017 243.465"/>
+  <path d="M136 200a64 64 0 1 0 64-64" stroke="#ddd" fill="none"/>
+  <path d="M109.333 200A90.667 90.667 0 1 0 200 109.333" stroke="#ddd" fill="none"/>
+  <path d="M82.667 200A117.333 117.333 0 1 0 200 82.667" stroke="#ddd" fill="none"/>
+  <path d="M56 200A144 144 0 1 0 200 56" stroke="#ddd" fill="none"/>
+  <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(200 136)"/>
+  <text dx="-10" text-anchor="end" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 136)">Supermarket</text>
+  <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(200 109.334)"/>
+  <text dx="-10" text-anchor="end" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 109.334)">Combini</text>
+  <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(200 82.666)"/>
+  <text dx="-10" text-anchor="end" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 82.666)">Online</text>
+  <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(200 56)"/>
+  <text dx="-10" text-anchor="end" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 56)">Marché</text>
+  <path d="M40 200A160 160 0 1 0 200 40" stroke="transparent" fill="none"/>
+  <path style="stroke:#777;stroke-width:1" d="M0-160v-5" transform="translate(200 200)"/>
+  <text dx="0" dy="-177" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">0</text>
+  <path style="stroke:#777;stroke-width:1" d="m68.689-144.505 2.147-4.516" transform="translate(200 200)"/>
+  <text dx="75.988" dy="-159.859" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">50</text>
+  <path style="stroke:#777;stroke-width:1" d="m124.075-101.022 3.877-3.157" transform="translate(200 200)"/>
+  <text dx="137.258" dy="-111.756" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">100</text>
+  <path style="stroke:#777;stroke-width:1" d="m155.429-37.972 4.857-1.187" transform="translate(200 200)"/>
+  <text dx="171.943" dy="-42.007" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">150</text>
+  <path style="stroke:#777;stroke-width:1" d="m156.679 32.432 4.896 1.014" transform="translate(200 200)"/>
+  <text dx="173.326" dy="35.878" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">200</text>
+  <path style="stroke:#777;stroke-width:1" d="m127.582 96.555 3.987 3.017" transform="translate(200 200)"/>
+  <text dx="141.138" dy="106.814" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">250</text>
+  <path style="stroke:#777;stroke-width:1" d="m73.775 141.976 2.305 4.437" transform="translate(200 200)"/>
+  <text dx="81.613" dy="157.061" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">300</text>
+  <path style="stroke:#777;stroke-width:1" d="m5.679 159.899.177 4.997" transform="translate(200 200)"/>
+  <text dx="6.282" dy="176.888" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">350</text>
+  <path style="stroke:#777;stroke-width:1" d="m-63.518 146.852-1.985 4.589" transform="translate(200 200)"/>
+  <text dx="-70.266" dy="162.455" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">400</text>
+  <path style="stroke:#777;stroke-width:1" d="m-120.411 105.362-3.763 3.292" transform="translate(200 200)"/>
+  <text dx="-133.205" dy="116.557" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">450</text>
+  <path style="stroke:#777;stroke-width:1" d="m-153.983 43.465-4.812 1.358" transform="translate(200 200)"/>
+  <text dx="-170.344" dy="48.083" dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(200 200)">500</text>
+  <g fill="rgba(0, 0, 0, .15)">
+    <path d="M200 125.333A74.667 74.667 0 1 1 125.333 200h21.334A53.333 53.333 0 1 0 200 146.667Z"/>
+    <path d="M200 98.667A101.333 101.333 0 1 1 98.667 200H120a80 80 0 1 0 80-80Z"/>
+    <path d="M200 72A128 128 0 1 1 72 200h21.333A106.667 106.667 0 1 0 200 93.333Z"/>
+    <path d="M200 45.333A154.667 154.667 0 1 1 45.333 200h21.334A133.333 133.333 0 1 0 200 66.667Z"/>
+  </g>
+  <path d="M200 125.333a74.7 74.7 0 0 1 35.015 8.72l-10.004 18.842A53.3 53.3 0 0 0 200 146.667Z" fill="#e8c1a0"/>
+  <path d="M235.015 134.053a74.667 74.667 0 0 1 22.466 113.603l-16.423-13.616a53.333 53.333 0 0 0-16.047-81.145Z" fill="#f47560"/>
+  <path d="M257.481 247.656a74.667 74.667 0 0 1-132.004-43.021l21.293-1.324a53.333 53.333 0 0 0 94.288 30.729Z" fill="#f1e15b"/>
+  <path d="M200 98.667a101.333 101.333 0 0 1 80.256 163.199l-16.896-13.024A80 80 0 0 0 200 120Z" fill="#e8c1a0"/>
+  <path d="M280.256 261.866a101.3 101.3 0 0 1-14.206 14.984l-13.905-16.179a80 80 0 0 0 11.215-11.829Z" fill="#f47560"/>
+  <path d="M266.05 276.85a101.33 101.33 0 0 1-83.941 22.891l3.766-20.998a80 80 0 0 0 66.27-18.072Z" fill="#f1e15b"/>
+  <path d="M200 72a128 128 0 0 1 16.989 1.132l-2.832 21.145A107 107 0 0 0 200 93.333Z" fill="#e8c1a0"/>
+  <path d="M216.989 73.132a128 128 0 0 1 40.006 12.257l-9.499 19.102a106.7 106.7 0 0 0-33.339-10.214Z" fill="#f47560"/>
+  <path d="M256.995 85.389a128 128 0 0 1-37.757 241.157l-3.206-21.091a106.667 106.667 0 0 0 31.464-200.964Z" fill="#f1e15b"/>
+  <path d="M200 45.333a154.667 154.667 0 0 1 154.612 158.784l-21.326-.568A133.333 133.333 0 0 0 200 66.667Z" fill="#e8c1a0"/>
+  <path d="M354.612 204.117a154.67 154.67 0 0 1-127.304 148.12l-3.767-20.998a133.33 133.33 0 0 0 109.745-127.69Z" fill="#f47560"/>
+  <path d="M227.308 352.237A154.667 154.667 0 0 1 45.333 200h21.334a133.333 133.333 0 0 0 156.874 131.239Z" fill="#f1e15b"/>
+</svg>

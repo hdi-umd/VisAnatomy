@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="587" height="180" aria-label="A chart." style="overflow:hidden">
+  <path fill="#fff" d="M0 0h587v40.992H0z"/>
+  <path d="M110 0v40.992M124.482 0v40.992M331.888 0v40.992M539.294 0v40.992" stroke="#e6e6e6" fill="none"/>
+  <path fill="#e6e6e6" d="M0 40.992h587v40.992H0z"/>
+  <path d="M110 40.992v40.992m14.482-40.992v40.992m207.406-40.992v40.992m207.406-40.992v40.992" stroke="#fff" fill="none"/>
+  <path fill="#fff" d="M0 81.984h587v40.992H0z"/>
+  <path d="M110 81.984v40.992m14.482-40.992v40.992m207.406-40.992v40.992m207.406-40.992v40.992" stroke="#e6e6e6" fill="none"/>
+  <path d="M0 40.992h587M0 81.984h587" stroke="#b7b7b7" fill="none"/>
+  <text text-anchor="end" x="97" y="25.046" font-family="Arial" font-size="13" stroke-width="0" fill="#4d4d4d">President</text>
+  <text text-anchor="end" x="97" y="66.038" font-family="Arial" font-size="13" stroke-width="0" fill="#4d4d4d">Vice President</text>
+  <text text-anchor="end" x="97" y="107.03" font-family="Arial" font-size="13" stroke-width="0" fill="#4d4d4d">Secretary of…</text>
+  <path stroke="#9a9a9a" fill="none" d="M0 0h587v122.976H0z"/>
+  <g text-anchor="middle" font-family="Arial" font-size="13" stroke-width="0">
+    <text x="331.888" y="144.026">1800</text>
+    <text x="539.294" y="144.026">1810</text>
+  </g>
+  <g/>
+  <path fill="#4285f4" d="M111 9h162.222v22.992H111z"/>
+  <text x="120" y="24.696" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">George Washington</text>
+  <path fill="#db4437" d="M273.222 9h82.917v22.992h-82.917z"/>
+  <text x="282.222" y="24.696" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">John Ada…</text>
+  <path fill="#f4b400" d="M356.139 9h165.948v22.992H356.139z"/>
+  <text x="365.139" y="24.696" font-family="Arial" font-size="12" stroke-width="0" fill="#202020">Thomas Jefferson</text>
+  <path fill="#db4437" d="M111 49.992h162.222v22.992H111z"/>
+  <text x="120" y="65.688" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">John Adams</text>
+  <path fill="#f4b400" d="M273.222 49.992h82.917v22.992h-82.917z"/>
+  <text x="282.222" y="65.688" font-family="Arial" font-size="12" stroke-width="0" fill="#202020">Thomas…</text>
+  <path fill="#0f9d58" d="M356.139 49.992h82.974v22.992h-82.974z"/>
+  <text x="365.139" y="65.688" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">Aaron Burr</text>
+  <path fill="#ab47bc" d="M439.112 49.992H587v22.992H439.112z"/>
+  <text x="448.112" y="65.688" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">George Clinton</text>
+  <path fill="#00acc1" d="M118.973 90.984h10.052v22.992h-10.052z"/>
+  <path fill="#f4b400" d="M129.025 90.984h78.374v22.992h-78.374z"/>
+  <text x="138.025" y="106.68" font-family="Arial" font-size="12" stroke-width="0" fill="#202020">Thomas…</text>
+  <path fill="#ff7043" d="M207.513 90.984h33.792v22.992h-33.792z"/>
+  <text x="216.513" y="106.68" font-family="Arial" font-size="12" stroke-width="0" fill="#202020">E..</text>
+  <path fill="#9e9d24" d="M241.304 90.984h98.024v22.992h-98.024z"/>
+  <text x="250.304" y="106.68" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">Timothy Pick…</text>
+  <path fill="#5c6bc0" d="M338.538 90.984h3v22.992h-3z"/>
+  <path fill="#f06292" d="M341.145 90.984h14.993v22.992h-14.993z"/>
+  <path fill="#00796b" d="M356.195 90.984h3.237v22.992h-3.237z"/>
+  <path fill="#c2185b" d="M359.489 90.984h162.54v22.992h-162.54z"/>
+  <text x="368.489" y="106.68" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">James Madison</text>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+</svg>

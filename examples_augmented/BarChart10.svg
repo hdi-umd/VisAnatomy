@@ -1,0 +1,180 @@
+<svg width="960" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(50,40)">
+<g class="legend">
+<text x="860" text-anchor="end">European Countries by</text>
+<text x="860" y="20" text-anchor="end" style="opacity: 0.5;">2016 Population Growth Rate (%)</text>
+</g>
+<g class="y-axis" transform="translate(294.93589743589746,0)">
+<line y1="0" y2="400"/>
+</g>
+<g class="x-axis" transform="translate(0,410)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+<path class="domain" stroke="#000" d="M0.5,0V0.5H860.5V0"/>
+<g class="tick" opacity="1" transform="translate(19.79487179487181,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">-1.0</text>
+</g>
+<g class="tick" opacity="1" transform="translate(74.92307692307692,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">-0.8</text>
+</g>
+<g class="tick" opacity="1" transform="translate(130.05128205128207,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">-0.6</text>
+</g>
+<g class="tick" opacity="1" transform="translate(185.17948717948718,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">-0.4</text>
+</g>
+<g class="tick" opacity="1" transform="translate(240.30769230769232,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">-0.2</text>
+</g>
+<g class="tick" opacity="1" transform="translate(295.43589743589746,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">0.0</text>
+</g>
+<g class="tick" opacity="1" transform="translate(350.56410256410254,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">0.2</text>
+</g>
+<g class="tick" opacity="1" transform="translate(405.69230769230774,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">0.4</text>
+</g>
+<g class="tick" opacity="1" transform="translate(460.8205128205128,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">0.6</text>
+</g>
+<g class="tick" opacity="1" transform="translate(515.9487179487179,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">0.8</text>
+</g>
+<g class="tick" opacity="1" transform="translate(571.0769230769231,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">1.0</text>
+</g>
+<g class="tick" opacity="1" transform="translate(626.2051282051282,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">1.2</text>
+</g>
+<g class="tick" opacity="1" transform="translate(681.3333333333333,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">1.4</text>
+</g>
+<g class="tick" opacity="1" transform="translate(736.4615384615385,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">1.6</text>
+</g>
+<g class="tick" opacity="1" transform="translate(791.5897435897435,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">1.8</text>
+</g>
+<g class="tick" opacity="1" transform="translate(846.7179487179487,0)">
+<line stroke="#000" y2="6"/>
+<text fill="#000" y="9" dy="0.71em">2.0</text>
+</g>
+</g>
+<g class="bars">
+<rect class="annual-growth" x="294.93589743589746" y="391.8533604887984" height="7.3319755600814664" width="565.0641025641025" style="fill: rgb(0, 68, 27);"/>
+<rect class="annual-growth" x="294.93589743589746" y="383.7067209775967" height="7.3319755600814664" width="380.38461538461536" style="fill: rgb(68, 154, 83);"/>
+<rect class="annual-growth" x="294.93589743589746" y="375.5600814663951" height="7.3319755600814664" width="330.7692307692307" style="fill: rgb(97, 176, 104);"/>
+<rect class="annual-growth" x="294.93589743589746" y="367.4134419551935" height="7.3319755600814664" width="322.5" style="fill: rgb(102, 180, 108);"/>
+<rect class="annual-growth" x="294.93589743589746" y="359.2668024439918" height="7.3319755600814664" width="300.4487179487179" style="fill: rgb(116, 189, 119);"/>
+<rect class="annual-growth" x="294.93589743589746" y="351.1201629327902" height="7.3319755600814664" width="294.93589743589746" style="fill: rgb(120, 191, 122);"/>
+<rect class="annual-growth" x="294.93589743589746" y="342.9735234215886" height="7.3319755600814664" width="253.58974358974365" style="fill: rgb(146, 206, 144);"/>
+<rect class="annual-growth" x="294.93589743589746" y="334.826883910387" height="7.3319755600814664" width="248.0769230769231" style="fill: rgb(149, 208, 147);"/>
+<rect class="annual-growth" x="294.93589743589746" y="326.6802443991853" height="7.3319755600814664" width="231.53846153846155" style="fill: rgb(159, 213, 155);"/>
+<rect class="annual-growth" x="294.93589743589746" y="318.5336048879837" height="7.3319755600814664" width="226.0256410256411" style="fill: rgb(162, 215, 158);"/>
+<rect class="annual-growth" x="294.93589743589746" y="310.3869653767821" height="7.3319755600814664" width="223.26923076923072" style="fill: rgb(163, 216, 159);"/>
+<rect class="annual-growth" x="294.93589743589746" y="302.2403258655804" height="7.3319755600814664" width="201.21794871794867" style="fill: rgb(175, 222, 170);"/>
+<rect class="annual-growth" x="294.93589743589746" y="294.0936863543788" height="7.3319755600814664" width="192.9487179487179" style="fill: rgb(179, 224, 174);"/>
+<rect class="annual-growth" x="294.93589743589746" y="285.9470468431772" height="7.3319755600814664" width="146.08974358974365" style="fill: rgb(201, 233, 195);"/>
+<rect class="annual-growth" x="294.93589743589746" y="277.8004073319756" height="7.3319755600814664" width="140.57692307692304" style="fill: rgb(203, 234, 197);"/>
+<rect class="annual-growth" x="294.93589743589746" y="269.6537678207739" height="7.3319755600814664" width="113.0128205128205" style="fill: rgb(213, 238, 208);"/>
+<rect class="annual-growth" x="294.93589743589746" y="261.5071283095723" height="7.3319755600814664" width="110.25641025641028" style="fill: rgb(214, 238, 210);"/>
+<rect class="annual-growth" x="294.93589743589746" y="253.36048879837065" height="7.3319755600814664" width="104.74358974358972" style="fill: rgb(216, 239, 212);"/>
+<rect class="annual-growth" x="294.93589743589746" y="245.21384928716904" height="7.3319755600814664" width="85.44871794871796" style="fill: rgb(223, 241, 219);"/>
+<rect class="annual-growth" x="294.93589743589746" y="237.0672097759674" height="7.3319755600814664" width="79.9358974358974" style="fill: rgb(224, 241, 220);"/>
+<rect class="annual-growth" x="294.93589743589746" y="228.9205702647658" height="7.3319755600814664" width="68.91025641025641" style="fill: rgb(227, 242, 224);"/>
+<rect class="annual-growth" x="294.93589743589746" y="220.77393075356414" height="7.3319755600814664" width="63.39743589743591" style="fill: rgb(229, 242, 226);"/>
+<rect class="annual-growth" x="294.93589743589746" y="212.62729124236253" height="7.3319755600814664" width="60.64102564102558" style="fill: rgb(230, 242, 226);"/>
+<rect class="annual-growth" x="294.93589743589746" y="204.4806517311609" height="7.3319755600814664" width="49.615384615384585" style="fill: rgb(232, 242, 229);"/>
+<rect class="annual-growth" x="294.93589743589746" y="196.33401221995928" height="7.3319755600814664" width="49.615384615384585" style="fill: rgb(232, 242, 229);"/>
+<rect class="annual-growth" x="294.93589743589746" y="188.18737270875764" height="7.3319755600814664" width="38.589743589743534" style="fill: rgb(234, 243, 232);"/>
+<rect class="annual-growth" x="294.93589743589746" y="180.040733197556" height="7.3319755600814664" width="19.294871794871824" style="fill: rgb(237, 242, 236);"/>
+<rect class="annual-growth" x="294.93589743589746" y="171.89409368635438" height="7.3319755600814664" width="19.294871794871824" style="fill: rgb(237, 242, 236);"/>
+<rect class="annual-growth" x="294.93589743589746" y="163.74745417515274" height="7.3319755600814664" width="2.75641025641022" style="fill: rgb(239, 240, 238);"/>
+<rect class="annual-growth" x="286.66666666666663" y="155.60081466395113" height="7.3319755600814664" width="8.26923076923083" style="fill: rgb(240, 239, 239);"/>
+<rect class="annual-growth" x="281.15384615384613" y="147.45417515274949" height="7.3319755600814664" width="13.782051282051327" style="fill: rgb(240, 238, 239);"/>
+<rect class="annual-growth" x="278.3974358974359" y="139.30753564154787" height="7.3319755600814664" width="16.538461538461547" style="fill: rgb(240, 238, 240);"/>
+<rect class="annual-growth" x="264.61538461538464" y="131.16089613034623" height="7.3319755600814664" width="30.320512820512818" style="fill: rgb(240, 235, 240);"/>
+<rect class="annual-growth" x="256.34615384615387" y="123.0142566191446" height="7.3319755600814664" width="38.58974358974359" style="fill: rgb(239, 233, 239);"/>
+<rect class="annual-growth" x="250.83333333333334" y="114.86761710794298" height="7.3319755600814664" width="44.102564102564116" style="fill: rgb(239, 232, 239);"/>
+<rect class="annual-growth" x="245.32051282051285" y="106.72097759674135" height="7.3319755600814664" width="49.61538461538461" style="fill: rgb(238, 230, 239);"/>
+<rect class="annual-growth" x="237.05128205128207" y="98.57433808553972" height="7.3319755600814664" width="57.88461538461539" style="fill: rgb(237, 228, 238);"/>
+<rect class="annual-growth" x="228.78205128205127" y="90.42769857433808" height="7.3319755600814664" width="66.15384615384619" style="fill: rgb(236, 226, 237);"/>
+<rect class="annual-growth" x="215" y="82.28105906313645" height="7.3319755600814664" width="79.93589743589746" style="fill: rgb(234, 221, 236);"/>
+<rect class="annual-growth" x="206.73076923076923" y="74.13441955193483" height="7.3319755600814664" width="88.20512820512823" style="fill: rgb(233, 219, 234);"/>
+<rect class="annual-growth" x="198.46153846153848" y="65.9877800407332" height="7.3319755600814664" width="96.47435897435898" style="fill: rgb(231, 216, 233);"/>
+<rect class="annual-growth" x="187.43589743589743" y="57.84114052953157" height="7.3319755600814664" width="107.50000000000003" style="fill: rgb(229, 212, 231);"/>
+<rect class="annual-growth" x="168.14102564102566" y="49.694501018329944" height="7.3319755600814664" width="126.7948717948718" style="fill: rgb(224, 205, 228);"/>
+<rect class="annual-growth" x="157.11538461538464" y="41.54786150712831" height="7.3319755600814664" width="137.82051282051282" style="fill: rgb(221, 201, 226);"/>
+<rect class="annual-growth" x="146.0897435897436" y="33.40122199592668" height="7.3319755600814664" width="148.84615384615387" style="fill: rgb(218, 196, 223);"/>
+<rect class="annual-growth" x="129.55128205128207" y="25.254582484725056" height="7.3319755600814664" width="165.3846153846154" style="fill: rgb(213, 190, 220);"/>
+<rect class="annual-growth" x="8.269230769230775" y="17.107942973523425" height="7.3319755600814664" width="286.6666666666667" style="fill: rgb(172, 136, 187);"/>
+<rect class="annual-growth" x="2.756410256410259" y="8.961303462321796" height="7.3319755600814664" width="292.1794871794872" style="fill: rgb(170, 133, 186);"/>
+<rect class="annual-growth" x="0" y="0.814663951120167" height="7.3319755600814664" width="294.93589743589746" style="fill: rgb(169, 132, 185);"/>
+</g>
+<g class="labels">
+<text class="bar-label" x="294.93589743589746" y="391.8533604887984" dx="-5" dy="7.3319755600814664" text-anchor="end">Luxembourg</text>
+<text class="bar-label" x="294.93589743589746" y="383.7067209775967" dx="-5" dy="7.3319755600814664" text-anchor="end">Cyprus</text>
+<text class="bar-label" x="294.93589743589746" y="375.5600814663951" dx="-5" dy="7.3319755600814664" text-anchor="end">Ireland</text>
+<text class="bar-label" x="294.93589743589746" y="367.4134419551935" dx="-5" dy="7.3319755600814664" text-anchor="end">Iceland</text>
+<text class="bar-label" x="294.93589743589746" y="359.2668024439918" dx="-5" dy="7.3319755600814664" text-anchor="end">Kazakhstan</text>
+<text class="bar-label" x="294.93589743589746" y="351.1201629327902" dx="-5" dy="7.3319755600814664" text-anchor="end">Norway</text>
+<text class="bar-label" x="294.93589743589746" y="342.9735234215886" dx="-5" dy="7.3319755600814664" text-anchor="end">Azerbaijan</text>
+<text class="bar-label" x="294.93589743589746" y="334.826883910387" dx="-5" dy="7.3319755600814664" text-anchor="end">Turkey</text>
+<text class="bar-label" x="294.93589743589746" y="326.6802443991853" dx="-5" dy="7.3319755600814664" text-anchor="end">Spain</text>
+<text class="bar-label" x="294.93589743589746" y="318.5336048879837" dx="-5" dy="7.3319755600814664" text-anchor="end">Liechtenstein</text>
+<text class="bar-label" x="294.93589743589746" y="310.3869653767821" dx="-5" dy="7.3319755600814664" text-anchor="end">Sweden</text>
+<text class="bar-label" x="294.93589743589746" y="302.2403258655804" dx="-5" dy="7.3319755600814664" text-anchor="end">Belgium</text>
+<text class="bar-label" x="294.93589743589746" y="294.0936863543788" dx="-5" dy="7.3319755600814664" text-anchor="end">Switzerland</text>
+<text class="bar-label" x="294.93589743589746" y="285.9470468431772" dx="-5" dy="7.3319755600814664" text-anchor="end">United Kingdom</text>
+<text class="bar-label" x="294.93589743589746" y="277.8004073319756" dx="-5" dy="7.3319755600814664" text-anchor="end">Austria</text>
+<text class="bar-label" x="294.93589743589746" y="269.6537678207739" dx="-5" dy="7.3319755600814664" text-anchor="end">France</text>
+<text class="bar-label" x="294.93589743589746" y="261.5071283095723" dx="-5" dy="7.3319755600814664" text-anchor="end">Netherlands</text>
+<text class="bar-label" x="294.93589743589746" y="253.36048879837065" dx="-5" dy="7.3319755600814664" text-anchor="end">Finland</text>
+<text class="bar-label" x="294.93589743589746" y="245.21384928716904" dx="-5" dy="7.3319755600814664" text-anchor="end">Albania</text>
+<text class="bar-label" x="294.93589743589746" y="237.0672097759674" dx="-5" dy="7.3319755600814664" text-anchor="end">Malta</text>
+<text class="bar-label" x="294.93589743589746" y="228.9205702647658" dx="-5" dy="7.3319755600814664" text-anchor="end" style="fill: blue;">European Union</text>
+<text class="bar-label" x="294.93589743589746" y="220.77393075356414" dx="-5" dy="7.3319755600814664" text-anchor="end">Italy</text>
+<text class="bar-label" x="294.93589743589746" y="212.62729124236253" dx="-5" dy="7.3319755600814664" text-anchor="end">Denmark</text>
+<text class="bar-label" x="294.93589743589746" y="204.4806517311609" dx="-5" dy="7.3319755600814664" text-anchor="end">Macedonia</text>
+<text class="bar-label" x="294.93589743589746" y="196.33401221995928" dx="-5" dy="7.3319755600814664" text-anchor="end">Monaco</text>
+<text class="bar-label" x="294.93589743589746" y="188.18737270875764" dx="-5" dy="7.3319755600814664" text-anchor="end">Czech Republic</text>
+<text class="bar-label" x="294.93589743589746" y="180.040733197556" dx="-5" dy="7.3319755600814664" text-anchor="end">Andorra</text>
+<text class="bar-label" x="294.93589743589746" y="171.89409368635438" dx="-5" dy="7.3319755600814664" text-anchor="end">Portugal</text>
+<text class="bar-label" x="294.93589743589746" y="163.74745417515274" dx="-5" dy="7.3319755600814664" text-anchor="end">Slovakia</text>
+<text class="bar-label" x="294.93589743589746" y="155.60081466395113" dx="5" dy="7.3319755600814664" text-anchor="start">Greece</text>
+<text class="bar-label" x="294.93589743589746" y="147.45417515274949" dx="5" dy="7.3319755600814664" text-anchor="start">Georgia</text>
+<text class="bar-label" x="294.93589743589746" y="139.30753564154787" dx="5" dy="7.3319755600814664" text-anchor="start">Russia</text>
+<text class="bar-label" x="294.93589743589746" y="131.16089613034623" dx="5" dy="7.3319755600814664" text-anchor="start">Poland</text>
+<text class="bar-label" x="294.93589743589746" y="123.0142566191446" dx="5" dy="7.3319755600814664" text-anchor="start">Bosnia and Herzegovina</text>
+<text class="bar-label" x="294.93589743589746" y="114.86761710794298" dx="5" dy="7.3319755600814664" text-anchor="start">Germany</text>
+<text class="bar-label" x="294.93589743589746" y="106.72097759674135" dx="5" dy="7.3319755600814664" text-anchor="start">Armenia</text>
+<text class="bar-label" x="294.93589743589746" y="98.57433808553972" dx="5" dy="7.3319755600814664" text-anchor="start">Belarus</text>
+<text class="bar-label" x="294.93589743589746" y="90.42769857433808" dx="5" dy="7.3319755600814664" text-anchor="start">Hungary</text>
+<text class="bar-label" x="294.93589743589746" y="82.28105906313645" dx="5" dy="7.3319755600814664" text-anchor="start">Slovenia</text>
+<text class="bar-label" x="294.93589743589746" y="74.13441955193483" dx="5" dy="7.3319755600814664" text-anchor="start">Romania</text>
+<text class="bar-label" x="294.93589743589746" y="65.9877800407332" dx="5" dy="7.3319755600814664" text-anchor="start">Montenegro</text>
+<text class="bar-label" x="294.93589743589746" y="57.84114052953157" dx="5" dy="7.3319755600814664" text-anchor="start">Ukraine</text>
+<text class="bar-label" x="294.93589743589746" y="49.694501018329944" dx="5" dy="7.3319755600814664" text-anchor="start">Serbia</text>
+<text class="bar-label" x="294.93589743589746" y="41.54786150712831" dx="5" dy="7.3319755600814664" text-anchor="start">Croatia</text>
+<text class="bar-label" x="294.93589743589746" y="33.40122199592668" dx="5" dy="7.3319755600814664" text-anchor="start">Estonia</text>
+<text class="bar-label" x="294.93589743589746" y="25.254582484725056" dx="5" dy="7.3319755600814664" text-anchor="start">Bulgaria</text>
+<text class="bar-label" x="294.93589743589746" y="17.107942973523425" dx="5" dy="7.3319755600814664" text-anchor="start">Moldova</text>
+<text class="bar-label" x="294.93589743589746" y="8.961303462321796" dx="5" dy="7.3319755600814664" text-anchor="start">Lithuania</text>
+<text class="bar-label" x="294.93589743589746" y="0.814663951120167" dx="5" dy="7.3319755600814664" text-anchor="start">Latvia</text>
+</g>
+</g>
+</svg>

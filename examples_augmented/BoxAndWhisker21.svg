@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="420">
+  <path fill="transparent" d="M0 0h320v420H0z"/>
+  <g stroke="#ddd">
+    <path d="M0 326h130M0 301h130M0 277h130M0 252h130M0 227h130M0 202h130M0 178h130M0 153h130M0 128h130M0 103h130M0 79h130M0 54h130M0 29h130M0 4h130" transform="translate(80 40)"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 380) translate(25)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 380) translate(25) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">Alpha</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 380) translate(66)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 380) translate(66) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">Beta</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 380) translate(107)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 380) translate(107) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">Gamma</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h130" transform="translate(80 380)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 326)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 326) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">3.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 301)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 301) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 277)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 277) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">4.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 252)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 252) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 227)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 227) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">5.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 202)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 202) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">6</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 178)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 178) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">6.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 153)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 153) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">7</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 128)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 128) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">7.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 103)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 103) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">8</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 79)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 79) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">8.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 54)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 54) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">9</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 29)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 29) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">9.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 4)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 4) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v340" transform="translate(80 40)"/>
+  <g data-key="boxplot.0.0" transform="translate(104.5 309)">
+    <rect x="-18.5" y="-47" width="37" height="71" rx="0" ry="0" fill="#e8c1a0"/>
+    <path stroke-width="3" stroke="#725F4E" d="M-18.5 0h37"/>
+    <path stroke-width="2" stroke="#e8c1a0" d="M0 24v47M0-47v-17"/>
+  </g>
+  <g data-key="boxplot.1.0" transform="translate(145.5 203)">
+    <rect x="-18.5" y="-49" width="37" height="78" rx="0" ry="0" fill="#e8c1a0"/>
+    <path stroke-width="3" stroke="#725F4E" d="M-18.5 0h37"/>
+    <path stroke-width="2" stroke="#e8c1a0" d="M0 29v11M0-49v-53"/>
+  </g>
+  <g data-key="boxplot.2.0" transform="translate(186.5 108)">
+    <rect x="-18.5" y="-34" width="37" height="87" rx="0" ry="0" fill="#e8c1a0"/>
+    <path stroke-width="3" stroke="#725F4E" d="M-18.5 0h37"/>
+    <path stroke-width="2" stroke="#e8c1a0" d="M0 53v36M0-34v-34"/>
+  </g>
+</svg>

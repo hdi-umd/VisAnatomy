@@ -1,0 +1,124 @@
+<svg height="200" width="600">
+	<g transform="translate(40,20)">
+		<g transform="translate(0,150)" class="x axis">
+			<g transform="translate(30,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif;" dy=".71em">ČSSD</text>
+			</g>
+			<g transform="translate(78,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">ANO 2011</text>
+			</g>
+			<g transform="translate(126,0)" style="opacity: 1;" class="tick"> 
+                <line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">KSČM</text>
+			</g>
+			<g transform="translate(174,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">TOP 09</text>
+			</g>
+			<g transform="translate(222,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">ODS</text>
+			</g>
+			<g transform="translate(270,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">Úsvit</text>
+			</g>
+			<g transform="translate(318,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">KDU-ČSL</text>
+			</g>
+			<g transform="translate(366,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">Zelení</text>
+			</g>
+			<g transform="translate(414,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">Piráti</text>
+			</g>
+			<g transform="translate(462,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">Svobodní</text>
+			</g>
+			<g transform="translate(510,0)" style="opacity: 1;" class="tick">
+				<line x2="0" y2="6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text x="0" y="9" style="text-anchor: middle; font: 10px sans-serif" dy=".71em">Ostatní</text>
+			</g>
+			<path d="M0,6V0H540V6" class="domain" style="display: none"></path>
+		</g>
+		<g class="y axis">
+			<g transform="translate(0,150)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">0%</text>
+			</g>
+			<g transform="translate(0,120)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">5%</text>
+			</g>
+			<g transform="translate(0,90)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">10%</text>
+			</g>
+			<g transform="translate(0,60)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">15%</text>
+			</g>
+			<g transform="translate(0,29.999999999999993)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">20%</text>
+			</g>
+			<g transform="translate(0,0)" style="opacity: 1;" class="tick">
+				<line y2="0" x2="-6" style="fill: none; stroke: #000; shape-rendering: crispEdges"></line>
+				<text y="0" x="-9" style="text-anchor: end; font: 10px sans-serif" dy=".32em">25%</text>
+			</g>
+			<path d="M-6,0H0V150H-6" class="domain" style="fill: none; stroke: #000; shape-rendering: crispEdges"></path>
+			<text style="text-anchor: end;" dy=".71em" y="6" transform="rotate(-90)"></text>
+		</g>
+		<rect title="2010: 22 %" height="132.48" y="17.520000000000003" width="36" x="4.8" class="bar old cssd" style="fill: DarkOrange" fill-opacity="0.33"></rect>
+		<rect title="2010: 0 %" height="0" y="150" width="36" x="52.8" class="bar old ano-2011" style="fill: CornflowerBlue" fill-opacity="0.33"></rect>
+		<rect title="2010: 11 %" height="67.61999999999999" y="82.38000000000001" width="36" x="100.8" class="bar old kscm" style="fill: DarkRed" fill-opacity="0.33"></rect>
+		<rect title="2010: 17 %" height="100.2" y="49.8" width="36" x="148.8" class="bar old top-09" style="fill: DarkViolet" fill-opacity="0.33"></rect>
+		<rect title="2010: 20 %" height="121.32" y="28.680000000000007" width="36" x="196.8" class="bar old ods" style="fill: Blue" fill-opacity="0.33"></rect>
+		<rect title="2010: 0 %" height="0" y="150" width="36" x="244.8" class="bar old usvit" style="fill: GreenYellow" fill-opacity="0.33"></rect>
+		<rect title="2010: 4 %" height="26.340000000000003" y="123.66" width="36" x="292.8" class="bar old kdu-csl" style="fill: Gold" fill-opacity="0.33"></rect>
+		<rect title="2010: 2 %" height="14.76000000000002" y="135.23999999999998" width="36" x="340.8" class="bar old zeleni" style="fill: Green" fill-opacity="0.33"></rect>
+		<rect title="2010: 1 %" height="4.800000000000011" y="145.2" width="36" x="388.8" class="bar old pirati" style="fill: Black" fill-opacity="0.33"></rect>
+		<rect title="2010: 1 %" height="4.319999999999993" y="145.68" width="36" x="436.8" class="bar old svobodni" style="fill: DarkGreen" fill-opacity="0.33"></rect>
+		<rect title="2010: 21 %" height="124.38000000000001" y="25.619999999999994" width="36" x="484.8" class="bar old ostatni" style="fill: Gray" fill-opacity="0.33"></rect>
+		<rect title="2013: 20 %" height="122.69999999999999" y="27.300000000000008" width="36" x="12" class="bar new cssd" style="fill: DarkOrange"></rect>
+		<rect title="2013: 19 %" height="111.9" y="38.1" width="36" x="60" class="bar new ano-2011" style="fill: CornflowerBlue"></rect>
+		<rect title="2013: 15 %" height="89.46000000000001" y="60.53999999999999" width="36" x="108" class="bar new kscm" style="fill: DarkRed"></rect>
+		<rect title="2013: 12 %" height="71.94" y="78.06" width="36" x="156" class="bar new top-09" style="fill: DarkViolet"></rect>
+		<rect title="2013: 8 %" height="46.31999999999999" y="103.68" width="36" x="204" class="bar new ods" style="fill: Blue"></rect>
+		<rect title="2013: 7 %" height="41.28" y="108.72" width="36" x="252" class="bar new usvit" style="fill: GreenYellow"></rect>
+		<rect title="2013: 7 %" height="40.67999999999999" y="109.32000000000001" width="36" x="300" class="bar new kdu-csl" style="fill: Gold"></rect>
+		<rect title="2013: 3 %" height="19.139999999999986" y="130.86" width="36" x="348" class="bar new zeleni" style="fill: Green"></rect>
+		<rect title="2013: 3 %" height="15.960000000000008" y="134.04" width="36" x="396" class="bar new pirati" style="fill: Black"></rect>
+		<rect title="2013: 2 %" height="14.76000000000002" y="135.23999999999998" width="36" x="444" class="bar new svobodni" style="fill: DarkGreen"></rect>
+		<rect title="2013: 4 %" height="25.86" y="124.14" width="36" x="492" class="bar new ostatni" style="fill: Gray"></rect>
+		<line class="limit-line" y2="120" x2="540" y1="120" x1="0" style="stroke: Black" width="3px"></line>
+		<text class="label" y="-2.479999999999997" x="24.545454545454547" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">20.45%</text>
+		<text class="label" y="18.1" x="73.63636363636364" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">18.65%</text>
+		<text class="label" y="40.53999999999999" x="122.72727272727273" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">14.91%</text>
+		<text class="label" y="29.799999999999997" x="171.8181818181818" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">11.99%</text>
+		<text class="label" y="8.680000000000007" x="220.90909090909093" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">7.72%</text>
+		<text class="label" y="88.72" x="270" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">6.88%</text>
+		<text class="label" y="89.32000000000001" x="319.0909090909091" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">6.78%</text>
+		<text class="label" y="110.86000000000001" x="368.1818181818182" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">3.19%</text>
+		<text class="label" y="114.03999999999999" x="417.2727272727273" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">2.66%</text>
+		<text class="label" y="115.23999999999998" x="466.36363636363643" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">2.46%</text>
+		<text class="label" y="5.619999999999994" x="515.4545454545455" text-anchor="middle" style="font: 8px sans-serif; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 75%; font-weight: bold; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em;">4.31%</text>
+		<text class="label2" y="7.520000000000003" x="24.545454545454547" text-anchor="middle" style="font: 7px sans-serif">(22.08%)</text>
+		<text class="label2" y="28.1" x="73.63636363636364" text-anchor="middle" style="font: 7px sans-serif">(0%)</text>
+		<text class="label2" y="50.53999999999999" x="122.72727272727273" text-anchor="middle" style="font: 7px sans-serif">(11.27%)</text>
+		<text class="label2" y="39.8" x="171.8181818181818" text-anchor="middle" style="font: 7px sans-serif">(16.7%)</text>
+		<text class="label2" y="18.680000000000007" x="220.90909090909093" text-anchor="middle" style="font: 7px sans-serif">(20.22%)</text>
+		<text class="label2" y="98.72" x="270" text-anchor="middle" style="font: 7px sans-serif">(0%)</text>
+		<text class="label2" y="99.32000000000001" x="319.0909090909091" text-anchor="middle" style="font: 7px sans-serif">(4.39%)</text>
+		<text class="label2" y="120.86000000000001" x="368.1818181818182" text-anchor="middle" style="font: 7px sans-serif">(2.46%)</text>
+		<text class="label2" y="124.03999999999999" x="417.2727272727273" text-anchor="middle" style="font: 7px sans-serif">(0.8%)</text>
+		<text class="label2" y="125.23999999999998" x="466.36363636363643" text-anchor="middle" style="font: 7px sans-serif">(0.72%)</text>
+		<text class="label2" y="15.619999999999994" x="515.4545454545455" text-anchor="middle" style="font: 7px sans-serif">(20.73%)</text>
+	</g>
+</svg>

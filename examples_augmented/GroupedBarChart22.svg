@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <g stroke="#ddd">
+    <path d="M43 0v380M121 0v380M199 0v380M277 0v380M355 0v380M433 0v380M511 0v380M589 0v380M667 0v380" transform="translate(80 60)"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(43)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(43) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">John</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(121)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(121) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Raoul</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(199)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(199) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Jane</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(277)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(277) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Marcel</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(355)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(355) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Ibrahim</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(433)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(433) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Junko</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(511)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(511) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Lyu</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(589)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(589) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">André</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 60) translate(667)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(80 60) translate(667) translate(0 -12)" style="font-family:sans-serif;font-size:11px;fill:#333">Maki</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h710" transform="translate(80 60)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 380)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 380) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">100%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 342)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 342) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">80%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 304)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 304) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">60%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 266)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 266) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">40%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 228)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 228) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">20%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 190)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 190) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">0%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 152)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 152) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">20%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 114)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 114) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">40%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 76)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 76) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">60%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60) translate(0 38)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(0 38) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">80%</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h5" transform="translate(790 60)"/>
+    <text dominant-baseline="central" transform="translate(790 60) translate(10)" style="font-family:sans-serif;font-size:11px;fill:#333">100%</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v380" transform="translate(790 60)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(43)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(43) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">John</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(121)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(121) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Raoul</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(199)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(199) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Jane</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(277)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(277) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Marcel</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(355)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(355) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Ibrahim</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(433)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(433) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Junko</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(511)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(511) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Lyu</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(589)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(589) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">André</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0" transform="translate(80 440) translate(667)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 440) translate(667) translate(0 12)" style="font-family:sans-serif;font-size:11px;fill:#333">Maki</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h710" transform="translate(80 440)"/>
+  <text transform="translate(80 440) translate(355 50)" text-anchor="middle" style="dominant-baseline:central;font-family:sans-serif;font-size:12px;fill:#333;outline-width:0;outline-color:transparent">USERS</text>
+  <g transform="translate(88 214)">
+    <rect width="16.75" height="36" rx="0" ry="0" fill="#61cdbb"/>
+    <text x="8.375" y="18" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">19</text>
+  </g>
+  <rect width="16.75" height="8" rx="0" ry="0" fill="#61cdbb" transform="translate(166 242)"/>
+  <g transform="translate(244 229)">
+    <rect width="16.75" height="21" rx="0" ry="0" fill="#61cdbb"/>
+    <text x="8.375" y="10.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">11</text>
+  </g>
+  <g transform="translate(322 223)">
+    <rect width="16.75" height="27" rx="0" ry="0" fill="#61cdbb"/>
+    <text x="8.375" y="13.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">14</text>
+  </g>
+  <rect width="16.75" height="2" rx="0" ry="0" fill="#61cdbb" transform="translate(400 248)"/>
+  <rect width="16.75" height="2" rx="0" ry="0" fill="#61cdbb" transform="translate(478 248)"/>
+  <rect width="16.75" height="8" rx="0" ry="0" fill="#61cdbb" transform="translate(556 242)"/>
+  <g transform="translate(634 229)">
+    <rect width="16.75" height="21" rx="0" ry="0" fill="#61cdbb"/>
+    <text x="8.375" y="10.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">11</text>
+  </g>
+  <rect width="16.75" height="13" rx="0" ry="0" fill="#61cdbb" transform="translate(712 237)"/>
+  <g transform="translate(105.75 183)">
+    <rect width="16.75" height="67" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="33.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">35</text>
+  </g>
+  <g transform="translate(183.75 109)">
+    <rect width="16.75" height="141" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="70.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">74</text>
+  </g>
+  <g transform="translate(261.75 201)">
+    <rect width="16.75" height="49" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="24.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">26</text>
+  </g>
+  <g transform="translate(339.75 208)">
+    <rect width="16.75" height="42" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="21" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">22</text>
+  </g>
+  <rect width="16.75" height="2" rx="0" ry="0" fill="#97e3d5" transform="translate(417.75 248)"/>
+  <g transform="translate(495.75 149)">
+    <rect width="16.75" height="101" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="50.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">53</text>
+  </g>
+  <g transform="translate(573.75 208)">
+    <rect width="16.75" height="42" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="21" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">22</text>
+  </g>
+  <g transform="translate(651.75 203)">
+    <rect width="16.75" height="47" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="23.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">25</text>
+  </g>
+  <g transform="translate(729.75 165)">
+    <rect width="16.75" height="85" rx="0" ry="0" fill="#97e3d5"/>
+    <text x="8.375" y="42.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">45</text>
+  </g>
+  <g transform="translate(123.5 250)">
+    <rect width="16.75" height="65" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="32.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">34</text>
+  </g>
+  <g transform="translate(201.5 250)">
+    <rect width="16.75" height="38" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="19" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">20</text>
+  </g>
+  <g transform="translate(279.5 250)">
+    <rect width="16.75" height="93" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="46.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">49</text>
+  </g>
+  <g transform="translate(357.5 250)">
+    <rect width="16.75" height="72" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="36" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">38</text>
+  </g>
+  <g transform="translate(435.5 250)">
+    <rect width="16.75" height="165" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="82.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">87</text>
+  </g>
+  <g transform="translate(513.5 250)">
+    <rect width="16.75" height="70" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="35" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">37</text>
+  </g>
+  <g transform="translate(591.5 250)">
+    <rect width="16.75" height="135" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="67.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">71</text>
+  </g>
+  <g transform="translate(669.5 250)">
+    <rect width="16.75" height="80" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="40" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">42</text>
+  </g>
+  <g transform="translate(747.5 250)">
+    <rect width="16.75" height="82" rx="0" ry="0" fill="#f47560"/>
+    <text x="8.375" y="41" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">43</text>
+  </g>
+  <g transform="translate(141.25 250)">
+    <rect width="16.75" height="23" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="11.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">12</text>
+  </g>
+  <rect width="16.75" height="4" rx="0" ry="0" fill="#e25c3b" transform="translate(219.25 250)"/>
+  <g transform="translate(297.25 250)">
+    <rect width="16.75" height="27" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="13.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">14</text>
+  </g>
+  <g transform="translate(375.25 250)">
+    <rect width="16.75" height="49" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="24.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">26</text>
+  </g>
+  <g transform="translate(453.25 250)">
+    <rect width="16.75" height="21" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="10.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">11</text>
+  </g>
+  <g transform="translate(531.25 250)">
+    <rect width="16.75" height="17" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="8.5" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">9</text>
+  </g>
+  <rect width="16.75" height="6" rx="0" ry="0" fill="#e25c3b" transform="translate(609.25 250)"/>
+  <g transform="translate(687.25 250)">
+    <rect width="16.75" height="42" rx="0" ry="0" fill="#e25c3b"/>
+    <text x="8.375" y="21" text-anchor="middle" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;outline-width:0;outline-color:transparent;pointer-events:none">22</text>
+  </g>
+  <rect width="16.75" height="10" rx="0" ry="0" fill="#e25c3b" transform="translate(765.25 250)"/>
+  <path style="stroke-opacity:0" d="M0 0h710" transform="translate(80 250)"/>
+  <text transform="translate(80 250) rotate(-90 -53 -67)" dominant-baseline="central" style="fill:#2ebca6">gain</text>
+  <path stroke="#000" style="stroke:#f47560;stroke-width:1" d="M0 0h710" transform="translate(80 250)"/>
+  <text transform="translate(80 250) rotate(-90 67 53)" text-anchor="end" dominant-baseline="central" style="fill:#e25c3b">loss</text>
+</svg>

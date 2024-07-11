@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="430" style="width:100%;height:100%;transform:translate3d(0,0,0);content-visibility:visible" viewBox="0 0 430 430">
+  <defs>
+    <clipPath id="a">
+      <path d="M0 0h430v430H0z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path d="M0 0h430v430H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <g clip-path="url(#b)" style="display:block">
+      <path fill="none" stroke="#F9C9C0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89" d="M0-15c3.97 0 7.582 1.546 10.266 4.068" class="quinary" style="display:block" transform="matrix(4 0 0 4 215 215)"/>
+      <path fill="none" stroke="#4BB3FD" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89" d="M0-22.5c12.418 0 22.5 10.082 22.5 22.5 0 2.426-.385 4.763-1.097 6.954" class="quaternary" style="display:block" transform="matrix(4 0 0 4 215 215)"/>
+      <path fill="none" stroke="#08A88A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89" d="M0-30c16.557 0 30 13.443 30 30S16.557 30 0 30q0 0 0 0" class="tertiary" style="display:block" transform="matrix(4 0 0 4 215 215)"/>
+      <path fill="none" stroke="#FFC738" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89" d="M0-37.5c20.696 0 37.5 16.804 37.5 37.5S20.696 37.5 0 37.5c-12.463 0-23.515-6.094-30.335-15.462" class="secondary" style="display:block" transform="matrix(4 0 0 4 215 215)"/>
+      <path fill="none" stroke="#92140C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89" d="M0-45c24.836 0 45 20.164 45 45S24.836 45 0 45-45 24.836-45 0c0-4.853.77-9.527 2.194-13.907" class="primary" style="display:block" transform="matrix(4 0 0 4 215 215)"/>
+      <path fill="#4BB3FD" d="M0-2a2.001 2.001 0 0 1 0 4 2.001 2.001 0 0 1 0-4" class="quaternary" style="display:block" transform="matrix(4 0 0 4 189.375 124.625)"/>
+      <path fill="#08A88A" d="M0-2a2.001 2.001 0 0 1 0 4 2.001 2.001 0 0 1 0-4" class="tertiary" style="display:block" transform="matrix(4 0 0 4 189.375 94.625)"/>
+      <path fill="#FFC738" d="M0-2a2.001 2.001 0 0 1 0 4 2.001 2.001 0 0 1 0-4" class="secondary" style="display:block" transform="matrix(4 0 0 4 189.375 64.625)"/>
+      <path fill="#92140C" d="M0-2a2.001 2.001 0 0 1 0 4 2.001 2.001 0 0 1 0-4" class="primary" style="display:block" transform="matrix(4 0 0 4 189.375 34.375)"/>
+      <path fill="#F9C9C0" d="M0-2a2.001 2.001 0 0 1 0 4 2.001 2.001 0 0 1 0-4" class="quinary" style="display:block" transform="matrix(4 0 0 4 189.375 153.875)"/>
+    </g>
+  </g>
+</svg>

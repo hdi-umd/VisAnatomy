@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="435" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m114.49 18.39h472.12v341.66h-472.12z" fill="#fff" stroke="#827f82" stroke-linecap="round" stroke-linejoin="round"/>
+ <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m114.49 360.05h472.12m-472.12-37.964h472.12m-472.12-37.958h472.12m-472.12-37.964h472.12m-472.12-37.964h472.12m-472.12-37.958h472.12m-472.12-37.964h472.12m-472.12-37.964h472.12m-472.12-37.958h472.12m-472.12-37.964h472.12"/>
+  <path d="m114.49 360.05h472.12m-472.12 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8438 5.6667v-5.6667m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8437 5.6667v-5.6667m6.8386 3v-3m6.8438 3v-3m6.8437 3v-3m6.8438 3v-3m6.8386 3v-3m6.8437 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 5.6667v-5.6667m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8437 3v-3m6.8438 3v-3m6.8385 5.6667v-5.6667m6.8437 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8437 3v-3m6.8438 3v-3m6.8386 3v-3m6.8437 3v-3m6.8438 3v-3m6.8438 5.6667v-5.6667m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 3v-3m6.8438 3v-3m6.8437 3v-3m6.8386 3v-3m6.8438 3v-3m6.8437 5.6667v-5.6667m6.8386 3v-3m6.8438 3v-3m6.8437 3v-3m6.8438 3v-3m6.8386 3v-3m6.8437 3v-3m6.8438 3v-3m6.8438 3v-3m6.8385 3v-3m6.8438 5.6667v-5.6667m6.8438 3v-3m6.8386 3v-3m6.8437 3v-3m6.8438 3v-3"/>
+  <path d="m114.49 360.05v-341.66m-5.6667 341.66h5.6667m-5.6667-37.964h5.6667m-5.6667-37.958h5.6667m-5.6667-37.964h5.6667m-5.6667-37.964h5.6667m-5.6667-37.958h5.6667m-5.6667-37.964h5.6667m-5.6667-37.964h5.6667m-5.6667-37.958h5.6667m-5.6667-37.964h5.6667"/>
+ </g>
+ <path d="m114.49 360.02 6.8436-0.0521 6.8384-0.0312 6.8436-0.28124 6.8436-0.91143 6.8436-0.97915 6.8384-1.0573 6.8436-3.0572 6.8436-2.4895 6.8384-4.0572 6.8436-5.4583 6.8436-9.6404 6.8436-14.052 6.8384-13.682 6.8436-37.603 6.8436-48.135 6.8384-27.265 6.8436-25.139 6.8436-19.682 6.8436-10.099 6.8384-12.724 6.8436-0.27604 6.8436-0.60414 6.8436 12.859 6.8384 15.254 6.8436 11.718 6.8436 1.3541 6.8384-5.2081 6.8436-10.015 6.8436-5.328 6.8436 7.729 6.8384 12.182 6.8436 2.8281 6.8436 8.531 6.8436 2.125 6.8384 0.2604 6.8436 6.802 6.8436 2.4426 6.8384-3.177 6.8436-1.1718 6.8436 0.6927 6.8436 0.3854 6.8384-1.9584 6.8436 2.8073 6.8436 7.505 6.8436 6.2602 6.8384 18.098 6.8436 40.239 6.8436 16.682 6.8384 4.0363 6.8436 0.5729 6.8436-0.81247 6.8436 0.81769 6.8384 1.302 6.8436 0.35417 6.8436 0.81768 6.8384 0.39062 6.8436 0.52081 6.8436 3.2655 6.8436 11.062 6.8384 1.5937 6.8436 3.8488 6.8436 16.281 6.8436 3.3072 6.8384 1.2187 6.8436 1.2344 6.8436 1.4218 6.8384 0.6302 6.8436 0.22395 6.8436-0.83331v36.139h-472.11z" fill="#00f" fill-opacity=".48235"/>
+ <path d="m114.49 360.02 6.8436-0.0521 6.8384-0.0312 6.8436-0.28124 6.8436-0.91143 6.8436-0.97915 6.8384-1.0573 6.8436-3.0572 6.8436-2.4895 6.8384-4.0572 6.8436-5.4583 6.8436-9.6404 6.8436-14.052 6.8384-13.682 6.8436-37.603 6.8436-48.135 6.8384-27.265 6.8436-25.139 6.8436-19.682 6.8436-10.099 6.8384-12.724 6.8436-0.27604 6.8436-0.60414 6.8436 12.859 6.8384 15.254 6.8436 11.718 6.8436 1.3541 6.8384-5.2081 6.8436-10.015 6.8436-5.328 6.8436 7.729 6.8384 12.182 6.8436 2.8281 6.8436 8.531 6.8436 2.125 6.8384 0.2604 6.8436 6.802 6.8436 2.4426 6.8384-3.177 6.8436-1.1718 6.8436 0.6927 6.8436 0.3854 6.8384-1.9584 6.8436 2.8073 6.8436 7.505 6.8436 6.2602 6.8384 18.098 6.8436 40.239 6.8436 16.682 6.8384 4.0363 6.8436 0.5729 6.8436-0.81247 6.8436 0.81769 6.8384 1.302 6.8436 0.35417 6.8436 0.81768 6.8384 0.39062 6.8436 0.52081 6.8436 3.2655 6.8436 11.062 6.8384 1.5937 6.8436 3.8488 6.8436 16.281 6.8436 3.3072 6.8384 1.2187 6.8436 1.2344 6.8436 1.4218 6.8384 0.6302 6.8436 0.22395 6.8436-0.83331" fill="none" stroke="#00f" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m141.85 360.03 6.8436-0.026 6.8384-0.15625 6.8436-0.18749 6.8436-0.53124 6.8384-0.22915 6.8436-0.38021 6.8436-1.7136 6.8436-1.776 6.8384-1.5416 6.8436-1.4062 6.8436-4.3958 6.8384-6.5676 6.8436-6.4842 6.8436-6.9321 6.8436-7.4634 6.8384-6.8436 6.8436-7.1925 6.8436-9.9372 6.8436-8.2758 6.8384-8.9686 6.8436-8.0831 6.8436-11.713 6.8384-10.031 6.8436-9.703 6.8436-10.687 6.8436-14.802 6.8384-22.245 6.8436-16.062 6.8436-14.333 6.8436-15.864 6.8384-18.27 6.8436-11.245 6.8436-10.177 6.8384-12.479 6.8436-12.869 6.8436-13.338 6.8436-11.974 6.8384 15.578 6.8436 11.911 6.8436 11.088 6.8436 15.926 6.8384 29.046 6.8436 18.374 6.8436 17.697 6.8384 23.259 6.8436 23.994 6.8436 16.984 6.8436 3.7968 6.8384 8.1509 6.8436 8.9582 6.8436 7.5936 6.8384 7.8643 6.8436 7.8801 6.8436 7.8853 6.8436 7.8801 6.8384 7.8801 6.8436 2.7082 6.8436 2.7135 6.8436 2.7082 6.8384 3.0521 6.8436 2.3697 6.8436 2.7082 6.8384 2.7187 6.8436 0.15104 6.8436 1.3697v32.645h-444.74z" fill="#f00" fill-opacity=".64314"/>
+ <path d="m141.85 360.03 6.8436-0.026 6.8384-0.15625 6.8436-0.18749 6.8436-0.53124 6.8384-0.22915 6.8436-0.38021 6.8436-1.7136 6.8436-1.776 6.8384-1.5416 6.8436-1.4062 6.8436-4.3958 6.8384-6.5676 6.8436-6.4842 6.8436-6.9321 6.8436-7.4634 6.8384-6.8436 6.8436-7.1925 6.8436-9.9372 6.8436-8.2758 6.8384-8.9686 6.8436-8.0831 6.8436-11.713 6.8384-10.031 6.8436-9.703 6.8436-10.687 6.8436-14.802 6.8384-22.245 6.8436-16.062 6.8436-14.333 6.8436-15.864 6.8384-18.27 6.8436-11.245 6.8436-10.177 6.8384-12.479 6.8436-12.869 6.8436-13.338 6.8436-11.974 6.8384 15.578 6.8436 11.911 6.8436 11.088 6.8436 15.926 6.8384 29.046 6.8436 18.374 6.8436 17.697 6.8384 23.259 6.8436 23.994 6.8436 16.984 6.8436 3.7968 6.8384 8.1509 6.8436 8.9582 6.8436 7.5936 6.8384 7.8643 6.8436 7.8801 6.8436 7.8853 6.8436 7.8801 6.8384 7.8801 6.8436 2.7082 6.8436 2.7135 6.8436 2.7082 6.8384 3.0521 6.8436 2.3697 6.8436 2.7082 6.8384 2.7187 6.8436 0.15104 6.8436 1.3697" fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m119.25 21.89h246.29v62.781h-246.29z" fill="#fff"/>
+ <path d="m129.24 27.817h20.667v20.666h-20.667z" fill="#00f" fill-opacity=".5"/>
+ <path d="m128.91 54.153h20.667v20.666h-20.667z" fill="#f00" fill-opacity=".6"/>
+ <g font-family="'Liberation Sans'" font-size="16">
+  <g text-anchor="end">
+   <switch transform="translate(100 24)">
+    <text systemLanguage="en,ja,zh"><tspan>45,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>45 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>45.000</tspan></text>
+    <text><tspan>45.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 62)">
+    <text systemLanguage="en,ja,zh"><tspan>40,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>40 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>40.000</tspan></text>
+    <text><tspan>40.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 100)">
+    <text systemLanguage="en,ja,zh"><tspan>35,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>35 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>35.000</tspan></text>
+    <text><tspan>35.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 138)">
+    <text systemLanguage="en,ja,zh"><tspan>30,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>30 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>30.000</tspan></text>
+    <text><tspan>30.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 175)">
+    <text systemLanguage="en,ja,zh"><tspan>25,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>25 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>25.000</tspan></text>
+    <text><tspan>25.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 213)">
+    <text systemLanguage="en,ja,zh"><tspan>20,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>20 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>20.000</tspan></text>
+    <text><tspan>20.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 251)">
+    <text systemLanguage="en,ja,zh"><tspan>15,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>15 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>15.000</tspan></text>
+    <text><tspan>15.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 289)">
+    <text systemLanguage="en,ja,zh"><tspan>10,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>10 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>10.000</tspan></text>
+    <text><tspan>10.000</tspan></text>
+   </switch>
+   <switch transform="translate(100 327)">
+    <text systemLanguage="en,ja,zh"><tspan>5,000</tspan></text>
+    <text systemLanguage="fr,no"><tspan>5 000</tspan></text>
+    <text systemLanguage="vi,de"><tspan>5.000</tspan></text>
+    <text><tspan>5.000</tspan></text>
+   </switch>
+   <text x="100" y="366"><tspan>0</tspan></text>
+  </g>
+  <g text-anchor="middle">
+   <text x="149" y="385"><tspan>1950</tspan></text>
+   <text x="217" y="385"><tspan>1960</tspan></text>
+   <text x="286" y="385"><tspan>1970</tspan></text>
+   <text x="354" y="385"><tspan>1980</tspan></text>
+   <text x="422" y="385"><tspan>1990</tspan></text>
+   <text x="491" y="385"><tspan>2000</tspan></text>
+   <text x="560" y="385"><tspan>2010</tspan></text>
+   <switch transform="translate(348 420)">
+    <text systemLanguage="af"><tspan>Jaar</tspan></text>
+    <text systemLanguage="ar"><tspan>عام</tspan></text>
+    <text systemLanguage="bg"><tspan>Година</tspan></text>
+    <text systemLanguage="bs"><tspan>Godina</tspan></text>
+    <text systemLanguage="ca"><tspan>Any</tspan></text>
+    <text systemLanguage="cs"><tspan>Rok</tspan></text>
+    <text systemLanguage="cy"><tspan>Blwyddyn</tspan></text>
+    <text systemLanguage="da"><tspan>År</tspan></text>
+    <text systemLanguage="de"><tspan>Jahr</tspan></text>
+    <text systemLanguage="es"><tspan>Año</tspan></text>
+    <text systemLanguage="fi"><tspan>Vuosi</tspan></text>
+    <text systemLanguage="fr"><tspan>Année</tspan></text>
+    <text systemLanguage="ga"><tspan>Bliain</tspan></text>
+    <text systemLanguage="gl"><tspan>Ano</tspan></text>
+    <text systemLanguage="he"><tspan>שנה</tspan></text>
+    <text systemLanguage="hi"><tspan>वर्ष</tspan></text>
+    <text systemLanguage="it"><tspan>Anno</tspan></text>
+    <text systemLanguage="ja"><tspan>年</tspan></text>
+    <text systemLanguage="ko"><tspan>년</tspan></text>
+    <text systemLanguage="ms"><tspan>Tahun</tspan></text>
+    <text systemLanguage="nl"><tspan>Jaar</tspan></text>
+    <text systemLanguage="no"><tspan>År</tspan></text>
+    <text systemLanguage="pl"><tspan>Rok</tspan></text>
+    <text systemLanguage="pt"><tspan>Ano</tspan></text>
+    <text systemLanguage="ru"><tspan>Год</tspan></text>
+    <text systemLanguage="sl"><tspan>Leto</tspan></text>
+    <text systemLanguage="sv"><tspan>År</tspan></text>
+    <text systemLanguage="uk"><tspan>Рік</tspan></text>
+    <text systemLanguage="ur"><tspan>سال</tspan></text>
+    <text systemLanguage="vi"><tspan>Năm</tspan></text>
+    <text systemLanguage="zh"><tspan>年</tspan></text>
+    <text systemLanguage="el"><tspan>Έτος</tspan></text>
+    <text systemLanguage="ast"><tspan>Añu</tspan></text>
+    <text systemLanguage="tr"><tspan>Yıl</tspan></text>
+    <text><tspan>Year</tspan></text>
+   </switch>
+   <switch transform="rotate(-90 112 80)">
+    <text systemLanguage="af"><tspan>Nommer van kernwapens</tspan></text>
+    <text systemLanguage="ar"><tspan>عدد الأسلحة النووية</tspan></text>
+    <text systemLanguage="bg"><tspan>Брой на ядрените оръжия</tspan></text>
+    <text systemLanguage="bs"><tspan>Broj nuklearnog oružja</tspan></text>
+    <text systemLanguage="ca"><tspan>Nombre de les armes nuclears</tspan></text>
+    <text systemLanguage="cs"><tspan>Počet jaderných zbraní</tspan></text>
+    <text systemLanguage="cy"><tspan>Nifer o arfau niwclear</tspan></text>
+    <text systemLanguage="da"><tspan>Antallet af atomvåben</tspan></text>
+    <text systemLanguage="de"><tspan>Zahl der Kernwaffen</tspan></text>
+    <text systemLanguage="es"><tspan>Número de las armas nucleares</tspan></text>
+    <text systemLanguage="fi"><tspan>Ydinaseet</tspan></text>
+    <text systemLanguage="fr"><tspan>Nombre d'armes nucléaires</tspan></text>
+    <text systemLanguage="ga"><tspan>Líon na n-arm núicléach</tspan></text>
+    <text systemLanguage="he"><tspan>מספר הנשק הגרעיני</tspan></text>
+    <text systemLanguage="hi"><tspan>परमाणु हथियारों की संख्या</tspan></text>
+    <text systemLanguage="it"><tspan>Numero delle armi nucleari</tspan></text>
+    <text systemLanguage="ja"><tspan>核兵器の数</tspan></text>
+    <text systemLanguage="ko"><tspan>핵무기의 수</tspan></text>
+    <text systemLanguage="ms"><tspan>Bilangan senjata nuklear</tspan></text>
+    <text systemLanguage="nl"><tspan>Aantal kernwapens</tspan></text>
+    <text systemLanguage="no"><tspan>Antall atomvåpen</tspan></text>
+    <text systemLanguage="pl"><tspan>Liczba głowic nuklearnych</tspan></text>
+    <text systemLanguage="pt"><tspan>Número de armas nucleares</tspan></text>
+    <text systemLanguage="ru"><tspan>Количество ядерного оружия</tspan></text>
+    <text systemLanguage="sl"><tspan>Število jedrskega orožja</tspan></text>
+    <text systemLanguage="sv"><tspan>Antalet kärnvapen</tspan></text>
+    <text systemLanguage="uk"><tspan>Кількість ядерної зброї</tspan></text>
+    <text systemLanguage="ur"><tspan>جوہری ہتھیاروں کی تعداد</tspan></text>
+    <text systemLanguage="vi"><tspan>Số lượng đầu đạn</tspan></text>
+    <text systemLanguage="zh"><tspan>核武器數量</tspan></text>
+    <text systemLanguage="el"><tspan>Αριθμός πυρηνικών κεφαλών</tspan></text>
+    <text systemLanguage="ast"><tspan>Númberu de cabeces nucleares</tspan></text>
+    <text systemLanguage="tr"><tspan>Savaş başlığı sayısı</tspan></text>
+    <text><tspan>Number of warheads</tspan></text>
+   </switch>
+  </g>
+  <switch transform="translate(154 70)">
+   <text systemLanguage="af"><tspan>USSR/Rusland</tspan></text>
+   <text systemLanguage="ar"><tspan>الاتحاد السوفياتي/اروسيا</tspan></text>
+   <text systemLanguage="bg"><tspan>СССР/Русия</tspan></text>
+   <text systemLanguage="bs"><tspan>SSSR/Rusija</tspan></text>
+   <text systemLanguage="ca"><tspan>URSS/Rússia</tspan></text>
+   <text systemLanguage="cs"><tspan>SSSR/Rusko</tspan></text>
+   <text systemLanguage="cy"><tspan>Undeb Sofietaidd/Rwsia</tspan></text>
+   <text systemLanguage="da"><tspan>Sovjetunionen/Rusland</tspan></text>
+   <text systemLanguage="de"><tspan>Sowjetunion/Russland</tspan></text>
+   <text systemLanguage="es"><tspan>URSS/Rusia</tspan></text>
+   <text systemLanguage="fi"><tspan>NL/Venäjä</tspan></text>
+   <text systemLanguage="fr"><tspan>URSS/Russie</tspan></text>
+   <text systemLanguage="ga"><tspan>APSS/An Rúis</tspan></text>
+   <text systemLanguage="he"><tspan>ברית המועצות/רוסיה</tspan></text>
+   <text systemLanguage="hi"><tspan>सोवियत संघ/रूस</tspan></text>
+   <text systemLanguage="it"><tspan>URSS/Russia</tspan></text>
+   <text systemLanguage="ja"><tspan>ソビエト連邦/ロシア</tspan></text>
+   <text systemLanguage="ko"><tspan>소련/러시아</tspan></text>
+   <text systemLanguage="ms"><tspan>KRSS/Rusia</tspan></text>
+   <text systemLanguage="nl"><tspan>Sovjet-Unie/Rusland</tspan></text>
+   <text systemLanguage="no"><tspan>Sovjetunionen</tspan></text>
+   <text systemLanguage="pl"><tspan>ZSRR/Rosja</tspan></text>
+   <text systemLanguage="pt"><tspan>URSS/Rússia</tspan></text>
+   <text systemLanguage="ru"><tspan>СССР/Россия</tspan></text>
+   <text systemLanguage="sl"><tspan>ZSSR/Rusija</tspan></text>
+   <text systemLanguage="sv"><tspan>Sovjet/Ryssland</tspan></text>
+   <text systemLanguage="uk"><tspan>СРСР/Росія</tspan></text>
+   <text systemLanguage="ur"><tspan>سوویت اتحاد/روس</tspan></text>
+   <text systemLanguage="vi"><tspan>Liên Xô/Nga</tspan></text>
+   <text systemLanguage="zh"><tspan>苏联/俄罗斯</tspan></text>
+   <text systemLanguage="el"><tspan>ΕΣΣΔ/Ρωσία</tspan></text>
+   <text systemLanguage="ast"><tspan>Xunión Soviética/Rusia</tspan></text>
+   <text systemLanguage="tr"><tspan>SSCB/Rusya</tspan></text>
+   <text><tspan>USSR/Russia</tspan></text>
+  </switch>
+  <switch transform="translate(155 45)">
+   <text systemLanguage="af"><tspan>Verenigde State</tspan></text>
+   <text systemLanguage="ar"><tspan>الولايات المتحدة</tspan></text>
+   <text systemLanguage="bg"><tspan>Съединени щати</tspan></text>
+   <text systemLanguage="bs"><tspan>Sjedinjene Države</tspan></text>
+   <text systemLanguage="ca"><tspan>Estats Units</tspan></text>
+   <text systemLanguage="cs"><tspan>Spojené státy</tspan></text>
+   <text systemLanguage="cy"><tspan>Unol Daleithiau</tspan></text>
+   <text systemLanguage="da"><tspan>USA</tspan></text>
+   <text systemLanguage="de"><tspan>Vereinigte Staaten</tspan></text>
+   <text systemLanguage="es"><tspan>Estados Unidos</tspan></text>
+   <text systemLanguage="fi"><tspan>Yhdysvallat</tspan></text>
+   <text systemLanguage="fr"><tspan>États-Unis</tspan></text>
+   <text systemLanguage="ga"><tspan>Stáit Aontaithe</tspan></text>
+   <text systemLanguage="he"><tspan>ארצות הברית</tspan></text>
+   <text systemLanguage="hi"><tspan>संयुक्त राज्य अमेरिका</tspan></text>
+   <text systemLanguage="it"><tspan>Stati Uniti</tspan></text>
+   <text systemLanguage="ja"><tspan>アメリカ合衆国</tspan></text>
+   <text systemLanguage="ko"><tspan>미국</tspan></text>
+   <text systemLanguage="ms"><tspan>Amerika Syarikat</tspan></text>
+   <text systemLanguage="nl"><tspan>Verenigde Staten</tspan></text>
+   <text systemLanguage="no"><tspan>USA</tspan></text>
+   <text systemLanguage="pl"><tspan>Stany Zjednoczone</tspan></text>
+   <text systemLanguage="pt"><tspan>Estados Unidos</tspan></text>
+   <text systemLanguage="ru"><tspan>Соединённые Штаты</tspan></text>
+   <text systemLanguage="sl"><tspan>Združene države</tspan></text>
+   <text systemLanguage="sv"><tspan>USA</tspan></text>
+   <text systemLanguage="uk"><tspan>Сполу́чені Шта́ти</tspan></text>
+   <text systemLanguage="ur"><tspan>ریاستہائے متحدہ امریکہ</tspan></text>
+   <text systemLanguage="vi"><tspan>Hoa Kỳ</tspan></text>
+   <text systemLanguage="zh"><tspan>美国</tspan></text>
+   <text systemLanguage="el"><tspan>Ηνωμένες Πολιτείες</tspan></text>
+   <text systemLanguage="ast"><tspan>Estaos Xuníos</tspan></text>
+   <text systemLanguage="tr"><tspan>ABD</tspan></text>
+   <text><tspan>United States</tspan></text>
+  </switch>
+ </g>
+</svg>

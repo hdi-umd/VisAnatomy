@@ -1,0 +1,108 @@
+<svg id="chart-donut" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" tabindex="0"
+  viewBox="0 0 500 484">
+  <title />
+  <style>
+    svg {
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 15px
+    }
+
+    #fizz_chart_frame {
+      fill: none;
+      stroke: none
+    }
+
+    .radial_label_right {
+      text-anchor: start
+    }
+
+    .radial_label_left {
+      text-anchor: end
+    }
+
+    .datapoint_background {
+      fill: none;
+      stroke: none;
+      pointer-events: all;
+      outline: none
+    }
+
+    .data_line {
+      fill: none;
+      stroke: hsl(270, 50%, 50%);
+      stroke-width: 3px;
+      stroke-linecap: round
+    }
+
+    .data_area {
+      stroke: hsl(270, 50%, 50%);
+      stroke-width: 3px;
+      stroke-linecap: round;
+      fill: none
+    }
+
+    .data_area_background {
+      stroke: none;
+      fill: hsl(270, 50%, 50%);
+      fill-opacity: 0.8
+    }
+
+    tspan.subtext {
+      font-size: 2rem;
+      text-anchor: middle
+    }
+
+    .chart_title {
+      font-size: 18px;
+      text-anchor: middle;
+      fill: black;
+    }
+
+    .radial_label {
+      fill: black;
+      stroke: none;
+      text-anchor: middle;
+      font-size: 13px;
+    }
+
+    .series_0 {
+      fill: hsl(312, 100%, 31%);
+      stroke: hsl(312, 100%, 31%);
+    }
+
+    .series_1 {
+      fill: hsl(176, 82%, 38%);
+      stroke: hsl(176, 82%, 38%);
+    }
+
+    .series_2 {
+      fill: hsl(78, 100%, 37%);
+      stroke: hsl(78, 100%, 37%);
+    }
+
+    .series_3 {
+      fill: hsl(358, 100%, 73%);
+      stroke: hsl(358, 100%, 73%);
+    }
+  </style>
+  <rect id="fizz_chart_frame" fill="none" pointer-events="all" x="0" y="0" width="500" height="484" />
+  <g tabindex="0"><text class="chart_title" transform="translate(250.00,29.40)">Pet Popularity</text>
+    <g>
+      <g tabindex="0" class="datapoint slice series_0 total">
+        <path d="M250,71 A186,186 0 0 1 376,393 L318,330 A100,100 1 0 0 250,157 Z" /><text
+          class="radial_label radial_label_right" transform="translate(434.1849511650114,184.79026832504286)">dog</text>
+      </g>
+      <g tabindex="0" class="datapoint slice series_1 total">
+        <path d="M376,393 A186,186 0 0 1 73,314 L155,287 A100,100 1 0 0 318,330 Z" /><text class="radial_label"
+          transform="translate(199.7531935981047,459.65867832500425)">cat</text></g>
+      <g tabindex="0" class="datapoint slice series_2 total">
+        <path d="M73,314 A186,186 0 0 1 132,113 L187,179 A100,100 1 0 0 155,287 Z" /><text
+          class="radial_label radial_label_left"
+          transform="translate(60.354127910804095,200.81494767821138)">fish</text></g>
+      <g tabindex="0" class="datapoint slice series_3 total">
+        <path d="M132,113 A186,186 0 0 1 250,71 L250,157 A100,100 1 0 0 187,179 Z" /><text
+          class="radial_label radial_label_left" transform="translate(183.579106888811,70.3424140389009)">other</text>
+      </g>
+    </g>
+  </g>
+</svg>

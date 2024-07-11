@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360">
+  <path fill="transparent" d="M0 0h900v360H0z"/>
+  <g stroke="#ddd">
+    <path d="M70 0v280M210 0v280M350 0v280M490 0v280M630 0v280" transform="translate(100 40)"/>
+  </g>
+  <g stroke="#ddd">
+    <path d="M0 23.333h700M0 70h700M0 116.667h700M0 163.333h700M0 210h700M0 256.667h700" transform="translate(100 40)"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(100 40) translate(70)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(100 40) translate(70) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">2000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(100 40) translate(210)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(100 40) translate(210) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">2001</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(100 40) translate(350)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(100 40) translate(350) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">2002</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(100 40) translate(490)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(100 40) translate(490) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">2003</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v-5" transform="translate(100 40) translate(630)"/>
+    <text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(100 40) translate(630) translate(0 -10)" style="font-family:sans-serif;font-size:11px;fill:#333">2004</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h700" transform="translate(100 40)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(100 320) translate(70)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(100 320) translate(70) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(100 320) translate(210)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(100 320) translate(210) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2001</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(100 320) translate(350)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(100 320) translate(350) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2002</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(100 320) translate(490)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(100 320) translate(490) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2003</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(100 320) translate(630)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(100 320) translate(630) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2004</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h700" transform="translate(100 320)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 23.333)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 23.333) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">1</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 70)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 70) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 116.667)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 116.667) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">3</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 163.333)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 163.333) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 210)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 210) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(100 40) translate(0 256.667)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(100 40) translate(0 256.667) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">6</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v280" transform="translate(100 40)"/>
+  <text data-testid="label.end.Serie 1" x="716" y="210" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#e8c1a0;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 1</text>
+  <text data-testid="label.end.Serie 2" x="716" y="116.667" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#f47560;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 2</text>
+  <text data-testid="label.end.Serie 3" x="716" y="70" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#f1e15b;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 3</text>
+  <text data-testid="label.end.Serie 4" x="716" y="23.333" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#e8a838;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 4</text>
+  <text data-testid="label.end.Serie 5" x="716" y="256.667" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#61cdbb;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 5</text>
+  <text data-testid="label.end.Serie 6" x="716" y="163.333" dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#97e3d5;outline-width:0;outline-color:transparent" transform="translate(100 40)">Serie 6</text>
+  <path data-testid="line.Serie 1" fill="none" d="M0 23.333h210c14 0 28 0 44.333 23.334 16.334 23.333 35 70 51.334 93.333C322 163.333 336 163.333 350 163.333s28 0 44.333-15.555c16.334-15.556 35-46.667 51.334-62.222C462 70 476 70 490 70s28 0 44.333 23.333c16.334 23.334 35 70 51.334 93.334C602 210 616 210 634.667 210H700" stroke="rgba(232, 193, 160, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 1.interactive" fill="none" d="M100 63.333h210c14 0 28 0 44.333 23.334 16.334 23.333 35 70 51.334 93.333C422 203.333 436 203.333 450 203.333s28 0 44.333-15.555c16.334-15.556 35-46.667 51.334-62.222C562 110 576 110 590 110s28 0 44.333 23.333c16.334 23.334 35 70 51.334 93.334C702 250 716 250 734.667 250H800"/>
+  <path data-testid="line.Serie 2" fill="none" d="M0 210h65.333c18.667 0 32.667 0 49 7.778 16.334 7.778 35 23.333 51.334 31.111C182 256.667 196 256.667 210 256.667s28 0 44.333-38.889c16.334-38.889 35-116.667 51.334-155.556C322 23.333 336 23.333 350 23.333s28 0 44.333 31.111c16.334 31.112 35 93.334 51.334 124.445C462 210 476 210 490 210s28 0 44.333-15.556c16.334-15.555 35-46.666 51.334-62.222 16.333-15.555 30.333-15.555 49-15.555H700" stroke="rgba(244, 117, 96, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 2.interactive" fill="none" d="M100 250h65.333c18.667 0 32.667 0 49 7.778 16.334 7.778 35 23.333 51.334 31.111C282 296.667 296 296.667 310 296.667s28 0 44.333-38.889c16.334-38.889 35-116.667 51.334-155.556C422 63.333 436 63.333 450 63.333s28 0 44.333 31.111c16.334 31.112 35 93.334 51.334 124.445C562 250 576 250 590 250s28 0 44.333-15.556c16.334-15.555 35-46.666 51.334-62.222 16.333-15.555 30.333-15.555 49-15.555H800"/>
+  <path data-testid="line.Serie 3" fill="none" d="M0 116.667h65.333c18.667 0 32.667 0 49 15.555 16.334 15.556 35 46.667 51.334 62.222C182 210 196 210 210 210h140c14 0 28 0 44.333-31.111 16.334-31.111 35-93.333 51.334-124.445C462 23.333 476 23.333 490 23.333s28 0 44.333 7.778c16.334 7.778 35 23.333 51.334 31.111C602 70 616 70 634.667 70H700" stroke="rgba(241, 225, 91, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 3.interactive" fill="none" d="M100 156.667h65.333c18.667 0 32.667 0 49 15.555 16.334 15.556 35 46.667 51.334 62.222C282 250 296 250 310 250h140c14 0 28 0 44.333-31.111 16.334-31.111 35-93.333 51.334-124.445C562 63.333 576 63.333 590 63.333s28 0 44.333 7.778c16.334 7.778 35 23.333 51.334 31.111C702 110 716 110 734.667 110H800"/>
+  <path data-testid="line.Serie 4" fill="none" d="M0 163.333h65.333c18.667 0 32.667 0 49-7.777 16.334-7.778 35-23.334 51.334-31.112C182 116.667 196 116.667 210 116.667h140c14 0 28 0 44.333 7.777 16.334 7.778 35 23.334 51.334 31.112C462 163.333 476 163.333 490 163.333s28 0 44.333-23.333c16.334-23.333 35-70 51.334-93.333C602 23.333 616 23.333 634.667 23.333H700" stroke="rgba(232, 168, 56, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 4.interactive" fill="none" d="M100 203.333h65.333c18.667 0 32.667 0 49-7.777 16.334-7.778 35-23.334 51.334-31.112C282 156.667 296 156.667 310 156.667h140c14 0 28 0 44.333 7.777 16.334 7.778 35 23.334 51.334 31.112C562 203.333 576 203.333 590 203.333s28 0 44.333-23.333c16.334-23.333 35-70 51.334-93.333C702 63.333 716 63.333 734.667 63.333H800"/>
+  <path data-testid="line.Serie 5" fill="none" d="M0 256.667h65.333c18.667 0 32.667 0 49-31.111 16.334-31.112 35-93.334 51.334-124.445C182 70 196 70 210 70h140c14 0 28 0 44.333 7.778 16.334 7.778 35 23.333 51.334 31.111C462 116.667 476 116.667 490 116.667s28 0 44.333 23.333c16.334 23.333 35 70 51.334 93.333 16.333 23.334 30.333 23.334 49 23.334H700" stroke="rgba(97, 205, 187, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 5.interactive" fill="none" d="M100 296.667h65.333c18.667 0 32.667 0 49-31.111 16.334-31.112 35-93.334 51.334-124.445C282 110 296 110 310 110h140c14 0 28 0 44.333 7.778 16.334 7.778 35 23.333 51.334 31.111C562 156.667 576 156.667 590 156.667s28 0 44.333 23.333c16.334 23.333 35 70 51.334 93.333 16.333 23.334 30.333 23.334 49 23.334H800"/>
+  <path data-testid="line.Serie 6" fill="none" d="M0 70h65.333C84 70 98 70 114.333 85.556c16.334 15.555 35 46.666 51.334 62.222C182 163.333 196 163.333 210 163.333s28 0 44.333 15.556c16.334 15.555 35 46.667 51.334 62.222C322 256.667 336 256.667 350 256.667h140c14 0 28 0 44.333-15.556 16.334-15.555 35-46.667 51.334-62.222 16.333-15.556 30.333-15.556 49-15.556H700" stroke="rgba(151, 227, 213, 1)" stroke-width="2" stroke-linecap="round" style="pointer-events:none" transform="translate(100 40)"/>
+  <path data-testid="line.Serie 6.interactive" fill="none" d="M100 110h65.333c18.667 0 32.667 0 49 15.556 16.334 15.555 35 46.666 51.334 62.222C282 203.333 296 203.333 310 203.333s28 0 44.333 15.556c16.334 15.555 35 46.667 51.334 62.222C422 296.667 436 296.667 450 296.667h140c14 0 28 0 44.333-15.556 16.334-15.555 35-46.667 51.334-62.222 16.333-15.556 30.333-15.556 49-15.556H800"/>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 63.333)"/>
+    <path fill="#fff" stroke="#e8c1a0" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 63.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 63.333)"/>
+    <path fill="#fff" stroke="#e8c1a0" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 63.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 203.333)"/>
+    <path fill="#fff" stroke="#e8c1a0" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 203.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 110)"/>
+    <path fill="#fff" stroke="#e8c1a0" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 110)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 250)"/>
+    <path fill="#fff" stroke="#e8c1a0" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 250)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 250)"/>
+    <path fill="#fff" stroke="#f47560" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 250)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 296.667)"/>
+    <path fill="#fff" stroke="#f47560" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 296.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 63.333)"/>
+    <path fill="#fff" stroke="#f47560" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 63.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 250)"/>
+    <path fill="#fff" stroke="#f47560" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 250)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 156.667)"/>
+    <path fill="#fff" stroke="#f47560" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 156.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 156.667)"/>
+    <path fill="#fff" stroke="#f1e15b" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 156.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 250)"/>
+    <path fill="#fff" stroke="#f1e15b" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 250)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 250)"/>
+    <path fill="#fff" stroke="#f1e15b" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 250)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 63.333)"/>
+    <path fill="#fff" stroke="#f1e15b" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 63.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 110)"/>
+    <path fill="#fff" stroke="#f1e15b" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 110)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 203.333)"/>
+    <path fill="#fff" stroke="#e8a838" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 203.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 156.667)"/>
+    <path fill="#fff" stroke="#e8a838" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 156.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 156.667)"/>
+    <path fill="#fff" stroke="#e8a838" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 156.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 203.333)"/>
+    <path fill="#fff" stroke="#e8a838" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 203.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 63.333)"/>
+    <path fill="#fff" stroke="#e8a838" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 63.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 296.667)"/>
+    <path fill="#fff" stroke="#61cdbb" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 296.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 110)"/>
+    <path fill="#fff" stroke="#61cdbb" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 110)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 110)"/>
+    <path fill="#fff" stroke="#61cdbb" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 110)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 156.667)"/>
+    <path fill="#fff" stroke="#61cdbb" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 156.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 296.667)"/>
+    <path fill="#fff" stroke="#61cdbb" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 296.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(170 110)"/>
+    <path fill="#fff" stroke="#97e3d5" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(170 110)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(310 203.333)"/>
+    <path fill="#fff" stroke="#97e3d5" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(310 203.333)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(450 296.667)"/>
+    <path fill="#fff" stroke="#97e3d5" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(450 296.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(590 296.667)"/>
+    <path fill="#fff" stroke="#97e3d5" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(590 296.667)"/>
+  </g>
+  <g style="pointer-events:none">
+    <path fill="rgba(0, 0, 0, .07)" d="M-14-6H8v22h-22z" transform="translate(730 203.333)"/>
+    <path fill="#fff" stroke="#97e3d5" stroke-width="2" d="M-10-10h20v20h-20z" transform="translate(730 203.333)"/>
+  </g>
+</svg>

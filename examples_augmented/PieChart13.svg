@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 205.7 230.6" style="enable-background:new 0 0 205.7 230.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#333333;stroke-width:0.3073;stroke-miterlimit:10;}
+	.st1{fill:#ABB8F0;}
+	.st2{fill:#F0F0F0;}
+	.st3{fill:#79B8F0;}
+	.st4{fill:none;stroke:#333333;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#79B8F0;stroke-miterlimit:10;stroke-dasharray:2,2;}
+	.st6{fill:none;stroke:#79B8F0;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#79B8F0;stroke-miterlimit:10;stroke-dasharray:1.9987,1.9987;}
+	.st8{fill:none;stroke:#333333;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#333333;stroke-width:1.2291;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#79B8F0;stroke-width:1.2291;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#79B8F0;stroke-width:1.2291;stroke-miterlimit:10;stroke-dasharray:2.4566,2.4566;}
+	.st12{fill:none;stroke:#79B8F0;stroke-width:1.2291;stroke-miterlimit:10;stroke-dasharray:2.4582,2.4582;}
+	.st13{fill:#333333;stroke:#333333;stroke-width:0.4648;stroke-miterlimit:10;}
+	.st14{opacity:0.19;fill:#ABB8F0;}
+	.st15{opacity:0.3;fill:#ABB8F0;}
+	.st16{opacity:0.58;fill:#ABB8F0;}
+	.st17{fill:#FFFFFF;}
+	.st18{fill:none;stroke:#808080;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#F2F2F2;stroke-miterlimit:10;}
+	.st20{fill:#00ABFF;}
+	.st21{fill:#798CF0;}
+	.st22{fill:#79B88D;}
+	.st23{fill:none;stroke:#00ABFF;stroke-miterlimit:10;}
+	.st24{fill:#333333;}
+	.st25{font-family: 'Roboto', sans-serif; font-weight:300;}
+	.st26{font-size:11px;}
+	.st27{font-size:10px;}
+</style>
+<g id="Layer_1">
+	<g>
+		<g>
+			<path class="st12" d="M102.3,20.2c54.6,0,98.9,44.3,98.9,98.9S156.9,218,102.3,218c-54.6,0-98.9-44.3-98.9-98.9     c0-44.3,29.1-81.7,69.1-94.4"/>
+			<g>
+				<polygon class="st3" points="70.4,30.1 71,25.2 67.9,21.3 79.5,22.8     "/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 112.7088 15.1787)" class="st24 st25 st26">Start</text>
+	<text transform="matrix(1 0 0 1 64.4646 15.1787)" class="st24 st25 st26">Finish</text>
+	<polygon class="st3" points="96.6,5 109.2,5 102.9,17.2  "/>
+	<line class="st10" x1="102.9" y1="15.2" x2="102.9" y2="24.5"/>
+	<g>
+		<path class="st2" d="M73.8,34.6c-16.6,5.6-31,15.9-41.6,29.4l67.7,51.1L73.8,34.6z"/>
+		<path class="st2" d="M101.7,30c-9,0.1-17.4,1.4-25.5,3.9l25.5,78.9V30z"/>
+		<path class="st1" d="M30.7,65.9c-11,14.8-17.6,33.2-17.6,53.1c0,26.1,11.2,49.6,29.1,65.9l58.9-65.8L30.7,65.9z"/>
+		<path class="st3" d="M103.7,30v89.1c0,0.3,0.1,0.6-0.1,0.8l-59.7,66.7c15.6,13.5,36,21.6,58.2,21.6c49.2,0,88.9-39.9,88.9-89.1    C191.1,70.5,151.7,31,103.7,30z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 135.9988 125.4492)"><tspan x="0" y="0" class="st24 st25 st27">largest</tspan><tspan x="0" y="11.8" class="st24 st25 st27">sector</tspan></text>
+	<text transform="matrix(1 0 0 1 27.4265 125.4492)" class="st24 st25 st27">2nd sector</text>
+	<text transform="matrix(1 0 0 1 61.0857 71.3682)" class="st24 st25 st27">3th</text>
+	<text transform="matrix(1 0 0 1 85.3357 52.0537)" class="st24 st25 st27">4th</text>
+</g>
+<g id="ai2html-settings">
+</g>
+</svg>

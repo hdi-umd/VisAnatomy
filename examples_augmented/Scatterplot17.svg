@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <g transform="translate(80 24)">
+    <g stroke="#ddd">
+      <path d="M0 0v396M61 0v396M122 0v396M184 0v396M245 0v396M306 0v396M367 0v396M429 0v396M490 0v396M551 0v396M612 0v396M674 0v396M735 0v396M796 0v396"/>
+    </g>
+    <g stroke="#ddd">
+      <path d="M0 396h796M0 352h796M0 308h796M0 264h796M0 220h796M0 176h796M0 132h796M0 88h796M0 44h796M0 0h796"/>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 0</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(61)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(61) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 1</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(122)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(122) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 2</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(184)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(184) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 3</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(245)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(245) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 4</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(306)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(306) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 5</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(367)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(367) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 6</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(429)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(429) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 7</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(490)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(490) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 8</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(551)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(551) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 9</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(612)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(612) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 10</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(674)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(674) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 11</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(735)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(735) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 12</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 396) translate(796)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 396) translate(796) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 13</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0h796" transform="translate(0 396)"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 396)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 396) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">0 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 352)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 352) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">1 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 308)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 308) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">2 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 264)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 264) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">3 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 220)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 220) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">4 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 176)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 176) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">5 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 132)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 132) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">6 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 88)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 88) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">7 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 44)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 44) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">8 kg</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">9 kg</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0v396"/>
+    <circle cy="308" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="304" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="295" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="286" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="277" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="268" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="264" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="255" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="251" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="242" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="238" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="229" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="224" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cx="796" cy="220" r="5" fill="#e8c1a0" style="mix-blend-mode:multiply"/>
+    <circle cy="255" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="251" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="238" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="229" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="216" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="207" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="194" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="185" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="176" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="167" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="158" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="154" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="145" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cx="796" cy="141" r="5" fill="#f47560" style="mix-blend-mode:multiply"/>
+    <circle cy="185" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="172" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="158" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="145" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="128" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="110" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="97" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="84" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="75" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="62" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="53" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="40" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="31" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cx="796" cy="22" r="5" fill="#f1e15b" style="mix-blend-mode:multiply"/>
+    <circle cy="286" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="282" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="273" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="260" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="251" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="242" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="229" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="220" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="211" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="202" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="198" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="189" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="180" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cx="796" cy="176" r="5" fill="#e8a838" style="mix-blend-mode:multiply"/>
+    <circle cy="251" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="242" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="229" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="216" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="202" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="189" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="180" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="167" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="158" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="150" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="141" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="132" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="123" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cx="796" cy="114" r="5" fill="#61cdbb" style="mix-blend-mode:multiply"/>
+    <circle cy="176" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="61" cy="163" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="122" cy="150" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="184" cy="132" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="245" cy="114" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="306" cy="97" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="367" cy="79" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="429" cy="66" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="490" cy="53" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="551" cy="44" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="612" cy="31" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="674" cy="22" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="735" cy="9" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <circle cx="796" r="5" fill="#97e3d5" style="mix-blend-mode:multiply"/>
+    <g/>
+    <g style="opacity:1" transform="translate(0 444)">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#e8c1a0" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">girls low</text>
+    </g>
+    <g transform="translate(130 444)" style="opacity:1">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#f47560" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">girls med</text>
+    </g>
+    <g transform="translate(260 444)" style="opacity:1">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#f1e15b" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">girls high</text>
+    </g>
+    <g transform="translate(390 444)" style="opacity:1">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#e8a838" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">boys low</text>
+    </g>
+    <g transform="translate(520 444)" style="opacity:1">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#61cdbb" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">boys med</text>
+    </g>
+    <g transform="translate(650 444)" style="opacity:1">
+      <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+      <circle r="6" cx="6" cy="6" fill="#97e3d5" opacity="1" style="pointer-events:none"/>
+      <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">boys high</text>
+    </g>
+  </g>
+</svg>

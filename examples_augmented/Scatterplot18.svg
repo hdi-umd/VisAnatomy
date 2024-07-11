@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <g stroke="#ddd">
+    <path d="M0 0v396M66 0v396M133 0v396M199 0v396M265 0v396M332 0v396M398 0v396M464 0v396M531 0v396M597 0v396M663 0v396M730 0v396M796 0v396" transform="translate(80 24)"/>
+  </g>
+  <g stroke="#ddd">
+    <path d="M0 396h796M0 349h796M0 303h796M0 256h796M0 210h796M0 163h796M0 116h796M0 70h796M0 23h796" transform="translate(80 24)"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(66)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(66) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 0.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(133)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(133) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 1</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(199)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(199) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 1.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(265)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(265) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(332)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(332) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 2.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(398)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(398) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 3</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(464)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(464) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 3.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(531)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(531) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(597)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(597) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 4.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(663)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(663) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(730)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(730) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 5.5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 420) translate(796)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 420) translate(796) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">week 6</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h796" transform="translate(80 420)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 396)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 396) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">0 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 349)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 349) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">2 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 303)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 303) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">4 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 256)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 256) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">6 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 210)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 210) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">8 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 163)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 163) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">10 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 116)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 116) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">12 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 70)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 70) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">14 kg</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 24) translate(0 23)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 24) translate(0 23) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">16 kg</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v396" transform="translate(80 24)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(80 373)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(213 327)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(345 210)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(478 257)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(611 71)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(743 140)"/>
+  <circle r="16" fill="#66c2a5" style="mix-blend-mode:multiply" transform="translate(876 210)"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 -439.22 295.069)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 -260.46 409.114)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 -137.727 544.952)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 -183.488 751.997)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 52.007 842.543)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 342.53 908.88)" d="M-16-16h32v32h-32z"/>
+  <path fill="#fc8d62" style="mix-blend-mode:multiply" transform="rotate(45 71.04 1209.426)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(80 420)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(213 257)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(345 234)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(478 164)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(611 234)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(743 350)" d="M-16-16h32v32h-32z"/>
+  <path fill="#8da0cb" style="mix-blend-mode:multiply" transform="translate(876 397)" d="M-16-16h32v32h-32z"/>
+  <g transform="translate(80 24)"/>
+  <g style="opacity:1" transform="translate(80 468)">
+    <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+    <circle r="6" cx="6" cy="6" fill="#66c2a5" opacity="1" style="pointer-events:none"/>
+    <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">A</text>
+  </g>
+  <g transform="translate(210 468)" style="opacity:1">
+    <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+    <circle r="6" cx="6" cy="6" fill="#fc8d62" opacity="1" style="pointer-events:none"/>
+    <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">B</text>
+  </g>
+  <g transform="translate(340 468)" style="opacity:1">
+    <path fill="transparent" style="cursor:auto" d="M0 0h130v12H0z"/>
+    <circle r="6" cx="6" cy="6" fill="#8da0cb" opacity="1" style="pointer-events:none"/>
+    <text x="20" y="6" style="font-family:sans-serif;font-size:11px;fill:#333;dominant-baseline:central;pointer-events:none;user-select:none">C</text>
+  </g>
+</svg>

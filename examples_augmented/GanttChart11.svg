@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04">
+  <defs>
+    <style>
+      .cls-8{font-size:3.1px;font-family:Usual-Regular,Usual}
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <path style="fill:#653860" d="M27.34 20.14v5.05h33.24l1.74-2.59-1.74-2.46z"/>
+    <path style="fill:#a9869e" d="M11.91 51.01v5.05h53.21l1.74-2.42-1.74-2.63z"/>
+    <path style="fill:#441344" d="M30.25 48.34h19.92l1.74-2.54-1.74-2.51H30.25z"/>
+    <path style="fill:#875e7e" d="M11.91 35.57v5.05h42.17l1.74-2.67-1.74-2.37z"/>
+    <path style="fill:#cab0c0" d="m68.46 30.44-1.74-2.58H46.65v5.05h20.07z"/>
+    <path d="M17.33 17.62v45.83m17.66-45.83v45.83m17.65-45.83v45.83M70.3 17.62v45.83" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.5px;stroke-dasharray:0 2.04"/>
+    <text class="cls-8" transform="translate(14.28 68.84)">JAN</text>
+    <text class="cls-8" transform="translate(32 68.84)">FEB</text>
+    <text class="cls-8" transform="translate(48.97 68.84)">MAR</text>
+    <text class="cls-8" transform="translate(66.53 68.84)">APR</text>
+  </g>
+</svg>

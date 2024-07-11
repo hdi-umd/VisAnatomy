@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360">
+  <path fill="transparent" d="M0 0h900v360H0z"/>
+  <path d="M80 294h740M80 269h740M80 244h740M80 220h740M80 195h740M80 170h740M80 145h740M80 120h740M80 96h740M80 71h740" stroke="#ddd"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 310)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(129.333 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(129.333 310)" style="font-family:sans-serif;font-size:11px;fill:#333">1</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(178.667 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(178.667 310)" style="font-family:sans-serif;font-size:11px;fill:#333">2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(228 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(228 310)" style="font-family:sans-serif;font-size:11px;fill:#333">3</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(277.333 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(277.333 310)" style="font-family:sans-serif;font-size:11px;fill:#333">4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(326.667 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(326.667 310)" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(376 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(376 310)" style="font-family:sans-serif;font-size:11px;fill:#333">6</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(425.333 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(425.333 310)" style="font-family:sans-serif;font-size:11px;fill:#333">7</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(474.667 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(474.667 310)" style="font-family:sans-serif;font-size:11px;fill:#333">8</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(524 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(524 310)" style="font-family:sans-serif;font-size:11px;fill:#333">9</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(573.333 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(573.333 310)" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(622.667 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(622.667 310)" style="font-family:sans-serif;font-size:11px;fill:#333">11</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(672 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(672 310)" style="font-family:sans-serif;font-size:11px;fill:#333">12</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(721.333 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(721.333 310)" style="font-family:sans-serif;font-size:11px;fill:#333">13</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(770.667 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(770.667 310)" style="font-family:sans-serif;font-size:11px;fill:#333">14</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(820 300)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(820 310)" style="font-family:sans-serif;font-size:11px;fill:#333">15</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h740" transform="translate(80 300)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 294)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 294)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 269)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 269)" style="font-family:sans-serif;font-size:11px;fill:#333">100</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 244)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 244)" style="font-family:sans-serif;font-size:11px;fill:#333">200</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 220)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 220)" style="font-family:sans-serif;font-size:11px;fill:#333">300</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 195)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 195)" style="font-family:sans-serif;font-size:11px;fill:#333">400</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 170)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 170)" style="font-family:sans-serif;font-size:11px;fill:#333">500</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 145)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 145)" style="font-family:sans-serif;font-size:11px;fill:#333">600</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 120)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 120)" style="font-family:sans-serif;font-size:11px;fill:#333">700</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 96)" style="font-family:sans-serif;font-size:11px;fill:#333">800</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 71)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(70 71)" style="font-family:sans-serif;font-size:11px;fill:#333">900</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v240" transform="translate(80 60)"/>
+  <path d="M80 252h24.667v-8H154v-17h49.333v-2h49.334v-16H302v33h49.333v-27h49.334v32H450v24h49.333v-30h49.334v-3H598v16h49.333v-1h49.334v-13H746v3h49.333v4H820v28h-24.667v17H746v-9h-49.333v3h-49.334v13H598v-31h-49.333v3h-49.334v29H450v-16h-49.333v-21h-49.334v-1H302v-19h-49.333v22h-49.334v-24H154v16h-49.333v37H80Z" fill="rgba(232, 193, 160, 1)"/>
+  <path d="M80 230h24.667v-31H154v-5h49.333v6h49.334v6H302v-12h49.333v3h49.334v22H450v24h49.333v-29h49.334v-19H598v26h49.333v4h49.334v-3H746v-13h49.333v5H820v33h-24.667v-4H746v-3h-49.333v13h-49.334v1H598v-16h-49.333v3h-49.334v30H450v-24h-49.333v-32h-49.334v27H302v-33h-49.333v16h-49.334v2H154v17h-49.333v8H80Z" fill="rgba(244, 117, 96, 1)"/>
+  <path d="M80 185h24.667v2H154v-3h49.333v-9h49.334v23H302v-16h49.333v3h49.334v5H450v7h49.333v-16h49.334v2H598v-11h49.333v7h49.334v-6H746v19h49.333v-5H820v27h-24.667v-5H746v13h-49.333v3h-49.334v-4H598v-26h-49.333v19h-49.334v29H450v-24h-49.333v-22h-49.334v-3H302v12h-49.333v-6h-49.334v-6H154v5h-49.333v31H80Z" fill="rgba(241, 225, 91, 1)"/>
+  <path d="M80 136h24.667v21H154v-6h49.333v9h49.334v-6H302v-6h49.333v14h49.334v-9H450v-4h49.333v25h49.334v-2H598v-35h98.667v13H746v13h49.333v-14H820v38h-24.667v5H746v-19h-49.333v6h-49.334v-7H598v11h-49.333v-2h-49.334v16H450v-7h-49.333v-5h-49.334v-3H302v16h-49.333v-23h-49.334v9H154v3h-49.333v-2H80Z" fill="rgba(232, 168, 56, 1)"/>
+  <path d="M80 97h24.667v24H154v17h49.333v-17h49.334v16H302v-11h49.333v33h49.334v-27H450v-28h49.333v31h49.334v13H598v-18h49.333v-14h49.334v20H746v-22h49.333v16H820v19h-24.667v14H746v-13h-49.333v-13H598v35h-49.333v2h-49.334v-25H450v4h-49.333v9h-49.334v-14H302v6h-49.333v6h-49.334v-9H154v6h-49.333v-21H80Z" fill="rgba(97, 205, 187, 1)"/>
+  <path d="M80 91h24.667V75H154v37h49.333v-12h49.334v32H302v-24h49.333v35h49.334V90H450V60h49.333v37h49.334v22H598V86h49.333v10h49.334v16H746V92h49.333v9H820v29h-24.667v-16H746v22h-49.333v-20h-49.334v14H598v18h-49.333v-13h-49.334v-31H450v28h-49.333v27h-49.334v-33H302v11h-49.333v-16h-49.334v17H154v-17h-49.333V97H80Z" fill="rgba(151, 227, 213, 1)"/>
+  <path fill="none" d="M60 60h40v240H60zm49.333 0h40v240h-40zm49.334 0h40v240h-40zM208 60h40v240h-40zm49.333 0h40v240h-40zm49.334 0h40v240h-40zM356 60h40v240h-40zm49.333 0h40v240h-40zm49.334 0h40v240h-40zM504 60h40v240h-40zm49.333 0h40v240h-40zm49.334 0h40v240h-40zM652 60h40v240h-40zm49.333 0h40v240h-40zm49.334 0h40v240h-40zM800 60h40v240h-40z"/>
+</svg>

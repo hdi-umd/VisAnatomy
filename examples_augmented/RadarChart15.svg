@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682.4 502.8">
+  <circle cx="368.7" cy="234.7" r="20" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="40" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="60" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="80" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="100" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="120" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="140" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="160" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="180" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <circle cx="368.7" cy="234.7" r="200" fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5"/>
+  <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".5" d="M368.7 234.7V30.9"/>
+  <path fill="none" stroke="#999c9e" stroke-miterlimit="10" stroke-width=".5" d="M368.7 234.7V30.9m0 203.8L280.2 51.1m88.1 183.6L209 107.6m159 127.1-198.7-45.4M368 234.7 169.3 280m199.1-45.3L209 361.7m159.7-127-88.5 183.6m88.5-183.6-.1 203.8m.1-203.8 88.4-183.6M369 234.7l159.4-127.1m-159 127.1 198.7-45.4m-198.8 45.4L568.1 280M369 234.7l159.4 127.1M368.7 234.7l88.5 183.6"/>
+  <text transform="translate(325.2 13.7)" font-size="16" fill="#333" font-family="ArialMT, Arial">Self-e<tspan x="41.8" y="0" letter-spacing="-.02em">f</tspan><tspan x="46" y="0">ficacy</tspan></text>
+  <text transform="translate(371.7 37)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">10</text>
+  <text transform="translate(371.7 56.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">9</text>
+  <text transform="translate(371.7 76.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">8</text>
+  <text transform="translate(371.7 96.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">7</text>
+  <text transform="translate(371.7 116.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">6</text>
+  <text transform="translate(371.7 136.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">5</text>
+  <text transform="translate(371.7 156.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">4</text>
+  <text transform="translate(371.7 176.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">3</text>
+  <text transform="translate(371.7 196.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">2</text>
+  <text transform="translate(371.7 216.1)" font-size="14" fill="#999c9e" font-family="ArialMT, Arial">1</text>
+  <text transform="translate(465.5 45.3)" font-size="16" fill="#333" font-family="ArialMT, Arial">Principled</text>
+  <text transform="translate(535.3 108.2)" font-size="16" fill="#333" font-family="ArialMT, Arial">Industrious</text>
+  <text transform="translate(576.7 192.2)" font-size="16" fill="#333" font-family="ArialMT, Arial">Competitive</text>
+  <text transform="translate(576.7 286.2)" font-size="16" fill="#333" font-family="ArialMT, Arial">Complexity</text>
+  <text transform="translate(539.9 372.7)" font-size="16" fill="#333" font-family="ArialMT, Arial">Cooperative</text>
+  <text transform="translate(466 434.5)" font-size="16" fill="#333" font-family="ArialMT, Arial">Perfectionism</text>
+  <text transform="translate(330 457.9)" font-size="16" fill="#333" font-family="ArialMT, Arial">Suspicious</text>
+  <text transform="translate(222.8 434.5)" font-size="16" fill="#333" font-family="ArialMT, Arial"><tspan letter-spacing="-.06em">V</tspan><tspan x="9.8" y="0">olatile</tspan></text>
+  <text transform="translate(136.9 374.6)" font-size="16" fill="#333" font-family="ArialMT, Arial">Assertive</text>
+  <text transform="translate(100.6 289.5)" font-size="16" fill="#333" font-family="ArialMT, Arial">Altruistic</text>
+  <text transform="translate(74.5 193.8)" font-size="16" fill="#333" font-family="ArialMT, Arial">Spontaneity</text>
+  <text transform="translate(79.1 108.9)" font-size="16" fill="#333" font-family="ArialMT, Arial"><tspan letter-spacing="-.11em">T</tspan><tspan x="8" y="0">eam-orientated</tspan></text>
+  <text transform="translate(117.8 46.2)" font-size="16" fill="#333" font-family="ArialMT, Arial">Need for achievement</text>
+  <text transform="translate(0 492.6)" font-size="14" fill="#333" font-family="ArialMT, Arial">Source: personalitydata.org. Creative Commons<tspan x="298.8" y="0" letter-spacing="-.06em"> </tspan><tspan x="301.9" y="0">Attribution 4.0 International license.</tspan></text>
+  <path fill="#1e68af" opacity=".5" d="M295.4 83h72.9l69.7 7.3-22.6 106.9 30.9 19.5 3.8 36.2 6.2 51.3-10.9 90.2-77.1-48.9-40.8-26.4-62.6-2.5-3.7-57.9 54.2-36.2-34.7-56.7z"/>
+  <path fill="none" stroke="#1e68af" stroke-miterlimit="10" d="M295.4 83h72.9l69.7 7.3-22.6 106.9 30.9 19.5 3.8 36.2 6.2 51.3-10.9 90.2-77.1-48.9-40.8-26.4-62.6-2.5-3.7-57.9 54.2-36.2-34.7-56.7z"/>
+  <circle cx="295.8" cy="83.3" r="3" fill="#1e68af"/>
+  <circle cx="368.7" cy="83" r="3" fill="#1e68af"/>
+  <circle cx="438.2" cy="90.5" r="3" fill="#1e68af"/>
+  <circle cx="415.1" cy="197.9" r="3" fill="#1e68af"/>
+  <circle cx="446.1" cy="217.2" r="3" fill="#1e68af"/>
+  <circle cx="450.2" cy="253.2" r="3" fill="#1e68af"/>
+  <circle cx="456.3" cy="304.7" r="3" fill="#1e68af"/>
+  <circle cx="445.8" cy="394.8" r="3" fill="#1e68af"/>
+  <circle cx="327.6" cy="320" r="3" fill="#1e68af"/>
+  <circle cx="265.1" cy="317" r="3" fill="#1e68af"/>
+  <circle cx="261.2" cy="259.1" r="3" fill="#1e68af"/>
+  <circle cx="314.9" cy="222.4" r="3" fill="#1e68af"/>
+  <circle cx="281" cy="165.3" r="3" fill="#1e68af"/>
+  <circle cx="368.7" cy="345.9" r="3" fill="#1e68af"/>
+</svg>

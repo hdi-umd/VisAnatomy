@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 303 204.4" style="enable-background:new 0 0 303 204.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D9D9D9;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#4D4D4D;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st2{font-family:'Roboto', sans-serif; font-weight:300;}
+	.st3{font-size:6px;}
+	.st4{fill:#78B8EF;fill-opacity:0.5;stroke:#78B8EF;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st5{fill:#F69490;fill-opacity:0.51;stroke:#C98590;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st6{fill:#C1D8A5;fill-opacity:0.51;stroke:#ACC797;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st7{font-family:'Roboto', sans-serif; font-weight:400;}
+	.st8{font-size:5px;}
+	.st9{font-size:4px;}
+	.st10{fill:none;stroke:#78B8EF;stroke-width:0.2835;stroke-miterlimit:10;}
+	.st11{font-family:'Roboto', sans-serif; font-weight:700;}
+</style>
+<line class="st0" x1="31.7" y1="148.8" x2="227.3" y2="148.8"/>
+<line class="st0" x1="67.9" y1="37.2" x2="67.9" y2="180.2"/>
+<line class="st0" x1="99.8" y1="37.2" x2="99.8" y2="180.2"/>
+<line class="st0" x1="131.8" y1="37.2" x2="131.7" y2="180.2"/>
+<line class="st0" x1="163.5" y1="37.2" x2="163.5" y2="180.2"/>
+<line class="st0" x1="195.4" y1="37.2" x2="195.4" y2="180.2"/>
+<line class="st0" x1="227.4" y1="37.2" x2="227.3" y2="180.2"/>
+<line class="st0" x1="31.7" y1="120.9" x2="227.3" y2="120.9"/>
+<line class="st0" x1="31.7" y1="93" x2="227.3" y2="93"/>
+<line class="st0" x1="31.7" y1="65.1" x2="227.3" y2="65.1"/>
+<line class="st0" x1="31.7" y1="37.2" x2="227.3" y2="37.2"/>
+<g id="ai2html-settings">
+</g>
+<line class="st1" x1="32.7" y1="176.6" x2="227.3" y2="176.6"/>
+<text transform="matrix(1 0 0 1 22.3717 37.799)" class="st2 st3">7.5</text>
+<text transform="matrix(1 0 0 1 22.1988 65.679)" class="st2 st3">6.0</text>
+<text transform="matrix(1 0 0 1 22.3717 93.5592)" class="st2 st3">4.5</text>
+<text transform="matrix(1 0 0 1 22.1988 121.4389)" class="st2 st3">3.0</text>
+<text transform="matrix(1 0 0 1 22.3717 149.3188)" class="st2 st3">1.5</text>
+<text transform="matrix(1 0 0 1 22.0258 177.1989)" class="st2 st3">0.0</text>
+<text transform="matrix(1 0 0 1 33.7086 186.068)" class="st2 st3">60</text>
+<text transform="matrix(1 0 0 1 65.508 186.068)" class="st2 st3">65</text>
+<text transform="matrix(1 0 0 1 97.1353 186.0684)" class="st2 st3">70</text>
+<text transform="matrix(1 0 0 1 128.9346 186.0678)" class="st2 st3">75</text>
+<text transform="matrix(1 0 0 1 160.5624 186.0678)" class="st2 st3">80</text>
+<text transform="matrix(1 0 0 1 192.3616 186.0687)" class="st2 st3">85</text>
+<text transform="matrix(1 0 0 1 223.9888 186.0687)" class="st2 st3">90</text>
+<circle class="st4" cx="151.3" cy="137.5" r="14.3"/>
+<circle class="st5" cx="74" cy="151.4" r="10.2"/>
+<circle class="st6" cx="109.5" cy="144.3" r="7.4"/>
+<circle class="st6" cx="79.5" cy="114.3" r="2.2"/>
+<circle class="st5" cx="167.3" cy="156.1" r="7.4"/>
+<circle class="st5" cx="173.2" cy="139.6" r="5.5"/>
+<circle class="st5" cx="159.1" cy="149.5" r="1.4"/>
+<circle class="st4" cx="179.4" cy="151.8" r="4.2"/>
+<circle class="st6" cx="200.2" cy="98.1" r="4.2"/>
+<circle class="st4" cx="240.8" cy="38.7" r="2.8"/>
+<circle class="st5" cx="240.8" cy="46.7" r="2.8"/>
+<circle class="st6" cx="240.8" cy="54.7" r="2.8"/>
+<circle class="st6" cx="117.7" cy="120.7" r="7.4"/>
+<circle class="st6" cx="54" cy="58.1" r="3.1"/>
+<text transform="matrix(1 0 0 1 113.7407 195.3481)" class="st7 st8">Life Expectancy</text>
+<text transform="matrix(1 0 0 1 147.6069 139.5951)" class="st7 st9">USA</text>
+<text transform="matrix(1 0 0 1 169.39 141.2382)" class="st7 st9">GER</text>
+<g>
+	<text transform="matrix(1 0 0 1 163.545 157.8078)" class="st7 st9">FRA</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 183.9434 153.5255)" class="st7 st9">CAN</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 58.4311 60.0348)" class="st7 st9">IRQ</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 83.0024 115.5698)" class="st7 st9">IRQ</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 150.2506 152.9364)" class="st7 st9">SWI</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 205.5352 99.71)" class="st7 st9">ISR</text>
+</g>
+<text transform="matrix(1 0 0 1 70.6542 152.9367)" class="st7 st9">SPA</text>
+<text transform="matrix(1 0 0 1 106.4495 145.8957)" class="st7 st9">IRN</text>
+<text transform="matrix(1 0 0 1 114.5269 122.3277)" class="st7 st9">EGY</text>
+<g>
+	<text transform="matrix(1 0 0 1 238.0334 110.4887)" class="st7 st8">Population, mln</text>
+</g>
+<text transform="matrix(1 0 0 1 246.8341 40.8827)" class="st7 st8">North America</text>
+<text transform="matrix(1 0 0 1 246.8341 48.8827)" class="st7 st8">Europe</text>
+<text transform="matrix(1 0 0 1 246.8341 56.8827)" class="st7 st8">Middle East</text>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 16.4199 121.0707)" class="st7 st8">Fertility Rate</text>
+<line class="st1" x1="36" y1="37.2" x2="36" y2="180.2"/>
+<g>
+	<text transform="matrix(1 0 0 1 252.1913 98.3727)" class="st2 st9">1</text>
+	<circle class="st10" cx="253.3" cy="87.9" r="14.3"/>
+	<circle class="st10" cx="253.3" cy="92.1" r="10.2"/>
+	<circle class="st10" cx="253.3" cy="94.8" r="7.4"/>
+	<circle class="st10" cx="253.3" cy="100.8" r="1.4"/>
+	<circle class="st10" cx="253.3" cy="98.1" r="4.2"/>
+	<text transform="matrix(1 0 0 1 252.1913 92.8308)" class="st2 st9">5</text>
+	<text transform="matrix(1 0 0 1 251.0248 86.4239)" class="st2 st9">20</text>
+	<text transform="matrix(1 0 0 1 251.0249 80.9151)" class="st2 st9">50</text>
+	<text transform="matrix(1 0 0 1 249.8595 72.3446)" class="st2 st9">100</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 13.6728 20.7723)" class="st11 st3">Correlation among life expectancy, fertility rate and population of some countries in some year</text>
+</g>
+</svg>

@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500"><rect width="900" height="500" fill="transparent"></rect><g transform="translate(80,60)"><g><line opacity="1" x1="0" x2="740" y1="23.75" y2="23.75" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="71.25" y2="71.25" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="118.75" y2="118.75" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="166.25" y2="166.25" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="213.75" y2="213.75" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="261.25" y2="261.25" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="308.75" y2="308.75" stroke="#dddddd" stroke-width="1"></line><line opacity="1" x1="0" x2="740" y1="356.25" y2="356.25" stroke="#dddddd" stroke-width="1"></line></g><g transform="translate(0,0)"><g transform="translate(41.111111111111114,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Train</text></g><g transform="translate(123.33333333333334,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Subway</text></g><g transform="translate(205.55555555555557,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Bus</text></g><g transform="translate(287.7777777777778,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Car</text></g><g transform="translate(370,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Boat</text></g><g transform="translate(452.2222222222223,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Moto</text></g><g transform="translate(534.4444444444445,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Moped</text></g><g transform="translate(616.6666666666667,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Bicycle</text></g><g transform="translate(698.8888888888889,0)" style="opacity: 1;"><line x1="0" x2="0" y1="0" y2="-5" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="alphabetic" text-anchor="middle" transform="translate(0,-10) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Others</text></g><line x1="0" x2="740" y1="0" y2="0" style="stroke: transparent; stroke-width: 1;"></line></g><g transform="translate(0,0)"><g transform="translate(0,23.75)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Japan</text></g><g transform="translate(0,71.25)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">France</text></g><g transform="translate(0,118.75)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">US</text></g><g transform="translate(0,166.25)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Germany</text></g><g transform="translate(0,213.75)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Norway</text></g><g transform="translate(0,261.25)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Iceland</text></g><g transform="translate(0,308.75)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">UK</text></g><g transform="translate(0,356.25)" style="opacity: 1;"><line x1="0" x2="-5" y1="0" y2="0" style="stroke: rgb(119, 119, 119); stroke-width: 1;"></line><text dominant-baseline="central" text-anchor="end" transform="translate(-10,0) rotate(0)" style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51);">Vietnam</text></g><line x1="0" x2="0" y1="0" y2="380" style="stroke: transparent; stroke-width: 1;"></line></g><g transform="translate(41.111111111111114, 23.75)"><path transform="rotate(0)" fill="rgb(235, 241, 235)" fill-opacity="1" stroke-width="0" stroke="rgb(177, 181, 177)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">3426</text></g><g transform="translate(123.33333333333334, 23.75)"><path transform="rotate(180)" fill="rgb(127, 75, 11)" fill-opacity="1" stroke-width="0" stroke="rgb(95, 56, 8)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-81001</text></g><g transform="translate(205.55555555555557, 23.75)"><path transform="rotate(180)" fill="rgb(244, 237, 218)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 178, 164)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-8184</text></g><g transform="translate(287.7777777777778, 23.75)"><path transform="rotate(0)" fill="rgb(161, 218, 209)" fill-opacity="1" stroke-width="0" stroke="rgb(121, 164, 157)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">31588</text></g><g transform="translate(370, 23.75)"><path transform="rotate(0)" fill="rgb(11, 106, 97)" fill-opacity="1" stroke-width="0" stroke="rgb(8, 80, 73)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">79046</text></g><g transform="translate(452.2222222222223, 23.75)"><path transform="rotate(0)" fill="rgb(32, 130, 122)" fill-opacity="1" stroke-width="0" stroke="rgb(24, 98, 92)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">68855</text></g><g transform="translate(534.4444444444445, 23.75)"><path transform="rotate(0)" fill="rgb(36, 134, 126)" fill-opacity="1" stroke-width="0" stroke="rgb(27, 101, 95)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">67349</text></g><g transform="translate(616.6666666666667, 23.75)"><path transform="rotate(0)" fill="rgb(78, 169, 159)" fill-opacity="1" stroke-width="0" stroke="rgb(59, 127, 120)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">54164</text></g><g transform="translate(698.8888888888889, 23.75)"><path transform="rotate(180)" fill="rgb(144, 87, 17)" fill-opacity="1" stroke-width="0" stroke="rgb(108, 65, 13)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-74893</text></g><g transform="translate(41.111111111111114, 71.25)"><path transform="rotate(0)" fill="rgb(117, 195, 185)" fill-opacity="1" stroke-width="0" stroke="rgb(88, 147, 139)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">43587</text></g><g transform="translate(123.33333333333334, 71.25)"><path transform="rotate(0)" fill="rgb(138, 206, 197)" fill-opacity="1" stroke-width="0" stroke="rgb(104, 155, 148)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">38109</text></g><g transform="translate(205.55555555555557, 71.25)"><path transform="rotate(0)" fill="rgb(7, 98, 90)" fill-opacity="1" stroke-width="0" stroke="rgb(5, 74, 68)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">82112</text></g><g transform="translate(287.7777777777778, 71.25)"><path transform="rotate(180)" fill="rgb(195, 142, 63)" fill-opacity="1" stroke-width="0" stroke="rgb(147, 107, 47)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-53527</text></g><g transform="translate(370, 71.25)"><path transform="rotate(180)" fill="rgb(123, 72, 10)" fill-opacity="1" stroke-width="0" stroke="rgb(92, 54, 8)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-82358</text></g><g transform="translate(452.2222222222223, 71.25)"><path transform="rotate(0)" fill="rgb(1, 80, 69)" fill-opacity="1" stroke-width="0" stroke="rgb(1, 60, 52)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">90522</text></g><g transform="translate(534.4444444444445, 71.25)"><path transform="rotate(180)" fill="rgb(243, 239, 223)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 180, 168)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-6028</text></g><g transform="translate(616.6666666666667, 71.25)"><path transform="rotate(0)" fill="rgb(25, 123, 115)" fill-opacity="1" stroke-width="0" stroke="rgb(19, 92, 86)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">71683</text></g><g transform="translate(698.8888888888889, 71.25)"><path transform="rotate(0)" fill="rgb(198, 232, 227)" fill-opacity="1" stroke-width="0" stroke="rgb(149, 174, 171)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">20321</text></g><g transform="translate(41.111111111111114, 118.75)"><path transform="rotate(180)" fill="rgb(206, 160, 84)" fill-opacity="1" stroke-width="0" stroke="rgb(155, 120, 63)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-47665</text></g><g transform="translate(123.33333333333334, 118.75)"><path transform="rotate(0)" fill="rgb(212, 237, 233)" fill-opacity="1" stroke-width="0" stroke="rgb(159, 178, 175)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">14959</text></g><g transform="translate(205.55555555555557, 118.75)"><path transform="rotate(180)" fill="rgb(244, 238, 219)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 179, 165)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-7899</text></g><g transform="translate(287.7777777777778, 118.75)"><path transform="rotate(180)" fill="rgb(199, 149, 71)" fill-opacity="1" stroke-width="0" stroke="rgb(150, 112, 53)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-51376</text></g><g transform="translate(370, 118.75)"><path transform="rotate(0)" fill="rgb(122, 198, 187)" fill-opacity="1" stroke-width="0" stroke="rgb(92, 149, 141)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">42419</text></g><g transform="translate(452.2222222222223, 118.75)"><path transform="rotate(180)" fill="rgb(150, 92, 20)" fill-opacity="1" stroke-width="0" stroke="rgb(113, 69, 15)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-72666</text></g><g transform="translate(534.4444444444445, 118.75)"><path transform="rotate(0)" fill="rgb(147, 211, 202)" fill-opacity="1" stroke-width="0" stroke="rgb(111, 159, 152)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">35651</text></g><g transform="translate(616.6666666666667, 118.75)"><path transform="rotate(180)" fill="rgb(193, 139, 60)" fill-opacity="1" stroke-width="0" stroke="rgb(145, 104, 45)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-54671</text></g><g transform="translate(698.8888888888889, 118.75)"><path transform="rotate(0)" fill="rgb(1, 80, 69)" fill-opacity="1" stroke-width="0" stroke="rgb(1, 60, 52)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">90584</text></g><g transform="translate(41.111111111111114, 166.25)"><path transform="rotate(180)" fill="rgb(179, 121, 42)" fill-opacity="1" stroke-width="0" stroke="rgb(135, 91, 32)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-60946</text></g><g transform="translate(123.33333333333334, 166.25)"><path transform="rotate(0)" fill="rgb(6, 95, 86)" fill-opacity="1" stroke-width="0" stroke="rgb(5, 71, 65)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">83393</text></g><g transform="translate(205.55555555555557, 166.25)"><path transform="rotate(180)" fill="rgb(113, 65, 8)" fill-opacity="1" stroke-width="0" stroke="rgb(85, 49, 6)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-86052</text></g><g transform="translate(287.7777777777778, 166.25)"><path transform="rotate(180)" fill="rgb(122, 71, 10)" fill-opacity="1" stroke-width="0" stroke="rgb(92, 53, 8)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-82774</text></g><g transform="translate(370, 166.25)"><path transform="rotate(0)" fill="rgb(75, 166, 157)" fill-opacity="1" stroke-width="0" stroke="rgb(56, 125, 118)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">54963</text></g><g transform="translate(452.2222222222223, 166.25)"><path transform="rotate(0)" fill="rgb(8, 100, 91)" fill-opacity="1" stroke-width="0" stroke="rgb(6, 75, 68)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">81447</text></g><g transform="translate(534.4444444444445, 166.25)"><path transform="rotate(180)" fill="rgb(150, 92, 20)" fill-opacity="1" stroke-width="0" stroke="rgb(113, 69, 15)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-72541</text></g><g transform="translate(616.6666666666667, 166.25)"><path transform="rotate(0)" fill="rgb(104, 186, 176)" fill-opacity="1" stroke-width="0" stroke="rgb(78, 140, 132)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">47224</text></g><g transform="translate(698.8888888888889, 166.25)"><path transform="rotate(0)" fill="rgb(154, 215, 206)" fill-opacity="1" stroke-width="0" stroke="rgb(116, 162, 155)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">33649</text></g><g transform="translate(41.111111111111114, 213.75)"><path transform="rotate(0)" fill="rgb(8, 101, 92)" fill-opacity="1" stroke-width="0" stroke="rgb(6, 76, 69)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">81065</text></g><g transform="translate(123.33333333333334, 213.75)"><path transform="rotate(0)" fill="rgb(0, 60, 48)" fill-opacity="1" stroke-width="0" stroke="rgb(0, 45, 36)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">99626</text></g><g transform="translate(205.55555555555557, 213.75)"><path transform="rotate(0)" fill="rgb(92, 178, 169)" fill-opacity="1" stroke-width="0" stroke="rgb(69, 134, 127)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">50353</text></g><g transform="translate(287.7777777777778, 213.75)"><path transform="rotate(0)" fill="rgb(206, 235, 231)" fill-opacity="1" stroke-width="0" stroke="rgb(155, 177, 174)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">17227</text></g><g transform="translate(370, 213.75)"><path transform="rotate(180)" fill="rgb(232, 208, 152)" fill-opacity="1" stroke-width="0" stroke="rgb(174, 156, 114)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-29608</text></g><g transform="translate(452.2222222222223, 213.75)"><path transform="rotate(180)" fill="rgb(221, 188, 121)" fill-opacity="1" stroke-width="0" stroke="rgb(166, 141, 91)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-38069</text></g><g transform="translate(534.4444444444445, 213.75)"><path transform="rotate(0)" fill="rgb(52, 148, 140)" fill-opacity="1" stroke-width="0" stroke="rgb(39, 111, 105)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">61903</text></g><g transform="translate(616.6666666666667, 213.75)"><path transform="rotate(180)" fill="rgb(84, 48, 5)" fill-opacity="1" stroke-width="0" stroke="rgb(63, 36, 4)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-96161</text></g><g transform="translate(698.8888888888889, 213.75)"><path transform="rotate(180)" fill="rgb(89, 51, 5)" fill-opacity="1" stroke-width="0" stroke="rgb(67, 38, 4)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-94579</text></g><g transform="translate(41.111111111111114, 261.25)"><path transform="rotate(0)" fill="rgb(222, 239, 235)" fill-opacity="1" stroke-width="0" stroke="rgb(167, 180, 177)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">10945</text></g><g transform="translate(123.33333333333334, 261.25)"><path transform="rotate(180)" fill="rgb(238, 219, 172)" fill-opacity="1" stroke-width="0" stroke="rgb(179, 165, 129)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-23839</text></g><g transform="translate(205.55555555555557, 261.25)"><path transform="rotate(180)" fill="rgb(154, 95, 22)" fill-opacity="1" stroke-width="0" stroke="rgb(116, 71, 17)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-71102</text></g><g transform="translate(287.7777777777778, 261.25)"><path transform="rotate(0)" fill="rgb(36, 134, 126)" fill-opacity="1" stroke-width="0" stroke="rgb(27, 101, 95)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">67384</text></g><g transform="translate(370, 261.25)"><path transform="rotate(180)" fill="rgb(244, 234, 208)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 176, 156)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-12096</text></g><g transform="translate(452.2222222222223, 261.25)"><path transform="rotate(180)" fill="rgb(137, 82, 14)" fill-opacity="1" stroke-width="0" stroke="rgb(103, 62, 11)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-77219</text></g><g transform="translate(534.4444444444445, 261.25)"><path transform="rotate(0)" fill="rgb(15, 112, 103)" fill-opacity="1" stroke-width="0" stroke="rgb(11, 84, 77)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">76429</text></g><g transform="translate(616.6666666666667, 261.25)"><path transform="rotate(0)" fill="rgb(138, 206, 197)" fill-opacity="1" stroke-width="0" stroke="rgb(104, 155, 148)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">38133</text></g><g transform="translate(698.8888888888889, 261.25)"><path transform="rotate(0)" fill="rgb(5, 94, 85)" fill-opacity="1" stroke-width="0" stroke="rgb(4, 71, 64)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">84064</text></g><g transform="translate(41.111111111111114, 308.75)"><path transform="rotate(180)" fill="rgb(243, 240, 226)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 180, 170)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-3972</text></g><g transform="translate(123.33333333333334, 308.75)"><path transform="rotate(0)" fill="rgb(145, 210, 201)" fill-opacity="1" stroke-width="0" stroke="rgb(109, 158, 151)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">36184</text></g><g transform="translate(205.55555555555557, 308.75)"><path transform="rotate(180)" fill="rgb(159, 100, 25)" fill-opacity="1" stroke-width="0" stroke="rgb(120, 75, 19)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-69004</text></g><g transform="translate(287.7777777777778, 308.75)"><path transform="rotate(0)" fill="rgb(208, 235, 231)" fill-opacity="1" stroke-width="0" stroke="rgb(156, 177, 174)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">16691</text></g><g transform="translate(370, 308.75)"><path transform="rotate(180)" fill="rgb(244, 239, 222)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 180, 167)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-6305</text></g><g transform="translate(452.2222222222223, 308.75)"><path transform="rotate(180)" fill="rgb(244, 233, 205)" fill-opacity="1" stroke-width="0" stroke="rgb(183, 175, 154)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-13420</text></g><g transform="translate(534.4444444444445, 308.75)"><path transform="rotate(180)" fill="rgb(223, 192, 128)" fill-opacity="1" stroke-width="0" stroke="rgb(168, 144, 96)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-36317</text></g><g transform="translate(616.6666666666667, 308.75)"><path transform="rotate(0)" fill="rgb(144, 210, 200)" fill-opacity="1" stroke-width="0" stroke="rgb(108, 158, 150)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">36399</text></g><g transform="translate(698.8888888888889, 308.75)"><path transform="rotate(180)" fill="rgb(142, 86, 16)" fill-opacity="1" stroke-width="0" stroke="rgb(107, 65, 12)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-75488</text></g><g transform="translate(41.111111111111114, 356.25)"><path transform="rotate(180)" fill="rgb(189, 134, 55)" fill-opacity="1" stroke-width="0" stroke="rgb(142, 101, 41)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-56236</text></g><g transform="translate(123.33333333333334, 356.25)"><path transform="rotate(0)" fill="rgb(1, 74, 64)" fill-opacity="1" stroke-width="0" stroke="rgb(1, 56, 48)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">93030</text></g><g transform="translate(205.55555555555557, 356.25)"><path transform="rotate(180)" fill="rgb(227, 199, 138)" fill-opacity="1" stroke-width="0" stroke="rgb(171, 150, 104)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-33579</text></g><g transform="translate(287.7777777777778, 356.25)"><path transform="rotate(0)" fill="rgb(133, 204, 194)" fill-opacity="1" stroke-width="0" stroke="rgb(100, 153, 146)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">39355</text></g><g transform="translate(370, 356.25)"><path transform="rotate(0)" fill="rgb(1, 77, 66)" fill-opacity="1" stroke-width="0" stroke="rgb(1, 58, 50)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">91827</text></g><g transform="translate(452.2222222222223, 356.25)"><path transform="rotate(0)" fill="rgb(66, 159, 150)" fill-opacity="1" stroke-width="0" stroke="rgb(50, 120, 113)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">57853</text></g><g transform="translate(534.4444444444445, 356.25)"><path transform="rotate(180)" fill="rgb(171, 112, 34)" fill-opacity="1" stroke-width="0" stroke="rgb(129, 84, 26)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="-6">-64250</text></g><g transform="translate(616.6666666666667, 356.25)"><path transform="rotate(0)" fill="rgb(236, 241, 235)" fill-opacity="1" stroke-width="0" stroke="rgb(177, 181, 177)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">2814</text></g><g transform="translate(698.8888888888889, 356.25)"><path transform="rotate(0)" fill="rgb(53, 149, 140)" fill-opacity="1" stroke-width="0" stroke="rgb(40, 112, 105)" d="
+                M0 -24
+                L41 24
+                L-41 24
+                L0 -24
+            "></path><text dominant-baseline="central" text-anchor="middle" dy="6">61559</text></g></g></svg>

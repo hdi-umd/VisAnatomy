@@ -1,0 +1,33 @@
+<svg width="450" height="250" aria-label="A chart." style="overflow:hidden">
+  <path fill="#fff" d="M0 0h450v250H0z"/>
+  <path fill="none" d="M80 21h186v11H80z"/>
+  <path fill="none" d="M80 21h75v11H80z"/>
+  <text x="106" y="30.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Popularity</text>
+  <path fill="#36c" d="M80 21h22v11H80z"/>
+  <path fill="none" d="M173 21h93v11h-93z"/>
+  <text x="199" y="30.35" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Previous data</text>
+  <path fill="#eee" d="M173 21h22v11h-22z"/>
+  <path fill="none" d="M80 48h290v155H80z"/>
+  <g clip-path="url(https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/diffchart_f55be27fe60a9de3ba088157f02cc1a6eca599cff25522c0af650199d85acb03.frame#_ABSTRACT_RENDERER_ID_7)">
+    <path fill="#ccc" d="M80 48h1v155h-1zm145 0h1v155h-1zm144 0h1v155h-1z"/>
+    <path fill="#ebebeb" d="M152 48h1v155h-1zm145 0h1v155h-1z"/>
+    <path fill="#eee" d="M81 56h6v24h-6z"/>
+    <path fill="#36c" d="M81 64h10v7H81z"/>
+    <path fill="#eee" d="M81 94h120v24H81z"/>
+    <path fill="#36c" d="M81 103h16v7H81z"/>
+    <path fill="#eee" d="M81 133h83v24H81z"/>
+    <path fill="#36c" d="M81 141h19v7H81z"/>
+    <path fill="#eee" d="M81 171h236v24H81z"/>
+    <path fill="#36c" d="M81 180h42v7H81z"/>
+    <path fill="#333" d="M80 48h1v155h-1z"/>
+  </g>
+  <g/>
+  <text text-anchor="middle" x="80.5" y="219.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">0</text>
+  <text text-anchor="middle" x="225" y="219.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">5,000</text>
+  <text text-anchor="middle" x="369.5" y="219.35" font-family="Arial" font-size="11" stroke-width="0" fill="#444">10,000</text>
+  <text text-anchor="end" x="69" y="71.6" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Cesar</text>
+  <text text-anchor="end" x="69" y="110.1" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Rachel</text>
+  <text text-anchor="end" x="69" y="148.6" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Patrick</text>
+  <text text-anchor="end" x="69" y="187.1" font-family="Arial" font-size="11" stroke-width="0" fill="#222">Eric</text>
+  <g/>
+</svg>

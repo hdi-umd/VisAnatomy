@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814" height="460" viewBox="0 0 814 460">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f7f7f7"/>
+    </linearGradient>
+  </defs>
+  <g id="project-summary-template" transform="translate(-144 -8233)">
+    <rect id="Rectangle_145" data-name="Rectangle 145" width="814" height="460" transform="translate(144 8233)" fill="url(#linear-gradient)"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(1914 -494)">
+      <path id="path22" d="M752.958-230.079V-212" transform="translate(-1908.499 9273.288)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path24" d="M748-261.279v44.512" transform="translate(-1906.895 9278.052)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path26" d="M858.238-292.479v70.948" transform="translate(-1923.727 9282.816)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path28" d="M657.758-261.279v44.512" transform="translate(-1893.964 9278.052)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path30" d="M657.758-292.479v5.649" transform="translate(-1893.964 9282.816)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path32" d="M652.8-354.879v5.649" transform="translate(-1893.206 9292.344)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path34" d="M547.679-354.879v5.649" transform="translate(-1877.156 9292.344)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path36" d="M462.4-386.079v150.257" transform="translate(-1864.135 9297.107)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path38" d="M542.559-417.279v176.693" transform="translate(-1876.374 9301.871)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path40" d="M402.4-417.279v5.649" transform="translate(-1854.974 9301.871)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path42" d="M252.159-448.479V-245.35" transform="translate(-1832.034 9306.635)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path44" d="M247.039-479.679v229.565" transform="translate(-1831.252 9311.398)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path46" d="M397.279-448.479V-245.35" transform="translate(-1854.192 9306.635)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path48" d="M397.279-510.879v32.085" transform="translate(-1854.192 9316.163)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path50" d="M116.8-510.879v5.649" transform="translate(-1811.366 9316.163)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path52" d="M116.8-479.679v229.565" transform="translate(-1811.366 9311.398)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path54" d="M402.4-386.079v150.257" transform="translate(-1854.974 9297.107)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path56" d="M547.679-323.679v97.384" transform="translate(-1877.156 9287.58)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path58" d="M652.8-323.679v97.384" transform="translate(-1893.206 9287.58)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path60" d="M96.8-174.907H746.45V-208.8H96.8Z" transform="translate(-1808.313 9270.039)" fill="#b2b2b2" fill-rule="evenodd"/>
+      <text id="text72" transform="translate(-1705.846 9079.058)" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Apr</tspan></text>
+      <text id="text84" transform="translate(-1578.496 9079.058)" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">May</tspan></text>
+      <text id="text96" transform="translate(-1446.903 9079.058)" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun</tspan></text>
+      <text id="text108" transform="translate(-1319.558 9079.058)" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Jul</tspan></text>
+      <text id="text120" transform="translate(-1187.965 9079.058)" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug</tspan></text>
+      <path id="path122" d="M247.039-202.079v22.595" transform="translate(-1831.252 9269.014)" fill="none" stroke="rgba(0,0,0,0.3)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path124" d="M402.4-202.079v22.595" transform="translate(-1854.974 9269.014)" fill="none" stroke="rgba(0,0,0,0.3)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path126" d="M552.639-202.079v22.595" transform="translate(-1877.913 9269.014)" fill="none" stroke="rgba(0,0,0,0.3)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path128" d="M707.838-202.079v22.595" transform="translate(-1901.61 9269.014)" fill="none" stroke="rgba(0,0,0,0.3)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path130" d="M116.8-514.641H355.267v-20.878H116.8Z" transform="translate(-1811.197 9319.519)" fill="#589ad7" fill-rule="evenodd"/>
+      <path id="path132" d="M116.8-483.441H227.56v-20.878H116.8Z" transform="translate(-1811.366 9315.161)" fill="#589ad7" fill-rule="evenodd"/>
+      <path id="path134" d="M252.159-452.241h123.1v-20.878h-123.1Z" transform="translate(-1832.169 9310.5)" fill="#589ad7" fill-rule="evenodd"/>
+      <path id="path136" d="M402.4-421.041H522.107v-20.878H402.4Z" transform="translate(-1855.312 9305.566)" fill="#ed7d31" fill-rule="evenodd"/>
+      <path id="path138" d="M402.4-389.841h51.923v-20.878H402.4Z" transform="translate(-1855.312 9300.633)" fill="#ed7d31" fill-rule="evenodd"/>
+      <path id="path140" d="M547.679-358.641h89.2v-20.878h-89.2Z" transform="translate(-1876.884 9295.7)" fill="#ea161e" fill-rule="evenodd"/>
+      <path id="path142" d="M547.679-327.441h89.2v-20.878h-89.2Z" transform="translate(-1876.884 9291.614)" fill="#ea161e" fill-rule="evenodd"/>
+      <path id="path144" d="M657.758-296.241H828.441v-20.878H657.758Z" transform="translate(-1893.759 9286.681)" fill="#6eae40" fill-rule="evenodd"/>
+      <path id="path146" d="M657.758-265.042h76.868v-20.878H657.758Z" transform="translate(-1893.759 9281.747)" fill="#6eae40" fill-rule="evenodd"/>
+      <path id="path148" d="M752.958-233.842H843.01v-20.878H752.958Z" transform="translate(-1908.499 9277.051)" fill="#6eae40" fill-rule="evenodd"/>
+      <text id="text160" transform="translate(-1729.896 8796.371)" fill="#589ad7" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">40 days</tspan></text>
+      <text id="text172" transform="translate(-1452.281 8796.371)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Apr 5</tspan></text>
+      <text id="text184" transform="translate(-1428.285 8796.371)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text196" transform="translate(-1422.862 8796.371)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">May 30</tspan></text>
+      <text id="text208" transform="translate(-1618.139 8798.084)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Define Requirements</tspan></text>
+      <text id="text220" transform="translate(-1729.896 8822.808)" fill="#589ad7" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">19 days</tspan></text>
+      <text id="text232" transform="translate(-1579.626 8822.808)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Apr 5</tspan></text>
+      <text id="text244" transform="translate(-1555.901 8822.808)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text256" transform="translate(-1550.614 8822.808)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Apr 30</tspan></text>
+      <text id="text268" transform="translate(-1689.632 8824.655)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Developer Requirements</tspan></text>
+      <text id="text280" transform="translate(-1620.365 8849.278)" fill="#589ad7" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">20 days</tspan></text>
+      <text id="text292" transform="translate(-1452.281 8849.278)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">May 2</tspan></text>
+      <text id="text304" transform="translate(-1425.302 8849.278)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text316" transform="translate(-1419.88 8849.278)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">May 30</tspan></text>
+      <text id="text328" transform="translate(-1568.147 8850.617)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Hardware Requirements</tspan></text>
+      <text id="text340" transform="translate(-1493.02 8875.714)" fill="#ed7d31" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">20 days</tspan></text>
+      <text id="text352" transform="translate(-1329.183 8875.714)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 1</tspan></text>
+      <text id="text364" transform="translate(-1304.781 8875.714)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text376" transform="translate(-1299.358 8875.714)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 28</tspan></text>
+      <text id="text388" transform="translate(-1435.966 8876.884)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Design Specifications</tspan></text>
+      <text id="text400" transform="translate(-1493.02 8902.15)" fill="#ed7d31" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">10 days</tspan></text>
+      <text id="text412" transform="translate(-1397.104 8902.15)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 1</tspan></text>
+      <text id="text424" transform="translate(-1372.701 8902.15)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text436" transform="translate(-1367.279 8902.15)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 12</tspan></text>
+      <text id="text448" transform="translate(-1441.898 8903.998)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Staffing</tspan></text>
+      <text id="text460" transform="translate(-1369.075 8928.586)" fill="#b20e12" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">15 days</tspan></text>
+      <text id="text472" transform="translate(-1235.798 8928.586)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 30</tspan></text>
+      <text id="text484" transform="translate(-1206.38 8928.586)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text496" transform="translate(-1200.957 8928.586)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jul 20</tspan></text>
+      <text id="text508" transform="translate(-1307.175 8930.265)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Production</tspan></text>
+      <text id="text520" transform="translate(-1369.075 8955.021)" fill="#b20e12" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">15 days</tspan></text>
+      <text id="text532" transform="translate(-1235.798 8955.021)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 30</tspan></text>
+      <text id="text544" transform="translate(-1206.38 8955.021)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text556" transform="translate(-1200.957 8955.021)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jul 20</tspan></text>
+      <text id="text568" transform="translate(-1316.495 8956.531)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Phase 1 Testing</tspan></text>
+      <text id="text580" transform="translate(-1275.667 8981.48)" fill="#6eae40" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">28 days</tspan></text>
+      <text id="text592" transform="translate(-1061.749 8981.48)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jul 22</tspan></text>
+      <text id="text604" transform="translate(-1035.584 8981.48)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text616" transform="translate(-1030.162 8981.48)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug 30</tspan></text>
+      <text id="text628" transform="translate(-1166.521 8982.798)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Phase 2</tspan></text>
+      <text id="text640" transform="translate(-1275.667 9007.917)" fill="#6eae40" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">13 days</tspan></text>
+      <text id="text652" transform="translate(-1155.134 9007.917)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jul 22</tspan></text>
+      <text id="text664" transform="translate(-1128.969 9007.917)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text676" transform="translate(-1123.547 9007.917)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug 8</tspan></text>
+      <text id="text688" transform="translate(-1229.222 9009.064)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Phase 2 Testing</tspan></text>
+      <text id="text700" transform="translate(-1194.178 9034.354)" fill="#6eae40" font-size="9" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">15 days</tspan></text>
+      <text id="text712" transform="translate(-1061.749 9034.354)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug 10</tspan></text>
+      <text id="text724" transform="translate(-1030.839 9034.354)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">-</tspan></text>
+      <text id="text736" transform="translate(-1025.552 9034.354)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug 30</tspan></text>
+      <text id="text748" transform="translate(-1151.418 9036.2)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Post Launch Review</tspan></text>
+      <path id="path750" d="M413.439-158.573h15.726V-175.52H413.439Z" transform="translate(-1856.659 9264.958)" fill="#ed7d31" fill-rule="evenodd"/>
+      <path id="path752" d="M744-158.573H759.86V-175.52H744Z" transform="translate(-1907.131 9264.958)" fill="#6eae40" fill-rule="evenodd"/>
+      <text id="text764" transform="translate(-1490.24 9127.157)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Stakeholder Presentation</tspan></text>
+      <text id="text776" transform="translate(-1446.802 9115.48)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Jun 4</tspan></text>
+      <text id="text788" transform="translate(-1171.38 9127.157)" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Launch</tspan></text>
+      <path id="path790" d="M734.158-127.946H765.61V-127H734.158Z" transform="translate(-1905.629 9257.694)" fill-rule="evenodd"/>
+      <text id="text802" transform="translate(-1167.663 9115.48)" fill="#44546a" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">Aug 9</tspan></text>
+    </g>
+  </g>
+</svg>

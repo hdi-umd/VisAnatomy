@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="500" role="img" aria-labelledby="victory-container-31-title" viewBox="0 0 600 500" style="pointer-events: all; width: 100%; height: 100%;"><title id="victory-container-31-title">Bullet chart example</title><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="550" y1="72.5" y2="72.5" style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"></line><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="150" y1="72.5" y2="77.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart14-ChartAxis-ChartLabel-0" direction="inherit" dx="0" x="150" y="99.47"><tspan x="150" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">0</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="550" x2="550" y1="72.5" y2="77.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart14-ChartAxis-ChartLabel-1" direction="inherit" dx="0" x="550" y="99.47"><tspan x="550" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">100</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="250" x2="250" y1="72.5" y2="77.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart14-ChartAxis-ChartLabel-2" direction="inherit" dx="0" x="250" y="99.47"><tspan x="250" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">25</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="350" x2="350" y1="72.5" y2="77.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart14-ChartAxis-ChartLabel-3" direction="inherit" dx="0" x="350" y="99.47"><tspan x="350" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">50</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="450" x2="450" y1="72.5" y2="77.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart14-ChartAxis-ChartLabel-4" direction="inherit" dx="0" x="450" y="99.47"><tspan x="450" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">75</tspan></text></g></g><text id="chart14-ChartBulletTitle-ChartLabel" direction="inherit" dx="0" x="136" y="57.6"><tspan x="136" dx="0" dy="0" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--title--Fill, #151515); font-size: 18px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Text label</tspan><tspan x="136" dx="0" dy="13.8" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--subtitle--Fill, #b8bbbe); font-size: 14px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Measure details</tspan></text><g role="presentation"><path d="M 150, 72.5 
+A 0 0 0 0 1, 150, 72.5 
+L 150, 42.5 
+A 0 0 0 0 1, 150, 42.5 
+L 410, 42.5 
+A 0 0 0 0 1, 410, 42.5 
+L 410, 72.5 
+A 0 0 0 0 1, 410, 72.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--200, #d2d2d2); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 72.5 
+A 0 0 0 0 1, 150, 72.5 
+L 150, 42.5 
+A 0 0 0 0 1, 150, 42.5 
+L 310, 42.5 
+A 0 0 0 0 1, 310, 42.5 
+L 310, 72.5 
+A 0 0 0 0 1, 310, 72.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--100, #f0f0f0); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 62 
+A 0 0 0 0 1, 150, 62 
+L 150, 53 
+A 0 0 0 0 1, 150, 53 
+L 350, 53 
+A 0 0 0 0 1, 350, 53 
+L 350, 62 
+A 0 0 0 0 1, 350, 62 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--200, #8bc1f7); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 62 
+A 0 0 0 0 1, 150, 62 
+L 150, 53 
+A 0 0 0 0 1, 150, 53 
+L 210, 53 
+A 0 0 0 0 1, 210, 53 
+L 210, 62 
+A 0 0 0 0 1, 210, 62 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--100, #06c); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 462, 72.5 
+A 0 0 0 0 1, 462, 72.5 
+L 462, 42.5 
+A 0 0 0 0 1, 462, 42.5 
+L 462, 42.5 
+A 0 0 0 0 1, 462, 42.5 
+L 462, 72.5 
+A 0 0 0 0 1, 462, 72.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color, #ec7a08); stroke: var(--pf-v5-chart-bullet--comparative-measure--warning--stroke--Color, #ec7a08); padding: 8px; stroke-width: 2;"></path></g><g><rect vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x="300" y="118.5" width="0" height="0" style="fill: none;"></rect></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="550" y1="185" y2="185" style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"></line><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="150" y1="185" y2="190" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart15-ChartAxis-ChartLabel-0" direction="inherit" dx="0" x="150" y="211.97"><tspan x="150" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">0</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="550" x2="550" y1="185" y2="190" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart15-ChartAxis-ChartLabel-1" direction="inherit" dx="0" x="550" y="211.97"><tspan x="550" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">100</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="250" x2="250" y1="185" y2="190" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart15-ChartAxis-ChartLabel-2" direction="inherit" dx="0" x="250" y="211.97"><tspan x="250" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">25</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="350" x2="350" y1="185" y2="190" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart15-ChartAxis-ChartLabel-3" direction="inherit" dx="0" x="350" y="211.97"><tspan x="350" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">50</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="450" x2="450" y1="185" y2="190" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart15-ChartAxis-ChartLabel-4" direction="inherit" dx="0" x="450" y="211.97"><tspan x="450" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">75</tspan></text></g></g><text id="chart15-ChartBulletTitle-ChartLabel" direction="inherit" dx="0" x="136" y="170.1"><tspan x="136" dx="0" dy="0" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--title--Fill, #151515); font-size: 18px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Text label</tspan><tspan x="136" dx="0" dy="13.8" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--subtitle--Fill, #b8bbbe); font-size: 14px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Measure details</tspan></text><g role="presentation"><path d="M 150, 185 
+A 0 0 0 0 1, 150, 185 
+L 150, 155 
+A 0 0 0 0 1, 150, 155 
+L 450, 155 
+A 0 0 0 0 1, 450, 155 
+L 450, 185 
+A 0 0 0 0 1, 450, 185 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--200, #d2d2d2); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 185 
+A 0 0 0 0 1, 150, 185 
+L 150, 155 
+A 0 0 0 0 1, 150, 155 
+L 350, 155 
+A 0 0 0 0 1, 350, 155 
+L 350, 185 
+A 0 0 0 0 1, 350, 185 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--100, #f0f0f0); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 174.5 
+A 0 0 0 0 1, 150, 174.5 
+L 150, 165.5 
+A 0 0 0 0 1, 150, 165.5 
+L 390, 165.5 
+A 0 0 0 0 1, 390, 165.5 
+L 390, 174.5 
+A 0 0 0 0 1, 390, 174.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--200, #8bc1f7); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 174.5 
+A 0 0 0 0 1, 150, 174.5 
+L 150, 165.5 
+A 0 0 0 0 1, 150, 165.5 
+L 250, 165.5 
+A 0 0 0 0 1, 250, 165.5 
+L 250, 174.5 
+A 0 0 0 0 1, 250, 174.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--100, #06c); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 502, 185 
+A 0 0 0 0 1, 502, 185 
+L 502, 155 
+A 0 0 0 0 1, 502, 155 
+L 502, 155 
+A 0 0 0 0 1, 502, 155 
+L 502, 185 
+A 0 0 0 0 1, 502, 185 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color, #ec7a08); stroke: var(--pf-v5-chart-bullet--comparative-measure--warning--stroke--Color, #ec7a08); padding: 8px; stroke-width: 2;"></path></g><g><rect vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x="300" y="231" width="0" height="0" style="fill: none;"></rect></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="550" y1="297.5" y2="297.5" style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"></line><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="150" y1="297.5" y2="302.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart16-ChartAxis-ChartLabel-0" direction="inherit" dx="0" x="150" y="324.47"><tspan x="150" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">0</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="550" x2="550" y1="297.5" y2="302.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart16-ChartAxis-ChartLabel-1" direction="inherit" dx="0" x="550" y="324.47"><tspan x="550" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">100</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="250" x2="250" y1="297.5" y2="302.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart16-ChartAxis-ChartLabel-2" direction="inherit" dx="0" x="250" y="324.47"><tspan x="250" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">25</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="350" x2="350" y1="297.5" y2="302.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart16-ChartAxis-ChartLabel-3" direction="inherit" dx="0" x="350" y="324.47"><tspan x="350" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">50</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="450" x2="450" y1="297.5" y2="302.5" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart16-ChartAxis-ChartLabel-4" direction="inherit" dx="0" x="450" y="324.47"><tspan x="450" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">75</tspan></text></g></g><text id="chart16-ChartBulletTitle-ChartLabel" direction="inherit" dx="0" x="136" y="282.6"><tspan x="136" dx="0" dy="0" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--title--Fill, #151515); font-size: 18px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Text label</tspan><tspan x="136" dx="0" dy="13.8" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--subtitle--Fill, #b8bbbe); font-size: 14px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Measure details</tspan></text><g role="presentation"><path d="M 150, 297.5 
+A 0 0 0 0 1, 150, 297.5 
+L 150, 267.5 
+A 0 0 0 0 1, 150, 267.5 
+L 490, 267.5 
+A 0 0 0 0 1, 490, 267.5 
+L 490, 297.5 
+A 0 0 0 0 1, 490, 297.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--200, #d2d2d2); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 297.5 
+A 0 0 0 0 1, 150, 297.5 
+L 150, 267.5 
+A 0 0 0 0 1, 150, 267.5 
+L 390, 267.5 
+A 0 0 0 0 1, 390, 267.5 
+L 390, 297.5 
+A 0 0 0 0 1, 390, 297.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--100, #f0f0f0); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 287 
+A 0 0 0 0 1, 150, 287 
+L 150, 278 
+A 0 0 0 0 1, 150, 278 
+L 430, 278 
+A 0 0 0 0 1, 430, 278 
+L 430, 287 
+A 0 0 0 0 1, 430, 287 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--200, #8bc1f7); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 287 
+A 0 0 0 0 1, 150, 287 
+L 150, 278 
+A 0 0 0 0 1, 150, 278 
+L 290, 278 
+A 0 0 0 0 1, 290, 278 
+L 290, 287 
+A 0 0 0 0 1, 290, 287 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--100, #06c); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 542, 297.5 
+A 0 0 0 0 1, 542, 297.5 
+L 542, 267.5 
+A 0 0 0 0 1, 542, 267.5 
+L 542, 267.5 
+A 0 0 0 0 1, 542, 267.5 
+L 542, 297.5 
+A 0 0 0 0 1, 542, 297.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color, #ec7a08); stroke: var(--pf-v5-chart-bullet--comparative-measure--warning--stroke--Color, #ec7a08); padding: 8px; stroke-width: 2;"></path></g><g><rect vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x="300" y="343.5" width="0" height="0" style="fill: none;"></rect></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="550" y1="410" y2="410" style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"></line><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="150" x2="150" y1="410" y2="415" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart17-ChartAxis-ChartLabel-0" direction="inherit" dx="0" x="150" y="436.97"><tspan x="150" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">0</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="550" x2="550" y1="410" y2="415" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart17-ChartAxis-ChartLabel-1" direction="inherit" dx="0" x="550" y="436.97"><tspan x="550" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">100</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="250" x2="250" y1="410" y2="415" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart17-ChartAxis-ChartLabel-2" direction="inherit" dx="0" x="250" y="436.97"><tspan x="250" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">25</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="350" x2="350" y1="410" y2="415" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart17-ChartAxis-ChartLabel-3" direction="inherit" dx="0" x="350" y="436.97"><tspan x="350" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">50</tspan></text></g><g role="presentation"><line vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x1="450" x2="450" y1="410" y2="415" style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"></line><text id="chart17-ChartAxis-ChartLabel-4" direction="inherit" dx="0" x="450" y="436.97"><tspan x="450" dx="0" dy="0" text-anchor="middle" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;">75</tspan></text></g></g><text id="chart17-ChartBulletTitle-ChartLabel" direction="inherit" dx="0" x="136" y="395.1"><tspan x="136" dx="0" dy="0" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--title--Fill, #151515); font-size: 18px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Text label</tspan><tspan x="136" dx="0" dy="13.8" text-anchor="end" style="fill: var(--pf-v5-chart-bullet--label--subtitle--Fill, #b8bbbe); font-size: 14px; text-anchor: end; font-family: var(--pf-v5-chart-global--FontFamily, &quot;RedHatText&quot;, helvetica, arial, sans-serif); letter-spacing: var(--pf-v5-chart-global--letter-spacing, normal); stroke: transparent;">Measure details</tspan></text><g role="presentation"><path d="M 150, 410 
+A 0 0 0 0 1, 150, 410 
+L 150, 380 
+A 0 0 0 0 1, 150, 380 
+L 410, 380 
+A 0 0 0 0 1, 410, 380 
+L 410, 410 
+A 0 0 0 0 1, 410, 410 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--200, #d2d2d2); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 410 
+A 0 0 0 0 1, 150, 410 
+L 150, 380 
+A 0 0 0 0 1, 150, 380 
+L 310, 380 
+A 0 0 0 0 1, 310, 380 
+L 310, 410 
+A 0 0 0 0 1, 310, 410 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--100, #f0f0f0); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 399.5 
+A 0 0 0 0 1, 150, 399.5 
+L 150, 390.5 
+A 0 0 0 0 1, 150, 390.5 
+L 350, 390.5 
+A 0 0 0 0 1, 350, 390.5 
+L 350, 399.5 
+A 0 0 0 0 1, 350, 399.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--200, #8bc1f7); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 150, 399.5 
+A 0 0 0 0 1, 150, 399.5 
+L 150, 390.5 
+A 0 0 0 0 1, 150, 390.5 
+L 210, 390.5 
+A 0 0 0 0 1, 210, 390.5 
+L 210, 399.5 
+A 0 0 0 0 1, 210, 399.5 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--100, #06c); stroke: var(--pf-v5-chart-bar--data--stroke, none); padding: 8px; stroke-width: 0;"></path></g><g role="presentation"><path d="M 462, 410 
+A 0 0 0 0 1, 462, 410 
+L 462, 380 
+A 0 0 0 0 1, 462, 380 
+L 462, 380 
+A 0 0 0 0 1, 462, 380 
+L 462, 410 
+A 0 0 0 0 1, 462, 410 
+ z" index="0" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color, #ec7a08); stroke: var(--pf-v5-chart-bullet--comparative-measure--warning--stroke--Color, #ec7a08); padding: 8px; stroke-width: 2;"></path></g><g><rect vector-effect="non-scaling-stroke" role="presentation" shape-rendering="auto" x="63" y="456" width="473.42890548706055" height="32.39999961853027" style="fill: none;"></rect><path d="M 72.128, 474.872
+      h9.744
+      v-9.744
+      h-9.744
+      z" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--100, #06c);"></path><path d="M 172.71549923706056, 474.872
+      h9.743999999999971
+      v-9.743999999999971
+      h-9.743999999999971
+      z" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-theme--blue--ColorScale--200, #8bc1f7);"></path><path d="M 277.0014352111816, 474.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color, #ec7a08);"></path><path d="M 367.61393597412103, 474.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--100, #f0f0f0);"></path><path d="M 454.73893749999996, 474.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z" role="presentation" shape-rendering="auto" style="fill: var(--pf-v5-chart-bullet--qualitative-range--ColorScale--200, #d2d2d2);"></path><text id="chart17-ChartLegend-ChartLabel-0" direction="inherit" dx="0" x="93.8" y="474.97"><tspan x="93.8" dx="0" dy="0" text-anchor="start" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);">Measure 1</tspan></text><text id="chart17-ChartLegend-ChartLabel-1" direction="inherit" dx="0" x="194.38749923706055" y="474.97"><tspan x="194.38749923706055" dx="0" dy="0" text-anchor="start" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);">Measure 2</tspan></text><text id="chart17-ChartLegend-ChartLabel-2" direction="inherit" dx="0" x="298.67343521118164" y="474.97"><tspan x="298.67343521118164" dx="0" dy="0" text-anchor="start" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);">Warning</tspan></text><text id="chart17-ChartLegend-ChartLabel-3" direction="inherit" dx="0" x="389.28593597412106" y="474.97"><tspan x="389.28593597412106" dx="0" dy="0" text-anchor="start" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);">Range 1</tspan></text><text id="chart17-ChartLegend-ChartLabel-4" direction="inherit" dx="0" x="476.4109375" y="474.97"><tspan x="476.4109375" dx="0" dy="0" text-anchor="start" style="font-family: RedHatText, helvetica, arial, sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);">Range 2</tspan></text></g></svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04">
+  <defs>
+    <style>
+      .cls-4{fill:none;stroke:#231f20;stroke-width:.2px}.cls-5{font-size:2.5px;font-family:Usual-Regular,Usual}
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <path d="M74.37 29.12c-.78-1.09-1.6-1.77-2.36-1.77-1.39 0-1.6 2.48-3.71 2.6-1.53.1-3.57 4.48-7.94 4.19-2.66-.18-3.73 6-6.1 5.66-2.17-.28-4.34-1.23-6.22-1.23-4.43 0-4.32-4.69-6.7-4.57-2 .1-2.81 3-5.24 3.1-1.51.04-2.05 2.9-3.1 2.9-1.2 0-2.09-2-4.25-1.62-1.56.25-3.22 3.67-8.48 5.25-2.62.79-4.88 9.05-4.88 9.05v6.48l59.17.17" style="fill:#441344"/>
+    <path d="M74.37 46.37c-.24.58-.49 1.16-1 1.28-2 .45-3.06-6.58-5.17-6.59-1.81 0-2.72 4.31-7.93 2.54-2.52-.86-3.6 4.36-6 4.21C52.09 47.68 49.92 51 48 51c-4.43 0-4.34-4-6.69-4.32-1.94-.29-3.84-1.84-5.23-.2-1 1.15-1.85 4-4 4.12-2.39.18-3.08-1-5.66-.52-1.51.27-5.48 4-7.19 4-2.56 0-3.89 3.76-3.89 3.76V61l59.17.09" style="fill:#875e7e"/>
+    <path d="M74.37 52.08a2.12 2.12 0 0 1-1.7 1c-1.35.14-2.26-.74-4.38-.7-1.52 0-3.56 1.48-7.93 1.39-2.66-.06-3.7 2.91-6.08 2.81-2.17-.09-4.36-1.35-6.24-1.35-4.43 0-4.23-2.62-6.61-2.58-2 0-2.9 2.08-5.33 2.09-1.51 0-2 1.26-3 1.26-1.2 0-2.13-.95-4.29-.84-1.56.08-4.14 3.09-9.62 3-1.77 0-3.74 1.75-3.74 1.75V62l59.17.06" style="fill:#cab0c0"/>
+    <path class="cls-4" d="M15.47 18.16v43.97m-1.3-37.65h1.14m-1.14 12.51h1.14m-1.14 12.6h1.14m-1.1-31.39h1.14m-1.18 12.6h1.14m-1.2 25.07h1.19m-1.13-12.56h1.14m.08 18.84h59.2m-23.65.03v1.39m-23.65-1.39v1.39"/>
+    <text class="cls-5" transform="translate(10.45 62.98)">0</text>
+    <text class="cls-5" transform="translate(10.45 56.7)">2</text>
+    <text class="cls-5" transform="translate(10.45 50.42)">4</text>
+    <text class="cls-5" transform="translate(10.45 44.14)">6</text>
+    <text class="cls-5" transform="translate(10.45 37.82)">8</text>
+    <text class="cls-5" transform="translate(8.88 31.63)">10</text>
+    <text class="cls-5" transform="translate(8.88 25.31)">12</text>
+    <text class="cls-5" transform="translate(8.88 19.03)">14</text>
+    <text class="cls-5" transform="translate(26.5 67.67)">2</text>
+    <text class="cls-5" transform="translate(38.33 67.67)">4</text>
+    <text class="cls-5" transform="translate(50.15 67.67)">6</text>
+    <text class="cls-5" transform="translate(61.98 67.67)">8</text>
+    <path class="cls-4" d="M62.76 62.18v1.39m-23.64-1.39v1.39"/>
+    <text class="cls-5" transform="translate(73.02 67.67)">10</text>
+  </g>
+</svg>

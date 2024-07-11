@@ -1,0 +1,1153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 773">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0071bc;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: PTSans-Bold, 'PT Sans';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #29abe2;
+      }
+
+      .cls-3 {
+        fill: #f7931e;
+      }
+
+      .cls-4 {
+        fill: #f15a24;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-width: 0px;
+      }
+
+      .cls-9, .cls-15, .cls-16, .cls-17 {
+        fill: none;
+      }
+
+      .cls-5, .cls-18 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5, .cls-6, .cls-19, .cls-20 {
+        font-family: PTSans-Regular, 'PT Sans';
+      }
+
+      .cls-5, .cls-6, .cls-19, .cls-20, .cls-21 {
+        isolation: isolate;
+      }
+
+      .cls-22 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-10 {
+        fill: rgba(41, 171, 226, .7);
+      }
+
+      .cls-11 {
+        fill: rgba(0, 113, 188, .7);
+      }
+
+      .cls-12 {
+        fill: rgba(241, 90, 36, .7);
+      }
+
+      .cls-13 {
+        fill: rgba(247, 147, 30, .7);
+      }
+
+      .cls-15 {
+        stroke: gray;
+        stroke-dasharray: 0 0 1 8;
+        stroke-linecap: round;
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-19 {
+        font-size: 16px;
+      }
+
+      .cls-20 {
+        fill: gray;
+        font-size: 12px;
+      }
+
+      .cls-32 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-44);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-43 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-44 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-45 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-47 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-48 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-49 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-62 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-63 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-65 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-16 {
+        stroke: rgba(0, 0, 0, 0);
+      }
+
+      .cls-17 {
+        stroke: rgba(128, 128, 128, 0);
+        stroke-width: .5px;
+      }
+
+      .cls-68 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        fill: rgba(255, 255, 255, .5);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-9" x="26.5" y="13.59" width="955.5" height="742.41"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-9" points="323.51 31.52 407.86 31.52 407.86 31.52 407.86 76.76 407.86 76.76 323.51 76.76 323.51 76.76 323.51 31.52"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-9" points="407.86 31.52 576.55 31.52 576.55 31.52 576.55 76.76 576.55 76.76 407.86 76.76 407.86 76.76 407.86 31.52 407.86 31.52"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-9" points="576.55 31.52 841.63 31.52 841.63 31.52 841.63 76.76 841.63 76.76 576.55 76.76 576.55 76.76 576.55 31.52 576.55 31.52"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-9" points="841.63 31.52 932 31.52 932 31.52 932 76.76 932 76.76 841.63 76.76 841.63 76.76 841.63 31.52 841.63 31.52"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <polygon class="cls-9" points="293.39 96.15 407.86 96.15 407.86 96.15 407.86 141.39 407.86 141.39 293.39 141.39 293.39 141.39 293.39 96.15 293.39 96.15"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-9" points="407.86 96.15 576.55 96.15 576.55 96.15 576.55 141.39 576.55 141.39 407.86 141.39 407.86 141.39 407.86 96.15 407.86 96.15"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <polygon class="cls-9" points="576.55 96.15 817.53 96.15 817.53 96.15 817.53 141.39 817.53 141.39 576.55 141.39 576.55 141.39 576.55 96.15"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon class="cls-9" points="817.53 96.15 895.85 96.15 895.85 96.15 895.85 141.39 895.85 141.39 817.53 141.39 817.53 141.39 817.53 96.15"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <polygon class="cls-9" points="275.31 160.78 365.68 160.78 365.68 160.78 365.68 206.02 365.68 206.02 275.31 206.02 275.31 206.02 275.31 160.78"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon class="cls-9" points="365.68 160.78 576.55 160.78 576.55 160.78 576.55 206.02 576.55 206.02 365.68 206.02 365.68 206.02 365.68 160.78"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <polygon class="cls-9" points="576.55 160.78 793.43 160.78 793.43 160.78 793.43 206.02 793.43 206.02 576.55 206.02 576.55 206.02 576.55 160.78"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <polygon class="cls-9" points="793.43 160.78 877.78 160.78 877.78 160.78 877.78 206.02 877.78 206.02 793.43 206.02 793.43 206.02 793.43 160.78"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon class="cls-9" points="269.29 225.41 377.73 225.41 377.73 225.41 377.73 270.65 377.73 270.65 269.29 270.65 269.29 270.65 269.29 225.41"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-9" points="377.73 225.41 576.55 225.41 576.55 225.41 576.55 270.65 576.55 270.65 377.73 270.65 377.73 270.65 377.73 225.41"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <polygon class="cls-9" points="576.55 225.41 799.46 225.41 799.46 225.41 799.46 270.65 799.46 270.65 576.55 270.65 576.55 270.65 576.55 225.41"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon class="cls-9" points="799.46 225.41 871.75 225.41 871.75 225.41 871.75 270.65 871.75 270.65 799.46 270.65 799.46 270.65 799.46 225.41"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <polygon class="cls-9" points="245.19 290.04 371.71 290.04 371.71 290.04 371.71 335.28 371.71 335.28 245.19 335.28 245.19 335.28 245.19 290.04 245.19 290.04"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <polygon class="cls-9" points="371.71 290.04 576.55 290.04 576.55 290.04 576.55 335.28 576.55 335.28 371.71 335.28 371.71 335.28 371.71 290.04 371.71 290.04"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <polygon class="cls-9" points="576.55 290.04 793.43 290.04 793.43 290.04 793.43 335.28 793.43 335.28 576.55 335.28 576.55 335.28 576.55 290.04 576.55 290.04"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <polygon class="cls-9" points="793.43 290.04 847.65 290.04 847.65 290.04 847.65 335.28 847.65 335.28 793.43 335.28 793.43 335.28 793.43 290.04 793.43 290.04"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <polygon class="cls-9" points="239.17 354.67 377.73 354.67 377.73 354.67 377.73 399.92 377.73 399.92 239.17 399.92 239.17 399.92 239.17 354.67 239.17 354.67"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <polygon class="cls-9" points="377.73 354.67 576.55 354.67 576.55 354.67 576.55 399.92 576.55 399.92 377.73 399.92 377.73 399.92 377.73 354.67 377.73 354.67"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <polygon class="cls-9" points="576.55 354.67 769.33 354.67 769.33 354.67 769.33 399.92 769.33 399.92 576.55 399.92 576.55 399.92 576.55 354.67 576.55 354.67"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <polygon class="cls-9" points="769.33 354.67 841.63 354.67 841.63 354.67 841.63 399.92 841.63 399.92 769.33 399.92 769.33 399.92 769.33 354.67 769.33 354.67"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <polygon class="cls-9" points="239.17 419.31 359.66 419.31 359.66 419.31 359.66 464.55 359.66 464.55 239.17 464.55 239.17 464.55 239.17 419.31"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <polygon class="cls-9" points="359.66 419.31 576.55 419.31 576.55 419.31 576.55 464.55 576.55 464.55 359.66 464.55 359.66 464.55 359.66 419.31"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <polygon class="cls-9" points="576.55 419.31 769.33 419.31 769.33 419.31 769.33 464.55 769.33 464.55 576.55 464.55 576.55 464.55 576.55 419.31 576.55 419.31"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <polygon class="cls-9" points="769.33 419.31 835.61 419.31 835.61 419.31 835.61 464.55 835.61 464.55 769.33 464.55 769.33 464.55 769.33 419.31"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <polygon class="cls-9" points="221.09 483.94 359.66 483.94 359.66 483.94 359.66 529.18 359.66 529.18 221.09 529.18 221.09 529.18 221.09 483.94"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <polygon class="cls-9" points="359.66 483.94 576.55 483.94 576.55 483.94 576.55 529.18 576.55 529.18 359.66 529.18 359.66 529.18 359.66 483.94"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <polygon class="cls-9" points="576.55 483.94 763.31 483.94 763.31 483.94 763.31 529.18 763.31 529.18 576.55 529.18 576.55 529.18 576.55 483.94"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <polygon class="cls-9" points="763.31 483.94 829.58 483.94 829.58 483.94 829.58 529.18 829.58 529.18 763.31 529.18 763.31 529.18 763.31 483.94"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <polygon class="cls-9" points="184.94 548.57 335.56 548.57 335.56 548.57 335.56 593.81 335.56 593.81 184.94 593.81 184.94 593.81 184.94 548.57 184.94 548.57"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <polygon class="cls-9" points="335.56 548.57 576.55 548.57 576.55 548.57 576.55 593.81 576.55 593.81 335.56 593.81 335.56 593.81 335.56 548.57 335.56 548.57"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <polygon class="cls-9" points="576.55 548.57 739.21 548.57 739.21 548.57 739.21 593.81 739.21 593.81 576.55 593.81 576.55 593.81 576.55 548.57 576.55 548.57"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <polygon class="cls-9" points="739.21 548.57 787.41 548.57 787.41 548.57 787.41 593.81 787.41 593.81 739.21 593.81 739.21 593.81 739.21 548.57"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <polygon class="cls-9" points="118.67 613.2 317.49 613.2 317.49 613.2 317.49 658.44 317.49 658.44 118.67 658.44 118.67 658.44 118.67 613.2"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <polygon class="cls-9" points="317.49 613.2 576.55 613.2 576.55 613.2 576.55 658.44 576.55 658.44 317.49 658.44 317.49 658.44 317.49 613.2 317.49 613.2"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <polygon class="cls-9" points="576.55 613.2 678.96 613.2 678.96 613.2 678.96 658.44 678.96 658.44 576.55 658.44 576.55 658.44 576.55 613.2"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <polygon class="cls-9" points="678.96 613.2 721.14 613.2 721.14 613.2 721.14 658.44 721.14 658.44 678.96 658.44 678.96 658.44 678.96 613.2"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <polygon class="cls-9" points="76.5 677.83 329.54 677.83 329.54 677.83 329.54 723.07 329.54 723.07 76.5 723.07 76.5 723.07 76.5 677.83"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <polygon class="cls-9" points="329.54 677.83 576.55 677.83 576.55 677.83 576.55 723.07 576.55 723.07 329.54 723.07 329.54 723.07 329.54 677.83"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <polygon class="cls-9" points="576.55 677.83 642.82 677.83 642.82 677.83 642.82 723.07 642.82 723.07 576.55 723.07 576.55 723.07 576.55 677.83"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <polygon class="cls-9" points="642.82 677.83 678.96 677.83 678.96 677.83 678.96 723.07 678.96 723.07 642.82 723.07 642.82 723.07 642.82 677.83"/>
+    </clipPath>
+  </defs>
+  <g id="Embellishments">
+    <text class="cls-4" transform="translate(308.43 11.8) scale(.95 1)"><tspan x="0" y="0">Strongl</tspan><tspan class="cls-32" x="43.99" y="0">y</tspan><tspan x="50.18" y="0" xml:space="preserve"> disagr</tspan><tspan class="cls-68" x="90.3" y="0">e</tspan><tspan x="97.34" y="0">e</tspan></text>
+    <text class="cls-3" transform="translate(466.99 11.8) scale(.95 1)"><tspan x="0" y="0">Disagr</tspan><tspan class="cls-68" x="38.09" y="0">e</tspan><tspan x="45.14" y="0">e</tspan></text>
+    <text class="cls-2" transform="translate(692.29 11.8) scale(.95 1)"><tspan class="cls-7" x="0" y="0">A</tspan><tspan x="8.2" y="0">gr</tspan><tspan class="cls-68" x="20.62" y="0">e</tspan><tspan x="27.66" y="0">e</tspan></text>
+    <text class="cls-1" transform="translate(845.39 11.8) scale(.95 1)"><tspan x="0" y="0">Strongl</tspan><tspan class="cls-32" x="43.99" y="0">y</tspan><tspan x="50.18" y="0" xml:space="preserve"> agr</tspan><tspan class="cls-68" x="73.08" y="0">e</tspan><tspan x="80.12" y="0">e</tspan></text>
+  </g>
+  <g id="Charts">
+    <g id="Survey_viz" data-name="Survey viz">
+      <g class="cls-8">
+        <g>
+          <g>
+            <line class="cls-15" x1="94.57" y1="18.59" x2="94.57" y2="736"/>
+            <line class="cls-15" x1="215.07" y1="18.59" x2="215.07" y2="736"/>
+            <line class="cls-15" x1="335.56" y1="18.59" x2="335.56" y2="736"/>
+            <line class="cls-15" x1="456.05" y1="18.59" x2="456.05" y2="736"/>
+            <line class="cls-15" x1="576.55" y1="18.59" x2="576.55" y2="736"/>
+            <line class="cls-15" x1="697.04" y1="18.59" x2="697.04" y2="736"/>
+            <line class="cls-15" x1="817.53" y1="18.59" x2="817.53" y2="736"/>
+          </g>
+          <g>
+            <g>
+              <g>
+                <path class="cls-12" d="m323.51,31.52h84.35v45.24h-84.35V31.52Z"/>
+                <g class="cls-23">
+                  <path class="cls-9" d="m323.51,31.52h84.35v45.24h-84.35V31.52Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m407.86,31.52h168.69v45.24h-168.69V31.52h0Z"/>
+                <g class="cls-26">
+                  <path class="cls-9" d="m407.86,31.52h168.69v45.24h-168.69V31.52h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,31.52h265.08v45.24h-265.08V31.52h0Z"/>
+                <g class="cls-25">
+                  <path class="cls-9" d="m576.55,31.52h265.08v45.24h-265.08V31.52h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m841.63,31.52h90.37v45.24h-90.37V31.52h0Z"/>
+                <g class="cls-24">
+                  <path class="cls-9" d="m841.63,31.52h90.37v45.24h-90.37V31.52h0Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m293.39,96.15h114.47v45.24h-114.47v-45.24h0Z"/>
+                <g class="cls-30">
+                  <path class="cls-9" d="m293.39,96.15h114.47v45.24h-114.47v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m407.86,96.15h168.69v45.24h-168.69v-45.24h0Z"/>
+                <g class="cls-29">
+                  <path class="cls-9" d="m407.86,96.15h168.69v45.24h-168.69v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,96.15h240.99v45.24h-240.99v-45.24Z"/>
+                <g class="cls-27">
+                  <path class="cls-9" d="m576.55,96.15h240.99v45.24h-240.99v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m817.53,96.15h78.32v45.24h-78.32v-45.24Z"/>
+                <g class="cls-28">
+                  <path class="cls-9" d="m817.53,96.15h78.32v45.24h-78.32v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m275.31,160.78h90.37v45.24h-90.37v-45.24Z"/>
+                <g class="cls-31">
+                  <path class="cls-9" d="m275.31,160.78h90.37v45.24h-90.37v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m365.68,160.78h210.86v45.24h-210.86v-45.24Z"/>
+                <g class="cls-61">
+                  <path class="cls-9" d="m365.68,160.78h210.86v45.24h-210.86v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,160.78h216.89v45.24h-216.89v-45.24Z"/>
+                <g class="cls-66">
+                  <path class="cls-9" d="m576.55,160.78h216.89v45.24h-216.89v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m793.43,160.78h84.35v45.24h-84.35v-45.24Z"/>
+                <g class="cls-60">
+                  <path class="cls-9" d="m793.43,160.78h84.35v45.24h-84.35v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m269.29,225.41h108.44v45.24h-108.44v-45.24Z"/>
+                <g class="cls-59">
+                  <path class="cls-9" d="m269.29,225.41h108.44v45.24h-108.44v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m377.73,225.41h198.81v45.24h-198.81v-45.24Z"/>
+                <g class="cls-58">
+                  <path class="cls-9" d="m377.73,225.41h198.81v45.24h-198.81v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,225.41h222.91v45.24h-222.91v-45.24Z"/>
+                <g class="cls-62">
+                  <path class="cls-9" d="m576.55,225.41h222.91v45.24h-222.91v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m799.46,225.41h72.3v45.24h-72.3v-45.24Z"/>
+                <g class="cls-64">
+                  <path class="cls-9" d="m799.46,225.41h72.3v45.24h-72.3v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m245.19,290.04h126.52v45.24h-126.52v-45.24h0Z"/>
+                <g class="cls-63">
+                  <path class="cls-9" d="m245.19,290.04h126.52v45.24h-126.52v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m371.71,290.04h204.84v45.24h-204.84v-45.24h0Z"/>
+                <g class="cls-67">
+                  <path class="cls-9" d="m371.71,290.04h204.84v45.24h-204.84v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,290.04h216.89v45.24h-216.89v-45.24h0Z"/>
+                <g class="cls-65">
+                  <path class="cls-9" d="m576.55,290.04h216.89v45.24h-216.89v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m793.43,290.04h54.22v45.24h-54.22v-45.24h0Z"/>
+                <g class="cls-33">
+                  <path class="cls-9" d="m793.43,290.04h54.22v45.24h-54.22v-45.24h0Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m239.17,354.67h138.57v45.24h-138.57v-45.24h0Z"/>
+                <g class="cls-34">
+                  <path class="cls-9" d="m239.17,354.67h138.57v45.24h-138.57v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m377.73,354.67h198.81v45.24h-198.81v-45.24h0Z"/>
+                <g class="cls-37">
+                  <path class="cls-9" d="m377.73,354.67h198.81v45.24h-198.81v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,354.67h192.79v45.24h-192.79v-45.24h0Z"/>
+                <g class="cls-36">
+                  <path class="cls-9" d="m576.55,354.67h192.79v45.24h-192.79v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m769.33,354.67h72.3v45.24h-72.3v-45.24h0Z"/>
+                <g class="cls-35">
+                  <path class="cls-9" d="m769.33,354.67h72.3v45.24h-72.3v-45.24h0Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m239.17,419.31h120.49v45.24h-120.49v-45.24Z"/>
+                <g class="cls-38">
+                  <path class="cls-9" d="m239.17,419.31h120.49v45.24h-120.49v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m359.66,419.31h216.89v45.24h-216.89v-45.24Z"/>
+                <g class="cls-46">
+                  <path class="cls-9" d="m359.66,419.31h216.89v45.24h-216.89v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,419.31h192.79v45.24h-192.79v-45.24h0Z"/>
+                <g class="cls-44">
+                  <path class="cls-9" d="m576.55,419.31h192.79v45.24h-192.79v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m769.33,419.31h66.27v45.24h-66.27v-45.24Z"/>
+                <g class="cls-45">
+                  <path class="cls-9" d="m769.33,419.31h66.27v45.24h-66.27v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m221.09,483.94h138.57v45.24h-138.57v-45.24Z"/>
+                <g class="cls-47">
+                  <path class="cls-9" d="m221.09,483.94h138.57v45.24h-138.57v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m359.66,483.94h216.89v45.24h-216.89v-45.24Z"/>
+                <g class="cls-55">
+                  <path class="cls-9" d="m359.66,483.94h216.89v45.24h-216.89v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,483.94h186.76v45.24h-186.76v-45.24Z"/>
+                <g class="cls-57">
+                  <path class="cls-9" d="m576.55,483.94h186.76v45.24h-186.76v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m763.31,483.94h66.27v45.24h-66.27v-45.24Z"/>
+                <g class="cls-54">
+                  <path class="cls-9" d="m763.31,483.94h66.27v45.24h-66.27v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m184.94,548.57h150.62v45.24h-150.62v-45.24h0Z"/>
+                <g class="cls-53">
+                  <path class="cls-9" d="m184.94,548.57h150.62v45.24h-150.62v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m335.56,548.57h240.99v45.24h-240.99v-45.24h0Z"/>
+                <g class="cls-48">
+                  <path class="cls-9" d="m335.56,548.57h240.99v45.24h-240.99v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,548.57h162.67v45.24h-162.67v-45.24h0Z"/>
+                <g class="cls-49">
+                  <path class="cls-9" d="m576.55,548.57h162.67v45.24h-162.67v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m739.21,548.57h48.2v45.24h-48.2v-45.24Z"/>
+                <g class="cls-50">
+                  <path class="cls-9" d="m739.21,548.57h48.2v45.24h-48.2v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m118.67,613.2h198.81v45.24H118.67v-45.24Z"/>
+                <g class="cls-51">
+                  <path class="cls-9" d="m118.67,613.2h198.81v45.24H118.67v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m317.49,613.2h259.06v45.24h-259.06v-45.24h0Z"/>
+                <g class="cls-56">
+                  <path class="cls-9" d="m317.49,613.2h259.06v45.24h-259.06v-45.24h0Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,613.2h102.42v45.24h-102.42v-45.24Z"/>
+                <g class="cls-52">
+                  <path class="cls-9" d="m576.55,613.2h102.42v45.24h-102.42v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m678.96,613.2h42.17v45.24h-42.17v-45.24Z"/>
+                <g class="cls-40">
+                  <path class="cls-9" d="m678.96,613.2h42.17v45.24h-42.17v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="cls-12" d="m76.5,677.83h253.04v45.24H76.5v-45.24Z"/>
+                <g class="cls-42">
+                  <path class="cls-9" d="m76.5,677.83h253.04v45.24H76.5v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-13" d="m329.54,677.83h247.01v45.24h-247.01v-45.24Z"/>
+                <g class="cls-41">
+                  <path class="cls-9" d="m329.54,677.83h247.01v45.24h-247.01v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-10" d="m576.55,677.83h66.27v45.24h-66.27v-45.24Z"/>
+                <g class="cls-43">
+                  <path class="cls-9" d="m576.55,677.83h66.27v45.24h-66.27v-45.24Z"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-11" d="m642.82,677.83h36.15v45.24h-36.15v-45.24Z"/>
+                <g class="cls-39">
+                  <path class="cls-9" d="m642.82,677.83h36.15v45.24h-36.15v-45.24Z"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g>
+            <path class="cls-17" d="m76.5,736h855.5"/>
+            <g id="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(88.03 754.52)"><tspan x="0" y="0">80</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-2" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(208.53 754.52)"><tspan x="0" y="0">60</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-3" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(329.02 754.52)"><tspan x="0" y="0">40</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-4" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(449.51 754.52)"><tspan x="0" y="0">20</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-5" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(573.28 754.52)"><tspan x="0" y="0">0</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-6" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(690.5 754.52)"><tspan x="0" y="0">20</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-7" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-20" transform="translate(810.99 754.52)"><tspan x="0" y="0">40</tspan></text>
+              </g>
+            </g>
+          </g>
+          <path class="cls-16" d="m576.55,18.59v717.41"/>
+          <g>
+            <g>
+              <g id="grect">
+                <path class="cls-14" d="m566.55,54.14c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-8" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 60.14)"><tspan x="0" y="0">q1</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-2" data-name="grect">
+                <path class="cls-14" d="m566.55,118.77c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-9" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 124.77)"><tspan x="0" y="0">q2</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-3" data-name="grect">
+                <path class="cls-14" d="m566.55,183.4c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-10" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 189.4)"><tspan x="0" y="0">q3</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-4" data-name="grect">
+                <path class="cls-14" d="m566.55,248.03c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-11" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 254.03)"><tspan x="0" y="0">q4</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-5" data-name="grect">
+                <path class="cls-14" d="m566.55,312.66c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-12" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 318.66)"><tspan x="0" y="0">q5</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-6" data-name="grect">
+                <path class="cls-14" d="m566.55,377.29c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-13" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 383.29)"><tspan x="0" y="0">q6</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-7" data-name="grect">
+                <path class="cls-14" d="m566.55,441.93c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-14" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 447.93)"><tspan x="0" y="0">q</tspan><tspan class="cls-22" x="8.59" y="0">7</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-8" data-name="grect">
+                <path class="cls-14" d="m566.55,506.56c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-15" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 512.56)"><tspan x="0" y="0">q8</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-9" data-name="grect">
+                <path class="cls-14" d="m566.55,571.19c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-16" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(567.89 577.19)"><tspan x="0" y="0">q9</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-10" data-name="grect">
+                <path class="cls-14" d="m566.54,635.82c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-17" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(563.52 641.82)"><tspan x="0" y="0">q10</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g id="grect-11" data-name="grect">
+                <path class="cls-14" d="m566.54,700.45c0-5.52,4.48-10,10-10h0c5.52,0,10,4.48,10,10h0c0,5.52-4.48,10-10,10h0c-5.52,0-10-4.48-10-10Z"/>
+              </g>
+              <g id="gtext-18" data-name="gtext">
+                <g class="cls-21">
+                  <text class="cls-19" transform="translate(563.52 706.45)"><tspan x="0" y="0">q11</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g id="gtext-19" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(352.64 59.14)"><tspan x="0" y="0">14</tspan></text>
+                <text class="cls-6" transform="translate(367.9 59.14)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-20" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(337.57 123.77)"><tspan x="0" y="0">19</tspan></text>
+                <text class="cls-6" transform="translate(352.83 123.77)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-21" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(307.45 188.4)"><tspan x="0" y="0">15</tspan></text>
+                <text class="cls-6" transform="translate(322.71 188.4)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-22" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(310.46 253.03)"><tspan x="0" y="0">18</tspan></text>
+                <text class="cls-6" transform="translate(325.72 253.03)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-23" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(295.4 317.66)"><tspan x="0" y="0">21</tspan></text>
+                <text class="cls-6" transform="translate(310.66 317.66)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-24" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(295.4 382.29)"><tspan x="0" y="0">23</tspan></text>
+                <text class="cls-6" transform="translate(310.66 382.29)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-25" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(286.37 446.93)"><tspan x="0" y="0">20</tspan></text>
+                <text class="cls-6" transform="translate(301.63 446.93)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-26" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(277.33 511.56)"><tspan x="0" y="0">23</tspan></text>
+                <text class="cls-6" transform="translate(292.59 511.56)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-27" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(247.2 576.19)"><tspan x="0" y="0">25</tspan></text>
+                <text class="cls-6" transform="translate(262.46 576.19)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-28" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(205.03 640.82)"><tspan x="0" y="0">33</tspan></text>
+                <text class="cls-6" transform="translate(220.29 640.82)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-29" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(189.97 705.45)"><tspan x="0" y="0">42</tspan></text>
+                <text class="cls-6" transform="translate(205.23 705.45)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-30" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(479.15 59.14)"><tspan x="0" y="0">28</tspan></text>
+                <text class="cls-6" transform="translate(494.41 59.14)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-31" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(479.15 123.77)"><tspan x="0" y="0">28</tspan></text>
+                <text class="cls-6" transform="translate(494.41 123.77)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-32" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(458.07 188.4)"><tspan x="0" y="0">35</tspan></text>
+                <text class="cls-6" transform="translate(473.33 188.4)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-33" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(464.09 253.03)"><tspan x="0" y="0">33</tspan></text>
+                <text class="cls-6" transform="translate(479.35 253.03)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-34" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(461.08 317.66)"><tspan x="0" y="0">34</tspan></text>
+                <text class="cls-6" transform="translate(476.34 317.66)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-35" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(464.09 382.29)"><tspan x="0" y="0">33</tspan></text>
+                <text class="cls-6" transform="translate(479.35 382.29)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-36" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(455.06 446.93)"><tspan x="0" y="0">36</tspan></text>
+                <text class="cls-6" transform="translate(470.32 446.93)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-37" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(455.06 511.56)"><tspan x="0" y="0">36</tspan></text>
+                <text class="cls-6" transform="translate(470.32 511.56)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-38" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(443.01 576.19)"><tspan x="0" y="0">40</tspan></text>
+                <text class="cls-6" transform="translate(458.27 576.19)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-39" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(433.97 640.82)"><tspan x="0" y="0">43</tspan></text>
+                <text class="cls-6" transform="translate(449.23 640.82)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-40" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(439.99 705.45)"><tspan x="0" y="0">41</tspan></text>
+                <text class="cls-6" transform="translate(455.25 705.45)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-41" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(696.04 59.14)"><tspan x="0" y="0">44</tspan></text>
+                <text class="cls-6" transform="translate(711.3 59.14)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-42" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(683.99 123.77)"><tspan x="0" y="0">40</tspan></text>
+                <text class="cls-6" transform="translate(699.25 123.77)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-43" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(671.94 188.4)"><tspan x="0" y="0">36</tspan></text>
+                <text class="cls-6" transform="translate(687.2 188.4)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-44" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(674.95 253.03)"><tspan x="0" y="0">3</tspan><tspan class="cls-18" x="7.63" y="0">7</tspan></text>
+                <text class="cls-6" transform="translate(690.21 253.03)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-45" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(671.94 317.66)"><tspan x="0" y="0">36</tspan></text>
+                <text class="cls-6" transform="translate(687.2 317.66)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-46" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(659.89 382.29)"><tspan x="0" y="0">32</tspan></text>
+                <text class="cls-6" transform="translate(675.15 382.29)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-47" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(659.89 446.93)"><tspan x="0" y="0">32</tspan></text>
+                <text class="cls-6" transform="translate(675.15 446.93)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-48" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(656.88 511.56)"><tspan x="0" y="0">31</tspan></text>
+                <text class="cls-6" transform="translate(672.14 511.56)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-49" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(644.83 576.19)"><tspan x="0" y="0">2</tspan><tspan class="cls-18" x="7.63" y="0">7</tspan></text>
+                <text class="cls-6" transform="translate(660.09 576.19)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-50" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(614.71 640.82)"><tspan x="0" y="0">1</tspan><tspan class="cls-18" x="7.63" y="0">7</tspan></text>
+                <text class="cls-6" transform="translate(629.97 640.82)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-51" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(596.63 705.45)"><tspan x="0" y="0">11</tspan></text>
+                <text class="cls-6" transform="translate(611.89 705.45)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-52" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(873.77 59.14)"><tspan x="0" y="0">15</tspan></text>
+                <text class="cls-6" transform="translate(889.03 59.14)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-53" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(843.65 123.77)"><tspan x="0" y="0">13</tspan></text>
+                <text class="cls-6" transform="translate(858.91 123.77)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-54" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(822.56 188.4)"><tspan x="0" y="0">14</tspan></text>
+                <text class="cls-6" transform="translate(837.82 188.4)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-55" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(822.56 253.03)"><tspan x="0" y="0">12</tspan></text>
+                <text class="cls-6" transform="translate(837.82 253.03)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-56" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(811.32 317.66)"><tspan x="0" y="0">9</tspan></text>
+                <text class="cls-6" transform="translate(818.95 317.66)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-57" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(792.44 382.29)"><tspan x="0" y="0">12</tspan></text>
+                <text class="cls-6" transform="translate(807.7 382.29)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-58" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(789.42 446.93)"><tspan x="0" y="0">11</tspan></text>
+                <text class="cls-6" transform="translate(804.68 446.93)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-59" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(783.4 511.56)"><tspan x="0" y="0">11</tspan></text>
+                <text class="cls-6" transform="translate(798.66 511.56)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-60" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(754.08 576.19)"><tspan x="0" y="0">8</tspan></text>
+                <text class="cls-6" transform="translate(761.71 576.19)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-61" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-5" transform="translate(690.82 640.82)"><tspan x="0" y="0">7</tspan></text>
+                <text class="cls-6" transform="translate(698.45 640.82)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+            <g id="gtext-62" data-name="gtext">
+              <g class="cls-21">
+                <text class="cls-6" transform="translate(651.66 705.45)"><tspan x="0" y="0">6</tspan></text>
+                <text class="cls-6" transform="translate(659.29 705.45)"><tspan x="0" y="0">%</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400">
+  <path fill="transparent" d="M0 0h900v400H0z"/>
+  <path data-testid="node.nivo" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h900v400H0z"/>
+  <text data-testid="parentLabel.nivo" dominant-baseline="central" transform="translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">nivo</text>
+  <path data-testid="node.viz" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h158v325H0z" transform="translate(0 20)"/>
+  <text data-testid="parentLabel.viz" dominant-baseline="central" transform="translate(0 20) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">viz</text>
+  <path data-testid="node.colors" fill="#f1e15b" stroke="#A99E40" fill-opacity=".33" d="M0 0h158v55H0z" transform="translate(0 345)"/>
+  <text data-testid="parentLabel.colors" dominant-baseline="central" transform="translate(0 345) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#a99e40;outline-width:0;outline-color:transparent;pointer-events:none">colors</text>
+  <path data-testid="node.utils" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h179v146H0z" transform="translate(158 20)"/>
+  <text data-testid="parentLabel.utils" dominant-baseline="central" transform="translate(158 20) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">utils</text>
+  <path data-testid="node.generators" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h179v234H0z" transform="translate(158 166)"/>
+  <text data-testid="parentLabel.generators" dominant-baseline="central" transform="translate(158 166) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">generators</text>
+  <path data-testid="node.set" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h278v220H0z" transform="translate(337 20)"/>
+  <text data-testid="parentLabel.set" dominant-baseline="central" transform="translate(337 20) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">set</text>
+  <path data-testid="node.text" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h278v160H0z" transform="translate(337 240)"/>
+  <text data-testid="parentLabel.text" dominant-baseline="central" transform="translate(337 240) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">text</text>
+  <path data-testid="node.misc" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h285v380H0z" transform="translate(615 20)"/>
+  <text data-testid="parentLabel.misc" dominant-baseline="central" transform="translate(615 20) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">misc</text>
+  <path data-testid="node.stack" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h158v95H0z" transform="translate(0 40)"/>
+  <text data-testid="parentLabel.stack" dominant-baseline="central" transform="translate(0 40) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">stack</text>
+  <path data-testid="node.ppie" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h158v210H0z" transform="translate(0 135)"/>
+  <text data-testid="parentLabel.ppie" dominant-baseline="central" transform="translate(0 135) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">ppie</text>
+  <path data-testid="node.rgb" fill="#f1e15b" stroke="#A99E40" fill-opacity=".33" d="M0 0h126v35H0z" transform="translate(0 365)"/>
+  <text data-testid="label.rgb" text-anchor="middle" dominant-baseline="central" transform="translate(0 365) translate(63 17.5)" style="font-family:sans-serif;font-size:11px;fill:#a99e40;outline-width:0;outline-color:transparent;pointer-events:none">130k</text>
+  <path data-testid="node.hsl" fill="#f1e15b" stroke="#A99E40" fill-opacity=".33" d="M0 0h32v35H0z" transform="translate(126 365)"/>
+  <text data-testid="label.hsl" text-anchor="middle" dominant-baseline="central" transform="translate(126 365) rotate(-90 16.75 .75)" style="font-family:sans-serif;font-size:11px;fill:#a99e40;outline-width:0;outline-color:transparent;pointer-events:none">33k</text>
+  <g transform="translate(158 40)"/>
+  <path data-testid="node.resetClock" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h46v126H0z" transform="translate(158 40)"/>
+  <text data-testid="label.resetClock" text-anchor="middle" dominant-baseline="central" transform="translate(158 40) rotate(-90 43 20)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">120k</text>
+  <path data-testid="node.noop" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h74v28H0z" transform="translate(204 40)"/>
+  <text data-testid="label.noop" text-anchor="middle" dominant-baseline="central" transform="translate(204 40) translate(37 14)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">45k</text>
+  <path data-testid="node.tick" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h74v66H0z" transform="translate(204 68)"/>
+  <text data-testid="label.tick" text-anchor="middle" dominant-baseline="central" transform="translate(204 68) translate(37 33)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.forceGC" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h74v32H0z" transform="translate(204 134)"/>
+  <text data-testid="label.forceGC" text-anchor="middle" dominant-baseline="central" transform="translate(204 134) translate(37 16)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">51k</text>
+  <g transform="translate(278 40)"/>
+  <path data-testid="node.dbg" fill="#e8a838" stroke="#A27627" fill-opacity=".33" d="M0 0h59v126H0z" transform="translate(278 40)"/>
+  <text data-testid="label.dbg" text-anchor="middle" dominant-baseline="central" transform="translate(278 40) rotate(-90 46.25 16.75)" style="font-family:sans-serif;font-size:11px;fill:#a27627;outline-width:0;outline-color:transparent;pointer-events:none">160k</text>
+  <path data-testid="node.address" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h75v111H0z" transform="translate(158 186)"/>
+  <text data-testid="label.address" text-anchor="middle" dominant-baseline="central" transform="translate(158 186) rotate(-90 46.5 9)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">170k</text>
+  <path data-testid="node.city" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h23v111H0z" transform="translate(233 186)"/>
+  <text data-testid="label.city" text-anchor="middle" dominant-baseline="central" transform="translate(233 186) rotate(-90 33.5 22)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">53k</text>
+  <path data-testid="node.animal" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h81v111H0z" transform="translate(256 186)"/>
+  <text data-testid="label.animal" text-anchor="middle" dominant-baseline="central" transform="translate(256 186) rotate(-90 48 7.5)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+  <path data-testid="node.movie" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h94v103H0z" transform="translate(158 297)"/>
+  <text data-testid="label.movie" text-anchor="middle" dominant-baseline="central" transform="translate(158 297) rotate(-90 49.25 2.25)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">200k</text>
+  <path data-testid="node.user" fill="#61cdbb" stroke="#449083" fill-opacity=".33" d="M0 0h85v103H0z" transform="translate(252 297)"/>
+  <text data-testid="label.user" text-anchor="middle" dominant-baseline="central" transform="translate(252 297) rotate(-90 47 4.5)" style="font-family:sans-serif;font-size:11px;fill:#449083;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+  <path data-testid="node.clone" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h64v58H0z" transform="translate(337 40)"/>
+  <text data-testid="label.clone" text-anchor="middle" dominant-baseline="central" transform="translate(337 40) translate(32 29)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">76k</text>
+  <path data-testid="node.intersect" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h64v31H0z" transform="translate(337 98)"/>
+  <text data-testid="label.intersect" text-anchor="middle" dominant-baseline="central" transform="translate(337 98) translate(32 15.5)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">40k</text>
+  <path data-testid="node.merge" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h64v83H0z" transform="translate(337 129)"/>
+  <text data-testid="label.merge" text-anchor="middle" dominant-baseline="central" transform="translate(337 129) rotate(-90 36.75 4.75)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.reverse" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h64v28H0z" transform="translate(337 212)"/>
+  <text data-testid="label.reverse" text-anchor="middle" dominant-baseline="central" transform="translate(337 212) translate(32 14)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">37k</text>
+  <path data-testid="node.toArray" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h112v50H0z" transform="translate(401 40)"/>
+  <text data-testid="label.toArray" text-anchor="middle" dominant-baseline="central" transform="translate(401 40) translate(56 25)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.toObject" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h112v78H0z" transform="translate(401 90)"/>
+  <text data-testid="label.toObject" text-anchor="middle" dominant-baseline="central" transform="translate(401 90) translate(56 39)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+  <path data-testid="node.fromCSV" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h112v72H0z" transform="translate(401 168)"/>
+  <text data-testid="label.fromCSV" text-anchor="middle" dominant-baseline="central" transform="translate(401 168) translate(56 36)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">160k</text>
+  <path data-testid="node.slice" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h33v85H0z" transform="translate(513 40)"/>
+  <text data-testid="label.slice" text-anchor="middle" dominant-baseline="central" transform="translate(513 40) rotate(-90 29.5 13)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">57k</text>
+  <path data-testid="node.append" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h69v85H0z" transform="translate(546 40)"/>
+  <text data-testid="label.append" text-anchor="middle" dominant-baseline="central" transform="translate(546 40) rotate(-90 38.5 4)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">120k</text>
+  <path data-testid="node.prepend" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h69v74H0z" transform="translate(513 125)"/>
+  <text data-testid="label.prepend" text-anchor="middle" dominant-baseline="central" transform="translate(513 125) rotate(-90 35.75 1.25)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">100k</text>
+  <path data-testid="node.shuffle" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h33v74H0z" transform="translate(582 125)"/>
+  <text data-testid="label.shuffle" text-anchor="middle" dominant-baseline="central" transform="translate(582 125) rotate(-90 26.75 10.25)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">51k</text>
+  <path data-testid="node.pick" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h38v41H0z" transform="translate(513 199)"/>
+  <text data-testid="label.pick" text-anchor="middle" dominant-baseline="central" transform="translate(513 199) rotate(-90 19.75 .75)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">31k</text>
+  <path data-testid="node.plouc" fill="#97e3d5" stroke="#6A9F95" fill-opacity=".33" d="M0 0h64v41H0z" transform="translate(551 199)"/>
+  <text data-testid="label.plouc" text-anchor="middle" dominant-baseline="central" transform="translate(551 199) translate(32 20.5)" style="font-family:sans-serif;font-size:11px;fill:#6a9f95;outline-width:0;outline-color:transparent;pointer-events:none">54k</text>
+  <path data-testid="node.trim" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h71v75H0z" transform="translate(337 260)"/>
+  <text data-testid="label.trim" text-anchor="middle" dominant-baseline="central" transform="translate(337 260) rotate(-90 36.5 1)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.slugify" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h71v34H0z" transform="translate(337 335)"/>
+  <text data-testid="label.slugify" text-anchor="middle" dominant-baseline="central" transform="translate(337 335) translate(35.5 17)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">50k</text>
+  <path data-testid="node.snakeCase" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h71v31H0z" transform="translate(337 369)"/>
+  <text data-testid="label.snakeCase" text-anchor="middle" dominant-baseline="central" transform="translate(337 369) translate(35.5 15.5)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">47k</text>
+  <path data-testid="node.camelCase" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h83v96H0z" transform="translate(408 260)"/>
+  <text data-testid="label.camelCase" text-anchor="middle" dominant-baseline="central" transform="translate(408 260) rotate(-90 44.75 3.25)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">170k</text>
+  <path data-testid="node.repeat" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h83v44H0z" transform="translate(408 356)"/>
+  <text data-testid="label.repeat" text-anchor="middle" dominant-baseline="central" transform="translate(408 356) translate(41.5 22)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">78k</text>
+  <path data-testid="node.padLeft" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h27v94H0z" transform="translate(491 260)"/>
+  <text data-testid="label.padLeft" text-anchor="middle" dominant-baseline="central" transform="translate(491 260) rotate(-90 30.25 16.75)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">55k</text>
+  <path data-testid="node.padRight" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h97v94H0z" transform="translate(518 260)"/>
+  <text data-testid="label.padRight" text-anchor="middle" dominant-baseline="central" transform="translate(518 260) translate(48.5 47)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">190k</text>
+  <path data-testid="node.sanitize" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h105v46H0z" transform="translate(491 354)"/>
+  <text data-testid="label.sanitize" text-anchor="middle" dominant-baseline="central" transform="translate(491 354) translate(52.5 23)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">100k</text>
+  <path data-testid="node.ploucify" fill="#e8c1a0" stroke="#A28770" fill-opacity=".33" d="M0 0h19v46H0z" transform="translate(596 354)"/>
+  <text data-testid="label.ploucify" text-anchor="middle" dominant-baseline="central" transform="translate(596 354) rotate(-90 16.25 6.75)" style="font-family:sans-serif;font-size:11px;fill:#a28770;outline-width:0;outline-color:transparent;pointer-events:none">19k</text>
+  <path data-testid="node.greetings" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h285v54H0z" transform="translate(615 40)"/>
+  <text data-testid="parentLabel.greetings" dominant-baseline="central" transform="translate(615 40) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">greetings</text>
+  <g transform="translate(615 94)"/>
+  <path data-testid="node.path" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h285v306H0z" transform="translate(615 94)"/>
+  <text data-testid="parentLabel.path" dominant-baseline="central" transform="translate(615 94) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">path</text>
+  <path data-testid="node.cchart" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h76v75H0z" transform="translate(0 60)"/>
+  <text data-testid="label.cchart" text-anchor="middle" dominant-baseline="central" transform="translate(0 60) translate(38 37.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">140k</text>
+  <path data-testid="node.xAxis" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h61v75H0z" transform="translate(76 60)"/>
+  <text data-testid="label.xAxis" text-anchor="middle" dominant-baseline="central" transform="translate(76 60) rotate(-90 34 3.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.yAxis" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h21v44H0z" transform="translate(137 60)"/>
+  <text data-testid="label.yAxis" text-anchor="middle" dominant-baseline="central" transform="translate(137 60) rotate(-90 16.25 5.75)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">24k</text>
+  <path data-testid="node.layers" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h21v31H0z" transform="translate(137 104)"/>
+  <text data-testid="label.layers" text-anchor="middle" dominant-baseline="central" transform="translate(137 104) rotate(-90 13 2.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">17k</text>
+  <path data-testid="node.chart" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h158v159H0z" transform="translate(0 155)"/>
+  <text data-testid="parentLabel.chart" dominant-baseline="central" transform="translate(0 155) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">chart</text>
+  <path data-testid="node.legends" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h158v31H0z" transform="translate(0 314)"/>
+  <text data-testid="label.legends" text-anchor="middle" dominant-baseline="central" transform="translate(0 314) translate(79 15.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">110k</text>
+  <path data-testid="node.hey" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h121v34H0z" transform="translate(615 60)"/>
+  <text data-testid="label.hey" text-anchor="middle" dominant-baseline="central" transform="translate(615 60) translate(60.5 17)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">130k</text>
+  <path data-testid="node.HOWDY" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M736 60h16v34h-16z"/>
+  <path data-testid="node.aloha" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h71v34H0z" transform="translate(752 60)"/>
+  <text data-testid="label.aloha" text-anchor="middle" dominant-baseline="central" transform="translate(752 60) translate(35.5 17)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">75k</text>
+  <path data-testid="node.AHOY" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h77v34H0z" transform="translate(823 60)"/>
+  <text data-testid="label.AHOY" text-anchor="middle" dominant-baseline="central" transform="translate(823 60) translate(38.5 17)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">81k</text>
+  <path data-testid="node.pathA" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M615 114h16v99h-16z"/>
+  <path data-testid="node.pathB" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h269v99H0z" transform="translate(631 114)"/>
+  <text data-testid="parentLabel.pathB" dominant-baseline="central" transform="translate(631 114) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">pathB</text>
+  <path data-testid="node.pathC" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h285v187H0z" transform="translate(615 213)"/>
+  <text data-testid="parentLabel.pathC" dominant-baseline="central" transform="translate(615 213) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">pathC</text>
+  <path data-testid="node.pie" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h112v84H0z" transform="translate(0 175)"/>
+  <text data-testid="parentLabel.pie" dominant-baseline="central" transform="translate(0 175) translate(6 10)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">pie</text>
+  <path data-testid="node.donut" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h112v55H0z" transform="translate(0 259)"/>
+  <text data-testid="label.donut" text-anchor="middle" dominant-baseline="central" transform="translate(0 259) translate(56 27.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">150k</text>
+  <path data-testid="node.gauge" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h46v139H0z" transform="translate(112 175)"/>
+  <text data-testid="label.gauge" text-anchor="middle" dominant-baseline="central" transform="translate(112 175) rotate(-90 46.25 23.25)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">160k</text>
+  <path data-testid="node.pathB1" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h67v79H0z" transform="translate(631 134)"/>
+  <text data-testid="label.pathB1" text-anchor="middle" dominant-baseline="central" transform="translate(631 134) rotate(-90 36.5 3)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">140k</text>
+  <path data-testid="node.pathB2" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h85v79H0z" transform="translate(698 134)"/>
+  <text data-testid="label.pathB2" text-anchor="middle" dominant-baseline="central" transform="translate(698 134) translate(42.5 39.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+  <path data-testid="node.pathB3" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h90v79H0z" transform="translate(783 134)"/>
+  <text data-testid="label.pathB3" text-anchor="middle" dominant-baseline="central" transform="translate(783 134) translate(45 39.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">190k</text>
+  <path data-testid="node.pathB4" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h27v79H0z" transform="translate(873 134)"/>
+  <text data-testid="label.pathB4" text-anchor="middle" dominant-baseline="central" transform="translate(873 134) rotate(-90 26.5 13)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">55k</text>
+  <path data-testid="node.pathC1" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h92v43H0z" transform="translate(615 233)"/>
+  <text data-testid="label.pathC1" text-anchor="middle" dominant-baseline="central" transform="translate(615 233) translate(46 21.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">93k</text>
+  <path data-testid="node.pathC2" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h92v80H0z" transform="translate(615 276)"/>
+  <text data-testid="label.pathC2" text-anchor="middle" dominant-baseline="central" transform="translate(615 276) translate(46 40)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">170k</text>
+  <path data-testid="node.pathC3" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h92v44H0z" transform="translate(615 356)"/>
+  <text data-testid="label.pathC3" text-anchor="middle" dominant-baseline="central" transform="translate(615 356) translate(46 22)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">96k</text>
+  <path data-testid="node.pathC4" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h117v47H0z" transform="translate(707 233)"/>
+  <text data-testid="label.pathC4" text-anchor="middle" dominant-baseline="central" transform="translate(707 233) translate(58.5 23.5)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">130k</text>
+  <path data-testid="node.pathC5" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h117v56H0z" transform="translate(707 280)"/>
+  <text data-testid="label.pathC5" text-anchor="middle" dominant-baseline="central" transform="translate(707 280) translate(58.5 28)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">150k</text>
+  <path data-testid="node.pathC6" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h117v64H0z" transform="translate(707 336)"/>
+  <text data-testid="label.pathC6" text-anchor="middle" dominant-baseline="central" transform="translate(707 336) translate(58.5 32)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+  <path data-testid="node.pathC7" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h76v58H0z" transform="translate(824 233)"/>
+  <text data-testid="label.pathC7" text-anchor="middle" dominant-baseline="central" transform="translate(824 233) translate(38 29)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">100k</text>
+  <path data-testid="node.pathC8" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M824 291h10v109h-10z"/>
+  <path data-testid="node.pathC9" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h66v109H0z" transform="translate(834 291)"/>
+  <text data-testid="label.pathC9" text-anchor="middle" dominant-baseline="central" transform="translate(834 291) rotate(-90 43.75 10.75)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">170k</text>
+  <path data-testid="node.outline" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h29v40H0z" transform="translate(0 195)"/>
+  <text data-testid="label.outline" text-anchor="middle" dominant-baseline="central" transform="translate(0 195) rotate(-90 17.25 2.75)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">38k</text>
+  <path data-testid="node.slices" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h29v24H0z" transform="translate(0 235)"/>
+  <text data-testid="label.slices" text-anchor="middle" dominant-baseline="central" transform="translate(0 235) translate(14.5 12)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">23k</text>
+  <path data-testid="node.bbox" fill="#f47560" stroke="#AB5243" fill-opacity=".33" d="M0 0h83v64H0z" transform="translate(29 195)"/>
+  <text data-testid="label.bbox" text-anchor="middle" dominant-baseline="central" transform="translate(29 195) translate(41.5 32)" style="font-family:sans-serif;font-size:11px;fill:#ab5243;outline-width:0;outline-color:transparent;pointer-events:none">180k</text>
+</svg>

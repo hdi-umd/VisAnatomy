@@ -1,0 +1,104 @@
+<svg class="highcharts-root" style="font-family:Helvetica,Arial,sans-serif;font-size:1rem" xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" aria-label="Interactive chart" aria-hidden="false">
+  <defs aria-hidden="true">
+    <clipPath id="a">
+      <path fill="none" d="M0 0h580v201H0z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path fill="none" d="M0 0h580v40H0z"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fff" class="highcharts-background" filter="none" width="600" height="400" rx="0" ry="0" aria-hidden="true"/>
+  <path fill="none" class="highcharts-plot-background" filter="none" aria-hidden="true" d="M10 79h580v201H10z"/>
+  <g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true" fill="none">
+    <path data-z-index="1" class="highcharts-grid-line" d="M9.5 79v201m72-201v201m72-201v201m72-201v201m72-201v201m72-201v201m72-201v201m72-201v201m72-201v201"/>
+  </g>
+  <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis" data-z-index="1" aria-hidden="true" fill="none" stroke="#e6e6e6">
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true" fill="none" stroke="#e6e6e6">
+    <path data-z-index="1" class="highcharts-grid-line" d="M10 159.5h580m-580 121h580m-580-40h580m-580-40h580m-580-81h580m-580-40h580"/>
+  </g>
+  <path fill="none" class="highcharts-plot-border" data-z-index="1" aria-hidden="true" d="M10 79h580v201H10z"/>
+  <g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true" fill="none" stroke="#333">
+    <path class="highcharts-tick" d="M9.5 280v10m72-10v10m72-10v10m72-10v10m72-10v10m72-10v10m72-10v10m72-10v10m72-10v10"/>
+    <path class="highcharts-axis-line" data-z-index="7" d="M10 280.5h580"/>
+  </g>
+  <g class="highcharts-axis highcharts-xaxis highcharts-navigator-xaxis" data-z-index="2" aria-hidden="true">
+  </g>
+  <g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true">
+    <path fill="none" class="highcharts-axis-line" data-z-index="7" d="M590 79v201"/>
+  </g>
+  <g class="highcharts-series-group" data-z-index="3" filter="none" aria-hidden="false">
+    <g class="highcharts-series highcharts-series-0 highcharts-candlestick-series highcharts-color-0" data-z-index=".1" transform="translate(10 79)" clip-path="url(#a)" aria-hidden="false" tabindex="-1" aria-label="AAPL, series 1 of 2 with 48 data points. Y axis, values. X axis, Time." style="outline:0" stroke="#000">
+      <path fill="#fff" filter="none" d="M-3.5 145.5v-10h6v10Zm3-10V121m0 24.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 08:00, open: 416.76, high: 418.00, low: 416.76, close: 417.28. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M8.5 135.5v-4h6v4Zm3-4V121m0 14.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 08:10, open: 417.44, high: 418.00, low: 417.03, close: 417.25. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M20.5 140.5v-4h6v4Zm3-4V132m0 8.5v7.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 08:20, open: 417.20, high: 417.41, low: 416.66, close: 417.00. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M32.5 140.5v-12h6v12Zm3-12v-.5m0 12.5v8.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 08:30, open: 417.00, high: 417.64, low: 416.60, close: 417.60. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M44.5 138.5v-10h6v10Zm3-10V127m0 11.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 08:40, open: 417.59, high: 417.68, low: 416.88, close: 417.13. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M56.5 137.5v-17h6v17Zm3-17V111m0 26.5v.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 08:50, open: 417.15, high: 418.50, low: 417.14, close: 418.00. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M68.5 121.5v-1h6v1Zm3-1V116m0 5.5v2.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 09:00, open: 417.98, high: 418.21, low: 417.85, close: 418.00. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M80.5 122.5v-2h6v2Zm3-2V117m0 5.5v6.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 09:10, open: 418.00, high: 418.19, low: 417.60, close: 417.91. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M92.5 142.5v-22h6v22Zm3-22V119m0 23.5v6.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 09:20, open: 418.00, high: 418.10, low: 416.57, close: 416.92. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M104.5 144.5v-14h6v14Zm3-14V103m0 41.5V158" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 09:30, open: 416.83, high: 418.86, low: 416.16, close: 417.53. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M116.5 143.5v-12h6v12Zm3-12V129m0 14.5V171" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 09:40, open: 417.47, high: 417.60, low: 415.51, close: 416.84. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M128.5 155.5v-10h6v10Zm3-10V142m0 13.5v9.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 09:50, open: 416.76, high: 416.94, low: 415.80, close: 416.26. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M140.5 155.5v-9h6v9Zm3-9V142m0 13.5V175" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 10:00, open: 416.25, high: 416.93, low: 415.27, close: 416.73. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M152.5 145.5v-7h6v7Zm3-7V135m0 10.5v7.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 10:10, open: 416.75, high: 417.29, low: 416.38, close: 417.11. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M164.5 153.5v-15h6v15Zm3-15V137m0 16.5v5.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 10:20, open: 417.12, high: 417.20, low: 416.08, close: 416.37. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M176.5 154.5v-6h6v6Zm3-6V141m0 13.5v-.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 10:30, open: 416.34, high: 416.97, low: 416.33, close: 416.62. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M188.5 150.5v-7h6v7Zm3-7V137m0 13.5v3.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 10:40, open: 416.51, high: 417.20, low: 416.33, close: 416.84. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M200.5 144.5v-2h6v2Zm3-2V137m0 7.5v3.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 10:50, open: 416.90, high: 417.16, low: 416.65, close: 416.81. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M212.5 144.5v-5h6v5Zm3-5V138m0 6.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 11:00, open: 416.83, high: 417.12, low: 416.60, close: 417.04. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M224.5 142.5v-3h6v3Zm3-3V135m0 7.5V154" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 11:10, open: 417.06, high: 417.28, low: 416.32, close: 416.89. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M236.5 163.5v-20h6v20Zm3-20v-.5m0 20.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 11:20, open: 416.86, high: 416.89, low: 415.66, close: 415.86. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M248.5 166.5v-3h6v3Zm3-3V156m0 10.5v2.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 11:30, open: 415.87, high: 416.23, low: 415.59, close: 415.72. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M260.5 165.5v-6h6v6Zm3-6V154m0 11.5v2.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 11:40, open: 415.78, high: 416.32, low: 415.62, close: 416.04. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M272.5 159.5v-4h6v4Zm3-4V152m0 7.5v.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 11:50, open: 416.07, high: 416.45, low: 416.03, close: 416.24. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M284.5 156.5h6Zm3 0V155m0 1.5v6.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 12:00, open: 416.20, high: 416.29, low: 415.89, close: 416.21. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M296.5 155.5h6Zm3 0V151m0 4.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 12:10, open: 416.26, high: 416.50, low: 416.05, close: 416.25. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M308.5 155.5v-6h6v6Zm3-6V145m0 10.5v2.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 12:20, open: 416.24, high: 416.80, low: 416.15, close: 416.58. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M320.5 150.5v-16h6v16Zm3-16V131m0 19.5v1.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 12:30, open: 416.52, high: 417.46, low: 416.45, close: 417.31. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M332.5 135.5v-2h6v2Zm3-2V130m0 5.5v1.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 12:40, open: 417.35, high: 417.55, low: 417.18, close: 417.25. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M344.5 140.5v-5h6v5Zm3-5V131m0 9.5v4.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 12:50, open: 417.27, high: 417.47, low: 416.80, close: 417.03. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M356.5 138.5v-15h6v15Zm3-15V122m0 16.5v1.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 13:00, open: 417.10, high: 417.91, low: 417.04, close: 417.87. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M368.5 123.5v-6h6v6Zm3-6V116m0 7.5v3.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 13:10, open: 417.86, high: 418.22, low: 417.70, close: 418.13. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M380.5 127.5v-8h6v8Zm3-8v-.5m0 8.5v-.5" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 13:20, open: 418.05, high: 418.06, low: 417.66, close: 417.67. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M392.5 127.5v-2h6v2Zm3-2V121m0 6.5v.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 13:30, open: 417.66, high: 417.97, low: 417.61, close: 417.76. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M404.5 125.5v-12h6v12Zm3-12V110m0 15.5v1.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 13:40, open: 417.78, high: 418.53, low: 417.70, close: 418.34. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M416.5 113.5v-15h6v15Zm3-15V95m0 18.5v3.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 13:50, open: 418.34, high: 419.27, low: 418.18, close: 419.12. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M428.5 98.5v-6h6v6Zm3-6V89m0 9.5v3.5" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:00, open: 419.10, high: 419.57, low: 418.92, close: 419.42. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M440.5 92.5v-1h6v1Zm3 0V105" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:10, open: 419.42, high: 419.48, low: 418.78, close: 419.46. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M452.5 91.5v-2h6v2Zm3-2V86m0 5.5V94" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:20, open: 419.43, high: 419.74, low: 419.30, close: 419.53. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M464.5 89.5v-1h6v1Zm3-1V87m0 2.5V96" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:30, open: 419.54, high: 419.69, low: 419.23, close: 419.61. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M476.5 87.5v-4h6v4Zm3-4V82m0 5.5V90" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:40, open: 419.64, high: 419.93, low: 419.54, close: 419.85. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M488.5 83.5v-7h6v7Zm3-7V75m0 8.5V85" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 14:50, open: 419.85, high: 420.28, low: 419.77, close: 420.21. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M500.5 92.5v-16h6v16Zm3-16V75m0 17.5V97" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 15:00, open: 420.21, high: 420.27, low: 419.16, close: 419.39. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M512.5 94.5v-2h6v2Zm3-2V89m0 5.5V108" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 15:10, open: 419.40, high: 419.55, low: 418.64, close: 419.28. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M524.5 94.5v-23h6v23Zm3-23V70m0 24.5V96" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 15:20, open: 419.29, high: 420.50, low: 419.20, close: 420.45. AAPL." style="outline:0"/>
+      <path fill="#2caffe" filter="none" d="M536.5 78.5v-8h6v8Zm3-8V65m0 13.5V80" class="highcharts-point highcharts-color-0 highcharts-point-down" tabindex="-1" aria-label="Friday, 14 Oct, 15:30, open: 420.47, high: 420.77, low: 420.00, close: 420.09. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M548.5 78.5v-1h6v1Zm3-1V71m0 7.5V83" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 15:40, open: 420.09, high: 420.45, low: 419.88, close: 420.12. AAPL." style="outline:0"/>
+      <path fill="#fff" filter="none" d="M560.5 77.5v-37h6v37Zm3 0V80" class="highcharts-point highcharts-color-0 highcharts-point-up" tabindex="-1" aria-label="Friday, 14 Oct, 15:50, open: 420.13, high: 422.00, low: 420.00, close: 422.00. AAPL." style="outline:0"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-candlestick-series highcharts-color-0" data-z-index=".1" transform="translate(10 79)" aria-hidden="true"/>
+  </g>
+  <text x="300" text-anchor="middle" class="highcharts-title" data-z-index="4" style="font-size:1em;color:#333;font-weight:700;fill:#333" y="22" aria-hidden="true">AAPL stock price by minute</text>
+  <g class="highcharts-range-selector-group" data-z-index="7" aria-hidden="false">
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true" text-anchor="middle">
+    <text x="26.016" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">08:00</text>
+    <text x="81.373" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">09:00</text>
+    <text x="153.349" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">10:00</text>
+    <text x="225.324" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">11:00</text>
+    <text x="297.3" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">12:00</text>
+    <text x="369.275" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">13:00</text>
+    <text x="441.251" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">14:00</text>
+    <text x="513.226" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">15:00</text>
+    <text x="573.984" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="307">16:00</text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true" text-anchor="end">
+    <text x="590" style="color:#333;cursor:default;font-size:.8em;fill:#333" y="157">420</text>
+    <text x="590" y="278" style="color:#333;cursor:default;font-size:.8em;fill:#333">414</text>
+    <text x="590" y="238" style="color:#333;cursor:default;font-size:.8em;fill:#333">416</text>
+    <text x="590" y="198" style="color:#333;cursor:default;font-size:.8em;fill:#333">418</text>
+    <text x="590" y="117" style="color:#333;cursor:default;font-size:.8em;fill:#333">422</text>
+  </g>
+</svg>

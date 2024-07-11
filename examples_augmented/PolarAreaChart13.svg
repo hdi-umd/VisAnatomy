@@ -1,0 +1,182 @@
+<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" width="725" height="525" style="background:#fff">
+  <defs>
+    <clipPath id="a">
+      <path d="M345 172.5a172.5 172.5 0 1 0-345 0 172.5 172.5 0 1 0 345 0"/>
+    </clipPath>
+  </defs>
+  <g class="bglayer"/>
+  <g class="draglayer"/>
+  <g class="layer-below">
+    <g class="imagelayer"/>
+    <g class="shapelayer"/>
+  </g>
+  <g class="cartesianlayer"/>
+  <g class="polarlayer">
+    <g class="polar">
+      <g class="polarsublayer draglayer">
+        <path class="angulardrag drag cursor-move" d="M172.5 0a172.5 172.5 0 1 0-345 0 172.5 172.5 0 1 0 345 0m30 0a202.5 202.5 0 1 1-405 0 202.5 202.5 0 1 1 405 0" transform="translate(331.5 272.5)" style="fill:transparent;stroke-width:0;pointer-events:all"/>
+        <path class="radialdrag-inner drag cursor-crosshair" transform="translate(306.5 272.5)" style="fill:transparent;stroke-width:0;pointer-events:all" d="M-25-25h50v50h-50z"/>
+        <path class="radialdrag drag cursor-crosshair" transform="translate(529 272.5)" style="fill:transparent;stroke-width:0;pointer-events:all" d="M-25-25h50v50h-50z"/>
+        <path class="maindrag drag cursor-crosshair" d="M172.5 0a172.5 172.5 0 1 0-345 0 172.5 172.5 0 1 0 345 0" transform="translate(331.5 272.5)" style="fill:transparent;stroke-width:0;pointer-events:all"/>
+      </g>
+      <path d="M172.5 0a172.5 172.5 0 1 0-345 0 172.5 172.5 0 1 0 345 0" transform="translate(331.5 272.5)" style="fill:#e5ecf6;fill-opacity:1" class="polarsublayer plotbg"/>
+      <g class="polarsublayer backplot">
+        <g class="maplayer"/>
+      </g>
+      <g class="polarsublayer angular-grid" style="fill:none">
+        <path class="angularaxisgrid" d="M331.5 272.5V100m0 172.5L209.524 150.524M331.5 272.5H159m172.5 0L209.524 394.476M331.5 272.5V445m0-172.5 121.976 121.976M331.5 272.5H504m-172.5 0 121.976-121.976" style="stroke:#fff;stroke-opacity:1;stroke-width:1px"/>
+      </g>
+      <g class="polarsublayer radial-grid" style="fill:none">
+        <path class="xgrid" d="M42.02 0a42.02 42.02 0 1 0-84.04 0 42.02 42.02 0 1 0 84.04 0Z" style="stroke:#fff;stroke-opacity:1;stroke-width:1px" transform="translate(331.5 272.5)"/>
+        <path class="xgrid" d="M84.04 0A84.04 84.04 0 1 0-84.04 0 84.04 84.04 0 1 0 84.04 0Z" style="stroke:#fff;stroke-opacity:1;stroke-width:1px" transform="translate(331.5 272.5)"/>
+        <path class="xgrid" d="M126.06 0a126.06 126.06 0 1 0-252.12 0 126.06 126.06 0 1 0 252.12 0Z" style="stroke:#fff;stroke-opacity:1;stroke-width:1px" transform="translate(331.5 272.5)"/>
+        <path class="xgrid" d="M168.08 0a168.08 168.08 0 1 0-336.16 0 168.08 168.08 0 1 0 336.16 0Z" style="stroke:#fff;stroke-opacity:1;stroke-width:1px" transform="translate(331.5 272.5)"/>
+      </g>
+      <g class="polarsublayer frontplot" transform="translate(159 100)" clip-path="url(#a)">
+        <g class="barlayer">
+          <g class="trace bars" style="opacity:1">
+            <g class="points">
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5 22.543-61.104a65.13 65.13 0 0 0-45.086 0z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5-25.508-55.331a60.93 60.93 0 0 0-29.823 29.823z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5-55.19-20.361a58.83 58.83 0 0 0 0 40.722z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5-34.344 15.833a37.82 37.82 0 0 0 18.511 18.51z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5-6.545 17.74a18.9 18.9 0 0 0 13.09 0z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5 14.953 32.436a35.72 35.72 0 0 0 17.483-17.483z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5 31.538 11.635a33.6 33.6 0 0 0 0-23.27z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m172.5 172.5 47.7-21.99a52.52 52.52 0 0 0-25.71-25.71z" style="opacity:1;stroke-width:.5px;fill:#6a51a3;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" style="opacity:1">
+            <g class="points">
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m195.043 111.396 16.725-45.336a113.45 113.45 0 0 0-78.536 0l16.725 45.336a65.13 65.13 0 0 1 45.086 0Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="M146.992 117.169 129.4 79.009A102.95 102.95 0 0 0 79.01 129.4l38.159 17.592a60.93 60.93 0 0 1 29.823-29.823Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m117.31 152.139-35.48-13.09a96.64 96.64 0 0 0 0 66.901l35.48-13.089a58.83 58.83 0 0 1 0-40.722Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m138.156 188.333-26.711 12.314a67.23 67.23 0 0 0 32.908 32.908l12.314-26.711a37.82 37.82 0 0 1-18.51-18.511Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m165.955 190.24-5.817 15.769a35.72 35.72 0 0 0 24.724 0l-5.817-15.77a18.9 18.9 0 0 1-13.09 0Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m187.453 204.936 7.916 17.171a54.63 54.63 0 0 0 26.738-26.738l-17.171-7.916a35.72 35.72 0 0 1-17.483 17.483Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m204.038 184.135 29.566 10.908a65.13 65.13 0 0 0 0-45.086l-29.566 10.908a33.6 33.6 0 0 1 0 23.27Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m220.2 150.51 41.975-19.35a98.75 98.75 0 0 0-48.334-48.335l-19.351 41.976a52.52 52.52 0 0 1 25.71 25.71Z" style="opacity:1;stroke-width:.5px;fill:#9e9ac8;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" style="opacity:1">
+            <g class="points">
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m211.768 66.06 11.635-31.537a147.07 147.07 0 0 0-101.806 0l11.635 31.537a113.45 113.45 0 0 1 78.536 0Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m129.4 79.01-10.555-22.896a128.16 128.16 0 0 0-62.731 62.731L79.009 129.4A102.95 102.95 0 0 1 129.4 79.01Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m81.83 139.05-23.654-8.726a121.86 121.86 0 0 0 0 84.352l23.653-8.726a96.64 96.64 0 0 1 0-66.9Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="M111.445 200.647 84.733 212.96a96.64 96.64 0 0 0 47.306 47.306l12.314-26.712a67.23 67.23 0 0 1-32.908-32.908Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m160.138 206.009-2.182 5.913a42.02 42.02 0 0 0 29.088 0l-2.182-5.913a35.72 35.72 0 0 1-24.724 0Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m195.37 222.107 2.638 5.724a60.93 60.93 0 0 0 29.823-29.823l-5.724-2.639a54.63 54.63 0 0 1-26.738 26.738Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m233.604 195.043 25.625 9.453a92.44 92.44 0 0 0 0-63.992l-25.625 9.453a65.13 65.13 0 0 1 0 45.086Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m262.175 131.16 30.527-14.074a132.36 132.36 0 0 0-64.788-64.788l-14.073 30.527a98.75 98.75 0 0 1 48.334 48.334Z" style="opacity:1;stroke-width:.5px;fill:#cbc9e2;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" style="opacity:1">
+            <g class="points">
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m223.403 34.523 5.817-15.77a163.88 163.88 0 0 0-113.44 0l5.817 15.77a147.07 147.07 0 0 1 101.806 0Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m118.845 56.114-2.639-5.724a134.46 134.46 0 0 0-65.816 65.816l5.724 2.64a128.16 128.16 0 0 1 62.731-62.732Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m58.176 130.324-11.827-4.363a134.46 134.46 0 0 0 0 93.078l11.827-4.363a121.86 121.86 0 0 1 0-84.352Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m84.733 212.961-17.172 7.916a115.55 115.55 0 0 0 56.562 56.562l7.916-17.172a96.64 96.64 0 0 1-47.306-47.306Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m157.956 211.922-.727 1.971a44.12 44.12 0 0 0 30.542 0l-.727-1.97a42.02 42.02 0 0 1-29.088 0Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m198.008 227.831.88 1.908a63.03 63.03 0 0 0 30.851-30.851l-1.908-.88a60.93 60.93 0 0 1-29.823 29.823Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m259.229 204.496 9.855 3.636a102.95 102.95 0 0 0 0-71.264l-9.855 3.636a92.44 92.44 0 0 1 0 63.992Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+              <g style="vector-effect:non-scaling-stroke;stroke-miterlimit:2">
+                <path d="m292.702 117.086 17.172-7.916a151.27 151.27 0 0 0-74.044-74.044l-7.916 17.172a132.36 132.36 0 0 1 64.788 64.788Z" style="opacity:1;stroke-width:.5px;fill:#f2f0f7;fill-opacity:1;stroke:#e5ecf6;stroke-opacity:1" class="point"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="scatterlayer"/>
+      </g>
+      <path d="M172.5 0a172.5 172.5 0 1 0-345 0 172.5 172.5 0 1 0 345 0Z" transform="translate(331.5 272.5)" style="fill:none;stroke:#fff;stroke-opacity:1" class="polarsublayer angular-line"/>
+      <path transform="translate(331.5 272.5)" style="fill:none;stroke:#fff;stroke-opacity:1" class="polarsublayer radial-line" d="M0 0h172.5"/>
+      <g class="polarsublayer angular-axis">
+        <text text-anchor="middle" y="-6.9" data-unformatted="0°" data-math="N" transform="translate(331.5 100)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">0°</text>
+        <text text-anchor="end" x="-2.616" y="-.919" data-unformatted="45°" data-math="N" transform="translate(209.524 150.524)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">45°</text>
+        <text text-anchor="end" x="-3.7" y="5.6" data-unformatted="90°" data-math="N" transform="translate(159 272.5)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">90°</text>
+        <text text-anchor="end" x="-2.616" y="17.89" data-unformatted="135°" data-math="N" transform="translate(209.524 394.476)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">135°</text>
+        <text text-anchor="middle" y="19.7" data-unformatted="180°" data-math="N" transform="translate(331.5 445)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">180°</text>
+        <text x="2.616" y="17.89" data-unformatted="225°" data-math="N" transform="translate(453.476 394.476)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">225°</text>
+        <text x="3.7" y="5.6" data-unformatted="270°" data-math="N" transform="translate(504 272.5)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">270°</text>
+        <text x="2.616" y="-.919" data-unformatted="315°" data-math="N" transform="translate(453.476 150.524)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="angularaxistick">315°</text>
+      </g>
+      <g class="polarsublayer radial-axis">
+        <text y="19.7" data-unformatted="0%" data-math="N" transform="rotate(30 -342.742 766.537)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="xtick">0%</text>
+        <text y="19.7" data-unformatted="50%" data-math="N" transform="rotate(30 -321.732 844.947)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="xtick">50%</text>
+        <text y="19.7" data-unformatted="100%" data-math="N" transform="rotate(30 -300.722 923.357)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="xtick">100%</text>
+        <text y="19.7" data-unformatted="150%" data-math="N" transform="rotate(30 -279.712 1001.768)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="xtick">150%</text>
+        <text y="19.7" data-unformatted="200%" data-math="N" transform="rotate(30 -258.702 1080.18)" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:16px;fill:#2a3f5f;fill-opacity:1;font-weight:400;font-style:normal;font-variant:normal;white-space:pre;opacity:1" class="xtick">200%</text>
+      </g>
+    </g>
+  </g>
+  <g class="smithlayer"/>
+  <g class="ternarylayer"/>
+  <g class="geolayer"/>
+  <g class="funnelarealayer"/>
+  <g class="pielayer"/>
+  <g class="iciclelayer"/>
+  <g class="treemaplayer"/>
+  <g class="sunburstlayer"/>
+  <g class="glimages"/>
+</svg>

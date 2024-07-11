@@ -1,0 +1,35 @@
+<svg width="577" height="500" aria-label="A chart." style="overflow:hidden">
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#f5c5a3" d="M191 201.896h197V495H191z"/>
+    <text text-anchor="middle" x="289.5" y="352.648" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Animals</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#ec914e" d="M5 42.896h186V495H5z"/>
+    <text text-anchor="middle" x="98" y="273.148" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Plants</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#fbe8da" d="M191 42.896h381v159H191z"/>
+    <text text-anchor="middle" x="381.5" y="126.596" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Fungi</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#f6c9a9" d="M502 450.896h70V495h-70z"/>
+    <text text-anchor="middle" x="537" y="477.148" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Protists</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#f2b183" d="M388 201.896h184v249H388z"/>
+    <text text-anchor="middle" x="480" y="330.596" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Eubacteria</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#ef9e64" d="M388 450.896h114V495H388z"/>
+    <text text-anchor="middle" x="445" y="477.148" font-family="Arial" font-size="12" stroke-width="0" fill="#222" pointer-events="none">Archaebacteria</text>
+  </g>
+  <g style="cursor:pointer">
+    <path stroke="#fff" fill="#ccc" d="M5 20.896h567v22H5z"/>
+    <text text-anchor="middle" x="288.5" y="36.096" font-family="Arial" font-size="12" font-weight="bold" stroke-width="0" fill="#222" pointer-events="none">Life</text>
+  </g>
+  <g stroke="#fff" fill="none">
+    <path stroke-width="5" stroke-opacity=".2" d="M385.5 199.396h189v254h-189z"/>
+    <path stroke-width="4" stroke-opacity=".4" d="M386 199.896h188v253H386z"/>
+    <path stroke-width="3" stroke-opacity=".6" d="M386.5 200.396h187v252h-187z"/>
+  </g>
+</svg>

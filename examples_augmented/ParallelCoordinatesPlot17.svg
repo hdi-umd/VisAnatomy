@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" viewBox="0 0 600 400">
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 6.0 patchlevel 1 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="600" height="400" fill="none"/>
+<defs>
+
+	<circle id="gpDot" r="0.5" stroke-width="0.5" stroke="currentColor"/>
+	<path id="gpPt0" stroke-width="0.190" stroke="currentColor" d="M-1,0 h2 M0,-1 v2"/>
+	<path id="gpPt1" stroke-width="0.190" stroke="currentColor" d="M-1,-1 L1,1 M1,-1 L-1,1"/>
+	<path id="gpPt2" stroke-width="0.190" stroke="currentColor" d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1"/>
+	<rect id="gpPt3" stroke-width="0.190" stroke="currentColor" x="-1" y="-1" width="2" height="2"/>
+	<rect id="gpPt4" stroke-width="0.190" stroke="currentColor" fill="currentColor" x="-1" y="-1" width="2" height="2"/>
+	<circle id="gpPt5" stroke-width="0.190" stroke="currentColor" cx="0" cy="0" r="1"/>
+	<use xlink:href="#gpPt5" id="gpPt6" fill="currentColor" stroke="none"/>
+	<path id="gpPt7" stroke-width="0.190" stroke="currentColor" d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z"/>
+	<use xlink:href="#gpPt7" id="gpPt8" fill="currentColor" stroke="none"/>
+	<use xlink:href="#gpPt7" id="gpPt9" stroke="currentColor" transform="rotate(180)"/>
+	<use xlink:href="#gpPt9" id="gpPt10" fill="currentColor" stroke="none"/>
+	<use xlink:href="#gpPt3" id="gpPt11" stroke="currentColor" transform="rotate(45)"/>
+	<use xlink:href="#gpPt11" id="gpPt12" fill="currentColor" stroke="none"/>
+	<path id="gpPt13" stroke-width="0.190" stroke="currentColor" d="M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z"/>
+	<use xlink:href="#gpPt13" id="gpPt14" fill="currentColor" stroke="none"/>
+	<filter id="textbox" filterUnits="objectBoundingBox" x="0" y="0" height="1" width="1">
+	  <feFlood flood-color="white" flood-opacity="1" result="bgnd"/>
+	  <feComposite in="SourceGraphic" in2="bgnd" operator="atop"/>
+	</filter>
+	<filter id="greybox" filterUnits="objectBoundingBox" x="0" y="0" height="1" width="1">
+	  <feFlood flood-color="lightgrey" flood-opacity="1" result="grey"/>
+	  <feComposite in="SourceGraphic" in2="grey" operator="atop"/>
+	</filter>
+</defs>
+<g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,358.00 M92.74,21.01  "/>	<g transform="translate(92.74,383.55)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT">axis 1</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M229.28,358.00 M229.28,21.01  "/>	<g transform="translate(229.28,383.55)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT">axis 2</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,358.00 M365.81,21.01  "/>	<g transform="translate(365.81,383.55)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT">axis 3</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,358.00 M502.35,21.01  "/>	<g transform="translate(502.35,383.55)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT">axis 4</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	<g id="gnuplot_plot_1"><title>'silver.dat' using 2:(int($0/25))</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="gray" d="M92.74,21.01 L229.28,170.04 L365.81,358.00 L502.35,160.72 M92.74,129.68 L229.28,202.76 L365.81,352.29 L502.35,191.40   M92.74,177.30 L229.28,219.51 L365.81,346.58 L502.35,207.10 M92.74,179.74 L229.28,220.42 L365.81,340.86 L502.35,207.96   M92.74,235.90 L229.28,243.45 L365.81,335.15 L502.35,229.54 M92.74,268.87 L229.28,259.43 L365.81,329.44 L502.35,244.53   M92.74,278.64 L229.28,264.69 L365.81,323.73 L502.35,249.46 M92.74,289.63 L229.28,270.99 L365.81,318.02 L502.35,255.37   M92.74,289.63 L229.28,270.99 L365.81,312.31 L502.35,255.37 M92.74,300.61 L229.28,277.78 L365.81,306.59 L502.35,261.73   M92.74,312.82 L229.28,286.07 L365.81,300.88 L502.35,269.51 M92.74,321.37 L229.28,292.50 L365.81,295.17 L502.35,275.53   M92.74,320.15 L229.28,291.54 L365.81,289.46 L502.35,274.64 M92.74,321.37 L229.28,292.50 L365.81,283.75 L502.35,275.53   M92.74,333.58 L229.28,302.97 L365.81,278.04 L502.35,285.35 M92.74,333.58 L229.28,302.97 L365.81,272.32 L502.35,285.35   M92.74,339.69 L229.28,309.04 L365.81,266.61 L502.35,291.03 M92.74,337.24 L229.28,306.52 L365.81,260.90 L502.35,288.68   M92.74,338.46 L229.28,307.76 L365.81,255.19 L502.35,289.84 M92.74,340.91 L229.28,310.34 L365.81,249.48 L502.35,292.26   M92.74,337.24 L229.28,306.52 L365.81,243.77 L502.35,288.68 M92.74,344.57 L229.28,314.49 L365.81,238.05 L502.35,296.15   M92.74,339.69 L229.28,309.04 L365.81,232.34 L502.35,291.03 M92.74,348.23 L229.28,319.09 L365.81,226.63 L502.35,300.46   M92.74,338.46 L229.28,307.76 L365.81,220.92 L502.35,289.84  "/>	<path stroke="rgb(148,   0, 211)" d="M92.74,338.46 L229.28,307.76 L365.81,215.21 L502.35,289.84 M92.74,340.91 L229.28,310.34 L365.81,209.50 L502.35,292.26   M92.74,340.91 L229.28,310.34 L365.81,203.78 L502.35,292.26 M92.74,338.46 L229.28,307.76 L365.81,198.07 L502.35,289.84   M92.74,348.23 L229.28,319.09 L365.81,192.36 L502.35,300.46 M92.74,331.14 L229.28,300.72 L365.81,186.65 L502.35,283.24   M92.74,342.13 L229.28,311.69 L365.81,180.94 L502.35,293.52 M92.74,353.12 L229.28,326.23 L365.81,175.23 L502.35,307.15   M92.74,355.56 L229.28,330.48 L365.81,169.51 L502.35,311.14 M92.74,353.12 L229.28,326.23 L365.81,163.80 L502.35,307.15   M92.74,350.67 L229.28,322.48 L365.81,158.09 L502.35,303.64 M92.74,338.46 L229.28,307.76 L365.81,152.38 L502.35,289.84   M92.74,345.79 L229.28,315.97 L365.81,146.67 L502.35,297.53 M92.74,353.12 L229.28,326.23 L365.81,140.96 L502.35,307.15   M92.74,350.67 L229.28,322.48 L365.81,135.24 L502.35,303.64 M92.74,351.90 L229.28,324.30 L365.81,129.53 L502.35,305.35   M92.74,353.12 L229.28,326.23 L365.81,123.82 L502.35,307.15 M92.74,350.67 L229.28,322.48 L365.81,118.11 L502.35,303.64   M92.74,347.01 L229.28,317.50 L365.81,112.40 L502.35,298.97 M92.74,351.90 L229.28,324.30 L365.81,106.69 L502.35,305.35   M92.74,356.78 L229.28,332.88 L365.81,100.97 L502.35,313.39 M92.74,354.34 L229.28,328.28 L365.81,95.26 L502.35,309.08   M92.74,349.45 L229.28,320.74 L365.81,89.55 L502.35,302.01 M92.74,354.34 L229.28,328.28 L365.81,78.13 L502.35,309.08   M92.74,351.90 L229.28,324.30 L365.81,72.42 L502.35,305.35  "/>	<path stroke="rgb(  0, 158, 115)" d="M92.74,348.23 L229.28,319.09 L365.81,66.70 L502.35,300.46 M92.74,358.00 L229.28,335.53 L365.81,60.99 L502.35,315.88   M92.74,354.34 L229.28,328.28 L365.81,55.28 L502.35,309.08 M92.74,350.67 L229.28,322.48 L365.81,49.57 L502.35,303.64   M92.74,351.90 L229.28,324.30 L365.81,43.86 L502.35,305.35 M92.74,353.12 L229.28,326.23 L365.81,32.43 L502.35,307.15   M92.74,351.90 L229.28,324.30 L365.81,26.72 L502.35,305.35 M92.74,356.78 L229.28,332.88 L365.81,21.01 L502.35,313.39    "/></g>
+	</g>
+	<g id="gnuplot_plot_2"><title>'' using 3</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_3"><title>'' using 1</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_4"><title>'' using ($3/2)</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+<g fill="none" color="white" stroke="rgb(230, 159,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,358.00 L92.74,21.01 M229.28,335.53 L229.28,170.04 M365.81,358.00 L365.81,21.01 M502.35,315.88 L502.35,160.72   M92.74,301.83 L82.24,301.83 M92.74,301.83 L103.24,301.83  "/>	<g transform="translate(61.24,306.38)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 50</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,240.79 L82.24,240.79 M92.74,240.79 L103.24,240.79  "/>	<g transform="translate(61.24,245.34)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 100</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,179.74 L82.24,179.74 M92.74,179.74 L103.24,179.74  "/>	<g transform="translate(61.24,184.29)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 150</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,118.69 L82.24,118.69 M92.74,118.69 L103.24,118.69  "/>	<g transform="translate(61.24,123.24)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 200</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M92.74,57.64 L82.24,57.64 M92.74,57.64 L103.24,57.64  "/>	<g transform="translate(61.24,62.19)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 250</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M229.28,301.83 L218.78,301.83 M229.28,301.83 L239.78,301.83  "/>	<g transform="translate(197.78,306.38)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 5</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M229.28,245.67 L218.78,245.67 M229.28,245.67 L239.78,245.67  "/>	<g transform="translate(197.78,250.22)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 10</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M229.28,189.50 L218.78,189.50 M229.28,189.50 L239.78,189.50  "/>	<g transform="translate(197.78,194.05)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 15</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,306.59 L355.31,306.59 M365.81,306.59 L376.31,306.59  "/>	<g transform="translate(334.31,311.14)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 100</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,249.48 L355.31,249.48 M365.81,249.48 L376.31,249.48  "/>	<g transform="translate(334.31,254.03)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 200</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,192.36 L355.31,192.36 M365.81,192.36 L376.31,192.36  "/>	<g transform="translate(334.31,196.91)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 300</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,135.24 L355.31,135.24 M365.81,135.24 L376.31,135.24  "/>	<g transform="translate(334.31,139.79)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 400</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,78.13 L355.31,78.13 M365.81,78.13 L376.31,78.13  "/>	<g transform="translate(334.31,82.68)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M365.81,21.01 L355.31,21.01 M365.81,21.01 L376.31,21.01  "/>	<g transform="translate(334.31,25.56)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="middle">
+		<text><tspan font-family="Calisto MT"> 600</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,315.88 L491.85,315.88 M502.35,315.88 L512.85,315.88  "/>	<g transform="translate(519.80,320.43)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 1</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,294.81 L491.85,294.81 M502.35,294.81 L512.85,294.81  "/>	<g transform="translate(519.80,299.36)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 2</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,273.75 L491.85,273.75 M502.35,273.75 L512.85,273.75  "/>	<g transform="translate(519.80,278.30)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 3</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,252.69 L491.85,252.69 M502.35,252.69 L512.85,252.69  "/>	<g transform="translate(519.80,257.24)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 4</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,231.63 L491.85,231.63 M502.35,231.63 L512.85,231.63  "/>	<g transform="translate(519.80,236.18)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 5</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,210.57 L491.85,210.57 M502.35,210.57 L512.85,210.57  "/>	<g transform="translate(519.80,215.12)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 6</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,189.50 L491.85,189.50 M502.35,189.50 L512.85,189.50  "/>	<g transform="translate(519.80,194.05)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 7</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke="black" d="M502.35,168.44 L491.85,168.44 M502.35,168.44 L512.85,168.44  "/>	<g transform="translate(519.80,172.99)" stroke="none" fill="black" font-family="Calisto MT" font-size="14.00" text-anchor="start">
+		<text><tspan font-family="Calisto MT"> 8</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+</g>
+</svg>

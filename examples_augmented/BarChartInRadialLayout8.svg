@@ -1,0 +1,70 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="430px" height="320px" viewBox="0 0 430 320" enable-background="new 0 0 430 320" xml:space="preserve">
+  <g id="Layer_1">
+    <g>
+      <g>
+        <path fill="none" stroke="#CCCCCC" d="M201.824,33.708c-70.197,0-127,56.803-127,127c0,70.197,56.803,127,127,127
+				s127-56.803,127-127C328.824,90.51,272.021,33.708,201.824,33.708z"/>
+        <path fill="none" stroke="#CCCCCC" d="M307.678,160.707c0,58.539-47.377,105.793-105.854,105.793S95.97,219.246,95.97,160.707
+				c0-58.539,47.377-105.792,105.854-105.792S307.678,102.168,307.678,160.707z"/>
+        <path fill="none" stroke="#CCCCCC" d="M201.824,76c-46.819,0-84.646,37.951-84.646,84.708c0,46.758,37.827,84.709,84.646,84.709
+				s84.646-37.951,84.646-84.709C286.47,113.951,248.643,76,201.824,76z"/>
+        <path fill="none" stroke="#CCCCCC" d="M265.324,160.707c0,35.1-28.401,63.5-63.5,63.5s-63.5-28.4-63.5-63.5
+				c0-35.098,28.401-63.5,63.5-63.5S265.324,125.609,265.324,160.707z"/>
+        <path fill="none" stroke="#CCCCCC" d="M201.824,118.416c-23.378,0-42.354,18.852-42.354,42.292
+				c0,23.441,18.976,42.293,42.354,42.293s42.354-18.852,42.354-42.293C244.178,137.267,225.203,118.416,201.824,118.416z"/>
+        <path fill="none" stroke="#CCCCCC" d="M222.97,160.707c0,11.658-9.426,21.209-21.146,21.209s-21.146-9.551-21.146-21.209
+				c0-11.658,9.426-21.208,21.146-21.208S222.97,149.049,222.97,160.707z"/>
+      </g>
+      <g>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="201.824" y2="33.708"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="276.486" y2="58.016"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="322.623" y2="121.516"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="322.623" y2="199.898"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="276.486" y2="263.398"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="201.824" y2="287.707"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="127.162" y2="263.398"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="81.025" y2="199.898"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="81.025" y2="121.516"/>
+        <line fill="none" stroke="#CCCCCC" x1="201.824" y1="160.707" x2="127.162" y2="58.016"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer_2">
+    <rect x="239.155" y="153.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+    <rect x="260.562" y="153.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+    <rect x="281.708" y="153.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+    <rect x="302.917" y="153.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+    <rect x="324.062" y="153.333" fill="#FFFFFF" width="9.524" height="13.333"/>
+    <rect x="219.345" y="155.667" fill="#FFFFFF" width="7.333" height="9.167"/>
+    <text transform="matrix(1 0 0 1 196.8452 26.668)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">A</text>
+    <text transform="matrix(1 0 0 1 278.5117 53.5015)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">B</text>
+    <text transform="matrix(1 0 0 1 328.1782 124.5161)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">C</text>
+    <text transform="matrix(1 0 0 1 328.1782 207.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">D</text>
+    <text transform="matrix(1 0 0 1 278.5117 278.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">E</text>
+    <text transform="matrix(1 0 0 1 197.8452 305.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">F</text>
+    
+    <text transform="matrix(1 0 0 1 116.1782 279.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">G</text>
+    <text transform="matrix(1 0 0 1 65.5117 209.1836)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">H</text>
+    <text transform="matrix(1 0 0 1 70.1782 122.8496)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">I</text>
+    <text transform="matrix(1 0 0 1 118.1782 52.8496)" fill="#666666" font-family="'MyriadPro-Regular'" font-size="16">J</text>
+    <text transform="matrix(1 0 0 1 220.3452 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">2</text>
+    <text transform="matrix(1 0 0 1 241.4282 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">4</text>
+    <text transform="matrix(1 0 0 1 262.6406 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">6</text>
+    <text transform="matrix(1 0 0 1 283.9741 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">8</text>
+    <text transform="matrix(1 0 0 1 303.1411 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">10</text>
+    <text transform="matrix(1 0 0 1 324.1411 163.5)" fill="#999999" font-family="'MyriadPro-Regular'" font-size="10">12</text>
+
+  </g>
+  <g id="Layer_3">
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="201.824" y2="46.833"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="257.364" y2="84.317"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="250.63" y2="144.873"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="295.932" y2="191.239"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="239.209" y2="212.053"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="201.824" y2="277.184"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="147.396" y2="235.567"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="161.532" y2="173.779"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="111.531" y2="131.413"/>
+    <line fill="none" stroke="#3F85B8" stroke-width="15" x1="201.824" y1="160.707" x2="155.656" y2="97.207"/>
+  </g>
+</svg>

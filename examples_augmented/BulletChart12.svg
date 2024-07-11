@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360">
+  <path fill="transparent" d="M0 0h900v360H0z"/>
+  <path fill="rgba(104, 73, 186, 1)" d="M0 0h38v46.667H0z" transform="translate(110 10)"/>
+  <path fill="rgba(81, 105, 217, 1)" d="M38 0h99v46.667H38z" transform="translate(110 10)"/>
+  <path fill="rgba(88, 246, 100, 1)" d="M137 0h482v46.667H137z" transform="translate(110 10)"/>
+  <path fill="rgba(175, 240, 91, 1)" d="M619 0h141v46.667H619z" transform="translate(110 10)"/>
+  <path fill="rgba(255, 246, 242, 1)" d="M0 0h4v18.667H0z" transform="translate(110 10) translate(0 14)"/>
+  <path fill="rgba(248, 132, 171, 1)" d="M4 0h327v18.667H4z" transform="translate(110 10) translate(0 14)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(76)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(76) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(152)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(152) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(228)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(228) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(304)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(304) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">80</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(380)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(380) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">100</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(456)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(456) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">120</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(532)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(532) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">140</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(608)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(608) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">160</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(684)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(684) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">180</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 10) translate(0 46.667) translate(760)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 10) translate(0 46.667) translate(760) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">200</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h760" transform="translate(110 10) translate(0 46.667)"/>
+  <path fill="none" stroke="rgba(198, 28, 139, 1)" stroke-width="5" d="M521 9.333v28" transform="translate(110 10)"/>
+  <text style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent;dominant-baseline:central;text-anchor:middle" transform="translate(110 10) translate(-80 23.333)">volume</text>
+  <path fill="rgba(99, 80, 195, 1)" d="M0 0h63v46.667H0z" transform="translate(110 136.667)"/>
+  <path fill="rgba(93, 88, 204, 1)" d="M63 0h26v46.667H63z" transform="translate(110 136.667)"/>
+  <path fill="rgba(107, 247, 92, 1)" d="M89 0h563v46.667H89z" transform="translate(110 136.667)"/>
+  <path fill="rgba(175, 240, 91, 1)" d="M652 0h108v46.667H652z" transform="translate(110 136.667)"/>
+  <path fill="rgba(255, 246, 242, 1)" d="M0 14h4v18.667H0z" transform="translate(110 136.667)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(76)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(76) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(152)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(152) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(228)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(228) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">3000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(304)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(304) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">4000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(380)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(380) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">5000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(456)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(456) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">6000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(532)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(532) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">7000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(608)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(608) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">8000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(684)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(684) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">9000</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 136.667) translate(0 46.667) translate(760)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 136.667) translate(0 46.667) translate(760) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">10000</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h760" transform="translate(110 136.667) translate(0 46.667)"/>
+  <path fill="none" stroke="rgba(175, 10, 130, 1)" stroke-width="5" d="M567 9.333v28" transform="translate(110 136.667)"/>
+  <path fill="none" stroke="rgba(106, 1, 114, 1)" stroke-width="5" d="M697 9.333v28" transform="translate(110 136.667)"/>
+  <text style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent;dominant-baseline:central;text-anchor:middle" transform="translate(110 136.667) translate(-80 23.333)">cost</text>
+  <path fill="rgba(107, 68, 178, 1)" d="M0 0h18v46.667H0z" transform="translate(110 263.333)"/>
+  <path fill="rgba(68, 122, 223, 1)" d="M18 0h164v46.667H18z" transform="translate(110 263.333)"/>
+  <path fill="rgba(164, 241, 88, 1)" d="M182 0h560v46.667H182z" transform="translate(110 263.333)"/>
+  <path fill="rgba(175, 240, 91, 1)" d="M742 0h18v46.667h-18z" transform="translate(110 263.333)"/>
+  <path fill="rgba(255, 244, 240, 1)" d="M0 14h14v18.667H0z" transform="translate(110 263.333)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(76)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(76) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0.2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(152)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(152) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0.4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(228)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(228) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0.6</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(304)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(304) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0.8</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(380)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(380) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(456)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(456) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1.2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(532)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(532) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1.4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(608)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(608) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1.6</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(684)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(684) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">1.8</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(110 263.333) translate(0 46.667) translate(760)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(110 263.333) translate(0 46.667) translate(760) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">2</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h760" transform="translate(110 263.333) translate(0 46.667)"/>
+  <path fill="none" stroke="rgba(113, 1, 116, 1)" stroke-width="5" d="M684 9.333v28" transform="translate(110 263.333)"/>
+  <text style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent;dominant-baseline:central;text-anchor:middle" transform="translate(110 263.333) translate(-80 23.333)">revenue</text>
+</svg>

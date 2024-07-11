@@ -1,0 +1,218 @@
+<svg viewBox="0 0 1152 720">
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(40 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(40 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(40 690)">0</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(94.1 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(94.1 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(94.1 690)">10,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(148.2 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(148.2 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(148.2 690)">20,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(202.3 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(202.3 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(202.3 690)">30,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(256.4 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(256.4 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(256.4 690)">40,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(310.5 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(310.5 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(310.5 690)">50,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(364.6 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(364.6 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(364.6 690)">60,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(418.7 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(418.7 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(418.7 690)">70,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(472.8 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(472.8 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(472.8 690)">80,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(526.9 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(526.9 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(526.9 690)">90,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(581 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(581 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(581 690)">100,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(635.1 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(635.1 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(635.1 690)">110,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(689.2 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(689.2 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(689.2 690)">120,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(743.3 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(743.3 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(743.3 690)">130,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(797.4 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(797.4 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(797.4 690)">140,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(851.5 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(851.5 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(851.5 690)">150,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(905.6 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(905.6 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(905.6 690)">160,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(959.7 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(959.7 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(959.7 690)">170,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1013.8 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1013.8 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1013.8 690)">180,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1067.9 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1067.9 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1067.9 690)">190,000,000</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v6" transform="translate(1122 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0v-720" transform="translate(1122 690)"/>
+      <text fill="currentColor" y="9" dy=".71em" transform="translate(1122 690)">200,000,000</text>
+    </g>
+    <text x="1148" y="-4" font-weight="bold" text-anchor="end" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(0 690)">Volume</text>
+    <text x="1148" y="-4" font-weight="bold" text-anchor="end" fill="#000" transform="translate(0 690)">Volume</text>
+  </g>
+  <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 690)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 690)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 690)">$0.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 594.286)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 594.286)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 594.286)">$50.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 498.571)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 498.571)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 498.571)">$100.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 402.857)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 402.857)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 402.857)">$150.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 307.143)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 307.143)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 307.143)">$200.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 211.429)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 211.429)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 211.429)">$250.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 115.714)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 115.714)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 115.714)">$300.00</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(40 20)"/>
+      <path stroke="currentColor" stroke-opacity=".1" d="M0 0h1152" transform="translate(40 20)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(40 20)">$350.00</text>
+      <text x="4" dy=".32em" text-anchor="start" font-weight="bold" stroke="#fff" stroke-width="4" stroke-linejoin="round" transform="translate(40 20)">Close price</text>
+      <text fill="#000" x="4" dy=".32em" text-anchor="start" font-weight="bold" transform="translate(40 20)">Close price</text>
+    </g>
+  </g>
+  <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6751.0322265625,6751.0322265625" d="M91.931 663.391s-13.021.817-13.07.44c-.041-.316 5.45-1.422 9.072-2.067 5.294-.943 10.513-1.914 19.715-2.546 21.186-1.455 105.382-1.01 105.383-.919s-81.365 1.961-104.508 1.455c-11.524-.252-19.572-1.633-25.874-1.493-3.638.081-8.593.882-8.593.88 0 0 14.482-1.533 14.486-1.492.004.03-8.597.855-8.582 1.052.034.462 31.767-2.029 47.25-1.129 15.11.878 44.652 5.136 44.566 6.279-.122 1.624-86.6-4.302-90.882-.88-.566.451-.645 1.132-.336 1.55.908 1.225 13.538 1.407 13.58 1.13.036-.24-6.317-1.783-9.814-2.164-3.915-.426-12.57.31-12.594 0-.023-.312 7.079-1.373 12.604-1.876 10.453-.95 45.578-1.328 45.574-1.531-.004-.182-36.461.668-36.478.191-.03-.838 112.388-5.716 112.401-7.523.006-.871-14.453-1.696-26.09-2.125-23.4-.862-105.805 1.779-105.862.804-.022-.363 12.345-2.87 14.627-1.608 1.1.61 1.938 2.357 1.49 3.082-1.025 1.657-17.868-.112-17.89.23-.014.188 3.071.427 5.346.804 4.038.67 16.82 2.503 16.77 3.044-.065.685-27.24.692-27.38-.23-.067-.44 5.132-2.15 5.922-1.895.259.083.18.37.396.536.378.29.821.594 1.908.746 5.141.722 45.723-3.6 45.69-4.307-.032-.681-42.555.323-42.56-.019-.02-1.432 743.432-13.604 743.556-21.919.075-5.057-184.98-15.126-274.743-16.29-86.164-1.117-253.44 9.02-253.464 8.442-.018-.446 150.732-6.094 150.698-7.39-.04-1.574-223.108 2.27-223.163.46-.041-1.37 67.351-4.04 127.72-7.485 147.037-8.39 756.37-23.673 757.822-42.076.545-6.9-86.41.307-104.326-22.55-20.247-25.832 26.678-85.898 3.863-136.278C958.356 301.158 658.101 6.962 545.276 24.767c-86.15 13.595-148.609 302.101-187.083 294.627-32.935-6.398-25.265-249.777-46.29-251.537-18.766-1.57-81.434 126.361-69.665 191.429 15.2 84.044 237.76 222.63 220.733 258.428-12.799 26.908-186.78-20.46-191.972-4.613-4.275 13.046 70.06 66.766 106.733 74.485 32.43 6.826 100.26-16.04 99.863-19.66-.68-6.202-284.821-12.504-298.627 7.217-3.534 5.048.92 14.85 6.253 18.55 8.696 6.031 52.006-1.374 52-1.704-.008-.516-126.523 2.726-126.905.191-.099-.656 8.177-2.234 8.118-2.489-.12-.515-33.032 1.915-34.393 5.533-.687 1.826 2.041 4.846 5.66 6.834 10.886 5.98 79.782 8.527 79.69 10.05-.074 1.2-49.98.191-49.98.191"/>
+  <g fill="#fff" stroke="#000" stroke-width="2">
+    <circle cx="91.931" cy="663.391" r="3"/>
+    <circle cx="78.861" cy="663.832" r="3"/>
+    <circle cx="87.933" cy="661.764" r="3"/>
+    <circle cx="107.648" cy="659.218" r="3"/>
+    <circle cx="213.031" cy="658.299" r="3"/>
+    <circle cx="108.523" cy="659.754" r="3"/>
+    <circle cx="82.649" cy="658.261" r="3"/>
+    <circle cx="74.056" cy="659.142" r="3"/>
+    <circle cx="88.542" cy="657.649" r="3"/>
+    <circle cx="79.96" cy="658.701" r="3"/>
+    <circle cx="127.21" cy="657.572" r="3"/>
+    <circle cx="171.776" cy="663.851" r="3"/>
+    <circle cx="80.894" cy="662.97" r="3"/>
+    <circle cx="80.558" cy="664.521" r="3"/>
+    <circle cx="94.138" cy="665.65" r="3"/>
+    <circle cx="84.324" cy="663.487" r="3"/>
+    <circle cx="71.73" cy="663.487" r="3"/>
+    <circle cx="84.334" cy="661.611" r="3"/>
+    <circle cx="129.908" cy="660.08" r="3"/>
+    <circle cx="93.43" cy="660.271" r="3"/>
+    <circle cx="205.831" cy="652.748" r="3"/>
+    <circle cx="179.742" cy="650.623" r="3"/>
+    <circle cx="73.879" cy="651.427" r="3"/>
+    <circle cx="88.506" cy="649.819" r="3"/>
+    <circle cx="89.996" cy="652.901" r="3"/>
+    <circle cx="72.105" cy="653.131" r="3"/>
+    <circle cx="77.452" cy="653.935" r="3"/>
+    <circle cx="94.222" cy="656.979" r="3"/>
+    <circle cx="66.842" cy="656.749" r="3"/>
+    <circle cx="72.764" cy="654.854" r="3"/>
+    <circle cx="73.16" cy="655.39" r="3"/>
+    <circle cx="75.068" cy="656.136" r="3"/>
+    <circle cx="120.758" cy="651.829" r="3"/>
+    <circle cx="78.198" cy="651.81" r="3"/>
+    <circle cx="821.754" cy="629.891" r="3"/>
+    <circle cx="547.011" cy="613.601" r="3"/>
+    <circle cx="293.547" cy="622.043" r="3"/>
+    <circle cx="444.245" cy="614.654" r="3"/>
+    <circle cx="221.082" cy="615.113" r="3"/>
+    <circle cx="348.802" cy="607.628" r="3"/>
+    <circle cx="1106.624" cy="565.552" r="3"/>
+    <circle cx="1002.298" cy="543.002" r="3"/>
+    <circle cx="1006.161" cy="406.724" r="3"/>
+    <circle cx="545.276" cy="24.767" r="3"/>
+    <circle cx="358.193" cy="319.394" r="3"/>
+    <circle cx="311.902" cy="67.857" r="3"/>
+    <circle cx="242.238" cy="259.286" r="3"/>
+    <circle cx="462.971" cy="517.714" r="3"/>
+    <circle cx="270.999" cy="513.101" r="3"/>
+    <circle cx="377.732" cy="587.586" r="3"/>
+    <circle cx="477.595" cy="567.926" r="3"/>
+    <circle cx="178.968" cy="575.143" r="3"/>
+    <circle cx="185.221" cy="593.692" r="3"/>
+    <circle cx="237.222" cy="591.989" r="3"/>
+    <circle cx="110.316" cy="592.18" r="3"/>
+    <circle cx="118.434" cy="589.691" r="3"/>
+    <circle cx="84.041" cy="595.224" r="3"/>
+    <circle cx="89.701" cy="602.058" r="3"/>
+    <circle cx="169.39" cy="612.108" r="3"/>
+    <circle cx="119.412" cy="612.299" r="3"/>
+  </g>
+</svg>

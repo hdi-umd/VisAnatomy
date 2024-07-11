@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="400px" viewBox="0 0 600 400" version="1.1">
+    <title>ChartTypes/Navicat_16_Highlights_Chart_Waterfall</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ChartTypes/Waterfall">
+            <g id="waterfall" transform="translate(-24.000000, 27.000000)"/>
+            <g id="chart" transform="translate(39.000000, 63.000000)">
+                <g id="line" fill="#DCDCDF" fill-rule="nonzero">
+                    <polygon id="Path" points="0 1 523 1 523 0 0 0"/>
+                    <polygon id="Path" points="0 56 523 56 523 55 0 55"/>
+                    <polygon id="Path" points="0 110 523 110 523 109 0 109"/>
+                    <polygon id="Path" points="0 165 523 165 523 164 0 164"/>
+                    <polygon id="Path" points="0 219 523 219 523 218 0 218"/>
+                    <polygon id="Path" points="0 274 523 274 523 273 0 273"/>
+                </g>
+                <rect id="Rectangle" fill="#FF8E8B" x="22" y="183" width="45" height="90"/>
+                <text id="38" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="37" y="200">38</tspan>
+                </text>
+                <rect id="Rectangle" fill="#33D9D0" x="77" y="18" width="45" height="164"/>
+                <text id="69" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="92" y="35">69</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FF8E8B" x="131" y="18" width="45" height="51"/>
+                <text id="-10" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="144" y="62">-10</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FF8E8B" x="185" y="70" width="45" height="51"/>
+                <text id="-10" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="198.170654" y="113">-10</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FF8E8B" x="293" y="148" width="45" height="63"/>
+                <rect id="Rectangle" fill="#33D9D0" x="347" y="174" width="45" height="37"/>
+                <rect id="Rectangle" fill="#FF8E8B" x="239" y="122" width="45" height="25"/>
+                <text id="-5" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="253.779297" y="139">-5</tspan>
+                </text>
+                <text id="-20" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="304.170654" y="203">-20</tspan>
+                </text>
+                <text id="15" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="361.282715" y="190">15</tspan>
+                </text>
+                <rect id="Rectangle" fill="#33D9D0" x="401" y="83" width="45" height="90"/>
+                <text id="26" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="415.282715" y="100">26</tspan>
+                </text>
+                <rect id="Rectangle" fill="#CFC7FF" x="455" y="83" width="45" height="190"/>
+                <text id="90" font-family="SegoeUI-SemiBold, Segoe UI" font-size="13" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="469.282715" y="100">90</tspan>
+                </text>
+                <line x1="77" y1="17.5" x2="176" y2="17.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="22" y1="182.5" x2="121" y2="182.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="131" y1="69.5" x2="230" y2="69.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="185" y1="121.5" x2="284" y2="121.5" id="Path-11" stroke="#979797" stroke-dasharray="4,3"/>
+                <line x1="239" y1="147.5" x2="338" y2="147.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="293" y1="211.5" x2="392" y2="211.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="347" y1="173.5" x2="446" y2="173.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+                <line x1="401" y1="82.5" x2="500" y2="82.5" id="Path-11" stroke="#979797" stroke-dasharray="4,2"/>
+            </g>
+        </g>
+    </g>
+</svg>

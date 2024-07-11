@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223px" height="135px" viewBox="0 0 223 135" version="1.1">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Waterfall Charts</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="121.106589%" x2="-1.11022302e-14%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2CC7C0" offset="0%"/>
+            <stop stop-color="#59D99D" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"/>
+            <stop stop-color="#F76B1C" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="94.893743%" y1="100%" x2="10.1069014%" y2="6.02534227%" id="linearGradient-3">
+            <stop stop-color="#7AA3FB" offset="0%"/>
+            <stop stop-color="#2CDAFC" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fusionCharts-XT" transform="translate(-1348.000000, -1773.000000)">
+            <g id="Group-34" transform="translate(1326.000000, 1748.000000)">
+                <g id="Waterfall-Charts" transform="translate(21.000000, 24.000000)">
+                    <g id="Group-3" transform="translate(24.931034, 125.810289)" fill="#000000" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="4.3860002" font-weight="normal">
+                        <text id="Product-Revenue">
+                            <tspan x="1.20169567" y="4">Product</tspan>
+                            <tspan x="0.592041647" y="9">Revenue</tspan>
+                        </text>
+                        <text id="Services-Revenue">
+                            <tspan x="29.9012547" y="4">Services</tspan>
+                            <tspan x="29.5920416" y="9">Revenue</tspan>
+                        </text>
+                        <text id="Total-Revenue">
+                            <tspan x="61.9582968" y="4">Total </tspan>
+                            <tspan x="58.5920416" y="9">Revenue</tspan>
+                        </text>
+                        <text id="Fixed-Costs">
+                            <tspan x="87.6315398" y="4">Fixed</tspan>
+                            <tspan x="87.1074128" y="9"> Costs</tspan>
+                        </text>
+                        <text id="Variable-Costs">
+                            <tspan x="114.548186" y="4">Variable</tspan>
+                            <tspan x="117.046013" y="9">Costs</tspan>
+                        </text>
+                        <text id="Total-Costs">
+                            <tspan x="145.958297" y="4">Total </tspan>
+                            <tspan x="145.546013" y="9">Costs</tspan>
+                        </text>
+                        <text id="Total-Profit">
+                            <tspan x="173.458297" y="4">Total </tspan>
+                            <tspan x="172.910047" y="9">Profit</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2" transform="translate(0.310345, 32.681672)" fill="#7A869B" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="4.3860002" font-weight="500">
+                        <text id="$-0">
+                            <tspan x="7.72883143" y="88.4410076">$ 0</tspan>
+                        </text>
+                        <text id="$-140k">
+                            <tspan x="1.19115419" y="71.8566162">$ 140k</tspan>
+                        </text>
+                        <text id="$-280k">
+                            <tspan x="1.19115419" y="54.577053">$ 280k</tspan>
+                        </text>
+                        <text id="$-420k">
+                            <tspan x="1.19115419" y="38.8769059">$ 420k</tspan>
+                        </text>
+                        <text id="$-560k">
+                            <tspan x="1.19115419" y="21.5973427">$ 560k</tspan>
+                        </text>
+                        <text id="$-700k">
+                            <tspan x="1.19115419" y="4.59734272">$ 700k</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="103" width="204.413793" height="1"/>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="86" width="204.413793" height="1"/>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="70" width="204.413793" height="1"/>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="53" width="204.413793" height="1"/>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="36" width="204.413793" height="1"/>
+                    <rect id="Rectangle-5" fill="#D8D8D8" opacity="0.4" x="19" y="120" width="204.413793" height="1"/>
+                    <path d="M27,70 L67,70" id="Path-31" stroke="#686980" stroke-width="0.5" stroke-dasharray="1"/>
+                    <path d="M85,40 L125,40" id="Path-31" stroke="#686980" stroke-width="0.5" stroke-dasharray="1"/>
+                    <path d="M113,65 L153,65" id="Path-31" stroke="#686980" stroke-width="0.5" stroke-dasharray="1"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="25" y="70" width="14" height="50" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="53" y="40" width="14" height="30" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="83" y="40" width="14" height="80" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" x="111" y="40" width="14" height="25" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" x="139" y="65" width="14" height="17" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" x="167" y="40" width="14" height="42" rx="2"/>
+                    <rect id="Rectangle" fill="url(#linearGradient-3)" x="195" y="80" width="14" height="40" rx="2"/>
+                    <text id="$420K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="27.4620345" y="75.8102894">$420K</tspan>
+                    </text>
+                    <text id="$210K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="55.4620345" y="66.8102894">$210K</tspan>
+                    </text>
+                    <text id="$630K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="86.4620345" y="45.8102894">$630K</tspan>
+                    </text>
+                    <text id="$-170K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="113.979034" y="61.8102894">$-170K</tspan>
+                    </text>
+                    <text id="$-140K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="140.979034" y="78.8102894">$-140K</tspan>
+                    </text>
+                    <text id="$-310K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="169.979034" y="78.8102894">$-310K</tspan>
+                    </text>
+                    <text id="$320K" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="3" font-weight="500" fill="#FFFFFF">
+                        <tspan x="197.462034" y="84.8102894">$320K</tspan>
+                    </text>
+                    <text id="Company-Profit-(-in" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="5.84800026" font-weight="bold" fill="#000000">
+                        <tspan x="71.2511342" y="6">Company Profit ( in USD ) - 2017</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

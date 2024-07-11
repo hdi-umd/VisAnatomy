@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500">
+  <path fill="transparent" d="M0 0h800v500H0z"/>
+  <g stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M50 341c60 19.5 120 39 180 39s120-149 180-149 120 55 180 55 120-49 180-98" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 236c60 26 120 52 180 52s120-43 180-43 120 102 180 102 120-79.5 180-159" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 274c60 48 120 96 180 96s120-91 180-91 120 22 180 22 120-59 180-118" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 336c60-20.167 120-40.333 180-57s120-43 180-43 120 54 180 54 120-36.5 180-73" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 274c60 41 120 82 180 82s120-125 180-125 120 45 180 45 120-59 180-118" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 260c60 52.5 120 105 180 105s120-192 180-192 120 157 180 157 120-57.5 180-115" stroke="rgba(31, 119, 180, 1)" opacity=".5"/>
+    <path d="M50 72c60 2.5 120 5 180 15s120 305 180 307q90 3 180 3c60 0 120-79.5 180-159" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 130c60-41 120-82 180-82s120 328.667 180 336q90 11 180 11c60 0 120-92 180-184" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 82c60-21.5 120-43 180-43s120 413 180 413 120-56 180-86 120-62 180-94" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 159c60-7.5 120-15 180-15s120 274 180 274q90 0 180-33c60-22 120-105.5 180-189" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 125c60-33.5 120-67 180-67s120 326 180 326 120-39.167 180-62 120-48.917 180-75" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 111c60 6.333 120 12.667 180 38s120 197 180 197q90 0 180-13c60-8.667 120-44.333 180-80" stroke="rgba(255, 127, 14, 1)" opacity=".5"/>
+    <path d="M50 255c60 36 120 72 180 72s120-110.333 180-163S530 11 590 11s120 101.5 180 203" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 308c60-.833 120-1.667 180-5s120-96.167 180-139S530 46 590 46s120 76.5 180 153" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 351c60-2.5 120-5 180-15s120-110 180-163S530 18 590 18s120 122 180 244" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 341c60-7.333 120-14.667 180-33s120-30.167 180-77S530 27 590 27s120 93 180 186" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 341c60-4.833 120-9.667 180-29s120-107.5 180-153S530 39 590 39s120 79 180 158" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 317c60 50.5 120 101 180 101s120-112.5 180-173S530 55 590 55s120 112.5 180 225" stroke="rgba(44, 160, 44, 1)" opacity=".5"/>
+    <path d="M50 212c60-29 120-58 180-58s120 239.333 180 240 120 .333 180 1 120 47.833 180 95" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 202c60-29 120-58 180-58s120 157 180 183 120 21.5 180 39 120 41.75 180 66" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 202c60 13.5 120 27 180 43s120 25.667 180 53 120 97.667 180 111 120 16.667 180 20" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 245c60-19 120-38 180-38s120 93.333 180 125 120 42.333 180 65 120 46.833 180 71" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 288c60-60 120-120 180-120s120 130 180 164 120 47.667 180 51 120 4.167 180 5" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 236c60 .667 120 1.333 180 4s120 131.667 180 135 120 1.667 180 5 120 27.167 180 51" stroke="rgba(214, 39, 40, 1)" opacity=".5"/>
+    <path d="M50 183c60-2.5 120-5 180-5s120 280.333 180 293q90 19 180 19c60 0 120-141 180-282" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 192c60-52.5 120-105 180-105s120 374 180 374q90 0 180-38c60-25.333 120-159.167 180-293" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 116c60-7.5 120-15 180-15s120 220.333 180 283q90 94 180 94c60 0 120-168 180-336" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 82c60 14.583 120 29.167 180 86s120 222.333 180 255q90 49 180 49c60 0 120-152.5 180-305" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 183c60-14.5 120-29 180-29s120 336 180 336h180c60 0 120-178 180-356" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 159h180c60 0 120 317 180 317q90 0 180-1c60-.667 120-143.833 180-287" stroke="rgba(148, 103, 189, 1)" opacity=".5"/>
+    <path d="M50 34c60 8 120 16 180 48s120 167.667 180 226 120 124 180 124S710 248.5 770 65" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 10c60 9.667 120 19.333 180 58s120 140.667 180 211 120 211 180 211 120-173.5 180-347" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 10c60 9.667 120 19.333 180 58s120 147.833 180 211 120 168 180 168S710 248 770 49" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 44c60 .667 120 1.333 180 4s120 177.5 180 250 120 185 180 185 120-165.5 180-331" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 20c60 7.167 120 14.333 180 43s120 175.333 180 245 120 173 180 173 120-165.5 180-331" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 44c60-10 120-20 180-20s120 172.833 180 245 120 188 180 188 120-176.5 180-353" stroke="rgba(140, 86, 75, 1)" opacity=".5"/>
+    <path d="M50 264c60-84 120-168 180-168s120 269 180 269 120-70 180-70 120 24.5 180 49" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+    <path d="M50 274c60-93.5 120-187 180-187s120 326 180 326 120-139 180-139 120 62.5 180 125" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+    <path d="M50 260c60-84 120-168 180-168s120 254 180 254 120-82 180-82 120 13 180 26" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+    <path d="M50 255c60-69.5 120-139 180-139s120 240 180 240 120-9 180-9 120 20 180 40" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+    <path d="M50 245c60-55 120-110 180-110s120 264 180 264 120-76 180-76 120 33 180 66" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+    <path d="M50 236c60-79.5 120-159 180-159s120 351 180 351 120-73.333 180-90 120-20.833 180-25" stroke="rgba(227, 119, 194, 1)" opacity=".5"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 480)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 480) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">0</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 480) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 432)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 432) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">10</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 432) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 384)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 384) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">20</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 384) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 336)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 336) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">30</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 336) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">30</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 288)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 288) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">40</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 288) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 240)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 240) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">50</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 240) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">50</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 192)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 192) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">60</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 192) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 144) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">70</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 144) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">70</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 96) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">80</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 96) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">80</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10) translate(0 48)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 48) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">90</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(0 48) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">90</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(50 10)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">100</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(50 10) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">100</text>
+  </g>
+  <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0v480" transform="translate(50 10)"/>
+  <text transform="translate(50 10) rotate(-90 8 -8)" text-anchor="end" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">width</text>
+  <text transform="translate(50 10) rotate(-90 8 -8)" text-anchor="end" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">width</text>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 480)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 480) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">0</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 480) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 432)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 432) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">10</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 432) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 384)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 384) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">20</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 384) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 336)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 336) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">30</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 336) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">30</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 288)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 288) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">40</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 288) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 240)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 240) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">50</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 240) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">50</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 192)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 192) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">60</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 192) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 144) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">70</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 144) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">70</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 96) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">80</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 96) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">80</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10) translate(0 48)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 48) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">90</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(0 48) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">90</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(230 10)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">100</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(230 10) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">100</text>
+  </g>
+  <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0v480" transform="translate(230 10)"/>
+  <text transform="translate(230 10) rotate(-90 8 -8)" text-anchor="end" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">height</text>
+  <text transform="translate(230 10) rotate(-90 8 -8)" text-anchor="end" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">height</text>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 480)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 480) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">0</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 480) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 432)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 432) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">10</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 432) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 384)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 384) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">20</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 384) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 336)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 336) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">30</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 336) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">30</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 288)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 288) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">40</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 288) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 240)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 240) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">50</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 240) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">50</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 192)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 192) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">60</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 192) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 144) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">70</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 144) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">70</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 96) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">80</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 96) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">80</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10) translate(0 48)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 48) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">90</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(0 48) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">90</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(410 10)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">100</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(410 10) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">100</text>
+  </g>
+  <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0v480" transform="translate(410 10)"/>
+  <text transform="translate(410 10) rotate(-90 8 -8)" text-anchor="end" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">depth</text>
+  <text transform="translate(410 10) rotate(-90 8 -8)" text-anchor="end" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">depth</text>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 480)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 480) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">0</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 480) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 432)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 432) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">100</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 432) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">100</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 384)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 384) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">200</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 384) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">200</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 336)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 336) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">300</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 336) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">300</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 288)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 288) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">400</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 288) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">400</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 240)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 240) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">500</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 240) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">500</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 192)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 192) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">600</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 192) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">600</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 144) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">700</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 144) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">700</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 96) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">800</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 96) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">800</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10) translate(0 48)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 48) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">900</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(0 48) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">900</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(590 10)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">1000</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(590 10) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">1000</text>
+  </g>
+  <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0v480" transform="translate(590 10)"/>
+  <text transform="translate(590 10) rotate(-90 8 -8)" text-anchor="end" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">weight</text>
+  <text transform="translate(590 10) rotate(-90 8 -8)" text-anchor="end" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">weight</text>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 480)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 480) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">0</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 480) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 432)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 432) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">1</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 432) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">1</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 384)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 384) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">2</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 384) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">2</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 336)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 336) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">3</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 336) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">3</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 288)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 288) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">4</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 288) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">4</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 240)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 240) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">5</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 240) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 192)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 192) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">6</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 192) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">6</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 144) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">7</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 144) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">7</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 96)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 96) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">8</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 96) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">8</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10) translate(0 48)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 48) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">9</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(0 48) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">9</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0h-5" transform="translate(770 10)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(-10)" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333;outline-width:2px;outline-color:#fff">10</text>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(770 10) translate(-10)" style="font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:11px;fill:#333">10</text>
+  </g>
+  <path style="stroke:#777;stroke-width:1;stroke-linecap:square" d="M0 0v480" transform="translate(770 10)"/>
+  <text transform="translate(770 10) rotate(-90 8 -8)" text-anchor="end" stroke-width="4" stroke="#fff" stroke-linejoin="round" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">price</text>
+  <text transform="translate(770 10) rotate(-90 8 -8)" text-anchor="end" style="dominant-baseline:central;font-family:SFMono-Regular,Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;font-size:12px;fill:#333;outline-width:2px;outline-color:#fff;font-weight:700">price</text>
+  <g transform="translate(50 10)"/>
+</svg>

@@ -1,0 +1,209 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" sodipodi:docname="Charts_feature_04.svg" id="svg302" version="1.1" style="overflow: hidden;" aria-label="A chart." height="455" width="1200">
+  <metadata id="metadata306">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:current-layer="svg302" inkscape:window-maximized="0" inkscape:window-y="0" inkscape:window-x="0" inkscape:cy="227.5" inkscape:cx="600" inkscape:zoom="0.91083333" showgrid="false" id="namedview304" inkscape:window-height="480" inkscape:window-width="867" inkscape:pageshadow="2" inkscape:pageopacity="1" guidetolerance="10" gridtolerance="10" objecttolerance="10" borderopacity="1" bordercolor="#666666" pagecolor="#ffffff"/>
+  <defs id="_ABSTRACT_RENDERER_ID_118">
+    <clipPath id="_ABSTRACT_RENDERER_ID_119">
+      <rect id="rect2" height="281" width="860" y="87" x="170"/>
+    </clipPath>
+  </defs>
+  <rect id="rect6" fill="#ffffff" stroke-width="0" stroke="none" height="455" width="1200" y="0" x="0"/>
+  <g id="g12">
+    <text id="text8" fill="#000000" stroke-width="0" stroke="none" font-weight="bold" font-size="15" font-family="Arial" y="60.75" x="170" text-anchor="start">Average Monthly Precipitation by Ecoregion</text>
+    <rect id="rect10" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="860" y="48" x="170"/>
+  </g>
+  <g id="g136">
+    <rect id="rect14" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="279" width="140" y="87" x="1045"/>
+    <g id="g24" column-id="12_ppt">
+      <rect id="rect16" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="87" x="1045"/>
+      <g id="g20">
+        <text id="text18" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="99.75" x="1081" text-anchor="start">Dec</text>
+      </g>
+      <rect id="rect22" fill="#696969" stroke-width="0" stroke="none" height="15" width="30" y="87" x="1045"/>
+    </g>
+    <g id="g34" column-id="11_ppt">
+      <rect id="rect26" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="111" x="1045"/>
+      <g id="g30">
+        <text id="text28" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="123.75" x="1081" text-anchor="start">Nov</text>
+      </g>
+      <rect id="rect32" fill="#9c4f97" stroke-width="0" stroke="none" height="15" width="30" y="111" x="1045"/>
+    </g>
+    <g id="g44" column-id="10_ppt">
+      <rect id="rect36" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="135" x="1045"/>
+      <g id="g40">
+        <text id="text38" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="147.75" x="1081" text-anchor="start">Oct</text>
+      </g>
+      <rect id="rect42" fill="#724173" stroke-width="0" stroke="none" height="15" width="30" y="135" x="1045"/>
+    </g>
+    <g id="g54" column-id="09_ppt">
+      <rect id="rect46" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="159" x="1045"/>
+      <g id="g50">
+        <text id="text48" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="171.75" x="1081" text-anchor="start">Sep</text>
+      </g>
+      <rect id="rect52" fill="#96356f" stroke-width="0" stroke="none" height="15" width="30" y="159" x="1045"/>
+    </g>
+    <g id="g64" column-id="08_ppt">
+      <rect id="rect56" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="183" x="1045"/>
+      <g id="g60">
+        <text id="text58" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="195.75" x="1081" text-anchor="start">Aug</text>
+      </g>
+      <rect id="rect62" fill="#cf513e" stroke-width="0" stroke="none" height="15" width="30" y="183" x="1045"/>
+    </g>
+    <g id="g74" column-id="07_ppt">
+      <rect id="rect66" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="207" x="1045"/>
+      <g id="g70">
+        <text id="text68" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="219.75" x="1081" text-anchor="start">Jul</text>
+      </g>
+      <rect id="rect72" fill="#e37d05" stroke-width="0" stroke="none" height="15" width="30" y="207" x="1045"/>
+    </g>
+    <g id="g84" column-id="06_ppt">
+      <rect id="rect76" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="231" x="1045"/>
+      <g id="g80">
+        <text id="text78" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="243.75" x="1081" text-anchor="start">Jun</text>
+      </g>
+      <rect id="rect82" fill="#f0af07" stroke-width="0" stroke="none" height="15" width="30" y="231" x="1045"/>
+    </g>
+    <g id="g94" column-id="05_ppt">
+      <rect id="rect86" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="255" x="1045"/>
+      <g id="g90">
+        <text id="text88" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="267.75" x="1081" text-anchor="start">May</text>
+      </g>
+      <rect id="rect92" fill="#76b349" stroke-width="0" stroke="none" height="15" width="30" y="255" x="1045"/>
+    </g>
+    <g id="g104" column-id="04_ppt">
+      <rect id="rect96" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="279" x="1045"/>
+      <g id="g100">
+        <text id="text98" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="291.75" x="1081" text-anchor="start">Apr</text>
+      </g>
+      <rect id="rect102" fill="#0f8755" stroke-width="0" stroke="none" height="15" width="30" y="279" x="1045"/>
+    </g>
+    <g id="g114" column-id="03_ppt">
+      <rect id="rect106" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="303" x="1045"/>
+      <g id="g110">
+        <text id="text108" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="315.75" x="1081" text-anchor="start">Mar</text>
+      </g>
+      <rect id="rect112" fill="#39a8a7" stroke-width="0" stroke="none" height="15" width="30" y="303" x="1045"/>
+    </g>
+    <g id="g124" column-id="02_ppt">
+      <rect id="rect116" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="327" x="1045"/>
+      <g id="g120">
+        <text id="text118" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="339.75" x="1081" text-anchor="start">Feb</text>
+      </g>
+      <rect id="rect122" fill="#1d6b99" stroke-width="0" stroke="none" height="15" width="30" y="327" x="1045"/>
+    </g>
+    <g id="g134" column-id="01_ppt">
+      <rect id="rect126" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="140" y="351" x="1045"/>
+      <g id="g130">
+        <text id="text128" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="363.75" x="1081" text-anchor="start">Jan</text>
+      </g>
+      <rect id="rect132" fill="#604791" stroke-width="0" stroke="none" height="15" width="30" y="351" x="1045"/>
+    </g>
+  </g>
+  <g id="g284">
+    <rect id="rect138" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="281" width="860" y="87" x="170"/>
+    <g id="g242" clip-path="url(https://code.earthengine.google.com/?as_external&amp;scriptPath=users%2Fbraaten%2FTutorials%3ACharts%2Ffeature%20charts#_ABSTRACT_RENDERER_ID_119)">
+      <g id="g162">
+        <rect id="rect140" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="367" x="170"/>
+        <rect id="rect142" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="311" x="170"/>
+        <rect id="rect144" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="255" x="170"/>
+        <rect id="rect146" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="199" x="170"/>
+        <rect id="rect148" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="143" x="170"/>
+        <rect id="rect150" fill="#cccccc" stroke-width="0" stroke="none" height="1" width="860" y="87" x="170"/>
+        <rect id="rect152" fill="#ebebeb" stroke-width="0" stroke="none" height="1" width="860" y="339" x="170"/>
+        <rect id="rect154" fill="#ebebeb" stroke-width="0" stroke="none" height="1" width="860" y="283" x="170"/>
+        <rect id="rect156" fill="#ebebeb" stroke-width="0" stroke="none" height="1" width="860" y="227" x="170"/>
+        <rect id="rect158" fill="#ebebeb" stroke-width="0" stroke="none" height="1" width="860" y="171" x="170"/>
+        <rect id="rect160" fill="#ebebeb" stroke-width="0" stroke="none" height="1" width="860" y="115" x="170"/>
+      </g>
+      <g id="g236">
+        <rect id="rect164" fill="#604791" stroke-width="0" stroke="none" height="19" width="177" y="348" x="225"/>
+        <rect id="rect166" fill="#604791" stroke-width="0" stroke="none" height="38" width="176" y="329" x="512"/>
+        <rect id="rect168" fill="#604791" stroke-width="0" stroke="none" height="4" width="177" y="363" x="798"/>
+        <rect id="rect170" fill="#1d6b99" stroke-width="0" stroke="none" height="15" width="177" y="332" x="225"/>
+        <rect id="rect172" fill="#1d6b99" stroke-width="0" stroke="none" height="29" width="176" y="299" x="512"/>
+        <rect id="rect174" fill="#1d6b99" stroke-width="0" stroke="none" height="6" width="177" y="356" x="798"/>
+        <rect id="rect176" fill="#39a8a7" stroke-width="0" stroke="none" height="12" width="177" y="319" x="225"/>
+        <rect id="rect178" fill="#39a8a7" stroke-width="0" stroke="none" height="29" width="176" y="269" x="512"/>
+        <rect id="rect180" fill="#39a8a7" stroke-width="0" stroke="none" height="15" width="177" y="340" x="798"/>
+        <rect id="rect182" fill="#0f8755" stroke-width="0" stroke="none" height="5" width="177" y="313" x="225"/>
+        <rect id="rect184" fill="#0f8755" stroke-width="0" stroke="none" height="24" width="176" y="244" x="512"/>
+        <rect id="rect186" fill="#0f8755" stroke-width="0" stroke="none" height="29" width="177" y="310" x="798"/>
+        <rect id="rect188" fill="#76b349" stroke-width="0" stroke="none" height="5" width="177" y="307" x="225"/>
+        <rect id="rect190" fill="#76b349" stroke-width="0" stroke="none" height="17" width="176" y="226" x="512"/>
+        <rect id="rect192" fill="#76b349" stroke-width="0" stroke="none" height="44" width="177" y="265" x="798"/>
+        <rect id="rect194" fill="#f0af07" stroke-width="0" stroke="none" height="9" width="177" y="297" x="225"/>
+        <rect id="rect196" fill="#f0af07" stroke-width="0" stroke="none" height="12" width="176" y="213" x="512"/>
+        <rect id="rect198" fill="#f0af07" stroke-width="0" stroke="none" height="44" width="177" y="220" x="798"/>
+        <rect id="rect200" fill="#e37d05" stroke-width="0" stroke="none" height="58" width="177" y="238" x="225"/>
+        <rect id="rect202" fill="#e37d05" stroke-width="0" stroke="none" height="3.095831910079994" width="176" y="209.891010482972" x="512"/>
+        <rect id="rect204" fill="#e37d05" stroke-width="0" stroke="none" height="39" width="177" y="180" x="798"/>
+        <rect id="rect206" fill="#cf513e" stroke-width="0" stroke="none" height="56" width="177" y="181" x="225"/>
+        <rect id="rect208" fill="#cf513e" stroke-width="0" stroke="none" height="4" width="176" y="205" x="512"/>
+        <rect id="rect210" fill="#cf513e" stroke-width="0" stroke="none" height="30" width="177" y="149" x="798"/>
+        <rect id="rect212" fill="#96356f" stroke-width="0" stroke="none" height="26" width="177" y="154" x="225"/>
+        <rect id="rect214" fill="#96356f" stroke-width="0" stroke="none" height="8" width="176" y="196" x="512"/>
+        <rect id="rect216" fill="#96356f" stroke-width="0" stroke="none" height="24" width="177" y="124" x="798"/>
+        <rect id="rect218" fill="#724173" stroke-width="0" stroke="none" height="23" width="177" y="130" x="225"/>
+        <rect id="rect220" fill="#724173" stroke-width="0" stroke="none" height="19" width="176" y="176" x="512"/>
+        <rect id="rect222" fill="#724173" stroke-width="0" stroke="none" height="19" width="177" y="104" x="798"/>
+        <rect id="rect224" fill="#9c4f97" stroke-width="0" stroke="none" height="15" width="177" y="114" x="225"/>
+        <rect id="rect226" fill="#9c4f97" stroke-width="0" stroke="none" height="42" width="176" y="133" x="512"/>
+        <rect id="rect228" fill="#9c4f97" stroke-width="0" stroke="none" height="9" width="177" y="94" x="798"/>
+        <rect id="rect230" fill="#696969" stroke-width="0" stroke="none" height="25" width="177" y="88" x="225"/>
+        <rect id="rect232" fill="#696969" stroke-width="0" stroke="none" height="44" width="176" y="88" x="512"/>
+        <rect id="rect234" fill="#696969" stroke-width="0" stroke="none" height="5" width="177" y="88" x="798"/>
+      </g>
+      <g id="g240">
+        <rect id="rect238" fill="#333333" stroke-width="0" stroke="none" height="1" width="860" y="367" x="170"/>
+      </g>
+    </g>
+    <g id="g244"/>
+    <g id="g282">
+      <g id="g248">
+        <text id="text246" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="389.75" x="313.66666666666663" text-anchor="middle">Desert</text>
+      </g>
+      <g id="g252">
+        <text id="text250" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="389.75" x="600" text-anchor="middle">Forest</text>
+      </g>
+      <g id="g256">
+        <text id="text254" fill="#222222" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="389.75" x="886.3333333333333" text-anchor="middle">Grassland</text>
+      </g>
+      <g id="g260">
+        <text id="text258" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="372.75" x="155" text-anchor="end">0%</text>
+      </g>
+      <g id="g264">
+        <text id="text262" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="316.75" x="155" text-anchor="end">20%</text>
+      </g>
+      <g id="g268">
+        <text id="text266" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="260.75" x="155" text-anchor="end">40%</text>
+      </g>
+      <g id="g272">
+        <text id="text270" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="204.75" x="155" text-anchor="end">60%</text>
+      </g>
+      <g id="g276">
+        <text id="text274" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="148.75" x="155" text-anchor="end">80%</text>
+      </g>
+      <g id="g280">
+        <text id="text278" fill="#444444" stroke-width="0" stroke="none" font-size="15" font-family="Arial" y="92.75" x="155" text-anchor="end">100%</text>
+      </g>
+    </g>
+  </g>
+  <g id="g298">
+    <g id="g290">
+      <text id="text286" fill="#222222" stroke-width="0" stroke="none" font-weight="bold" font-size="15" font-family="Arial" y="428.75" x="600" text-anchor="middle">Ecoregion</text>
+      <rect id="rect288" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" height="15" width="860" y="416" x="170"/>
+    </g>
+    <g id="g296">
+      <text id="text292" fill="#222222" stroke-width="0" stroke="none" transform="rotate(-90 63.75 227.5)" font-weight="bold" font-size="15" font-family="Arial" y="227.5" x="63.75" text-anchor="middle">Precipitation (mm)</text>
+      <path id="path294" fill="#ffffff" fill-opacity="0" stroke-width="0" stroke="none" d="M50.99999999999999,368L51.00000000000001,87L66.00000000000001,87L65.99999999999999,368Z"/>
+    </g>
+  </g>
+  <g id="g300"/>
+</svg>

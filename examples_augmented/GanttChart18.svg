@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814" height="460" viewBox="0 0 814 460">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f7f7f7"/>
+    </linearGradient>
+  </defs>
+  <g id="simple-gantt-chart-template" transform="translate(-144 -9609)">
+    <rect id="Rectangle_161" data-name="Rectangle 161" width="814" height="460" transform="translate(144 9609)" fill="url(#linear-gradient)"/>
+    <g id="Group_19" data-name="Group 19" transform="translate(2018 146)">
+      <path id="path22" d="M160.8-276.319v62.632" transform="translate(-1876.597 10015.589)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path24" d="M526.559-357.6v127.566" transform="translate(-1950.01 10031.902)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path26" d="M526.559-410.879v33.517" transform="translate(-1950.01 10042.597)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path28" d="M691.358-428.159v184.006" transform="translate(-1983.087 10046.064)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path30" d="M691.358-481.6v33.517" transform="translate(-1983.087 10056.791)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path32" d="M100.64-271.359h43.918" transform="translate(-1864.521 10014.593)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path34" d="M69.28-292.639H146.5" transform="translate(-1858.227 10018.864)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path36" d="M70.08-313.919H212.512" transform="translate(-1858.388 10023.136)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path38" d="M76.48-335.359H250.926" transform="translate(-1859.672 10027.438)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path40" d="M114.56-363.359H394.352" transform="translate(-1867.315 10033.059)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path42" d="M72-384.639H410.555" transform="translate(-1858.773 10037.33)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path44" d="M86.4-405.919H434.077" transform="translate(-1861.663 10041.601)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path46" d="M97.6-433.919H518.588" transform="translate(-1863.911 10047.221)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path48" d="M47.36-455.2H496.248" transform="translate(-1853.828 10051.492)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path50" d="M119.84-476.479H572.5" transform="translate(-1868.375 10055.764)" fill="none" stroke="#4bbdad" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path52" d="M104.96-504.479H635.407" transform="translate(-1865.389 10061.384)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path54" d="M167.68-525.759H668.511" transform="translate(-1877.977 10065.654)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="0.96"/>
+      <path id="path56" d="M88.64-194.381a3.54,3.54,0,0,1,3.538-3.538H715.96a3.543,3.543,0,0,1,3.538,3.538v14.153a3.543,3.543,0,0,1-3.538,3.538H92.178a3.54,3.54,0,0,1-3.538-3.538Z" transform="translate(-1862.113 9999.853)" fill="#0b3626" fill-rule="evenodd"/>
+      <text id="text68" transform="translate(-1768.128 9814.272)" fill="#fff" font-size="9" font-family="Calibri"><tspan x="0" y="0">Jul</tspan></text>
+      <text id="text80" transform="translate(-1640.473 9814.272)" fill="#fff" font-size="9" font-family="Calibri"><tspan x="0" y="0">Aug</tspan></text>
+      <text id="text92" transform="translate(-1512.822 9814.272)" fill="#fff" font-size="9" font-family="Calibri"><tspan x="0" y="0">Sep</tspan></text>
+      <text id="text104" transform="translate(-1389.306 9814.272)" fill="#fff" font-size="9" font-family="Calibri"><tspan x="0" y="0">Oct</tspan></text>
+      <text id="text116" transform="translate(-1261.655 9814.272)" fill="#fff" font-size="9" font-family="Calibri"><tspan x="0" y="0">Nov</tspan></text>
+      <path id="path130" d="M794.4-529.536a1.337,1.337,0,0,1,.392-.951,1.337,1.337,0,0,1,.951-.392h55.886a1.337,1.337,0,0,1,.951.392,1.337,1.337,0,0,1,.392.951v5.371a1.337,1.337,0,0,1-.392.951,1.337,1.337,0,0,1-.951.392H795.741a1.337,1.337,0,0,1-.951-.392,1.337,1.337,0,0,1-.392-.951Z" transform="translate(-2003.769 10066.683)" fill="#737373" fill-rule="evenodd"/>
+      <path id="path132" d="M768.638-508.117a1.328,1.328,0,0,1,1.321-1.321h14.366a1.328,1.328,0,0,1,1.321,1.321v5.286a1.328,1.328,0,0,1-1.321,1.321H769.96a1.328,1.328,0,0,1-1.321-1.321Z" transform="translate(-1998.599 10062.379)" fill="#737373" fill-rule="evenodd"/>
+      <path id="path134" d="M686.238-477.57a4.024,4.024,0,0,1,1.179-2.849,4.025,4.025,0,0,1,2.849-1.179h.384a4.025,4.025,0,0,1,2.849,1.179,4.025,4.025,0,0,1,1.179,2.849h0a4.025,4.025,0,0,1-1.179,2.849,4.025,4.025,0,0,1-2.849,1.179h-.384a4.025,4.025,0,0,1-2.849-1.179,4.025,4.025,0,0,1-1.179-2.849Z" transform="translate(-1982.06 10056.791)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path136" d="M686.238-477.57a4.024,4.024,0,0,1,1.179-2.849,4.025,4.025,0,0,1,2.849-1.179h.384a4.025,4.025,0,0,1,2.849,1.179,4.025,4.025,0,0,1,1.179,2.849h0a4.025,4.025,0,0,1-1.179,2.849,4.025,4.025,0,0,1-2.849,1.179h-.384a4.025,4.025,0,0,1-2.849-1.179,4.025,4.025,0,0,1-1.179-2.849Z" transform="translate(-1982.06 10056.791)" fill="none" stroke="#389a8b" stroke-miterlimit="10" stroke-width="1.28"/>
+      <path id="path138" d="M608.958-458.837a1.328,1.328,0,0,1,1.321-1.321h63.346a1.328,1.328,0,0,1,1.321,1.321v5.286a1.328,1.328,0,0,1-1.321,1.321H610.28a1.328,1.328,0,0,1-1.321-1.321Z" transform="translate(-1966.549 10052.487)" fill="#df2125" fill-rule="evenodd"/>
+      <path id="path140" d="M624.318-437.557a1.328,1.328,0,0,1,1.321-1.321h18.714a1.328,1.328,0,0,1,1.321,1.321v5.286a1.328,1.328,0,0,1-1.321,1.321H625.64a1.328,1.328,0,0,1-1.321-1.321Z" transform="translate(-1969.632 10048.217)" fill="#0b3626" fill-rule="evenodd"/>
+      <path id="path142" d="M521.279-406.915a3.971,3.971,0,0,1,3.964-3.964h.639a3.971,3.971,0,0,1,3.964,3.964h0a3.971,3.971,0,0,1-3.964,3.964h-.639a3.971,3.971,0,0,1-3.964-3.964Z" transform="translate(-1948.95 10042.597)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path144" d="M521.279-406.915a3.971,3.971,0,0,1,3.964-3.964h.639a3.971,3.971,0,0,1,3.964,3.964h0a3.971,3.971,0,0,1-3.964,3.964h-.639a3.971,3.971,0,0,1-3.964-3.964Z" transform="translate(-1948.95 10042.597)" fill="none" stroke="#389a8b" stroke-miterlimit="10" stroke-width="1.28"/>
+      <path id="path146" d="M495.519-388.278a1.328,1.328,0,0,1,1.321-1.321h18.714a1.328,1.328,0,0,1,1.321,1.321v5.286a1.328,1.328,0,0,1-1.321,1.321H496.84a1.328,1.328,0,0,1-1.321-1.321Z" transform="translate(-1943.78 10038.325)" fill="#5a0000" fill-rule="evenodd"/>
+      <path id="path148" d="M464.639-366.976a1.337,1.337,0,0,1,.392-.951,1.337,1.337,0,0,1,.951-.392h34.657a1.337,1.337,0,0,1,.951.392,1.337,1.337,0,0,1,.392.951v5.371a1.337,1.337,0,0,1-.392.951,1.337,1.337,0,0,1-.951.392H465.982a1.337,1.337,0,0,1-.951-.392,1.337,1.337,0,0,1-.392-.951Z" transform="translate(-1937.582 10034.054)" fill="#862322" fill-rule="evenodd"/>
+      <path id="path150" d="M294.719-338.976a1.337,1.337,0,0,1,.392-.951,1.337,1.337,0,0,1,.951-.392h22.891a1.337,1.337,0,0,1,.951.392,1.337,1.337,0,0,1,.392.951v5.371a1.337,1.337,0,0,1-.392.951,1.337,1.337,0,0,1-.951.392H296.062a1.337,1.337,0,0,1-.951-.392,1.337,1.337,0,0,1-.392-.951Z" transform="translate(-1903.476 10028.435)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path152" d="M248.319-317.7a1.337,1.337,0,0,1,.392-.951,1.337,1.337,0,0,1,.951-.392h47.445a1.337,1.337,0,0,1,.951.392,1.337,1.337,0,0,1,.392.951v5.371a1.337,1.337,0,0,1-.392.951,1.337,1.337,0,0,1-.951.392H249.662a1.337,1.337,0,0,1-.951-.392,1.337,1.337,0,0,1-.392-.951Z" transform="translate(-1894.163 10024.163)" fill="#5a0000" fill-rule="evenodd"/>
+      <path id="path154" d="M165.92-296.278a1.328,1.328,0,0,1,1.321-1.321h51.708a1.328,1.328,0,0,1,1.321,1.321v5.286a1.328,1.328,0,0,1-1.321,1.321H167.241a1.328,1.328,0,0,1-1.321-1.321Z" transform="translate(-1877.624 10019.859)" fill="#862322" fill-rule="evenodd"/>
+      <path id="path156" d="M155.68-272.355a3.971,3.971,0,0,1,3.964-3.964h.512a3.971,3.971,0,0,1,3.964,3.964h0a3.971,3.971,0,0,1-3.964,3.964h-.512a3.971,3.971,0,0,1-3.964-3.964Z" transform="translate(-1875.569 10015.589)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path158" d="M155.68-272.355a3.971,3.971,0,0,1,3.964-3.964h.512a3.971,3.971,0,0,1,3.964,3.964h0a3.971,3.971,0,0,1-3.964,3.964h-.512a3.971,3.971,0,0,1-3.964-3.964Z" transform="translate(-1875.569 10015.589)" fill="none" stroke="#389a8b" stroke-miterlimit="10" stroke-width="1.28"/>
+      <text id="text170" transform="translate(-1147.421 9541.038)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Nov 15</tspan></text>
+      <text id="text182" transform="translate(-1124.402 9541.038)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text194" transform="translate(-1120.437 9541.038)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Nov 28</tspan></text>
+      <text id="text206" transform="translate(-1833.656 9541.546)" fill="#7e7e7e" font-size="9" font-family="Calibri"><tspan x="0" y="0">Integration into learning system</tspan></text>
+      <text id="text218" transform="translate(-1209.19 9558.068)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Nov 10</tspan></text>
+      <text id="text230" transform="translate(-1186.171 9558.068)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text242" transform="translate(-1182.206 9558.068)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Nov 13</tspan></text>
+      <text id="text254" transform="translate(-1833.656 9558.576)" fill="#7e7e7e" font-size="9" font-family="Calibri"><tspan x="0" y="0">Acceptance review</tspan></text>
+      <text id="text266" transform="translate(-1283.31 9580.447)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 25</tspan></text>
+      <text id="text278" transform="translate(-1261.697 9580.447)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text290" transform="translate(-1257.712 9580.447)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 26</tspan></text>
+      <text id="text302" transform="translate(-1833.656 9580.956)" fill="#389a8b" font-size="9" font-family="Calibri-Bold, Calibri" font-weight="700"><tspan x="0" y="0">Collect testing results</tspan></text>
+      <text id="text314" transform="translate(-1287.434 9597.478)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 10</tspan></text>
+      <text id="text326" transform="translate(-1265.79 9597.478)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text338" transform="translate(-1261.825 9597.478)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 25</tspan></text>
+      <text id="text350" transform="translate(-1833.656 9597.986)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Testing</tspan></text>
+      <text id="text362" transform="translate(-1320.375 9614.519)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 13</tspan></text>
+      <text id="text374" transform="translate(-1298.742 9614.519)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text386" transform="translate(-1294.777 9614.519)" fill="#737373" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 17</tspan></text>
+      <text id="text398" transform="translate(-1833.656 9615.027)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Translate content</tspan></text>
+      <text id="text410" transform="translate(-1415.064 9636.898)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 23</tspan></text>
+      <text id="text422" transform="translate(-1393.068 9636.898)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text434" transform="translate(-1389.103 9636.898)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 24</tspan></text>
+      <text id="text446" transform="translate(-1833.656 9637.407)" fill="#389a8b" font-size="9" font-family="Calibri-Bold, Calibri" font-weight="700"><tspan x="0" y="0">Revise content</tspan></text>
+      <text id="text458" transform="translate(-1423.302 9653.929)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 18</tspan></text>
+      <text id="text470" transform="translate(-1401.306 9653.929)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text482" transform="translate(-1397.341 9653.929)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 22</tspan></text>
+      <text id="text494" transform="translate(-1833.656 9654.438)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Edit footage</tspan></text>
+      <text id="text506" transform="translate(-1431.529 9670.97)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 12</tspan></text>
+      <text id="text518" transform="translate(-1409.533 9670.97)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text530" transform="translate(-1405.568 9670.97)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Sep 20</tspan></text>
+      <text id="text542" transform="translate(-1833.656 9671.478)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Create video footage</tspan></text>
+      <text id="text554" transform="translate(-1579.78 9693.35)" fill="#44546a" font-size="6" font-family="Calibri"><tspan x="0" y="0">Aug 10</tspan></text>
+      <text id="text566" transform="translate(-1557.272 9693.35)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text578" transform="translate(-1553.308 9693.35)" fill="#44546a" font-size="6" font-family="Calibri"><tspan x="0" y="0">Aug 15</tspan></text>
+      <text id="text590" transform="translate(-1833.656 9693.857)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Script review</tspan></text>
+      <text id="text602" transform="translate(-1592.132 9710.38)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Aug 1</tspan></text>
+      <text id="text614" transform="translate(-1573.333 9710.38)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text626" transform="translate(-1569.368 9710.38)" fill="#44546a" font-size="6" font-family="Calibri"><tspan x="0" y="0">Aug 12</tspan></text>
+      <text id="text638" transform="translate(-1833.656 9710.888)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Write script</tspan></text>
+      <text id="text650" transform="translate(-1653.9 9727.41)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 16</tspan></text>
+      <text id="text662" transform="translate(-1634.973 9727.41)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text674" transform="translate(-1631.009 9727.41)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 28</tspan></text>
+      <text id="text686" transform="translate(-1833.656 9727.918)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Plan course</tspan></text>
+      <text id="text698" transform="translate(-1707.431 9744.472)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 14</tspan></text>
+      <text id="text710" transform="translate(-1688.483 9744.472)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text722" transform="translate(-1684.518 9744.472)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 15</tspan></text>
+      <text id="text734" transform="translate(-1833.656 9744.979)" fill="#389a8b" font-size="9" font-family="Calibri-Bold, Calibri" font-weight="700"><tspan x="0" y="0">Course objectives</tspan></text>
+      <path id="path736" d="M867.678-205.253l5.169-.842,2.313-5.265,2.313,5.265,5.169.842-3.741,4.092.885,5.787-4.625-2.728-4.625,2.728.885-5.787Z" transform="translate(-2018.477 10002.55)" fill="#df2125" fill-rule="evenodd"/>
+      <path id="path738" d="M371.039-203.681a1.6,1.6,0,0,1,1.6-1.6h6.394a1.6,1.6,0,0,1,1.6,1.6v7.929a1.6,1.6,0,0,1-1.6,1.6h-6.394a1.6,1.6,0,0,1-1.6-1.6Z" transform="translate(-1918.795 10001.33)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path740" d="M126.08-208.887a2.474,2.474,0,0,1,2.472-2.472h9.89a2.474,2.474,0,0,1,2.472,2.472v11.041a2.474,2.474,0,0,1-2.472,2.472h-9.89a2.474,2.474,0,0,1-2.472-2.472Z" transform="translate(-1869.628 10002.55)" fill="#df2125" fill-rule="evenodd"/>
+      <path id="path742" d="M644.158-176.321a1.6,1.6,0,0,1,1.6-1.6h6.394a1.6,1.6,0,0,1,1.6,1.6v7.929a1.6,1.6,0,0,1-1.6,1.6h-6.394a1.6,1.6,0,0,1-1.6-1.6Z" transform="translate(-1973.614 9995.838)" fill="#389a8b" fill-rule="evenodd"/>
+      <path id="path744" d="M237.119-176.321a1.6,1.6,0,0,1,1.6-1.6h6.394a1.6,1.6,0,0,1,1.6,1.6v7.929a1.6,1.6,0,0,1-1.6,1.6h-6.394a1.6,1.6,0,0,1-1.6-1.6Z" transform="translate(-1891.915 9995.838)" fill="#389a8b" fill-rule="evenodd"/>
+      <text id="text756" transform="translate(-1157.375 9773.732)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Launch</tspan></text>
+      <text id="text768" transform="translate(-1154.146 9785.779)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Nov 30</tspan></text>
+      <text id="text780" transform="translate(-1573.791 9778.539)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Script approved</tspan></text>
+      <text id="text792" transform="translate(-1553.638 9790.563)" fill="#44546a" font-size="6" font-family="Calibri"><tspan x="0" y="0">Aug 25</tspan></text>
+      <text id="text804" transform="translate(-1751.528 9773.732)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Kick</tspan></text>
+      <text id="text816" transform="translate(-1735.928 9773.732)" font-size="9" font-family="Calibri"><tspan x="0" y="0">-</tspan></text>
+      <text id="text828" transform="translate(-1732.987 9773.732)" font-size="9" font-family="Calibri"><tspan x="0" y="0">off</tspan></text>
+      <text id="text840" transform="translate(-1745.031 9785.779)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 10</tspan></text>
+      <text id="text852" transform="translate(-1365.263 9850.027)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Translation complete</tspan></text>
+      <text id="text864" transform="translate(-1334.954 9836.986)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Oct 17</tspan></text>
+      <text id="text876" transform="translate(-1692.724 9850.027)" font-size="9" font-family="Calibri"><tspan x="0" y="0">Course plan approved</tspan></text>
+      <text id="text888" transform="translate(-1658.579 9836.986)" fill="#44546a" font-size="7" font-family="Calibri"><tspan x="0" y="0">Jul 30</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04">
+  <defs>
+    <style>
+      .cls-1{fill:#cab0c0}.cls-2{fill:#441344}.cls-3{fill:#875e7e}.cls-5,.cls-6{fill:#fff;font-family:Verdana}.cls-5{font-size:7.42px}.cls-6{font-size:4.47px}
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <path class="cls-1" d="M54.25 39.5a1.31 1.31 0 1 1-1.89-1.8 1.29 1.29 0 0 1 1.84-.05 1.31 1.31 0 0 1 .05 1.85m-21.31-6.29a1.31 1.31 0 1 1-1.89-1.8 1.31 1.31 0 1 1 1.89 1.8m17.19 22.46a1.31 1.31 0 1 1-.05-1.84 1.3 1.3 0 0 1 .05 1.84"/>
+    <path class="cls-1" d="M59.23 49.54a5.84 5.84 0 1 1-.23-8.25 5.83 5.83 0 0 1 .23 8.25M48.36 37.09a3 3 0 1 1-.1-4.18 3 3 0 0 1 .1 4.18"/>
+    <path class="cls-1" d="M60.86 54.06a2.15 2.15 0 1 1-.07-3 2.14 2.14 0 0 1 .07 3"/>
+    <path class="cls-2" d="M56.56 69.52a7.76 7.76 0 1 1-.26-11 7.75 7.75 0 0 1 .26 11m2.72-30.08a2.13 2.13 0 1 1-.07-3 2.13 2.13 0 0 1 .07 3"/>
+    <path class="cls-2" d="M56.65 56.66a2.21 2.21 0 1 1-.07-3.12 2.2 2.2 0 0 1 .07 3.12"/>
+    <path class="cls-1" d="M24.66 18.58a4.24 4.24 0 1 1 .14 6 4.24 4.24 0 0 1-.14-6"/>
+    <path class="cls-2" d="M51.5 40.45a1.74 1.74 0 1 1-.06-2.45 1.75 1.75 0 0 1 .06 2.45m-6.37-8.98a8.06 8.06 0 1 1-.27-11.39 8.06 8.06 0 0 1 .27 11.39"/>
+    <path class="cls-3" d="M50.57 19.94a4 4 0 1 1-.13-5.72 4 4 0 0 1 .13 5.72m-16.09-.64a2 2 0 0 1-2.86.06 2 2 0 1 1 2.86-.06"/>
+    <path class="cls-1" d="M43.28 62.66a1.2 1.2 0 1 1-1.23-1.17 1.21 1.21 0 0 1 1.23 1.17"/>
+    <path class="cls-2" d="M56.57 28.14a4.57 4.57 0 1 1-4.67-4.46 4.57 4.57 0 0 1 4.67 4.46"/>
+    <path class="cls-3" d="M68.93 44.41a4 4 0 1 1-4.14-3.95 4 4 0 0 1 4.14 3.95M28.52 30.84a6.21 6.21 0 1 1-6.35-6.06 6.2 6.2 0 0 1 6.35 6.06m13.86 37.03a2.49 2.49 0 1 1-.08-3.53 2.5 2.5 0 0 1 .08 3.53"/>
+    <path class="cls-3" d="M45.13 58.6a14.85 14.85 0 1 1-.51-21 14.84 14.84 0 0 1 .51 21"/>
+    <circle class="cls-3" cx="51.66" cy="35.23" r="2.21" transform="rotate(-46.38 51.657 35.225)"/>
+    <text transform="translate(30.99 51.72)" style="font-size:9.9px;fill:#fff;font-family:Verdana">A</text>
+    <text class="cls-5" transform="translate(36.52 28.65)">B</text>
+    <text class="cls-5" transform="translate(48.29 66.89)">C</text>
+    <text class="cls-5" transform="translate(52.4 48.36)">D</text>
+    <text class="cls-5" transform="translate(19.9 33.62)">E</text>
+    <text class="cls-6" transform="translate(50.92 29.51)">F</text>
+    <text class="cls-6" transform="translate(63.15 46.19)">G</text>
+    <text class="cls-6" transform="translate(45.89 18.61)">H</text>
+    <text class="cls-6" transform="translate(26.81 23)">I</text>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <path stroke="#ddd" d="M450 265V60m0 205 194.967-63.348M450 265l120.496 165.848M450 265 329.504 430.848M450 265l-194.967-63.348"/>
+  <path fill="none" d="m450 60 194.967 141.652-74.471 229.196H329.504l-74.471-229.196Z" stroke="#ddd"/>
+  <path fill="none" d="m450 101 155.973 113.321-59.576 183.358H353.603l-59.576-183.358Z" stroke="#ddd"/>
+  <path fill="none" d="m450 142 116.98 84.991-44.682 137.518H377.702L333.02 226.991Z" stroke="#ddd"/>
+  <path fill="none" d="m450 183 77.987 56.661-29.789 91.678h-96.396l-29.789-91.678Z" stroke="#ddd"/>
+  <path fill="none" d="m450 224 38.993 28.33-14.894 45.84h-48.198l-14.894-45.84Z" stroke="#ddd"/>
+  <text dominant-baseline="central" text-anchor="middle" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(450 24)">fruity</text>
+  <text dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(679.205 190.527)">bitter</text>
+  <text dominant-baseline="central" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(591.656 459.973)">heavy</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(308.344 459.973)">strong</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-family:sans-serif;font-size:11px;fill:#333;outline-width:0;outline-color:transparent" transform="translate(220.795 190.527)">sunny</text>
+  <g fill-opacity=".25" stroke-width="2">
+    <path d="m0-180.043 123.761 139.83-3.265 206.061-230.514-14.421 26.945-178.419Z" fill="rgba(232, 193, 160, 1)" stroke="rgba(232, 193, 160, 1)" style="mix-blend-mode:normal" transform="translate(450 265)"/>
+    <path d="m0-94.478 188.185 33.333-81.31 208.245L-30.386 41.823-59.338-19.28Z" fill="rgba(244, 117, 96, 1)" stroke="rgba(244, 117, 96, 1)" style="mix-blend-mode:normal" transform="translate(450 265)"/>
+    <path d="M0-197.87 54.252-17.627 38.768 53.36l-114.209 50.476-114.44-165.532Z" fill="rgba(241, 225, 91, 1)" stroke="rgba(241, 225, 91, 1)" style="mix-blend-mode:normal" transform="translate(450 265)"/>
+  </g>
+  <g fill="none">
+    <path d="M329.504 99.152a205 205 0 0 1 240.992 0L450 265Z"/>
+    <path d="M570.496 99.152a205 205 0 0 1 74.471 229.196L450 265Z"/>
+    <path d="M644.967 328.348A205 205 0 0 1 450 470V265ZM450 470a205 205 0 0 1-194.967-141.652L450 265Z"/>
+    <path d="M255.033 328.348a205 205 0 0 1 74.471-229.196L450 265Z"/>
+  </g>
+  <g transform="translate(450 84.957)" style="pointer-events:none">
+    <circle r="5" fill="#e8c1a0" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">101</text>
+  </g>
+  <g transform="translate(450 170.522)" style="pointer-events:none">
+    <circle r="5" fill="#f47560" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">53</text>
+  </g>
+  <g transform="translate(450 67.13)" style="pointer-events:none">
+    <circle r="5" fill="#f1e15b" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">111</text>
+  </g>
+  <g transform="translate(573.761 224.787)" style="pointer-events:none">
+    <circle r="5" fill="#e8c1a0" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">73</text>
+  </g>
+  <g transform="translate(638.185 203.855)" style="pointer-events:none">
+    <circle r="5" fill="#f47560" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">111</text>
+  </g>
+  <g transform="translate(504.252 247.373)" style="pointer-events:none">
+    <circle r="5" fill="#f1e15b" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">32</text>
+  </g>
+  <g transform="translate(570.496 430.848)" style="pointer-events:none">
+    <circle r="5" fill="#e8c1a0" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">115</text>
+  </g>
+  <g transform="translate(556.875 412.1)" style="pointer-events:none">
+    <circle r="5" fill="#f47560" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">102</text>
+  </g>
+  <g transform="translate(488.768 318.36)" style="pointer-events:none">
+    <circle r="5" fill="#f1e15b" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">37</text>
+  </g>
+  <g transform="translate(339.982 416.427)" style="pointer-events:none">
+    <circle r="5" fill="#e8c1a0" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">105</text>
+  </g>
+  <g transform="translate(419.614 306.823)" style="pointer-events:none">
+    <circle r="5" fill="#f47560" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">29</text>
+  </g>
+  <g transform="translate(374.559 368.836)" style="pointer-events:none">
+    <circle r="5" fill="#f1e15b" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">72</text>
+  </g>
+  <g transform="translate(366.927 238.008)" style="pointer-events:none">
+    <circle r="5" fill="#e8c1a0" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">49</text>
+  </g>
+  <g transform="translate(390.662 245.72)" style="pointer-events:none">
+    <circle r="5" fill="#f47560" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">35</text>
+  </g>
+  <g transform="translate(260.12 203.304)" style="pointer-events:none">
+    <circle r="5" fill="#f1e15b" stroke="#fff" stroke-width="2" style="pointer-events:none"/>
+    <text text-anchor="middle" y="-12" style="font-family:sans-serif;font-size:11px;fill:#333">112</text>
+  </g>
+</svg>

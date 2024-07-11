@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="587" height="180" aria-label="A chart." style="overflow:hidden">
+  <path fill="#fff" d="M0 0h587v40.992H0z"/>
+  <path d="M0 0v40.992M19.926 0v40.992M315.734 0v40.992" stroke="#e6e6e6" fill="none"/>
+  <path fill="#e6e6e6" d="M0 40.992h587v40.992H0z"/>
+  <path d="M0 40.992v40.992m19.926-40.992v40.992m295.808-40.992v40.992" stroke="#fff" fill="none"/>
+  <path fill="#fff" d="M0 81.984h587v40.992H0z"/>
+  <path d="M0 81.984v40.992m19.926-40.992v40.992m295.808-40.992v40.992" stroke="#e6e6e6" fill="none"/>
+  <path d="M0 40.992h587M0 81.984h587" stroke="#b7b7b7" fill="none"/>
+  <path stroke="#9a9a9a" fill="none" d="M0 0h587v122.976H0z"/>
+  <g text-anchor="middle" font-family="Arial" font-size="13" stroke-width="0">
+    <text x="19.926" y="144.026">1790</text>
+    <text x="315.734" y="144.026">1800</text>
+  </g>
+  <g/>
+  <path fill="#4285f4" d="M1 9h231.062v22.992H1z"/>
+  <text x="10" y="24.696" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">George Washington</text>
+  <path fill="#db4437" d="M232.062 49.992h118.259v22.992H232.062z"/>
+  <text x="241.062" y="65.688" font-family="Arial" font-size="12" stroke-width="0" fill="#fff">John Adams</text>
+  <path fill="#f4b400" d="M350.321 90.984H587v22.992H350.321z"/>
+  <text x="359.321" y="106.68" font-family="Arial" font-size="12" stroke-width="0" fill="#202020">Thomas Jefferson</text>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+</svg>

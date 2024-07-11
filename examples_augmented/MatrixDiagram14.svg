@@ -1,0 +1,1444 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 504 360">
+  <rect width="100%" height="100%" style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:none;fill:#fff"/>
+  <path style="stroke-width:1.07;stroke:#fff;fill:#fff" d="M0 0h504v360H0z"/>
+  <defs>
+    <clipPath id="a">
+      <path d="M47.57 5.48h375.24v306.95H47.57z"/>
+    </clipPath>
+  </defs>
+  <path style="stroke-width:1.07;stroke:none;fill:#ebebeb" clip-path="url(#a)" d="M47.57 5.48h375.24v306.95H47.57z"/>
+  <path style="stroke-width:1.07;stroke:#fff;stroke-linecap:butt" clip-path="url(#a)" d="M47.57 302.31h375.24M47.57 285.44h375.24M47.57 268.58h375.24M47.57 251.71h375.24M47.57 234.85h375.24M47.57 217.98h375.24M47.57 201.12h375.24M47.57 184.25h375.24M47.57 167.39h375.24M47.57 150.52h375.24M47.57 133.65h375.24M47.57 116.79h375.24M47.57 99.92h375.24M47.57 83.06h375.24M47.57 66.19h375.24M47.57 49.33h375.24M47.57 32.46h375.24M47.57 15.6h375.24M59.94 312.43V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.61 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.61 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.61 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.62 306.95V5.48m20.61 306.95V5.48m20.62 306.95V5.48"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M49.64 293.87h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M70.25 293.87h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadcff" clip-path="url(#a)" d="M90.87 293.87h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a77dff" clip-path="url(#a)" d="M111.49 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cdafff" clip-path="url(#a)" d="M132.11 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a7ff" clip-path="url(#a)" d="M152.72 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c3a0ff" clip-path="url(#a)" d="M173.34 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f0e6ff" clip-path="url(#a)" d="M193.96 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d3b7ff" clip-path="url(#a)" d="M214.58 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M235.19 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ac83ff" clip-path="url(#a)" d="M255.81 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7bdff" clip-path="url(#a)" d="M276.43 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a5ff" clip-path="url(#a)" d="M297.05 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M317.66 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba95ff" clip-path="url(#a)" d="M338.28 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f6eeff" clip-path="url(#a)" d="M358.9 293.87h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#be9aff" clip-path="url(#a)" d="M379.52 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eee1ff" clip-path="url(#a)" d="M400.13 293.87h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M49.64 277.01h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M70.25 277.01h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ab81ff" clip-path="url(#a)" d="M90.87 277.01h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a7ff" clip-path="url(#a)" d="M111.49 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a7ff" clip-path="url(#a)" d="M132.11 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dac1ff" clip-path="url(#a)" d="M152.72 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b791ff" clip-path="url(#a)" d="M173.34 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38bff" clip-path="url(#a)" d="M193.96 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dfc9ff" clip-path="url(#a)" d="M214.58 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ae86ff" clip-path="url(#a)" d="M235.19 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb1ff" clip-path="url(#a)" d="M255.81 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a278ff" clip-path="url(#a)" d="M276.43 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ae86ff" clip-path="url(#a)" d="M297.05 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba94ff" clip-path="url(#a)" d="M317.66 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b8ff" clip-path="url(#a)" d="M338.28 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e7d7ff" clip-path="url(#a)" d="M358.9 277.01h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5bbff" clip-path="url(#a)" d="M379.52 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M400.13 277.01h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadcff" clip-path="url(#a)" d="M49.64 260.14h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ab81ff" clip-path="url(#a)" d="M70.25 260.14h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M90.87 260.14h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dac2ff" clip-path="url(#a)" d="M111.49 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffaf8" clip-path="url(#a)" d="M132.11 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M152.72 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3d0ff" clip-path="url(#a)" d="M173.34 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38cff" clip-path="url(#a)" d="M193.96 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffdfd" clip-path="url(#a)" d="M214.58 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M235.19 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fefcff" clip-path="url(#a)" d="M255.81 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a479ff" clip-path="url(#a)" d="M276.43 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d0b3ff" clip-path="url(#a)" d="M297.05 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M317.66 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e9ff" clip-path="url(#a)" d="M338.28 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadbff" clip-path="url(#a)" d="M358.9 260.14h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M379.52 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e8ff" clip-path="url(#a)" d="M400.13 260.14h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a77dff" clip-path="url(#a)" d="M49.64 243.28h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a7ff" clip-path="url(#a)" d="M70.25 243.28h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dac2ff" clip-path="url(#a)" d="M90.87 243.28h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M111.49 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b088ff" clip-path="url(#a)" d="M132.11 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M152.72 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ac82ff" clip-path="url(#a)" d="M173.34 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M193.96 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ccadff" clip-path="url(#a)" d="M214.58 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M235.19 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M255.81 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c9a9ff" clip-path="url(#a)" d="M276.43 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b48dff" clip-path="url(#a)" d="M297.05 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M317.66 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a77dff" clip-path="url(#a)" d="M338.28 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc7ff" clip-path="url(#a)" d="M358.9 243.28h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a4ff" clip-path="url(#a)" d="M379.52 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fbf8ff" clip-path="url(#a)" d="M400.13 243.28h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cdafff" clip-path="url(#a)" d="M49.64 226.41h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a7ff" clip-path="url(#a)" d="M70.25 226.41h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffaf8" clip-path="url(#a)" d="M90.87 226.41h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b088ff" clip-path="url(#a)" d="M111.49 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M132.11 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M152.72 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c29fff" clip-path="url(#a)" d="M173.34 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bcff" clip-path="url(#a)" d="M193.96 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c19eff" clip-path="url(#a)" d="M214.58 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d8bfff" clip-path="url(#a)" d="M235.19 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bb96ff" clip-path="url(#a)" d="M255.81 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0caff" clip-path="url(#a)" d="M276.43 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc7ff" clip-path="url(#a)" d="M297.05 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba94ff" clip-path="url(#a)" d="M317.66 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bf9cff" clip-path="url(#a)" d="M338.28 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3cfff" clip-path="url(#a)" d="M358.9 226.41h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a6ff" clip-path="url(#a)" d="M379.52 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bbff" clip-path="url(#a)" d="M400.13 226.41h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a7ff" clip-path="url(#a)" d="M49.64 209.55h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dac1ff" clip-path="url(#a)" d="M70.25 209.55h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M90.87 209.55h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M111.49 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M132.11 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M152.72 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d8bfff" clip-path="url(#a)" d="M173.34 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#efe3ff" clip-path="url(#a)" d="M193.96 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d3b8ff" clip-path="url(#a)" d="M214.58 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#efe4ff" clip-path="url(#a)" d="M235.19 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M255.81 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3cfff" clip-path="url(#a)" d="M276.43 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M297.05 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e9d9ff" clip-path="url(#a)" d="M317.66 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ccadff" clip-path="url(#a)" d="M338.28 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fdfcff" clip-path="url(#a)" d="M358.9 209.55h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c1ff" clip-path="url(#a)" d="M379.52 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fbf8ff" clip-path="url(#a)" d="M400.13 209.55h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c3a0ff" clip-path="url(#a)" d="M49.64 192.68h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b791ff" clip-path="url(#a)" d="M70.25 192.68h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3d0ff" clip-path="url(#a)" d="M90.87 192.68h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ac82ff" clip-path="url(#a)" d="M111.49 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c29fff" clip-path="url(#a)" d="M132.11 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d8bfff" clip-path="url(#a)" d="M152.72 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M173.34 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58fff" clip-path="url(#a)" d="M193.96 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d2b6ff" clip-path="url(#a)" d="M214.58 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a4ff" clip-path="url(#a)" d="M235.19 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58fff" clip-path="url(#a)" d="M255.81 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b68fff" clip-path="url(#a)" d="M276.43 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b690ff" clip-path="url(#a)" d="M297.05 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M317.66 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a4ff" clip-path="url(#a)" d="M338.28 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M358.9 192.68h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M379.52 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f3eaff" clip-path="url(#a)" d="M400.13 192.68h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f0e6ff" clip-path="url(#a)" d="M49.64 175.82h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38bff" clip-path="url(#a)" d="M70.25 175.82h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38cff" clip-path="url(#a)" d="M90.87 175.82h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M111.49 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bcff" clip-path="url(#a)" d="M132.11 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#efe3ff" clip-path="url(#a)" d="M152.72 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58fff" clip-path="url(#a)" d="M173.34 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M193.96 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffeff" clip-path="url(#a)" d="M214.58 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b5ff" clip-path="url(#a)" d="M235.19 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M255.81 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#9f74ff" clip-path="url(#a)" d="M276.43 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b993ff" clip-path="url(#a)" d="M297.05 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e8d8ff" clip-path="url(#a)" d="M317.66 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a5ff" clip-path="url(#a)" d="M338.28 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5baff" clip-path="url(#a)" d="M358.9 175.82h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc6ff" clip-path="url(#a)" d="M379.52 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M400.13 175.82h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d3b7ff" clip-path="url(#a)" d="M49.64 158.95h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dfc9ff" clip-path="url(#a)" d="M70.25 158.95h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffdfd" clip-path="url(#a)" d="M90.87 158.95h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ccadff" clip-path="url(#a)" d="M111.49 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c19eff" clip-path="url(#a)" d="M132.11 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d3b8ff" clip-path="url(#a)" d="M152.72 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d2b6ff" clip-path="url(#a)" d="M173.34 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fffeff" clip-path="url(#a)" d="M193.96 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M214.58 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d2ff" clip-path="url(#a)" d="M235.19 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceafff" clip-path="url(#a)" d="M255.81 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M276.43 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M297.05 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58eff" clip-path="url(#a)" d="M317.66 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e4d2ff" clip-path="url(#a)" d="M338.28 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M358.9 158.95h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c4a2ff" clip-path="url(#a)" d="M379.52 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dfcaff" clip-path="url(#a)" d="M400.13 158.95h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M49.64 142.09h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ae86ff" clip-path="url(#a)" d="M70.25 142.09h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M90.87 142.09h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M111.49 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d8bfff" clip-path="url(#a)" d="M132.11 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#efe4ff" clip-path="url(#a)" d="M152.72 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a4ff" clip-path="url(#a)" d="M173.34 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b5ff" clip-path="url(#a)" d="M193.96 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d2ff" clip-path="url(#a)" d="M214.58 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M235.19 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M255.81 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c19dff" clip-path="url(#a)" d="M276.43 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38cff" clip-path="url(#a)" d="M297.05 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bd99ff" clip-path="url(#a)" d="M317.66 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M338.28 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M358.9 142.09h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M379.52 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadbff" clip-path="url(#a)" d="M400.13 142.09h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ac83ff" clip-path="url(#a)" d="M49.64 125.22h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb1ff" clip-path="url(#a)" d="M70.25 125.22h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fefcff" clip-path="url(#a)" d="M90.87 125.22h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M111.49 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bb96ff" clip-path="url(#a)" d="M132.11 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M152.72 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58fff" clip-path="url(#a)" d="M173.34 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M193.96 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceafff" clip-path="url(#a)" d="M214.58 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M235.19 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M255.81 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cfb2ff" clip-path="url(#a)" d="M276.43 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ad85ff" clip-path="url(#a)" d="M297.05 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc2ff" clip-path="url(#a)" d="M317.66 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M338.28 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f3e9ff" clip-path="url(#a)" d="M358.9 125.22h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58eff" clip-path="url(#a)" d="M379.52 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f6efff" clip-path="url(#a)" d="M400.13 125.22h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7bdff" clip-path="url(#a)" d="M49.64 108.36h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a278ff" clip-path="url(#a)" d="M70.25 108.36h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a479ff" clip-path="url(#a)" d="M90.87 108.36h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c9a9ff" clip-path="url(#a)" d="M111.49 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0caff" clip-path="url(#a)" d="M132.11 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3cfff" clip-path="url(#a)" d="M152.72 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b68fff" clip-path="url(#a)" d="M173.34 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#9f74ff" clip-path="url(#a)" d="M193.96 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M214.58 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c19dff" clip-path="url(#a)" d="M235.19 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cfb2ff" clip-path="url(#a)" d="M255.81 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M276.43 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a980ff" clip-path="url(#a)" d="M297.05 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e7d6ff" clip-path="url(#a)" d="M317.66 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a8ff" clip-path="url(#a)" d="M338.28 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ebddff" clip-path="url(#a)" d="M358.9 108.36h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a7ff" clip-path="url(#a)" d="M379.52 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ede0ff" clip-path="url(#a)" d="M400.13 108.36h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a5ff" clip-path="url(#a)" d="M49.64 91.49h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ae86ff" clip-path="url(#a)" d="M70.25 91.49h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d0b3ff" clip-path="url(#a)" d="M90.87 91.49h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b48dff" clip-path="url(#a)" d="M111.49 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc7ff" clip-path="url(#a)" d="M132.11 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M152.72 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b690ff" clip-path="url(#a)" d="M173.34 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b993ff" clip-path="url(#a)" d="M193.96 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M214.58 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b38cff" clip-path="url(#a)" d="M235.19 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ad85ff" clip-path="url(#a)" d="M255.81 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a980ff" clip-path="url(#a)" d="M276.43 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M297.05 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7bcff" clip-path="url(#a)" d="M317.66 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c09dff" clip-path="url(#a)" d="M338.28 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ede1ff" clip-path="url(#a)" d="M358.9 91.49h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c3a1ff" clip-path="url(#a)" d="M379.52 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M400.13 91.49h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M49.64 74.63h20.62V91.5H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba94ff" clip-path="url(#a)" d="M70.25 74.63h20.62V91.5H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M90.87 74.63h20.62V91.5H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a3ff" clip-path="url(#a)" d="M111.49 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba94ff" clip-path="url(#a)" d="M132.11 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e9d9ff" clip-path="url(#a)" d="M152.72 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ceb0ff" clip-path="url(#a)" d="M173.34 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e8d8ff" clip-path="url(#a)" d="M193.96 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58eff" clip-path="url(#a)" d="M214.58 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bd99ff" clip-path="url(#a)" d="M235.19 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc2ff" clip-path="url(#a)" d="M255.81 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e7d6ff" clip-path="url(#a)" d="M276.43 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7bcff" clip-path="url(#a)" d="M297.05 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M317.66 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7beff" clip-path="url(#a)" d="M338.28 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bcff" clip-path="url(#a)" d="M358.9 74.63h20.62V91.5H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5baff" clip-path="url(#a)" d="M379.52 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cbacff" clip-path="url(#a)" d="M400.13 74.63h20.62V91.5h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ba95ff" clip-path="url(#a)" d="M49.64 57.76h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b8ff" clip-path="url(#a)" d="M70.25 57.76h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e9ff" clip-path="url(#a)" d="M90.87 57.76h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#a77dff" clip-path="url(#a)" d="M111.49 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#bf9cff" clip-path="url(#a)" d="M132.11 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ccadff" clip-path="url(#a)" d="M152.72 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c5a4ff" clip-path="url(#a)" d="M173.34 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a5ff" clip-path="url(#a)" d="M193.96 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e4d2ff" clip-path="url(#a)" d="M214.58 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M235.19 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M255.81 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a8ff" clip-path="url(#a)" d="M276.43 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c09dff" clip-path="url(#a)" d="M297.05 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d7beff" clip-path="url(#a)" d="M317.66 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M338.28 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e8ff" clip-path="url(#a)" d="M358.9 57.76h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c29fff" clip-path="url(#a)" d="M379.52 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M400.13 57.76h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f6eeff" clip-path="url(#a)" d="M49.64 40.9h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e7d7ff" clip-path="url(#a)" d="M70.25 40.9h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadbff" clip-path="url(#a)" d="M90.87 40.9h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc7ff" clip-path="url(#a)" d="M111.49 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e3cfff" clip-path="url(#a)" d="M132.11 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fdfcff" clip-path="url(#a)" d="M152.72 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dbc3ff" clip-path="url(#a)" d="M173.34 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5baff" clip-path="url(#a)" d="M193.96 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M214.58 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e0cbff" clip-path="url(#a)" d="M235.19 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f3e9ff" clip-path="url(#a)" d="M255.81 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ebddff" clip-path="url(#a)" d="M276.43 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ede1ff" clip-path="url(#a)" d="M297.05 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bcff" clip-path="url(#a)" d="M317.66 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e8ff" clip-path="url(#a)" d="M338.28 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M358.9 40.9h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M379.52 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M400.13 40.9h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#be9aff" clip-path="url(#a)" d="M49.64 24.03h20.62V40.9H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5bbff" clip-path="url(#a)" d="M70.25 24.03h20.62V40.9H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M90.87 24.03h20.62V40.9H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c6a4ff" clip-path="url(#a)" d="M111.49 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c7a6ff" clip-path="url(#a)" d="M132.11 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c1ff" clip-path="url(#a)" d="M152.72 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d1b4ff" clip-path="url(#a)" d="M173.34 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ddc6ff" clip-path="url(#a)" d="M193.96 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c4a2ff" clip-path="url(#a)" d="M214.58 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dec8ff" clip-path="url(#a)" d="M235.19 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#b58eff" clip-path="url(#a)" d="M255.81 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c8a7ff" clip-path="url(#a)" d="M276.43 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c3a1ff" clip-path="url(#a)" d="M297.05 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d5baff" clip-path="url(#a)" d="M317.66 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#c29fff" clip-path="url(#a)" d="M338.28 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M358.9 24.03h20.62V40.9H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M379.52 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M400.13 24.03h20.62V40.9h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eee1ff" clip-path="url(#a)" d="M49.64 7.17h20.62v16.87H49.64z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M70.25 7.17h20.62v16.87H70.25z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f2e8ff" clip-path="url(#a)" d="M90.87 7.17h20.62v16.87H90.87z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fbf8ff" clip-path="url(#a)" d="M111.49 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d6bbff" clip-path="url(#a)" d="M132.11 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#fbf8ff" clip-path="url(#a)" d="M152.72 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f3eaff" clip-path="url(#a)" d="M173.34 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d4b9ff" clip-path="url(#a)" d="M193.96 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#dfcaff" clip-path="url(#a)" d="M214.58 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#eadbff" clip-path="url(#a)" d="M235.19 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f6efff" clip-path="url(#a)" d="M255.81 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#ede0ff" clip-path="url(#a)" d="M276.43 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#f1e7ff" clip-path="url(#a)" d="M297.05 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#cbacff" clip-path="url(#a)" d="M317.66 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M338.28 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#d9c0ff" clip-path="url(#a)" d="M358.9 7.17h20.62v16.87H358.9z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#e5d3ff" clip-path="url(#a)" d="M379.52 7.17h20.62v16.87h-20.62z"/>
+  <path style="stroke-width:.21;stroke:none;stroke-linecap:butt;fill:#00f" clip-path="url(#a)" d="M400.13 7.17h20.62v16.87h-20.62z"/>
+  <g clip-path="url(#a)">
+    <text x="56.87" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="306.09" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="77.49" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="289.22" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="98.11" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="139.34" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="221.81" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="263.05" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="272.36" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="118.73" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="407.37" y="255.49" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="98.11" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="139.34" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="238.63" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="159.96" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="366.14" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="407.37" y="221.76" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="180.58" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="204.9" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="201.2" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="221.81" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="188.03" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="98.11" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="201.2" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="221.81" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="171.17" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="242.43" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="154.3" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="98.11" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="263.05" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="137.44" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="283.67" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="120.57" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="304.28" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="103.71" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="324.9" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="86.84" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.6</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="345.52" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="69.98" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="159.96" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="366.14" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="53.11" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="114.12" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="155.35" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="386.75" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="402.76" y="36.24" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="52.27" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="72.88" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="93.5" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="118.73" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="134.74" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="159.96" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">0</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="175.97" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="196.59" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="217.21" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="237.82" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="258.44" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="279.06" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="299.68" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.1</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="320.29" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.4</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="340.91" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="361.53" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.3</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="382.15" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="15.36" lengthAdjust="spacingAndGlyphs">0.2</text>
+  </g>
+  <g clip-path="url(#a)">
+    <text x="407.37" y="19.38" style="font-size:11.04px;font-family:Liberation Sans" textLength="6.14" lengthAdjust="spacingAndGlyphs">1</text>
+  </g>
+  <defs>
+    <clipPath id="b">
+      <path d="M0 0h504v360H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#b)">
+    <text x="7.93" y="305.4" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="34.71" lengthAdjust="spacingAndGlyphs">Christian</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="20.15" y="288.54" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.49" lengthAdjust="spacingAndGlyphs">Claus</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="20.16" y="271.67" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.49" lengthAdjust="spacingAndGlyphs">Frank</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="17.71" y="254.8" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="24.93" lengthAdjust="spacingAndGlyphs">Gisela</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="5.96" y="237.94" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="36.68" lengthAdjust="spacingAndGlyphs">Guenther</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="19.66" y="221.07" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.98" lengthAdjust="spacingAndGlyphs">Helga</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="21.63" y="204.21" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="21.02" lengthAdjust="spacingAndGlyphs">Horst</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="20.64" y="187.34" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.01" lengthAdjust="spacingAndGlyphs">Ingrid</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="10.85" y="170.48" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="31.79" lengthAdjust="spacingAndGlyphs">Juergen</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="22.11" y="153.61" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="20.54" lengthAdjust="spacingAndGlyphs">Karin</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="14.28" y="136.75" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="28.36" lengthAdjust="spacingAndGlyphs">Monika</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="21.62" y="119.88" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="21.03" lengthAdjust="spacingAndGlyphs">Petra</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="14.28" y="103.02" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="28.37" lengthAdjust="spacingAndGlyphs">Renate</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="15.25" y="86.15" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="27.39" lengthAdjust="spacingAndGlyphs">Sabine</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="17.21" y="69.29" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="25.43" lengthAdjust="spacingAndGlyphs">Stefan</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="7.91" y="52.42" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="34.73" lengthAdjust="spacingAndGlyphs">Susanne</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="17.22" y="35.56" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="25.42" lengthAdjust="spacingAndGlyphs">Ursula</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="5.48" y="18.69" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="37.16" lengthAdjust="spacingAndGlyphs">Wolfgang</text>
+  </g>
+  <path style="stroke-width:1.07;stroke:#333;stroke-linecap:butt" clip-path="url(#b)" d="M44.83 302.31h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74m-2.74-16.86h2.74m-2.74-16.87h2.74M44.83 15.6h2.74m12.37 299.57v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.61 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.61 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.61 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.62 2.74v-2.74m20.61 2.74v-2.74m20.62 2.74v-2.74"/>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 209.1 142.97)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="34.71" lengthAdjust="spacingAndGlyphs">Christian</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 213.3 126.55)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.49" lengthAdjust="spacingAndGlyphs">Claus</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 223.605 116.235)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.49" lengthAdjust="spacingAndGlyphs">Frank</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 235.135 107.155)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="24.93" lengthAdjust="spacingAndGlyphs">Gisela</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 251.32 102.72)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="36.68" lengthAdjust="spacingAndGlyphs">Guenther</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 254.78 85.56)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.98" lengthAdjust="spacingAndGlyphs">Helga</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 264.105 74.265)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="21.02" lengthAdjust="spacingAndGlyphs">Horst</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 274.905 64.455)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="22.01" lengthAdjust="spacingAndGlyphs">Ingrid</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 290.11 59.04)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="31.79" lengthAdjust="spacingAndGlyphs">Juergen</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 294.79 43.1)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="20.54" lengthAdjust="spacingAndGlyphs">Karin</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 309.015 36.705)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="28.36" lengthAdjust="spacingAndGlyphs">Monika</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 315.65 22.73)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="21.03" lengthAdjust="spacingAndGlyphs">Petra</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 329.63 16.09)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="28.37" lengthAdjust="spacingAndGlyphs">Renate</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 339.455 5.295)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="27.39" lengthAdjust="spacingAndGlyphs">Sabine</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 348.785 -5.995)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="25.43" lengthAdjust="spacingAndGlyphs">Stefan</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 363.74 -11.65)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="34.73" lengthAdjust="spacingAndGlyphs">Susanne</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 369.395 -26.615)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="25.42" lengthAdjust="spacingAndGlyphs">Ursula</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text transform="rotate(-90 385.575 -31.055)" style="font-size:8.8px;fill:#4d4d4d;font-family:Liberation Sans" textLength="37.16" lengthAdjust="spacingAndGlyphs">Wolfgang</text>
+  </g>
+  <path style="stroke-width:1.07;stroke:none;fill:#fff" clip-path="url(#b)" d="M433.77 102.26h64.75v113.38h-64.75z"/>
+  <g clip-path="url(#b)">
+    <image width="17.28" height="86.4" x="439.25" y="123.76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABXCAYAAAAJWxWIAAAABmJLR0QA/wD/AP+gvaeTAAABQUlEQVRYhd2Yy01DQRAEa9ZtG8ENoiISEiYREEh8zAwHh7B1QLwAStU9u7PSK5hh/3tcAgSAnA77kCrI/a0EehBAtARaA3m42wcxkPNpn1NAbgQQBbk573PGAlVBzkcBNJCT0NEggVgSyI12/EtlN5IRDTkaHQ0kglEvyagsIwoS42RbRlNWRy1F++9lG0baFdGMVkMOWjTDCMjB6Mg1MjqyptYjGS2snd2Qld43qiaLn21QUaRqHwRFFpdtTF9B+0aLInx/bYNoCJfPfdAgGTESaJUVzSobCBcBVFZHrUYzQNdoxtSGcPneB+FGE0DTlpG6RrzbL0ytLKPrOTKiWWVfowkdTRO+rFX799aIEY2SQGNNzTVSxj+ETwO0JFBZHYFkRBPehHdtNeH1QwAN4UUADRKIIrw7U/P++QNPAuf5F3U+ldVz7FhEAAAAAElFTkSuQmCC"/>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="463.31" y="211.1" style="font-size:8.8px;font-family:Liberation Sans" textLength="15.16" lengthAdjust="spacingAndGlyphs">-1.0</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="463.31" y="190.58" style="font-size:8.8px;font-family:Liberation Sans" textLength="15.16" lengthAdjust="spacingAndGlyphs">-0.5</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="463.31" y="170.06" style="font-size:8.8px;font-family:Liberation Sans" textLength="12.23" lengthAdjust="spacingAndGlyphs">0.0</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="463.31" y="149.54" style="font-size:8.8px;font-family:Liberation Sans" textLength="12.23" lengthAdjust="spacingAndGlyphs">0.5</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="463.31" y="129.02" style="font-size:8.8px;font-family:Liberation Sans" textLength="12.23" lengthAdjust="spacingAndGlyphs">1.0</text>
+  </g>
+  <g clip-path="url(#b)">
+    <text x="439.25" y="116.79" style="font-size:11px;font-family:Liberation Sans" textLength="53.8" lengthAdjust="spacingAndGlyphs">Correlation</text>
+  </g>
+  <path style="stroke-width:.38;stroke:#fff;stroke-linecap:butt" clip-path="url(#b)" d="M439.25 208h3.46m-3.46-20.52h3.46m-3.46-20.52h3.46m-3.46-20.52h3.46m-3.46-20.52h3.46M453.08 208h3.45m-3.45-20.52h3.45m-3.45-20.52h3.45m-3.45-20.52h3.45m-3.45-20.52h3.45"/>
+</svg>

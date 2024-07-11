@@ -1,0 +1,70 @@
+<svg width="800" height="225" aria-labelledby="victory-container-197-title" aria-describedby="victory-container-197-desc" viewBox="0 0 800 225" style="pointer-events:all;width:100%;height:100%">
+  <desc>
+    Average number of pets
+  </desc>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--axis--Fill, transparent);stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 150h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 150v5"/>
+  <text direction="inherit" dx="0" x="50" y="176.97"><tspan x="50" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Sunday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M166.667 150v5"/>
+  <text direction="inherit" dx="0" x="166.667" y="176.97"><tspan x="166.667" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Monday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M283.333 150v5"/>
+  <text direction="inherit" dx="0" x="283.333" y="176.97"><tspan x="283.333" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Tuesday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M400 150v5"/>
+  <text direction="inherit" dx="0" x="400" y="176.97"><tspan x="400" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Wednesday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M516.667 150v5"/>
+  <text direction="inherit" dx="0" x="516.667" y="176.97"><tspan x="516.667" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Thursday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M633.333 150v5"/>
+  <text direction="inherit" dx="0" x="633.333" y="176.97"><tspan x="633.333" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Friday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M750 150v5"/>
+  <text direction="inherit" dx="0" x="750" y="176.97"><tspan x="750" dx="0" dy="0" text-anchor="middle" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:middle">Saturday</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--axis--Fill, transparent);stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 50v100"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 133.333h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 133.333h-5"/>
+  <text direction="inherit" dx="0" x="35" y="138.303"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">5</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 116.667h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 116.667h-5"/>
+  <text direction="inherit" dx="0" x="35" y="121.637"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">10</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 100h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 100h-5"/>
+  <text direction="inherit" dx="0" x="35" y="104.97"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">15</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 83.333h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 83.333h-5"/>
+  <text direction="inherit" dx="0" x="35" y="88.303"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">20</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 66.667h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 66.667h-5"/>
+  <text direction="inherit" dx="0" x="35" y="71.637"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">25</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--grid--Fill, none);pointer-events:painted;stroke-linecap:round;stroke-linejoin:round" d="M50 50h700"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2);fill:var(--pf-v5-chart-axis--tick--Fill, transparent);size:5px;stroke-linecap:round;stroke-linejoin:round;stroke-width:1" d="M50 50h-5"/>
+  <text direction="inherit" dx="0" x="35" y="54.97"><tspan x="35" dx="0" dy="0" text-anchor="end" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-axis--tick-label--Fill, #4f5255);text-anchor:end">30</tspan></text>
+  <g clip-path="url(#a)" style="height:100%;width:100%;user-select:none">
+    <defs>
+      <clipPath id="a">
+        <path vector-effect="non-scaling-stroke" d="M50 50h700v100H50z"/>
+      </clipPath>
+    </defs>
+    <path d="M50 90c38.889-8.611 77.778-17.222 116.667-23.333s77.777-13.334 116.666-13.334H400c38.889 0 77.778 14.445 116.667 23.334s77.777 30 116.666 30S711.111 100 750 93.333v40H633.333c-38.889 0-77.777-27.777-116.666-36.666S438.889 80 400 80s-77.778 12.222-116.667 20-77.777 26.667-116.666 26.667-77.778-5-116.667-10Z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--300, #4cb140);stroke-width:1;fill-opacity:.3;stroke:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--300, #4cb140)"/>
+  </g>
+  <g clip-path="url(#b)" style="height:100%;width:100%;user-select:none">
+    <defs>
+      <clipPath id="b">
+        <path vector-effect="non-scaling-stroke" d="M50 50h700v100H50z"/>
+      </clipPath>
+    </defs>
+    <path d="M50 116.667c38.889 5 77.778 10 116.667 10S244.444 107.778 283.333 100 361.111 80 400 80s77.778 7.778 116.667 16.667 77.777 36.666 116.666 36.666H750V150c-38.889-1.667-77.778-3.333-116.667-6.667S555.556 137.222 516.667 130 438.889 100 400 100s-77.778 16.111-116.667 23.333c-38.889 7.223-77.777 20-116.666 20S88.889 136.667 50 130Z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--200, #f4c145);stroke-width:1;fill-opacity:.3;stroke:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--200, #f4c145)"/>
+  </g>
+  <g clip-path="url(#c)" style="height:100%;width:100%;user-select:none">
+    <defs>
+      <clipPath id="c">
+        <path vector-effect="non-scaling-stroke" d="M50 50h700v100H50z"/>
+      </clipPath>
+    </defs>
+    <path d="M50 130c38.889 6.667 77.778 13.333 116.667 13.333s77.777-12.777 116.666-20C322.222 116.111 361.111 100 400 100s77.778 22.778 116.667 30 77.777 10 116.666 13.333 77.778 5 116.667 6.667H50Z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c);stroke-width:1;fill-opacity:.3;stroke:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c)"/>
+  </g>
+  <path vector-effect="non-scaling-stroke" style="fill:none" d="M40 182h212.34v32.4H40z"/>
+  <path d="M49.128 200.872h9.744v-9.744h-9.744z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c)"/>
+  <path d="M117.878 200.872h9.744v-9.744h-9.744z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--200, #f4c145)"/>
+  <path d="M190.338 200.872h9.744v-9.744h-9.744z" style="fill:var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--300, #4cb140)"/>
+  <text direction="inherit" dx="0" x="70.8" y="200.97"><tspan x="70.8" dx="0" dy="0" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-global--label--Fill, #151515)">Cats</tspan></text>
+  <text direction="inherit" dx="0" x="139.55" y="200.97"><tspan x="139.55" dx="0" dy="0" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-global--label--Fill, #151515)">Dogs</tspan></text>
+  <text direction="inherit" dx="0" x="212.01" y="200.97"><tspan x="212.01" dx="0" dy="0" style="font-family:RedHatText,helvetica,arial,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;stroke:var(--pf-v5-chart-global--label--stroke, transparent);fill:var(--pf-v5-chart-global--label--Fill, #151515)">Birds</tspan></text>
+</svg>

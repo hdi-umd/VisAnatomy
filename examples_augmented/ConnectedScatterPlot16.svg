@@ -1,0 +1,51 @@
+<svg class="plot-d6a7b5" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" width="640" height="400" viewBox="0 0 640 400" style="--plot-background:white;display:block;height:intrinsic;max-width:100%">
+  <style>
+    :where(.plot-d6a7b5 text){white-space:pre}
+  </style>
+  <path d="M40 357.953h580M40 323.551h580M40 289.149h580M40 254.747h580M40 220.346h580M40 185.944h580M40 151.542h580M40 117.14h580M40 82.738h580M40 48.336h580" aria-label="y-grid" aria-hidden="true" stroke="currentColor" stroke-opacity=".1"/>
+  <path d="M40 357.953h-6m6-34.402h-6m6-34.401h-6m6-34.403h-6m6-34.401h-6m6-34.402h-6m6-34.402h-6m6-34.402h-6m6-34.402h-6m6-34.402h-6" aria-label="y-axis tick" aria-hidden="true" fill="none" stroke="currentColor"/>
+  <g aria-label="y-axis tick label" text-anchor="end" font-variant="tabular-nums">
+    <text y=".32em" transform="translate(31 357.953)">1.4</text>
+    <text y=".32em" transform="translate(31 323.551)">1.6</text>
+    <text y=".32em" transform="translate(31 289.15)">1.8</text>
+    <text y=".32em" transform="translate(31 254.747)">2.0</text>
+    <text y=".32em" transform="translate(31 220.346)">2.2</text>
+    <text y=".32em" transform="translate(31 185.944)">2.4</text>
+    <text y=".32em" transform="translate(31 151.542)">2.6</text>
+    <text y=".32em" transform="translate(31 117.14)">2.8</text>
+    <text y=".32em" transform="translate(31 82.738)">3.0</text>
+    <text y=".32em" transform="translate(31 48.336)">3.2</text>
+  </g>
+  <text y=".71em" transform="translate(3 3)" aria-label="y-axis label" text-anchor="start">↑ Cost of gasoline ($ per gallon)</text>
+  <path d="M77.802 20v350m87.896-350v350m87.896-350v350m87.897-350v350m87.896-350v350m87.896-350v350m87.896-350v350" aria-label="x-grid" aria-hidden="true" stroke="currentColor" stroke-opacity=".1"/>
+  <path d="M77.802 370v6m87.896-6v6m87.896-6v6m87.896-6v6m87.897-6v6m87.896-6v6m87.897-6v6" aria-label="x-axis tick" aria-hidden="true" fill="none" stroke="currentColor"/>
+  <g aria-label="x-axis tick label" font-variant="tabular-nums">
+    <text y=".71em" transform="translate(77.802 379)">4,000</text>
+    <text y=".71em" transform="translate(165.698 379)">5,000</text>
+    <text y=".71em" transform="translate(253.594 379)">6,000</text>
+    <text y=".71em" transform="translate(341.49 379)">7,000</text>
+    <text y=".71em" transform="translate(429.387 379)">8,000</text>
+    <text y=".71em" transform="translate(517.283 379)">9,000</text>
+    <text y=".71em" transform="translate(605.18 379)">10,000</text>
+  </g>
+  <text transform="translate(637 397)" aria-label="x-axis label" text-anchor="end">Miles driven (per person-year) →</text>
+  <g aria-label="line" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+    <marker viewBox="-5 -5 10 10" markerWidth="6.67" markerHeight="6.67" fill="currentColor" stroke="var(--plot-background)" stroke-width="1.5" id="plot-marker-1">
+      <circle r="3"/>
+    </marker>
+    <path marker-start="url(#plot-marker-1)" marker-mid="url(#plot-marker-1)" marker-end="url(#plot-marker-1)" d="M50 188.885s2.428-3.704 3.434-3.389c2.335.733 1.116 24.201 4.755 25.578 2.771 1.049 9.516-9.967 11.886-9.288 1.695.485 1.326 5.63 2.642 7.241.987 1.209 2.203 1.301 3.698 2.271 2.403 1.559 6.161 3.438 9.245 6.33 4.134 3.876 7.586 12.699 12.415 15.842 4.014 2.611 8.965 3.699 13.472 3.406 4.737-.309 9.647-4.592 14.264-5.659 4.07-.941 7.779-.788 11.887-.912 4.41-.133 8.829-.146 13.736.224 5.718.43 12.861.493 18.491 2.494 5.427 1.929 9.921 5.811 14.792 9.047 4.994 3.318 9.197 7.004 14.792 10.648 6.843 4.456 15.07 9.905 23.51 13.795 8.923 4.112 20.6 9.84 28.792 9.959 6.049.088 13.14-.156 15.849-4.971 5.884-10.456-24.34-71.271-18.754-76.045 2.55-2.181 9.289 5.491 15.056 6.33 7.132 1.037 17.006-1.144 24.83-2.718 7.258-1.46 14.057-7.767 20.604-6.106 7.957 2.018 18.846 24.255 22.453 22.43 5.691-2.88-8.774-50.04-11.887-78.11-3.604-32.506-13.85-99.018-7.396-105.7 1.579-1.634 4.526-1.432 6.34.224 5.815 5.312 5.007 45.141 8.188 64.744 2.675 16.484 4.207 31.875 8.981 45.256 4.182 11.72 10.441 22.363 16.642 31.237 5.329 7.626 12.447 9.43 17.434 19.471 10.013 20.162 7.494 92.563 20.075 103.43 5.422 4.683 12.643-.739 19.548.894 8.559 2.025 18.324 12.066 27.471 12.23 8.991.161 20.317-5.021 26.944-10.854 6.199-5.457 10.731-22.67 12.415-22.189 1.376.393-2.53 11.722-.793 16.977 1.906 5.767 8.366 10.718 12.944 15.842 4.658 5.214 10.811 12.472 14.792 15.154 2.118 1.428 3.049 1.932 5.547 2.271 4.679.634 16.984.877 20.868-2.494 3.096-2.687.42-11.11 3.434-12.901 3.7-2.198 14.309-.045 19.547 4.748 7.996 7.314 10.155 44.016 15.057 44.378 3.311.245 7.579-10.392 9.774-19.024 3.916-15.407 2.079-68.09 1.584-68.116-.282-.015-3.142 14.967-1.849 22.172 1.351 7.524 7.862 22.361 10.302 21.966 3.066-.497 2.042-24.657 4.491-38.032 2.803-15.306 9.238-31.004 12.151-48.661 3.378-20.476 5.192-47.068 5.547-67.221.289-16.435-1.42-31.795-2.113-44.809-.535-10.051-.199-16.035-1.585-26.713-2.124-16.358-8.324-61.723-12.415-61.562-6.549.259-14.782 159.767-19.283 159.797-2.237.015-5.283-39.39-5.283-39.39"/>
+  </g>
+  <g aria-label="text">
+    <text y=".32em" transform="translate(72.717 201.027)">1960</text>
+    <text y=".32em" transform="translate(125.811 223.217)">1965</text>
+    <text y=".32em" transform="translate(199.51 244.718)">1970</text>
+    <text y=".32em" transform="translate(263.962 193.786)">1975</text>
+    <text y=".32em" transform="translate(312.566 23.582)">1980</text>
+    <text y=".32em" transform="translate(370.15 184.514)">1985</text>
+    <text y=".32em" transform="translate(476.604 268.025)">1990</text>
+    <text y=".32em" transform="translate(529.962 315.775)">1995</text>
+    <text y=".32em" transform="translate(579.358 264.86)">2000</text>
+    <text y=".32em" transform="translate(610 155.084)">2005</text>
+    <text y=".32em" transform="translate(569.32 142.407)">2010</text>
+  </g>
+</svg>

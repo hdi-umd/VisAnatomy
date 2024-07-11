@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400">
+  <path fill="transparent" d="M0 0h900v400H0z"/>
+  <g transform="translate(80 20)">
+    <g stroke="#ddd">
+      <path d="M0 0v320M47.059 0v320M94.118 0v320M141.176 0v320M188.235 0v320M235.294 0v320M282.353 0v320M329.412 0v320M376.471 0v320M423.529 0v320M470.588 0v320M517.647 0v320M564.706 0v320M611.765 0v320M658.824 0v320M705.882 0v320M752.941 0v320M800 0v320"/>
+    </g>
+    <g stroke="#ddd">
+      <path d="M0 298h800M0 271h800M0 244h800M0 217h800M0 190h800M0 163h800M0 136h800M0 108h800M0 81h800M0 54h800M0 27h800M0 0h800"/>
+    </g>
+    <path d="m0 65 47.059 71 47.059-49 47.058 157 47.059-141 47.059-60 47.059 98 47.059 43 47.059 33 47.058 92 47.059-206 47.059 201 47.059-206 47.059 195h47.059l47.058-239 47.059-43L800 98" fill="none" stroke="#e8c1a0" style="stroke-width:1"/>
+    <path d="M0 217 47.059 65l47.059 87 47.058-76 47.059 81 47.059 130 47.059-141 47.059 152 47.059-114 47.058-119 47.059 43 47.059 93 47.059-6 47.059-81 47.059 125 47.058-87 47.059-119L800 22" fill="none" stroke="#f47560" style="stroke-dasharray:6,6;stroke-width:4"/>
+    <path d="m0 71 47.059 5 47.059-22 47.058-38 47.059-5 47.059 49 47.059 119 47.059 11 47.059-11 47.058 38 47.059-49 47.059-130 47.059 33 47.059 108 47.059-60 47.058 87 47.059 92L800 136" fill="none" stroke="#f1e15b" style="stroke-width:1"/>
+    <path d="m0 33 47.059 10 47.059 244 47.058-43 47.059-130 47.059 81 47.059-119 47.059 81 47.059 38 47.058 11 47.059-54 47.059-81 47.059 16 47.059 103 47.059-49 47.058-38 47.059 65L800 98" fill="none" stroke="#e8a838" style="stroke-dasharray:1,16;stroke-width:8;stroke-linejoin:round;stroke-linecap:round"/>
+    <path d="m0 38 47.059 239L94.118 22l47.058 81 47.059 157 47.059-189 47.059 249 47.059-217 47.059 76L423.529 5l47.059 22h47.059l47.059 87 47.059-27 47.059 38 47.058 146L752.941 0 800 5" fill="none" stroke="#61cdbb" style="stroke-dasharray:12,6;stroke-width:2"/>
+    <path fill="none" data-ref="slice:line348:0" d="M0 0h23.529v320H0z"/>
+    <path fill="none" data-ref="slice:line348:47.05882352941177" d="M23.529 0h47.059v320H23.529z"/>
+    <path fill="none" data-ref="slice:line348:94.11764705882354" d="M70.588 0h47.059v320H70.588z"/>
+    <path fill="none" data-ref="slice:line348:141.1764705882353" d="M117.647 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:188.23529411764707" d="M164.706 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:235.29411764705884" d="M211.765 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:282.3529411764706" d="M258.824 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:329.4117647058824" d="M305.882 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:376.47058823529414" d="M352.941 0H400v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:423.5294117647059" d="M400 0h47.059v320H400z"/>
+    <path fill="none" data-ref="slice:line348:470.5882352941177" d="M447.059 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:517.6470588235295" d="M494.118 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:564.7058823529412" d="M541.176 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:611.7647058823529" d="M588.235 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:658.8235294117648" d="M635.294 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:705.8823529411766" d="M682.353 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:752.9411764705883" d="M729.412 0h47.059v320h-47.059z"/>
+    <path fill="none" data-ref="slice:line348:800" d="M776.471 0H800v320h-23.529z"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(800 5)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(752.941)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(705.882 271)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(658.824 125)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(611.765 87)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(564.706 114)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(517.647 27)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(470.588 27)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(423.53 5)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(376.47 179)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(329.412 103)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(282.353 320)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(235.294 71)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(188.235 260)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(141.176 103)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(94.118 22)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(47.059 277)"/>
+    <circle r="3" fill="#61cdbb" style="pointer-events:none" transform="translate(0 38)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(800 98)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(752.941 168)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(705.882 103)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(658.824 141)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(611.765 190)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(564.706 87)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(517.647 71)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(470.588 152)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(423.53 206)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(376.47 195)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(329.412 157)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(282.353 76)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(235.294 195)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(188.235 114)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(141.176 244)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(94.118 287)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(47.059 43)"/>
+    <circle r="3" fill="#e8a838" style="pointer-events:none" transform="translate(0 33)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(800 136)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(752.941 298)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(705.882 206)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(658.824 119)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(611.765 179)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(564.706 71)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(517.647 38)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(470.588 168)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(423.53 217)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(376.47 179)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(329.412 190)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(282.353 179)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(235.294 60)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(188.235 11)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(141.176 16)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(94.118 54)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(47.059 76)"/>
+    <circle r="3" fill="#f1e15b" style="pointer-events:none" transform="translate(0 71)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(800 22)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(752.941 33)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(705.882 152)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(658.824 239)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(611.765 114)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(564.706 195)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(517.647 201)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(470.588 108)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(423.53 65)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(376.47 184)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(329.412 298)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(282.353 146)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(235.294 287)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(188.235 157)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(141.176 76)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(94.118 152)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(47.059 65)"/>
+    <circle r="3" fill="#f47560" style="pointer-events:none" transform="translate(0 217)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(800 98)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(752.941 11)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(705.882 54)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(658.824 293)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(611.765 293)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(564.706 98)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(517.647 304)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(470.588 103)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(423.53 309)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(376.47 217)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(329.412 184)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(282.353 141)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(235.294 43)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(188.235 103)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(141.176 244)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(94.118 87)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(47.059 136)"/>
+    <circle r="3" fill="#e8c1a0" style="pointer-events:none" transform="translate(0 65)"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">IO</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(47.059)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(47.059) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">AD</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(94.118)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(94.118) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">LK</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(141.176)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(141.176) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">BS</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(188.235)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(188.235) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">RU</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(235.294)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(235.294) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">ZW</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(282.353)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(282.353) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">NZ</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(329.412)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(329.412) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">BZ</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(376.47)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(376.47) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">IN</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(423.53)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(423.53) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">BN</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(470.588)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(470.588) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">DJ</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(517.647)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(517.647) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">UY</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(564.706)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(564.706) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">HR</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(611.765)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(611.765) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">LR</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(658.824)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(658.824) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">SZ</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(705.882)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(705.882) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">MM</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(752.941)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(752.941) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">LS</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(0 320) translate(800)"/>
+      <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(0 320) translate(800) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">TR</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0h800" transform="translate(0 320)"/>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 298)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 298) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 271)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 271) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 244)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 244) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">15</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 217)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 217) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 190)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 190) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">25</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 163)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 163) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">30</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 136)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 136) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">35</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 108)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 108) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 81)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 81) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">45</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 54)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 54) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(0 27)"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(0 27) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">55</text>
+    </g>
+    <g style="opacity:1">
+      <path style="stroke:#777;stroke-width:1" d="M0 0h-5"/>
+      <text dominant-baseline="central" text-anchor="end" transform="translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">60</text>
+    </g>
+    <path style="stroke:transparent;stroke-width:1" d="M0 0v320"/>
+  </g>
+</svg>

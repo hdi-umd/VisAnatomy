@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" baseProfile="full" viewBox="0 0 600 450">
+  <path fill="none" d="M0 0h600v450H0z"/>
+  <path fill="none" stroke="#5470c6" d="m395.7 16.5 5.7-9.4h15"/>
+  <path fill="none" stroke="#91cc75" d="m521.7 155.7 11.4-23.5h15"/>
+  <path fill="none" stroke="#fac858" d="m494 327.9 52.7-14h15"/>
+  <path fill="none" stroke="#e66" d="m376.5 432.3 24.9 9.7h15"/>
+  <path fill="none" stroke="#73c0de" d="m227.3 423-28.7 20h-15"/>
+  <path fill="none" stroke="#3ba272" d="m133.7 316.4-80.5-2.5h-15"/>
+  <path fill="none" stroke="#fc8452" d="m152.2 186.3-85.3-54.1h-15"/>
+  <path fill="none" stroke="#9a60b4" d="M246.4 118.2 198.6 7.1h-15"/>
+  <path d="M300 5.632a8 8 0 0 1 8.264-7.995 250 250 0 0 1 162.572 67.34 8 8 0 0 1 .19 11.497L340.62 206.88a8 8 0 0 1-10.48.726 50 50 0 0 0-23.243-9.628 8 8 0 0 1-6.897-7.924Z" fill="#5470c6"/>
+  <path d="M463.951 83.549a8 8 0 0 1 11.506.198 240 240 0 0 1 64.4 155.477 8 8 0 0 1-7.995 8.276H357.446a8 8 0 0 1-7.924-6.897 50 50 0 0 0-9.628-23.244 8 8 0 0 1 .726-10.48Z" fill="#91cc75"/>
+  <path d="M501.842 247.5a8 8 0 0 1 7.993 8.317 210 210 0 0 1-55.578 134.178 8 8 0 0 1-11.534.228L340.62 288.12a8 8 0 0 1-.726-10.48 50 50 0 0 0 9.628-23.243 8 8 0 0 1 7.924-6.897Z" fill="#fac858"/>
+  <path d="M435.647 383.147a8 8 0 0 1-.241 11.544 200 200 0 0 1-127.073 52.635 8 8 0 0 1-8.333-7.993V304.946a8 8 0 0 1 6.897-7.924 50 50 0 0 0 23.244-9.628 8 8 0 0 1 10.48.726Z" fill="#e66"/>
+  <path d="M300 429.324a8 8 0 0 1-8.352 7.992 190 190 0 0 1-119.963-49.69 8 8 0 0 1-.254-11.557l87.949-87.949a8 8 0 0 1 10.48-.726 50 50 0 0 0 23.243 9.628 8 8 0 0 1 6.897 7.924Z" fill="#73c0de"/>
+  <path d="M178.51 368.99a8 8 0 0 1-11.571-.269 180 180 0 0 1-46.744-112.849 8 8 0 0 1 7.991-8.372h114.368a8 8 0 0 1 7.924 6.897 50 50 0 0 0 9.628 23.244 8 8 0 0 1-.726 10.48Z" fill="#3ba272"/>
+  <path d="M148.21 247.5a8 8 0 0 1-7.988-8.421 160 160 0 0 1 40.843-98.605 8 8 0 0 1 11.604-.305l66.71 66.71a8 8 0 0 1 .727 10.48 50 50 0 0 0-9.628 23.244 8 8 0 0 1-7.924 6.897Z" fill="#fc8452"/>
+  <path d="M206.834 154.334a8 8 0 0 1 .353-11.647 140 140 0 0 1 84.328-34.93 8 8 0 0 1 8.485 7.986v74.311a8 8 0 0 1-6.897 7.924 50 50 0 0 0-23.244 9.628 8 8 0 0 1-10.48-.726Z" fill="#9a60b4"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(421.411 7.05)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 1</text>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(553.06 132.162)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 2</text>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" transform="translate(566.688 313.948)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">ro...</text>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(421.411 441.95)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 4</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(178.589 442.95)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 5</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei" transform="translate(33.173 313.948)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">ro...</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(46.94 132.162)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 7</text>
+  <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" transform="translate(178.589 7.05)" fill="#333" stroke="#FFF" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">rose 8</text>
+  <path d="M.031 18H599.97v24H.03Z" fill="none"/>
+  <path d="M8.531 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#5470c6"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(5.031 23)" fill="#333">rose 1</text>
+  <path d="M83.523 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#91cc75"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(80.023 23)" fill="#333">rose 2</text>
+  <path d="M158.516 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#fac858"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(155.016 23)" fill="#333">rose 3</text>
+  <path d="M233.508 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#e66"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(230.008 23)" fill="#333">rose 4</text>
+  <path d="M308.5 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#73c0de"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(305 23)" fill="#333">rose 5</text>
+  <path d="M383.492 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#3ba272"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(379.992 23)" fill="#333">rose 6</text>
+  <path d="M458.484 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#fc8452"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(454.984 23)" fill="#333">rose 7</text>
+  <path d="M533.477 23h18a3.5 3.5 0 0 1 3.5 3.5v7a3.5 3.5 0 0 1-3.5 3.5h-18a3.5 3.5 0 0 1-3.5-3.5v-7a3.5 3.5 0 0 1 3.5-3.5" fill="#9a60b4"/>
+  <text dominant-baseline="central" style="font-size:12px;font-family:Microsoft YaHei" xml:space="preserve" x="30" y="7" transform="translate(529.977 23)" fill="#333">rose 8</text>
+  <path d="M0 0h10v10H0Z" fill="none"/>
+</svg>

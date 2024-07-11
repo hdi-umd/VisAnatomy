@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <path fill="transparent" d="M0 0h900v500H0z"/>
+  <g stroke="#ddd">
+    <path d="M0 420h740M0 365h740M0 309h740M0 254h740M0 199h740M0 144h740M0 88h740M0 33h740" transform="translate(80 40)"/>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(64)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(64) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">5</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(128)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(128) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(192)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(192) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">15</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(255)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(255) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(319)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(319) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">25</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(383)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(383) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">30</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(447)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(447) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">35</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(511)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(511) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(575)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(575) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">45</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(639)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(639) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0v5" transform="translate(80 40) translate(0 420) translate(702)"/>
+    <text dominant-baseline="text-before-edge" text-anchor="middle" transform="translate(80 40) translate(0 420) translate(702) translate(0 10)" style="font-family:sans-serif;font-size:11px;fill:#333">55</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0h740" transform="translate(80 40) translate(0 420)"/>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 420)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 420) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">0</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 365)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 365) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">10</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 309)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 309) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">20</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 254)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 254) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">30</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 199)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 199) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">40</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 144)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 144) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">50</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 88)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 88) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">60</text>
+  </g>
+  <g style="opacity:1">
+    <path style="stroke:#777;stroke-width:1" d="M0 0h-5" transform="translate(80 40) translate(0 33)"/>
+    <text dominant-baseline="central" text-anchor="end" transform="translate(80 40) translate(0 33) translate(-10)" style="font-family:sans-serif;font-size:11px;fill:#333">70</text>
+  </g>
+  <path style="stroke:transparent;stroke-width:1" d="M0 0v420" transform="translate(80 40)"/>
+  <path fill="#e8c1a0" d="M0 348h64v72H0z" transform="translate(80 40)"/>
+  <path fill="#f47560" d="M0 188h64v160H0z" transform="translate(80 40)"/>
+  <path fill="#f1e15b" d="M0 177h64v11H0z" transform="translate(80 40)"/>
+  <path fill="#e8a838" d="M0 6h64v171H0z" transform="translate(80 40)"/>
+  <path fill="#e8c1a0" d="M67 409h153v11H67z" transform="translate(80 40)"/>
+  <path fill="#f47560" d="M67 332h153v77H67z" transform="translate(80 40)"/>
+  <path fill="#f1e15b" d="M67 293h153v39H67z" transform="translate(80 40)"/>
+  <path fill="#e8a838" d="M67 254h153v39H67z" transform="translate(80 40)"/>
+  <path fill="#e8c1a0" d="M223 337h128v83H223z" transform="translate(80 40)"/>
+  <path fill="#f47560" d="M223 321h128v16H223z" transform="translate(80 40)"/>
+  <path fill="#f1e15b" d="M223 276h128v45H223z" transform="translate(80 40)"/>
+  <path fill="#e8a838" d="M223 271h128v5H223z" transform="translate(80 40)"/>
+  <path fill="#e8c1a0" d="M354 359h140v61H354z" transform="translate(80 40)"/>
+  <path fill="#f47560" d="M354 204h140v155H354z" transform="translate(80 40)"/>
+  <path fill="#f1e15b" d="M354 171h140v33H354z" transform="translate(80 40)"/>
+  <path fill="#e8a838" d="M354 50h140v121H354z" transform="translate(80 40)"/>
+  <path fill="#e8c1a0" d="M497 359h243v61H497z" transform="translate(80 40)"/>
+  <path fill="#f47560" d="M497 287h243v72H497z" transform="translate(80 40)"/>
+  <path fill="#f1e15b" d="M497 111h243v176H497z" transform="translate(80 40)"/>
+  <path fill="#e8a838" d="M497 0h243v111H497z" transform="translate(80 40)"/>
+  <g transform="translate(80 40)"/>
+</svg>

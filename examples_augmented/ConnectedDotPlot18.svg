@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:visible">
+  <defs>
+    <clipPath id="a">
+      <path d="M0 0h1136v500H0z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path d="M0 0h1029v438H0z"/>
+    </clipPath>
+    <clipPath id="c">
+      <path d="M0 0h1029v438H0z"/>
+    </clipPath>
+    <linearGradient id="e" x1="1%" x2="99%" y1="59%" y2="41%">
+      <stop stop-color="#474758" offset="0"/>
+      <stop stop-color="#474758" offset=".75"/>
+      <stop stop-color="#3cabff" offset=".755"/>
+    </linearGradient>
+    <filter id="d" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%">
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <path fill="none" d="M0 0h1136v500H0z"/>
+  <g clip-path="url(&quot;#a&quot;)" aria-label="Chart">
+    <g style="touch-action:none;user-select:none;-webkit-user-drag:none">
+      <path fill="none" d="M60 47h1029v438H60z"/>
+      <path d="M59.5 484.5h1029m-1029-55h1029m-1029-55h1029m-1029-54h1029m-1029-55h1029m-1029-55h1029m-1029-55h1029m-1029-54h1029m-1029-55h1029" stroke="#000" stroke-opacity=".15" fill="none"/>
+      <path d="M77.5 46.5v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438m36-438v438m35-438v438" stroke="#000" stroke-opacity=".15" fill="none" stroke-dasharray="1,3"/>
+      <g fill-opacity="0" stroke="#67b7dc" aria-label="Series">
+        <g clip-path="url(&quot;#b&quot;)" transform="translate(60 47)">
+          <path d="M17.735 164.25h.01V284.7h-.01zm35.485 0h.01v131.4h-.01zm35.485-21.9h.01v109.5h-.01zm35.48 0h.01V219h-.01zm35.48 43.8h.01v65.7h-.01zm35.485 10.95h.01v87.6h-.01zm35.485 65.7h.01v43.8h-.01zm35.48 21.9h.01v43.8h-.01zm35.48-76.65h.01V328.5h-.01zm35.485 32.85h.01v54.75h-.01zm35.485-21.9h.01v120.45h-.01zm35.48 109.5h.01v54.75h-.01zm35.485-43.8h.01v98.55h-.01zm35.485 21.9h.01v43.8h-.01zm35.48-120.45h.01v131.4h-.01zm35.48 76.65h.01v54.75h-.01zm35.485 21.9h.01v76.65h-.01zm35.485-10.95h.01v43.8h-.01zm35.48-54.75h.01v120.45h-.01zm35.485 10.95h.01v65.7h-.01zm35.485-98.55h.01v131.4h-.01zm35.48 65.7h.01v87.6h-.01zm35.48 21.9h.01v32.85h-.01zm35.485-65.7h.01v76.65h-.01zm35.485 10.95h.01v32.85h-.01zm35.48-131.4h.01v131.4h-.01zm35.48 65.7h.01v98.55h-.01zm35.485 0h.01v131.4h-.01zm35.485 10.95h.01v65.7h-.01z" fill="none"/>
+        </g>
+        <g transform="translate(60 47)"/>
+      </g>
+      <g clip-path="url(&quot;#c&quot;)" transform="translate(60 47)">
+        <g fill="#67b7dc" stroke="#67b7dc">
+          <circle r="5" transform="translate(17.74 284.7)"/>
+          <circle r="5" transform="translate(17.74 164.25)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(53.22 295.65)"/>
+          <circle r="5" transform="translate(53.22 164.25)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(88.71 251.85)"/>
+          <circle r="5" transform="translate(88.71 142.35)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(124.19 219)"/>
+          <circle r="5" transform="translate(124.19 142.35)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(159.67 251.85)"/>
+          <circle r="5" transform="translate(159.67 186.15)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(195.16 284.7)"/>
+          <circle r="5" transform="translate(195.16 197.1)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(230.64 306.6)"/>
+          <circle r="5" transform="translate(230.64 262.8)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(266.12 328.5)"/>
+          <circle r="5" transform="translate(266.12 284.7)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(301.6 328.5)"/>
+          <circle r="5" transform="translate(301.6 208.05)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(337.09 295.65)"/>
+          <circle r="5" transform="translate(337.09 240.9)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(372.57 339.45)"/>
+          <circle r="5" transform="translate(372.57 219)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(408.05 383.25)"/>
+          <circle r="5" transform="translate(408.05 328.5)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(443.53 383.25)"/>
+          <circle r="5" transform="translate(443.53 284.7)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(479.02 350.4)"/>
+          <circle r="5" transform="translate(479.02 306.6)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(514.5 317.55)"/>
+          <circle r="5" transform="translate(514.5 186.15)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(549.98 317.55)"/>
+          <circle r="5" transform="translate(549.98 262.8)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(585.47 361.35)"/>
+          <circle r="5" transform="translate(585.47 284.7)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(620.95 317.55)"/>
+          <circle r="5" transform="translate(620.95 273.75)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(656.43 339.45)"/>
+          <circle r="5" transform="translate(656.43 219)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(691.91 295.65)"/>
+          <circle r="5" transform="translate(691.91 229.95)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(727.4 262.8)"/>
+          <circle r="5" transform="translate(727.4 131.4)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(762.88 284.7)"/>
+          <circle r="5" transform="translate(762.88 197.1)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(798.36 251.85)"/>
+          <circle r="5" transform="translate(798.36 219)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(833.84 229.95)"/>
+          <circle r="5" transform="translate(833.84 153.3)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(869.33 197.1)"/>
+          <circle r="5" transform="translate(869.33 164.25)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(904.81 164.25)"/>
+          <circle r="5" transform="translate(904.81 32.85)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(940.29 197.1)"/>
+          <circle r="5" transform="translate(940.29 98.55)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(975.78 229.95)"/>
+          <circle r="5" transform="translate(975.78 98.55)" fill="#a367dc" stroke="#a367dc"/>
+          <circle r="5" transform="translate(1011.26 175.2)"/>
+          <circle r="5" transform="translate(1011.26 109.5)" fill="#a367dc" stroke="#a367dc"/>
+        </g>
+      </g>
+      <g transform="translate(60 47)"/>
+      <g transform="translate(60 47)"/>
+      <g transform="translate(60 47)"/>
+      <g transform="translate(60 47)"/>
+    </g>
+    <g aria-hidden="true">
+      <g transform="rotate(-90 140.5 125.5)"/>
+      <text y="17.5" dy="-4.725" transform="translate(33 476)" style="user-select:none"><tspan>90</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(33 421.25)" style="user-select:none"><tspan>95</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 366.5)" style="user-select:none"><tspan>100</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 311.75)" style="user-select:none"><tspan>105</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 257)" style="user-select:none"><tspan>110</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 202.25)" style="user-select:none"><tspan>115</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 147.5)" style="user-select:none"><tspan>120</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 92.75)" style="user-select:none"><tspan>125</tspan></text>
+      <text y="17.5" dy="-4.725" transform="translate(25 38)" style="user-select:none"><tspan>130</tspan></text>
+      <path d="M-.5-.5v438" transform="translate(60 47)" fill="none" style="pointer-events:none"/>
+    </g>
+    <g aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="From 90 to 130" aria-labelledby="id-178-title" aria-orientation="vertical" aria-controls="id-22">
+      <path d="M1105 47a6 6 0 0 1 6 6v426a6 6 0 0 1-6 6 6 6 0 0 1-6-6V53a6 6 0 0 1 6-6" fill="#f3f3f3" fill-opacity=".5"/>
+      <g tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-live="polite" aria-labelledby="id-192-title" aria-valuenow="0" aria-valuetext="From 90 to 130" aria-describedby="id-192-description" transform="translate(1105 47)" style="touch-action:none;user-select:none;-webkit-user-drag:none;cursor:-webkit-grab">
+        <g style="pointer-events:none" transform="translate(0 219)"/>
+        <desc>
+          Use up and down arrows to move selection
+        </desc>
+      </g>
+    </g>
+    <g aria-hidden="true">
+      <path d="M-.5-.5h1029" transform="translate(60 485)" fill="none" style="pointer-events:none"/>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 271.87 203.13)" style="user-select:none"><tspan>Raina</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 289.613 185.387)" style="user-select:none"><tspan>Demarcus</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 307.355 167.645)" style="user-select:none"><tspan>Carlo</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 325.095 149.905)" style="user-select:none"><tspan>Jacinda</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 342.835 132.165)" style="user-select:none"><tspan>Richie</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 360.578 114.422)" style="user-select:none"><tspan>Antony</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 378.32 96.68)" style="user-select:none"><tspan>Amada</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 396.06 78.94)" style="user-select:none"><tspan>Idalia</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 413.8 61.2)" style="user-select:none"><tspan>Janella</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 431.543 43.458)" style="user-select:none"><tspan>Marla</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 449.285 25.715)" style="user-select:none"><tspan>Curtis</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 467.025 7.975)" style="user-select:none"><tspan>Shellie</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 484.768 -9.768)" style="user-select:none"><tspan>Meggan</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 502.51 -27.51)" style="user-select:none"><tspan>Nathanael</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 520.25 -45.25)" style="user-select:none"><tspan>Jannette</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 537.99 -62.99)" style="user-select:none"><tspan>Tyrell</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 555.733 -80.733)" style="user-select:none"><tspan>Sheena</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 573.475 -98.475)" style="user-select:none"><tspan>Maranda</tspan></text>
+      <text y="17.5" dy="-4.725" transform="matrix(0 -1 1 0 707.43 475)" style="user-select:none"><tspan>Briana</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 608.957 -133.957)" style="user-select:none"><tspan>Rosa</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 626.7 -151.7)" style="user-select:none"><tspan>Rosanne</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 644.44 -169.44)" style="user-select:none"><tspan>Herman</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 662.18 -187.18)" style="user-select:none"><tspan>Wayne</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 679.923 -204.923)" style="user-select:none"><tspan>Shamika</tspan></text>
+      <text y="17.5" dy="-4.725" transform="matrix(0 -1 1 0 920.33 475)" style="user-select:none"><tspan>Suk</tspan></text>
+      <text y="17.5" dy="-4.725" transform="matrix(0 -1 1 0 955.81 475)" style="user-select:none"><tspan>Clair</tspan></text>
+      <text y="17.5" dy="-4.725" transform="matrix(0 -1 1 0 991.29 475)" style="user-select:none"><tspan>Olivia</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 750.888 -275.888)" style="user-select:none"><tspan>Hans</tspan></text>
+      <text y="17.5" dy="-4.725" transform="rotate(-90 768.63 -293.63)" style="user-select:none"><tspan>Glennie</tspan></text>
+      <g transform="translate(574.5 485)"/>
+    </g>
+  </g>
+  <g opacity=".3" aria-labelledby="id-66-title" filter="url(&quot;#d&quot;)" style="cursor:pointer" transform="translate(0 479)">
+    <g fill="none" stroke-width="1.8">
+      <path d="M15 15h12c4.2 0 6.3-9 9-9s2.7 4.5 4.5 4.5S42.3 6 45 6s6 9 9 9h6" stroke="#3cabff"/>
+      <path d="M6 15h9c5.25 0 5.775-11.4 12-11.4S33.9 15 39.9 15H60" stroke="url(&quot;#e&quot;)"/>
+    </g>
+  </g>
+</svg>

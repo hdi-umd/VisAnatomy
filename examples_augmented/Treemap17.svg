@@ -1,0 +1,460 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1490" height="1600" style="overflow-x: hidden; overflow-y: hidden">
+<desc>Top 100 States of the World by Area</desc>
+<metadata>
+<!--
+ creator="mapmarks"
+ created="2012-09-12"
+ language="en"
+-->
+</metadata>
+
+<style type="text/css">
+rect.item {
+	stroke: #000;
+	stroke-width: 1;
+}
+text {
+	font-family: "Nimbus Sans L Condensed", "DejaVu Sans Condensed", "DejaVu Sans", "Segoe UI", "Lucida Sans", "Arial Narrow", "Arial", sans-serif;
+	stroke: none;
+	stroke-width: 0;
+	fill: #000;
+}
+</style>
+
+<defs id="defs">
+<linearGradient id="_ABSTRACT_RENDERER_ID_0" x1="985" y1="0" x2="1235" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0%" style="stop-color:#ffeebb"/>
+<stop offset="100%" style="stop-color:#ff1100"/>
+</linearGradient>
+<linearGradient id="_ABSTRACT_RENDERER_ID_1" x1="1235" y1="0" x2="1485" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0%" style="stop-color:#ff1100"/>
+<stop offset="100%" style="stop-color:#dd0044"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1490" height="1600" fill="#fff"/>
+<text x="5" y="25" font-family="Nimbus Sans L Condensed" font-size="20pt">Top 100 States of the World by Area</text>
+
+<g>
+<rect x="5" y="43" width="464" height="595" class="item" fill="#ffebb8"/>
+<text text-anchor="middle" x="237" y="344.7" font-family="Nimbus Sans L Condensed" font-size="20pt">Russia</text>
+</g>
+<g>
+<rect x="469" y="43" width="271" height="595" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="604.5" y="344.7" font-family="Nimbus Sans L Condensed" font-size="20pt">Canada</text>
+</g>
+<g>
+<rect x="5" y="638" width="372" height="427" class="item" fill="#ffe1b0"/>
+<text text-anchor="middle" x="191" y="855.2" font-family="Nimbus Sans L Condensed" font-size="20pt">United States</text>
+</g>
+<g>
+<rect x="377" y="638" width="363" height="427" class="item" fill="#ffb78c"/>
+<text text-anchor="middle" x="558.5" y="855.2" font-family="Nimbus Sans L Condensed" font-size="20pt">China</text>
+</g>
+<g>
+<rect x="5" y="1065" width="320" height="429" class="item" fill="#ffe5b3"/>
+<text text-anchor="middle" x="165" y="1283.7" font-family="Nimbus Sans L Condensed" font-size="20pt">Brazil</text>
+</g>
+<g>
+<rect x="325" y="1065" width="415" height="301" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="532.5" y="1219.7" font-family="Nimbus Sans L Condensed" font-size="20pt">Australia</text>
+</g>
+<g>
+<rect x="325" y="1366" width="415" height="128" class="item" fill="#ff5d40"/>
+<text text-anchor="middle" x="532.5" y="1434.2" font-family="Nimbus Sans L Condensed" font-size="20pt">India</text>
+</g>
+<g>
+<rect x="740" y="43" width="167" height="270" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="823" y="181.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Argentina</text>
+</g>
+<g>
+<rect x="907" y="43" width="163" height="270" class="item" fill="#ffebb9"/>
+<text text-anchor="middle" x="988.5" y="181.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Kazakhstan</text>
+</g>
+<g>
+<rect x="740" y="313" width="330" height="116" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="905" y="375.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Algeria</text>
+</g>
+<g>
+<rect x="740" y="429" width="116" height="326" class="item" fill="#ffe2b1"/>
+<text text-anchor="middle" x="798" y="588" font-family="Nimbus Sans L Condensed" font-size="14pt">Dem. Rep.</text>
+<text text-anchor="middle" x="798" y="610" font-family="Nimbus Sans L Condensed" font-size="14pt">Congo</text>
+</g>
+<g>
+<rect x="856" y="429" width="214" height="164" class="item" fill="#ffeebb"/>
+<text text-anchor="middle" x="962.5" y="514.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Greenland</text>
+</g>
+<g>
+<rect x="856" y="593" width="214" height="162" class="item" fill="#ffe9b7"/>
+<text text-anchor="middle" x="962.5" y="678.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Saudi Arabia</text>
+</g>
+<g>
+<rect x="1070" y="43" width="109" height="292" class="item" fill="#ffd7a7"/>
+<text text-anchor="middle" x="1124" y="193.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Mexico</text>
+</g>
+<g>
+<rect x="1179" y="43" width="105" height="292" class="item" fill="#ffba8f"/>
+<text text-anchor="middle" x="1231.5" y="193.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Indonesia</text>
+</g>
+<g>
+<rect x="1284" y="43" width="200" height="150" class="item" fill="#ffe7b5"/>
+<text text-anchor="middle" x="1384" y="122.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Sudan</text>
+</g>
+<g>
+<rect x="1284" y="193" width="200" height="142" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1384" y="268.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Libya</text>
+</g>
+<g>
+<rect x="1070" y="335" width="152" height="176" class="item" fill="#ffdbab"/>
+<text text-anchor="middle" x="1145.5" y="426.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Iran</text>
+</g>
+<g>
+<rect x="1222" y="335" width="144" height="176" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1294" y="426.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Mongolia</text>
+</g>
+<g>
+<rect x="1366" y="335" width="118" height="176" class="item" fill="#ffe5b3"/>
+<text text-anchor="middle" x="1425" y="426.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Peru</text>
+</g>
+<g>
+<rect x="1070" y="511" width="169" height="123" class="item" fill="#ffebb8"/>
+<text text-anchor="middle" x="1154" y="576.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Chad</text>
+</g>
+<g>
+<rect x="1070" y="634" width="169" height="121" class="item" fill="#ffe9b7"/>
+<text text-anchor="middle" x="1154" y="698.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Niger</text>
+</g>
+<g>
+<rect x="1239" y="511" width="83" height="244" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1280" y="637.2" font-family="Nimbus Sans L Condensed" font-size="14pt">Angola</text>
+</g>
+<g>
+<rect x="1322" y="511" width="162" height="123" class="item" fill="#ffe9b7"/>
+<text text-anchor="middle" x="1403" y="576.7" font-family="Nimbus Sans L Condensed" font-size="14pt">Mali</text>
+</g>
+<g>
+<rect x="1322" y="634" width="162" height="121" class="item" fill="#ffdeae"/>
+<text text-anchor="middle" x="1403" y="698.7" font-family="Nimbus Sans L Condensed" font-size="14pt">South Africa</text>
+</g>
+<g>
+<rect x="740" y="755" width="150" height="123" class="item" fill="#ffdeae"/>
+<text text-anchor="middle" x="815" y="820.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Colombia</text>
+</g>
+<g>
+<rect x="740" y="878" width="150" height="119" class="item" fill="#ffcd9f"/>
+<text text-anchor="middle" x="815" y="941.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Ethiopia</text>
+</g>
+<g>
+<rect x="740" y="997" width="150" height="118" class="item" fill="#ffeab8"/>
+<text text-anchor="middle" x="815" y="1060.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Bolivia</text>
+</g>
+<g>
+<rect x="890" y="755" width="110" height="152" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="944.5" y="834.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Mauritania</text>
+</g>
+<g>
+<rect x="1000" y="755" width="107" height="152" class="item" fill="#ffcd9f"/>
+<text text-anchor="middle" x="1053" y="834.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Egypt</text>
+</g>
+<g>
+<rect x="890" y="907" width="74" height="208" class="item" fill="#ffdaaa"/>
+<text text-anchor="middle" x="926.5" y="1015.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Tanzania</text>
+</g>
+<g>
+<rect x="964" y="907" width="143" height="105" class="item" fill="#ffa57d"/>
+<text text-anchor="middle" x="1035" y="963.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Nigeria</text>
+</g>
+<g>
+<rect x="964" y="1012" width="143" height="103" class="item" fill="#ffe2b1"/>
+<text text-anchor="middle" x="1035" y="1067.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Venezuela</text>
+</g>
+<g>
+<rect x="740" y="1115" width="150" height="89" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="815" y="1163.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Namibia</text>
+</g>
+<g>
+<rect x="740" y="1204" width="150" height="86" class="item" fill="#ffe2b1"/>
+<text text-anchor="middle" x="815" y="1251.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Mozambique</text>
+</g>
+<g>
+<rect x="890" y="1115" width="74" height="175" class="item" fill="#ff906b"/>
+<text text-anchor="middle" x="926.5" y="1206.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Pakistan</text>
+</g>
+<g>
+<rect x="964" y="1115" width="143" height="89" class="item" fill="#ffc699"/>
+<text text-anchor="middle" x="1035" y="1163.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Turkey</text>
+</g>
+<g>
+<rect x="964" y="1204" width="143" height="86" class="item" fill="#ffe5b3"/>
+<text text-anchor="middle" x="1035" y="1250.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Chile</text>
+</g>
+<g>
+<rect x="740" y="1290" width="165" height="74" class="item" fill="#ffe7b5"/>
+<text text-anchor="middle" x="822" y="1330.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Zambia</text>
+</g>
+<g>
+<rect x="740" y="1364" width="84" height="130" class="item" fill="#ffcea0"/>
+<text text-anchor="middle" x="781.5" y="1433.2" font-family="Nimbus Sans L Condensed" font-size="11pt">Burma</text>
+</g>
+<g>
+<rect x="824" y="1364" width="81" height="130" class="item" fill="#ffdcab"/>
+<text text-anchor="middle" x="864" y="1425" font-family="Nimbus Sans L Condensed" font-size="11pt">Afgha-</text>
+<text text-anchor="middle" x="864" y="1441" font-family="Nimbus Sans L Condensed" font-size="11pt">nistan</text>
+</g>
+<g>
+<rect x="905" y="1290" width="202" height="52" class="item" fill="#ffe7b5"/>
+<text text-anchor="middle" x="1005.5" y="1319.7" font-family="Nimbus Sans L Condensed" font-size="11pt">South Sudan</text>
+</g>
+<g>
+<rect x="905" y="1342" width="68" height="152" class="item" fill="#ffc699"/>
+<text text-anchor="middle" x="939" y="1422.2" font-family="Nimbus Sans L Condensed" font-size="11pt">France</text>
+</g>
+<g>
+<rect x="973" y="1342" width="134" height="77" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1039.5" y="1384.7" font-family="Nimbus Sans L Condensed" font-size="11pt">Somalia</text>
+</g>
+<g>
+<rect x="973" y="1419" width="134" height="75" class="item" fill="#ffebb8"/>
+<text text-anchor="middle" x="1039.5" y="1453" font-family="Nimbus Sans L Condensed" font-size="11pt">Central African</text>
+<text text-anchor="middle" x="1039.5" y="1469" font-family="Nimbus Sans L Condensed" font-size="11pt">Republic</text>
+</g>
+<g>
+<rect x="1107" y="755" width="60" height="161" class="item" fill="#ffd1a2"/>
+<text text-anchor="middle" x="1137" y="839.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Ukraine</text>
+</g>
+<g>
+<rect x="1167" y="755" width="117" height="81" class="item" fill="#ffdfae"/>
+<text text-anchor="middle" x="1225.5" y="799.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Madagascar</text>
+</g>
+<g>
+<rect x="1167" y="836" width="117" height="80" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1225.5" y="880.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Botswana</text>
+</g>
+<g>
+<rect x="1107" y="916" width="177" height="53" class="item" fill="#ffd1a2"/>
+<text text-anchor="middle" x="1195.5" y="946.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Kenya</text>
+</g>
+<g>
+<rect x="1107" y="969" width="60" height="141" class="item" fill="#ffdbab"/>
+<text text-anchor="middle" x="1137" y="1043.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Yemen</text>
+</g>
+<g>
+<rect x="1167" y="969" width="117" height="71" class="item" fill="#ffba8f"/>
+<text text-anchor="middle" x="1225.5" y="1008.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Thailand</text>
+</g>
+<g>
+<rect x="1167" y="1040" width="117" height="70" class="item" fill="#ffc99c"/>
+<text text-anchor="middle" x="1225.5" y="1078.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Spain</text>
+</g>
+<g>
+<rect x="1284" y="755" width="52" height="152" class="item" fill="#ffeab8"/>
+<text text-anchor="middle" x="1310" y="830" font-family="Nimbus Sans L Condensed" font-size="7pt">Turkme-</text>
+<text text-anchor="middle" x="1310" y="840" font-family="Nimbus Sans L Condensed" font-size="7pt">nistan</text>
+</g>
+<g>
+<rect x="1336" y="755" width="148" height="52" class="item" fill="#ffddad"/>
+<text text-anchor="middle" x="1410" y="784.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Cameroon</text>
+</g>
+<g>
+<rect x="1336" y="807" width="76" height="100" class="item" fill="#ffe9b6"/>
+<text text-anchor="middle" x="1373.5" y="855" font-family="Nimbus Sans L Condensed" font-size="7pt">Papua</text>
+<text text-anchor="middle" x="1373.5" y="865" font-family="Nimbus Sans L Condensed" font-size="7pt">New Guinea</text>
+</g>
+<g>
+<rect x="1412" y="807" width="72" height="100" class="item" fill="#ffe6b4"/>
+<text text-anchor="middle" x="1448" y="860.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Sweden</text>
+</g>
+<g>
+<rect x="1284" y="907" width="101" height="72" class="item" fill="#ffd5a6"/>
+<text text-anchor="middle" x="1334" y="947.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Uzbekistan</text>
+</g>
+<g>
+<rect x="1385" y="907" width="99" height="72" class="item" fill="#ffd1a3"/>
+<text text-anchor="middle" x="1434.5" y="947.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Morocco</text>
+</g>
+<g>
+<rect x="1284" y="979" width="55" height="131" class="item" fill="#ffd2a3"/>
+<text text-anchor="middle" x="1311" y="1048.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Iraq</text>
+</g>
+<g>
+<rect x="1339" y="979" width="50" height="131" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1364" y="1048.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Paraguay</text>
+</g>
+<g>
+<rect x="1389" y="979" width="95" height="67" class="item" fill="#ffe1b0"/>
+<text text-anchor="middle" x="1436.5" y="1016.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Zimbabwe</text>
+</g>
+<g>
+<rect x="1389" y="1046" width="95" height="64" class="item" fill="#ff694a"/>
+<text text-anchor="middle" x="1436.5" y="1082.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Japan</text>
+</g>
+<g>
+<rect x="1107" y="1110" width="88" height="65" class="item" fill="#ff946f"/>
+<text text-anchor="middle" x="1151" y="1146.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Germany</text>
+</g>
+<g>
+<rect x="1195" y="1110" width="85" height="65" class="item" fill="#ffe9b7"/>
+<text text-anchor="middle" x="1237.5" y="1146.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Rep. Congo</text>
+</g>
+<g>
+<rect x="1107" y="1175" width="44" height="123" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1129" y="1240.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Finland</text>
+</g>
+<g>
+<rect x="1151" y="1175" width="44" height="123" class="item" fill="#ff815f"/>
+<text text-anchor="middle" x="1172.5" y="1240.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Vietnam</text>
+</g>
+<g>
+<rect x="1195" y="1175" width="85" height="62" class="item" fill="#ffcb9d"/>
+<text text-anchor="middle" x="1237.5" y="1210.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Malaysia</text>
+</g>
+<g>
+<rect x="1195" y="1237" width="85" height="61" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1237.5" y="1271.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Norway</text>
+</g>
+<g>
+<rect x="1280" y="1110" width="82" height="64" class="item" fill="#ffd3a4"/>
+<text text-anchor="middle" x="1320.5" y="1146.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Cote d’Ivoire</text>
+</g>
+<g>
+<rect x="1280" y="1174" width="82" height="62" class="item" fill="#ffbd92"/>
+<text text-anchor="middle" x="1320.5" y="1209.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Poland</text>
+</g>
+<g>
+<rect x="1280" y="1236" width="82" height="62" class="item" fill="#ffeab8"/>
+<text text-anchor="middle" x="1320.5" y="1270.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Oman</text>
+</g>
+<g>
+<rect x="1362" y="1110" width="61" height="79" class="item" fill="#ff9e77"/>
+<text text-anchor="middle" x="1392.5" y="1153.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Italy</text>
+</g>
+<g>
+<rect x="1423" y="1110" width="61" height="79" class="item" fill="#ff6547"/>
+<text text-anchor="middle" x="1453.5" y="1153.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Philippines</text>
+</g>
+<g>
+<rect x="1362" y="1189" width="42" height="109" class="item" fill="#ffd9a9"/>
+<text text-anchor="middle" x="1383" y="1247.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Ecuador</text>
+</g>
+<g>
+<rect x="1404" y="1189" width="80" height="55" class="item" fill="#ffd5a6"/>
+<text text-anchor="middle" x="1444" y="1220.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Burkina Faso</text>
+</g>
+<g>
+<rect x="1404" y="1244" width="80" height="54" class="item" fill="#ffe8b6"/>
+<text text-anchor="middle" x="1444" y="1274.7" font-family="Nimbus Sans L Condensed" font-size="7pt">New Zealand</text>
+</g>
+<g>
+<rect x="1107" y="1298" width="47" height="91" class="item" fill="#ffecb9"/>
+<text text-anchor="middle" x="1130.5" y="1347.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Gabon</text>
+</g>
+<g>
+<rect x="1154" y="1298" width="46" height="91" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1177" y="1340" font-family="Nimbus Sans L Condensed" font-size="7pt">Western</text>
+<text text-anchor="middle" x="1177" y="1350" font-family="Nimbus Sans L Condensed" font-size="7pt">Sahara</text>
+</g>
+<g>
+<rect x="1200" y="1298" width="87" height="46" class="item" fill="#ffdcac"/>
+<text text-anchor="middle" x="1243" y="1325.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Guinea</text>
+</g>
+<g>
+<rect x="1200" y="1344" width="87" height="45" class="item" fill="#ff8864"/>
+<text text-anchor="middle" x="1243" y="1370.7" font-family="Nimbus Sans L Condensed" font-size="7pt">United Kingdom</text>
+</g>
+<g>
+<rect x="1107" y="1389" width="73" height="53" class="item" fill="#ffb78c"/>
+<text text-anchor="middle" x="1143.5" y="1419.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Uganda</text>
+</g>
+<g>
+<rect x="1107" y="1442" width="73" height="52" class="item" fill="#ffc598"/>
+<text text-anchor="middle" x="1143.5" y="1472.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Ghana</text>
+</g>
+<g>
+<rect x="1180" y="1389" width="37" height="105" class="item" fill="#ffca9c"/>
+<text text-anchor="middle" x="1198" y="1441" font-family="Nimbus Sans L Condensed" font-size="7pt">Roma-</text>
+<text text-anchor="middle" x="1198" y="1451" font-family="Nimbus Sans L Condensed" font-size="7pt">nia</text>
+</g>
+<g>
+<rect x="1217" y="1389" width="70" height="56" class="item" fill="#ffe3b2"/>
+<text text-anchor="middle" x="1251.5" y="1420.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Laos</text>
+</g>
+<g>
+<rect x="1217" y="1445" width="70" height="49" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1251.5" y="1473.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Guyana</text>
+</g>
+<g>
+<rect x="1287" y="1298" width="48" height="70" class="item" fill="#ffdcab"/>
+<text text-anchor="middle" x="1310.5" y="1336.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Belarus</text>
+</g>
+<g>
+<rect x="1335" y="1298" width="46" height="70" class="item" fill="#ffe3b2"/>
+<text text-anchor="middle" x="1358" y="1332" font-family="Nimbus Sans L Condensed" font-size="7pt">Kyrgyzs-</text>
+<text text-anchor="middle" x="1358" y="1342" font-family="Nimbus Sans L Condensed" font-size="7pt">tan</text>
+</g>
+<g>
+<rect x="1287" y="1368" width="94" height="33" class="item" fill="#ffd4a5"/>
+<text text-anchor="middle" x="1334" y="1388.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Senegal</text>
+</g>
+<g>
+<rect x="1287" y="1401" width="32" height="93" class="item" fill="#ffbe92"/>
+<text text-anchor="middle" x="1303" y="1451.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Syria</text>
+</g>
+<g>
+<rect x="1319" y="1401" width="62" height="48" class="item" fill="#ffcd9f"/>
+<text text-anchor="middle" x="1350" y="1428.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Cambodia</text>
+</g>
+<g>
+<rect x="1319" y="1449" width="62" height="45" class="item" fill="#ffe7b5"/>
+<text text-anchor="middle" x="1350" y="1475.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Uruguay</text>
+</g>
+<g>
+<rect x="1381" y="1298" width="27" height="96" class="item" fill="#ffedba"/>
+<text text-anchor="middle" x="1394.5" y="1345" font-family="Nimbus Sans L Condensed" font-size="7pt">Suri-</text>
+<text text-anchor="middle" x="1394.5" y="1355" font-family="Nimbus Sans L Condensed" font-size="7pt">name</text>
+</g>
+<g>
+<rect x="1408" y="1298" width="76" height="34" class="item" fill="#ffd4a5"/>
+<text text-anchor="middle" x="1446" y="1319.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Tunisia</text>
+</g>
+<g>
+<rect x="1408" y="1332" width="39" height="62" class="item" fill="#ff9e77"/>
+<text text-anchor="middle" x="1427" y="1366.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Nepal</text>
+</g>
+<g>
+<rect x="1447" y="1332" width="37" height="62" class="item" fill="#dd0044"/>
+<text text-anchor="middle" x="1465.5" y="1362" font-family="Nimbus Sans L Condensed" font-size="7pt">Bangla-</text>
+<text text-anchor="middle" x="1465.5" y="1372" font-family="Nimbus Sans L Condensed" font-size="7pt">desh</text>
+</g>
+<g>
+<rect x="1381" y="1394" width="44" height="52" class="item" fill="#ffd9a9"/>
+<text text-anchor="middle" x="1403" y="1424.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Tajikistan</text>
+</g>
+<g>
+<rect x="1381" y="1446" width="44" height="48" class="item" fill="#ffcea0"/>
+<text text-anchor="middle" x="1403" y="1474.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Greece</text>
+</g>
+<g>
+<rect x="1425" y="1394" width="59" height="35" class="item" fill="#ffddac"/>
+<text text-anchor="middle" x="1454.5" y="1415.7" font-family="Nimbus Sans L Condensed" font-size="7pt">Nicaragua</text>
+</g>
+<g>
+<rect x="1425" y="1429" width="59" height="33" class="item" fill="#ff9d77"/>
+<text text-anchor="middle" x="1454.5" y="1449.2" font-family="Nimbus Sans L Condensed" font-size="7pt">North Korea</text>
+</g>
+<g>
+<rect x="1425" y="1462" width="59" height="32" class="item" fill="#ffb88d"/>
+<text text-anchor="middle" x="1454.5" y="1482.2" font-family="Nimbus Sans L Condensed" font-size="7pt">Malawi</text>
+</g>
+
+<g>
+<rect x="785" y="1530" width="12.707" height="12.707" stroke="#000" stroke-width="1" fill="#fff"/>
+<text x="785" y="1570"><tspan>10,000 km</tspan><tspan dy="-4pt" font-size="10">2</tspan></text>
+<rect x="985" y="1530" width="500" height="15" stroke="#000" stroke-width="2" fill-opacity="1" fill="none"/>
+<rect x="985" y="1530" width="250" height="15" stroke="none" stroke-width="0" fill="url(#_ABSTRACT_RENDERER_ID_0)"/>
+<rect x="1235" y="1530" width="250" height="15" stroke="none" stroke-width="0" fill="url(#_ABSTRACT_RENDERER_ID_1)"/>
+<text x="985" y="1570">0</text>
+<text x="1235" y="1570" text-anchor="middle">Population density</text>
+<text x="1485" y="1570" text-anchor="end"><tspan>1119 /km</tspan><tspan dy="-4pt" font-size="10">2</tspan></text>
+</g>
+
+</svg>

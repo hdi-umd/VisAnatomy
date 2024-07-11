@@ -1,0 +1,50 @@
+<svg width="1039" height="268">
+  <clipPath id="a">
+    <path d="M-1-1h1041v270H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <path fill="transparent" class="wj-plot-area" d="M51 16.5h960v221H51z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="83" y="260" fill="#666" class="wj-label">05/18/12</text>
+    <path stroke="#666" class="wj-tick" d="M111 237.5v4"/>
+    <text x="203" y="260" fill="#666" class="wj-label">11/29/12</text>
+    <path stroke="#666" class="wj-tick" d="M231 237.5v4"/>
+    <text x="323" y="260" fill="#666" class="wj-label">05/29/13</text>
+    <path stroke="#666" class="wj-tick" d="M351 237.5v4"/>
+    <text x="443" y="260" fill="#666" class="wj-label">07/25/13</text>
+    <path stroke="#666" class="wj-tick" d="M471 237.5v4"/>
+    <text x="563" y="260" fill="#666" class="wj-label">11/25/13</text>
+    <path stroke="#666" class="wj-tick" d="M591 237.5v4"/>
+    <text x="683" y="260" fill="#666" class="wj-label">12/17/13</text>
+    <path stroke="#666" class="wj-tick" d="M711 237.5v4"/>
+    <text x="803" y="260" fill="#666" class="wj-label">03/26/14</text>
+    <path stroke="#666" class="wj-tick" d="M831 237.5v4"/>
+    <text x="923" y="260" fill="#666" class="wj-label">06/10/14</text>
+    <path stroke="#666" class="wj-tick" d="M951 237.5v4"/>
+    <path stroke="#666" class="wj-line" d="M51 237.5h960"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M51 230.1h960"/>
+    <text x="22.5" y="235.3" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M51 197.4h960"/>
+    <text x="22.5" y="202.6" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-gridline" d="M51 164.7h960"/>
+    <text x="22.5" y="169.9" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-gridline" d="M51 132h960"/>
+    <text x="22.5" y="137.2" fill="#666" class="wj-label">50</text>
+    <path stroke="#666" class="wj-gridline" d="M51 99.3h960"/>
+    <text x="22.5" y="104.5" fill="#666" class="wj-label">60</text>
+    <path stroke="#666" class="wj-gridline" d="M51 66.6h960"/>
+    <text x="22.5" y="71.8" fill="#666" class="wj-label">70</text>
+    <path stroke="#666" class="wj-gridline" d="M51 33.9h960"/>
+    <text x="22.5" y="39.1" fill="#666" class="wj-label">80</text>
+  </g>
+  <g clip-path="url(#b)" class="wj-series-group">
+    <path stroke="red" stroke-width="2" d="M111 170.5v67m-121-67h122m-2 67h122m-1 0v-48.2m-1 0h122m-1 0v31.3m-1 0h122m-1 0v-31.3"/>
+    <path stroke="#00b0f0" stroke-width="4" d="M471 189.3v-71.1m-2 0h124m-2 0v30.7m-2 0h124m-2 0v-89m-2 0h124m-2 0v52m-2 0h124m-2 0V16.5"/>
+  </g>
+  <clipPath id="b">
+    <path d="M50 15.5h962v223H50z"/>
+  </clipPath>
+</svg>

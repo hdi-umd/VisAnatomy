@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="900" viewBox="-450 -405 900 900">
+<marker id="dotR" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#F00"/></marker>
+<marker id="dotG" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#008000"/></marker>
+<marker id="dotB" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#00F"/></marker>
+<rect x="-450" y="-405" width="900" height="900" fill="#FFF"/>
+<g fill="none" stroke="#000" stroke-width="1.25">
+<circle r="315" fill="#FAFEFF"/>
+<rect x="-114.38" y="397.9" width="228.76" height="86.2" stroke-linejoin="round"/>
+<g stroke-width=".63">
+<path id="radial" d="M-315 0h630M0-315v630"/>
+<g id="radial2">
+<use xlink:href="#radial" transform="rotate(18)"/>
+<use xlink:href="#radial" transform="rotate(36)"/>
+</g>
+<use xlink:href="#radial2" transform="rotate(36)"/>
+<circle r="52.5"/>
+<circle r="105"/>
+<circle r="157.5"/>
+<circle r="210"/>
+<circle r="262.5"/>
+</g>
+<g stroke-width="1.9">
+<g stroke="#008000" marker-start="url(#dotG)">
+<polygon points="266.7,0 216.7,-70.41 169.89,-123.43 115.41,-158.85 71.71,-220.69 0,-177.45 -53.54,-164.77 -92.58,-127.42 -120.62,-87.64 -148.79,-48.35 -157.5,0 -151.79,49.32 -90.04,65.42 -81.47,112.13 -31.47,96.87 0,118.65 42.18,129.82 67.27,92.59 82.4,59.87 84.88,27.58" marker-mid="url(#dotG)"/>
+<path d="M-101.78 412.25h25.2" marker-end="url(#dotG)"/>
+</g>
+<g stroke="#F00" marker-start="url(#dotR)">
+<polygon points="315,0 238.67,-77.55 170.74,-124.05 128.37,-176.69 62.62,-192.73 0,-161.7 -59.38,-182.75 -103.07,-141.86 -187.73,-136.4 -163.77,-53.21 -158.55,0 -100.86,32.77 -110.43,80.23 -75.91,104.48 -40.56,124.83 0,92.4 38.61,118.83 69.74,95.99 73.9,53.69 103.86,33.74" marker-mid="url(#dotR)"/>
+<path d="M-101.78 439.19h25.2" marker-end="url(#dotR)"/>
+</g>
+<g stroke="#00F" marker-start="url(#dotB)">
+<polygon points="291.9,0 232.68,-75.6 189.43,-137.63 114.79,-158 45.43,-139.81 0,-210 -52.89,-162.77 -111.71,-153.75 -105.33,-76.53 -159.78,-51.91 -103.95,0 -127.82,41.53 -122.32,88.87 -69.74,95.99 -42.83,131.82 0,152.25 27.9,85.88 64.8,89.19 79,57.4 49.93,16.22" marker-mid="url(#dotB)"/>
+<path d="M-101.78 466.13h25.2" marker-end="url(#dotB)"/>
+</g>
+</g>
+</g>
+<g font-family="DejaVu Sans Condensed" font-size="15">
+<text x="56" y="-4">0.5</text>
+<text x="108.2" y="-10.8">1.0</text>
+<text x="160.4" y="-17.6">1.5</text>
+<text x="212.6" y="-24.4">2.0</text>
+<text x="264.8" y="-31.2">2.5</text>
+<text x="317" y="-38">3.0</text>
+<text x="-56" y="419">Social Harm (mean)</text>
+<text x="-56" y="445.94">Dependence (mean)</text>
+<text x="-56" y="472.88">Physical Harm (mean)</text>
+<text x="107" y="-323">Alcohol</text>
+<text x="203" y="-275">Street Methadone</text>
+<text x="280" y="-198">Barbiturates</text>
+<text x="330" y="-100">Cocaine</text>
+<text x="346" y="6">Heroin</text>
+<text x="330" y="112">Khat</text>
+<text x="280" y="207">Alkyl Nitrites</text>
+<text x="203" y="284">Ecstasy</text>
+<text x="107" y="335">GHB</text>
+<g text-anchor="end">
+<text x="-110" y="-325">Benzodiazepines</text>
+<text x="-206" y="-276">Amphetamine</text>
+<text x="-282" y="-198">Tobacco</text>
+<text x="-333" y="-103">Buprenorphine</text>
+<text x="-348" y="6">Cannabis</text>
+<text x="-330" y="112">Solvents</text>
+<text x="-282" y="210">4-MTA</text>
+<text x="-205" y="284">LSD</text>
+<text x="-110" y="335">Methylphenidate</text>
+</g>
+<g text-anchor="middle">
+<text y="-340">Ketamine</text>
+<text y="353">Anabolic Steroids</text>
+</g>
+</g>
+</svg>
