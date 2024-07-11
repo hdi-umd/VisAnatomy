@@ -1438,7 +1438,7 @@
         sessionStorage.setItem("fileName", demo.split(".")[0]);
         tryLoadAnnotations(demo.split(".")[0]);
 
-        fetch("./examples/" + demo)
+        fetch("./examples_augmented/" + demo)
           .then((resp) => {
             return resp.text();
           })

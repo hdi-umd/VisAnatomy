@@ -12,7 +12,7 @@ def custom_sort_key_v2(file_name):
     return (string_part, trailing_number)
 
 # Define the folder path and the output JSON file path
-folder_path = './examples'
+folder_path = './examples_augmented/'
 output_file = './SVG_Names.json'
 
 # Read the names of all files in the folder
