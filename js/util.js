@@ -107,6 +107,15 @@ function tryLoadAnnotations(filename) {
     .catch(function () {
       this.dataError = true;
     });
+
+  return new Promise((resolve, reject) => {
+    // Simulate an asynchronous operation, e.g., fetching annotations from a server
+    setTimeout(() => {
+      // Load annotations and set annotationLoaded flag
+      ifLoaded = annotationLoaded; // or false based on the result of loading annotations
+      resolve();
+    }, 100); // Simulate a 0.1-second delay
+  });
 }
 
 function post() {

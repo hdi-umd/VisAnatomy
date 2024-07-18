@@ -1433,10 +1433,10 @@
           .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
       }
 
-      function loadDemo(demo) {
+      async function loadDemo(demo) {
         // demo is the full name of a SVG file, e.g., "BarChart1.svg"
         sessionStorage.setItem("fileName", demo.split(".")[0]);
-        tryLoadAnnotations(demo.split(".")[0]);
+        await tryLoadAnnotations(demo.split(".")[0]);
 
         fetch("./examples_augmented/" + demo)
           .then((resp) => {
