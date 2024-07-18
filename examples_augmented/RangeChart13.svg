@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="470" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none">
+  <style>
+    text{text-rendering:optimizeLegibility}#xXxprefixXx0 .axis-text-x,#xXxprefixXx0 .axis-text-y{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="xXxprefixXx0">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v470h705V0Z"/>
+    <path stroke="#E9E9E9" fill="none" d="M54.81 424V10m98.491 414V10m98.491 414V10m98.49 414V10m98.491 414V10m98.491 414V10m98.49 414V10"/>
+    <path stroke="#474747" d="M54.811 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(54.811 431)">
+              <tspan>0</tspan>
+            </text>
+    <path stroke="#474747" d="M153.301 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(153.301 431)">
+              <tspan>5</tspan>
+            </text>
+    <path stroke="#474747" d="M251.791 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(251.791 431)">
+              <tspan>10</tspan>
+            </text>
+    <path stroke="#474747" d="M350.282 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(350.282 431)">
+              <tspan>15</tspan>
+            </text>
+    <path stroke="#474747" d="M448.773 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(448.773 431)">
+              <tspan>20</tspan>
+            </text>
+    <path stroke="#474747" d="M547.264 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(547.264 431)">
+              <tspan>25</tspan>
+            </text>
+    <path stroke="#474747" d="M645.754 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(645.754 431)">
+              <tspan>30</tspan>
+            </text>
+    <path stroke="#474747" d="M44.961 424H695"/>
+    <path stroke="#E9E9E9" fill="none" d="M44.961 383.237H695M44.961 331.455H695M44.961 279.674H695M44.961 227.893H695M44.961 176.112H695M44.961 124.331H695M44.961 72.55H695M44.961 20.768H695"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 383.237)">
+              <tspan>-1</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 331.455)">
+              <tspan>0</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 279.674)">
+              <tspan>1</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 227.893)">
+              <tspan>2</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 176.112)">
+              <tspan>3</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 124.33)">
+              <tspan>4</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 72.55)">
+              <tspan>5</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 20.768)">
+              <tspan>6</tspan>
+            </text>
+    <g transform="translate(44.961 10)" clip-path="url(#xXxprefixXx1)">
+      <defs>
+        <clipPath id="xXxprefixXx1">
+          <path d="M0 0h650.039v414H0z"/>
+        </clipPath>
+      </defs>
+      <path d="m29.547 250.84 19.698-57.813 19.699 29.312 19.698-107.433 19.698 26.359 19.698 58.804 19.698-77.927 19.698 37.168 19.698-13.205 19.699-15.2 19.698-85.135 19.698 58.256 19.698-7.818 19.698-36.018 19.698 52.941 19.698-56.157 19.699-38.156 19.698 39.867 19.698 9.111 19.698 5.723 19.698-36.202 19.698 94.566 19.698 14.738 19.699-46.187 19.698 9.743L522 192.357l19.698 4.299 19.698 22.8 19.698 22.537 19.698-61.791 19.699 108.48v106.5l-19.699-4.183-19.698-112.121-19.698-15.144-19.698 27.012L522 210.733l-19.698-7.503-19.698 48.705-19.699-67.56-19.698-14.197-19.698 47.487-19.698-71.983-19.698 39.255-19.698-38.407-19.698-5.888-19.699-7.993-19.698 45.24-19.698-26.724-19.698 44.488-19.698-60.301-19.698 43.537-19.698 45.54-19.699-55.104-19.698 76.241-19.698-14.354-19.698 10.625-19.698-1.57-19.698 63.945-19.698 14.878-19.699 23.277-19.698 38.218Z" fill="#474747" fill-opacity=".102"/>
+      <path d="m29.547 250.84 19.698-57.813 19.699 29.312 19.698-107.433 19.698 26.359 19.698 58.804 19.698-77.927 19.698 37.168 19.698-13.205 19.699-15.2 19.698-85.135 19.698 58.256 19.698-7.818 19.698-36.018 19.698 52.941 19.698-56.157 19.699-38.156 19.698 39.867 19.698 9.111 19.698 5.723 19.698-36.202 19.698 94.566 19.698 14.738 19.699-46.187 19.698 9.743L522 192.357l19.698 4.299 19.698 22.8 19.698 22.537 19.698-61.791 19.699 108.48" fill="none" stroke-width="1.65" stroke="#474747"/>
+      <path d="m29.547 380.585 19.698-38.218 19.699-23.277 19.698-14.878 19.698-63.945 19.698 1.57 19.698-10.625 19.698 14.354 19.698-76.24 19.699 55.103 19.698-45.54 19.698-43.537 19.698 60.301 19.698-44.488 19.698 26.723 19.698-45.24 19.699 7.994 19.698 5.888 19.698 38.407 19.698-39.255 19.698 71.983 19.698-47.487 19.698 14.198 19.699 67.559 19.698-48.705L522 210.733l19.698 80.013 19.698-27.012 19.698 15.144 19.698 112.121 19.699 4.183" fill="none" stroke-width="1.65" stroke="#474747"/>
+    </g>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 115.75 101.25)">
+        <tspan>y</tspan>
+      </text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(369.98 461.5)">
+        <tspan>time</tspan>
+      </text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v470h705V0Z"/>
+  </g>
+  <g id="xXxprefixXx2"/>
+</svg>

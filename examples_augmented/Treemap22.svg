@@ -1,0 +1,129 @@
+<svg width="641" height="468">
+  <clipPath id="a">
+    <path d="M-1-1h643v470H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#7493cd" class="wj-treemap-item" d="M2 2h180.1v20H2z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(116,147,205,0.7)" class="wj-treemap-item" d="M2 23h180.1v92.8H2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(116,147,205,0.7)" class="wj-treemap-item" d="M2 116.8h98.6v131.4H2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(116,147,205,0.7)" class="wj-treemap-item" d="M101.6 116.8h80.5v131.4h-80.5z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#f99820" class="wj-treemap-item" d="M2 252.2h180.1v20H2z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(249,152,32,0.7)" class="wj-treemap-item" d="M2 273.2h102.4v107.9H2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(249,152,32,0.7)" class="wj-treemap-item" d="M105.4 273.2h76.7v107.9h-76.7z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(249,152,32,0.7)" class="wj-treemap-item" d="M2 382.1h92.9V466H2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(249,152,32,0.7)" class="wj-treemap-item" d="M95.9 382.1h86.2V466H95.9z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#71b486" class="wj-treemap-item" d="M186.1 2h232.8v20H186.1z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(113,180,134,0.7)" class="wj-treemap-item" d="M186.1 23h116.2v143.5H186.1z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(113,180,134,0.7)" class="wj-treemap-item" d="M303.3 23h115.6v143.5H303.3z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#e4a491" class="wj-treemap-item" d="M422.9 2H639v20H422.9z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(228,164,145,0.7)" class="wj-treemap-item" d="M422.9 23H639v143.5H422.9z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#cb883b" class="wj-treemap-item" d="M186.1 170.5h237.3v20H186.1z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(203,136,59,0.7)" class="wj-treemap-item" d="M186.1 191.5h72.3v128.4h-72.3z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(203,136,59,0.7)" class="wj-treemap-item" d="M259.4 191.5h99.2v65.8h-99.2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(203,136,59,0.7)" class="wj-treemap-item" d="M259.4 258.3h99.2v61.6h-99.2z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(203,136,59,0.7)" class="wj-treemap-item" d="M359.6 191.5h63.8v77.9h-63.8z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(203,136,59,0.7)" class="wj-treemap-item" d="M359.6 270.4h63.8v49.4h-63.8z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#ae83a4" class="wj-treemap-item" d="M186.1 323.9h237.3v20H186.1z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(174,131,164,0.7)" class="wj-treemap-item" d="M186.1 344.9H268V466h-81.9z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(174,131,164,0.7)" class="wj-treemap-item" d="M269 344.9h60.8V466H269z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(174,131,164,0.7)" class="wj-treemap-item" d="M330.8 344.9h92.6v63.4h-92.6z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(174,131,164,0.7)" class="wj-treemap-item" d="M330.8 409.3h92.6V466h-92.6z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#bacc5c" class="wj-treemap-item" d="M427.4 170.5H639v20H427.4z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(186,204,92,0.7)" class="wj-treemap-item" d="M427.4 191.5h115.3v132.2H427.4z"/>
+    </g>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(186,204,92,0.7)" class="wj-treemap-item" d="M543.7 191.5H639v132.2h-95.3z"/>
+    </g>
+  </g>
+  <g class="wj-treemap-item-depth1">
+    <path fill="#e5746a" class="wj-treemap-item" d="M427.4 327.7H639v20H427.4z"/>
+    <g class="wj-treemap-item-depth2">
+      <path fill="rgba(229,116,106,0.7)" class="wj-treemap-item" d="M427.4 348.7H639V466H427.4z"/>
+    </g>
+  </g>
+  <g class="wj-data-labels">
+    <text x="49" y="74.6" class="wj-data-label">Sweet breads</text>
+    <text x="23.8" y="187.8" class="wj-data-label">Desserts</text>
+    <text x="116.2" y="187.8" class="wj-data-label">Candies</text>
+    <text x="54.3" y="17.2" class="wj-data-label">Confections</text>
+    <text x="33.1" y="332.4" class="wj-data-label">Cereal</text>
+    <text x="126" y="332.4" class="wj-data-label">Pasta</text>
+    <text x="26.3" y="429.3" class="wj-data-label">Breads</text>
+    <text x="110.9" y="429.3" class="wj-data-label">Crackers</text>
+    <text x="45.8" y="267.5" class="wj-data-label">Grains/Cereals</text>
+    <text x="212.1" y="100" class="wj-data-label">Bean curd</text>
+    <text x="330.4" y="100" class="wj-data-label">Dried fruit</text>
+    <text x="276.2" y="17.2" class="wj-data-label">Produce</text>
+    <text x="503.7" y="100" class="wj-data-label">Cheeses</text>
+    <text x="484.7" y="17.2" class="wj-data-label">Dairy Products</text>
+    <text x="204.1" y="261" class="wj-data-label">Beers</text>
+    <text x="275.2" y="229.7" class="wj-data-label">Soft drinks</text>
+    <text x="295.6" y="294.4" class="wj-data-label">Ales</text>
+    <text x="367.4" y="235.7" class="wj-data-label">Coffees</text>
+    <text x="377.2" y="300.4" class="wj-data-label">Teas</text>
+    <text x="271.6" y="185.8" class="wj-data-label">Beverages</text>
+    <text x="190.6" y="410.7" class="wj-data-label">Seasonings</text>
+    <text x="273.3" y="410.7" class="wj-data-label">Spreads</text>
+    <text x="329.6" y="381.9" class="wj-data-label">Sweet and Sa..</text>
+    <text x="350.8" y="442.9" class="wj-data-label">Relishes</text>
+    <text x="266.8" y="339.2" class="wj-data-label">Condiments</text>
+    <text x="472.1" y="262.8" class="wj-data-label">Fish</text>
+    <text x="562.3" y="262.8" class="wj-data-label">Seaweed</text>
+    <text x="506.9" y="185.8" class="wj-data-label">Seafood</text>
+    <text x="483.5" y="412.6" class="wj-data-label">Prepared meats</text>
+    <text x="493" y="343" class="wj-data-label">Meat/Poultry</text>
+  </g>
+</svg>

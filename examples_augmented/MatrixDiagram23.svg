@@ -1,0 +1,2072 @@
+<svg class="visualization-layer" width="1400" height="1400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with no title. Use arrow keys to navigate elements.">
+    <g class="nodes" data-testid="nodes" tabindex="0" aria-label="nodes">
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 8.526h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 8.526h17.051v1312.949H8.526z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 8.526h1321.474M8.526 0v1321.474"/>
+        <text y="20.462" text-anchor="end" font-size="8.526" transform="translate(60 60)">Myriel</text>
+        <text transform="rotate(90 6.82 66.82)" text-anchor="end" font-size="8.526">Myriel</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 25.577h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M25.577 8.526h17.051v1312.949H25.577z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 25.577h1321.474M25.577 0v1321.474"/>
+        <text y="37.513" text-anchor="end" font-size="8.526" transform="translate(60 60)">Napoleon</text>
+        <text transform="rotate(90 15.346 75.346)" text-anchor="end" font-size="8.526">Napoleon</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 42.628h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M42.628 8.526h17.051v1312.949H42.628z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 42.628h1321.474M42.628 0v1321.474"/>
+        <text y="54.564" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mlle.Baptistine</text>
+        <text transform="rotate(90 23.872 83.872)" text-anchor="end" font-size="8.526">Mlle.Baptistine</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 59.679h1312.949V76.73H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M59.679 8.526H76.73v1312.949H59.679z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 59.679h1321.474M59.679 0v1321.474"/>
+        <text y="71.615" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.Magloire</text>
+        <text transform="rotate(90 32.397 92.397)" text-anchor="end" font-size="8.526">Mme.Magloire</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 76.731h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M76.731 8.526h17.051v1312.949H76.731z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 76.731h1321.474M76.731 0v1321.474"/>
+        <text y="88.667" text-anchor="end" font-size="8.526" transform="translate(60 60)">CountessdeLo</text>
+        <text transform="rotate(90 40.923 100.923)" text-anchor="end" font-size="8.526">CountessdeLo</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 93.782h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M93.782 8.526h17.051v1312.949H93.782z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 93.782h1321.474M93.782 0v1321.474"/>
+        <text y="105.718" text-anchor="end" font-size="8.526" transform="translate(60 60)">Geborand</text>
+        <text transform="rotate(90 49.449 109.449)" text-anchor="end" font-size="8.526">Geborand</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 110.833h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M110.833 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 110.833h1321.474M110.833 0v1321.474"/>
+        <text y="122.769" text-anchor="end" font-size="8.526" transform="translate(60 60)">Champtercier</text>
+        <text transform="rotate(90 57.974 117.974)" text-anchor="end" font-size="8.526">Champtercier</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 127.885h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M127.885 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 127.885h1321.474M127.885 0v1321.474"/>
+        <text y="139.821" text-anchor="end" font-size="8.526" transform="translate(60 60)">Cravatte</text>
+        <text transform="rotate(90 66.5 126.5)" text-anchor="end" font-size="8.526">Cravatte</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 144.936h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M144.936 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 144.936h1321.474M144.936 0v1321.474"/>
+        <text y="156.872" text-anchor="end" font-size="8.526" transform="translate(60 60)">Count</text>
+        <text transform="rotate(90 75.026 135.026)" text-anchor="end" font-size="8.526">Count</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 161.987h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M161.987 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 161.987h1321.474M161.987 0v1321.474"/>
+        <text y="173.923" text-anchor="end" font-size="8.526" transform="translate(60 60)">OldMan</text>
+        <text transform="rotate(90 83.551 143.551)" text-anchor="end" font-size="8.526">OldMan</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 179.038h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M179.038 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 179.038h1321.474M179.038 0v1321.474"/>
+        <text y="190.974" text-anchor="end" font-size="8.526" transform="translate(60 60)">Labarre</text>
+        <text transform="rotate(90 92.077 152.077)" text-anchor="end" font-size="8.526">Labarre</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 196.09h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M196.09 8.526h17.051v1312.949H196.09z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 196.09h1321.474M196.09 0v1321.474"/>
+        <text y="208.026" text-anchor="end" font-size="8.526" transform="translate(60 60)">Valjean</text>
+        <text transform="rotate(90 100.603 160.603)" text-anchor="end" font-size="8.526">Valjean</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 213.141h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M213.141 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 213.141h1321.474M213.141 0v1321.474"/>
+        <text y="225.077" text-anchor="end" font-size="8.526" transform="translate(60 60)">Marguerite</text>
+        <text transform="rotate(90 109.128 169.128)" text-anchor="end" font-size="8.526">Marguerite</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 230.192h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M230.192 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 230.192h1321.474M230.192 0v1321.474"/>
+        <text y="242.128" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.deR</text>
+        <text transform="rotate(90 117.654 177.654)" text-anchor="end" font-size="8.526">Mme.deR</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 247.244h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M247.244 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 247.244h1321.474M247.244 0v1321.474"/>
+        <text y="259.179" text-anchor="end" font-size="8.526" transform="translate(60 60)">Isabeau</text>
+        <text transform="rotate(90 126.18 186.18)" text-anchor="end" font-size="8.526">Isabeau</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 264.295h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M264.295 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 264.295h1321.474M264.295 0v1321.474"/>
+        <text y="276.231" text-anchor="end" font-size="8.526" transform="translate(60 60)">Gervais</text>
+        <text transform="rotate(90 134.705 194.705)" text-anchor="end" font-size="8.526">Gervais</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 281.346h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M281.346 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 281.346h1321.474M281.346 0v1321.474"/>
+        <text y="293.282" text-anchor="end" font-size="8.526" transform="translate(60 60)">Tholomyes</text>
+        <text transform="rotate(90 143.23 203.23)" text-anchor="end" font-size="8.526">Tholomyes</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 298.397h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M298.397 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 298.397h1321.474M298.397 0v1321.474"/>
+        <text y="310.333" text-anchor="end" font-size="8.526" transform="translate(60 60)">Listolier</text>
+        <text transform="rotate(90 151.756 211.756)" text-anchor="end" font-size="8.526">Listolier</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 315.449h1312.949V332.5H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M315.449 8.526H332.5v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 315.449h1321.474M315.449 0v1321.474"/>
+        <text y="327.385" text-anchor="end" font-size="8.526" transform="translate(60 60)">Fameuil</text>
+        <text transform="rotate(90 160.282 220.282)" text-anchor="end" font-size="8.526">Fameuil</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 332.5h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M332.5 8.526h17.051v1312.949H332.5z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 332.5h1321.474M332.5 0v1321.474"/>
+        <text y="344.436" text-anchor="end" font-size="8.526" transform="translate(60 60)">Blacheville</text>
+        <text transform="rotate(90 168.808 228.808)" text-anchor="end" font-size="8.526">Blacheville</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 349.551h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M349.551 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 349.551h1321.474M349.551 0v1321.474"/>
+        <text y="361.487" text-anchor="end" font-size="8.526" transform="translate(60 60)">Favourite</text>
+        <text transform="rotate(90 177.333 237.333)" text-anchor="end" font-size="8.526">Favourite</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 366.603h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M366.603 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 366.603h1321.474M366.603 0v1321.474"/>
+        <text y="378.538" text-anchor="end" font-size="8.526" transform="translate(60 60)">Dahlia</text>
+        <text transform="rotate(90 185.859 245.859)" text-anchor="end" font-size="8.526">Dahlia</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 383.654h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M383.654 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 383.654h1321.474M383.654 0v1321.474"/>
+        <text y="395.59" text-anchor="end" font-size="8.526" transform="translate(60 60)">Zephine</text>
+        <text transform="rotate(90 194.385 254.385)" text-anchor="end" font-size="8.526">Zephine</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 400.705h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M400.705 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 400.705h1321.474M400.705 0v1321.474"/>
+        <text y="412.641" text-anchor="end" font-size="8.526" transform="translate(60 60)">Fantine</text>
+        <text transform="rotate(90 202.91 262.91)" text-anchor="end" font-size="8.526">Fantine</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 417.756h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M417.756 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 417.756h1321.474M417.756 0v1321.474"/>
+        <text y="429.692" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.Thenardier</text>
+        <text transform="rotate(90 211.436 271.436)" text-anchor="end" font-size="8.526">Mme.Thenardier</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 434.808h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M434.808 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 434.808h1321.474M434.808 0v1321.474"/>
+        <text y="446.744" text-anchor="end" font-size="8.526" transform="translate(60 60)">Thenardier</text>
+        <text transform="rotate(90 219.962 279.962)" text-anchor="end" font-size="8.526">Thenardier</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 451.859h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M451.859 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 451.859h1321.474M451.859 0v1321.474"/>
+        <text y="463.795" text-anchor="end" font-size="8.526" transform="translate(60 60)">Cosette</text>
+        <text transform="rotate(90 228.487 288.487)" text-anchor="end" font-size="8.526">Cosette</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 468.91h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M468.91 8.526h17.051v1312.949H468.91z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 468.91h1321.474M468.91 0v1321.474"/>
+        <text y="480.846" text-anchor="end" font-size="8.526" transform="translate(60 60)">Javert</text>
+        <text transform="rotate(90 237.013 297.013)" text-anchor="end" font-size="8.526">Javert</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 485.962h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M485.962 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 485.962h1321.474M485.962 0v1321.474"/>
+        <text y="497.897" text-anchor="end" font-size="8.526" transform="translate(60 60)">Fauchelevent</text>
+        <text transform="rotate(90 245.538 305.538)" text-anchor="end" font-size="8.526">Fauchelevent</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 503.013h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M503.013 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 503.013h1321.474M503.013 0v1321.474"/>
+        <text y="514.949" text-anchor="end" font-size="8.526" transform="translate(60 60)">Bamatabois</text>
+        <text transform="rotate(90 254.064 314.064)" text-anchor="end" font-size="8.526">Bamatabois</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 520.064h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M520.064 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 520.064h1321.474M520.064 0v1321.474"/>
+        <text y="532" text-anchor="end" font-size="8.526" transform="translate(60 60)">Perpetue</text>
+        <text transform="rotate(90 262.59 322.59)" text-anchor="end" font-size="8.526">Perpetue</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 537.115h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M537.115 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 537.115h1321.474M537.115 0v1321.474"/>
+        <text y="549.051" text-anchor="end" font-size="8.526" transform="translate(60 60)">Simplice</text>
+        <text transform="rotate(90 271.115 331.115)" text-anchor="end" font-size="8.526">Simplice</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 554.167h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M554.167 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 554.167h1321.474M554.167 0v1321.474"/>
+        <text y="566.103" text-anchor="end" font-size="8.526" transform="translate(60 60)">Scaufflaire</text>
+        <text transform="rotate(90 279.641 339.641)" text-anchor="end" font-size="8.526">Scaufflaire</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 571.218h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M571.218 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 571.218h1321.474M571.218 0v1321.474"/>
+        <text y="583.154" text-anchor="end" font-size="8.526" transform="translate(60 60)">Woman1</text>
+        <text transform="rotate(90 288.167 348.167)" text-anchor="end" font-size="8.526">Woman1</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 588.269h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M588.269 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 588.269h1321.474M588.269 0v1321.474"/>
+        <text y="600.205" text-anchor="end" font-size="8.526" transform="translate(60 60)">Judge</text>
+        <text transform="rotate(90 296.692 356.692)" text-anchor="end" font-size="8.526">Judge</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 605.321h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M605.321 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 605.321h1321.474M605.321 0v1321.474"/>
+        <text y="617.256" text-anchor="end" font-size="8.526" transform="translate(60 60)">Champmathieu</text>
+        <text transform="rotate(90 305.218 365.218)" text-anchor="end" font-size="8.526">Champmathieu</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 622.372h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M622.372 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 622.372h1321.474M622.372 0v1321.474"/>
+        <text y="634.308" text-anchor="end" font-size="8.526" transform="translate(60 60)">Brevet</text>
+        <text transform="rotate(90 313.744 373.744)" text-anchor="end" font-size="8.526">Brevet</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 639.423h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M639.423 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 639.423h1321.474M639.423 0v1321.474"/>
+        <text y="651.359" text-anchor="end" font-size="8.526" transform="translate(60 60)">Chenildieu</text>
+        <text transform="rotate(90 322.27 382.27)" text-anchor="end" font-size="8.526">Chenildieu</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 656.474h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M656.474 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 656.474h1321.474M656.474 0v1321.474"/>
+        <text y="668.41" text-anchor="end" font-size="8.526" transform="translate(60 60)">Cochepaille</text>
+        <text transform="rotate(90 330.795 390.795)" text-anchor="end" font-size="8.526">Cochepaille</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 673.526h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M673.526 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 673.526h1321.474M673.526 0v1321.474"/>
+        <text y="685.462" text-anchor="end" font-size="8.526" transform="translate(60 60)">Pontmercy</text>
+        <text transform="rotate(90 339.32 399.32)" text-anchor="end" font-size="8.526">Pontmercy</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 690.577h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M690.577 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 690.577h1321.474M690.577 0v1321.474"/>
+        <text y="702.513" text-anchor="end" font-size="8.526" transform="translate(60 60)">Boulatruelle</text>
+        <text transform="rotate(90 347.846 407.846)" text-anchor="end" font-size="8.526">Boulatruelle</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 707.628h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M707.628 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 707.628h1321.474M707.628 0v1321.474"/>
+        <text y="719.564" text-anchor="end" font-size="8.526" transform="translate(60 60)">Eponine</text>
+        <text transform="rotate(90 356.372 416.372)" text-anchor="end" font-size="8.526">Eponine</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 724.679h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M724.679 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 724.679h1321.474M724.679 0v1321.474"/>
+        <text y="736.615" text-anchor="end" font-size="8.526" transform="translate(60 60)">Anzelma</text>
+        <text transform="rotate(90 364.897 424.897)" text-anchor="end" font-size="8.526">Anzelma</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 741.731h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M741.731 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 741.731h1321.474M741.731 0v1321.474"/>
+        <text y="753.667" text-anchor="end" font-size="8.526" transform="translate(60 60)">Woman2</text>
+        <text transform="rotate(90 373.423 433.423)" text-anchor="end" font-size="8.526">Woman2</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 758.782h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M758.782 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 758.782h1321.474M758.782 0v1321.474"/>
+        <text y="770.718" text-anchor="end" font-size="8.526" transform="translate(60 60)">MotherInnocent</text>
+        <text transform="rotate(90 381.949 441.949)" text-anchor="end" font-size="8.526">MotherInnocent</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 775.833h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M775.833 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 775.833h1321.474M775.833 0v1321.474"/>
+        <text y="787.769" text-anchor="end" font-size="8.526" transform="translate(60 60)">Gribier</text>
+        <text transform="rotate(90 390.474 450.474)" text-anchor="end" font-size="8.526">Gribier</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 792.885h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M792.885 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 792.885h1321.474M792.885 0v1321.474"/>
+        <text y="804.821" text-anchor="end" font-size="8.526" transform="translate(60 60)">Jondrette</text>
+        <text transform="rotate(90 399 459)" text-anchor="end" font-size="8.526">Jondrette</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 809.936h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M809.936 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 809.936h1321.474M809.936 0v1321.474"/>
+        <text y="821.872" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.Burgon</text>
+        <text transform="rotate(90 407.526 467.526)" text-anchor="end" font-size="8.526">Mme.Burgon</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 826.987h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M826.987 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 826.987h1321.474M826.987 0v1321.474"/>
+        <text y="838.923" text-anchor="end" font-size="8.526" transform="translate(60 60)">Gavroche</text>
+        <text transform="rotate(90 416.051 476.051)" text-anchor="end" font-size="8.526">Gavroche</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 844.038h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M844.038 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 844.038h1321.474M844.038 0v1321.474"/>
+        <text y="855.974" text-anchor="end" font-size="8.526" transform="translate(60 60)">Gillenormand</text>
+        <text transform="rotate(90 424.577 484.577)" text-anchor="end" font-size="8.526">Gillenormand</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 861.09h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M861.09 8.526h17.051v1312.949H861.09z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 861.09h1321.474M861.09 0v1321.474"/>
+        <text y="873.026" text-anchor="end" font-size="8.526" transform="translate(60 60)">Magnon</text>
+        <text transform="rotate(90 433.103 493.103)" text-anchor="end" font-size="8.526">Magnon</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 878.141h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M878.141 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 878.141h1321.474M878.141 0v1321.474"/>
+        <text y="890.077" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mlle.Gillenormand</text>
+        <text transform="rotate(90 441.628 501.628)" text-anchor="end" font-size="8.526">Mlle.Gillenormand</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 895.192h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M895.192 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 895.192h1321.474M895.192 0v1321.474"/>
+        <text y="907.128" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.Pontmercy</text>
+        <text transform="rotate(90 450.154 510.154)" text-anchor="end" font-size="8.526">Mme.Pontmercy</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 912.244h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M912.244 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 912.244h1321.474M912.244 0v1321.474"/>
+        <text y="924.179" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mlle.Vaubois</text>
+        <text transform="rotate(90 458.68 518.68)" text-anchor="end" font-size="8.526">Mlle.Vaubois</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 929.295h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M929.295 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 929.295h1321.474M929.295 0v1321.474"/>
+        <text y="941.231" text-anchor="end" font-size="8.526" transform="translate(60 60)">Lt.Gillenormand</text>
+        <text transform="rotate(90 467.205 527.205)" text-anchor="end" font-size="8.526">Lt.Gillenormand</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 946.346h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M946.346 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 946.346h1321.474M946.346 0v1321.474"/>
+        <text y="958.282" text-anchor="end" font-size="8.526" transform="translate(60 60)">Marius</text>
+        <text transform="rotate(90 475.73 535.73)" text-anchor="end" font-size="8.526">Marius</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 963.397h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M963.397 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 963.397h1321.474M963.397 0v1321.474"/>
+        <text y="975.333" text-anchor="end" font-size="8.526" transform="translate(60 60)">BaronessT</text>
+        <text transform="rotate(90 484.256 544.256)" text-anchor="end" font-size="8.526">BaronessT</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 980.449h1312.949V997.5H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M980.449 8.526H997.5v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 980.449h1321.474M980.449 0v1321.474"/>
+        <text y="992.385" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mabeuf</text>
+        <text transform="rotate(90 492.782 552.782)" text-anchor="end" font-size="8.526">Mabeuf</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 997.5h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M997.5 8.526h17.051v1312.949H997.5z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 997.5h1321.474M997.5 0v1321.474"/>
+        <text y="1009.436" text-anchor="end" font-size="8.526" transform="translate(60 60)">Enjolras</text>
+        <text transform="rotate(90 501.308 561.308)" text-anchor="end" font-size="8.526">Enjolras</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1014.551h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1014.551 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1014.551h1321.474M1014.551 0v1321.474"/>
+        <text y="1026.487" text-anchor="end" font-size="8.526" transform="translate(60 60)">Combeferre</text>
+        <text transform="rotate(90 509.833 569.833)" text-anchor="end" font-size="8.526">Combeferre</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1031.603h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1031.603 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1031.603h1321.474M1031.603 0v1321.474"/>
+        <text y="1043.538" text-anchor="end" font-size="8.526" transform="translate(60 60)">Prouvaire</text>
+        <text transform="rotate(90 518.359 578.359)" text-anchor="end" font-size="8.526">Prouvaire</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1048.654h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1048.654 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1048.654h1321.474M1048.654 0v1321.474"/>
+        <text y="1060.59" text-anchor="end" font-size="8.526" transform="translate(60 60)">Feuilly</text>
+        <text transform="rotate(90 526.885 586.885)" text-anchor="end" font-size="8.526">Feuilly</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1065.705h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1065.705 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1065.705h1321.474M1065.705 0v1321.474"/>
+        <text y="1077.641" text-anchor="end" font-size="8.526" transform="translate(60 60)">Courfeyrac</text>
+        <text transform="rotate(90 535.41 595.41)" text-anchor="end" font-size="8.526">Courfeyrac</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1082.756h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1082.756 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1082.756h1321.474M1082.756 0v1321.474"/>
+        <text y="1094.692" text-anchor="end" font-size="8.526" transform="translate(60 60)">Bahorel</text>
+        <text transform="rotate(90 543.936 603.936)" text-anchor="end" font-size="8.526">Bahorel</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1099.808h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1099.808 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1099.808h1321.474M1099.808 0v1321.474"/>
+        <text y="1111.744" text-anchor="end" font-size="8.526" transform="translate(60 60)">Bossuet</text>
+        <text transform="rotate(90 552.462 612.462)" text-anchor="end" font-size="8.526">Bossuet</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1116.859h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1116.859 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1116.859h1321.474M1116.859 0v1321.474"/>
+        <text y="1128.795" text-anchor="end" font-size="8.526" transform="translate(60 60)">Joly</text>
+        <text transform="rotate(90 560.987 620.987)" text-anchor="end" font-size="8.526">Joly</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1133.91h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1133.91 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1133.91h1321.474M1133.91 0v1321.474"/>
+        <text y="1145.846" text-anchor="end" font-size="8.526" transform="translate(60 60)">Grantaire</text>
+        <text transform="rotate(90 569.513 629.513)" text-anchor="end" font-size="8.526">Grantaire</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1150.962h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1150.962 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1150.962h1321.474M1150.962 0v1321.474"/>
+        <text y="1162.897" text-anchor="end" font-size="8.526" transform="translate(60 60)">MotherPlutarch</text>
+        <text transform="rotate(90 578.038 638.038)" text-anchor="end" font-size="8.526">MotherPlutarch</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1168.013h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1168.013 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1168.013h1321.474M1168.013 0v1321.474"/>
+        <text y="1179.949" text-anchor="end" font-size="8.526" transform="translate(60 60)">Gueulemer</text>
+        <text transform="rotate(90 586.564 646.564)" text-anchor="end" font-size="8.526">Gueulemer</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1185.064h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1185.064 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1185.064h1321.474M1185.064 0v1321.474"/>
+        <text y="1197" text-anchor="end" font-size="8.526" transform="translate(60 60)">Babet</text>
+        <text transform="rotate(90 595.09 655.09)" text-anchor="end" font-size="8.526">Babet</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1202.115h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1202.115 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1202.115h1321.474M1202.115 0v1321.474"/>
+        <text y="1214.051" text-anchor="end" font-size="8.526" transform="translate(60 60)">Claquesous</text>
+        <text transform="rotate(90 603.615 663.615)" text-anchor="end" font-size="8.526">Claquesous</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1219.167h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1219.167 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1219.167h1321.474M1219.167 0v1321.474"/>
+        <text y="1231.103" text-anchor="end" font-size="8.526" transform="translate(60 60)">Montparnasse</text>
+        <text transform="rotate(90 612.141 672.141)" text-anchor="end" font-size="8.526">Montparnasse</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1236.218h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1236.218 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1236.218h1321.474M1236.218 0v1321.474"/>
+        <text y="1248.154" text-anchor="end" font-size="8.526" transform="translate(60 60)">Toussaint</text>
+        <text transform="rotate(90 620.667 680.667)" text-anchor="end" font-size="8.526">Toussaint</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1253.269h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1253.269 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1253.269h1321.474M1253.269 0v1321.474"/>
+        <text y="1265.205" text-anchor="end" font-size="8.526" transform="translate(60 60)">Child1</text>
+        <text transform="rotate(90 629.192 689.192)" text-anchor="end" font-size="8.526">Child1</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1270.321h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1270.321 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1270.321h1321.474M1270.321 0v1321.474"/>
+        <text y="1282.256" text-anchor="end" font-size="8.526" transform="translate(60 60)">Child2</text>
+        <text transform="rotate(90 637.718 697.718)" text-anchor="end" font-size="8.526">Child2</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1287.372h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1287.372 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1287.372h1321.474M1287.372 0v1321.474"/>
+        <text y="1299.308" text-anchor="end" font-size="8.526" transform="translate(60 60)">Brujon</text>
+        <text transform="rotate(90 646.244 706.244)" text-anchor="end" font-size="8.526">Brujon</text>
+      </g>
+      <g class="node">
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M8.526 1304.423h1312.949v17.051H8.526z"/>
+        <path style="fill:none;stroke:none" transform="translate(60 60)" d="M1304.423 8.526h17.051v1312.949h-17.051z"/>
+        <path stroke="#000" style="fill:none;stroke:#ddd" transform="translate(60 60)" d="M0 1304.423h1321.474M1304.423 0v1321.474M0 1321.474h1321.474m0-1321.474v1321.474"/>
+        <text y="1316.359" text-anchor="end" font-size="8.526" transform="translate(60 60)">Mme.Hucheloup</text>
+        <text transform="rotate(90 654.77 714.77)" text-anchor="end" font-size="8.526">Mme.Hucheloup</text>
+      </g>
+    </g>
+    <g class="edges" data-testid="edges" tabindex="0" aria-label="edges">
+      <g class="edge" aria-label="Connection from Napoleon to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(94.103 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Napoleon">
+        <path tabindex="-1" class="edge" transform="translate(77.051 94.103)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Baptistine to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(111.154 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Mlle.Baptistine">
+        <path tabindex="-1" class="edge" transform="translate(77.051 111.154)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Magloire to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(128.205 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Mme.Magloire">
+        <path tabindex="-1" class="edge" transform="translate(77.051 128.205)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Magloire to Mlle.Baptistine">
+        <path tabindex="-1" class="edge" transform="translate(128.205 111.154)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Baptistine to Mme.Magloire">
+        <path tabindex="-1" class="edge" transform="translate(111.154 128.205)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from CountessdeLo to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(145.256 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to CountessdeLo">
+        <path tabindex="-1" class="edge" transform="translate(77.051 145.256)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Geborand to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(162.308 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Geborand">
+        <path tabindex="-1" class="edge" transform="translate(77.051 162.308)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champtercier to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(179.359 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Champtercier">
+        <path tabindex="-1" class="edge" transform="translate(77.051 179.359)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cravatte to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(196.41 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Cravatte">
+        <path tabindex="-1" class="edge" transform="translate(77.051 196.41)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Count to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(213.462 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Count">
+        <path tabindex="-1" class="edge" transform="translate(77.051 213.462)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from OldMan to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(230.513 77.051)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to OldMan">
+        <path tabindex="-1" class="edge" transform="translate(77.051 230.513)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Labarre">
+        <path tabindex="-1" class="edge" transform="translate(264.615 247.564)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Labarre to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(247.564 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Mme.Magloire">
+        <path tabindex="-1" class="edge" transform="translate(264.615 128.205)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Magloire to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(128.205 264.615)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Mlle.Baptistine">
+        <path tabindex="-1" class="edge" transform="translate(264.615 111.154)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Baptistine to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(111.154 264.615)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Myriel">
+        <path tabindex="-1" class="edge" transform="translate(264.615 77.051)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Myriel to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(77.051 264.615)" style="fill:#9fd0cb;stroke:#9fd0cb;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marguerite to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(281.667 264.615)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Marguerite">
+        <path tabindex="-1" class="edge" transform="translate(264.615 281.667)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.deR to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(298.718 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Mme.deR">
+        <path tabindex="-1" class="edge" transform="translate(264.615 298.718)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Isabeau to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(315.77 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Isabeau">
+        <path tabindex="-1" class="edge" transform="translate(264.615 315.77)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gervais to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(332.82 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Gervais">
+        <path tabindex="-1" class="edge" transform="translate(264.615 332.82)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(366.923 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(349.872 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(383.974 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(349.872 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(383.974 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(366.923 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(401.026 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(349.872 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(401.026 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(366.923 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(401.026 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(383.974 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(418.077 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(349.872 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(418.077 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(366.923 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(418.077 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(383.974 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(418.077 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(401.026 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(435.128 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(349.872 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(435.128 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(366.923 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(435.128 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(383.974 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(435.128 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(401.026 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(435.128 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(418.077 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(452.18 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(349.872 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(452.18 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(366.923 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(452.18 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(383.974 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(452.18 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(401.026 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(452.18 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(418.077 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(452.18 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(435.128 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(469.23 349.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(349.872 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Listolier">
+        <path tabindex="-1" class="edge" transform="translate(469.23 366.923)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Listolier to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(366.923 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Fameuil">
+        <path tabindex="-1" class="edge" transform="translate(469.23 383.974)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fameuil to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(383.974 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Blacheville">
+        <path tabindex="-1" class="edge" transform="translate(469.23 401.026)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Blacheville to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(401.026 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Favourite">
+        <path tabindex="-1" class="edge" transform="translate(469.23 418.077)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Favourite to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(418.077 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Dahlia">
+        <path tabindex="-1" class="edge" transform="translate(469.23 435.128)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Dahlia to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(435.128 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Zephine">
+        <path tabindex="-1" class="edge" transform="translate(469.23 452.18)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Zephine to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(452.18 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Marguerite">
+        <path tabindex="-1" class="edge" transform="translate(469.23 281.667)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marguerite to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(281.667 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(469.23 264.615)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(264.615 469.23)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(486.282 469.23)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(469.23 486.282)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(486.282 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(264.615 486.282)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(503.333 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(486.282 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(503.333 469.23)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(469.23 503.333)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(503.333 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(264.615 503.333)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(520.385 486.282)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(486.282 520.385)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(520.385 264.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(264.615 520.385)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(520.385 349.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(349.872 520.385)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(520.385 503.333)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(503.333 520.385)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(537.436 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Javert">
+        <path tabindex="-1" class="edge" transform="translate(264.615 537.436)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(537.436 469.23)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Javert">
+        <path tabindex="-1" class="edge" transform="translate(469.23 537.436)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(537.436 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Javert">
+        <path tabindex="-1" class="edge" transform="translate(503.333 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(537.436 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Javert">
+        <path tabindex="-1" class="edge" transform="translate(486.282 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(537.436 520.385)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Javert">
+        <path tabindex="-1" class="edge" transform="translate(520.385 537.436)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fauchelevent to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(554.487 264.615)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Fauchelevent">
+        <path tabindex="-1" class="edge" transform="translate(264.615 554.487)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fauchelevent to Javert">
+        <path tabindex="-1" class="edge" transform="translate(554.487 537.436)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Fauchelevent">
+        <path tabindex="-1" class="edge" transform="translate(537.436 554.487)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(571.538 469.23)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(469.23 571.538)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Javert">
+        <path tabindex="-1" class="edge" transform="translate(571.538 537.436)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(537.436 571.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(571.538 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(264.615 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Perpetue to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(588.59 469.23)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Perpetue">
+        <path tabindex="-1" class="edge" transform="translate(469.23 588.59)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Simplice to Perpetue">
+        <path tabindex="-1" class="edge" transform="translate(605.641 588.59)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Perpetue to Simplice">
+        <path tabindex="-1" class="edge" transform="translate(588.59 605.641)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Simplice to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(605.641 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Simplice">
+        <path tabindex="-1" class="edge" transform="translate(264.615 605.641)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Simplice to Fantine">
+        <path tabindex="-1" class="edge" transform="translate(605.641 469.23)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fantine to Simplice">
+        <path tabindex="-1" class="edge" transform="translate(469.23 605.641)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Simplice to Javert">
+        <path tabindex="-1" class="edge" transform="translate(605.641 537.436)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Simplice">
+        <path tabindex="-1" class="edge" transform="translate(537.436 605.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Scaufflaire to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(622.692 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Scaufflaire">
+        <path tabindex="-1" class="edge" transform="translate(264.615 622.692)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Woman1 to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(639.744 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Woman1">
+        <path tabindex="-1" class="edge" transform="translate(264.615 639.744)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Woman1 to Javert">
+        <path tabindex="-1" class="edge" transform="translate(639.744 537.436)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Woman1">
+        <path tabindex="-1" class="edge" transform="translate(537.436 639.744)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(656.795 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Judge">
+        <path tabindex="-1" class="edge" transform="translate(264.615 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(656.795 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Judge">
+        <path tabindex="-1" class="edge" transform="translate(571.538 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(673.846 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(264.615 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Judge">
+        <path tabindex="-1" class="edge" transform="translate(673.846 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(656.795 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(673.846 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(571.538 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Judge">
+        <path tabindex="-1" class="edge" transform="translate(690.897 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(656.795 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(690.897 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(673.846 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(690.897 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(264.615 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(690.897 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(571.538 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Judge">
+        <path tabindex="-1" class="edge" transform="translate(707.949 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(656.795 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(707.949 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(673.846 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(707.949 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(690.897 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(707.949 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(264.615 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(707.949 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(571.538 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Judge">
+        <path tabindex="-1" class="edge" transform="translate(725 656.795)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Judge to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(656.795 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Champmathieu">
+        <path tabindex="-1" class="edge" transform="translate(725 673.846)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Champmathieu to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(673.846 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Brevet">
+        <path tabindex="-1" class="edge" transform="translate(725 690.897)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brevet to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(690.897 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Chenildieu">
+        <path tabindex="-1" class="edge" transform="translate(725 707.949)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Chenildieu to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(707.949 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(725 264.615)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(264.615 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cochepaille to Bamatabois">
+        <path tabindex="-1" class="edge" transform="translate(725 571.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bamatabois to Cochepaille">
+        <path tabindex="-1" class="edge" transform="translate(571.538 725)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Pontmercy to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(742.051 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Pontmercy">
+        <path tabindex="-1" class="edge" transform="translate(503.333 742.051)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Boulatruelle to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(759.103 503.333)" style="fill:#365350;stroke:#365350;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Boulatruelle">
+        <path tabindex="-1" class="edge" transform="translate(503.333 759.103)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(776.154 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(486.282 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(776.154 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(503.333 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Anzelma to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(793.205 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Anzelma">
+        <path tabindex="-1" class="edge" transform="translate(776.154 793.205)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Anzelma to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(793.205 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Anzelma">
+        <path tabindex="-1" class="edge" transform="translate(503.333 793.205)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Anzelma to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(793.205 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Anzelma">
+        <path tabindex="-1" class="edge" transform="translate(486.282 793.205)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Woman2 to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(810.256 264.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Woman2">
+        <path tabindex="-1" class="edge" transform="translate(264.615 810.256)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Woman2 to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(810.256 520.385)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Woman2">
+        <path tabindex="-1" class="edge" transform="translate(520.385 810.256)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Woman2 to Javert">
+        <path tabindex="-1" class="edge" transform="translate(810.256 537.436)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Woman2">
+        <path tabindex="-1" class="edge" transform="translate(537.436 810.256)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from MotherInnocent to Fauchelevent">
+        <path tabindex="-1" class="edge" transform="translate(827.308 554.487)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fauchelevent to MotherInnocent">
+        <path tabindex="-1" class="edge" transform="translate(554.487 827.308)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from MotherInnocent to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(827.308 264.615)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to MotherInnocent">
+        <path tabindex="-1" class="edge" transform="translate(264.615 827.308)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gribier to Fauchelevent">
+        <path tabindex="-1" class="edge" transform="translate(844.359 554.487)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Fauchelevent to Gribier">
+        <path tabindex="-1" class="edge" transform="translate(554.487 844.359)" style="fill:#e0488b;stroke:#e0488b;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Burgon to Jondrette">
+        <path tabindex="-1" class="edge" transform="translate(878.462 861.41)" style="fill:#a19a11;stroke:#a19a11;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Jondrette to Mme.Burgon">
+        <path tabindex="-1" class="edge" transform="translate(861.41 878.462)" style="fill:#a19a11;stroke:#a19a11;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Mme.Burgon">
+        <path tabindex="-1" class="edge" transform="translate(895.513 878.462)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Burgon to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(878.462 895.513)" style="fill:#a19a11;stroke:#a19a11;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(895.513 503.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(503.333 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Javert">
+        <path tabindex="-1" class="edge" transform="translate(895.513 537.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(537.436 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(895.513 264.615)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(264.615 895.513)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(912.564 520.385)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(520.385 912.564)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(912.564 264.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(264.615 912.564)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Magnon to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(929.615 912.564)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Magnon">
+        <path tabindex="-1" class="edge" transform="translate(912.564 929.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Magnon to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(929.615 486.282)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Magnon">
+        <path tabindex="-1" class="edge" transform="translate(486.282 929.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(946.667 912.564)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(912.564 946.667)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(946.667 520.385)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(520.385 946.667)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(946.667 264.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(264.615 946.667)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Pontmercy to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(963.718 946.667)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Mme.Pontmercy">
+        <path tabindex="-1" class="edge" transform="translate(946.667 963.718)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Pontmercy to Pontmercy">
+        <path tabindex="-1" class="edge" transform="translate(963.718 742.051)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Pontmercy to Mme.Pontmercy">
+        <path tabindex="-1" class="edge" transform="translate(742.051 963.718)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Vaubois to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(980.77 946.667)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Mlle.Vaubois">
+        <path tabindex="-1" class="edge" transform="translate(946.667 980.77)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Lt.Gillenormand to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(997.82 946.667)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Lt.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(946.667 997.82)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Lt.Gillenormand to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(997.82 912.564)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Lt.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(912.564 997.82)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Lt.Gillenormand to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(997.82 520.385)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Lt.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(520.385 997.82)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Mlle.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 946.667)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mlle.Gillenormand to Marius">
+        <path tabindex="-1" class="edge" transform="translate(946.667 1014.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 912.564)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to Marius">
+        <path tabindex="-1" class="edge" transform="translate(912.564 1014.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Pontmercy">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 742.051)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Pontmercy to Marius">
+        <path tabindex="-1" class="edge" transform="translate(742.051 1014.872)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Lt.Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 997.82)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Lt.Gillenormand to Marius">
+        <path tabindex="-1" class="edge" transform="translate(997.82 1014.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 520.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Marius">
+        <path tabindex="-1" class="edge" transform="translate(520.385 1014.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 264.615)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Marius">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1014.872)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Tholomyes">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 349.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Tholomyes to Marius">
+        <path tabindex="-1" class="edge" transform="translate(349.872 1014.872)" style="fill:#7566ff;stroke:#7566ff;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 503.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Marius">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1014.872)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 776.154)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Marius">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1014.872)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Marius">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from BaronessT to Gillenormand">
+        <path tabindex="-1" class="edge" transform="translate(1031.923 912.564)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gillenormand to BaronessT">
+        <path tabindex="-1" class="edge" transform="translate(912.564 1031.923)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from BaronessT to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1031.923 1014.872)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to BaronessT">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1031.923)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 776.154)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1048.974)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 537.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1066.026)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 264.615)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1066.026)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 776.154)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1134.23)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 264.615)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1168.333)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Joly">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1048.974)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Marius">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1014.872)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Marius to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1014.872 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Combeferre">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1083.077)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Combeferre to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1083.077 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Feuilly">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1117.18)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Feuilly to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1117.18 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Prouvaire">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1100.128)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Prouvaire to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1100.128 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from MotherPlutarch to Mabeuf">
+        <path tabindex="-1" class="edge" transform="translate(1219.487 1048.974)" style="fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mabeuf to MotherPlutarch">
+        <path tabindex="-1" class="edge" transform="translate(1048.974 1219.487)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1236.538)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(486.282 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1236.538)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Babet">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Babet">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Babet">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1253.59)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Babet">
+        <path tabindex="-1" class="edge" transform="translate(486.282 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Babet">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Babet">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1253.59)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Babet">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Babet">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1270.641)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Mme.Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 486.282)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Thenardier to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(486.282 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 1066.026)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1270.641)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 537.436)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Babet">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 264.615)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1287.692)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1287.692)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Toussaint to Cosette">
+        <path tabindex="-1" class="edge" transform="translate(1304.744 520.385)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Cosette to Toussaint">
+        <path tabindex="-1" class="edge" transform="translate(520.385 1304.744)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Toussaint to Javert">
+        <path tabindex="-1" class="edge" transform="translate(1304.744 537.436)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Javert to Toussaint">
+        <path tabindex="-1" class="edge" transform="translate(537.436 1304.744)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Toussaint to Valjean">
+        <path tabindex="-1" class="edge" transform="translate(1304.744 264.615)" style="fill:#7a255d;stroke:#7a255d;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Valjean to Toussaint">
+        <path tabindex="-1" class="edge" transform="translate(264.615 1304.744)" style="fill:#e0d33a;stroke:#e0d33a;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Child1 to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1321.795 895.513)" style="fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Child1">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1321.795)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Child2 to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1338.846 895.513)" style="fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Child2">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1338.846)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Child2 to Child1">
+        <path tabindex="-1" class="edge" transform="translate(1338.846 1321.795)" style="fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Child1 to Child2">
+        <path tabindex="-1" class="edge" transform="translate(1321.795 1338.846)" style="fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Babet">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 1253.59)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Babet to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(1253.59 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Gueulemer">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 1236.538)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gueulemer to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(1236.538 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Thenardier">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 503.333)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Thenardier to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(503.333 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 895.513)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1355.897)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Eponine">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 776.154)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Eponine to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(776.154 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Claquesous">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 1270.641)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Claquesous to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(1270.641 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Brujon to Montparnasse">
+        <path tabindex="-1" class="edge" transform="translate(1355.897 1287.692)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Montparnasse to Brujon">
+        <path tabindex="-1" class="edge" transform="translate(1287.692 1355.897)" style="fill:#533f82;stroke:#533f82;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Bossuet">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1168.333)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bossuet to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1168.333 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Joly">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1185.385)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Joly to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1185.385 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Grantaire">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1202.436)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Grantaire to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1202.436 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Bahorel">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1151.282)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Bahorel to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1151.282 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Courfeyrac">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1134.23)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Courfeyrac to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1134.23 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Gavroche">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 895.513)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Gavroche to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(895.513 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Mme.Hucheloup to Enjolras">
+        <path tabindex="-1" class="edge" transform="translate(1372.949 1066.026)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+      <g class="edge" aria-label="Connection from Enjolras to Mme.Hucheloup">
+        <path tabindex="-1" class="edge" transform="translate(1066.026 1372.949)" style="fill:#3f4482;stroke:#3f4482;fill-opacity:.75" d="M-8.636-8.636H8.637V8.637H-8.636z"/>
+      </g>
+    </g>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>

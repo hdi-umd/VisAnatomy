@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:400">
+  <defs>
+    <clipPath clip-rule="evenodd" id="a">
+      <path d="M34.5 51.5h801v295h-801Z" stroke="#000" fill="none"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h847v400H0Z" fill="#FFF"/>
+  <path d="M34 51h800.5v295H34Z" fill="none"/>
+  <path d="M167.5 51.5v295m134-295v295m133-295v295m134-295v295m133-295v295m134-295v295m-801-42h801m-801-42h801m-801-42h801m-801-43h801m-801-42h801m-801-42h801m-801-42h801m-801 295h801m-801 0v4m133-4v4m134-4v4m133-4v4m134-4v4m133-4v4m134-4v4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <g clip-path="url(#a)" fill-opacity=".6">
+    <path d="m34 242.329 133.417-128.958 133.416-28.657 133.417 82.6 133.417-23.6 133.416 70.8L834.5 263.4V346H34" fill="#1274AC"/>
+    <path d="M34 206.929 167.417 169l133.416-64.9L434.25 224.629l133.417-38.772 133.416 19.386L834.5 167.314V346H34" fill="#FFE162"/>
+    <path d="M34 298.8 167.417 228l133.416-46.357L434.25 307.229l133.417-64.9 133.416 37.928L834.5 265.929V346H34" fill="#4CD180"/>
+  </g>
+  <text x="411.75" y="387" fill="#424242" style="font:400 14px sans-serif;white-space:pre">Months</text>
+  <text x="24.5" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jan</text>
+  <text x="156.917" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Feb</text>
+  <text x="290.333" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Mar</text>
+  <text x="424.75" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Apr</text>
+  <text x="556.167" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">May</text>
+  <text x="691.583" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jun</text>
+  <text x="827" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jul</text>
+  <path d="M34.5 51.5v295m-4 0h4m-4-42h4m-4-42h4m-4-42h4m-4-43h4m-4-42h4m-4-42h4m-4-42h4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <text x="18" y="350" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">0</text>
+  <text x="12" y="307.857" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">50</text>
+  <text x="5" y="265.714" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">100</text>
+  <text x="5" y="223.571" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">150</text>
+  <text x="5" y="181.429" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">200</text>
+  <text x="5" y="139.286" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">250</text>
+  <text x="5" y="97.143" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">300</text>
+  <text x="5" y="55" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">350</text>
+  <text x="388.5" y="30" fill="#424242" style="font:400 16.002px sans-serif;white-space:pre">Units sold</text>
+  <g/>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="257.1" y="20.5" fill="#666" class="wj-title">Country GDP</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M96.8 342.5h447.5V369H96.8z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M97.8 343.5h445.5V368H97.8z"/>
+    <path fill="#466bb0" stroke="rgba(70,107,176,1)" d="M101.8 350.8h10v10h-10z"/>
+    <text x="115.8" y="361" class="wj-label">US</text>
+    <path fill="#c8b422" stroke="rgba(200,180,34,1)" d="M143 350.8h10v10h-10z"/>
+    <text x="157" y="361" class="wj-label">China</text>
+    <path fill="#14886e" stroke="rgba(20,136,110,1)" d="M201.3 350.8h10v10h-10z"/>
+    <text x="215.3" y="361" class="wj-label">Japan</text>
+    <path fill="#b54836" stroke="rgba(181,72,54,1)" d="M261.6 350.8h10v10h-10z"/>
+    <text x="275.6" y="361" class="wj-label">Germany</text>
+    <path fill="#6e5944" stroke="rgba(110,89,68,1)" d="M340.7 350.8h10v10h-10z"/>
+    <text x="354.7" y="361" class="wj-label">UK</text>
+    <path fill="#8b3872" stroke="rgba(139,56,114,1)" d="M382.2 350.8h10v10h-10z"/>
+    <text x="396.2" y="361" class="wj-label">France</text>
+    <path fill="#73b22b" stroke="rgba(115,178,43,1)" d="M447.2 350.8h10v10h-10z"/>
+    <text x="461.2" y="361" class="wj-label">India</text>
+    <path fill="#b87320" stroke="rgba(184,115,32,1)" d="M499.6 350.8h10v10h-10z"/>
+    <text x="513.6" y="361" class="wj-label">Italy</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M47.1 41.5h558.8V313H47.1z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="43.2" y="335.5" fill="#666" class="wj-label">0</text>
+    <path stroke="#666" class="wj-tick" d="M47.1 313v4"/>
+    <text x="129.8" y="335.5" fill="#666" class="wj-label">10,000,000</text>
+    <path stroke="#666" class="wj-tick" d="M164.8 313v4"/>
+    <text x="247.5" y="335.5" fill="#666" class="wj-label">20,000,000</text>
+    <path stroke="#666" class="wj-tick" d="M282.5 313v4"/>
+    <text x="365.2" y="335.5" fill="#666" class="wj-label">30,000,000</text>
+    <path stroke="#666" class="wj-tick" d="M400.2 313v4"/>
+    <text x="482.9" y="335.5" fill="#666" class="wj-label">40,000,000</text>
+    <path stroke="#666" class="wj-tick" d="M517.9 313v4"/>
+    <path stroke="#666" class="wj-line" d="M47.1 313H606"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M47.1 86.8H606"/>
+    <text x="3" y="92" fill="#666" class="wj-label">2014</text>
+    <path stroke="#666" class="wj-gridline" d="M47.1 177.3H606"/>
+    <text x="3" y="182.5" fill="#666" class="wj-label">2015</text>
+    <path stroke="#666" class="wj-gridline" d="M47.1 267.8H606"/>
+    <text x="3" y="273" fill="#666" class="wj-label">2016</text>
+  </g>
+  <g class="wj-series-group">
+    <g clip-path="url(#c)" fill="#466bb0" stroke="rgba(70,107,176,1)">
+      <path d="M47.1 55.1h204.2v63.3H47.1zm0 90.5h212.3V209H47.1zm0 90.5h219.2v63.4H47.1z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#c8b422" stroke="rgba(200,180,34,1)">
+      <path d="M251.3 55.1h121.9v63.3H251.3zm8.1 90.5H391V209H259.4zm6.9 90.5h132.2v63.4H266.3z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#14886e" stroke="rgba(20,136,110,1)">
+      <path d="M373.2 55.1h54.2v63.3h-54.2zm17.8 90.5h48.5V209H391zm7.5 90.5h58.1v63.4h-58.1z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#b54836" stroke="rgba(181,72,54,1)">
+      <path d="M427.4 55.1H473v63.3h-45.6zm12.2 90.5h39.6V209h-39.6zm17 90.5h40.9v63.4h-40.9z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#6e5944" stroke="rgba(110,89,68,1)">
+      <path d="M473 55.1h34.7v63.3H473zm6.2 90.5h33.6V209h-33.6zm18.4 90.5h30.9v63.4h-30.9z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#8b3872" stroke="rgba(139,56,114,1)">
+      <path d="M507.7 55.1h33.4v63.3h-33.4zm5.1 90.5h28.5V209h-28.5zm15.7 90.5h29v63.4h-29z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#73b22b" stroke="rgba(115,178,43,1)">
+      <path d="M541 55.1h24.1v63.3H541zm.3 90.5h24.4V209h-24.4zm16.2 90.5h26.6v63.4h-26.6z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#b87320" stroke="rgba(184,115,32,1)">
+      <path d="M565.2 55.1h25.3v63.3h-25.3zm.5 90.5h21.4V209h-21.4zm18.5 90.5H606v63.4h-21.8z"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M46.1 40.5h560.8V314H46.1z"/>
+  </clipPath>
+</svg>

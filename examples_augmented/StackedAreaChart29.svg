@@ -1,0 +1,158 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="axis axis y left">
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 310h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 256h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 202h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 148h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 94h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 40h610" class="tick-line tick left axis y left"/>
+        </g>
+      </g>
+      <g class="axis axis x bottom">
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M80 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M123.571 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M167.143 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M210.714 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M254.286 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M297.857 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M341.429 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M385 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M428.571 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M472.143 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M515.714 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M559.286 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M602.857 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M646.429 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M690 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+      </g>
+    </g>
+    <g class="lines" data-testid="lines" tabindex="0" aria-label="3 stacked areas in a stacked area chart">
+      <g class="xyframe-line" aria-label="13 point stacked area starting value 336600% at 1 ending value 900% at 13">
+        <path tabindex="-1" d="m0 1.118 43.571 9.5 43.572 78.383 43.571 46.918 43.572 43.628 43.571 21.207 43.572 13.413L305 207.4l43.571-9.679 43.572-3.19 43.571 29.964 43.572 9.305 43.571 15.432V270H0Z" class="xyframe-line" data-testid="xyframe-line" style="stroke:#ac58e5;stroke-width:2;fill:#ac58e5;fill-opacity:.6" transform="translate(80 40)"/>
+      </g>
+      <g class="xyframe-line" aria-label="15 point stacked area starting value 400% at 1 ending value 3100% at 15">
+        <path tabindex="-1" d="m0 .799 43.571 6.819 43.572 9.04 43.571 38.179 43.572.893 43.571-3.127 43.572 9.509L305 69.677l43.571-12.786 43.572 11.422 43.571 30.788 43.572 12.52 43.571-3.16 43.572 1.994L610 99.184V270h-43.571l-43.572-20.77-43.571-15.431-43.572-9.305-43.571-29.964-43.572 3.19L305 207.4l-43.571 6.767-43.572-13.413-43.571-21.207-43.572-43.628-43.571-46.918L43.57 10.618 0 1.118Z" class="xyframe-line" data-testid="xyframe-line" style="stroke:#e0488b;stroke-width:2;fill:#e0488b;fill-opacity:.6" transform="translate(80 40)"/>
+      </g>
+      <g class="xyframe-line" aria-label="15 point stacked area starting value 1000% at 1 ending value 1800% at 15">
+        <path tabindex="-1" d="M0 0h610v99.184l-43.571 11.27-43.572-1.992-43.571 3.158-43.572-12.519-43.571-30.788-43.572-11.422L305 69.677l-43.571-7.565-43.572-9.509-43.571 3.127-43.572-.893-43.571-38.178L43.57 7.618 0 .798Z" class="xyframe-line" data-testid="xyframe-line" style="stroke:#9fd0cb;stroke-width:2;fill:#9fd0cb;fill-opacity:.6" transform="translate(80 40)"/>
+      </g>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis y left" aria-label="left axis from 0% to 100%">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 315)">0%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 261)">20%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 207)">40%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 153)">60%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 99)">80%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 45)">100%</text>
+        </g>
+        <path class="axis-baseline axis y left" stroke="#000" stroke-linecap="square" d="M80 40v270"/>
+        <text text-anchor="middle" transform="rotate(-90 105 70)" class="axis-title axis y left">Number of Theaters</text>
+      </g>
+      <g class="axis x bottom" aria-label="bottom axis from 1 to 15">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(80 335)">1</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(123.571 335)">2</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(167.143 335)">3</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(210.714 335)">4</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(254.286 335)">5</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(297.857 335)">6</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(341.429 335)">7</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(385 335)">8</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(428.571 335)">9</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(472.143 335)">10</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(515.714 335)">11</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(559.286 335)">12</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(602.857 335)">13</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(646.429 335)">14</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(690 335)">15</text>
+        </g>
+        <path class="axis-baseline axis x bottom" stroke="#000" stroke-linecap="square" d="M80 310h610"/>
+        <text text-anchor="middle" transform="translate(385 365)" class="axis-title axis x bottom">Weeks from Opening Day</text>
+      </g>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Theaters showing <tspan fill="#ac58e5">Ex Machina</tspan> vs <tspan fill="#E0488B">Far from the Madding Crowd</tspan></text>
+</svg>

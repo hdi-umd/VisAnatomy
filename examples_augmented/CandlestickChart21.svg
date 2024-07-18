@@ -1,0 +1,36 @@
+<svg width="350" height="350" viewBox="0 0 350 350" style="width:100%;height:100%;pointer-events:all">
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" d="M50 300h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M75 300V50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M75 300v5"/>
+  <text direction="inherit" dx="0" x="75" y="323.26"><tspan x="75" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">1/6</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M125 300V50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M125 300v5"/>
+  <text direction="inherit" dx="0" x="125" y="323.26"><tspan x="125" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">2/6</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M175 300V50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M175 300v5"/>
+  <text direction="inherit" dx="0" x="175" y="323.26"><tspan x="175" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">3/6</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M225 300V50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M225 300v5"/>
+  <text direction="inherit" dx="0" x="225" y="323.26"><tspan x="225" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">4/6</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M275 300V50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M275 300v5"/>
+  <text direction="inherit" dx="0" x="275" y="323.26"><tspan x="275" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">5/6</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" d="M50 50v250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M50 250h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 250h-5"/>
+  <text direction="inherit" dx="0" x="37" y="254.26"><tspan x="37" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">5</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M50 200h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 200h-5"/>
+  <text direction="inherit" dx="0" x="37" y="204.26"><tspan x="37" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">10</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M50 150h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 150h-5"/>
+  <text direction="inherit" dx="0" x="37" y="154.26"><tspan x="37" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">15</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M50 100h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 100h-5"/>
+  <text direction="inherit" dx="0" x="37" y="104.26"><tspan x="37" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">20</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#eceff1;fill:none;stroke-dasharray:10,5;stroke-linecap:round;stroke-linejoin:round;pointer-events:painted" d="M50 50h250"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#90a4ae;fill:transparent;size:5px;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 50h-5"/>
+  <text direction="inherit" dx="0" x="37" y="54.26"><tspan x="37" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Helvetica Neue&quot;,Helvetica,sans-serif;font-size:12px;letter-spacing:normal;padding:8px;fill:#455a64;stroke:transparent;stroke-width:0">25</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#455a64;fill:#5f5c5b" d="M66.071 200h17.857v50H66.071zM75 150v50m0 50v50m41.071-150h17.857v50h-17.857zM125 100v50m0 50v50m41.071-150h17.857v50h-17.857zM175 80v20m0 50v50"/>
+  <path vector-effect="non-scaling-stroke" style="stroke:#455a64;fill:#c43a31" d="M216.071 100h17.857v100h-17.857zM225 50v50m0 100v30m41.071-30h17.857v20h-17.857zM275 150v50m0 20v30"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="114.3" y="20.5" fill="#666" class="wj-title">Best-selling Mobile Phones Brands of 2017</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M558.9 122H642v149h-83.1z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M559.9 123H641v147h-81.1z"/>
+    <path fill="#9c88d9" stroke="rgba(156,136,217,1)" d="M563.9 130.3h10v10h-10z"/>
+    <text x="577.9" y="140.5" class="wj-label">Samsung</text>
+    <path fill="#a3d767" stroke="rgba(163,215,103,1)" d="M563.9 154.8h10v10h-10z"/>
+    <text x="577.9" y="165" class="wj-label">Apple</text>
+    <path fill="#8ec3c0" stroke="rgba(142,195,192,1)" d="M563.9 179.3h10v10h-10z"/>
+    <text x="577.9" y="189.5" class="wj-label">Huawei</text>
+    <path fill="#e9c3a9" stroke="rgba(233,195,169,1)" d="M563.9 203.8h10v10h-10z"/>
+    <text x="577.9" y="214" class="wj-label">OPPO</text>
+    <path fill="#91ab36" stroke="rgba(145,171,54,1)" d="M563.9 228.3h10v10h-10z"/>
+    <text x="577.9" y="238.5" class="wj-label">Vivo</text>
+    <path fill="#d4ccc0" stroke="rgba(212,204,192,1)" d="M563.9 252.8h10v10h-10z"/>
+    <text x="577.9" y="263" class="wj-label">Others</text>
+  </g>
+  <g class="wj-slice-group">
+    <path fill="#a3d767" stroke="rgba(163,215,103,1)" d="M360.606 90.922a132.9 132.9 0 0 1 52.079 99.646l-132.773 5.908z" class="wj-slice"/>
+    <path fill="#8ec3c0" stroke="rgba(142,195,192,1)" d="M412.685 190.568a132.9 132.9 0 0 1-23.483 81.61l-109.29-75.702z" class="wj-slice"/>
+    <path fill="#e9c3a9" stroke="rgba(233,195,169,1)" d="M389.202 272.178a132.9 132.9 0 0 1-44.347 40.291l-64.943-115.993z" class="wj-slice"/>
+    <path fill="#91ab36" stroke="rgba(145,171,54,1)" d="M344.855 312.47a132.9 132.9 0 0 1-51.18 16.19l-13.763-132.184z" class="wj-slice"/>
+    <path fill="#d4ccc0" stroke="rgba(212,204,192,1)" d="M293.675 328.66A132.9 132.9 0 0 1 199.24 90.862l80.673 105.614z" class="wj-slice"/>
+    <g class="wj-slice">
+      <path fill="#9c88d9" stroke="rgba(156,136,217,1)" d="M199.207 64.461a132.9 132.9 0 0 1 161.367.06L279.88 170.075z" class="wj-state-selected"/>
+    </g>
+  </g>
+  <g class="wj-data-labels">
+    <text x="262.2" y="108.7" class="wj-data-label">321M</text>
+    <text x="321.1" y="170.9" class="wj-data-label">215M</text>
+    <text x="326" y="220.2" class="wj-data-label">160M</text>
+    <text x="306.9" y="251" class="wj-data-label">112M</text>
+    <text x="282.2" y="265.1" class="wj-data-label">100M</text>
+    <text x="200.4" y="226.3" class="wj-data-label">638M</text>
+  </g>
+</svg>

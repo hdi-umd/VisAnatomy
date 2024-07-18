@@ -1,0 +1,43 @@
+<svg width="1031" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h1033v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="309.3" y="20.5" fill="#666" class="wj-title">Best-selling Mobile Phones Brands of 2017</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M948.9 122h83.1v149h-83.1z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M949.9 123h81.1v147h-81.1z"/>
+    <path fill="#2a9fd6" stroke="rgba(42,159,214,1)" d="M953.9 130.3h10v10h-10z"/>
+    <text x="967.9" y="140.5" class="wj-label">Samsung</text>
+    <path fill="#77b300" stroke="rgba(119,179,0,1)" d="M953.9 154.8h10v10h-10z"/>
+    <text x="967.9" y="165" class="wj-label">Apple</text>
+    <path fill="#93c" stroke="rgba(153,51,204,1)" d="M953.9 179.3h10v10h-10z"/>
+    <text x="967.9" y="189.5" class="wj-label">Huawei</text>
+    <path fill="#f80" stroke="rgba(255,136,0,1)" d="M953.9 203.8h10v10h-10z"/>
+    <text x="967.9" y="214" class="wj-label">OPPO</text>
+    <path fill="#c00" stroke="rgba(204,0,0,1)" d="M953.9 228.3h10v10h-10z"/>
+    <text x="967.9" y="238.5" class="wj-label">Vivo</text>
+    <path fill="#00cca3" stroke="rgba(0,204,163,1)" d="M953.9 252.8h10v10h-10z"/>
+    <text x="967.9" y="263" class="wj-label">Others</text>
+  </g>
+  <g class="wj-slice-group">
+    <path fill="#2a9fd6" stroke="rgba(42,159,214,1)" d="M335.43 196.5A139.5 139.5 0 0 1 438.232 61.914l18.349 67.293A69.75 69.75 0 0 0 405.18 196.5z" class="wj-slice"/>
+    <path fill="#77b300" stroke="rgba(119,179,0,1)" d="M438.232 61.914a139.5 139.5 0 0 1 116.337 20.053l-39.82 57.266a69.75 69.75 0 0 0-58.168-10.026z" class="wj-slice"/>
+    <path fill="#93c" stroke="rgba(153,51,204,1)" d="M554.569 81.967a139.5 139.5 0 0 1 53.086 71.587l-66.363 21.473a69.75 69.75 0 0 0-26.543-35.794z" class="wj-slice"/>
+    <path fill="#f80" stroke="rgba(255,136,0,1)" d="M607.655 153.554a139.5 139.5 0 0 1 5.366 62.722l-69.046-9.888a69.75 69.75 0 0 0-2.683-31.361z" class="wj-slice"/>
+    <path fill="#c00" stroke="rgba(204,0,0,1)" d="M613.021 216.276a139.5 139.5 0 0 1-19.067 52.98l-59.512-36.378a69.75 69.75 0 0 0 9.533-26.49z" class="wj-slice"/>
+    <path fill="#00cca3" stroke="rgba(0,204,163,1)" d="M593.954 269.256A139.5 139.5 0 0 1 335.43 196.5h69.75a69.75 69.75 0 0 0 129.262 36.378z" class="wj-slice"/>
+  </g>
+  <g class="wj-data-labels">
+    <text x="259.8" y="108.8" class="wj-data-label">Samsung 20.8%</text>
+    <text x="457.9" y="56.1" class="wj-data-label">Apple 13.9%</text>
+    <text x="587" y="110.4" class="wj-data-label">Huawei 10.3%</text>
+    <text x="613.9" y="189.8" class="wj-data-label">OPPO 7.2%</text>
+    <text x="606.2" y="257.3" class="wj-data-label">Vivo 6.5%</text>
+    <text x="350" y="344.3" class="wj-data-label">Others 41.3%</text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg class="visualization-layer" width="400" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="36 bars in a bar chart">
+      <path tabindex="-1" d="M0-67.132a67.13 67.13 0 0 1 33.566 8.994L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Jason bar value 40"/>
+      <path tabindex="-1" d="M0-71.204a71.2 71.2 0 0 1 35.602 9.54l-2.036 3.526A67.13 67.13 0 0 0 0-67.132Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Jason bar value 5"/>
+      <path tabindex="-1" d="M0-82.22a82.2 82.2 0 0 1 41.11 11.016l-5.508 9.54A71.2 71.2 0 0 0 0-71.204Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Jason bar value 15"/>
+      <path tabindex="-1" d="M11.867-20.555a23.74 23.74 0 0 1 8.688 8.688L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Susie bar value 5"/>
+      <path tabindex="-1" d="M29.069-50.349a58.14 58.14 0 0 1 21.28 21.28L20.555-11.867a23.74 23.74 0 0 0-8.688-8.688Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Susie bar value 25"/>
+      <path tabindex="-1" d="M60.512-104.81a121 121 0 0 1 44.297 44.298L50.35-29.069a58.14 58.14 0 0 0-21.28-21.28Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Susie bar value 100"/>
+      <path tabindex="-1" d="M41.11-23.735A47.47 47.47 0 0 1 47.47 0H0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Matt bar value 20"/>
+      <path tabindex="-1" d="M61.664-35.602A71.2 71.2 0 0 1 71.204 0H47.469a47.47 47.47 0 0 0-6.36-23.735Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Matt bar value 25"/>
+      <path tabindex="-1" d="M89.596-51.728A103.46 103.46 0 0 1 103.456 0H71.205a71.2 71.2 0 0 0-9.54-35.602Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Matt bar value 50"/>
+      <path tabindex="-1" d="M58.138 0a58.14 58.14 0 0 1-7.79 29.069L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Betty bar value 30"/>
+      <path tabindex="-1" d="M75.056 0A75.06 75.06 0 0 1 65 37.528l-14.651-8.46A58.14 58.14 0 0 0 58.138 0Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Betty bar value 20"/>
+      <path tabindex="-1" d="M82.22 0a82.2 82.2 0 0 1-11.016 41.11L65 37.528A75.06 75.06 0 0 0 75.056 0Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Betty bar value 10"/>
+      <path tabindex="-1" d="M20.555 11.867a23.74 23.74 0 0 1-8.688 8.688L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Ian bar value 5"/>
+      <path tabindex="-1" d="M65 37.528A75.06 75.06 0 0 1 37.528 65l-25.66-44.445a23.74 23.74 0 0 0 8.687-8.688Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Ian bar value 45"/>
+      <path tabindex="-1" d="M112.583 65A130 130 0 0 1 65 112.583L37.528 65A75.06 75.06 0 0 0 65 37.528Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Ian bar value 100"/>
+      <path tabindex="-1" d="M16.783 29.069A33.57 33.57 0 0 1 0 33.566V0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Noah bar value 10"/>
+      <path tabindex="-1" d="M20.555 35.602A41.1 41.1 0 0 1 0 41.11v-7.544a33.57 33.57 0 0 0 16.783-4.497Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Noah bar value 5"/>
+      <path tabindex="-1" d="M29.069 50.349A58.14 58.14 0 0 1 0 58.138V41.11a41.1 41.1 0 0 0 20.555-5.508Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Noah bar value 15"/>
+      <path tabindex="-1" d="M0 47.47a47.47 47.47 0 0 1-23.735-6.36L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Shirley bar value 20"/>
+      <path tabindex="-1" d="M0 71.204a71.2 71.2 0 0 1-35.602-9.54l11.867-20.554A47.47 47.47 0 0 0 0 47.47Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Shirley bar value 25"/>
+      <path tabindex="-1" d="M0 103.457a103.46 103.46 0 0 1-51.728-13.86l16.126-27.933A71.2 71.2 0 0 0 0 71.204Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Shirley bar value 50"/>
+      <path tabindex="-1" d="M-29.069 50.349a58.14 58.14 0 0 1-21.28-21.28L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Rachel bar value 30"/>
+      <path tabindex="-1" d="M-37.528 65A75.06 75.06 0 0 1-65 37.528l14.651-8.46a58.14 58.14 0 0 0 21.28 21.28Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Rachel bar value 20"/>
+      <path tabindex="-1" d="M-41.11 71.204A82.2 82.2 0 0 1-71.204 41.11L-65 37.528A75.06 75.06 0 0 0-37.528 65Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Rachel bar value 10"/>
+      <path tabindex="-1" d="M-50.349 29.069A58.14 58.14 0 0 1-58.138 0H0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Nadieh bar value 30"/>
+      <path tabindex="-1" d="M-65 37.528A75.06 75.06 0 0 1-75.056 0h16.918a58.14 58.14 0 0 0 7.79 29.069Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Nadieh bar value 20"/>
+      <path tabindex="-1" d="M-74.111 42.788A85.6 85.6 0 0 1-85.576 0h10.52A75.06 75.06 0 0 0-65 37.528Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Nadieh bar value 15"/>
+      <path tabindex="-1" d="M-47.47 0a47.47 47.47 0 0 1 6.36-23.735L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Jim bar value 20"/>
+      <path tabindex="-1" d="M-71.204 0a71.2 71.2 0 0 1 9.54-35.602l20.554 11.867A47.47 47.47 0 0 0-47.47 0Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Jim bar value 25"/>
+      <path tabindex="-1" d="M-103.457 0a103.46 103.46 0 0 1 13.86-51.728l27.933 16.126A71.2 71.2 0 0 0-71.204 0Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Jim bar value 50"/>
+      <path tabindex="-1" d="M-20.555-11.867a23.74 23.74 0 0 1 8.688-8.688L0 0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Zan bar value 5"/>
+      <path tabindex="-1" d="M-55.915-32.283a64.57 64.57 0 0 1 23.632-23.632l20.416 35.36a23.74 23.74 0 0 0-8.688 8.688Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Zan bar value 32"/>
+      <path tabindex="-1" d="M-107.594-62.12a124.24 124.24 0 0 1 45.474-45.474l29.837 51.679a64.57 64.57 0 0 0-23.632 23.632Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Zan bar value 100"/>
+      <path tabindex="-1" d="M-29.069-50.349A58.14 58.14 0 0 1 0-58.138V0Z" transform="translate(200 200)" style="fill:#ac58e5;stroke:#fff" aria-label="Shelby bar value 30"/>
+      <path tabindex="-1" d="M-37.528-65A75.06 75.06 0 0 1 0-75.056v16.918a58.14 58.14 0 0 0-29.069 7.79Z" transform="translate(200 200)" style="fill:#e0488b;stroke:#fff" aria-label="Shelby bar value 20"/>
+      <path tabindex="-1" d="M-41.11-71.204A82.2 82.2 0 0 1 0-82.219v7.163A75.06 75.06 0 0 0-37.528-65Z" transform="translate(200 200)" style="fill:#9fd0cb;stroke:#fff" aria-label="Shelby bar value 10"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis-labels">
+        <g class="axis axis-label axis-tick radial">
+          <path d="M124.9 200a75.056 75.056 0 1 0 150.111 0 75.056 75.056 0 1 0-150.111 0Z" stroke="gray" fill="none"/>
+          <text y="-70.056" text-anchor="middle" transform="translate(200 200)">50</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M93.9 200a106.145 106.145 0 1 0 212.29 0 106.145 106.145 0 1 0-212.29 0Z" stroke="gray" fill="none"/>
+          <text y="-101.145" text-anchor="middle" transform="translate(200 200)">100</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M70 200a130 130 0 1 0 260 0 130 130 0 1 0-260 0Z" stroke="gray" fill="none"/>
+          <text y="-125" text-anchor="middle" transform="translate(200 200)">150</text>
+        </g>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="middle">
+      <text transform="rotate(15 -146.862 927.073)">Jason</text>
+      <text transform="rotate(45 21.54 408.922)">Susie</text>
+      <text transform="rotate(75 57.645 297.823)">Matt</text>
+      <text transform="rotate(-75 323.503 -101.822)">Betty</text>
+      <text transform="rotate(-45 514.037 -212.921)">Ian</text>
+      <text transform="rotate(-15 1402.67 -731.075)">Noah</text>
+      <text transform="rotate(15 -1202.67 788.076)">Shirley</text>
+      <text transform="rotate(45 -314.037 269.922)">Rachel</text>
+      <text transform="rotate(75 -123.503 158.823)">Nadieh</text>
+      <text transform="rotate(-75 142.355 37.178)">Jim</text>
+      <text transform="rotate(-45 178.46 -73.92)">Zan</text>
+      <text transform="rotate(-15 346.862 -592.078)">Shelby</text>
+    </g>
+  </g>
+  <g class="frame-title">
+    <text class="frame-title" style="text-anchor:middle;pointer-events:none" transform="translate(200 25)">Tweets</text>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>

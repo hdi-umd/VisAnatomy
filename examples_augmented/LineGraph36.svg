@@ -1,0 +1,87 @@
+<svg width="778" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h780v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="258.6" y="20.5" fill="#666" class="wj-title">Monthly Mean Temperature</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M659.4 171H779v51H659.4z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M660.4 172H778v49H660.4z"/>
+    <circle stroke="#66c2a5" fill="#fff" cx="669.4" cy="184.3" r="3"/>
+    <path stroke="#66c2a5" fill="#fff" d="M664.4 184.3h10"/>
+    <text x="678.4" y="189.5" class="wj-label">New York 🗽</text>
+    <circle stroke="#fc8d62" fill="#fff" cx="669.4" cy="208.8" r="3"/>
+    <path stroke="#fc8d62" fill="#fff" d="M664.4 208.8h10"/>
+    <text x="678.4" y="214" class="wj-label">Los Angeles 🌴</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M42.7 41.5H635v296H42.7z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="62.1" y="360" fill="#666" class="wj-label">0°C</text>
+    <path stroke="#666" class="wj-tick" d="M73.9 337.5v4"/>
+    <text x="163.3" y="360" fill="#666" class="wj-label">5°C</text>
+    <path stroke="#666" class="wj-tick" d="M175 337.5v4"/>
+    <text x="260.5" y="360" fill="#666" class="wj-label">10°C</text>
+    <path stroke="#666" class="wj-tick" d="M276.1 337.5v4"/>
+    <text x="361.6" y="360" fill="#666" class="wj-label">15°C</text>
+    <path stroke="#666" class="wj-tick" d="M377.3 337.5v4"/>
+    <text x="462.8" y="360" fill="#666" class="wj-label">20°C</text>
+    <path stroke="#666" class="wj-tick" d="M478.4 337.5v4"/>
+    <text x="563.9" y="360" fill="#666" class="wj-label">25°C</text>
+    <path stroke="#666" class="wj-tick" d="M579.6 337.5v4"/>
+    <path stroke="#666" class="wj-line" d="M42.7 337.5H635"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <text x="7.1" y="59.1" fill="#666" class="wj-label">Jan</text>
+    <text x="5.9" y="83.8" fill="#666" class="wj-label">Feb</text>
+    <text x="5.3" y="108.4" fill="#666" class="wj-label">Mar</text>
+    <text x="7.6" y="133.1" fill="#666" class="wj-label">Apr</text>
+    <text x="3" y="157.8" fill="#666" class="wj-label">May</text>
+    <text x="6.9" y="182.4" fill="#666" class="wj-label">Jun</text>
+    <text x="11.6" y="207.1" fill="#666" class="wj-label">Jul</text>
+    <text x="4.7" y="231.8" fill="#666" class="wj-label">Aug</text>
+    <text x="4.8" y="256.4" fill="#666" class="wj-label">Sep</text>
+    <text x="7.1" y="281.1" fill="#666" class="wj-label">Oct</text>
+    <text x="4.6" y="305.8" fill="#666" class="wj-label">Nov</text>
+    <text x="4.8" y="330.4" fill="#666" class="wj-label">Dec</text>
+    <path stroke="#666" class="wj-gridline-minor" d="M42.7 66.2H635M42.7 90.8H635M42.7 115.5H635M42.7 140.2H635M42.7 164.8H635M42.7 189.5H635M42.7 214.2H635M42.7 238.8H635M42.7 263.5H635M42.7 288.2H635M42.7 312.8H635"/>
+  </g>
+  <g class="wj-series-group">
+    <g stroke="#66c2a5">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m92.1 53.8 2.6 3.2 2.4 3.3 2.3 3.1 2.9 3.4 3.5 3.4 3.4 2.7 3.8 2.7 3.4 1.9 2 1 1.6.8 4 1.8 4.3 1.7 4.5 1.8 3.2 1.2 3.3 1.2 3.4 1.2 3.5 1.2 3.6 1.1 3.8 1.2 3.8 1.2 4 1.2 4 1.2 4.2 1.2 4.3 1.1 4.4 1.2 4.5 1.2 4.6 1.2 4.7 1.2 3.1.8 1.7.4 5 1.1 5.2 1.2 5.4 1.2 5.7 1.2 5.8 1.2 5.9 1.2 3 .6 3.1.5 3 .6 3.1.6 3.1.6 3.1.6 3.2.6 3.1.6 3.2.6 3.2.6 3.1.6 3.2.6 3.2.6 3.1.6 3.2.5 3.1.6 3.1.6 3.2.6 3.1.6 3 .6 3.1.6 3 .6 6 1.2 5.8 1.2 5.7 1.1 2.7.6 2.8.6 5.4 1.2 5.3 1.2 5.3 1.2 5.3 1.2 5.2 1.1 5.1 1.2 5.1 1.2 5 1.2 5.1 1.2 5 1.2 4.9 1.1 4.9 1.2 5 1.2 4.9 1.2 4.9 1.2 4.8 1.2 4.9 1.2 4.9 1.1 4.9 1.2 4.9 1.2 1.6.4 3.3.8 5 1.2 5 1.2 5 1.1 5 1.2 5.1 1.2 5 1.2 5.1 1.2 5 1.2 5 1.1 5 1.2 4.9 1.2 4.8 1.2 4.8 1.2 4.6 1.2 4.6 1.1 4.5 1.2 4.4 1.2 4.3 1.2 4.1 1.2 4 1.2.6.2 3.3 1 3.9 1.1 3.8 1.2 3.9 1.2 3.8 1.2 3.8 1.2 3.6 1.2 3.6 1.1 3.6 1.2 3.4 1.2 3.2 1.2 3.2 1.2 4.4 1.8 4 1.7 3.6 1.8 3.1 1.8 3.3 2.3 1.2 1.2 1.8 2.4 1.1 3.6-.6 3.5-2.2 3.6-3.6 3.5-3.1 2.4-3.6 2.3-3.1 1.8-2.8 1.6-.4.2-3.6 1.8-3.9 1.7-4.3 1.8-3 1.2-3.2 1.2-3.3 1.2-3.5 1.2-3.6 1.1-3.7 1.2-3.8 1.2-4 1.2-4.1 1.2-4.2 1.2-4.3 1.1-4.4 1.2-4.6 1.2-4.6 1.2-4.8 1.2-4.8 1.2-.8.2-4.2 1-5.2 1.1-5.5 1.2-5.7 1.2-5.9 1.2-6 1.2-3.1.6-3.1.6-3.1.5-3.1.6-3.2.6-3.2.6-3.3.6-3.2.6-3.2.6-3.3.6-3.3.6-3.2.6-3.3.6-3.3.6-3.3.6-3.2.5-3.3.6-3.2.6-3.3.6-3.2.6-3.2.6-3.1.6-3.2.6-3.1.6-3.1.6-3 .6-3.1.6-5.9 1.1-2.8.6-2.9.6-5.7 1.2-5.6 1.2-5.6 1.2-5.5 1.2-5.5 1.1-5.5 1.2-5.4 1.2-5.4 1.2-5.3 1.2-5.4 1.2-5.2 1.1-5.3 1.2-5.2 1.2-5.2 1.2-5.2 1.2-5.2 1.2-5.1 1.2-5.2 1.1-5.1 1.2-5.1 1.2-1.7.4-3.4.8-5.3 1.2-5.5 1.3-5.5 1.4-5.6 1.3-5.7 1.4-5.6 1.4-5.7 1.3-5.6 1.4-5.5 1.4-5.5 1.3-5.3 1.3-5.1 1.3-4.9 1.2-4.7 1.2-4.5 1.1-4.1 1-3.9 1-3.5.8-3.1.8-3.1.8"/>
+      <circle stroke-width="2" fill="#fff" cx="92.1" cy="53.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="118.4" cy="78.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="195.2" cy="103.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="318.6" cy="127.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="423.8" cy="152.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="522.9" cy="177.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="585.6" cy="201.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="569.5" cy="226.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="492.6" cy="251.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="365.2" cy="275.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="253.9" cy="300.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="152.8" cy="325.2" r="6"/>
+    </g>
+    <g stroke="#fc8d62">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m371.2 53.8.5 3.2.4 3.3.4 3.1.6 3.4.8 3.4 1.1 3.4 1.4 3.3.9 1.6.9 1.4 2.7 3.5 3.2 3.6 3.6 3.5 3.2 3 3.3 3 3.3 2.9 3.2 3 .9.8 2.3 2.1 3.4 3 3.4 3 3.5 2.9 3.5 3 3.5 2.9 3.4 3 3.4 3 1.9 1.7 1.2 1.2 3.5 3.6 3.2 3.5 3.1 3.6 3.3 3.5 3.4 3.6 3.2 2.9 3.4 2.8.2.2 3.1 2.4 3.3 2.3 3.5 2.4 3.6 2.4 3.7 2.3 3.9 2.4 3.8 2.4 4 2.3 4 2.4 4 2.4 1.3.8 1.7 1 3.2 1.7 3.3 1.8 3.4 1.8 3.6 1.8 3.5 1.7 3.6 1.8 3.5 1.8 3.4 1.8 3.3 1.7 3.1 1.8 3.9 2.4 3.5 2.3 1.5 1.2 2.1 1.8 3.2 3 3.3 3.5 2.7 3.6 2.1 3.5 1.5 3.6 1 3.5.3 2.2v1.4l-.1 3.5-.6 3.6-1.2 3.5-1.9 3.6-2.6 3.5-3.5 3.6-2.3 2-1.2 1-3.3 2.3-3.8 2.4-3 1.8-3.3 1.7-3.4 1.8-3.6 1.8-3.7 1.8-3.9 1.7-4 1.8-4.1 1.8-4.1 1.8-4.3 1.7-2.8 1.2-1.5.6-4.5 1.8-3.1 1.2-3.3 1.2-3.3 1.2-3.4 1.1-3.5 1.2-3.5 1.2-3.6 1.2-3.6 1.2-3.6 1.2-3.6 1.1-3.6 1.2-3.6 1.2-3.5 1.2-3.6 1.2-3.4 1.2-3.4 1.1-3.3 1.2-3.3 1.2-2.6 1-.5.2-3.2 1.2-3.2 1.3-3.3 1.3-3.3 1.3-3.3 1.4-3.3 1.4-3.3 1.3-3.2 1.4-3.2 1.4-3.2 1.3-3.1 1.4-4.4 1.9-4.2 1.8-3.8 1.7-3.5 1.5-3.1 1.3-3.3 1.5-.3.1"/>
+      <circle stroke-width="2" fill="#fff" cx="371.2" cy="53.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="377.3" cy="78.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="401.6" cy="103.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="429.9" cy="127.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="454.2" cy="152.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="492.6" cy="177.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="537.1" cy="201.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="553.3" cy="226.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="541.1" cy="251.2" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="492.6" cy="275.8" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="421.8" cy="300.5" r="6"/>
+      <circle stroke-width="2" fill="#fff" cx="363.1" cy="325.2" r="6"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M41.7 40.5H636v298H41.7z"/>
+  </clipPath>
+</svg>

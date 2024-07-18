@@ -1,0 +1,118 @@
+<svg shape-rendering="geometricPrecision" width="600" height="400" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;cursor:crosshair">
+  <style>
+    text{text-rendering:optimizeLegibility}#ps2tAfu .axis-text-x,#ps2tAfu .axis-text-y{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="ps2tAfu">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v400h600V0Z"/>
+    <path stroke="#E9E9E9" fill="none" d="M89.655 354V10m84.733 344V10m84.732 344V10m84.732 344V10m84.732 344V10m84.733 344V10M36.98 314.211h553.019M36.98 250.49h553.019M36.98 186.769h553.019M36.98 123.048h553.019M36.98 59.327h553.019"/>
+    <g transform="translate(36.98 10)" clip-path="url(#cB1sIfA)">
+      <defs>
+        <clipPath id="cB1sIfA">
+          <path d="M0 0h553.019v344H0z"/>
+        </clipPath>
+      </defs>
+      <path d="m120.964 241.21 73.515 34.02" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m179.7 272.668 14.779 2.562-11.519-9.608Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m208.854 282.74 3.914 2.472" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m198.445 280.756 14.323 4.456-10.176-11.02Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m215.924 288.312-23.207-10.005" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m207.559 280.478-14.842-2.171 11.768 9.3Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m177.863 271.72-24.098-11.193" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m168.54 263.11-14.775-2.583 11.504 9.625Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m138.97 253.807-25.356-11.07" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m128.446 244.976-14.832-2.24 11.725 9.356Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m104.22 238.635.707-2.031" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m103.838 251.564 1.089-14.96-8.424 12.411Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m110.539 238.727 85.068 32.186" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m180.681 269.417 14.926 1.496-12.178-8.758Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m211.096 275.617 279.164 50.908" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m475.31 327.745 14.95-1.22-13.557-6.419Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m505.214 324.859 14.348-10.325" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m510.07 326.148 9.492-11.614-14.028 5.312Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m522.193 306.641-41.786-13.991" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m495.38 293.569-14.973-.92 12.507 8.283Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m464.821 288.137-56.84-12.194" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m422.962 275.186-14.98.757 13.352 6.835Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m392.022 272.928-44.645-6.504" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m362.275 264.671-14.898 1.753 13.778 5.93Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m331.454 263.34-86.022-23.905" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m260.43 239.574-14.998-.14 12.92 7.62Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m230.006 234.409-59.817-24.592" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m185.066 211.735-14.877-1.918 11.924 9.1Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m154.897 204.428-18.152-4.657" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m151.744 199.611-15 .16 13.07 7.361Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m120.931 196.053-27.84-5.54" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m108.059 189.533-14.968.98 13.452 6.635Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m78.609 184.464-27.547-25.18" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m64.376 166.194-13.314-6.91 8.075 12.642Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m37.496 152.452-2.11.03" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m49.82 148.4-14.434 4.081 14.541 3.682Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m31.122 153.051 358.026 25.632" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m374.418 181.52 14.73-2.837-14.175-4.907Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+      <path d="m395.148 175.153-131.9-133.12" stroke="gray" fill="none" stroke-width="2.2"/>
+      <path d="m276.203 49.593-12.956-7.56 7.44 13.025Z" stroke="gray" fill="gray" stroke-width="2.2" stroke-miterlimit="8.5"/>
+    </g>
+    <g transform="translate(36.98 10)" clip-path="url(#cg0JkPg)">
+      <defs>
+        <clipPath id="cg0JkPg">
+          <path d="M0 0h553.019v344H0z"/>
+        </clipPath>
+      </defs>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="115.518" cy="238.691" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="203.781" cy="279.535" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="221.434" cy="290.687" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="183.304" cy="274.249" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="144.469" cy="256.208" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="104.221" cy="238.635" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="104.927" cy="236.604" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="205.193" cy="274.54" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="500.344" cy="328.364" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="527.882" cy="308.546" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="470.688" cy="289.395" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="397.959" cy="273.793" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="337.235" cy="264.946" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="235.556" cy="236.69" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="160.709" cy="205.919" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="126.816" cy="197.224" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="83.038" cy="188.512" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="43.496" cy="152.369" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="25.137" cy="152.623" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="399.372" cy="179.415" r="6.325"/>
+      <circle fill="#c28dc3" stroke="gray" stroke-width="1.65" cx="256.033" cy="34.753" r="6.325"/>
+    </g>
+    <g transform="translate(36.98 10)" clip-path="url(#c5XlZde)">
+      <defs>
+        <clipPath id="c5XlZde">
+          <path d="M0 0h553.019v344H0z"/>
+        </clipPath>
+      </defs>
+      <text style="fill:#474747;font-size:14px;font-family:sans-serif" text-anchor="middle" transform="translate(115.518 223.774)"><tspan>2001</tspan></text>
+      <text style="fill:#474747;font-size:14px;font-family:sans-serif" text-anchor="middle" transform="translate(256.033 19.836)"><tspan>2021</tspan></text>
+    </g>
+    <path stroke="#474747" d="M89.655 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(89.655 361)"><tspan>4</tspan></text>
+    <path stroke="#474747" d="M174.388 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(174.388 361)"><tspan>5</tspan></text>
+    <path stroke="#474747" d="M259.12 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(259.12 361)"><tspan>6</tspan></text>
+    <path stroke="#474747" d="M343.852 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(343.852 361)"><tspan>7</tspan></text>
+    <path stroke="#474747" d="M428.584 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(428.584 361)"><tspan>8</tspan></text>
+    <path stroke="#474747" d="M513.317 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(513.317 361)"><tspan>9</tspan></text>
+    <path stroke="#474747" d="M36.98 354h553.019"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(33.98 314.21)"><tspan>2</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(33.98 250.49)"><tspan>3</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(33.98 186.769)"><tspan>4</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(33.98 123.048)"><tspan>5</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(33.98 59.327)"><tspan>6</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 98.25 83.75)"><tspan>Vacancy rate, %</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(313.49 391.5)"><tspan>Unemployment rate, %</tspan></text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v400h600V0Z"/>
+  </g>
+  <g id="d0DCOH9">
+    <g/>
+    <g/>
+  </g>
+</svg>

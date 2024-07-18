@@ -1,0 +1,148 @@
+<svg width="641" height="268">
+  <clipPath id="a">
+    <path d="M-1-1h643v270H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M557.1 108.5H642v51h-84.9z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M558.1 109.5H641v49h-82.9z"/>
+    <path fill="rgba(55,90,127,0.7)" stroke="#375a7f" d="M562.1 116.8h10v10h-10z"/>
+    <text x="576.1" y="127" class="wj-label">Sales</text>
+    <path fill="rgba(0,188,140,0.7)" stroke="#00bc8c" d="M562.1 141.3h10v10h-10z"/>
+    <text x="576.1" y="151.5" class="wj-label">Expenses</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M70.5 16.5h461.6V202H70.5z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="73.9" y="223" fill="#666" class="wj-label" transform="rotate(-45 83.5 217.8)">US</text>
+    <path stroke="#666" class="wj-tick" d="M96.1 202v4"/>
+    <text x="100" y="233.4" fill="#666" class="wj-label" transform="rotate(-45 124.4 228.2)">Canada</text>
+    <path stroke="#666" class="wj-tick" d="M147.4 202v4"/>
+    <text x="153.9" y="232.3" fill="#666" class="wj-label" transform="rotate(-45 176.7 227.1)">Mexico</text>
+    <path stroke="#666" class="wj-tick" d="M198.7 202v4"/>
+    <text x="195.5" y="236.4" fill="#666" class="wj-label" transform="rotate(-45 224 231.2)">Germany</text>
+    <path stroke="#666" class="wj-tick" d="M250 202v4"/>
+    <text x="278.8" y="223.2" fill="#666" class="wj-label" transform="rotate(-45 288.6 217.9)">UK</text>
+    <path stroke="#666" class="wj-tick" d="M301.3 202v4"/>
+    <text x="310" y="231.4" fill="#666" class="wj-label" transform="rotate(-45 331.5 226.2)">France</text>
+    <path stroke="#666" class="wj-tick" d="M352.6 202v4"/>
+    <text x="365.2" y="229.8" fill="#666" class="wj-label" transform="rotate(-45 384.4 224.6)">Japan</text>
+    <path stroke="#666" class="wj-tick" d="M403.9 202v4"/>
+    <text x="417.9" y="229.2" fill="#666" class="wj-label" transform="rotate(-45 436.3 224)">Korea</text>
+    <path stroke="#666" class="wj-tick" d="M455.1 202v4"/>
+    <text x="469.6" y="229" fill="#666" class="wj-label" transform="rotate(-45 487.8 223.8)">China</text>
+    <path stroke="#666" class="wj-tick" d="M506.4 202v4"/>
+    <path stroke="#666" class="wj-line" d="M70.5 202h461.6"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M70.5 165h461.6"/>
+    <text x="22.5" y="170.3" fill="#666" class="wj-label">2,000</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 120.3h461.6"/>
+    <text x="22.5" y="125.6" fill="#666" class="wj-label">4,000</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 75.6h461.6"/>
+    <text x="22.5" y="80.8" fill="#666" class="wj-label">6,000</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 30.9h461.6"/>
+    <text x="22.5" y="36.1" fill="#666" class="wj-label">8,000</text>
+  </g>
+  <g class="wj-series-group">
+    <g clip-path="url(#c)" stroke="#375a7f">
+      <g class="box-plot">
+        <path d="M83.6 157.6h7.2m-3.6 0v-45.7"/>
+        <path fill="rgba(55,90,127,0.7)" d="M80 68.4h14.4v43.5H80z"/>
+        <path d="M80 92.2h14.3m-7.1-48.9v25.1m-3.6-25.1h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M134.9 197.4h7.1m-3.6 0v-72.2"/>
+        <path fill="rgba(55,90,127,0.7)" d="M131.3 61h14.4v64.2h-14.4z"/>
+        <path d="M131.3 84.9h14.3m-7.2-56.6V61m-3.5-32.7h7.1"/>
+      </g>
+      <g class="box-plot">
+        <path d="M186.1 165.1h7.2m-3.6 0v-46.6"/>
+        <path fill="rgba(55,90,127,0.7)" d="M182.6 54.4H197v64.1h-14.4z"/>
+        <path d="M182.6 79.5h14.3m-7.2-63v37.9m-3.6-37.9h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M237.4 171.3h7.2m-3.6 0v-56.1"/>
+        <path fill="rgba(55,90,127,0.7)" d="M233.8 81.3h14.4v33.9h-14.4z"/>
+        <path d="M233.8 100.2h14.4M241 17.3v64m-3.6-64h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M288.7 186.3h7.2m-3.6 0v-53.2"/>
+        <path fill="rgba(55,90,127,0.7)" d="M285.1 70.8h14.4v62.3h-14.4z"/>
+        <path d="M285.1 93h14.4m-7.2-54v31.8M288.7 39h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M340 179.3h7.2m-3.6 0v-54.7"/>
+        <path fill="rgba(55,90,127,0.7)" d="M336.4 82.5h14.4v42.1h-14.4z"/>
+        <path d="M336.4 106.8h14.4m-7.2-80v55.7M340 26.8h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M391.3 168.4h7.2m-3.6 0v-51.8"/>
+        <path fill="rgba(55,90,127,0.7)" d="M387.7 52.1h14.4v64.5h-14.4z"/>
+        <path d="M387.7 92.4h14.4M394.9 32v20.1M391.3 32h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M442.6 191.3h7.2m-3.6 0v-71.9"/>
+        <path fill="rgba(55,90,127,0.7)" d="M439 73.7h14.4v45.8H439z"/>
+        <path d="M439 89h14.3m-7.1-46.2v30.9m-3.6-30.9h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M493.9 157.7h7.1m-3.6 0v-22.8"/>
+        <path fill="rgba(55,90,127,0.7)" d="M490.3 66.6h14.4v68.3h-14.4z"/>
+        <path d="M490.3 84.6h14.3M497.4 35v31.6M493.9 35h7.1"/>
+      </g>
+    </g>
+    <g clip-path="url(#c)" stroke="#00bc8c">
+      <g class="box-plot">
+        <path d="M101.5 191.7h7.2m-3.6 0v-13.1"/>
+        <path fill="rgba(0,188,140,0.7)" d="M97.9 145.6h14.4v33H97.9z"/>
+        <path d="M97.9 159.5h14.4m-7.2-48.8v34.9m-3.6-34.9h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M152.8 202h7.2m-3.6 0v-33.1"/>
+        <path fill="rgba(0,188,140,0.7)" d="M149.2 137.9h14.4v31h-14.4z"/>
+        <path d="M149.2 152.4h14.4m-7.2-35.1v20.6m-3.6-20.6h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M204.1 193.5h7.2m-3.6 0v-30.1"/>
+        <path fill="rgba(0,188,140,0.7)" d="M200.5 140.1h14.4v23.3h-14.4z"/>
+        <path d="M200.5 150.1h14.4m-7.2-22.5v12.5m-3.6-12.5h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M255.4 189.7h7.2m-3.6 0v-21.8"/>
+        <path fill="rgba(0,188,140,0.7)" d="M251.8 144.2h14.4v23.7h-14.4z"/>
+        <path d="M251.8 151.6h14.3m-7.1-31.3v23.9m-3.6-23.9h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M306.7 193.6h7.1m-3.5 0v-29.7"/>
+        <path fill="rgba(0,188,140,0.7)" d="M303.1 129h14.4v34.9h-14.4z"/>
+        <path d="M303.1 149.9h14.3m-7.1-37.5V129m-3.6-16.6h7.1"/>
+      </g>
+      <g class="box-plot">
+        <path d="M357.9 192.6h7.2m-3.6 0v-30.7"/>
+        <path fill="rgba(0,188,140,0.7)" d="M354.4 133.2h14.4v28.7h-14.4z"/>
+        <path d="M354.4 152.5h14.3m-7.2-40.7v21.4m-3.6-21.4h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M409.2 190.6h7.2m-3.6 0v-26.8"/>
+        <path fill="rgba(0,188,140,0.7)" d="M405.6 124.9H420v38.9h-14.4z"/>
+        <path d="M405.6 148.1H420m-7.2-42.5v19.3m-3.6-19.3h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M460.5 183h7.2m-3.6 0v-19.4"/>
+        <path fill="rgba(0,188,140,0.7)" d="M456.9 145.7h14.4v18h-14.4z"/>
+        <path d="M456.9 157.5h14.4m-7.2-37.3v25.5m-3.6-25.5h7.2"/>
+      </g>
+      <g class="box-plot">
+        <path d="M511.8 190.3h7.2m-3.6 0v-14.9"/>
+        <path fill="rgba(0,188,140,0.7)" d="M508.2 138.6h14.4v36.9h-14.4z"/>
+        <path d="M508.2 148.9h14.4m-7.2-25.2v14.9m-3.6-14.9h7.2"/>
+      </g>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M69.5 15.5h463.6V203H69.5z"/>
+  </clipPath>
+</svg>

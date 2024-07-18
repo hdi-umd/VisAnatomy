@@ -1,0 +1,177 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with no title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 320h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 264.056h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 208.112h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 152.168h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 96.224h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick left">
+        <path fill="none" stroke="#000" d="M45 40.28h605" class="tick-line tick left"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M45 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M82.813 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M120.625 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M158.438 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M196.25 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M234.063 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M271.875 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M309.688 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M347.5 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M385.313 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M423.125 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M460.938 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M498.75 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M536.563 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M574.375 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M612.188 40v280" class="tick-line tick top"/>
+      </g>
+      <g class="tick-line tick top">
+        <path fill="none" stroke="#000" d="M650 40v280" class="tick-line tick top"/>
+      </g>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="16 bars in a bar chart" transform="translate(45 40)">
+      <rect tabindex="-1" y="128.951" width="269.225" height="151.049" rx="0" ry="0" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Auburn, AL bar value 54%"/>
+      <rect tabindex="-1" y="53.427" width="269.225" height="75.524" rx="0" ry="0" style="fill:#e0488b;stroke:#fff;stroke-width:1" aria-label="Auburn, AL bar value 27%"/>
+      <rect tabindex="-1" y="15.664" width="269.225" height="37.762" rx="0" ry="0" style="fill:#9fd0cb;stroke:#fff;stroke-width:1" aria-label="Auburn, AL bar value 13%"/>
+      <rect tabindex="-1" y=".28" width="269.225" height="15.385" rx="0" ry="0" style="fill:#e0d33a;stroke:#fff;stroke-width:1" aria-label="Auburn, AL bar value 5%"/>
+      <rect tabindex="-1" x="269.225" y="179.301" width="166.375" height="100.699" rx="0" ry="0" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Birmingham, AL bar value 36%"/>
+      <rect tabindex="-1" x="269.225" y="86.993" width="166.375" height="92.308" rx="0" ry="0" style="fill:#e0488b;stroke:#fff;stroke-width:1" aria-label="Birmingham, AL bar value 33%"/>
+      <rect tabindex="-1" x="269.225" y="25.455" width="166.375" height="61.538" rx="0" ry="0" style="fill:#9fd0cb;stroke:#fff;stroke-width:1" aria-label="Birmingham, AL bar value 22%"/>
+      <rect tabindex="-1" x="269.225" width="166.375" height="25.455" rx="0" ry="0" style="fill:#e0d33a;stroke:#fff;stroke-width:1" aria-label="Birmingham, AL bar value 9%"/>
+      <rect tabindex="-1" x="435.6" y="212.867" width="99.825" height="67.133" rx="0" ry="0" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Gainesville, FL bar value 24%"/>
+      <rect tabindex="-1" x="435.6" y="112.168" width="99.825" height="100.699" rx="0" ry="0" style="fill:#e0488b;stroke:#fff;stroke-width:1" aria-label="Gainesville, FL bar value 36%"/>
+      <rect tabindex="-1" x="435.6" y="45.035" width="99.825" height="67.133" rx="0" ry="0" style="fill:#9fd0cb;stroke:#fff;stroke-width:1" aria-label="Gainesville, FL bar value 24%"/>
+      <rect tabindex="-1" x="435.6" y=".28" width="99.825" height="44.755" rx="0" ry="0" style="fill:#e0d33a;stroke:#fff;stroke-width:1" aria-label="Gainesville, FL bar value 16%"/>
+      <rect tabindex="-1" x="535.425" y="232.448" width="69.575" height="47.552" rx="0" ry="0" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Durham, NC bar value 17%"/>
+      <rect tabindex="-1" x="535.425" y="159.72" width="69.575" height="72.727" rx="0" ry="0" style="fill:#e0488b;stroke:#fff;stroke-width:1" aria-label="Durham, NC bar value 26%"/>
+      <rect tabindex="-1" x="535.425" y="61.818" width="69.575" height="97.902" rx="0" ry="0" style="fill:#9fd0cb;stroke:#fff;stroke-width:1" aria-label="Durham, NC bar value 35%"/>
+      <rect tabindex="-1" x="535.425" y=".28" width="69.575" height="61.538" rx="0" ry="0" style="fill:#e0d33a;stroke:#fff;stroke-width:1" aria-label="Durham, NC bar value 22%"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="left y" aria-label="left axis from 0% to 100%">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 325)">0%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 269.056)">20%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 213.112)">40%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 157.168)">60%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 101.224)">80%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(35 45.28)">100%</text>
+        </g>
+        <path class="axis-baseline left y" stroke="#000" stroke-linecap="square" d="M45 40v280"/>
+      </g>
+      <g class="top x" aria-label="top axis from 0k to 16k">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(45 25)">0k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(82.813 25)">1k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(120.625 25)">2k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(158.438 25)">3k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(196.25 25)">4k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(234.063 25)">5k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(271.875 25)">6k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(309.688 25)">7k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(347.5 25)">8k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(385.313 25)">9k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(423.125 25)">10k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(460.938 25)">11k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(498.75 25)">12k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(536.563 25)">13k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(574.375 25)">14k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(612.188 25)">15k</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(650 25)">16k</text>
+        </g>
+        <path class="axis-baseline top x" stroke="#000" stroke-linecap="square" d="M45 40h605"/>
+      </g>
+    </g>
+    <g class="ordinal-labels">
+      <text transform="rotate(45 -314.574 384.312)">Auburn, AL</text>
+      <text transform="rotate(45 -205.674 647.22)">Birmingham, AL</text>
+      <text transform="rotate(45 -139.124 807.886)">Gainesville, FL</text>
+      <text transform="rotate(45 -96.774 910.128)">Durham, NC</text>
+    </g>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>

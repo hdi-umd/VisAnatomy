@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:hidden">
+  <defs>
+    <clipPath clip-rule="evenodd" id="a">
+      <path d="M14.5 44.5h827v48h-827Z" stroke="#000" fill="none"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h847v120H0Z" fill="#FFF"/>
+  <path d="M13.5 44H841v48H13.5Z" fill="none"/>
+  <path d="M14.5 44.5h827m-827 0v48m150-48v48m150-48v48m151-48v48m150-48v48m151-48v48" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <path d="M615.318 44H841v48H615.318Z" fill="#e62325"/>
+  <path d="M389.636 44h225.682v48H389.636Z" fill="#ffc000"/>
+  <path d="M163.955 44h225.681v48H163.955Z" fill="#37b400"/>
+  <path d="M13.5 44h150.455v48H13.5Z" fill="#5392ff"/>
+  <path d="M164.5 44.5v48m-4-48h4m-4 48h4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <g class="k-chart-point" aria-label="25" aria-roledescription="Point" clip-path="url(#a)">
+    <path d="M164.5 58.5h376v20h-376Z" stroke="#fff" fill="#fff"/>
+    <path d="M492.955 44h2v48h-2Z" fill="#424242"/>
+  </g>
+  <path d="M14.5 92.5h827m-827 0v4m150-4v4m150-4v4m151-4v4m150-4v4m151-4v4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <text x="5" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">-10</text>
+  <text x="160.455" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">0</text>
+  <text x="307.909" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">10</text>
+  <text x="458.364" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">20</text>
+  <text x="608.818" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">30</text>
+  <text x="759.273" y="112" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">40</text>
+  <path d="M339.023 58.4h26v19.2h-26Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="343.023" y="73.5" fill="#424242" style="font:700 12pt sans-serif;white-space:pre">25</text>
+  <text x="363" y="30" fill="#424242" style="font:400 16.002px sans-serif;white-space:pre">Temperature [°C]</text>
+  <g/>
+</svg>

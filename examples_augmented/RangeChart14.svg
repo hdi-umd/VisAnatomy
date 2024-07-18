@@ -1,0 +1,218 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M545.6 146.3H642v75.5h-96.4z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M546.6 147.3H641v73.5h-94.4z"/>
+    <path fill="rgba(136, 189, 230, 0.2)" stroke="transparent" d="M550.6 154.5h10v10h-10z"/>
+    <text x="564.6" y="164.8" class="wj-label">5% - 95%</text>
+    <path fill="rgba(136, 189, 230, 0.4)" stroke="transparent" d="M550.6 179h10v10h-10z"/>
+    <text x="564.6" y="189.3" class="wj-label">25% - 75%</text>
+    <circle stroke="transparent" cx="555.6" cy="208.5" r="3"/>
+    <text x="564.6" y="213.8" class="wj-label">raw data</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M67.5 16.5H533V321H67.5z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="63.6" y="343.5" fill="#666" class="wj-label">1</text>
+    <path stroke="#666" class="wj-tick" d="M67.5 321v4"/>
+    <text x="141.2" y="343.5" fill="#666" class="wj-label">2</text>
+    <path stroke="#666" class="wj-tick" d="M145.1 321v4"/>
+    <text x="218.8" y="343.5" fill="#666" class="wj-label">3</text>
+    <path stroke="#666" class="wj-tick" d="M222.7 321v4"/>
+    <text x="296.4" y="343.5" fill="#666" class="wj-label">4</text>
+    <path stroke="#666" class="wj-tick" d="M300.3 321v4"/>
+    <text x="374" y="343.5" fill="#666" class="wj-label">5</text>
+    <path stroke="#666" class="wj-tick" d="M377.8 321v4"/>
+    <text x="451.5" y="343.5" fill="#666" class="wj-label">6</text>
+    <path stroke="#666" class="wj-tick" d="M455.4 321v4"/>
+    <text x="529.1" y="343.5" fill="#666" class="wj-label">7</text>
+    <path stroke="#666" class="wj-tick" d="M533 321v4"/>
+    <path stroke="#666" class="wj-line" d="M67.5 321H533"/>
+    <text x="288.9" y="365" fill="#666" class="wj-title">day</text>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M67.5 296.4H533"/>
+    <text x="46.7" y="301.6" fill="#666" class="wj-label">5</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 270.9H533"/>
+    <text x="39" y="276.1" fill="#666" class="wj-label">10</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 245.3H533"/>
+    <text x="39" y="250.6" fill="#666" class="wj-label">15</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 219.8H533"/>
+    <text x="39" y="225.1" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 194.3H533"/>
+    <text x="39" y="199.5" fill="#666" class="wj-label">25</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 168.8H533"/>
+    <text x="39" y="174" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 143.2H533"/>
+    <text x="39" y="148.5" fill="#666" class="wj-label">35</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 117.7H533"/>
+    <text x="39" y="123" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 92.2H533"/>
+    <text x="39" y="97.5" fill="#666" class="wj-label">45</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 66.7H533"/>
+    <text x="39" y="71.9" fill="#666" class="wj-label">50</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 41.2H533"/>
+    <text x="39" y="46.4" fill="#666" class="wj-label">55</text>
+    <text x="-5.2" y="174" fill="#666" class="wj-title" transform="rotate(-90 8.3 168.8)">time</text>
+  </g>
+  <g class="wj-series-group">
+    <g clip-path="url(#c)">
+      <path fill="rgba(136, 189, 230, 0.2)" d="m67.5 306.2 77.6 1 77.6-3.3 77.6-66.6 77.5 72.5 77.6-79 77.6 52.4V26.1l-77.6-9.6-77.6 22.6-77.5-21.6-77.6 7.4-77.6 25.4-77.6-23.1z"/>
+      <path stroke="transparent" stroke-width="2" stroke-linejoin="round" fill="none" d="m67.5 306.2 77.6 1 77.6-3.3 77.6-66.6 77.5 72.5 77.6-79 77.6 52.4m0-257.1-77.6-9.6-77.6 22.6-77.5-21.6-77.6 7.4-77.6 25.4-77.6-23.1"/>
+    </g>
+    <g clip-path="url(#c)">
+      <path fill="rgba(136, 189, 230, 0.4)" d="m67.5 275.7 77.6-4.4 77.6-11 77.6-88.6 77.5 86.6 77.6-52L533 213V77.9l-77.6-30.8-77.6 63.7-77.5-68.1-77.6 30.7-77.6 91.9L67.5 49.5z"/>
+      <path stroke="transparent" stroke-width="2" stroke-linejoin="round" fill="none" d="m67.5 275.7 77.6-4.4 77.6-11 77.6-88.6 77.5 86.6 77.6-52L533 213m0-135.1-77.6-30.8-77.6 63.7-77.5-68.1-77.6 30.7-77.6 91.9L67.5 49.5"/>
+    </g>
+    <g stroke="transparent" stroke-width="2">
+      <circle cx="67.5" cy="116.9" r="2"/>
+      <circle cx="67.5" cy="114.5" r="2"/>
+      <circle cx="67.5" cy="146.8" r="2"/>
+      <circle cx="67.5" cy="45.5" r="2"/>
+      <circle cx="67.5" cy="271.4" r="2"/>
+      <circle cx="67.5" cy="71.4" r="2"/>
+      <circle cx="67.5" cy="27.2" r="2"/>
+      <circle cx="67.5" cy="252.6" r="2"/>
+      <circle cx="67.5" cy="289.9" r="2"/>
+      <circle cx="67.5" cy="303.7" r="2"/>
+      <circle cx="67.5" cy="308.4" r="2"/>
+      <circle cx="67.5" cy="306.2" r="2"/>
+      <circle cx="67.5" cy="102.7" r="2"/>
+      <circle cx="67.5" cy="281.4" r="2"/>
+      <circle cx="67.5" cy="37" r="2"/>
+      <circle cx="67.5" cy="182.1" r="2"/>
+      <circle cx="67.5" cy="49.5" r="2"/>
+      <circle cx="67.5" cy="113.9" r="2"/>
+      <circle cx="67.5" cy="275.7" r="2"/>
+      <circle cx="67.5" cy="38" r="2"/>
+      <circle cx="145.1" cy="321" r="2"/>
+      <circle cx="145.1" cy="282.7" r="2"/>
+      <circle cx="145.1" cy="227.2" r="2"/>
+      <circle cx="145.1" cy="61.2" r="2"/>
+      <circle cx="145.1" cy="187.5" r="2"/>
+      <circle cx="145.1" cy="298.8" r="2"/>
+      <circle cx="145.1" cy="269.2" r="2"/>
+      <circle cx="145.1" cy="201.4" r="2"/>
+      <circle cx="145.1" cy="151.9" r="2"/>
+      <circle cx="145.1" cy="50.3" r="2"/>
+      <circle cx="145.1" cy="217" r="2"/>
+      <circle cx="145.1" cy="307.2" r="2"/>
+      <circle cx="145.1" cy="223.5" r="2"/>
+      <circle cx="145.1" cy="292.1" r="2"/>
+      <circle cx="145.1" cy="271.3" r="2"/>
+      <circle cx="145.1" cy="271.3" r="2"/>
+      <circle cx="145.1" cy="232.3" r="2"/>
+      <circle cx="145.1" cy="197.3" r="2"/>
+      <circle cx="145.1" cy="165.3" r="2"/>
+      <circle cx="145.1" cy="158.5" r="2"/>
+      <circle cx="222.7" cy="308.6" r="2"/>
+      <circle cx="222.7" cy="281.5" r="2"/>
+      <circle cx="222.7" cy="44.1" r="2"/>
+      <circle cx="222.7" cy="30.7" r="2"/>
+      <circle cx="222.7" cy="118.9" r="2"/>
+      <circle cx="222.7" cy="302.2" r="2"/>
+      <circle cx="222.7" cy="157.1" r="2"/>
+      <circle cx="222.7" cy="79.2" r="2"/>
+      <circle cx="222.7" cy="90.4" r="2"/>
+      <circle cx="222.7" cy="124" r="2"/>
+      <circle cx="222.7" cy="303.9" r="2"/>
+      <circle cx="222.7" cy="282.4" r="2"/>
+      <circle cx="222.7" cy="260.3" r="2"/>
+      <circle cx="222.7" cy="73.4" r="2"/>
+      <circle cx="222.7" cy="123.5" r="2"/>
+      <circle cx="222.7" cy="157.5" r="2"/>
+      <circle cx="222.7" cy="201.7" r="2"/>
+      <circle cx="222.7" cy="24.9" r="2"/>
+      <circle cx="222.7" cy="237.9" r="2"/>
+      <circle cx="222.7" cy="27.6" r="2"/>
+      <circle cx="300.3" cy="17.5" r="2"/>
+      <circle cx="300.3" cy="27" r="2"/>
+      <circle cx="300.3" cy="114.8" r="2"/>
+      <circle cx="300.3" cy="92.6" r="2"/>
+      <circle cx="300.3" cy="171.7" r="2"/>
+      <circle cx="300.3" cy="64.6" r="2"/>
+      <circle cx="300.3" cy="86.5" r="2"/>
+      <circle cx="300.3" cy="200.7" r="2"/>
+      <circle cx="300.3" cy="237.3" r="2"/>
+      <circle cx="300.3" cy="156.8" r="2"/>
+      <circle cx="300.3" cy="48.5" r="2"/>
+      <circle cx="300.3" cy="26.9" r="2"/>
+      <circle cx="300.3" cy="38.2" r="2"/>
+      <circle cx="300.3" cy="186.4" r="2"/>
+      <circle cx="300.3" cy="179.9" r="2"/>
+      <circle cx="300.3" cy="275.6" r="2"/>
+      <circle cx="300.3" cy="50.4" r="2"/>
+      <circle cx="300.3" cy="42.7" r="2"/>
+      <circle cx="300.3" cy="118.2" r="2"/>
+      <circle cx="300.3" cy="163.2" r="2"/>
+      <circle cx="377.8" cy="39.1" r="2"/>
+      <circle cx="377.8" cy="270" r="2"/>
+      <circle cx="377.8" cy="242.1" r="2"/>
+      <circle cx="377.8" cy="258.3" r="2"/>
+      <circle cx="377.8" cy="310.4" r="2"/>
+      <circle cx="377.8" cy="309.8" r="2"/>
+      <circle cx="377.8" cy="213.8" r="2"/>
+      <circle cx="377.8" cy="63.2" r="2"/>
+      <circle cx="377.8" cy="236.7" r="2"/>
+      <circle cx="377.8" cy="89.1" r="2"/>
+      <circle cx="377.8" cy="271.2" r="2"/>
+      <circle cx="377.8" cy="183" r="2"/>
+      <circle cx="377.8" cy="110.8" r="2"/>
+      <circle cx="377.8" cy="251.2" r="2"/>
+      <circle cx="377.8" cy="76.9" r="2"/>
+      <circle cx="377.8" cy="135.5" r="2"/>
+      <circle cx="377.8" cy="208.7" r="2"/>
+      <circle cx="377.8" cy="308.1" r="2"/>
+      <circle cx="377.8" cy="122.6" r="2"/>
+      <circle cx="377.8" cy="125.9" r="2"/>
+      <circle cx="455.4" cy="167.5" r="2"/>
+      <circle cx="455.4" cy="119.4" r="2"/>
+      <circle cx="455.4" cy="129.9" r="2"/>
+      <circle cx="455.4" cy="206.3" r="2"/>
+      <circle cx="455.4" cy="114.2" r="2"/>
+      <circle cx="455.4" cy="229" r="2"/>
+      <circle cx="455.4" cy="27" r="2"/>
+      <circle cx="455.4" cy="216.8" r="2"/>
+      <circle cx="455.4" cy="132.4" r="2"/>
+      <circle cx="455.4" cy="16.5" r="2"/>
+      <circle cx="455.4" cy="231.8" r="2"/>
+      <circle cx="455.4" cy="47.1" r="2"/>
+      <circle cx="455.4" cy="36.8" r="2"/>
+      <circle cx="455.4" cy="31.9" r="2"/>
+      <circle cx="455.4" cy="67.1" r="2"/>
+      <circle cx="455.4" cy="100.5" r="2"/>
+      <circle cx="455.4" cy="230.8" r="2"/>
+      <circle cx="455.4" cy="213.7" r="2"/>
+      <circle cx="455.4" cy="117.4" r="2"/>
+      <circle cx="455.4" cy="192.3" r="2"/>
+      <circle cx="533" cy="33.2" r="2"/>
+      <circle cx="533" cy="208.4" r="2"/>
+      <circle cx="533" cy="283.2" r="2"/>
+      <circle cx="533" cy="318.1" r="2"/>
+      <circle cx="533" cy="213" r="2"/>
+      <circle cx="533" cy="90" r="2"/>
+      <circle cx="533" cy="26.1" r="2"/>
+      <circle cx="533" cy="128.3" r="2"/>
+      <circle cx="533" cy="261.8" r="2"/>
+      <circle cx="533" cy="160.8" r="2"/>
+      <circle cx="533" cy="77.9" r="2"/>
+      <circle cx="533" cy="98.9" r="2"/>
+      <circle cx="533" cy="141.1" r="2"/>
+      <circle cx="533" cy="158.4" r="2"/>
+      <circle cx="533" cy="51.3" r="2"/>
+      <circle cx="533" cy="152.8" r="2"/>
+      <circle cx="533" cy="75.2" r="2"/>
+      <circle cx="533" cy="280.9" r="2"/>
+      <circle cx="533" cy="131" r="2"/>
+      <circle cx="533" cy="254.3" r="2"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M66.5 15.5H534V322H66.5z"/>
+  </clipPath>
+</svg>

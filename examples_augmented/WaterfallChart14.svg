@@ -1,0 +1,71 @@
+<svg width="641" height="268">
+  <clipPath id="a">
+    <path d="M-1-1h643v270H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M559.1 108.5H642v51h-82.9z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M560.1 109.5H641v49h-80.9z"/>
+    <path fill="green" stroke="green" d="M564.1 116.8h10v10h-10z"/>
+    <text x="578.1" y="127" class="wj-label">Increase</text>
+    <path fill="red" stroke="red" d="M564.1 141.3h10v10h-10z"/>
+    <text x="578.1" y="151.5" class="wj-label">Decrease</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M70.5 16.5h462v182.2h-462z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="38.5" y="231.8" fill="#666" class="wj-label" transform="rotate(-45 65.1 226.5)">Jul 2023</text>
+    <path stroke="#666" class="wj-tick" d="M89.7 198.7v4"/>
+    <text x="71.2" y="234.2" fill="#666" class="wj-label" transform="rotate(-45 101.2 228.9)">Aug 2023</text>
+    <path stroke="#666" class="wj-tick" d="M128.2 198.7v4"/>
+    <text x="109.8" y="234.1" fill="#666" class="wj-label" transform="rotate(-45 139.7 228.9)">Sep 2023</text>
+    <path stroke="#666" class="wj-tick" d="M166.7 198.7v4"/>
+    <text x="150.2" y="233.3" fill="#666" class="wj-label" transform="rotate(-45 179 228)">Oct 2023</text>
+    <path stroke="#666" class="wj-tick" d="M205.2 198.7v4"/>
+    <text x="186.5" y="234.2" fill="#666" class="wj-label" transform="rotate(-45 216.6 229)">Nov 2023</text>
+    <path stroke="#666" class="wj-tick" d="M243.7 198.7v4"/>
+    <text x="225.3" y="234.1" fill="#666" class="wj-label" transform="rotate(-45 255.2 228.9)">Dec 2023</text>
+    <path stroke="#666" class="wj-tick" d="M282.2 198.7v4"/>
+    <text x="265.7" y="233.3" fill="#666" class="wj-label" transform="rotate(-45 294.5 228)">Jan 2024</text>
+    <path stroke="#666" class="wj-tick" d="M320.7 198.7v4"/>
+    <text x="303.1" y="233.8" fill="#666" class="wj-label" transform="rotate(-45 332.6 228.5)">Feb 2024</text>
+    <path stroke="#666" class="wj-tick" d="M359.2 198.7v4"/>
+    <text x="341.2" y="234" fill="#666" class="wj-label" transform="rotate(-45 370.9 228.7)">Mar 2024</text>
+    <path stroke="#666" class="wj-tick" d="M397.7 198.7v4"/>
+    <text x="381.6" y="233.2" fill="#666" class="wj-label" transform="rotate(-45 410.2 227.9)">Apr 2024</text>
+    <path stroke="#666" class="wj-tick" d="M436.2 198.7v4"/>
+    <text x="416.2" y="234.7" fill="#666" class="wj-label" transform="rotate(-45 447.1 229.5)">May 2024</text>
+    <path stroke="#666" class="wj-tick" d="M474.7 198.7v4"/>
+    <text x="458" y="233.4" fill="#666" class="wj-label" transform="rotate(-45 486.9 228.1)">Jun 2024</text>
+    <path stroke="#666" class="wj-tick" d="M513.2 198.7v4"/>
+    <path stroke="#666" class="wj-line" d="M70.5 198.7h462"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <text x="49.7" y="203.9" fill="#666" class="wj-label">0</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 141.9h462"/>
+    <text x="34.1" y="147.1" fill="#666" class="wj-label">400</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 85.1h462"/>
+    <text x="34.1" y="90.3" fill="#666" class="wj-label">800</text>
+    <path stroke="#666" class="wj-gridline" d="M70.5 28.3h462"/>
+    <text x="22.5" y="33.5" fill="#666" class="wj-label">1,200</text>
+  </g>
+  <g clip-path="url(#c)" class="wj-series-group">
+    <path fill="green" stroke="green" d="M76.3 154.4h26.9v44.3H76.3z"/>
+    <path fill="red" stroke="red" d="M114.8 154.4h26.9v36.5h-26.9z"/>
+    <path fill="green" stroke="green" d="M153.3 123.9h26.9V191h-26.9z"/>
+    <path fill="red" stroke="red" d="M191.8 123.9h26.9v16.9h-26.9z"/>
+    <path fill="green" stroke="green" d="M230.3 69.7h26.9v71h-26.9z"/>
+    <path fill="red" stroke="red" d="M268.8 69.7h26.9v45.7h-26.9z"/>
+    <path fill="green" stroke="green" d="M307.3 35.5h26.9v80h-26.9z"/>
+    <path fill="red" stroke="red" d="M345.8 35.5h26.9v33h-26.9z"/>
+    <path fill="green" stroke="green" d="M384.3 16.5h26.9v52h-26.9z"/>
+    <path fill="red" stroke="red" d="M422.8 16.5h26.9v36.2h-26.9z"/>
+    <path fill="green" stroke="green" d="M461.3 21.8h26.9v30.8h-26.9z"/>
+    <path fill="red" stroke="red" d="M499.8 21.8h26.9v30.6h-26.9z"/>
+  </g>
+  <clipPath id="c">
+    <path d="M69.5 15.5h464v184.2h-464z"/>
+  </clipPath>
+</svg>

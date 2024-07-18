@@ -1,0 +1,179 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="752.64" height="167.32" viewBox="0 0 564.48 125.49">
+  <defs>
+    <style>
+      *{stroke-linejoin:round;stroke-linecap:butt}
+    </style>
+  </defs>
+  <g id="figure_1">
+    <path d="M0 125.49h564.48V0H0z" style="fill:#fff" id="patch_1"/>
+    <g id="axes_1">
+      <g style="fill:#232066" transform="matrix(.12 0 0 -.12 7.2 116.79)" id="text_1">
+        <defs>
+          <path id="FontAwesome6Free-Solid-f1ae" d="M2800 4800c0-450-362-800-800-800-450 0-800 350-800 800 0 438 350 800 800 800 438 0 800-362 800-800M1800 800V-400c0-225-187-400-400-400-225 0-400 175-400 400v2400l-262-412c-125-188-375-250-563-138C0 1575-63 1825 50 2013l500 787c313 500 863 800 1450 800 575 0 1125-300 1438-800l500-787c112-188 62-438-125-563-188-112-438-50-563 138l-250 412V-400c0-225-187-400-400-400-225 0-400 175-400 400V800z" transform="scale(.01563)"/>
+        </defs>
+        <use xlink:href="#FontAwesome6Free-Solid-f1ae"/>
+      </g>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 7.2 94.116)" id="text_2"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 7.2 71.443)" id="text_3"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 7.2 48.769)" id="text_4"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 7.2 26.095)" id="text_5"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 29.874 116.79)" id="text_6"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 29.874 94.116)" id="text_7"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 29.874 71.443)" id="text_8"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 29.874 48.769)" id="text_9"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 29.874 26.095)" id="text_10"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 52.548 116.79)" id="text_11"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 52.548 94.116)" id="text_12"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 52.548 71.443)" id="text_13"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 52.548 48.769)" id="text_14"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 52.548 26.095)" id="text_15"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 75.222 116.79)" id="text_16"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 75.222 94.116)" id="text_17"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 75.222 71.443)" id="text_18"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 75.222 48.769)" id="text_19"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 75.222 26.095)" id="text_20"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 97.895 116.79)" id="text_21"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 97.895 94.116)" id="text_22"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 97.895 71.443)" id="text_23"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 97.895 48.769)" id="text_24"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 97.895 26.095)" id="text_25"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 120.57 116.79)" id="text_26"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 120.57 94.116)" id="text_27"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 120.57 71.443)" id="text_28"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 120.57 48.769)" id="text_29"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 120.57 26.095)" id="text_30"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 143.243 116.79)" id="text_31"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 143.243 94.116)" id="text_32"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 143.243 71.443)" id="text_33"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 143.243 48.769)" id="text_34"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 143.243 26.095)" id="text_35"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 165.917 116.79)" id="text_36"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 165.917 94.116)" id="text_37"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 165.917 71.443)" id="text_38"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 165.917 48.769)" id="text_39"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 165.917 26.095)" id="text_40"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 188.59 116.79)" id="text_41"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 188.59 94.116)" id="text_42"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 188.59 71.443)" id="text_43"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 188.59 48.769)" id="text_44"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 188.59 26.095)" id="text_45"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 211.265 116.79)" id="text_46"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 211.265 94.116)" id="text_47"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 211.265 71.443)" id="text_48"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 211.265 48.769)" id="text_49"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 211.265 26.095)" id="text_50"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 233.939 116.79)" id="text_51"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 233.939 94.116)" id="text_52"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 233.939 71.443)" id="text_53"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 233.939 48.769)" id="text_54"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 233.939 26.095)" id="text_55"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 256.612 116.79)" id="text_56"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 256.612 94.116)" id="text_57"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 256.612 71.443)" id="text_58"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 256.612 48.769)" id="text_59"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 256.612 26.095)" id="text_60"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 279.286 116.79)" id="text_61"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 279.286 94.116)" id="text_62"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 279.286 71.443)" id="text_63"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 279.286 48.769)" id="text_64"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 279.286 26.095)" id="text_65"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 301.96 116.79)" id="text_66"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 301.96 94.116)" id="text_67"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 301.96 71.443)" id="text_68"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 301.96 48.769)" id="text_69"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 301.96 26.095)" id="text_70"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 324.634 116.79)" id="text_71"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 324.634 94.116)" id="text_72"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 324.634 71.443)" id="text_73"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 324.634 48.769)" id="text_74"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 324.634 26.095)" id="text_75"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 347.308 116.79)" id="text_76"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 347.308 94.116)" id="text_77"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 347.308 71.443)" id="text_78"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 347.308 48.769)" id="text_79"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 347.308 26.095)" id="text_80"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 369.982 116.79)" id="text_81"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 369.982 94.116)" id="text_82"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 369.982 71.443)" id="text_83"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 369.982 48.769)" id="text_84"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 369.982 26.095)" id="text_85"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 392.656 116.79)" id="text_86"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 392.656 94.116)" id="text_87"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 392.656 71.443)" id="text_88"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 392.656 48.769)" id="text_89"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 392.656 26.095)" id="text_90"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 415.33 116.79)" id="text_91"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 415.33 94.116)" id="text_92"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 415.33 71.443)" id="text_93"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 415.33 48.769)" id="text_94"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#dcb732" transform="matrix(.12 0 0 -.12 415.33 26.095)" id="text_95"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#dcb732" transform="matrix(.12 0 0 -.12 438.003 116.79)" id="text_96"/>
+      <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#dcb732" transform="matrix(.12 0 0 -.12 438.003 94.116)" id="text_97"/>
+      <g id="legend_1">
+        <path d="M465.298 60.613h89.582q2.4 0 2.4-2.4V15.6q0-2.4-2.4-2.4h-89.582q-2.4 0-2.4 2.4v42.613q0 2.4 2.4 2.4z" style="fill:#fff;opacity:.8;stroke:#e6e6e6;stroke-width:.8;stroke-linejoin:miter" id="patch_2"/>
+        <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#232066" transform="matrix(.12 0 0 -.12 473.548 24.3)" id="text_98"/>
+        <g style="fill:#323034" transform="matrix(.12 0 0 -.12 498.898 24)" id="text_99">
+          <defs>
+            <path id="STIXGeneral-Regular-44" d="M102 4237h1728q1248 0 1920-583 634-544 634-1516 0-1172-870-1728Q2880 0 1901 0H102v122q372 25 468 130 96 106 96 484v2784q0 371-96 470-96 100-468 125zm1216-506V538q0-173 61-237t247-64q499 0 806 70 307 71 589 263 665 448 665 1529 0 928-608 1459-275 244-602 343-326 99-818 99-186 0-263-58-77-57-77-211" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-65" d="m2611 1050 103-45Q2330-64 1376-64q-563 0-890 393-326 394-326 1060 0 685 365 1120t960 435q576 0 889-442 186-256 218-729H621q25-403 79-615 55-211 215-428 269-352 711-352 313 0 527 153 215 154 458 519M634 1978h1305q-57 403-189 569-131 167-438 167-269 0-448-189t-230-547" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-6d" d="M4960 0H3565v96q269 26 342 112 74 86 74 368v1318q0 384-112 550-112 167-381 167-224 0-381-90-157-89-304-300V608q0-307 93-407 93-99 368-105V0H1830v96q282 19 359 92 77 74 77 362v1351q0 710-416 710-180 0-382-80-201-80-297-195-83-96-83-109V448q0-205 89-272 90-67 346-80V0H102v96q269 6 358 99 90 93 90 368v1587q0 237-51 330t-173 93q-96 0-204-26v109q435 122 889 288l51-19v-474h13q288 301 509 397t470 96q506 0 679-538 499 538 1043 538 742 0 742-1152V493q0-211 64-291t212-93l166-13z" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-6f" d="M3008 1478q0-672-400-1107T1568-64q-589 0-986 432-396 432-396 1091 0 666 396 1075 397 410 1044 410 595 0 988-407 394-406 394-1059m-576-172q0 729-320 1139-256 320-608 320-333 0-538-272-204-272-204-746 0-819 339-1312 217-320 576-320 352 0 553 317 202 317 202 874" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-63" d="m2547 998 90-57q-275-538-525-736-326-269-736-269-531 0-874 400-342 400-342 1021 0 813 538 1261 396 326 864 326 403 0 694-195t291-464q0-109-90-189-89-80-211-80-224 0-307 294l-38 141q-51 179-128 243t-250 64q-390 0-630-307t-240-806q0-551 275-900 275-348 717-348 275 0 473 131 199 131 429 470" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-72" d="M1024 2931v-589q243 346 406 474 164 128 362 128 166 0 259-90 93-89 93-249 0-135-67-212-67-76-183-76-121 0-256 128-102 96-166 96-134 0-291-186-157-185-157-339V576q0-275 109-371t435-109V0H32v96q307 58 380 128 74 70 74 314v1600q0 211-48 297-48 87-169 87-103 0-224-26v102q403 128 947 346z" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-61" d="M2829 422V243Q2586-64 2253-64q-365 0-410 467h-6Q1427-64 909-64q-301 0-487 176-185 176-185 490 0 448 448 748 307 205 1152 519v345q0 288-138 432-137 144-361 144-192 0-320-93-128-92-128-220 0-58 19-129 19-70 19-140 0-96-87-179-86-83-207-83-109 0-193 83-83 83-83 211 0 307 327 512 301 192 736 192 518 0 755-288 115-134 147-272t32-438V723q0-422 199-422 128 0 275 121m-992 391v902q-589-205-819-422-218-199-218-493 0-243 121-368 122-125 321-125 211 0 371 103 134 96 179 179t45 224" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-74" d="m1702 493 84-71Q1478-64 1011-64q-563 0-563 813v1926H109q-26 19-26 45 0 51 109 122 243 140 621 684 13 20 61 80 48 61 67 100 45 0 45-84v-742h646v-205H986V845q0-307 76-442 77-134 256-134 192 0 384 224" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-69" d="M1152 4045q0-141-96-234t-237-93q-134 0-227 93t-93 234q0 134 96 230t231 96q140 0 233-96t93-230M1619 0H102v96q333 19 419 115 87 96 87 455v1452q0 224-45 314t-166 90q-154 0-269-32v102l992 352 26-26V672q0-358 80-454t393-122z" transform="scale(.01563)"/>
+          </defs>
+          <use xlink:href="#STIXGeneral-Regular-44"/>
+          <use xlink:href="#STIXGeneral-Regular-65" x="72.2"/>
+          <use xlink:href="#STIXGeneral-Regular-6d" x="116.6"/>
+          <use xlink:href="#STIXGeneral-Regular-6f" x="194.4"/>
+          <use xlink:href="#STIXGeneral-Regular-63" x="244.4"/>
+          <use xlink:href="#STIXGeneral-Regular-72" x="288.8"/>
+          <use xlink:href="#STIXGeneral-Regular-61" x="322.1"/>
+          <use xlink:href="#STIXGeneral-Regular-74" x="366.5"/>
+          <use xlink:href="#STIXGeneral-Regular-69" x="394.3"/>
+          <use xlink:href="#STIXGeneral-Regular-63" x="422.1"/>
+        </g>
+        <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#983d3d" transform="matrix(.12 0 0 -.12 473.548 40.104)" id="text_100"/>
+        <g style="fill:#323034" transform="matrix(.12 0 0 -.12 498.898 39.804)" id="text_101">
+          <defs>
+            <path id="STIXGeneral-Regular-52" d="M4224 0H3187L1664 1971l-358-13V717q0-365 99-468 99-102 470-127V0H109v122q365 32 454 140 90 109 90 532v2732q0 359-90 461-89 103-454 128v122h1741q876 0 1337-378 314-256 314-768 0-870-1159-1049L3622 422q135-166 256-224 122-57 346-76zM1306 3731V2195q460 7 684 51 224 45 448 167 365 205 365 729 0 858-1171 858-173 0-250-55-76-54-76-214" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-70" d="M1018 2931v-493q403 506 921 506 467 0 768-384t301-979q0-698-387-1172-387-473-957-473-198 0-336 58-138 57-310 217V-794q0-300 102-386 102-87 461-94v-115H32v109q282 26 365 109t83 333v2995q0 224-51 294-51 71-211 71-103 0-160-7v103q448 134 921 326zm0-793V563q0-141 220-282 221-140 445-140 346 0 560 326 215 327 215 858 0 563-215 899-214 336-573 336-224 0-438-141t-214-281" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-75" d="M3072 320v-90Q2573 96 2195-58l-32 20v524h-13Q1747-64 1235-64q-365 0-573 224T454 755v1607q0 236-83 326T58 2790v90h934V813q0-218 131-362t323-144q314 0 538 199 83 76 115 143 32 68 32 228v1478q0 250-90 323-89 74-383 93v109h1011V685q0-224 73-295 74-70 292-70z" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-62" d="M979 4358V2406q103 244 336 391 234 147 528 147 506 0 829-403t323-1005q0-704-429-1152Q2138-64 1498-64q-391 0-724 131-332 131-332 291v3264q0 237-58 304-58 68-256 68-45 0-109-13v109l192 57q653 199 736 224zm0-2323V474q0-148 182-241 183-92 439-92 378 0 595 275 237 294 237 845 0 627-250 979-211 301-569 301-256 0-445-151-189-150-189-355" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-6c" d="M1645 0H134v96q301 26 397 125t96 368v3001q0 231-58 320-57 90-211 90-134 0-236-13v103q608 147 1011 281l32-25V557q0-269 89-356 90-86 391-105z" transform="scale(.01563)"/>
+            <path id="STIXGeneral-Regular-6e" d="M3104 0H1773l6 96q237 19 317 137 80 119 80 439v1274q0 646-467 646-160 0-301-77t-358-288V461q0-192 86-269t330-96V0H115v96q243 19 320 118 77 100 77 388v1555q0 237-45 326-45 90-179 90-128 0-186-26v109q448 128 877 288l51-19v-499h7q454 518 921 518 365 0 560-256 196-256 196-730V544q0-256 76-339 77-83 314-109z" transform="scale(.01563)"/>
+          </defs>
+          <use xlink:href="#STIXGeneral-Regular-52"/>
+          <use xlink:href="#STIXGeneral-Regular-65" x="66.7"/>
+          <use xlink:href="#STIXGeneral-Regular-70" x="111.1"/>
+          <use xlink:href="#STIXGeneral-Regular-75" x="161.1"/>
+          <use xlink:href="#STIXGeneral-Regular-62" x="211.1"/>
+          <use xlink:href="#STIXGeneral-Regular-6c" x="261.1"/>
+          <use xlink:href="#STIXGeneral-Regular-69" x="288.9"/>
+          <use xlink:href="#STIXGeneral-Regular-63" x="316.7"/>
+          <use xlink:href="#STIXGeneral-Regular-61" x="361.1"/>
+          <use xlink:href="#STIXGeneral-Regular-6e" x="405.5"/>
+        </g>
+        <use xlink:href="#FontAwesome6Free-Solid-f1ae" style="fill:#dcb732" transform="matrix(.12 0 0 -.12 473.548 55.909)" id="text_102"/>
+        <g style="fill:#323034" transform="matrix(.12 0 0 -.12 498.898 55.609)" id="text_103">
+          <defs>
+            <path id="STIXGeneral-Regular-4c" d="M3827 1114 3520 0H77v122q352 19 454 134 103 115 103 480v2758q0 378-93 487T77 4115v122h1811v-122q-390-25-496-131t-106-477V538q0-180 112-234t464-54h448q775 0 1082 390 128 173 269 474z" transform="scale(.01563)"/>
+          </defs>
+          <use xlink:href="#STIXGeneral-Regular-4c"/>
+          <use xlink:href="#STIXGeneral-Regular-69" x="61.1"/>
+          <use xlink:href="#STIXGeneral-Regular-62" x="88.9"/>
+          <use xlink:href="#STIXGeneral-Regular-65" x="138.9"/>
+          <use xlink:href="#STIXGeneral-Regular-72" x="183.3"/>
+          <use xlink:href="#STIXGeneral-Regular-74" x="216.6"/>
+          <use xlink:href="#STIXGeneral-Regular-61" x="244.4"/>
+          <use xlink:href="#STIXGeneral-Regular-72" x="288.8"/>
+          <use xlink:href="#STIXGeneral-Regular-69" x="322.1"/>
+          <use xlink:href="#STIXGeneral-Regular-61" x="349.9"/>
+          <use xlink:href="#STIXGeneral-Regular-6e" x="394.3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

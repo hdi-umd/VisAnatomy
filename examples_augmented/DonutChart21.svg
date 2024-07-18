@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:hidden">
+  <path d="M0 0h847v450H0Z" fill="#FFF"/>
+  <g/>
+  <path d="M423.5 71c28.222 0 56.402 7.947 80.465 22.693s43.937 36.247 56.75 61.392l-78.409 39.952c-5.491-10.777-14.008-19.992-24.321-26.311-10.313-6.32-22.39-9.726-34.485-9.726Z" fill="#1274AC" class="k-chart-point" aria-label="Hydroelectric" aria-roledescription="Point"/>
+  <path d="M560.715 155.085c17.425 34.199 21.414 75.025 10.937 111.95-10.476 36.924-35.311 69.572-68.1 89.524l-45.744-75.177c14.052-8.55 24.696-22.542 29.186-38.367s2.78-33.322-4.688-47.978Z" fill="#FFE162" class="k-chart-point" aria-label="Nuclear" aria-roledescription="Point"/>
+  <path d="M503.552 356.559c-32.513 19.784-72.519 26.895-109.859 19.529l17.033-86.336c16.002 3.157 33.148.109 47.082-8.37Z" fill="#4CD180" class="k-chart-point" aria-label="Coal" aria-roledescription="Point"/>
+  <path d="M393.693 376.088a154.4 154.4 0 0 1-46.914-17.559l43.841-76.302a66.1 66.1 0 0 0 20.106 7.525Z" fill="#0074E6" class="k-chart-point" aria-label="Solar" aria-roledescription="Point"/>
+  <path d="M346.779 358.529c-31.462-18.077-56.154-47.64-68.338-81.819-12.184-34.178-11.76-72.695 1.172-106.597l82.221 31.364c-5.542 14.529-5.724 31.037-.502 45.685s15.804 27.317 29.288 35.065Z" fill="#9B4FE6" class="k-chart-point" aria-label="Wind" aria-roledescription="Point"/>
+  <path d="M279.613 170.113c11.036-28.931 31.028-54.372 56.528-71.937C361.64 80.611 392.536 71 423.5 71v88c-13.27 0-26.511 4.119-37.44 11.647s-19.496 18.431-24.226 30.83Z" fill="#FF80AC" class="k-chart-point" aria-label="Other" aria-roledescription="Point"/>
+  <path d="M445.975 123.71h70v14h-70Z" fill="none"/>
+  <text x="445.975" y="134.71" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Hydroelectric</text>
+  <path d="M508.823 247.525h41v14h-41Z" fill="none"/>
+  <text x="508.823" y="258.525" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Nuclear</text>
+  <path d="M430.253 325.802h25v14h-25Z" fill="none"/>
+  <text x="430.253" y="336.802" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Coal</text>
+  <path d="M370.941 320.52h28v14h-28Z" fill="none"/>
+  <text x="370.941" y="331.52" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Solar</text>
+  <path d="M306.387 254.436h27v14h-27Z" fill="none"/>
+  <text x="306.387" y="265.436" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Wind</text>
+  <path d="M346.1 126.911h30v14h-30Z" fill="none"/>
+  <text x="346.1" y="137.911" fill="#fff" style="font:400 11.998px sans-serif;white-space:pre">Other</text>
+  <text y="28" transform="translate(376.5 188)" style="font:28px Verdana,Arial,sans-serif;white-space:pre">22.5%</text>
+  <text y="16" transform="translate(390 222)" style="font:16px Verdana,Arial,sans-serif;white-space:pre">of which</text>
+  <text y="16" transform="translate(378 242)" style="font:16px Verdana,Arial,sans-serif;white-space:pre">renewables</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg shape-rendering="geometricPrecision" width="600" height="400" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;cursor:crosshair">
+  <style>
+    text{text-rendering:optimizeLegibility}#pkVVG4n .axis-text-x,#pkVVG4n .axis-text-y,#pkVVG4n .legend-item{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="pkVVG4n">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v400h600V0Z"/>
+    <path stroke="#E9E9E9" d="M131.323 354V10m125.058 344V10m125.058 344V10"/>
+    <path stroke="#474747" d="M131.323 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(131.323 361)">f</text>
+    <path stroke="#474747" d="M256.381 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(256.381 361)">4</text>
+    <path stroke="#474747" d="M381.439 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(381.439 361)">r</text>
+    <path stroke="#474747" d="M50.035 354h412.691"/>
+    <path stroke="#E9E9E9" d="M50.035 288.476h412.691M50.035 222.952h412.691M50.035 157.429h412.691M50.035 91.905h412.691M50.035 26.381h412.691"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 354)">0.0</text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 288.476)">0.2</text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 222.952)">0.4</text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 157.429)">0.6</text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 91.905)">0.8</text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(47.035 26.381)">1.0</text>
+    <g transform="translate(50.035 10)" clip-path="url(#cLd50mY)">
+      <defs>
+        <clipPath id="cLd50mY">
+          <path d="M0 0h412.691v344H0z"/>
+        </clipPath>
+      </defs>
+      <path stroke="#FFF" fill="#A65628" stroke-width="1.65" d="M150.07 16.381h112.552v12.723H150.07zm-125.058 0h112.552v67.996H25.012zm250.115 0h112.552v117.943H275.127z"/>
+      <path stroke="#FFF" fill="#FF3" stroke-width="1.65" d="M150.07 29.104h112.552v104.965H150.07z"/>
+      <path stroke="#FFF" fill="#FF7F00" stroke-width="1.65" d="M25.012 84.377h112.552v33.998H25.012z"/>
+      <path stroke="#FFF" fill="#984EA3" stroke-width="1.65" d="M275.127 134.324h112.552v65.524H275.127z"/>
+      <path stroke="#FFF" fill="#4DAF4A" stroke-width="1.65" d="M150.07 134.069h112.552v162.219H150.07zm125.057 65.779h112.552V344H275.127z"/>
+      <path stroke="#FFF" fill="#377EB8" stroke-width="1.65" d="M25.012 118.376h112.552v117.448H25.012zM150.07 296.288h112.552v9.542H150.07z"/>
+      <path stroke="#FFF" fill="#E41A1C" stroke-width="1.65" d="M150.07 305.831h112.552V344H150.07zM25.012 235.824h112.552V344H25.012z"/>
+    </g>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 98.25 83.75)">count</text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(256.38 391.5)">drv</text>
+    <path stroke="#474747" stroke-width="0" fill="#FFF" d="M477.726 85.25H595v193.5H477.726z"/>
+    <text style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(482.726 100.75)">class</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 112.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#E41A1C" stroke-width="1.5" d="M483.726 113.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 112.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 128.8)">compact</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 135.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#377EB8" stroke-width="1.5" d="M483.726 136.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 135.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 151.8)">midsize</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 158.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#4DAF4A" stroke-width="1.5" d="M483.726 159.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 158.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 174.8)">suv</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 181.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#984EA3" stroke-width="1.5" d="M483.726 182.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 181.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 197.8)">2seater</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 204.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#FF7F00" stroke-width="1.5" d="M483.726 205.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 204.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 220.8)">minivan</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 227.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#FF3" stroke-width="1.5" d="M483.726 228.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 227.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 243.8)">pickup</text>
+    <path stroke-width="0" fill="#FFF" d="M482.726 250.75h23v23h-23z"/>
+    <path stroke="#FFF" fill="#A65628" stroke-width="1.5" d="M483.726 251.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M482.726 250.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(509.716 266.8)">subcompact</text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v400h600V0Z"/>
+  </g>
+  <g id="dfs6sLG">
+    <g/>
+    <g/>
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+<svg width="600" height="350" viewBox="0 0 600 350" cursor="crosshair" class="svelte-f2rgfv">
+  <g class="chartlines" pointer-events="none">
+    <path class="line svelte-f2rgfv" fill="red" stroke="red" d="m50 254.223 54.007-10.566L158 240.22l54.007-7.764L266 220.926l54.007-9.676 53.993-.21 54.007-3.711L482 201.152l54.007-3.82L590 192.249V320H50Z" fill-opacity=".3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="chartlines" pointer-events="none">
+    <path class="line svelte-f2rgfv" fill="#00f" stroke="#00f" d="m50 244.56 54.007-10.144L158 230.981l54.007-9.574L266 205.533l54.007-10.983L374 189.463l54.007-1.78L482 177.206l54.007-5.62L590 167.022V320H50Z" fill-opacity=".3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="chartlines" pointer-events="none">
+    <path class="line svelte-f2rgfv" fill="green" stroke="green" d="m50 246.542 54.007-10.493L158 227.604l54.007-12.265L266 198.095l54.007-17.346L374 152.859l54.007-22.339L482 97.721l54.007-31.753L590 40v280H50Z" fill-opacity=".3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="chartlines" pointer-events="none">
+    <path class="line svelte-f2rgfv" fill="#ff0" stroke="#ff0" d="m50 299.568 54.007-6.897L158 288.114l54.007-12.886L266 257.791l54.007-14.97L374 224.262l54.007-21.318L482 179.856l54.007-19.398L590 145.727V320H50Z" fill-opacity=".3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="y-axis svelte-f2rgfv" pointer-events="none">
+    <path class="domain svelte-f2rgfv" stroke="#000" d="M50 40v286"/>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 320)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 320)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 320)">0m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 275.65)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 275.65)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 275.65)">20m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 231.298)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 231.298)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 231.298)">40m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 186.948)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 186.948)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 186.948)">60m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 142.597)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 142.597)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 142.597)">80m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 98.246)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 98.246)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 98.246)">100m</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" d="M-6 0h6" transform="translate(50 53.895)"/>
+      <path class="tick-grid svelte-f2rgfv" d="M0 0h540" transform="translate(50 53.895)"/>
+      <text x="-50" y="5" class="svelte-f2rgfv" transform="translate(50 53.895)">120m</text>
+    </g>
+    <text x="-50" y="30" transform="translate(50)">↑ Population (in millions)</text>
+  </g>
+  <g class="x-axis svelte-f2rgfv" pointer-events="none">
+    <path class="domain svelte-f2rgfv" stroke="#000" d="M50 320.5h540"/>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(104.004 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(104.004 320)">1929</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(157.997 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(157.997 320)">1939</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(212.004 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(212.004 320)">1949</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(265.997 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(265.997 320)">1959</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(320.004 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(320.004 320)">1969</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(373.997 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(373.997 320)">1979</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(428.004 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(428.004 320)">1989</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(481.997 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(481.997 320)">1999</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(536.004 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(536.004 320)">2009</text>
+    </g>
+    <g class="tick svelte-f2rgfv">
+      <path class="tick-start svelte-f2rgfv" stroke="#000" d="M0 0v6" transform="translate(589.997 320)"/>
+      <text font-size="8" x="-12.5" y="20" class="svelte-f2rgfv" transform="translate(589.997 320)">2019</text>
+    </g>
+  </g>
+  <path class="voronoi-cell svelte-f2rgfv" d="M0 250.383h77.286l3.479 17.781-6.216 8.732H0Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m132.418 264.167-3.29 3.997H80.764l-3.479-17.781-.258-4.832-.095-5.698h53.938Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m187.52 253.842-6.693 10.325h-48.409l-1.547-24.314.328-4.253h53.699Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m241.709 239.358-6.796 14.484H187.52l-2.622-18.242.172-6.308.212-2.36h53.773Zm53.256-12.323-4.996 12.323h-48.26l-2.654-12.427-.076-8.558.532-5.144h52.98Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m346.972 202.9.057 14.752-2.262 9.383h-49.802l-2.473-13.806 1.093-10.329Zm.808-2.648h52.213l.732 4.885.86 12.515H347.03l-.057-14.752Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M400.725 205.137h54.381L471.677 350h-28.592l-41.5-132.348ZM471.677 350l-16.57-144.863-.327-9.823 1.2-4.81h52.406L519.668 350Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m519.668 350-11.282-159.496 1.956-6.045h51.69L577.613 350Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M600 179.636V350h-22.386L562.03 184.46l1.846-4.824ZM0 245.551V0h32.023l44.181 235.233.729 4.62.095 5.698Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m101.859 0 28.928 229.292.378 5.94h-54.96L32.022 0Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m185.07 229.292-.172 6.308h-53.699l-.034-.367-.378-5.94Zm53.909-10.919.076 8.558h-53.773l-.982-8.558Zm54.606-15.473-1.093 10.329H239.51l-2.073-11.415h55.926Zm53.008-15.25 1.188 12.602-.81 2.648h-53.386l-.22-1.086-.93-14.165Zm0 0 2.661-16.489h51.176l.796 24.153-1.233 4.938h-52.212ZM401.226 195.314l-.796-24.153 7.776-12.06h42.269l3.77 19.43 1.735 11.973-1.2 4.81Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m450.475 159.101 18.71-21.637h30.09l8.857 28.558 1.302 12.51h-55.19Zm58.959 19.43-1.302-12.509h54.594l1.151 13.614-1.846 4.823h-51.69ZM600 179.636h-36.123l-1.15-13.614 1.172-9.648H600ZM0 245.551h77.028l.258 4.832H0Zm131.2-9.951-.329 4.253H76.933l-.729-4.62h54.961ZM101.859 0h32.846L184.3 218.373l.982 8.558-.212 2.361h-54.283Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m239.511 213.229-.532 5.144h-54.68L134.706 0h38.28l64.453 201.814Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m232.165 0 60.27 187.65.93 14.164h-55.927L172.984 0Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M346.593 187.65h-54.159L232.165 0h28.676l88.413 171.161Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M349.254 171.161 260.841 0h81.557l65.808 159.101-7.776 12.06Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M408.206 159.101 342.398 0h43.28l83.506 137.464-18.71 21.637Zm60.978-21.637L385.678 0h75.207l66.561 113.213-28.17 24.25Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M527.446 113.213 460.885 0h76.636l44.663 92.863-30.06 20.35Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M600 0v92.863h-17.816L537.521 0ZM0 350v-73.104h74.549L83.884 350Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M129.127 268.164 136.035 350H83.884l-9.335-73.104 6.216-8.732Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="m136.035 350-6.908-81.836 3.291-3.997h48.41L201.306 350Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M234.913 253.842 265.967 350h-64.66l-20.48-85.833 6.693-10.325Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M289.969 239.358 320.639 350h-54.672l-31.054-96.158 6.796-14.484Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M344.767 227.035 387.03 350h-66.391l-30.67-110.642 4.996-12.323Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M347.029 217.652h54.557L443.086 350H387.03l-42.263-122.965Zm54.197-22.338h53.554l.326 9.823h-54.38l-.733-4.885Zm54.754-4.81-1.736-11.973h55.19l.908 5.928-1.956 6.045Zm43.296-53.04 28.17-24.25h24.677l11.776 43.16-1.173 9.648h-54.594Z" fill="none"/>
+  <path class="voronoi-cell svelte-f2rgfv" d="M600 156.374h-36.1l-11.777-43.16 30.061-20.35H600Z" fill="none"/>
+</svg>

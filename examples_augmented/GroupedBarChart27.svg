@@ -1,0 +1,63 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="57.6" y="20.5" fill="#666" class="wj-title">Balance of trade in 2015 ($Billions) of the United States</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M206.7 342.5h227.5V369H206.7z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M207.7 343.5h225.5V368H207.7z"/>
+    <path fill="rgba(136,189,230,0.7)" stroke="#88bde6" d="M211.7 350.8h10v10h-10z"/>
+    <text x="225.7" y="361" class="wj-label">Exports</text>
+    <path fill="rgba(251,178,88,0.7)" stroke="#fbb258" d="M282 350.8h10v10h-10z"/>
+    <text x="296" y="361" class="wj-label">Imports</text>
+    <path fill="rgba(144,205,151,0.7)" stroke="#90cd97" d="M351.9 350.8h10v10h-10z"/>
+    <text x="365.9" y="361" class="wj-label">Difference</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M64.3 41.5h524v182.6h-524z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="-11" y="285.3" fill="#666" class="wj-label" transform="rotate(-45 55.2 280)">Electronic equipment</text>
+    <path stroke="#666" class="wj-tick" d="M107.9 224.1v4"/>
+    <text x="145.6" y="256.5" fill="#666" class="wj-label" transform="rotate(-45 171.3 251.3)">Vehicles</text>
+    <path stroke="#666" class="wj-tick" d="M195.3 224.1v4"/>
+    <text x="254.2" y="247.7" fill="#666" class="wj-label" transform="rotate(-45 267.4 242.5)">Fuel</text>
+    <path stroke="#666" class="wj-tick" d="M282.6 224.1v4"/>
+    <text x="275.4" y="275.2" fill="#666" class="wj-label" transform="rotate(-45 327.4 269.9)">Pharmaceuticals</text>
+    <path stroke="#666" class="wj-tick" d="M370 224.1v4"/>
+    <text x="409.9" y="255.6" fill="#666" class="wj-label" transform="rotate(-45 434.2 250.3)">Plastics</text>
+    <path stroke="#666" class="wj-tick" d="M457.3 224.1v4"/>
+    <text x="438.3" y="280" fill="#666" class="wj-label" transform="rotate(-45 497.2 274.8)">Aircraft/Spacecraft</text>
+    <path stroke="#666" class="wj-tick" d="M544.6 224.1v4"/>
+    <path stroke="#666" class="wj-line" d="M64.3 224.1h524"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M64.3 200.9h524"/>
+    <text x="22.5" y="206.1" fill="#666" class="wj-label">-100</text>
+    <path stroke="#666" class="wj-gridline" d="M64.3 164.1h524"/>
+    <text x="43.5" y="169.3" fill="#666" class="wj-label">0</text>
+    <path stroke="#666" class="wj-gridline" d="M64.3 127.2h524"/>
+    <text x="27.9" y="132.5" fill="#666" class="wj-label">100</text>
+    <path stroke="#666" class="wj-gridline" d="M64.3 90.4h524"/>
+    <text x="27.9" y="95.7" fill="#666" class="wj-label">200</text>
+    <path stroke="#666" class="wj-gridline" d="M64.3 53.6h524"/>
+    <text x="27.9" y="58.9" fill="#666" class="wj-label">300</text>
+  </g>
+  <g class="wj-series-group">
+    <g clip-path="url(#c)" fill="rgba(136,189,230,0.7)" stroke="#88bde6">
+      <path d="M77.4 101.6h20.4v62.5H77.4zm87.3 15.7h20.4v46.8h-20.4zM252 125h20.4v39.1H252zm87.4 21.7h20.4v17.4h-20.4zm87.3-4.8h20.4v22.2h-20.4zm87.4-26.1h20.4v48.3h-20.4z"/>
+    </g>
+    <g clip-path="url(#c)" fill="rgba(251,178,88,0.7)" stroke="#fbb258">
+      <path d="M97.7 41.5h20.4v122.6H97.7zm87.4 18.1h20.4v104.5h-20.4zM272.4 90h20.4v74.1h-20.4zm87.4 42.4h20.4v31.7h-20.4zm87.3 13.2h20.4v18.5h-20.4zm87.3 5.5h20.4v13h-20.4z"/>
+    </g>
+    <g clip-path="url(#c)" fill="rgba(144,205,151,0.7)" stroke="#90cd97">
+      <path d="M118.1 164.1h20.4v60.1h-20.4zm87.4 0h20.4v54h-20.4zm87.3 0h20.4v35h-20.4zm87.3 0h20.4v14.3h-20.4zm87.4-3.8h20.4v3.7h-20.4zm87.3-31.5h20.4v35.3h-20.4z"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M63.3 40.5h526v184.6h-526z"/>
+  </clipPath>
+</svg>

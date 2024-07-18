@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="470" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none">
+  <style>
+    text{text-rendering:optimizeLegibility}#xXxprefixXx0 .legend-item{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="xXxprefixXx0">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v470h705V0Z"/>
+    <g transform="translate(10 10)"/>
+    <g transform="translate(10 460)"/>
+    <g transform="translate(10 10)"/>
+    <g transform="translate(10 10)"/>
+    <g clip-path="url(#xXxprefixXx1)" transform="translate(10 10)">
+      <defs>
+        <clipPath id="xXxprefixXx1">
+          <path d="M0 0h565.706v450H0z"/>
+        </clipPath>
+      </defs>
+      <path d="m282.853 225-60.474 79.642A100 100 0 0 1 282.853 125z" fill="navy"/>
+      <path d="M282.853 225V125a100 100 0 0 1 99.998 99.326z" fill="#321F81"/>
+      <path d="m282.853 225 99.998-.674a100 100 0 0 1-29.367 71.464z" fill="#493781"/>
+      <path d="m288.237 233.427 70.631 70.79a100 100 0 0 1-36.077 23.05z" fill="#5B4F81"/>
+      <path d="m284.486 234.866 34.554 93.84a100 100 0 0 1-37.025 6.13z" fill="#696780"/>
+      <path d="m280.432 244.853-2.471 99.97a100 100 0 0 1-19.154-2.336z" fill="#75807F"/>
+      <path d="m273.955 253.65-21.625 97.634a100 100 0 0 1-15.863-4.927z" fill="#80997D"/>
+      <path d="m265.192 260.89-37.489 92.707a100 100 0 0 1-13.094-6.444z" fill="#89B279"/>
+      <path d="m249.477 274.86-50.583 86.264a100 100 0 0 1-9.891-6.622z" fill="#91CC75"/>
+      <path d="M222.379 304.642A100 100 0 0 1 282.853 125m0 0a100 100 0 0 1 99.998 99.326m0 0a100 100 0 0 1-29.367 71.464m5.384 8.427a100 100 0 0 1-36.077 23.05m-3.751 1.439a100 100 0 0 1-37.025 6.13m-4.055 9.986a100 100 0 0 1-19.153-2.335m-6.477 8.797a100 100 0 0 1-15.863-4.927m-8.764 7.24a100 100 0 0 1-13.094-6.444m-15.715 13.971a100 100 0 0 1-9.891-6.622m60.474-79.642" fill="none" stroke="#FFF"/>
+      <path d="M282.853 225V124.5m0 100.5V124.5m0 100.5 100.498-.678M282.853 225l100.498-.678" fill="none" stroke-width=".75" stroke="#FFF"/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+    </g>
+    <path stroke="#474747" stroke-width="0" fill="#FFF" d="M590.706 115.25H700v239.5H590.706z"/>
+    <text style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(595.706 130.75)">
+            <tspan>name</tspan>
+          </text>
+    <g transform="translate(595.706 142.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="navy" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 158.8)">
+                <tspan>20-50 km</tspan>
+              </text>
+    <g transform="translate(595.706 165.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#321F81" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 181.8)">
+                <tspan>50-75 km</tspan>
+              </text>
+    <g transform="translate(595.706 188.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#493781" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 204.8)">
+                <tspan>10-20 km</tspan>
+              </text>
+    <g transform="translate(595.706 211.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#5B4F81" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 227.8)">
+                <tspan>75-100 km</tspan>
+              </text>
+    <g transform="translate(595.706 234.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#696780" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 250.8)">
+                <tspan>3-5 km</tspan>
+              </text>
+    <g transform="translate(595.706 257.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#75807F" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 273.8)">
+                <tspan>7-10 km</tspan>
+              </text>
+    <g transform="translate(595.706 280.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#80997D" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 296.8)">
+                <tspan>5-7 km</tspan>
+              </text>
+    <g transform="translate(595.706 303.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#89B279" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 319.8)">
+                <tspan>&gt;100 km</tspan>
+              </text>
+    <g transform="translate(595.706 326.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <circle cx="10.5" cy="10.5" r="5" fill="#91CC75" stroke="#474747" stroke-width=".75" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(622.696 342.8)">
+                <tspan>2-3 km</tspan>
+              </text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v470h705V0Z"/>
+  </g>
+  <g id="xXxprefixXx2"/>
+</svg>

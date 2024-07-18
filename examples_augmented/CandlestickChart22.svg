@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="470" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none">
+  <style>
+    text{text-rendering:optimizeLegibility}#xXxprefixXx0 .axis-text-x,#xXxprefixXx0 .axis-text-y{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="xXxprefixXx0">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v470h705V0Z"/>
+    <path stroke="#E9E9E9" fill="none" d="M124.683 424V10m122.649 414V10M369.98 424V10m122.649 414V10m122.649 414V10"/>
+    <path stroke="#474747" d="M124.683 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(124.683 431)">
+              <tspan>Jan</tspan>
+            </text>
+    <path stroke="#474747" d="M247.331 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(247.331 431)">
+              <tspan>Feb</tspan>
+            </text>
+    <path stroke="#474747" d="M369.981 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(369.981 431)">
+              <tspan>Mar</tspan>
+            </text>
+    <path stroke="#474747" d="M492.629 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(492.629 431)">
+              <tspan>Apr</tspan>
+            </text>
+    <path stroke="#474747" d="M615.278 424v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(615.278 431)">
+              <tspan>May</tspan>
+            </text>
+    <path stroke="#474747" d="M44.961 424H695"/>
+    <path stroke="#E9E9E9" fill="none" d="M44.961 405.182H695M44.961 339.727H695M44.961 274.273H695M44.961 208.818H695M44.961 143.364H695M44.961 77.909H695"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 405.182)">
+              <tspan>4</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 339.727)">
+              <tspan>6</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 274.273)">
+              <tspan>8</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 208.818)">
+              <tspan>10</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 143.364)">
+              <tspan>12</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 77.91)">
+              <tspan>14</tspan>
+            </text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(41.961 12.455)">
+              <tspan>16</tspan>
+            </text>
+    <g transform="translate(44.961 10)" clip-path="url(#xXxprefixXx1)">
+      <defs>
+        <clipPath id="xXxprefixXx1">
+          <path d="M0 0h650.039v414H0z"/>
+        </clipPath>
+      </defs>
+      <path stroke="#A39999" fill="red" stroke-width="1.32" d="M24.53 61.364h110.384v202.909H24.53z"/>
+      <path stroke="#A39999" fill="#0FF" stroke-width="1.32" d="M147.179 244.636h110.384v62.182H147.179zm122.648-68.727h110.384v62.182H269.827z"/>
+      <path stroke="#A39999" fill="red" stroke-width="1.32" d="M392.476 159.545H502.86v153.818H392.476z"/>
+      <path stroke="#A39999" fill="#0FF" stroke-width="1.32" d="M515.125 205.364h110.384v189.818H515.125z"/>
+      <path stroke="#A39999" fill="red" stroke-width="1.32" d="M79.722 264.273v16.363m0-219.272V18.818m0 0"/>
+      <path stroke="#A39999" fill="#0FF" stroke-width="1.32" d="M202.371 306.818v19.637m0-81.819v-32.727m122.648 26.182v9.818m0-72"/>
+      <path stroke="#A39999" fill="red" stroke-width="1.32" d="M447.668 313.364v36m0-189.819v-16.363m0 0"/>
+      <path stroke="#A39999" fill="#0FF" stroke-width="1.32" d="M570.317 205.364v-3.273m0 0"/>
+    </g>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 115.75 101.25)">
+        
+      </text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(369.98 461.5)">
+        <tspan>x</tspan>
+      </text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v470h705V0Z"/>
+  </g>
+  <g id="xXxprefixXx2"/>
+</svg>

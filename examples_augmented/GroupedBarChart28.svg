@@ -1,0 +1,66 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="257.1" y="20.5" fill="#666" class="wj-title">Country GDP</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M239.8 342.5h161.4V369H239.8z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M240.8 343.5h159.4V368H240.8z"/>
+    <path fill="#2a9fd6" stroke="rgba(42,159,214,1)" d="M244.8 350.8h10v10h-10z"/>
+    <text x="258.8" y="361" class="wj-label">2014</text>
+    <path fill="#77b300" stroke="rgba(119,179,0,1)" d="M297.9 350.8h10v10h-10z"/>
+    <text x="311.9" y="361" class="wj-label">2015</text>
+    <path fill="#93c" stroke="rgba(153,51,204,1)" d="M351.1 350.8h10v10h-10z"/>
+    <text x="365.1" y="361" class="wj-label">2016</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M86.1 41.5h513.2v204.4H86.1z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="39.7" y="290.2" fill="#666" class="wj-label" transform="rotate(-45 82.2 285)">United States</text>
+    <path stroke="#666" class="wj-tick" d="M118.1 245.9v4"/>
+    <text x="145.5" y="273.1" fill="#666" class="wj-label" transform="rotate(-45 163.6 267.8)">China</text>
+    <path stroke="#666" class="wj-tick" d="M182.3 245.9v4"/>
+    <text x="207.8" y="273.7" fill="#666" class="wj-label" transform="rotate(-45 227 268.5)">Japan</text>
+    <path stroke="#666" class="wj-tick" d="M246.4 245.9v4"/>
+    <text x="256" y="280.3" fill="#666" class="wj-label" transform="rotate(-45 284.6 275.1)">Germany</text>
+    <path stroke="#666" class="wj-tick" d="M310.6 245.9v4"/>
+    <text x="282.1" y="296.2" fill="#666" class="wj-label" transform="rotate(-45 332.9 290.9)">United Kingdom</text>
+    <path stroke="#666" class="wj-tick" d="M374.7 245.9v4"/>
+    <text x="396.3" y="275.4" fill="#666" class="wj-label" transform="rotate(-45 417.8 270.2)">France</text>
+    <path stroke="#666" class="wj-tick" d="M438.9 245.9v4"/>
+    <text x="471.3" y="270.9" fill="#666" class="wj-label" transform="rotate(-45 486.4 265.7)">India</text>
+    <path stroke="#666" class="wj-tick" d="M503 245.9v4"/>
+    <text x="539.4" y="269.2" fill="#666" class="wj-label" transform="rotate(-45 552.2 264)">Italy</text>
+    <path stroke="#666" class="wj-tick" d="M567.1 245.9v4"/>
+    <path stroke="#666" class="wj-line" d="M86.1 245.9h513.1"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <text x="65.3" y="251.2" fill="#666" class="wj-label">0</text>
+    <path stroke="#666" class="wj-gridline" d="M86.1 202h513.1"/>
+    <text x="10.8" y="207.3" fill="#666" class="wj-label">4,000,000</text>
+    <path stroke="#666" class="wj-gridline" d="M86.1 158.1h513.1"/>
+    <text x="10.8" y="163.4" fill="#666" class="wj-label">8,000,000</text>
+    <path stroke="#666" class="wj-gridline" d="M86.1 114.2h513.1"/>
+    <text x="3" y="119.5" fill="#666" class="wj-label">12,000,000</text>
+    <path stroke="#666" class="wj-gridline" d="M86.1 70.3h513.1"/>
+    <text x="3" y="75.6" fill="#666" class="wj-label">16,000,000</text>
+  </g>
+  <g class="wj-series-group">
+    <g clip-path="url(#c)" fill="#2a9fd6" stroke="rgba(42,159,214,1)">
+      <path d="M95.7 55.5h15v190.4h-15zm64.1 76.8h15V246h-15zm64.2 63.1h15v50.5h-15zm64.1 8h15v42.5h-15zm64.2 10.2h15V246h-15zm64.1 1.2h15v31.1h-15zm64.2 8.6h15v22.5h-15zm64.1-1h15V246h-15z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#77b300" stroke="rgba(119,179,0,1)">
+      <path d="M110.7 48h15v198h-15zm64.1 75.2h15v122.7h-15zm64.1 77.5h15V246h-15zm64.2 8.3h15v36.9h-15zm64.1 5.6h15V246h-15zm64.2 4.8h15V246h-15zm64.1 3.8h15V246h-15zm64.2 2.8h15v19.9h-15z"/>
+    </g>
+    <g clip-path="url(#c)" fill="#93c" stroke="rgba(153,51,204,1)">
+      <path d="M125.6 41.5h15v204.4h-15zm64.2 81.1h15v123.3h-15zm64.1 69.2h15V246h-15zm64.2 15.9h15v38.2h-15zm64.1 9.4h15V246h-15zm64.1 1.8h15V246h-15zm64.2 2.2h15v24.8h-15zm64.1 4.5h15v20.3h-15z"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M85.1 40.5h515.2v206.4H85.1z"/>
+  </clipPath>
+</svg>

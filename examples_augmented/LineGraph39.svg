@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:hidden">
+  <defs>
+    <clipPath clip-rule="evenodd" id="a">
+      <path d="M34.5 51.5h807v295h-807Z" stroke="#000" fill="none"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h847v400H0Z" fill="#FFF"/>
+  <path d="M34 51h807v295H34Z" fill="none"/>
+  <path d="M149.5 51.5v295m116-295v295m115-295v295m115-295v295m115-295v295m116-295v295m115-295v295m-807-42h807m-807-42h807m-807-42h807m-807-43h807m-807-42h807m-807-42h807m-807-42h807m-807 295h807m-807 0v4m115-4v4m116-4v4m115-4v4m115-4v4m115-4v4m116-4v4m115-4v4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <g stroke-width="2" clip-path="url(#a)">
+    <path d="m91.643 242.329 115.286-128.958 115.285-28.657 115.286 82.6 115.286-23.6 115.285 70.8L783.357 263.4" stroke="#1274AC" fill="none"/>
+    <path d="M91.643 206.929 206.929 169l115.285-64.9L437.5 224.629l115.286-38.772 115.285 19.386 115.286-37.929" stroke="#FFE162" fill="none"/>
+    <path d="M91.643 298.8 206.929 228l115.285-46.357L437.5 307.229l115.286-64.9 115.285 37.928 115.286-14.328" stroke="#4CD180" fill="none"/>
+    <circle cx="91.643" cy="242.329" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="123" aria-roledescription="Point"/>
+    <circle cx="91.643" cy="206.929" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="165" aria-roledescription="Point"/>
+    <circle cx="91.643" cy="298.8" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="56" aria-roledescription="Point"/>
+    <circle cx="206.929" cy="113.371" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="276" aria-roledescription="Point"/>
+    <circle cx="206.929" cy="169" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="210" aria-roledescription="Point"/>
+    <circle cx="206.929" cy="228" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="140" aria-roledescription="Point"/>
+    <circle cx="322.214" cy="84.714" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="310" aria-roledescription="Point"/>
+    <circle cx="322.214" cy="104.1" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="287" aria-roledescription="Point"/>
+    <circle cx="322.214" cy="181.643" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="195" aria-roledescription="Point"/>
+    <circle cx="437.5" cy="167.314" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="212" aria-roledescription="Point"/>
+    <circle cx="437.5" cy="224.629" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="144" aria-roledescription="Point"/>
+    <circle cx="437.5" cy="307.229" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="46" aria-roledescription="Point"/>
+    <circle cx="552.786" cy="143.714" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="240" aria-roledescription="Point"/>
+    <circle cx="552.786" cy="185.857" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="190" aria-roledescription="Point"/>
+    <circle cx="552.786" cy="242.329" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="123" aria-roledescription="Point"/>
+    <circle cx="668.071" cy="214.514" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="156" aria-roledescription="Point"/>
+    <circle cx="668.071" cy="205.243" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="167" aria-roledescription="Point"/>
+    <circle cx="668.071" cy="280.257" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="78" aria-roledescription="Point"/>
+    <circle cx="783.357" cy="263.4" r="4" stroke="#1274AC" fill="#fff" class="k-chart-point" aria-label="98" aria-roledescription="Point"/>
+    <circle cx="783.357" cy="167.314" r="4" stroke="#FFE162" fill="#fff" class="k-chart-point" aria-label="212" aria-roledescription="Point"/>
+    <circle cx="783.357" cy="265.929" r="4" stroke="#4CD180" fill="#fff" class="k-chart-point" aria-label="95" aria-roledescription="Point"/>
+  </g>
+  <text x="415" y="387" fill="#424242" style="font:400 14px sans-serif;white-space:pre">Months</text>
+  <text x="82.143" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jan</text>
+  <text x="196.429" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Feb</text>
+  <text x="311.714" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Mar</text>
+  <text x="428" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Apr</text>
+  <text x="541.286" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">May</text>
+  <text x="658.572" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jun</text>
+  <text x="775.857" y="366" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jul</text>
+  <path d="M34.5 51.5v295m-4 0h4m-4-42h4m-4-42h4m-4-42h4m-4-43h4m-4-42h4m-4-42h4m-4-42h4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <text x="18" y="350" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">0</text>
+  <text x="12" y="307.857" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">50</text>
+  <text x="5" y="265.714" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">100</text>
+  <text x="5" y="223.571" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">150</text>
+  <text x="5" y="181.429" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">200</text>
+  <text x="5" y="139.286" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">250</text>
+  <text x="5" y="97.143" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">300</text>
+  <text x="5" y="55" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">350</text>
+  <text x="388.5" y="30" fill="#424242" style="font:400 16.002px sans-serif;white-space:pre">Units sold</text>
+  <g/>
+</svg>

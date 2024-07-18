@@ -1,0 +1,69 @@
+<svg class="visualization-layer" width="485" height="450" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="connectors" data-testid="connectors" tabindex="0" aria-label="connectors">
+      <path tabindex="-1" d="m220.87 82.16 10.317 102.658L162.5 325l-60.101-142.972 7.037-92.564Z" style="fill:#e0d33a;stroke:#e0d33a;stroke-opacity:.5;fill-opacity:.5" transform="translate(40 50)" aria-label="dataviz-element"/>
+      <path tabindex="-1" d="m214.503 90.924 32.14 98.915L162.5 243.75l-77.273-56.142 8.29-120.055Z" style="fill:#9fd0cb;stroke:#9fd0cb;stroke-opacity:.5;fill-opacity:.5" transform="translate(40 50)" aria-label="dataviz-element"/>
+      <path tabindex="-1" d="m213.441 92.385 60.676 106.382L162.5 240.139l-75.556-53.09 22.492-97.585Z" style="fill:#7566ff;stroke:#7566ff;stroke-opacity:.5;fill-opacity:.5" transform="translate(40 50)" aria-label="dataviz-element"/>
+      <path tabindex="-1" d="m217.687 86.542 18.652 99.95-73.839 93.37-66.97-95.602 3.293-109.404Z" style="fill:#e0488b;stroke:#e0488b;stroke-opacity:.5;fill-opacity:.5" transform="translate(40 50)" aria-label="dataviz-element"/>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="21 points in a point plot" transform="translate(40 50)">
+      <rect tabindex="-1" height="6" width="6" x="217.87" y="79.16" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="attack point value 55"/>
+      <rect tabindex="-1" height="6" width="6" x="217.87" y="79.16" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="attack point value 55"/>
+      <rect tabindex="-1" height="6" width="6" x="211.503" y="87.924" rx="3" ry="3" style="fill:#9fd0cb;stroke:#fff;stroke-opacity:.5" aria-label="attack point value 49"/>
+      <rect tabindex="-1" height="6" width="6" x="210.441" y="89.385" rx="3" ry="3" style="fill:#7566ff;stroke:#fff;stroke-opacity:.5" aria-label="attack point value 48"/>
+      <rect tabindex="-1" height="6" width="6" x="214.687" y="83.542" rx="3" ry="3" style="fill:#e0488b;stroke:#fff;stroke-opacity:.5" aria-label="attack point value 52"/>
+      <rect tabindex="-1" height="6" width="6" x="228.187" y="181.818" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="defense point value 40"/>
+      <rect tabindex="-1" height="6" width="6" x="243.642" y="186.839" rx="3" ry="3" style="fill:#9fd0cb;stroke:#fff;stroke-opacity:.5" aria-label="defense point value 49"/>
+      <rect tabindex="-1" height="6" width="6" x="271.117" y="195.767" rx="3" ry="3" style="fill:#7566ff;stroke:#fff;stroke-opacity:.5" aria-label="defense point value 65"/>
+      <rect tabindex="-1" height="6" width="6" x="233.339" y="183.492" rx="3" ry="3" style="fill:#e0488b;stroke:#fff;stroke-opacity:.5" aria-label="defense point value 43"/>
+      <rect tabindex="-1" height="6" width="6" x="159.5" y="322" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="speed point value 90"/>
+      <rect tabindex="-1" height="6" width="6" x="159.5" y="240.75" rx="3" ry="3" style="fill:#9fd0cb;stroke:#fff;stroke-opacity:.5" aria-label="speed point value 45"/>
+      <rect tabindex="-1" height="6" width="6" x="159.5" y="237.139" rx="3" ry="3" style="fill:#7566ff;stroke:#fff;stroke-opacity:.5" aria-label="speed point value 43"/>
+      <rect tabindex="-1" height="6" width="6" x="159.5" y="276.861" rx="3" ry="3" style="fill:#e0488b;stroke:#fff;stroke-opacity:.5" aria-label="speed point value 65"/>
+      <rect tabindex="-1" height="6" width="6" x="99.399" y="179.028" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="hp point value 35"/>
+      <rect tabindex="-1" height="6" width="6" x="82.227" y="184.608" rx="3" ry="3" style="fill:#9fd0cb;stroke:#fff;stroke-opacity:.5" aria-label="hp point value 45"/>
+      <rect tabindex="-1" height="6" width="6" x="83.944" y="184.05" rx="3" ry="3" style="fill:#7566ff;stroke:#fff;stroke-opacity:.5" aria-label="hp point value 44"/>
+      <rect tabindex="-1" height="6" width="6" x="92.53" y="181.26" rx="3" ry="3" style="fill:#e0488b;stroke:#fff;stroke-opacity:.5" aria-label="hp point value 39"/>
+      <rect tabindex="-1" height="6" width="6" x="106.436" y="86.464" rx="3" ry="3" style="fill:#e0d33a;stroke:#fff;stroke-opacity:.5" aria-label="special attack point value 50"/>
+      <rect tabindex="-1" height="6" width="6" x="90.517" y="64.553" rx="3" ry="3" style="fill:#9fd0cb;stroke:#fff;stroke-opacity:.5" aria-label="special attack point value 65"/>
+      <rect tabindex="-1" height="6" width="6" x="106.436" y="86.464" rx="3" ry="3" style="fill:#7566ff;stroke:#fff;stroke-opacity:.5" aria-label="special attack point value 50"/>
+      <rect tabindex="-1" height="6" width="6" x="95.823" y="71.856" rx="3" ry="3" style="fill:#e0488b;stroke:#fff;stroke-opacity:.5" aria-label="special attack point value 60"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis-labels">
+        <g class="axis axis-label axis-tick radial">
+          <path d="M166.4 212.5a36.111 36.111 0 1 0 72.222 0 36.111 36.111 0 1 0-72.222 0Z" stroke="gray" fill="none"/>
+          <text y="-31.111" text-anchor="middle" transform="translate(202.5 212.5)">20</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M130.3 212.5a72.222 72.222 0 1 0 144.444 0 72.222 72.222 0 1 0-144.444 0Z" stroke="gray" fill="none"/>
+          <text y="-67.222" text-anchor="middle" transform="translate(202.5 212.5)">40</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M94.2 212.5a108.334 108.334 0 1 0 216.667 0 108.334 108.334 0 1 0-216.667 0Z" stroke="gray" fill="none"/>
+          <text y="-103.333" text-anchor="middle" transform="translate(202.5 212.5)">60</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M58.1 212.5a144.444 144.444 0 1 0 288.889 0 144.444 144.444 0 1 0-288.889 0Z" stroke="gray" fill="none"/>
+          <text y="-139.444" text-anchor="middle" transform="translate(202.5 212.5)">80</text>
+        </g>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="middle">
+      <text transform="rotate(36 32.002 501.616)">attack</text>
+      <text transform="rotate(-72 368.268 -120.859)">defense</text>
+      <text transform="translate(202.5 388)">speed</text>
+      <text transform="rotate(72 -165.768 157.859)">hp</text>
+      <text transform="rotate(-36 170.498 -121.615)">special attack</text>
+    </g>
+  </g>
+  <g class="frame-title">
+    <text class="frame-title" style="text-anchor:middle;pointer-events:none" transform="translate(242.5 25)">Pokemon Base Stats</text>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics">
+    <text fill="#e0d33a" transform="translate(400 73)">Pikachu</text>
+    <text y="20" fill="#9fd0cb" transform="translate(400 73)">Bulbasaur</text>
+    <text y="40" fill="#E0488B" transform="translate(400 73)">Charmander</text>
+    <text y="60" fill="#7566ff" transform="translate(400 73)">Squirtle</text>
+  </g>
+</svg>

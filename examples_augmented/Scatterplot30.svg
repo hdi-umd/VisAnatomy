@@ -1,0 +1,915 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="axis axis y left">
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 322.566h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 267.7h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 212.832h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 157.965h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 103.097h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 48.23h610" class="tick-line tick left axis y left"/>
+        </g>
+      </g>
+      <g class="axis axis x bottom">
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M99.891 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M146.304 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M192.717 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M239.13 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M285.543 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M331.957 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M378.37 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M424.783 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M471.196 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M517.609 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M564.022 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M610.435 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M656.848 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+      </g>
+    </g>
+    <g class="points" data-testid="points" tabindex="0" aria-label="points">
+      <g class="frame-piece" aria-label="Point at x Fri Sep 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 368,371,363,364.56" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(610 150.885)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 368,371,363,364.56" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(610 142.655)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 368,371,363,364.56" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(610 164.602)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 368,371,363,364.56" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(610 160.322)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,374,366,368.15" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(603.37 142.655)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,374,366,368.15" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(603.37 134.425)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,374,366,368.15" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(603.37 156.372)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,374,366,368.15" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(603.37 150.473)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,370,356,369.95" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(596.74 175.575)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,370,356,369.95" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(596.74 145.398)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,370,356,369.95" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(596.74 183.805)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,370,356,369.95" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(596.74 145.535)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 344,356,343,355.93" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(590.109 216.726)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 344,356,343,355.93" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(590.109 183.805)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 344,356,343,355.93" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(590.109 219.469)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 344,356,343,355.93" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(590.109 183.997)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Sep 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,343,348.41" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(583.478 194.779)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Sep 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,343,348.41" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(583.478 194.779)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Sep 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,343,348.41" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(583.478 219.469)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Sep 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,343,348.41" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(583.478 204.627)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,355,341,348.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(563.587 222.212)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,355,341,348.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(563.587 186.549)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,355,341,348.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(563.587 224.956)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Sep 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,355,341,348.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(563.587 203.887)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,356,341,346.46" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(556.957 208.496)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,356,341,346.46" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(556.957 183.805)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,356,341,346.46" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(556.957 224.956)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Sep 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,356,341,346.46" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(556.957 209.977)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 360,363,335,341.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(550.326 172.832)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 360,363,335,341.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(550.326 164.602)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 360,363,335,341.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(550.326 241.416)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Sep 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 360,363,335,341.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(550.326 224.462)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,368,361,363.6" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(543.696 156.372)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,368,361,363.6" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(543.696 150.885)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,368,361,363.6" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(543.696 170.088)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Sep 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,368,361,363.6" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(543.696 162.956)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 370,376,367,367.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(517.174 145.398)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 370,376,367,367.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(517.174 128.938)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 370,376,367,367.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(517.174 153.628)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 370,376,367,367.68" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(517.174 151.763)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 365,376,363,370.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(510.543 159.115)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 365,376,363,370.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(510.543 128.938)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 365,376,363,370.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(510.543 164.602)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 365,376,363,370.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(510.543 142.71)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,362,368.04" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(503.913 153.628)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,362,368.04" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(503.913 148.142)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,362,368.04" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(503.913 167.345)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,362,368.04" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(503.913 150.775)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,360,368.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(497.283 153.628)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,360,368.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(497.283 148.142)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,360,368.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(497.283 172.832)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,369,360,368.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(497.283 149.54)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,374,360,364.58" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(490.652 153.628)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,374,360,364.58" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(490.652 134.425)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,374,360,364.58" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(490.652 172.832)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 367,374,360,364.58" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(490.652 160.267)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,359,344,358.82" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(470.76 211.239)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,359,344,358.82" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(470.76 175.575)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,359,344,358.82" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(470.76 216.726)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,359,344,358.82" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(470.76 176.069)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 348,350,337,339.17" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(464.13 205.752)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 348,350,337,339.17" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(464.13 200.265)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 348,350,337,339.17" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(464.13 235.93)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 348,350,337,339.17" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(464.13 229.976)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 338,346,337,344.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(457.5 233.186)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 338,346,337,344.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(457.5 211.239)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 338,346,337,344.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(457.5 235.93)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 338,346,337,344.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(457.5 215.519)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,341,329,338.02" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(450.87 252.39)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,341,329,338.02" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(450.87 224.956)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,341,329,338.02" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(450.87 257.876)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,341,329,338.02" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(450.87 233.131)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 314,331,310,327.73" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(444.24 299.027)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 314,331,310,327.73" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(444.24 252.39)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 314,331,310,327.73" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(444.24 310)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 314,331,310,327.73" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(444.24 261.36)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 319,324,312,316.78" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(424.348 285.31)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 319,324,312,316.78" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(424.348 271.593)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 319,324,312,316.78" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(424.348 304.513)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 319,324,312,316.78" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(424.348 291.4)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 329,331,321,322.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(417.717 257.876)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 329,331,321,322.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(417.717 252.39)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 329,331,321,322.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(417.717 279.823)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 329,331,321,322.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(417.717 275.873)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 334,335,321,326.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(411.087 244.16)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 334,335,321,326.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(411.087 241.416)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 334,335,321,326.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(411.087 279.823)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 334,335,321,326.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(411.087 265.009)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,342,336,337.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(404.457 222.212)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,342,336,337.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(404.457 222.212)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,342,336,337.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(404.457 238.673)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,342,336,337.49" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(404.457 234.585)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 339,347,339,341.31" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(397.826 230.442)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 339,347,339,341.31" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(397.826 208.496)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 339,347,339,341.31" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(397.826 230.442)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 339,347,339,341.31" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(397.826 224.105)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,349,344,345.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(377.935 211.239)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,349,344,345.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(377.935 203.009)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,349,344,345.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(377.935 216.726)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,349,344,345.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(377.935 211.596)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,352,345,349.36" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(371.304 208.496)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,352,345,349.36" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(371.304 194.779)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,352,345,349.36" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(371.304 213.982)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,352,345,349.36" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(371.304 202.021)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,346,347.61" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(364.674 194.779)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,346,347.61" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(364.674 194.779)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,346,347.61" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(364.674 211.239)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 352,352,346,347.61" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(364.674 206.822)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 353,357,349,351.83" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(358.043 192.035)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 353,357,349,351.83" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(358.043 181.062)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 353,357,349,351.83" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(358.043 203.009)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Aug 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 353,357,349,351.83" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(358.043 195.245)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,365,341,347" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(351.413 222.212)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,365,341,347" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(351.413 159.115)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,365,341,347" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(351.413 224.956)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Aug 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 342,365,341,347" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(351.413 208.496)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,347,338,343.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(331.522 208.496)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,347,338,343.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(331.522 208.496)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,347,338,343.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(331.522 233.186)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Aug 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 347,347,338,343.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(331.522 219.222)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 337,345,334,344.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(324.891 235.93)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 337,345,334,344.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(324.891 213.982)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 337,345,334,344.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(324.891 244.16)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Aug 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 337,345,334,344.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(324.891 215.354)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 335,344,334,338.38" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(318.26 241.416)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 335,344,334,338.38" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(318.26 216.726)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 335,344,334,338.38" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(318.26 244.16)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Aug 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 335,344,334,338.38" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(318.26 232.143)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,342,328,337.45" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(311.63 252.39)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,342,328,337.45" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(311.63 222.212)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,342,328,337.45" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(311.63 260.62)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 331,342,328,337.45" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(311.63 234.695)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 351,352,334,334.96" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(305 197.522)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 351,352,334,334.96" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(305 194.779)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 351,352,334,334.96" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(305 244.16)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 351,352,334,334.96" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(305 241.526)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,351,355.21" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(285.109 156.372)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,351,355.21" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(285.109 153.628)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,351,355.21" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(285.109 197.522)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,351,355.21" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(285.109 185.973)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 358,365,356,363.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(278.478 178.319)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 358,365,356,363.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(278.478 159.115)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 358,365,356,363.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(278.478 183.805)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 358,365,356,363.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(278.478 164.355)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 357,363,355,362.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(271.848 181.062)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 357,363,355,362.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(271.848 164.602)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 357,363,355,362.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(271.848 186.549)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 357,363,355,362.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(271.848 164.958)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,354,357.32" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(265.217 156.372)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,354,357.32" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(265.217 153.628)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,354,357.32" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(265.217 189.292)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 366,367,354,357.32" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(265.217 180.184)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,363,353,362.66" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(258.587 175.575)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,363,353,362.66" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(258.587 164.602)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,363,353,362.66" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(258.587 192.035)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 359,363,353,362.66" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(258.587 165.535)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 364,370,360,361.05" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(238.696 161.858)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 364,370,360,361.05" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(238.696 145.398)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 364,370,360,361.05" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(238.696 172.832)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 364,370,360,361.05" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(238.696 169.951)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,375,363,364.23" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(232.065 142.655)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,375,363,364.23" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(232.065 131.681)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,375,363,364.23" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(232.065 164.602)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 371,375,363,364.23" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(232.065 161.227)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 381,383,372,375.13" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(225.435 115.221)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 381,383,372,375.13" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(225.435 109.735)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 381,383,372,375.13" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(225.435 139.912)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 381,383,372,375.13" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(225.435 131.325)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,385,344,379.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(218.804 211.239)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,385,344,379.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(218.804 104.248)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,385,344,379.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(218.804 216.726)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 346,385,344,379.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(218.804 119.391)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 398,403,391,400.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(212.174 68.584)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 398,403,391,400.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(212.174 54.867)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 398,403,391,400.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(212.174 87.788)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 398,403,391,400.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(212.174 61.78)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 409,410,395,395.8" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(192.283 38.407)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 409,410,395,395.8" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(192.283 35.664)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 409,410,395,395.8" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(192.283 76.814)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 409,410,395,395.8" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(192.283 74.62)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,416,407,413.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(185.652 21.947)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,416,407,413.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(185.652 19.204)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,416,407,413.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(185.652 43.894)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,416,407,413.5" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(185.652 26.062)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 411,419,410,418.65" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(179.022 32.92)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 411,419,410,418.65" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(179.022 10.973)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 411,419,410,418.65" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(179.022 35.664)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jul 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 411,419,410,418.65" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(179.022 11.934)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 417,419,413,415.63" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(172.391 16.46)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 417,419,413,415.63" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(172.391 10.973)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 417,419,413,415.63" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(172.391 27.434)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 417,419,413,415.63" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(172.391 20.219)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,411,418.97" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(165.76 21.947)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,411,418.97" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(165.76 10.973)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,411,418.97" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(165.76 32.92)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,411,418.97" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(165.76 11.056)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 397,408,395,408.25" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(145.87 71.327)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 397,408,395,408.25" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(145.87 41.15)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 397,408,395,408.25" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(145.87 76.814)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jul 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 397,408,395,408.25" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(145.87 40.465)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,399,390,398.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(139.24 82.3)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,399,390,398.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(139.24 65.84)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,399,390,398.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(139.24 90.531)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jul 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,399,390,398.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(139.24 67.514)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,399,389,390.52" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(125.978 65.84)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,399,389,390.52" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(125.978 65.84)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,399,389,390.52" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(125.978 93.274)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jul 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,399,389,390.52" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(125.978 89.104)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 385,398,380,398.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(119.348 104.248)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 385,398,380,398.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(119.348 68.584)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 385,398,380,398.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(119.348 117.965)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jul 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 385,398,380,398.18" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(119.348 68.09)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,401,390,391.43" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(99.457 65.84)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,401,390,391.43" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(99.457 60.354)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,401,390,391.43" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(99.457 90.531)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 399,401,390,391.43" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(99.457 86.608)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 395,396,387,395.42" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(92.826 76.814)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 395,396,387,395.42" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(92.826 74.07)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 395,396,387,395.42" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(92.826 98.761)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 395,396,387,395.42" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(92.826 75.662)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 407,411,390,390.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(86.196 43.894)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 407,411,390,390.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(86.196 32.92)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 407,411,390,390.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(86.196 90.531)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 407,411,390,390.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(86.196 89.461)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,404,389,399.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(79.565 82.3)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,404,389,399.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(79.565 52.124)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,404,389,399.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(79.565 93.274)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 393,404,389,399.39" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(79.565 64.77)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 404,405,378,384.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(72.935 52.124)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 404,405,378,384.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(72.935 49.38)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 404,405,378,384.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(72.935 123.451)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 404,405,378,384.48" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(72.935 105.674)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 419,420,409,411.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(53.043 10.973)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 419,420,409,411.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(53.043 8.23)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 419,420,409,411.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(53.043 38.407)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 419,420,409,411.09" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(53.043 32.673)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 421,423,406,415.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(46.413 5.487)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 421,423,406,415.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(46.413)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 421,423,406,415.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(46.413 46.637)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 421,423,406,415.44" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(46.413 20.74)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,409,416.76" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(39.783 21.947)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,409,416.76" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(39.783 10.973)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,409,416.76" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(39.783 38.407)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Wed Jun 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 415,419,409,416.76" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(39.783 17.119)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 389,405,388,404.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(33.152 93.274)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 389,405,388,404.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(33.152 49.38)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 389,405,388,404.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(33.152 96.018)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Tue Jun 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 389,405,388,404.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(33.152 49.435)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 387,393,386,390.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(26.522 98.761)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 387,393,386,390.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(26.522 82.3)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 387,393,386,390.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(26.522 101.504)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Mon Jun 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 387,393,386,390.4" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(26.522 89.434)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 390,398,387,391.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(6.63 90.531)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 390,398,387,391.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(6.63 68.584)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 390,398,387,391.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(6.63 98.761)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Fri Jun 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 390,398,387,391.98" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(6.63 85.1)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 384,395,383,392.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(0 106.991)" data-testid="frame-piece" style="fill:#365350"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 384,395,383,392.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(0 76.814)" data-testid="frame-piece" style="fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 384,395,383,392.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(0 109.735)" data-testid="frame-piece" style="fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x Thu Jun 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time) and y 384,395,383,392.87" transform="translate(80 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(0 82.658)" data-testid="frame-piece" style="fill:#7a255d"/>
+      </g>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis y left" aria-label="left axis from 320 to 420">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 327.566)">320</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 272.7)">340</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 217.832)">360</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 162.965)">380</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 108.097)">400</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 53.23)">420</text>
+        </g>
+        <path class="axis-baseline axis y left" stroke="#000" stroke-linecap="square" d="M80 40v310"/>
+      </g>
+      <g class="axis x bottom" aria-label="bottom axis from 5/17 to 8/9">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(99.891 375)">5/17</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(146.304 375)">5/24</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(192.717 375)">6/1</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(239.13 375)">6/8</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(285.543 375)">6/15</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(331.957 375)">6/22</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(378.37 375)">6/29</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(424.783 375)">7/5</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(471.196 375)">7/12</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(517.609 375)">7/19</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(564.022 375)">7/26</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(610.435 375)">8/2</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(656.848 375)">8/9</text>
+        </g>
+        <path class="axis-baseline axis x bottom" stroke="#000" stroke-linecap="square" d="M80 350h610"/>
+      </g>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Netflix Stock Price: <tspan fill="#9fd0cb">High</tspan>, <tspan fill="#E0488B">Low</tspan>, <tspan fill="#365350">Open</tspan> <tspan fill="#7a255d">Close</tspan></text>
+</svg>

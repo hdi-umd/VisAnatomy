@@ -1,0 +1,906 @@
+<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" width="790.406" height="525" style="background:#fff">
+  <g class="bglayer"/>
+  <g class="draglayer"/>
+  <g class="layer-below">
+    <g class="imagelayer"/>
+    <g class="shapelayer"/>
+  </g>
+  <g class="cartesianlayer"/>
+  <g class="polarlayer"/>
+  <g class="smithlayer"/>
+  <g class="ternarylayer"/>
+  <g class="geolayer"/>
+  <g class="funnelarealayer"/>
+  <g class="pielayer"/>
+  <g class="iciclelayer"/>
+  <g class="treemaplayer">
+    <g class="trace treemap" style="opacity:1">
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M25 50h672v450H25Z" style="pointer-events:all;stroke-width:1;fill:#f7f7f7;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="world" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(31 65)">world</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M31 74h401.307v420H31Z" style="pointer-events:all;stroke-width:1;fill:#f4f5f6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Asia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(37 89)">Asia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M435.307 74H691v158.208H435.307Z" style="pointer-events:all;stroke-width:1;fill:#e7866a;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Africa" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(441.307 89)">Africa</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M435.307 235.208H691v152.889H435.307Z" style="pointer-events:all;stroke-width:1;fill:#cbe2ee;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Americas" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(441.307 250.208)">Americas</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M435.307 391.097H680.6V494H435.307Z" style="pointer-events:all;stroke-width:1;fill:#b0d4e6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Europe" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(441.307 406.097)">Europe</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M683.6 391.097h7.4V494h-7.4Z" style="pointer-events:all;stroke-width:1;fill:#8cc1dc;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Oceania" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(689.6 391.446)scale(.02908)">Oceania</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M37 98h209.973v247.43H37Z" style="pointer-events:all;stroke-width:1;fill:#ddebf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="China" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(40 113)">China</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M249.973 98h176.334v247.43H249.973Z" style="pointer-events:all;stroke-width:1;fill:#fbe3d4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="India" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(252.973 113)">India</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M37 348.43h108.438v78.135H37Z" style="pointer-events:all;stroke-width:1;fill:#ecf2f5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Indonesia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(40 363.43)">Indonesia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M37 429.565h108.438V488H37Z" style="pointer-events:all;stroke-width:1;fill:#fbe7db;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Pakistan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(40 444.565)">Pakistan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M148.438 348.43h75.842v74.18h-75.842Z" style="pointer-events:all;stroke-width:1;fill:#fce0cf;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Bangladesh" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(151.438 363.43)">Bangladesh</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M148.438 425.61h75.842V488h-75.842Z" style="pointer-events:all;stroke-width:1;fill:#78b4d5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Japan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(151.438 440.61)">Japan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M227.28 348.43h47.026v70.636H227.28Z" style="pointer-events:all;stroke-width:1;fill:#e5eef4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Philippines" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(230.28 359.128)scale(.6415)">Philippines</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M227.28 422.066h47.026V488H227.28Z" style="pointer-events:all;stroke-width:1;fill:#d4e7f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Vietnam" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(230.28 434.941)scale(.82296)">Vietnam</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M277.306 348.43h49.075v50.942h-49.075Z" style="pointer-events:all;stroke-width:1;fill:#eaf1f5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Iran" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(280.306 363.43)">Iran</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M277.306 402.372h49.075v47.537h-49.075Z" style="pointer-events:all;stroke-width:1;fill:#ecf2f5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Thailand" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(280.306 415.495)scale(.84359)">Thailand</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M277.306 452.909h49.075V488h-49.075Z" style="pointer-events:all;stroke-width:1;fill:#a8d0e4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Korea, Rep." data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(280.306 463.275)scale(.61386)">Korea, Rep.</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M329.381 348.43h40.966v40.938h-40.966Z" style="pointer-events:all;stroke-width:1;fill:#fbd2bb;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Myanmar" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(332.381 358.946)scale(.6263)">Myanmar</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M373.347 348.43h26.355v40.938h-26.355Z" style="pointer-events:all;stroke-width:1;fill:#9d1128;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Afghanistan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(376.347 354.853)scale(.28522)">Afghanistan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M402.702 348.43h23.605v40.938h-23.605Z" style="pointer-events:all;stroke-width:1;fill:#fcdecd;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Nepal" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(405.702 357.625)scale(.51624)">Nepal</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M329.381 392.368h29.774v31.063H329.38Z" style="pointer-events:all;stroke-width:1;fill:#deebf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Saudi Arabia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(332.381 399.108)scale(.31162)">Saudi Arabia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M329.381 426.43h29.774v30.938H329.38Z" style="pointer-events:all;stroke-width:1;fill:#f8bb9e;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Iraq" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(332.381 441.005)scale(.9645)">Iraq</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M329.381 460.368h29.774V488H329.38Z" style="pointer-events:all;stroke-width:1;fill:#d4e7f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Malaysia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(332.381 468.898)scale(.46085)">Malaysia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M362.155 392.368h30.668v24.993h-30.668Z" style="pointer-events:all;stroke-width:1;fill:#f9efea;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Korea, Dem. Rep." data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(365.155 398.14)scale(.23091)">Korea, Dem. Rep.</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M395.823 392.368h30.484v24.993h-30.484Z" style="pointer-events:all;stroke-width:1;fill:#aad1e5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Taiwan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(398.823 402.536)scale(.59728)">Taiwan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M362.155 420.36h32.021v22.653h-32.021Z" style="pointer-events:all;stroke-width:1;fill:#fcd8c3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Yemen, Rep." data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(365.155 427.486)scale(.34376)">Yemen, Rep.</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M397.176 420.36h29.13v22.653h-29.13Z" style="pointer-events:all;stroke-width:1;fill:#e0ecf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Sri Lanka" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(400.176 428.263)scale(.40848)">Sri Lanka</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M362.155 446.013h27.07v22.979h-27.07Z" style="pointer-events:all;stroke-width:1;fill:#d5e7f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Syria" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(365.155 457.235)scale(.6852)">Syria</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M362.155 471.992h27.07V488h-27.07Z" style="pointer-events:all;stroke-width:1;fill:#f8bca0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Cambodia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(365.155 479.206)scale(.35116)">Cambodia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M392.225 446.013h16.306v11.623h-16.306Z" style="pointer-events:all;stroke-width:1;fill:#7db8d7;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Hong Kong, China" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(395.225 450.153)scale(.095)">Hong Kong, China</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M411.531 446.013h14.776v11.623H411.53Z" style="pointer-events:all;stroke-width:1;fill:#91c4de;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Israel" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(414.531 452.122)scale(.2591)">Israel</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M392.225 460.636h11.127v14.33h-11.127Z" style="pointer-events:all;stroke-width:1;fill:#e0ecf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Jordan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(395.225 465.169)scale(.12774)">Jordan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M392.225 477.965h11.127V488h-11.127Z" style="pointer-events:all;stroke-width:1;fill:#99c9e0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Singapore" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(395.225 481.977)scale(.08433)">Singapore</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M406.352 460.636h8.618v10.99h-8.618Z" style="pointer-events:all;stroke-width:1;fill:#dae9f2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="West Bank and Gaza" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(409.352 463.888)scale(.02102)">West Bank and Gaza</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M417.97 460.636h8.337v10.99h-8.337Z" style="pointer-events:all;stroke-width:1;fill:#e3eef3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Lebanon" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(420.97 464.186)scale(.04583)">Lebanon</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M406.352 474.625h12.016v5.633h-12.016Z" style="pointer-events:all;stroke-width:1;fill:#c8e0ed;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Oman" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(409.352 478.64)scale(.33448)">Oman</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M406.352 483.258h12.016V488h-12.016Z" style="pointer-events:all;stroke-width:1;fill:#f9ede6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mongolia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(409.352 485.95)scale(.22439)">Mongolia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M421.368 474.625h4.939v9.765h-4.94Z" style="pointer-events:all;stroke-width:1;fill:#b3d6e7;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Kuwait" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(424.368 476.087)scale(.1218)">Kuwait</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M421.368 487.39h4.939v.61h-4.94Z" style="pointer-events:all;stroke-width:1;fill:#c8e0ed;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Bahrain" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(424.368 487.895)scale(.04206)">Bahrain</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M441.307 98h54.138v79.292h-54.138Z" style="pointer-events:all;stroke-width:1;fill:#bb2933;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Nigeria" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(444.307 113)">Nigeria</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M441.307 180.292h54.138v45.916h-54.138Z" style="pointer-events:all;stroke-width:1;fill:#e7f0f4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Egypt" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(444.307 195.292)">Egypt</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M498.445 98h46.128v51.23h-46.128Z" style="pointer-events:all;stroke-width:1;fill:#de735c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Ethiopia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(501.445 110.935)scale(.82793)">Ethiopia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M498.445 152.23h46.128v42.793h-46.128Z" style="pointer-events:all;stroke-width:1;fill:#b82431;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Congo, Dem. Rep." data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(501.445 159.608)scale(.3648)">Congo, Dem. Rep.</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M498.445 198.023h46.128v28.185h-46.128Z" style="pointer-events:all;stroke-width:1;fill:#ca4741;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="South Africa" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(501.445 207.537)scale(.54285)">South Africa</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M547.573 98h36.756v34.044h-36.756Z" style="pointer-events:all;stroke-width:1;fill:#f6b292;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Sudan" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(550.573 110.692)scale(.8077)">Sudan</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M547.573 135.044h36.756v30.406h-36.756Z" style="pointer-events:all;stroke-width:1;fill:#dc6e58;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Tanzania" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(550.573 145.087)scale(.58696)">Tanzania</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M547.573 168.45h36.756v28.19h-36.756Z" style="pointer-events:all;stroke-width:1;fill:#e48166;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Kenya" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(550.573 181.531)scale(.8401)">Kenya</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M547.573 199.64h36.756v26.568h-36.756Z" style="pointer-events:all;stroke-width:1;fill:#e8f0f4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Morocco" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(550.573 210.082)scale(.62016)">Morocco</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 98h36.303v26.532H587.33Z" style="pointer-events:all;stroke-width:1;fill:#e1edf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Algeria" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(590.33 109.712)scale(.72599)">Algeria</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M626.633 98h31.396v26.532h-31.396Z" style="pointer-events:all;stroke-width:1;fill:#d7624f;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Uganda" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(629.633 107.661)scale(.5551)">Uganda</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M661.03 98H685v26.532h-23.97Z" style="pointer-events:all;stroke-width:1;fill:#f8bfa3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Ghana" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(664.03 106.543)scale(.4619)">Ghana</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 127.532h23.84v22.883h-23.84Z" style="pointer-events:all;stroke-width:1;fill:#870a24;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mozambique" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(590.33 133.365)scale(.2361)">Mozambique</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M614.17 127.532h22.788v22.883h-22.787Z" style="pointer-events:all;stroke-width:1;fill:#f7ba9c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Madagascar" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(617.17 133.346)scale(.23457)">Madagascar</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M639.958 127.532h21.234v22.883h-21.234Z" style="pointer-events:all;stroke-width:1;fill:#c43b3c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Cote d'Ivoire" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(642.958 132.895)scale(.19695)">Cote d&apos;Ivoire</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M664.192 127.532H685v22.883h-20.808Z" style="pointer-events:all;stroke-width:1;fill:#d05548;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Cameroon" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(667.192 133.412)scale(.24004)">Cameroon</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 153.415h21.334v17.499H587.33Z" style="pointer-events:all;stroke-width:1;fill:#db6b56;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Burkina Faso" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(590.33 158.792)scale(.1981)">Burkina Faso</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 173.914h21.334v16.07H587.33Z" style="pointer-events:all;stroke-width:1;fill:#c33b3b;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Malawi" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(590.33 181.416)scale(.37518)">Malawi</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 192.984h21.334v15.451H587.33Z" style="pointer-events:all;stroke-width:1;fill:#f2a17f;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Niger" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(590.33 201.723)scale(.4783)">Niger</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M587.33 211.435h21.334v14.773H587.33Z" style="pointer-events:all;stroke-width:1;fill:#8f0d25;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Angola" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(590.33 218.917)scale(.37346)">Angola</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M611.664 153.415h19.217v16.296h-19.217Z" style="pointer-events:all;stroke-width:1;fill:#991027;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Zimbabwe" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(614.664 158.96)scale(.21207)">Zimbabwe</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M611.664 172.71h19.217v16.229h-19.217Z" style="pointer-events:all;stroke-width:1;fill:#fddbc7;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Senegal" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(614.664 179.01)scale(.27494)">Senegal</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M611.664 191.939h19.217v15.858h-19.217Z" style="pointer-events:all;stroke-width:1;fill:#e68569;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mali" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(614.664 201.573)scale(.55284)">Mali</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M611.664 210.797h19.217v15.41h-19.217Z" style="pointer-events:all;stroke-width:1;fill:#8a0b25;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Zambia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(614.664 217.338)scale(.29508)">Zambia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M633.88 153.415h15.257v16.6h-15.256Z" style="pointer-events:all;stroke-width:1;fill:#d7e8f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Tunisia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(636.88 159.094)scale(.22325)">Tunisia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M652.137 153.415h15.19v16.6h-15.19Z" style="pointer-events:all;stroke-width:1;fill:#d25849;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Chad" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(655.137 160.012)scale(.29977)">Chad</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M670.327 153.415H685v16.6h-14.673Z" style="pointer-events:all;stroke-width:1;fill:#ee9777;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Guinea" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(673.327 158.884)scale(.20581)">Guinea</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M633.88 173.015h15.715v13.967h-15.714Z" style="pointer-events:all;stroke-width:1;fill:#c2393b;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Somalia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(636.88 178.435)scale(.2017)">Somalia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M652.595 173.015h15.185v13.967h-15.185Z" style="pointer-events:all;stroke-width:1;fill:#b7212f;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Rwanda" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(655.595 178.334)scale(.19323)">Rwanda</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M670.78 173.015H685v13.967h-14.22Z" style="pointer-events:all;stroke-width:1;fill:#cb4a43;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Burundi" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(673.78 178.118)scale(.17527)">Burundi</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M633.88 189.982h14.986v12.64H633.88Z" style="pointer-events:all;stroke-width:1;fill:#f29f7e;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Benin" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(636.88 196.166)scale(.26537)">Benin</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M633.88 205.623h14.986v8.896H633.88Z" style="pointer-events:all;stroke-width:1;fill:#8d0c25;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Sierra Leone" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(636.88 210.042)scale(.11829)">Sierra Leone</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M633.88 217.52h14.986v8.688H633.88Z" style="pointer-events:all;stroke-width:1;fill:#d6e8f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Libya" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(636.88 222.744)scale(.1854)">Libya</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M651.866 189.982h10.756v11.433h-10.756Z" style="pointer-events:all;stroke-width:1;fill:#f6b090;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Togo" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(654.866 195.01)scale(.16895)">Togo</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M665.622 189.982h8.837v11.433h-8.837Z" style="pointer-events:all;stroke-width:1;fill:#f5ad8c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Eritrea" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(668.622 193.829)scale(.07057)">Eritrea</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M677.46 189.982H685v11.433h-7.54Z" style="pointer-events:all;stroke-width:1;fill:#a91529;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Central African Republic" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(680.46 193.11)scale(.01069)">Central African Republic</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M651.866 204.415h6.93v10.327h-6.93Z" style="pointer-events:all;stroke-width:1;fill:#ea8f71;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Congo, Rep." data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(654.866 207.568)scale(.01269)">Congo, Rep.</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M651.866 217.742h6.93v8.466h-6.93Z" style="pointer-events:all;stroke-width:1;fill:#fce0d0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mauritania" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(654.866 220.918)scale(.0147)">Mauritania</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M661.797 204.415h7.2v7.905h-7.2Z" style="pointer-events:all;stroke-width:1;fill:#b31b2c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Liberia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(664.797 207.773)scale(.02982)">Liberia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M661.797 215.32h7.2v4.016h-7.2Z" style="pointer-events:all;stroke-width:1;fill:#de725b;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Namibia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(664.797 217.078)scale(.14655)">Namibia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M661.797 222.336h7.2v3.872h-7.2Z" style="pointer-events:all;stroke-width:1;fill:#8d0c25;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Lesotho" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(664.797 224.176)scale(.15328)">Lesotho</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M671.996 204.415h5.12v4.24h-5.12Z" style="pointer-events:all;stroke-width:1;fill:#f7ba9d;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Gambia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(674.996 205.746)scale(.11092)">Gambia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M680.116 204.415H685v4.24h-4.884Z" style="pointer-events:all;stroke-width:1;fill:#d25949;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Botswana" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(683.116 205.422)scale(.0839)">Botswana</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M671.996 211.655h5.049v3.369h-5.049Z" style="pointer-events:all;stroke-width:1;fill:#b82330;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Guinea-Bissau" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(674.996 212.356)scale(.05843)">Guinea-Bissau</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M680.045 211.655H685v3.369h-4.955Z" style="pointer-events:all;stroke-width:1;fill:#f2a07e;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Gabon" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(683.045 213.185)scale(.12749)">Gabon</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M671.996 218.024h4.423v2.868h-4.423Z" style="pointer-events:all;stroke-width:1;fill:#deebf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mauritius" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(674.996 218.985)scale(.08012)">Mauritius</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M671.996 223.892h4.423v2.316h-4.423Z" style="pointer-events:all;stroke-width:1;fill:#67001f;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Swaziland" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#fff;fill-opacity:1;white-space:pre" transform="translate(674.996 224.774)scale(.0735)">Swaziland</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M679.419 218.024h1.538v3.123h-1.538Z" style="pointer-events:all;stroke-width:1;fill:#bfdceb;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Reunion" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(682.419 218.404)scale(.03168)">Reunion</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M683.957 218.024H685v3.123h-1.043Z" style="pointer-events:all;stroke-width:1;fill:#fbe5d8;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Comoros" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(686.957 218.259)scale(.01958)">Comoros</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M679.419 224.147h.792v2.06h-.792Z" style="pointer-events:all;stroke-width:1;fill:#d7634f;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Equatorial Guinea" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(682.419 224.236)scale(.0074)">Equatorial Guinea</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M683.211 224.147H685v.61h-1.789Z" style="pointer-events:all;stroke-width:1;fill:#e8896c;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Djibouti" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(686.211 224.603)scale(.03802)">Djibouti</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="matrix(0 0 0 0 686.211 226.982)"> </text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M441.307 259.208h79.647v122.889h-79.647Z" style="pointer-events:all;stroke-width:1;fill:#acd2e5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="United States" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(444.307 273.05)scale(.90347)">United States</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M523.954 259.208h78.98v77.078h-78.98Z" style="pointer-events:all;stroke-width:1;fill:#e0ecf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Brazil" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(526.954 274.208)">Brazil</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M523.954 339.286h78.98v42.81h-78.98Z" style="pointer-events:all;stroke-width:1;fill:#c2ddec;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Mexico" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(526.954 354.286)">Mexico</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M605.935 259.208h39.938v32.587h-39.938Z" style="pointer-events:all;stroke-width:1;fill:#ddebf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Colombia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(608.935 269.494)scale(.60723)">Colombia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M648.873 259.208H685v32.587h-36.127Z" style="pointer-events:all;stroke-width:1;fill:#cbe2ee;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Argentina" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(651.873 268.402)scale(.51616)">Argentina</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M605.935 294.795h28.085v34.112h-28.085Z" style="pointer-events:all;stroke-width:1;fill:#92c5de;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Canada" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(608.935 303.675)scale(.49002)">Canada</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M637.02 294.795h23.696v34.112H637.02Z" style="pointer-events:all;stroke-width:1;fill:#e7eff4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Peru" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(640.02 305.715)scale(.65998)">Peru</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M663.716 294.795H685v34.112h-21.284Z" style="pointer-events:all;stroke-width:1;fill:#d8e8f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Venezuela" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(666.716 300.8)scale(.25034)">Venezuela</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M605.935 331.907h16.513v25.834h-16.513Z" style="pointer-events:all;stroke-width:1;fill:#a8d0e4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Chile" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(608.935 339.153)scale(.35384)">Chile</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M605.935 360.74h16.513v21.357h-16.513Z" style="pointer-events:all;stroke-width:1;fill:#cfe4ef;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Ecuador" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(608.935 366.338)scale(.21646)">Ecuador</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M625.448 331.907h18.636v17.077h-18.636Z" style="pointer-events:all;stroke-width:1;fill:#eef3f5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Guatemala" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(628.448 337.226)scale(.19331)">Guatemala</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M625.448 351.984h18.636v15.23h-18.636Z" style="pointer-events:all;stroke-width:1;fill:#abd2e5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Cuba" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(628.448 359.93)scale(.4122)">Cuba</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M625.448 370.215h18.636v11.882h-18.636Z" style="pointer-events:all;stroke-width:1;fill:#e2edf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Dominican Republic" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(628.448 374.497)scale(.10687)">Dominican Republic</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M647.084 331.907h18.174v11.88h-18.174Z" style="pointer-events:all;stroke-width:1;fill:#fae7db;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Bolivia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(650.084 338.586)scale(.30661)">Bolivia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M668.258 331.907H685v11.88h-16.742Z" style="pointer-events:all;stroke-width:1;fill:#fac7ae;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Haiti" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(671.258 339.588)scale(.39008)">Haiti</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M647.084 346.787h10.008v16.877h-10.008Z" style="pointer-events:all;stroke-width:1;fill:#eff3f5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Honduras" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(650.084 350.626)scale(.0699)">Honduras</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M647.084 366.664h10.008v15.433h-10.008Z" style="pointer-events:all;stroke-width:1;fill:#e4eef3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="El Salvador" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(650.084 370.374)scale(.0591)">El Salvador</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M660.092 346.787h12.075v12.28h-12.075Z" style="pointer-events:all;stroke-width:1;fill:#e5eef4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Paraguay" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(663.092 351.1)scale(.10936)">Paraguay</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M675.167 346.787H685v12.28h-9.833Z" style="pointer-events:all;stroke-width:1;fill:#ddebf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Nicaragua" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(678.167 350.552)scale(.06375)">Nicaragua</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M660.092 362.067h9.116v8.788h-9.116Z" style="pointer-events:all;stroke-width:1;fill:#a6cfe4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Costa Rica" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(663.092 365.659)scale(.04934)">Costa Rica</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M660.092 373.855h9.116v8.242h-9.116Z" style="pointer-events:all;stroke-width:1;fill:#a6cfe4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Puerto Rico" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(663.092 377.4)scale(.04549)">Puerto Rico</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M672.208 362.067h5.138v11.636h-5.138Z" style="pointer-events:all;stroke-width:1;fill:#c0dceb;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Uruguay" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(675.208 363.28)scale(.10117)">Uruguay</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M680.346 362.067H685v11.636h-4.654Z" style="pointer-events:all;stroke-width:1;fill:#c9e1ee;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Panama" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(683.346 363.234)scale(.09728)">Panama</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M672.208 376.703h8.443v5.394h-8.443Z" style="pointer-events:all;stroke-width:1;fill:#dfecf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Jamaica" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(675.208 378.8)scale(.17481)">Jamaica</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M683.651 376.703H685v5.394h-1.349Z" style="pointer-events:all;stroke-width:1;fill:#f1f4f6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Trinidad and Tobago" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(686.651 376.836)scale(.01113)">Trinidad and Tobago</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M441.307 415.097h58.91v37.73h-58.91Z" style="pointer-events:all;stroke-width:1;fill:#9fcce2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Germany" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(444.307 429.634)scale(.96145)">Germany</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M441.307 455.827h58.91V488h-58.91Z" style="pointer-events:all;stroke-width:1;fill:#e4eef4;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Turkey" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(444.307 470.827)">Turkey</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M503.216 415.097h46.13v35.047h-46.13Z" style="pointer-events:all;stroke-width:1;fill:#92c5de;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="France" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(506.216 430.097)">France</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M503.216 453.144h46.13V488h-46.13Z" style="pointer-events:all;stroke-width:1;fill:#9fcce2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="United Kingdom" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(506.216 461.142)scale(.41649)">United Kingdom</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M552.346 415.097h36.75v41.764h-36.75Z" style="pointer-events:all;stroke-width:1;fill:#93c6de;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Italy" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(555.346 430.097)">Italy</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M552.346 459.861h36.75V488h-36.75Z" style="pointer-events:all;stroke-width:1;fill:#8ec2dd;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Spain" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(555.346 473.787)scale(.91049)">Spain</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M592.096 415.097h28.19v34.79h-28.19Z" style="pointer-events:all;stroke-width:1;fill:#c9e1ee;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Poland" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(595.096 424.788)scale(.5576)">Poland</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M592.096 452.887h28.19v18.855h-28.19Z" style="pointer-events:all;stroke-width:1;fill:#e0ecf3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Romania" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(595.096 460.978)scale(.4242)">Romania</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M592.096 474.742h28.19V488h-28.19Z" style="pointer-events:all;stroke-width:1;fill:#9bcae1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Netherlands" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(595.096 481.413)scale(.30591)">Netherlands</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M623.286 415.097h15.32v14.884h-15.32Z" style="pointer-events:all;stroke-width:1;fill:#9ecbe2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Greece" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(626.286 420.752)scale(.22124)">Greece</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M641.606 415.097h15.211v14.884h-15.21Z" style="pointer-events:all;stroke-width:1;fill:#add3e6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Portugal" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(644.606 420.323)scale(.18553)">Portugal</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M659.817 415.097H674.6v14.884h-14.783Z" style="pointer-events:all;stroke-width:1;fill:#9fcce2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Belgium" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(662.817 420.26)scale(.18032)">Belgium</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M623.286 432.98H638.6v14.092h-15.314Z" style="pointer-events:all;stroke-width:1;fill:#bfdceb;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Czech Republic" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(626.286 437.217)scale(.10301)">Czech Republic</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M641.6 432.98h15.174v14.092H641.6Z" style="pointer-events:all;stroke-width:1;fill:#d6e7f1;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Serbia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(644.6 438.843)scale(.23856)">Serbia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M659.774 432.98H674.6v14.092h-14.826Z" style="pointer-events:all;stroke-width:1;fill:#dae9f2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Hungary" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(662.774 438.052)scale(.17266)">Hungary</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M623.286 450.072h15.532v11.913h-15.532Z" style="pointer-events:all;stroke-width:1;fill:#8fc3dd;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Sweden" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(626.286 455.492)scale(.20163)">Sweden</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M623.286 464.985h15.532v10.54h-15.532Z" style="pointer-events:all;stroke-width:1;fill:#9bc9e0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Austria" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(626.286 470.686)scale(.2251)">Austria</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M623.286 478.525h15.532V488h-15.532Z" style="pointer-events:all;stroke-width:1;fill:#84bcd9;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Switzerland" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(626.286 483.159)scale(.13615)">Switzerland</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M641.818 450.072h11.367v12.598h-11.367Z" style="pointer-events:all;stroke-width:1;fill:#ddeaf2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Bulgaria" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(644.818 454.375)scale(.10858)">Bulgaria</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M656.185 450.072h7.727v12.598h-7.727Z" style="pointer-events:all;stroke-width:1;fill:#abd2e5;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Denmark" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(659.185 453.448)scale(.03136)">Denmark</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M666.912 450.072h7.688v12.598h-7.688Z" style="pointer-events:all;stroke-width:1;fill:#d2e5f0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Slovak Republic" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(669.912 453.286)scale(.01782)">Slovak Republic</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M641.818 465.67h8.92v10.449h-8.92Z" style="pointer-events:all;stroke-width:1;fill:#a0cce2;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Finland" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(644.818 469.478)scale(.06734)">Finland</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M641.818 479.119h8.92V488h-8.92Z" style="pointer-events:all;stroke-width:1;fill:#97c7df;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Norway" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(644.818 482.892)scale(.06445)">Norway</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M653.738 465.67h9.009v8.6h-9.009Z" style="pointer-events:all;stroke-width:1;fill:#d0e5f0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Bosnia and Herzegovina" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(656.738 468.919)scale(.02073)">Bosnia and Herzegovina</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M665.747 465.67h8.853v8.6h-8.853Z" style="pointer-events:all;stroke-width:1;fill:#c7e0ed;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Croatia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(668.747 469.462)scale(.06602)">Croatia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M653.738 477.27h6.159V488h-6.159Z" style="pointer-events:all;stroke-width:1;fill:#a5cfe3;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Ireland" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(656.738 480.315)scale(.0037)">Ireland</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M662.897 477.27h5.025V488h-5.025Z" style="pointer-events:all;stroke-width:1;fill:#bfdceb;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Albania" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(665.897 478.633)scale(.1135)">Albania</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M670.922 477.27h3.678v6.208h-3.678Z" style="pointer-events:all;stroke-width:1;fill:#afd4e6;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Slovenia" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(673.922 478.137)scale(.0722)">Slovenia</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <path class="surface" d="M670.922 486.478h1.634V488h-1.634Z" style="pointer-events:all;stroke-width:1;fill:#d3e6f0;fill-opacity:1;stroke:#fff;stroke-opacity:1;opacity:1"/>
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-unformatted="Montenegro" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="translate(673.922 486.753)scale(.02286)">Montenegro</text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="matrix(0 0 0 0 678.078 486.478)"> </text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="matrix(0 0 0 0 690.3 415.097)"> </text>
+        </g>
+      </g>
+      <g class="slice cursor-pointer">
+        <g class="slicetext">
+          <text data-notex="1" class="slicetext" data-math="N" style="font-family:&quot;Open Sans&quot;,verdana,arial,sans-serif;font-size:12px;fill:#444;fill-opacity:1;white-space:pre" transform="matrix(0 0 0 0 690.3 415.097)"> </text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="sunburstlayer"/>
+  <g class="glimages"/>
+</svg>

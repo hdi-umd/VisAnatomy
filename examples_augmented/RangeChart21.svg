@@ -1,0 +1,76 @@
+<svg style="display:block;background:#fff">
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 400h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 364.871h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 329.742h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 294.614h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 259.485h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 224.356h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 189.227h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 154.098h5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M90 118.97h5"/>
+  <g/>
+  <g text-anchor="end" dominant-baseline="middle">
+    <text alignment-baseline="middle" x="90" y="400" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">0</text>
+    <text alignment-baseline="middle" x="90" y="364.871" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">10</text>
+    <text alignment-baseline="middle" x="90" y="329.742" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">20</text>
+    <text alignment-baseline="middle" x="90" y="294.614" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">30</text>
+    <text alignment-baseline="middle" x="90" y="259.485" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">40</text>
+    <text alignment-baseline="middle" x="90" y="224.356" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">50</text>
+    <text alignment-baseline="middle" x="90" y="189.227" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">60</text>
+    <text alignment-baseline="middle" x="90" y="154.098" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">70</text>
+    <text alignment-baseline="middle" x="90" y="118.97" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">80</text>
+  </g>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M95 100v300"/>
+  <g/>
+  <text text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle" x="54.5" y="250" transform="rotate(-90 54.5 250)" style="fill:#555;font-weight:700;font-size:12px;font-family:Arial,sans-serif">median</text>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M100 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M200 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M300 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M400 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M500 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M600 400v5"/>
+  <g/>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M700 400v5"/>
+  <g/>
+  <g text-anchor="middle" dominant-baseline="text-before-edge">
+    <text alignment-baseline="text-before-edge" x="100" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">08/2021</text>
+    <text alignment-baseline="text-before-edge" x="200" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">10/2021</text>
+    <text alignment-baseline="text-before-edge" x="300" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">12/2021</text>
+    <text alignment-baseline="text-before-edge" x="400" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">02/2022</text>
+    <text alignment-baseline="text-before-edge" x="500" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">04/2022</text>
+    <text alignment-baseline="text-before-edge" x="600" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">06/2022</text>
+    <text alignment-baseline="text-before-edge" x="700" y="405" style="fill:#555;font-size:12px;font-family:Arial,sans-serif;font-weight:400">08/2022</text>
+  </g>
+  <path style="shape-rendering:crispedges;stroke:#555;stroke-width:1;stroke-dasharray:none" d="M100 400h600"/>
+  <g/>
+  <text text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle" x="400" y="440.5" style="fill:#555;font-weight:700;font-size:12px;font-family:Arial,sans-serif">month</text>
+  <path class="area" d="m100 125.995 50 37.588 50 30.21 50 23.186 50 12.295 50-7.728 50-20.024 50-31.616 50-31.264 50-25.996L600 100l50 4.567 50 22.833v28.806l-50-24.239-50-6.674-50 14.754-50 29.508-50 36.885-50 33.021-50 31.265-50 7.728-50-12.295-50-35.831-50-41.452-50-34.075z" style="fill:#e1f1fc;stroke:#ccc;stroke-width:0;stroke-dasharray:none"/>
+  <g/>
+  <path class="line1092" d="M100 140.398c16.667 11.876 33.333 23.752 50 35.832 16.667 12.079 33.333 24.362 50 35.83 16.667 11.47 33.333 22.125 50 29.51 16.667 7.383 33.333 11.497 50 12.294s33.333-1.723 50-7.728 33.333-15.495 50-25.644c16.667-10.15 33.333-20.957 50-32.319 16.667-11.361 33.333-23.277 50-34.075 16.667-10.797 33.333-20.476 50-27.751s33.333-12.146 50-13.7c16.667-1.555 33.333.208 50 5.62s33.333 14.474 50 23.536" style="fill:none;stroke:#008bbe;stroke-width:3;stroke-dasharray:none"/>
+  <circle cx="100" cy="140.398" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="150" cy="176.23" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="200" cy="212.061" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="250" cy="241.569" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="300" cy="253.864" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="350" cy="246.136" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="400" cy="220.492" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="450" cy="188.173" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="500" cy="154.098" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="550" cy="126.347" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="600" cy="112.646" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="650" cy="118.267" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+  <circle cx="700" cy="141.803" r="3" style="fill:#008bbe;opacity:1;stroke-width:0;stroke:#aaa"/>
+</svg>

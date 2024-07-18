@@ -1,0 +1,265 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="axis axis y left">
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 322.566h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 267.7h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 212.832h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 157.965h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 103.097h610" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M80 48.23h610" class="tick-line tick left axis y left"/>
+        </g>
+      </g>
+      <g class="axis axis x bottom">
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M99.891 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M146.304 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M192.717 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M239.13 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M285.543 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M331.957 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M378.37 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M424.783 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M471.196 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M517.609 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M564.022 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M610.435 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M656.848 40v310" class="tick-line tick bottom axis x bottom"/>
+        </g>
+      </g>
+    </g>
+    <g class="points" data-testid="points" tabindex="0" aria-label="points">
+      <path stroke="#000" d="M690 204.601v-21.946"/>
+      <path fill="#E0488B" d="M688 190.885h4v9.437h-4z"/>
+      <path stroke="#000" d="M683.37 196.371v-21.946"/>
+      <path fill="#E0488B" d="M681.37 182.655h4v7.819h-4z"/>
+      <path stroke="#000" d="M676.74 223.806v-38.408"/>
+      <path fill="#9fd0cb" d="M674.74 185.536h4v30.04h-4z"/>
+      <path stroke="#000" d="M670.109 259.469v-35.664"/>
+      <path fill="#9fd0cb" d="M668.109 223.997h4v32.728h-4z"/>
+      <path stroke="#000" d="M663.478 259.469v-24.69"/>
+      <path fill="#E0488B" d="M661.478 234.779h4v9.849h-4z"/>
+      <path stroke="#000" d="M643.587 264.956v-38.408"/>
+      <path fill="#9fd0cb" d="M641.587 243.887h4v18.326h-4z"/>
+      <path stroke="#000" d="M636.957 264.955v-41.15"/>
+      <path fill="#E0488B" d="M634.957 248.495h4v1.481h-4z"/>
+      <path stroke="#000" d="M630.326 281.416v-76.814"/>
+      <path fill="#E0488B" d="M628.326 212.832h4v51.63h-4z"/>
+      <path stroke="#000" d="M623.696 210.089v-19.204"/>
+      <path fill="#E0488B" d="M621.696 196.372h4v6.584h-4z"/>
+      <path stroke="#000" d="M597.174 193.628v-24.69"/>
+      <path fill="#E0488B" d="M595.174 185.398h4v6.365h-4z"/>
+      <path stroke="#000" d="M590.543 204.602v-35.664"/>
+      <path fill="#9fd0cb" d="M588.543 182.71h4v16.405h-4z"/>
+      <path stroke="#000" d="M583.913 207.345v-19.204"/>
+      <path fill="#9fd0cb" d="M581.913 190.775h4v2.853h-4z"/>
+      <path stroke="#000" d="M577.283 212.832v-24.69"/>
+      <path fill="#9fd0cb" d="M575.283 189.541h4v4.088h-4z"/>
+      <path stroke="#000" d="M570.652 212.832v-38.408"/>
+      <path fill="#E0488B" d="M568.652 193.628h4v6.639h-4z"/>
+      <path stroke="#000" d="M550.76 256.725v-41.15"/>
+      <path fill="#9fd0cb" d="M548.76 216.069h4v35.17h-4z"/>
+      <path stroke="#000" d="M544.13 275.929v-35.664"/>
+      <path fill="#E0488B" d="M542.13 245.752h4v24.224h-4z"/>
+      <path stroke="#000" d="M537.5 275.929v-24.69"/>
+      <path fill="#9fd0cb" d="M535.5 255.519h4v17.667h-4z"/>
+      <path stroke="#000" d="M530.87 297.876v-32.92"/>
+      <path fill="#9fd0cb" d="M528.87 273.131h4v19.258h-4z"/>
+      <path stroke="#000" d="M524.24 350v-57.61"/>
+      <path fill="#9fd0cb" d="M522.24 301.36h4v37.666h-4z"/>
+      <path stroke="#000" d="M504.348 344.513v-32.92"/>
+      <path fill="#E0488B" d="M502.348 325.31h4v6.09h-4z"/>
+      <path stroke="#000" d="M497.717 319.823v-27.434"/>
+      <path fill="#E0488B" d="M495.717 297.876h4v17.996h-4z"/>
+      <path stroke="#000" d="M491.087 319.824v-38.408"/>
+      <path fill="#E0488B" d="M489.087 284.16h4v20.85h-4z"/>
+      <path stroke="#000" d="M484.457 278.672v-16.46"/>
+      <path fill="#E0488B" d="M482.457 262.212h4v12.373h-4z"/>
+      <path stroke="#000" d="M477.826 270.442v-21.946"/>
+      <path fill="#9fd0cb" d="M475.826 264.105h4v6.337h-4z"/>
+      <path stroke="#000" d="M457.935 256.725v-13.716"/>
+      <path fill="#E0488B" d="M455.935 251.239h4v.357h-4z"/>
+      <path stroke="#000" d="M451.304 253.982v-19.204"/>
+      <path fill="#9fd0cb" d="M449.304 242.021h4v6.474h-4z"/>
+      <path stroke="#000" d="M444.674 251.239v-16.46"/>
+      <path fill="#E0488B" d="M442.674 234.779h4v12.043h-4z"/>
+      <path stroke="#000" d="M438.043 243.008v-21.946"/>
+      <path fill="#E0488B" d="M436.043 232.035h4v3.21h-4z"/>
+      <path stroke="#000" d="M431.413 264.955v-65.84"/>
+      <path fill="#9fd0cb" d="M429.413 248.495h4v13.717h-4z"/>
+      <path stroke="#000" d="M411.522 273.185v-24.69"/>
+      <path fill="#E0488B" d="M409.522 248.495h4v10.727h-4z"/>
+      <path stroke="#000" d="M404.891 284.158v-30.176"/>
+      <path fill="#9fd0cb" d="M402.891 255.353h4v20.575h-4z"/>
+      <path stroke="#000" d="M398.26 284.159v-27.434"/>
+      <path fill="#9fd0cb" d="M396.26 272.143h4v9.273h-4z"/>
+      <path stroke="#000" d="M391.63 300.62v-38.408"/>
+      <path fill="#9fd0cb" d="M389.63 274.695h4v17.695h-4z"/>
+      <path stroke="#000" d="M385 284.159v-49.38"/>
+      <path fill="#E0488B" d="M383 237.522h4v44.004h-4z"/>
+      <path stroke="#000" d="M365.109 237.522v-43.894"/>
+      <path fill="#E0488B" d="M363.109 196.371h4v29.601h-4z"/>
+      <path stroke="#000" d="M358.478 223.805v-24.69"/>
+      <path fill="#9fd0cb" d="M356.478 204.355h4v13.964h-4z"/>
+      <path stroke="#000" d="M351.848 226.548v-21.946"/>
+      <path fill="#9fd0cb" d="M349.848 204.958h4v16.104h-4z"/>
+      <path stroke="#000" d="M345.217 229.292v-35.664"/>
+      <path fill="#E0488B" d="M343.217 196.372h4v23.812h-4z"/>
+      <path stroke="#000" d="M338.587 232.036v-27.434"/>
+      <path fill="#9fd0cb" d="M336.587 205.535h4v10.041h-4z"/>
+      <path stroke="#000" d="M318.696 212.832v-27.434"/>
+      <path fill="#E0488B" d="M316.696 201.858h4v8.093h-4z"/>
+      <path stroke="#000" d="M312.065 204.602v-32.92"/>
+      <path fill="#E0488B" d="M310.065 182.655h4v18.573h-4z"/>
+      <path stroke="#000" d="M305.435 179.911v-30.176"/>
+      <path fill="#E0488B" d="M303.435 155.221h4v16.104h-4z"/>
+      <path stroke="#000" d="M298.804 256.726V144.248"/>
+      <path fill="#9fd0cb" d="M296.804 159.391h4v91.848h-4z"/>
+      <path stroke="#000" d="M292.174 127.787v-32.92"/>
+      <path fill="#9fd0cb" d="M290.174 101.78h4v6.804h-4z"/>
+      <path stroke="#000" d="M272.283 116.814v-41.15"/>
+      <path fill="#E0488B" d="M270.283 78.407h4v36.212h-4z"/>
+      <path stroke="#000" d="M265.652 83.894v-24.69"/>
+      <path fill="#E0488B" d="M263.652 61.947h4v4.115h-4z"/>
+      <path stroke="#000" d="M259.022 75.664v-24.69"/>
+      <path fill="#9fd0cb" d="M257.022 51.934h4v20.987h-4z"/>
+      <path stroke="#000" d="M252.391 67.434v-16.46"/>
+      <path fill="#E0488B" d="M250.391 56.461h4v3.758h-4z"/>
+      <path stroke="#000" d="M245.76 72.92V50.974"/>
+      <path fill="#9fd0cb" d="M243.76 51.056h4v10.891h-4z"/>
+      <path stroke="#000" d="M225.87 116.815V81.151"/>
+      <path fill="#9fd0cb" d="M223.87 80.465h4v30.863h-4z"/>
+      <path stroke="#000" d="M219.24 130.531v-24.69"/>
+      <path fill="#9fd0cb" d="M217.24 107.514h4v14.787h-4z"/>
+      <path stroke="#000" d="M205.978 133.275v-27.434"/>
+      <path fill="#E0488B" d="M203.978 105.841h4v23.264h-4z"/>
+      <path stroke="#000" d="M199.348 157.964v-49.38"/>
+      <path fill="#9fd0cb" d="M197.348 108.09h4v36.158h-4z"/>
+      <path stroke="#000" d="M179.457 130.53v-30.176"/>
+      <path fill="#E0488B" d="M177.457 105.84h4v20.767h-4z"/>
+      <path stroke="#000" d="M172.826 138.761v-24.69"/>
+      <path fill="#9fd0cb" d="M170.826 115.662h4v1.152h-4z"/>
+      <path stroke="#000" d="M166.196 130.531v-57.61"/>
+      <path fill="#E0488B" d="M164.196 83.894h4v45.567h-4z"/>
+      <path stroke="#000" d="M159.565 133.275v-41.15"/>
+      <path fill="#9fd0cb" d="M157.565 104.772h4v17.53h-4z"/>
+      <path stroke="#000" d="M152.935 163.451v-74.07"/>
+      <path fill="#E0488B" d="M150.935 92.124h4v53.55h-4z"/>
+      <path stroke="#000" d="M133.043 78.407V48.231"/>
+      <path fill="#E0488B" d="M131.043 50.974h4v21.7h-4z"/>
+      <path stroke="#000" d="M126.413 86.638V40"/>
+      <path fill="#E0488B" d="M124.413 45.487h4V60.74h-4z"/>
+      <path stroke="#000" d="M119.783 78.407V50.973"/>
+      <path fill="#9fd0cb" d="M117.783 57.118h4v4.828h-4z"/>
+      <path stroke="#000" d="M113.152 136.019V89.381"/>
+      <path fill="#9fd0cb" d="M111.152 89.436h4v43.839h-4z"/>
+      <path stroke="#000" d="M106.522 141.505v-19.204"/>
+      <path fill="#9fd0cb" d="M104.522 129.434h4v9.327h-4z"/>
+      <path stroke="#000" d="M86.63 138.761v-30.176"/>
+      <path fill="#9fd0cb" d="M84.63 125.1h4v5.432h-4z"/>
+      <path stroke="#000" d="M80 149.734v-32.92"/>
+      <path fill="#9fd0cb" d="M78 122.657h4v24.334h-4z"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis y left" aria-label="left axis from 320 to 420">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 327.566)">320</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 272.7)">340</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 217.832)">360</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 162.965)">380</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 108.097)">400</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(70 53.23)">420</text>
+        </g>
+        <path class="axis-baseline axis y left" stroke="#000" stroke-linecap="square" d="M80 40v310"/>
+      </g>
+      <g class="axis x bottom" aria-label="bottom axis from 5/17 to 8/9">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(99.891 375)">5/17</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(146.304 375)">5/24</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(192.717 375)">6/1</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(239.13 375)">6/8</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(285.543 375)">6/15</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(331.957 375)">6/22</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(378.37 375)">6/29</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(424.783 375)">7/5</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(471.196 375)">7/12</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(517.609 375)">7/19</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(564.022 375)">7/26</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(610.435 375)">8/2</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(656.848 375)">8/9</text>
+        </g>
+        <path class="axis-baseline axis x bottom" stroke="#000" stroke-linecap="square" d="M80 350h610"/>
+      </g>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Netflix Stock Price: <tspan fill="#9fd0cb">Close &gt; Open</tspan> vs. <tspan fill="#E0488B">Close &lt; Open</tspan></text>
+</svg>

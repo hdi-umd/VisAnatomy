@@ -1,0 +1,59 @@
+<svg shape-rendering="geometricPrecision" width="600" height="400" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;cursor:crosshair">
+  <style>
+    text{text-rendering:optimizeLegibility}#pCcNDZS .axis-text-x,#pCcNDZS .axis-text-y,#pCcNDZS .legend-item{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="pCcNDZS">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v400h600V0Z"/>
+    <path stroke="#E9E9E9" stroke-width=".5" fill="none" d="M319.522 358V10m57.074 348V10m57.074 348V10"/>
+    <path stroke="#E9E9E9" fill="none" d="M348.059 358V10m57.074 348V10m57.073 348V10"/>
+    <path stroke="#E9E9E9" stroke-width=".5" fill="none" d="M311.615 336.967h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.12h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033M311.615 184h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.12h183.033M311.615 69.275h183.033M311.615 50.154h183.033M311.615 31.033h183.033"/>
+    <path stroke="#E9E9E9" fill="none" d="M311.615 346.527h183.033m-183.033-19.12h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033M311.615 193.56h183.033m-183.033-19.12h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033m-183.033-19.121h183.033M311.615 97.956h183.033M311.615 78.835h183.033M311.615 59.714h183.033M311.615 40.593h183.033m-183.033-19.12h183.033"/>
+    <g transform="translate(311.615 10)" clip-path="url(#cUabLSw)">
+      <defs>
+        <clipPath id="cUabLSw">
+          <path d="M0 0h183.033v348H0z"/>
+        </clipPath>
+      </defs>
+      <path stroke="#FFF" fill="#377EB8" stroke-width="1.65" d="M93.518 3.824h.509v15.297h-.509zm0 19.121h1.296v15.297h-1.296zm0 19.121h2.777v15.297h-2.777zm0 19.121h4.729v15.297h-4.729zm0 19.121h7.018v15.297h-7.018zm0 19.121h9.096v15.297h-9.096zm0 19.12h11.285v15.297H93.518zm0 19.121h14.085v15.297H93.518zm0 19.121h17.137v15.297H93.518zm0 19.121h21.008v15.297H93.518zm0 19.121h26.957v15.297H93.518zm0 19.121h32.779v15.297H93.518zm0 19.121h38.048v15.297H93.518zm0 19.121h44.134v15.297H93.518zm0 19.12h51.366v15.297H93.518zm0 19.121h61.927v15.297H93.518zm0 19.121h70.064v15.297H93.518zm0 19.121h81.196v15.297H93.518z"/>
+      <path stroke="#FFF" fill="#E41A1C" stroke-width="1.65" d="M93.116 3.824h.401v15.297h-.401zm-.712 19.121h1.113v15.297h-1.113zm-1.366 19.121h2.479v15.297h-2.479zm-1.919 19.121h4.399v15.297h-4.399zm-2.176 19.121h6.575v15.297h-6.575zm-1.931 19.121h8.506v15.297h-8.506zm-2.36 19.12h10.865v15.297H82.652zm-3.316 19.121h14.182v15.297H79.336zm-3.926 19.121h18.107v15.297H75.41zm-4.768 19.121h22.875v15.297H70.642zm-5.832 19.121h28.708v15.297H64.81zm-5.796 19.121h34.503v15.297H59.014zm-5.211 19.121h39.715v15.297H53.803zm-6.369 19.121h46.083v15.297H47.434zm-7.633 19.12h53.716v15.297H39.801zm-11.13 19.121h64.847v15.297H28.671zm-8.566 19.121h73.412v15.297H20.105zM8.32 328.879h85.198v15.297H8.32z"/>
+    </g>
+    <text class="axis-text-y" text-anchor="middle" dy=".7em" transform="translate(348.059 361)"><tspan>-10,000,000</tspan></text>
+    <text class="axis-text-y" text-anchor="middle" dy=".7em" transform="translate(405.133 361)"><tspan>0</tspan></text>
+    <text class="axis-text-y" text-anchor="middle" dy=".7em" transform="translate(462.206 361)"><tspan>10,000,000</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 346.527)"><tspan>Stage 01: Browsers</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 327.407)"><tspan>Stage 02: Unbounced Users</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 308.286)"><tspan>Stage 03: Email Signups</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 289.165)"><tspan>Stage 04: Email Confirmed</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 270.044)"><tspan>Stage 05: Campaign-Email Opens</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 250.923)"><tspan>Stage 06: Campaign-Email Clickthroughs</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 231.802)"><tspan>Stage 07: Buy Button Page</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 212.681)"><tspan>Stage 08: Buy Button Clickers</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 193.56)"><tspan>Stage 09: Cart Confirmation Page</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 174.44)"><tspan>Stage 10: Address Verification Page</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 155.319)"><tspan>Stage 11: Submit Order Page</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 136.198)"><tspan>Stage 12: Payment</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 117.077)"><tspan>Stage 13: Payment Successful</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 97.956)"><tspan>Stage 14: 1st Successful Purchase</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 78.835)"><tspan>Stage 15: 2nd Purchase</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 59.714)"><tspan>Stage 16: 3rd Purchase</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 40.593)"><tspan>Stage 17: 4th Purchase</tspan></text>
+    <text class="axis-text-x" text-anchor="end" dy=".35em" transform="translate(308.615 21.473)"><tspan>Stage 18: 5th Purchase</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 99.25 84.75)"><tspan>Stage</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(403.132 391.5)"><tspan>Users (millions)</tspan></text>
+    <path stroke="#474747" stroke-width="0" fill="#FFF" d="M509.648 144.75H595v78.5h-85.352z"/>
+    <text style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(514.648 160.25)"><tspan>Gender</tspan></text>
+    <path stroke-width="0" fill="#FFF" d="M514.648 172.25h23v23h-23z"/>
+    <path stroke="#FFF" fill="#E41A1C" stroke-width="1.5" d="M515.648 173.25h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M514.648 172.25h23v23h-23z"/>
+    <text class="legend-item" transform="translate(541.638 188.3)"><tspan>Male</tspan></text>
+    <path stroke-width="0" fill="#FFF" d="M514.648 195.25h23v23h-23z"/>
+    <path stroke="#FFF" fill="#377EB8" stroke-width="1.5" d="M515.648 196.25h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M514.648 195.25h23v23h-23z"/>
+    <text class="legend-item" transform="translate(541.638 211.3)"><tspan>Female</tspan></text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v400h600V0Z"/>
+  </g>
+  <g id="dIR4g02">
+    <g/>
+    <g/>
+  </g>
+</svg>

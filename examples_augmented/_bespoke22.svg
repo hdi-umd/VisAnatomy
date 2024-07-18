@@ -1,0 +1,111 @@
+<svg width="1031" height="218">
+  <clipPath id="a">
+    <path d="M-1-1h1033v220H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M910.8 71.3H1032v75.5H910.8z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M911.8 72.3H1031v73.5H911.8z"/>
+    <circle stroke="#88bde6" fill="rgba(136,189,230,0.7)" cx="920.8" cy="84.5" r="3"/>
+    <text x="929.8" y="89.8" class="wj-label">Raw Data</text>
+    <path stroke="#8b0000" d="M915.8 109h10"/>
+    <text x="929.8" y="114.3" class="wj-label">TrendLine</text>
+    <path stroke="orange" d="M915.8 133.5h10"/>
+    <text x="929.8" y="138.8" class="wj-label">MovingAverage</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M51 16.5h843.2v171H51z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="117.4" y="210" fill="#666" class="wj-label">5</text>
+    <path stroke="#666" class="wj-tick" d="M121.3 187.5v4"/>
+    <text x="201.3" y="210" fill="#666" class="wj-label">10</text>
+    <path stroke="#666" class="wj-tick" d="M209.1 187.5v4"/>
+    <text x="289.2" y="210" fill="#666" class="wj-label">15</text>
+    <path stroke="#666" class="wj-tick" d="M297 187.5v4"/>
+    <text x="377" y="210" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-tick" d="M384.8 187.5v4"/>
+    <text x="464.9" y="210" fill="#666" class="wj-label">25</text>
+    <path stroke="#666" class="wj-tick" d="M472.6 187.5v4"/>
+    <text x="552.7" y="210" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-tick" d="M560.5 187.5v4"/>
+    <text x="640.5" y="210" fill="#666" class="wj-label">35</text>
+    <path stroke="#666" class="wj-tick" d="M648.3 187.5v4"/>
+    <text x="728.4" y="210" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-tick" d="M736.1 187.5v4"/>
+    <text x="816.2" y="210" fill="#666" class="wj-label">45</text>
+    <path stroke="#666" class="wj-tick" d="M824 187.5v4"/>
+    <path stroke="#666" class="wj-line" d="M51 187.5h843.3"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M51 159.5h843.3"/>
+    <text x="22.5" y="164.7" fill="#666" class="wj-label">10</text>
+    <path stroke="#666" class="wj-gridline" d="M51 126.5h843.3"/>
+    <text x="22.5" y="131.8" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M51 93.6h843.3"/>
+    <text x="22.5" y="98.9" fill="#666" class="wj-label">30</text>
+    <path stroke="#666" class="wj-gridline" d="M51 60.7h843.3"/>
+    <text x="22.5" y="66" fill="#666" class="wj-label">40</text>
+    <path stroke="#666" class="wj-gridline" d="M51 27.8h843.3"/>
+    <text x="22.5" y="33" fill="#666" class="wj-label">50</text>
+  </g>
+  <g class="wj-series-group">
+    <g stroke="#88bde6" stroke-width="2" fill="rgba(136,189,230,0.7)">
+      <circle cx="51" cy="187.5" r="5"/>
+      <circle cx="68.6" cy="185.3" r="5"/>
+      <circle cx="86.2" cy="180.7" r="5"/>
+      <circle cx="103.7" cy="183.8" r="5"/>
+      <circle cx="121.3" cy="172.5" r="5"/>
+      <circle cx="138.9" cy="172.8" r="5"/>
+      <circle cx="156.4" cy="182.6" r="5"/>
+      <circle cx="174" cy="163.1" r="5"/>
+      <circle cx="191.6" cy="158.4" r="5"/>
+      <circle cx="209.1" cy="177.2" r="5"/>
+      <circle cx="226.7" cy="168.8" r="5"/>
+      <circle cx="244.3" cy="144.9" r="5"/>
+      <circle cx="261.8" cy="146.7" r="5"/>
+      <circle cx="279.4" cy="151.1" r="5"/>
+      <circle cx="297" cy="150.2" r="5"/>
+      <circle cx="314.5" cy="149.5" r="5"/>
+      <circle cx="332.1" cy="165" r="5"/>
+      <circle cx="349.7" cy="137.4" r="5"/>
+      <circle cx="367.2" cy="111.9" r="5"/>
+      <circle cx="384.8" cy="110.3" r="5"/>
+      <circle cx="402.4" cy="132.9" r="5"/>
+      <circle cx="419.9" cy="145.2" r="5"/>
+      <circle cx="437.5" cy="126.1" r="5"/>
+      <circle cx="455.1" cy="109.7" r="5"/>
+      <circle cx="472.6" cy="125.4" r="5"/>
+      <circle cx="490.2" cy="102.4" r="5"/>
+      <circle cx="507.8" cy="127" r="5"/>
+      <circle cx="525.3" cy="138.1" r="5"/>
+      <circle cx="542.9" cy="123.8" r="5"/>
+      <circle cx="560.5" cy="152.7" r="5"/>
+      <circle cx="578" cy="89.7" r="5"/>
+      <circle cx="595.6" cy="64.6" r="5"/>
+      <circle cx="613.2" cy="110.3" r="5"/>
+      <circle cx="630.7" cy="115.1" r="5"/>
+      <circle cx="648.3" cy="93.9" r="5"/>
+      <circle cx="665.9" cy="136" r="5"/>
+      <circle cx="683.4" cy="126.2" r="5"/>
+      <circle cx="701" cy="45.9" r="5"/>
+      <circle cx="718.6" cy="128.1" r="5"/>
+      <circle cx="736.1" cy="63.8" r="5"/>
+      <circle cx="753.7" cy="104.3" r="5"/>
+      <circle cx="771.3" cy="129.8" r="5"/>
+      <circle cx="788.8" cy="109.6" r="5"/>
+      <circle cx="806.4" cy="57.1" r="5"/>
+      <circle cx="824" cy="44.9" r="5"/>
+      <circle cx="841.5" cy="108.1" r="5"/>
+      <circle cx="859.1" cy="63.8" r="5"/>
+      <circle cx="876.7" cy="16.5" r="5"/>
+      <circle cx="894.3" cy="90.4" r="5"/>
+    </g>
+    <path stroke="#8b0000" stroke-width="3" stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m51 186 8.5-1.3 8.6-1.3 8.5-1.3 8.5-1.3 8.5-1.2 8.5-1.3 8.6-1.3 8.5-1.3 8.5-1.2 8.5-1.3 8.5-1.3 8.5-1.2 8.6-1.3 8.5-1.2 8.5-1.3 8.5-1.2 8.5-1.3 8.5-1.2 8.6-1.3 8.5-1.2 8.5-1.3 8.5-1.2 8.5-1.2 8.5-1.3 8.6-1.2 8.5-1.2 8.5-1.2 8.5-1.3 8.5-1.2 8.6-1.2 8.5-1.2 8.5-1.2 8.5-1.2 8.5-1.3 8.5-1.2 8.6-1.2 8.5-1.2 8.5-1.2 8.5-1.2 8.5-1.1 8.5-1.2 8.6-1.2 8.5-1.2 8.5-1.2 8.5-1.2 8.5-1.2 8.5-1.1 8.6-1.2 8.5-1.2 8.5-1.2 8.5-1.1 8.5-1.2 8.6-1.1 8.5-1.2 8.5-1.2 8.5-1.1 8.5-1.2 8.5-1.1 8.6-1.2 8.5-1.1 8.5-1.2 8.5-1.1 8.5-1.1 8.5-1.2 8.6-1.1 8.5-1.1 8.5-1.2 8.5-1.1 8.5-1.1 8.5-1.1 8.6-1.2 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.6-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.6-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1.1 8.6-1 8.5-1.1 8.5-1.1 8.5-1.1 8.5-1 8.5-1.1 8.6-1.1 8.5-1 8.5-1.1 8.5-1 8.5-1.1 8.6-1"/>
+    <path stroke="orange" stroke-width="3" stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m138.9 180.4 17.5-.8 17.6-3.7 17.6-3.7 17.5-1.1 17.6-.6 17.6-4.7 17.5-6 17.6-1.9 17.6-1.4 17.5-4.6 17.6-.7 17.6-1.2 17.5-5.8 17.6-6.8 17.6-2.9 17.5-.7 17.6-6.5 17.6-4.6 17.5 2.2 17.6-1.3 17.6-1 17.5-1.1 17.6-.4 17.6 7.1 17.5-5.9 17.6-6.3 17.6-2.8 17.5-3.8 17.6-5 17.6-2.8 17.5 6.1 17.6-3.1 17.6 2.9 17.5-8.5 17.6 1.7 17.6-1 17.5-2.8 17.6 1.9L824 84.9l17.5 7.4 17.6-6.7 17.6-18.9 17.6-3.2"/>
+  </g>
+  <clipPath id="c">
+    <path d="M50 15.5h845.2v173H50z"/>
+  </clipPath>
+</svg>

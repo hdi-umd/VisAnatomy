@@ -1,0 +1,186 @@
+<svg class="visualization-layer" width="900" height="800" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M232.241 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M290.862 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M349.483 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M408.103 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M466.724 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M525.345 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M583.966 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M642.586 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M701.207 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M759.828 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M818.448 40v710" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M877.069 40v710" class="tick-line tick bottom"/>
+      </g>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="45 bars in a timeline">
+      <path tabindex="-1" style="fill:#ac58e5;stroke:#533f82" aria-label="George Washington bar value 1789,1797" d="M0 1h23.448v14.136H0z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#ac58e5;stroke:#533f82" aria-label="John Adams bar value 1797,1801" d="M23.448 17.136h11.724v14.136H23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#9fd0cb;stroke:#365350" aria-label="Thomas Jefferson bar value 1801,1809" d="M35.172 33.273H58.62v14.136H35.172z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#9fd0cb;stroke:#365350" aria-label="James Madison bar value 1809,1817" d="M58.621 49.409h23.448v14.136H58.621z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#9fd0cb;stroke:#365350" aria-label="James Monroe bar value 1817,1825" d="M82.069 65.545h23.448v14.136H82.069z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#9fd0cb;stroke:#365350" aria-label="John Quincy Adams bar value 1825,1829" d="M105.517 81.682h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Andrew Jackson bar value 1829,1837" d="M117.241 97.818h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Martin Van Buren bar value 1837,1841" d="M140.69 113.955h11.724v14.136H140.69z" transform="translate(200 40)"/>
+      <g aria-label="William Henry Harrison bar value 1841,1841" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#ac58e5;stroke:#533f82" aria-label="John Tyler bar value 1841,1845" d="M152.414 146.227h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="James K. Polk bar value 1845,1849" d="M164.138 162.364h11.724V176.5h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0d33a;stroke:#a19a11" aria-label="Zachary Taylor bar value 1849,1850" d="M175.862 178.5h2.931v14.136h-2.931z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0d33a;stroke:#a19a11" aria-label="Millard Fillmore bar value 1850,1853" d="M178.793 194.636h8.793v14.136h-8.793z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Franklin Pierce bar value 1853,1857" d="M187.586 210.773h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="James Buchanan bar value 1857,1861" d="M199.31 226.909h11.724v14.136H199.31z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Abraham Lincoln bar value 1861,1865" d="M211.034 243.045h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#ac58e5;stroke:#533f82" aria-label="Andrew Johnson bar value 1865,1869" d="M222.759 259.182h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Ulysses S. Grant bar value 1869,1877" d="M234.483 275.318h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Rutherford B. Hayes bar value 1877,1881" d="M257.931 291.455h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <g aria-label="James A. Garfield bar value 1881,1881" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Chester A. Arthur bar value 1881,1885" d="M269.655 323.727h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Grover Cleveland bar value 1885,1889" d="M281.379 339.864h11.724V354h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Grover Cleveland bar value 1893,1897" d="M304.828 339.864h11.724V354h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Benjamin Harrison bar value 1889,1893" d="M293.103 356h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="William McKinley bar value 1897,1901" d="M316.552 372.136h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Theodore Roosevelt bar value 1901,1909" d="M328.276 388.273h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="William H. Taft bar value 1909,1913" d="M351.724 404.409h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Woodrow Wilson bar value 1913,1921" d="M363.448 420.545h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Warren G. Harding bar value 1921,1923" d="M386.897 436.682h5.862v14.136h-5.862z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Calvin Coolidge bar value 1923,1929" d="M392.759 452.818h17.586v14.136h-17.586z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Herbert Hoover bar value 1929,1933" d="M410.345 468.955h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Franklin D. Roosevelt bar value 1933,1945" d="M422.069 485.091h35.172v14.136h-35.172z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Harry S. Truman bar value 1945,1953" d="M457.241 501.227h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Dwight D. Eisenhower bar value 1953,1961" d="M480.69 517.364h23.448V531.5H480.69z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="John F. Kennedy bar value 1961,1963" d="M504.138 533.5H510v14.136h-5.862z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Lyndon B. Johnson bar value 1963,1969" d="M510 549.636h17.586v14.136H510z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Richard M. Nixon bar value 1969,1974" d="M527.586 565.773h14.655v14.136h-14.655z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Gerald R. Ford bar value 1974,1977" d="M542.241 581.909h8.793v14.136h-8.793z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Jimmy Carter bar value 1977,1981" d="M551.034 598.045h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Ronald Reagan bar value 1981,1989" d="M562.759 614.182h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="George H. W. Bush bar value 1989,1993" d="M586.207 630.318h11.724v14.136h-11.724z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Bill Clinton bar value 1993,2001" d="M597.931 646.455h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="George W. Bush bar value 2001,2009" d="M621.379 662.591h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#7566ff;stroke:#3f4482" aria-label="Barack Obama bar value 2009,2017" d="M644.828 678.727h23.448v14.136h-23.448z" transform="translate(200 40)"/>
+      <path tabindex="-1" style="fill:#e0488b;stroke:#7a255d" aria-label="Donald Trump bar value 2017,2021" d="M668.276 694.864H680V709h-11.724z" transform="translate(200 40)"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="bottom x" aria-label="bottom axis from 1800 to 2020">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(232.241 775)">1800</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(290.862 775)">1820</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(349.483 775)">1840</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(408.103 775)">1860</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(466.724 775)">1880</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(525.345 775)">1900</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(583.966 775)">1920</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(642.586 775)">1940</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(701.207 775)">1960</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(759.828 775)">1980</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(818.448 775)">2000</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(877.069 775)">2020</text>
+        </g>
+        <path class="axis-baseline bottom x" stroke="#000" stroke-linecap="square" d="M200 750h680"/>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="end" font-size="11">
+      <text y="3" fill="#ac58e5" transform="translate(197 48.068)">George Washington</text>
+      <text y="3" fill="#ac58e5" transform="translate(197 64.205)">John Adams</text>
+      <text y="3" fill="#9fd0cb" transform="translate(197 80.34)">Thomas Jefferson</text>
+      <text y="3" fill="#9fd0cb" transform="translate(197 96.477)">James Madison</text>
+      <text y="3" fill="#9fd0cb" transform="translate(197 112.614)">James Monroe</text>
+      <text y="3" fill="#9fd0cb" transform="translate(197 128.75)">John Quincy Adams</text>
+      <text y="3" fill="#7566ff" transform="translate(197 144.886)">Andrew Jackson</text>
+      <text y="3" fill="#7566ff" transform="translate(197 161.023)">Martin Van Buren</text>
+      <text y="3" fill="#e0d33a" transform="translate(197 177.16)">William Henry Harrison</text>
+      <text y="3" fill="#ac58e5" transform="translate(197 193.295)">John Tyler</text>
+      <text y="3" fill="#7566ff" transform="translate(197 209.432)">James K. Polk</text>
+      <text y="3" fill="#e0d33a" transform="translate(197 225.568)">Zachary Taylor</text>
+      <text y="3" fill="#e0d33a" transform="translate(197 241.705)">Millard Fillmore</text>
+      <text y="3" fill="#7566ff" transform="translate(197 257.84)">Franklin Pierce</text>
+      <text y="3" fill="#7566ff" transform="translate(197 273.977)">James Buchanan</text>
+      <text y="3" fill="#E0488B" transform="translate(197 290.114)">Abraham Lincoln</text>
+      <text y="3" fill="#ac58e5" transform="translate(197 306.25)">Andrew Johnson</text>
+      <text y="3" fill="#E0488B" transform="translate(197 322.386)">Ulysses S. Grant</text>
+      <text y="3" fill="#E0488B" transform="translate(197 338.523)">Rutherford B. Hayes</text>
+      <text y="3" fill="#E0488B" transform="translate(197 354.66)">James A. Garfield</text>
+      <text y="3" fill="#E0488B" transform="translate(197 370.795)">Chester A. Arthur</text>
+      <text y="3" fill="#7566ff" transform="translate(197 386.932)">Grover Cleveland</text>
+      <text y="3" fill="#E0488B" transform="translate(197 403.068)">Benjamin Harrison</text>
+      <text y="3" fill="#E0488B" transform="translate(197 419.205)">William McKinley</text>
+      <text y="3" fill="#E0488B" transform="translate(197 435.34)">Theodore Roosevelt</text>
+      <text y="3" fill="#E0488B" transform="translate(197 451.477)">William H. Taft</text>
+      <text y="3" fill="#7566ff" transform="translate(197 467.614)">Woodrow Wilson</text>
+      <text y="3" fill="#E0488B" transform="translate(197 483.75)">Warren G. Harding</text>
+      <text y="3" fill="#E0488B" transform="translate(197 499.886)">Calvin Coolidge</text>
+      <text y="3" fill="#E0488B" transform="translate(197 516.023)">Herbert Hoover</text>
+      <text y="3" fill="#7566ff" transform="translate(197 532.16)">Franklin D. Roosevelt</text>
+      <text y="3" fill="#7566ff" transform="translate(197 548.295)">Harry S. Truman</text>
+      <text y="3" fill="#E0488B" transform="translate(197 564.432)">Dwight D. Eisenhower</text>
+      <text y="3" fill="#7566ff" transform="translate(197 580.568)">John F. Kennedy</text>
+      <text y="3" fill="#7566ff" transform="translate(197 596.705)">Lyndon B. Johnson</text>
+      <text y="3" fill="#E0488B" transform="translate(197 612.84)">Richard M. Nixon</text>
+      <text y="3" fill="#E0488B" transform="translate(197 628.977)">Gerald R. Ford</text>
+      <text y="3" fill="#7566ff" transform="translate(197 645.114)">Jimmy Carter</text>
+      <text y="3" fill="#E0488B" transform="translate(197 661.25)">Ronald Reagan</text>
+      <text y="3" fill="#E0488B" transform="translate(197 677.386)">George H. W. Bush</text>
+      <text y="3" fill="#7566ff" transform="translate(197 693.523)">Bill Clinton</text>
+      <text y="3" fill="#E0488B" transform="translate(197 709.66)">George W. Bush</text>
+      <text y="3" fill="#7566ff" transform="translate(197 725.795)">Barack Obama</text>
+      <text y="3" fill="#E0488B" transform="translate(197 741.932)">Donald Trump</text>
+    </g>
+  </g>
+  <g class="frame-title">
+    <text class="frame-title" style="text-anchor:middle;pointer-events:none" transform="translate(450 25)">U.S. Presidential Terms</text>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics">
+    <text x="700" y="60"><tspan font-size="20" fill="#7566ff">●</tspan> Democratic</text>
+    <text x="700" y="80"><tspan font-size="20" fill="#E0488B">●</tspan> Republican</text>
+    <text x="700" y="100"><tspan font-size="20" fill="#9fd0cb">●</tspan> Democratic-Republican</text>
+    <text x="700" y="120"><tspan font-size="20" fill="#e0d33a">●</tspan> Whig</text>
+    <text x="700" y="140"><tspan font-size="20" fill="#ac58e5">●</tspan> Other</text>
+  </g>
+</svg>

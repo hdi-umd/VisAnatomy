@@ -1,0 +1,48 @@
+<svg class="visualization-layer" width="300" height="300" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="12 bars in a bar chart">
+      <path tabindex="-1" d="M0-80a80 80 0 0 1 40 10.718L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Jason bar value 40"/>
+      <path tabindex="-1" d="M14.142-24.495a28.3 28.3 0 0 1 10.353 10.353L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Susie bar value 5"/>
+      <path tabindex="-1" d="M48.99-28.284A56.57 56.57 0 0 1 56.569 0H0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Matt bar value 20"/>
+      <path tabindex="-1" d="M69.282 0A69.3 69.3 0 0 1 60 34.641L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Betty bar value 30"/>
+      <path tabindex="-1" d="M24.495 14.142a28.3 28.3 0 0 1-10.353 10.353L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Ian bar value 5"/>
+      <path tabindex="-1" d="M20 34.641A40 40 0 0 1 0 40V0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Noah bar value 10"/>
+      <path tabindex="-1" d="M0 56.569a56.57 56.57 0 0 1-28.284-7.58L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Shirley bar value 20"/>
+      <path tabindex="-1" d="M-34.641 60A69.3 69.3 0 0 1-60 34.641L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Rachel bar value 30"/>
+      <path tabindex="-1" d="M-60 34.641A69.3 69.3 0 0 1-69.282 0H0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Nadieh bar value 30"/>
+      <path tabindex="-1" d="M-56.569 0a56.57 56.57 0 0 1 7.58-28.284L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Jim bar value 20"/>
+      <path tabindex="-1" d="M-24.495-14.142a28.3 28.3 0 0 1 10.353-10.353L0 0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Zan bar value 5"/>
+      <path tabindex="-1" d="M-34.641-60A69.3 69.3 0 0 1 0-69.282V0Z" transform="translate(150 150)" style="fill:#ac58e5;stroke:#fff" aria-label="Shelby bar value 30"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis-labels">
+        <g class="axis axis-label axis-tick radial">
+          <path d="M93.4 150a56.569 56.569 0 1 0 113.137 0A56.569 56.569 0 1 0 93.4 150Z" stroke="gray" fill="none"/>
+          <text y="-51.569" text-anchor="middle" transform="translate(150 150)">20</text>
+        </g>
+        <g class="axis axis-label axis-tick radial">
+          <path d="M70 150a80 80 0 1 0 160 0 80 80 0 1 0-160 0Z" stroke="gray" fill="none"/>
+          <text y="-75" text-anchor="middle" transform="translate(150 150)">40</text>
+        </g>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="middle">
+      <text transform="rotate(15 -171.86 687.183)">Jason</text>
+      <text transform="rotate(45 -3.462 298.566)">Susie</text>
+      <text transform="rotate(75 32.646 215.242)">Matt</text>
+      <text transform="rotate(-75 233.342 -69.242)">Betty</text>
+      <text transform="rotate(-45 368.325 -152.565)">Ian</text>
+      <text transform="rotate(-15 997.884 -541.181)">Noah</text>
+      <text transform="rotate(15 -847.884 598.182)">Shirley</text>
+      <text transform="rotate(45 -218.325 209.567)">Rachel</text>
+      <text transform="rotate(75 -83.342 126.242)">Nadieh</text>
+      <text transform="rotate(-75 117.354 19.758)">Jim</text>
+      <text transform="rotate(-45 153.462 -63.566)">Zan</text>
+      <text transform="rotate(-15 321.86 -452.18)">Shelby</text>
+    </g>
+  </g>
+  <g class="frame-title">
+    <text class="frame-title" style="text-anchor:middle;pointer-events:none" transform="translate(150 25)">Tweets</text>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>

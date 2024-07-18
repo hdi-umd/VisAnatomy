@@ -1,0 +1,58 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)">
+    <text x="223.5" y="20.5" fill="#666" class="wj-title">Climate of New York</text>
+  </g>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <path fill="transparent" class="wj-plot-area" d="M67.5 41.5h560.1v296H67.5z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="79.6" y="360" fill="#666" class="wj-label">Jan</text>
+    <path stroke="#666" class="wj-tick" d="M90.9 337.5v4"/>
+    <text x="125.6" y="360" fill="#666" class="wj-label">Feb</text>
+    <path stroke="#666" class="wj-tick" d="M137.5 337.5v4"/>
+    <text x="172" y="360" fill="#666" class="wj-label">Mar</text>
+    <path stroke="#666" class="wj-tick" d="M184.2 337.5v4"/>
+    <text x="219.8" y="360" fill="#666" class="wj-label">Apr</text>
+    <path stroke="#666" class="wj-tick" d="M230.9 337.5v4"/>
+    <text x="264.2" y="360" fill="#666" class="wj-label">May</text>
+    <path stroke="#666" class="wj-tick" d="M277.6 337.5v4"/>
+    <text x="312.8" y="360" fill="#666" class="wj-label">Jun</text>
+    <path stroke="#666" class="wj-tick" d="M324.2 337.5v4"/>
+    <text x="361.8" y="360" fill="#666" class="wj-label">Jul</text>
+    <path stroke="#666" class="wj-tick" d="M370.9 337.5v4"/>
+    <text x="405.1" y="360" fill="#666" class="wj-label">Aug</text>
+    <path stroke="#666" class="wj-tick" d="M417.6 337.5v4"/>
+    <text x="451.8" y="360" fill="#666" class="wj-label">Sep</text>
+    <path stroke="#666" class="wj-tick" d="M464.3 337.5v4"/>
+    <text x="499.7" y="360" fill="#666" class="wj-label">Oct</text>
+    <path stroke="#666" class="wj-tick" d="M511 337.5v4"/>
+    <text x="545.1" y="360" fill="#666" class="wj-label">Nov</text>
+    <path stroke="#666" class="wj-tick" d="M557.6 337.5v4"/>
+    <text x="591.9" y="360" fill="#666" class="wj-label">Dec</text>
+    <path stroke="#666" class="wj-tick" d="M604.3 337.5v4"/>
+    <path stroke="#666" class="wj-line" d="M67.5 337.5h560.1"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M67.5 311.4h560.1"/>
+    <text x="46.7" y="316.6" fill="#666" class="wj-label">0</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 264.7h560.1"/>
+    <text x="46.7" y="269.9" fill="#666" class="wj-label">5</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 218h560.1"/>
+    <text x="39" y="223.2" fill="#666" class="wj-label">10</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 171.3h560.1"/>
+    <text x="39" y="176.5" fill="#666" class="wj-label">15</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 124.6h560.1"/>
+    <text x="39" y="129.9" fill="#666" class="wj-label">20</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 77.9h560.1"/>
+    <text x="39" y="83.2" fill="#666" class="wj-label">25</text>
+    <text x="-40.4" y="194.7" fill="#666" class="wj-title" transform="rotate(-90 8.3 189.5)">Temperature °C</text>
+  </g>
+  <g clip-path="url(#b)" fill="#88bde6" stroke="rgba(136,189,230,1)" class="wj-series-group">
+    <path d="M74.5 278.7h32.7v58.8H74.5zm46.7-16.8h32.7v65.4h-32.7zm46.7-42.1h32.7v74.7h-32.7zm46.7-59.7h32.7v85h-32.7zm46.6-50.4h32.7v87.8h-32.7zm46.7-43.9h32.7V147h-32.7zm46.7-24.3h32.7v79.4h-32.7zm46.7 7.5H434v76.6h-32.7zm46.6 38.3h32.7V162h-32.7zm46.7 58.8h32.7V218h-32.7zm46.7 52.3H574v63.5h-32.7zm46.7 56h32.7v57H588z"/>
+  </g>
+  <clipPath id="b">
+    <path d="M66.5 40.5h562.1v298H66.5z"/>
+  </clipPath>
+</svg>

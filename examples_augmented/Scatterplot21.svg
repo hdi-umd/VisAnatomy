@@ -1,0 +1,29 @@
+<svg width="450" height="300" viewBox="0 0 450 300" style="width:100%;height:100%;pointer-events:all">
+  <g font-size="30">
+    <text x="50" y="150">😻</text>
+    <text x="73.333" y="109.102">😻</text>
+    <text x="96.667" y="75.276">😻</text>
+    <text x="120" y="54.37">😻</text>
+    <text x="143.333" y="50">😻</text>
+    <text x="166.667" y="62.92">😻</text>
+    <text x="190" y="90.898">😻</text>
+    <text x="213.333" y="129.094">😻</text>
+    <text x="236.667" y="170.906">😹</text>
+    <text x="260" y="209.102">😹</text>
+    <text x="283.333" y="237.08">😹</text>
+    <text x="306.667" y="250">😹</text>
+    <text x="330" y="245.63">😹</text>
+    <text x="353.333" y="224.724">😹</text>
+    <text x="376.667" y="190.898">😹</text>
+    <text x="400" y="150">😹</text>
+  </g>
+  <path vector-effect="non-scaling-stroke" style="stroke:#252525;fill:transparent;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 150h350"/>
+  <text direction="inherit" dx="0" x="120" y="172.97"><tspan x="120" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">0.2</tspan></text>
+  <text direction="inherit" dx="0" x="190" y="172.97"><tspan x="190" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">0.4</tspan></text>
+  <text direction="inherit" dx="0" x="260" y="172.97"><tspan x="260" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">0.6</tspan></text>
+  <text direction="inherit" dx="0" x="330" y="172.97"><tspan x="330" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">0.8</tspan></text>
+  <text direction="inherit" dx="0" x="400" y="172.97"><tspan x="400" dx="0" dy="0" text-anchor="middle" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">1.0</tspan></text>
+  <path vector-effect="non-scaling-stroke" style="stroke:#252525;fill:transparent;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" d="M50 50v200"/>
+  <text direction="inherit" dx="0" x="39" y="205.245"><tspan x="39" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">−0.5</tspan></text>
+  <text direction="inherit" dx="0" x="39" y="104.695"><tspan x="39" dx="0" dy="0" text-anchor="end" style="font-family:&quot;Gill Sans&quot;,Seravek,&quot;Trebuchet MS&quot;,sans-serif;font-size:14px;letter-spacing:normal;padding:10px;fill:#252525;stroke:transparent">0.5</tspan></text>
+</svg>

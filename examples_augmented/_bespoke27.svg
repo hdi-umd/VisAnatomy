@@ -1,0 +1,1234 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="axis axis y left">
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 310h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 269.701h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 229.403h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 189.104h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 148.806h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 108.507h630" class="tick-line tick left axis y left"/>
+        </g>
+        <g class="tick-line tick left axis y left">
+          <path fill="none" stroke="#000" d="M60 68.209h630" class="tick-line tick left axis y left"/>
+        </g>
+      </g>
+      <g class="axis axis x bottom">
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M60 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M97.378 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M134.755 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M172.133 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M209.51 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M246.888 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M284.266 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M321.643 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M359.021 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M396.399 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M433.776 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M471.154 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M508.532 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M545.91 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M583.287 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M620.664 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+        <g class="tick-line tick bottom axis x bottom">
+          <path fill="none" stroke="#000" d="M658.042 40v270" class="tick-line tick bottom axis x bottom"/>
+        </g>
+      </g>
+    </g>
+    <g class="summaries" data-testid="summaries" tabindex="0" aria-label="summaries">
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M13.64 214.875 27.28 207v-15.75l-13.64-7.875L0 191.25V207Z" style="fill:#e8de6b;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m231.878 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f0e99d;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m368.277 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 238.5 13.64-7.875v-15.75L327.357 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 238.5 13.64-7.875v-15.75L163.678 207l-13.64 7.875v15.75Z" style="fill:#f0e99d;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 238.5 13.639-7.875v-15.75L81.839 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M68.2 214.875 81.839 207v-15.75l-13.64-7.875-13.639 7.875V207Z" style="fill:#e8de6b;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M40.92 214.875 54.56 207v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#e8de6b;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m13.64 167.625 13.64-7.875V144l-13.64-7.875L0 144v15.75Z" style="fill:#e0d33a;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 144 13.64-7.875v-15.75L27.28 112.5l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 144 13.64-7.875v-15.75L0 112.5l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m13.64 120.375 13.64-7.875V96.75l-13.64-7.875L0 96.75v15.75Z" style="fill:#e0d33a;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 96.75 13.64-7.875v-15.75L0 65.25l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 191.25 13.64-7.875v-15.75L0 159.75l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 238.5 13.64-7.875v-15.75L54.56 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m150.039 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 238.5 13.639-7.875v-15.75L109.119 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 49.5 13.64-7.875v-15.75L0 18l-13.64 7.875v15.75Z" style="fill:#e8de6b;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m641.075 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m586.516 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 238.5 13.64-7.875v-15.75L381.917 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 238.5 13.64-7.875v-15.75L272.798 207l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m150.039 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m40.92 167.625 13.64-7.875V144l-13.64-7.875L27.28 144v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 2.25 13.64-7.875v-15.75L0-29.25l-13.64 7.875v15.75Z" style="fill:#f7f4ce;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 285.75 13.64-7.875v-15.75L0 254.25l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 285.75 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 285.75 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 285.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m13.64 262.125 13.64-7.875V238.5l-13.64-7.875L0 238.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m40.92 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m68.2 262.125 13.639-7.875V238.5l-13.64-7.875L54.56 238.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m95.48 262.125 13.639-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m122.76 262.125 13.639-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m177.319 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m204.599 262.125 13.639-7.875V238.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m259.158 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m286.438 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m313.718 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m340.998 262.125 13.639-7.875V238.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m395.557 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m422.837 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m450.117 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m477.397 262.125 13.639-7.875V238.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m504.676 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m531.956 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m559.236 262.125 13.64-7.875V238.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m613.796 262.125 13.639-7.875V238.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m0 238.5 13.64-7.875v-15.75L0 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 238.5 13.64-7.875v-15.75L27.28 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 238.5 13.64-7.875v-15.75L136.399 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 238.5 13.64-7.875v-15.75L190.958 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 238.5 13.64-7.875v-15.75L218.238 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 238.5 13.64-7.875v-15.75L245.518 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 238.5 13.64-7.875v-15.75L300.077 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 238.5 13.64-7.875v-15.75L354.637 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 238.5 13.64-7.875v-15.75L409.197 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 238.5 13.64-7.875v-15.75L436.476 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 238.5 13.64-7.875v-15.75L463.756 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 238.5 13.64-7.875v-15.75L491.036 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 238.5 13.64-7.875v-15.75L518.316 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 238.5 13.64-7.875v-15.75L545.596 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 238.5 13.64-7.875v-15.75L572.875 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 238.5 13.64-7.875v-15.75L600.155 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 238.5 13.64-7.875v-15.75L627.435 207l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M95.48 214.875 109.118 207v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M122.76 214.875 136.398 207v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m177.319 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M204.599 214.875 218.238 207v-15.75l-13.64-7.875-13.639 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m231.878 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m259.158 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m286.438 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m313.718 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M340.998 214.875 354.637 207v-15.75l-13.64-7.875-13.639 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m368.277 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m395.557 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m422.837 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m450.117 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M477.397 214.875 491.036 207v-15.75l-13.64-7.875-13.639 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m504.676 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m531.956 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m559.236 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m586.516 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M613.796 214.875 627.435 207v-15.75l-13.64-7.875-13.639 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m641.075 214.875 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875V207Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 191.25 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 191.25 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 191.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m68.2 167.625 13.639-7.875V144l-13.64-7.875L54.56 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m95.48 167.625 13.639-7.875V144l-13.64-7.875L81.84 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m122.76 167.625 13.639-7.875V144l-13.64-7.875L109.12 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m150.039 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m177.319 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m204.599 167.625 13.639-7.875V144l-13.64-7.875L190.96 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m231.878 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m259.158 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m286.438 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m313.718 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m340.998 167.625 13.639-7.875V144l-13.64-7.875L327.359 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m368.277 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m395.557 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m422.837 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m450.117 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m477.397 167.625 13.639-7.875V144l-13.64-7.875L463.758 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m504.676 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m531.956 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m559.236 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m586.516 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m613.796 167.625 13.639-7.875V144l-13.64-7.875L600.157 144v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m641.075 167.625 13.64-7.875V144l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 144 13.64-7.875v-15.75L54.56 112.5l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 144 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 144 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 144 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m40.92 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m68.2 120.375 13.639-7.875V96.75l-13.64-7.875L54.56 96.75v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m95.48 120.375 13.639-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m122.76 120.375 13.639-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m150.039 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m177.319 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m204.599 120.375 13.639-7.875V96.75l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m231.878 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m259.158 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m286.438 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m313.718 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m340.998 120.375 13.639-7.875V96.75l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m368.277 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m395.557 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m422.837 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m450.117 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m477.397 120.375 13.639-7.875V96.75l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m504.676 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m531.956 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m559.236 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m586.516 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m613.796 120.375 13.639-7.875V96.75l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m641.075 120.375 13.64-7.875V96.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 96.75 13.64-7.875v-15.75L27.28 65.25l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 96.75 13.64-7.875v-15.75L54.56 65.25l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 96.75 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 96.75 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 96.75 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m13.64 73.125 13.64-7.875V49.5l-13.64-7.875L0 49.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m40.92 73.125 13.64-7.875V49.5l-13.64-7.875L27.28 49.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m68.2 73.125 13.639-7.875V49.5l-13.64-7.875L54.56 49.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m95.48 73.125 13.639-7.875V49.5l-13.64-7.875L81.84 49.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m122.76 73.125 13.639-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m150.039 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m177.319 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m204.599 73.125 13.639-7.875V49.5l-13.64-7.875L190.96 49.5v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m231.878 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m259.158 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m286.438 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m313.718 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m340.998 73.125 13.639-7.875V49.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m368.277 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m395.557 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m422.837 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m450.117 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m477.397 73.125 13.639-7.875V49.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m504.676 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m531.956 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m559.236 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m586.516 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m613.796 73.125 13.639-7.875V49.5l-13.64-7.875-13.639 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m641.075 73.125 13.64-7.875V49.5l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 49.5 13.64-7.875v-15.75L27.28 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m54.56 49.5 13.64-7.875v-15.75L54.56 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 49.5 13.639-7.875v-15.75L81.839 18 68.2 25.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 49.5 13.639-7.875v-15.75L109.119 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 49.5 13.64-7.875v-15.75L136.399 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 49.5 13.64-7.875v-15.75L163.678 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 49.5 13.64-7.875v-15.75L190.958 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 49.5 13.64-7.875v-15.75L218.238 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 49.5 13.64-7.875v-15.75L245.518 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 49.5 13.64-7.875v-15.75L272.798 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 49.5 13.64-7.875v-15.75L300.077 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 49.5 13.64-7.875v-15.75L327.357 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 49.5 13.64-7.875v-15.75L354.637 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 49.5 13.64-7.875v-15.75L381.917 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 49.5 13.64-7.875v-15.75L409.197 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 49.5 13.64-7.875v-15.75L436.476 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 49.5 13.64-7.875v-15.75L463.756 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 49.5 13.64-7.875v-15.75L491.036 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 49.5 13.64-7.875v-15.75L518.316 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 49.5 13.64-7.875v-15.75L545.596 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 49.5 13.64-7.875v-15.75L572.875 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 49.5 13.64-7.875v-15.75L600.155 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 49.5 13.64-7.875v-15.75L627.435 18l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M13.64 25.875 27.28 18V2.25L13.64-5.625 0 2.25V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M40.92 25.875 54.56 18V2.25L40.92-5.625 27.28 2.25V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M68.2 25.875 81.839 18V2.25l-13.64-7.875L54.56 2.25V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M95.48 25.875 109.118 18V2.25l-13.64-7.875L81.84 2.25V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M122.76 25.875 136.398 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M150.039 25.875 163.679 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M177.319 25.875 190.959 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M204.599 25.875 218.238 18V2.25l-13.64-7.875L190.96 2.25V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M231.878 25.875 245.518 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M259.158 25.875 272.798 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M286.438 25.875 300.078 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M313.718 25.875 327.358 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M340.998 25.875 354.637 18V2.25l-13.64-7.875-13.639 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M368.277 25.875 381.917 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M395.557 25.875 409.197 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M422.837 25.875 436.477 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M450.117 25.875 463.757 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M477.397 25.875 491.036 18V2.25l-13.64-7.875-13.639 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M504.676 25.875 518.316 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M531.956 25.875 545.596 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M559.236 25.875 572.876 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M586.516 25.875 600.156 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M613.796 25.875 627.435 18V2.25l-13.64-7.875-13.639 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M641.075 25.875 654.715 18V2.25l-13.64-7.875-13.64 7.875V18Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m27.28 2.25 13.64-7.875v-15.75L27.28-29.25l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="M54.56 2.25 68.2-5.625v-15.75L54.56-29.25l-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m81.84 2.25 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m109.12 2.25 13.639-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m136.399 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m163.679 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m190.959 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m218.238 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m245.518 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m272.798 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m300.078 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m327.358 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m354.637 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m381.917 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m409.197 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m436.477 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m463.757 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m491.036 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m518.316 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m545.596 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m572.876 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m600.156 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+      <g class="xyframe-summary" aria-label="dataviz-element">
+        <path tabindex="-1" data-testid="xyframe-summary" class="xyframe-summary" d="m627.435 2.25 13.64-7.875v-15.75l-13.64-7.875-13.64 7.875v15.75Z" style="fill:#fff;stroke:#ccc;stroke-width:.5" transform="translate(60 40)"/>
+      </g>
+    </g>
+    <g class="points" data-testid="points" tabindex="0" aria-label="points">
+      <g class="frame-piece" aria-label="Point at x 4 and y 18" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(.748 197.463)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 39 and y 15" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(7.289 209.552)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 1255 and y 6" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(234.545 245.82)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 1279 and y 6" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(239.03 245.82)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 2004 and y 6" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(374.524 245.82)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 1718 and y 9" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(321.074 233.731)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 896 and y 12" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(167.452 221.642)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 506 and y 13" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(94.565 217.612)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 302 and y 19" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(56.44 193.433)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 194 and y 20" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(36.256 189.403)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 124 and y 29" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(23.174 153.134)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 81 and y 34" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(15.138 132.985)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 61 and y 36" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(11.4 124.925)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 39 and y 42" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(7.289 100.746)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 31 and y 47" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(5.794 80.597)" data-testid="frame-piece" style="r:2px;fill:#ac58e5"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 10 and y 24" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(1.869 173.284)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 99 and y 15" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(18.502 209.552)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 289 and y 10" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(54.01 229.701)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 865 and y 7" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(161.658 241.791)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 902 and y 9" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(168.573 233.731)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 610 and y 14" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(114.002 213.582)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 366 and y 17" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(68.401 201.493)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 256 and y 20" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(47.843 189.403)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 122 and y 24" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(22.8 173.284)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 105 and y 28" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(19.623 157.164)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 98 and y 30" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(18.315 149.104)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 74 and y 39" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(13.83 112.836)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 47 and y 42" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(8.784 100.746)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 27 and y 58" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(5.046 36.269)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 18 and y 60" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(3.364 28.209)" data-testid="frame-piece" style="r:2px;fill:#e0488b"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 3366 and y 3" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(629.066 257.91)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 3371 and y 5" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(630 249.85)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 3140 and y 7" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(586.829 241.791)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 2115 and y 10" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(395.268 229.701)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 1464 and y 11" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(273.604 225.672)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 803 and y 14" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(150.071 213.582)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 329 and y 17" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(61.486 201.493)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 230 and y 21" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(42.984 185.373)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 155 and y 28" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(28.968 157.164)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 116 and y 31" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(21.679 145.075)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 45 and y 40" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(8.41 108.806)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 24 and y 56" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(4.485 44.328)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+      <g class="frame-piece" aria-label="Point at x 9 and y 67" transform="translate(60 40)">
+        <circle tabindex="-1" r="2" class="frame-piece" transform="translate(1.682)" data-testid="frame-piece" style="r:2px;fill:#9fd0cb"/>
+      </g>
+    </g>
+    <g class="axis axis-labels">
+      <g class="axis y left" aria-label="left axis from 0 to 60">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 315)">0</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 274.701)">10</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 234.403)">20</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 194.104)">30</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 153.806)">40</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 113.507)">50</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="end" class="axis-label" transform="translate(50 73.209)">60</text>
+        </g>
+        <path class="axis-baseline axis y left" stroke="#000" stroke-linecap="square" d="M60 40v270"/>
+        <text text-anchor="middle" transform="rotate(-90 95 80)" class="axis-title axis y left">Rank</text>
+      </g>
+      <g class="axis x bottom" aria-label="bottom axis from 0 to 3200">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(60 335)">0</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(97.378 335)">200</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(134.755 335)">400</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(172.133 335)">600</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(209.51 335)">800</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(246.888 335)">1000</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(284.266 335)">1200</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(321.643 335)">1400</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(359.021 335)">1600</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(396.399 335)">1800</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(433.776 335)">2000</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(471.154 335)">2200</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(508.532 335)">2400</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(545.91 335)">2600</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(583.287 335)">2800</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(620.664 335)">3000</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(658.042 335)">3200</text>
+        </g>
+        <path class="axis-baseline axis x bottom" stroke="#000" stroke-linecap="square" d="M60 310h630"/>
+        <text text-anchor="middle" transform="translate(375 365)" class="axis-title axis x bottom">Theaters</text>
+      </g>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Theaters showing <tspan fill="#ac58e5">Ex Machina</tspan> vs <tspan fill="#E0488B">Far from the Madding Crowd</tspan> vs <tspan fill="#9fd0cb">The Longest Ride</tspan></text>
+</svg>

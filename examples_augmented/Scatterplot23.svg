@@ -1,0 +1,1114 @@
+<svg width="900" height="600" viewBox="0 0 900 600" class="svelte-1dncfoo">
+  <g class="y-axis svelte-1dncfoo">
+    <path class="domain svelte-1dncfoo" stroke="#000" d="M65 20v580"/>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 502.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 502.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 502.5)">10cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 460)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 460)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 460)">20cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 417.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 417.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 417.5)">30cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 375)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 375)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 375)">40cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 332.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 332.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 332.5)">50cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 290)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 290)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 290)">60cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 247.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 247.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 247.5)">70cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 205)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 205)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 205)">80cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 162.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 162.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 162.5)">90cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 120)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 120)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 120)">100cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 77.5)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 77.5)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 77.5)">110cm</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" d="M9 0h6" transform="translate(50 35)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M15 0h835" transform="translate(50 35)"/>
+      <text x="-50" y="10" class="svelte-1dncfoo" transform="translate(50 35)">120cm</text>
+    </g>
+    <text x="-50" y="15" transform="translate(50)">↑ Height</text>
+  </g>
+  <g class="x-axis svelte-1dncfoo">
+    <path class="domain svelte-1dncfoo" stroke="#000" d="M50 560.5h850"/>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(147 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(147 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(147 560)">10kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(229 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(229 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(229 560)">20kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(311 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(311 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(311 560)">30kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(393 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(393 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(393 560)">40kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(475 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(475 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(475 560)">50kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(557 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(557 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(557 560)">60kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(639 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(639 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(639 560)">70kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(721 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(721 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(721 560)">80kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(803 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(803 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(803 560)">90kg</text>
+    </g>
+    <g class="tick svelte-1dncfoo">
+      <path class="tick-start svelte-1dncfoo" stroke="#000" d="M0 0v6" transform="translate(885 560)"/>
+      <path class="tick-grid svelte-1dncfoo" d="M0 0v-580" transform="translate(885 560)"/>
+      <text x="-50" y="20" class="svelte-1dncfoo" transform="translate(885 560)">100kg</text>
+    </g>
+    <text x="810" y="40" transform="translate(0 560)">Weight →</text>
+  </g>
+  <g class="dot">
+    <circle cx="352" cy="154" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M372.255 164.625H328.5l-5.722-22.08 28.905-16.732 5.242-.778 6.518 5.59Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="663.6" cy="230.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M649.588 230.5 680 210.94l9.269 29.806 1.229 14.23-4.565-1.101Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="106" cy="90.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M114.505 83.875 87.578 135.83l-68.793-31.603 82.748-26.61Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="392" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M728.589 383.5h45.05l2.423 23.375h-35.358Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="294.6" cy="124.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m320.131 141.365-34.843 6.723-18.494-17.841 12.569-48.5 31.988 37.03Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="721" cy="511" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m712.407 534.585-7.35-42.55 12.483-2.408 13.312 17.123-4.405 17Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="450.4" cy="536.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M418.15 528h52.09l22.39 72h-81.747l-.868-9.213Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="811.2" cy="103" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m788.938 98.75 14.822-35.748 34.62 33.397-36.405 42.144-4.903-.556Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="261.8" cy="481.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m235.48 475.645 33.618-10.81 28.517 33.012-10.02 15.465-22.456-3.333Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="360.2" cy="540.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m349.165 521.899 21.743 20.976h-32.615Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="163.4" cy="349.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m184.286 329.273-22.598 43.602-7.672 3.29-32.241-24.883 1.527-14.738 10.173-19.626 12.486-4.015 18.105 2.183Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="704.6" cy="217.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M689.269 240.746 680 210.94v-32.527l29.695-11.458 19.825 12.75-23.023 44.419Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="548.8" cy="107.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m545.972 131.103-25.849-18.702 7.85-15.145 39.249-43.273 14.913 17.265.185.51-15.703 50.493Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="243.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m429.544 252.937-8.212 7.313h-80.43l-2.412-8.531 14.032-34.81 37.045-17.869 40.317 46.673Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="565.2" cy="519.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m548.958 496.014 45.539 9.763 38.322 73.94.657 20.283H532.813l-5.128-89.06Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="352" cy="69" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m371.316 90.33-43.72-12.051-42.134-40.647L291.2 0h79.624l7.385 85.493Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="794.8" cy="375" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M774.3 368.625h54.677l-1.652 12.75H774.3Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="622.6" cy="103" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m631.482 124.908-20.624-4.421-21.974-42.398 48.019 15.442Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="368.4" cy="532.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m363.354 479.01 18.35 70.808-10.796-6.943-21.743-20.976 9.154-44.156Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="171.6" cy="192.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M197.727 194.375h-58.986l-18.64-13.486-.626-4.838.469-3.92 16.313-7.406Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="145.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m411.612 130.625 9.499 32.072-27.995 24.928-20.861-23-8.811-34Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="352" cy="345.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m378.068 349.5-7.954 23.021-6.14-1.077-21.966-16.952 20.098-38.776 12.79 15.424Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="598" cy="281.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m563.12 283.625 21.808-36.064 29.215 8.672 2.101 10.137-8.943 17.255Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="491.4" cy="217.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m498.784 241.216-39.158-21.586 12.12-40.92 49.664 12.776 9.419 9.786 1.892 12.17-18.244 30.801Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="622.6" cy="332.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m610.3 312.832 25.557-4.931 21.72 41.905-.524 1.819H622.11l-11.81-22.786Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="876.8" cy="515.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m863.76 600-8.725-33.667-8.403-56.75 5.605-9.269L900 481.884V600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="442.2" cy="128.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m464.738 167.648-43.627-4.951-9.5-32.072 7.13-32.097 1.972-1.268 18.123 9.99 32.92 42.345Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="786.6" cy="540.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m751.03 600 11.273-65.251 30.233-16.667L820.841 600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="548.8" cy="162.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m521.41 191.486 6.04-29.134 17.367-20.105 32.505 31.358-.356.961-46.137 26.706Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="220.8" cy="375" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m246.204 371.727-17.558 27.1-10.782 6.242-16.993-21.859-2.454-7.891 42.995-20.739.426.299Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="335.6" cy="366.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m342.008 354.492 21.966 16.952-39.957 12.85-5-9.648 2.325-6.728 12.483-16.057Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="565.2" cy="434.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m550.94 410.948 28.836-9.272 4.66 22.473-26.15 25.226-9.96 3.844-2.216-1.9-7.578-10.444Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="671.8" cy="413.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m659.38 396.25 28.82 18.536 7.006 13.517-3.953 7.627-51.498-12.42-3.632-18.687 11.368-13.16Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="524.2" cy="141.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m527.45 162.352-32.806-42.197.084-.216 25.395-7.538 25.85 18.702-1.156 11.144Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="434" cy="298.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m452.217 271.165 45.748 58.844-.267.632-5.88 2.836-19.168 6.432-24.128 4.232-31.106-26.674-8.706-27.995 12.622-29.222 8.212-7.313Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="229" cy="302.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m254.36 302.9-29.675 28.628-12.085-3.587v-47.135l39.593 9.549Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="401.2" cy="336.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m417.416 317.467 31.106 26.674-6.018 5.359h-64.436l-3.171-18.36Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="532.4" cy="472.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m548.326 453.219 6.336 15.281-5.704 27.514-21.273 14.926-23.66-19.021 42.085-40.6Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="163.4" cy="489.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m179.935 470.625 15.924 51.206-1.91 11.055-6.939 10.298-2.01-1.724-36.714-70.835z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="803" cy="175.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m789.827 141.715 7.245-3.728 4.903.556 20.33 13.075 7.403 12.243-24.213 46.717-39.72-34.06Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="589.8" cy="455.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m591.146 437.097 26.023 14.345-3.707 14.302-14.459 13.949L581.6 468.5v-19.125Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="319.2" cy="353.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m333.825 351.86-12.483 16.058-9.546-18.418 9.912-6.375h7.59Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="97.8" cy="64.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m101.533 77.618-82.748 26.61L0 98.857V54.125h113.71Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="81.4" cy="341" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m121.775 351.282-25.197 24.307-21.515 10.378L0 372.174V327.93l58.133-9.347 65.17 17.962Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="277.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m421.332 260.25-12.622 29.222-54.522 13.15-8.915-5.734-7.037-8.355 2.665-28.283Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="663.6" cy="311.25" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m639.352 299.809 17.96-11.55 10.388-1.822v52.795l-1.3 3.765-8.824 6.809-21.719-41.905Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="622.6" cy="43.5" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m655.548 0-31.715 61.191-41.698 10.057-14.913-17.265L550.004 0Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="622.6" cy="370.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m592.156 368.137 29.954-16.512h34.943l2.018 8.76-11.58 31.278-11.368 13.16-48.105-14.279-.92-5.327Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="835.8" cy="443" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M822.093 436.625h37.632l-39.509 25.41-24.837-4.793Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="573.4" cy="455.75" r="3" stroke="red" fill="red"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M558.286 449.375H581.6V468.5h-26.938l-6.336-15.281Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="630.8" cy="77.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m582.32 71.757-.185-.509 41.698-10.057 45.306 14.57-32.236 17.77-48.02-15.442Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="311" cy="341" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m321.708 343.125-9.912 6.375h-14.932l-1.445-1.674L311 332.795Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="639" cy="52" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m669.14 75.76-45.307-14.569L655.548 0h37.511l-4.685 54.231-19.112 21.511Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="622.6" cy="489.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m613.462 465.744 29.638 22.874v61.346l-10.28 29.753-38.323-73.94 4.506-26.084Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="171.6" cy="281.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m203.332 269.63-39.266 45.456-18.105-2.183 15.552-60.013 29.724-13.235 8.62 12.095Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="229" cy="137" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m247.112 130.625-24.832 31.941L187.575 109l.365-1.935 4.16-2.112 9.251-3.758Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="89.6" cy="247.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m92.059 222.137 20.947 40.416-7.944 15.328-78.73-30.381Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="327.4" cy="523.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m344.604 467.662 13.715 10.08-9.154 44.157-10.872 20.976L302.8 597.66l-1.897-7.321-13.308-77.027 10.02-15.465 46.944-30.192Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="261.8" cy="158.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m275.428 195.645-7.584 6.754-33.71-10.84 31.581-60.934 1.079-.378 18.494 17.84Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="745.6" cy="324" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m738.338 314.595 13.003-5.018 21.081 5.81-4.792 27.738h-44.06l-5.455-9.02Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="606.2" cy="183.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m577.322 173.605 1.059-1.134 37.153-8.961 32.418 6.255 2.256 2.901-9.775 14.144-45.96 14.78-17.507-27.024Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="614.4" cy="290" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m600.693 309.125 6.608-25.5 8.943-17.255 23.108 33.439-3.495 8.092-25.557 4.931Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="639" cy="468.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m634.313 438.21 25.187 29.158v2.264l-16.4 18.986-29.638-22.874 3.707-14.302Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="98.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M750.436 120h-19.584L728.1 88.125h30.597l8.26 10.625Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="319.2" cy="332.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m345.273 296.888-15.976 46.237h-7.589L311 332.795V300.19l1.673-1.794 25.563-9.864Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="835.8" cy="124.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M801.975 138.543 838.38 96.4l11.786 1.75 8.017 25.78-35.878 27.69Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="696.4" cy="400.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M698.112 377.125h19.584l.38.49-15.984 46.26-6.886 4.428-7.006-13.517V396.25Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="270" cy="362.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M278.2 346.239v36.47l-6.592 1.272-25.404-12.254-4.366-16.848 24.062-11.607Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="115.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M411.612 130.625h-48.168l-6.518-5.59 14.39-34.706 6.892-4.836 40.534 13.035Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="573.4" cy="443" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m558.286 449.375 26.15-25.226 6.71 12.948-9.546 12.278Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="573.4" cy="481.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m581.6 468.5 17.403 11.193-4.506 26.084-45.539-9.763 5.704-27.514Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="319.2" cy="103" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m331.273 99.559-19.922 19.218-31.988-37.03-3.049-26.466 9.148-17.65 42.134 40.648Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="589.8" cy="120" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m566.617 122.251 15.703-50.494 6.564 6.332 21.974 42.398-11.014 12.75-16.986 4.682Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="762" cy="217.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m737.767 224.125-3.635-42.077 13.799-1.48 24.777 47.807-32.406 10.42Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="794.8" cy="362.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M770.2 347.375h63.518l1.663 1.48-6.404 19.77H774.3l-4.1-13.184Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="393" cy="434.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m418.902 469.617-2.912 11.24-3.63 2.45-49.006-4.297-5.035-1.267-13.715-10.081 8.59-16.573 48.523-31.207Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="515.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M730.852 506.75h13.096l10.831 13.932.398 3.068h-28.73Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="294.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m742.296 292.125 18.479-23.769 24.021 7.725 2.963 22.867-15.337 16.44-21.08-5.81Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="565.2" cy="145.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m577.322 173.605-32.505-31.358 1.155-11.144 20.645-8.852 16.24 15.668-4.476 34.552Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="302.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m738.338 314.595-11.646-22.47h15.604l9.045 17.452Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="138.8" cy="273" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m145.96 312.903-12.485 4.015-27.445-35.302-.968-3.735 7.944-15.328 22.2-14.277 26.307 4.614Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="770.2" cy="86" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m758.696 88.125 32.92-63.517 2.546-3.275 9.598 41.669-14.822 35.748h-21.982Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="680" cy="468.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m659.5 467.368 32.674-25.217 4.226 5.824v41.023l-8.117 2.848-28.783-22.214Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="278.2" cy="294.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m311 300.19-17.196 11.06H265.9l-11.54-8.35-2.167-12.545 11.889-19.116 2.892-2.232 45.7 29.39Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="458.6" cy="115.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m494.644 120.155-22.888 29.44-32.92-42.345h48.219l7.673 12.69Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="196.2" cy="302.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M212.6 280.806v47.135l-16.4 4.868-11.914-3.536-20.22-14.187 39.266-45.456Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="770.2" cy="213.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m772.708 228.375-24.777-47.806 17.845-4.051 39.72 34.06 1.604 4.954v4.343l-1.468 8.5Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="475" cy="247.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m498.784 241.216-46.567 29.949-22.673-18.228.34-7.224 29.742-26.083Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="421.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M740.704 406.875h35.358l10.535 12.704.003.046v38.746l-3.242 3.754h-27.846l-1.79-.384-19.626-37.866Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="614.4" cy="209.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m592.799 217.75 1.675-16.16 45.96-14.78-6.415 30.94Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="253.6" cy="455.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M227.899 453.625h42.652l-1.453 11.21-33.618 10.81-2.918-1.024-1.726-3.996Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="245.4" cy="251.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m279.045 234.074-12.07 34.933-2.893 2.232-40.404-19.489 51.257-24.724Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="122.4" cy="468.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m138.495 449.375 8.725 21.044-3.464 4.456h-42.712l13.86-35.657 12.936-1.783 7.018 4.925Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="360.2" cy="545" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M302.8 600v-2.34l35.493-54.785h32.615l10.795 6.943 28.312 40.969.868 9.213Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="302.8" cy="383.5" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m324.017 384.293-3.36 16.207-10.319 16.59-29.212-33.816 19.035-14.691 18.856 6.063Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="885" cy="443" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m900 480.45-34.78-28.76-4.759-15.302 5.247-20.247L900 401.963Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="671.8" cy="132.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m647.952 169.765-5.005-33.796 19.083-18.41 46.016 22.197 4.01 4.42-2.361 22.78L680 178.414l-29.792-5.748Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="598" cy="285.75" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M563.12 283.625h44.181l-6.608 25.5h-41.12l-10.556-5.091Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="417.6" cy="409" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M423.692 380.611 442.81 417.5h-40.785l-4.926-12.672V389.94Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="89.6" cy="311.25" r="3" stroke="orange" fill="orange"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m133.475 316.918-10.173 19.626-65.17-17.962 47.898-36.966Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="114.2" cy="94.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m150.73 83.875-57.342 55.318-5.81-3.363 26.927-51.955Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="89.6" cy="455.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m114.904 439.218-13.86 35.657-30.8 39.617L0 554.354v-36.782l93.109-89.823Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="794.8" cy="387.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M774.3 381.375h53.025l.278 4.296-41.006 33.908-10.535-12.704-2.423-23.375Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="65" cy="430.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m0 372.174 75.063 13.793 18.046 41.782L0 517.572Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="343.8" cy="341" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m354.188 302.622 7.918 13.094-20.098 38.776-8.183-2.631-4.528-8.736 15.976-46.237Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="770.2" cy="511" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m754.78 520.682 29.123-56.191 15.538 34.976-2.744 10.587-4.16 8.028-30.234 16.667-7.126-10.999Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="721" cy="438.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M702.092 423.875h32.004l19.626 37.866-3.688 1.017-53.634-14.783-4.226-5.824-.92-6.22 3.952-7.628Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="179.8" cy="56.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M183.9 36.132v67.814l-32.09-20.639-4.84-18.673Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="598" cy="149.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m615.534 163.51-37.153 8.96 4.477-34.551 16.986-4.682Z" fill="none"/>
+  </g>
+  <circle cx="450.4" cy="519.5" r="3" stroke="green" fill="green" class="dot"/>
+  <g class="dot">
+    <circle cx="655.4" cy="217.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m634.019 217.75 6.414-30.94 9.775-14.144L680 178.414v32.527L649.588 230.5h-12.926Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="598" cy="336.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M576.093 334.625h28.21l-14.105 27.214Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="434" cy="200.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m459.626 219.63-29.742 26.083-40.317-46.673 3.55-11.415 27.994-24.928 43.627 4.951 7.007 11.061Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="794.8" cy="332.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m772.422 315.388 15.337-16.44 28.682 15.092 17.277 33.335H770.2l-2.57-4.25Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="302.8" cy="166.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m324.633 187.015-49.205 8.63 9.86-47.557 34.843-6.723 2.648 1.18 5.722 22.08Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="122.4" cy="481.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M101.044 474.875h42.712l-11.148 28.679-62.364 10.938Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="69" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m900 59.688-49.834 38.46L838.38 96.4l-34.62-33.397-9.598-41.669L795.863 0H900Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="516" cy="77.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m527.973 97.256-58.01-55.964-6.192-16.724L466.499 0h83.505l17.218 53.983Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="458.6" cy="98.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M487.055 107.25h-48.22l-18.122-9.99 43.058-72.692 6.191 16.724Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="548.8" cy="383.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m502.1 338.36 84.998 46.857.92 5.327-8.242 11.132-28.835 9.272-36.96-26.742Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="819.4" cy="285.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m784.796 276.08 25.125-29.085 26.919 11.13-6.976 40.375-13.423 15.54-28.682-15.092Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="60.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M688.374 54.231 693.06 0h102.804l-1.701 21.333-2.546 3.275-64.292 62.023L700.5 65.929Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="688.2" cy="319.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m667.7 339.232 30.046-57.97 1.612 2.073 14.96 48.105-47.919 11.557Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="237.2" cy="502.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m235.48 475.645 29.659 34.334-31.69 15.286-39.5 7.621 1.91-11.055 36.703-47.21Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="606.2" cy="426" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m588.018 390.544 48.105 14.28 3.632 18.686-5.442 14.7-17.144 13.232-26.023-14.345-6.71-12.948-4.66-22.473Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="196.2" cy="158.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m227.173 190.887-9.098 4.876-53.759-51.86 23.26-34.904 34.704 53.567Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="73.2" cy="290" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m106.03 281.616-47.897 36.966L0 327.929V247.5h26.331l78.731 30.38Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="327.4" cy="111.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m322.78 142.544-2.649-1.179-8.78-22.588 19.922-19.218 20.411 26.254Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="261.8" cy="404.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M270 388.634v41.648l-1.744-.305-17.619-22.663Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="179.8" cy="175.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m218.075 195.763-4.786 4.617-15.562-6.005-61.47-29.65 28.06-20.823Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="311" cy="358" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m311.796 349.5 9.546 18.418-2.325 6.728-18.856-6.063-3.297-19.083Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="376.6" cy="409" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M397.1 389.94v14.888l-36.9 23.731V400.5l12.208-23.553Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="155.2" cy="421.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m167.443 404.709 14.57 22.487-47.155 15.164-7.018-4.925 7.58-24.375 20.33-16.811Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="819.4" cy="417.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m786.597 419.579 41.006-33.908 15.328 18.484-12.027 15.47H786.6Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="163.4" cy="447.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m193.28 433.126-6.737 16.249h-48.048l-3.637-7.015 47.154-15.164Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="343.8" cy="409" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m360.2 428.56-7.006 22.529-8.59 16.573-.045-.007-34.948-39.333.727-11.231 10.319-16.591H360.2Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="639" cy="273" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m614.143 256.233 15.156-7.976 10.191 5.618 17.821 34.384-17.959 11.55-23.108-33.439Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="655.4" cy="243.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m639.49 253.875-10.19-5.618 7.362-17.757h12.926l36.345 23.375Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="827.6" cy="485.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m786.6 458.371 8.779-1.129 24.837 4.792 21.815 12.026 10.206 26.254-5.605 9.27-47.191-10.117-15.538-34.976-.545-2.366Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="647.2" cy="107.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m631.482 124.908 5.421-31.377 32.236-17.77.123-.019.901 10.432-8.133 31.386-19.083 18.409Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="524.2" cy="417.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m492.36 436.351 21.62-52.145 36.96 26.742-12.408 29.927h-43.828Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="278.2" cy="404.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m281.126 383.274 29.212 33.817-.727 11.23-33.803 5.018-5.808-3.057v-41.648l1.608-4.653 6.592-1.272Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="77.5" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m727.324 86.63 64.292-62.022-32.92 63.517h-30.597Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="147" cy="226.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m191.237 239.655-29.724 13.235-26.307-4.614-16.345-63.076 1.24-4.311 18.64 13.486 52.66 43.544Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="455.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m859.725 436.625.736-.237 4.759 15.302-23.189 22.37-21.815-12.026Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="163.4" cy="35" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m198.722 0-7.024 27.105-7.798 9.027-36.93 28.502-15.697-20.19L125.514 0Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="237.2" cy="268.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m264.082 271.239-11.89 19.116-39.592-9.55-9.268-11.175-3.475-17.88h23.821Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="663.6" cy="489.75" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m643.1 488.618 16.4-18.986 28.783 22.214-45.183 58.118Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="729.2" cy="307" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m738.338 314.595-20.223 19.51-3.797-2.665-14.96-48.105 27.334 8.79Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="770.2" cy="243.25" r="3" stroke="green" fill="green"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m740.302 238.796 32.406-10.421h32.924l4.289 18.62-25.125 29.086-24.021-7.725-23.308-19.987Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="712.8" cy="226.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m689.269 240.746 17.228-16.621h31.27l2.535 14.67-2.835 9.574-39.617 17.64-7.352-11.033Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="450.4" cy="519.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m415.99 480.856 58.406 7.043L470.239 528h-52.088l-5.791-44.693Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="130.6" cy="528" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M0 600v-45.646l70.244-39.862 62.364-10.938L185 541.46l2.01 1.724L178.597 600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="696.4" cy="515.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m643.1 549.964 45.183-58.118 8.117-2.848 8.656 3.037 7.351 42.55L685.284 600h-51.808l-.657-20.283Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="483.2" cy="400.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m502.1 338.36 11.88 45.846-21.62 52.145-24.179-11.663 23.637-91.21 5.88-2.837Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="770.2" cy="111.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m750.436 120 16.52-21.25h21.982l8.134 39.237-7.245 3.728Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="393" cy="311.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m408.71 289.472 8.706 27.995-42.52 13.673-12.79-15.424-7.918-13.094Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="852.2" cy="145.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m822.305 151.618 35.878-27.689 7.562 5.472-20.657 39.856-15.38-5.396Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="696.4" cy="103" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m700.5 125.196-30.337-39.022-.901-10.432 19.112-21.51L700.5 65.928Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="278.2" cy="328.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m293.804 311.25-5.63 32.583-9.974 2.406-12.3-2.967V311.25Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="860.4" cy="290" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M900 336.75h-8.15L852.2 298.5v-40.375l47.8-12.297Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="860.4" cy="472.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m842.031 474.06 23.189-22.37L900 480.45v1.433l-47.763 18.431Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="65" cy="179.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m0 98.858 18.785 5.37 68.793 31.602 5.81 3.363 26.556 32.938-.469 3.92L0 214.471Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="491.4" cy="523.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m504.025 491.919 23.66 19.02L532.813 600H492.63l-22.39-72 4.157-40.1 12.25-5.562Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="311" cy="213.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m352.522 216.909-14.032 34.81-59.445-17.645-4.11-7.048-7.09-24.627 7.583-6.754 49.205-8.63Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="245.4" cy="149.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m265.715 130.625-31.581 60.934-6.961-.672-4.893-28.32 24.832-31.942Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="524.2" cy="464.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m538.532 440.875 7.578 10.443-42.085 40.6-17.38-9.58 8.06-41.463Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="573.4" cy="205" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m532.721 213.442-1.892-12.17 46.137-26.706 17.508 27.023-1.675 16.161-11.12 21.454Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="281.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m695.647 276.633 2.203-10.625 39.617-17.64 23.308 19.988-18.48 23.769h-15.603l-27.334-8.79-1.612-2.074Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="458.6" cy="451.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m492.36 436.351 2.344 4.524-8.059 41.463-12.249 5.561-58.406-7.043 2.912-11.24 29.225-46.988 3.2-.44 16.854 2.5Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="343.8" cy="98.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m356.926 125.035-5.242.778-20.411-26.254-3.677-21.28 43.72 12.05Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="614.4" cy="141.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m615.534 163.51-15.69-30.273 11.014-12.75 20.624 4.421 11.465 11.06 5.005 33.797Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="245.4" cy="545" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m178.597 600 8.413-56.816 6.939-10.298 39.5-7.621 67.454 65.074 1.897 7.32V600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="138.8" cy="120" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m187.575 108.999-23.259 34.903-28.059 20.823-16.313 7.406-26.556-32.938 57.342-55.318 1.08-.568 32.09 20.64 4.04 3.117Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="502.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M755.512 462.125h27.846l.545 2.366-29.124 56.19-10.831-13.931Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="375" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m727.782 382.721 42.418-27.28 4.1 13.184v12.75l-.66 2.125h-45.051Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="188" cy="400.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m217.864 405.069-6.967 23.525-17.616 4.532-11.269-5.93-14.569-22.487 33.428-21.499Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="212.6" cy="47.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m291.199 0-5.737 37.632-9.148 17.65-55.431 28.52L192.1 28.268l-.402-1.163L198.722 0Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="819.4" cy="421.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M786.6 419.625h44.304l-8.81 17-26.715 20.617-8.779 1.13Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="114.2" cy="234.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m118.86 185.2 16.346 63.076-22.2 14.277-20.947-40.416Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="179.8" cy="358" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M196.2 332.809v40.066h-34.512l22.598-43.602Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="528" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m418.15 528-8.135 62.787-28.312-40.97-18.35-70.807 49.007 4.297Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="450.4" cy="392" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m472.65 339.91-21.322 82.277-3.201.441-5.316-5.128-19.12-36.889 18.813-31.111 6.018-5.359Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="237.2" cy="234.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m274.935 227.026-51.257 24.724h-23.821l-8.62-12.095.164-1.736 21.888-37.539 4.786-4.617 9.098-4.876 6.96.672 33.711 10.84Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="302.8" cy="332.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m311 332.795-15.581 15.031-7.244-3.993 5.63-32.583L311 300.19Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="835.8" cy="430.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m822.093 436.625 8.811-17 12.027-15.47 22.777 11.986-5.247 20.247-.736.237Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="548.8" cy="251.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m514.477 244.243 18.244-30.8 48.958 25.76 3.249 8.358-21.807 36.064-14.104 20.409-26.246 4.22Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="507.8" cy="86" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m487.055 107.25-17.093-65.958 58.011 55.964-7.85 15.145-25.395 7.538Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="466.8" cy="396.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m472.65 339.91 19.168-6.433-23.637 91.211-16.853-2.5Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="532.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m685.284 600 27.123-65.415 14.04-10.835h28.73l7.126 10.999L751.029 600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="671.8" cy="311.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M667.7 339.232v-52.795l27.947-9.804 2.099 4.628Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="384.8" cy="421.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m402.026 417.5-.309 2.382-48.523 31.207 7.006-22.53 36.9-23.731Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="565.2" cy="353.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m549.017 304.034 10.556 5.091 16.52 25.5 14.105 27.214 1.958 6.298-5.058 17.08L502.1 338.36l-4.402-7.72.267-.632 24.806-21.755Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="680" cy="392" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m659.07 360.385 39.042 16.74-9.912 19.125h-28.82l-11.889-4.587Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="204.4" cy="477" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M179.935 470.625h50.9l1.727 3.996-36.703 47.21Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="294.6" cy="268.75" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m340.901 260.25-2.665 28.283-25.563 9.864-45.699-29.39 12.07-34.933 59.446 17.645Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="876.8" cy="111.5" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m900 144.088-34.255-14.687-7.562-5.472-8.017-25.78L900 59.689Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="417.6" cy="426" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M402.026 417.5h40.785l5.316 5.128-29.225 46.989-17.185-49.735Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="130.6" cy="392" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m155.75 396.249-20.33 16.811-38.842-37.47 25.197-24.308 32.24 24.882Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="811.2" cy="532.25" r="3" stroke="#00f" fill="#00f"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m820.841 600-28.305-81.918 4.161-8.028 58.338 56.279L863.76 600Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="204.4" cy="464.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m224.505 440.528 3.394 13.097 2.937 17h-50.9l6.607-21.25 6.738-16.249 17.616-4.532Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="598" cy="332.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m600.693 309.125 9.607 3.707v16.007l-5.997 5.786h-28.21l-16.52-25.5Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="712.8" cy="222" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m706.497 224.125 23.023-44.42 4.612 2.343 3.635 42.077Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="212.6" cy="358" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m241.412 354.58-42.995 20.739-2.217-2.444v-40.066l16.4-4.868 12.085 3.587Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="663.6" cy="447.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m639.755 423.51 51.498 12.42.921 6.22-32.674 25.218-25.187-29.158Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="253.6" cy="396.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m270 388.634-19.363 18.68-21.99-8.486 17.557-27.1 25.404 12.253Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="213.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m807.1 215.532 70.761-27.306L900 193.922v25.953h-92.9Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="712.8" cy="468.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m696.4 447.975 53.634 14.783-32.494 26.869-12.484 2.408-8.656-3.037Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="352" cy="175.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m389.567 199.04-37.045 17.869-27.889-29.894 3.868-22.39h43.754l20.861 23Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="343.8" cy="392" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M372.408 376.947 360.2 400.5h-39.543l3.36-16.207 39.957-12.849 6.14 1.077Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="483.2" cy="260.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m498.784 241.216 15.693 3.027 8.294 64.01-24.806 21.756-45.748-58.844Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="73.2" cy="205" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m118.86 185.2-26.8 36.937L26.33 247.5H0v-33.03l119.475-38.419.627 4.838Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="114.2" cy="409" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m135.42 413.06-7.58 24.375-12.936 1.783-21.795-11.469-18.046-41.782 21.515-10.378Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="745.6" cy="362.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M723.57 343.125h44.06l2.57 4.25v8.066l-42.418 27.28-9.706-5.107-.38-.489Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="737.4" cy="498.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m753.722 461.741 1.79.384-11.564 44.625h-13.096l-13.312-17.123 32.494-26.87Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="704.6" cy="103" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M700.5 125.196V65.93l26.824 20.702.775 1.494L730.852 120l-18.796 24.177-4.01-4.421Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="253.6" cy="536.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m287.595 513.312 13.308 77.027-67.455-65.074 31.69-15.286Z" fill="none"/>
+  </g>
+  <circle cx="819.4" cy="421.75" r="3" stroke="purple" fill="purple" class="dot"/>
+  <g class="dot">
+    <circle cx="253.6" cy="451.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m270 430.282 5.808 3.057-5.257 20.286h-42.652l-3.394-13.097 43.75-10.551Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="614.4" cy="226.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m581.68 239.204 11.119-21.454h41.22l2.643 12.75-7.363 17.757-15.156 7.976-29.215-8.672Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="155.2" cy="494" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M148.286 470.625 185 541.46l-52.392-37.906 11.148-28.679 3.464-4.456Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="226.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m805.632 228.375 1.468-8.5H900v25.953l-47.8 12.297h-15.36l-26.92-11.13Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="606.2" cy="341" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m590.198 361.839 14.105-27.214 5.997-5.786 11.81 22.786-29.954 16.512Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="307" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M829.864 298.5H852.2l39.65 38.25-56.47 12.106-1.662-1.481-17.277-33.335Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="179.8" cy="387.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m198.417 375.319 2.454 7.891-33.428 21.499-11.692-8.46-1.735-20.085 7.672-3.289H196.2Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="163.4" cy="451.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M138.495 449.375h48.048l-6.608 21.25h-31.649l-1.066-.206Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="245.4" cy="417.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m250.637 407.314 17.619 22.663-43.751 10.551-13.608-11.934 6.967-23.525 10.782-6.241Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="844" cy="290" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m829.864 298.5 6.976-40.375h15.36V298.5Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="286.4" cy="460" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m309.61 428.322 34.949 39.333-46.944 30.192-28.517-33.012 1.453-11.21 5.257-20.286Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="507.8" cy="154" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m471.745 178.71-7.007-11.062 7.018-18.053 22.888-29.44 32.806 42.197-6.04 29.134Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="286.4" cy="362.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m296.864 349.5 3.297 19.083-19.035 14.69-2.926-.564v-36.47l9.975-2.406 7.244 3.993Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="253.6" cy="328.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M265.9 311.25v32.022l-24.062 11.607-.426-.299-16.727-23.052 29.675-28.627Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="753.8" cy="141.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M712.056 144.177 730.852 120h19.584l39.39 21.715-24.05 34.803-17.845 4.05-13.799 1.48-4.612-2.342-19.825-12.75Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="196.2" cy="56.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m201.351 101.194-9.251 3.758V28.268l28.783 55.534Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="401.2" cy="362.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M378.068 349.5h64.436l-18.812 31.111-26.592 9.329-24.692-12.993-2.294-4.426Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="860.4" cy="383.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m835.38 348.856 56.47-12.106H900v65.213l-34.292 14.178-22.777-11.986-15.328-18.484-.278-4.296 1.652-12.75Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="696.4" cy="353.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m657.576 349.806 8.823-6.81 47.919-11.556 3.797 2.664 5.455 9.021-5.874 34h-19.584l-39.041-16.74-2.018-8.76Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="819.4" cy="523.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m799.44 499.467 47.192 10.117 8.403 56.749-58.338-56.28Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="97.8" cy="43.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M0 0h125.514l5.759 44.443-17.563 9.682H0Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="245.4" cy="111.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m266.794 130.247-1.079.378h-18.603l-45.76-29.43 19.53-17.393 55.432-28.52 3.049 26.464Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="680" cy="115.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m700.5 125.196 7.546 14.56-46.016-22.196 8.133-31.386Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="655.4" cy="264.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M639.49 253.875h46.443l4.565 1.101 7.352 11.032-2.203 10.625-27.947 9.804-10.389 1.822Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="835.8" cy="192.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m805.495 210.578 24.213-46.717 15.38 5.396 32.773 18.97-70.761 27.305Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="401.2" cy="64.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m420.713 97.26-1.971 1.268-40.534-13.035L370.823 0H466.5l-2.728 24.568Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="171.6" cy="196.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m213.29 200.38-21.89 37.539-52.659-43.544h58.986Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="721" cy="409" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m702.092 423.875 15.984-46.26 9.706 5.106.807.779 12.115 23.375-6.608 17Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="188" cy="56.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M192.1 28.268v76.684l-4.16 2.112-4.04-3.118V36.132l7.798-9.027Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="114.2" cy="73.25" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M150.73 83.875h-36.225l-12.972-6.257 12.177-23.493 17.563-9.682 15.697 20.19 4.84 18.674Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="860.4" cy="149.75" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="m845.088 169.257 20.657-39.856L900 144.088v49.834l-22.139-5.696Z" fill="none"/>
+  </g>
+  <g class="dot">
+    <circle cx="680" cy="400.5" r="3" stroke="purple" fill="purple"/>
+    <path class="voronoi-cell svelte-1dncfoo" d="M659.38 396.25h28.82v18.536Z" fill="none"/>
+  </g>
+</svg>

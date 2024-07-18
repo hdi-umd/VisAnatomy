@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:hidden">
+  <defs>
+    <clipPath clip-rule="evenodd" id="a">
+      <path d="M27.5 51.5h814v321h-814Z" stroke="#000" fill="none"/>
+    </clipPath>
+    <clipPath clip-rule="evenodd" id="b">
+      <path d="M0 0h847v400H0Z" stroke="#000" fill="none"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h847v400H0Z" fill="#FFF"/>
+  <path d="M27 51h814v321H27Z" fill="none"/>
+  <path d="M72.5 51.5v321m45-321v321m46-321v321m45-321v321m45-321v321m45-321v321m46-321v321m45-321v321m45-321v321m45-321v321m45-321v321m46-321v321m45-321v321m45-321v321m45-321v321m46-321v321m45-321v321m45-321v321m-814-53h814m-814-54h814m-814-53h814m-814-54h814m-814-53h814m-814-54h814m-814 321h814m-814 0v4m45-4v4m45-4v4m46-4v4m45-4v4m45-4v4m45-4v4m46-4v4m45-4v4m45-4v4m45-4v4m45-4v4m46-4v4m45-4v4m45-4v4m45-4v4m46-4v4m45-4v4m45-4v4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <g clip-path="url(#a)">
+    <g clip-path="url(#b)">
+      <g class="k-chart-point" aria-label="1.3" aria-roledescription="Point">
+        <path d="M38.5 272.5h23v42h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M45 246h10-5v26m-5 65h10-5v-23" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M38 293h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M38 294h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m45.611 341.25 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <circle cx="49.611" cy="131.25" r="4" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M38.306 131.25h22.611v214H38.306Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="2" aria-roledescription="Point">
+        <path d="M84.5 200.5h22v70h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M90 153h10-5v47m-5 119h10-5v-49" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M84 226h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M84 233h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m90.833 327.875 8 8m-8 0 8-8m-8-13.375 8 8m-8 0 8-8m-8-184.575 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M83.528 133.925h22.611v197.95H83.528Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="3.8" aria-roledescription="Point">
+        <path d="M129.5 218.5h22v28h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M135 139h10-5v79m-5 52h10-5v-24" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M129 224h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M129 225h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M128.75 139.275h22.611V270.35H128.75Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="3" aria-roledescription="Point">
+        <path d="M174.5 216.5h23v39h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M180 158h10-5v58m-5 76h10-5v-37" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M174 240h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M174 233h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m181.278 287.75 8 8m-8 0 8-8m-8-173.875 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M173.972 117.875h22.611V291.75h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="2.5" aria-roledescription="Point">
+        <path d="M219.5 253.5h23v14h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M226 236h10-5v17m-5 52h10-5v-38" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M219 261h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M219 262h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M219.194 235.575h22.612v69.55h-22.612Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="2.4" aria-roledescription="Point">
+        <path d="M264.5 216.5h23v56h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M271 166h10-5v50m-5 92h10-5v-36" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M264 240h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M264 241h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m271.722 311.825 8 8m-8 0 8-8m-8-165.85 8 8m-8 0 8-8m-8-40.125 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M264.417 109.85h22.611v205.975h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.7" aria-roledescription="Point">
+        <path d="M310.5 238.5h22v72h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M316 225h10-5v13m-5 89h10-5v-17" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M310 268h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M310 273h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m316.944 338.575 8 8m-8 0 8-8m-8-214 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M309.639 128.575h22.611v214h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="2.2" aria-roledescription="Point">
+        <path d="M355.5 266.5h22v39h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M361 257h10-5v9m-5 47h10-5v-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M355 289h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M355 286h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m362.167 325.2 8 8m-8 0 8-8m-8-5.35 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <circle cx="366.167" cy="109.85" r="4" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M354.861 109.85h22.611V329.2h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.9" aria-roledescription="Point">
+        <path d="M400.5 250.5h23v50h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M406 220h10-5v30m-5 71h10-5v-21" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M400 282h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M400 276h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m407.389 338.575 8 8m-8 0 8-8m-8-192.6 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M400.083 149.975h22.611v192.6h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.7" aria-roledescription="Point">
+        <path d="M445.5 264.5h23v37h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M452 238h10-5v26m-5 63h10-5v-26" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M445 284h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M445 281h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M445.306 238.25h22.611v88.275h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.4" aria-roledescription="Point">
+        <path d="M491.5 248.5h22v64h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M497 220h10-5v28m-5 87h10-5v-23" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M491 284h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M491 281h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M490.528 219.525h22.611V334.55h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.9" aria-roledescription="Point">
+        <path d="M536.5 253.5h22v43h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M542 209h10-5v44m-5 68h10-5v-25" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M536 265h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M536 268h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m543.056 341.25 8 8m-8 0 8-8m-8-5.35 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M535.75 208.825h22.611V345.25H535.75Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.5" aria-roledescription="Point">
+        <path d="M581.5 232.5h23v77h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M587 220h10-5v12m-5 100h10-5v-23" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M581 262h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M581 268h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m588.278 127.25 8 8m-8 0 8-8m-8-13.375 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M580.972 117.875h22.611v214h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.8" aria-roledescription="Point">
+        <path d="M626.5 265.5h23v45h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M633 228h10-5v37m-5 59h10-5v-14" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M626 282h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M626 284h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m633.5 341.25 8 8m-8 0 8-8m-8-133.75 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M626.194 211.5h22.612v133.75h-22.612Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.8" aria-roledescription="Point">
+        <path d="M671.5 270.5h23v28h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M678 241h10-5v29m-5 54h10-5v-26" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M671 282h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M671 281h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M671.417 240.925h22.611v82.925h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.7" aria-roledescription="Point">
+        <path d="M717.5 270.5h22v41h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M723 225h10-5v45m-5 57h10-5v-16" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M717 286h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M717 286h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m723.944 354.625 8 8m-8 0 8-8m-8-165.85 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M716.639 192.775h22.611v165.85h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.2" aria-roledescription="Point">
+        <path d="M762.5 290.5h22v30h-22Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M768 278h10-5v12m-5 50h10-5v-20" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M762 306h22" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M762 305h22" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="M761.861 278.375h22.611V339.9h-22.611Z" fill="none"/>
+      </g>
+      <g class="k-chart-point" aria-label="1.3" aria-roledescription="Point">
+        <path d="M807.5 280.5h23v41h-23Z" stroke="#1274AC" fill="#1274AC"/>
+        <path d="M813 265h10-5v15m-5 57h10-5v-16" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M807 290h23" stroke="#FAFAFA" stroke-width="2" fill="none"/>
+        <path d="M807 300h23" stroke="#FAFAFA" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+        <path d="m814.389 180.75 8 8m-8 0 8-8" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <circle cx="818.389" cy="144.625" r="4" stroke="#1274AC" stroke-width="2" fill="none"/>
+        <path d="M807.083 144.625h22.611v192.6h-22.611Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <text x="36.111" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">1996</text>
+  <text x="81.333" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">1997</text>
+  <text x="126.555" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">1998</text>
+  <text x="171.778" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">1999</text>
+  <text x="217" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2000</text>
+  <text x="262.222" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2001</text>
+  <text x="307.445" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2002</text>
+  <text x="352.667" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2003</text>
+  <text x="397.889" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2004</text>
+  <text x="443.111" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2005</text>
+  <text x="488.333" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2006</text>
+  <text x="533.555" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2007</text>
+  <text x="578.778" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2008</text>
+  <text x="624" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2009</text>
+  <text x="669.222" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2010</text>
+  <text x="714.945" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2011</text>
+  <text x="759.667" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2012</text>
+  <text x="804.889" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2013</text>
+  <path d="M27.5 51.5v321m-4 0h4m-4-53h4m-4-54h4m-4-53h4m-4-54h4m-4-53h4m-4-54h4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <text x="11" y="376" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">0</text>
+  <text x="11" y="322.5" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">2</text>
+  <text x="11" y="269" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">4</text>
+  <text x="11" y="215.5" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">6</text>
+  <text x="11" y="162" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">8</text>
+  <text x="5" y="108.5" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">10</text>
+  <text x="5" y="55" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">12</text>
+  <text x="306.5" y="30" fill="#424242" style="font:400 16.002px sans-serif;white-space:pre">Monthly Mean Temperatures (°F)</text>
+  <g/>
+</svg>

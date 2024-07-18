@@ -1,0 +1,167 @@
+<svg class="visualization-layer" width="700" height="400" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M160 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M199.552 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M239.104 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M278.657 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M318.209 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M357.761 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M397.313 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M436.866 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M476.418 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M515.97 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M555.522 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M595.075 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M634.627 40v270" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M674.18 40v270" class="tick-line tick bottom"/>
+      </g>
+    </g>
+    <g class="summaries" data-testid="summaries" tabindex="0" aria-label="summaries">
+      <g tabindex="-1" data-o="Ex Machina" aria-label="Ex Machina boxplot showing Maximum 47,3rd Quartile 31.5,Median 18,1st Quartile 10.5,Minimum 6">
+        <path style="stroke-width:.5;fill:#ac58e5;fill-opacity:.2;stroke:#ac58e5" transform="translate(160 85)" d="M47.463 0h324.328M47.463-35v70m324.328-70v70M83.06-35h166.119v70H83.06z"/>
+        <path style="fill:none;fill-opacity:.2;stroke:none;stroke-width:.5" transform="translate(160 85)" d="M142.388-35h106.791v70H142.388zM83.06-35h59.328v70H83.06z"/>
+        <path style="stroke-width:.5;fill:#ac58e5;fill-opacity:.2;stroke:#ac58e5" transform="translate(160 85)" d="M142.388-35v70"/>
+      </g>
+      <g tabindex="-1" data-o="Far from the Madding Crowd" aria-label="Far from the Madding Crowd boxplot showing Maximum 60,3rd Quartile 34.5,Median 24,1st Quartile 14.5,Minimum 7">
+        <path style="stroke-width:.5;fill:#e0488b;fill-opacity:.2;stroke:#e0488b" transform="translate(160 175)" d="M55.373 0h419.254M55.373-35v70m419.254-70v70M114.701-35H272.91v70H114.701z"/>
+        <path style="fill:none;fill-opacity:.2;stroke:none;stroke-width:.5" transform="translate(160 175)" d="M189.851-35h83.06v70h-83.06zm-75.15 0h75.149v70h-75.149z"/>
+        <path style="stroke-width:.5;fill:#e0488b;fill-opacity:.2;stroke:#e0488b" transform="translate(160 175)" d="M189.851-35v70"/>
+      </g>
+      <g tabindex="-1" data-o="The Longest Ride" aria-label="The Longest Ride boxplot showing Maximum 67,3rd Quartile 31,Median 17,1st Quartile 10,Minimum 3">
+        <path style="stroke-width:.5;fill:#9fd0cb;fill-opacity:.2;stroke:#9fd0cb" transform="translate(160 265)" d="M23.731 0H530M23.731-35v70M530-35v70M79.104-35h166.119v70H79.104z"/>
+        <path style="fill:none;fill-opacity:.2;stroke:none;stroke-width:.5" transform="translate(160 265)" d="M134.478-35h110.746v70H134.478zm-55.374 0h55.373v70H79.104z"/>
+        <path style="stroke-width:.5;fill:#9fd0cb;fill-opacity:.2;stroke:#9fd0cb" transform="translate(160 265)" d="M134.478-35v70"/>
+      </g>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="43 points in a point plot" transform="translate(160 40)">
+      <rect tabindex="-1" height="6" width="6" x="139.388" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 18"/>
+      <rect tabindex="-1" height="6" width="6" x="115.657" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 15"/>
+      <rect tabindex="-1" height="6" width="6" x="44.463" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 6"/>
+      <rect tabindex="-1" height="6" width="6" x="44.463" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 6"/>
+      <rect tabindex="-1" height="6" width="6" x="44.463" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 6"/>
+      <rect tabindex="-1" height="6" width="6" x="68.194" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 9"/>
+      <rect tabindex="-1" height="6" width="6" x="91.925" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 12"/>
+      <rect tabindex="-1" height="6" width="6" x="99.836" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 13"/>
+      <rect tabindex="-1" height="6" width="6" x="147.299" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 19"/>
+      <rect tabindex="-1" height="6" width="6" x="155.209" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 20"/>
+      <rect tabindex="-1" height="6" width="6" x="226.403" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 29"/>
+      <rect tabindex="-1" height="6" width="6" x="265.955" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 34"/>
+      <rect tabindex="-1" height="6" width="6" x="281.776" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 36"/>
+      <rect tabindex="-1" height="6" width="6" x="329.239" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 42"/>
+      <rect tabindex="-1" height="6" width="6" x="368.791" y="42" rx="3" ry="3" style="r:2px;fill:#ac58e5" aria-label="Ex Machina point value 47"/>
+      <rect tabindex="-1" height="6" width="6" x="186.851" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 24"/>
+      <rect tabindex="-1" height="6" width="6" x="115.657" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 15"/>
+      <rect tabindex="-1" height="6" width="6" x="76.104" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 10"/>
+      <rect tabindex="-1" height="6" width="6" x="52.373" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 7"/>
+      <rect tabindex="-1" height="6" width="6" x="68.194" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 9"/>
+      <rect tabindex="-1" height="6" width="6" x="107.746" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 14"/>
+      <rect tabindex="-1" height="6" width="6" x="131.478" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 17"/>
+      <rect tabindex="-1" height="6" width="6" x="155.209" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 20"/>
+      <rect tabindex="-1" height="6" width="6" x="186.851" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 24"/>
+      <rect tabindex="-1" height="6" width="6" x="218.493" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 28"/>
+      <rect tabindex="-1" height="6" width="6" x="234.313" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 30"/>
+      <rect tabindex="-1" height="6" width="6" x="305.507" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 39"/>
+      <rect tabindex="-1" height="6" width="6" x="329.239" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 42"/>
+      <rect tabindex="-1" height="6" width="6" x="455.806" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 58"/>
+      <rect tabindex="-1" height="6" width="6" x="471.627" y="132" rx="3" ry="3" style="r:2px;fill:#e0488b" aria-label="Far from the Madding Crowd point value 60"/>
+      <rect tabindex="-1" height="6" width="6" x="20.731" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 3"/>
+      <rect tabindex="-1" height="6" width="6" x="36.552" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 5"/>
+      <rect tabindex="-1" height="6" width="6" x="52.373" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 7"/>
+      <rect tabindex="-1" height="6" width="6" x="76.104" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 10"/>
+      <rect tabindex="-1" height="6" width="6" x="84.015" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 11"/>
+      <rect tabindex="-1" height="6" width="6" x="107.746" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 14"/>
+      <rect tabindex="-1" height="6" width="6" x="131.478" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 17"/>
+      <rect tabindex="-1" height="6" width="6" x="163.119" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 21"/>
+      <rect tabindex="-1" height="6" width="6" x="218.493" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 28"/>
+      <rect tabindex="-1" height="6" width="6" x="242.224" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 31"/>
+      <rect tabindex="-1" height="6" width="6" x="313.418" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 40"/>
+      <rect tabindex="-1" height="6" width="6" x="439.985" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 56"/>
+      <rect tabindex="-1" height="6" width="6" x="527" y="222" rx="3" ry="3" style="r:2px;fill:#9fd0cb" aria-label="The Longest Ride point value 67"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="bottom x" aria-label="bottom axis from 0 to 65">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(160 335)">0</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(199.552 335)">5</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(239.104 335)">10</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(278.657 335)">15</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(318.209 335)">20</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(357.761 335)">25</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(397.313 335)">30</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(436.866 335)">35</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(476.418 335)">40</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(515.97 335)">45</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(555.522 335)">50</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(595.075 335)">55</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(634.627 335)">60</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(674.18 335)">65</text>
+        </g>
+        <path class="axis-baseline bottom x" stroke="#000" stroke-linecap="square" d="M160 310h530"/>
+        <text text-anchor="middle" transform="translate(425 360)" class="axis-title bottom x">Rank</text>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="end">
+      <text transform="translate(157 85)">Ex Machina</text>
+      <text transform="translate(157 175)">Far from the Madding Crowd</text>
+      <text transform="translate(157 265)">The Longest Ride</text>
+    </g>
+  </g>
+  <g class="frame-title">
+    <text class="frame-title" style="text-anchor:middle;pointer-events:none" transform="translate(350 25)">Box Office Movies by Rank</text>
+  </g>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>

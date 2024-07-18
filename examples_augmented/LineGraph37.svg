@@ -1,0 +1,167 @@
+<svg width="641" height="368">
+  <clipPath id="a">
+    <path d="M-1-1h643v370H-1z"/>
+  </clipPath>
+  <g class="wj-header" clip-path="url(#a)"/>
+  <g class="wj-footer" clip-path="url(#a)"/>
+  <clipPath id="b">
+    <path d="M119.5 342.5h402.1V369H119.5z"/>
+  </clipPath>
+  <g class="wj-legend" clip-path="url(#b)">
+    <path fill="transparent" d="M120.5 343.5h400.1V368H120.5z"/>
+    <circle stroke="#2d9fc7" fill="rgba(45,159,199,0.7)" cx="129.5" cy="355.8" r="3"/>
+    <path stroke="#2d9fc7" d="M124.5 355.8h10"/>
+    <text x="138.5" y="361" class="wj-label">Africa</text>
+    <circle stroke="#ec993c" fill="rgba(236,153,60,0.7)" cx="187.6" cy="355.8" r="3"/>
+    <path stroke="#ec993c" d="M182.6 355.8h10"/>
+    <text x="196.6" y="361" class="wj-label">Asia</text>
+    <circle stroke="#89c235" fill="rgba(137,194,53,0.7)" cx="236.4" cy="355.8" r="3"/>
+    <path stroke="#89c235" d="M231.4 355.8h10"/>
+    <text x="245.4" y="361" class="wj-label">Europe</text>
+    <circle stroke="#e377a4" fill="rgba(227,119,164,0.7)" cx="303" cy="355.8" r="3"/>
+    <path stroke="#e377a4" d="M298 355.8h10"/>
+    <text x="312" y="361" class="wj-label">South America</text>
+    <circle stroke="#a68931" fill="rgba(166,137,49,0.7)" cx="417.3" cy="355.8" r="3"/>
+    <path stroke="#a68931" d="M412.3 355.8h10"/>
+    <text x="426.3" y="361" class="wj-label">North America</text>
+  </g>
+  <path fill="transparent" class="wj-plot-area" d="M67.5 16.5h557.9V313H67.5z"/>
+  <g class="wj-axis-x" clip-path="url(#a)">
+    <text x="71.9" y="335.5" fill="#666" class="wj-label">1950</text>
+    <path stroke="#666" class="wj-tick" d="M87.5 313v4"/>
+    <text x="111.7" y="335.5" fill="#666" class="wj-label">1955</text>
+    <path stroke="#666" class="wj-tick" d="M127.3 313v4"/>
+    <text x="151.6" y="335.5" fill="#666" class="wj-label">1960</text>
+    <path stroke="#666" class="wj-tick" d="M167.2 313v4"/>
+    <text x="191.4" y="335.5" fill="#666" class="wj-label">1965</text>
+    <path stroke="#666" class="wj-tick" d="M207 313v4"/>
+    <text x="231.3" y="335.5" fill="#666" class="wj-label">1970</text>
+    <path stroke="#666" class="wj-tick" d="M246.9 313v4"/>
+    <text x="271.1" y="335.5" fill="#666" class="wj-label">1975</text>
+    <path stroke="#666" class="wj-tick" d="M286.7 313v4"/>
+    <text x="311" y="335.5" fill="#666" class="wj-label">1980</text>
+    <path stroke="#666" class="wj-tick" d="M326.6 313v4"/>
+    <text x="350.8" y="335.5" fill="#666" class="wj-label">1985</text>
+    <path stroke="#666" class="wj-tick" d="M366.4 313v4"/>
+    <text x="390.7" y="335.5" fill="#666" class="wj-label">1990</text>
+    <path stroke="#666" class="wj-tick" d="M406.3 313v4"/>
+    <text x="430.5" y="335.5" fill="#666" class="wj-label">1995</text>
+    <path stroke="#666" class="wj-tick" d="M446.1 313v4"/>
+    <text x="470.4" y="335.5" fill="#666" class="wj-label">2000</text>
+    <path stroke="#666" class="wj-tick" d="M486 313v4"/>
+    <text x="510.2" y="335.5" fill="#666" class="wj-label">2005</text>
+    <path stroke="#666" class="wj-tick" d="M525.8 313v4"/>
+    <text x="550.1" y="335.5" fill="#666" class="wj-label">2010</text>
+    <path stroke="#666" class="wj-tick" d="M565.7 313v4"/>
+    <text x="589.9" y="335.5" fill="#666" class="wj-label">2015</text>
+    <path stroke="#666" class="wj-tick" d="M605.5 313v4"/>
+    <path stroke="#666" class="wj-line" d="M67.5 313h557.9"/>
+  </g>
+  <g class="wj-axis-y" clip-path="url(#a)">
+    <path stroke="#666" class="wj-gridline" d="M67.5 278.5h557.9"/>
+    <text x="19.5" y="283.8" fill="#666" class="wj-label">1,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 237.1h557.9"/>
+    <text x="19.5" y="242.3" fill="#666" class="wj-label">2,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 195.6h557.9"/>
+    <text x="19.5" y="200.9" fill="#666" class="wj-label">3,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 154.1h557.9"/>
+    <text x="19.5" y="159.4" fill="#666" class="wj-label">4,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 112.7h557.9"/>
+    <text x="19.5" y="117.9" fill="#666" class="wj-label">5,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 71.2h557.9"/>
+    <text x="19.5" y="76.4" fill="#666" class="wj-label">6,000</text>
+    <path stroke="#666" class="wj-gridline" d="M67.5 29.7h557.9"/>
+    <text x="19.5" y="35" fill="#666" class="wj-label">7,000</text>
+    <text x="-63" y="170" fill="#666" class="wj-title" transform="rotate(-90 8.3 164.8)">Populations(in millions)</text>
+  </g>
+  <g class="wj-series-group" stroke-width="2">
+    <g stroke="#2d9fc7">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m87.5 310.5 39.8-1 39.9-1.3 39.8-1.5 39.9-1.9 39.8-2 39.9-2.6 39.8-3 39.9-3.4 39.8-3.6 39.9-3.9 39.8-4.4 39.9-5.2 39.8-6.3"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="87.5" cy="310.5" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="127.3" cy="309.5" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="167.2" cy="308.2" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="207" cy="306.7" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="246.9" cy="304.8" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="286.7" cy="302.8" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="326.6" cy="300.2" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="366.4" cy="297.2" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="406.3" cy="293.8" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="446.1" cy="290.2" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="486" cy="286.3" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="525.8" cy="281.9" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="565.7" cy="276.7" r="5"/>
+      <circle fill="rgba(45,159,199,0.7)" cx="605.5" cy="270.4" r="5"/>
+    </g>
+    <g stroke="#ec993c">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m87.5 252.7 39.8-6.8 39.9-7.7 39.8-9.3 39.9-12 39.8-12.8 39.9-12.8 39.8-14.2 39.9-16.1 39.8-15 39.9-13.8 39.8-13.9 39.9-14.5 39.8-15.6"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="87.5" cy="252.7" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="127.3" cy="245.9" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="167.2" cy="238.2" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="207" cy="228.9" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="246.9" cy="216.9" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="286.7" cy="204.1" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="326.6" cy="191.3" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="366.4" cy="177.1" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="406.3" cy="161" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="446.1" cy="146" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="486" cy="132.2" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="525.8" cy="118.3" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="565.7" cy="103.8" r="5"/>
+      <circle fill="rgba(236,153,60,0.7)" cx="605.5" cy="88.2" r="5"/>
+    </g>
+    <g stroke="#89c235">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m87.5 229.9 39.8-8 39.9-8.8 39.8-10.5 39.9-12.9 39.8-13.6 39.9-13.6 39.8-14.8 39.9-16.6 39.8-15.2 39.9-13.8L525.8 88l39.9-14.7 39.8-15.7"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="87.5" cy="229.9" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="127.3" cy="221.9" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="167.2" cy="213.1" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="207" cy="202.6" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="246.9" cy="189.7" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="286.7" cy="176.1" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="326.6" cy="162.5" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="366.4" cy="147.7" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="406.3" cy="131.1" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="446.1" cy="115.9" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="486" cy="102.1" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="525.8" cy="88" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="565.7" cy="73.3" r="5"/>
+      <circle fill="rgba(137,194,53,0.7)" cx="605.5" cy="57.6" r="5"/>
+    </g>
+    <g stroke="#e377a4">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m87.5 222.9 39.8-9 39.9-10L207 192l39.9-14.3 39.8-15.1 39.9-15.2 39.8-16.5 39.9-18.3 39.8-16.9L486 80.3l39.8-15.7 39.9-16.2 39.8-17.1"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="87.5" cy="222.9" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="127.3" cy="213.9" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="167.2" cy="203.9" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="207" cy="192" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="246.9" cy="177.7" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="286.7" cy="162.6" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="326.6" cy="147.4" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="366.4" cy="130.9" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="406.3" cy="112.6" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="446.1" cy="95.7" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="486" cy="80.3" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="525.8" cy="64.6" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="565.7" cy="48.4" r="5"/>
+      <circle fill="rgba(227,119,164,0.7)" cx="605.5" cy="31.3" r="5"/>
+    </g>
+    <g stroke="#a68931">
+      <path stroke-linejoin="round" fill="none" clip-path="url(#c)" d="m87.5 215.8 39.8-9.6 39.9-10.7L207 183l39.9-14.8 39.8-15.7 39.9-15.7 39.8-17 39.9-18.9 39.8-17.5L486 67.3 525.8 51l39.9-16.8 39.8-17.7"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="87.5" cy="215.8" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="127.3" cy="206.2" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="167.2" cy="195.5" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="207" cy="183" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="246.9" cy="168.2" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="286.7" cy="152.5" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="326.6" cy="136.8" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="366.4" cy="119.8" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="406.3" cy="100.9" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="446.1" cy="83.4" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="486" cy="67.3" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="525.8" cy="51" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="565.7" cy="34.2" r="5"/>
+      <circle fill="rgba(166,137,49,0.7)" cx="605.5" cy="16.5" r="5"/>
+    </g>
+  </g>
+  <clipPath id="c">
+    <path d="M66.5 15.5h559.9V314H66.5z"/>
+  </clipPath>
+</svg>

@@ -1,0 +1,93 @@
+<svg shape-rendering="geometricPrecision" width="600" height="400" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;cursor:crosshair">
+  <style>
+    text{text-rendering:optimizeLegibility}#pbccaDN .axis-text-x,#pbccaDN .axis-text-y,#pbccaDN .legend-item{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="pbccaDN">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v400h600V0Z"/>
+    <path stroke="#E9E9E9" fill="none" d="M131.941 354V10m289.822 344V10M73.977 315.771h405.751M73.977 255.317h405.751M73.977 194.863h405.751M73.977 134.409h405.751M73.977 73.955h405.751"/>
+    <g transform="translate(73.977 10)" clip-path="url(#cL7mH7I)">
+      <defs>
+        <clipPath id="cL7mH7I">
+          <path d="M0 0h405.751v344H0z"/>
+        </clipPath>
+      </defs>
+      <path d="m57.964 328.364 289.822-4.01" fill="none" stroke-width="2.2" stroke="#E41A1C"/>
+      <path d="m57.964 242.927 289.822-16.231" fill="none" stroke-width="2.2" stroke="#377EB8"/>
+      <path d="m57.964 209.181 289.822 36.041" fill="none" stroke-width="2.2" stroke="#4DAF4A"/>
+      <path d="m57.964 195.108 289.822-39.354" fill="none" stroke-width="2.2" stroke="#984EA3"/>
+      <path d="m57.964 54.945 289.822-39.309" fill="none" stroke-width="2.2" stroke="#FF7F00"/>
+    </g>
+    <g transform="translate(73.977 10)" clip-path="url(#cQdgVZ4)">
+      <defs>
+        <clipPath id="cQdgVZ4">
+          <path d="M0 0h405.751v344H0z"/>
+        </clipPath>
+      </defs>
+      <circle fill="#e41a1c" stroke="#e41a1c" stroke-opacity="0" stroke-width="0" cx="57.964" cy="328.364" r="4.4"/>
+      <circle fill="#377eb8" stroke="#377eb8" stroke-opacity="0" stroke-width="0" cx="57.964" cy="242.927" r="4.4"/>
+      <circle fill="#4daf4a" stroke="#4daf4a" stroke-opacity="0" stroke-width="0" cx="57.964" cy="209.181" r="4.4"/>
+      <circle fill="#984ea3" stroke="#984ea3" stroke-opacity="0" stroke-width="0" cx="57.964" cy="195.108" r="4.4"/>
+      <circle fill="#ff7f00" stroke="#ff7f00" stroke-opacity="0" stroke-width="0" cx="57.964" cy="54.945" r="4.4"/>
+      <circle fill="#e41a1c" stroke="#e41a1c" stroke-opacity="0" stroke-width="0" cx="347.786" cy="324.354" r="4.4"/>
+      <circle fill="#377eb8" stroke="#377eb8" stroke-opacity="0" stroke-width="0" cx="347.786" cy="226.696" r="4.4"/>
+      <circle fill="#4daf4a" stroke="#4daf4a" stroke-opacity="0" stroke-width="0" cx="347.786" cy="245.222" r="4.4"/>
+      <circle fill="#984ea3" stroke="#984ea3" stroke-opacity="0" stroke-width="0" cx="347.786" cy="155.754" r="4.4"/>
+      <circle fill="#ff7f00" stroke="#ff7f00" stroke-opacity="0" stroke-width="0" cx="347.786" cy="15.636" r="4.4"/>
+    </g>
+    <path stroke="#474747" d="M131.941 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(131.941 361)"><tspan>1952</tspan></text>
+    <path stroke="#474747" d="M421.763 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(421.763 361)"><tspan>1957</tspan></text>
+    <path stroke="#474747" d="M73.977 354h405.751"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 315.771)"><tspan>2,000</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 255.317)"><tspan>4,000</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 194.863)"><tspan>6,000</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 134.409)"><tspan>8,000</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 73.955)"><tspan>10,000</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(70.977 13.5)"><tspan>12,000</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 98.25 83.75)"><tspan>GDP per capita</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(276.852 391.5)"><tspan>Year</tspan></text>
+    <path stroke="#474747" stroke-width="0" fill="#FFF" d="M494.727 108.25H595v147.5H494.727z"/>
+    <text style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(499.727 123.75)"><tspan>Continent</tspan></text>
+    <g transform="translate(499.727 135.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <path stroke="#E41A1C" fill="#FFF" stroke-width="1.65" d="M1 11.5h21"/>
+      <circle fill="#e41a1c" stroke="#e41a1c" stroke-opacity="0" stroke-width="0" cx="10.5" cy="10.5" r="5.5" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(526.717 151.8)"><tspan>Africa</tspan></text>
+    <g transform="translate(499.727 158.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <path stroke="#377EB8" fill="#FFF" stroke-width="1.65" d="M1 11.5h21"/>
+      <circle fill="#377eb8" stroke="#377eb8" stroke-opacity="0" stroke-width="0" cx="10.5" cy="10.5" r="5.5" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(526.717 174.8)"><tspan>Americas</tspan></text>
+    <g transform="translate(499.727 181.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <path stroke="#4DAF4A" fill="#FFF" stroke-width="1.65" d="M1 11.5h21"/>
+      <circle fill="#4daf4a" stroke="#4daf4a" stroke-opacity="0" stroke-width="0" cx="10.5" cy="10.5" r="5.5" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(526.717 197.8)"><tspan>Asia</tspan></text>
+    <g transform="translate(499.727 204.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <path stroke="#984EA3" fill="#FFF" stroke-width="1.65" d="M1 11.5h21"/>
+      <circle fill="#984ea3" stroke="#984ea3" stroke-opacity="0" stroke-width="0" cx="10.5" cy="10.5" r="5.5" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(526.717 220.8)"><tspan>Europe</tspan></text>
+    <g transform="translate(499.727 227.75)">
+      <path stroke-width="0" fill="#FFF" d="M0 0h23v23H0z"/>
+      <path stroke="#FF7F00" fill="#FFF" stroke-width="1.65" d="M1 11.5h21"/>
+      <circle fill="#ff7f00" stroke="#ff7f00" stroke-opacity="0" stroke-width="0" cx="10.5" cy="10.5" r="5.5" transform="translate(1 1)"/>
+      <path stroke="#FFF" fill-opacity="0" d="M0 0h23v23H0z"/>
+    </g>
+    <text class="legend-item" transform="translate(526.717 243.8)"><tspan>Oceania</tspan></text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v400h600V0Z"/>
+  </g>
+  <g id="daNxf59">
+    <g/>
+    <g/>
+  </g>
+</svg>

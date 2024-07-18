@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;overflow:hidden">
+  <defs>
+    <clipPath clip-rule="evenodd" id="a">
+      <path d="M57.5 51.5h779v321h-779Z" stroke="#000" fill="none"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h847v400H0Z" fill="#FFF"/>
+  <path d="M57 51h778.565v321H57Z" fill="none"/>
+  <path d="M135.5 51.5v321m78-321v321m78-321v321m77-321v321m78-321v321m78-321v321m78-321v321m78-321v321m78-321v321m78-321v321m-779-36h779m-779-35h779m-779-36h779m-779-36h779m-779-35h779m-779-36h779m-779-36h779m-779-35h779m-779-36h779m-779 321h779m-779 0v4m78-4v4m78-4v4m78-4v4m77-4v4m78-4v4m78-4v4m78-4v4m78-4v4m78-4v4m78-4v4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <g clip-path="url(#a)">
+    <path d="M70.5 194.5h52v178h-52Z" stroke="#060" fill="green" class="k-chart-point" aria-label="$50,000" aria-roledescription="Point"/>
+    <path d="M148.5 133.5h52v61h-52Z" stroke="#060" fill="green" class="k-chart-point" aria-label="$17,000" aria-roledescription="Point"/>
+    <path d="M226.5 83.5h52v50h-52Z" stroke="#060" fill="green" class="k-chart-point" aria-label="$14,000" aria-roledescription="Point"/>
+    <path d="M304.5 83.5h52v43h-52Z" stroke="#c00" fill="red" class="k-chart-point" aria-label="-$12,000" aria-roledescription="Point"/>
+    <path d="M381.5 126.5h52v246h-52Z" stroke="#666" fill="gray" class="k-chart-point" aria-label="$69,000" aria-roledescription="Point"/>
+    <path d="M459.5 126.5h52v78h-52Z" stroke="#c00" fill="red" class="k-chart-point" aria-label="-$22,000" aria-roledescription="Point"/>
+    <path d="M537.5 204.5h52v65h-52Z" stroke="#c00" fill="red" class="k-chart-point" aria-label="-$18,000" aria-roledescription="Point"/>
+    <path d="M615.5 233.5h52v36h-52Z" stroke="#060" fill="green" class="k-chart-point" aria-label="$10,000" aria-roledescription="Point"/>
+    <path d="M693.5 126.5h52v107h-52Z" stroke="#666" fill="gray" class="k-chart-point" aria-label="-$30,000" aria-roledescription="Point"/>
+    <path d="M771.5 233.5h52v139h-52Z" stroke="#444" fill="#555" class="k-chart-point" aria-label="$39,000" aria-roledescription="Point"/>
+    <path d="M70.5 194.5h130m-52-61h130m-52-50h129m-51 43h129m-52 0h130m-52 78h130m-52 65h130m-52-36h130m-52 0h130" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  </g>
+  <text x="42.428" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Beginning\nBalance</text>
+  <text x="164.285" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jan</text>
+  <text x="241.142" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Feb</text>
+  <text x="318.998" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Mar</text>
+  <text x="399.355" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Q1</text>
+  <text x="475.711" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Apr</text>
+  <text x="551.567" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">May</text>
+  <text x="631.424" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Jun</text>
+  <text x="710.78" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Q2</text>
+  <text x="751.137" y="392" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">Ending\nBalance</text>
+  <path d="M57.5 51.5v321m-4 0h4m-4-36h4m-4-35h4m-4-36h4m-4-36h4m-4-35h4m-4-36h4m-4-36h4m-4-35h4m-4-36h4" stroke="color(srgb 0.258824 0.258824 0.258824 / 0.08)" fill="none"/>
+  <text x="35" y="376" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$0</text>
+  <text x="5" y="340.333" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$10,000</text>
+  <text x="5" y="304.667" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$20,000</text>
+  <text x="5" y="269" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$30,000</text>
+  <text x="5" y="233.333" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$40,000</text>
+  <text x="5" y="197.667" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$50,000</text>
+  <text x="5" y="162" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$60,000</text>
+  <text x="5" y="126.333" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$70,000</text>
+  <text x="5" y="90.667" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$80,000</text>
+  <text x="5" y="55" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$90,000</text>
+  <path d="M69.976 197.667h51.904v22H69.976Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="74.428" y="212.667" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$50,000</text>
+  <path d="M147.833 137.033h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="152.285" y="152.033" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$17,000</text>
+  <path d="M225.689 87.1h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="230.141" y="102.1" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$14,000</text>
+  <path d="M303.546 99.9h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="305.998" y="114.9" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">-$12,000</text>
+  <path d="M381.402 129.9h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="385.854" y="144.9" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$69,000</text>
+  <path d="M459.259 178.367h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="461.711" y="193.367" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">-$22,000</text>
+  <path d="M537.115 242.567h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="539.567" y="257.567" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">-$18,000</text>
+  <path d="M614.972 236.9h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="619.424" y="251.9" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$10,000</text>
+  <path d="M692.828 206.9h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="695.28" y="221.9" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">-$30,000</text>
+  <path d="M770.685 236.9h51.904v22h-51.904Z" fill="#FFF" fill-opacity=".6"/>
+  <text x="775.137" y="251.9" fill="#424242" style="font:400 11.998px sans-serif;white-space:pre">$39,000</text>
+  <text x="388.5" y="30" fill="#424242" style="font:400 16.002px sans-serif;white-space:pre">Cash flow</text>
+  <g/>
+</svg>

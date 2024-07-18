@@ -1,0 +1,64 @@
+<svg shape-rendering="geometricPrecision" width="600" height="400" style="font-family:Lucida Grande,sans-serif;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;cursor:crosshair">
+  <style>
+    text{text-rendering:optimizeLegibility}#pLf0kYz .axis-text-x,#pLf0kYz .axis-text-y,#pLf0kYz .legend-item{fill:#474747;font-family:Lucida Grande,sans-serif;font-size:13px;font-weight:400;font-style:normal}
+  </style>
+  <g id="pLf0kYz">
+    <path fill-rule="evenodd" fill="#FFF" d="M0 0v400h600V0Z"/>
+    <path stroke="#E9E9E9" fill="none" d="M84.366 354V10m69.83 344V10m69.831 344V10m69.83 344V10m69.831 344V10M52.942 305.962H437.01M52.942 257.924H437.01M52.942 209.886H437.01M52.942 161.848H437.01M52.942 113.81H437.01M52.942 65.772H437.01M52.942 17.734H437.01"/>
+    <g transform="translate(52.942 10)" clip-path="url(#c1gNI0f)">
+      <defs>
+        <clipPath id="c1gNI0f">
+          <path d="M0 0h384.068v344H0z"/>
+        </clipPath>
+      </defs>
+      <path d="m226.949 305.57 13.966-21.137 13.966 19.215 13.966-21.137 13.966-44.195 13.966-17.293 13.967-55.724L324.712 16.38l13.966 90.311 13.966-21.136v6.725l-13.966 16.333-13.966-89.35-13.966 154.682-13.967 49.959-13.966 30.744-13.966 28.823-13.966 24.02-13.966-22.098-13.966 23.058Z" fill="#4DAF4A" fill-opacity=".502"/>
+      <path d="m226.949 305.57 13.966-21.137 13.966 19.215 13.966-21.137 13.966-44.195 13.966-17.293 13.967-55.724L324.712 16.38l13.966 90.311 13.966-21.136" fill="none" stroke-width="1.65" stroke="#4DAF4A"/>
+      <path d="m199.017 299.805 27.932 8.647 27.932-.96 13.966-24.02 13.966-28.823 13.966-30.744 13.967-49.96 13.966-154.682 13.966 89.35 13.966-16.332 13.966 142.192v89.351l-13.966-42.273-13.966-4.804-13.966-101.84-13.966 80.703-13.967-12.49-13.966 27.862-13.966 27.862-13.966 13.45-27.932.962-27.932-12.49Z" fill="#377EB8" fill-opacity=".502"/>
+      <path d="m199.017 299.805 27.932 8.647 27.932-.96 13.966-24.02 13.966-28.823 13.966-30.744 13.967-49.96 13.966-154.682 13.966 89.35 13.966-16.332 13.966 142.192" fill="none" stroke-width="1.65" stroke="#377EB8"/>
+      <path d="M17.458 343.04h83.796l13.966-13.451 13.966 13.45 13.966-9.607 13.967-12.49 13.966-2.883 13.966 11.53 13.966-28.823 13.966 10.568 13.966 1.922 13.966-27.862 13.966 26.9 13.966-13.45 13.966-27.862 13.966-27.862 13.967 12.49 13.966-80.704 13.966 101.84 13.966 4.805 13.966 42.273V344H17.458Z" fill="#E41A1C" fill-opacity=".502"/>
+      <path d="M17.458 343.04h83.796l13.966-13.451 13.966 13.45 13.966-9.607 13.967-12.49 13.966-2.883 13.966 11.53 13.966-28.823 13.966 10.568 13.966 1.922 13.966-27.862 13.966 26.9 13.966-13.45 13.966-27.862 13.966-27.862 13.967 12.49 13.966-80.704 13.966 101.84 13.966 4.805 13.966 42.273" fill="none" stroke-width="1.65" stroke="#E41A1C"/>
+    </g>
+    <path stroke="#474747" d="M84.366 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(84.366 361)"><tspan>1990</tspan></text>
+    <path stroke="#474747" d="M154.196 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(154.196 361)"><tspan>1995</tspan></text>
+    <path stroke="#474747" d="M224.027 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(224.027 361)"><tspan>2000</tspan></text>
+    <path stroke="#474747" d="M293.857 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(293.857 361)"><tspan>2005</tspan></text>
+    <path stroke="#474747" d="M363.688 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(363.688 361)"><tspan>2010</tspan></text>
+    <path stroke="#474747" d="M433.518 354v4"/>
+    <text class="axis-text-x" text-anchor="middle" dy=".7em" transform="translate(433.518 361)"><tspan>2015</tspan></text>
+    <path stroke="#474747" d="M52.942 354H437.01"/>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 354)"><tspan>0</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 305.962)"><tspan>50</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 257.924)"><tspan>100</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 209.886)"><tspan>150</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 161.848)"><tspan>200</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 113.81)"><tspan>250</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 65.772)"><tspan>300</tspan></text>
+    <text class="axis-text-y" text-anchor="end" dy=".35em" transform="translate(49.942 17.734)"><tspan>350</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="rotate(-90 98.25 83.75)"><tspan>number</tspan></text>
+    <text text-anchor="middle" style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(244.976 391.5)"><tspan>year</tspan></text>
+    <path stroke="#474747" stroke-width="0" fill="#FFF" d="M452.01 131.25h142.991v101.5H452.01z"/>
+    <text style="fill:#474747;font-family:Lucida Grande,sans-serif;font-size:15px;font-weight:400;font-style:normal" transform="translate(457.01 146.75)"><tspan>method</tspan></text>
+    <path stroke-width="0" fill="#FFF" d="M457.01 158.75h23v23h-23z"/>
+    <path stroke="#E41A1C" fill="#E41A1C" stroke-width="1.5" d="M458.01 159.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M457.01 158.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(484 174.8)"><tspan>Radial Velocity</tspan></text>
+    <path stroke-width="0" fill="#FFF" d="M457.01 181.75h23v23h-23z"/>
+    <path stroke="#377EB8" fill="#377EB8" stroke-width="1.5" d="M458.01 182.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M457.01 181.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(484 197.8)"><tspan>Transit</tspan></text>
+    <path stroke-width="0" fill="#FFF" d="M457.01 204.75h23v23h-23z"/>
+    <path stroke="#4DAF4A" fill="#4DAF4A" stroke-width="1.5" d="M458.01 205.75h21v21h-21z"/>
+    <path stroke="#FFF" fill-opacity="0" d="M457.01 204.75h23v23h-23z"/>
+    <text class="legend-item" transform="translate(484 220.8)"><tspan>Imaging</tspan></text>
+    <path fill-opacity="0" stroke="#474747" stroke-width="0" d="M0 0v400h600V0Z"/>
+  </g>
+  <g id="dydP5m8">
+    <g/>
+    <g/>
+  </g>
+</svg>
