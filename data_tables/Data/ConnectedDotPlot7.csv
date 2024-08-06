@@ -1,0 +1,17 @@
+location,period,percent
+World,before_covid,0.26
+World,first_months,0.59
+High-income countries,before_covid,0.28
+High-income countries,first_months,0.8
+Upper-middle-income countries,before_covid,0.26
+Upper-middle-income countries,first_months,0.47
+Lower-middle and low-income countries,before_covid,0.18
+Lower-middle and low-income countries,first_months,0.74
+Africa,before_covid,0.21
+Africa,first_months,0.83
+Americas,before_covid,0.27
+Americas,first_months,0.84
+Asia and the Pacific,before_covid,0.22
+Asia and the Pacific,first_months,0.36
+Europe and Central Asia,before_covid,0.34
+Europe and Central Asia,first_months,0.8

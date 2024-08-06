@@ -1,0 +1,47 @@
+speaker,ruling,proportion
+Donald Trump,Pants on fire!,-0.15503876
+Donald Trump,Half true,0.11627907
+Donald Trump,Mostly false,-0.209302326
+Donald Trump,FALSE,-0.426356589
+Donald Trump,Mostly true,0.054263566
+Donald Trump,TRUE,0.03875969
+Bernie Sanders,Mostly true,0.325
+Bernie Sanders,Half true,0.375
+Bernie Sanders,Mostly false,-0.1
+Bernie Sanders,TRUE,0.125
+Bernie Sanders,FALSE,-0.075
+Joe Biden,Mostly true,0.25
+Joe Biden,TRUE,0.111111111
+Joe Biden,Pants on fire!,-0.027777778
+Joe Biden,Mostly false,-0.333333333
+Joe Biden,FALSE,-0.138888889
+Joe Biden,Half true,0.138888889
+Elizabeth Warren,FALSE,-0.074074074
+Elizabeth Warren,Mostly false,-0.148148148
+Elizabeth Warren,Mostly true,0.259259259
+Elizabeth Warren,TRUE,0.259259259
+Elizabeth Warren,Half true,0.259259259
+Kamala Harris,Mostly false,-0.25
+Kamala Harris,FALSE,-0.3125
+Kamala Harris,Mostly true,0.3125
+Kamala Harris,Half true,0.125
+Pete Buttigieg,Mostly false,-0.333333333
+Pete Buttigieg,Half true,0.266666667
+Pete Buttigieg,TRUE,0.2
+Pete Buttigieg,FALSE,-0.066666667
+Pete Buttigieg,Mostly true,0.133333333
+Amy Klobuchar,Mostly false,-0.076923077
+Amy Klobuchar,TRUE,0.307692308
+Amy Klobuchar,Half true,0.230769231
+Amy Klobuchar,Mostly true,0.307692308
+Amy Klobuchar,FALSE,-0.076923077
+Beto O'Rourke,FALSE,-0.076923077
+Beto O'Rourke,TRUE,0.230769231
+Beto O'Rourke,Mostly false,-0.230769231
+Beto O'Rourke,Mostly true,0.307692308
+Beto O'Rourke,Half true,0.153846154
+Michael Bloomberg,Half true,0.25
+Michael Bloomberg,TRUE,0.25
+Michael Bloomberg,Mostly true,0.333333333
+Michael Bloomberg,Mostly false,-0.083333333
+Michael Bloomberg,FALSE,-0.083333333

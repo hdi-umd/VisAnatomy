@@ -1,0 +1,21 @@
+{
+    "color": [
+      {
+        "minvalue": "0",
+        "maxvalue": "50",
+        "code": "#F2726F"
+      },
+      {
+        "minvalue": "50",
+        "maxvalue": "75",
+        "code": "#FFC533"
+      },
+      {
+        "minvalue": "75",
+        "maxvalue": "100",
+        "code": "#62B58F"
+      }
+    ],
+  "value": "90",
+  "target": "95"
+ }

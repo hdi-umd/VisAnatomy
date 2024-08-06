@@ -1,0 +1,21 @@
+{
+    "color": [
+      {
+        "minvalue": "0",
+        "maxvalue": "200",
+	"range": "bad"
+      },
+      {
+        "minvalue": "200",
+        "maxvalue": "250",
+	"range": "satisfactory"
+      },
+      {
+        "minvalue": "250",
+        "maxvalue": "300",
+        "range": "good"
+      }
+    ],
+  "value": "275",
+  "target": "265"
+ }

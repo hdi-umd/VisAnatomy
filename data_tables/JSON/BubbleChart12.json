@@ -1,0 +1,1456 @@
+[
+  {
+    "country":"Afghanistan",
+    "population":38928341,
+    "incomePerCapita":475.6203623,
+    "fertilityRate":4.176,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Albania",
+    "population":2837849,
+    "incomePerCapita":4208.456611,
+    "fertilityRate":1.58,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Algeria",
+    "population":43851043,
+    "incomePerCapita":2735.094455,
+    "fertilityRate":2.942,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"American Samoa",
+    "population":55197,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Andorra",
+    "population":77265,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Angola",
+    "population":32866268,
+    "incomePerCapita":1122.792517,
+    "fertilityRate":5.371,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Antigua and Barbuda",
+    "population":97928,
+    "fertilityRate":1.978,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Argentina",
+    "population":45376763,
+    "incomePerCapita":7211.955933,
+    "fertilityRate":2.233,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Armenia",
+    "population":2963234,
+    "incomePerCapita":3608.499121,
+    "fertilityRate":1.76,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Aruba",
+    "population":106766,
+    "fertilityRate":1.901,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Australia",
+    "population":25693267,
+    "incomePerCapita":40141.15748,
+    "fertilityRate":1.581,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Austria",
+    "population":8916864,
+    "incomePerCapita":38848.20149,
+    "fertilityRate":1.44,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Azerbaijan",
+    "population":10093121,
+    "incomePerCapita":3489.805088,
+    "fertilityRate":1.7,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Bahamas, The",
+    "population":393248,
+    "incomePerCapita":22404.77685,
+    "fertilityRate":1.733,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Bahrain",
+    "population":1701583,
+    "incomePerCapita":15423.92373,
+    "fertilityRate":1.942,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Bangladesh",
+    "population":164689383,
+    "incomePerCapita":2032.593996,
+    "fertilityRate":1.987,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Barbados",
+    "population":287371,
+    "incomePerCapita":13003.36627,
+    "fertilityRate":1.628,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Belarus",
+    "population":9379952,
+    "incomePerCapita":5148.322913,
+    "fertilityRate":1.382,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Belgium",
+    "population":11544241,
+    "incomePerCapita":36490.73779,
+    "fertilityRate":1.55,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Belize",
+    "population":397621,
+    "incomePerCapita":3219.721218,
+    "fertilityRate":2.246,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Benin",
+    "population":12123198,
+    "incomePerCapita":1133.399847,
+    "fertilityRate":4.7,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Bermuda",
+    "population":63893,
+    "fertilityRate":1.3,
+    "area":"North America"
+  },
+  {
+    "country":"Bhutan",
+    "population":771612,
+    "incomePerCapita":2482.574598,
+    "fertilityRate":1.931,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Bolivia",
+    "population":11673029,
+    "incomePerCapita":2676.576656,
+    "fertilityRate":2.651,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Bosnia and Herzegovina",
+    "population":3280815,
+    "incomePerCapita":5059.276725,
+    "fertilityRate":1.243,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Botswana",
+    "population":2351625,
+    "incomePerCapita":5015.650535,
+    "fertilityRate":2.796,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Brazil",
+    "population":212559409,
+    "incomePerCapita":5801.144834,
+    "fertilityRate":1.706,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"British Virgin Islands",
+    "population":30237,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Brunei Darussalam",
+    "population":437483,
+    "incomePerCapita":22332.3775,
+    "fertilityRate":1.796,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Bulgaria",
+    "population":6934015,
+    "incomePerCapita":8440.099649,
+    "fertilityRate":1.56,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Burkina Faso",
+    "population":20903278,
+    "incomePerCapita":701.5005132,
+    "fertilityRate":5.029,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Burundi",
+    "population":11890781,
+    "incomePerCapita":173.5682741,
+    "fertilityRate":5.237,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Cabo Verde",
+    "population":555988,
+    "incomePerCapita":2587.934983,
+    "fertilityRate":2.213,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Cambodia",
+    "population":16718971,
+    "incomePerCapita":1319.769443,
+    "fertilityRate":2.453,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Cameroon",
+    "population":26545864,
+    "incomePerCapita":1269.223056,
+    "fertilityRate":4.443,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Canada",
+    "population":38037204,
+    "incomePerCapita":35025.2728,
+    "fertilityRate":1.4,
+    "area":"North America"
+  },
+  {
+    "country":"Cayman Islands",
+    "population":65720,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Central African Republic",
+    "population":4829764,
+    "incomePerCapita":400.9033156,
+    "fertilityRate":4.568,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Chad",
+    "population":16425859,
+    "incomePerCapita":457.0569641,
+    "fertilityRate":5.553,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Channel Islands",
+    "population":173859,
+    "fertilityRate":1.512,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Chile",
+    "population":19116209,
+    "incomePerCapita":10351.71475,
+    "fertilityRate":1.611,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"China",
+    "population":1411100000,
+    "incomePerCapita":7572.281831,
+    "fertilityRate":1.7,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Colombia",
+    "population":50882884,
+    "incomePerCapita":4469.15592,
+    "fertilityRate":1.771,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Comoros",
+    "population":869595,
+    "incomePerCapita":1275.733083,
+    "fertilityRate":4.073,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Congo, Dem. Rep.",
+    "population":89561404,
+    "incomePerCapita":432.0262494,
+    "fertilityRate":5.718,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Congo, Rep.",
+    "population":5518092,
+    "incomePerCapita":711.9865792,
+    "fertilityRate":4.321,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Costa Rica",
+    "population":5094114,
+    "incomePerCapita":10700.43143,
+    "fertilityRate":1.721,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Cote d'Ivoire",
+    "population":26378275,
+    "incomePerCapita":2170.850674,
+    "fertilityRate":4.536,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Croatia",
+    "population":4047680,
+    "incomePerCapita":12132.9221,
+    "fertilityRate":1.48,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Cuba",
+    "population":11326616,
+    "fertilityRate":1.59,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Curacao",
+    "population":154947,
+    "fertilityRate":1.6,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Cyprus",
+    "population":1207361,
+    "incomePerCapita":22557.1543,
+    "fertilityRate":1.313,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Czechia",
+    "population":10697858,
+    "incomePerCapita":17172.9272,
+    "fertilityRate":1.71,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Denmark",
+    "population":5831404,
+    "incomePerCapita":52666.34897,
+    "fertilityRate":1.67,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Djibouti",
+    "population":988002,
+    "incomePerCapita":2957.257815,
+    "fertilityRate":2.627,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Dominica",
+    "population":71991,
+    "incomePerCapita":6112.484145,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Dominican Republic",
+    "population":10847904,
+    "incomePerCapita":6398.807397,
+    "fertilityRate":2.299,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Ecuador",
+    "population":17643060,
+    "incomePerCapita":4184.174237,
+    "fertilityRate":2.38,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Egypt, Arab Rep.",
+    "population":102334403,
+    "incomePerCapita":3173.682227,
+    "fertilityRate":3.236,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"El Salvador",
+    "population":6486201,
+    "incomePerCapita":3034.921785,
+    "fertilityRate":2.002,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Equatorial Guinea",
+    "population":1402985,
+    "incomePerCapita":3185.02221,
+    "fertilityRate":4.346,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Eritrea",
+    "fertilityRate":3.933,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Estonia",
+    "population":1329479,
+    "incomePerCapita":19404.06841,
+    "fertilityRate":1.58,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Eswatini",
+    "population":1160164,
+    "incomePerCapita":2530.518134,
+    "fertilityRate":2.919,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Ethiopia",
+    "population":114963583,
+    "incomePerCapita":807.7146169,
+    "fertilityRate":4.049,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Faroe Islands",
+    "population":48865,
+    "fertilityRate":2.3,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Fiji",
+    "population":896444,
+    "incomePerCapita":4053.887124,
+    "fertilityRate":2.729,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Finland",
+    "population":5529543,
+    "incomePerCapita":39966.40683,
+    "fertilityRate":1.37,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"France",
+    "population":67379908,
+    "incomePerCapita":31771.78597,
+    "fertilityRate":1.83,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"French Polynesia",
+    "population":280904,
+    "fertilityRate":1.913,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Gabon",
+    "population":2225728,
+    "incomePerCapita":4337.423844,
+    "fertilityRate":3.869,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Gambia, The",
+    "population":2416664,
+    "incomePerCapita":596.5364418,
+    "fertilityRate":5.087,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Georgia",
+    "population":3722716,
+    "incomePerCapita":3416.983685,
+    "fertilityRate":2.046,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Germany",
+    "population":83160871,
+    "incomePerCapita":38425.66614,
+    "fertilityRate":1.53,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Ghana",
+    "population":31072945,
+    "incomePerCapita":1876.584221,
+    "fertilityRate":3.765,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Gibraltar",
+    "population":33691,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Greece",
+    "population":10700556,
+    "incomePerCapita":14751.70973,
+    "fertilityRate":1.34,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Greenland",
+    "population":56367,
+    "fertilityRate":2.019,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Grenada",
+    "population":112519,
+    "fertilityRate":2.023,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Guam",
+    "population":168783,
+    "fertilityRate":2.275,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Guatemala",
+    "population":16858333,
+    "incomePerCapita":3953.162317,
+    "fertilityRate":2.777,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Guinea",
+    "population":13132792,
+    "incomePerCapita":920.0344564,
+    "fertilityRate":4.552,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Guinea-Bissau",
+    "population":1967998,
+    "incomePerCapita":628.984664,
+    "fertilityRate":4.331,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Guyana",
+    "population":786559,
+    "incomePerCapita":4514.232084,
+    "fertilityRate":2.418,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Haiti",
+    "population":11402533,
+    "incomePerCapita":1194.944351,
+    "fertilityRate":2.842,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Honduras",
+    "population":9904608,
+    "incomePerCapita":2130.720141,
+    "fertilityRate":2.394,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Hong Kong SAR, China",
+    "population":7481000,
+    "fertilityRate":0.868,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Hungary",
+    "population":9750149,
+    "incomePerCapita":12755.79958,
+    "fertilityRate":1.56,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Iceland",
+    "population":366463,
+    "incomePerCapita":48047.37832,
+    "fertilityRate":1.72,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"India",
+    "population":1380004385,
+    "incomePerCapita":1682.68367,
+    "fertilityRate":2.184,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Indonesia",
+    "population":273523621,
+    "incomePerCapita":3091.998317,
+    "fertilityRate":2.266,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Iran, Islamic Rep.",
+    "population":83992953,
+    "incomePerCapita":1830.079257,
+    "fertilityRate":2.142,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Iraq",
+    "population":40222503,
+    "incomePerCapita":3222.351366,
+    "fertilityRate":3.537,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Ireland",
+    "population":4985674,
+    "incomePerCapita":41464.38941,
+    "fertilityRate":1.63,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Isle of Man",
+    "population":85032,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Israel",
+    "population":9215100,
+    "incomePerCapita":37545.23875,
+    "fertilityRate":2.9,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Italy",
+    "population":59449527,
+    "incomePerCapita":25981.68567,
+    "fertilityRate":1.24,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Jamaica",
+    "population":2961161,
+    "incomePerCapita":4194.961947,
+    "fertilityRate":1.95,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Japan",
+    "population":126261000,
+    "incomePerCapita":31210.21432,
+    "fertilityRate":1.34,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Jordan",
+    "population":10203140,
+    "incomePerCapita":4063.743736,
+    "fertilityRate":2.639,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Kazakhstan",
+    "population":18755666,
+    "incomePerCapita":6705.432527,
+    "fertilityRate":3.13,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Kenya",
+    "population":53771300,
+    "incomePerCapita":1541.388902,
+    "fertilityRate":3.365,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Kiribati",
+    "population":119446,
+    "incomePerCapita":2797.628382,
+    "fertilityRate":3.493,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Korea, Dem. People's Rep.",
+    "population":25778815,
+    "fertilityRate":1.887,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Korea, Rep.",
+    "population":51836239,
+    "incomePerCapita":25281.88674,
+    "fertilityRate":0.837,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Kosovo",
+    "population":1790133,
+    "fertilityRate":1.95,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Kuwait",
+    "population":4270563,
+    "fertilityRate":2.068,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Kyrgyz Republic",
+    "population":6579900,
+    "incomePerCapita":872.8168873,
+    "fertilityRate":3,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Lao PDR",
+    "population":7275556,
+    "incomePerCapita":1973.062223,
+    "fertilityRate":2.583,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Latvia",
+    "population":1900449,
+    "incomePerCapita":13734.54262,
+    "fertilityRate":1.55,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Lebanon",
+    "population":6825442,
+    "incomePerCapita":3586.598928,
+    "fertilityRate":2.06,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Lesotho",
+    "population":2142252,
+    "incomePerCapita":807.3743756,
+    "fertilityRate":3.07,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Liberia",
+    "population":5057677,
+    "incomePerCapita":318.4904599,
+    "fertilityRate":4.183,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Libya",
+    "population":6871287,
+    "incomePerCapita":3524.473906,
+    "fertilityRate":2.175,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Liechtenstein",
+    "population":38137,
+    "fertilityRate":1.46,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Lithuania",
+    "population":2794885,
+    "incomePerCapita":17026.26452,
+    "fertilityRate":1.48,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Luxembourg",
+    "population":630419,
+    "incomePerCapita":67966.54648,
+    "fertilityRate":1.37,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Macao SAR, China",
+    "population":649342,
+    "fertilityRate":1.244,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Madagascar",
+    "population":27691019,
+    "incomePerCapita":389.1817944,
+    "fertilityRate":3.976,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Malawi",
+    "population":19129955,
+    "incomePerCapita":561.4055937,
+    "fertilityRate":4.055,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Malaysia",
+    "population":32365998,
+    "incomePerCapita":7464.718149,
+    "fertilityRate":1.965,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Maldives",
+    "population":540542,
+    "incomePerCapita":5700.810512,
+    "fertilityRate":1.815,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Mali",
+    "population":20250834,
+    "incomePerCapita":718.8032415,
+    "fertilityRate":5.693,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Malta",
+    "population":515332,
+    "fertilityRate":1.13,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Marshall Islands",
+    "population":59194,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Mauritania",
+    "population":4649660,
+    "incomePerCapita":1517.223104,
+    "fertilityRate":4.449,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Mauritius",
+    "population":1265740,
+    "incomePerCapita":8333.510002,
+    "fertilityRate":1.44,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Mexico",
+    "population":128932753,
+    "incomePerCapita":6302.124081,
+    "fertilityRate":2.079,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Micronesia, Fed. Sts.",
+    "population":115021,
+    "incomePerCapita":3689.816676,
+    "fertilityRate":2.968,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Moldova",
+    "population":2620495,
+    "incomePerCapita":4110.006777,
+    "fertilityRate":1.278,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Monaco",
+    "population":39244,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Mongolia",
+    "population":3278292,
+    "incomePerCapita":3032.152474,
+    "fertilityRate":2.834,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Montenegro",
+    "population":621306,
+    "incomePerCapita":6966.316982,
+    "fertilityRate":1.75,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Morocco",
+    "population":36910558,
+    "incomePerCapita":2668.451416,
+    "fertilityRate":2.353,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Mozambique",
+    "population":31255435,
+    "incomePerCapita":330.0556379,
+    "fertilityRate":4.713,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Myanmar",
+    "population":54409794,
+    "incomePerCapita":1301.500422,
+    "fertilityRate":2.121,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Namibia",
+    "population":2540916,
+    "incomePerCapita":3548.882881,
+    "fertilityRate":3.293,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Nauru",
+    "population":10834,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Nepal",
+    "population":29136808,
+    "incomePerCapita":1085.531748,
+    "fertilityRate":1.845,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Netherlands",
+    "population":17441500,
+    "incomePerCapita":42296.02243,
+    "fertilityRate":1.55,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"New Caledonia",
+    "population":271960,
+    "fertilityRate":1.923,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"New Zealand",
+    "population":5090200,
+    "incomePerCapita":33723.57193,
+    "fertilityRate":1.61,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Nicaragua",
+    "population":6624554,
+    "incomePerCapita":1667.641261,
+    "fertilityRate":2.349,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Niger",
+    "population":24206636,
+    "incomePerCapita":520.699307,
+    "fertilityRate":6.735,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Nigeria",
+    "population":206139587,
+    "incomePerCapita":1730.279218,
+    "fertilityRate":5.248,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"North Macedonia",
+    "population":2072531,
+    "incomePerCapita":4853.917729,
+    "fertilityRate":1.3,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Northern Mariana Islands",
+    "population":57557,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Norway",
+    "population":5379475,
+    "incomePerCapita":53514.24749,
+    "fertilityRate":1.48,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Oman",
+    "population":5106622,
+    "fertilityRate":2.783,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Pakistan",
+    "population":220892331,
+    "incomePerCapita":1100.042658,
+    "fertilityRate":3.394,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Palau",
+    "population":18092,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Panama",
+    "population":4314768,
+    "incomePerCapita":10878.63012,
+    "fertilityRate":2.415,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Papua New Guinea",
+    "population":8947027,
+    "incomePerCapita":2290.622142,
+    "fertilityRate":3.477,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Paraguay",
+    "population":7132530,
+    "incomePerCapita":4446.469864,
+    "fertilityRate":2.383,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Peru",
+    "population":32971846,
+    "incomePerCapita":5299.881469,
+    "fertilityRate":2.212,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Philippines",
+    "population":109581085,
+    "incomePerCapita":3202.050931,
+    "fertilityRate":2.49,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Poland",
+    "population":37899070,
+    "incomePerCapita":13314.93332,
+    "fertilityRate":1.38,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Portugal",
+    "population":10297081,
+    "incomePerCapita":17468.25136,
+    "fertilityRate":1.4,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Puerto Rico",
+    "population":3281538,
+    "fertilityRate":0.9,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Qatar",
+    "population":2881060,
+    "incomePerCapita":37829.1279,
+    "fertilityRate":1.827,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Romania",
+    "population":19257520,
+    "incomePerCapita":10734.51672,
+    "fertilityRate":1.6,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Russian Federation",
+    "population":144073139,
+    "incomePerCapita":8118.725586,
+    "fertilityRate":1.505,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Rwanda",
+    "population":12952209,
+    "incomePerCapita":647.4149432,
+    "fertilityRate":3.926,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Samoa",
+    "population":198410,
+    "incomePerCapita":3495.533512,
+    "fertilityRate":3.785,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"San Marino",
+    "population":33938,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Sao Tome and Principe",
+    "population":219161,
+    "incomePerCapita":1630.076785,
+    "fertilityRate":4.214,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Saudi Arabia",
+    "population":34813867,
+    "incomePerCapita":17428.07185,
+    "fertilityRate":2.238,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Senegal",
+    "population":16743930,
+    "incomePerCapita":1275.06064,
+    "fertilityRate":4.491,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Serbia",
+    "population":6899126,
+    "incomePerCapita":6310.02024,
+    "fertilityRate":1.48,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Seychelles",
+    "population":98462,
+    "incomePerCapita":8556.457626,
+    "fertilityRate":2.29,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Sierra Leone",
+    "population":7976985,
+    "incomePerCapita":434.8387022,
+    "fertilityRate":4.077,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Singapore",
+    "population":5685807,
+    "incomePerCapita":42048.82136,
+    "fertilityRate":1.1,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Sint Maarten (Dutch part)",
+    "population":42310,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Slovak Republic",
+    "population":5458827,
+    "incomePerCapita":15629.18783,
+    "fertilityRate":1.57,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Slovenia",
+    "population":2102419,
+    "incomePerCapita":20263.14226,
+    "fertilityRate":1.6,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Solomon Islands",
+    "population":686878,
+    "incomePerCapita":2067.604547,
+    "fertilityRate":4.309,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Somalia",
+    "population":15893219,
+    "incomePerCapita":241.9262683,
+    "fertilityRate":5.885,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"South Africa",
+    "population":59308690,
+    "incomePerCapita":4603.515007,
+    "fertilityRate":2.358,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"South Sudan",
+    "population":11193729,
+    "fertilityRate":4.543,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Spain",
+    "population":47363419,
+    "incomePerCapita":22545.95845,
+    "fertilityRate":1.23,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Sri Lanka",
+    "population":21919000,
+    "incomePerCapita":3314.912279,
+    "fertilityRate":2.174,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"St. Kitts and Nevis",
+    "population":53192,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"St. Lucia",
+    "population":183629,
+    "incomePerCapita":6806.852756,
+    "fertilityRate":1.411,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"St. Martin (French part)",
+    "population":38659,
+    "fertilityRate":1.81,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"St. Vincent and the Grenadines",
+    "population":110947,
+    "incomePerCapita":6023.194164,
+    "fertilityRate":1.854,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Sudan",
+    "population":43849269,
+    "incomePerCapita":392.1578369,
+    "fertilityRate":4.289,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Suriname",
+    "population":586634,
+    "incomePerCapita":3105.784101,
+    "fertilityRate":2.371,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Sweden",
+    "population":10353442,
+    "incomePerCapita":44552.07955,
+    "fertilityRate":1.66,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Switzerland",
+    "population":8636561,
+    "incomePerCapita":63793.59365,
+    "fertilityRate":1.46,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Syrian Arab Republic",
+    "population":17500657,
+    "fertilityRate":2.734,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Tajikistan",
+    "population":9537642,
+    "incomePerCapita":865.4846751,
+    "fertilityRate":3.52,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Tanzania",
+    "population":59734213,
+    "incomePerCapita":947.7207642,
+    "fertilityRate":4.773,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Thailand",
+    "population":69799978,
+    "incomePerCapita":5715.849662,
+    "fertilityRate":1.501,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Timor-Leste",
+    "population":1318442,
+    "incomePerCapita":1627.436371,
+    "fertilityRate":3.853,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Togo",
+    "population":8278737,
+    "incomePerCapita":824.2715739,
+    "fertilityRate":4.199,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Tonga",
+    "population":105697,
+    "incomePerCapita":4585.6856,
+    "fertilityRate":3.481,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Trinidad and Tobago",
+    "population":1399491,
+    "incomePerCapita":13035.71954,
+    "fertilityRate":1.699,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Tunisia",
+    "population":11818618,
+    "incomePerCapita":3357.81169,
+    "fertilityRate":2.151,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Turkiye",
+    "population":84339067,
+    "incomePerCapita":7146.657226,
+    "fertilityRate":2.039,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Turkmenistan",
+    "population":6031187,
+    "fertilityRate":2.701,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Turks and Caicos Islands",
+    "population":38718,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Tuvalu",
+    "population":11792,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Uganda",
+    "population":45741000,
+    "incomePerCapita":698.4076931,
+    "fertilityRate":4.703,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Ukraine",
+    "population":44132049,
+    "incomePerCapita":3328.540527,
+    "fertilityRate":1.217,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"United Arab Emirates",
+    "population":9890400,
+    "incomePerCapita":33374.81172,
+    "fertilityRate":1.369,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"United Kingdom",
+    "population":67081000,
+    "fertilityRate":1.56,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"United States",
+    "population":331501080,
+    "incomePerCapita":53329.0189,
+    "fertilityRate":1.6375,
+    "area":"North America"
+  },
+  {
+    "country":"Uruguay",
+    "population":3473727,
+    "incomePerCapita":12228.79507,
+    "fertilityRate":1.952,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Uzbekistan",
+    "population":34232050,
+    "incomePerCapita":1375.453045,
+    "fertilityRate":2.9,
+    "area":"Europe & Central Asia"
+  },
+  {
+    "country":"Vanuatu",
+    "population":307150,
+    "incomePerCapita":2873.563748,
+    "fertilityRate":3.707,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Venezuela, RB",
+    "population":28435943,
+    "fertilityRate":2.23,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"Vietnam",
+    "population":97338583,
+    "incomePerCapita":2235.898181,
+    "fertilityRate":2.046,
+    "area":"South Asia, East Asia & Pacific"
+  },
+  {
+    "country":"Virgin Islands (U.S.)",
+    "population":106290,
+    "fertilityRate":2.03,
+    "area":"Latin America & Caribbean"
+  },
+  {
+    "country":"West Bank and Gaza",
+    "population":4803269,
+    "fertilityRate":3.489,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Yemen, Rep.",
+    "population":29825968,
+    "fertilityRate":3.614,
+    "area":"Middle East & North Africa"
+  },
+  {
+    "country":"Zambia",
+    "population":18383956,
+    "incomePerCapita":754.9908106,
+    "fertilityRate":4.496,
+    "area":"Sub-Saharan Africa"
+  },
+  {
+    "country":"Zimbabwe",
+    "population":14862927,
+    "incomePerCapita":985.1014232,
+    "fertilityRate":3.46,
+    "area":"Sub-Saharan Africa"
+  }
+]

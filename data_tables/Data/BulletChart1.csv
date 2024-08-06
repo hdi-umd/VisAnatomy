@@ -1,0 +1,5 @@
+Region,Measure,Target,Good,Satisfactory,Poor
+North,75,70,95,65,50
+South,62,80,95,75,50
+East,83,75,120,80,60
+West,50,40,75,60,30

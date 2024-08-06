@@ -1,0 +1,86 @@
+﻿Primary Group,Secondary Group,name,value
+Flora,,Black Tea,1
+Flora,Floral,Chamomile,1
+Flora,Floral,Rose,1
+Flora,Floral,Jasmine,1
+Fruity,Berry,Blackberry,1
+Fruity,Berry,Raspberry,1
+Fruity,Berry,Blueberry,1
+Fruity,Berry,Strawberry,1
+Fruity,Fried Fruit,Raisin,1
+Fruity,Fried Fruit,Prune,1
+Fruity,Other Fruit,Coconut,1
+Fruity,Other Fruit,Cherry,1
+Fruity,Other Fruit,Pomegranate,1
+Fruity,Other Fruit,Pineapple,1
+Fruity,Other Fruit,Grape,1
+Fruity,Other Fruit,Apple,1
+Fruity,Other Fruit,Peach,1
+Fruity,Other Fruit,Pear,1
+Fruity,Citrus Fruit,Grapefruit,1
+Fruity,Citrus Fruit,Orange,1
+Fruity,Citrus Fruit,Lemon,1
+Fruity,Citrus Fruit,Lime,1
+Sour/Fermented,Sour,Sour Aromatics,1
+Sour/Fermented,Sour,Acetic Acid,1
+Sour/Fermented,Sour,Butyric Acid,1
+Sour/Fermented,Sour,Isovaleric Acid,1
+Sour/Fermented,Sour,Citric Acid,1
+Sour/Fermented,Sour,Malic Acid,1
+Sour/Fermented,Alcohol/Fremented,Winey,1
+Sour/Fermented,Alcohol/Fremented,Whiskey,1
+Sour/Fermented,Alcohol/Fremented,Fremented,1
+Sour/Fermented,Alcohol/Fremented,Overripe,1
+Green/Vegetative,,Olive Oil,1
+Green/Vegetative,,Raw,1
+Green/Vegetative,Green/Vegetative,Under-ripe,1
+Green/Vegetative,Green/Vegetative,Peapod,1
+Green/Vegetative,Green/Vegetative,Fresh,1
+Green/Vegetative,Green/Vegetative,Dark Green,1
+Green/Vegetative,Green/Vegetative,Vegetative,1
+Green/Vegetative,Green/Vegetative,Hay-like,1
+Green/Vegetative,Green/Vegetative,Herb-like,1
+Green/Vegetative,,Beany,1
+Other,Papery/Musty,Stale,1
+Other,Papery/Musty,Cardboard,1
+Other,Papery/Musty,Papery,1
+Other,Papery/Musty,Woody,1
+Other,Papery/Musty,Moldy/Damp,1
+Other,Papery/Musty,Musty/Dusty,1
+Other,Papery/Musty,Musty/Earthy,1
+Other,Papery/Musty,Animalic,1
+Other,Papery/Musty,Meaty Brothy,1
+Other,Papery/Musty,Phenolic,1
+Other,Chemical,Bitter,1
+Other,Chemical,Salty,1
+Other,Chemical,Medicinal,1
+Other,Chemical,Petroleum,1
+Other,Chemical,Skunky,1
+Other,Chemical,Rubber,1
+Roasted,,Pipe Tobacco,1
+Roasted,,Tobacco,1
+Roasted,Burnt,Acrid,1
+Roasted,Burnt,Ashy,1
+Roasted,Burnt,Smoky,1
+Roasted,Burnt,"Brown, Roast",1
+Roasted,Cereal,Grain,1
+Roasted,Cereal,Malt,1
+Spices,,Pungent,1
+Spices,,Pepper,1
+Spices,Brown Spice,Anise,1
+Spices,Brown Spice,Nutmeg,1
+Spices,Brown Spice,Cinnamon,1
+Spices,Brown Spice,Clove,1
+Nutty/Cocoa,Nutty,Peanuts,1
+Nutty/Cocoa,Hazelnut,Peanuts,1
+Nutty/Cocoa,Almond,Peanuts,1
+Nutty/Cocoa,Cocoa,Chocolate,1
+Nutty/Cocoa,Cocoa,Dark Chocolate,1
+Sweet,Brown Sugar,Molasses,1
+Sweet,Brown Sugar,Maple Syrup,1
+Sweet,Brown Sugar,Caramelized,1
+Sweet,Brown Sugar,Honey,1
+Sweet,,Vanilla,1
+Sweet,,Vanillin,1
+Sweet,,Overall Sweet,1
+Sweet,,Sweet Aromatics,1

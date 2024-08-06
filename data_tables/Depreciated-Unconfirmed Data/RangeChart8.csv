@@ -1,0 +1,19 @@
+﻿Energy Information Administration
+"Working Gas in Underground Storage, Lower 48"
+"Released: April 25, 2024 at 10:30 a.m. (eastern time) for the Week Ending April 19, 2024"
+"Next Release: May 2, 2024"
+Region,Stocks in billion (Bcf),,,,,,,,,,,,Historical Comparisons
+,,,,,,,,,,,,,Year Ago (04/19/23),,,,,,5-Year (2019-23) Average
+,19-Apr-24,,,12-Apr-24,,,net change (Bcf),,,implied flow (Bcf),,,stocks (Bcf),,,% change,,,stocks (Bcf),,,% change
+East,"408","","","379","",,"29","",,"29",,"","382",,,"6.8",,,"319",,,"27.9",,"",""
+Midwest,"551","","","528","",,"23","",,"23",,"","463",,,"19.0",,,"391",,,"40.9",,"",""
+Mountain,"173","","","167","",,"6","",,"6",,"","88",,,"96.6",,,"93",,,"86.0",,"",""
+Pacific,"235","","","230","",,"5","",,"5",,"","88",,,"167.0",,,"164",,,"43.3",,"",""
+South Central,"1,057","","","1,029","",,"28","",,"28",,"","965",,,"9.5",,,"803",,,"31.6",,"",""
+  Salt,"309","","","300","",,"9","",,"9",,"","272",,,"13.6",,,"249",,,"24.1",,"",""
+  Nonsalt,"749","","","729","",,"20","",,"20",,"","692",,,"8.2",,,"553",,,"35.4",,"",""
+Total,"2,425","","","2,333","",,"92","",,"92",,"","1,986",,,"22.1",,,"1,770",,,"37.0",,"",""
+Note: This table is provided for ready processing of weekly volumes estimates. 
+It does not include any special notices or other additional information 
+that is available only on the official Weekly Natural Gas Storage Report 
+which is located at http://ir.eia.gov/ngs/ngs.html. 

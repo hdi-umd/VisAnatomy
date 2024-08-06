@@ -1,0 +1,211 @@
+﻿Players,Skills / Tasks,Icon,Label,Color
+Liam,Tackling,Triangle_solid,,Medium
+Liam,Marking,Triangle_solid,,Medium
+Liam,Passing,Triangle_solid,,Medium
+Liam,Heading,Circle_solid,,High
+Liam,Dribling,Square_solid,,Low
+Liam,Ball Shooting,Circle_solid,,High
+Liam,Decisions,Triangle_solid,,Medium
+Liam,Positioning,Square_solid,,Low
+Liam,Pace,Triangle_solid,,Medium
+Liam,Stamina,Square_solid,,Low
+Liam,Strength,Triangle_solid,,Medium
+Liam,Player,,Liam (LB),
+Liam,Pressing,,,Do
+Liam,Hold the ball,,,Don't
+Liam,Long passes,,,Don't
+Liam,Short passes,,,Do
+Liam,Make long shots,,,Do
+Liam,Run with ball,,,Don't
+Liam,Corner taker,,,Don't
+Liam,Penalty taker,,,Don't
+Liam,Free kicks taker,,,Don't
+Noah,Tackling,Square_solid,,Low
+Noah,Marking,Square_solid,,Low
+Noah,Passing,Triangle_solid,,Medium
+Noah,Heading,Circle_solid,,High
+Noah,Dribling,Circle_solid,,High
+Noah,Ball Shooting,Square_solid,,Low
+Noah,Decisions,Circle_solid,,High
+Noah,Positioning,Circle_solid,,High
+Noah,Pace,Circle_solid,,High
+Noah,Stamina,Circle_solid,,High
+Noah,Strength,Triangle_solid,,Medium
+Noah,Player,,Noah (RB),
+Noah,Pressing,,,Don't
+Noah,Hold the ball,,,Don't
+Noah,Long passes,,,Do
+Noah,Short passes,,,Don't
+Noah,Make long shots,,,Don't
+Noah,Run with ball,,,Do
+Noah,Corner taker,,,Don't
+Noah,Penalty taker,,,Don't
+Noah,Free kicks taker,,,Don't
+Oliver,Tackling,Circle_solid,,High
+Oliver,Marking,Triangle_solid,,Medium
+Oliver,Passing,Triangle_solid,,Medium
+Oliver,Heading,Circle_solid,,High
+Oliver,Dribling,Square_solid,,Low
+Oliver,Ball Shooting,Square_solid,,Low
+Oliver,Decisions,Triangle_solid,,Medium
+Oliver,Positioning,Square_solid,,Low
+Oliver,Pace,Triangle_solid,,Medium
+Oliver,Stamina,Square_solid,,Low
+Oliver,Strength,Triangle_solid,,Medium
+Oliver,Player,,Oliver (CD),
+Oliver,Pressing,,,Do
+Oliver,Hold the ball,,,Don't
+Oliver,Long passes,,,Don't
+Oliver,Short passes,,,Do
+Oliver,Make long shots,,,Don't
+Oliver,Run with ball,,,Don't
+Oliver,Corner taker,,,Don't
+Oliver,Penalty taker,,,Don't
+Oliver,Free kicks taker,,,Don't
+Elijah,Tackling,Circle_solid,,High
+Elijah,Marking,Circle_solid,,High
+Elijah,Passing,Circle_solid,,High
+Elijah,Heading,Triangle_solid,,Medium
+Elijah,Dribling,Triangle_solid,,Medium
+Elijah,Ball Shooting,Square_solid,,Low
+Elijah,Decisions,Circle_solid,,High
+Elijah,Positioning,Circle_solid,,High
+Elijah,Pace,Triangle_solid,,Medium
+Elijah,Stamina,Circle_solid,,High
+Elijah,Strength,Square_solid,,Low
+Elijah,Player,,Elijah (CD),
+Elijah,Pressing,,,Do
+Elijah,Hold the ball,,,Don't
+Elijah,Long passes,,,Do
+Elijah,Short passes,,,Do
+Elijah,Make long shots,,,Don't
+Elijah,Run with ball,,,Don't
+Elijah,Corner taker,,,Don't
+Elijah,Penalty taker,,,Don't
+Elijah,Free kicks taker,,,Don't
+James,Tackling,Circle_solid,,High
+James,Marking,Circle_solid,,High
+James,Passing,Triangle_solid,,Medium
+James,Heading,Triangle_solid,,Medium
+James,Dribling,Square_solid,,Low
+James,Ball Shooting,Square_solid,,Low
+James,Decisions,Square_solid,,Low
+James,Positioning,Circle_solid,,High
+James,Pace,Square_solid,,Low
+James,Stamina,Circle_solid,,High
+James,Strength,Triangle_solid,,Medium
+James,Player,,James (DM),
+James,Pressing,,,Do
+James,Hold the ball,,,Don't
+James,Long passes,,,Don't
+James,Short passes,,,Do
+James,Make long shots,,,Don't
+James,Run with ball,,,Don't
+James,Corner taker,,,Don't
+James,Penalty taker,,,Don't
+James,Free kicks taker,,,Don't
+Will,Tackling,Square_solid,,Low
+Will,Marking,Square_solid,,Low
+Will,Passing,Circle_solid,,High
+Will,Heading,Square_solid,,Low
+Will,Dribling,Circle_solid,,High
+Will,Ball Shooting,Circle_solid,,High
+Will,Decisions,Circle_solid,,High
+Will,Positioning,Circle_solid,,High
+Will,Pace,Triangle_solid,,Medium
+Will,Stamina,Triangle_solid,,Medium
+Will,Strength,Triangle_solid,,Medium
+Will,Player,,Will (CM),
+Will,Pressing,,,Don't
+Will,Hold the ball,,,Do
+Will,Long passes,,,Don't
+Will,Short passes,,,Don't
+Will,Make long shots,,,Don't
+Will,Run with ball,,,Do
+Will,Corner taker,,,Do
+Will,Penalty taker,,,Don't
+Will,Free kicks taker,,,Do
+Benji,Tackling,Triangle_solid,,Medium
+Benji,Marking,Triangle_solid,,Medium
+Benji,Passing,Circle_solid,,High
+Benji,Heading,Triangle_solid,,Medium
+Benji,Dribling,Triangle_solid,,Medium
+Benji,Ball Shooting,Triangle_solid,,Medium
+Benji,Decisions,Triangle_solid,,Medium
+Benji,Positioning,Triangle_solid,,Medium
+Benji,Pace,Triangle_solid,,Medium
+Benji,Stamina,Circle_solid,,High
+Benji,Strength,Circle_solid,,High
+Benji,Player,,Benji (CM),
+Benji,Pressing,,,Do
+Benji,Hold the ball,,,Don't
+Benji,Long passes,,,Don't
+Benji,Short passes,,,Do
+Benji,Make long shots,,,Don't
+Benji,Run with ball,,,Don't
+Benji,Corner taker,,,Don't
+Benji,Penalty taker,,,Don't
+Benji,Free kicks taker,,,Don't
+Lucas,Tackling,Square_solid,,Low
+Lucas,Marking,Square_solid,,Low
+Lucas,Passing,Circle_solid,,High
+Lucas,Heading,Square_solid,,Low
+Lucas,Dribling,Circle_solid,,High
+Lucas,Ball Shooting,Circle_solid,,High
+Lucas,Decisions,Triangle_solid,,Medium
+Lucas,Positioning,Triangle_solid,,Medium
+Lucas,Pace,Triangle_solid,,Medium
+Lucas,Stamina,Triangle_solid,,Medium
+Lucas,Strength,Square_solid,,Low
+Lucas,Player,,Lucas (RW),
+Lucas,Pressing,,,Don't
+Lucas,Hold the ball,Diamond_solid,,Do
+Lucas,Long passes,Diamond_solid,,Do
+Lucas,Short passes,,,Don't
+Lucas,Make long shots,Diamond_solid,,Do
+Lucas,Run with ball,Diamond_solid,,Do
+Lucas,Corner taker,,,Don't
+Lucas,Penalty taker,,,Don't
+Lucas,Free kicks taker,,,Don't
+Henry,Tackling,Square_solid,,Low
+Henry,Marking,Square_solid,,Low
+Henry,Passing,Circle_solid,,High
+Henry,Heading,Square_solid,,Low
+Henry,Dribling,Circle_solid,,High
+Henry,Ball Shooting,Square_solid,,Low
+Henry,Decisions,Triangle_solid,,Medium
+Henry,Positioning,Triangle_solid,,Medium
+Henry,Pace,Circle_solid,,High
+Henry,Stamina,Triangle_solid,,Medium
+Henry,Strength,Triangle_solid,,Medium
+Henry,Player,,Henry (LW),
+Henry,Pressing,,,Don't
+Henry,Hold the ball,,,Don't
+Henry,Long passes,,,Don't
+Henry,Short passes,,,Do
+Henry,Make long shots,,,Don't
+Henry,Run with ball,,,Do
+Henry,Corner taker,,,Don't
+Henry,Penalty taker,,,Don't
+Henry,Free kicks taker,,,Don't
+Teo,Tackling,Square_solid,,Low
+Teo,Marking,Square_solid,,Low
+Teo,Passing,Circle_solid,,High
+Teo,Heading,Circle_solid,,High
+Teo,Dribling,Triangle_solid,,Medium
+Teo,Ball Shooting,Circle_solid,,High
+Teo,Decisions,Triangle_solid,,Medium
+Teo,Positioning,Triangle_solid,,Medium
+Teo,Pace,Triangle_solid,,Medium
+Teo,Stamina,Square_solid,,Low
+Teo,Strength,Triangle_solid,,Medium
+Teo,Player,,Teo (SC),
+Teo,Pressing,,,Don't
+Teo,Hold the ball,,,Do
+Teo,Long passes,,,Don't
+Teo,Short passes,,,Do
+Teo,Make long shots,,,Don't
+Teo,Run with ball,,,Don't
+Teo,Corner taker,,,Don't
+Teo,Penalty taker,Diamond_solid,,Do
+Teo,Free kicks taker,,,Don't

@@ -1,0 +1,1625 @@
+name,Attribute,Value
+AMC Ambassador Brougham,economy(mpg),13
+AMC Ambassador Brougham,cylinders,8
+AMC Ambassador Brougham,displacement(cc),360
+AMC Ambassador Brougham,power(hp),175
+AMC Ambassador DPL,economy(mpg),15
+AMC Ambassador DPL,cylinders,8
+AMC Ambassador DPL,displacement(cc),390
+AMC Ambassador DPL,power(hp),190
+AMC Ambassador SST,economy(mpg),17
+AMC Ambassador SST,cylinders,8
+AMC Ambassador SST,displacement(cc),304
+AMC Ambassador SST,power(hp),150
+AMC Concord DL 6,economy(mpg),20.2
+AMC Concord DL 6,cylinders,6
+AMC Concord DL 6,displacement(cc),232
+AMC Concord DL 6,power(hp),90
+AMC Concord DL,economy(mpg),18.1
+AMC Concord DL,cylinders,6
+AMC Concord DL,displacement(cc),258
+AMC Concord DL,power(hp),120
+AMC Concord DL,economy(mpg),23
+AMC Concord DL,cylinders,4
+AMC Concord DL,displacement(cc),151
+AMC Concord DL,power(hp),-1
+AMC Concord,economy(mpg),19.4
+AMC Concord,cylinders,6
+AMC Concord,displacement(cc),232
+AMC Concord,power(hp),90
+AMC Concord,economy(mpg),24.3
+AMC Concord,cylinders,4
+AMC Concord,displacement(cc),151
+AMC Concord,power(hp),90
+AMC Gremlin,economy(mpg),18
+AMC Gremlin,cylinders,6
+AMC Gremlin,displacement(cc),232
+AMC Gremlin,power(hp),100
+AMC Gremlin,economy(mpg),19
+AMC Gremlin,cylinders,6
+AMC Gremlin,displacement(cc),232
+AMC Gremlin,power(hp),100
+AMC Gremlin,economy(mpg),20
+AMC Gremlin,cylinders,6
+AMC Gremlin,displacement(cc),232
+AMC Gremlin,power(hp),100
+AMC Gremlin,economy(mpg),21
+AMC Gremlin,cylinders,6
+AMC Gremlin,displacement(cc),199
+AMC Gremlin,power(hp),90
+AMC Hornet Sportabout (Wagon),economy(mpg),18
+AMC Hornet Sportabout (Wagon),cylinders,6
+AMC Hornet Sportabout (Wagon),displacement(cc),258
+AMC Hornet Sportabout (Wagon),power(hp),110
+AMC Hornet,economy(mpg),18
+AMC Hornet,cylinders,6
+AMC Hornet,displacement(cc),199
+AMC Hornet,power(hp),97
+AMC Hornet,economy(mpg),18
+AMC Hornet,cylinders,6
+AMC Hornet,displacement(cc),232
+AMC Hornet,power(hp),100
+AMC Hornet,economy(mpg),19
+AMC Hornet,cylinders,6
+AMC Hornet,displacement(cc),232
+AMC Hornet,power(hp),100
+AMC Hornet,economy(mpg),22.5
+AMC Hornet,cylinders,6
+AMC Hornet,displacement(cc),232
+AMC Hornet,power(hp),90
+AMC Matador (Wagon),economy(mpg),14
+AMC Matador (Wagon),cylinders,8
+AMC Matador (Wagon),displacement(cc),304
+AMC Matador (Wagon),power(hp),150
+AMC Matador (Wagon),economy(mpg),15
+AMC Matador (Wagon),cylinders,8
+AMC Matador (Wagon),displacement(cc),304
+AMC Matador (Wagon),power(hp),150
+AMC Matador,economy(mpg),14
+AMC Matador,cylinders,8
+AMC Matador,displacement(cc),304
+AMC Matador,power(hp),150
+AMC Matador,economy(mpg),15
+AMC Matador,cylinders,6
+AMC Matador,displacement(cc),258
+AMC Matador,power(hp),110
+AMC Matador,economy(mpg),15.5
+AMC Matador,cylinders,8
+AMC Matador,displacement(cc),304
+AMC Matador,power(hp),120
+AMC Matador,economy(mpg),16
+AMC Matador,cylinders,6
+AMC Matador,displacement(cc),258
+AMC Matador,power(hp),110
+AMC Matador,economy(mpg),18
+AMC Matador,cylinders,6
+AMC Matador,displacement(cc),232
+AMC Matador,power(hp),100
+AMC Pacer D/L,economy(mpg),17.5
+AMC Pacer D/L,cylinders,6
+AMC Pacer D/L,displacement(cc),258
+AMC Pacer D/L,power(hp),95
+AMC Pacer,economy(mpg),19
+AMC Pacer,cylinders,6
+AMC Pacer,displacement(cc),232
+AMC Pacer,power(hp),90
+AMC Rebel SST (Wagon),economy(mpg),-1
+AMC Rebel SST (Wagon),cylinders,8
+AMC Rebel SST (Wagon),displacement(cc),360
+AMC Rebel SST (Wagon),power(hp),175
+AMC Rebel SST,economy(mpg),16
+AMC Rebel SST,cylinders,8
+AMC Rebel SST,displacement(cc),304
+AMC Rebel SST,power(hp),150
+AMC Spirit DL,economy(mpg),27.4
+AMC Spirit DL,cylinders,4
+AMC Spirit DL,displacement(cc),121
+AMC Spirit DL,power(hp),80
+Audi 100 LS,economy(mpg),20
+Audi 100 LS,cylinders,4
+Audi 100 LS,displacement(cc),114
+Audi 100 LS,power(hp),91
+Audi 100 LS,economy(mpg),23
+Audi 100 LS,cylinders,4
+Audi 100 LS,displacement(cc),115
+Audi 100 LS,power(hp),95
+Audi 100 LS,economy(mpg),24
+Audi 100 LS,cylinders,4
+Audi 100 LS,displacement(cc),107
+Audi 100 LS,power(hp),90
+Audi 4000,economy(mpg),34.3
+Audi 4000,cylinders,4
+Audi 4000,displacement(cc),97
+Audi 4000,power(hp),78
+Audi 5000,economy(mpg),20.3
+Audi 5000,cylinders,5
+Audi 5000,displacement(cc),131
+Audi 5000,power(hp),103
+Audi 5000S (Diesel),economy(mpg),36.4
+Audi 5000S (Diesel),cylinders,5
+Audi 5000S (Diesel),displacement(cc),121
+Audi 5000S (Diesel),power(hp),67
+Audi Fox,economy(mpg),29
+Audi Fox,cylinders,4
+Audi Fox,displacement(cc),98
+Audi Fox,power(hp),83
+BMW 2002,economy(mpg),26
+BMW 2002,cylinders,4
+BMW 2002,displacement(cc),121
+BMW 2002,power(hp),113
+BMW 320i,economy(mpg),21.5
+BMW 320i,cylinders,4
+BMW 320i,displacement(cc),121
+BMW 320i,power(hp),110
+Buick Century 350,economy(mpg),13
+Buick Century 350,cylinders,8
+Buick Century 350,displacement(cc),350
+Buick Century 350,power(hp),175
+Buick Century Limited,economy(mpg),25
+Buick Century Limited,cylinders,6
+Buick Century Limited,displacement(cc),181
+Buick Century Limited,power(hp),110
+Buick Century Luxus (Wagon),economy(mpg),13
+Buick Century Luxus (Wagon),cylinders,8
+Buick Century Luxus (Wagon),displacement(cc),350
+Buick Century Luxus (Wagon),power(hp),150
+Buick Century Special,economy(mpg),20.6
+Buick Century Special,cylinders,6
+Buick Century Special,displacement(cc),231
+Buick Century Special,power(hp),105
+Buick Century,economy(mpg),17
+Buick Century,cylinders,6
+Buick Century,displacement(cc),231
+Buick Century,power(hp),110
+Buick Century,economy(mpg),22.4
+Buick Century,cylinders,6
+Buick Century,displacement(cc),231
+Buick Century,power(hp),110
+Buick Electra 225 Custom,economy(mpg),12
+Buick Electra 225 Custom,cylinders,8
+Buick Electra 225 Custom,displacement(cc),455
+Buick Electra 225 Custom,power(hp),225
+Buick Estate Wagon (Wagon),economy(mpg),14
+Buick Estate Wagon (Wagon),cylinders,8
+Buick Estate Wagon (Wagon),displacement(cc),455
+Buick Estate Wagon (Wagon),power(hp),225
+Buick Estate Wagon (Wagon),economy(mpg),16.9
+Buick Estate Wagon (Wagon),cylinders,8
+Buick Estate Wagon (Wagon),displacement(cc),350
+Buick Estate Wagon (Wagon),power(hp),155
+Buick Lesabre Custom,economy(mpg),13
+Buick Lesabre Custom,cylinders,8
+Buick Lesabre Custom,displacement(cc),350
+Buick Lesabre Custom,power(hp),155
+Buick Opel Isuzu Deluxe,economy(mpg),30
+Buick Opel Isuzu Deluxe,cylinders,4
+Buick Opel Isuzu Deluxe,displacement(cc),111
+Buick Opel Isuzu Deluxe,power(hp),80
+Buick Regal Sport Coupe (Turbo),economy(mpg),17.7
+Buick Regal Sport Coupe (Turbo),cylinders,6
+Buick Regal Sport Coupe (Turbo),displacement(cc),231
+Buick Regal Sport Coupe (Turbo),power(hp),165
+Buick Skyhawk,economy(mpg),21
+Buick Skyhawk,cylinders,6
+Buick Skyhawk,displacement(cc),231
+Buick Skyhawk,power(hp),110
+Buick Skylark 320,economy(mpg),15
+Buick Skylark 320,cylinders,8
+Buick Skylark 320,displacement(cc),350
+Buick Skylark 320,power(hp),165
+Buick Skylark Limited,economy(mpg),28.4
+Buick Skylark Limited,cylinders,4
+Buick Skylark Limited,displacement(cc),151
+Buick Skylark Limited,power(hp),90
+Buick Skylark,economy(mpg),20.5
+Buick Skylark,cylinders,6
+Buick Skylark,displacement(cc),231
+Buick Skylark,power(hp),105
+Buick Skylark,economy(mpg),26.6
+Buick Skylark,cylinders,4
+Buick Skylark,displacement(cc),151
+Buick Skylark,power(hp),84
+Cadillac Eldorado,economy(mpg),23
+Cadillac Eldorado,cylinders,8
+Cadillac Eldorado,displacement(cc),350
+Cadillac Eldorado,power(hp),125
+Cadillac Seville,economy(mpg),16.5
+Cadillac Seville,cylinders,8
+Cadillac Seville,displacement(cc),350
+Cadillac Seville,power(hp),180
+Chevroelt Chevelle Malibu,economy(mpg),16
+Chevroelt Chevelle Malibu,cylinders,6
+Chevroelt Chevelle Malibu,displacement(cc),250
+Chevroelt Chevelle Malibu,power(hp),105
+Chevrolet Bel Air,economy(mpg),15
+Chevrolet Bel Air,cylinders,8
+Chevrolet Bel Air,displacement(cc),350
+Chevrolet Bel Air,power(hp),145
+Chevrolet Camaro,economy(mpg),27
+Chevrolet Camaro,cylinders,4
+Chevrolet Camaro,displacement(cc),151
+Chevrolet Camaro,power(hp),90
+Chevrolet Caprice Classic,economy(mpg),13
+Chevrolet Caprice Classic,cylinders,8
+Chevrolet Caprice Classic,displacement(cc),400
+Chevrolet Caprice Classic,power(hp),150
+Chevrolet Caprice Classic,economy(mpg),17
+Chevrolet Caprice Classic,cylinders,8
+Chevrolet Caprice Classic,displacement(cc),305
+Chevrolet Caprice Classic,power(hp),130
+Chevrolet Caprice Classic,economy(mpg),17.5
+Chevrolet Caprice Classic,cylinders,8
+Chevrolet Caprice Classic,displacement(cc),305
+Chevrolet Caprice Classic,power(hp),145
+Chevrolet Cavalier 2-Door,economy(mpg),34
+Chevrolet Cavalier 2-Door,cylinders,4
+Chevrolet Cavalier 2-Door,displacement(cc),112
+Chevrolet Cavalier 2-Door,power(hp),88
+Chevrolet Cavalier Wagon,economy(mpg),27
+Chevrolet Cavalier Wagon,cylinders,4
+Chevrolet Cavalier Wagon,displacement(cc),112
+Chevrolet Cavalier Wagon,power(hp),88
+Chevrolet Cavalier,economy(mpg),28
+Chevrolet Cavalier,cylinders,4
+Chevrolet Cavalier,displacement(cc),112
+Chevrolet Cavalier,power(hp),88
+Chevrolet Chevelle Concours (Wagon),economy(mpg),-1
+Chevrolet Chevelle Concours (Wagon),cylinders,8
+Chevrolet Chevelle Concours (Wagon),displacement(cc),350
+Chevrolet Chevelle Concours (Wagon),power(hp),165
+Chevrolet Chevelle Concours (Wagon),economy(mpg),13
+Chevrolet Chevelle Concours (Wagon),cylinders,8
+Chevrolet Chevelle Concours (Wagon),displacement(cc),307
+Chevrolet Chevelle Concours (Wagon),power(hp),130
+Chevrolet Chevelle Malibu Classic,economy(mpg),16
+Chevrolet Chevelle Malibu Classic,cylinders,6
+Chevrolet Chevelle Malibu Classic,displacement(cc),250
+Chevrolet Chevelle Malibu Classic,power(hp),100
+Chevrolet Chevelle Malibu Classic,economy(mpg),17.5
+Chevrolet Chevelle Malibu Classic,cylinders,8
+Chevrolet Chevelle Malibu Classic,displacement(cc),305
+Chevrolet Chevelle Malibu Classic,power(hp),140
+Chevrolet Chevelle Malibu,economy(mpg),17
+Chevrolet Chevelle Malibu,cylinders,6
+Chevrolet Chevelle Malibu,displacement(cc),250
+Chevrolet Chevelle Malibu,power(hp),100
+Chevrolet Chevelle Malibu,economy(mpg),18
+Chevrolet Chevelle Malibu,cylinders,8
+Chevrolet Chevelle Malibu,displacement(cc),307
+Chevrolet Chevelle Malibu,power(hp),130
+Chevrolet Chevette,economy(mpg),29
+Chevrolet Chevette,cylinders,4
+Chevrolet Chevette,displacement(cc),85
+Chevrolet Chevette,power(hp),52
+Chevrolet Chevette,economy(mpg),30
+Chevrolet Chevette,cylinders,4
+Chevrolet Chevette,displacement(cc),98
+Chevrolet Chevette,power(hp),68
+Chevrolet Chevette,economy(mpg),30.5
+Chevrolet Chevette,cylinders,4
+Chevrolet Chevette,displacement(cc),98
+Chevrolet Chevette,power(hp),63
+Chevrolet Chevette,economy(mpg),32.1
+Chevrolet Chevette,cylinders,4
+Chevrolet Chevette,displacement(cc),98
+Chevrolet Chevette,power(hp),70
+Chevrolet Citation,economy(mpg),23.5
+Chevrolet Citation,cylinders,6
+Chevrolet Citation,displacement(cc),173
+Chevrolet Citation,power(hp),110
+Chevrolet Citation,economy(mpg),28
+Chevrolet Citation,cylinders,4
+Chevrolet Citation,displacement(cc),151
+Chevrolet Citation,power(hp),90
+Chevrolet Citation,economy(mpg),28.8
+Chevrolet Citation,cylinders,6
+Chevrolet Citation,displacement(cc),173
+Chevrolet Citation,power(hp),115
+Chevrolet Concours,economy(mpg),17.5
+Chevrolet Concours,cylinders,6
+Chevrolet Concours,displacement(cc),250
+Chevrolet Concours,power(hp),110
+Chevrolet Impala,economy(mpg),11
+Chevrolet Impala,cylinders,8
+Chevrolet Impala,displacement(cc),400
+Chevrolet Impala,power(hp),150
+Chevrolet Impala,economy(mpg),13
+Chevrolet Impala,cylinders,8
+Chevrolet Impala,displacement(cc),350
+Chevrolet Impala,power(hp),165
+Chevrolet Impala,economy(mpg),14
+Chevrolet Impala,cylinders,8
+Chevrolet Impala,displacement(cc),350
+Chevrolet Impala,power(hp),165
+Chevrolet Impala,economy(mpg),14
+Chevrolet Impala,cylinders,8
+Chevrolet Impala,displacement(cc),454
+Chevrolet Impala,power(hp),220
+Chevrolet Malibu Classic (Wagon),economy(mpg),19.2
+Chevrolet Malibu Classic (Wagon),cylinders,8
+Chevrolet Malibu Classic (Wagon),displacement(cc),267
+Chevrolet Malibu Classic (Wagon),power(hp),125
+Chevrolet Malibu,economy(mpg),13
+Chevrolet Malibu,cylinders,8
+Chevrolet Malibu,displacement(cc),350
+Chevrolet Malibu,power(hp),145
+Chevrolet Malibu,economy(mpg),20.5
+Chevrolet Malibu,cylinders,6
+Chevrolet Malibu,displacement(cc),200
+Chevrolet Malibu,power(hp),95
+Chevrolet Monte Carlo Landau,economy(mpg),15.5
+Chevrolet Monte Carlo Landau,cylinders,8
+Chevrolet Monte Carlo Landau,displacement(cc),350
+Chevrolet Monte Carlo Landau,power(hp),170
+Chevrolet Monte Carlo Landau,economy(mpg),19.2
+Chevrolet Monte Carlo Landau,cylinders,8
+Chevrolet Monte Carlo Landau,displacement(cc),305
+Chevrolet Monte Carlo Landau,power(hp),145
+Chevrolet Monte Carlo S,economy(mpg),15
+Chevrolet Monte Carlo S,cylinders,8
+Chevrolet Monte Carlo S,displacement(cc),350
+Chevrolet Monte Carlo S,power(hp),145
+Chevrolet Monte Carlo,economy(mpg),15
+Chevrolet Monte Carlo,cylinders,8
+Chevrolet Monte Carlo,displacement(cc),400
+Chevrolet Monte Carlo,power(hp),150
+Chevrolet Monza 2+2,economy(mpg),20
+Chevrolet Monza 2+2,cylinders,8
+Chevrolet Monza 2+2,displacement(cc),262
+Chevrolet Monza 2+2,power(hp),110
+Chevrolet Nova Custom,economy(mpg),16
+Chevrolet Nova Custom,cylinders,6
+Chevrolet Nova Custom,displacement(cc),250
+Chevrolet Nova Custom,power(hp),100
+Chevrolet Nova,economy(mpg),15
+Chevrolet Nova,cylinders,6
+Chevrolet Nova,displacement(cc),250
+Chevrolet Nova,power(hp),100
+Chevrolet Nova,economy(mpg),18
+Chevrolet Nova,cylinders,6
+Chevrolet Nova,displacement(cc),250
+Chevrolet Nova,power(hp),105
+Chevrolet Nova,economy(mpg),22
+Chevrolet Nova,cylinders,6
+Chevrolet Nova,displacement(cc),250
+Chevrolet Nova,power(hp),105
+Chevrolet Vega (Wagon),economy(mpg),22
+Chevrolet Vega (Wagon),cylinders,4
+Chevrolet Vega (Wagon),displacement(cc),140
+Chevrolet Vega (Wagon),power(hp),72
+Chevrolet Vega 2300,economy(mpg),28
+Chevrolet Vega 2300,cylinders,4
+Chevrolet Vega 2300,displacement(cc),140
+Chevrolet Vega 2300,power(hp),90
+Chevrolet Vega,economy(mpg),20
+Chevrolet Vega,cylinders,4
+Chevrolet Vega,displacement(cc),140
+Chevrolet Vega,power(hp),90
+Chevrolet Vega,economy(mpg),21
+Chevrolet Vega,cylinders,4
+Chevrolet Vega,displacement(cc),140
+Chevrolet Vega,power(hp),72
+Chevrolet Vega,economy(mpg),25
+Chevrolet Vega,cylinders,4
+Chevrolet Vega,displacement(cc),140
+Chevrolet Vega,power(hp),75
+Chevrolet Woody,economy(mpg),24.5
+Chevrolet Woody,cylinders,4
+Chevrolet Woody,displacement(cc),98
+Chevrolet Woody,power(hp),60
+Chevy C10,economy(mpg),13
+Chevy C10,cylinders,8
+Chevy C10,displacement(cc),350
+Chevy C10,power(hp),145
+Chevy C20,economy(mpg),10
+Chevy C20,cylinders,8
+Chevy C20,displacement(cc),307
+Chevy C20,power(hp),200
+Chevy S-10,economy(mpg),31
+Chevy S-10,cylinders,4
+Chevy S-10,displacement(cc),119
+Chevy S-10,power(hp),82
+Chrysler Cordoba,economy(mpg),15.5
+Chrysler Cordoba,cylinders,8
+Chrysler Cordoba,displacement(cc),400
+Chrysler Cordoba,power(hp),190
+Chrysler Lebaron Medallion,economy(mpg),26
+Chrysler Lebaron Medallion,cylinders,4
+Chrysler Lebaron Medallion,displacement(cc),156
+Chrysler Lebaron Medallion,power(hp),92
+Chrysler Lebaron Salon,economy(mpg),17.6
+Chrysler Lebaron Salon,cylinders,6
+Chrysler Lebaron Salon,displacement(cc),225
+Chrysler Lebaron Salon,power(hp),85
+Chrysler Lebaron Town & Country (Wagon),economy(mpg),18.5
+Chrysler Lebaron Town & Country (Wagon),cylinders,8
+Chrysler Lebaron Town & Country (Wagon),displacement(cc),360
+Chrysler Lebaron Town & Country (Wagon),power(hp),150
+Chrysler New Yorker Brougham,economy(mpg),13
+Chrysler New Yorker Brougham,cylinders,8
+Chrysler New Yorker Brougham,displacement(cc),440
+Chrysler New Yorker Brougham,power(hp),215
+Chrysler Newport Royal,economy(mpg),13
+Chrysler Newport Royal,cylinders,8
+Chrysler Newport Royal,displacement(cc),400
+Chrysler Newport Royal,power(hp),190
+Citroen DS-21 Pallas,economy(mpg),-1
+Citroen DS-21 Pallas,cylinders,4
+Citroen DS-21 Pallas,displacement(cc),133
+Citroen DS-21 Pallas,power(hp),115
+Datsun 1200,economy(mpg),35
+Datsun 1200,cylinders,4
+Datsun 1200,displacement(cc),72
+Datsun 1200,power(hp),69
+Datsun 200SX,economy(mpg),23.9
+Datsun 200SX,cylinders,4
+Datsun 200SX,displacement(cc),119
+Datsun 200SX,power(hp),97
+Datsun 200SX,economy(mpg),32.9
+Datsun 200SX,cylinders,4
+Datsun 200SX,displacement(cc),119
+Datsun 200SX,power(hp),100
+Datsun 210,economy(mpg),31.8
+Datsun 210,cylinders,4
+Datsun 210,displacement(cc),85
+Datsun 210,power(hp),65
+Datsun 210,economy(mpg),37
+Datsun 210,cylinders,4
+Datsun 210,displacement(cc),85
+Datsun 210,power(hp),65
+Datsun 210,economy(mpg),40.8
+Datsun 210,cylinders,4
+Datsun 210,displacement(cc),85
+Datsun 210,power(hp),65
+Datsun 280ZX,economy(mpg),32.7
+Datsun 280ZX,cylinders,6
+Datsun 280ZX,displacement(cc),168
+Datsun 280ZX,power(hp),132
+Datsun 310 GX,economy(mpg),38
+Datsun 310 GX,cylinders,4
+Datsun 310 GX,displacement(cc),91
+Datsun 310 GX,power(hp),67
+Datsun 310,economy(mpg),37.2
+Datsun 310,cylinders,4
+Datsun 310,displacement(cc),86
+Datsun 310,power(hp),65
+Datsun 510 (Wagon),economy(mpg),28
+Datsun 510 (Wagon),cylinders,4
+Datsun 510 (Wagon),displacement(cc),97
+Datsun 510 (Wagon),power(hp),92
+Datsun 510 Hatchback,economy(mpg),37
+Datsun 510 Hatchback,cylinders,4
+Datsun 510 Hatchback,displacement(cc),119
+Datsun 510 Hatchback,power(hp),92
+Datsun 510,economy(mpg),27.2
+Datsun 510,cylinders,4
+Datsun 510,displacement(cc),119
+Datsun 510,power(hp),97
+Datsun 610,economy(mpg),22
+Datsun 610,cylinders,4
+Datsun 610,displacement(cc),108
+Datsun 610,power(hp),94
+Datsun 710,economy(mpg),24
+Datsun 710,cylinders,4
+Datsun 710,displacement(cc),119
+Datsun 710,power(hp),97
+Datsun 710,economy(mpg),32
+Datsun 710,cylinders,4
+Datsun 710,displacement(cc),83
+Datsun 710,power(hp),61
+Datsun 810 Maxima,economy(mpg),24.2
+Datsun 810 Maxima,cylinders,6
+Datsun 810 Maxima,displacement(cc),146
+Datsun 810 Maxima,power(hp),120
+Datsun 810,economy(mpg),22
+Datsun 810,cylinders,6
+Datsun 810,displacement(cc),146
+Datsun 810,power(hp),97
+Datsun B-210,economy(mpg),32
+Datsun B-210,cylinders,4
+Datsun B-210,displacement(cc),85
+Datsun B-210,power(hp),70
+Datsun B210 GX,economy(mpg),39.4
+Datsun B210 GX,cylinders,4
+Datsun B210 GX,displacement(cc),85
+Datsun B210 GX,power(hp),70
+Datsun B210,economy(mpg),31
+Datsun B210,cylinders,4
+Datsun B210,displacement(cc),79
+Datsun B210,power(hp),67
+Datsun F-10 Hatchback,economy(mpg),33.5
+Datsun F-10 Hatchback,cylinders,4
+Datsun F-10 Hatchback,displacement(cc),85
+Datsun F-10 Hatchback,power(hp),70
+Datsun PL510,economy(mpg),27
+Datsun PL510,cylinders,4
+Datsun PL510,displacement(cc),97
+Datsun PL510,power(hp),88
+Datsun PL510,economy(mpg),27
+Datsun PL510,cylinders,4
+Datsun PL510,displacement(cc),97
+Datsun PL510,power(hp),88
+Dodge Aries SE,economy(mpg),29
+Dodge Aries SE,cylinders,4
+Dodge Aries SE,displacement(cc),135
+Dodge Aries SE,power(hp),84
+Dodge Aries Wagon (Wagon),economy(mpg),25.8
+Dodge Aries Wagon (Wagon),cylinders,4
+Dodge Aries Wagon (Wagon),displacement(cc),156
+Dodge Aries Wagon (Wagon),power(hp),92
+Dodge Aspen 6,economy(mpg),20.6
+Dodge Aspen 6,cylinders,6
+Dodge Aspen 6,displacement(cc),225
+Dodge Aspen 6,power(hp),110
+Dodge Aspen SE,economy(mpg),20
+Dodge Aspen SE,cylinders,6
+Dodge Aspen SE,displacement(cc),225
+Dodge Aspen SE,power(hp),100
+Dodge Aspen,economy(mpg),18.6
+Dodge Aspen,cylinders,6
+Dodge Aspen,displacement(cc),225
+Dodge Aspen,power(hp),110
+Dodge Aspen,economy(mpg),19.1
+Dodge Aspen,cylinders,6
+Dodge Aspen,displacement(cc),225
+Dodge Aspen,power(hp),90
+Dodge Challenger SE,economy(mpg),15
+Dodge Challenger SE,cylinders,8
+Dodge Challenger SE,displacement(cc),383
+Dodge Challenger SE,power(hp),170
+Dodge Charger 2.2,economy(mpg),36
+Dodge Charger 2.2,cylinders,4
+Dodge Charger 2.2,displacement(cc),135
+Dodge Charger 2.2,power(hp),84
+Dodge Colt (Wagon),economy(mpg),28
+Dodge Colt (Wagon),cylinders,4
+Dodge Colt (Wagon),displacement(cc),98
+Dodge Colt (Wagon),power(hp),80
+Dodge Colt Hardtop,economy(mpg),25
+Dodge Colt Hardtop,cylinders,4
+Dodge Colt Hardtop,displacement(cc),97.5
+Dodge Colt Hardtop,power(hp),80
+Dodge Colt Hatchback Custom,economy(mpg),35.7
+Dodge Colt Hatchback Custom,cylinders,4
+Dodge Colt Hatchback Custom,displacement(cc),98
+Dodge Colt Hatchback Custom,power(hp),80
+Dodge Colt M/M,economy(mpg),33.5
+Dodge Colt M/M,cylinders,4
+Dodge Colt M/M,displacement(cc),98
+Dodge Colt M/M,power(hp),83
+Dodge Colt,economy(mpg),26
+Dodge Colt,cylinders,4
+Dodge Colt,displacement(cc),98
+Dodge Colt,power(hp),79
+Dodge Colt,economy(mpg),27.9
+Dodge Colt,cylinders,4
+Dodge Colt,displacement(cc),156
+Dodge Colt,power(hp),105
+Dodge Colt,economy(mpg),28
+Dodge Colt,cylinders,4
+Dodge Colt,displacement(cc),90
+Dodge Colt,power(hp),75
+Dodge Coronet Brougham,economy(mpg),16
+Dodge Coronet Brougham,cylinders,8
+Dodge Coronet Brougham,displacement(cc),318
+Dodge Coronet Brougham,power(hp),150
+Dodge Coronet Custom (Wagon),economy(mpg),14
+Dodge Coronet Custom (Wagon),cylinders,8
+Dodge Coronet Custom (Wagon),displacement(cc),318
+Dodge Coronet Custom (Wagon),power(hp),150
+Dodge Coronet Custom,economy(mpg),15
+Dodge Coronet Custom,cylinders,8
+Dodge Coronet Custom,displacement(cc),318
+Dodge Coronet Custom,power(hp),150
+Dodge D100,economy(mpg),13
+Dodge D100,cylinders,8
+Dodge D100,displacement(cc),318
+Dodge D100,power(hp),150
+Dodge D200,economy(mpg),11
+Dodge D200,cylinders,8
+Dodge D200,displacement(cc),318
+Dodge D200,power(hp),210
+Dodge Dart Custom,economy(mpg),15
+Dodge Dart Custom,cylinders,8
+Dodge Dart Custom,displacement(cc),318
+Dodge Dart Custom,power(hp),150
+Dodge Diplomat,economy(mpg),19.4
+Dodge Diplomat,cylinders,8
+Dodge Diplomat,displacement(cc),318
+Dodge Diplomat,power(hp),140
+Dodge Magnum XE,economy(mpg),17.5
+Dodge Magnum XE,cylinders,8
+Dodge Magnum XE,displacement(cc),318
+Dodge Magnum XE,power(hp),140
+Dodge Monaco (Wagon),economy(mpg),12
+Dodge Monaco (Wagon),cylinders,8
+Dodge Monaco (Wagon),displacement(cc),383
+Dodge Monaco (Wagon),power(hp),180
+Dodge Monaco Brougham,economy(mpg),15.5
+Dodge Monaco Brougham,cylinders,8
+Dodge Monaco Brougham,displacement(cc),318
+Dodge Monaco Brougham,power(hp),145
+Dodge Omni,economy(mpg),30.9
+Dodge Omni,cylinders,4
+Dodge Omni,displacement(cc),105
+Dodge Omni,power(hp),75
+Dodge Rampage,economy(mpg),32
+Dodge Rampage,cylinders,4
+Dodge Rampage,displacement(cc),135
+Dodge Rampage,power(hp),84
+Dodge St. Regis,economy(mpg),18.2
+Dodge St. Regis,cylinders,8
+Dodge St. Regis,displacement(cc),318
+Dodge St. Regis,power(hp),135
+Fiat 124 Sport Coupe,economy(mpg),26
+Fiat 124 Sport Coupe,cylinders,4
+Fiat 124 Sport Coupe,displacement(cc),98
+Fiat 124 Sport Coupe,power(hp),90
+Fiat 124 TC,economy(mpg),26
+Fiat 124 TC,cylinders,4
+Fiat 124 TC,displacement(cc),116
+Fiat 124 TC,power(hp),75
+Fiat 124B,economy(mpg),30
+Fiat 124B,cylinders,4
+Fiat 124B,displacement(cc),88
+Fiat 124B,power(hp),76
+Fiat 128,economy(mpg),24
+Fiat 128,cylinders,4
+Fiat 128,displacement(cc),90
+Fiat 128,power(hp),75
+Fiat 128,economy(mpg),29
+Fiat 128,cylinders,4
+Fiat 128,displacement(cc),68
+Fiat 128,power(hp),49
+Fiat 131,economy(mpg),28
+Fiat 131,cylinders,4
+Fiat 131,displacement(cc),107
+Fiat 131,power(hp),86
+Fiat Strada Custom,economy(mpg),37.3
+Fiat Strada Custom,cylinders,4
+Fiat Strada Custom,displacement(cc),91
+Fiat Strada Custom,power(hp),69
+Fiat X1.9,economy(mpg),31
+Fiat X1.9,cylinders,4
+Fiat X1.9,displacement(cc),79
+Fiat X1.9,power(hp),67
+Ford Capri II,economy(mpg),25
+Ford Capri II,cylinders,4
+Ford Capri II,displacement(cc),140
+Ford Capri II,power(hp),92
+Ford Country Squire (Wagon),economy(mpg),13
+Ford Country Squire (Wagon),cylinders,8
+Ford Country Squire (Wagon),displacement(cc),400
+Ford Country Squire (Wagon),power(hp),170
+Ford Country Squire (Wagon),economy(mpg),15.5
+Ford Country Squire (Wagon),cylinders,8
+Ford Country Squire (Wagon),displacement(cc),351
+Ford Country Squire (Wagon),power(hp),142
+Ford Country,economy(mpg),12
+Ford Country,cylinders,8
+Ford Country,displacement(cc),400
+Ford Country,power(hp),167
+Ford Escort 2H,economy(mpg),29.9
+Ford Escort 2H,cylinders,4
+Ford Escort 2H,displacement(cc),98
+Ford Escort 2H,power(hp),65
+Ford Escort 4W,economy(mpg),34.4
+Ford Escort 4W,cylinders,4
+Ford Escort 4W,displacement(cc),98
+Ford Escort 4W,power(hp),65
+Ford F108,economy(mpg),13
+Ford F108,cylinders,8
+Ford F108,displacement(cc),302
+Ford F108,power(hp),130
+Ford F250,economy(mpg),10
+Ford F250,cylinders,8
+Ford F250,displacement(cc),360
+Ford F250,power(hp),215
+Ford Fairmont (Auto),economy(mpg),20.2
+Ford Fairmont (Auto),cylinders,6
+Ford Fairmont (Auto),displacement(cc),200
+Ford Fairmont (Auto),power(hp),85
+Ford Fairmont (Man),economy(mpg),25.1
+Ford Fairmont (Man),cylinders,4
+Ford Fairmont (Man),displacement(cc),140
+Ford Fairmont (Man),power(hp),88
+Ford Fairmont 4,economy(mpg),22.3
+Ford Fairmont 4,cylinders,4
+Ford Fairmont 4,displacement(cc),140
+Ford Fairmont 4,power(hp),88
+Ford Fairmont Futura,economy(mpg),24
+Ford Fairmont Futura,cylinders,4
+Ford Fairmont Futura,displacement(cc),140
+Ford Fairmont Futura,power(hp),92
+Ford Fairmont,economy(mpg),26.4
+Ford Fairmont,cylinders,4
+Ford Fairmont,displacement(cc),140
+Ford Fairmont,power(hp),88
+Ford Fiesta,economy(mpg),36.1
+Ford Fiesta,cylinders,4
+Ford Fiesta,displacement(cc),98
+Ford Fiesta,power(hp),66
+Ford Futura,economy(mpg),18.1
+Ford Futura,cylinders,8
+Ford Futura,displacement(cc),302
+Ford Futura,power(hp),139
+Ford Galaxie 500,economy(mpg),14
+Ford Galaxie 500,cylinders,8
+Ford Galaxie 500,displacement(cc),351
+Ford Galaxie 500,power(hp),153
+Ford Galaxie 500,economy(mpg),14
+Ford Galaxie 500,cylinders,8
+Ford Galaxie 500,displacement(cc),351
+Ford Galaxie 500,power(hp),153
+Ford Galaxie 500,economy(mpg),15
+Ford Galaxie 500,cylinders,8
+Ford Galaxie 500,displacement(cc),429
+Ford Galaxie 500,power(hp),198
+Ford Gran Torino (Wagon),economy(mpg),13
+Ford Gran Torino (Wagon),cylinders,8
+Ford Gran Torino (Wagon),displacement(cc),302
+Ford Gran Torino (Wagon),power(hp),140
+Ford Gran Torino (Wagon),economy(mpg),14
+Ford Gran Torino (Wagon),cylinders,8
+Ford Gran Torino (Wagon),displacement(cc),302
+Ford Gran Torino (Wagon),power(hp),140
+Ford Gran Torino,economy(mpg),14
+Ford Gran Torino,cylinders,8
+Ford Gran Torino,displacement(cc),302
+Ford Gran Torino,power(hp),137
+Ford Gran Torino,economy(mpg),14.5
+Ford Gran Torino,cylinders,8
+Ford Gran Torino,displacement(cc),351
+Ford Gran Torino,power(hp),152
+Ford Gran Torino,economy(mpg),16
+Ford Gran Torino,cylinders,8
+Ford Gran Torino,displacement(cc),302
+Ford Gran Torino,power(hp),140
+Ford Granada Ghia,economy(mpg),18
+Ford Granada Ghia,cylinders,6
+Ford Granada Ghia,displacement(cc),250
+Ford Granada Ghia,power(hp),78
+Ford Granada GL,economy(mpg),20.2
+Ford Granada GL,cylinders,6
+Ford Granada GL,displacement(cc),200
+Ford Granada GL,power(hp),88
+Ford Granada L,economy(mpg),22
+Ford Granada L,cylinders,6
+Ford Granada L,displacement(cc),232
+Ford Granada L,power(hp),112
+Ford Granada,economy(mpg),18.5
+Ford Granada,cylinders,6
+Ford Granada,displacement(cc),250
+Ford Granada,power(hp),98
+Ford LTD Landau,economy(mpg),17.6
+Ford LTD Landau,cylinders,8
+Ford LTD Landau,displacement(cc),302
+Ford LTD Landau,power(hp),129
+Ford LTD,economy(mpg),13
+Ford LTD,cylinders,8
+Ford LTD,displacement(cc),351
+Ford LTD,power(hp),158
+Ford LTD,economy(mpg),14
+Ford LTD,cylinders,8
+Ford LTD,displacement(cc),351
+Ford LTD,power(hp),148
+Ford Maverick,economy(mpg),15
+Ford Maverick,cylinders,6
+Ford Maverick,displacement(cc),250
+Ford Maverick,power(hp),72
+Ford Maverick,economy(mpg),18
+Ford Maverick,cylinders,6
+Ford Maverick,displacement(cc),250
+Ford Maverick,power(hp),88
+Ford Maverick,economy(mpg),21
+Ford Maverick,cylinders,6
+Ford Maverick,displacement(cc),200
+Ford Maverick,power(hp),-1
+Ford Maverick,economy(mpg),21
+Ford Maverick,cylinders,6
+Ford Maverick,displacement(cc),200
+Ford Maverick,power(hp),85
+Ford Maverick,economy(mpg),24
+Ford Maverick,cylinders,6
+Ford Maverick,displacement(cc),200
+Ford Maverick,power(hp),81
+Ford Mustang Boss 302,economy(mpg),-1
+Ford Mustang Boss 302,cylinders,8
+Ford Mustang Boss 302,displacement(cc),302
+Ford Mustang Boss 302,power(hp),140
+Ford Mustang Cobra,economy(mpg),23.6
+Ford Mustang Cobra,cylinders,4
+Ford Mustang Cobra,displacement(cc),140
+Ford Mustang Cobra,power(hp),-1
+Ford Mustang GL,economy(mpg),27
+Ford Mustang GL,cylinders,4
+Ford Mustang GL,displacement(cc),140
+Ford Mustang GL,power(hp),86
+Ford Mustang II 2+2,economy(mpg),25.5
+Ford Mustang II 2+2,cylinders,4
+Ford Mustang II 2+2,displacement(cc),140
+Ford Mustang II 2+2,power(hp),89
+Ford Mustang II,economy(mpg),13
+Ford Mustang II,cylinders,8
+Ford Mustang II,displacement(cc),302
+Ford Mustang II,power(hp),129
+Ford Mustang,economy(mpg),18
+Ford Mustang,cylinders,6
+Ford Mustang,displacement(cc),250
+Ford Mustang,power(hp),88
+Ford Pinto (Wagon),economy(mpg),22
+Ford Pinto (Wagon),cylinders,4
+Ford Pinto (Wagon),displacement(cc),122
+Ford Pinto (Wagon),power(hp),86
+Ford Pinto Runabout,economy(mpg),21
+Ford Pinto Runabout,cylinders,4
+Ford Pinto Runabout,displacement(cc),122
+Ford Pinto Runabout,power(hp),86
+Ford Pinto,economy(mpg),18
+Ford Pinto,cylinders,6
+Ford Pinto,displacement(cc),171
+Ford Pinto,power(hp),97
+Ford Pinto,economy(mpg),19
+Ford Pinto,cylinders,4
+Ford Pinto,displacement(cc),122
+Ford Pinto,power(hp),85
+Ford Pinto,economy(mpg),23
+Ford Pinto,cylinders,4
+Ford Pinto,displacement(cc),140
+Ford Pinto,power(hp),83
+Ford Pinto,economy(mpg),25
+Ford Pinto,cylinders,4
+Ford Pinto,displacement(cc),98
+Ford Pinto,power(hp),-1
+Ford Pinto,economy(mpg),26
+Ford Pinto,cylinders,4
+Ford Pinto,displacement(cc),122
+Ford Pinto,power(hp),80
+Ford Pinto,economy(mpg),26.5
+Ford Pinto,cylinders,4
+Ford Pinto,displacement(cc),140
+Ford Pinto,power(hp),72
+Ford Ranger,economy(mpg),28
+Ford Ranger,cylinders,4
+Ford Ranger,displacement(cc),120
+Ford Ranger,power(hp),79
+Ford Thunderbird,economy(mpg),16
+Ford Thunderbird,cylinders,8
+Ford Thunderbird,displacement(cc),351
+Ford Thunderbird,power(hp),149
+Ford Torino (Wagon),economy(mpg),-1
+Ford Torino (Wagon),cylinders,8
+Ford Torino (Wagon),displacement(cc),351
+Ford Torino (Wagon),power(hp),153
+Ford Torino 500,economy(mpg),19
+Ford Torino 500,cylinders,6
+Ford Torino 500,displacement(cc),250
+Ford Torino 500,power(hp),88
+Ford Torino,economy(mpg),17
+Ford Torino,cylinders,8
+Ford Torino,displacement(cc),302
+Ford Torino,power(hp),140
+Hi 1200D,economy(mpg),9
+Hi 1200D,cylinders,8
+Hi 1200D,displacement(cc),304
+Hi 1200D,power(hp),193
+Honda Accord CVCC,economy(mpg),31.5
+Honda Accord CVCC,cylinders,4
+Honda Accord CVCC,displacement(cc),98
+Honda Accord CVCC,power(hp),68
+Honda Accord LX,economy(mpg),29.5
+Honda Accord LX,cylinders,4
+Honda Accord LX,displacement(cc),98
+Honda Accord LX,power(hp),68
+Honda Accord,economy(mpg),32.4
+Honda Accord,cylinders,4
+Honda Accord,displacement(cc),107
+Honda Accord,power(hp),72
+Honda Accord,economy(mpg),36
+Honda Accord,cylinders,4
+Honda Accord,displacement(cc),107
+Honda Accord,power(hp),75
+Honda Civic (Auto),economy(mpg),32
+Honda Civic (Auto),cylinders,4
+Honda Civic (Auto),displacement(cc),91
+Honda Civic (Auto),power(hp),67
+Honda Civic 1300,economy(mpg),35.1
+Honda Civic 1300,cylinders,4
+Honda Civic 1300,displacement(cc),81
+Honda Civic 1300,power(hp),60
+Honda Civic 1500 GL,economy(mpg),44.6
+Honda Civic 1500 GL,cylinders,4
+Honda Civic 1500 GL,displacement(cc),91
+Honda Civic 1500 GL,power(hp),67
+Honda Civic CVCC,economy(mpg),33
+Honda Civic CVCC,cylinders,4
+Honda Civic CVCC,displacement(cc),91
+Honda Civic CVCC,power(hp),53
+Honda Civic CVCC,economy(mpg),36.1
+Honda Civic CVCC,cylinders,4
+Honda Civic CVCC,displacement(cc),91
+Honda Civic CVCC,power(hp),60
+Honda Civic,economy(mpg),24
+Honda Civic,cylinders,4
+Honda Civic,displacement(cc),120
+Honda Civic,power(hp),97
+Honda Civic,economy(mpg),33
+Honda Civic,cylinders,4
+Honda Civic,displacement(cc),91
+Honda Civic,power(hp),53
+Honda Civic,economy(mpg),38
+Honda Civic,cylinders,4
+Honda Civic,displacement(cc),91
+Honda Civic,power(hp),67
+Honda Prelude,economy(mpg),33.7
+Honda Prelude,cylinders,4
+Honda Prelude,displacement(cc),107
+Honda Prelude,power(hp),75
+Maxda GLC Deluxe,economy(mpg),34.1
+Maxda GLC Deluxe,cylinders,4
+Maxda GLC Deluxe,displacement(cc),86
+Maxda GLC Deluxe,power(hp),65
+Maxda RX-3,economy(mpg),18
+Maxda RX-3,cylinders,3
+Maxda RX-3,displacement(cc),70
+Maxda RX-3,power(hp),90
+Mazda 626,economy(mpg),31.3
+Mazda 626,cylinders,4
+Mazda 626,displacement(cc),120
+Mazda 626,power(hp),75
+Mazda 626,economy(mpg),31.6
+Mazda 626,cylinders,4
+Mazda 626,displacement(cc),120
+Mazda 626,power(hp),74
+Mazda GLC 4,economy(mpg),34.1
+Mazda GLC 4,cylinders,4
+Mazda GLC 4,displacement(cc),91
+Mazda GLC 4,power(hp),68
+Mazda GLC Custom L,economy(mpg),37
+Mazda GLC Custom L,cylinders,4
+Mazda GLC Custom L,displacement(cc),91
+Mazda GLC Custom L,power(hp),68
+Mazda GLC Custom,economy(mpg),31
+Mazda GLC Custom,cylinders,4
+Mazda GLC Custom,displacement(cc),91
+Mazda GLC Custom,power(hp),68
+Mazda GLC Deluxe,economy(mpg),32.8
+Mazda GLC Deluxe,cylinders,4
+Mazda GLC Deluxe,displacement(cc),78
+Mazda GLC Deluxe,power(hp),52
+Mazda GLC,economy(mpg),46.6
+Mazda GLC,cylinders,4
+Mazda GLC,displacement(cc),86
+Mazda GLC,power(hp),65
+Mazda RX-2 Coupe,economy(mpg),19
+Mazda RX-2 Coupe,cylinders,3
+Mazda RX-2 Coupe,displacement(cc),70
+Mazda RX-2 Coupe,power(hp),97
+Mazda RX-4,economy(mpg),21.5
+Mazda RX-4,cylinders,3
+Mazda RX-4,displacement(cc),80
+Mazda RX-4,power(hp),110
+Mazda RX-7 Gs,economy(mpg),23.7
+Mazda RX-7 Gs,cylinders,3
+Mazda RX-7 Gs,displacement(cc),70
+Mazda RX-7 Gs,power(hp),100
+Mercedes-Benz 240D,economy(mpg),30
+Mercedes-Benz 240D,cylinders,4
+Mercedes-Benz 240D,displacement(cc),146
+Mercedes-Benz 240D,power(hp),67
+Mercedes-Benz 280S,economy(mpg),16.5
+Mercedes-Benz 280S,cylinders,6
+Mercedes-Benz 280S,displacement(cc),168
+Mercedes-Benz 280S,power(hp),120
+Mercedes-Benz 300D,economy(mpg),25.4
+Mercedes-Benz 300D,cylinders,5
+Mercedes-Benz 300D,displacement(cc),183
+Mercedes-Benz 300D,power(hp),77
+Mercury Capri 2000,economy(mpg),23
+Mercury Capri 2000,cylinders,4
+Mercury Capri 2000,displacement(cc),122
+Mercury Capri 2000,power(hp),86
+Mercury Capri V6,economy(mpg),21
+Mercury Capri V6,cylinders,6
+Mercury Capri V6,displacement(cc),155
+Mercury Capri V6,power(hp),107
+Mercury Cougar Brougham,economy(mpg),15
+Mercury Cougar Brougham,cylinders,8
+Mercury Cougar Brougham,displacement(cc),302
+Mercury Cougar Brougham,power(hp),130
+Mercury Grand Marquis,economy(mpg),16.5
+Mercury Grand Marquis,cylinders,8
+Mercury Grand Marquis,displacement(cc),351
+Mercury Grand Marquis,power(hp),138
+Mercury Lynx L,economy(mpg),36
+Mercury Lynx L,cylinders,4
+Mercury Lynx L,displacement(cc),98
+Mercury Lynx L,power(hp),70
+Mercury Marquis Brougham,economy(mpg),12
+Mercury Marquis Brougham,cylinders,8
+Mercury Marquis Brougham,displacement(cc),429
+Mercury Marquis Brougham,power(hp),198
+Mercury Marquis,economy(mpg),11
+Mercury Marquis,cylinders,8
+Mercury Marquis,displacement(cc),429
+Mercury Marquis,power(hp),208
+Mercury Monarch Ghia,economy(mpg),20.2
+Mercury Monarch Ghia,cylinders,8
+Mercury Monarch Ghia,displacement(cc),302
+Mercury Monarch Ghia,power(hp),139
+Mercury Monarch,economy(mpg),15
+Mercury Monarch,cylinders,6
+Mercury Monarch,displacement(cc),250
+Mercury Monarch,power(hp),72
+Mercury Zephyr 6,economy(mpg),19.8
+Mercury Zephyr 6,cylinders,6
+Mercury Zephyr 6,displacement(cc),200
+Mercury Zephyr 6,power(hp),85
+Mercury Zephyr,economy(mpg),20.8
+Mercury Zephyr,cylinders,6
+Mercury Zephyr,displacement(cc),200
+Mercury Zephyr,power(hp),85
+Nissan Stanza XE,economy(mpg),36
+Nissan Stanza XE,cylinders,4
+Nissan Stanza XE,displacement(cc),120
+Nissan Stanza XE,power(hp),88
+Oldsmobile Cutlass Ciera (Diesel),economy(mpg),38
+Oldsmobile Cutlass Ciera (Diesel),cylinders,6
+Oldsmobile Cutlass Ciera (Diesel),displacement(cc),262
+Oldsmobile Cutlass Ciera (Diesel),power(hp),85
+Oldsmobile Cutlass LS,economy(mpg),26.6
+Oldsmobile Cutlass LS,cylinders,8
+Oldsmobile Cutlass LS,displacement(cc),350
+Oldsmobile Cutlass LS,power(hp),105
+Oldsmobile Cutlass Salon Brougham,economy(mpg),19.9
+Oldsmobile Cutlass Salon Brougham,cylinders,8
+Oldsmobile Cutlass Salon Brougham,displacement(cc),260
+Oldsmobile Cutlass Salon Brougham,power(hp),110
+Oldsmobile Cutlass Salon Brougham,economy(mpg),23.9
+Oldsmobile Cutlass Salon Brougham,cylinders,8
+Oldsmobile Cutlass Salon Brougham,displacement(cc),260
+Oldsmobile Cutlass Salon Brougham,power(hp),90
+Oldsmobile Cutlass Supreme,economy(mpg),17
+Oldsmobile Cutlass Supreme,cylinders,8
+Oldsmobile Cutlass Supreme,displacement(cc),260
+Oldsmobile Cutlass Supreme,power(hp),110
+Oldsmobile Delta 88 Royale,economy(mpg),12
+Oldsmobile Delta 88 Royale,cylinders,8
+Oldsmobile Delta 88 Royale,displacement(cc),350
+Oldsmobile Delta 88 Royale,power(hp),160
+Oldsmobile Omega Brougham,economy(mpg),26.8
+Oldsmobile Omega Brougham,cylinders,6
+Oldsmobile Omega Brougham,displacement(cc),173
+Oldsmobile Omega Brougham,power(hp),115
+Oldsmobile Omega,economy(mpg),11
+Oldsmobile Omega,cylinders,8
+Oldsmobile Omega,displacement(cc),350
+Oldsmobile Omega,power(hp),180
+Oldsmobile Starfire SX,economy(mpg),23.8
+Oldsmobile Starfire SX,cylinders,4
+Oldsmobile Starfire SX,displacement(cc),151
+Oldsmobile Starfire SX,power(hp),85
+Oldsmobile Vista Cruiser,economy(mpg),12
+Oldsmobile Vista Cruiser,cylinders,8
+Oldsmobile Vista Cruiser,displacement(cc),350
+Oldsmobile Vista Cruiser,power(hp),180
+Opel 1900,economy(mpg),25
+Opel 1900,cylinders,4
+Opel 1900,displacement(cc),116
+Opel 1900,power(hp),81
+Opel 1900,economy(mpg),28
+Opel 1900,cylinders,4
+Opel 1900,displacement(cc),116
+Opel 1900,power(hp),90
+Opel Manta,economy(mpg),24
+Opel Manta,cylinders,4
+Opel Manta,displacement(cc),116
+Opel Manta,power(hp),75
+Opel Manta,economy(mpg),26
+Opel Manta,cylinders,4
+Opel Manta,displacement(cc),97
+Opel Manta,power(hp),78
+Peugeot 304,economy(mpg),30
+Peugeot 304,cylinders,4
+Peugeot 304,displacement(cc),79
+Peugeot 304,power(hp),70
+Peugeot 504 (Wagon),economy(mpg),21
+Peugeot 504 (Wagon),cylinders,4
+Peugeot 504 (Wagon),displacement(cc),120
+Peugeot 504 (Wagon),power(hp),87
+Peugeot 504,economy(mpg),19
+Peugeot 504,cylinders,4
+Peugeot 504,displacement(cc),120
+Peugeot 504,power(hp),88
+Peugeot 504,economy(mpg),23
+Peugeot 504,cylinders,4
+Peugeot 504,displacement(cc),120
+Peugeot 504,power(hp),88
+Peugeot 504,economy(mpg),25
+Peugeot 504,cylinders,4
+Peugeot 504,displacement(cc),110
+Peugeot 504,power(hp),87
+Peugeot 504,economy(mpg),27.2
+Peugeot 504,cylinders,4
+Peugeot 504,displacement(cc),141
+Peugeot 504,power(hp),71
+Peugeot 505S Turbo Diesel,economy(mpg),28.1
+Peugeot 505S Turbo Diesel,cylinders,4
+Peugeot 505S Turbo Diesel,displacement(cc),141
+Peugeot 505S Turbo Diesel,power(hp),80
+Peugeot 604SL,economy(mpg),16.2
+Peugeot 604SL,cylinders,6
+Peugeot 604SL,displacement(cc),163
+Peugeot 604SL,power(hp),133
+Plymouth Arrow GS,economy(mpg),25.5
+Plymouth Arrow GS,cylinders,4
+Plymouth Arrow GS,displacement(cc),122
+Plymouth Arrow GS,power(hp),96
+Plymouth Barracuda 340,economy(mpg),14
+Plymouth Barracuda 340,cylinders,8
+Plymouth Barracuda 340,displacement(cc),340
+Plymouth Barracuda 340,power(hp),160
+Plymouth Champ,economy(mpg),39
+Plymouth Champ,cylinders,4
+Plymouth Champ,displacement(cc),86
+Plymouth Champ,power(hp),64
+Plymouth Cricket,economy(mpg),26
+Plymouth Cricket,cylinders,4
+Plymouth Cricket,displacement(cc),91
+Plymouth Cricket,power(hp),70
+Plymouth Custom Suburb,economy(mpg),13
+Plymouth Custom Suburb,cylinders,8
+Plymouth Custom Suburb,displacement(cc),360
+Plymouth Custom Suburb,power(hp),170
+Plymouth Duster,economy(mpg),20
+Plymouth Duster,cylinders,6
+Plymouth Duster,displacement(cc),198
+Plymouth Duster,power(hp),95
+Plymouth Duster,economy(mpg),22
+Plymouth Duster,cylinders,6
+Plymouth Duster,displacement(cc),198
+Plymouth Duster,power(hp),95
+Plymouth Duster,economy(mpg),23
+Plymouth Duster,cylinders,6
+Plymouth Duster,displacement(cc),198
+Plymouth Duster,power(hp),95
+Plymouth Fury Gran Sedan,economy(mpg),14
+Plymouth Fury Gran Sedan,cylinders,8
+Plymouth Fury Gran Sedan,displacement(cc),318
+Plymouth Fury Gran Sedan,power(hp),150
+Plymouth Fury III,economy(mpg),14
+Plymouth Fury III,cylinders,8
+Plymouth Fury III,displacement(cc),318
+Plymouth Fury III,power(hp),150
+Plymouth Fury III,economy(mpg),14
+Plymouth Fury III,cylinders,8
+Plymouth Fury III,displacement(cc),440
+Plymouth Fury III,power(hp),215
+Plymouth Fury III,economy(mpg),15
+Plymouth Fury III,cylinders,8
+Plymouth Fury III,displacement(cc),318
+Plymouth Fury III,power(hp),150
+Plymouth Fury,economy(mpg),18
+Plymouth Fury,cylinders,6
+Plymouth Fury,displacement(cc),225
+Plymouth Fury,power(hp),95
+Plymouth Grand Fury,economy(mpg),16
+Plymouth Grand Fury,cylinders,8
+Plymouth Grand Fury,displacement(cc),318
+Plymouth Grand Fury,power(hp),150
+Plymouth Horizon 4,economy(mpg),34.7
+Plymouth Horizon 4,cylinders,4
+Plymouth Horizon 4,displacement(cc),105
+Plymouth Horizon 4,power(hp),63
+Plymouth Horizon Miser,economy(mpg),38
+Plymouth Horizon Miser,cylinders,4
+Plymouth Horizon Miser,displacement(cc),105
+Plymouth Horizon Miser,power(hp),63
+Plymouth Horizon TC3,economy(mpg),34.5
+Plymouth Horizon TC3,cylinders,4
+Plymouth Horizon TC3,displacement(cc),105
+Plymouth Horizon TC3,power(hp),70
+Plymouth Horizon,economy(mpg),34.2
+Plymouth Horizon,cylinders,4
+Plymouth Horizon,displacement(cc),105
+Plymouth Horizon,power(hp),70
+Plymouth Reliant,economy(mpg),27.2
+Plymouth Reliant,cylinders,4
+Plymouth Reliant,displacement(cc),135
+Plymouth Reliant,power(hp),84
+Plymouth Reliant,economy(mpg),30
+Plymouth Reliant,cylinders,4
+Plymouth Reliant,displacement(cc),135
+Plymouth Reliant,power(hp),84
+Plymouth Sapporo,economy(mpg),23.2
+Plymouth Sapporo,cylinders,4
+Plymouth Sapporo,displacement(cc),156
+Plymouth Sapporo,power(hp),105
+Plymouth Satellite (Wagon),economy(mpg),-1
+Plymouth Satellite (Wagon),cylinders,8
+Plymouth Satellite (Wagon),displacement(cc),383
+Plymouth Satellite (Wagon),power(hp),175
+Plymouth Satellite Custom (Wagon),economy(mpg),14
+Plymouth Satellite Custom (Wagon),cylinders,8
+Plymouth Satellite Custom (Wagon),displacement(cc),318
+Plymouth Satellite Custom (Wagon),power(hp),150
+Plymouth Satellite Custom,economy(mpg),16
+Plymouth Satellite Custom,cylinders,6
+Plymouth Satellite Custom,displacement(cc),225
+Plymouth Satellite Custom,power(hp),105
+Plymouth Satellite Sebring,economy(mpg),18
+Plymouth Satellite Sebring,cylinders,6
+Plymouth Satellite Sebring,displacement(cc),225
+Plymouth Satellite Sebring,power(hp),105
+Plymouth Satellite,economy(mpg),18
+Plymouth Satellite,cylinders,8
+Plymouth Satellite,displacement(cc),318
+Plymouth Satellite,power(hp),150
+Plymouth Valiant Custom,economy(mpg),19
+Plymouth Valiant Custom,cylinders,6
+Plymouth Valiant Custom,displacement(cc),225
+Plymouth Valiant Custom,power(hp),95
+Plymouth Valiant,economy(mpg),18
+Plymouth Valiant,cylinders,6
+Plymouth Valiant,displacement(cc),225
+Plymouth Valiant,power(hp),105
+Plymouth Valiant,economy(mpg),22
+Plymouth Valiant,cylinders,6
+Plymouth Valiant,displacement(cc),225
+Plymouth Valiant,power(hp),100
+Plymouth Volare Custom,economy(mpg),19
+Plymouth Volare Custom,cylinders,6
+Plymouth Volare Custom,displacement(cc),225
+Plymouth Volare Custom,power(hp),100
+Plymouth Volare Premier V8,economy(mpg),13
+Plymouth Volare Premier V8,cylinders,8
+Plymouth Volare Premier V8,displacement(cc),318
+Plymouth Volare Premier V8,power(hp),150
+Plymouth Volare,economy(mpg),20.5
+Plymouth Volare,cylinders,6
+Plymouth Volare,displacement(cc),225
+Plymouth Volare,power(hp),100
+Pontiac Astro,economy(mpg),23
+Pontiac Astro,cylinders,4
+Pontiac Astro,displacement(cc),140
+Pontiac Astro,power(hp),78
+Pontiac Catalina Brougham,economy(mpg),14
+Pontiac Catalina Brougham,cylinders,8
+Pontiac Catalina Brougham,displacement(cc),400
+Pontiac Catalina Brougham,power(hp),175
+Pontiac Catalina,economy(mpg),14
+Pontiac Catalina,cylinders,8
+Pontiac Catalina,displacement(cc),400
+Pontiac Catalina,power(hp),175
+Pontiac Catalina,economy(mpg),14
+Pontiac Catalina,cylinders,8
+Pontiac Catalina,displacement(cc),455
+Pontiac Catalina,power(hp),225
+Pontiac Catalina,economy(mpg),16
+Pontiac Catalina,cylinders,8
+Pontiac Catalina,displacement(cc),400
+Pontiac Catalina,power(hp),170
+Pontiac Firebird,economy(mpg),19
+Pontiac Firebird,cylinders,6
+Pontiac Firebird,displacement(cc),250
+Pontiac Firebird,power(hp),100
+Pontiac Grand Prix Lj,economy(mpg),16
+Pontiac Grand Prix Lj,cylinders,8
+Pontiac Grand Prix Lj,displacement(cc),400
+Pontiac Grand Prix Lj,power(hp),180
+Pontiac Grand Prix,economy(mpg),16
+Pontiac Grand Prix,cylinders,8
+Pontiac Grand Prix,displacement(cc),400
+Pontiac Grand Prix,power(hp),230
+Pontiac J2000 Se Hatchback,economy(mpg),31
+Pontiac J2000 Se Hatchback,cylinders,4
+Pontiac J2000 Se Hatchback,displacement(cc),112
+Pontiac J2000 Se Hatchback,power(hp),85
+Pontiac Lemans V6,economy(mpg),21.5
+Pontiac Lemans V6,cylinders,6
+Pontiac Lemans V6,displacement(cc),231
+Pontiac Lemans V6,power(hp),115
+Pontiac Phoenix LJ,economy(mpg),19.2
+Pontiac Phoenix LJ,cylinders,6
+Pontiac Phoenix LJ,displacement(cc),231
+Pontiac Phoenix LJ,power(hp),105
+Pontiac Phoenix,economy(mpg),27
+Pontiac Phoenix,cylinders,4
+Pontiac Phoenix,displacement(cc),151
+Pontiac Phoenix,power(hp),90
+Pontiac Phoenix,economy(mpg),33.5
+Pontiac Phoenix,cylinders,4
+Pontiac Phoenix,displacement(cc),151
+Pontiac Phoenix,power(hp),90
+Pontiac Safari (Wagon),economy(mpg),13
+Pontiac Safari (Wagon),cylinders,8
+Pontiac Safari (Wagon),displacement(cc),400
+Pontiac Safari (Wagon),power(hp),175
+Pontiac Sunbird Coupe,economy(mpg),24.5
+Pontiac Sunbird Coupe,cylinders,4
+Pontiac Sunbird Coupe,displacement(cc),151
+Pontiac Sunbird Coupe,power(hp),88
+Pontiac Ventura Sj,economy(mpg),18.5
+Pontiac Ventura Sj,cylinders,6
+Pontiac Ventura Sj,displacement(cc),250
+Pontiac Ventura Sj,power(hp),110
+Renault 12 (Wagon),economy(mpg),26
+Renault 12 (Wagon),cylinders,4
+Renault 12 (Wagon),displacement(cc),96
+Renault 12 (Wagon),power(hp),69
+Renault 12TL,economy(mpg),27
+Renault 12TL,cylinders,4
+Renault 12TL,displacement(cc),101
+Renault 12TL,power(hp),83
+Renault 18I,economy(mpg),34.5
+Renault 18I,cylinders,4
+Renault 18I,displacement(cc),100
+Renault 18I,power(hp),-1
+Renault 5 Gtl,economy(mpg),36
+Renault 5 Gtl,cylinders,4
+Renault 5 Gtl,displacement(cc),79
+Renault 5 Gtl,power(hp),58
+Renault Lecar Deluxe,economy(mpg),40.9
+Renault Lecar Deluxe,cylinders,4
+Renault Lecar Deluxe,displacement(cc),85
+Renault Lecar Deluxe,power(hp),-1
+Saab 900S,economy(mpg),-1
+Saab 900S,cylinders,4
+Saab 900S,displacement(cc),121
+Saab 900S,power(hp),110
+Saab 99E,economy(mpg),25
+Saab 99E,cylinders,4
+Saab 99E,displacement(cc),104
+Saab 99E,power(hp),95
+Saab 99GLE,economy(mpg),21.6
+Saab 99GLE,cylinders,4
+Saab 99GLE,displacement(cc),121
+Saab 99GLE,power(hp),115
+Saab 99LE,economy(mpg),24
+Saab 99LE,cylinders,4
+Saab 99LE,displacement(cc),121
+Saab 99LE,power(hp),110
+Saab 99LE,economy(mpg),25
+Saab 99LE,cylinders,4
+Saab 99LE,displacement(cc),121
+Saab 99LE,power(hp),115
+Subaru DL,economy(mpg),30
+Subaru DL,cylinders,4
+Subaru DL,displacement(cc),97
+Subaru DL,power(hp),67
+Subaru DL,economy(mpg),33.8
+Subaru DL,cylinders,4
+Subaru DL,displacement(cc),97
+Subaru DL,power(hp),67
+Subaru,economy(mpg),26
+Subaru,cylinders,4
+Subaru,displacement(cc),108
+Subaru,power(hp),93
+Subaru,economy(mpg),32.3
+Subaru,cylinders,4
+Subaru,displacement(cc),97
+Subaru,power(hp),67
+Toyota Carina,economy(mpg),20
+Toyota Carina,cylinders,4
+Toyota Carina,displacement(cc),97
+Toyota Carina,power(hp),88
+Toyota Celica GT Liftback,economy(mpg),21.1
+Toyota Celica GT Liftback,cylinders,4
+Toyota Celica GT Liftback,displacement(cc),134
+Toyota Celica GT Liftback,power(hp),95
+Toyota Celica GT,economy(mpg),32
+Toyota Celica GT,cylinders,4
+Toyota Celica GT,displacement(cc),144
+Toyota Celica GT,power(hp),96
+Toyota Corolla 1200,economy(mpg),31
+Toyota Corolla 1200,cylinders,4
+Toyota Corolla 1200,displacement(cc),71
+Toyota Corolla 1200,power(hp),65
+Toyota Corolla 1200,economy(mpg),32
+Toyota Corolla 1200,cylinders,4
+Toyota Corolla 1200,displacement(cc),71
+Toyota Corolla 1200,power(hp),65
+Toyota Corolla 1600 (Wagon),economy(mpg),27
+Toyota Corolla 1600 (Wagon),cylinders,4
+Toyota Corolla 1600 (Wagon),displacement(cc),97
+Toyota Corolla 1600 (Wagon),power(hp),88
+Toyota Corolla Liftback,economy(mpg),26
+Toyota Corolla Liftback,cylinders,4
+Toyota Corolla Liftback,displacement(cc),97
+Toyota Corolla Liftback,power(hp),75
+Toyota Corolla Tercel,economy(mpg),38.1
+Toyota Corolla Tercel,cylinders,4
+Toyota Corolla Tercel,displacement(cc),89
+Toyota Corolla Tercel,power(hp),60
+Toyota Corolla,economy(mpg),28
+Toyota Corolla,cylinders,4
+Toyota Corolla,displacement(cc),97
+Toyota Corolla,power(hp),75
+Toyota Corolla,economy(mpg),29
+Toyota Corolla,cylinders,4
+Toyota Corolla,displacement(cc),97
+Toyota Corolla,power(hp),75
+Toyota Corolla,economy(mpg),32.2
+Toyota Corolla,cylinders,4
+Toyota Corolla,displacement(cc),108
+Toyota Corolla,power(hp),75
+Toyota Corolla,economy(mpg),32.4
+Toyota Corolla,cylinders,4
+Toyota Corolla,displacement(cc),108
+Toyota Corolla,power(hp),75
+Toyota Corolla,economy(mpg),34
+Toyota Corolla,cylinders,4
+Toyota Corolla,displacement(cc),108
+Toyota Corolla,power(hp),70
+Toyota Corona Hardtop,economy(mpg),24
+Toyota Corona Hardtop,cylinders,4
+Toyota Corona Hardtop,displacement(cc),113
+Toyota Corona Hardtop,power(hp),95
+Toyota Corona Liftback,economy(mpg),29.8
+Toyota Corona Liftback,cylinders,4
+Toyota Corona Liftback,displacement(cc),134
+Toyota Corona Liftback,power(hp),90
+Toyota Corona Mark II,economy(mpg),24
+Toyota Corona Mark II,cylinders,4
+Toyota Corona Mark II,displacement(cc),113
+Toyota Corona Mark II,power(hp),95
+Toyota Corona,economy(mpg),24
+Toyota Corona,cylinders,4
+Toyota Corona,displacement(cc),134
+Toyota Corona,power(hp),96
+Toyota Corona,economy(mpg),25
+Toyota Corona,cylinders,4
+Toyota Corona,displacement(cc),113
+Toyota Corona,power(hp),95
+Toyota Corona,economy(mpg),27.5
+Toyota Corona,cylinders,4
+Toyota Corona,displacement(cc),134
+Toyota Corona,power(hp),95
+Toyota Corona,economy(mpg),31
+Toyota Corona,cylinders,4
+Toyota Corona,displacement(cc),76
+Toyota Corona,power(hp),52
+Toyota Cressida,economy(mpg),25.4
+Toyota Cressida,cylinders,6
+Toyota Cressida,displacement(cc),168
+Toyota Cressida,power(hp),116
+Toyota Mark II,economy(mpg),19
+Toyota Mark II,cylinders,6
+Toyota Mark II,displacement(cc),156
+Toyota Mark II,power(hp),108
+Toyota Mark II,economy(mpg),20
+Toyota Mark II,cylinders,6
+Toyota Mark II,displacement(cc),156
+Toyota Mark II,power(hp),122
+Toyota Starlet,economy(mpg),39.1
+Toyota Starlet,cylinders,4
+Toyota Starlet,displacement(cc),79
+Toyota Starlet,power(hp),58
+Toyota Tercel,economy(mpg),37.7
+Toyota Tercel,cylinders,4
+Toyota Tercel,displacement(cc),89
+Toyota Tercel,power(hp),62
+Toyouta Corona Mark II (Wagon),economy(mpg),23
+Toyouta Corona Mark II (Wagon),cylinders,4
+Toyouta Corona Mark II (Wagon),displacement(cc),120
+Toyouta Corona Mark II (Wagon),power(hp),97
+Triumph TR7 Coupe,economy(mpg),35
+Triumph TR7 Coupe,cylinders,4
+Triumph TR7 Coupe,displacement(cc),122
+Triumph TR7 Coupe,power(hp),88
+Vokswagen Rabbit,economy(mpg),29.8
+Vokswagen Rabbit,cylinders,4
+Vokswagen Rabbit,displacement(cc),89
+Vokswagen Rabbit,power(hp),62
+Volkswagen 1131 Deluxe Sedan,economy(mpg),26
+Volkswagen 1131 Deluxe Sedan,cylinders,4
+Volkswagen 1131 Deluxe Sedan,displacement(cc),97
+Volkswagen 1131 Deluxe Sedan,power(hp),46
+Volkswagen 411 (Wagon),economy(mpg),22
+Volkswagen 411 (Wagon),cylinders,4
+Volkswagen 411 (Wagon),displacement(cc),121
+Volkswagen 411 (Wagon),power(hp),76
+Volkswagen Dasher (Diesel),economy(mpg),43.4
+Volkswagen Dasher (Diesel),cylinders,4
+Volkswagen Dasher (Diesel),displacement(cc),90
+Volkswagen Dasher (Diesel),power(hp),48
+Volkswagen Dasher,economy(mpg),25
+Volkswagen Dasher,cylinders,4
+Volkswagen Dasher,displacement(cc),90
+Volkswagen Dasher,power(hp),71
+Volkswagen Dasher,economy(mpg),26
+Volkswagen Dasher,cylinders,4
+Volkswagen Dasher,displacement(cc),79
+Volkswagen Dasher,power(hp),67
+Volkswagen Dasher,economy(mpg),30.5
+Volkswagen Dasher,cylinders,4
+Volkswagen Dasher,displacement(cc),97
+Volkswagen Dasher,power(hp),78
+Volkswagen Jetta,economy(mpg),33
+Volkswagen Jetta,cylinders,4
+Volkswagen Jetta,displacement(cc),105
+Volkswagen Jetta,power(hp),74
+Volkswagen Model 111,economy(mpg),27
+Volkswagen Model 111,cylinders,4
+Volkswagen Model 111,displacement(cc),97
+Volkswagen Model 111,power(hp),60
+Volkswagen Pickup,economy(mpg),44
+Volkswagen Pickup,cylinders,4
+Volkswagen Pickup,displacement(cc),97
+Volkswagen Pickup,power(hp),52
+Volkswagen Rabbit C (Diesel),economy(mpg),44.3
+Volkswagen Rabbit C (Diesel),cylinders,4
+Volkswagen Rabbit C (Diesel),displacement(cc),90
+Volkswagen Rabbit C (Diesel),power(hp),48
+Volkswagen Rabbit Custom Diesel,economy(mpg),43.1
+Volkswagen Rabbit Custom Diesel,cylinders,4
+Volkswagen Rabbit Custom Diesel,displacement(cc),90
+Volkswagen Rabbit Custom Diesel,power(hp),48
+Volkswagen Rabbit Custom,economy(mpg),29
+Volkswagen Rabbit Custom,cylinders,4
+Volkswagen Rabbit Custom,displacement(cc),97
+Volkswagen Rabbit Custom,power(hp),78
+Volkswagen Rabbit Custom,economy(mpg),31.9
+Volkswagen Rabbit Custom,cylinders,4
+Volkswagen Rabbit Custom,displacement(cc),89
+Volkswagen Rabbit Custom,power(hp),71
+Volkswagen Rabbit L,economy(mpg),36
+Volkswagen Rabbit L,cylinders,4
+Volkswagen Rabbit L,displacement(cc),105
+Volkswagen Rabbit L,power(hp),74
+Volkswagen Rabbit,economy(mpg),29
+Volkswagen Rabbit,cylinders,4
+Volkswagen Rabbit,displacement(cc),90
+Volkswagen Rabbit,power(hp),70
+Volkswagen Rabbit,economy(mpg),29
+Volkswagen Rabbit,cylinders,4
+Volkswagen Rabbit,displacement(cc),90
+Volkswagen Rabbit,power(hp),70
+Volkswagen Rabbit,economy(mpg),29.5
+Volkswagen Rabbit,cylinders,4
+Volkswagen Rabbit,displacement(cc),97
+Volkswagen Rabbit,power(hp),71
+Volkswagen Rabbit,economy(mpg),41.5
+Volkswagen Rabbit,cylinders,4
+Volkswagen Rabbit,displacement(cc),98
+Volkswagen Rabbit,power(hp),76
+Volkswagen Scirocco,economy(mpg),31.5
+Volkswagen Scirocco,cylinders,4
+Volkswagen Scirocco,displacement(cc),89
+Volkswagen Scirocco,power(hp),71
+Volkswagen Super Beetle 117,economy(mpg),-1
+Volkswagen Super Beetle 117,cylinders,4
+Volkswagen Super Beetle 117,displacement(cc),97
+Volkswagen Super Beetle 117,power(hp),48
+Volkswagen Super Beetle,economy(mpg),26
+Volkswagen Super Beetle,cylinders,4
+Volkswagen Super Beetle,displacement(cc),97
+Volkswagen Super Beetle,power(hp),46
+Volkswagen Type 3,economy(mpg),23
+Volkswagen Type 3,cylinders,4
+Volkswagen Type 3,displacement(cc),97
+Volkswagen Type 3,power(hp),54
+Volvo 144EA,economy(mpg),19
+Volvo 144EA,cylinders,4
+Volvo 144EA,displacement(cc),121
+Volvo 144EA,power(hp),112
+Volvo 145E (Wagon),economy(mpg),18
+Volvo 145E (Wagon),cylinders,4
+Volvo 145E (Wagon),displacement(cc),121
+Volvo 145E (Wagon),power(hp),112
+Volvo 244DL,economy(mpg),22
+Volvo 244DL,cylinders,4
+Volvo 244DL,displacement(cc),121
+Volvo 244DL,power(hp),98
+Volvo 245,economy(mpg),20
+Volvo 245,cylinders,4
+Volvo 245,displacement(cc),130
+Volvo 245,power(hp),102
+Volvo 264GL,economy(mpg),17
+Volvo 264GL,cylinders,6
+Volvo 264GL,displacement(cc),163
+Volvo 264GL,power(hp),125
+Volvo Diesel,economy(mpg),30.7
+Volvo Diesel,cylinders,6
+Volvo Diesel,displacement(cc),145
+Volvo Diesel,power(hp),76

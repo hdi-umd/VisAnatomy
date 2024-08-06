@@ -1,0 +1,29 @@
+﻿category,widthpercent,seriesname,value
+Germany,20,Recycling & composting,65
+Germany,20,Inceneration with energy recorvery,22
+Germany,20,Inceneration without energy recovery,13
+Germany,20,Landfill,0
+UK,10,Recycling & composting,43
+UK,10,Inceneration with energy recorvery,23
+UK,10,Inceneration without energy recovery,0
+UK,10,Landfill,34
+Australia,5,Recycling & composting,41
+Australia,5,Inceneration with energy recorvery,6
+Australia,5,Inceneration without energy recovery,0
+Australia,5,Landfill,53
+France,10,Recycling & composting,38
+France,10,Inceneration with energy recorvery,33
+France,10,Inceneration without energy recovery,0
+France,10,Landfill,29
+USA,35,Recycling & composting,35
+USA,35,Inceneration with energy recorvery,9
+USA,35,Inceneration without energy recovery,6
+USA,35,Landfill,50
+Japan,10,Recycling & composting,19
+Japan,10,Inceneration with energy recorvery,71
+Japan,10,Inceneration without energy recovery,0
+Japan,10,Landfill,10
+Mexico,10,Recycling & composting,4
+Mexico,10,Inceneration with energy recorvery,6
+Mexico,10,Inceneration without energy recovery,0
+Mexico,10,Landfill,90

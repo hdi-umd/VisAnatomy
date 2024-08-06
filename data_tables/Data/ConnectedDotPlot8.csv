@@ -1,0 +1,33 @@
+Area,Borough,Crime Rate
+Inner London,Camden,107
+Inner London,Greenwich,87
+Inner London,Hackney,105
+Inner London,Hammersmith and Fulham,103
+Inner London,Islington,102
+Inner London,Kensington and Chelsea,115
+Inner London,Lambeth,96
+Inner London,Lewisham,85
+Inner London,Southwark,98
+Inner London,Tower Hamlets,97
+Inner London,Wandsworth,75
+Inner London,Westminster,189
+Outer London,Barking and Dagenham,87
+Outer London,Barnet,67
+Outer London,Bexley,60
+Outer London,Brent,82
+Outer London,Bromley,67
+Outer London,Croydon,82
+Outer London,Ealing,82
+Outer London,Enfield,85
+Outer London,Haringey,106
+Outer London,Harrow,58
+Outer London,Havering,65
+Outer London,Hillingdon,79
+Outer London,Hounslow,83
+Outer London,Kingston upon Thames,62
+Outer London,Merton,62
+Outer London,Newham,93
+Outer London,Redbridge,78
+Outer London,Richmond upon Thames,56
+Outer London,Sutton,62
+Outer London,Waltham Forest,79

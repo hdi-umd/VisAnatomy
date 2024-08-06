@@ -1,0 +1,193 @@
+Country,GDP per capita,Life expectancy
+Lesotho,2598,47.1
+Central African Republic,599,49.6
+Swaziland,6095,51.8
+Afghanistan,1925,53.8
+Somalia,624,54.2
+Guinea-Bissau,1386,55.6
+South Sudan,3047,56.1
+Zambia,4034,56.7
+Mozambique,1176,57.1
+Sierra Leone,2085,57.1
+Chad,2191,57.4
+Botswana,17196,58.7
+Guinea,1225,59.1
+Cote d'Ivoire,3491,59.1
+Zimbabwe,1801,59.3
+Cameroon,2897,59.4
+Angola,7615,59.6
+Mali,1684,60.2
+Malawi,799,60.5
+Congo Dem. Rep.,809,60.8
+Burkina Faso,1654,60.9
+Papua New Guinea,2529,60.9
+Niger,943,61
+Equatorial Guinea,31087,61
+Uganda,1680,61.3
+South Africa,12509,61.3
+Burundi,777,61.4
+Togo,1433,61.5
+Congo Rep.,6220,61.5
+Benin,1830,62.3
+Kiribati,1824,63
+Liberia,958,63.2
+Madagascar,1400,63.5
+Djibouti,3139,63.8
+Solomon Islands,2047,64
+Tanzania,2571,64.1
+Namibia,10040,64.2
+Haiti,1710,64.3
+Nigeria,5727,64.6
+Vanuatu,2912,64.9
+Kenya,2898,65.1
+Ethiopia,1520,65.2
+Senegal,2251,65.3
+Ghana,4099,65.3
+Fiji,7925,65.8
+Rwanda,1549,65.9
+Pakistan,4743,65.9
+Gabon,18627,65.9
+Yemen,3887,66
+Guyana,6816,66.8
+Marshall Islands,3661,66.9
+Lao,5212,67.1
+Mongolia,11819,67.1
+India,5903,67.2
+Iraq,14646,67.4
+Sudan,3975,67.5
+Sao Tome and Principe,3003,68
+Myanmar,4012,68
+Comoros,1472,68.1
+Gambia,1644,68.1
+Syria,4637,68.2
+Micronesia Fed. Sts.,3510,68.9
+Cambodia,3267,69.4
+Nepal,2352,69.7
+Mauritania,3877,69.7
+Kyrgyz Republic,3245,69.8
+Turkmenistan,15865,70
+Kazakhstan,23468,70.2
+Bangladesh,3161,70.4
+Philippines,6876,71
+Belarus,17415,71
+Russia,23038,71
+Indonesia,10504,71.1
+St. Vincent and the Grenadines,10435,71.2
+Tonga,5069,71.5
+Ukraine,8449,71.5
+Egypt,11031,71.5
+Grenada,11593,71.5
+Belize,8501,71.7
+Uzbekistan,5598,71.8
+Suriname,17125,72
+North Korea,1390,72.1
+Greenland,27763,72.1
+Timor-Leste,2086,72.4
+Tajikistan,2582,72.4
+Trinidad and Tobago,30113,72.4
+Guatemala,7279,72.6
+Bhutan,7983,72.7
+Georgia,7474,72.9
+Azerbaijan,16986,72.9
+Honduras,4270,73
+Dominica,10503,73.1
+Samoa,5558,73.2
+Bolivia,6295,73.2
+Bahamas,22818,73.7
+Moldova,4896,73.9
+Libya,17261,74.1
+Seychelles,25684,74.1
+Paraguay,8219,74.4
+Brazil,15441,74.4
+Mauritius,18350,74.5
+West Bank and Gaza,4319,74.6
+Morocco,7319,74.6
+Iran,15573,74.6
+Armenia,7763,74.7
+Thailand,14512,74.7
+St. Lucia,9997,74.8
+Venezuela,15753,74.8
+Bulgaria,16371,74.8
+El Salvador,7776,74.9
+Jamaica,8606,75
+Romania,19203,75.2
+Lithuania,26665,75.2
+Dominican Republic,12837,75.3
+Malaysia,24320,75.3
+Vietnam,5623,75.4
+Latvia,23282,75.4
+United Arab Emirates,60749,75.4
+Barbados,12984,75.7
+Aruba,37138,75.72
+Ecuador,10996,75.9
+Mexico,16850,75.9
+Serbia,12908,76.2
+China,13334,76.2
+Algeria,13434,76.4
+Antigua and Barbuda,21049,76.4
+Macedonia FYR,12547,76.5
+Argentina,17344,76.5
+Hungary,24200,76.7
+Uruguay,20438,76.8
+Brunei,73003,77.1
+Montenegro,14833,77.2
+Oman,48226,77.2
+Sri Lanka,10624,77.6
+Tunisia,11126,77.6
+Poland,24787,77.6
+Slovak Republic,27204,77.6
+Croatia,20260,77.8
+Estonia,26812,77.8
+Nicaragua,4712,78
+Albania,10620,78
+Colombia,12761,78
+Panama,20485,78.2
+Cuba,21291,78.2
+Jordan,11752,78.5
+Puerto Rico,33604,78.5
+Bermuda,47081,78.5
+Czech Republic,29437,78.8
+Bosnia and Herzegovina,9833,78.9
+Lebanon,17050,78.9
+Bahrain,44138,79.1
+United States,53354,79.1
+Turkey,19360,79.2
+Chile,22465,79.4
+Peru,11903,79.5
+Taiwan,42948,79.5
+Saudi Arabia,52469,79.5
+Qatar,132877,79.7
+Maldives,14408,80
+Costa Rica,14132,80.3
+Kuwait,82633,80.3
+Denmark,43495,80.4
+Belgium,41240,80.5
+Portugal,26437,80.8
+Germany,44053,80.8
+Macao,148374,80.82
+Slovenia,28550,80.9
+Finland,38923,80.9
+Greece,25430,81
+South Korea,34644,81
+United Kingdom,38225,81
+Austria,44401,81.3
+Netherlands,45784,81.3
+New Zealand,34186,81.4
+Canada,43294,81.7
+Ireland,47758,81.7
+Cyprus,29797,81.8
+France,37599,81.8
+Norway,64304,82
+Singapore,80794,82
+Malta,30265,82.1
+Israel,31590,82.1
+Sweden,44892,82.1
+Italy,33297,82.2
+Luxembourg,88314,82.2
+Australia,44056,82.3
+Spain,32979,82.6
+Switzerland,56118,83
+Japan,36162,83.2
+Iceland,42182,83.3
+Hong Kong,53874,83.73
+Andorra,46577,84.8

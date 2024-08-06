@@ -1,0 +1,409 @@
+State,Year,Unemployment,State Name,MapX,MapY,US Avg
+AK,'80,2.475,Alaska,0,7,Above Average
+AL,'80,1.708,Alabama,6,1,Above Average
+AR,'80,0.383,Arkansas,4,2,Above Average
+AZ,'80,-0.525,Arizona,1,2,Below Average
+CA,'80,-0.325,California,0,3,Below Average
+CO,'80,-1.367,Colorado,2,3,Below Average
+CT,'80,-1.367,Connecticut,9,4,Below Average
+DC,'80,0.192,District of Columbia,8,2,Above Average
+DE,'80,0.433,Delaware,9,3,Above Average
+FL,'80,-1.083,Florida,8,0,Below Average
+GA,'80,-0.825,Georgia,7,1,Below Average
+HI,'80,-2.117,Hawaii,0,0,Below Average
+IA,'80,-1.133,Iowa,4,4,Below Average
+ID,'80,0.35,Idaho,1,5,Above Average
+IL,'80,0.992,Illinois,5,5,Above Average
+IN,'80,2.5,Indiana,5,4,Above Average
+KS,'80,-2.742,Kansas,3,2,Below Average
+KY,'80,0.767,Kentucky,5,3,Above Average
+LA,'80,-0.325,Louisiana,4,1,Below Average
+MA,'80,-1.525,Massachusetts,9,5,Below Average
+MD,'80,-0.6,Maryland,8,3,Below Average
+ME,'80,0.45,Maine,10,7,Above Average
+MI,'80,5.175,Michigan,6,5,Above Average
+MN,'80,-1.4,Minnesota,4,5,Below Average
+MO,'80,0.05,Missouri,4,3,Above Average
+MS,'80,0.25,Mississippi,5,1,Above Average
+MT,'80,-1.058,Montana,2,5,Below Average
+NC,'80,-0.758,North Carolina,6,2,Below Average
+ND,'80,-2.233,North Dakota,3,5,Below Average
+NE,'80,-3.242,Nebraska,3,3,Below Average
+NH,'80,-2.625,New Hampshire,10,6,Below Average
+NJ,'80,0.042,New Jersey,8,4,Above Average
+NM,'80,0.4,New Mexico,2,2,Above Average
+NV,'80,-0.992,Nevada,1,4,Below Average
+NY,'80,0.308,New York,8,5,Above Average
+OH,'80,1.225,Ohio,6,4,Above Average
+OK,'80,-2.775,Oklahoma,3,1,Below Average
+OR,'80,1.308,Oregon,0,4,Above Average
+PA,'80,0.867,Pennsylvania,7,4,Above Average
+RI,'80,0.042,Rhode Island,10,4,Above Average
+SC,'80,-0.408,South Carolina,7,2,Below Average
+SD,'80,-2.383,South Dakota,3,4,Below Average
+TN,'80,0.283,Tennessee,5,2,Above Average
+TX,'80,-2.033,Texas,3,0,Below Average
+UT,'80,-0.975,Utah,1,3,Below Average
+VA,'80,-2,Virginia,7,3,Below Average
+VT,'80,-0.992,Vermont,9,6,Below Average
+WA,'80,0.892,Washington,0,5,Above Average
+WI,'80,0.058,Wisconsin,5,6,Above Average
+WV,'80,2.292,West Virginia,6,3,Above Average
+WY,'80,-3.308,Wyoming,2,4,Below Average
+AK,'85,2.5,Alaska,0,7,Above Average
+AL,'85,1.95,Alabama,6,1,Above Average
+AR,'85,1.492,Arkansas,4,2,Above Average
+AZ,'85,-0.858,Arizona,1,2,Below Average
+CA,'85,-0.017,California,0,3,Below Average
+CO,'85,-1.117,Colorado,2,3,Below Average
+CT,'85,-2.475,Connecticut,9,4,Below Average
+DC,'85,0.942,District of Columbia,8,2,Above Average
+DE,'85,-2.05,Delaware,9,3,Below Average
+FL,'85,-1.217,Florida,8,0,Below Average
+GA,'85,-0.783,Georgia,7,1,Below Average
+HI,'85,-1.8,Hawaii,0,0,Below Average
+IA,'85,0.258,Iowa,4,4,Above Average
+ID,'85,0.675,Idaho,1,5,Above Average
+IL,'85,1.858,Illinois,5,5,Above Average
+IN,'85,0.608,Indiana,5,4,Above Average
+KS,'85,-2.117,Kansas,3,2,Below Average
+KY,'85,2.008,Kentucky,5,3,Above Average
+LA,'85,4.358,Louisiana,4,1,Above Average
+MA,'85,-3.225,Massachusetts,9,5,Below Average
+MD,'85,-2.592,Maryland,8,3,Below Average
+ME,'85,-1.717,Maine,10,7,Below Average
+MI,'85,2.758,Michigan,6,5,Above Average
+MN,'85,-1.2,Minnesota,4,5,Below Average
+MO,'85,-0.667,Missouri,4,3,Below Average
+MS,'85,3.167,Mississippi,5,1,Above Average
+MT,'85,0.45,Montana,2,5,Above Average
+NC,'85,-1.633,North Carolina,6,2,Below Average
+ND,'85,-1.517,North Dakota,3,5,Below Average
+NE,'85,-2.033,Nebraska,3,3,Below Average
+NH,'85,-3.458,New Hampshire,10,6,Below Average
+NJ,'85,-1.592,New Jersey,8,4,Below Average
+NM,'85,1.142,New Mexico,2,2,Above Average
+NV,'85,0.508,Nevada,1,4,Above Average
+NY,'85,-0.583,New York,8,5,Below Average
+OH,'85,1.692,Ohio,6,4,Above Average
+OK,'85,-0.017,Oklahoma,3,1,Below Average
+OR,'85,1.667,Oregon,0,4,Above Average
+PA,'85,0.817,Pennsylvania,7,4,Above Average
+RI,'85,-2.558,Rhode Island,10,4,Below Average
+SC,'85,-0.267,South Carolina,7,2,Below Average
+SD,'85,-2.367,South Dakota,3,4,Below Average
+TN,'85,0.742,Tennessee,5,2,Above Average
+TX,'85,-0.15,Texas,3,0,Below Average
+UT,'85,-1.167,Utah,1,3,Below Average
+VA,'85,-1.708,Virginia,7,3,Below Average
+VT,'85,-2.408,Vermont,9,6,Below Average
+WA,'85,1.158,Washington,0,5,Above Average
+WI,'85,-0.025,Wisconsin,5,6,Below Average
+WV,'85,5.958,West Virginia,6,3,Above Average
+WY,'85,-0.308,Wyoming,2,4,Below Average
+AK,'90,1.617,Alaska,0,7,Above Average
+AL,'90,1.175,Alabama,6,1,Above Average
+AR,'90,1.292,Arkansas,4,2,Above Average
+AZ,'90,-0.358,Arizona,1,2,Below Average
+CA,'90,0.167,California,0,3,Above Average
+CO,'90,-0.383,Colorado,2,3,Below Average
+CT,'90,-0.492,Connecticut,9,4,Below Average
+DC,'90,0.65,District of Columbia,8,2,Above Average
+DE,'90,-0.908,Delaware,9,3,Below Average
+FL,'90,0.508,Florida,8,0,Above Average
+GA,'90,-0.15,Georgia,7,1,Below Average
+HI,'90,-2.933,Hawaii,0,0,Below Average
+IA,'90,-1.2,Iowa,4,4,Below Average
+ID,'90,-0.075,Idaho,1,5,Below Average
+IL,'90,0.575,Illinois,5,5,Above Average
+IN,'90,-0.317,Indiana,5,4,Below Average
+KS,'90,-1.3,Kansas,3,2,Below Average
+KY,'90,0.367,Kentucky,5,3,Above Average
+LA,'90,0.575,Louisiana,4,1,Above Average
+MA,'90,0.683,Massachusetts,9,5,Above Average
+MD,'90,-1.158,Maryland,8,3,Below Average
+ME,'90,-0.275,Maine,10,7,Below Average
+MI,'90,2.017,Michigan,6,5,Above Average
+MN,'90,-0.842,Minnesota,4,5,Below Average
+MO,'90,0.233,Missouri,4,3,Above Average
+MS,'90,1.975,Mississippi,5,1,Above Average
+MT,'90,0.358,Montana,2,5,Above Average
+NC,'90,-1.508,North Carolina,6,2,Below Average
+ND,'90,-1.592,North Dakota,3,5,Below Average
+NE,'90,-3.267,Nebraska,3,3,Below Average
+NH,'90,0.05,New Hampshire,10,6,Above Average
+NJ,'90,-0.567,New Jersey,8,4,Below Average
+NM,'90,0.95,New Mexico,2,2,Above Average
+NV,'90,-0.892,Nevada,1,4,Below Average
+NY,'90,-0.25,New York,8,5,Below Average
+OH,'90,0.05,Ohio,6,4,Above Average
+OK,'90,0.067,Oklahoma,3,1,Above Average
+OR,'90,-0.117,Oregon,0,4,Below Average
+PA,'90,-0.15,Pennsylvania,7,4,Below Average
+RI,'90,0.758,Rhode Island,10,4,Above Average
+SC,'90,-0.783,South Carolina,7,2,Below Average
+SD,'90,-1.833,South Dakota,3,4,Below Average
+TN,'90,-0.233,Tennessee,5,2,Below Average
+TX,'90,0.717,Texas,3,0,Above Average
+UT,'90,-1.208,Utah,1,3,Below Average
+VA,'90,-1.167,Virginia,7,3,Below Average
+VT,'90,-0.617,Vermont,9,6,Below Average
+WA,'90,-0.35,Washington,0,5,Below Average
+WI,'90,-1.233,Wisconsin,5,6,Below Average
+WV,'90,2.85,West Virginia,6,3,Above Average
+WY,'90,-0.292,Wyoming,2,4,Below Average
+AK,'95,1.725,Alaska,0,7,Above Average
+AL,'95,0.358,Alabama,6,1,Above Average
+AR,'95,-0.742,Arkansas,4,2,Below Average
+AZ,'95,-0.233,Arizona,1,2,Below Average
+CA,'95,2.267,California,0,3,Above Average
+CO,'95,-1.583,Colorado,2,3,Below Average
+CT,'95,-0.1,Connecticut,9,4,Below Average
+DC,'95,3.158,District of Columbia,8,2,Above Average
+DE,'95,-1.267,Delaware,9,3,Below Average
+FL,'95,-0.075,Florida,8,0,Below Average
+GA,'95,-0.767,Georgia,7,1,Below Average
+HI,'95,0.283,Hawaii,0,0,Above Average
+IA,'95,-2.133,Iowa,4,4,Below Average
+ID,'95,-0.175,Idaho,1,5,Below Average
+IL,'95,-0.442,Illinois,5,5,Below Average
+IN,'95,-0.983,Indiana,5,4,Below Average
+KS,'95,-1.175,Kansas,3,2,Below Average
+KY,'95,-0.183,Kentucky,5,3,Below Average
+LA,'95,1.392,Louisiana,4,1,Above Average
+MA,'95,-0.308,Massachusetts,9,5,Below Average
+MD,'95,-0.55,Maryland,8,3,Below Average
+ME,'95,0.342,Maine,10,7,Above Average
+MI,'95,-0.333,Michigan,6,5,Below Average
+MN,'95,-1.867,Minnesota,4,5,Below Average
+MO,'95,-0.867,Missouri,4,3,Below Average
+MS,'95,0.625,Mississippi,5,1,Above Average
+MT,'95,0.058,Montana,2,5,Above Average
+NC,'95,-1.283,North Carolina,6,2,Below Average
+ND,'95,-2.358,North Dakota,3,5,Below Average
+NE,'95,-2.95,Nebraska,3,3,Below Average
+NH,'95,-1.617,New Hampshire,10,6,Below Average
+NJ,'95,0.817,New Jersey,8,4,Above Average
+NM,'95,0.992,New Mexico,2,2,Above Average
+NV,'95,-0.033,Nevada,1,4,Below Average
+NY,'95,0.725,New York,8,5,Above Average
+OH,'95,-0.8,Ohio,6,4,Below Average
+OK,'95,-1,Oklahoma,3,1,Below Average
+OR,'95,-0.692,Oregon,0,4,Below Average
+PA,'95,0.267,Pennsylvania,7,4,Above Average
+RI,'95,0.725,Rhode Island,10,4,Above Average
+SC,'95,-0.4,South Carolina,7,2,Below Average
+SD,'95,-2.55,South Dakota,3,4,Below Average
+TN,'95,-0.425,Tennessee,5,2,Below Average
+TX,'95,0.467,Texas,3,0,Above Average
+UT,'95,-2.092,Utah,1,3,Below Average
+VA,'95,-1.067,Virginia,7,3,Below Average
+VT,'95,-1.333,Vermont,9,6,Below Average
+WA,'95,0.833,Washington,0,5,Above Average
+WI,'95,-1.817,Wisconsin,5,6,Below Average
+WV,'95,2.283,West Virginia,6,3,Above Average
+WY,'95,-0.817,Wyoming,2,4,Below Average
+AK,'00,2.392,Alaska,0,7,Above Average
+AL,'00,0.608,Alabama,6,1,Above Average
+AR,'00,0.308,Arkansas,4,2,Above Average
+AZ,'00,0.008,Arizona,1,2,Above Average
+CA,'00,0.992,California,0,3,Above Average
+CO,'00,-1.208,Colorado,2,3,Below Average
+CT,'00,-1.558,Connecticut,9,4,Below Average
+DC,'00,1.633,District of Columbia,8,2,Above Average
+DE,'00,-0.208,Delaware,9,3,Below Average
+FL,'00,-0.25,Florida,8,0,Below Average
+GA,'00,-0.383,Georgia,7,1,Below Average
+HI,'00,0.292,Hawaii,0,0,Above Average
+IA,'00,-1.342,Iowa,4,4,Below Average
+ID,'00,0.733,Idaho,1,5,Above Average
+IL,'00,0.367,Illinois,5,5,Above Average
+IN,'00,-0.825,Indiana,5,4,Below Average
+KS,'00,-0.358,Kansas,3,2,Below Average
+KY,'00,0.2,Kentucky,5,3,Above Average
+LA,'00,1.333,Louisiana,4,1,Above Average
+MA,'00,-1.258,Massachusetts,9,5,Below Average
+MD,'00,-0.383,Maryland,8,3,Below Average
+ME,'00,-0.608,Maine,10,7,Below Average
+MI,'00,-0.317,Michigan,6,5,Below Average
+MN,'00,-0.825,Minnesota,4,5,Below Average
+MO,'00,-0.383,Missouri,4,3,Below Average
+MS,'00,1.392,Mississippi,5,1,Above Average
+MT,'00,0.983,Montana,2,5,Above Average
+NC,'00,-0.283,North Carolina,6,2,Below Average
+ND,'00,-1.008,North Dakota,3,5,Below Average
+NE,'00,-1.133,Nebraska,3,3,Below Average
+NH,'00,-1.292,New Hampshire,10,6,Below Average
+NJ,'00,-0.267,New Jersey,8,4,Below Average
+NM,'00,0.958,New Mexico,2,2,Above Average
+NV,'00,0.2,Nevada,1,4,Above Average
+NY,'00,0.558,New York,8,5,Above Average
+OH,'00,0.033,Ohio,6,4,Above Average
+OK,'00,-0.925,Oklahoma,3,1,Below Average
+OR,'00,1.142,Oregon,0,4,Above Average
+PA,'00,0.158,Pennsylvania,7,4,Above Average
+RI,'00,0.108,Rhode Island,10,4,Above Average
+SC,'00,-0.167,South Carolina,7,2,Below Average
+SD,'00,-1.508,South Dakota,3,4,Below Average
+TN,'00,-0.1,Tennessee,5,2,Below Average
+TX,'00,0.308,Texas,3,0,Above Average
+UT,'00,-0.617,Utah,1,3,Below Average
+VA,'00,-1.667,Virginia,7,3,Below Average
+VT,'00,-1.167,Vermont,9,6,Below Average
+WA,'00,1.192,Washington,0,5,Above Average
+WI,'00,-0.425,Wisconsin,5,6,Below Average
+WV,'00,1.517,West Virginia,6,3,Above Average
+WY,'00,-0.083,Wyoming,2,4,Below Average
+AK,'05,1.8,Alaska,0,7,Above Average
+AL,'05,-0.583,Alabama,6,1,Below Average
+AR,'05,0.142,Arkansas,4,2,Above Average
+AZ,'05,-0.417,Arizona,1,2,Below Average
+CA,'05,0.317,California,0,3,Above Average
+CO,'05,-0.058,Colorado,2,3,Below Average
+CT,'05,-0.208,Connecticut,9,4,Below Average
+DC,'05,1.3,District of Columbia,8,2,Above Average
+DE,'05,-0.942,Delaware,9,3,Below Average
+FL,'05,-1.4,Florida,8,0,Below Average
+GA,'05,0.242,Georgia,7,1,Above Average
+HI,'05,-2.225,Hawaii,0,0,Below Average
+IA,'05,-0.833,Iowa,4,4,Below Average
+ID,'05,-1.05,Idaho,1,5,Below Average
+IL,'05,0.6,Illinois,5,5,Above Average
+IN,'05,0.383,Indiana,5,4,Above Average
+KS,'05,-0.075,Kansas,3,2,Below Average
+KY,'05,0.783,Kentucky,5,3,Above Average
+LA,'05,2.042,Louisiana,4,1,Above Average
+MA,'05,-0.233,Massachusetts,9,5,Below Average
+MD,'05,-0.958,Maryland,8,3,Below Average
+ME,'05,-0.208,Maine,10,7,Below Average
+MI,'05,1.7,Michigan,6,5,Above Average
+MN,'05,-1.017,Minnesota,4,5,Below Average
+MO,'05,0.292,Missouri,4,3,Above Average
+MS,'05,2.417,Mississippi,5,1,Above Average
+MT,'05,-0.758,Montana,2,5,Below Average
+NC,'05,0.158,North Carolina,6,2,Above Average
+ND,'05,-1.708,North Dakota,3,5,Below Average
+NE,'05,-1.283,Nebraska,3,3,Below Average
+NH,'05,-1.508,New Hampshire,10,6,Below Average
+NJ,'05,-0.633,New Jersey,8,4,Below Average
+NM,'05,0,New Mexico,2,2,Above Average
+NV,'05,-0.992,Nevada,1,4,Below Average
+NY,'05,-0.083,New York,8,5,Below Average
+OH,'05,0.825,Ohio,6,4,Above Average
+OK,'05,-0.625,Oklahoma,3,1,Below Average
+OR,'05,1.1,Oregon,0,4,Above Average
+PA,'05,-0.117,Pennsylvania,7,4,Below Average
+RI,'05,-0.042,Rhode Island,10,4,Below Average
+SC,'05,1.633,South Carolina,7,2,Above Average
+SD,'05,-1.283,South Dakota,3,4,Below Average
+TN,'05,0.475,Tennessee,5,2,Above Average
+TX,'05,0.325,Texas,3,0,Above Average
+UT,'05,-1.008,Utah,1,3,Below Average
+VA,'05,-1.508,Virginia,7,3,Below Average
+VT,'05,-1.592,Vermont,9,6,Below Average
+WA,'05,0.458,Washington,0,5,Above Average
+WI,'05,-0.367,Wisconsin,5,6,Below Average
+WV,'05,0.017,West Virginia,6,3,Above Average
+WY,'05,-1.508,Wyoming,2,4,Below Average
+AK,'10,-1.733,Alaska,0,7,Below Average
+AL,'10,0.933,Alabama,6,1,Above Average
+AR,'10,-1.417,Arkansas,4,2,Below Average
+AZ,'10,0.742,Arizona,1,2,Above Average
+CA,'10,2.617,California,0,3,Above Average
+CO,'10,-0.883,Colorado,2,3,Below Average
+CT,'10,-0.475,Connecticut,9,4,Below Average
+DC,'10,-0.2,District of Columbia,8,2,Below Average
+DE,'10,-1.192,Delaware,9,3,Below Average
+FL,'10,1.425,Florida,8,0,Above Average
+GA,'10,0.883,Georgia,7,1,Above Average
+HI,'10,-2.658,Hawaii,0,0,Below Average
+IA,'10,-3.6,Iowa,4,4,Below Average
+ID,'10,-0.642,Idaho,1,5,Below Average
+IL,'10,0.758,Illinois,5,5,Above Average
+IN,'10,0.733,Indiana,5,4,Above Average
+KS,'10,-2.55,Kansas,3,2,Below Average
+KY,'10,0.558,Kentucky,5,3,Above Average
+LA,'10,-1.658,Louisiana,4,1,Below Average
+MA,'10,-1.317,Massachusetts,9,5,Below Average
+MD,'10,-1.958,Maryland,8,3,Below Average
+ME,'10,-1.483,Maine,10,7,Below Average
+MI,'10,2.967,Michigan,6,5,Above Average
+MN,'10,-2.217,Minnesota,4,5,Below Average
+MO,'10,-0.033,Missouri,4,3,Below Average
+MS,'10,0.75,Mississippi,5,1,Above Average
+MT,'10,-2.308,Montana,2,5,Below Average
+NC,'10,1.208,North Carolina,6,2,Above Average
+ND,'10,-5.825,North Dakota,3,5,Below Average
+NE,'10,-4.983,Nebraska,3,3,Below Average
+NH,'10,-3.775,New Hampshire,10,6,Below Average
+NJ,'10,-0.075,New Jersey,8,4,Below Average
+NM,'10,-1.508,New Mexico,2,2,Below Average
+NV,'10,3.892,Nevada,1,4,Above Average
+NY,'10,-1.017,New York,8,5,Below Average
+OH,'10,0.633,Ohio,6,4,Above Average
+OK,'10,-2.833,Oklahoma,3,1,Below Average
+OR,'10,1,Oregon,0,4,Above Average
+PA,'10,-1.175,Pennsylvania,7,4,Below Average
+RI,'10,1.592,Rhode Island,10,4,Above Average
+SC,'10,1.525,South Carolina,7,2,Above Average
+SD,'10,-4.633,South Dakota,3,4,Below Average
+TN,'10,0.025,Tennessee,5,2,Above Average
+TX,'10,-1.475,Texas,3,0,Below Average
+UT,'10,-1.775,Utah,1,3,Below Average
+VA,'10,-2.483,Virginia,7,3,Below Average
+VT,'10,-3.525,Vermont,9,6,Below Average
+WA,'10,0.383,Washington,0,5,Above Average
+WI,'10,-0.967,Wisconsin,5,6,Below Average
+WV,'10,-0.983,West Virginia,6,3,Below Average
+WY,'10,-3.158,Wyoming,2,4,Below Average
+AK,'15,1.266,Alaska,0,7,Above Average
+AL,'15,0.825,Alabama,6,1,Above Average
+AR,'15,-0.242,Arkansas,4,2,Below Average
+AZ,'15,0.775,Arizona,1,2,Above Average
+CA,'15,0.933,California,0,3,Above Average
+CO,'15,-1.392,Colorado,2,3,Below Average
+CT,'15,0.466,Connecticut,9,4,Above Average
+DC,'15,1.608,District of Columbia,8,2,Above Average
+DE,'15,-0.417,Delaware,9,3,Below Average
+FL,'15,0.175,Florida,8,0,Above Average
+GA,'15,0.691,Georgia,7,1,Above Average
+HI,'15,-1.7,Hawaii,0,0,Below Average
+IA,'15,-1.492,Iowa,4,4,Below Average
+ID,'15,-1.042,Idaho,1,5,Below Average
+IL,'15,0.7,Illinois,5,5,Above Average
+IN,'15,-0.425,Indiana,5,4,Below Average
+KS,'15,-1.117,Kansas,3,2,Below Average
+KY,'15,0.025,Kentucky,5,3,Above Average
+LA,'15,1.066,Louisiana,4,1,Above Average
+MA,'15,-0.475,Massachusetts,9,5,Below Average
+MD,'15,-0.192,Maryland,8,3,Below Average
+ME,'15,-0.892,Maine,10,7,Below Average
+MI,'15,0.141,Michigan,6,5,Above Average
+MN,'15,-1.592,Minnesota,4,5,Below Average
+MO,'15,-0.275,Missouri,4,3,Below Average
+MS,'15,1.133,Mississippi,5,1,Above Average
+MT,'15,-1.075,Montana,2,5,Below Average
+NC,'15,0.45,North Carolina,6,2,Above Average
+ND,'15,-2.475,North Dakota,3,5,Below Average
+NE,'15,-2.25,Nebraska,3,3,Below Average
+NH,'15,-1.9,New Hampshire,10,6,Below Average
+NJ,'15,0.508,New Jersey,8,4,Above Average
+NM,'15,1.266,New Mexico,2,2,Above Average
+NV,'15,1.508,Nevada,1,4,Above Average
+NY,'15,-0.009,New York,8,5,Below Average
+OH,'15,-0.359,Ohio,6,4,Below Average
+OK,'15,-0.867,Oklahoma,3,1,Below Average
+OR,'15,0.316,Oregon,0,4,Above Average
+PA,'15,0.033,Pennsylvania,7,4,Above Average
+RI,'15,0.733,Rhode Island,10,4,Above Average
+SC,'15,0.683,South Carolina,7,2,Above Average
+SD,'15,-2.15,South Dakota,3,4,Below Average
+TN,'15,0.325,Tennessee,5,2,Above Average
+TX,'15,-0.842,Texas,3,0,Below Average
+UT,'15,-1.667,Utah,1,3,Below Average
+VA,'15,-0.809,Virginia,7,3,Below Average
+VT,'15,-1.692,Vermont,9,6,Below Average
+WA,'15,0.375,Washington,0,5,Above Average
+WI,'15,-0.742,Wisconsin,5,6,Below Average
+WV,'15,1.483,West Virginia,6,3,Above Average
+WY,'15,-0.95,Wyoming,2,4,Below Average

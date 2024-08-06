@@ -1,0 +1,12 @@
+title,startDate,duration,resource,open
+Design the layout,2022-7-15,3.0,Jane,
+Review with group,,1.0,,
+Make adjustments,,2.0,,
+Final review,,1.0,,
+Select plants,2022-7-25,5.0,Mary,
+Deliver plants,2022-8-9,1.0,,
+Site preparation,2022-8-10,5.0,Anne,True
+Plant trees,,3.0,,True
+Plant perennials,,3.0,,True
+Plant annuals,,2.0,,True
+Garden planted,,,,True

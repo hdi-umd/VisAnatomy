@@ -1,0 +1,181 @@
+﻿Name,Stop,Place
+ECKHOFF Tiril,Start,3
+ECKHOFF Tiril,1 Shooting,2
+ECKHOFF Tiril,2 Shooting,2
+ECKHOFF Tiril,3 Shooting,1
+ECKHOFF Tiril,4 Shooting,1
+ECKHOFF Tiril,Finish,1
+WIERER Dorothea,Start,2
+WIERER Dorothea,1 Shooting,15
+WIERER Dorothea,2 Shooting,4
+WIERER Dorothea,3 Shooting,4
+WIERER Dorothea,4 Shooting,2
+WIERER Dorothea,Finish,2
+PERSSON Linn,Start,12
+PERSSON Linn,1 Shooting,18
+PERSSON Linn,2 Shooting,10
+PERSSON Linn,3 Shooting,5
+PERSSON Linn,4 Shooting,3
+PERSSON Linn,Finish,3
+MAKARAINEN Kaisa,Start,15
+MAKARAINEN Kaisa,1 Shooting,5
+MAKARAINEN Kaisa,2 Shooting,1
+MAKARAINEN Kaisa,3 Shooting,2
+MAKARAINEN Kaisa,4 Shooting,7
+MAKARAINEN Kaisa,Finish,4
+HERRMANN Denise,Start,10
+HERRMANN Denise,1 Shooting,14
+HERRMANN Denise,2 Shooting,6
+HERRMANN Denise,3 Shooting,3
+HERRMANN Denise,4 Shooting,9
+HERRMANN Denise,Finish,5
+YURLOVA-PERCHT Ekaterina,Start,18
+YURLOVA-PERCHT Ekaterina,1 Shooting,11
+YURLOVA-PERCHT Ekaterina,2 Shooting,5
+YURLOVA-PERCHT Ekaterina,3 Shooting,6
+YURLOVA-PERCHT Ekaterina,4 Shooting,6
+YURLOVA-PERCHT Ekaterina,Finish,6
+BESCOND Anais,Start,22
+BESCOND Anais,1 Shooting,8
+BESCOND Anais,2 Shooting,15
+BESCOND Anais,3 Shooting,9
+BESCOND Anais,4 Shooting,4
+BESCOND Anais,Finish,7
+PREUSS Franziska,Start,11
+PREUSS Franziska,1 Shooting,9
+PREUSS Franziska,2 Shooting,8
+PREUSS Franziska,3 Shooting,7
+PREUSS Franziska,4 Shooting,5
+PREUSS Franziska,Finish,8
+HAUSER Lisa Theresa,Start,20
+HAUSER Lisa Theresa,1 Shooting,19
+HAUSER Lisa Theresa,2 Shooting,17
+HAUSER Lisa Theresa,3 Shooting,14
+HAUSER Lisa Theresa,4 Shooting,8
+HAUSER Lisa Theresa,Finish,9
+BRORSSON Mona,Start,12
+BRORSSON Mona,1 Shooting,6
+BRORSSON Mona,2 Shooting,13
+BRORSSON Mona,3 Shooting,11
+BRORSSON Mona,4 Shooting,10
+BRORSSON Mona,Finish,10
+CHARVATOVA Lucie,Start,25
+CHARVATOVA Lucie,1 Shooting,10
+CHARVATOVA Lucie,2 Shooting,12
+CHARVATOVA Lucie,3 Shooting,18
+CHARVATOVA Lucie,4 Shooting,12
+CHARVATOVA Lucie,Finish,11
+TANDREVOLD Ingrid Landmark,Start,1
+TANDREVOLD Ingrid Landmark,1 Shooting,16
+TANDREVOLD Ingrid Landmark,2 Shooting,9
+TANDREVOLD Ingrid Landmark,3 Shooting,8
+TANDREVOLD Ingrid Landmark,4 Shooting,11
+TANDREVOLD Ingrid Landmark,Finish,12
+EDER Mari,Start,28
+EDER Mari,1 Shooting,21
+EDER Mari,2 Shooting,14
+EDER Mari,3 Shooting,17
+EDER Mari,4 Shooting,16
+EDER Mari,Finish,13
+FIALKOVA Paulina,Start,9
+FIALKOVA Paulina,1 Shooting,4
+FIALKOVA Paulina,2 Shooting,3
+FIALKOVA Paulina,3 Shooting,15
+FIALKOVA Paulina,4 Shooting,14
+FIALKOVA Paulina,Finish,14
+KRISTEIN PUSKARCIKOVA Eva,Start,23
+KRISTEIN PUSKARCIKOVA Eva,1 Shooting,12
+KRISTEIN PUSKARCIKOVA Eva,2 Shooting,16
+KRISTEIN PUSKARCIKOVA Eva,3 Shooting,16
+KRISTEIN PUSKARCIKOVA Eva,4 Shooting,15
+KRISTEIN PUSKARCIKOVA Eva,Finish,15
+VITTOZZI Lisa,Start,13
+VITTOZZI Lisa,1 Shooting,23
+VITTOZZI Lisa,2 Shooting,20
+VITTOZZI Lisa,3 Shooting,12
+VITTOZZI Lisa,4 Shooting,13
+VITTOZZI Lisa,Finish,16
+SIMON Julia,Start,5
+SIMON Julia,1 Shooting,1
+SIMON Julia,2 Shooting,18
+SIMON Julia,3 Shooting,13
+SIMON Julia,4 Shooting,18
+SIMON Julia,Finish,17
+BRUN-LIE Thekla,Start,26
+BRUN-LIE Thekla,1 Shooting,13
+BRUN-LIE Thekla,2 Shooting,11
+BRUN-LIE Thekla,3 Shooting,10
+BRUN-LIE Thekla,4 Shooting,17
+BRUN-LIE Thekla,Finish,18
+PIDHRUSHNA Olena,Start,14
+PIDHRUSHNA Olena,1 Shooting,7
+PIDHRUSHNA Olena,2 Shooting,19
+PIDHRUSHNA Olena,3 Shooting,19
+PIDHRUSHNA Olena,4 Shooting,19
+PIDHRUSHNA Olena,Finish,19
+BRAISAZ Justine,Start,4
+BRAISAZ Justine,1 Shooting,3
+BRAISAZ Justine,2 Shooting,7
+BRAISAZ Justine,3 Shooting,22
+BRAISAZ Justine,4 Shooting,22
+BRAISAZ Justine,Finish,20
+KRYUKO Iryna,Start,21
+KRYUKO Iryna,1 Shooting,24
+KRYUKO Iryna,2 Shooting,23
+KRYUKO Iryna,3 Shooting,22
+KRYUKO Iryna,4 Shooting,22
+KRYUKO Iryna,Finish,21
+DAVIDOVA Marketa,Start,8
+DAVIDOVA Marketa,1 Shooting,20
+DAVIDOVA Marketa,2 Shooting,21
+DAVIDOVA Marketa,3 Shooting,21
+DAVIDOVA Marketa,4 Shooting,23
+DAVIDOVA Marketa,Finish,22
+OEBERG Elvira,Start,24
+OEBERG Elvira,1 Shooting,29
+OEBERG Elvira,2 Shooting,27
+OEBERG Elvira,3 Shooting,24
+OEBERG Elvira,4 Shooting,24
+OEBERG Elvira,Finish,23
+GASPARIN Aita,Start,29
+GASPARIN Aita,1 Shooting,22
+GASPARIN Aita,2 Shooting,22
+GASPARIN Aita,3 Shooting,23
+GASPARIN Aita,4 Shooting,21
+GASPARIN Aita,Finish,24
+MIRONOVA Svetlana,Start,7
+MIRONOVA Svetlana,1 Shooting,26
+MIRONOVA Svetlana,2 Shooting,26
+MIRONOVA Svetlana,3 Shooting,27
+MIRONOVA Svetlana,4 Shooting,26
+MIRONOVA Svetlana,Finish,25
+KNOTTEN Karoline Ofwgstad,Start,16
+KNOTTEN Karoline Ofwgstad,1 Shooting,17
+KNOTTEN Karoline Ofwgstad,2 Shooting,24
+KNOTTEN Karoline Ofwgstad,3 Shooting,25
+KNOTTEN Karoline Ofwgstad,4 Shooting,25
+KNOTTEN Karoline Ofwgstad,Finish,26
+KUKLINA Larisa,Start,19
+KUKLINA Larisa,1 Shooting,27
+KUKLINA Larisa,2 Shooting,25
+KUKLINA Larisa,3 Shooting,26
+KUKLINA Larisa,4 Shooting,27
+KUKLINA Larisa,Finish,27
+HAECKI Lena,Start,6
+HAECKI Lena,1 Shooting,28
+HAECKI Lena,2 Shooting,29
+HAECKI Lena,3 Shooting,28
+HAECKI Lena,4 Shooting,28
+HAECKI Lena,Finish,28
+BLASHKO Darya,Start,27
+BLASHKO Darya,1 Shooting,25
+BLASHKO Darya,2 Shooting,28
+BLASHKO Darya,3 Shooting,29
+BLASHKO Darya,4 Shooting,29
+BLASHKO Darya,Finish,29
+GASPARIN Elisa,Start,30
+GASPARIN Elisa,1 Shooting,30
+GASPARIN Elisa,2 Shooting,30
+GASPARIN Elisa,3 Shooting,30
+GASPARIN Elisa,4 Shooting,30
+GASPARIN Elisa,Finish,30

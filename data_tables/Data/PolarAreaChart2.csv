@@ -1,0 +1,113 @@
+﻿Category,Attribute,Value
+N,&lt; 0.5 m/s,1.81
+N,0.5-2 m/s,1.78
+N,2-4 m/s,0.16
+N,4-6 m/s,0
+N,6-8 m/s,0
+N,8-10 m/s,0
+N,&gt; 10 m/s,0
+NNE,&lt; 0.5 m/s,0.62
+NNE,0.5-2 m/s,1.09
+NNE,2-4 m/s,0
+NNE,4-6 m/s,0
+NNE,6-8 m/s,0
+NNE,8-10 m/s,0
+NNE,&gt; 10 m/s,0
+NE,&lt; 0.5 m/s,0.82
+NE,0.5-2 m/s,0.82
+NE,2-4 m/s,0.07
+NE,4-6 m/s,0
+NE,6-8 m/s,0
+NE,8-10 m/s,0
+NE,&gt; 10 m/s,0
+ENE,&lt; 0.5 m/s,0.59
+ENE,0.5-2 m/s,1.22
+ENE,2-4 m/s,0.07
+ENE,4-6 m/s,0
+ENE,6-8 m/s,0
+ENE,8-10 m/s,0
+ENE,&gt; 10 m/s,0
+E,&lt; 0.5 m/s,0.62
+E,0.5-2 m/s,2.2
+E,2-4 m/s,0.49
+E,4-6 m/s,0
+E,6-8 m/s,0
+E,8-10 m/s,0
+E,&gt; 10 m/s,0
+ESE,&lt; 0.5 m/s,1.22
+ESE,0.5-2 m/s,2.01
+ESE,2-4 m/s,1.55
+ESE,4-6 m/s,0.3
+ESE,6-8 m/s,0.13
+ESE,8-10 m/s,0
+ESE,&gt; 10 m/s,0
+SE,&lt; 0.5 m/s,1.61
+SE,0.5-2 m/s,3.06
+SE,2-4 m/s,2.37
+SE,4-6 m/s,2.14
+SE,6-8 m/s,1.74
+SE,8-10 m/s,0.39
+SE,&gt; 10 m/s,0.13
+SSE,&lt; 0.5 m/s,2.04
+SSE,0.5-2 m/s,3.42
+SSE,2-4 m/s,1.97
+SSE,4-6 m/s,0.86
+SSE,6-8 m/s,0.53
+SSE,8-10 m/s,0.49
+SSE,&gt; 10 m/s,0
+S,&lt; 0.5 m/s,2.66
+S,0.5-2 m/s,4.74
+S,2-4 m/s,0.43
+S,4-6 m/s,0
+S,6-8 m/s,0
+S,8-10 m/s,0
+S,&gt; 10 m/s,0
+SSW,&lt; 0.5 m/s,2.96
+SSW,0.5-2 m/s,4.14
+SSW,2-4 m/s,0.26
+SSW,4-6 m/s,0
+SSW,6-8 m/s,0
+SSW,8-10 m/s,0
+SSW,&gt; 10 m/s,0
+SW,&lt; 0.5 m/s,2.53
+SW,0.5-2 m/s,4.01
+SW,2-4 m/s,1.22
+SW,4-6 m/s,0.49
+SW,6-8 m/s,0.13
+SW,8-10 m/s,0
+SW,&gt; 10 m/s,0
+WSW,&lt; 0.5 m/s,1.97
+WSW,0.5-2 m/s,2.66
+WSW,2-4 m/s,1.97
+WSW,4-6 m/s,0.79
+WSW,6-8 m/s,0.3
+WSW,8-10 m/s,0
+WSW,&gt; 10 m/s,0
+W,&lt; 0.5 m/s,1.64
+W,0.5-2 m/s,1.71
+W,2-4 m/s,0.92
+W,4-6 m/s,1.45
+W,6-8 m/s,0.26
+W,8-10 m/s,0.1
+W,&gt; 10 m/s,0
+WNW,&lt; 0.5 m/s,1.32
+WNW,0.5-2 m/s,2.4
+WNW,2-4 m/s,0.99
+WNW,4-6 m/s,1.61
+WNW,6-8 m/s,0.33
+WNW,8-10 m/s,0
+WNW,&gt; 10 m/s,0
+NW,&lt; 0.5 m/s,1.58
+NW,0.5-2 m/s,4.28
+NW,2-4 m/s,1.28
+NW,4-6 m/s,0.76
+NW,6-8 m/s,0.66
+NW,8-10 m/s,0.69
+NW,&gt; 10 m/s,0.03
+NNW,&lt; 0.5 m/s,1.51
+NNW,0.5-2 m/s,5
+NNW,2-4 m/s,1.32
+NNW,4-6 m/s,0.13
+NNW,6-8 m/s,0.23
+NNW,8-10 m/s,0.13
+NNW,&gt; 10 m/s,0.07

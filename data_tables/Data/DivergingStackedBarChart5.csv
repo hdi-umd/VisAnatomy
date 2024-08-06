@@ -1,0 +1,41 @@
+question,type,percentage
+Question 1,Strongly disagree,0.7
+Question 1,Disagree,9.1
+Question 1,Neither agree nor disagree,18.5
+Question 1,Agree,59.9
+Question 1,Strongly agree,11.7
+Question 2,Strongly disagree,18.2
+Question 2,Disagree,18.2
+Question 2,Neither agree nor disagree,0
+Question 2,Agree,63.6
+Question 2,Strongly agree,0
+Question 3,Strongly disagree,20
+Question 3,Disagree,0
+Question 3,Neither agree nor disagree,20
+Question 3,Agree,40
+Question 3,Strongly agree,20
+Question 4,Strongly disagree,0
+Question 4,Disagree,12.5
+Question 4,Neither agree nor disagree,6.3
+Question 4,Agree,43.8
+Question 4,Strongly agree,37.5
+Question 5,Strongly disagree,0
+Question 5,Disagree,4.2
+Question 5,Neither agree nor disagree,12.5
+Question 5,Agree,66.7
+Question 5,Strongly agree,16.7
+Question 6,Strongly disagree,6.3
+Question 6,Disagree,6.3
+Question 6,Neither agree nor disagree,12.5
+Question 6,Agree,56.3
+Question 6,Strongly agree,18.8
+Question 7,Strongly disagree,0
+Question 7,Disagree,0
+Question 7,Neither agree nor disagree,20
+Question 7,Agree,80
+Question 7,Strongly agree,0
+Question 8,Strongly disagree,0
+Question 8,Disagree,0
+Question 8,Neither agree nor disagree,0
+Question 8,Agree,0
+Question 8,Strongly agree,100
