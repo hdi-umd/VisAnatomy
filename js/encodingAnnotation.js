@@ -36,6 +36,7 @@ const typeSpecificChannels = {
     "width",
     "height",
     "fill",
+    "strokeColor",
     "opacity",
     "area",
     "shape",
