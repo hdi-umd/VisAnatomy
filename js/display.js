@@ -89,65 +89,6 @@ function updateUseElementReferences(svgElement) {
   });
 }
 
-// function addClassAndIdToLeaves(element) { // Original function to add class and ID to leaves
-//   // set ID
-//   if (element.nodeType === Node.ELEMENT_NODE && element.nodeName !== "svg") {
-//     if (!Object.keys(indices).includes(element.nodeName)) {
-//       indices[element.nodeName] = 0;
-//     }
-//     if (
-//       element.nodeName !== "linearGradient" &&
-//       element.nodeName !== "g" &&
-//       element.nodeName.indexOf(":") === -1
-//     ) {
-//       element.setAttribute(
-//         "id",
-//         element.nodeName + indices[element.nodeName]++
-//       );
-//       allSVGElementID.push(element.id);
-//     }
-//   }
-
-//   if (element.hasChildNodes()) {
-//     element.childNodes.forEach((childNode) => {
-//       addClassAndIdToLeaves(childNode);
-//     });
-//   } else {
-//     // set class
-//     if (
-//       [
-//         "rect",
-//         "circle",
-//         "ellipse",
-//         "text",
-//         "line",
-//         "polyline",
-//         "polygon",
-//         "path",
-//         "image",
-//         "use",
-//       ].includes(element.nodeName)
-//     ) {
-//       if (element.hasAttribute("class")) {
-//         const existingClasses = element.getAttribute("class").split(" ");
-//         if (!existingClasses.includes("mark")) {
-//           element.setAttribute(
-//             "class",
-//             `${element.getAttribute("class")} mark`
-//           );
-//         }
-//       } else {
-//         element.setAttribute("class", "mark");
-//       }
-//       // element.addEventListener("contextmenu", (event) => {
-//       //   event.preventDefault();
-//       //   console.log('Right-clicked on leaf node with class "mark"');
-//       //   // Your code to handle the right-click event goes here
-//       // });
-//     }
-//   }
-// }
-
 function displayAxis(index) {
   let axis = axes[index];
 
