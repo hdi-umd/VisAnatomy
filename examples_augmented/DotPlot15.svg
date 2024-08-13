@@ -1,1 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="449.28" height="218.56" viewBox="0 0 336.96 163.92"><defs><symbol overflow="visible" id="d"><path d="M1.297-7.89c.5-.727 1.187-1.094 2.062-1.094.657 0 1.227.226 1.72.671.25.243.456.547.624.922.332.75.5 1.778.5 3.079 0 1.398-.195 2.46-.578 3.187-.25.523-.621.902-1.11 1.14a2.534 2.534 0 0 1-1.14.282c-1.031 0-1.79-.473-2.266-1.422-.386-.727-.578-1.79-.578-3.188 0-.832.051-1.519.156-2.062a4.48 4.48 0 0 1 .61-1.516zm3.031-.157a1.24 1.24 0 0 0-.953-.437c-.375 0-.7.148-.969.437-.199.211-.336.465-.406.766-.074.293-.121.797-.14 1.515 0 .063-.008.246-.016.547v.735c0 .855.008 1.453.031 1.796.031.637.082 1.09.156 1.36.07.273.207.508.406.703.25.273.563.406.938.406.363 0 .664-.133.906-.406.196-.195.332-.43.407-.703.07-.27.128-.723.171-1.36.008-.343.016-.94.016-1.796v-.735-.547c-.023-.718-.07-1.222-.14-1.515-.075-.301-.212-.555-.407-.766zm0 0"/></symbol><symbol overflow="visible" id="e"><path d="M5.61 0c-.157-.031-.872-.047-2.141-.047C2.207-.047 1.5-.03 1.344 0h-.157v-.625h.344c.52 0 .86-.008 1.016-.031.07-.008.18-.067.328-.172v-6.969c-.023 0-.059.016-.11.047a4.134 4.134 0 0 1-1.39.25h-.25v-.625h.25c.758-.02 1.39-.188 1.89-.5a2.46 2.46 0 0 0 .422-.313c.008-.03.063-.046.157-.046a.36.36 0 0 1 .234.078v8.078c.133.137.43.203.89.203h.798V0zm0 0"/></symbol><symbol overflow="visible" id="f"><path d="M1.484-5.781c-.25 0-.449-.078-.593-.235a.872.872 0 0 1-.22-.609c0-.645.243-1.195.735-1.656a2.46 2.46 0 0 1 1.766-.703c.77 0 1.41.21 1.922.625.508.418.82.964.937 1.64.008.168.016.32.016.453 0 .524-.156 1.012-.469 1.47-.25.374-.758.89-1.516 1.546-.324.281-.777.695-1.359 1.234l-.781.766 1.016.016c1.414 0 2.164-.024 2.25-.079.039-.007.085-.101.14-.28.031-.095.094-.4.188-.923v-.03h.53v.03l-.374 2.47V0h-5v-.25c0-.188.008-.29.031-.313.008-.007.383-.437 1.125-1.28.977-1.095 1.61-1.813 1.89-2.157.602-.82.907-1.57.907-2.25 0-.594-.156-1.086-.469-1.484-.312-.407-.746-.61-1.297-.61-.523 0-.945.235-1.265.703-.024.032-.047.079-.078.141a.274.274 0 0 0-.047.078c0 .012.02.016.062.016a.68.68 0 0 1 .547.25.801.801 0 0 1 .219.562c0 .23-.078.422-.235.578a.76.76 0 0 1-.578.235zm0 0"/></symbol><symbol overflow="visible" id="g"><path d="M1.719-6.25c-.25 0-.446-.07-.578-.219a.863.863 0 0 1-.204-.593c0-.508.196-.938.594-1.282a2.566 2.566 0 0 1 1.407-.625h.203c.312 0 .507.008.593.016.301.043.602.137.907.281.593.305.968.727 1.125 1.266.02.093.03.218.03.375 0 .523-.167.996-.5 1.422-.323.418-.73.714-1.218.89-.055.024-.055.04 0 .047.008 0 .05.012.125.031.55.157 1.016.446 1.39.86.376.418.563.89.563 1.422 0 .367-.086.718-.25 1.062-.218.461-.574.84-1.062 1.14-.492.302-1.04.454-1.64.454-.595 0-1.122-.125-1.579-.375-.46-.25-.766-.586-.922-1.016a1.45 1.45 0 0 1-.14-.656c0-.25.082-.453.25-.61a.831.831 0 0 1 .609-.25c.25 0 .453.087.61.25.163.169.25.372.25.61 0 .21-.063.39-.188.547a.768.768 0 0 1-.469.281l-.094.031c.489.407 1.047.61 1.672.61.5 0 .875-.239 1.125-.719.156-.29.234-.742.234-1.36v-.265c0-.852-.292-1.426-.875-1.719-.124-.05-.398-.082-.812-.093l-.563-.016-.046-.031c-.024-.02-.032-.086-.032-.204 0-.113.008-.18.032-.203.03-.03.054-.046.078-.046.25 0 .508-.02.781-.063.395-.05.695-.27.906-.656.207-.395.313-.867.313-1.422 0-.582-.157-.973-.469-1.172a1.131 1.131 0 0 0-.64-.188c-.45 0-.844.122-1.188.36l-.125.094a.671.671 0 0 0-.094.109l-.047.047a.88.88 0 0 0 .094.031c.176.024.328.11.453.266.125.148.188.32.188.515a.715.715 0 0 1-.235.547.76.76 0 0 1-.562.219zm0 0"/></symbol><symbol overflow="visible" id="h"><path d="M6.234 0c-.125-.031-.71-.047-1.75-.047-1.074 0-1.671.016-1.796.047h-.126v-.625h.422c.383-.008.618-.031.704-.063a.286.286 0 0 0 .171-.14c.008-.008.016-.25.016-.719v-.672h-3.5v-.625l2.031-3.11A431.58 431.58 0 0 1 4.5-9.108c.02-.008.113-.016.281-.016h.25l.078.078v6.203h1.235v.625H5.109V-.89a.25.25 0 0 0 .079.157c.07.062.328.101.765.109h.39V0zm-2.28-2.844v-4.5L1-2.859l1.469.015zm0 0"/></symbol><symbol overflow="visible" id="i"><path d="M1.438-2.89a.72.72 0 0 1 .546.234.72.72 0 0 1 .235.547c0 .21-.078.386-.235.53a.73.73 0 0 1-.515.22h-.094l.047.062c.133.293.336.531.61.719.28.187.609.281.984.281.644 0 1.101-.27 1.375-.812.175-.332.265-.907.265-1.72 0-.925-.125-1.55-.375-1.874-.23-.3-.515-.453-.86-.453-.698 0-1.23.308-1.593.922a.312.312 0 0 1-.094.125.761.761 0 0 1-.203.015c-.148 0-.23-.031-.25-.093-.023-.032-.031-.817-.031-2.36 0-.258-.008-.57-.016-.937v-.72c0-.5.032-.75.094-.75a.047.047 0 0 1 .047-.03l.25.078a4.646 4.646 0 0 0 3.625-.016.402.402 0 0 1 .172-.062c.07 0 .11.086.11.25v.171C4.8-7.686 3.878-7.25 2.765-7.25c-.282 0-.532-.023-.75-.078l-.141-.031v2.312c.508-.406 1.035-.61 1.578-.61.164 0 .348.024.547.063.602.157 1.094.5 1.469 1.032.383.523.578 1.14.578 1.859 0 .812-.29 1.515-.86 2.11-.562.593-1.261.89-2.093.89C2.52.297 2.035.14 1.64-.172a1.618 1.618 0 0 1-.438-.453C.93-.945.758-1.348.687-1.828c0-.02-.007-.055-.015-.11v-.14c0-.25.07-.445.219-.594a.745.745 0 0 1 .546-.219zm0 0"/></symbol><symbol overflow="visible" id="j"><path d="M5.031-8.11c-.199-.195-.48-.304-.843-.328-.625 0-1.153.274-1.579.813-.418.586-.625 1.492-.625 2.719L2-4.86l.11-.172c.363-.54.859-.813 1.484-.813.414 0 .781.09 1.094.266a2.6 2.6 0 0 1 .64.547c.219.242.395.492.531.75.196.449.297.933.297 1.453v.234c0 .211-.027.403-.078.578-.105.532-.383 1.032-.828 1.5-.387.407-.82.66-1.297.766a2.688 2.688 0 0 1-.547.047c-.168 0-.32-.016-.453-.047-.668-.125-1.2-.484-1.594-1.078C.83-1.66.563-2.79.563-4.218c0-.97.171-1.817.515-2.548.344-.726.82-1.296 1.438-1.703a2.62 2.62 0 0 1 1.562-.515c.531 0 .953.14 1.266.421.32.282.484.665.484 1.141 0 .23-.07.414-.203.547-.125.137-.297.203-.516.203-.218 0-.398-.062-.53-.187-.126-.125-.188-.301-.188-.532 0-.406.21-.644.64-.718zm-.593 3.235a1.18 1.18 0 0 0-.97-.484c-.335 0-.605.105-.812.312C2.22-4.597 2-3.883 2-2.907c0 .794.05 1.345.156 1.657.094.273.242.5.453.688.22.187.477.28.782.28.457 0 .804-.171 1.046-.515.133-.187.22-.41.25-.672.04-.258.063-.64.063-1.14v-.422c0-.508-.023-.895-.063-1.156a1.566 1.566 0 0 0-.25-.688zm0 0"/></symbol><symbol overflow="visible" id="k"><path d="M.734-6.172C.742-6.192.82-6.68.97-7.64l.219-1.453c0-.008.085-.015.265-.015h.266v.046c0 .094.066.172.203.235.133.062.367.105.703.125.344.012 1.102.015 2.281.015h1.64v.532l-.921 1.25c-.137.187-.293.398-.469.625l-.39.531a7.378 7.378 0 0 0-.157.234c-.468.73-.746 1.704-.828 2.922-.043.375-.07.883-.078 1.516 0 .125-.008.258-.015.39v.438a.62.62 0 0 1-.266.375.674.674 0 0 1-.438.172.692.692 0 0 1-.53-.219c-.126-.144-.188-.351-.188-.625 0-.125.015-.379.046-.765.133-1.208.555-2.426 1.266-3.657.176-.281.55-.82 1.125-1.625l.625-.843h-1.25c-1.574 0-2.398.027-2.469.078-.043.023-.093.12-.156.296a3.92 3.92 0 0 0-.125.625c-.023.157-.039.247-.047.266v.031H.734zm0 0"/></symbol><clipPath id="a"><path d="M0 0h336.96v163.258H0zm0 0"/></clipPath><clipPath id="b"><path d="M.11 129.094H12V141H.11zm0 0"/></clipPath><clipPath id="c"><path d="M325.938 129.094h11.023V141h-11.024zm0 0"/></clipPath></defs><g clip-path="url(#a)" fill="#fff"><path d="M0 0h336.96v163.92H0z"/><path d="M0 0h336.96v163.92H0z"/></g><path d="M5.477 134.57h326.046" fill="none" stroke-width="1.09487718" stroke="#000"/><g clip-path="url(#b)"><path d="M11.063 129.094L.108 134.57l10.954 5.477-5.477-5.477zm0 0"/></g><g clip-path="url(#c)"><path d="M325.938 129.094l10.953 5.476-10.954 5.477 5.477-5.477zm0 0"/></g><path d="M20.969 129.746v10.11m41.937-10.11v10.11m42.688-10.11v10.11m41.937-10.11v10.11m41.938-10.11v10.11m41.937-10.11v10.11m42.688-10.11v10.11m41.937-10.11v10.11" fill="none" stroke-width=".84250125" stroke-linecap="round" stroke-linejoin="round" stroke="#666"/><path d="M24.75 113.832c0 .5-.094.984-.285 1.445a3.8 3.8 0 0 1-2.047 2.047 3.777 3.777 0 0 1-4.941-2.047 3.673 3.673 0 0 1-.29-1.445 3.81 3.81 0 0 1 1.105-2.676 3.734 3.734 0 0 1 1.231-.82 3.74 3.74 0 0 1 1.446-.285 3.773 3.773 0 0 1 2.676 1.105 3.76 3.76 0 0 1 1.105 2.676zm0 0M24.75 92.863c0 .5-.094.985-.285 1.446a3.8 3.8 0 0 1-2.047 2.046 3.777 3.777 0 0 1-4.941-2.046 3.673 3.673 0 0 1-.29-1.446c0-.504.094-.984.29-1.449a3.81 3.81 0 0 1 .816-1.226 3.734 3.734 0 0 1 1.23-.82 3.74 3.74 0 0 1 1.446-.286 3.773 3.773 0 0 1 2.676 1.106 3.76 3.76 0 0 1 1.105 2.676zm0 0M66.688 113.832c0 .5-.094.984-.286 1.445a3.8 3.8 0 0 1-2.047 2.047 3.777 3.777 0 0 1-4.94-2.047 3.763 3.763 0 0 1 0-2.895c.19-.46.464-.87.82-1.226a3.678 3.678 0 0 1 1.226-.82 3.74 3.74 0 0 1 1.445-.285 3.773 3.773 0 0 1 2.676 1.105 3.76 3.76 0 0 1 1.105 2.676zm0 0M66.688 92.863c0 .5-.094.985-.286 1.446a3.8 3.8 0 0 1-2.047 2.046 3.777 3.777 0 0 1-4.94-2.046 3.763 3.763 0 0 1 0-2.895c.19-.46.464-.871.82-1.226a3.678 3.678 0 0 1 1.226-.82 3.74 3.74 0 0 1 1.445-.286 3.773 3.773 0 0 1 2.676 1.106 3.76 3.76 0 0 1 1.105 2.676zm0 0M66.688 71.145c0 .5-.094.984-.286 1.445a3.859 3.859 0 0 1-.82 1.23 3.81 3.81 0 0 1-2.676 1.106c-.5 0-.984-.094-1.445-.29a3.727 3.727 0 0 1-1.227-.816 3.734 3.734 0 0 1-.82-1.23 3.777 3.777 0 0 1 2.047-4.938c.46-.195.945-.289 1.445-.289a3.81 3.81 0 0 1 2.676 1.105c.352.356.625.766.82 1.227.192.465.286.95.286 1.45zm0 0M66.688 50.176c0 .5-.094.984-.286 1.445a3.859 3.859 0 0 1-.82 1.23 3.81 3.81 0 0 1-2.676 1.106c-.5 0-.984-.094-1.445-.289a3.727 3.727 0 0 1-1.227-.816 3.734 3.734 0 0 1-.82-1.23 3.777 3.777 0 0 1 .82-4.121 3.8 3.8 0 0 1 1.227-.821 3.74 3.74 0 0 1 1.445-.285c.5 0 .985.093 1.45.285.46.195.87.468 1.226.82.352.355.625.766.82 1.227.192.464.286.949.286 1.449zm0 0M109.375 113.832c0 .5-.098.984-.289 1.445a3.678 3.678 0 0 1-.82 1.227 3.678 3.678 0 0 1-1.227.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.227 3.74 3.74 0 0 1-.285-1.445 3.76 3.76 0 0 1 1.105-2.676 3.758 3.758 0 0 1 2.676-1.105c.5 0 .984.094 1.445.285.465.191.875.465 1.227.82.355.356.629.766.82 1.227.191.465.289.945.289 1.45zm0 0M109.375 92.863c0 .5-.098.985-.289 1.446a3.678 3.678 0 0 1-.82 1.226 3.678 3.678 0 0 1-1.227.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.226 3.74 3.74 0 0 1-.285-1.446 3.76 3.76 0 0 1 1.105-2.675 3.758 3.758 0 0 1 2.676-1.106c.5 0 .984.094 1.445.285.465.192.875.465 1.227.82.355.356.629.766.82 1.227.191.465.289.945.289 1.45zm0 0M109.375 71.145c0 .5-.098.984-.289 1.445a3.734 3.734 0 0 1-.82 1.23 3.727 3.727 0 0 1-1.227.817c-.46.195-.945.289-1.445.289a3.81 3.81 0 0 1-2.676-1.105 3.859 3.859 0 0 1-.82-1.231 3.74 3.74 0 0 1-.285-1.445c0-.5.093-.985.285-1.45.195-.46.468-.87.82-1.226a3.81 3.81 0 0 1 2.676-1.106c.5 0 .984.094 1.445.29a3.758 3.758 0 0 1 2.047 2.043c.191.464.289.949.289 1.449zm0 0M109.375 50.176c0 .5-.098.984-.289 1.445a3.734 3.734 0 0 1-.82 1.23 3.727 3.727 0 0 1-1.227.817c-.46.195-.945.289-1.445.289a3.81 3.81 0 0 1-2.676-1.105 3.859 3.859 0 0 1-.82-1.23 3.74 3.74 0 0 1-.285-1.446c0-.5.093-.985.285-1.45.195-.46.468-.87.82-1.226a3.885 3.885 0 0 1 1.227-.82c.464-.192.949-.285 1.449-.285.5 0 .984.093 1.445.285a3.8 3.8 0 0 1 2.047 2.047c.191.464.289.949.289 1.449zm0 0M109.375 29.207c0 .5-.098.984-.289 1.445a3.734 3.734 0 0 1-.82 1.23 3.727 3.727 0 0 1-1.227.817c-.46.196-.945.29-1.445.29a3.81 3.81 0 0 1-2.676-1.105 3.859 3.859 0 0 1-.82-1.232 3.74 3.74 0 0 1-.285-1.445c0-.5.093-.984.285-1.45.195-.46.468-.87.82-1.226a3.885 3.885 0 0 1 1.227-.82c.464-.191.949-.285 1.449-.285.5 0 .984.094 1.445.285a3.8 3.8 0 0 1 2.047 2.047c.191.465.289.949.289 1.449zm0 0M109.375 8.238c0 .5-.098.985-.289 1.446a3.678 3.678 0 0 1-.82 1.226 3.678 3.678 0 0 1-1.227.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.226 3.74 3.74 0 0 1-.285-1.446 3.76 3.76 0 0 1 1.105-2.675 3.773 3.773 0 0 1 2.676-1.105 3.738 3.738 0 0 1 2.672 1.105c.355.355.629.765.82 1.226.191.465.289.945.289 1.45zm0 0M151.313 113.832c0 .5-.094.984-.29 1.445a3.727 3.727 0 0 1-.816 1.227 3.734 3.734 0 0 1-1.23.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.227 3.74 3.74 0 0 1-.286-1.445 3.76 3.76 0 0 1 1.105-2.676 3.758 3.758 0 0 1 2.676-1.105c.5 0 .985.094 1.446.285.464.191.875.465 1.23.82a3.81 3.81 0 0 1 1.106 2.676zm0 0M151.313 92.863c0 .5-.094.985-.29 1.446a3.727 3.727 0 0 1-.816 1.226 3.734 3.734 0 0 1-1.23.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.226 3.74 3.74 0 0 1-.286-1.446 3.76 3.76 0 0 1 1.105-2.675 3.758 3.758 0 0 1 2.676-1.106c.5 0 .985.094 1.446.285.464.192.875.465 1.23.82a3.81 3.81 0 0 1 1.106 2.676zm0 0M151.313 71.145c0 .5-.094.984-.29 1.445a3.785 3.785 0 0 1-.816 1.23 3.785 3.785 0 0 1-1.23.817c-.461.195-.946.289-1.446.289s-.984-.094-1.449-.29a3.81 3.81 0 0 1-1.227-.816 3.859 3.859 0 0 1-.82-1.23 3.74 3.74 0 0 1-.285-1.445c0-.5.094-.985.285-1.45.195-.46.469-.87.82-1.226a3.81 3.81 0 0 1 2.676-1.106c.5 0 .985.094 1.446.29.464.19.875.464 1.23.816a3.81 3.81 0 0 1 1.106 2.676zm0 0M193.25 113.832c0 .5-.094.984-.289 1.445a3.758 3.758 0 0 1-2.043 2.047 3.777 3.777 0 0 1-4.941-2.047 3.673 3.673 0 0 1-.29-1.445 3.81 3.81 0 0 1 1.105-2.676 3.734 3.734 0 0 1 1.231-.82 3.74 3.74 0 0 1 1.446-.285 3.773 3.773 0 0 1 2.676 1.105 3.81 3.81 0 0 1 1.105 2.676zm0 0M193.25 92.863c0 .5-.094.985-.289 1.446a3.758 3.758 0 0 1-2.043 2.047 3.777 3.777 0 0 1-4.941-2.047 3.673 3.673 0 0 1-.29-1.446c0-.504.094-.984.29-1.449a3.81 3.81 0 0 1 .816-1.226 3.734 3.734 0 0 1 1.23-.82 3.74 3.74 0 0 1 1.446-.286 3.773 3.773 0 0 1 2.676 1.106 3.81 3.81 0 0 1 1.105 2.675zm0 0M235.188 113.832c0 .5-.094.984-.286 1.445a3.8 3.8 0 0 1-2.046 2.047 3.777 3.777 0 0 1-4.942-2.047 3.763 3.763 0 0 1 0-2.895c.192-.46.465-.87.82-1.226a3.678 3.678 0 0 1 1.227-.82 3.74 3.74 0 0 1 1.445-.285 3.773 3.773 0 0 1 2.676 1.105 3.76 3.76 0 0 1 1.105 2.676zm0 0M235.188 92.863c0 .5-.094.985-.286 1.446a3.8 3.8 0 0 1-2.046 2.046 3.777 3.777 0 0 1-4.942-2.046 3.763 3.763 0 0 1 0-2.895c.192-.46.465-.871.82-1.226a3.678 3.678 0 0 1 1.227-.82 3.74 3.74 0 0 1 1.445-.286 3.773 3.773 0 0 1 2.676 1.106 3.76 3.76 0 0 1 1.105 2.676zm0 0M319.813 113.832c0 .5-.094.984-.29 1.445a3.727 3.727 0 0 1-.816 1.227 3.734 3.734 0 0 1-1.23.82 3.777 3.777 0 0 1-4.121-.82 3.8 3.8 0 0 1-.82-1.227 3.74 3.74 0 0 1-.286-1.445 3.76 3.76 0 0 1 1.106-2.676 3.758 3.758 0 0 1 2.675-1.105c.5 0 .985.094 1.446.285.464.191.875.465 1.23.82a3.81 3.81 0 0 1 1.106 2.676zm0 0" fill="#00f" stroke-width=".84250125" stroke="#00f"/><use xlink:href="#d" x="17.224" y="155.02"/><use xlink:href="#e" x="59.162" y="155.02"/><use xlink:href="#f" x="101.849" y="155.02"/><use xlink:href="#g" x="143.787" y="155.02"/><use xlink:href="#h" x="185.724" y="155.02"/><use xlink:href="#i" x="227.662" y="155.02"/><use xlink:href="#j" x="270.349" y="155.02"/><use xlink:href="#k" x="312.287" y="155.02"/></svg>
+<svg class="visualization-layer" width="700" height="500" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M240.395 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M285.356 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M330.316 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M375.277 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M420.237 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M465.198 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M510.158 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M555.119 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M600.08 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M645.04 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M690 50v410" class="tick-line tick bottom"/>
+      </g>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="28 points in a point plot" transform="translate(235 50)">
+      <rect tabindex="-1" height="16" width="16" x="378.66" y="6.643" rx="8" ry="8" style="fill:#fff;stroke:#ac58e5;stroke-width:3" aria-label="Developed regions point value 7.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="416.427" y="6.643" rx="8" ry="8" style="fill:#fff;stroke:#533f82;stroke-width:3" aria-label="Developed regions point value 3.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="119.688" y="35.929" rx="8" ry="8" style="fill:#fff;stroke:#ac58e5;stroke-width:3" aria-label="Developing regions point value 36.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="249.174" y="35.929" rx="8" ry="8" style="fill:#fff;stroke:#533f82;stroke-width:3" aria-label="Developing regions point value 22%"/>
+      <rect tabindex="-1" height="16" width="16" x="342.692" y="65.214" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Eastern Asia excluding China point value 11.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="379.559" y="65.214" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Eastern Asia excluding China point value 7.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="226.694" y="94.5" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Eastern Asia point value 24.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="377.761" y="94.5" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Eastern Asia point value 7.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="248.275" y="123.786" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Latin America and the Caribbean point value 22.1%"/>
+      <rect tabindex="-1" height="16" width="16" x="364.273" y="123.786" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Latin America and the Caribbean point value 9.2%"/>
+      <rect tabindex="-1" height="16" width="16" x="177.237" y="153.071" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Northern Africa point value 30%"/>
+      <rect tabindex="-1" height="16" width="16" x="327.405" y="153.071" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Northern Africa point value 13.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="199.717" y="182.357" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Western Asia point value 27.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="323.808" y="182.357" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Western Asia point value 13.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="200.617" y="211.643" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="South-eastern Asia point value 27.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="317.514" y="211.643" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="South-eastern Asia point value 14.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="215.903" y="240.929" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Caucasus and Central Asia point value 25.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="313.917" y="240.929" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Caucasus and Central Asia point value 14.8%"/>
+      <rect tabindex="-1" height="16" width="16" x="147.563" y="270.214" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="World point value 33.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="267.158" y="270.214" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="World point value 20%"/>
+      <rect tabindex="-1" height="16" width="16" x="210.508" y="299.5" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Oceania point value 26.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="255.468" y="299.5" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Oceania point value 21.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="-8" y="328.786" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Southern Asia point value 50.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="181.733" y="328.786" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Southern Asia point value 29.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="3.69" y="358.071" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Southern Asia excluding India point value 49.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="176.338" y="358.071" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Southern Asia excluding India point value 30.1%"/>
+      <rect tabindex="-1" height="16" width="16" x="37.86" y="387.357" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Sub-Saharan Africa point value 45.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="167.346" y="387.357" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Sub-Saharan Africa point value 31.1%"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="bottom x" aria-label="bottom axis from 50% to 0%">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(240.395 485)">50%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(285.356 485)">45%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(330.316 485)">40%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(375.277 485)">35%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(420.237 485)">30%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(465.198 485)">25%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(510.158 485)">20%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(555.119 485)">15%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(600.08 485)">10%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(645.04 485)">5%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(690 485)">0%</text>
+        </g>
+        <path class="axis-baseline bottom x" stroke="#000" stroke-linecap="square" d="M235 460h455"/>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="end">
+      <text transform="translate(232 64.643)">Developed regions</text>
+      <text transform="translate(232 93.929)">Developing regions</text>
+      <text transform="translate(232 123.214)">Eastern Asia excluding China</text>
+      <text transform="translate(232 152.5)">Eastern Asia</text>
+      <text transform="translate(232 181.786)">Latin America and the Caribbean</text>
+      <text transform="translate(232 211.071)">Northern Africa</text>
+      <text transform="translate(232 240.357)">Western Asia</text>
+      <text transform="translate(232 269.643)">South-eastern Asia</text>
+      <text transform="translate(232 298.929)">Caucasus and Central Asia</text>
+      <text transform="translate(232 328.214)">World</text>
+      <text transform="translate(232 357.5)">Oceania</text>
+      <text transform="translate(232 386.786)">Southern Asia</text>
+      <text transform="translate(232 416.071)">Southern Asia excluding India</text>
+      <text transform="translate(232 445.357)">Sub-Saharan Africa</text>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Neonatal Mortality Rate by Region from <tspan fill="#ac58e5">1990</tspan> to <tspan fill="#533f82">2013</tspan></text>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>
