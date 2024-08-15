@@ -1,0 +1,136 @@
+<svg text-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" font-family="tahoma, geneva, sans-serif" font-size="12" style="user-select:none">
+  <path fill="#FFF" d="M3 8V3h694v534H3v-5Z"/>
+  <g transform="translate(3 3)"/>
+  <path fill="none" d="m28 8 5-5h232v41H28v-5Z"/>
+  <text transform="translate(33.236 8.5)" fill="#323232" font-size="16"><tspan x="0" y="15.337" style="white-space:pre">Happiness Index </tspan><tspan x="122.26" y="15.337" fill="#29B6F6" font-weight="bold" style="white-space:pre">2016</tspan><tspan x="163.01" y="15.337" style="white-space:pre"> vs </tspan><tspan x="188.118" y="15.337" fill="#7E57C2" font-weight="bold" style="white-space:pre">2022</tspan></text>
+  <g transform="translate(3 43.81)"/>
+  <g transform="translate(3 43.81)"/>
+  <g transform="translate(697 43.81)"/>
+  <g clip-path="url(#a)" transform="translate(27.736 43.81)">
+    <rect x=".264" y=".19" width="669" height="414" fill="rgba(0,0,0,0)" rx="0" ry="0"/>
+    <path d="M.264 414.69h669m-669-52h669m-669-52h669m-669-52h669m-669-51h669m-669-52h669m-669-52h669m-669-52h669m-669-52h669" fill="none" stroke="#E0E0E0" stroke-linejoin="round"/>
+    <g/>
+    <path d="M33.764 198.69v35" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M33.463 190.435a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M33.463 225.666a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(18.544 170.953)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.585</tspan></text>
+    <text transform="translate(18.544 246.666)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.245</tspan></text>
+    <path d="M100.764 385.69v-65" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M100.39 377.783a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M100.39 312.812a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(85.47 398.783)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">3.777</tspan></text>
+    <text transform="translate(85.47 293.33)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">4.404</tspan></text>
+    <path d="M167.764 54.69v-14" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M167.316 46.194a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M167.316 33.034a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(152.397 67.194)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">6.977</tspan></text>
+    <text transform="translate(152.397 13.552)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">7.104</tspan></text>
+    <path d="M233.764 233.69v-7" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M234.242 226.185a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M234.242 218.517a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(219.323 247.185)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.240</tspan></text>
+    <text transform="translate(219.323 199.034)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.314</tspan></text>
+    <path d="M300.764 309.69v-64" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M301.169 301.206a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M301.169 237.376a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(286.25 322.206)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">4.516</tspan></text>
+    <text transform="translate(286.25 217.893)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.132</tspan></text>
+    <path d="M367.764 124.69v-68" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M368.095 117.071a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M368.095 48.785a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(353.176 138.071)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">6.293</tspan></text>
+    <text transform="translate(353.176 29.302)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">6.952</tspan></text>
+    <path d="M434.764 305.69v-34" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M435.021 297.476a8 8 0 1 1-.407.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M435.021 264.006a8 8 0 1 1-.407.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(420.102 318.476)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">4.552</tspan></text>
+    <text transform="translate(420.102 244.524)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">4.875</tspan></text>
+    <path d="M501.764 242.69v53" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M501.948 234.992a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M501.948 288.047a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(487.028 215.51)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.155</tspan></text>
+    <text transform="translate(487.028 309.047)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">4.643</tspan></text>
+    <path d="M568.764 211.69v-41" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M568.874 203.491a8 8 0 1 1-.408.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M568.874 162.354a8 8 0 1 1-.408.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(553.955 224.491)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.459</tspan></text>
+    <text transform="translate(553.955 142.871)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">5.856</tspan></text>
+    <path d="M635.764 141.69v-67" stroke="#E0E0E0" stroke-opacity=".9" fill="none" stroke-width="2" stroke-linejoin="round" display="block"/>
+    <path d="M635.8 134.169a8 8 0 1 1-.407.01Z" fill="rgba(41,182,246,1)" fill-rule="evenodd" display="block"/>
+    <path d="M635.8 66.815a8 8 0 1 1-.407.01Z" fill="rgba(126,87,194,1)" fill-rule="evenodd" display="block"/>
+    <text transform="translate(620.881 155.169)" fill="rgba(24,109,147,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">6.128</tspan></text>
+    <text transform="translate(620.881 47.332)" fill="rgba(75,52,116,1)" display="block"><tspan x="0" y="11.503" style="white-space:pre">6.778</tspan></text>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+  </g>
+  <g transform="translate(27.736 43.81)"/>
+  <g transform="translate(27.736 43.81)"/>
+  <path fill="none" d="M27 43h671v416H27Z"/>
+  <g transform="translate(3 458.296)"/>
+  <g transform="translate(697 458.296)"/>
+  <g transform="translate(27.736 43.81)"/>
+  <g transform="rotate(-89.9 23.443 20.402)"/>
+  <path fill="transparent" d="M0 453.001v-5h23v21H0v-5Z"/>
+  <text transform="translate(3 451.055)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">3.5</tspan></text>
+  <path fill="transparent" d="M10 401v-5h13v21H10v-5Z"/>
+  <text transform="translate(13.185 399.244)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">4</tspan></text>
+  <path fill="transparent" d="M0 349v-5h23v21H0v-5Z"/>
+  <text transform="translate(3 347.433)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">4.5</tspan></text>
+  <path fill="transparent" d="M10 298.001v-5h13v20H10v-5Z"/>
+  <text transform="translate(13.185 295.623)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">5</tspan></text>
+  <path fill="transparent" d="M0 246v-5h23v20H0v-5Z"/>
+  <text transform="translate(3 243.812)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">5.5</tspan></text>
+  <path fill="transparent" d="M10 194.001v-5h13v20H10v-5Z"/>
+  <text transform="translate(13.185 192.001)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">6</tspan></text>
+  <path fill="transparent" d="M0 142v-5h23v21H0v-5Z"/>
+  <text transform="translate(3 140.19)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">6.5</tspan></text>
+  <path fill="transparent" d="M10 90v-5h13v21H10v-5Z"/>
+  <text transform="translate(13.185 88.38)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">7</tspan></text>
+  <path fill="transparent" d="M0 39v-5h23v20H0v-5Z"/>
+  <text transform="translate(3 36.569)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">7.5</tspan></text>
+  <path fill="none" d="M28 458V44m-5 414h5m-5-52h5m-5-51h5m-5-52h5m-5-52h5m-5-52h5m-5-52h5m-5-51h5m-5-52h5"/>
+  <g transform="translate(3 43.81)"/>
+  <g transform="translate(697 43.81)"/>
+  <path fill="none" d="M28 458h669"/>
+  <path fill="transparent" d="m58.609 496.263-5-.009.052-30 15 .027-.052 30-5-.01Z"/>
+  <text transform="rotate(-89.9 275.351 220.966)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">China</tspan></text>
+  <path fill="transparent" d="m125.541 493.188-5-.009.047-27 15 .027-.047 27-5-.01Z"/>
+  <text transform="rotate(-89.9 307.42 186.047)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">India</tspan></text>
+  <path fill="transparent" d="m192.391 537.116-5-.009.124-71 15 .027-.124 71-5-.01Z"/>
+  <text transform="rotate(-89.9 362.813 174.493)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">United States</tspan></text>
+  <path fill="transparent" d="m259.35 518.041-5-.008.091-52 15 .026-.09 52-5-.009Z"/>
+  <text transform="rotate(-89.9 386.787 131.466)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Indonesia</tspan></text>
+  <path fill="transparent" d="m326.291 509.968-5-.009.077-44 15 .026-.077 44-5-.009Z"/>
+  <text transform="rotate(-89.9 416.247 93.934)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Pakistan</tspan></text>
+  <path fill="transparent" d="m393.245 494.896-5-.01.05-29 15 .027-.05 29-5-.009Z"/>
+  <text transform="rotate(-89.9 442.006 52.694)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Brazil</tspan></text>
+  <path fill="transparent" d="m460.154 503.82-5-.008.067-38 15 .026-.067 38-5-.009Z"/>
+  <text transform="rotate(-89.9 479.85 23.56)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Nigeria</tspan></text>
+  <path fill="transparent" d="m527.041 526.747-5-.009.105-60 15 .027-.105 60-5-.01Z"/>
+  <text transform="rotate(-89.9 525.146 1.893)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Bangladesh</tspan></text>
+  <path fill="transparent" d="m594.015 499.673-5-.009.057-33 15 .027-.057 33-5-.01Z"/>
+  <text transform="rotate(-89.9 545.152 -45.11)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Russia</tspan></text>
+  <path fill="transparent" d="m660.936 502.6-5-.008.063-36 15 .026-.063 36-5-.009Z"/>
+  <text transform="rotate(-89.9 579.855 -77.39)" cursor="default" fill="#5f5f5f"><tspan x="0" y="11.503" style="white-space:pre">Mexico</tspan></text>
+  <path fill="none" d="M28 458v5m67-5v5m0-5v5m67-5v5m0-5v5m67-5v5m0-5v5m66-5v5m0-5v5m67-5v5m0-5v5m67-5v5m0-5v5m67-5v5m0-5v5m67-5v5m0-5v5m67-5v5m0-5v5m67-5v5"/>
+  <g transform="translate(27.736 537)"/>
+  <g transform="translate(697 43.81)"/>
+  <g transform="translate(3 537)"/>
+  <g transform="translate(3 3)"/>
+  <g/>
+  <g/>
+  <defs>
+    <clipPath id="a">
+      <path fill="none" d="M-.736-.81h671v416h-671Z"/>
+    </clipPath>
+  </defs>
+</svg>

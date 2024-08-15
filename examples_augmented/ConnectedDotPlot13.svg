@@ -1,115 +1,34 @@
-<svg viewBox="0 0 954 820" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <text text-anchor="middle" x="477" dy="1.5em" style="font-size:24px" class="chart-title">Neko Atsume cat visits</text>
-  <text dy="-1em" text-anchor="end" transform="translate(930 820)">@DiDoesDigital</text>
-  <g class="legend">
-    <g class="legendCells">
-      <g class="cell" transform="translate(373.901 77.707)">
-        <circle class="swatch" r="6" style="fill:#9885d5"/>
-        <text class="label" transform="translate(0 4)" dx="12" style="text-anchor:start">5 July 2020</text>
-      </g>
-      <g class="cell" transform="translate(493.901 77.707)">
-        <circle class="swatch" r="6" style="fill:#4ea376"/>
-        <text class="label" transform="translate(0 4)" dx="12" style="text-anchor:start">25 July 2020</text>
-      </g>
-    </g>
+<svg viewBox="0 0 350 360" width="350" height="360">
+  <rect width="350" height="360" rx="10" fill="#efefef"/>
+  <text class="title" y="20" x="175" text-anchor="middle" style="font-size:13px;fill:#555;line-height:160%">Group A</text>
+  <g transform="translate(60 20)">
+    <path stroke="#bfbabe" stroke-dasharray="2" d="M0 20v280"/>
+    <path stroke="#0b3536" stroke-width="4" d="M0 282.2v-65.7"/>
+    <text dy="4" y="249.35" dx="12" style="font-size:11px;fill:#082526">-21.9</text>
+    <circle fill="#0b3536" r="8" stroke="#efefef" cy="282.2"/>
+    <text text-anchor="end" dy="4" y="282.2" dx="-14" style="font-size:11px">12.6%</text>
+    <circle fill="#0098d8" r="8" stroke="#efefef" cy="216.5"/>
+    <text text-anchor="end" dy="4" y="216.5" dx="-14" style="font-size:11px">34.5%</text>
+    <text text-anchor="middle" dy="3" y="320" style="font-size:11px;fill:#888">2020</text>
   </g>
-  <g class="axis" fill="#202630" font-size="10" font-family="'Varela Round', sans-serif" text-anchor="end">
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 140.5)" class="tick">Sunny</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 162.5)" class="tick">Spooky</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 184.5)" class="tick">Fred</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 206.5)" class="tick">Willow</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 228.5)" class="tick">Snowball</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 250.5)" class="tick">Shadow</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 272.5)" class="tick">Pumpkin</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 294.5)" class="tick">Caramel</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 316.5)" class="tick">Spots</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 338.5)" class="tick">Socks</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 360.5)" class="tick">Bandit</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 382.5)" class="tick">Dottie</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 404.5)" class="tick">Marshmellow</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 426.5)" class="tick">Princess</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 448.5)" class="tick">Pickles</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 470.5)" class="tick">Tabitha</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 492.5)" class="tick">Pasty</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 514.5)" class="tick">Gozer</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 536.5)" class="tick">Saint Purrtrick</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 558.5)" class="tick">Speckles</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 580.5)" class="tick">Callie</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 602.5)" class="tick">Quicksilver</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 624.5)" class="tick">Cocoa</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 646.5)" class="tick">Mack</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 668.5)" class="tick">Sooty</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 690.5)" class="tick">Patches</text>
-    <text x="-12" dy=".25em" style="font-size:12px" transform="translate(96 712.5)" class="tick">Tubbs</text>
+  <g transform="translate(175 20)">
+    <path stroke="#bfbabe" stroke-dasharray="2" d="M0 20v280"/>
+    <path stroke="#0b3536" stroke-width="4" d="M0 132.2v119.1"/>
+    <text dy="4" y="191.75" dx="12" style="font-size:11px;fill:#082526">+39.7</text>
+    <circle fill="#0b3536" r="8" stroke="#efefef" cy="132.2"/>
+    <text text-anchor="end" dy="4" y="132.2" dx="-14" style="font-size:11px">62.6</text>
+    <circle fill="#0098d8" r="8" stroke="#efefef" cy="251.3"/>
+    <text text-anchor="end" dy="4" y="251.3" dx="-14" style="font-size:11px">22.9</text>
+    <text text-anchor="middle" dy="3" y="320" style="font-size:11px;fill:#888">2021</text>
   </g>
-  <g class="axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
-    <path class="domain" stroke="#DFDFDF" d="M96.5 724.5h834"/>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(96.5 724)" class="tick">0</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(196.38 724)" class="tick">20</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(296.26 724)" class="tick">40</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(396.14 724)" class="tick">60</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(496.021 724)" class="tick">80</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(595.901 724)" class="tick">100</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(695.781 724)" class="tick">120</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(795.662 724)" class="tick">140</text>
-    <text fill="#202630" y="12" dy=".71em" font-family="'Varela Round', sans-serif" style="font-size:12px" transform="translate(895.542 724)" class="tick">160</text>
-    <text x="477" dy="4em" transform="translate(0 724)">Visits</text>
-  </g>
-  <path d="M240.826 140H930m-739.114 22h554.336m-579.306 22h504.395m-539.353 22h439.473M170.91 228h379.545M170.91 250h354.575m-369.557 22h354.575m-369.557 22h354.575m-359.569 22h269.677m-279.665 22h259.689m-284.659 22h269.677m-259.689 22h219.737m-224.731 22h199.761M145.94 426h154.814m-189.772 22h149.82m-134.838 22h124.85m-139.832 22H245.82m-124.85 22h114.862M120.97 536h104.874m-119.856 22H220.85m-109.868 22h104.874m-94.886 22h79.904m-89.892 22h79.904m-84.898 22h84.898m-84.898 22h79.904m-79.904 22h59.928m-64.922 22" class="lines" stroke="#DFDFDF" stroke-width="2"/>
-  <g class="dots" transform="translate(0 64)">
-    <circle fill="#9885D5" cx="240.826" cy="76" r="4"/>
-    <circle fill="#4EA376" cx="930" cy="76" r="4"/>
-    <circle fill="#9885D5" cx="190.886" cy="98" r="4"/>
-    <circle fill="#4EA376" cx="745.222" cy="98" r="4"/>
-    <circle fill="#9885D5" cx="165.916" cy="120" r="4"/>
-    <circle fill="#4EA376" cx="670.311" cy="120" r="4"/>
-    <circle fill="#9885D5" cx="130.958" cy="142" r="4"/>
-    <circle fill="#4EA376" cx="570.431" cy="142" r="4"/>
-    <circle fill="#9885D5" cx="170.91" cy="164" r="4"/>
-    <circle fill="#4EA376" cx="550.455" cy="164" r="4"/>
-    <circle fill="#9885D5" cx="170.91" cy="186" r="4"/>
-    <circle fill="#4EA376" cx="525.485" cy="186" r="4"/>
-    <circle fill="#9885D5" cx="155.928" cy="208" r="4"/>
-    <circle fill="#4EA376" cx="510.503" cy="208" r="4"/>
-    <circle fill="#9885D5" cx="140.946" cy="230" r="4"/>
-    <circle fill="#4EA376" cx="495.521" cy="230" r="4"/>
-    <circle fill="#9885D5" cx="135.952" cy="252" r="4"/>
-    <circle fill="#4EA376" cx="405.629" cy="252" r="4"/>
-    <circle fill="#9885D5" cx="125.964" cy="274" r="4"/>
-    <circle fill="#4EA376" cx="385.653" cy="274" r="4"/>
-    <circle fill="#9885D5" cx="100.994" cy="296" r="4"/>
-    <circle fill="#4EA376" cx="370.671" cy="296" r="4"/>
-    <circle fill="#9885D5" cx="110.982" cy="318" r="4"/>
-    <circle fill="#4EA376" cx="330.719" cy="318" r="4"/>
-    <circle fill="#9885D5" cx="105.988" cy="340" r="4"/>
-    <circle fill="#4EA376" cx="305.749" cy="340" r="4"/>
-    <circle fill="#9885D5" cx="145.94" cy="362" r="4"/>
-    <circle fill="#4EA376" cx="300.754" cy="362" r="4"/>
-    <circle fill="#9885D5" cx="110.982" cy="384" r="4"/>
-    <circle fill="#4EA376" cx="260.802" cy="384" r="4"/>
-    <circle fill="#9885D5" cx="125.964" cy="406" r="4"/>
-    <circle fill="#4EA376" cx="250.814" cy="406" r="4"/>
-    <circle fill="#9885D5" cx="110.982" cy="428" r="4"/>
-    <circle fill="#4EA376" cx="245.82" cy="428" r="4"/>
-    <circle fill="#9885D5" cx="120.97" cy="450" r="4"/>
-    <circle fill="#4EA376" cx="235.832" cy="450" r="4"/>
-    <circle fill="#9885D5" cx="120.97" cy="472" r="4"/>
-    <circle fill="#4EA376" cx="225.844" cy="472" r="4"/>
-    <circle fill="#9885D5" cx="105.988" cy="494" r="4"/>
-    <circle fill="#4EA376" cx="220.85" cy="494" r="4"/>
-    <circle fill="#9885D5" cx="110.982" cy="516" r="4"/>
-    <circle fill="#4EA376" cx="215.856" cy="516" r="4"/>
-    <circle fill="#9885D5" cx="120.97" cy="538" r="4"/>
-    <circle fill="#4EA376" cx="200.874" cy="538" r="4"/>
-    <circle fill="#9885D5" cx="110.982" cy="560" r="4"/>
-    <circle fill="#4EA376" cx="190.886" cy="560" r="4"/>
-    <circle fill="#9885D5" cx="105.988" cy="582" r="4"/>
-    <circle fill="#4EA376" cx="190.886" cy="582" r="4"/>
-    <circle fill="#9885D5" cx="105.988" cy="604" r="4"/>
-    <circle fill="#4EA376" cx="185.892" cy="604" r="4"/>
-    <circle fill="#9885D5" cx="105.988" cy="626" r="4"/>
-    <circle fill="#4EA376" cx="165.916" cy="626" r="4"/>
-    <circle fill="#9885D5" cx="100.994" cy="648" r="4"/>
-    <circle fill="#4EA376" cx="100.994" cy="648" r="4"/>
+  <g transform="translate(290 20)">
+    <path stroke="#bfbabe" stroke-dasharray="2" d="M0 20v280"/>
+    <path stroke="#0b3536" stroke-width="4" d="M0 42.2v19.5"/>
+    <text dy="4" y="51.95" dx="12" style="font-size:11px;fill:#082526">+6.5</text>
+    <circle fill="#0b3536" r="8" stroke="#efefef" cy="42.2"/>
+    <text text-anchor="end" dy="4" y="42.2" dx="-14" style="font-size:11px">92.6</text>
+    <circle fill="#0098d8" r="8" stroke="#efefef" cy="61.7"/>
+    <text text-anchor="end" dy="4" y="61.7" dx="-14" style="font-size:11px">86.1</text>
+    <text text-anchor="middle" dy="3" y="320" style="font-size:11px;fill:#888">2022</text>
   </g>
 </svg>
