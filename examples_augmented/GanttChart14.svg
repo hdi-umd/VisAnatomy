@@ -1,66 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="896" height="596" style="display:inline">
-  <path style="color:#000;fill:none;stroke:#eaeaea;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" d="M400.587 42.474h415.514v511.7H400.587zm.203 296.061h415.475M752.136 42.704v511.759M720.162 42.704v511.759M688.188 42.704v511.759M656.214 42.704v511.759M624.24 42.704v511.759M592.267 42.704v511.759M560.293 42.704v511.759M528.319 42.704v511.759M496.345 42.704v511.759M464.37 42.704v511.759M432.397 42.704v511.759M784.11 42.704v511.759"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M400.046 178.108h96.665v24.166h-96.665z"/>
-  <path style="color:#000;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M400.046 123.083h256.535v24.166H400.046z"/>
-  <path style="color:#000;fill:#3366fe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M400.418 58.764v39.781l13.655-7.884h292.063l13.859 8.001V57.854H400.324z"/>
-  <path style="color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="m400.313 57.844.093.906v39.781l13.656-7.875h153.782V57.844z"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M592.261 123.083h64.32v24.166h-64.32z"/>
-  <path style="color:#000;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M400.046 178.108h63.948v24.166h-63.948z"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M496.791 233.842h223.262v24.166H496.791z"/>
-  <path style="color:#000;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M496.791 233.842h119.156v24.166H496.791z"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M496.791 290.101h223.262v24.166H496.791zm0 127.242h63.422v24.166h-63.422z"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" transform="scale(-1 1)" d="M-656.106 465.715h95.367v24.166h-95.367z"/>
-  <path style="color:#000;fill:#99ccfe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M656.632 521.975h63.422v24.166h-63.422z"/>
-  <path style="color:#000;fill:#3366fe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M496.791 347.938h223.263v39.94l-15.232-6.835H511.594l-14.803 6.835z"/>
-  <path style="color:#000;fill:none;stroke:#fff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" d="M627.707 42.033v515.584"/>
-  <path d="M627.707 42.033v515.584" style="color:#000;fill:none;stroke:#616161;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9,9;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"/>
-  <path d="M399.767 146.878v30.672" style="color:#000;fill:#3366fe;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible"/>
-  <path d="m400.232 178.666-8.18-16.173h15.43z" style="color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"/>
-  <path style="color:#000;fill:#3366fe;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible" d="M399.767 146.878v30.672" transform="translate(97.008 54.42)"/>
-  <path style="color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" d="m400.232 178.666-8.18-16.173h15.43z" transform="translate(97.008 54.42)"/>
-  <path d="M399.767 146.878v30.672" style="color:#000;fill:#3366fe;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible" transform="translate(319.339 110.931)"/>
-  <path d="m400.232 178.666-8.18-16.173h15.43z" style="color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:#a50021;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" transform="translate(319.339 110.931)"/>
-  <text xml:space="preserve" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="313.047" y="176.621"><tspan x="313.047" y="176.621">START-TO-START</tspan></text>
-  <text y="280.722" x="630.556" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="280.722" x="630.556">FINISH-TO-FINISH</tspan></text>
-  <text y="232.144" x="406.928" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#a50021;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="232.144" x="406.928">FINISH-TO-START</tspan></text>
-  <text xml:space="preserve" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="716.811" y="141.673"><tspan x="716.811" y="141.673">75% complete</tspan></text>
-  <text y="198.458" x="556.445" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="198.458" x="556.445">67% complete</tspan></text>
-  <text y="255.243" x="783.061" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="255.243" x="783.061">50% complete</tspan></text>
-  <text xml:space="preserve" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="783.061" y="309.4"><tspan x="783.061" y="309.4">0% complete</tspan></text>
-  <text y="436.641" x="615.333" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="436.641" x="615.333">0% complete</tspan></text>
-  <text xml:space="preserve" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="711.553" y="486.065"><tspan x="711.553" y="486.065">0% complete</tspan></text>
-  <text y="540.748" x="776.225" style="font-size:18px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#5f5f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="540.748" x="776.225">0% complete</tspan></text>
-  <text y="84.417" x="802.323" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve"><tspan y="84.417" x="802.323">57% complete</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="797.118" y="375.157"><tspan x="797.118" y="375.157">0% complete</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:center;text-anchor:middle;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="625.351" y="584.103"><tspan x="625.351" y="584.103">TODAY</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="299.663" y="29.392"><tspan x="299.663" y="29.392">WEEKS:</tspan></text>
-  <text y="29.392" x="412.687" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="412.687">1</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="441.605" y="29.392"><tspan x="441.605" y="29.392">2</tspan></text>
-  <text y="29.392" x="473.153" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="473.153">3</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="506.803" y="29.392"><tspan x="506.803" y="29.392">4</tspan></text>
-  <text y="29.392" x="540.454" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="540.454">5</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="570.424" y="29.392"><tspan x="570.424" y="29.392">6</tspan></text>
-  <text y="29.392" x="603.549" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="603.549">7</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="635.096" y="29.392"><tspan x="635.096" y="29.392">8</tspan></text>
-  <text y="29.392" x="664.54" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="664.54">9</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="695.036" y="29.392"><tspan x="695.036" y="29.392">10</tspan></text>
-  <text y="29.392" x="726.058" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="726.058">21</tspan></text>
-  <text xml:space="preserve" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" x="758.657" y="29.392"><tspan x="758.657" y="29.392">22</tspan></text>
-  <text y="29.392" x="789.153" style="font-size:22px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial Bold" xml:space="preserve"><tspan y="29.392" x="789.153">23</tspan></text>
-  <text xml:space="preserve" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" x="10.516" y="85.983"><tspan x="10.516" y="85.983">WBS 1 Summary Element 1</tspan></text>
-  <text y="375.168" x="10.516" style="font-size:28px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" xml:space="preserve"><tspan y="375.168" x="10.516">WBS 2 Summary Element 2</tspan></text>
-  <text y="142.545" x="26.631" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" xml:space="preserve"><tspan y="142.545" x="26.631">WBS 1.1</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="129.245" y="142.545"><tspan x="129.245" y="142.545">Activity A</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" x="26.631" y="142.545" transform="translate(0 56.016)"><tspan x="26.631" y="142.545">WBS 1.2</tspan></text>
-  <text y="142.545" x="129.245" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve" transform="translate(0 56.016)"><tspan y="142.545" x="129.245">Activity B</tspan></text>
-  <text y="142.545" x="26.631" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" xml:space="preserve" transform="translate(0 112.033)"><tspan y="142.545" x="26.631">WBS 1.3</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="129.245" y="142.545" transform="translate(0 112.033)"><tspan x="129.245" y="142.545">Activity C</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" x="26.631" y="142.545" transform="translate(0 168.049)"><tspan x="26.631" y="142.545">WBS 1.4</tspan></text>
-  <text y="142.545" x="129.245" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve" transform="translate(0 168.049)"><tspan y="142.545" x="129.245">Activity D</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" x="26.631" y="142.545" transform="translate(0 289.185)"><tspan x="26.631" y="142.545">WBS 2.1</tspan></text>
-  <text y="142.545" x="129.245" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve" transform="translate(0 289.185)"><tspan y="142.545" x="129.245">Activity E</tspan></text>
-  <text y="142.545" x="26.631" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" xml:space="preserve" transform="translate(0 345.201)"><tspan y="142.545" x="26.631">WBS 2.2</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" x="129.245" y="142.545" transform="translate(0 345.201)"><tspan x="129.245" y="142.545">Activity F</tspan></text>
-  <text xml:space="preserve" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Sans" x="26.631" y="142.545" transform="translate(0 401.217)"><tspan x="26.631" y="142.545">WBS 2.3</tspan></text>
-  <text y="142.545" x="129.245" style="font-size:24px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;text-anchor:start;color:#000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial" xml:space="preserve" transform="translate(0 401.217)"><tspan y="142.545" x="129.245">Activity G</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760" font-family="sans-serif" font-size="10" text-anchor="end">
+  <g fill="none" text-anchor="middle">
+    <path class="domain" stroke="currentColor" d="M70 34v6h760v-6"/>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(70 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(70 40) rotate(-45)" dx="1em">N+0</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(127.358 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(127.358 40) rotate(-45)" dx="1em">N+1</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(184.717 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(184.717 40) rotate(-45)" dx="1em">N+2</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(242.075 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(242.075 40) rotate(-45)" dx="1em">N+3</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(299.434 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(299.434 40) rotate(-45)" dx="1em">N+4</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(356.792 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(356.792 40) rotate(-45)" dx="1em">N+5</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(414.15 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(414.15 40) rotate(-45)" dx="1em">N+6</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(471.51 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(471.51 40) rotate(-45)" dx="1em">N+7</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(528.868 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(528.868 40) rotate(-45)" dx="1em">N+8</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(586.226 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(586.226 40) rotate(-45)" dx="1em">N+9</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(643.585 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(643.585 40) rotate(-45)" dx="1em">N+10</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(700.943 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(700.943 40) rotate(-45)" dx="1em">N+11</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(758.302 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(758.302 40) rotate(-45)" dx="1em">N+12</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0v-6" transform="translate(815.66 40)"/>
+      <text fill="currentColor" y="-9" dy="0em" transform="translate(815.66 40) rotate(-45)" dx="1em">N+13</text>
+    </g>
+  </g>
+  <g fill="none">
+    <path class="domain" stroke="currentColor" d="M64 730h6V40h-6"/>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 695.81)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 695.81)">Test 1</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 633.649)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 633.649)">TestTest 2</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 571.486)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 571.486)">Test 3</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 509.324)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 509.324)">TestTestTest 4</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 447.162)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 447.162)">TestTest 4</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 385)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 385)">E</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 322.838)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 322.838)">F</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 260.676)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 260.676)">G</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 198.514)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 198.514)">H</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 136.351)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 136.351)">I</text>
+    </g>
+    <g class="tick">
+      <path stroke="currentColor" d="M0 0h-6" transform="translate(70 74.19)"/>
+      <text fill="currentColor" x="-9" dy=".32em" transform="translate(70 74.19)">J</text>
+    </g>
+  </g>
+  <path fill="brown" stroke="#000" d="M156.038 0h43.019v55.946h-43.019z" transform="translate(0 667.838)"/>
+  <text fill="#fff" x="196.057" y="27.973" dy=".35em" transform="translate(0 667.838)">3/1/2021, 2:15:00 AM</text>
+  <path fill="#00f" stroke="#000" d="M184.717 0h28.679v55.946h-28.679z" transform="translate(0 605.676)"/>
+  <text fill="#fff" x="210.396" y="27.973" dy=".35em" transform="translate(0 605.676)">3/1/2021, 2:30:00 AM</text>
+  <path fill="red" stroke="#000" d="M299.434 0h57.358v55.946h-57.358z" transform="translate(0 543.514)"/>
+  <text fill="#fff" x="353.792" y="27.973" dy=".35em" transform="translate(0 543.514)">3/1/2021, 5:00:00 AM</text>
+  <path fill="brown" stroke="#000" d="M270.755 0h14.34v55.946h-14.34z" transform="translate(0 481.351)"/>
+  <text fill="#fff" x="282.094" y="27.973" dy=".35em" transform="translate(0 481.351)">3/1/2021, 3:45:00 AM</text>
+  <path fill="#00f" stroke="#000" d="M356.792 0h57.358v55.946h-57.358z" transform="translate(0 419.19)"/>
+  <text fill="#fff" x="411.151" y="27.973" dy=".35em" transform="translate(0 419.19)">3/1/2021, 6:00:00 AM</text>
+  <path fill="green" stroke="#000" d="M471.509 0h57.358v55.946h-57.358z" transform="translate(0 357.027)"/>
+  <text fill="#fff" x="525.868" y="27.973" dy=".35em" transform="translate(0 357.027)">3/1/2021, 8:00:00 AM</text>
+  <path fill="#00f" stroke="#000" d="M414.151 0h129.057v55.946H414.151z" transform="translate(0 294.865)"/>
+  <text fill="#fff" x="540.208" y="27.973" dy=".35em" transform="translate(0 294.865)">3/1/2021, 8:15:00 AM</text>
+  <path fill="red" stroke="#000" d="M586.226 0h43.019v55.946h-43.019z" transform="translate(0 232.703)"/>
+  <text fill="#fff" x="626.245" y="27.973" dy=".35em" transform="translate(0 232.703)">3/1/2021, 9:45:00 AM</text>
+  <path fill="brown" stroke="#000" d="M643.585 0h71.698v55.946h-71.698z" transform="translate(0 170.54)"/>
+  <text fill="#fff" x="712.283" y="27.973" dy=".35em" transform="translate(0 170.54)">3/1/2021, 11:15:00 AM</text>
+  <path fill="green" stroke="#000" d="M700.943 0H815.66v55.946H700.943z" transform="translate(0 108.378)"/>
+  <text fill="#fff" x="812.66" y="27.973" dy=".35em" transform="translate(0 108.378)">3/1/2021, 1:00:00 PM</text>
+  <path fill="#00f" stroke="#000" d="M758.302 0h57.358v55.946h-57.358z" transform="translate(0 46.216)"/>
+  <text fill="#fff" x="812.66" y="27.973" dy=".35em" transform="translate(0 46.216)">3/1/2021, 1:00:00 PM</text>
+  <g transform="translate(0 667.838)">
+    <rect fill="green" stroke="#000" width="NaN" height="55.946"/>
+    <text fill="#fff" x="NaN" y="27.973" dy=".35em">Invalid Date</text>
+  </g>
 </svg>
