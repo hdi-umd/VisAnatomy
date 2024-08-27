@@ -1,31 +1,303 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04">
-  <defs>
-    <style>
-      .cls-1{fill:#cab0c0}.cls-2{fill:#441344}.cls-3{fill:#875e7e}.cls-5,.cls-6{fill:#fff;font-family:Verdana}.cls-5{font-size:7.42px}.cls-6{font-size:4.47px}
-    </style>
-  </defs>
-  <g id="Layer_4" data-name="Layer 4">
-    <path class="cls-1" d="M54.25 39.5a1.31 1.31 0 1 1-1.89-1.8 1.29 1.29 0 0 1 1.84-.05 1.31 1.31 0 0 1 .05 1.85m-21.31-6.29a1.31 1.31 0 1 1-1.89-1.8 1.31 1.31 0 1 1 1.89 1.8m17.19 22.46a1.31 1.31 0 1 1-.05-1.84 1.3 1.3 0 0 1 .05 1.84"/>
-    <path class="cls-1" d="M59.23 49.54a5.84 5.84 0 1 1-.23-8.25 5.83 5.83 0 0 1 .23 8.25M48.36 37.09a3 3 0 1 1-.1-4.18 3 3 0 0 1 .1 4.18"/>
-    <path class="cls-1" d="M60.86 54.06a2.15 2.15 0 1 1-.07-3 2.14 2.14 0 0 1 .07 3"/>
-    <path class="cls-2" d="M56.56 69.52a7.76 7.76 0 1 1-.26-11 7.75 7.75 0 0 1 .26 11m2.72-30.08a2.13 2.13 0 1 1-.07-3 2.13 2.13 0 0 1 .07 3"/>
-    <path class="cls-2" d="M56.65 56.66a2.21 2.21 0 1 1-.07-3.12 2.2 2.2 0 0 1 .07 3.12"/>
-    <path class="cls-1" d="M24.66 18.58a4.24 4.24 0 1 1 .14 6 4.24 4.24 0 0 1-.14-6"/>
-    <path class="cls-2" d="M51.5 40.45a1.74 1.74 0 1 1-.06-2.45 1.75 1.75 0 0 1 .06 2.45m-6.37-8.98a8.06 8.06 0 1 1-.27-11.39 8.06 8.06 0 0 1 .27 11.39"/>
-    <path class="cls-3" d="M50.57 19.94a4 4 0 1 1-.13-5.72 4 4 0 0 1 .13 5.72m-16.09-.64a2 2 0 0 1-2.86.06 2 2 0 1 1 2.86-.06"/>
-    <path class="cls-1" d="M43.28 62.66a1.2 1.2 0 1 1-1.23-1.17 1.21 1.21 0 0 1 1.23 1.17"/>
-    <path class="cls-2" d="M56.57 28.14a4.57 4.57 0 1 1-4.67-4.46 4.57 4.57 0 0 1 4.67 4.46"/>
-    <path class="cls-3" d="M68.93 44.41a4 4 0 1 1-4.14-3.95 4 4 0 0 1 4.14 3.95M28.52 30.84a6.21 6.21 0 1 1-6.35-6.06 6.2 6.2 0 0 1 6.35 6.06m13.86 37.03a2.49 2.49 0 1 1-.08-3.53 2.5 2.5 0 0 1 .08 3.53"/>
-    <path class="cls-3" d="M45.13 58.6a14.85 14.85 0 1 1-.51-21 14.84 14.84 0 0 1 .51 21"/>
-    <circle class="cls-3" cx="51.66" cy="35.23" r="2.21" transform="rotate(-46.38 51.657 35.225)"/>
-    <text transform="translate(30.99 51.72)" style="font-size:9.9px;fill:#fff;font-family:Verdana">A</text>
-    <text class="cls-5" transform="translate(36.52 28.65)">B</text>
-    <text class="cls-5" transform="translate(48.29 66.89)">C</text>
-    <text class="cls-5" transform="translate(52.4 48.36)">D</text>
-    <text class="cls-5" transform="translate(19.9 33.62)">E</text>
-    <text class="cls-6" transform="translate(50.92 29.51)">F</text>
-    <text class="cls-6" transform="translate(63.15 46.19)">G</text>
-    <text class="cls-6" transform="translate(45.89 18.61)">H</text>
-    <text class="cls-6" transform="translate(26.81 23)">I</text>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 1000 847" xml:space="preserve">
+  <style>
+    .st0{fill-opacity:0;stroke:#ddd}.st1,.st2{fill:#bf6969;stroke:#ddd;stroke-opacity:0}.st2{fill:#bfa969}.st3{fill:#94bf69}.st3,.st4,.st5,.st6,.st7,.st8{stroke:#ddd;stroke-opacity:0}.st4{fill:#69bf7e}.st5{fill:#69bfbf}.st6{fill:#697ebf}.st7{fill:#9469bf}.st8{fill:#bf69a9}.st9{font-family:&quot;CircularStd-Bold&quot;}.st10{font-size:14px}.st11{font-family:&quot;ArialMT&quot;}.st12{font-size:11px}
+  </style>
+  <g transform="translate(10 10)">
+    <circle class="st0" cx="429.4" cy="171.5" r="74.3"/>
+    <circle class="st1" cx="409.5" cy="127.7" r="20.5"/>
+    <circle class="st2" cx="412.8" cy="221.1" r="14.8"/>
+    <circle class="st3" cx="424.6" cy="176.9" r="26.3"/>
+    <circle class="st4" cx="446.7" cy="216.9" r="14.7"/>
+    <circle class="st5" cx="381.4" cy="200.3" r="18.2"/>
+    <circle class="st6" cx="378.2" cy="158.6" r="18.9"/>
+    <circle class="st7" cx="455.2" cy="134.7" r="21.1"/>
+    <circle class="st8" cx="477.6" cy="176.9" r="22"/>
+    <circle class="st0" cx="800.2" cy="320.7" r="35.7"/>
+    <circle class="st8" cx="813.6" cy="300.4" r="9.8"/>
+    <circle class="st2" cx="816.5" cy="341.5" r="6.8"/>
+    <circle class="st7" cx="825" cy="322" r="9.9"/>
+    <circle class="st3" cx="798.9" cy="322" r="11.6"/>
+    <circle class="st4" cx="798.2" cy="345.5" r="7.3"/>
+    <circle class="st5" cx="779" cy="337.4" r="8.9"/>
+    <circle class="st6" cx="774.5" cy="315.3" r="9"/>
+    <circle class="st1" cx="789.8" cy="298" r="9.4"/>
+    <circle class="st0" cx="288.8" cy="198.8" r="64.3"/>
+    <circle class="st6" cx="244" cy="182.1" r="16.5"/>
+    <circle class="st1" cx="272.7" cy="156.9" r="17.1"/>
+    <circle class="st3" cx="284.3" cy="200.1" r="23"/>
+    <circle class="st4" cx="304.9" cy="234.1" r="12.1"/>
+    <circle class="st5" cx="245.1" cy="219.2" r="16"/>
+    <circle class="st2" cx="273.4" cy="242" r="15.7"/>
+    <circle class="st7" cx="311.2" cy="164" r="17.4"/>
+    <circle class="st8" cx="331" cy="200.1" r="19.1"/>
+    <circle class="st0" cx="145.9" cy="510.4" r="56"/>
+    <circle class="st7" cx="128.8" cy="547.6" r="12.2"/>
+    <circle class="st8" cx="182.6" cy="512.9" r="16.9"/>
+    <circle class="st3" cx="141.1" cy="512.9" r="19.9"/>
+    <circle class="st4" cx="106.9" cy="527.8" r="12.7"/>
+    <circle class="st5" cx="131.4" cy="475.2" r="14.3"/>
+    <circle class="st6" cx="164.6" cy="481.3" r="14.8"/>
+    <circle class="st2" cx="154.8" cy="544" r="9.4"/>
+    <circle class="st1" cx="106.2" cy="496.5" r="14"/>
+    <circle class="st0" cx="702" cy="440.6" r="114.5"/>
+    <circle class="st2" cx="700.2" cy="516.3" r="28.1"/>
+    <circle class="st7" cx="741.9" cy="378.4" r="34.4"/>
+    <circle class="st8" cx="668.8" cy="371.1" r="34.4"/>
+    <circle class="st3" cx="698.5" cy="443.9" r="39.6"/>
+    <circle class="st4" cx="757.2" cy="506.4" r="25.1"/>
+    <circle class="st5" cx="622.3" cy="427.1" r="33.7"/>
+    <circle class="st6" cx="642.4" cy="492.3" r="29.8"/>
+    <circle class="st1" cx="779" cy="443.9" r="36.3"/>
+    <circle class="st0" cx="186.6" cy="279.8" r="61.4"/>
+    <circle class="st6" cx="143.2" cy="271.9" r="17.2"/>
+    <circle class="st2" cx="218.2" cy="314.7" r="12.1"/>
+    <circle class="st1" cx="228.6" cy="280.8" r="18.7"/>
+    <circle class="st7" cx="154" cy="308.3" r="16.1"/>
+    <circle class="st8" cx="208.3" cy="244.2" r="18.4"/>
+    <circle class="st3" cx="184.6" cy="280.8" r="20.5"/>
+    <circle class="st4" cx="187.2" cy="320.5" r="14.7"/>
+    <circle class="st5" cx="168.1" cy="241.6" r="17.3"/>
+    <circle class="st0" cx="614.2" cy="225.1" r="113.4"/>
+    <circle class="st5" cx="542.9" cy="268.5" r="30"/>
+    <circle class="st2" cx="644.7" cy="286" r="22.3"/>
+    <circle class="st1" cx="584.6" cy="157.4" r="31.6"/>
+    <circle class="st7" cx="536.9" cy="203.9" r="30.4"/>
+    <circle class="st8" cx="687" cy="230.4" r="34.9"/>
+    <circle class="st3" cx="607.2" cy="230.4" r="40.2"/>
+    <circle class="st4" cx="594.3" cy="299.2" r="25.2"/>
+    <circle class="st6" cx="652" cy="168" r="32"/>
+    <circle class="st0" cx="858" cy="466" r="38.9"/>
+    <circle class="st8" cx="871.7" cy="443.6" r="10.5"/>
+    <circle class="st5" cx="846.5" cy="440.4" r="10.1"/>
+    <circle class="st3" cx="855.6" cy="466.7" r="13"/>
+    <circle class="st4" cx="873.5" cy="487.9" r="8"/>
+    <circle class="st6" cx="832.9" cy="481.4" r="9.4"/>
+    <circle class="st2" cx="852.6" cy="492.9" r="8.8"/>
+    <circle class="st1" cx="884.4" cy="466.7" r="11.2"/>
+    <circle class="st7" cx="829.9" cy="458.1" r="9.5"/>
+    <circle class="st0" cx="748.9" cy="598.2" r="45.3"/>
+    <circle class="st6" cx="728" cy="619.8" r="10.3"/>
+    <circle class="st2" cx="751.1" cy="626.3" r="9.1"/>
+    <circle class="st1" cx="778.1" cy="599.6" r="12.6"/>
+    <circle class="st7" cx="735.4" cy="572.8" r="11.7"/>
+    <circle class="st8" cx="763.4" cy="574.6" r="11.7"/>
+    <circle class="st3" cx="747.6" cy="599.6" r="13.2"/>
+    <circle class="st4" cx="773.6" cy="625.2" r="8.7"/>
+    <circle class="st5" cx="718.6" cy="595.1" r="11.5"/>
+    <circle class="st0" cx="825.1" cy="545.6" r="42.6"/>
+    <circle class="st3" cx="821.1" cy="548.2" r="14.6"/>
+    <circle class="st2" cx="832.5" cy="572" r="7.1"/>
+    <circle class="st1" cx="812.7" cy="519.6" r="10.5"/>
+    <circle class="st7" cx="838.8" cy="523.4" r="11.2"/>
+    <circle class="st8" cx="853.3" cy="548.2" r="12.9"/>
+    <circle class="st4" cx="812.9" cy="574.2" r="8"/>
+    <circle class="st5" cx="795.4" cy="560.8" r="9.3"/>
+    <circle class="st6" cx="794.1" cy="536.7" r="10.1"/>
+    <circle class="st0" cx="139.8" cy="393.2" r="56.7"/>
+    <circle class="st4" cx="135" cy="430.5" r="11.4"/>
+    <circle class="st5" cx="122.5" cy="359.9" r="15.3"/>
+    <circle class="st6" cx="106.6" cy="419.2" r="14.5"/>
+    <circle class="st2" cx="161.7" cy="425.3" r="11.2"/>
+    <circle class="st1" cx="177.2" cy="395.9" r="17.4"/>
+    <circle class="st7" cx="99.7" cy="386" r="14.7"/>
+    <circle class="st8" cx="158" cy="363.3" r="15.7"/>
+    <circle class="st3" cx="136.5" cy="395.9" r="18.7"/>
+    <circle class="st0" cx="850" cy="383.3" r="39.6"/>
+    <circle class="st4" cx="862.1" cy="406.5" r="7.1"/>
+    <circle class="st5" cx="824.6" cy="399.1" r="9.6"/>
+    <circle class="st2" cx="843.2" cy="410.3" r="7.4"/>
+    <circle class="st1" cx="865.3" cy="363.1" r="10.2"/>
+    <circle class="st7" cx="841" cy="358.8" r="9.9"/>
+    <circle class="st8" cx="876.8" cy="385.5" r="10.4"/>
+    <circle class="st3" cx="848.5" cy="385.5" r="13.2"/>
+    <circle class="st6" cx="822.8" cy="375.1" r="9.9"/>
+    <circle class="st0" cx="764.8" cy="253.8" r="35.3"/>
+    <circle class="st2" cx="770.2" cy="276.3" r="5.5"/>
+    <circle class="st5" cx="739.4" cy="265.5" r="7.3"/>
+    <circle class="st7" cx="739" cy="245.7" r="7.8"/>
+    <circle class="st8" cx="777" cy="234" r="9.8"/>
+    <circle class="st3" cx="761.5" cy="255.7" r="12.2"/>
+    <circle class="st4" cx="753.4" cy="277.8" r="6.6"/>
+    <circle class="st6" cx="788.4" cy="255.7" r="10.1"/>
+    <circle class="st1" cx="754.3" cy="231.6" r="8.4"/>
+    <circle class="st0" cx="561.2" cy="612.2" r="44.9"/>
+    <circle class="st5" cx="529" cy="604.7" r="11.9"/>
+    <circle class="st1" cx="548.6" cy="583.4" r="12.4"/>
+    <circle class="st7" cx="578.1" cy="587.2" r="12.6"/>
+    <circle class="st8" cx="592.3" cy="613.9" r="12.9"/>
+    <circle class="st3" cx="559.5" cy="613.9" r="15.3"/>
+    <circle class="st4" cx="579.4" cy="637" r="8.9"/>
+    <circle class="st6" cx="534.2" cy="631.8" r="11"/>
+    <circle class="st2" cx="556.9" cy="643.5" r="9.8"/>
+    <circle class="st0" cx="389.7" cy="440.6" r="193"/>
+    <circle class="st1" cx="341.3" cy="330" r="54.9"/>
+    <circle class="st6" cx="261.1" cy="409.4" r="53.2"/>
+    <circle class="st7" cx="454.4" cy="347.9" r="55"/>
+    <circle class="st8" cx="512.2" cy="451.9" r="59.4"/>
+    <circle class="st3" cx="379.9" cy="451.9" r="68.3"/>
+    <circle class="st4" cx="361.6" cy="564.7" r="41.3"/>
+    <circle class="st5" cx="273.8" cy="519.4" r="52.8"/>
+    <circle class="st2" cx="445.1" cy="544.2" r="40"/>
+    <circle class="st0" cx="654.2" cy="597.4" r="44.7"/>
+    <circle class="st7" cx="624.9" cy="614.7" r="10.6"/>
+    <circle class="st4" cx="666.2" cy="623.8" r="8.2"/>
+    <circle class="st2" cx="645" cy="627.6" r="8.6"/>
+    <circle class="st1" cx="642.5" cy="570" r="11.5"/>
+    <circle class="st8" cx="683.9" cy="599.9" r="12.7"/>
+    <circle class="st3" cx="651.5" cy="599.9" r="15.1"/>
+    <circle class="st5" cx="622.8" cy="588.6" r="11"/>
+    <circle class="st6" cx="670" cy="574.4" r="11.7"/>
+    <circle class="st0" cx="288.8" cy="666.4" r="49.7"/>
+    <circle class="st3" cx="286" cy="668.1" r="16.9"/>
+    <circle class="st4" cx="281.3" cy="700.3" r="11"/>
+    <circle class="st6" cx="253.1" cy="657.7" r="13"/>
+    <circle class="st2" cx="303.8" cy="692.1" r="8.3"/>
+    <circle class="st1" cx="306.1" cy="639.1" r="13.7"/>
+    <circle class="st7" cx="258.6" cy="685.9" r="11.1"/>
+    <circle class="st8" cx="322.5" cy="668.1" r="14.9"/>
+    <circle class="st5" cx="274.5" cy="635" r="13.6"/>
+    <circle class="st0" cx="204" cy="605" r="50.4"/>
+    <circle class="st1" cx="167.8" cy="594.6" r="12.7"/>
+    <circle class="st5" cx="189.2" cy="573.4" r="12.9"/>
+    <circle class="st7" cx="171.5" cy="623.5" r="11.8"/>
+    <circle class="st8" cx="237.3" cy="606.1" r="15.6"/>
+    <circle class="st3" cx="200" cy="606.1" r="17"/>
+    <circle class="st4" cx="194.6" cy="638.4" r="11.1"/>
+    <circle class="st6" cx="219.9" cy="577.3" r="13.4"/>
+    <circle class="st2" cx="217.5" cy="630.6" r="8.5"/>
+    <circle class="st0" cx="387.3" cy="684" r="45.8"/>
+    <circle class="st4" cx="383.5" cy="715.4" r="10.2"/>
+    <circle class="st5" cx="354.4" cy="676.4" r="12"/>
+    <circle class="st6" cx="373.9" cy="654.8" r="12.4"/>
+    <circle class="st2" cx="406.9" cy="710" r="9.1"/>
+    <circle class="st1" cx="403.4" cy="658.3" r="12.6"/>
+    <circle class="st7" cx="359.7" cy="704" r="11.5"/>
+    <circle class="st8" cx="418.6" cy="685.3" r="13.6"/>
+    <circle class="st3" cx="385" cy="685.3" r="15.3"/>
+    <circle class="st0" cx="482.2" cy="666.2" r="46.2"/>
+    <circle class="st5" cx="449.8" cy="680.8" r="10.6"/>
+    <circle class="st3" cx="479.2" cy="668.4" r="16.6"/>
+    <circle class="st6" cx="468.6" cy="698.5" r="10.6"/>
+    <circle class="st2" cx="450" cy="654.3" r="11.1"/>
+    <circle class="st1" cx="471.1" cy="635.7" r="12.4"/>
+    <circle class="st7" cx="500" cy="641.8" r="12.5"/>
+    <circle class="st8" cx="513" cy="668.4" r="12.5"/>
+    <circle class="st4" cx="493.2" cy="695.8" r="9.4"/>
   </g>
+  <text transform="translate(419.514 92.195)" class="st9 st10">clinton</text>
+  <text transform="translate(405.447 137.693)" class="st11 st12">anger</text>
+  <text transform="translate(405.359 231.056)" class="st11 st12">disgust</text>
+  <text transform="translate(423.937 186.866)" class="st11 st12">trust</text>
+  <text transform="translate(437.106 226.912)" class="st11 st12">surprise</text>
+  <text transform="translate(370.873 210.322)" class="st11 st12">sadness</text>
+  <text transform="translate(381.133 168.625)" class="st11 st12">joy</text>
+  <text transform="translate(455.724 144.677)" class="st11 st12">fear</text>
+  <text transform="translate(459.82 186.866)" class="st11 st12">anticipation</text>
+  <text transform="translate(856.521 330.521)" class="st9 st10">donaldtrump</text>
+  <text transform="translate(120.922 198.992)" class="st9 st10">draintheswamp</text>
+  <text transform="translate(246.96 192.135)" class="st11 st12">joy</text>
+  <text transform="translate(268.658 166.937)" class="st11 st12">anger</text>
+  <text transform="translate(283.583 210.12)" class="st11 st12">trust</text>
+  <text transform="translate(295.29 244.135)" class="st11 st12">surprise</text>
+  <text transform="translate(234.606 229.235)" class="st11 st12">sadness</text>
+  <text transform="translate(265.93 252.049)" class="st11 st12">disgust</text>
+  <text transform="translate(311.738 174.021)" class="st11 st12">fear</text>
+  <text transform="translate(313.196 210.12)" class="st11 st12">anticipation</text>
+  <text transform="translate(48.417 596.152)" class="st9 st10">election2016</text>
+  <text transform="translate(129.342 557.628)" class="st11 st12">fear</text>
+  <text transform="translate(164.75 522.908)" class="st11 st12">anticipation</text>
+  <text transform="translate(140.39 522.908)" class="st11 st12">trust</text>
+  <text transform="translate(97.334 537.758)" class="st11 st12">surprise</text>
+  <text transform="translate(120.922 485.244)" class="st11 st12">sadness</text>
+  <text transform="translate(167.56 491.334)" class="st11 st12">joy</text>
+  <text transform="translate(147.398 553.957)" class="st11 st12">disgust</text>
+  <text transform="translate(102.162 506.454)" class="st11 st12">anger</text>
+  <text transform="translate(706.628 353.702)" class="st9 st10">hillary</text>
+  <text transform="translate(692.731 526.293)" class="st11 st12">disgust</text>
+  <text transform="translate(742.377 388.353)" class="st11 st12">fear</text>
+  <text transform="translate(650.946 381.123)" class="st11 st12">anticipation</text>
+  <text transform="translate(697.759 453.938)" class="st11 st12">trust</text>
+  <text transform="translate(747.675 516.384)" class="st11 st12">surprise</text>
+  <text transform="translate(611.809 437.141)" class="st11 st12">sadness</text>
+  <text transform="translate(645.377 502.27)" class="st11 st12">joy</text>
+  <text transform="translate(774.975 453.938)" class="st11 st12">anger</text>
+  <text transform="translate(48.417 285.11)" class="st9 st10">imwithher</text>
+  <text transform="translate(146.126 281.914)" class="st11 st12">joy</text>
+  <text transform="translate(210.724 324.738)" class="st11 st12">disgust</text>
+  <text transform="translate(224.503 290.753)" class="st11 st12">anger</text>
+  <text transform="translate(154.474 318.34)" class="st11 st12">fear</text>
+  <text transform="translate(190.502 254.208)" class="st11 st12">anticipation</text>
+  <text transform="translate(183.948 290.753)" class="st11 st12">trust</text>
+  <text transform="translate(177.653 330.521)" class="st11 st12">surprise</text>
+  <text transform="translate(157.582 251.63)" class="st11 st12">sadness</text>
+  <text transform="translate(611.809 107.244)" class="st9 st10">maga</text>
+  <text transform="translate(532.412 278.546)" class="st11 st12">sadness</text>
+  <text transform="translate(637.266 296.02)" class="st11 st12">disgust</text>
+  <text transform="translate(580.523 167.426)" class="st11 st12">anger</text>
+  <text transform="translate(537.401 213.856)" class="st11 st12">fear</text>
+  <text transform="translate(669.126 240.389)" class="st11 st12">anticipation</text>
+  <text transform="translate(606.52 240.389)" class="st11 st12">trust</text>
+  <text transform="translate(584.708 309.223)" class="st11 st12">surprise</text>
+  <text transform="translate(654.947 177.968)" class="st11 st12">joy</text>
+  <text transform="translate(916.545 475.99)" class="st9 st10">neverhillary</text>
+  <text transform="translate(808.192 639.328)" class="st9 st10">nevertrump</text>
+  <text transform="translate(891.495 556.845)" class="st9 st10">news</text>
+  <text transform="translate(19.223 468.062)" class="st9 st10">notmypresident</text>
+  <text transform="translate(125.419 440.523)" class="st11 st12">surprise</text>
+  <text transform="translate(112.04 369.86)" class="st11 st12">sadness</text>
+  <text transform="translate(109.586 429.178)" class="st11 st12">joy</text>
+  <text transform="translate(154.293 435.35)" class="st11 st12">disgust</text>
+  <text transform="translate(173.174 405.866)" class="st11 st12">anger</text>
+  <text transform="translate(100.232 395.959)" class="st11 st12">fear</text>
+  <text transform="translate(140.202 373.282)" class="st11 st12">anticipation</text>
+  <text transform="translate(135.772 405.866)" class="st11 st12">trust</text>
+  <text transform="translate(916.544 393.271)" class="st9 st10">obama</text>
+  <text transform="translate(829.107 249.957)" class="st9 st10">presidenttrump</text>
+  <text transform="translate(575.488 681.65)" class="st9 st10">tcot</text>
+  <text transform="translate(388.163 290.753)" class="st9 st10">trump</text>
+  <text transform="translate(337.207 340.028)" class="st11 st12">anger</text>
+  <text transform="translate(264.097 419.4)" class="st11 st12">joy</text>
+  <text transform="translate(454.936 357.92)" class="st11 st12">fear</text>
+  <text transform="translate(494.402 461.914)" class="st11 st12">anticipation</text>
+  <text transform="translate(379.226 461.914)" class="st11 st12">trust</text>
+  <text transform="translate(352.01 574.714)" class="st11 st12">surprise</text>
+  <text transform="translate(263.291 529.375)" class="st11 st12">sadness</text>
+  <text transform="translate(437.643 554.178)" class="st11 st12">disgust</text>
+  <text transform="translate(641.099 668.34)" class="st9 st10">trump2016</text>
+  <text transform="translate(187.24 744.88)" class="st9 st10">trumppence16</text>
+  <text transform="translate(285.342 678.117)" class="st11 st12">trust</text>
+  <text transform="translate(271.706 710.337)" class="st11 st12">surprise</text>
+  <text transform="translate(256.092 667.709)" class="st11 st12">joy</text>
+  <text transform="translate(296.403 702.124)" class="st11 st12">disgust</text>
+  <text transform="translate(302.066 649.134)" class="st11 st12">anger</text>
+  <text transform="translate(259.16 695.944)" class="st11 st12">fear</text>
+  <text transform="translate(304.671 680.98)" class="st11 st12">anticipation</text>
+  <text transform="translate(263.983 644.964)" class="st11 st12">sadness</text>
+  <text transform="translate(126.58 674.416)" class="st9 st10">trumptrain</text>
+  <text transform="translate(163.691 604.592)" class="st11 st12">anger</text>
+  <text transform="translate(178.736 583.382)" class="st11 st12">sadness</text>
+  <text transform="translate(171.976 633.482)" class="st11 st12">fear</text>
+  <text transform="translate(219.459 616.13)" class="st11 st12">anticipation</text>
+  <text transform="translate(199.34 616.13)" class="st11 st12">trust</text>
+  <text transform="translate(185.053 648.36)" class="st11 st12">surprise</text>
+  <text transform="translate(222.871 587.276)" class="st11 st12">joy</text>
+  <text transform="translate(210.095 640.618)" class="st11 st12">disgust</text>
+  <text transform="translate(372.836 758.706)" class="st9 st10">votetrump</text>
+  <text transform="translate(373.941 725.38)" class="st11 st12">surprise</text>
+  <text transform="translate(343.875 686.366)" class="st11 st12">sadness</text>
+  <text transform="translate(376.83 664.85)" class="st11 st12">joy</text>
+  <text transform="translate(399.431 719.998)" class="st11 st12">disgust</text>
+  <text transform="translate(399.316 668.34)" class="st11 st12">anger</text>
+  <text transform="translate(360.222 713.99)" class="st11 st12">fear</text>
+  <text transform="translate(400.74 695.258)" class="st11 st12">anticipation</text>
+  <text transform="translate(384.306 695.258)" class="st11 st12">trust</text>
+  <text transform="translate(471.12 744.88)" class="st9 st10">wikileaks</text>
+  <text transform="translate(439.297 690.753)" class="st11 st12">sadness</text>
+  <text transform="translate(478.51 678.395)" class="st11 st12">trust</text>
+  <text transform="translate(471.595 708.465)" class="st11 st12">joy</text>
+  <text transform="translate(442.55 664.333)" class="st11 st12">disgust</text>
+  <text transform="translate(467.05 645.726)" class="st11 st12">anger</text>
+  <text transform="translate(500.485 651.784)" class="st11 st12">fear</text>
+  <text transform="translate(495.213 678.395)" class="st11 st12">anticipation</text>
+  <text transform="translate(483.596 705.777)" class="st11 st12">surprise</text>
 </svg>
