@@ -1,0 +1,94 @@
+GroupedBarChart16.svg
+ The SVG size is undefined
+BulletChart13.svg
+ invalid literal for int() with base 16: 'ar'
+GroupedBarChart11.svg
+ could not convert string to float: '1r'
+BulletChart14.svg
+ invalid literal for int() with base 16: 'ar'
+GeoHeatmap12.svg
+ could not convert string to float: '1r'
+StackedAreaChart16.svg
+ invalid literal for int() with base 16: 'ar'
+BulletChart15.svg
+ invalid literal for int() with base 16: 'ar'
+Treemap19.svg
+ could not convert string to float: '1r'
+DivergingStackedBarChart23.svg
+ The SVG size is undefined
+BulletChart16.svg
+ invalid literal for int() with base 16: 'ar'
+AreaChart27.svg
+ could not convert string to float: '1r'
+StreamGraph15.svg
+ could not convert string to float: '1r'
+LineGraph39.svg
+ The SVG size is undefined
+ConnectedDotPlot22.svg
+ The SVG size is undefined
+CirclePacking19.svg
+ could not convert string to float: '100%'
+RangeChart19.svg
+ The SVG size is undefined
+ConnectedDotPlot21.svg
+ The SVG size is undefined
+DonutChart21.svg
+ The SVG size is undefined
+ConnectedDotPlot18.svg
+ The SVG size is undefined
+RangeChart21.svg
+ The SVG size is undefined
+DonutChart18.svg
+ could not convert string to float: '1r'
+AreaChart20.svg
+ could not convert string to float: '1r'
+CandlestickChart12.svg
+ The SVG size is undefined
+Calendar12.svg
+ could not convert string to float: '1r'
+LineGraph30.svg
+ invalid literal for int() with base 16: 'ar'
+ConnectedDotPlot16.svg
+ could not convert string to float: '1r'
+RangeChart12.svg
+ The SVG size is undefined
+DonutChart17.svg
+ The SVG size is undefined
+Heatmap27.svg
+ could not convert string to float: '1r'
+WaterfallChart21.svg
+ The SVG size is undefined
+Calendar11.svg
+ could not convert string to float: '0.8r'
+Heatmap25.svg
+ The SVG size is undefined
+DonutChart14.svg
+ could not convert string to float: '1r'
+AreaChart28.svg
+ The SVG size is undefined
+RangeChart15.svg
+ The SVG size is undefined
+CandlestickChart19.svg
+ could not convert string to float: '1r'
+AreaChart15.svg
+ invalid literal for int() with base 16: 'ar'
+AreaChart17.svg
+ The SVG size is undefined
+GanttChart22.svg
+ The SVG size is undefined
+GroupedBarChart23.svg
+ The SVG size is undefined
+WordCloud13.svg
+ could not convert string to float: '1r'
+BarChart28.svg
+ could not convert string to float: '1r'
+DotPlot16.svg
+ The SVG size is undefined
+BulletChart21.svg
+ The SVG size is undefined
+ConnectedScatterPlot21.svg
+ could not convert string to float: '1r'
+LineGraph40.svg
+ could not convert string to float: '1r'
+DensityPlot20.svg
+ could not convert string to float: '1r'
