@@ -1,0 +1,125 @@
+<svg class="visualization-layer" width="700" height="500" style="position:absolute">
+  <g class="data-visualization" data-testid="data-visualization" aria-label="Visualization with a complex title. Use arrow keys to navigate elements.">
+    <g class="axis axis-tick-lines" aria-hidden="true">
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M240.395 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M285.356 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M330.316 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M375.277 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M420.237 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M465.198 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M510.158 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M555.119 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M600.08 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M645.04 50v410" class="tick-line tick bottom"/>
+      </g>
+      <g class="tick-line tick bottom">
+        <path fill="none" stroke="#000" d="M690 50v410" class="tick-line tick bottom"/>
+      </g>
+    </g>
+    <g class="pieces" data-testid="pieces" tabindex="0" aria-label="28 points in a point plot" transform="translate(235 50)">
+      <rect tabindex="-1" height="16" width="16" x="378.66" y="6.643" rx="8" ry="8" style="fill:#fff;stroke:#ac58e5;stroke-width:3" aria-label="Developed regions point value 7.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="416.427" y="6.643" rx="8" ry="8" style="fill:#fff;stroke:#533f82;stroke-width:3" aria-label="Developed regions point value 3.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="119.688" y="35.929" rx="8" ry="8" style="fill:#fff;stroke:#ac58e5;stroke-width:3" aria-label="Developing regions point value 36.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="249.174" y="35.929" rx="8" ry="8" style="fill:#fff;stroke:#533f82;stroke-width:3" aria-label="Developing regions point value 22%"/>
+      <rect tabindex="-1" height="16" width="16" x="342.692" y="65.214" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Eastern Asia excluding China point value 11.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="379.559" y="65.214" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Eastern Asia excluding China point value 7.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="226.694" y="94.5" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Eastern Asia point value 24.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="377.761" y="94.5" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Eastern Asia point value 7.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="248.275" y="123.786" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Latin America and the Caribbean point value 22.1%"/>
+      <rect tabindex="-1" height="16" width="16" x="364.273" y="123.786" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Latin America and the Caribbean point value 9.2%"/>
+      <rect tabindex="-1" height="16" width="16" x="177.237" y="153.071" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Northern Africa point value 30%"/>
+      <rect tabindex="-1" height="16" width="16" x="327.405" y="153.071" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Northern Africa point value 13.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="199.717" y="182.357" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Western Asia point value 27.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="323.808" y="182.357" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Western Asia point value 13.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="200.617" y="211.643" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="South-eastern Asia point value 27.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="317.514" y="211.643" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="South-eastern Asia point value 14.4%"/>
+      <rect tabindex="-1" height="16" width="16" x="215.903" y="240.929" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Caucasus and Central Asia point value 25.7%"/>
+      <rect tabindex="-1" height="16" width="16" x="313.917" y="240.929" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Caucasus and Central Asia point value 14.8%"/>
+      <rect tabindex="-1" height="16" width="16" x="147.563" y="270.214" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="World point value 33.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="267.158" y="270.214" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="World point value 20%"/>
+      <rect tabindex="-1" height="16" width="16" x="210.508" y="299.5" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Oceania point value 26.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="255.468" y="299.5" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Oceania point value 21.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="-8" y="328.786" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Southern Asia point value 50.6%"/>
+      <rect tabindex="-1" height="16" width="16" x="181.733" y="328.786" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Southern Asia point value 29.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="3.69" y="358.071" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Southern Asia excluding India point value 49.3%"/>
+      <rect tabindex="-1" height="16" width="16" x="176.338" y="358.071" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Southern Asia excluding India point value 30.1%"/>
+      <rect tabindex="-1" height="16" width="16" x="37.86" y="387.357" rx="8" ry="8" style="fill:#ac58e5;stroke:#fff;stroke-width:1" aria-label="Sub-Saharan Africa point value 45.5%"/>
+      <rect tabindex="-1" height="16" width="16" x="167.346" y="387.357" rx="8" ry="8" style="fill:#533f82;stroke:#fff;stroke-width:1" aria-label="Sub-Saharan Africa point value 31.1%"/>
+    </g>
+    <g class="axis axis-labels">
+      <g class="bottom x" aria-label="bottom axis from 50% to 0%">
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(240.395 485)">50%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(285.356 485)">45%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(330.316 485)">40%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(375.277 485)">35%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(420.237 485)">30%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(465.198 485)">25%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(510.158 485)">20%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(555.119 485)">15%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(600.08 485)">10%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(645.04 485)">5%</text>
+        </g>
+        <g pointer-events="none" class="axis-label">
+          <text text-anchor="middle" class="axis-label" transform="translate(690 485)">0%</text>
+        </g>
+        <path class="axis-baseline bottom x" stroke="#000" stroke-linecap="square" d="M235 460h455"/>
+      </g>
+    </g>
+    <g class="ordinal-labels" text-anchor="end">
+      <text transform="translate(232 64.643)">Developed regions</text>
+      <text transform="translate(232 93.929)">Developing regions</text>
+      <text transform="translate(232 123.214)">Eastern Asia excluding China</text>
+      <text transform="translate(232 152.5)">Eastern Asia</text>
+      <text transform="translate(232 181.786)">Latin America and the Caribbean</text>
+      <text transform="translate(232 211.071)">Northern Africa</text>
+      <text transform="translate(232 240.357)">Western Asia</text>
+      <text transform="translate(232 269.643)">South-eastern Asia</text>
+      <text transform="translate(232 298.929)">Caucasus and Central Asia</text>
+      <text transform="translate(232 328.214)">World</text>
+      <text transform="translate(232 357.5)">Oceania</text>
+      <text transform="translate(232 386.786)">Southern Asia</text>
+      <text transform="translate(232 416.071)">Southern Asia excluding India</text>
+      <text transform="translate(232 445.357)">Sub-Saharan Africa</text>
+    </g>
+  </g>
+  <text text-anchor="middle" transform="translate(350 25)" class="frame-title">Neonatal Mortality Rate by Region from <tspan fill="#ac58e5">1990</tspan> to <tspan fill="#533f82">2013</tspan></text>
+  <g aria-hidden="true" class="foreground-graphics"/>
+</svg>
