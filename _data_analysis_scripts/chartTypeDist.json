@@ -3,52 +3,175 @@
   "description": "Chart Type Counts and Percentages",
   "data": {
     "values": [
-      { "Chart Type": "Line Graph", "Count": 21 },
-      { "Chart Type": "Pie Chart", "Count": 14 },
-      { "Chart Type": "Scatter Plot", "Count": 14 },
-      { "Chart Type": "Waffle Chart", "Count": 14 },
-      { "Chart Type": "Heatmap", "Count": 13 },
-      { "Chart Type": "Marimekko Chart", "Count": 13 },
-      { "Chart Type": "Treemap", "Count": 13 },
-      { "Chart Type": "Violin Plot", "Count": 13 },
-      { "Chart Type": "Waterfall Chart", "Count": 13 },
-      { "Chart Type": "Bubble Chart", "Count": 12 },
-      { "Chart Type": "Diverging Stacked Bar Chart", "Count": 12 },
-      { "Chart Type": "Stacked Area Chart", "Count": 12 },
-      { "Chart Type": "Stacked Bar Chart", "Count": 12 },
-      { "Chart Type": "Area Chart", "Count": 11 },
-      { "Chart Type": "Box And Whisker Plot", "Count": 11 },
-      { "Chart Type": "Bump Chart", "Count": 11 },
-      { "Chart Type": "Density Plot", "Count": 11 },
-      { "Chart Type": "Donut Chart", "Count": 11 },
-      { "Chart Type": "Range Chart", "Count": 11 },
-      { "Chart Type": "Bar Chart", "Count": 10 },
-      { "Chart Type": "Bar Chart In Radial Layout", "Count": 10 },
-      { "Chart Type": "Bullet Chart", "Count": 10 },
-      { "Chart Type": "Calendar Plot", "Count": 10 },
-      { "Chart Type": "Candlestick Chart", "Count": 10 },
-      { "Chart Type": "Circle Packing", "Count": 10 },
-      { "Chart Type": "Connected Dot Plot", "Count": 10 },
-      { "Chart Type": "Connected Scatterplot", "Count": 10 },
-      { "Chart Type": "Dot Plot", "Count": 10 },
-      { "Chart Type": "Gantt Chart", "Count": 10 },
-      { "Chart Type": "Geo-Heatmap", "Count": 10 },
-      { "Chart Type": "Grouped Bar Chart", "Count": 10 },
-      { "Chart Type": "Kagi Chart", "Count": 10 },
-      { "Chart Type": "Matrix Diagram", "Count": 10 },
-      { "Chart Type": "Parallel Coordinates Plot", "Count": 10 },
-      { "Chart Type": "Polar Area Chart", "Count": 10 },
-      { "Chart Type": "Radar Chart", "Count": 10 },
-      { "Chart Type": "Radial Bar Chart", "Count": 10 },
-      { "Chart Type": "Spiral Plot", "Count": 10 },
-      { "Chart Type": "Stream Graph", "Count": 10 },
-      { "Chart Type": "Word Cloud", "Count": 10 },
-      { "Chart Type": "Others", "Count": 18 }
+      {
+        "Chart Type": "Line Graph",
+        "Count": 40
+      },
+      {
+        "Chart Type": "Area Chart",
+        "Count": 28
+      },
+      {
+        "Chart Type": "Bar Chart",
+        "Count": 28
+      },
+      {
+        "Chart Type": "Grouped Bar Chart",
+        "Count": 27
+      },
+      {
+        "Chart Type": "Heatmap",
+        "Count": 27
+      },
+      {
+        "Chart Type": "Bubble Chart",
+        "Count": 26
+      },
+      {
+        "Chart Type": "Scatterplot",
+        "Count": 26
+      },
+      {
+        "Chart Type": "Box-and-whisker plot",
+        "Count": 25
+      },
+      {
+        "Chart Type": "Polar Area Chart",
+        "Count": 25
+      },
+      {
+        "Chart Type": "Stacked Bar Chart",
+        "Count": 25
+      },
+      {
+        "Chart Type": "Pie Chart",
+        "Count": 24
+      },
+      {
+        "Chart Type": "Radar Chart",
+        "Count": 24
+      },
+      {
+        "Chart Type": "Diverging Stacked Bar Chart",
+        "Count": 23
+      },
+      {
+        "Chart Type": "Gantt Chart",
+        "Count": 23
+      },
+      {
+        "Chart Type": "Stacked Area Chart",
+        "Count": 23
+      },
+      {
+        "Chart Type": "Connected Dot Plot",
+        "Count": 22
+      },
+      {
+        "Chart Type": "Density plot",
+        "Count": 22
+      },
+      {
+        "Chart Type": "Donut Chart",
+        "Count": 22
+      },
+      {
+        "Chart Type": "Treemap",
+        "Count": 22
+      },
+      {
+        "Chart Type": "Waffle Chart",
+        "Count": 22
+      },
+      {
+        "Chart Type": "Bullet Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Bump Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Candlestick Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Circle Packing",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Connected Scatterplot",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Geo Heatmap",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Marimekko Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Matrix Diagram",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Range Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Stream Graph",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Violin Plot",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Waterfall Chart",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Word Cloud",
+        "Count": 21
+      },
+      {
+        "Chart Type": "Bar Chart in Radial Layout",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Calendar",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Dot Plot",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Kagi Chart",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Parallel Coordinates Plot",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Radial Bar Chart",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Spiral Plot",
+        "Count": 20
+      },
+      {
+        "Chart Type": "Others",
+        "Count": 28
+      }
     ]
   },
   "transform": [
     {
-      "calculate": "datum.Count / 470 * 100",
+      "calculate": "datum.Count / 945 * 100",
       "as": "Percentage"
     },
     {
