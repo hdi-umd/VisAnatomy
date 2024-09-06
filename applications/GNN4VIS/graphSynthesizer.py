@@ -163,107 +163,107 @@ def generateGraphData(chartName, folderName):
             max_x = max(max_x, right)
             max_y = max(max_y, bottom)
 
-        # # if target main chart marks
-        # targetedElements = [key for key, value in mark_info.items() if value['Role'] == 'Main Chart Mark']
+        # if target main chart marks
+        targetedElements = [key for key, value in mark_info.items() if value['Role'] == 'Main Chart Mark']
 
-        # if target all basic elements
-        targetedElements = [key for key, value in allElements.items() if key]
+        # # if target all basic elements
+        # targetedElements = [key for key, value in allElements.items() if key]
 
         allNodes = targetedElements.copy()
 
         ## get ancesters of main_chart_marks and form edges
 
-        # if using the parent-child relationship in the SVG
-        for mark in targetedElements:
-            if (mark in parent_child_relationship):
-                child = mark
-                parent = parent_child_relationship[mark]
-                while parent:
-                    if (parent not in allNodes):
-                        allNodes.append(parent)
-                    if ([allNodes.index(child), allNodes.index(parent)] not in edges):
-                        edges.append([allNodes.index(child), allNodes.index(parent)])
-                    if (parent == root.get('id') or parent.startswith('svg')):
-                        break
-                    child = parent
-                    parent = parent_child_relationship[parent]
+        # # if using the parent-child relationship in the SVG
+        # for mark in targetedElements:
+        #     if (mark in parent_child_relationship):
+        #         child = mark
+        #         parent = parent_child_relationship[mark]
+        #         while parent:
+        #             if (parent not in allNodes):
+        #                 allNodes.append(parent)
+        #             if ([allNodes.index(child), allNodes.index(parent)] not in edges):
+        #                 edges.append([allNodes.index(child), allNodes.index(parent)])
+        #             if (parent == root.get('id') or parent.startswith('svg')):
+        #                 break
+        #             child = parent
+        #             parent = parent_child_relationship[parent]
 
-        # # if using the nestedGrouping in the annotations to form the edges
-        # idEdges = []
-        # def addEdges(node):
-        #     # if the node is a number
-        #     if (isinstance(node, int)):
-        #         allNodes.append("group" + str(node))
-        #         for child in groupInfo[node]:
-        #             idEdges.append(["group" + str(node), child])
-        #     else:
-        #         allNodes.append("group" + str(node))
-        #         for child in node:
-        #             idEdges.append(["group" + str(node), "group" + str(child)])
-        #         for child in node:
-        #             addEdges(child)
-        # nestedGrouping = annotations['nestedGrouping'][0]
-        # addEdges(nestedGrouping)
-        # for edge in idEdges:
-        #     if (edge[0] in allNodes and edge[1] in allNodes):
-        #         edges.append([allNodes.index(edge[0]), allNodes.index(edge[1])])
+        # if using the nestedGrouping in the annotations to form the edges
+        idEdges = []
+        def addEdges(node):
+            # if the node is a number
+            if (isinstance(node, int)):
+                allNodes.append("group" + str(node))
+                for child in groupInfo[node]:
+                    idEdges.append(["group" + str(node), child])
+            else:
+                allNodes.append("group" + str(node))
+                for child in node:
+                    idEdges.append(["group" + str(node), "group" + str(child)])
+                for child in node:
+                    addEdges(child)
+        nestedGrouping = annotations['nestedGrouping'][0]
+        addEdges(nestedGrouping)
+        for edge in idEdges:
+            if (edge[0] in allNodes and edge[1] in allNodes):
+                edges.append([allNodes.index(edge[0]), allNodes.index(edge[1])])
             
         for node in allNodes:
             # first part, one-hot encoding of the node type referring to the nodes name starting with which dimension of graphicsElementTypes
 
-            # if using just the SVG type
-            nodeFeature = [0] * len(graphicsElementTypes)
-            if (node not in targetedElements):
-                # the last element of the nodeFeature is 1
-                nodeFeature[-1] = 1
-                nodeFeature.extend([0, 0, 0, 0, 0, 0, 0])
-                nodeFeatures.append(nodeFeature)
-                continue
-            for i, nodeType in enumerate(graphicsElementTypes):
-                if node.startswith(nodeType):
-                    nodeFeature[i] = 1
-                    break
-            if (node.startswith("tspan") or node.startswith("textPath")):
-                nodeFeature[8] = 1
-            if (node.startswith("use")):
-                # get the element using ET
-                element = root.find(f".//*[@id='{node}']")
-                if (element):
-                    # get the href attribute
-                    href = element.get("{http://www.w3.org/1999/xlink}href")
-                    if (href == None):
-                        # get the xlink:href attribute
-                        href = element.get("{http://www.w3.org/1999/xlink}xlink:href")
-                    if (href != None):
-                        # get the href attribute
-                        if (href[0] == "#" and href[1:] in id_mappings):
-                            # get the element using ET
-                            referredElementID = id_mappings[href[1:]]
-                            # get the type of the element
-                            for i, nodeType in enumerate(graphicsElementTypes):
-                                if referredElementID.startswith(nodeType):
-                                    nodeFeature = [0] * len(graphicsElementTypes)
-                                    nodeFeature[i] = 1
-                                    break
-                            # in visualStyles[node], if a value is none then use the value of the referred element
-                            if (visualStyles[node] != None):    
-                                for i in range(3):
-                                    if visualStyles[node][i] is None and visualStyles[referredElementID][i] is not None:
-                                        visualStyles[node][i] = visualStyles[referredElementID][i]
-
-            # # if using their ground truth mark type in the annotations
-            # nodeFeature = [0] * (len(markTypeGroundtruths) + 1)
+            # # if using just the SVG type
+            # nodeFeature = [0] * len(graphicsElementTypes)
             # if (node not in targetedElements):
+            #     # the last element of the nodeFeature is 1
             #     nodeFeature[-1] = 1
             #     nodeFeature.extend([0, 0, 0, 0, 0, 0, 0])
             #     nodeFeatures.append(nodeFeature)
             #     continue
-            # else:
-            #     markType = mark_info[node]['Type']
-            #     for i, nodeType in enumerate(markTypeGroundtruths):
-            #         if markType == nodeType:
-            #             nodeFeature[i] = 1
-            #             break
+            # for i, nodeType in enumerate(graphicsElementTypes):
+            #     if node.startswith(nodeType):
+            #         nodeFeature[i] = 1
+            #         break
+            # if (node.startswith("tspan") or node.startswith("textPath")):
+            #     nodeFeature[8] = 1
+            # if (node.startswith("use")):
+            #     # get the element using ET
+            #     element = root.find(f".//*[@id='{node}']")
+            #     if (element):
+            #         # get the href attribute
+            #         href = element.get("{http://www.w3.org/1999/xlink}href")
+            #         if (href == None):
+            #             # get the xlink:href attribute
+            #             href = element.get("{http://www.w3.org/1999/xlink}xlink:href")
+            #         if (href != None):
+            #             # get the href attribute
+            #             if (href[0] == "#" and href[1:] in id_mappings):
+            #                 # get the element using ET
+            #                 referredElementID = id_mappings[href[1:]]
+            #                 # get the type of the element
+            #                 for i, nodeType in enumerate(graphicsElementTypes):
+            #                     if referredElementID.startswith(nodeType):
+            #                         nodeFeature = [0] * len(graphicsElementTypes)
+            #                         nodeFeature[i] = 1
+            #                         break
+            #                 # in visualStyles[node], if a value is none then use the value of the referred element
+            #                 if (visualStyles[node] != None):    
+            #                     for i in range(3):
+            #                         if visualStyles[node][i] is None and visualStyles[referredElementID][i] is not None:
+            #                             visualStyles[node][i] = visualStyles[referredElementID][i]
+
+            # if using their ground truth mark type in the annotations
+            nodeFeature = [0] * (len(markTypeGroundtruths) + 1)
+            if (node not in targetedElements):
+                nodeFeature[-1] = 1
+                nodeFeature.extend([0, 0, 0, 0, 0, 0, 0])
+                nodeFeatures.append(nodeFeature)
+                continue
+            else:
+                markType = mark_info[node]['Type']
+                for i, nodeType in enumerate(markTypeGroundtruths):
+                    if markType == nodeType:
+                        nodeFeature[i] = 1
+                        break
 
             # second part, the boudning box information from annotations
             nodeFeature.extend([allElements[node]['top']/max_y, allElements[node]['right']/max_x, allElements[node]['bottom']/max_y, allElements[node]['left']/max_x])
@@ -277,7 +277,7 @@ def generateGraphData(chartName, folderName):
         with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), folderName, chartName+".json"), "w") as f:
             json.dump({"nodeNames": allNodes ,"nodes": nodeFeatures, "edges": edges, "splition": dataSplition[chartName]['role'], "label": dataSplition[chartName]['label']}, f)
 
-folderName = "graphData_v1_0905"
+folderName = "graphData_v4_0905"
 for chartName in getAllChartNames():
     # Initialize variables
     indices = {}
