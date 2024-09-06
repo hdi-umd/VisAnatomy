@@ -26,7 +26,7 @@ resnet = models.resnet50(pretrained=True)
 modules = list(resnet.children())[:-1]
 resnet = nn.Sequential(*modules)
 
-data_dir = "data/GNN Dataset/graphData_v3"
+data_dir = "data/GNN Dataset/graphData_v4"
 json_files = sorted(glob.glob(f'{data_dir}/*.json'))
 img_dir = "data/GNN Dataset/examples_png"
 

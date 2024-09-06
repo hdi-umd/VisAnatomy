@@ -29,7 +29,7 @@ resnet = nn.Sequential(*modules)
 # get the current directory
 current_dir = os.path.dirname(os.path.realpath(__file__))
 
-data_dir = current_dir + "/data/GNN Dataset/graphData_v3"
+data_dir = current_dir + "/data/GNN Dataset/graphData_v4"
 json_files = sorted(glob.glob(f'{data_dir}/*.json'))
 img_dir = current_dir + "/data/GNN Dataset/examples_png"
 
