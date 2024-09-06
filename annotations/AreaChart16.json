@@ -1,1 +1,1146 @@
-{"chart": "AreaChart16", "annotations": {"allGraphicsElement": {"path0": {"left": 0, "top": 0, "right": 896, "bottom": 500, "height": 500, "width": 896, "id": "path0", "tagName": "path", "content": "", "fill": "#fff", "isReferenceElement": false}, "text0": {"left": 160, "top": 58.400001525878906, "right": 313.2734375, "bottom": 73.89999389648438, "height": 15.499992370605469, "width": 153.2734375, "id": "text0", "tagName": "text", "content": "Company Performance", "fill": "undefined", "isReferenceElement": false}, "path1": {"left": 160, "top": 59, "right": 882, "bottom": 133, "height": 74, "width": 722, "id": "path1", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path2": {"left": 750, "top": 96, "right": 882, "bottom": 110, "height": 14, "width": 132, "id": "path2", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "text1": {"left": 783, "top": 95.39999389648438, "right": 818.0234375, "bottom": 110.89999389648438, "height": 15.5, "width": 35.0234375, "id": "text1", "tagName": "text", "content": "Sales", "fill": "#222", "isReferenceElement": true}, "path3": {"left": 750, "top": 103, "right": 778, "bottom": 110, "height": 7, "width": 28, "id": "path3", "tagName": "path", "content": "", "fill": "#36c", "isReferenceElement": false}, "path4": {"left": 750, "top": 103, "right": 778, "bottom": 103, "height": 0, "width": 28, "id": "path4", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path5": {"left": 750, "top": 119, "right": 882, "bottom": 133, "height": 14, "width": 132, "id": "path5", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "text2": {"left": 783, "top": 118.39999389648438, "right": 844.484375, "bottom": 133.89999389648438, "height": 15.5, "width": 61.484375, "id": "text2", "tagName": "text", "content": "Expenses", "fill": "#222", "isReferenceElement": true}, "path6": {"left": 750, "top": 126, "right": 778, "bottom": 133, "height": 7, "width": 28, "id": "path6", "tagName": "path", "content": "", "fill": "#dc3912", "isReferenceElement": false}, "path7": {"left": 750, "top": 126, "right": 778, "bottom": 126, "height": 0, "width": 28, "id": "path7", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path8": {"left": 160, "top": 96, "right": 736, "bottom": 405, "height": 309, "width": 576, "id": "path8", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path9": {"left": 160, "top": 96, "right": 736, "bottom": 405, "height": 309, "width": 576, "id": "path9", "tagName": "path", "content": "", "fill": "#ccc", "isReferenceElement": false}, "path10": {"left": 160, "top": 122, "right": 736, "bottom": 379, "height": 257, "width": 576, "id": "path10", "tagName": "path", "content": "", "fill": "#ebebeb", "isReferenceElement": false}, "path11": {"left": 160.5, "top": 104.19999694824219, "right": 735.5, "bottom": 404.49998474121094, "height": 300.29998779296875, "width": 575, "id": "path11", "tagName": "path", "content": "", "fill": "#36c", "isReferenceElement": false}, "path12": {"left": 160.5, "top": 117.03302001953125, "right": 735.5, "bottom": 404.5, "height": 287.46697998046875, "width": 575, "id": "path12", "tagName": "path", "content": "", "fill": "#dc3912", "isReferenceElement": false}, "path13": {"left": 160, "top": 404, "right": 736, "bottom": 405, "height": 1, "width": 576, "id": "path13", "tagName": "path", "content": "", "fill": "#333", "isReferenceElement": false}, "path14": {"left": 160.5, "top": 104.19999694824219, "right": 735.5, "bottom": 235.0999755859375, "height": 130.8999786376953, "width": 575, "id": "path14", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path15": {"left": 160.5, "top": 117.03302001953125, "right": 735.5, "bottom": 301.8330078125, "height": 184.79998779296875, "width": 575, "id": "path15", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "text3": {"left": 144.92578125, "top": 413.3999938964844, "right": 176.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text3", "tagName": "text", "content": "2013", "fill": "#222", "isReferenceElement": true}, "text4": {"left": 336.5927734375, "top": 413.3999938964844, "right": 367.7412109375, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text4", "tagName": "text", "content": "2014", "fill": "#222", "isReferenceElement": true}, "text5": {"left": 528.2587890625, "top": 413.3999938964844, "right": 559.4072265625, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text5", "tagName": "text", "content": "2015", "fill": "#222", "isReferenceElement": true}, "text6": {"left": 719.92578125, "top": 413.3999938964844, "right": 751.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text6", "tagName": "text", "content": "2016", "fill": "#222", "isReferenceElement": true}, "text7": {"left": 138.2109375, "top": 396.8999938964844, "right": 146, "bottom": 412.3999938964844, "height": 15.5, "width": 7.7890625, "id": "text7", "tagName": "text", "content": "0", "fill": "#444", "isReferenceElement": true}, "text8": {"left": 122.640625, "top": 345.5669860839844, "right": 146, "bottom": 361.0669860839844, "height": 15.5, "width": 23.359375, "id": "text8", "tagName": "text", "content": "200", "fill": "#444", "isReferenceElement": true}, "text9": {"left": 122.640625, "top": 294.2330017089844, "right": 146, "bottom": 309.7330017089844, "height": 15.5, "width": 23.359375, "id": "text9", "tagName": "text", "content": "400", "fill": "#444", "isReferenceElement": true}, "text10": {"left": 122.640625, "top": 242.89999389648438, "right": 146, "bottom": 258.3999938964844, "height": 15.5, "width": 23.359375, "id": "text10", "tagName": "text", "content": "600", "fill": "#444", "isReferenceElement": true}, "text11": {"left": 122.640625, "top": 191.5670166015625, "right": 146, "bottom": 207.0670166015625, "height": 15.5, "width": 23.359375, "id": "text11", "tagName": "text", "content": "800", "fill": "#444", "isReferenceElement": true}, "text12": {"left": 110.9609375, "top": 140.23300170898438, "right": 146, "bottom": 155.73300170898438, "height": 15.5, "width": 35.0390625, "id": "text12", "tagName": "text", "content": "1,000", "fill": "#444", "isReferenceElement": true}, "text13": {"left": 110.9609375, "top": 88.89999389648438, "right": 146, "bottom": 104.39999389648438, "height": 15.5, "width": 35.0390625, "id": "text13", "tagName": "text", "content": "1,200", "fill": "#444", "isReferenceElement": true}, "text14": {"left": 433.59765625, "top": 456.4000244140625, "right": 463.607421875, "bottom": 471.9000244140625, "height": 15.5, "width": 30.009765625, "id": "text14", "tagName": "text", "content": "Year", "fill": "#333", "isReferenceElement": true}, "path16": {"left": 160, "top": 457, "right": 736, "bottom": 471, "height": 14, "width": 576, "id": "path16", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}}, "groupedGraphicsElement": {"paths": [{"left": 0, "top": 0, "right": 896, "bottom": 500, "height": 500, "width": 896, "id": "path0", "tagName": "path", "content": "", "fill": "#fff"}, {"left": 160, "top": 59, "right": 882, "bottom": 133, "height": 74, "width": 722, "id": "path1", "tagName": "path", "content": "", "fill": "none"}, {"left": 750, "top": 96, "right": 882, "bottom": 110, "height": 14, "width": 132, "id": "path2", "tagName": "path", "content": "", "fill": "none"}, {"left": 750, "top": 103, "right": 778, "bottom": 110, "height": 7, "width": 28, "id": "path3", "tagName": "path", "content": "", "fill": "#36c"}, {"left": 750, "top": 103, "right": 778, "bottom": 103, "height": 0, "width": 28, "id": "path4", "tagName": "path", "content": "", "fill": "none"}, {"left": 750, "top": 119, "right": 882, "bottom": 133, "height": 14, "width": 132, "id": "path5", "tagName": "path", "content": "", "fill": "none"}, {"left": 750, "top": 126, "right": 778, "bottom": 133, "height": 7, "width": 28, "id": "path6", "tagName": "path", "content": "", "fill": "#dc3912"}, {"left": 750, "top": 126, "right": 778, "bottom": 126, "height": 0, "width": 28, "id": "path7", "tagName": "path", "content": "", "fill": "none"}, {"left": 160, "top": 96, "right": 736, "bottom": 405, "height": 309, "width": 576, "id": "path8", "tagName": "path", "content": "", "fill": "none"}, {"left": 160, "top": 96, "right": 736, "bottom": 405, "height": 309, "width": 576, "id": "path9", "tagName": "path", "content": "", "fill": "#ccc"}, {"left": 160, "top": 122, "right": 736, "bottom": 379, "height": 257, "width": 576, "id": "path10", "tagName": "path", "content": "", "fill": "#ebebeb"}, {"left": 160.5, "top": 104.19999694824219, "right": 735.5, "bottom": 404.49998474121094, "height": 300.29998779296875, "width": 575, "id": "path11", "tagName": "path", "content": "", "fill": "#36c"}, {"left": 160.5, "top": 117.03302001953125, "right": 735.5, "bottom": 404.5, "height": 287.46697998046875, "width": 575, "id": "path12", "tagName": "path", "content": "", "fill": "#dc3912"}, {"left": 160, "top": 404, "right": 736, "bottom": 405, "height": 1, "width": 576, "id": "path13", "tagName": "path", "content": "", "fill": "#333"}, {"left": 160.5, "top": 104.19999694824219, "right": 735.5, "bottom": 235.0999755859375, "height": 130.8999786376953, "width": 575, "id": "path14", "tagName": "path", "content": "", "fill": null}, {"left": 160.5, "top": 117.03302001953125, "right": 735.5, "bottom": 301.8330078125, "height": 184.79998779296875, "width": 575, "id": "path15", "tagName": "path", "content": "", "fill": null}, {"left": 160, "top": 457, "right": 736, "bottom": 471, "height": 14, "width": 576, "id": "path16", "tagName": "path", "content": "", "fill": "none"}], "texts": [{"left": 160, "top": 42.900001525878906, "right": 313.2734375, "bottom": 73.89999389648438, "height": 15.5, "width": 153.2734375, "id": "text0", "tagName": "text", "content": "Company Performance", "fill": "undefined"}, {"left": 783, "top": 79.89999389648438, "right": 818.0234375, "bottom": 110.89999389648438, "height": 15.5, "width": 35.0234375, "id": "text1", "tagName": "text", "content": "Sales", "fill": "#222"}, {"left": 783, "top": 102.89999389648438, "right": 844.484375, "bottom": 133.89999389648438, "height": 15.5, "width": 61.484375, "id": "text2", "tagName": "text", "content": "Expenses", "fill": "#222"}, {"left": 144.92578125, "top": 397.8999938964844, "right": 176.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text3", "tagName": "text", "content": "2013", "fill": "#222"}, {"left": 336.5927734375, "top": 397.8999938964844, "right": 367.7412109375, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text4", "tagName": "text", "content": "2014", "fill": "#222"}, {"left": 528.2587890625, "top": 397.8999938964844, "right": 559.4072265625, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text5", "tagName": "text", "content": "2015", "fill": "#222"}, {"left": 719.92578125, "top": 397.8999938964844, "right": 751.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text6", "tagName": "text", "content": "2016", "fill": "#222"}, {"left": 138.2109375, "top": 381.3999938964844, "right": 146, "bottom": 412.3999938964844, "height": 15.5, "width": 7.7890625, "id": "text7", "tagName": "text", "content": "0", "fill": "#444"}, {"left": 122.640625, "top": 330.0669860839844, "right": 146, "bottom": 361.0669860839844, "height": 15.5, "width": 23.359375, "id": "text8", "tagName": "text", "content": "200", "fill": "#444"}, {"left": 122.640625, "top": 278.7330017089844, "right": 146, "bottom": 309.7330017089844, "height": 15.5, "width": 23.359375, "id": "text9", "tagName": "text", "content": "400", "fill": "#444"}, {"left": 122.640625, "top": 227.39999389648438, "right": 146, "bottom": 258.3999938964844, "height": 15.5, "width": 23.359375, "id": "text10", "tagName": "text", "content": "600", "fill": "#444"}, {"left": 122.640625, "top": 176.0670166015625, "right": 146, "bottom": 207.0670166015625, "height": 15.5, "width": 23.359375, "id": "text11", "tagName": "text", "content": "800", "fill": "#444"}, {"left": 110.9609375, "top": 124.73300170898438, "right": 146, "bottom": 155.73300170898438, "height": 15.5, "width": 35.0390625, "id": "text12", "tagName": "text", "content": "1,000", "fill": "#444"}, {"left": 110.9609375, "top": 73.39999389648438, "right": 146, "bottom": 104.39999389648438, "height": 15.5, "width": 35.0390625, "id": "text13", "tagName": "text", "content": "1,200", "fill": "#444"}, {"left": 433.59765625, "top": 440.9000244140625, "right": 463.607421875, "bottom": 471.9000244140625, "height": 15.5, "width": 30.009765625, "id": "text14", "tagName": "text", "content": "Year", "fill": "#333"}]}, "chartTitle": [{"left": 160, "top": 58.400001525878906, "right": 313.2734375, "bottom": 73.89999389648438, "height": 15.499992370605469, "width": 153.2734375, "id": "text0", "tagName": "text", "content": "Company Performance", "fill": "undefined", "isReferenceElement": false}], "markInfo": {"path0": {"Type": "none", "Role": "none"}, "path1": {"Type": "none", "Role": "none"}, "path2": {"Type": "none", "Role": "none"}, "path3": {"Type": "Path", "Role": "legend Mark"}, "path4": {"Type": "Path", "Role": "legend Mark"}, "path5": {"Type": "none", "Role": "none"}, "path6": {"Type": "Path", "Role": "legend Mark"}, "path7": {"Type": "Path", "Role": "legend Mark"}, "path8": {"Type": "none", "Role": "none"}, "path9": {"Type": "Path", "Role": "Horizontal Gridline"}, "path10": {"Type": "none", "Role": "none"}, "path11": {"Type": "Area", "Role": "Main Chart Mark", "areaMarkBaseline": "Bottom"}, "path12": {"Type": "Area", "Role": "Main Chart Mark", "areaMarkBaseline": "Bottom"}, "path13": {"Type": "Straight Line", "Role": "Axis 1 path"}, "path14": {"Type": "Polyline", "Role": "Main Chart Mark"}, "path15": {"Type": "Polyline", "Role": "Main Chart Mark"}, "path16": {"Type": "none", "Role": "none"}}, "groupInfo": [["path12", "path15"], ["path11", "path14"]], "nestedGrouping": [[0, 1]], "layoutInfo": {}, "encodingInfo": {"path15": ["vertices-x", "vertices-y"], "path14": ["vertices-x", "vertices-y"], "path12": ["height", "vertices-x"], "path11": ["height", "vertices-x"]}, "textObjectLinking": {}, "referenceElement": {"xGridlines": ["path9"], "yGridlines": [], "axes": {"1": {"labels": [{"left": 144.92578125, "top": 397.8999938964844, "right": 176.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text3", "tagName": "text", "content": "2013", "fill": "#222"}, {"left": 336.5927734375, "top": 397.8999938964844, "right": 367.7412109375, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text4", "tagName": "text", "content": "2014", "fill": "#222"}, {"left": 528.2587890625, "top": 397.8999938964844, "right": 559.4072265625, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text5", "tagName": "text", "content": "2015", "fill": "#222"}, {"left": 719.92578125, "top": 397.8999938964844, "right": 751.07421875, "bottom": 428.8999938964844, "height": 15.5, "width": 31.1484375, "id": "text6", "tagName": "text", "content": "2016", "fill": "#222"}], "type": "x", "ticks": [], "path": ["path15", "path14"], "title": [{"left": 433.59765625, "top": 440.9000244140625, "right": 463.607421875, "bottom": 471.9000244140625, "height": 15.5, "width": 30.009765625, "id": "text14", "tagName": "text", "content": "Year", "fill": "#333"}], "fieldType": "date"}, "2": {"labels": [{"left": 138.2109375, "top": 381.3999938964844, "right": 146, "bottom": 412.3999938964844, "height": 15.5, "width": 7.7890625, "id": "text7", "tagName": "text", "content": "0", "fill": "#444"}, {"left": 122.640625, "top": 330.0669860839844, "right": 146, "bottom": 361.0669860839844, "height": 15.5, "width": 23.359375, "id": "text8", "tagName": "text", "content": "200", "fill": "#444"}, {"left": 122.640625, "top": 278.7330017089844, "right": 146, "bottom": 309.7330017089844, "height": 15.5, "width": 23.359375, "id": "text9", "tagName": "text", "content": "400", "fill": "#444"}, {"left": 122.640625, "top": 227.39999389648438, "right": 146, "bottom": 258.3999938964844, "height": 15.5, "width": 23.359375, "id": "text10", "tagName": "text", "content": "600", "fill": "#444"}, {"left": 122.640625, "top": 176.0670166015625, "right": 146, "bottom": 207.0670166015625, "height": 15.5, "width": 23.359375, "id": "text11", "tagName": "text", "content": "800", "fill": "#444"}, {"left": 110.9609375, "top": 124.73300170898438, "right": 146, "bottom": 155.73300170898438, "height": 15.5, "width": 35.0390625, "id": "text12", "tagName": "text", "content": "1,000", "fill": "#444"}, {"left": 110.9609375, "top": 73.39999389648438, "right": 146, "bottom": 104.39999389648438, "height": 15.5, "width": 35.0390625, "id": "text13", "tagName": "text", "content": "1,200", "fill": "#444"}], "type": "y", "ticks": [], "path": [], "title": [], "fieldType": "number"}}, "legend": {"labels": [{"left": 783, "top": 95.39999389648438, "right": 818.0234375, "bottom": 110.89999389648438, "height": 15.5, "width": 35.0234375, "id": "text1", "tagName": "text", "content": "Sales", "fill": "#222", "isReferenceElement": true}, {"left": 783, "top": 118.39999389648438, "right": 844.484375, "bottom": 133.89999389648438, "height": 15.5, "width": 61.484375, "id": "text2", "tagName": "text", "content": "Expenses", "fill": "#222", "isReferenceElement": true}], "marks": [], "type": "discrete", "orientation": "vert", "mapping": {}, "title": [], "ticks": []}}}}
+{
+    "chart": "AreaChart16",
+    "annotations": {
+        "allGraphicsElement": {
+            "path0": {
+                "left": 0,
+                "top": 0,
+                "right": 896,
+                "bottom": 500,
+                "height": 500,
+                "width": 896,
+                "id": "path0",
+                "tagName": "path",
+                "content": "",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text0": {
+                "left": 160,
+                "top": 58.400001525878906,
+                "right": 313.2734375,
+                "bottom": 73.89999389648438,
+                "height": 15.499992370605469,
+                "width": 153.2734375,
+                "id": "text0",
+                "tagName": "text",
+                "content": "Company Performance",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path1": {
+                "left": 160,
+                "top": 59,
+                "right": 882,
+                "bottom": 133,
+                "height": 74,
+                "width": 722,
+                "id": "path1",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path2": {
+                "left": 750,
+                "top": 96,
+                "right": 882,
+                "bottom": 110,
+                "height": 14,
+                "width": 132,
+                "id": "path2",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "text1": {
+                "left": 783,
+                "top": 95.39999389648438,
+                "right": 818.0234375,
+                "bottom": 110.89999389648438,
+                "height": 15.5,
+                "width": 35.0234375,
+                "id": "text1",
+                "tagName": "text",
+                "content": "Sales",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "path3": {
+                "left": 750,
+                "top": 103,
+                "right": 778,
+                "bottom": 110,
+                "height": 7,
+                "width": 28,
+                "id": "path3",
+                "tagName": "path",
+                "content": "",
+                "fill": "#36c",
+                "isReferenceElement": false
+            },
+            "path4": {
+                "left": 750,
+                "top": 103,
+                "right": 778,
+                "bottom": 103,
+                "height": 0,
+                "width": 28,
+                "id": "path4",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path5": {
+                "left": 750,
+                "top": 119,
+                "right": 882,
+                "bottom": 133,
+                "height": 14,
+                "width": 132,
+                "id": "path5",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "text2": {
+                "left": 783,
+                "top": 118.39999389648438,
+                "right": 844.484375,
+                "bottom": 133.89999389648438,
+                "height": 15.5,
+                "width": 61.484375,
+                "id": "text2",
+                "tagName": "text",
+                "content": "Expenses",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "path6": {
+                "left": 750,
+                "top": 126,
+                "right": 778,
+                "bottom": 133,
+                "height": 7,
+                "width": 28,
+                "id": "path6",
+                "tagName": "path",
+                "content": "",
+                "fill": "#dc3912",
+                "isReferenceElement": false
+            },
+            "path7": {
+                "left": 750,
+                "top": 126,
+                "right": 778,
+                "bottom": 126,
+                "height": 0,
+                "width": 28,
+                "id": "path7",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path8": {
+                "left": 160,
+                "top": 96,
+                "right": 736,
+                "bottom": 405,
+                "height": 309,
+                "width": 576,
+                "id": "path8",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path9": {
+                "left": 160,
+                "top": 96,
+                "right": 736,
+                "bottom": 405,
+                "height": 309,
+                "width": 576,
+                "id": "path9",
+                "tagName": "path",
+                "content": "",
+                "fill": "#ccc",
+                "isReferenceElement": false
+            },
+            "path10": {
+                "left": 160,
+                "top": 122,
+                "right": 736,
+                "bottom": 379,
+                "height": 257,
+                "width": 576,
+                "id": "path10",
+                "tagName": "path",
+                "content": "",
+                "fill": "#ebebeb",
+                "isReferenceElement": false
+            },
+            "path11": {
+                "left": 160.5,
+                "top": 104.19999694824219,
+                "right": 735.5,
+                "bottom": 404.49998474121094,
+                "height": 300.29998779296875,
+                "width": 575,
+                "id": "path11",
+                "tagName": "path",
+                "content": "",
+                "fill": "#36c",
+                "isReferenceElement": false
+            },
+            "path12": {
+                "left": 160.5,
+                "top": 117.03302001953125,
+                "right": 735.5,
+                "bottom": 404.5,
+                "height": 287.46697998046875,
+                "width": 575,
+                "id": "path12",
+                "tagName": "path",
+                "content": "",
+                "fill": "#dc3912",
+                "isReferenceElement": false
+            },
+            "path13": {
+                "left": 160,
+                "top": 404,
+                "right": 736,
+                "bottom": 405,
+                "height": 1,
+                "width": 576,
+                "id": "path13",
+                "tagName": "path",
+                "content": "",
+                "fill": "#333",
+                "isReferenceElement": false
+            },
+            "path14": {
+                "left": 160.5,
+                "top": 104.19999694824219,
+                "right": 735.5,
+                "bottom": 235.0999755859375,
+                "height": 130.8999786376953,
+                "width": 575,
+                "id": "path14",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path15": {
+                "left": 160.5,
+                "top": 117.03302001953125,
+                "right": 735.5,
+                "bottom": 301.8330078125,
+                "height": 184.79998779296875,
+                "width": 575,
+                "id": "path15",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "text3": {
+                "left": 144.92578125,
+                "top": 413.3999938964844,
+                "right": 176.07421875,
+                "bottom": 428.8999938964844,
+                "height": 15.5,
+                "width": 31.1484375,
+                "id": "text3",
+                "tagName": "text",
+                "content": "2013",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "text4": {
+                "left": 336.5927734375,
+                "top": 413.3999938964844,
+                "right": 367.7412109375,
+                "bottom": 428.8999938964844,
+                "height": 15.5,
+                "width": 31.1484375,
+                "id": "text4",
+                "tagName": "text",
+                "content": "2014",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "text5": {
+                "left": 528.2587890625,
+                "top": 413.3999938964844,
+                "right": 559.4072265625,
+                "bottom": 428.8999938964844,
+                "height": 15.5,
+                "width": 31.1484375,
+                "id": "text5",
+                "tagName": "text",
+                "content": "2015",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "text6": {
+                "left": 719.92578125,
+                "top": 413.3999938964844,
+                "right": 751.07421875,
+                "bottom": 428.8999938964844,
+                "height": 15.5,
+                "width": 31.1484375,
+                "id": "text6",
+                "tagName": "text",
+                "content": "2016",
+                "fill": "#222",
+                "isReferenceElement": true
+            },
+            "text7": {
+                "left": 138.2109375,
+                "top": 396.8999938964844,
+                "right": 146,
+                "bottom": 412.3999938964844,
+                "height": 15.5,
+                "width": 7.7890625,
+                "id": "text7",
+                "tagName": "text",
+                "content": "0",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text8": {
+                "left": 122.640625,
+                "top": 345.5669860839844,
+                "right": 146,
+                "bottom": 361.0669860839844,
+                "height": 15.5,
+                "width": 23.359375,
+                "id": "text8",
+                "tagName": "text",
+                "content": "200",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text9": {
+                "left": 122.640625,
+                "top": 294.2330017089844,
+                "right": 146,
+                "bottom": 309.7330017089844,
+                "height": 15.5,
+                "width": 23.359375,
+                "id": "text9",
+                "tagName": "text",
+                "content": "400",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text10": {
+                "left": 122.640625,
+                "top": 242.89999389648438,
+                "right": 146,
+                "bottom": 258.3999938964844,
+                "height": 15.5,
+                "width": 23.359375,
+                "id": "text10",
+                "tagName": "text",
+                "content": "600",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text11": {
+                "left": 122.640625,
+                "top": 191.5670166015625,
+                "right": 146,
+                "bottom": 207.0670166015625,
+                "height": 15.5,
+                "width": 23.359375,
+                "id": "text11",
+                "tagName": "text",
+                "content": "800",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text12": {
+                "left": 110.9609375,
+                "top": 140.23300170898438,
+                "right": 146,
+                "bottom": 155.73300170898438,
+                "height": 15.5,
+                "width": 35.0390625,
+                "id": "text12",
+                "tagName": "text",
+                "content": "1,000",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text13": {
+                "left": 110.9609375,
+                "top": 88.89999389648438,
+                "right": 146,
+                "bottom": 104.39999389648438,
+                "height": 15.5,
+                "width": 35.0390625,
+                "id": "text13",
+                "tagName": "text",
+                "content": "1,200",
+                "fill": "#444",
+                "isReferenceElement": true
+            },
+            "text14": {
+                "left": 433.59765625,
+                "top": 456.4000244140625,
+                "right": 463.607421875,
+                "bottom": 471.9000244140625,
+                "height": 15.5,
+                "width": 30.009765625,
+                "id": "text14",
+                "tagName": "text",
+                "content": "Year",
+                "fill": "#333",
+                "isReferenceElement": true
+            },
+            "path16": {
+                "left": 160,
+                "top": 457,
+                "right": 736,
+                "bottom": 471,
+                "height": 14,
+                "width": 576,
+                "id": "path16",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            }
+        },
+        "groupedGraphicsElement": {
+            "paths": [
+                {
+                    "left": 0,
+                    "top": 0,
+                    "right": 896,
+                    "bottom": 500,
+                    "height": 500,
+                    "width": 896,
+                    "id": "path0",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 160,
+                    "top": 59,
+                    "right": 882,
+                    "bottom": 133,
+                    "height": 74,
+                    "width": 722,
+                    "id": "path1",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 750,
+                    "top": 96,
+                    "right": 882,
+                    "bottom": 110,
+                    "height": 14,
+                    "width": 132,
+                    "id": "path2",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 750,
+                    "top": 103,
+                    "right": 778,
+                    "bottom": 110,
+                    "height": 7,
+                    "width": 28,
+                    "id": "path3",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#36c"
+                },
+                {
+                    "left": 750,
+                    "top": 103,
+                    "right": 778,
+                    "bottom": 103,
+                    "height": 0,
+                    "width": 28,
+                    "id": "path4",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 750,
+                    "top": 119,
+                    "right": 882,
+                    "bottom": 133,
+                    "height": 14,
+                    "width": 132,
+                    "id": "path5",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 750,
+                    "top": 126,
+                    "right": 778,
+                    "bottom": 133,
+                    "height": 7,
+                    "width": 28,
+                    "id": "path6",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#dc3912"
+                },
+                {
+                    "left": 750,
+                    "top": 126,
+                    "right": 778,
+                    "bottom": 126,
+                    "height": 0,
+                    "width": 28,
+                    "id": "path7",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 160,
+                    "top": 96,
+                    "right": 736,
+                    "bottom": 405,
+                    "height": 309,
+                    "width": 576,
+                    "id": "path8",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 160,
+                    "top": 96,
+                    "right": 736,
+                    "bottom": 405,
+                    "height": 309,
+                    "width": 576,
+                    "id": "path9",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#ccc"
+                },
+                {
+                    "left": 160,
+                    "top": 122,
+                    "right": 736,
+                    "bottom": 379,
+                    "height": 257,
+                    "width": 576,
+                    "id": "path10",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#ebebeb"
+                },
+                {
+                    "left": 160.5,
+                    "top": 104.19999694824219,
+                    "right": 735.5,
+                    "bottom": 404.49998474121094,
+                    "height": 300.29998779296875,
+                    "width": 575,
+                    "id": "path11",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#36c"
+                },
+                {
+                    "left": 160.5,
+                    "top": 117.03302001953125,
+                    "right": 735.5,
+                    "bottom": 404.5,
+                    "height": 287.46697998046875,
+                    "width": 575,
+                    "id": "path12",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#dc3912"
+                },
+                {
+                    "left": 160,
+                    "top": 404,
+                    "right": 736,
+                    "bottom": 405,
+                    "height": 1,
+                    "width": 576,
+                    "id": "path13",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#333"
+                },
+                {
+                    "left": 160.5,
+                    "top": 104.19999694824219,
+                    "right": 735.5,
+                    "bottom": 235.0999755859375,
+                    "height": 130.8999786376953,
+                    "width": 575,
+                    "id": "path14",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 160.5,
+                    "top": 117.03302001953125,
+                    "right": 735.5,
+                    "bottom": 301.8330078125,
+                    "height": 184.79998779296875,
+                    "width": 575,
+                    "id": "path15",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 160,
+                    "top": 457,
+                    "right": 736,
+                    "bottom": 471,
+                    "height": 14,
+                    "width": 576,
+                    "id": "path16",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                }
+            ],
+            "texts": [
+                {
+                    "left": 160,
+                    "top": 42.900001525878906,
+                    "right": 313.2734375,
+                    "bottom": 73.89999389648438,
+                    "height": 15.5,
+                    "width": 153.2734375,
+                    "id": "text0",
+                    "tagName": "text",
+                    "content": "Company Performance",
+                    "fill": "undefined"
+                },
+                {
+                    "left": 783,
+                    "top": 79.89999389648438,
+                    "right": 818.0234375,
+                    "bottom": 110.89999389648438,
+                    "height": 15.5,
+                    "width": 35.0234375,
+                    "id": "text1",
+                    "tagName": "text",
+                    "content": "Sales",
+                    "fill": "#222"
+                },
+                {
+                    "left": 783,
+                    "top": 102.89999389648438,
+                    "right": 844.484375,
+                    "bottom": 133.89999389648438,
+                    "height": 15.5,
+                    "width": 61.484375,
+                    "id": "text2",
+                    "tagName": "text",
+                    "content": "Expenses",
+                    "fill": "#222"
+                },
+                {
+                    "left": 144.92578125,
+                    "top": 397.8999938964844,
+                    "right": 176.07421875,
+                    "bottom": 428.8999938964844,
+                    "height": 15.5,
+                    "width": 31.1484375,
+                    "id": "text3",
+                    "tagName": "text",
+                    "content": "2013",
+                    "fill": "#222"
+                },
+                {
+                    "left": 336.5927734375,
+                    "top": 397.8999938964844,
+                    "right": 367.7412109375,
+                    "bottom": 428.8999938964844,
+                    "height": 15.5,
+                    "width": 31.1484375,
+                    "id": "text4",
+                    "tagName": "text",
+                    "content": "2014",
+                    "fill": "#222"
+                },
+                {
+                    "left": 528.2587890625,
+                    "top": 397.8999938964844,
+                    "right": 559.4072265625,
+                    "bottom": 428.8999938964844,
+                    "height": 15.5,
+                    "width": 31.1484375,
+                    "id": "text5",
+                    "tagName": "text",
+                    "content": "2015",
+                    "fill": "#222"
+                },
+                {
+                    "left": 719.92578125,
+                    "top": 397.8999938964844,
+                    "right": 751.07421875,
+                    "bottom": 428.8999938964844,
+                    "height": 15.5,
+                    "width": 31.1484375,
+                    "id": "text6",
+                    "tagName": "text",
+                    "content": "2016",
+                    "fill": "#222"
+                },
+                {
+                    "left": 138.2109375,
+                    "top": 381.3999938964844,
+                    "right": 146,
+                    "bottom": 412.3999938964844,
+                    "height": 15.5,
+                    "width": 7.7890625,
+                    "id": "text7",
+                    "tagName": "text",
+                    "content": "0",
+                    "fill": "#444"
+                },
+                {
+                    "left": 122.640625,
+                    "top": 330.0669860839844,
+                    "right": 146,
+                    "bottom": 361.0669860839844,
+                    "height": 15.5,
+                    "width": 23.359375,
+                    "id": "text8",
+                    "tagName": "text",
+                    "content": "200",
+                    "fill": "#444"
+                },
+                {
+                    "left": 122.640625,
+                    "top": 278.7330017089844,
+                    "right": 146,
+                    "bottom": 309.7330017089844,
+                    "height": 15.5,
+                    "width": 23.359375,
+                    "id": "text9",
+                    "tagName": "text",
+                    "content": "400",
+                    "fill": "#444"
+                },
+                {
+                    "left": 122.640625,
+                    "top": 227.39999389648438,
+                    "right": 146,
+                    "bottom": 258.3999938964844,
+                    "height": 15.5,
+                    "width": 23.359375,
+                    "id": "text10",
+                    "tagName": "text",
+                    "content": "600",
+                    "fill": "#444"
+                },
+                {
+                    "left": 122.640625,
+                    "top": 176.0670166015625,
+                    "right": 146,
+                    "bottom": 207.0670166015625,
+                    "height": 15.5,
+                    "width": 23.359375,
+                    "id": "text11",
+                    "tagName": "text",
+                    "content": "800",
+                    "fill": "#444"
+                },
+                {
+                    "left": 110.9609375,
+                    "top": 124.73300170898438,
+                    "right": 146,
+                    "bottom": 155.73300170898438,
+                    "height": 15.5,
+                    "width": 35.0390625,
+                    "id": "text12",
+                    "tagName": "text",
+                    "content": "1,000",
+                    "fill": "#444"
+                },
+                {
+                    "left": 110.9609375,
+                    "top": 73.39999389648438,
+                    "right": 146,
+                    "bottom": 104.39999389648438,
+                    "height": 15.5,
+                    "width": 35.0390625,
+                    "id": "text13",
+                    "tagName": "text",
+                    "content": "1,200",
+                    "fill": "#444"
+                },
+                {
+                    "left": 433.59765625,
+                    "top": 440.9000244140625,
+                    "right": 463.607421875,
+                    "bottom": 471.9000244140625,
+                    "height": 15.5,
+                    "width": 30.009765625,
+                    "id": "text14",
+                    "tagName": "text",
+                    "content": "Year",
+                    "fill": "#333"
+                }
+            ]
+        },
+        "chartTitle": [
+            {
+                "left": 160,
+                "top": 58.400001525878906,
+                "right": 313.2734375,
+                "bottom": 73.89999389648438,
+                "height": 15.499992370605469,
+                "width": 153.2734375,
+                "id": "text0",
+                "tagName": "text",
+                "content": "Company Performance",
+                "fill": "undefined",
+                "isReferenceElement": false
+            }
+        ],
+        "markInfo": {
+            "path0": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path1": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path2": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path3": {
+                "Type": "Path",
+                "Role": "legend Mark"
+            },
+            "path4": {
+                "Type": "Path",
+                "Role": "legend Mark"
+            },
+            "path5": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path6": {
+                "Type": "Path",
+                "Role": "legend Mark"
+            },
+            "path7": {
+                "Type": "Path",
+                "Role": "legend Mark"
+            },
+            "path8": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path9": {
+                "Type": "Path",
+                "Role": "Horizontal Gridline"
+            },
+            "path10": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path11": {
+                "Type": "Area",
+                "Role": "Main Chart Mark",
+                "areaMarkBaseline": "Bottom"
+            },
+            "path12": {
+                "Type": "Area",
+                "Role": "Main Chart Mark",
+                "areaMarkBaseline": "Bottom"
+            },
+            "path13": {
+                "Type": "Straight Line",
+                "Role": "Axis 1 path"
+            },
+            "path14": {
+                "Type": "Polyline",
+                "Role": "Main Chart Mark"
+            },
+            "path15": {
+                "Type": "Polyline",
+                "Role": "Main Chart Mark"
+            },
+            "path16": {
+                "Type": "none",
+                "Role": "none"
+            }
+        },
+        "groupInfo": [
+            [
+                "path12",
+                "path15"
+            ],
+            [
+                "path11",
+                "path14"
+            ]
+        ],
+        "nestedGrouping": [
+            [
+                0,
+                1
+            ]
+        ],
+        "layoutInfo": {},
+        "encodingInfo": {
+            "path15": [
+                "vertices-x",
+                "vertices-y"
+            ],
+            "path14": [
+                "vertices-x",
+                "vertices-y"
+            ],
+            "path12": [
+                "height",
+                "vertices-x"
+            ],
+            "path11": [
+                "height",
+                "vertices-x"
+            ]
+        },
+        "textObjectLinking": {},
+        "referenceElement": {
+            "xGridlines": [
+                "path9"
+            ],
+            "yGridlines": [],
+            "axes": {
+                "1": {
+                    "labels": [
+                        {
+                            "left": 144.92578125,
+                            "top": 397.8999938964844,
+                            "right": 176.07421875,
+                            "bottom": 428.8999938964844,
+                            "height": 15.5,
+                            "width": 31.1484375,
+                            "id": "text3",
+                            "tagName": "text",
+                            "content": "2013",
+                            "fill": "#222"
+                        },
+                        {
+                            "left": 336.5927734375,
+                            "top": 397.8999938964844,
+                            "right": 367.7412109375,
+                            "bottom": 428.8999938964844,
+                            "height": 15.5,
+                            "width": 31.1484375,
+                            "id": "text4",
+                            "tagName": "text",
+                            "content": "2014",
+                            "fill": "#222"
+                        },
+                        {
+                            "left": 528.2587890625,
+                            "top": 397.8999938964844,
+                            "right": 559.4072265625,
+                            "bottom": 428.8999938964844,
+                            "height": 15.5,
+                            "width": 31.1484375,
+                            "id": "text5",
+                            "tagName": "text",
+                            "content": "2015",
+                            "fill": "#222"
+                        },
+                        {
+                            "left": 719.92578125,
+                            "top": 397.8999938964844,
+                            "right": 751.07421875,
+                            "bottom": 428.8999938964844,
+                            "height": 15.5,
+                            "width": 31.1484375,
+                            "id": "text6",
+                            "tagName": "text",
+                            "content": "2016",
+                            "fill": "#222"
+                        }
+                    ],
+                    "type": "x",
+                    "ticks": [],
+                    "path": [
+                        "path15",
+                        "path14"
+                    ],
+                    "title": [
+                        {
+                            "left": 433.59765625,
+                            "top": 440.9000244140625,
+                            "right": 463.607421875,
+                            "bottom": 471.9000244140625,
+                            "height": 15.5,
+                            "width": 30.009765625,
+                            "id": "text14",
+                            "tagName": "text",
+                            "content": "Year",
+                            "fill": "#333"
+                        }
+                    ],
+                    "fieldType": "date"
+                },
+                "2": {
+                    "labels": [
+                        {
+                            "left": 138.2109375,
+                            "top": 381.3999938964844,
+                            "right": 146,
+                            "bottom": 412.3999938964844,
+                            "height": 15.5,
+                            "width": 7.7890625,
+                            "id": "text7",
+                            "tagName": "text",
+                            "content": "0",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 122.640625,
+                            "top": 330.0669860839844,
+                            "right": 146,
+                            "bottom": 361.0669860839844,
+                            "height": 15.5,
+                            "width": 23.359375,
+                            "id": "text8",
+                            "tagName": "text",
+                            "content": "200",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 122.640625,
+                            "top": 278.7330017089844,
+                            "right": 146,
+                            "bottom": 309.7330017089844,
+                            "height": 15.5,
+                            "width": 23.359375,
+                            "id": "text9",
+                            "tagName": "text",
+                            "content": "400",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 122.640625,
+                            "top": 227.39999389648438,
+                            "right": 146,
+                            "bottom": 258.3999938964844,
+                            "height": 15.5,
+                            "width": 23.359375,
+                            "id": "text10",
+                            "tagName": "text",
+                            "content": "600",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 122.640625,
+                            "top": 176.0670166015625,
+                            "right": 146,
+                            "bottom": 207.0670166015625,
+                            "height": 15.5,
+                            "width": 23.359375,
+                            "id": "text11",
+                            "tagName": "text",
+                            "content": "800",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 110.9609375,
+                            "top": 124.73300170898438,
+                            "right": 146,
+                            "bottom": 155.73300170898438,
+                            "height": 15.5,
+                            "width": 35.0390625,
+                            "id": "text12",
+                            "tagName": "text",
+                            "content": "1,000",
+                            "fill": "#444"
+                        },
+                        {
+                            "left": 110.9609375,
+                            "top": 73.39999389648438,
+                            "right": 146,
+                            "bottom": 104.39999389648438,
+                            "height": 15.5,
+                            "width": 35.0390625,
+                            "id": "text13",
+                            "tagName": "text",
+                            "content": "1,200",
+                            "fill": "#444"
+                        }
+                    ],
+                    "type": "y",
+                    "ticks": [],
+                    "path": [],
+                    "title": [],
+                    "fieldType": "number"
+                }
+            },
+            "legend": {
+                "labels": [
+                    {
+                        "left": 783,
+                        "top": 95.39999389648438,
+                        "right": 818.0234375,
+                        "bottom": 110.89999389648438,
+                        "height": 15.5,
+                        "width": 35.0234375,
+                        "id": "text1",
+                        "tagName": "text",
+                        "content": "Sales",
+                        "fill": "#222",
+                        "isReferenceElement": true
+                    },
+                    {
+                        "left": 783,
+                        "top": 118.39999389648438,
+                        "right": 844.484375,
+                        "bottom": 133.89999389648438,
+                        "height": 15.5,
+                        "width": 61.484375,
+                        "id": "text2",
+                        "tagName": "text",
+                        "content": "Expenses",
+                        "fill": "#222",
+                        "isReferenceElement": true
+                    }
+                ],
+                "marks": [],
+                "type": "discrete",
+                "orientation": "vert",
+                "mapping": {},
+                "title": [],
+                "ticks": []
+            }
+        }
+    }
+}

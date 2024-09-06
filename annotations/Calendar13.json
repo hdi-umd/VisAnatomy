@@ -1,1 +1,2848 @@
-{"chart": "Calendar13", "annotations": {"allGraphicsElement": {"text0": {"left": 23.203125, "top": 125.1199951171875, "right": 61, "bottom": 144.1199951171875, "height": 19, "width": 37.796875, "id": "text0", "tagName": "text", "content": "2022", "fill": "undefined", "isReferenceElement": false}, "text1": {"left": 80.59375, "top": 16.5, "right": 103.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text1", "tagName": "text", "content": "Mo", "fill": "undefined", "isReferenceElement": true}, "text2": {"left": 120.5234375, "top": 16.5, "right": 135.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text2", "tagName": "text", "content": "Di", "fill": "undefined", "isReferenceElement": true}, "text3": {"left": 155.34375, "top": 16.5, "right": 172.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text3", "tagName": "text", "content": "Mi", "fill": "undefined", "isReferenceElement": true}, "text4": {"left": 189.7734375, "top": 16.5, "right": 210.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text4", "tagName": "text", "content": "Do", "fill": "undefined", "isReferenceElement": true}, "text5": {"left": 228.6875, "top": 16.5, "right": 243.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text5", "tagName": "text", "content": "Fr", "fill": "undefined", "isReferenceElement": true}, "text6": {"left": 262.80078125, "top": 16.5, "right": 281.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text6", "tagName": "text", "content": "Sa", "fill": "undefined", "isReferenceElement": true}, "text7": {"left": 298.48828125, "top": 16.5, "right": 317.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text7", "tagName": "text", "content": "So", "fill": "undefined", "isReferenceElement": true}, "text8": {"left": 369.59375, "top": 16.5, "right": 392.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text8", "tagName": "text", "content": "Mo", "fill": "undefined", "isReferenceElement": true}, "text9": {"left": 409.5234375, "top": 16.5, "right": 424.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text9", "tagName": "text", "content": "Di", "fill": "undefined", "isReferenceElement": true}, "text10": {"left": 444.34375, "top": 16.5, "right": 461.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text10", "tagName": "text", "content": "Mi", "fill": "undefined", "isReferenceElement": true}, "text11": {"left": 478.7734375, "top": 16.5, "right": 499.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text11", "tagName": "text", "content": "Do", "fill": "undefined", "isReferenceElement": true}, "text12": {"left": 517.6875, "top": 16.5, "right": 532.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text12", "tagName": "text", "content": "Fr", "fill": "undefined", "isReferenceElement": true}, "text13": {"left": 551.80078125, "top": 16.5, "right": 570.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text13", "tagName": "text", "content": "Sa", "fill": "undefined", "isReferenceElement": true}, "text14": {"left": 587.48828125, "top": 16.5, "right": 606.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text14", "tagName": "text", "content": "So", "fill": "undefined", "isReferenceElement": true}, "path0": {"left": 76, "top": 45, "right": 324, "bottom": 115, "height": 70, "width": 248, "id": "path0", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path1": {"left": 76, "top": 45, "right": 613, "bottom": 226, "height": 181, "width": 537, "id": "path1", "tagName": "path", "content": "", "fill": "#4682b4", "isReferenceElement": false}, "path2": {"left": 365, "top": 119, "right": 613, "bottom": 226, "height": 107, "width": 248, "id": "path2", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "text15": {"left": 121.984375, "top": 48.400001525878906, "right": 134.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text15", "tagName": "text", "content": "1", "fill": "#d3d3d3", "isReferenceElement": false}, "text16": {"left": 157.984375, "top": 48.400001525878906, "right": 170.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text16", "tagName": "text", "content": "2", "fill": "#d3d3d3", "isReferenceElement": false}, "text17": {"left": 193.984375, "top": 48.400001525878906, "right": 206.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text17", "tagName": "text", "content": "3", "fill": "#d3d3d3", "isReferenceElement": false}, "text18": {"left": 229.984375, "top": 48.400001525878906, "right": 242.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text18", "tagName": "text", "content": "4", "fill": "#d3d3d3", "isReferenceElement": false}, "text19": {"left": 265.984375, "top": 48.400001525878906, "right": 278.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text19", "tagName": "text", "content": "5", "fill": "#d3d3d3", "isReferenceElement": false}, "text20": {"left": 301.984375, "top": 48.400001525878906, "right": 314.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text20", "tagName": "text", "content": "6", "fill": "#d3d3d3", "isReferenceElement": false}, "text21": {"left": 85.984375, "top": 85.39999389648438, "right": 98.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text21", "tagName": "text", "content": "7", "fill": "#d3d3d3", "isReferenceElement": true}, "text22": {"left": 121.984375, "top": 85.39999389648438, "right": 134.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text22", "tagName": "text", "content": "8", "fill": "#fff", "isReferenceElement": true}, "text23": {"left": 157.984375, "top": 85.39999389648438, "right": 170.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text23", "tagName": "text", "content": "9", "fill": "#fff", "isReferenceElement": true}, "text24": {"left": 187.96875, "top": 85.39999389648438, "right": 212.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text24", "tagName": "text", "content": "10", "fill": "#fff", "isReferenceElement": true}, "text25": {"left": 223.96875, "top": 85.39999389648438, "right": 248.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text25", "tagName": "text", "content": "11", "fill": "#fff", "isReferenceElement": true}, "text26": {"left": 259.96875, "top": 85.39999389648438, "right": 284.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text26", "tagName": "text", "content": "12", "fill": "#fff", "isReferenceElement": true}, "text27": {"left": 295.96875, "top": 85.39999389648438, "right": 320.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text27", "tagName": "text", "content": "13", "fill": "#fff", "isReferenceElement": true}, "text28": {"left": 79.96875, "top": 122.39999389648438, "right": 104.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text28", "tagName": "text", "content": "14", "fill": "#fff", "isReferenceElement": false}, "text29": {"left": 115.96875, "top": 122.39999389648438, "right": 140.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text29", "tagName": "text", "content": "15", "fill": "#fff", "isReferenceElement": false}, "text30": {"left": 151.96875, "top": 122.39999389648438, "right": 176.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text30", "tagName": "text", "content": "16", "fill": "#fff", "isReferenceElement": false}, "text31": {"left": 187.96875, "top": 122.39999389648438, "right": 212.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text31", "tagName": "text", "content": "17", "fill": "#fff", "isReferenceElement": false}, "text32": {"left": 223.96875, "top": 122.39999389648438, "right": 248.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text32", "tagName": "text", "content": "18", "fill": "#fff", "isReferenceElement": false}, "text33": {"left": 259.96875, "top": 122.39999389648438, "right": 284.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text33", "tagName": "text", "content": "19", "fill": "#fff", "isReferenceElement": false}, "text34": {"left": 295.96875, "top": 122.39999389648438, "right": 320.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text34", "tagName": "text", "content": "20", "fill": "#fff", "isReferenceElement": false}, "text35": {"left": 79.96875, "top": 159.39999389648438, "right": 104.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text35", "tagName": "text", "content": "21", "fill": "#fff", "isReferenceElement": false}, "text36": {"left": 115.96875, "top": 159.39999389648438, "right": 140.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text36", "tagName": "text", "content": "22", "fill": "#fff", "isReferenceElement": false}, "text37": {"left": 151.96875, "top": 159.39999389648438, "right": 176.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text37", "tagName": "text", "content": "23", "fill": "#fff", "isReferenceElement": false}, "text38": {"left": 187.96875, "top": 159.39999389648438, "right": 212.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text38", "tagName": "text", "content": "24", "fill": "#fff", "isReferenceElement": false}, "text39": {"left": 223.96875, "top": 159.39999389648438, "right": 248.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text39", "tagName": "text", "content": "25", "fill": "#fff", "isReferenceElement": false}, "text40": {"left": 259.96875, "top": 159.39999389648438, "right": 284.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text40", "tagName": "text", "content": "26", "fill": "#fff", "isReferenceElement": false}, "text41": {"left": 295.96875, "top": 159.39999389648438, "right": 320.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text41", "tagName": "text", "content": "27", "fill": "#fff", "isReferenceElement": false}, "text42": {"left": 79.96875, "top": 196.39999389648438, "right": 104.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text42", "tagName": "text", "content": "28", "fill": "#fff", "isReferenceElement": false}, "text43": {"left": 115.96875, "top": 196.39999389648438, "right": 140.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text43", "tagName": "text", "content": "29", "fill": "#fff", "isReferenceElement": false}, "text44": {"left": 151.96875, "top": 196.39999389648438, "right": 176.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text44", "tagName": "text", "content": "30", "fill": "#fff", "isReferenceElement": false}, "text45": {"left": 187.96875, "top": 196.39999389648438, "right": 212.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text45", "tagName": "text", "content": "31", "fill": "#fff", "isReferenceElement": false}, "text46": {"left": 518.984375, "top": 48.400001525878906, "right": 531.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text46", "tagName": "text", "content": "1", "fill": "#fff", "isReferenceElement": true}, "text47": {"left": 554.984375, "top": 48.400001525878906, "right": 567.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text47", "tagName": "text", "content": "2", "fill": "#fff", "isReferenceElement": false}, "text48": {"left": 590.984375, "top": 48.400001525878906, "right": 603.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text48", "tagName": "text", "content": "3", "fill": "#fff", "isReferenceElement": false}, "text49": {"left": 374.984375, "top": 85.39999389648438, "right": 387.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text49", "tagName": "text", "content": "4", "fill": "#fff", "isReferenceElement": true}, "text50": {"left": 410.984375, "top": 85.39999389648438, "right": 423.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text50", "tagName": "text", "content": "5", "fill": "#fff", "isReferenceElement": true}, "text51": {"left": 446.984375, "top": 85.39999389648438, "right": 459.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text51", "tagName": "text", "content": "6", "fill": "#fff", "isReferenceElement": true}, "text52": {"left": 482.984375, "top": 85.39999389648438, "right": 495.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text52", "tagName": "text", "content": "7", "fill": "#fff", "isReferenceElement": true}, "text53": {"left": 518.984375, "top": 85.39999389648438, "right": 531.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text53", "tagName": "text", "content": "8", "fill": "#fff", "isReferenceElement": true}, "text54": {"left": 554.984375, "top": 85.39999389648438, "right": 567.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text54", "tagName": "text", "content": "9", "fill": "#fff", "isReferenceElement": true}, "text55": {"left": 584.96875, "top": 85.39999389648438, "right": 609.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text55", "tagName": "text", "content": "10", "fill": "#fff", "isReferenceElement": true}, "text56": {"left": 368.96875, "top": 122.39999389648438, "right": 393.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text56", "tagName": "text", "content": "11", "fill": "#fff", "isReferenceElement": true}, "text57": {"left": 404.96875, "top": 122.39999389648438, "right": 429.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text57", "tagName": "text", "content": "12", "fill": "#fff", "isReferenceElement": false}, "text58": {"left": 440.96875, "top": 122.39999389648438, "right": 465.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text58", "tagName": "text", "content": "13", "fill": "#fff", "isReferenceElement": false}, "text59": {"left": 476.96875, "top": 122.39999389648438, "right": 501.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text59", "tagName": "text", "content": "14", "fill": "#d3d3d3", "isReferenceElement": false}, "text60": {"left": 512.96875, "top": 122.39999389648438, "right": 537.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text60", "tagName": "text", "content": "15", "fill": "#d3d3d3", "isReferenceElement": false}, "text61": {"left": 548.96875, "top": 122.39999389648438, "right": 573.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text61", "tagName": "text", "content": "16", "fill": "#d3d3d3", "isReferenceElement": false}, "text62": {"left": 584.96875, "top": 122.39999389648438, "right": 609.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text62", "tagName": "text", "content": "17", "fill": "#d3d3d3", "isReferenceElement": false}, "text63": {"left": 368.96875, "top": 159.39999389648438, "right": 393.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text63", "tagName": "text", "content": "18", "fill": "#d3d3d3", "isReferenceElement": true}, "text64": {"left": 404.96875, "top": 159.39999389648438, "right": 429.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text64", "tagName": "text", "content": "19", "fill": "#d3d3d3", "isReferenceElement": false}, "text65": {"left": 440.96875, "top": 159.39999389648438, "right": 465.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text65", "tagName": "text", "content": "20", "fill": "#d3d3d3", "isReferenceElement": false}, "text66": {"left": 476.96875, "top": 159.39999389648438, "right": 501.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text66", "tagName": "text", "content": "21", "fill": "#d3d3d3", "isReferenceElement": false}, "text67": {"left": 512.96875, "top": 159.39999389648438, "right": 537.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text67", "tagName": "text", "content": "22", "fill": "#d3d3d3", "isReferenceElement": false}, "text68": {"left": 548.96875, "top": 159.39999389648438, "right": 573.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text68", "tagName": "text", "content": "23", "fill": "#d3d3d3", "isReferenceElement": false}, "text69": {"left": 584.96875, "top": 159.39999389648438, "right": 609.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text69", "tagName": "text", "content": "24", "fill": "#d3d3d3", "isReferenceElement": false}, "text70": {"left": 368.96875, "top": 196.39999389648438, "right": 393.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text70", "tagName": "text", "content": "25", "fill": "#d3d3d3", "isReferenceElement": true}, "text71": {"left": 404.96875, "top": 196.39999389648438, "right": 429.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text71", "tagName": "text", "content": "26", "fill": "#d3d3d3", "isReferenceElement": false}, "text72": {"left": 440.96875, "top": 196.39999389648438, "right": 465.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text72", "tagName": "text", "content": "27", "fill": "#d3d3d3", "isReferenceElement": false}, "text73": {"left": 476.96875, "top": 196.39999389648438, "right": 501.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text73", "tagName": "text", "content": "28", "fill": "#d3d3d3", "isReferenceElement": false}, "text74": {"left": 512.96875, "top": 196.39999389648438, "right": 537.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text74", "tagName": "text", "content": "29", "fill": "#d3d3d3", "isReferenceElement": false}, "text75": {"left": 181.859375, "top": -3.5, "right": 218.140625, "bottom": 15.5, "height": 19, "width": 36.28125, "id": "text75", "tagName": "text", "content": "M\u00e4rz", "fill": "undefined", "isReferenceElement": true}, "text76": {"left": 472.4609375, "top": -3.5, "right": 505.5390625, "bottom": 15.5, "height": 19, "width": 33.078125, "id": "text76", "tagName": "text", "content": "April", "fill": "undefined", "isReferenceElement": true}}, "groupedGraphicsElement": {"texts": [{"left": 23.203125, "top": 106.1199951171875, "right": 61, "bottom": 144.1199951171875, "height": 19, "width": 37.796875, "id": "text0", "tagName": "text", "content": "2022", "fill": "undefined"}, {"left": 80.59375, "top": -2.5, "right": 103.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text1", "tagName": "text", "content": "Mo", "fill": null}, {"left": 120.5234375, "top": -2.5, "right": 135.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text2", "tagName": "text", "content": "Di", "fill": null}, {"left": 155.34375, "top": -2.5, "right": 172.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text3", "tagName": "text", "content": "Mi", "fill": null}, {"left": 189.7734375, "top": -2.5, "right": 210.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text4", "tagName": "text", "content": "Do", "fill": null}, {"left": 228.6875, "top": -2.5, "right": 243.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text5", "tagName": "text", "content": "Fr", "fill": null}, {"left": 262.80078125, "top": -2.5, "right": 281.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text6", "tagName": "text", "content": "Sa", "fill": null}, {"left": 298.48828125, "top": -2.5, "right": 317.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text7", "tagName": "text", "content": "So", "fill": null}, {"left": 369.59375, "top": -2.5, "right": 392.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text8", "tagName": "text", "content": "Mo", "fill": null}, {"left": 409.5234375, "top": -2.5, "right": 424.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text9", "tagName": "text", "content": "Di", "fill": null}, {"left": 444.34375, "top": -2.5, "right": 461.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text10", "tagName": "text", "content": "Mi", "fill": null}, {"left": 478.7734375, "top": -2.5, "right": 499.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text11", "tagName": "text", "content": "Do", "fill": null}, {"left": 517.6875, "top": -2.5, "right": 532.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text12", "tagName": "text", "content": "Fr", "fill": null}, {"left": 551.80078125, "top": -2.5, "right": 570.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text13", "tagName": "text", "content": "Sa", "fill": null}, {"left": 587.48828125, "top": -2.5, "right": 606.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text14", "tagName": "text", "content": "So", "fill": null}, {"left": 121.984375, "top": 24.900001525878906, "right": 134.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text15", "tagName": "text", "content": "1", "fill": "#d3d3d3"}, {"left": 157.984375, "top": 24.900001525878906, "right": 170.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text16", "tagName": "text", "content": "2", "fill": "#d3d3d3"}, {"left": 193.984375, "top": 24.900001525878906, "right": 206.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text17", "tagName": "text", "content": "3", "fill": "#d3d3d3"}, {"left": 229.984375, "top": 24.900001525878906, "right": 242.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text18", "tagName": "text", "content": "4", "fill": "#d3d3d3"}, {"left": 265.984375, "top": 24.900001525878906, "right": 278.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text19", "tagName": "text", "content": "5", "fill": "#d3d3d3"}, {"left": 301.984375, "top": 24.900001525878906, "right": 314.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text20", "tagName": "text", "content": "6", "fill": "#d3d3d3"}, {"left": 85.984375, "top": 61.899993896484375, "right": 98.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text21", "tagName": "text", "content": "7", "fill": "#d3d3d3"}, {"left": 121.984375, "top": 61.899993896484375, "right": 134.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text22", "tagName": "text", "content": "8", "fill": "#fff"}, {"left": 157.984375, "top": 61.899993896484375, "right": 170.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text23", "tagName": "text", "content": "9", "fill": "#fff"}, {"left": 187.96875, "top": 61.899993896484375, "right": 212.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text24", "tagName": "text", "content": "10", "fill": "#fff"}, {"left": 223.96875, "top": 61.899993896484375, "right": 248.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text25", "tagName": "text", "content": "11", "fill": "#fff"}, {"left": 259.96875, "top": 61.899993896484375, "right": 284.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text26", "tagName": "text", "content": "12", "fill": "#fff"}, {"left": 295.96875, "top": 61.899993896484375, "right": 320.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text27", "tagName": "text", "content": "13", "fill": "#fff"}, {"left": 79.96875, "top": 98.89999389648438, "right": 104.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text28", "tagName": "text", "content": "14", "fill": "#fff"}, {"left": 115.96875, "top": 98.89999389648438, "right": 140.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text29", "tagName": "text", "content": "15", "fill": "#fff"}, {"left": 151.96875, "top": 98.89999389648438, "right": 176.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text30", "tagName": "text", "content": "16", "fill": "#fff"}, {"left": 187.96875, "top": 98.89999389648438, "right": 212.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text31", "tagName": "text", "content": "17", "fill": "#fff"}, {"left": 223.96875, "top": 98.89999389648438, "right": 248.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text32", "tagName": "text", "content": "18", "fill": "#fff"}, {"left": 259.96875, "top": 98.89999389648438, "right": 284.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text33", "tagName": "text", "content": "19", "fill": "#fff"}, {"left": 295.96875, "top": 98.89999389648438, "right": 320.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text34", "tagName": "text", "content": "20", "fill": "#fff"}, {"left": 79.96875, "top": 135.89999389648438, "right": 104.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text35", "tagName": "text", "content": "21", "fill": "#fff"}, {"left": 115.96875, "top": 135.89999389648438, "right": 140.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text36", "tagName": "text", "content": "22", "fill": "#fff"}, {"left": 151.96875, "top": 135.89999389648438, "right": 176.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text37", "tagName": "text", "content": "23", "fill": "#fff"}, {"left": 187.96875, "top": 135.89999389648438, "right": 212.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text38", "tagName": "text", "content": "24", "fill": "#fff"}, {"left": 223.96875, "top": 135.89999389648438, "right": 248.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text39", "tagName": "text", "content": "25", "fill": "#fff"}, {"left": 259.96875, "top": 135.89999389648438, "right": 284.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text40", "tagName": "text", "content": "26", "fill": "#fff"}, {"left": 295.96875, "top": 135.89999389648438, "right": 320.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text41", "tagName": "text", "content": "27", "fill": "#fff"}, {"left": 79.96875, "top": 172.89999389648438, "right": 104.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text42", "tagName": "text", "content": "28", "fill": "#fff"}, {"left": 115.96875, "top": 172.89999389648438, "right": 140.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text43", "tagName": "text", "content": "29", "fill": "#fff"}, {"left": 151.96875, "top": 172.89999389648438, "right": 176.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text44", "tagName": "text", "content": "30", "fill": "#fff"}, {"left": 187.96875, "top": 172.89999389648438, "right": 212.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text45", "tagName": "text", "content": "31", "fill": "#fff"}, {"left": 518.984375, "top": 24.900001525878906, "right": 531.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text46", "tagName": "text", "content": "1", "fill": "#fff"}, {"left": 554.984375, "top": 24.900001525878906, "right": 567.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text47", "tagName": "text", "content": "2", "fill": "#fff"}, {"left": 590.984375, "top": 24.900001525878906, "right": 603.015625, "bottom": 71.89999389648438, "height": 23.5, "width": 12.03125, "id": "text48", "tagName": "text", "content": "3", "fill": "#fff"}, {"left": 374.984375, "top": 61.899993896484375, "right": 387.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text49", "tagName": "text", "content": "4", "fill": "#fff"}, {"left": 410.984375, "top": 61.899993896484375, "right": 423.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text50", "tagName": "text", "content": "5", "fill": "#fff"}, {"left": 446.984375, "top": 61.899993896484375, "right": 459.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text51", "tagName": "text", "content": "6", "fill": "#fff"}, {"left": 482.984375, "top": 61.899993896484375, "right": 495.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text52", "tagName": "text", "content": "7", "fill": "#fff"}, {"left": 518.984375, "top": 61.899993896484375, "right": 531.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text53", "tagName": "text", "content": "8", "fill": "#fff"}, {"left": 554.984375, "top": 61.899993896484375, "right": 567.015625, "bottom": 108.89999389648438, "height": 23.5, "width": 12.03125, "id": "text54", "tagName": "text", "content": "9", "fill": "#fff"}, {"left": 584.96875, "top": 61.899993896484375, "right": 609.03125, "bottom": 108.89999389648438, "height": 23.5, "width": 24.0625, "id": "text55", "tagName": "text", "content": "10", "fill": "#fff"}, {"left": 368.96875, "top": 98.89999389648438, "right": 393.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text56", "tagName": "text", "content": "11", "fill": "#fff"}, {"left": 404.96875, "top": 98.89999389648438, "right": 429.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text57", "tagName": "text", "content": "12", "fill": "#fff"}, {"left": 440.96875, "top": 98.89999389648438, "right": 465.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text58", "tagName": "text", "content": "13", "fill": "#fff"}, {"left": 476.96875, "top": 98.89999389648438, "right": 501.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text59", "tagName": "text", "content": "14", "fill": "#d3d3d3"}, {"left": 512.96875, "top": 98.89999389648438, "right": 537.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text60", "tagName": "text", "content": "15", "fill": "#d3d3d3"}, {"left": 548.96875, "top": 98.89999389648438, "right": 573.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text61", "tagName": "text", "content": "16", "fill": "#d3d3d3"}, {"left": 584.96875, "top": 98.89999389648438, "right": 609.03125, "bottom": 145.89999389648438, "height": 23.5, "width": 24.0625, "id": "text62", "tagName": "text", "content": "17", "fill": "#d3d3d3"}, {"left": 368.96875, "top": 135.89999389648438, "right": 393.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text63", "tagName": "text", "content": "18", "fill": "#d3d3d3"}, {"left": 404.96875, "top": 135.89999389648438, "right": 429.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text64", "tagName": "text", "content": "19", "fill": "#d3d3d3"}, {"left": 440.96875, "top": 135.89999389648438, "right": 465.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text65", "tagName": "text", "content": "20", "fill": "#d3d3d3"}, {"left": 476.96875, "top": 135.89999389648438, "right": 501.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text66", "tagName": "text", "content": "21", "fill": "#d3d3d3"}, {"left": 512.96875, "top": 135.89999389648438, "right": 537.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text67", "tagName": "text", "content": "22", "fill": "#d3d3d3"}, {"left": 548.96875, "top": 135.89999389648438, "right": 573.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text68", "tagName": "text", "content": "23", "fill": "#d3d3d3"}, {"left": 584.96875, "top": 135.89999389648438, "right": 609.03125, "bottom": 182.89999389648438, "height": 23.5, "width": 24.0625, "id": "text69", "tagName": "text", "content": "24", "fill": "#d3d3d3"}, {"left": 368.96875, "top": 172.89999389648438, "right": 393.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text70", "tagName": "text", "content": "25", "fill": "#d3d3d3"}, {"left": 404.96875, "top": 172.89999389648438, "right": 429.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text71", "tagName": "text", "content": "26", "fill": "#d3d3d3"}, {"left": 440.96875, "top": 172.89999389648438, "right": 465.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text72", "tagName": "text", "content": "27", "fill": "#d3d3d3"}, {"left": 476.96875, "top": 172.89999389648438, "right": 501.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text73", "tagName": "text", "content": "28", "fill": "#d3d3d3"}, {"left": 512.96875, "top": 172.89999389648438, "right": 537.03125, "bottom": 219.89999389648438, "height": 23.5, "width": 24.0625, "id": "text74", "tagName": "text", "content": "29", "fill": "#d3d3d3"}, {"left": 181.859375, "top": -22.5, "right": 218.140625, "bottom": 15.5, "height": 19, "width": 36.28125, "id": "text75", "tagName": "text", "content": "M\u00e4rz", "fill": null}, {"left": 472.4609375, "top": -22.5, "right": 505.5390625, "bottom": 15.5, "height": 19, "width": 33.078125, "id": "text76", "tagName": "text", "content": "April", "fill": null}], "paths": [{"left": 76, "top": 45, "right": 324, "bottom": 115, "height": 70, "width": 248, "id": "path0", "tagName": "path", "content": "", "fill": "none"}, {"left": 76, "top": 45, "right": 613, "bottom": 226, "height": 181, "width": 537, "id": "path1", "tagName": "path", "content": "", "fill": "#4682b4"}, {"left": 365, "top": 119, "right": 613, "bottom": 226, "height": 107, "width": 248, "id": "path2", "tagName": "path", "content": "", "fill": "none"}]}, "chartTitle": [{"left": 518.984375, "top": 48.400001525878906, "right": 531.015625, "bottom": 71.89999389648438, "height": 23.49999237060547, "width": 12.03125, "id": "text46", "tagName": "text", "content": "1", "fill": "#fff", "isReferenceElement": true}, {"left": 472.4609375, "top": -3.5, "right": 505.5390625, "bottom": 15.5, "height": 19, "width": 33.078125, "id": "text76", "tagName": "text", "content": "April", "fill": "undefined", "isReferenceElement": true}], "markInfo": {"text0": {"Type": "none", "Role": "none"}, "text15": {"Type": "Text", "Role": "Main Chart Mark"}, "text16": {"Type": "Text", "Role": "Main Chart Mark"}, "text17": {"Type": "Text", "Role": "Main Chart Mark"}, "text18": {"Type": "Text", "Role": "Main Chart Mark"}, "text19": {"Type": "Text", "Role": "Main Chart Mark"}, "text20": {"Type": "Text", "Role": "Main Chart Mark"}, "text21": {"Type": "Text", "Role": "Main Chart Mark"}, "text22": {"Type": "Text", "Role": "Main Chart Mark"}, "text23": {"Type": "Text", "Role": "Main Chart Mark"}, "text24": {"Type": "Text", "Role": "Main Chart Mark"}, "text25": {"Type": "Text", "Role": "Main Chart Mark"}, "text26": {"Type": "Text", "Role": "Main Chart Mark"}, "text27": {"Type": "Text", "Role": "Main Chart Mark"}, "text28": {"Type": "Text", "Role": "Main Chart Mark"}, "text29": {"Type": "Text", "Role": "Main Chart Mark"}, "text30": {"Type": "Text", "Role": "Main Chart Mark"}, "text31": {"Type": "Text", "Role": "Main Chart Mark"}, "text32": {"Type": "Text", "Role": "Main Chart Mark"}, "text33": {"Type": "Text", "Role": "Main Chart Mark"}, "text34": {"Type": "Text", "Role": "Main Chart Mark"}, "text35": {"Type": "Text", "Role": "Main Chart Mark"}, "text36": {"Type": "Text", "Role": "Main Chart Mark"}, "text37": {"Type": "Text", "Role": "Main Chart Mark"}, "text38": {"Type": "Text", "Role": "Main Chart Mark"}, "text39": {"Type": "Text", "Role": "Main Chart Mark"}, "text40": {"Type": "Text", "Role": "Main Chart Mark"}, "text41": {"Type": "Text", "Role": "Main Chart Mark"}, "text42": {"Type": "Text", "Role": "Main Chart Mark"}, "text43": {"Type": "Text", "Role": "Main Chart Mark"}, "text44": {"Type": "Text", "Role": "Main Chart Mark"}, "text45": {"Type": "Text", "Role": "Main Chart Mark"}, "text47": {"Type": "Text", "Role": "Main Chart Mark"}, "text48": {"Type": "Text", "Role": "Main Chart Mark"}, "text49": {"Type": "Text", "Role": "Main Chart Mark"}, "text50": {"Type": "Text", "Role": "Main Chart Mark"}, "text51": {"Type": "Text", "Role": "Main Chart Mark"}, "text52": {"Type": "Text", "Role": "Main Chart Mark"}, "text53": {"Type": "Text", "Role": "Main Chart Mark"}, "text54": {"Type": "Text", "Role": "Main Chart Mark"}, "text55": {"Type": "Text", "Role": "Main Chart Mark"}, "text56": {"Type": "Text", "Role": "Main Chart Mark"}, "text57": {"Type": "Text", "Role": "Main Chart Mark"}, "text58": {"Type": "Text", "Role": "Main Chart Mark"}, "text59": {"Type": "Text", "Role": "Main Chart Mark"}, "text60": {"Type": "Text", "Role": "Main Chart Mark"}, "text61": {"Type": "Text", "Role": "Main Chart Mark"}, "text62": {"Type": "Text", "Role": "Main Chart Mark"}, "text63": {"Type": "Text", "Role": "Main Chart Mark"}, "text64": {"Type": "Text", "Role": "Main Chart Mark"}, "text65": {"Type": "Text", "Role": "Main Chart Mark"}, "text66": {"Type": "Text", "Role": "Main Chart Mark"}, "text67": {"Type": "Text", "Role": "Main Chart Mark"}, "text68": {"Type": "Text", "Role": "Main Chart Mark"}, "text69": {"Type": "Text", "Role": "Main Chart Mark"}, "text70": {"Type": "Text", "Role": "Main Chart Mark"}, "text71": {"Type": "Text", "Role": "Main Chart Mark"}, "text72": {"Type": "Text", "Role": "Main Chart Mark"}, "text73": {"Type": "Text", "Role": "Main Chart Mark"}, "text74": {"Type": "Text", "Role": "Main Chart Mark"}, "path0": {"Type": "none", "Role": "none"}, "path1": {"Type": "none", "Role": "none"}, "path2": {"Type": "none", "Role": "none"}}, "groupInfo": [["text15", "text16", "text17", "text18", "text19", "text20", "text21", "text22", "text23", "text24", "text25", "text26", "text27", "text28", "text29", "text30", "text31", "text32", "text33", "text34", "text35", "text36", "text37", "text38", "text39", "text40", "text41", "text42", "text43", "text44", "text45"], ["text47", "text48", "text49", "text50", "text51", "text52", "text53", "text54", "text55", "text56", "text57", "text58", "text59", "text60", "text61", "text62", "text63", "text64", "text65", "text66", "text67", "text68", "text69", "text70", "text71", "text72", "text73", "text74"]], "nestedGrouping": [[0, 1]], "layoutInfo": {"2": {"type": "Grid", "params": {"orientation": "Horizontal", "horiAlignment": "", "vertAlignment": "Bottom"}}}, "encodingInfo": {"text15": ["x", "y"], "text16": ["x", "y"], "text17": ["x", "y"], "text18": ["x", "y"], "text19": ["x", "y"], "text20": ["x", "y"], "text21": ["x", "y"], "text22": ["x", "y"], "text23": ["x", "y"], "text24": ["x", "y"], "text25": ["x", "y"], "text26": ["x", "y"], "text27": ["x", "y"], "text28": ["x", "y"], "text29": ["x", "y"], "text30": ["x", "y"], "text31": ["x", "y"], "text32": ["x", "y"], "text33": ["x", "y"], "text34": ["x", "y"], "text35": ["x", "y"], "text36": ["x", "y"], "text37": ["x", "y"], "text38": ["x", "y"], "text39": ["x", "y"], "text40": ["x", "y"], "text41": ["x", "y"], "text42": ["x", "y"], "text43": ["x", "y"], "text44": ["x", "y"], "text45": ["x", "y"], "text47": ["x", "y"], "text48": ["x", "y"], "text49": ["x", "y"], "text50": ["x", "y"], "text51": ["x", "y"], "text52": ["x", "y"], "text53": ["x", "y"], "text54": ["x", "y"], "text55": ["x", "y"], "text56": ["x", "y"], "text57": ["x", "y"], "text58": ["x", "y"], "text59": ["x", "y"], "text60": ["x", "y"], "text61": ["x", "y"], "text62": ["x", "y"], "text63": ["x", "y"], "text64": ["x", "y"], "text65": ["x", "y"], "text66": ["x", "y"], "text67": ["x", "y"], "text68": ["x", "y"], "text69": ["x", "y"], "text70": ["x", "y"], "text71": ["x", "y"], "text72": ["x", "y"], "text73": ["x", "y"], "text74": ["x", "y"]}, "textObjectLinking": {}, "referenceElement": {"xGridlines": [], "yGridlines": [], "axes": {"1": {"labels": [{"left": 80.59375, "top": 16.5, "right": 103.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text1", "tagName": "text", "content": "Mo", "fill": "undefined", "isReferenceElement": true}, {"left": 120.5234375, "top": 16.5, "right": 135.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text2", "tagName": "text", "content": "Di", "fill": "undefined", "isReferenceElement": true}, {"left": 155.34375, "top": 16.5, "right": 172.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text3", "tagName": "text", "content": "Mi", "fill": "undefined", "isReferenceElement": true}, {"left": 189.7734375, "top": 16.5, "right": 210.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text4", "tagName": "text", "content": "Do", "fill": "undefined", "isReferenceElement": true}, {"left": 228.6875, "top": 16.5, "right": 243.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text5", "tagName": "text", "content": "Fr", "fill": "undefined", "isReferenceElement": true}, {"left": 262.80078125, "top": 16.5, "right": 281.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text6", "tagName": "text", "content": "Sa", "fill": "undefined", "isReferenceElement": true}, {"left": 298.48828125, "top": 16.5, "right": 317.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text7", "tagName": "text", "content": "So", "fill": "undefined", "isReferenceElement": true}, {"left": 369.59375, "top": 16.5, "right": 392.40625, "bottom": 35.5, "height": 19, "width": 22.8125, "id": "text8", "tagName": "text", "content": "Mo", "fill": "undefined", "isReferenceElement": true}, {"left": 409.5234375, "top": 16.5, "right": 424.4765625, "bottom": 35.5, "height": 19, "width": 14.953125, "id": "text9", "tagName": "text", "content": "Di", "fill": "undefined", "isReferenceElement": true}, {"left": 444.34375, "top": 16.5, "right": 461.65625, "bottom": 35.5, "height": 19, "width": 17.3125, "id": "text10", "tagName": "text", "content": "Mi", "fill": "undefined", "isReferenceElement": true}, {"left": 478.7734375, "top": 16.5, "right": 499.2265625, "bottom": 35.5, "height": 19, "width": 20.453125, "id": "text11", "tagName": "text", "content": "Do", "fill": "undefined", "isReferenceElement": true}, {"left": 517.6875, "top": 16.5, "right": 532.3125, "bottom": 35.5, "height": 19, "width": 14.625, "id": "text12", "tagName": "text", "content": "Fr", "fill": "undefined", "isReferenceElement": true}, {"left": 551.80078125, "top": 16.5, "right": 570.19921875, "bottom": 35.5, "height": 19, "width": 18.3984375, "id": "text13", "tagName": "text", "content": "Sa", "fill": "undefined", "isReferenceElement": true}, {"left": 587.48828125, "top": 16.5, "right": 606.51171875, "bottom": 35.5, "height": 19, "width": 19.0234375, "id": "text14", "tagName": "text", "content": "So", "fill": "undefined", "isReferenceElement": true}], "fieldType": "x", "title": [], "type": "x", "ticks": [], "path": []}, "2": {"labels": [{"left": 181.859375, "top": -22.5, "right": 218.140625, "bottom": 15.5, "height": 19, "width": 36.28125, "id": "text75", "tagName": "text", "content": "M\u00e4rz", "fill": null}, {"left": 472.4609375, "top": -22.5, "right": 505.5390625, "bottom": 15.5, "height": 19, "width": 33.078125, "id": "text76", "tagName": "text", "content": "April", "fill": null}], "fieldType": "string", "title": []}}, "legend": {"labels": [], "marks": [], "title": [], "ticks": []}}}}
+{
+    "chart": "Calendar13",
+    "annotations": {
+        "allGraphicsElement": {
+            "text0": {
+                "left": 23.203125,
+                "top": 125.1199951171875,
+                "right": 61,
+                "bottom": 144.1199951171875,
+                "height": 19,
+                "width": 37.796875,
+                "id": "text0",
+                "tagName": "text",
+                "content": "2022",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "text1": {
+                "left": 80.59375,
+                "top": 16.5,
+                "right": 103.40625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 22.8125,
+                "id": "text1",
+                "tagName": "text",
+                "content": "Mo",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text2": {
+                "left": 120.5234375,
+                "top": 16.5,
+                "right": 135.4765625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 14.953125,
+                "id": "text2",
+                "tagName": "text",
+                "content": "Di",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text3": {
+                "left": 155.34375,
+                "top": 16.5,
+                "right": 172.65625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 17.3125,
+                "id": "text3",
+                "tagName": "text",
+                "content": "Mi",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text4": {
+                "left": 189.7734375,
+                "top": 16.5,
+                "right": 210.2265625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 20.453125,
+                "id": "text4",
+                "tagName": "text",
+                "content": "Do",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text5": {
+                "left": 228.6875,
+                "top": 16.5,
+                "right": 243.3125,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 14.625,
+                "id": "text5",
+                "tagName": "text",
+                "content": "Fr",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text6": {
+                "left": 262.80078125,
+                "top": 16.5,
+                "right": 281.19921875,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 18.3984375,
+                "id": "text6",
+                "tagName": "text",
+                "content": "Sa",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text7": {
+                "left": 298.48828125,
+                "top": 16.5,
+                "right": 317.51171875,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 19.0234375,
+                "id": "text7",
+                "tagName": "text",
+                "content": "So",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text8": {
+                "left": 369.59375,
+                "top": 16.5,
+                "right": 392.40625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 22.8125,
+                "id": "text8",
+                "tagName": "text",
+                "content": "Mo",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text9": {
+                "left": 409.5234375,
+                "top": 16.5,
+                "right": 424.4765625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 14.953125,
+                "id": "text9",
+                "tagName": "text",
+                "content": "Di",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text10": {
+                "left": 444.34375,
+                "top": 16.5,
+                "right": 461.65625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 17.3125,
+                "id": "text10",
+                "tagName": "text",
+                "content": "Mi",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text11": {
+                "left": 478.7734375,
+                "top": 16.5,
+                "right": 499.2265625,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 20.453125,
+                "id": "text11",
+                "tagName": "text",
+                "content": "Do",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text12": {
+                "left": 517.6875,
+                "top": 16.5,
+                "right": 532.3125,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 14.625,
+                "id": "text12",
+                "tagName": "text",
+                "content": "Fr",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text13": {
+                "left": 551.80078125,
+                "top": 16.5,
+                "right": 570.19921875,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 18.3984375,
+                "id": "text13",
+                "tagName": "text",
+                "content": "Sa",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text14": {
+                "left": 587.48828125,
+                "top": 16.5,
+                "right": 606.51171875,
+                "bottom": 35.5,
+                "height": 19,
+                "width": 19.0234375,
+                "id": "text14",
+                "tagName": "text",
+                "content": "So",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "path0": {
+                "left": 76,
+                "top": 45,
+                "right": 324,
+                "bottom": 115,
+                "height": 70,
+                "width": 248,
+                "id": "path0",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path1": {
+                "left": 76,
+                "top": 45,
+                "right": 613,
+                "bottom": 226,
+                "height": 181,
+                "width": 537,
+                "id": "path1",
+                "tagName": "path",
+                "content": "",
+                "fill": "#4682b4",
+                "isReferenceElement": false
+            },
+            "path2": {
+                "left": 365,
+                "top": 119,
+                "right": 613,
+                "bottom": 226,
+                "height": 107,
+                "width": 248,
+                "id": "path2",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "text15": {
+                "left": 121.984375,
+                "top": 48.400001525878906,
+                "right": 134.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text15",
+                "tagName": "text",
+                "content": "1",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text16": {
+                "left": 157.984375,
+                "top": 48.400001525878906,
+                "right": 170.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text16",
+                "tagName": "text",
+                "content": "2",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text17": {
+                "left": 193.984375,
+                "top": 48.400001525878906,
+                "right": 206.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text17",
+                "tagName": "text",
+                "content": "3",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text18": {
+                "left": 229.984375,
+                "top": 48.400001525878906,
+                "right": 242.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text18",
+                "tagName": "text",
+                "content": "4",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text19": {
+                "left": 265.984375,
+                "top": 48.400001525878906,
+                "right": 278.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text19",
+                "tagName": "text",
+                "content": "5",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text20": {
+                "left": 301.984375,
+                "top": 48.400001525878906,
+                "right": 314.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text20",
+                "tagName": "text",
+                "content": "6",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text21": {
+                "left": 85.984375,
+                "top": 85.39999389648438,
+                "right": 98.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text21",
+                "tagName": "text",
+                "content": "7",
+                "fill": "#d3d3d3",
+                "isReferenceElement": true
+            },
+            "text22": {
+                "left": 121.984375,
+                "top": 85.39999389648438,
+                "right": 134.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text22",
+                "tagName": "text",
+                "content": "8",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text23": {
+                "left": 157.984375,
+                "top": 85.39999389648438,
+                "right": 170.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text23",
+                "tagName": "text",
+                "content": "9",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text24": {
+                "left": 187.96875,
+                "top": 85.39999389648438,
+                "right": 212.03125,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text24",
+                "tagName": "text",
+                "content": "10",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text25": {
+                "left": 223.96875,
+                "top": 85.39999389648438,
+                "right": 248.03125,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text25",
+                "tagName": "text",
+                "content": "11",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text26": {
+                "left": 259.96875,
+                "top": 85.39999389648438,
+                "right": 284.03125,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text26",
+                "tagName": "text",
+                "content": "12",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text27": {
+                "left": 295.96875,
+                "top": 85.39999389648438,
+                "right": 320.03125,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text27",
+                "tagName": "text",
+                "content": "13",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text28": {
+                "left": 79.96875,
+                "top": 122.39999389648438,
+                "right": 104.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text28",
+                "tagName": "text",
+                "content": "14",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text29": {
+                "left": 115.96875,
+                "top": 122.39999389648438,
+                "right": 140.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text29",
+                "tagName": "text",
+                "content": "15",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text30": {
+                "left": 151.96875,
+                "top": 122.39999389648438,
+                "right": 176.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text30",
+                "tagName": "text",
+                "content": "16",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text31": {
+                "left": 187.96875,
+                "top": 122.39999389648438,
+                "right": 212.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text31",
+                "tagName": "text",
+                "content": "17",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text32": {
+                "left": 223.96875,
+                "top": 122.39999389648438,
+                "right": 248.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text32",
+                "tagName": "text",
+                "content": "18",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text33": {
+                "left": 259.96875,
+                "top": 122.39999389648438,
+                "right": 284.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text33",
+                "tagName": "text",
+                "content": "19",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text34": {
+                "left": 295.96875,
+                "top": 122.39999389648438,
+                "right": 320.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text34",
+                "tagName": "text",
+                "content": "20",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text35": {
+                "left": 79.96875,
+                "top": 159.39999389648438,
+                "right": 104.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text35",
+                "tagName": "text",
+                "content": "21",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text36": {
+                "left": 115.96875,
+                "top": 159.39999389648438,
+                "right": 140.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text36",
+                "tagName": "text",
+                "content": "22",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text37": {
+                "left": 151.96875,
+                "top": 159.39999389648438,
+                "right": 176.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text37",
+                "tagName": "text",
+                "content": "23",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text38": {
+                "left": 187.96875,
+                "top": 159.39999389648438,
+                "right": 212.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text38",
+                "tagName": "text",
+                "content": "24",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text39": {
+                "left": 223.96875,
+                "top": 159.39999389648438,
+                "right": 248.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text39",
+                "tagName": "text",
+                "content": "25",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text40": {
+                "left": 259.96875,
+                "top": 159.39999389648438,
+                "right": 284.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text40",
+                "tagName": "text",
+                "content": "26",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text41": {
+                "left": 295.96875,
+                "top": 159.39999389648438,
+                "right": 320.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text41",
+                "tagName": "text",
+                "content": "27",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text42": {
+                "left": 79.96875,
+                "top": 196.39999389648438,
+                "right": 104.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text42",
+                "tagName": "text",
+                "content": "28",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text43": {
+                "left": 115.96875,
+                "top": 196.39999389648438,
+                "right": 140.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text43",
+                "tagName": "text",
+                "content": "29",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text44": {
+                "left": 151.96875,
+                "top": 196.39999389648438,
+                "right": 176.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text44",
+                "tagName": "text",
+                "content": "30",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text45": {
+                "left": 187.96875,
+                "top": 196.39999389648438,
+                "right": 212.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text45",
+                "tagName": "text",
+                "content": "31",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text46": {
+                "left": 518.984375,
+                "top": 48.400001525878906,
+                "right": 531.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text46",
+                "tagName": "text",
+                "content": "1",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text47": {
+                "left": 554.984375,
+                "top": 48.400001525878906,
+                "right": 567.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text47",
+                "tagName": "text",
+                "content": "2",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text48": {
+                "left": 590.984375,
+                "top": 48.400001525878906,
+                "right": 603.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text48",
+                "tagName": "text",
+                "content": "3",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text49": {
+                "left": 374.984375,
+                "top": 85.39999389648438,
+                "right": 387.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text49",
+                "tagName": "text",
+                "content": "4",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text50": {
+                "left": 410.984375,
+                "top": 85.39999389648438,
+                "right": 423.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text50",
+                "tagName": "text",
+                "content": "5",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text51": {
+                "left": 446.984375,
+                "top": 85.39999389648438,
+                "right": 459.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text51",
+                "tagName": "text",
+                "content": "6",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text52": {
+                "left": 482.984375,
+                "top": 85.39999389648438,
+                "right": 495.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text52",
+                "tagName": "text",
+                "content": "7",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text53": {
+                "left": 518.984375,
+                "top": 85.39999389648438,
+                "right": 531.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text53",
+                "tagName": "text",
+                "content": "8",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text54": {
+                "left": 554.984375,
+                "top": 85.39999389648438,
+                "right": 567.015625,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 12.03125,
+                "id": "text54",
+                "tagName": "text",
+                "content": "9",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text55": {
+                "left": 584.96875,
+                "top": 85.39999389648438,
+                "right": 609.03125,
+                "bottom": 108.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text55",
+                "tagName": "text",
+                "content": "10",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text56": {
+                "left": 368.96875,
+                "top": 122.39999389648438,
+                "right": 393.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text56",
+                "tagName": "text",
+                "content": "11",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            "text57": {
+                "left": 404.96875,
+                "top": 122.39999389648438,
+                "right": 429.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text57",
+                "tagName": "text",
+                "content": "12",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text58": {
+                "left": 440.96875,
+                "top": 122.39999389648438,
+                "right": 465.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text58",
+                "tagName": "text",
+                "content": "13",
+                "fill": "#fff",
+                "isReferenceElement": false
+            },
+            "text59": {
+                "left": 476.96875,
+                "top": 122.39999389648438,
+                "right": 501.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text59",
+                "tagName": "text",
+                "content": "14",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text60": {
+                "left": 512.96875,
+                "top": 122.39999389648438,
+                "right": 537.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text60",
+                "tagName": "text",
+                "content": "15",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text61": {
+                "left": 548.96875,
+                "top": 122.39999389648438,
+                "right": 573.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text61",
+                "tagName": "text",
+                "content": "16",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text62": {
+                "left": 584.96875,
+                "top": 122.39999389648438,
+                "right": 609.03125,
+                "bottom": 145.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text62",
+                "tagName": "text",
+                "content": "17",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text63": {
+                "left": 368.96875,
+                "top": 159.39999389648438,
+                "right": 393.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text63",
+                "tagName": "text",
+                "content": "18",
+                "fill": "#d3d3d3",
+                "isReferenceElement": true
+            },
+            "text64": {
+                "left": 404.96875,
+                "top": 159.39999389648438,
+                "right": 429.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text64",
+                "tagName": "text",
+                "content": "19",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text65": {
+                "left": 440.96875,
+                "top": 159.39999389648438,
+                "right": 465.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text65",
+                "tagName": "text",
+                "content": "20",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text66": {
+                "left": 476.96875,
+                "top": 159.39999389648438,
+                "right": 501.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text66",
+                "tagName": "text",
+                "content": "21",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text67": {
+                "left": 512.96875,
+                "top": 159.39999389648438,
+                "right": 537.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text67",
+                "tagName": "text",
+                "content": "22",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text68": {
+                "left": 548.96875,
+                "top": 159.39999389648438,
+                "right": 573.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text68",
+                "tagName": "text",
+                "content": "23",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text69": {
+                "left": 584.96875,
+                "top": 159.39999389648438,
+                "right": 609.03125,
+                "bottom": 182.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text69",
+                "tagName": "text",
+                "content": "24",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text70": {
+                "left": 368.96875,
+                "top": 196.39999389648438,
+                "right": 393.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text70",
+                "tagName": "text",
+                "content": "25",
+                "fill": "#d3d3d3",
+                "isReferenceElement": true
+            },
+            "text71": {
+                "left": 404.96875,
+                "top": 196.39999389648438,
+                "right": 429.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text71",
+                "tagName": "text",
+                "content": "26",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text72": {
+                "left": 440.96875,
+                "top": 196.39999389648438,
+                "right": 465.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text72",
+                "tagName": "text",
+                "content": "27",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text73": {
+                "left": 476.96875,
+                "top": 196.39999389648438,
+                "right": 501.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text73",
+                "tagName": "text",
+                "content": "28",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text74": {
+                "left": 512.96875,
+                "top": 196.39999389648438,
+                "right": 537.03125,
+                "bottom": 219.89999389648438,
+                "height": 23.5,
+                "width": 24.0625,
+                "id": "text74",
+                "tagName": "text",
+                "content": "29",
+                "fill": "#d3d3d3",
+                "isReferenceElement": false
+            },
+            "text75": {
+                "left": 181.859375,
+                "top": -3.5,
+                "right": 218.140625,
+                "bottom": 15.5,
+                "height": 19,
+                "width": 36.28125,
+                "id": "text75",
+                "tagName": "text",
+                "content": "M\u00e4rz",
+                "fill": "undefined",
+                "isReferenceElement": true
+            },
+            "text76": {
+                "left": 472.4609375,
+                "top": -3.5,
+                "right": 505.5390625,
+                "bottom": 15.5,
+                "height": 19,
+                "width": 33.078125,
+                "id": "text76",
+                "tagName": "text",
+                "content": "April",
+                "fill": "undefined",
+                "isReferenceElement": true
+            }
+        },
+        "groupedGraphicsElement": {
+            "texts": [
+                {
+                    "left": 23.203125,
+                    "top": 106.1199951171875,
+                    "right": 61,
+                    "bottom": 144.1199951171875,
+                    "height": 19,
+                    "width": 37.796875,
+                    "id": "text0",
+                    "tagName": "text",
+                    "content": "2022",
+                    "fill": "undefined"
+                },
+                {
+                    "left": 80.59375,
+                    "top": -2.5,
+                    "right": 103.40625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 22.8125,
+                    "id": "text1",
+                    "tagName": "text",
+                    "content": "Mo",
+                    "fill": null
+                },
+                {
+                    "left": 120.5234375,
+                    "top": -2.5,
+                    "right": 135.4765625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 14.953125,
+                    "id": "text2",
+                    "tagName": "text",
+                    "content": "Di",
+                    "fill": null
+                },
+                {
+                    "left": 155.34375,
+                    "top": -2.5,
+                    "right": 172.65625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 17.3125,
+                    "id": "text3",
+                    "tagName": "text",
+                    "content": "Mi",
+                    "fill": null
+                },
+                {
+                    "left": 189.7734375,
+                    "top": -2.5,
+                    "right": 210.2265625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 20.453125,
+                    "id": "text4",
+                    "tagName": "text",
+                    "content": "Do",
+                    "fill": null
+                },
+                {
+                    "left": 228.6875,
+                    "top": -2.5,
+                    "right": 243.3125,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 14.625,
+                    "id": "text5",
+                    "tagName": "text",
+                    "content": "Fr",
+                    "fill": null
+                },
+                {
+                    "left": 262.80078125,
+                    "top": -2.5,
+                    "right": 281.19921875,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 18.3984375,
+                    "id": "text6",
+                    "tagName": "text",
+                    "content": "Sa",
+                    "fill": null
+                },
+                {
+                    "left": 298.48828125,
+                    "top": -2.5,
+                    "right": 317.51171875,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 19.0234375,
+                    "id": "text7",
+                    "tagName": "text",
+                    "content": "So",
+                    "fill": null
+                },
+                {
+                    "left": 369.59375,
+                    "top": -2.5,
+                    "right": 392.40625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 22.8125,
+                    "id": "text8",
+                    "tagName": "text",
+                    "content": "Mo",
+                    "fill": null
+                },
+                {
+                    "left": 409.5234375,
+                    "top": -2.5,
+                    "right": 424.4765625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 14.953125,
+                    "id": "text9",
+                    "tagName": "text",
+                    "content": "Di",
+                    "fill": null
+                },
+                {
+                    "left": 444.34375,
+                    "top": -2.5,
+                    "right": 461.65625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 17.3125,
+                    "id": "text10",
+                    "tagName": "text",
+                    "content": "Mi",
+                    "fill": null
+                },
+                {
+                    "left": 478.7734375,
+                    "top": -2.5,
+                    "right": 499.2265625,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 20.453125,
+                    "id": "text11",
+                    "tagName": "text",
+                    "content": "Do",
+                    "fill": null
+                },
+                {
+                    "left": 517.6875,
+                    "top": -2.5,
+                    "right": 532.3125,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 14.625,
+                    "id": "text12",
+                    "tagName": "text",
+                    "content": "Fr",
+                    "fill": null
+                },
+                {
+                    "left": 551.80078125,
+                    "top": -2.5,
+                    "right": 570.19921875,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 18.3984375,
+                    "id": "text13",
+                    "tagName": "text",
+                    "content": "Sa",
+                    "fill": null
+                },
+                {
+                    "left": 587.48828125,
+                    "top": -2.5,
+                    "right": 606.51171875,
+                    "bottom": 35.5,
+                    "height": 19,
+                    "width": 19.0234375,
+                    "id": "text14",
+                    "tagName": "text",
+                    "content": "So",
+                    "fill": null
+                },
+                {
+                    "left": 121.984375,
+                    "top": 24.900001525878906,
+                    "right": 134.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text15",
+                    "tagName": "text",
+                    "content": "1",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 157.984375,
+                    "top": 24.900001525878906,
+                    "right": 170.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text16",
+                    "tagName": "text",
+                    "content": "2",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 193.984375,
+                    "top": 24.900001525878906,
+                    "right": 206.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text17",
+                    "tagName": "text",
+                    "content": "3",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 229.984375,
+                    "top": 24.900001525878906,
+                    "right": 242.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text18",
+                    "tagName": "text",
+                    "content": "4",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 265.984375,
+                    "top": 24.900001525878906,
+                    "right": 278.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text19",
+                    "tagName": "text",
+                    "content": "5",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 301.984375,
+                    "top": 24.900001525878906,
+                    "right": 314.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text20",
+                    "tagName": "text",
+                    "content": "6",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 85.984375,
+                    "top": 61.899993896484375,
+                    "right": 98.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text21",
+                    "tagName": "text",
+                    "content": "7",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 121.984375,
+                    "top": 61.899993896484375,
+                    "right": 134.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text22",
+                    "tagName": "text",
+                    "content": "8",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 157.984375,
+                    "top": 61.899993896484375,
+                    "right": 170.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text23",
+                    "tagName": "text",
+                    "content": "9",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 187.96875,
+                    "top": 61.899993896484375,
+                    "right": 212.03125,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text24",
+                    "tagName": "text",
+                    "content": "10",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 223.96875,
+                    "top": 61.899993896484375,
+                    "right": 248.03125,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text25",
+                    "tagName": "text",
+                    "content": "11",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 259.96875,
+                    "top": 61.899993896484375,
+                    "right": 284.03125,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text26",
+                    "tagName": "text",
+                    "content": "12",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 295.96875,
+                    "top": 61.899993896484375,
+                    "right": 320.03125,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text27",
+                    "tagName": "text",
+                    "content": "13",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 79.96875,
+                    "top": 98.89999389648438,
+                    "right": 104.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text28",
+                    "tagName": "text",
+                    "content": "14",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 115.96875,
+                    "top": 98.89999389648438,
+                    "right": 140.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text29",
+                    "tagName": "text",
+                    "content": "15",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 151.96875,
+                    "top": 98.89999389648438,
+                    "right": 176.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text30",
+                    "tagName": "text",
+                    "content": "16",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 187.96875,
+                    "top": 98.89999389648438,
+                    "right": 212.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text31",
+                    "tagName": "text",
+                    "content": "17",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 223.96875,
+                    "top": 98.89999389648438,
+                    "right": 248.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text32",
+                    "tagName": "text",
+                    "content": "18",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 259.96875,
+                    "top": 98.89999389648438,
+                    "right": 284.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text33",
+                    "tagName": "text",
+                    "content": "19",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 295.96875,
+                    "top": 98.89999389648438,
+                    "right": 320.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text34",
+                    "tagName": "text",
+                    "content": "20",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 79.96875,
+                    "top": 135.89999389648438,
+                    "right": 104.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text35",
+                    "tagName": "text",
+                    "content": "21",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 115.96875,
+                    "top": 135.89999389648438,
+                    "right": 140.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text36",
+                    "tagName": "text",
+                    "content": "22",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 151.96875,
+                    "top": 135.89999389648438,
+                    "right": 176.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text37",
+                    "tagName": "text",
+                    "content": "23",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 187.96875,
+                    "top": 135.89999389648438,
+                    "right": 212.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text38",
+                    "tagName": "text",
+                    "content": "24",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 223.96875,
+                    "top": 135.89999389648438,
+                    "right": 248.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text39",
+                    "tagName": "text",
+                    "content": "25",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 259.96875,
+                    "top": 135.89999389648438,
+                    "right": 284.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text40",
+                    "tagName": "text",
+                    "content": "26",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 295.96875,
+                    "top": 135.89999389648438,
+                    "right": 320.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text41",
+                    "tagName": "text",
+                    "content": "27",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 79.96875,
+                    "top": 172.89999389648438,
+                    "right": 104.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text42",
+                    "tagName": "text",
+                    "content": "28",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 115.96875,
+                    "top": 172.89999389648438,
+                    "right": 140.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text43",
+                    "tagName": "text",
+                    "content": "29",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 151.96875,
+                    "top": 172.89999389648438,
+                    "right": 176.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text44",
+                    "tagName": "text",
+                    "content": "30",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 187.96875,
+                    "top": 172.89999389648438,
+                    "right": 212.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text45",
+                    "tagName": "text",
+                    "content": "31",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 518.984375,
+                    "top": 24.900001525878906,
+                    "right": 531.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text46",
+                    "tagName": "text",
+                    "content": "1",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 554.984375,
+                    "top": 24.900001525878906,
+                    "right": 567.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text47",
+                    "tagName": "text",
+                    "content": "2",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 590.984375,
+                    "top": 24.900001525878906,
+                    "right": 603.015625,
+                    "bottom": 71.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text48",
+                    "tagName": "text",
+                    "content": "3",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 374.984375,
+                    "top": 61.899993896484375,
+                    "right": 387.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text49",
+                    "tagName": "text",
+                    "content": "4",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 410.984375,
+                    "top": 61.899993896484375,
+                    "right": 423.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text50",
+                    "tagName": "text",
+                    "content": "5",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 446.984375,
+                    "top": 61.899993896484375,
+                    "right": 459.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text51",
+                    "tagName": "text",
+                    "content": "6",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 482.984375,
+                    "top": 61.899993896484375,
+                    "right": 495.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text52",
+                    "tagName": "text",
+                    "content": "7",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 518.984375,
+                    "top": 61.899993896484375,
+                    "right": 531.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text53",
+                    "tagName": "text",
+                    "content": "8",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 554.984375,
+                    "top": 61.899993896484375,
+                    "right": 567.015625,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 12.03125,
+                    "id": "text54",
+                    "tagName": "text",
+                    "content": "9",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 584.96875,
+                    "top": 61.899993896484375,
+                    "right": 609.03125,
+                    "bottom": 108.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text55",
+                    "tagName": "text",
+                    "content": "10",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 368.96875,
+                    "top": 98.89999389648438,
+                    "right": 393.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text56",
+                    "tagName": "text",
+                    "content": "11",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 404.96875,
+                    "top": 98.89999389648438,
+                    "right": 429.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text57",
+                    "tagName": "text",
+                    "content": "12",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 440.96875,
+                    "top": 98.89999389648438,
+                    "right": 465.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text58",
+                    "tagName": "text",
+                    "content": "13",
+                    "fill": "#fff"
+                },
+                {
+                    "left": 476.96875,
+                    "top": 98.89999389648438,
+                    "right": 501.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text59",
+                    "tagName": "text",
+                    "content": "14",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 512.96875,
+                    "top": 98.89999389648438,
+                    "right": 537.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text60",
+                    "tagName": "text",
+                    "content": "15",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 548.96875,
+                    "top": 98.89999389648438,
+                    "right": 573.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text61",
+                    "tagName": "text",
+                    "content": "16",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 584.96875,
+                    "top": 98.89999389648438,
+                    "right": 609.03125,
+                    "bottom": 145.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text62",
+                    "tagName": "text",
+                    "content": "17",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 368.96875,
+                    "top": 135.89999389648438,
+                    "right": 393.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text63",
+                    "tagName": "text",
+                    "content": "18",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 404.96875,
+                    "top": 135.89999389648438,
+                    "right": 429.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text64",
+                    "tagName": "text",
+                    "content": "19",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 440.96875,
+                    "top": 135.89999389648438,
+                    "right": 465.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text65",
+                    "tagName": "text",
+                    "content": "20",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 476.96875,
+                    "top": 135.89999389648438,
+                    "right": 501.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text66",
+                    "tagName": "text",
+                    "content": "21",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 512.96875,
+                    "top": 135.89999389648438,
+                    "right": 537.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text67",
+                    "tagName": "text",
+                    "content": "22",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 548.96875,
+                    "top": 135.89999389648438,
+                    "right": 573.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text68",
+                    "tagName": "text",
+                    "content": "23",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 584.96875,
+                    "top": 135.89999389648438,
+                    "right": 609.03125,
+                    "bottom": 182.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text69",
+                    "tagName": "text",
+                    "content": "24",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 368.96875,
+                    "top": 172.89999389648438,
+                    "right": 393.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text70",
+                    "tagName": "text",
+                    "content": "25",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 404.96875,
+                    "top": 172.89999389648438,
+                    "right": 429.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text71",
+                    "tagName": "text",
+                    "content": "26",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 440.96875,
+                    "top": 172.89999389648438,
+                    "right": 465.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text72",
+                    "tagName": "text",
+                    "content": "27",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 476.96875,
+                    "top": 172.89999389648438,
+                    "right": 501.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text73",
+                    "tagName": "text",
+                    "content": "28",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 512.96875,
+                    "top": 172.89999389648438,
+                    "right": 537.03125,
+                    "bottom": 219.89999389648438,
+                    "height": 23.5,
+                    "width": 24.0625,
+                    "id": "text74",
+                    "tagName": "text",
+                    "content": "29",
+                    "fill": "#d3d3d3"
+                },
+                {
+                    "left": 181.859375,
+                    "top": -22.5,
+                    "right": 218.140625,
+                    "bottom": 15.5,
+                    "height": 19,
+                    "width": 36.28125,
+                    "id": "text75",
+                    "tagName": "text",
+                    "content": "M\u00e4rz",
+                    "fill": null
+                },
+                {
+                    "left": 472.4609375,
+                    "top": -22.5,
+                    "right": 505.5390625,
+                    "bottom": 15.5,
+                    "height": 19,
+                    "width": 33.078125,
+                    "id": "text76",
+                    "tagName": "text",
+                    "content": "April",
+                    "fill": null
+                }
+            ],
+            "paths": [
+                {
+                    "left": 76,
+                    "top": 45,
+                    "right": 324,
+                    "bottom": 115,
+                    "height": 70,
+                    "width": 248,
+                    "id": "path0",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 76,
+                    "top": 45,
+                    "right": 613,
+                    "bottom": 226,
+                    "height": 181,
+                    "width": 537,
+                    "id": "path1",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "#4682b4"
+                },
+                {
+                    "left": 365,
+                    "top": 119,
+                    "right": 613,
+                    "bottom": 226,
+                    "height": 107,
+                    "width": 248,
+                    "id": "path2",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                }
+            ]
+        },
+        "chartTitle": [
+            {
+                "left": 518.984375,
+                "top": 48.400001525878906,
+                "right": 531.015625,
+                "bottom": 71.89999389648438,
+                "height": 23.49999237060547,
+                "width": 12.03125,
+                "id": "text46",
+                "tagName": "text",
+                "content": "1",
+                "fill": "#fff",
+                "isReferenceElement": true
+            },
+            {
+                "left": 472.4609375,
+                "top": -3.5,
+                "right": 505.5390625,
+                "bottom": 15.5,
+                "height": 19,
+                "width": 33.078125,
+                "id": "text76",
+                "tagName": "text",
+                "content": "April",
+                "fill": "undefined",
+                "isReferenceElement": true
+            }
+        ],
+        "markInfo": {
+            "text0": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "text15": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text16": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text17": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text18": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text19": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text20": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text21": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text22": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text23": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text24": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text25": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text26": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text27": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text28": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text29": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text30": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text31": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text32": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text33": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text34": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text35": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text36": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text37": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text38": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text39": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text40": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text41": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text42": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text43": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text44": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text45": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text47": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text48": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text49": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text50": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text51": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text52": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text53": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text54": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text55": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text56": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text57": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text58": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text59": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text60": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text61": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text62": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text63": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text64": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text65": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text66": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text67": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text68": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text69": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text70": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text71": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text72": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text73": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "text74": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "path0": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path1": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path2": {
+                "Type": "none",
+                "Role": "none"
+            }
+        },
+        "groupInfo": [
+            [
+                "text15",
+                "text16",
+                "text17",
+                "text18",
+                "text19",
+                "text20",
+                "text21",
+                "text22",
+                "text23",
+                "text24",
+                "text25",
+                "text26",
+                "text27",
+                "text28",
+                "text29",
+                "text30",
+                "text31",
+                "text32",
+                "text33",
+                "text34",
+                "text35",
+                "text36",
+                "text37",
+                "text38",
+                "text39",
+                "text40",
+                "text41",
+                "text42",
+                "text43",
+                "text44",
+                "text45"
+            ],
+            [
+                "text47",
+                "text48",
+                "text49",
+                "text50",
+                "text51",
+                "text52",
+                "text53",
+                "text54",
+                "text55",
+                "text56",
+                "text57",
+                "text58",
+                "text59",
+                "text60",
+                "text61",
+                "text62",
+                "text63",
+                "text64",
+                "text65",
+                "text66",
+                "text67",
+                "text68",
+                "text69",
+                "text70",
+                "text71",
+                "text72",
+                "text73",
+                "text74"
+            ]
+        ],
+        "nestedGrouping": [
+            [
+                0,
+                1
+            ]
+        ],
+        "layoutInfo": {
+            "2": {
+                "type": "Grid",
+                "params": {
+                    "orientation": "Horizontal",
+                    "horiAlignment": "",
+                    "vertAlignment": "Bottom"
+                }
+            }
+        },
+        "encodingInfo": {
+            "text15": [
+                "x",
+                "y"
+            ],
+            "text16": [
+                "x",
+                "y"
+            ],
+            "text17": [
+                "x",
+                "y"
+            ],
+            "text18": [
+                "x",
+                "y"
+            ],
+            "text19": [
+                "x",
+                "y"
+            ],
+            "text20": [
+                "x",
+                "y"
+            ],
+            "text21": [
+                "x",
+                "y"
+            ],
+            "text22": [
+                "x",
+                "y"
+            ],
+            "text23": [
+                "x",
+                "y"
+            ],
+            "text24": [
+                "x",
+                "y"
+            ],
+            "text25": [
+                "x",
+                "y"
+            ],
+            "text26": [
+                "x",
+                "y"
+            ],
+            "text27": [
+                "x",
+                "y"
+            ],
+            "text28": [
+                "x",
+                "y"
+            ],
+            "text29": [
+                "x",
+                "y"
+            ],
+            "text30": [
+                "x",
+                "y"
+            ],
+            "text31": [
+                "x",
+                "y"
+            ],
+            "text32": [
+                "x",
+                "y"
+            ],
+            "text33": [
+                "x",
+                "y"
+            ],
+            "text34": [
+                "x",
+                "y"
+            ],
+            "text35": [
+                "x",
+                "y"
+            ],
+            "text36": [
+                "x",
+                "y"
+            ],
+            "text37": [
+                "x",
+                "y"
+            ],
+            "text38": [
+                "x",
+                "y"
+            ],
+            "text39": [
+                "x",
+                "y"
+            ],
+            "text40": [
+                "x",
+                "y"
+            ],
+            "text41": [
+                "x",
+                "y"
+            ],
+            "text42": [
+                "x",
+                "y"
+            ],
+            "text43": [
+                "x",
+                "y"
+            ],
+            "text44": [
+                "x",
+                "y"
+            ],
+            "text45": [
+                "x",
+                "y"
+            ],
+            "text47": [
+                "x",
+                "y"
+            ],
+            "text48": [
+                "x",
+                "y"
+            ],
+            "text49": [
+                "x",
+                "y"
+            ],
+            "text50": [
+                "x",
+                "y"
+            ],
+            "text51": [
+                "x",
+                "y"
+            ],
+            "text52": [
+                "x",
+                "y"
+            ],
+            "text53": [
+                "x",
+                "y"
+            ],
+            "text54": [
+                "x",
+                "y"
+            ],
+            "text55": [
+                "x",
+                "y"
+            ],
+            "text56": [
+                "x",
+                "y"
+            ],
+            "text57": [
+                "x",
+                "y"
+            ],
+            "text58": [
+                "x",
+                "y"
+            ],
+            "text59": [
+                "x",
+                "y"
+            ],
+            "text60": [
+                "x",
+                "y"
+            ],
+            "text61": [
+                "x",
+                "y"
+            ],
+            "text62": [
+                "x",
+                "y"
+            ],
+            "text63": [
+                "x",
+                "y"
+            ],
+            "text64": [
+                "x",
+                "y"
+            ],
+            "text65": [
+                "x",
+                "y"
+            ],
+            "text66": [
+                "x",
+                "y"
+            ],
+            "text67": [
+                "x",
+                "y"
+            ],
+            "text68": [
+                "x",
+                "y"
+            ],
+            "text69": [
+                "x",
+                "y"
+            ],
+            "text70": [
+                "x",
+                "y"
+            ],
+            "text71": [
+                "x",
+                "y"
+            ],
+            "text72": [
+                "x",
+                "y"
+            ],
+            "text73": [
+                "x",
+                "y"
+            ],
+            "text74": [
+                "x",
+                "y"
+            ]
+        },
+        "textObjectLinking": {},
+        "referenceElement": {
+            "xGridlines": [],
+            "yGridlines": [],
+            "axes": {
+                "1": {
+                    "labels": [
+                        {
+                            "left": 80.59375,
+                            "top": 16.5,
+                            "right": 103.40625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 22.8125,
+                            "id": "text1",
+                            "tagName": "text",
+                            "content": "Mo",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 120.5234375,
+                            "top": 16.5,
+                            "right": 135.4765625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 14.953125,
+                            "id": "text2",
+                            "tagName": "text",
+                            "content": "Di",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 155.34375,
+                            "top": 16.5,
+                            "right": 172.65625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 17.3125,
+                            "id": "text3",
+                            "tagName": "text",
+                            "content": "Mi",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 189.7734375,
+                            "top": 16.5,
+                            "right": 210.2265625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 20.453125,
+                            "id": "text4",
+                            "tagName": "text",
+                            "content": "Do",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 228.6875,
+                            "top": 16.5,
+                            "right": 243.3125,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 14.625,
+                            "id": "text5",
+                            "tagName": "text",
+                            "content": "Fr",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 262.80078125,
+                            "top": 16.5,
+                            "right": 281.19921875,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 18.3984375,
+                            "id": "text6",
+                            "tagName": "text",
+                            "content": "Sa",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 298.48828125,
+                            "top": 16.5,
+                            "right": 317.51171875,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 19.0234375,
+                            "id": "text7",
+                            "tagName": "text",
+                            "content": "So",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 369.59375,
+                            "top": 16.5,
+                            "right": 392.40625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 22.8125,
+                            "id": "text8",
+                            "tagName": "text",
+                            "content": "Mo",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 409.5234375,
+                            "top": 16.5,
+                            "right": 424.4765625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 14.953125,
+                            "id": "text9",
+                            "tagName": "text",
+                            "content": "Di",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 444.34375,
+                            "top": 16.5,
+                            "right": 461.65625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 17.3125,
+                            "id": "text10",
+                            "tagName": "text",
+                            "content": "Mi",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 478.7734375,
+                            "top": 16.5,
+                            "right": 499.2265625,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 20.453125,
+                            "id": "text11",
+                            "tagName": "text",
+                            "content": "Do",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 517.6875,
+                            "top": 16.5,
+                            "right": 532.3125,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 14.625,
+                            "id": "text12",
+                            "tagName": "text",
+                            "content": "Fr",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 551.80078125,
+                            "top": 16.5,
+                            "right": 570.19921875,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 18.3984375,
+                            "id": "text13",
+                            "tagName": "text",
+                            "content": "Sa",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        },
+                        {
+                            "left": 587.48828125,
+                            "top": 16.5,
+                            "right": 606.51171875,
+                            "bottom": 35.5,
+                            "height": 19,
+                            "width": 19.0234375,
+                            "id": "text14",
+                            "tagName": "text",
+                            "content": "So",
+                            "fill": "undefined",
+                            "isReferenceElement": true
+                        }
+                    ],
+                    "fieldType": "x",
+                    "title": [],
+                    "type": "x",
+                    "ticks": [],
+                    "path": []
+                },
+                "2": {
+                    "labels": [
+                        {
+                            "left": 181.859375,
+                            "top": -22.5,
+                            "right": 218.140625,
+                            "bottom": 15.5,
+                            "height": 19,
+                            "width": 36.28125,
+                            "id": "text75",
+                            "tagName": "text",
+                            "content": "M\u00e4rz",
+                            "fill": null
+                        },
+                        {
+                            "left": 472.4609375,
+                            "top": -22.5,
+                            "right": 505.5390625,
+                            "bottom": 15.5,
+                            "height": 19,
+                            "width": 33.078125,
+                            "id": "text76",
+                            "tagName": "text",
+                            "content": "April",
+                            "fill": null
+                        }
+                    ],
+                    "fieldType": "string",
+                    "title": []
+                }
+            },
+            "legend": {
+                "labels": [],
+                "marks": [],
+                "title": [],
+                "ticks": []
+            }
+        }
+    }
+}

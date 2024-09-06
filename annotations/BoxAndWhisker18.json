@@ -1,1 +1,2266 @@
-{"chart": "BoxAndWhisker18", "annotations": {"allGraphicsElement": {"path0": {"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path0", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path1": {"left": 0.421875, "top": -7.265625, "right": 5.015625, "bottom": 0.234375, "height": 7.5, "width": 4.59375, "id": "path1", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path2": {"left": 0.546875, "top": -7.265625, "right": 4.890625, "bottom": 0, "height": 7.265625, "width": 4.34375, "id": "path2", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path3": {"left": 0.3125, "top": -7.390625, "right": 5.140625, "bottom": 0, "height": 7.390625, "width": 4.828125, "id": "path3", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path4": {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path4", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path5": {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path5", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path6": {"left": 0.96875, "top": -7.265625, "right": 4.5625, "bottom": 0, "height": 7.265625, "width": 3.59375, "id": "path6", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path7": {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path7", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path8": {"left": 0.390625, "top": -7.453125, "right": 7.09375, "bottom": 0, "height": 7.453125, "width": 6.703125, "id": "path8", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path9": {"left": 0.3125, "top": -4.890625, "right": 5.140625, "bottom": 0.125, "height": 5.015625, "width": 4.828125, "id": "path9", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path10": {"left": 0.125, "top": -4.703125, "right": 5.625, "bottom": 0, "height": 4.703125, "width": 5.5, "id": "path10", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path11": {"left": 0.375, "top": -7.453125, "right": 6.8125, "bottom": 0, "height": 7.453125, "width": 6.4375, "id": "path11", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path12": {"left": 0.359375, "top": -7.5625, "right": 2.78125, "bottom": 0, "height": 7.5625, "width": 2.421875, "id": "path12", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path13": {"left": 0.203125, "top": -6.703125, "right": 3.625, "bottom": 0.125, "height": 6.828125, "width": 3.421875, "id": "path13", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path14": {"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path14", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path15": {"left": 0.3125, "top": -4.828125, "right": 5.75, "bottom": 0.125, "height": 4.953125, "width": 5.4375, "id": "path15", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path16": {"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path16", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path17": {"left": -4.828125, "top": -5.34375, "right": 2.234375, "bottom": -0.3125, "height": 5.03125, "width": 7.0625, "id": "path17", "tagName": "path", "content": "", "fill": "undefined", "isReferenceElement": false}, "path18": {"left": 38.41796875, "top": 17.8046875, "right": 210.640625, "bottom": 179.203125, "height": 161.3984375, "width": 172.22265625, "id": "path18", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path19": {"left": 23.94921875, "top": 45.41407012939453, "right": 218.21875, "bottom": 151.59375, "height": 106.17967987060547, "width": 194.26953125, "id": "path19", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path20": {"left": 23.94921875, "top": 17.8046875, "right": 218.21875, "bottom": 179.203125, "height": 161.3984375, "width": 194.26953125, "id": "path20", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "use0": {"left": 36.11187744140625, "top": 182.8003692626953, "right": 40.70562744140625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use0", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use1": {"left": 67.953857421875, "top": 182.8003692626953, "right": 72.297607421875, "bottom": 190.06597900390625, "height": 7.2656097412109375, "width": 4.34375, "id": "use1", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use2": {"left": 73.28341674804688, "top": 182.8003692626953, "right": 77.87716674804688, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use2", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use3": {"left": 102.16351318359375, "top": 182.6753692626953, "right": 106.99163818359375, "bottom": 190.06597900390625, "height": 7.3906097412109375, "width": 4.828125, "id": "use3", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use4": {"left": 107.7274169921875, "top": 182.8003692626953, "right": 112.3211669921875, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use4", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use5": {"left": 136.74810791015625, "top": 182.8003692626953, "right": 141.27935791015625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.53125, "id": "use5", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use6": {"left": 142.17144775390625, "top": 182.8003692626953, "right": 146.76519775390625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use6", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use7": {"left": 171.193115234375, "top": 182.8003692626953, "right": 175.724365234375, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.53125, "id": "use7", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use8": {"left": 176.61642456054688, "top": 182.8003692626953, "right": 181.21017456054688, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use8", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use9": {"left": 203.42575073242188, "top": 182.8003692626953, "right": 207.01950073242188, "bottom": 190.06597900390625, "height": 7.2656097412109375, "width": 3.59375, "id": "use9", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use10": {"left": 208.33343505859375, "top": 182.8003692626953, "right": 212.92718505859375, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use10", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use11": {"left": 213.7879638671875, "top": 182.8003692626953, "right": 218.3817138671875, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use11", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use12": {"left": 15.628753662109375, "top": 147.84336853027344, "right": 19.222503662109375, "bottom": 155.10899353027344, "height": 7.265625, "width": 3.59375, "id": "use12", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use13": {"left": 15.206878662109375, "top": 112.45037841796875, "right": 19.550628662109375, "bottom": 119.71600341796875, "height": 7.265625, "width": 4.34375, "id": "use13", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use14": {"left": 15.113128662109375, "top": 77.057373046875, "right": 19.644378662109375, "bottom": 84.557373046875, "height": 7.5, "width": 4.53125, "id": "use14", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use15": {"left": 14.972503662109375, "top": 41.53937530517578, "right": 19.800628662109375, "bottom": 48.93000030517578, "height": 7.390625, "width": 4.828125, "id": "use15", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "path21": {"left": 81.47265625, "top": 140.26953125, "right": 102.140625, "bottom": 162.91796875, "height": 22.6484375, "width": 20.66796875, "id": "path21", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path22": {"left": 162.41796875, "top": 140.26953125, "right": 177.91796875, "bottom": 162.91796875, "height": 22.6484375, "width": 15.5, "id": "path22", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path23": {"left": 102.140625, "top": 137.4375, "right": 162.41796875, "bottom": 165.75, "height": 28.3125, "width": 60.27734375, "id": "path23", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path24": {"left": 150.36328125, "top": 137.4375, "right": 150.36328125, "bottom": 165.75, "height": 28.3125, "width": 0, "id": "path24", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path25": {"left": 59.0859375, "top": 104.875, "right": 67.6953125, "bottom": 127.52734375, "height": 22.65234375, "width": 8.609375, "id": "path25", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path26": {"left": 127.97265625, "top": 104.875, "right": 143.47265625, "bottom": 127.52734375, "height": 22.65234375, "width": 15.5, "id": "path26", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path27": {"left": 67.6953125, "top": 102.04296875, "right": 127.97265625, "bottom": 130.359375, "height": 28.31640625, "width": 60.27734375, "id": "path27", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path28": {"left": 81.47265625, "top": 102.04296875, "right": 81.47265625, "bottom": 130.359375, "height": 28.31640625, "width": 0, "id": "path28", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path29": {"left": 59.0859375, "top": 69.48046875, "right": 81.47265625, "bottom": 92.1328125, "height": 22.65234375, "width": 22.38671875, "id": "path29", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path30": {"left": 167.5859375, "top": 69.48046875, "right": 188.25, "bottom": 92.1328125, "height": 22.65234375, "width": 20.6640625, "id": "path30", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path31": {"left": 81.47265625, "top": 66.6484375, "right": 167.5859375, "bottom": 94.96484375, "height": 28.31640625, "width": 86.11328125, "id": "path31", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path32": {"left": 124.53125, "top": 66.6484375, "right": 124.53125, "bottom": 94.96484375, "height": 28.31640625, "width": 0, "id": "path32", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path33": {"left": 145.1953125, "top": 34.08984375, "right": 148.640625, "bottom": 56.73828887939453, "height": 22.64844512939453, "width": 3.4453125, "id": "path33", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path34": {"left": 162.41796875, "top": 34.08984375, "right": 177.91796875, "bottom": 56.73828887939453, "height": 22.64844512939453, "width": 15.5, "id": "path34", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path35": {"left": 148.640625, "top": 31.2578125, "right": 162.41796875, "bottom": 59.57032012939453, "height": 28.31250762939453, "width": 13.77734375, "id": "path35", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path36": {"left": 158.97265625, "top": 31.2578125, "right": 158.97265625, "bottom": 59.57032012939453, "height": 28.31250762939453, "width": 0, "id": "path36", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path37": {"left": 38.1484375, "top": 149.6015625, "right": 42.1328125, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path37", "tagName": "path", "content": "", "fill": "rgb(0, 0, 204)", "isReferenceElement": false}, "path38": {"left": 194.87109375, "top": 149.6015625, "right": 198.85546875, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path38", "tagName": "path", "content": "", "fill": "rgb(0, 0, 204)", "isReferenceElement": false}, "path39": {"left": 200.0390625, "top": 149.6015625, "right": 204.0234375, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path39", "tagName": "path", "content": "", "fill": "rgb(0, 0, 204)", "isReferenceElement": false}, "path40": {"left": 160.42578125, "top": 114.20703125, "right": 164.41015625, "bottom": 118.19140625, "height": 3.984375, "width": 3.984375, "id": "path40", "tagName": "path", "content": "", "fill": "rgb(204, 0, 0)", "isReferenceElement": false}, "path41": {"left": 45.1328125, "top": 43.42188262939453, "right": 48.92578125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.79296875, "id": "path41", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path42": {"left": 52.0234375, "top": 43.42188262939453, "right": 55.8125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.7890625, "id": "path42", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "path43": {"left": 58.91015625, "top": 43.42188262939453, "right": 62.703125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.79296875, "id": "path43", "tagName": "path", "content": "", "fill": "none", "isReferenceElement": false}, "use16": {"left": 118.27850341796875, "top": 197.4058837890625, "right": 123.71600341796875, "bottom": 202.3590087890625, "height": 4.953125, "width": 5.4375, "id": "use16", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": true}, "use17": {"left": 0.2398681640625, "top": 96.03024291992188, "right": 7.3023681640625, "bottom": 101.06149291992188, "height": 5.03125, "width": 7.0625, "id": "use17", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": true}, "use18": {"left": 100.26162719726562, "top": 0.5418777465820312, "right": 106.96475219726562, "bottom": 7.995002746582031, "height": 7.453125, "width": 6.703125, "id": "use18", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use19": {"left": 107.910400390625, "top": 3.1043777465820312, "right": 112.738525390625, "bottom": 8.120002746582031, "height": 5.015625, "width": 4.828125, "id": "use19", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use20": {"left": 112.87200927734375, "top": 3.2918777465820312, "right": 118.37200927734375, "bottom": 7.995002746582031, "height": 4.703125, "width": 5.5, "id": "use20", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use21": {"left": 122.52346801757812, "top": 0.5418777465820312, "right": 128.96096801757812, "bottom": 7.995002746582031, "height": 7.453125, "width": 6.4375, "id": "use21", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use22": {"left": 129.93258666992188, "top": 0.43250274658203125, "right": 132.35446166992188, "bottom": 7.995002746582031, "height": 7.5625, "width": 2.421875, "id": "use22", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use23": {"left": 132.916259765625, "top": 3.1043777465820312, "right": 137.744384765625, "bottom": 8.120002746582031, "height": 5.015625, "width": 4.828125, "id": "use23", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}, "use24": {"left": 138.26141357421875, "top": 1.2918777465820312, "right": 141.68328857421875, "bottom": 8.120002746582031, "height": 6.828125, "width": 3.421875, "id": "use24", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": false}}, "groupedGraphicsElement": {"paths": [{"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path0", "tagName": "path", "content": "", "fill": "undefined"}, {"left": 0.421875, "top": -7.265625, "right": 5.015625, "bottom": 0.234375, "height": 7.5, "width": 4.59375, "id": "path1", "tagName": "path", "content": "", "fill": null}, {"left": 0.546875, "top": -7.265625, "right": 4.890625, "bottom": 0, "height": 7.265625, "width": 4.34375, "id": "path2", "tagName": "path", "content": "", "fill": null}, {"left": 0.3125, "top": -7.390625, "right": 5.140625, "bottom": 0, "height": 7.390625, "width": 4.828125, "id": "path3", "tagName": "path", "content": "", "fill": null}, {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path4", "tagName": "path", "content": "", "fill": null}, {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path5", "tagName": "path", "content": "", "fill": null}, {"left": 0.96875, "top": -7.265625, "right": 4.5625, "bottom": 0, "height": 7.265625, "width": 3.59375, "id": "path6", "tagName": "path", "content": "", "fill": null}, {"left": 0.453125, "top": -7.265625, "right": 4.984375, "bottom": 0.234375, "height": 7.5, "width": 4.53125, "id": "path7", "tagName": "path", "content": "", "fill": null}, {"left": 0.390625, "top": -7.453125, "right": 7.09375, "bottom": 0, "height": 7.453125, "width": 6.703125, "id": "path8", "tagName": "path", "content": "", "fill": null}, {"left": 0.3125, "top": -4.890625, "right": 5.140625, "bottom": 0.125, "height": 5.015625, "width": 4.828125, "id": "path9", "tagName": "path", "content": "", "fill": null}, {"left": 0.125, "top": -4.703125, "right": 5.625, "bottom": 0, "height": 4.703125, "width": 5.5, "id": "path10", "tagName": "path", "content": "", "fill": null}, {"left": 0.375, "top": -7.453125, "right": 6.8125, "bottom": 0, "height": 7.453125, "width": 6.4375, "id": "path11", "tagName": "path", "content": "", "fill": null}, {"left": 0.359375, "top": -7.5625, "right": 2.78125, "bottom": 0, "height": 7.5625, "width": 2.421875, "id": "path12", "tagName": "path", "content": "", "fill": null}, {"left": 0.203125, "top": -6.703125, "right": 3.625, "bottom": 0.125, "height": 6.828125, "width": 3.421875, "id": "path13", "tagName": "path", "content": "", "fill": null}, {"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path14", "tagName": "path", "content": "", "fill": null}, {"left": 0.3125, "top": -4.828125, "right": 5.75, "bottom": 0.125, "height": 4.953125, "width": 5.4375, "id": "path15", "tagName": "path", "content": "", "fill": null}, {"left": 0, "top": 0, "right": 0, "bottom": 0, "height": 0, "width": 0, "id": "path16", "tagName": "path", "content": "", "fill": null}, {"left": -4.828125, "top": -5.34375, "right": 2.234375, "bottom": -0.3125, "height": 5.03125, "width": 7.0625, "id": "path17", "tagName": "path", "content": "", "fill": null}, {"left": 38.41796875, "top": 17.8046875, "right": 210.640625, "bottom": 179.203125, "height": 161.3984375, "width": 172.22265625, "id": "path18", "tagName": "path", "content": "", "fill": "none"}, {"left": 23.94921875, "top": 45.41407012939453, "right": 218.21875, "bottom": 151.59375, "height": 106.17967987060547, "width": 194.26953125, "id": "path19", "tagName": "path", "content": "", "fill": "none"}, {"left": 23.94921875, "top": 17.8046875, "right": 218.21875, "bottom": 179.203125, "height": 161.3984375, "width": 194.26953125, "id": "path20", "tagName": "path", "content": "", "fill": "none"}, {"left": 81.47265625, "top": 140.26953125, "right": 102.140625, "bottom": 162.91796875, "height": 22.6484375, "width": 20.66796875, "id": "path21", "tagName": "path", "content": "", "fill": "none"}, {"left": 162.41796875, "top": 140.26953125, "right": 177.91796875, "bottom": 162.91796875, "height": 22.6484375, "width": 15.5, "id": "path22", "tagName": "path", "content": "", "fill": "none"}, {"left": 102.140625, "top": 137.4375, "right": 162.41796875, "bottom": 165.75, "height": 28.3125, "width": 60.27734375, "id": "path23", "tagName": "path", "content": "", "fill": "none"}, {"left": 150.36328125, "top": 137.4375, "right": 150.36328125, "bottom": 165.75, "height": 28.3125, "width": 0, "id": "path24", "tagName": "path", "content": "", "fill": "none"}, {"left": 59.0859375, "top": 104.875, "right": 67.6953125, "bottom": 127.52734375, "height": 22.65234375, "width": 8.609375, "id": "path25", "tagName": "path", "content": "", "fill": "none"}, {"left": 127.97265625, "top": 104.875, "right": 143.47265625, "bottom": 127.52734375, "height": 22.65234375, "width": 15.5, "id": "path26", "tagName": "path", "content": "", "fill": "none"}, {"left": 67.6953125, "top": 102.04296875, "right": 127.97265625, "bottom": 130.359375, "height": 28.31640625, "width": 60.27734375, "id": "path27", "tagName": "path", "content": "", "fill": "none"}, {"left": 81.47265625, "top": 102.04296875, "right": 81.47265625, "bottom": 130.359375, "height": 28.31640625, "width": 0, "id": "path28", "tagName": "path", "content": "", "fill": "none"}, {"left": 59.0859375, "top": 69.48046875, "right": 81.47265625, "bottom": 92.1328125, "height": 22.65234375, "width": 22.38671875, "id": "path29", "tagName": "path", "content": "", "fill": "none"}, {"left": 167.5859375, "top": 69.48046875, "right": 188.25, "bottom": 92.1328125, "height": 22.65234375, "width": 20.6640625, "id": "path30", "tagName": "path", "content": "", "fill": "none"}, {"left": 81.47265625, "top": 66.6484375, "right": 167.5859375, "bottom": 94.96484375, "height": 28.31640625, "width": 86.11328125, "id": "path31", "tagName": "path", "content": "", "fill": "none"}, {"left": 124.53125, "top": 66.6484375, "right": 124.53125, "bottom": 94.96484375, "height": 28.31640625, "width": 0, "id": "path32", "tagName": "path", "content": "", "fill": "none"}, {"left": 145.1953125, "top": 34.08984375, "right": 148.640625, "bottom": 56.73828887939453, "height": 22.64844512939453, "width": 3.4453125, "id": "path33", "tagName": "path", "content": "", "fill": "none"}, {"left": 162.41796875, "top": 34.08984375, "right": 177.91796875, "bottom": 56.73828887939453, "height": 22.64844512939453, "width": 15.5, "id": "path34", "tagName": "path", "content": "", "fill": "none"}, {"left": 148.640625, "top": 31.2578125, "right": 162.41796875, "bottom": 59.57032012939453, "height": 28.31250762939453, "width": 13.77734375, "id": "path35", "tagName": "path", "content": "", "fill": "none"}, {"left": 158.97265625, "top": 31.2578125, "right": 158.97265625, "bottom": 59.57032012939453, "height": 28.31250762939453, "width": 0, "id": "path36", "tagName": "path", "content": "", "fill": "none"}, {"left": 38.1484375, "top": 149.6015625, "right": 42.1328125, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path37", "tagName": "path", "content": "", "fill": "rgb(0%,0%,79.998779%)"}, {"left": 194.87109375, "top": 149.6015625, "right": 198.85546875, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path38", "tagName": "path", "content": "", "fill": "rgb(0%,0%,79.998779%)"}, {"left": 200.0390625, "top": 149.6015625, "right": 204.0234375, "bottom": 153.5859375, "height": 3.984375, "width": 3.984375, "id": "path39", "tagName": "path", "content": "", "fill": "rgb(0%,0%,79.998779%)"}, {"left": 160.42578125, "top": 114.20703125, "right": 164.41015625, "bottom": 118.19140625, "height": 3.984375, "width": 3.984375, "id": "path40", "tagName": "path", "content": "", "fill": "rgb(79.998779%,0%,0%)"}, {"left": 45.1328125, "top": 43.42188262939453, "right": 48.92578125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.79296875, "id": "path41", "tagName": "path", "content": "", "fill": "none"}, {"left": 52.0234375, "top": 43.42188262939453, "right": 55.8125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.7890625, "id": "path42", "tagName": "path", "content": "", "fill": "none"}, {"left": 58.91015625, "top": 43.42188262939453, "right": 62.703125, "bottom": 47.02735137939453, "height": 3.60546875, "width": 3.79296875, "id": "path43", "tagName": "path", "content": "", "fill": "none"}], "uses": [{"left": 36.11187744140625, "top": 182.8003692626953, "right": 40.70562744140625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use0", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)"}, {"left": 67.953857421875, "top": 182.8003692626953, "right": 72.297607421875, "bottom": 190.06597900390625, "height": 7.2656097412109375, "width": 4.34375, "id": "use1", "tagName": "use", "content": "", "fill": null}, {"left": 73.28341674804688, "top": 182.8003692626953, "right": 77.87716674804688, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use2", "tagName": "use", "content": "", "fill": null}, {"left": 102.16351318359375, "top": 182.6753692626953, "right": 106.99163818359375, "bottom": 190.06597900390625, "height": 7.3906097412109375, "width": 4.828125, "id": "use3", "tagName": "use", "content": "", "fill": null}, {"left": 107.7274169921875, "top": 182.8003692626953, "right": 112.3211669921875, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use4", "tagName": "use", "content": "", "fill": null}, {"left": 136.74810791015625, "top": 182.8003692626953, "right": 141.27935791015625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.53125, "id": "use5", "tagName": "use", "content": "", "fill": null}, {"left": 142.17144775390625, "top": 182.8003692626953, "right": 146.76519775390625, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use6", "tagName": "use", "content": "", "fill": null}, {"left": 171.193115234375, "top": 182.8003692626953, "right": 175.724365234375, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.53125, "id": "use7", "tagName": "use", "content": "", "fill": null}, {"left": 176.61642456054688, "top": 182.8003692626953, "right": 181.21017456054688, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use8", "tagName": "use", "content": "", "fill": null}, {"left": 203.42575073242188, "top": 182.8003692626953, "right": 207.01950073242188, "bottom": 190.06597900390625, "height": 7.2656097412109375, "width": 3.59375, "id": "use9", "tagName": "use", "content": "", "fill": null}, {"left": 208.33343505859375, "top": 182.8003692626953, "right": 212.92718505859375, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use10", "tagName": "use", "content": "", "fill": null}, {"left": 213.7879638671875, "top": 182.8003692626953, "right": 218.3817138671875, "bottom": 190.30035400390625, "height": 7.4999847412109375, "width": 4.59375, "id": "use11", "tagName": "use", "content": "", "fill": null}, {"left": 15.628753662109375, "top": 147.84336853027344, "right": 19.222503662109375, "bottom": 155.10899353027344, "height": 7.265625, "width": 3.59375, "id": "use12", "tagName": "use", "content": "", "fill": null}, {"left": 15.206878662109375, "top": 112.45037841796875, "right": 19.550628662109375, "bottom": 119.71600341796875, "height": 7.265625, "width": 4.34375, "id": "use13", "tagName": "use", "content": "", "fill": null}, {"left": 15.113128662109375, "top": 77.057373046875, "right": 19.644378662109375, "bottom": 84.557373046875, "height": 7.5, "width": 4.53125, "id": "use14", "tagName": "use", "content": "", "fill": null}, {"left": 14.972503662109375, "top": 41.53937530517578, "right": 19.800628662109375, "bottom": 48.93000030517578, "height": 7.390625, "width": 4.828125, "id": "use15", "tagName": "use", "content": "", "fill": null}, {"left": 118.27850341796875, "top": 197.4058837890625, "right": 123.71600341796875, "bottom": 202.3590087890625, "height": 4.953125, "width": 5.4375, "id": "use16", "tagName": "use", "content": "", "fill": null}, {"left": 0.2398681640625, "top": 96.03024291992188, "right": 7.3023681640625, "bottom": 101.06149291992188, "height": 5.03125, "width": 7.0625, "id": "use17", "tagName": "use", "content": "", "fill": null}, {"left": 100.26162719726562, "top": 0.5418777465820312, "right": 106.96475219726562, "bottom": 7.995002746582031, "height": 7.453125, "width": 6.703125, "id": "use18", "tagName": "use", "content": "", "fill": null}, {"left": 107.910400390625, "top": 3.1043777465820312, "right": 112.738525390625, "bottom": 8.120002746582031, "height": 5.015625, "width": 4.828125, "id": "use19", "tagName": "use", "content": "", "fill": null}, {"left": 112.87200927734375, "top": 3.2918777465820312, "right": 118.37200927734375, "bottom": 7.995002746582031, "height": 4.703125, "width": 5.5, "id": "use20", "tagName": "use", "content": "", "fill": null}, {"left": 122.52346801757812, "top": 0.5418777465820312, "right": 128.96096801757812, "bottom": 7.995002746582031, "height": 7.453125, "width": 6.4375, "id": "use21", "tagName": "use", "content": "", "fill": null}, {"left": 129.93258666992188, "top": 0.43250274658203125, "right": 132.35446166992188, "bottom": 7.995002746582031, "height": 7.5625, "width": 2.421875, "id": "use22", "tagName": "use", "content": "", "fill": null}, {"left": 132.916259765625, "top": 3.1043777465820312, "right": 137.744384765625, "bottom": 8.120002746582031, "height": 5.015625, "width": 4.828125, "id": "use23", "tagName": "use", "content": "", "fill": null}, {"left": 138.26141357421875, "top": 1.2918777465820312, "right": 141.68328857421875, "bottom": 8.120002746582031, "height": 6.828125, "width": 3.421875, "id": "use24", "tagName": "use", "content": "", "fill": null}]}, "chartTitle": ["use18", "use19", "use20", "use21", "use22", "use23", "use24"], "markInfo": {"path0": {"Type": "none", "Role": "none"}, "path1": {"Type": "none", "Role": "none"}, "path2": {"Type": "none", "Role": "none"}, "path3": {"Type": "none", "Role": "none"}, "path4": {"Type": "none", "Role": "none"}, "path5": {"Type": "none", "Role": "none"}, "path6": {"Type": "none", "Role": "none"}, "path7": {"Type": "none", "Role": "none"}, "path8": {"Type": "none", "Role": "none"}, "path9": {"Type": "none", "Role": "none"}, "path10": {"Type": "none", "Role": "none"}, "path11": {"Type": "none", "Role": "none"}, "path12": {"Type": "none", "Role": "none"}, "path13": {"Type": "none", "Role": "none"}, "path14": {"Type": "none", "Role": "none"}, "path15": {"Type": "none", "Role": "none"}, "path16": {"Type": "none", "Role": "none"}, "path17": {"Type": "none", "Role": "none"}, "path18": {"Type": "none", "Role": "none"}, "path19": {"Type": "none", "Role": "none"}, "path20": {"Type": "none", "Role": "none"}, "path21": {"Type": "Path", "Role": "Main Chart Mark"}, "path22": {"Type": "Path", "Role": "Main Chart Mark"}, "path23": {"Type": "Rectangle", "Role": "Main Chart Mark"}, "path24": {"Type": "Straight Line", "Role": "Main Chart Mark"}, "path25": {"Type": "Path", "Role": "Main Chart Mark"}, "path26": {"Type": "Path", "Role": "Main Chart Mark"}, "path27": {"Type": "Rectangle", "Role": "Main Chart Mark"}, "path28": {"Type": "Straight Line", "Role": "Main Chart Mark"}, "path29": {"Type": "Path", "Role": "Main Chart Mark"}, "path30": {"Type": "Path", "Role": "Main Chart Mark"}, "path31": {"Type": "Rectangle", "Role": "Main Chart Mark"}, "path32": {"Type": "Straight Line", "Role": "Main Chart Mark"}, "path33": {"Type": "Path", "Role": "Main Chart Mark"}, "path34": {"Type": "Path", "Role": "Main Chart Mark"}, "path35": {"Type": "Rectangle", "Role": "Main Chart Mark"}, "path36": {"Type": "Straight Line", "Role": "Main Chart Mark"}, "path37": {"Type": "Circle", "Role": "Main Chart Mark"}, "path38": {"Type": "Circle", "Role": "Main Chart Mark"}, "path39": {"Type": "Circle", "Role": "Main Chart Mark"}, "path40": {"Type": "Rectangle", "Role": "Main Chart Mark"}, "path41": {"Type": "Text", "Role": "Main Chart Mark"}, "path42": {"Type": "Text", "Role": "Main Chart Mark"}, "path43": {"Type": "Text", "Role": "Main Chart Mark"}, "use0": {"Type": "Text", "Role": "Axis 1 label"}, "use1": {"Type": "Text", "Role": "Axis 1 label"}, "use2": {"Type": "Text", "Role": "Axis 1 label"}, "use3": {"Type": "Text", "Role": "Axis 1 label"}, "use4": {"Type": "Text", "Role": "Axis 1 label"}, "use5": {"Type": "Text", "Role": "Axis 1 label"}, "use6": {"Type": "Text", "Role": "Axis 1 label"}, "use7": {"Type": "Text", "Role": "Axis 1 label"}, "use8": {"Type": "Text", "Role": "Axis 1 label"}, "use9": {"Type": "Text", "Role": "Axis 1 label"}, "use10": {"Type": "Text", "Role": "Axis 1 label"}, "use11": {"Type": "Text", "Role": "Axis 1 label"}, "use12": {"Type": "Text", "Role": "Axis 2 label"}, "use13": {"Type": "Text", "Role": "Axis 2 label"}, "use14": {"Type": "Text", "Role": "Axis 2 label"}, "use15": {"Type": "Text", "Role": "Axis 2 label"}, "use16": {"Type": "Text", "Role": "Axis 1 title"}, "use17": {"Type": "Text", "Role": "Axis 2 title"}, "use18": {"Type": "Text", "Role": "Chart Title"}, "use19": {"Type": "Text", "Role": "Chart Title"}, "use20": {"Type": "Text", "Role": "Chart Title"}, "use21": {"Type": "Text", "Role": "Chart Title"}, "use22": {"Type": "Text", "Role": "Chart Title"}, "use23": {"Type": "Text", "Role": "Chart Title"}, "use24": {"Type": "Text", "Role": "Chart Title"}}, "groupInfo": [["path33", "path34", "path35", "path36"], ["path29", "path30", "path31", "path32"], ["path25", "path26", "path27", "path28"], ["path21", "path22", "path23", "path24"], ["path38", "path39", "path40", "path41", "path42", "path43", "path37"]], "nestedGrouping": [[4, [0, 1, 2, 3]]], "layoutInfo": {"0": {"type": "Glyph", "params": {"orientation": "", "horiAlignment": "", "vertAlignment": ""}}, "1": {"type": "Glyph", "params": {"orientation": "", "horiAlignment": "", "vertAlignment": ""}}, "2": {"type": "Glyph", "params": {"orientation": "", "horiAlignment": "", "vertAlignment": ""}}, "3": {"type": "Glyph", "params": {"orientation": "", "horiAlignment": "", "vertAlignment": ""}}}, "encodingInfo": {"path38": ["x", "y", "shape"], "path39": ["x", "y", "shape"], "path37": ["x", "y", "shape"], "path35": ["left", "right"], "path31": ["left", "right"], "path27": ["left", "right"], "path23": ["left", "right"], "path40": ["left", "right"], "path36": ["x"], "path32": ["x"], "path28": ["x"], "path24": ["x"], "path33": ["vertices"], "path41": ["x", "y"], "path42": ["x", "y"], "path43": ["x", "y"], "path34": ["vertices"], "path29": ["vertices"], "path30": ["vertices"], "path25": ["vertices"], "path26": ["vertices"], "path21": ["vertices"], "path22": ["vertices"]}, "textObjectLinking": {}, "referenceElement": {"xGridlines": [], "yGridlines": [], "axes": {"1": {"labels": [], "fieldType": "number", "title": [{"left": 118.27850341796875, "top": 197.4058837890625, "right": 123.71600341796875, "bottom": 202.3590087890625, "height": 4.953125, "width": 5.4375, "id": "use16", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": true}], "ticks": [], "type": "x", "label": ["use11", "use0", "use1", "use2", "use3", "use4", "use5", "use6", "use7", "use8", "use9", "use10"]}, "2": {"labels": [], "fieldType": "number", "title": [{"left": 0.2398681640625, "top": 96.03024291992188, "right": 7.3023681640625, "bottom": 101.06149291992188, "height": 5.03125, "width": 7.0625, "id": "use17", "tagName": "use", "content": "", "fill": "rgb(0, 0, 0)", "isReferenceElement": true}], "ticks": [], "type": "y", "label": ["use15", "use12", "use13", "use14"]}}, "legend": {"labels": [], "marks": [], "mapping": {}, "title": [], "ticks": []}}}}
+{
+    "chart": "BoxAndWhisker18",
+    "annotations": {
+        "allGraphicsElement": {
+            "path0": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "height": 0,
+                "width": 0,
+                "id": "path0",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path1": {
+                "left": 0.421875,
+                "top": -7.265625,
+                "right": 5.015625,
+                "bottom": 0.234375,
+                "height": 7.5,
+                "width": 4.59375,
+                "id": "path1",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path2": {
+                "left": 0.546875,
+                "top": -7.265625,
+                "right": 4.890625,
+                "bottom": 0,
+                "height": 7.265625,
+                "width": 4.34375,
+                "id": "path2",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path3": {
+                "left": 0.3125,
+                "top": -7.390625,
+                "right": 5.140625,
+                "bottom": 0,
+                "height": 7.390625,
+                "width": 4.828125,
+                "id": "path3",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path4": {
+                "left": 0.453125,
+                "top": -7.265625,
+                "right": 4.984375,
+                "bottom": 0.234375,
+                "height": 7.5,
+                "width": 4.53125,
+                "id": "path4",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path5": {
+                "left": 0.453125,
+                "top": -7.265625,
+                "right": 4.984375,
+                "bottom": 0.234375,
+                "height": 7.5,
+                "width": 4.53125,
+                "id": "path5",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path6": {
+                "left": 0.96875,
+                "top": -7.265625,
+                "right": 4.5625,
+                "bottom": 0,
+                "height": 7.265625,
+                "width": 3.59375,
+                "id": "path6",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path7": {
+                "left": 0.453125,
+                "top": -7.265625,
+                "right": 4.984375,
+                "bottom": 0.234375,
+                "height": 7.5,
+                "width": 4.53125,
+                "id": "path7",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path8": {
+                "left": 0.390625,
+                "top": -7.453125,
+                "right": 7.09375,
+                "bottom": 0,
+                "height": 7.453125,
+                "width": 6.703125,
+                "id": "path8",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path9": {
+                "left": 0.3125,
+                "top": -4.890625,
+                "right": 5.140625,
+                "bottom": 0.125,
+                "height": 5.015625,
+                "width": 4.828125,
+                "id": "path9",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path10": {
+                "left": 0.125,
+                "top": -4.703125,
+                "right": 5.625,
+                "bottom": 0,
+                "height": 4.703125,
+                "width": 5.5,
+                "id": "path10",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path11": {
+                "left": 0.375,
+                "top": -7.453125,
+                "right": 6.8125,
+                "bottom": 0,
+                "height": 7.453125,
+                "width": 6.4375,
+                "id": "path11",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path12": {
+                "left": 0.359375,
+                "top": -7.5625,
+                "right": 2.78125,
+                "bottom": 0,
+                "height": 7.5625,
+                "width": 2.421875,
+                "id": "path12",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path13": {
+                "left": 0.203125,
+                "top": -6.703125,
+                "right": 3.625,
+                "bottom": 0.125,
+                "height": 6.828125,
+                "width": 3.421875,
+                "id": "path13",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path14": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "height": 0,
+                "width": 0,
+                "id": "path14",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path15": {
+                "left": 0.3125,
+                "top": -4.828125,
+                "right": 5.75,
+                "bottom": 0.125,
+                "height": 4.953125,
+                "width": 5.4375,
+                "id": "path15",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path16": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "height": 0,
+                "width": 0,
+                "id": "path16",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path17": {
+                "left": -4.828125,
+                "top": -5.34375,
+                "right": 2.234375,
+                "bottom": -0.3125,
+                "height": 5.03125,
+                "width": 7.0625,
+                "id": "path17",
+                "tagName": "path",
+                "content": "",
+                "fill": "undefined",
+                "isReferenceElement": false
+            },
+            "path18": {
+                "left": 38.41796875,
+                "top": 17.8046875,
+                "right": 210.640625,
+                "bottom": 179.203125,
+                "height": 161.3984375,
+                "width": 172.22265625,
+                "id": "path18",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path19": {
+                "left": 23.94921875,
+                "top": 45.41407012939453,
+                "right": 218.21875,
+                "bottom": 151.59375,
+                "height": 106.17967987060547,
+                "width": 194.26953125,
+                "id": "path19",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path20": {
+                "left": 23.94921875,
+                "top": 17.8046875,
+                "right": 218.21875,
+                "bottom": 179.203125,
+                "height": 161.3984375,
+                "width": 194.26953125,
+                "id": "path20",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "use0": {
+                "left": 36.11187744140625,
+                "top": 182.8003692626953,
+                "right": 40.70562744140625,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use0",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use1": {
+                "left": 67.953857421875,
+                "top": 182.8003692626953,
+                "right": 72.297607421875,
+                "bottom": 190.06597900390625,
+                "height": 7.2656097412109375,
+                "width": 4.34375,
+                "id": "use1",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use2": {
+                "left": 73.28341674804688,
+                "top": 182.8003692626953,
+                "right": 77.87716674804688,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use2",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use3": {
+                "left": 102.16351318359375,
+                "top": 182.6753692626953,
+                "right": 106.99163818359375,
+                "bottom": 190.06597900390625,
+                "height": 7.3906097412109375,
+                "width": 4.828125,
+                "id": "use3",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use4": {
+                "left": 107.7274169921875,
+                "top": 182.8003692626953,
+                "right": 112.3211669921875,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use4",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use5": {
+                "left": 136.74810791015625,
+                "top": 182.8003692626953,
+                "right": 141.27935791015625,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.53125,
+                "id": "use5",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use6": {
+                "left": 142.17144775390625,
+                "top": 182.8003692626953,
+                "right": 146.76519775390625,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use6",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use7": {
+                "left": 171.193115234375,
+                "top": 182.8003692626953,
+                "right": 175.724365234375,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.53125,
+                "id": "use7",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use8": {
+                "left": 176.61642456054688,
+                "top": 182.8003692626953,
+                "right": 181.21017456054688,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use8",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use9": {
+                "left": 203.42575073242188,
+                "top": 182.8003692626953,
+                "right": 207.01950073242188,
+                "bottom": 190.06597900390625,
+                "height": 7.2656097412109375,
+                "width": 3.59375,
+                "id": "use9",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use10": {
+                "left": 208.33343505859375,
+                "top": 182.8003692626953,
+                "right": 212.92718505859375,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use10",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use11": {
+                "left": 213.7879638671875,
+                "top": 182.8003692626953,
+                "right": 218.3817138671875,
+                "bottom": 190.30035400390625,
+                "height": 7.4999847412109375,
+                "width": 4.59375,
+                "id": "use11",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use12": {
+                "left": 15.628753662109375,
+                "top": 147.84336853027344,
+                "right": 19.222503662109375,
+                "bottom": 155.10899353027344,
+                "height": 7.265625,
+                "width": 3.59375,
+                "id": "use12",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use13": {
+                "left": 15.206878662109375,
+                "top": 112.45037841796875,
+                "right": 19.550628662109375,
+                "bottom": 119.71600341796875,
+                "height": 7.265625,
+                "width": 4.34375,
+                "id": "use13",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use14": {
+                "left": 15.113128662109375,
+                "top": 77.057373046875,
+                "right": 19.644378662109375,
+                "bottom": 84.557373046875,
+                "height": 7.5,
+                "width": 4.53125,
+                "id": "use14",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use15": {
+                "left": 14.972503662109375,
+                "top": 41.53937530517578,
+                "right": 19.800628662109375,
+                "bottom": 48.93000030517578,
+                "height": 7.390625,
+                "width": 4.828125,
+                "id": "use15",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "path21": {
+                "left": 81.47265625,
+                "top": 140.26953125,
+                "right": 102.140625,
+                "bottom": 162.91796875,
+                "height": 22.6484375,
+                "width": 20.66796875,
+                "id": "path21",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path22": {
+                "left": 162.41796875,
+                "top": 140.26953125,
+                "right": 177.91796875,
+                "bottom": 162.91796875,
+                "height": 22.6484375,
+                "width": 15.5,
+                "id": "path22",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path23": {
+                "left": 102.140625,
+                "top": 137.4375,
+                "right": 162.41796875,
+                "bottom": 165.75,
+                "height": 28.3125,
+                "width": 60.27734375,
+                "id": "path23",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path24": {
+                "left": 150.36328125,
+                "top": 137.4375,
+                "right": 150.36328125,
+                "bottom": 165.75,
+                "height": 28.3125,
+                "width": 0,
+                "id": "path24",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path25": {
+                "left": 59.0859375,
+                "top": 104.875,
+                "right": 67.6953125,
+                "bottom": 127.52734375,
+                "height": 22.65234375,
+                "width": 8.609375,
+                "id": "path25",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path26": {
+                "left": 127.97265625,
+                "top": 104.875,
+                "right": 143.47265625,
+                "bottom": 127.52734375,
+                "height": 22.65234375,
+                "width": 15.5,
+                "id": "path26",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path27": {
+                "left": 67.6953125,
+                "top": 102.04296875,
+                "right": 127.97265625,
+                "bottom": 130.359375,
+                "height": 28.31640625,
+                "width": 60.27734375,
+                "id": "path27",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path28": {
+                "left": 81.47265625,
+                "top": 102.04296875,
+                "right": 81.47265625,
+                "bottom": 130.359375,
+                "height": 28.31640625,
+                "width": 0,
+                "id": "path28",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path29": {
+                "left": 59.0859375,
+                "top": 69.48046875,
+                "right": 81.47265625,
+                "bottom": 92.1328125,
+                "height": 22.65234375,
+                "width": 22.38671875,
+                "id": "path29",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path30": {
+                "left": 167.5859375,
+                "top": 69.48046875,
+                "right": 188.25,
+                "bottom": 92.1328125,
+                "height": 22.65234375,
+                "width": 20.6640625,
+                "id": "path30",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path31": {
+                "left": 81.47265625,
+                "top": 66.6484375,
+                "right": 167.5859375,
+                "bottom": 94.96484375,
+                "height": 28.31640625,
+                "width": 86.11328125,
+                "id": "path31",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path32": {
+                "left": 124.53125,
+                "top": 66.6484375,
+                "right": 124.53125,
+                "bottom": 94.96484375,
+                "height": 28.31640625,
+                "width": 0,
+                "id": "path32",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path33": {
+                "left": 145.1953125,
+                "top": 34.08984375,
+                "right": 148.640625,
+                "bottom": 56.73828887939453,
+                "height": 22.64844512939453,
+                "width": 3.4453125,
+                "id": "path33",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path34": {
+                "left": 162.41796875,
+                "top": 34.08984375,
+                "right": 177.91796875,
+                "bottom": 56.73828887939453,
+                "height": 22.64844512939453,
+                "width": 15.5,
+                "id": "path34",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path35": {
+                "left": 148.640625,
+                "top": 31.2578125,
+                "right": 162.41796875,
+                "bottom": 59.57032012939453,
+                "height": 28.31250762939453,
+                "width": 13.77734375,
+                "id": "path35",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path36": {
+                "left": 158.97265625,
+                "top": 31.2578125,
+                "right": 158.97265625,
+                "bottom": 59.57032012939453,
+                "height": 28.31250762939453,
+                "width": 0,
+                "id": "path36",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path37": {
+                "left": 38.1484375,
+                "top": 149.6015625,
+                "right": 42.1328125,
+                "bottom": 153.5859375,
+                "height": 3.984375,
+                "width": 3.984375,
+                "id": "path37",
+                "tagName": "path",
+                "content": "",
+                "fill": "rgb(0, 0, 204)",
+                "isReferenceElement": false
+            },
+            "path38": {
+                "left": 194.87109375,
+                "top": 149.6015625,
+                "right": 198.85546875,
+                "bottom": 153.5859375,
+                "height": 3.984375,
+                "width": 3.984375,
+                "id": "path38",
+                "tagName": "path",
+                "content": "",
+                "fill": "rgb(0, 0, 204)",
+                "isReferenceElement": false
+            },
+            "path39": {
+                "left": 200.0390625,
+                "top": 149.6015625,
+                "right": 204.0234375,
+                "bottom": 153.5859375,
+                "height": 3.984375,
+                "width": 3.984375,
+                "id": "path39",
+                "tagName": "path",
+                "content": "",
+                "fill": "rgb(0, 0, 204)",
+                "isReferenceElement": false
+            },
+            "path40": {
+                "left": 160.42578125,
+                "top": 114.20703125,
+                "right": 164.41015625,
+                "bottom": 118.19140625,
+                "height": 3.984375,
+                "width": 3.984375,
+                "id": "path40",
+                "tagName": "path",
+                "content": "",
+                "fill": "rgb(204, 0, 0)",
+                "isReferenceElement": false
+            },
+            "path41": {
+                "left": 45.1328125,
+                "top": 43.42188262939453,
+                "right": 48.92578125,
+                "bottom": 47.02735137939453,
+                "height": 3.60546875,
+                "width": 3.79296875,
+                "id": "path41",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path42": {
+                "left": 52.0234375,
+                "top": 43.42188262939453,
+                "right": 55.8125,
+                "bottom": 47.02735137939453,
+                "height": 3.60546875,
+                "width": 3.7890625,
+                "id": "path42",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "path43": {
+                "left": 58.91015625,
+                "top": 43.42188262939453,
+                "right": 62.703125,
+                "bottom": 47.02735137939453,
+                "height": 3.60546875,
+                "width": 3.79296875,
+                "id": "path43",
+                "tagName": "path",
+                "content": "",
+                "fill": "none",
+                "isReferenceElement": false
+            },
+            "use16": {
+                "left": 118.27850341796875,
+                "top": 197.4058837890625,
+                "right": 123.71600341796875,
+                "bottom": 202.3590087890625,
+                "height": 4.953125,
+                "width": 5.4375,
+                "id": "use16",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": true
+            },
+            "use17": {
+                "left": 0.2398681640625,
+                "top": 96.03024291992188,
+                "right": 7.3023681640625,
+                "bottom": 101.06149291992188,
+                "height": 5.03125,
+                "width": 7.0625,
+                "id": "use17",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": true
+            },
+            "use18": {
+                "left": 100.26162719726562,
+                "top": 0.5418777465820312,
+                "right": 106.96475219726562,
+                "bottom": 7.995002746582031,
+                "height": 7.453125,
+                "width": 6.703125,
+                "id": "use18",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use19": {
+                "left": 107.910400390625,
+                "top": 3.1043777465820312,
+                "right": 112.738525390625,
+                "bottom": 8.120002746582031,
+                "height": 5.015625,
+                "width": 4.828125,
+                "id": "use19",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use20": {
+                "left": 112.87200927734375,
+                "top": 3.2918777465820312,
+                "right": 118.37200927734375,
+                "bottom": 7.995002746582031,
+                "height": 4.703125,
+                "width": 5.5,
+                "id": "use20",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use21": {
+                "left": 122.52346801757812,
+                "top": 0.5418777465820312,
+                "right": 128.96096801757812,
+                "bottom": 7.995002746582031,
+                "height": 7.453125,
+                "width": 6.4375,
+                "id": "use21",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use22": {
+                "left": 129.93258666992188,
+                "top": 0.43250274658203125,
+                "right": 132.35446166992188,
+                "bottom": 7.995002746582031,
+                "height": 7.5625,
+                "width": 2.421875,
+                "id": "use22",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use23": {
+                "left": 132.916259765625,
+                "top": 3.1043777465820312,
+                "right": 137.744384765625,
+                "bottom": 8.120002746582031,
+                "height": 5.015625,
+                "width": 4.828125,
+                "id": "use23",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            },
+            "use24": {
+                "left": 138.26141357421875,
+                "top": 1.2918777465820312,
+                "right": 141.68328857421875,
+                "bottom": 8.120002746582031,
+                "height": 6.828125,
+                "width": 3.421875,
+                "id": "use24",
+                "tagName": "use",
+                "content": "",
+                "fill": "rgb(0, 0, 0)",
+                "isReferenceElement": false
+            }
+        },
+        "groupedGraphicsElement": {
+            "paths": [
+                {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "height": 0,
+                    "width": 0,
+                    "id": "path0",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "undefined"
+                },
+                {
+                    "left": 0.421875,
+                    "top": -7.265625,
+                    "right": 5.015625,
+                    "bottom": 0.234375,
+                    "height": 7.5,
+                    "width": 4.59375,
+                    "id": "path1",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.546875,
+                    "top": -7.265625,
+                    "right": 4.890625,
+                    "bottom": 0,
+                    "height": 7.265625,
+                    "width": 4.34375,
+                    "id": "path2",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.3125,
+                    "top": -7.390625,
+                    "right": 5.140625,
+                    "bottom": 0,
+                    "height": 7.390625,
+                    "width": 4.828125,
+                    "id": "path3",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.453125,
+                    "top": -7.265625,
+                    "right": 4.984375,
+                    "bottom": 0.234375,
+                    "height": 7.5,
+                    "width": 4.53125,
+                    "id": "path4",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.453125,
+                    "top": -7.265625,
+                    "right": 4.984375,
+                    "bottom": 0.234375,
+                    "height": 7.5,
+                    "width": 4.53125,
+                    "id": "path5",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.96875,
+                    "top": -7.265625,
+                    "right": 4.5625,
+                    "bottom": 0,
+                    "height": 7.265625,
+                    "width": 3.59375,
+                    "id": "path6",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.453125,
+                    "top": -7.265625,
+                    "right": 4.984375,
+                    "bottom": 0.234375,
+                    "height": 7.5,
+                    "width": 4.53125,
+                    "id": "path7",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.390625,
+                    "top": -7.453125,
+                    "right": 7.09375,
+                    "bottom": 0,
+                    "height": 7.453125,
+                    "width": 6.703125,
+                    "id": "path8",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.3125,
+                    "top": -4.890625,
+                    "right": 5.140625,
+                    "bottom": 0.125,
+                    "height": 5.015625,
+                    "width": 4.828125,
+                    "id": "path9",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.125,
+                    "top": -4.703125,
+                    "right": 5.625,
+                    "bottom": 0,
+                    "height": 4.703125,
+                    "width": 5.5,
+                    "id": "path10",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.375,
+                    "top": -7.453125,
+                    "right": 6.8125,
+                    "bottom": 0,
+                    "height": 7.453125,
+                    "width": 6.4375,
+                    "id": "path11",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.359375,
+                    "top": -7.5625,
+                    "right": 2.78125,
+                    "bottom": 0,
+                    "height": 7.5625,
+                    "width": 2.421875,
+                    "id": "path12",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.203125,
+                    "top": -6.703125,
+                    "right": 3.625,
+                    "bottom": 0.125,
+                    "height": 6.828125,
+                    "width": 3.421875,
+                    "id": "path13",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "height": 0,
+                    "width": 0,
+                    "id": "path14",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.3125,
+                    "top": -4.828125,
+                    "right": 5.75,
+                    "bottom": 0.125,
+                    "height": 4.953125,
+                    "width": 5.4375,
+                    "id": "path15",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "height": 0,
+                    "width": 0,
+                    "id": "path16",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": -4.828125,
+                    "top": -5.34375,
+                    "right": 2.234375,
+                    "bottom": -0.3125,
+                    "height": 5.03125,
+                    "width": 7.0625,
+                    "id": "path17",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 38.41796875,
+                    "top": 17.8046875,
+                    "right": 210.640625,
+                    "bottom": 179.203125,
+                    "height": 161.3984375,
+                    "width": 172.22265625,
+                    "id": "path18",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 23.94921875,
+                    "top": 45.41407012939453,
+                    "right": 218.21875,
+                    "bottom": 151.59375,
+                    "height": 106.17967987060547,
+                    "width": 194.26953125,
+                    "id": "path19",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 23.94921875,
+                    "top": 17.8046875,
+                    "right": 218.21875,
+                    "bottom": 179.203125,
+                    "height": 161.3984375,
+                    "width": 194.26953125,
+                    "id": "path20",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 81.47265625,
+                    "top": 140.26953125,
+                    "right": 102.140625,
+                    "bottom": 162.91796875,
+                    "height": 22.6484375,
+                    "width": 20.66796875,
+                    "id": "path21",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 162.41796875,
+                    "top": 140.26953125,
+                    "right": 177.91796875,
+                    "bottom": 162.91796875,
+                    "height": 22.6484375,
+                    "width": 15.5,
+                    "id": "path22",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 102.140625,
+                    "top": 137.4375,
+                    "right": 162.41796875,
+                    "bottom": 165.75,
+                    "height": 28.3125,
+                    "width": 60.27734375,
+                    "id": "path23",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 150.36328125,
+                    "top": 137.4375,
+                    "right": 150.36328125,
+                    "bottom": 165.75,
+                    "height": 28.3125,
+                    "width": 0,
+                    "id": "path24",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 59.0859375,
+                    "top": 104.875,
+                    "right": 67.6953125,
+                    "bottom": 127.52734375,
+                    "height": 22.65234375,
+                    "width": 8.609375,
+                    "id": "path25",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 127.97265625,
+                    "top": 104.875,
+                    "right": 143.47265625,
+                    "bottom": 127.52734375,
+                    "height": 22.65234375,
+                    "width": 15.5,
+                    "id": "path26",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 67.6953125,
+                    "top": 102.04296875,
+                    "right": 127.97265625,
+                    "bottom": 130.359375,
+                    "height": 28.31640625,
+                    "width": 60.27734375,
+                    "id": "path27",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 81.47265625,
+                    "top": 102.04296875,
+                    "right": 81.47265625,
+                    "bottom": 130.359375,
+                    "height": 28.31640625,
+                    "width": 0,
+                    "id": "path28",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 59.0859375,
+                    "top": 69.48046875,
+                    "right": 81.47265625,
+                    "bottom": 92.1328125,
+                    "height": 22.65234375,
+                    "width": 22.38671875,
+                    "id": "path29",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 167.5859375,
+                    "top": 69.48046875,
+                    "right": 188.25,
+                    "bottom": 92.1328125,
+                    "height": 22.65234375,
+                    "width": 20.6640625,
+                    "id": "path30",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 81.47265625,
+                    "top": 66.6484375,
+                    "right": 167.5859375,
+                    "bottom": 94.96484375,
+                    "height": 28.31640625,
+                    "width": 86.11328125,
+                    "id": "path31",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 124.53125,
+                    "top": 66.6484375,
+                    "right": 124.53125,
+                    "bottom": 94.96484375,
+                    "height": 28.31640625,
+                    "width": 0,
+                    "id": "path32",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 145.1953125,
+                    "top": 34.08984375,
+                    "right": 148.640625,
+                    "bottom": 56.73828887939453,
+                    "height": 22.64844512939453,
+                    "width": 3.4453125,
+                    "id": "path33",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 162.41796875,
+                    "top": 34.08984375,
+                    "right": 177.91796875,
+                    "bottom": 56.73828887939453,
+                    "height": 22.64844512939453,
+                    "width": 15.5,
+                    "id": "path34",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 148.640625,
+                    "top": 31.2578125,
+                    "right": 162.41796875,
+                    "bottom": 59.57032012939453,
+                    "height": 28.31250762939453,
+                    "width": 13.77734375,
+                    "id": "path35",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 158.97265625,
+                    "top": 31.2578125,
+                    "right": 158.97265625,
+                    "bottom": 59.57032012939453,
+                    "height": 28.31250762939453,
+                    "width": 0,
+                    "id": "path36",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 38.1484375,
+                    "top": 149.6015625,
+                    "right": 42.1328125,
+                    "bottom": 153.5859375,
+                    "height": 3.984375,
+                    "width": 3.984375,
+                    "id": "path37",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "rgb(0%,0%,79.998779%)"
+                },
+                {
+                    "left": 194.87109375,
+                    "top": 149.6015625,
+                    "right": 198.85546875,
+                    "bottom": 153.5859375,
+                    "height": 3.984375,
+                    "width": 3.984375,
+                    "id": "path38",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "rgb(0%,0%,79.998779%)"
+                },
+                {
+                    "left": 200.0390625,
+                    "top": 149.6015625,
+                    "right": 204.0234375,
+                    "bottom": 153.5859375,
+                    "height": 3.984375,
+                    "width": 3.984375,
+                    "id": "path39",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "rgb(0%,0%,79.998779%)"
+                },
+                {
+                    "left": 160.42578125,
+                    "top": 114.20703125,
+                    "right": 164.41015625,
+                    "bottom": 118.19140625,
+                    "height": 3.984375,
+                    "width": 3.984375,
+                    "id": "path40",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "rgb(79.998779%,0%,0%)"
+                },
+                {
+                    "left": 45.1328125,
+                    "top": 43.42188262939453,
+                    "right": 48.92578125,
+                    "bottom": 47.02735137939453,
+                    "height": 3.60546875,
+                    "width": 3.79296875,
+                    "id": "path41",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 52.0234375,
+                    "top": 43.42188262939453,
+                    "right": 55.8125,
+                    "bottom": 47.02735137939453,
+                    "height": 3.60546875,
+                    "width": 3.7890625,
+                    "id": "path42",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                },
+                {
+                    "left": 58.91015625,
+                    "top": 43.42188262939453,
+                    "right": 62.703125,
+                    "bottom": 47.02735137939453,
+                    "height": 3.60546875,
+                    "width": 3.79296875,
+                    "id": "path43",
+                    "tagName": "path",
+                    "content": "",
+                    "fill": "none"
+                }
+            ],
+            "uses": [
+                {
+                    "left": 36.11187744140625,
+                    "top": 182.8003692626953,
+                    "right": 40.70562744140625,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use0",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": "rgb(0, 0, 0)"
+                },
+                {
+                    "left": 67.953857421875,
+                    "top": 182.8003692626953,
+                    "right": 72.297607421875,
+                    "bottom": 190.06597900390625,
+                    "height": 7.2656097412109375,
+                    "width": 4.34375,
+                    "id": "use1",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 73.28341674804688,
+                    "top": 182.8003692626953,
+                    "right": 77.87716674804688,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use2",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 102.16351318359375,
+                    "top": 182.6753692626953,
+                    "right": 106.99163818359375,
+                    "bottom": 190.06597900390625,
+                    "height": 7.3906097412109375,
+                    "width": 4.828125,
+                    "id": "use3",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 107.7274169921875,
+                    "top": 182.8003692626953,
+                    "right": 112.3211669921875,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use4",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 136.74810791015625,
+                    "top": 182.8003692626953,
+                    "right": 141.27935791015625,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.53125,
+                    "id": "use5",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 142.17144775390625,
+                    "top": 182.8003692626953,
+                    "right": 146.76519775390625,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use6",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 171.193115234375,
+                    "top": 182.8003692626953,
+                    "right": 175.724365234375,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.53125,
+                    "id": "use7",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 176.61642456054688,
+                    "top": 182.8003692626953,
+                    "right": 181.21017456054688,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use8",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 203.42575073242188,
+                    "top": 182.8003692626953,
+                    "right": 207.01950073242188,
+                    "bottom": 190.06597900390625,
+                    "height": 7.2656097412109375,
+                    "width": 3.59375,
+                    "id": "use9",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 208.33343505859375,
+                    "top": 182.8003692626953,
+                    "right": 212.92718505859375,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use10",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 213.7879638671875,
+                    "top": 182.8003692626953,
+                    "right": 218.3817138671875,
+                    "bottom": 190.30035400390625,
+                    "height": 7.4999847412109375,
+                    "width": 4.59375,
+                    "id": "use11",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 15.628753662109375,
+                    "top": 147.84336853027344,
+                    "right": 19.222503662109375,
+                    "bottom": 155.10899353027344,
+                    "height": 7.265625,
+                    "width": 3.59375,
+                    "id": "use12",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 15.206878662109375,
+                    "top": 112.45037841796875,
+                    "right": 19.550628662109375,
+                    "bottom": 119.71600341796875,
+                    "height": 7.265625,
+                    "width": 4.34375,
+                    "id": "use13",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 15.113128662109375,
+                    "top": 77.057373046875,
+                    "right": 19.644378662109375,
+                    "bottom": 84.557373046875,
+                    "height": 7.5,
+                    "width": 4.53125,
+                    "id": "use14",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 14.972503662109375,
+                    "top": 41.53937530517578,
+                    "right": 19.800628662109375,
+                    "bottom": 48.93000030517578,
+                    "height": 7.390625,
+                    "width": 4.828125,
+                    "id": "use15",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 118.27850341796875,
+                    "top": 197.4058837890625,
+                    "right": 123.71600341796875,
+                    "bottom": 202.3590087890625,
+                    "height": 4.953125,
+                    "width": 5.4375,
+                    "id": "use16",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 0.2398681640625,
+                    "top": 96.03024291992188,
+                    "right": 7.3023681640625,
+                    "bottom": 101.06149291992188,
+                    "height": 5.03125,
+                    "width": 7.0625,
+                    "id": "use17",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 100.26162719726562,
+                    "top": 0.5418777465820312,
+                    "right": 106.96475219726562,
+                    "bottom": 7.995002746582031,
+                    "height": 7.453125,
+                    "width": 6.703125,
+                    "id": "use18",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 107.910400390625,
+                    "top": 3.1043777465820312,
+                    "right": 112.738525390625,
+                    "bottom": 8.120002746582031,
+                    "height": 5.015625,
+                    "width": 4.828125,
+                    "id": "use19",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 112.87200927734375,
+                    "top": 3.2918777465820312,
+                    "right": 118.37200927734375,
+                    "bottom": 7.995002746582031,
+                    "height": 4.703125,
+                    "width": 5.5,
+                    "id": "use20",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 122.52346801757812,
+                    "top": 0.5418777465820312,
+                    "right": 128.96096801757812,
+                    "bottom": 7.995002746582031,
+                    "height": 7.453125,
+                    "width": 6.4375,
+                    "id": "use21",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 129.93258666992188,
+                    "top": 0.43250274658203125,
+                    "right": 132.35446166992188,
+                    "bottom": 7.995002746582031,
+                    "height": 7.5625,
+                    "width": 2.421875,
+                    "id": "use22",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 132.916259765625,
+                    "top": 3.1043777465820312,
+                    "right": 137.744384765625,
+                    "bottom": 8.120002746582031,
+                    "height": 5.015625,
+                    "width": 4.828125,
+                    "id": "use23",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                },
+                {
+                    "left": 138.26141357421875,
+                    "top": 1.2918777465820312,
+                    "right": 141.68328857421875,
+                    "bottom": 8.120002746582031,
+                    "height": 6.828125,
+                    "width": 3.421875,
+                    "id": "use24",
+                    "tagName": "use",
+                    "content": "",
+                    "fill": null
+                }
+            ]
+        },
+        "chartTitle": [
+            "use18",
+            "use19",
+            "use20",
+            "use21",
+            "use22",
+            "use23",
+            "use24"
+        ],
+        "markInfo": {
+            "path0": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path1": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path2": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path3": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path4": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path5": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path6": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path7": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path8": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path9": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path10": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path11": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path12": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path13": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path14": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path15": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path16": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path17": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path18": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path19": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path20": {
+                "Type": "none",
+                "Role": "none"
+            },
+            "path21": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path22": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path23": {
+                "Type": "Rectangle",
+                "Role": "Main Chart Mark"
+            },
+            "path24": {
+                "Type": "Straight Line",
+                "Role": "Main Chart Mark"
+            },
+            "path25": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path26": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path27": {
+                "Type": "Rectangle",
+                "Role": "Main Chart Mark"
+            },
+            "path28": {
+                "Type": "Straight Line",
+                "Role": "Main Chart Mark"
+            },
+            "path29": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path30": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path31": {
+                "Type": "Rectangle",
+                "Role": "Main Chart Mark"
+            },
+            "path32": {
+                "Type": "Straight Line",
+                "Role": "Main Chart Mark"
+            },
+            "path33": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path34": {
+                "Type": "Path",
+                "Role": "Main Chart Mark"
+            },
+            "path35": {
+                "Type": "Rectangle",
+                "Role": "Main Chart Mark"
+            },
+            "path36": {
+                "Type": "Straight Line",
+                "Role": "Main Chart Mark"
+            },
+            "path37": {
+                "Type": "Circle",
+                "Role": "Main Chart Mark"
+            },
+            "path38": {
+                "Type": "Circle",
+                "Role": "Main Chart Mark"
+            },
+            "path39": {
+                "Type": "Circle",
+                "Role": "Main Chart Mark"
+            },
+            "path40": {
+                "Type": "Rectangle",
+                "Role": "Main Chart Mark"
+            },
+            "path41": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "path42": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "path43": {
+                "Type": "Text",
+                "Role": "Main Chart Mark"
+            },
+            "use0": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use1": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use2": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use3": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use4": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use5": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use6": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use7": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use8": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use9": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use10": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use11": {
+                "Type": "Text",
+                "Role": "Axis 1 label"
+            },
+            "use12": {
+                "Type": "Text",
+                "Role": "Axis 2 label"
+            },
+            "use13": {
+                "Type": "Text",
+                "Role": "Axis 2 label"
+            },
+            "use14": {
+                "Type": "Text",
+                "Role": "Axis 2 label"
+            },
+            "use15": {
+                "Type": "Text",
+                "Role": "Axis 2 label"
+            },
+            "use16": {
+                "Type": "Text",
+                "Role": "Axis 1 title"
+            },
+            "use17": {
+                "Type": "Text",
+                "Role": "Axis 2 title"
+            },
+            "use18": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use19": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use20": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use21": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use22": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use23": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            },
+            "use24": {
+                "Type": "Text",
+                "Role": "Chart Title"
+            }
+        },
+        "groupInfo": [
+            [
+                "path33",
+                "path34",
+                "path35",
+                "path36"
+            ],
+            [
+                "path29",
+                "path30",
+                "path31",
+                "path32"
+            ],
+            [
+                "path25",
+                "path26",
+                "path27",
+                "path28"
+            ],
+            [
+                "path21",
+                "path22",
+                "path23",
+                "path24"
+            ],
+            [
+                "path38",
+                "path39",
+                "path40",
+                "path41",
+                "path42",
+                "path43",
+                "path37"
+            ]
+        ],
+        "nestedGrouping": [
+            [
+                4,
+                [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            ]
+        ],
+        "layoutInfo": {
+            "0": {
+                "type": "Glyph",
+                "params": {
+                    "orientation": "",
+                    "horiAlignment": "",
+                    "vertAlignment": ""
+                }
+            },
+            "1": {
+                "type": "Glyph",
+                "params": {
+                    "orientation": "",
+                    "horiAlignment": "",
+                    "vertAlignment": ""
+                }
+            },
+            "2": {
+                "type": "Glyph",
+                "params": {
+                    "orientation": "",
+                    "horiAlignment": "",
+                    "vertAlignment": ""
+                }
+            },
+            "3": {
+                "type": "Glyph",
+                "params": {
+                    "orientation": "",
+                    "horiAlignment": "",
+                    "vertAlignment": ""
+                }
+            }
+        },
+        "encodingInfo": {
+            "path38": [
+                "x",
+                "y",
+                "shape"
+            ],
+            "path39": [
+                "x",
+                "y",
+                "shape"
+            ],
+            "path37": [
+                "x",
+                "y",
+                "shape"
+            ],
+            "path35": [
+                "left",
+                "right"
+            ],
+            "path31": [
+                "left",
+                "right"
+            ],
+            "path27": [
+                "left",
+                "right"
+            ],
+            "path23": [
+                "left",
+                "right"
+            ],
+            "path40": [
+                "left",
+                "right"
+            ],
+            "path36": [
+                "x"
+            ],
+            "path32": [
+                "x"
+            ],
+            "path28": [
+                "x"
+            ],
+            "path24": [
+                "x"
+            ],
+            "path33": [
+                "vertices"
+            ],
+            "path41": [
+                "x",
+                "y"
+            ],
+            "path42": [
+                "x",
+                "y"
+            ],
+            "path43": [
+                "x",
+                "y"
+            ],
+            "path34": [
+                "vertices"
+            ],
+            "path29": [
+                "vertices"
+            ],
+            "path30": [
+                "vertices"
+            ],
+            "path25": [
+                "vertices"
+            ],
+            "path26": [
+                "vertices"
+            ],
+            "path21": [
+                "vertices"
+            ],
+            "path22": [
+                "vertices"
+            ]
+        },
+        "textObjectLinking": {},
+        "referenceElement": {
+            "xGridlines": [],
+            "yGridlines": [],
+            "axes": {
+                "1": {
+                    "labels": [],
+                    "fieldType": "number",
+                    "title": [
+                        {
+                            "left": 118.27850341796875,
+                            "top": 197.4058837890625,
+                            "right": 123.71600341796875,
+                            "bottom": 202.3590087890625,
+                            "height": 4.953125,
+                            "width": 5.4375,
+                            "id": "use16",
+                            "tagName": "use",
+                            "content": "",
+                            "fill": "rgb(0, 0, 0)",
+                            "isReferenceElement": true
+                        }
+                    ],
+                    "ticks": [],
+                    "type": "x",
+                    "label": [
+                        "use11",
+                        "use0",
+                        "use1",
+                        "use2",
+                        "use3",
+                        "use4",
+                        "use5",
+                        "use6",
+                        "use7",
+                        "use8",
+                        "use9",
+                        "use10"
+                    ]
+                },
+                "2": {
+                    "labels": [],
+                    "fieldType": "number",
+                    "title": [
+                        {
+                            "left": 0.2398681640625,
+                            "top": 96.03024291992188,
+                            "right": 7.3023681640625,
+                            "bottom": 101.06149291992188,
+                            "height": 5.03125,
+                            "width": 7.0625,
+                            "id": "use17",
+                            "tagName": "use",
+                            "content": "",
+                            "fill": "rgb(0, 0, 0)",
+                            "isReferenceElement": true
+                        }
+                    ],
+                    "ticks": [],
+                    "type": "y",
+                    "label": [
+                        "use15",
+                        "use12",
+                        "use13",
+                        "use14"
+                    ]
+                }
+            },
+            "legend": {
+                "labels": [],
+                "marks": [],
+                "mapping": {},
+                "title": [],
+                "ticks": []
+            }
+        }
+    }
+}
