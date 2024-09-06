@@ -277,7 +277,7 @@ def generateGraphData(chartName, folderName):
         with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), folderName, chartName+".json"), "w") as f:
             json.dump({"nodeNames": allNodes ,"nodes": nodeFeatures, "edges": edges, "splition": dataSplition[chartName]['role'], "label": dataSplition[chartName]['label']}, f)
 
-folderName = "graphData_v4_0905"
+folderName = "graphData_v4"
 for chartName in getAllChartNames():
     # Initialize variables
     indices = {}

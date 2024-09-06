@@ -56,9 +56,11 @@ def test(loader, topk=5, input_type="svg"):
 
 
 # get dataset
-# datasets = ["graphData_v0", "graphData_v1", "graphData_v2", "graphData_v3"]
 current_dir = os.path.dirname(os.path.realpath(__file__))
-datasets = ["graphData_v1_0905"]
+
+# datasets = ["graphData_v0", "graphData_v1", "graphData_v2", "graphData_v3"]
+datasets = ["graphData_v1"]
+
 seeds = [12345, 215, 114514, 520, 630] 
 combinations = product(datasets, seeds)
 
