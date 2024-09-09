@@ -8,6 +8,9 @@ annotations_folder = os.path.join(script_dir, "annotations")
 files = os.listdir(annotations_folder)
 for file in files:
     # read the file
+    if not file.endswith(".json"):
+        continue
+    print(f"Processing {file}")
     file_path = os.path.join(annotations_folder, file)
     with open(file_path, "r") as f:
         # read content as an JSON
