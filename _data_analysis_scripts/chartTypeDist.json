@@ -32,15 +32,15 @@
         "Count": 26
       },
       {
+        "Chart Type": "Stacked Bar Chart",
+        "Count": 26
+      },
+      {
         "Chart Type": "Box-and-whisker plot",
         "Count": 25
       },
       {
         "Chart Type": "Polar Area Chart",
-        "Count": 25
-      },
-      {
-        "Chart Type": "Stacked Bar Chart",
         "Count": 25
       },
       {
@@ -171,7 +171,7 @@
   },
   "transform": [
     {
-      "calculate": "datum.Count / 945 * 100",
+      "calculate": "datum.Count / 946 * 100",
       "as": "Percentage"
     },
     {
