@@ -37,6 +37,7 @@ for (let f of filteredFiles) {
                 axis["title"] = axis["title"].map(d => d.id);
             }
         }
+        json["referenceElements"]["axes"] = Object.values(json["referenceElements"]["axes"]);
     }
 
     //delete 'groupInfo' and 'nestedGrouping'
@@ -57,10 +58,25 @@ for (let f of filteredFiles) {
     }
     delete json["markInfo"];
 
+    let g = json["grouping"];
+    json["grouping"] = [getObject(g)];
+
     // console.log(JSON.stringify(json, null, 2));
     // console.log(Object.keys(json))
 
     fs.writeFileSync("./final_annotations/" + f, JSON.stringify(json), "utf8");
+}
+
+function getObject(g) {
+    if (typeof g === "string")
+        return g;
+    else {
+        let obj = Object.values(g)[0];
+        obj.id = Object.keys(g)[0];
+        obj.children = obj.children.map(d => getObject(d));
+        return obj;
+    }
+    
 }
 
 //const chart = process.argv[2];
