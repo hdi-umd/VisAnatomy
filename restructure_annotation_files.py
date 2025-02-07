@@ -1,15 +1,30 @@
 import os
 import json
+import sys
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 annotations_folder = os.path.join(script_dir, "annotations")
 
 # Create restructured_annotations directory if it doesn't exist
-restructured_dir = os.path.join(script_dir, "restructured_annotations")
+restructured_dir = os.path.join(script_dir, "final_annotations")
 os.makedirs(restructured_dir, exist_ok=True)
 
+def getObject(g):
+    if isinstance(g, str):
+        return g
+    else:
+        obj = list(g.values())[0]
+        obj["id"] = list(g.keys())[0]
+        obj["children"] = [getObject(d) for d in obj["children"]]
+        return obj
+    
+if sys.argv[1]:
+    files = [sys.argv[1] + ".json"]
+else:
+    files = os.listdir(annotations_folder)
+
 # then, for each file, load the json data
-for file in os.listdir(annotations_folder):
+for file in files:
     if file.endswith(".json"):
         # get file name without extension
         file_name = os.path.splitext(file)[0]
@@ -59,6 +74,49 @@ for file in os.listdir(annotations_folder):
                 
                 data["grouping"] = parse_nested_groups(data["nestedGrouping"][0], current_index)
 
+            # chart title
+            if "chartTitle" in data:
+                data["chartTitle"] = [d["id"] for d in data["chartTitle"] if d]
+            
+            # change 'referenceElement' to 'referenceElements'
+            data["referenceElements"] = data["referenceElement"]
+            del data["referenceElement"]
+
+            # axis: change 'fieldType' to 'attrType', change 'type' to 'channel'
+            if "axes" in data["referenceElements"]:
+                axes = data["referenceElements"]["axes"]
+                for k in axes:
+                    axis = axes[k]
+                    axis["attrType"] = axis["fieldType"]
+                    del axis["fieldType"]
+                    axis["channel"] = axis["type"]
+                    del axis["type"]
+
+                    # remove dup info on axis labels in referenceElements
+                    if "labels" in axis:
+                        axis["labels"] = [d["id"] for d in axis["labels"]]
+
+                    if "title" in axis:
+                        axis["title"] = [d["id"] for d in axis["title"]]
+                data["referenceElements"]["axes"] = list(data["referenceElements"]["axes"].values())
+            
+            del data["groupInfo"]
+            del data["layoutInfo"]
+            del data["nestedGrouping"]
+
+            for m in data["markInfo"]:
+                mi = data["markInfo"][m]
+                elem = data["allElements"][m]
+                if elem:
+                    elem["type"] = mi["Type"]
+                    elem["role"] = mi["Role"]
+                else:
+                    print(m + " not in all elements")
+            del data["markInfo"]
+
+            data["grouping"] = [getObject(data["grouping"])]
+            
             # save the data to a new file in the ./annotations/restructured folder
             with open(os.path.join(restructured_dir, file_name + ".json"), "w") as f:
                 json.dump(data, f)
+
