@@ -87,12 +87,12 @@ function groupSVGElementsByTypeWithCoordinates() {
           ? element.attributes.fill.value
           : element.style.fill
           ? element.style.fill
-          : getClosestAncestorColor(element.id),
+          : getClosestAncestorStyle(element.id, "fill"),
         stroke: element.attributes.stroke? element.attributes.stroke.value : 
-          element.style.stroke ? element.style.stroke : "none",
+          element.style.stroke ? element.style.stroke : getClosestAncestorStyle(element.id, "stroke"),
         isReferenceElement: false,
         strokeWidth: element.attributes["stroke-width"]? element.attributes["stroke-width"].value : 
-        element.style["stroke-width"] ? element.style["stroke-width"] : "none",
+        element.style["stroke-width"] ? element.style["stroke-width"] : getClosestAncestorStyle(element.id, "stroke-width"),
       };
       if (Object.keys(groupedGraphicsElement).includes(element.tagName + "s"))
         groupedGraphicsElement[element.tagName + "s"].push({
@@ -133,7 +133,7 @@ function groupSVGElementsByTypeWithCoordinates() {
               ? element.attributes.fill.value
               : element.style.fill
               ? element.style.fill
-              : getClosestAncestorColor(element.id),
+              : getClosestAncestorStyle(element.id, "fill"),
           },
         ];
     }
@@ -141,12 +141,12 @@ function groupSVGElementsByTypeWithCoordinates() {
   console.log(allGraphicsElement);
 }
 
-function getClosestAncestorColor(elementID) {
+function getClosestAncestorStyle(elementID, style) {
   let element = document.getElementById(elementID);
   let parent = element.parentElement;
   while (parent.tagName !== "svg") {
-    if (parent.attributes.fill) return parent.attributes.fill.value;
-    if (parent.style.fill) return parent.style.fill;
+    if (parent.attributes[style]) return parent.attributes[style].value;
+    if (parent.style[style]) return parent.style[style];
     parent = parent.parentElement;
   }
   return "undefined";
