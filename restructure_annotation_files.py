@@ -82,6 +82,12 @@ for file in files:
             data["referenceElements"] = data["referenceElement"]
             del data["referenceElement"]
 
+            gridlines = {
+                "x": data.get("referenceElements", {}).pop("xGridlines", []),
+                "y": data.get("referenceElements", {}).pop("yGridlines", [])
+            }
+            data["referenceElements"]["gridlines"] = gridlines
+
             # axis: change 'fieldType' to 'attrType', change 'type' to 'channel'
             if "axes" in data["referenceElements"]:
                 axes = data["referenceElements"]["axes"]
