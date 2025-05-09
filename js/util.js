@@ -134,209 +134,242 @@ function getNumVertices(d) {
 }
 
 function post() {
-  let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/");
-  xhr.overrideMimeType("text/plain");
-  xhr.setRequestHeader("Accept", "application/json");
-  xhr.setRequestHeader("Content-Type", "application/json");
+  // added code: First, delete the original file, requesting delete to the server.
+  const fileName = sessionStorage.getItem("fileName");
+  fetch(`/annotations/delete`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ filename: fileName })
+  }).then(response => {
+    proceedToSave();
+  }).catch(error => {
+    proceedToSave();
+  });
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4) {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        const alertBox = document.getElementById("alertBox");
-        alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
-          "fileName"
-        )}.json'!`;
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
-
-        // Hide the alert box after 3 seconds
-        setTimeout(function () {
-          alertBox.style.visibility = "hidden";
-          alertBox.style.opacity = "0";
-        }, 3000);
-        console.log(xhr.responseText);
-      } else {
-        console.error("Error: " + xhr.status);
-        alertBox.textContent =
-          "Error: '" + xhr.status + "' occurred while saving the annotations";
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
+  // added logic: put the rest of the code into the function called proceedToSave()
+  function proceedToSave() {
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "/");
+    xhr.overrideMimeType("text/plain");
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+  
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          const alertBox = document.getElementById("alertBox");
+          alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
+            "fileName"
+          )}.json'!`;
+          alertBox.style.visibility = "visible";
+          alertBox.style.opacity = "1";
+  
+          // Hide the alert box after 3 seconds
+          setTimeout(function () {
+            alertBox.style.visibility = "hidden";
+            alertBox.style.opacity = "0";
+          }, 3000);
+          console.log(xhr.responseText);
+        } else {
+          console.error("Error: " + xhr.status);
+          alertBox.textContent =
+            "Error: '" + xhr.status + "' occurred while saving the annotations";
+          alertBox.style.visibility = "visible";
+          alertBox.style.opacity = "1";
+        }
+      }
+    };
+    let data = {};
+  
+    [
+      legend.marks,
+      legend.labels,
+      legend.title,
+      ...Object.keys(axes).map((k) => (axes[k].labels ? axes[k].labels : [])),
+      ...Object.keys(axes).map((k) => (axes[k].title ? axes[k].title : [])),
+    ]
+      .filter((e) => e?.length > 0)
+      .forEach((object) => {
+        object.forEach((element) => {
+          switch (typeof element) {
+            case "string":
+              allGraphicsElement[element].isReferenceElement = true;
+              break;
+            case "object":
+              allGraphicsElement[element.id].isReferenceElement = true;
+              break;
+          }
+        });
+      });
+    //// TBD: handle higher level labels using new axes?
+    // if (xAxis.upperLevels) {
+    //   xAxis.upperLevels.forEach((level) => {
+    //     level.forEach((element) => {
+    //       allGraphicsElement[element.id].isReferenceElement = true;
+    //     });
+    //   });
+    // }
+    // if (yAxis.upperLevels) {
+    //   yAxis.upperLevels.forEach((level) => {
+    //     level.forEach((element) => {
+    //       allGraphicsElement[element.id].isReferenceElement = true;
+    //     });
+    //   });
+    // }
+    annotations.allGraphicsElement = allGraphicsElement;
+    annotations.groupedGraphicsElement = groupedGraphicsElement;
+    annotations.chartTitle =
+      chartTitle.filter((e) => e !== null).length > 0
+        ? chartTitle.map((title) => allGraphicsElement[title.id])
+        : Object.keys(markInfo).filter(
+            (mark) => markInfo[mark].Role === "Chart Title"
+          );
+    annotations.markInfo = markInfo;
+    annotations.groupInfo = groupAnnotations;
+    annotations.nestedGrouping = nestedGrouping;
+    annotations.layoutInfo = groupLayouts;
+    annotations.encodingInfo = objectEncodings;
+    annotations.textObjectLinking = textObjectLinking;
+    annotations.referenceElement = {};
+  
+    // added code: New axes path logic.
+    console.log("Starting path assignment");
+    Object.keys(axes).forEach((k) => {
+      let index = parseInt(k);
+      axes[index].path = [];
+      const filteredAxisPaths = Object.keys(markInfo).filter((mark) => {
+        const role = markInfo[mark].Role;
+        const isMatch = /^Axis \d+ path$/.test(role);
+        if (isMatch) {
+          if (role === `Axis ${index} path`) {
+            return true;
+          }
+        }
+        return false;
+      });
+      axes[index].path = filteredAxisPaths;
+      console.log(`Final paths for axis ${index}:`, axes[index].path);
+    });
+    let polylines = Object.keys(markInfo).filter(
+      (mark) => markInfo[mark].Role === "Main Chart Mark" && markInfo[mark].Type === "Polyline"
+    );
+    for (let pl of polylines) {
+      let d = annotations.allGraphicsElement[pl].d;
+      if (d) {
+        annotations.allGraphicsElement[pl].numVertices = getNumVertices(d);
       }
     }
-  };
-  let data = {};
-
-  [
-    legend.marks,
-    legend.labels,
-    legend.title,
-    ...Object.keys(axes).map((k) => (axes[k].labels ? axes[k].labels : [])),
-    ...Object.keys(axes).map((k) => (axes[k].title ? axes[k].title : [])),
-  ]
-    .filter((e) => e?.length > 0)
-    .forEach((object) => {
-      object.forEach((element) => {
-        switch (typeof element) {
-          case "string":
-            allGraphicsElement[element].isReferenceElement = true;
-            break;
-          case "object":
-            allGraphicsElement[element.id].isReferenceElement = true;
-            break;
-        }
-      });
-    });
-  //// TBD: handle higher level labels using new axes?
-  // if (xAxis.upperLevels) {
-  //   xAxis.upperLevels.forEach((level) => {
-  //     level.forEach((element) => {
-  //       allGraphicsElement[element.id].isReferenceElement = true;
-  //     });
-  //   });
-  // }
-  // if (yAxis.upperLevels) {
-  //   yAxis.upperLevels.forEach((level) => {
-  //     level.forEach((element) => {
-  //       allGraphicsElement[element.id].isReferenceElement = true;
-  //     });
-  //   });
-  // }
-  annotations.allGraphicsElement = allGraphicsElement;
-  annotations.groupedGraphicsElement = groupedGraphicsElement;
-  annotations.chartTitle =
-    chartTitle.filter((e) => e !== null).length > 0
-      ? chartTitle.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo).filter(
-          (mark) => markInfo[mark].Role === "Chart Title"
-        );
-  annotations.markInfo = markInfo;
-  annotations.groupInfo = groupAnnotations;
-  annotations.nestedGrouping = nestedGrouping;
-  annotations.layoutInfo = groupLayouts;
-  annotations.encodingInfo = objectEncodings;
-  annotations.textObjectLinking = textObjectLinking;
-  annotations.referenceElement = {};
-
-  let polylines = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Main Chart Mark" && markInfo[mark].Type === "Polyline"
-  );
-  for (let pl of polylines) {
-    let d = annotations.allGraphicsElement[pl].d;
-    if (d) {
-      annotations.allGraphicsElement[pl].numVertices = getNumVertices(d);
+  
+    annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(
+      (mark) => markInfo[mark].Role === "Horizontal Gridline"
+    );
+    annotations.referenceElement["yGridlines"] = Object.keys(markInfo).filter(
+      (mark) => markInfo[mark].Role === "Vertical Gridline"
+    );
+  
+    // save the axes
+    annotations.referenceElement["axes"] = axes;
+  
+    // // complete x axis elements
+    // xAxis.path = Object.keys(markInfo).filter(
+    //   (mark) => markInfo[mark].Role === "X Axis Line"
+    // );
+    // xAxis.ticks = Object.keys(markInfo).filter(
+    //   (mark) => markInfo[mark].Role === "X Axis Tick"
+    // );
+    // xAxis.title =
+    //   titleXaxis.length > 0
+    //     ? titleXaxis.map((title) => allGraphicsElement[title.id])
+    //     : Object.keys(markInfo)
+    //         .filter((mark) => markInfo[mark].Role === "X Axis Title")
+    //         .map((title) => allGraphicsElement[title]);
+    // xAxis.labels =
+    //   xAxis.labels.length > 0
+    //     ? xAxis.labels.map((label) => allGraphicsElement[label.id])
+    //     : Object.keys(markInfo)
+    //         .filter((mark) => markInfo[mark].Role === "X Axis Label")
+    //         .map((label) => allGraphicsElement[label]);
+    // xAxis.fieldType = d3.select("#xFieldType").property("value");
+    // if (xAxis.upperLevels) {
+    //   let newUpperLevels = [];
+    //   xAxis.upperLevels.forEach((level) => {
+    //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
+    //   });
+    //   xAxis.upperLevels = newUpperLevels;
+    // }
+    // annotations.referenceElement["xAxis"] = xAxis;
+  
+    // // complete y axis elements
+    // yAxis.path = Object.keys(markInfo).filter(
+    //   (mark) => markInfo[mark].Role === "Y Axis Line"
+    // );
+    // yAxis.ticks = Object.keys(markInfo).filter(
+    //   (mark) => markInfo[mark].Role === "Y Axis Tick"
+    // );
+    // yAxis.title =
+    //   titleYaxis.length > 0
+    //     ? titleYaxis.map((title) => allGraphicsElement[title.id])
+    //     : Object.keys(markInfo)
+    //         .filter((mark) => markInfo[mark].Role === "Y Axis Title")
+    //         .map((title) => allGraphicsElement[title]);
+    // yAxis.labels =
+    //   yAxis.labels.length > 0
+    //     ? yAxis.labels.map((label) => allGraphicsElement[label.id])
+    //     : Object.keys(markInfo)
+    //         .filter((mark) => markInfo[mark].Role === "Y Axis Label")
+    //         .map((label) => allGraphicsElement[label]);
+    // yAxis.fieldType = d3.select("#yFieldType").property("value");
+    // if (yAxis.upperLevels) {
+    //   let newUpperLevels = [];
+    //   yAxis.upperLevels.forEach((level) => {
+    //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
+    //   });
+    //   yAxis.upperLevels = newUpperLevels;
+    // }
+    // annotations.referenceElement["yAxis"] = yAxis;
+  
+    // complete legend elements
+    legend.title =
+      titleLegend.length > 0
+        ? titleLegend.map((title) => allGraphicsElement[title.id])
+        : Object.keys(markInfo)
+            .filter((mark) => markInfo[mark].Role === "Legend Title")
+            .map((title) => allGraphicsElement[title]);
+    // TBD: need to keep an eye on the legend info when annotating
+    legend.ticks = Object.keys(markInfo).filter(
+      (mark) => markInfo[mark].Role === "Legend Tick"
+    );
+    legend.marks =
+      legend.marks.length === 0
+        ? Object.keys(markInfo)
+            .filter((mark) => markInfo[mark].Role === "Legend Mark")
+            .map((mark) => allGraphicsElement[mark])
+        : legend.marks.map((mark) => allGraphicsElement[mark.id]);
+    legend.labels =
+      legend.labels.length === 0
+        ? Object.keys(markInfo)
+            .filter((mark) => markInfo[mark].Role === "Legend Label")
+            .map((mark) => allGraphicsElement[mark])
+        : legend.labels.map((label) => allGraphicsElement[label.id]);
+    // legend.marks = legend.marks.push(
+    //   ...Object.keys(markInfo)
+    //     .filter((mark) => markInfo[mark].Role === "Legend Mark")
+    //     .map((mark) => allGraphicsElement[mark])
+    // );
+    // legend.marks = legend.marks.filter(onlyUnique);
+    // legend.labels = legend.labels.push(
+    //   ...Object.keys(markInfo)
+    //     .filter((mark) => markInfo[mark].Role === "Legend Label")
+    //     .map((mark) => allGraphicsElement[mark])
+    // );
+    // legend.labels = legend.labels.filter(onlyUnique);
+    annotations.referenceElement["legend"] = legend;
+    delete annotations.contentMarks;
+  
+    data["chart"] = sessionStorage.getItem("fileName");
+    data["annotations"] = annotations;
+    xhr.send(JSON.stringify(data));
     }
-  }
-
-  annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Horizontal Gridline"
-  );
-  annotations.referenceElement["yGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Vertical Gridline"
-  );
-
-  // save the axes
-  annotations.referenceElement["axes"] = axes;
-
-  // // complete x axis elements
-  // xAxis.path = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "X Axis Line"
-  // );
-  // xAxis.ticks = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "X Axis Tick"
-  // );
-  // xAxis.title =
-  //   titleXaxis.length > 0
-  //     ? titleXaxis.map((title) => allGraphicsElement[title.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "X Axis Title")
-  //         .map((title) => allGraphicsElement[title]);
-  // xAxis.labels =
-  //   xAxis.labels.length > 0
-  //     ? xAxis.labels.map((label) => allGraphicsElement[label.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "X Axis Label")
-  //         .map((label) => allGraphicsElement[label]);
-  // xAxis.fieldType = d3.select("#xFieldType").property("value");
-  // if (xAxis.upperLevels) {
-  //   let newUpperLevels = [];
-  //   xAxis.upperLevels.forEach((level) => {
-  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-  //   });
-  //   xAxis.upperLevels = newUpperLevels;
-  // }
-  // annotations.referenceElement["xAxis"] = xAxis;
-
-  // // complete y axis elements
-  // yAxis.path = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "Y Axis Line"
-  // );
-  // yAxis.ticks = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "Y Axis Tick"
-  // );
-  // yAxis.title =
-  //   titleYaxis.length > 0
-  //     ? titleYaxis.map((title) => allGraphicsElement[title.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "Y Axis Title")
-  //         .map((title) => allGraphicsElement[title]);
-  // yAxis.labels =
-  //   yAxis.labels.length > 0
-  //     ? yAxis.labels.map((label) => allGraphicsElement[label.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "Y Axis Label")
-  //         .map((label) => allGraphicsElement[label]);
-  // yAxis.fieldType = d3.select("#yFieldType").property("value");
-  // if (yAxis.upperLevels) {
-  //   let newUpperLevels = [];
-  //   yAxis.upperLevels.forEach((level) => {
-  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-  //   });
-  //   yAxis.upperLevels = newUpperLevels;
-  // }
-  // annotations.referenceElement["yAxis"] = yAxis;
-
-  // complete legend elements
-  legend.title =
-    titleLegend.length > 0
-      ? titleLegend.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Title")
-          .map((title) => allGraphicsElement[title]);
-  // TBD: need to keep an eye on the legend info when annotating
-  legend.ticks = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Legend Tick"
-  );
-  legend.marks =
-    legend.marks.length === 0
-      ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Mark")
-          .map((mark) => allGraphicsElement[mark])
-      : legend.marks.map((mark) => allGraphicsElement[mark.id]);
-  legend.labels =
-    legend.labels.length === 0
-      ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Label")
-          .map((mark) => allGraphicsElement[mark])
-      : legend.labels.map((label) => allGraphicsElement[label.id]);
-  // legend.marks = legend.marks.push(
-  //   ...Object.keys(markInfo)
-  //     .filter((mark) => markInfo[mark].Role === "Legend Mark")
-  //     .map((mark) => allGraphicsElement[mark])
-  // );
-  // legend.marks = legend.marks.filter(onlyUnique);
-  // legend.labels = legend.labels.push(
-  //   ...Object.keys(markInfo)
-  //     .filter((mark) => markInfo[mark].Role === "Legend Label")
-  //     .map((mark) => allGraphicsElement[mark])
-  // );
-  // legend.labels = legend.labels.filter(onlyUnique);
-  annotations.referenceElement["legend"] = legend;
-  delete annotations.contentMarks;
-
-  data["chart"] = sessionStorage.getItem("fileName");
-  data["annotations"] = annotations;
-  xhr.send(JSON.stringify(data));
 }
 
 function onlyUnique(value, index, self) {
@@ -1101,3 +1134,4 @@ function inferEncodings() {
     encodings.push(rectEnc);
   }
 }
+

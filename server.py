@@ -4,6 +4,13 @@ import os
 
 class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
 #annotations path: /annotations
+    def end_headers(self):
+        # 캐시 방지를 위한 헤더 추가
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
+        SimpleHTTPRequestHandler.end_headers(self)
+
     def do_GET(self):
         print(self.path)
         if (self.path == "/"):#root path
@@ -35,7 +42,33 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
     
     def do_POST(self):
         print(self.path)
-        if self.path.startswith("/save_file"):
+        # added code
+        if self.path == "/annotations/delete":
+            try:
+                content_length = int(self.headers['Content-Length'])
+                body = self.rfile.read(content_length)
+                data = json.loads(body)
+                filename = data.get("filename")
+                file_path = os.path.join("annotations", filename + ".json")
+                if os.path.exists(file_path):
+                    os.remove(file_path)
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'text/plain')
+                    self.end_headers()
+                    self.wfile.write(f"Deleted {file_path}".encode('utf-8'))
+                else:
+                    self.send_response(404)
+                    self.send_header('Content-Type', 'text/plain')
+                    self.end_headers()
+                    self.wfile.write(f"File not found: {file_path}".encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'text/plain')
+                self.end_headers()
+                self.wfile.write(f"Error deleting file: {str(e)}".encode('utf-8'))
+            return
+        # added code
+        elif self.path.startswith("/save_file"):
             print("saving new file")
             try:
                 content_length = int(self.headers['Content-Length'])
