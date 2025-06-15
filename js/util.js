@@ -117,6 +117,69 @@ function tryLoadAnnotations(filename) {
     }, 100); // Simulate a 0.1-second delay
   });
 }
+function saveAllAnnotations() {
+  const chartItems = document.querySelectorAll(".demoItem");
+
+  chartItems.forEach(async (item) => {
+    const chartId = item.id;
+
+    // Load annotation file
+    await fetch("/annotations/" + chartId + ".json")
+      .then((res) => res.json())
+      .then((json) => {
+        const annotations = json.annotations;
+        if (!annotations) {
+          console.warn(`No annotations found for ${chartId}`);
+          return;
+        }
+
+        fetch("/save_and_restructure", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            chart: chartId,
+            annotations: annotations
+          })
+        })
+          .then((res) => res.json())
+          .then((result) =>
+            console.log(`Saved & restructured ${chartId}:`, result)
+          )
+          .catch((err) =>
+            console.error(`Failed to restructure ${chartId}:`, err)
+          );
+      })
+      .catch((err) => console.warn("Error fetching annotations:", err));
+  });
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        const alertBox = document.getElementById("alertBox");
+        alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
+          "fileName"
+        )}.json'!`;
+        alertBox.style.visibility = "visible";
+        alertBox.style.opacity = "1";
+
+        // Hide the alert box after 3 seconds
+        setTimeout(function () {
+          alertBox.style.visibility = "hidden";
+          alertBox.style.opacity = "0";
+        }, 3000);
+        console.log(xhr.responseText);
+      } else {
+        console.error("Error: " + xhr.status);
+        alertBox.textContent =
+          "Error: '" + xhr.status + "' occurred while saving the annotations";
+        alertBox.style.visibility = "visible";
+        alertBox.style.opacity = "1";
+      }
+    }
+  };
+}
 
 //for polyline elements
 function getNumVertices(d) {
@@ -135,7 +198,7 @@ function getNumVertices(d) {
 
 function post() {
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/");
+  xhr.open("POST", "/save_and_restructure");
   xhr.overrideMimeType("text/plain");
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Content-Type", "application/json");

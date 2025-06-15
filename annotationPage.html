@@ -94,6 +94,14 @@
           style="position: absolute; top: 8px; right: -40px; font-size: 30px"
         ></i>
 
+        <button
+          id="saveAllButton"
+          onclick="saveAllAnnotations()"
+          style="position: absolute; top: 8px; right: -120px; font-size: 14px; padding: 5px 10px; cursor: pointer;"
+        >
+          Save All
+        </button>
+
         <!-- <button
           id="saveButton"
           onclick="post()"
@@ -1477,7 +1485,7 @@
               const subUl = document.createElement("ul");
               subUl.classList.add("chartSublist");
               subUl.id = baseName + "List";
-              subUl.style.display = baseName === "BarChart" ? "block" : "none"; // Initially hide the sublist
+              subUl.style.display = baseName === "SeattleGraph" ? "block" : "none"; // Initially hide the sublist
               li.appendChild(subUl);
 
               // Add event listener to toggle the sublist display
@@ -1552,13 +1560,13 @@
               });
             });
 
-            d3.select("#BarChart1")
+            d3.select("#SeattleGraph")
               .style("color", "red")
               .style("font-weight", "bold");
           });
 
         initilizeVariables();
-        loadDemo("BarChart1.svg");
+        loadDemo("SeattleGraph.svg");
       });
     </script>
   </body>
