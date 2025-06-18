@@ -12,8 +12,8 @@ def custom_sort_key_v2(file_name):
     return (string_part, trailing_number)
 
 # Define the folder path and the output JSON file path
-folder_path = './charts_svg/'
-output_file = './SVG_Names.json'
+folder_path = '../charts_svg/'
+output_file = '../labeling_tool/SVG_Names.json'
 
 # Read the names of all files in the folder
 file_names = sorted([f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f)) and f.endswith('.svg')], key=custom_sort_key_v2)
