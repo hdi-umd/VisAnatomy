@@ -392,7 +392,7 @@ def main():
     # Configuration
     llm_results_dir = "results"
     ground_truth_dir = "../../final_annotations"
-    evaluation_output_dir = "evaluation_results"
+    evaluation_output_dir = "evaluation_results_deepseek"
     
     # Initialize continuous evaluator
     evaluator = ContinuousPerformanceEvaluator(

@@ -349,8 +349,8 @@ def main():
     visualizer = ModelComparisonVisualizer()
     
     # Define file paths
-    deepseek_path = "applications/LLM4Semantics/evaluation_results/final_evaluation_results.csv"
-    openai_path = "applications/LLM4Semantics/evaluation_results_openai_matched/openai_matched_evaluation_results.csv"
+    deepseek_path = "applications/LLM4Semantics/evaluation_results_deepseek/final_evaluation_results.csv"
+    openai_path = "applications/LLM4Semantics/evaluation_results_openai/openai_matched_evaluation_results.csv"
     output_dir = "applications/LLM4Semantics/model_comparison_plots"
     
     # Create output directory

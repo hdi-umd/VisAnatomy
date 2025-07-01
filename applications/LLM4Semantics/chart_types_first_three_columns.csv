@@ -1,5 +1,5 @@
 Type,ID,charting tool
-Area Chart,1,Vega 
+Area Chart,1,Vega
 Area Chart,2,D3.js
 Area Chart,3,ApexCharts
 Area Chart,4,Mascot.js
@@ -8,17 +8,17 @@ Area Chart,6,D3.js
 Area Chart,7,D3.js
 Area Chart,8,Mascot.js
 Area Chart,9,D3.js
-Area Chart,10,Evidence 
+Area Chart,10,Evidence
 Area Chart,11,ApexCharts
 Area Chart,12,
 Area Chart,13,D3.js
 Area Chart,14,
-Area Chart,15,VictoryChart
+Area Chart,15,VictoryChartf
 Area Chart,16,GoogleChart
 Area Chart,17,SvelteKit
-Area Chart,18,HighChart
+Area Chart,18,HighCharts
 Area Chart,19,
-Area Chart,20,HighChart
+Area Chart,20,HighCharts
 Area Chart,21,WowChart
 Area Chart,22,
 Area Chart,23,
@@ -29,20 +29,20 @@ Area Chart,27,
 Area Chart,28,AngularChart
 Bar Chart,1,AnyChart
 Bar Chart,2,ApexCharts
-Bar Chart,3,Vega Lite
+Bar Chart,3,VegaLite
 Bar Chart,4,
 Bar Chart,5,D3.js
 Bar Chart,6,Datylon
 Bar Chart,7,Diagrammm
 Bar Chart,8,
-Bar Chart,9,Observable
+Bar Chart,9,ObservablePlot
 Bar Chart,10,D3.js
 Bar Chart,11,R
 Bar Chart,12,R
 Bar Chart,13,
-Bar Chart,14,Evidence 
+Bar Chart,14,Evidence
 Bar Chart,15,R
-Bar Chart,16,Evidence 
+Bar Chart,16,Evidence
 Bar Chart,17,
 Bar Chart,18,
 Bar Chart,19,Plotly
@@ -82,7 +82,7 @@ Box-and-whisker plot,5,ApexCharts
 Box-and-whisker plot,6,Racket Plot
 Box-and-whisker plot,7,D3.js
 Box-and-whisker plot,8,D3.js
-Box-and-whisker plot,9,Vega Lite
+Box-and-whisker plot,9,VegaLite
 Box-and-whisker plot,10,Data Illustrator
 Box-and-whisker plot,11,R
 Box-and-whisker plot,12,
@@ -106,9 +106,9 @@ Bubble Chart,4,HighCharts
 Bubble Chart,5,Datylon
 Bubble Chart,6,Mascot.js
 Bubble Chart,7,Datylon
-Bubble Chart,8,Vega Lite
-Bubble Chart,9,Vega Lite
-Bubble Chart,10,Vega Lite
+Bubble Chart,8,VegaLite
+Bubble Chart,9,VegaLite
+Bubble Chart,10,VegaLite
 Bubble Chart,11,ZingChart
 Bubble Chart,12,GoogleChart
 Bubble Chart,13,
@@ -142,7 +142,7 @@ Bullet Chart,14,VictoryChart
 Bullet Chart,15,VictoryChart
 Bullet Chart,16,VictoryChart
 Bullet Chart,17,D3.js
-Bullet Chart,18,Vega Lite
+Bullet Chart,18,VegaLite
 Bullet Chart,19,GoogleChart
 Bullet Chart,20,Datylon
 Bullet Chart,21,AngularChart
@@ -151,7 +151,7 @@ Bump Chart,2,
 Bump Chart,3,Rawgraphs
 Bump Chart,4,D3.js
 Bump Chart,5,ObservablePlot
-Bump Chart,6,Vega Lite
+Bump Chart,6,VegaLite
 Bump Chart,7,Datylon
 Bump Chart,8,
 Bump Chart,9,NIVO
@@ -161,13 +161,13 @@ Bump Chart,12,
 Bump Chart,13,
 Bump Chart,14,
 Bump Chart,15,NIVO
-Bump Chart,16,Vega Lite
+Bump Chart,16,VegaLite
 Bump Chart,17,NIVO
 Bump Chart,18,D3.js
 Bump Chart,19,
 Bump Chart,20,
 Bump Chart,21,D3.js
-Calendar,1,Vega 
+Calendar,1,Vega
 Calendar,2,ZingChart
 Calendar,3,ObservablePlot
 Calendar,4,ObservablePlot
@@ -232,7 +232,7 @@ Circle Packing,21,
 Connected Dot Plot,1,D3.js
 Connected Dot Plot,2,Datylon
 Connected Dot Plot,3,PlotDB
-Connected Dot Plot,4,Vega Lite
+Connected Dot Plot,4,VegaLite
 Connected Dot Plot,5,D3.js
 Connected Dot Plot,6,D3.js
 Connected Dot Plot,7,R
@@ -254,7 +254,7 @@ Connected Dot Plot,22,JSCharting
 Connected Scatterplot,1,Datylon
 Connected Scatterplot,2,Mascot.js
 Connected Scatterplot,3,D3.js
-Connected Scatterplot,4,Vega Lite
+Connected Scatterplot,4,VegaLite
 Connected Scatterplot,5,Tableau
 Connected Scatterplot,6,Lets-Plot
 Connected Scatterplot,7,R
@@ -276,7 +276,7 @@ Density plot,1,
 Density plot,2,
 Density plot,3,D3.js
 Density plot,4,
-Density plot,5,Vega Lite
+Density plot,5,VegaLite
 Density plot,6,Mascot.js
 Density plot,7,Datylon
 Density plot,8,Mascot.js
@@ -296,9 +296,9 @@ Density plot,21,Lets-Plot
 Density plot,22,Kandy
 Diverging Stacked Bar Chart,1,D3.js
 Diverging Stacked Bar Chart,2,Plotly
-Diverging Stacked Bar Chart,3,Vega Lite
+Diverging Stacked Bar Chart,3,VegaLite
 Diverging Stacked Bar Chart,4,Mascot.js
-Diverging Stacked Bar Chart,5,Vega Lite
+Diverging Stacked Bar Chart,5,VegaLite
 Diverging Stacked Bar Chart,6,Datylon
 Diverging Stacked Bar Chart,7,Datylon
 Diverging Stacked Bar Chart,8,Datylon
@@ -326,7 +326,7 @@ Donut Chart,6,
 Donut Chart,7,D3.js
 Donut Chart,8,GoogleChart
 Donut Chart,9,ApexCharts
-Donut Chart,10,Vega Lite
+Donut Chart,10,VegaLite
 Donut Chart,11,Datylon
 Donut Chart,12,
 Donut Chart,13,HighCharts
@@ -359,7 +359,7 @@ Dot Plot,17,
 Dot Plot,18,NIVO
 Dot Plot,19,Lets-Plot
 Dot Plot,20,Lets-Plot
-Gantt Chart,1,Vega Lite
+Gantt Chart,1,VegaLite
 Gantt Chart,2,Lib.rs
 Gantt Chart,3,Plotly
 Gantt Chart,4,Mascot.js
@@ -386,8 +386,8 @@ Geo Heatmap,1,D3.js
 Geo Heatmap,2,D3.js
 Geo Heatmap,3,
 Geo Heatmap,4,GeoPandas
-Geo Heatmap,5,Vega Lite
-Geo Heatmap,6,Vega Lite
+Geo Heatmap,5,VegaLite
+Geo Heatmap,6,VegaLite
 Geo Heatmap,7,D3.js
 Geo Heatmap,8,D3.js
 Geo Heatmap,9,D3.js
@@ -476,9 +476,9 @@ Kagi Chart,18,FlexChart
 Kagi Chart,19,FlexChart
 Kagi Chart,20,FlexChart
 Line Graph,1,D3.js
-Line Graph,2,Datawrapper
-Line Graph,3,Datawrapper
-Line Graph,4,Datawrapper
+Line Graph,2,DataWrapper
+Line Graph,3,DataWrapper
+Line Graph,4,DataWrapper
 Line Graph,5,Datylon
 Line Graph,6,Flourish
 Line Graph,7,Plotly
@@ -521,7 +521,7 @@ Marimekko Chart,3,AnyChart
 Marimekko Chart,4,FusionCharts
 Marimekko Chart,5,FusionCharts
 Marimekko Chart,6,Mascot.js
-Marimekko Chart,7,Vega Lite
+Marimekko Chart,7,VegaLite
 Marimekko Chart,8,Plotly
 Marimekko Chart,9,D3.js
 Marimekko Chart,10,R
@@ -578,11 +578,11 @@ Parallel Coordinates Plot,18,
 Parallel Coordinates Plot,19,Lets-Plot
 Parallel Coordinates Plot,20,D3.js
 Pie Chart,1,Datylon
-Pie Chart,2,Vega Lite
+Pie Chart,2,VegaLite
 Pie Chart,3,D3.js
 Pie Chart,4,Mascot.js
 Pie Chart,5,Datylon
-Pie Chart,6,Vega Lite
+Pie Chart,6,VegaLite
 Pie Chart,7,
 Pie Chart,8,Plotly
 Pie Chart,9,ApexCharts
@@ -701,7 +701,7 @@ Scatterplot,7,Mascot.js
 Scatterplot,8,R
 Scatterplot,9,ApexCharts
 Scatterplot,10,
-Scatterplot,11,Vega Lite
+Scatterplot,11,VegaLite
 Scatterplot,12,D3.js
 Scatterplot,13,R
 Scatterplot,14,R
@@ -746,7 +746,7 @@ Stacked Area Chart,6,AnyChart
 Stacked Area Chart,7,FlexChart
 Stacked Area Chart,8,ObservablePlot
 Stacked Area Chart,9,D3.js
-Stacked Area Chart,10,Vega Lite
+Stacked Area Chart,10,VegaLite
 Stacked Area Chart,11,
 Stacked Area Chart,12,ApexCharts
 Stacked Area Chart,13,
@@ -763,11 +763,11 @@ Stacked Area Chart,23,
 Stacked Bar Chart,1,D3.js
 Stacked Bar Chart,2,D3.js
 Stacked Bar Chart,3,ApexCharts
-Stacked Bar Chart,4,Vega Lite
-Stacked Bar Chart,5,Vega Lite
-Stacked Bar Chart,6,Vega Lite
-Stacked Bar Chart,7,Vega Lite
-Stacked Bar Chart,8,Vega Lite
+Stacked Bar Chart,4,VegaLite
+Stacked Bar Chart,5,VegaLite
+Stacked Bar Chart,6,VegaLite
+Stacked Bar Chart,7,VegaLite
+Stacked Bar Chart,8,VegaLite
 Stacked Bar Chart,9,Mascot.js
 Stacked Bar Chart,10,D3.js
 Stacked Bar Chart,11,ApexCharts
@@ -805,7 +805,7 @@ Stream Graph,17,
 Stream Graph,18,D3.js
 Stream Graph,19,D3.js
 Stream Graph,20,
-Stream Graph,21,Vega Lite
+Stream Graph,21,VegaLite
 Treemap,1,D3.js
 Treemap,2,Datylon
 Treemap,3,Datylon
@@ -815,7 +815,7 @@ Treemap,6,R
 Treemap,7,HighCharts
 Treemap,8,PlotDB
 Treemap,9,Plotly
-Treemap,10,Vega Lite
+Treemap,10,VegaLite
 Treemap,11,Mascot.js
 Treemap,12,R
 Treemap,13,HighCharts
@@ -852,14 +852,14 @@ Violin Plot,21,AlgebraOfGraphics.jl
 Waffle Chart,1,Mascot.js
 Waffle Chart,2,Mascot.js
 Waffle Chart,3,Data Illustrator
-Waffle Chart,4, PyWaffle
-Waffle Chart,5, PyWaffle
+Waffle Chart,4,PyWaffle
+Waffle Chart,5,PyWaffle
 Waffle Chart,6,Datylon
-Waffle Chart,7, PyWaffle
+Waffle Chart,7,PyWaffle
 Waffle Chart,8,D3.js
 Waffle Chart,9,Datylon
-Waffle Chart,10, PyWaffle
-Waffle Chart,11, PyWaffle
+Waffle Chart,10,PyWaffle
+Waffle Chart,11,PyWaffle
 Waffle Chart,12,R
 Waffle Chart,13,R
 Waffle Chart,14,
@@ -867,7 +867,7 @@ Waffle Chart,15,NIVO
 Waffle Chart,16,Matplotlib
 Waffle Chart,17,D3.js
 Waffle Chart,18,NIVO
-Waffle Chart,19, PyWaffle
+Waffle Chart,19,PyWaffle
 Waffle Chart,20,Datylon
 Waffle Chart,21,
 Waffle Chart,22,ObservablePlot
@@ -880,7 +880,7 @@ Waterfall Chart,6,AnyChart
 Waterfall Chart,7,FusionCharts
 Waterfall Chart,8,
 Waterfall Chart,9,Plotly
-Waterfall Chart,10,Vega lite
+Waterfall Chart,10,VegaLite
 Waterfall Chart,11,HighCharts
 Waterfall Chart,12,
 Waterfall Chart,13,
