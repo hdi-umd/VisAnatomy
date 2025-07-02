@@ -4,8 +4,8 @@ import sys
 
 def main():
     # Input file paths
-    eval_results_path = 'applications/LLM4Semantics/evaluation_results_openai/openai_matched_evaluation_results.csv'
-    # eval_results_path = 'applications/LLM4Semantics/evaluation_results_deepseek/final_evaluation_results.csv'
+    eval_results_path = 'applications/LLM4Semantics/evaluation_results_openai/performance_by_chart.csv'
+    # eval_results_path = 'applications/LLM4Semantics/evaluation_results_deepseek/performance_by_chart.csv'
 
     chart_types_path = 'applications/LLM4Semantics/chart_types_first_three_columns.csv'
     output_path = 'applications/LLM4Semantics/evaluation_results_openai/performance_by_tool.csv'

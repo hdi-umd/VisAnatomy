@@ -795,7 +795,7 @@ api: OpenAI Batch API
         
         # Save detailed results to CSV
         if not df.empty:
-            output_file = os.path.join(self.evaluation_output_dir, "openai_matched_evaluation_results.csv")
+            output_file = os.path.join(self.evaluation_output_dir, "performance_by_chart.csv")
             df.to_csv(output_file, index=False)
             print(f"\n💾 Detailed results saved to: {output_file}")
         
