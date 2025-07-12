@@ -391,7 +391,7 @@ Important notes:
 
 def main():
     # Configuration
-    API_KEY = "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"
+    API_KEY = "your key"
     CHARTS_SVG_DIR = "../../charts_svg"
     RESULTS_DIR = "results_openai"
     

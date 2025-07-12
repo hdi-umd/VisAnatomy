@@ -258,7 +258,7 @@ Important notes:
 
 def main():
     # Configuration
-    API_KEY = "sk-e2702e38a993485c99def9af8b3d100f"
+    API_KEY = "your key"
     CHARTS_SVG_DIR = "../../charts_svg"
     RESULTS_DIR = "results"
     
