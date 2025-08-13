@@ -35,7 +35,7 @@ function tryLoadAnnotations(filename) {
   }
   axisCount = 0;
 
-  fetch("../annotations/" + filename + ".json")
+  fetch("../final_annotations_test/" + filename + ".json")
     .then((response) => {
       if (!response.ok) {
         console.log("no annotation file found");
@@ -45,33 +45,50 @@ function tryLoadAnnotations(filename) {
       return response.json();
     })
     .then((json) => {
+
+      console.log("annotations loading")
+
       this.users = json;
-      // loading the annotation data into the global variable
-      annotations = json.annotations;
+      annotations = json;
       annotationLoaded = true;
 
-      // testing annotation was loaded
-      console.log("loaded annotations", annotations);
+      allGraphicsElement = annotations.allElements ? annotations.allElements : {};
+      groupedGraphicsElement = {};
 
-      allGraphicsElement = annotations.allGraphicsElement
-        ? annotations.allGraphicsElement
+      axes = {};
+      if (
+        annotations.referenceElements &&
+        Array.isArray(annotations.referenceElements.axes)
+      ) {
+        annotations.referenceElements.axes.forEach((axis) => {
+          // Prefer 'type', fallback to 'channel'
+          let axisType = axis.type || axis.channel;
+          if (axisType === "x" || axisType === "radian") {
+            axes[1] = axis;
+            axes[1].type = axisType; 
+          } else if (axisType === "y" || axisType === "angular") {
+            axes[2] = axis;
+            axes[2].type = axisType; 
+          }
+        });
+      }
+      legend = annotations.referenceElements && annotations.referenceElements.legend
+        ? annotations.referenceElements.legend
         : {};
-      groupedGraphicsElement = annotations.groupedGraphicsElement
-        ? annotations.groupedGraphicsElement
-        : {};
-      xAxis = annotations.referenceElement.xAxis
-        ? annotations.referenceElement.xAxis
-        : {};
-      yAxis = annotations.referenceElement.yAxis
-        ? annotations.referenceElement.yAxis
-        : {};
-      axes = annotations.referenceElement.axes
-        ? annotations.referenceElement.axes
-        : { 1: xAxis, 2: yAxis };
-      console.log(axes);
-      legend = annotations.referenceElement.legend;
-      xGridlines = annotations.referenceElement.xGridlines;
-      yGridlines = annotations.referenceElement.yGridlines;
+
+      xGridlines =
+        annotations.referenceElements &&
+        annotations.referenceElements.gridlines &&
+        annotations.referenceElements.gridlines.x
+          ? annotations.referenceElements.gridlines.x
+          : [];
+
+      yGridlines =
+        annotations.referenceElements &&
+        annotations.referenceElements.gridlines &&
+        annotations.referenceElements.gridlines.y
+          ? annotations.referenceElements.gridlines.y
+          : [];
       markInfo = annotations.markInfo ? annotations.markInfo : {};
       groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
       nestedGrouping = annotations.nestedGrouping
@@ -84,26 +101,41 @@ function tryLoadAnnotations(filename) {
       textObjectLinking = annotations.textObjectLinking
         ? annotations.textObjectLinking
         : {};
-      chartTitle = annotations.chartTitle ? annotations.chartTitle : [];
-      titleLegend = annotations.referenceElement.legend.title
-        ? annotations.referenceElement.legend.title
-        : [];
-      console.log("start loading axes");
+
+      chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
+      console.log("chartTitle: ", chartTitle);
+      
+      titleLegend = legend.title ? legend.title : [];
+      if (titleLegend.length > 0 && typeof titleLegend[0] === "string") {
+        titleLegend = titleLegend.map(id => allGraphicsElement[id]).filter(Boolean);
+      }
+      
+      // legend fields
+      ["labels", "marks", "title", "ticks"].forEach((field) => {
+        if (legend[field] && legend[field].length > 0 && typeof legend[field][0] === "string") {
+          legend[field] = legend[field].map(id => allGraphicsElement[id]).filter(Boolean);
+        }
+      });
+
+      // axes fields
+      Object.keys(axes).forEach((k) => {
+        let axis = axes[k];
+        ["labels", "title", "ticks", "path"].forEach((field) => {
+          if (axis[field] && axis[field].length > 0 && typeof axis[field][0] === "string") {
+            axis[field] = axis[field].map(id => allGraphicsElement[id]).filter(Boolean);
+          }
+        });
+      });
 
       Object.keys(axes).forEach((k) => {
         let index = parseInt(k);
-        console.log("loading axis", index, axes[index]);
-        // if (parseInt(k) > axisCount) {
-        //   console.log("add an axis");
-        //   addAxisConfiguration();
-        // }
         addAxisConfiguration();
         displayAxis(index);
       });
-      console.log("finish loading axes");
       displayLegend(legend);
       displayTitles(chartTitle, titleLegend);
     })
+
     .catch(function () {
       this.dataError = true;
     });
