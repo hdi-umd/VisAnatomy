@@ -129,9 +129,15 @@ function tryLoadAnnotations(filename) {
 
       Object.keys(axes).forEach((k) => {
         let index = parseInt(k);
+        console.log("loading axis", index, axes[index]);
+        // if (parseInt(k) > axisCount) {
+        //   console.log("add an axis");
+        //   addAxisConfiguration();
+        // }
         addAxisConfiguration();
         displayAxis(index);
       });
+      console.log("finish loading axes");
       displayLegend(legend);
       displayTitles(chartTitle, titleLegend);
     })
