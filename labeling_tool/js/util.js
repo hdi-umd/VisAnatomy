@@ -98,11 +98,44 @@ function tryLoadAnnotations(filename) {
           Role: element.role || "none"
         };
       });
+
+            groupAnnotations = [];
+      nestedGrouping = [];
+      groupLayouts = {};
+
+      function extractGroupsWithLayout(group, groupList, nestedList) {
+        if (Array.isArray(group)) {
+          // If it's an array, treat as a list of groups
+          group.forEach(g => extractGroupsWithLayout(g, groupList, nestedList));
+        } else if (group && typeof group === "object" && group.children) {
+          // If it's a group object with children
+          if (Array.isArray(group.children) && group.children.length > 0) {
+            // Save layout info if present
+            if (group.layout && group.id !== undefined) {
+              groupLayouts[group.id] = group.layout;
+            }
+            // If children are marks (strings), add to groupAnnotations
+            if (typeof group.children[0] === "string") {
+              groupAnnotations.push(group.children);
+              nestedList.push(groupAnnotations.length - 1);
+            } else {
+              // Otherwise, recurse into children
+              let thisNested = [];
+              group.children.forEach(child => extractGroupsWithLayout(child, groupList, thisNested));
+              nestedList.push(thisNested);
+            }
+          }
+        }
+      }
+
+      if (annotations.grouping) {
+        extractGroupsWithLayout(annotations.grouping, groupAnnotations, nestedGrouping);
+      }
       
-      groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
-      nestedGrouping = annotations.nestedGrouping
-        ? annotations.nestedGrouping
-        : [];
+      // groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
+      // nestedGrouping = annotations.nestedGrouping
+      //   ? annotations.nestedGrouping
+      //   : [];
       groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : {};
       objectEncodings = annotations.encodingInfo
         ? annotations.encodingInfo
