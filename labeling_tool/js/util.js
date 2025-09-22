@@ -44,34 +44,26 @@ function tryLoadAnnotations(filename) {
       }
       return response.json();
     })
-    .then((json) => {
-
-      console.log("annotations loading")
-
-      this.users = json;
-      annotations = json;
+    .then((annotations) => {
+      console.log("annotations loading");
+      this.users = annotations;
       annotationLoaded = true;
 
       allGraphicsElement = annotations.allElements ? annotations.allElements : {};
       groupedGraphicsElement = {};
 
+      // Load all axes, not just x/y
       axes = {};
       if (
         annotations.referenceElements &&
         Array.isArray(annotations.referenceElements.axes)
       ) {
-        annotations.referenceElements.axes.forEach((axis) => {
-          // Prefer 'type', fallback to 'channel'
-          let axisType = axis.type || axis.channel;
-          if (axisType === "x" || axisType === "radian") {
-            axes[1] = axis;
-            axes[1].type = axisType; 
-          } else if (axisType === "y" || axisType === "angular") {
-            axes[2] = axis;
-            axes[2].type = axisType; 
-          }
+        annotations.referenceElements.axes.forEach((axis, i) => {
+          axes[i + 1] = axis;
+          axes[i + 1].type = axis.type || axis.channel || "x";
         });
       }
+
       legend = annotations.referenceElements && annotations.referenceElements.legend
         ? annotations.referenceElements.legend
         : {};
@@ -99,50 +91,134 @@ function tryLoadAnnotations(filename) {
         };
       });
 
-            groupAnnotations = [];
+      groupAnnotations = [];
       nestedGrouping = [];
       groupLayouts = {};
 
-      function extractGroupsWithLayout(group, groupList, nestedList) {
-        if (Array.isArray(group)) {
-          // If it's an array, treat as a list of groups
-          group.forEach(g => extractGroupsWithLayout(g, groupList, nestedList));
-        } else if (group && typeof group === "object" && group.children) {
-          // If it's a group object with children
-          if (Array.isArray(group.children) && group.children.length > 0) {
-            // Save layout info if present
-            if (group.layout && group.id !== undefined) {
-              groupLayouts[group.id] = group.layout;
-            }
-            // If children are marks (strings), add to groupAnnotations
-            if (typeof group.children[0] === "string") {
-              groupAnnotations.push(group.children);
-              nestedList.push(groupAnnotations.length - 1);
-            } else {
-              // Otherwise, recurse into children
-              let thisNested = [];
-              group.children.forEach(child => extractGroupsWithLayout(child, groupList, thisNested));
-              nestedList.push(thisNested);
-            }
+            function buildTree(node) {
+        if (!node) return null;
+        if (Array.isArray(node)) {
+          // array of top-level nodes -> map each child
+          return node.map((child) => buildTree(child)).filter((c) => c !== null);
+        }
+        if (typeof node !== "object" || !node.children) return null;
+
+        // If this node is a leaf group (children are mark IDs)
+        if (node.children.length > 0 && typeof node.children[0] === "string") {
+          const leafIdx = groupAnnotations.length;
+          groupAnnotations.push(node.children.slice()); // copy mark IDs
+          // store leaf layout, default to Glyph when missing
+          groupLayouts[leafIdx] = node.layout && node.layout.type
+            ? node.layout
+            : { type: "Glyph", params: {} };
+
+          // If node has an explicit id like "g3", also map that numeric suffix (defensive)
+          if (node.id && typeof node.id === "string") {
+            const m = node.id.match(/(\d+)$/);
+            if (m) groupLayouts[parseInt(m[1], 10)] = groupLayouts[leafIdx];
+          }
+          return leafIdx;
+        }
+
+        // Internal group: recursively build children
+        const children = node.children
+          .map((child) => buildTree(child))
+          .filter((c) => c !== null);
+        // if node has explicit id like "g5", record its numeric layout (default Grid)
+        if (node.id && typeof node.id === "string") {
+          const m = node.id.match(/(\d+)$/);
+          if (m) {
+            groupLayouts[parseInt(m[1], 10)] =
+              node.layout && node.layout.type
+                ? node.layout
+                : { type: "Grid", params: {} };
           }
         }
+        return children;
       }
 
-      if (annotations.grouping) {
-        extractGroupsWithLayout(annotations.grouping, groupAnnotations, nestedGrouping);
+      // Build top-level structure and set nestedGrouping[0] so layout UI reads it
+      if (annotations.grouping && annotations.grouping.length > 0) {
+        const topStructure =
+          annotations.grouping.length === 1
+            ? buildTree(annotations.grouping[0])
+            : buildTree(annotations.grouping);
+        // nestedGrouping used by UI: put topStructure at index 0
+        nestedGrouping = [topStructure];
+      } else {
+        // fallback: if no grouping, make each mark its own group (preserve old behavior)
+        nestedGrouping = groupAnnotations.length
+          ? [groupAnnotations.map((_, i) => i)]
+          : [];
       }
-      
+
+      // // Traverse grouping and ensure root group layout is at index 0
+      // function traverseGrouping(node, parentIdx = null) {
+      //   // node can be an array or an object with children
+      //   if (Array.isArray(node)) {
+      //     node.forEach((child) => traverseGrouping(child, parentIdx));
+      //     return;
+      //   }
+      //   if (!node || typeof node !== "object" || !node.children) return;
+
+      //     // Prefer numeric index derived from node.id (e.g., "g5" -> 5)
+      //     let thisIdx = null;
+      //     if (node.id && typeof node.id === "string") {
+      //       const m = node.id.match(/(\d+)$/);
+      //       if (m) thisIdx = parseInt(m[1], 10);
+      //   }
+
+      //   // fallback: find the next available numeric index
+      //   if (thisIdx === null) {
+      //     thisIdx = 0;
+      //     while (
+      //       typeof nestedGrouping[thisIdx] !== "undefined" ||
+      //       typeof groupLayouts[thisIdx] !== "undefined" ||
+      //       typeof groupAnnotations[thisIdx] !== "undefined"
+      //     ) {
+      //     thisIdx++;
+      //     } 
+      //   }
+
+      //   // ensure arrays exist at thisIdx
+      //   if (!nestedGrouping[thisIdx]) nestedGrouping[thisIdx] = [];
+
+      //   // leaf group: children are element ids (strings)
+      //   if (typeof node.children[0] === "string") {
+      //     groupAnnotations[thisIdx] = node.children.slice();
+      //     groupLayouts[thisIdx] =
+      //     node.layout && node.layout.type ? node.layout : { type: "Glyph", params: {} };
+
+      //     if (parentIdx !== null) {
+      //       if (!nestedGrouping[parentIdx]) nestedGrouping[parentIdx] = [];
+      //       nestedGrouping[parentIdx].push(thisIdx);
+      //     }
+      //   } else {
+      //     // container group: children are groups
+      //     nestedGrouping[thisIdx] = nestedGrouping[thisIdx] || [];
+      //     node.children.forEach((child) => traverseGrouping(child, thisIdx));
+      //     groupLayouts[thisIdx] =
+      //       node.layout && node.layout.type ? node.layout : { type: "Grid", params: {} };
+
+      //     if (parentIdx !== null) {
+      //       if (!nestedGrouping[parentIdx]) nestedGrouping[parentIdx] = [];
+      //       nestedGrouping[parentIdx].push(thisIdx);
+      //     }
+      //   }
+      // }
+
+      // if (annotations.grouping) {
+      //   traverseGrouping(annotations.grouping, null, true);
+      // }
+
+
       // groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
       // nestedGrouping = annotations.nestedGrouping
       //   ? annotations.nestedGrouping
       //   : [];
-      groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : {};
-      objectEncodings = annotations.encodingInfo
-        ? annotations.encodingInfo
-        : {};
-      textObjectLinking = annotations.textObjectLinking
-        ? annotations.textObjectLinking
-        : {};
+      groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : groupLayouts;
+      objectEncodings = annotations.encodingInfo ? annotations.encodingInfo : {};
+      textObjectLinking = annotations.textObjectLinking ? annotations.textObjectLinking : {};
 
       chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
       console.log("chartTitle: ", chartTitle);
