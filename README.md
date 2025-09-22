@@ -8,9 +8,11 @@ of elements, group layouts, and visual encodings. In total, VISANATOMY provides 
 Online browser for the charts: https://visanatomy.github.io/
 
 > **Citation:**  
-> Chen Chen, Hannah K. Bako, Peihong Yu, John Hooker, Jeffrey Joyal, Simon C. Wang, Samuel Kim, Jessica Wu, Aoxue Ding, Lara Sandeep, Alex Chen, Chayanika Sinha, and Zhicheng Liu. 2025.  
+> Chen Chen, Hannah K. Bako, Peihong Yu, John Hooker, Jeffrey Joyal, Simon C. Wang, Samuel Kim, Jessica Wu, Aoxue Ding, Lara Sandeep, Alex Chen, Chayanika Sinha, and Zhicheng Liu. 
+>  
 > VisAnatomy: An SVG Chart Corpus with Fine-Grained Semantic Labels.  
-> *IEEE Transactions on Visualization and Computer Graphics (Proceedings IEEE VIS 2025)* (2025). 
+> 
+> *IEEE Transactions on Visualization and Computer Graphics (Proceedings IEEE VIS 2025)*. 
 > [PDF](https://hdi.cs.umd.edu/papers/VisAnatomy_VIS25.pdf)
 
 ## Folder Structure
