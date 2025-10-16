@@ -121,8 +121,8 @@ function createList(item) {
     ": " +
     (Object.keys(groupLayouts).includes(item.id.toString())
       ? groupLayouts[item.id].type +
-        (groupLayouts[item.id].params.orientation[0]
-          ? "-" + groupLayouts[item.id].params.orientation[0]
+        (groupLayouts[item.id].params.orientation
+          ? "-" + groupLayouts[item.id].params.orientation
           : "") +
         (groupLayouts[item.id].params.alignment
           ? groupLayouts[item.id].params.alignment[0]
@@ -230,8 +230,8 @@ function recordlayout() {
     d3.select("#layoutIndicator" + selectedGroup).text(
       ": " +
         thisLayoutType +
-        (groupLayouts[selectedGroup].params.orientation[0]
-          ? "-" + groupLayouts[selectedGroup].params.orientation[0]
+        (groupLayouts[selectedGroup].params.orientation
+          ? "-" + groupLayouts[selectedGroup].params.orientation
           : "") +
         (groupLayouts[selectedGroup].params.horiAlignment[0]
           ? "-" + groupLayouts[selectedGroup].params.horiAlignment[0]
@@ -269,8 +269,8 @@ function recordBatchGroupLayout() {
           d3.select("#layoutIndicator" + groupID).text(
             ": " +
               thisLayoutType +
-              (thisLayoutJson.params.orientation[0]
-                ? "-" + thisLayoutJson.params.orientation[0]
+              (thisLayoutJson.params.orientation
+                ? "-" + thisLayoutJson.params.orientation
                 : "") +
               (thisLayoutJson.params.horiAlignment[0]
                 ? "-" + thisLayoutJson.params.horiAlignment[0]

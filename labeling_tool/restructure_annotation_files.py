@@ -6,7 +6,7 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 annotations_folder = os.path.join(script_dir, "annotations")
 
 # Create restructured_annotations directory if it doesn't exist
-restructured_dir = os.path.join(script_dir, "final_annotations_test")
+restructured_dir = os.path.join(script_dir, "annotations_test")
 os.makedirs(restructured_dir, exist_ok=True)
 
 def getObject(g):

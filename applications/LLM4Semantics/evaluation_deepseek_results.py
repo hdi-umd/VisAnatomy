@@ -49,7 +49,7 @@ class ContinuousPerformanceEvaluator:
             json.dump(self.progress_data, f, indent=2)
     
     def extract_ground_truth_elements(self, gt_data: dict) -> Dict[str, Set[str]]:
-        """Extract ground truth elements from final_annotations format"""
+        """Extract ground truth elements from annotations format"""
         gt_elements = {
             "main_chart_marks": set(),
             "axis_labels": set(),
@@ -391,7 +391,7 @@ class ContinuousPerformanceEvaluator:
 def main():
     # Configuration
     llm_results_dir = "results"
-    ground_truth_dir = "../../final_annotations"
+    ground_truth_dir = "../../annotations"
     evaluation_output_dir = "evaluation_results_deepseek"
     
     # Initialize continuous evaluator

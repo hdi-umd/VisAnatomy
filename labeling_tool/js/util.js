@@ -35,7 +35,7 @@ function tryLoadAnnotations(filename) {
   }
   axisCount = 0;
 
-  fetch("../final_annotations_test/" + filename + ".json")
+  fetch("../annotations/" + filename + ".json")
     .then((response) => {
       if (!response.ok) {
         console.log("no annotation file found");

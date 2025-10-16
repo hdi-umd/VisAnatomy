@@ -1,10 +1,10 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import json
 import os
-from restructure_annotation_files import restructure_annotations
+# from restructure_annotation_files import restructure_annotations
 
 
-FINAL_ANNOTATIONS_TEST_FOLDER = "final_annotations_test"
+# FINAL_ANNOTATIONS_TEST_FOLDER = "annotations_test"
 
 class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
 #annotations path: /annotations
@@ -39,30 +39,29 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
     
     def do_POST(self):
         print(self.path)
-        if self.path == "/save_and_restructure":
-            # Save and restructure the annotations
-            content_length = int(self.headers['Content-Length'])
-            post_data = json.loads(self.rfile.read(content_length).decode('utf-8'))
-            print(post_data)
-            filename = post_data["chart"] + ".json"
-            annotations = post_data["annotations"]
+        # if self.path == "/save_and_restructure":
+        #     # Save and restructure the annotations
+        #     content_length = int(self.headers['Content-Length'])
+        #     post_data = json.loads(self.rfile.read(content_length).decode('utf-8'))
+        #     print(post_data)
+        #     filename = post_data["chart"] + ".json"
+        #     annotations = post_data["annotations"]
 
-            # Restructure the annotations
-            restructured_annotations = restructure_annotations(annotations)
+        #     # Restructure the annotations
+        #     restructured_annotations = restructure_annotations(annotations)
 
-            # Save the restructured annotations to the final_annotations_test folder
-            os.makedirs(FINAL_ANNOTATIONS_TEST_FOLDER, exist_ok=True)
-            restructured_path = os.path.join(FINAL_ANNOTATIONS_TEST_FOLDER, filename)
-            with open(restructured_path, "w") as restructured_file:
-                json.dump(restructured_annotations, restructured_file, indent=4)
+        #     # Save the restructured annotations to the final_annotations_test folder
+        #     os.makedirs(FINAL_ANNOTATIONS_TEST_FOLDER, exist_ok=True)
+        #     restructured_path = os.path.join(FINAL_ANNOTATIONS_TEST_FOLDER, filename)
+        #     with open(restructured_path, "w") as restructured_file:
+        #         json.dump(restructured_annotations, restructured_file, indent=4)
 
-            # Respond to the client
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json")
-            self.end_headers()
-            self.wfile.write(json.dumps({"message": "File saved and restructured successfully"}).encode())
-
-        elif self.path.startswith("/save_file"):
+        #     # Respond to the client
+        #     self.send_response(200)
+        #     self.send_header("Content-Type", "application/json")
+        #     self.end_headers()
+        #     self.wfile.write(json.dumps({"message": "File saved and restructured successfully"}).encode())
+        if self.path.startswith("/save_file"):
             print("saving new file")
             try:
                 content_length = int(self.headers['Content-Length'])

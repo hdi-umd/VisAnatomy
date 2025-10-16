@@ -52,7 +52,7 @@ class OpenAIResultsMatchedEvaluator:
             return json.load(f)
     
     def extract_ground_truth_elements(self, gt_data: dict) -> Dict[str, Set[str]]:
-        """Extract ground truth elements from final_annotations format"""
+        """Extract ground truth elements from annotations format"""
         gt_elements = {
             "main_chart_marks": set(),
             "axis_labels": set(),
@@ -849,7 +849,7 @@ api: OpenAI Batch API
 def main():
     # Configuration
     OPENAI_RESULTS_DIR = "results_openai"
-    GROUND_TRUTH_DIR = "../../final_annotations"
+    GROUND_TRUTH_DIR = "../../annotations"
     DEEPSEEK_EVALUATION_FILE = "evaluation_results/evaluation_progress.json"
     EVALUATION_OUTPUT_DIR = "evaluation_results_openai_matched"
     
