@@ -1,97 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script>
-      const handler = d3.drag();
-    </script>
-    <link rel="shortcut icon" href="#" />
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
 
-    <link rel="stylesheet" href="./labeling_tool/annotationPage.css" />
-    <title> </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css"
-    />
-    <script
-      type="text/javascript"
-      charset="utf8"
-      src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"
-    ></script>
-    <script type="text/javascript" src="labeling_tool/js/html2canvas.min.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/cleanup.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/display.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/extract.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/util.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/preprocess-interaction.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/markAnnotation.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/groupAnnotation.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/layoutAnnotation.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/encodingAnnotation.js"></script>
-    <script type="text/javascript" src="labeling_tool/js/constraintAnnotation.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
-    <script type="text/javascript">
-      // has to be placed here to be able to called the KeyPress function in process.js
-      document.onkeydown = KeyPress;
-    </script>
-    <script src="labeling_tool/js/atlas.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-        crossorigin="anonymous"></script>
-  </head>
-  <body ondrop="drop(event)" ondragover="allowDrop(event)">
-    <div class="notification" id="alertBox">
-      "notification info when saving"
-    </div>
-    <div>
-      <ul id="demoList" class="demos" style="height: 90%"></ul>
-    </div>
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const handler = d3.drag();
+  </script>
+  <link rel="shortcut icon" href="#" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-    <div id="preprocessUI" style="visibility: visible; margin: 0 auto">
-      <div id="annotationStages">
-        <button
-          id="prevButton"
-          onclick="prevSection()"
-          style="position: absolute; left: 0; top: 8px"
-        >
-          Back
-        </button>
-        <div id="breadcrumb"></div>
-        <button
-          id="nextButton"
-          onclick="nextSection()"
-          style="position: absolute; right: 0; top: 8px"
-        >
-          Next
-        </button>
+  <link rel="stylesheet" href="./labeling_tool/annotationPage.css" />
+  <title> </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css" />
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/html2canvas.min.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/cleanup.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/display.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/extract.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/util.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/preprocess-interaction.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/markAnnotation.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/groupAnnotation.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/layoutAnnotation.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/encodingAnnotation.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/constraintAnnotation.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+  <script type="text/javascript">
+    // has to be placed here to be able to called the KeyPress function in process.js
+    document.onkeydown = KeyPress;
+  </script>
+  <script src="labeling_tool/js/atlas.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+</head>
 
-        <i
-          class="far fa-save"
-          id="saveButton"
-          onclick="post()"
-          style="position: absolute; top: 8px; right: -40px; font-size: 30px"
-        ></i>
+<body ondrop="drop(event)" ondragover="allowDrop(event)">
+  <div class="notification" id="alertBox">
+    "notification info when saving"
+  </div>
+  <div>
+    <ul id="demoList" class="demos" style="height: 90%"></ul>
+  </div>
 
-        <!-- <button
+  <div id="preprocessUI" style="visibility: visible; margin: 0 auto">
+    <div id="annotationStages">
+      <button id="prevButton" onclick="prevSection()" style="position: absolute; left: 0; top: 8px">
+        Back
+      </button>
+      <div id="breadcrumb"></div>
+      <button id="nextButton" onclick="nextSection()" style="position: absolute; right: 0; top: 8px">
+        Next
+      </button>
+
+      <i class="far fa-save" id="saveButton" onclick="post()"
+        style="position: absolute; top: 8px; right: -40px; font-size: 30px"></i>
+
+      <!-- <button
           id="saveAllButton"
           onclick="saveAllAnnotations()"
           style="position: absolute; top: 8px; right: -120px; font-size: 14px; padding: 5px 10px; cursor: pointer;"
@@ -99,301 +70,185 @@
           Save All
         </button> -->
 
-        <!-- <button
+      <!-- <button
           id="saveButton"
           onclick="post()"
           style="position: absolute; top: 8px; right: calc(2%)"
         >
           Save
         </button> -->
-      </div>
+    </div>
 
-      <div class="pop-out-container" id="popOutContainer">
-        <span class="close-button" id="closeButton">&times;</span>
-        <div class="pop-out-content">
-          Axes allow you to associate data points with specific values. Axis
-          ticks help indicate the value of a chart's point. Axis titles provide
-          you with context about these values. Axis labels describe portions of
-          the axis.<br /><br />
-          Legends help you to understand marks used in a visualization. Titles
-          describe what part of the visualization the legend is describing. Keys
-          are items that correspond to marks in the chart. Key labels describe
-          what each key represents.<br /><br />
-          Please refer to this
-          <a
-            href="https://docs.google.com/presentation/d/16inrHVY68xlDkUvm1-vOiDvc73Lzdrz4k1TeXARsj_g/edit#slide=id.g284e6c3512f_0_24"
-            target="_blank"
-            >link</a
-          >
-          for more information.
-        </div>
+    <div class="pop-out-container" id="popOutContainer">
+      <span class="close-button" id="closeButton">&times;</span>
+      <div class="pop-out-content">
+        Axes allow you to associate data points with specific values. Axis
+        ticks help indicate the value of a chart's point. Axis titles provide
+        you with context about these values. Axis labels describe portions of
+        the axis.<br /><br />
+        Legends help you to understand marks used in a visualization. Titles
+        describe what part of the visualization the legend is describing. Keys
+        are items that correspond to marks in the chart. Key labels describe
+        what each key represents.<br /><br />
+        Please refer to this
+        <a href="https://docs.google.com/presentation/d/16inrHVY68xlDkUvm1-vOiDvc73Lzdrz4k1TeXARsj_g/edit#slide=id.g284e6c3512f_0_24"
+          target="_blank">link</a>
+        for more information.
       </div>
+    </div>
 
-      <div id="container">
-        <div
-          id="rbox1"
-          class="rbox1"
-          style="
+    <div id="container">
+      <div id="rbox1" class="rbox1" style="
             position: absolute;
             top: 10px;
             left: 10px;
             display: block;
             border: #ccc 0px solid;
-          "
-        ></div>
-        <div
-          id="rbox2"
-          class="rbox2"
-          style="
+          "></div>
+      <div id="rbox2" class="rbox2" style="
             position: absolute;
             top: 10px;
             left: 10px;
             display: block;
             pointer-events: none;
             border: #ccc 0px solid;
-          "
-        >
-          <svg
-            id="overlay"
-            height="100%"
-            width="100%"
-            preserveAspectRatio="xMinYMid"
-          >
-            <rect
-              id="overlaySelection"
-              style="
+          ">
+        <svg id="overlay" height="100%" width="100%" preserveAspectRatio="xMinYMid">
+          <rect id="overlaySelection" style="
                 visibility: hidden;
                 stroke-width: 2px;
                 stroke: blue;
                 fill: none;
-              "
-            ></rect>
-          </svg>
-        </div>
-        <div id="chartTitleDiv" style="overflow-y: auto; max-height: 400px">
-          <div style="margin-left: 5px; font-weight: bold">Chart Title</div>
-          <div
-            id="chartTitle"
-            class="chartTitle"
-            ondrop="drop(event)"
-            ondragover="allowDrop(event)"
-          ></div>
-        </div>
-        <div class="mainbox" id="axisAndLegend" style="overflow-y: auto">
-          <div style="margin-left: 5px">
-            <span style="margin-right: 20px; font-weight: bold"
-              >Axes and Legends</span
-            >
-            <button
-              style="height: 20px; cursor: pointer; font-size: 12.5px"
-              onclick="addAxisConfiguration();"
-            >
-              Add an Axis
-            </button>
-            <!-- <span
+              "></rect>
+        </svg>
+      </div>
+      <div id="chartTitleDiv" style="overflow-y: auto; max-height: 400px">
+        <div style="margin-left: 5px; font-weight: bold">Chart Title</div>
+        <div id="chartTitle" class="chartTitle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+      <div class="mainbox" id="axisAndLegend" style="overflow-y: auto">
+        <div style="margin-left: 5px">
+          <span style="margin-right: 20px; font-weight: bold">Axes and Legends</span>
+          <button style="height: 20px; cursor: pointer; font-size: 12.5px" onclick="addAxisConfiguration();">
+            Add an Axis
+          </button>
+          <!-- <span
               ><img
                 id="questionMark"
                 src="img/question mark.png"
                 alt="Question Mark"
                 style="width: 15px; height: 15px; cursor: pointer"
             /></span> -->
-          </div>
-          <div class="float-container" id="buttons" style="display: block">
-            <!-- This is the main axis div -->
-            <div class="axisDiv" id="axis_1">
-              <!--This is the first part of the column-->
+        </div>
+        <div class="float-container" id="buttons" style="display: block">
+          <!-- This is the main axis div -->
+          <div class="axisDiv" id="axis_1">
+            <!--This is the first part of the column-->
 
-              <div class="axisRow">
-                <span class="deleteAxis" onclick="deleteAxis(1)">
-                  <svg width="20" height="20">
-                    <circle cx="10" cy="10" r="8" fill="#FF6666" />
-                    <line
-                      x1="6"
-                      y1="10"
-                      x2="14"
-                      y2="10"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-                <div class="axisMeta">
-                  <select
-                    class="axisType fieldType"
-                    id="axisType_1"
-                    onchange="axisTypeChanged(1)"
-                    style="font-size: 12px; width: 60px; color: #fff"
-                  >
-                    <option value="x">X</option>
-                    <option value="y">Y</option>
-                    <option value="radian">Radian</option>
-                    <option value="angular">Angular</option>
-                  </select>
-                  <b>Axis</b>
-                  <div style="display: inline-block">
-                    <select
-                      class="fieldType"
-                      id="fieldType_1"
-                      onchange="fieldTypeChanged(1)"
-                      style="width: 100px; font-size: 12px"
-                    >
-                      <option value="Null">none</option>
-                      <option value="string">categories</option>
-                      <option value="number">numbers</option>
-                      <option value="date">dates</option>
-                    </select>
-                    <input
-                      type="image"
-                      src="labeling_tool/img/select-area.png"
-                      onclick="activateAreaSelect(1);"
-                      id="axis1Area"
-                      width="16px"
-                      height="16px"
-                      class="selectAreaBtn"
-                      style="margin-left: 0px; margin-top: 5px"
-                    />
-                  </div>
-                </div>
-
-                <!--This is the second part of the column (title)-->
-                <div
-                  class="axisTitle"
-                  id="axisTitle_1"
-                  ondrop="drop(event)"
-                  ondragover="allowDrop(event)"
-                ></div>
-              </div>
-
-              <!--This is the third part of the column (the label)-->
-              <div
-                class="axisLabels"
-                id="axisLabel_1"
-                ondrop="drop(event)"
-                ondragover="allowDrop(event)"
-              ></div>
-            </div>
-
-            <div class="axisDiv" id="axis_2">
-              <!--This is the first part of the column-->
-
-              <div class="axisRow">
-                <span class="deleteAxis" onclick="deleteAxis(2)">
-                  <svg width="20" height="20">
-                    <circle cx="10" cy="10" r="8" fill="#FF6666" />
-                    <line
-                      x1="6"
-                      y1="10"
-                      x2="14"
-                      y2="10"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-                <div class="axisMeta">
-                  <select
-                    class="axisType fieldType"
-                    id="axisType_2"
-                    onchange="axisTypeChanged(2)"
-                    style="font-size: 12px; width: 60px"
-                  >
-                    <option value="x">X</option>
-                    <option value="y">Y</option>
-                    <option value="radian">Radian</option>
-                    <option value="angular">Angular</option>
-                  </select>
-                  <b>Axis</b>
-                  <div style="display: inline-block">
-                    <select
-                      class="fieldType"
-                      id="fieldType_2"
-                      onchange="fieldTypeChanged(2)"
-                      style="width: 100px; font-size: 12px"
-                    >
-                      <option value="Null">none</option>
-                      <option value="string">categories</option>
-                      <option value="number">numbers</option>
-                      <option value="date">dates</option>
-                    </select>
-                    <input
-                      type="image"
-                      src="labeling_tool/img/select-area.png"
-                      onclick="activateAreaSelect(2);"
-                      id="axis2Area"
-                      width="16px"
-                      height="16px"
-                      class="selectAreaBtn"
-                      style="margin-left: 0px; margin-top: 5px"
-                    />
-                  </div>
-                </div>
-
-                <!--This is the second part of the column (title)-->
-                <div
-                  class="axisTitle"
-                  id="axisTitle_2"
-                  ondrop="drop(event)"
-                  ondragover="allowDrop(event)"
-                ></div>
-              </div>
-
-              <!--This is the third part of the column (the label)-->
-
-              <div
-                class="axisLabels"
-                id="axisLabel_2"
-                ondrop="drop(event)"
-                ondragover="allowDrop(event)"
-              ></div>
-            </div>
-
-            <!-- This is the main legend div -->
-            <div class="axisDiv">
-              <div class="axisRow">
-                <div class="axisMeta">
-                  <b>Legend</b>
-                  <select
-                    class="fieldType"
-                    id="legendFieldType"
-                    onchange="legendFieldTypeChanged()"
-                  >
+            <div class="axisRow">
+              <span class="deleteAxis" onclick="deleteAxis(1)">
+                <svg width="20" height="20">
+                  <circle cx="10" cy="10" r="8" fill="#FF6666" />
+                  <line x1="6" y1="10" x2="14" y2="10" stroke="white" stroke-width="2" />
+                </svg>
+              </span>
+              <div class="axisMeta">
+                <select class="axisType fieldType" id="axisType_1" onchange="axisTypeChanged(1)"
+                  style="font-size: 12px; width: 60px; color: #fff">
+                  <option value="x">X</option>
+                  <option value="y">Y</option>
+                  <option value="radian">Radian</option>
+                  <option value="angular">Angular</option>
+                </select>
+                <b>Axis</b>
+                <div style="display: inline-block">
+                  <select class="fieldType" id="fieldType_1" onchange="fieldTypeChanged(1)"
+                    style="width: 100px; font-size: 12px">
                     <option value="Null">none</option>
                     <option value="string">categories</option>
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
-                  <input
-                    type="image"
-                    src="labeling_tool/img/select-area.png"
-                    id="legendArea"
-                    onclick="activateAreaSelect('legend');"
-                    width="16px"
-                    height="16px"
-                    class="selectAreaBtn"
-                  />
+                  <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(1);"
+                    id="axis1Area" width="16px" height="16px" class="selectAreaBtn"
+                    style="margin-left: 0px; margin-top: 5px" />
                 </div>
-                <div
-                  class="axisTitle"
-                  ondrop="drop(event)"
-                  ondragover="allowDrop(event)"
-                  id="legendTitle"
-                ></div>
               </div>
-              <div class="axisRow">
-                <div
-                  class="axisLabels"
-                  id="legendLabels"
-                  ondrop="drop(event)"
-                  ondragover="allowDrop(event)"
-                ></div>
+
+              <!--This is the second part of the column (title)-->
+              <div class="axisTitle" id="axisTitle_1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <!--This is the third part of the column (the label)-->
+            <div class="axisLabels" id="axisLabel_1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+
+          <div class="axisDiv" id="axis_2">
+            <!--This is the first part of the column-->
+
+            <div class="axisRow">
+              <span class="deleteAxis" onclick="deleteAxis(2)">
+                <svg width="20" height="20">
+                  <circle cx="10" cy="10" r="8" fill="#FF6666" />
+                  <line x1="6" y1="10" x2="14" y2="10" stroke="white" stroke-width="2" />
+                </svg>
+              </span>
+              <div class="axisMeta">
+                <select class="axisType fieldType" id="axisType_2" onchange="axisTypeChanged(2)"
+                  style="font-size: 12px; width: 60px">
+                  <option value="x">X</option>
+                  <option value="y">Y</option>
+                  <option value="radian">Radian</option>
+                  <option value="angular">Angular</option>
+                </select>
+                <b>Axis</b>
+                <div style="display: inline-block">
+                  <select class="fieldType" id="fieldType_2" onchange="fieldTypeChanged(2)"
+                    style="width: 100px; font-size: 12px">
+                    <option value="Null">none</option>
+                    <option value="string">categories</option>
+                    <option value="number">numbers</option>
+                    <option value="date">dates</option>
+                  </select>
+                  <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(2);"
+                    id="axis2Area" width="16px" height="16px" class="selectAreaBtn"
+                    style="margin-left: 0px; margin-top: 5px" />
+                </div>
               </div>
+
+              <!--This is the second part of the column (title)-->
+              <div class="axisTitle" id="axisTitle_2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <!--This is the third part of the column (the label)-->
+
+            <div class="axisLabels" id="axisLabel_2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+
+          <!-- This is the main legend div -->
+          <div class="axisDiv">
+            <div class="axisRow">
+              <div class="axisMeta">
+                <b>Legend</b>
+                <select class="fieldType" id="legendFieldType" onchange="legendFieldTypeChanged()">
+                  <option value="Null">none</option>
+                  <option value="string">categories</option>
+                  <option value="number">numbers</option>
+                  <option value="date">dates</option>
+                </select>
+                <input type="image" src="labeling_tool/img/select-area.png" id="legendArea"
+                  onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn" />
+              </div>
+              <div class="axisTitle" ondrop="drop(event)" ondragover="allowDrop(event)" id="legendTitle"></div>
+            </div>
+            <div class="axisRow">
+              <div class="axisLabels" id="legendLabels" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div
-          id="generalizedSelection"
-          style="
+      <div id="generalizedSelection" style="
             position: absolute;
             top: 20px;
             right: 10px;
@@ -402,232 +257,161 @@
             width: 40%;
             height: calc(100% - 50px);
             border: #ccc 0px solid;
-          "
-        >
-          <div style="width: 100%; padding: 5px">
-            <div
-              id="markRoles"
-              style="
+          ">
+        <div style="width: 100%; padding: 5px">
+          <div id="markRoles" style="
                 flex-grow: 1;
                 background-color: lightblue;
                 margin-right: 5px;
                 padding-top: 5px;
                 padding-left: 10px;
                 padding-bottom: 10px;
-              "
-            >
-              <div style="display: flex; justify-content: space-between">
-                <div style="flex-grow: 1; margin-right: 5px">
-                  Assign a Mark Type
-                  <select
-                    class="fieldType"
-                    id="markTypeSelection"
-                    onchange="markAnnotationChanged('Type')"
-                  >
-                    <option value="none">Not Assigned</option>
-                    <option value="Straight Line">Straight Line</option>
-                    <option value="Polyline">Polyline</option>
-                    <option value="Rectangle">Rectangle</option>
-                    <option value="Polygon">Polygon</option>
-                    <option value="geoPolygon">geoPolygon</option>
-                    <option value="Circle">Circle</option>
-                    <option value="Ellipse">Ellipse</option>
-                    <option value="Pie">Pie</option>
-                    <option value="Arc">Arc</option>
-                    <option value="Area">Area</option>
-                    <option value="Image">Image</option>
-                    <option value="Text">Text</option>
-                    <option value="Path">Path</option>
-                  </select>
+              ">
+            <div style="display: flex; justify-content: space-between">
+              <div style="flex-grow: 1; margin-right: 5px">
+                Assign a Mark Type
+                <select class="fieldType" id="markTypeSelection" onchange="markAnnotationChanged('Type')">
+                  <option value="none">Not Assigned</option>
+                  <option value="Straight Line">Straight Line</option>
+                  <option value="Polyline">Polyline</option>
+                  <option value="Rectangle">Rectangle</option>
+                  <option value="Polygon">Polygon</option>
+                  <option value="geoPolygon">geoPolygon</option>
+                  <option value="Circle">Circle</option>
+                  <option value="Ellipse">Ellipse</option>
+                  <option value="Pie">Pie</option>
+                  <option value="Arc">Arc</option>
+                  <option value="Area">Area</option>
+                  <option value="Image">Image</option>
+                  <option value="Text">Text</option>
+                  <option value="Path">Path</option>
+                </select>
+              </div>
+              <div style="flex-grow: 1; margin-left: 5px">
+                Area Mark Baseline
+                <select class="fieldType" id="areaMarkBaselineSelection"
+                  onchange="markAnnotationChanged('areaMarkBaseline')">
+                  <option value="none">Not Assigned</option>
+                  <option value="Left">Left</option>
+                  <option value="Right">Right</option>
+                  <option value="Top">Top</option>
+                  <option value="Bottom">Bottom</option>
+                  <option value="Center">Center</option>
+                  <option value="Middle">Middle</option>
+                </select>
+              </div>
+              <div id="dropdown" class="dropdown">
+                <div class="selected-option" onclick="toggleDropdown()">
+                  Assign a Mark Role
                 </div>
-                <div style="flex-grow: 1; margin-left: 5px">
-                  Area Mark Baseline
-                  <select
-                    class="fieldType"
-                    id="areaMarkBaselineSelection"
-                    onchange="markAnnotationChanged('areaMarkBaseline')"
-                  >
-                    <option value="none">Not Assigned</option>
-                    <option value="Left">Left</option>
-                    <option value="Right">Right</option>
-                    <option value="Top">Top</option>
-                    <option value="Bottom">Bottom</option>
-                    <option value="Center">Center</option>
-                    <option value="Middle">Middle</option>
-                  </select>
-                </div>
-                <div id="dropdown" class="dropdown">
-                  <div class="selected-option" onclick="toggleDropdown()">
-                    Assign a Mark Role
+                <div id="optionList" class="option-list">
+                  <div class="option" onclick="markAnnotationChanged('none')">
+                    Not Assigned
                   </div>
-                  <div id="optionList" class="option-list">
-                    <div class="option" onclick="markAnnotationChanged('none')">
-                      Not Assigned
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Chart Title')"
-                    >
-                      Chart Title
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Main Chart Mark')"
-                    >
-                      Main Chart Mark
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Horizontal Gridline')"
-                    >
-                      Horizontal Gridline
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Vertical Gridline')"
-                    >
-                      Vertical Gridline
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Radian Gridline')"
-                    >
-                      Radian Gridline
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Angular Gridline')"
-                    >
-                      Angular Gridline
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('Annotation')"
-                    >
-                      Annotation
-                    </div>
-                    <div
-                      class="option"
-                      onclick="toggleSublist(event, 'Axis Label')"
-                    >
-                      Axis Label
-                      <div class="sublist" id="sublabel"></div>
-                    </div>
-                    <div
-                      class="option"
-                      onclick="toggleSublist(event, 'Axis Title')"
-                    >
-                      Axis Title
-                      <div class="sublist" id="subtitle"></div>
-                    </div>
-                    <div
-                      class="option"
-                      onclick="toggleSublist(event, 'Axis Path')"
-                    >
-                      Axis Path
-                      <div class="sublist" id="subpath"></div>
-                    </div>
-                    <div
-                      class="option"
-                      onclick="toggleSublist(event, 'Axis Ticks')"
-                    >
-                      Axis Ticks
-                      <div class="sublist" id="subticks"></div>
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('legend Label')"
-                    >
-                      Legend Label
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('legend Title')"
-                    >
-                      Legend Title
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('legend Mark')"
-                    >
-                      Legend Mark
-                    </div>
-                    <div
-                      class="option"
-                      onclick="markAnnotationChanged('legend Ticks')"
-                    >
-                      Legend Ticks
-                    </div>
+                  <div class="option" onclick="markAnnotationChanged('Chart Title')">
+                    Chart Title
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Main Chart Mark')">
+                    Main Chart Mark
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Horizontal Gridline')">
+                    Horizontal Gridline
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Vertical Gridline')">
+                    Vertical Gridline
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Radian Gridline')">
+                    Radian Gridline
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Angular Gridline')">
+                    Angular Gridline
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('Annotation')">
+                    Annotation
+                  </div>
+                  <div class="option" onclick="toggleSublist(event, 'Axis Label')">
+                    Axis Label
+                    <div class="sublist" id="sublabel"></div>
+                  </div>
+                  <div class="option" onclick="toggleSublist(event, 'Axis Title')">
+                    Axis Title
+                    <div class="sublist" id="subtitle"></div>
+                  </div>
+                  <div class="option" onclick="toggleSublist(event, 'Axis Path')">
+                    Axis Path
+                    <div class="sublist" id="subpath"></div>
+                  </div>
+                  <div class="option" onclick="toggleSublist(event, 'Axis Ticks')">
+                    Axis Ticks
+                    <div class="sublist" id="subticks"></div>
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('legend Label')">
+                    Legend Label
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('legend Title')">
+                    Legend Title
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('legend Mark')">
+                    Legend Mark
+                  </div>
+                  <div class="option" onclick="markAnnotationChanged('legend Ticks')">
+                    Legend Ticks
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div style="display: flex; flex-grow: 1; width: 100%; height: 95%">
-            <div
-              style="
+        <div style="display: flex; flex-grow: 1; width: 100%; height: 95%">
+          <div style="
                 padding: 0px;
                 margin-bottom: 10px;
                 vertical-align: top;
                 width: 49%;
-              "
-            >
-              <h4>
-                <!-- All Marks (<span style="color: red" id="numberOfMarksSelected">
+              ">
+            <h4>
+              <!-- All Marks (<span style="color: red" id="numberOfMarksSelected">
                   0
                 </span>
                 Selected) -->
-                <span style="color: red" id="numberOfMarksSelected">0</span> of
-                <span style="color: black" id="totalNumberOfMarks"></span> Marks
-                Selected
-                <button onclick="disableAllMarkSelections()">Clear</button>
-              </h4>
-              <div
-                id="allMarks"
-                style="
+              <span style="color: red" id="numberOfMarksSelected">0</span> of
+              <span style="color: black" id="totalNumberOfMarks"></span> Marks
+              Selected
+              <button onclick="disableAllMarkSelections()">Clear</button>
+            </h4>
+            <div id="allMarks" style="
                   height: 85%;
                   overflow: scroll;
                   overflow: -moz-scrollbars-vertical;
                   border: 1px solid #ccc;
                   padding-left: 3px;
-                "
-              ></div>
-            </div>
-            <div
-              style="
+                "></div>
+          </div>
+          <div style="
                 padding: 5px;
                 margin-bottom: 10px;
                 vertical-align: top;
                 width: 49%;
-              "
-            >
-              <h4 style="visibility: hidden">Batch Selections</h4>
-              <div
-                id="markSelections"
-                style="
+              ">
+            <h4 style="visibility: hidden">Batch Selections</h4>
+            <div id="markSelections" style="
                   height: 85%;
                   overflow: scroll;
                   overflow: -moz-scrollbars-vertical;
-                "
-              ></div>
-            </div>
+                "></div>
           </div>
         </div>
-        <div
-          id="groupSelection"
-          style="
+      </div>
+      <div id="groupSelection" style="
             position: absolute;
             top: 20px;
             right: 10px;
             width: 40%;
             height: calc(100% - 50px);
             border: #ccc 0px solid;
-          "
-        >
-          <div
-            id="higherLevelGroups"
-            style="
+          ">
+        <div id="higherLevelGroups" style="
               position: absolute;
               top: 0;
               left: 0;
@@ -639,124 +423,94 @@
               padding: 5px;
               margin-bottom: 10px;
               visibility: hidden;
-            "
-          >
-            <h4>
-              Select groups by clicking or
-              <button
-                type="button"
-                style="
+            ">
+          <h4>
+            Select groups by clicking or
+            <button type="button" style="
                   padding: 1px 1px;
                   margin-left: 2.5px;
                   margin-right: 2.5px;
                   vertical-align: middle;
-                "
-                onclick="selectAllGroups()"
-              >
-                select all groups
-              </button>
+                " onclick="selectAllGroups()">
+              select all groups
+            </button>
 
-              <!-- to select all current groups, please click -->
-              <!-- if you want to redo the grouping, please click -->
-            </h4>
-            <div style="margin-bottom: 40px">
-              <button
-                type="button"
-                style="
+            <!-- to select all current groups, please click -->
+            <!-- if you want to redo the grouping, please click -->
+          </h4>
+          <div style="margin-bottom: 40px">
+            <button type="button" style="
                   padding: 1px 1px;
                   margin-left: 2.5px;
                   margin-right: 2.5px;
                   vertical-align: middle;
-                "
-                onclick="mergeGroups()"
-              >
-                merge selected groups
-              </button>
-              <button
-                type="button"
-                style="
+                " onclick="mergeGroups()">
+              merge selected groups
+            </button>
+            <button type="button" style="
                   padding: 1px 1px;
                   margin-left: 2.5px;
                   margin-right: 2.5px;
                   vertical-align: middle;
-                "
-                onclick="clearMergedGroups()"
-              >
-                clear grouping
-              </button>
-            </div>
+                " onclick="clearMergedGroups()">
+              clear grouping
+            </button>
           </div>
-          <div
-            id="current-section"
-            style="
+        </div>
+        <div id="current-section" style="
               border: 0px solid rgb(102, 105, 105);
               padding: 5px;
               margin-bottom: 10px;
-            "
-          >
-            <div style="font-weight: bold; margin-bottom: 3px">
-              Select a group of main chart marks by drawing a rectangle using
-              your mouse on the visualization; or choose one of the options
-              below:
-            </div>
-            <button class="btn selectionBtn" onclick="selectAllMarks()">
-              <!-- selectAllMarks -->
-              Select all main chart marks
-            </button>
-            <!-- to select all marks. -->
-            <div id="typeBasedSelection"></div>
-            <!-- You can also click the following button to select all marks of a
+            ">
+          <div style="font-weight: bold; margin-bottom: 3px">
+            Select a group of main chart marks by drawing a rectangle using
+            your mouse on the visualization; or choose one of the options
+            below:
+          </div>
+          <button class="btn selectionBtn" onclick="selectAllMarks()">
+            <!-- selectAllMarks -->
+            Select all main chart marks
+          </button>
+          <!-- to select all marks. -->
+          <div id="typeBasedSelection"></div>
+          <!-- You can also click the following button to select all marks of a
             specific color: -->
-            <div id="colorBasedGroupSelection"></div>
+          <div id="colorBasedGroupSelection"></div>
 
-            <div style="margin-top: 20px">
-              <span id="selectionForGrouping">0</span> marks selected
-              <button
-                class="btn"
-                id="button4FormingGroups"
-                style="margin-bottom: 5px"
-                onclick="clickEvent4FormingGroupButton(event)"
-              >
-                <!-- selected marks form a group! -->
-                Group selected marks
-              </button>
-            </div>
-            <div
-              id="selectedGroup"
-              style="
+          <div style="margin-top: 20px">
+            <span id="selectionForGrouping">0</span> marks selected
+            <button class="btn" id="button4FormingGroups" style="margin-bottom: 5px"
+              onclick="clickEvent4FormingGroupButton(event)">
+              <!-- selected marks form a group! -->
+              Group selected marks
+            </button>
+          </div>
+          <div id="selectedGroup" style="
                 border: 1.5px solid #aaa;
                 height: 75px;
                 overflow: scroll;
                 overflow: -moz-scrollbars-vertical;
                 padding: 5px;
                 margin: 0px 0 5px 0;
-              "
-            ></div>
-          </div>
+              "></div>
+        </div>
 
-          <div id="specifiedGroupsHeader" style="margin-top: 20px">
-            Current grouping
-            <button
-              type="button"
-              onclick="clearGrouping()"
-              style="margin-bottom: 5px"
-            >
-              Clear Grouping
-            </button>
-          </div>
-          <div
-            id="specifiedGroups"
-            style="
+        <div id="specifiedGroupsHeader" style="margin-top: 20px">
+          Current grouping
+          <button type="button" onclick="clearGrouping()" style="margin-bottom: 5px">
+            Clear Grouping
+          </button>
+        </div>
+        <div id="specifiedGroups" style="
               overflow: scroll;
               overflow: -moz-scrollbars-vertical;
               height: 200px;
               border: 0.5px solid #aaa;
               padding: 5px;
               margin-bottom: 10px;
-            "
-          >
-            <!-- <h4> -->
-            <!-- Here display specified mark groups. Once all the main chart marks
+            ">
+          <!-- <h4> -->
+          <!-- Here display specified mark groups. Once all the main chart marks
               have been grouped, you can further
               <button
                 type="button"
@@ -771,8 +525,8 @@
                 specify higher-level groups
               </button> -->
 
-            <!-- Click -->
-            <!-- <button
+          <!-- Click -->
+          <!-- <button
                 type="button"
                 style="
                   padding: 1px 1px;
@@ -784,52 +538,40 @@
               >
                 redoGrouping
               </button> -->
-            <!-- if you want to redo the lowest-level grouping. -->
-            <!-- </h4> -->
-          </div>
-          <button
-            type="button"
-            style="
+          <!-- if you want to redo the lowest-level grouping. -->
+          <!-- </h4> -->
+        </div>
+        <button type="button" style="
               padding: 3px;
               margin-left: 2.5px;
               margin-right: 2.5px;
               margin-top: 20px;
               vertical-align: middle;
-            "
-            id="higherGroupBtn"
-            onclick="go2HigherGrouping()"
-          >
-            Next: Specify higher-level groups >>
-          </button>
+            " id="higherGroupBtn" onclick="go2HigherGrouping()">
+          Next: Specify higher-level groups >>
+        </button>
 
-          <div
-            id="possibleOtherGroupsContainer"
-            style="
+        <div id="possibleOtherGroupsContainer" style="
               visibility: hidden;
               border: 2px solid rgb(102, 105, 105);
               padding: 5px;
-            "
-          >
-            <h4>Here display possible other valid mark groups.</h4>
-            <p>
-              Please hover over each label to see the highlight for the
-              corresponding mark group, and decide if you would like to accept
-              it or not by clicking the corresponding button shown below.
-            </p>
-            <div
-              id="possibleOtherGroups"
-              style="
+            ">
+          <h4>Here display possible other valid mark groups.</h4>
+          <p>
+            Please hover over each label to see the highlight for the
+            corresponding mark group, and decide if you would like to accept
+            it or not by clicking the corresponding button shown below.
+          </p>
+          <div id="possibleOtherGroups" style="
                 overflow: scroll;
                 overflow: -moz-scrollbars-vertical;
                 height: 200px;
-              "
-            ></div>
-            <button class="btn" onclick="acceptInferredGroups()">Accept</button>
-            <button class="btn" onclick="rejectInferredGroups()">Reject</button>
-          </div>
+              "></div>
+          <button class="btn" onclick="acceptInferredGroups()">Accept</button>
+          <button class="btn" onclick="rejectInferredGroups()">Reject</button>
         </div>
-        <div
-          style="
+      </div>
+      <div style="
             position: absolute;
             top: 20px;
             right: 10px;
@@ -838,106 +580,80 @@
             width: 40%;
             height: calc(100% - 50px);
             visibility: hidden;
-          "
-        >
-          <div
-            id="LayoutAnnotation"
-            style="
+          ">
+        <div id="LayoutAnnotation" style="
               padding: 25px;
               margin-bottom: 10px;
               vertical-align: top;
               width: 49%;
-            "
-          >
-            <h4>Grouping Structure</h4>
-          </div>
-          <div
-            id="LayoutSpec"
-            style="
+            ">
+          <h4>Grouping Structure</h4>
+        </div>
+        <div id="LayoutSpec" style="
               padding: 25px;
               margin-bottom: 10px;
               vertical-align: top;
               width: 49%;
-            "
-          >
-            <h4 style="text-align: center">Layout Specification</h4>
-            <p>
-              Select a layout type for
-              <span id="selectedGroup4LayoutStage" style="color: red"></span>:
-            </p>
-            <select
-              class="fieldType"
-              id="layoutTypeSelection"
-              onchange="recordlayout()"
-            >
-              <option value="none"></option>
-              <option value="Grid">Grid</option>
-              <option value="Stack">Stack</option>
-              <option value="Packing">Packing</option>
-              <option value="Radial">Radial</option>
-              <option value="Spiral">Spiral</option>
-              <option value="Nested">Nested</option>
-              <option value="Glyph">Glyph</option>
-              <option value="geoCoordinates">geoCoordinates</option>
-            </select>
+            ">
+          <h4 style="text-align: center">Layout Specification</h4>
+          <p>
+            Select a layout type for
+            <span id="selectedGroup4LayoutStage" style="color: red"></span>:
+          </p>
+          <select class="fieldType" id="layoutTypeSelection" onchange="recordlayout()">
+            <option value="none"></option>
+            <option value="Grid">Grid</option>
+            <option value="Stack">Stack</option>
+            <option value="Packing">Packing</option>
+            <option value="Radial">Radial</option>
+            <option value="Spiral">Spiral</option>
+            <option value="Nested">Nested</option>
+            <option value="Glyph">Glyph</option>
+            <option value="geoCoordinates">geoCoordinates</option>
+          </select>
 
-            <div
-              id="layoutDetails"
-              style="
+          <div id="layoutDetails" style="
                 width: 100%;
                 height: 40%;
                 padding-top: 2px;
                 padding-left: 5px;
                 margin-top: 8px;
                 border: 2.5px solid #eee;
-              "
-            >
-              <p>
-                <span> Orientation: </span>
-                <select
-                  class="fieldType"
-                  id="layoutOriSelection"
-                  onchange="recordlayout()"
-                >
-                  <option value="none"></option>
-                  <option value="Horizontal">Horizontal</option>
-                  <option value="Vertical">Vertical</option>
-                  <option value="2-Dimensional">2-Dimensional</option>
-                  <option value="Radian">Radian</option>
-                  <option value="Angular">Angular</option>
-                  <option value="Tangential">Tangential</option>
-                  <option value="Orthogonal">Orthogonal</option>
-                  <option value="Customized">Customized</option>
-                </select>
-              </p>
-              <p>
-                <span> Horizontal Alignment: </span>
-                <select
-                  class="fieldType"
-                  id="horiLayoutAlignSelection"
-                  onchange="recordlayout()"
-                >
-                  <option value="none"></option>
-                  <option value="Left">Left</option>
-                  <option value="Center">Center</option>
-                  <option value="Right">Right</option>
-                </select>
-              </p>
-              <p>
-                <span> Vertical Alignment: </span>
-                <select
-                  class="fieldType"
-                  id="vertLayoutAlignSelection"
-                  onchange="recordlayout()"
-                >
-                  <option value="none"></option>
-                  <option value="Bottom">Bottom</option>
-                  <option value="Middle">Middle</option>
-                  <option value="Top">Top</option>
-                </select>
-              </p>
-            </div>
-            <!-- <button
+              ">
+            <p>
+              <span> Orientation: </span>
+              <select class="fieldType" id="layoutOriSelection" onchange="recordlayout()">
+                <option value="none"></option>
+                <option value="Horizontal">Horizontal</option>
+                <option value="Vertical">Vertical</option>
+                <option value="2-Dimensional">2-Dimensional</option>
+                <option value="Radian">Radian</option>
+                <option value="Angular">Angular</option>
+                <option value="Tangential">Tangential</option>
+                <option value="Orthogonal">Orthogonal</option>
+                <option value="Customized">Customized</option>
+              </select>
+            </p>
+            <p>
+              <span> Horizontal Alignment: </span>
+              <select class="fieldType" id="horiLayoutAlignSelection" onchange="recordlayout()">
+                <option value="none"></option>
+                <option value="Left">Left</option>
+                <option value="Center">Center</option>
+                <option value="Right">Right</option>
+              </select>
+            </p>
+            <p>
+              <span> Vertical Alignment: </span>
+              <select class="fieldType" id="vertLayoutAlignSelection" onchange="recordlayout()">
+                <option value="none"></option>
+                <option value="Bottom">Bottom</option>
+                <option value="Middle">Middle</option>
+                <option value="Top">Top</option>
+              </select>
+            </p>
+          </div>
+          <!-- <button
               class="btn"
               id="button4LayoutSpec1"
               style="margin-top: 10px"
@@ -945,19 +661,58 @@
             >
               Record layout for <span id="selectedGroup4LayoutStage2"></span>
             </button> -->
-            <button
-              class="btn"
-              id="button4LayoutSpec2"
-              style="margin-top: 10px"
-              onclick="recordBatchGroupLayout(event)"
-            >
-              Apply layout for all groups at the same level
+          <button class="btn" id="button4LayoutSpec2" style="margin-top: 10px" onclick="recordBatchGroupLayout(event)">
+            Apply layout for all groups at the same level
+          </button>
+        </div>
+      </div>
+
+      <div style="
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            display: flex;
+            flex-grow: 1;
+            width: 40%;
+            height: calc(100% - 50px);
+            visibility: hidden;
+          ">
+        <div id="EncodingAnnotation" style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            ">
+          <h4>Grouping Structure</h4>
+        </div>
+        <div id="EncodingSpec" style="
+              padding: 25px;
+              margin-bottom: 10px;
+              vertical-align: top;
+              width: 49%;
+            ">
+          <h4 style="text-align: center">Encoded Channels</h4>
+          <p>
+            Click to select one group or mark on the left, a set of channels
+            will show below.
+          </p>
+          <p>
+            Select the channels that encode data for the selected
+            <span id="selectedObjectType"> object </span>
+            <span id="selectedGroup4EncodingStage1" style="color: red; margin-bottom: 2px"></span>:
+          </p>
+          <ul id="channelList"></ul>
+
+          <div>
+            <button class="btn" id="button4EncodingSpec" style="margin-top: 10px" onclick="recordBatchEncoding(event)">
+              Record encodings for <b>all</b> same-level groups / same-type
+              marks
             </button>
           </div>
         </div>
+      </div>
 
-        <div
-          style="
+      <div style="
             position: absolute;
             top: 20px;
             right: 10px;
@@ -966,414 +721,342 @@
             width: 40%;
             height: calc(100% - 50px);
             visibility: hidden;
-          "
-        >
-          <div
-            id="EncodingAnnotation"
-            style="
+          ">
+        <div id="ConstraintAnnotation" style="
               padding: 25px;
               margin-bottom: 10px;
               vertical-align: top;
               width: 49%;
-            "
-          >
-            <h4>Grouping Structure</h4>
-          </div>
-          <div
-            id="EncodingSpec"
-            style="
-              padding: 25px;
-              margin-bottom: 10px;
-              vertical-align: top;
-              width: 49%;
-            "
-          >
-            <h4 style="text-align: center">Encoded Channels</h4>
-            <p>
-              Click to select one group or mark on the left, a set of channels
-              will show below.
-            </p>
-            <p>
-              Select the channels that encode data for the selected
-              <span id="selectedObjectType"> object </span>
-              <span
-                id="selectedGroup4EncodingStage1"
-                style="color: red; margin-bottom: 2px"
-              ></span
-              >:
-            </p>
-            <ul id="channelList"></ul>
-
-            <div>
-              <button
-                class="btn"
-                id="button4EncodingSpec"
-                style="margin-top: 10px"
-                onclick="recordBatchEncoding(event)"
-              >
-                Record encodings for <b>all</b> same-level groups / same-type
-                marks
-              </button>
-            </div>
-          </div>
+            ">
+          <h4>Grouping Structure</h4>
         </div>
-
-        <div
-          style="
-            position: absolute;
-            top: 20px;
-            right: 10px;
-            display: flex;
-            flex-grow: 1;
-            width: 40%;
-            height: calc(100% - 50px);
-            visibility: hidden;
-          "
-        >
-          <div
-            id="ConstraintAnnotation"
-            style="
+        <div id="ConstraintSpec" style="
               padding: 25px;
               margin-bottom: 10px;
               vertical-align: top;
               width: 49%;
-            "
-          >
-            <h4>Grouping Structure</h4>
-          </div>
-          <div
-            id="ConstraintSpec"
-            style="
-              padding: 25px;
-              margin-bottom: 10px;
-              vertical-align: top;
-              width: 49%;
-            "
-          >
-            <h4>
-              Drag a text from the SVG chart and drop it onto its corresponding
-              visual object displayed in the grouping structure to pair them as
-              a text-object linking.
+            ">
+          <h4>
+            Drag a text from the SVG chart and drop it onto its corresponding
+            visual object displayed in the grouping structure to pair them as
+            a text-object linking.
 
-              <p id="pairInfo" style="visibility: hidden">
-                Current pairing
-                <span id="draggingText" style="color: blue"> </span> and
-                <span id="droppingObject" style="color: red"></span>
-              </p>
-            </h4>
+            <p id="pairInfo" style="visibility: hidden">
+              Current pairing
+              <span id="draggingText" style="color: blue"> </span> and
+              <span id="droppingObject" style="color: red"></span>
+            </p>
+          </h4>
 
-            <div
-              id="pairingStructure"
-              style="
+          <div id="pairingStructure" style="
                 overflow: scroll;
                 overflow: -moz-scrollbars-vertical;
                 height: 200px;
                 border: 0.5px solid #aaa;
                 padding: 5px;
                 margin-bottom: 10px;
-              "
-            ></div>
-          </div>
+              "></div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script>
-      const questionMark = document.getElementById("questionMark");
-      const popOutContainer = document.getElementById("popOutContainer");
-      const closeButton = document.getElementById("closeButton");
+  <script>
+    const questionMark = document.getElementById("questionMark");
+    const popOutContainer = document.getElementById("popOutContainer");
+    const closeButton = document.getElementById("closeButton");
 
-      // questionMark.addEventListener("click", function () {
-      //   //when ? is clicked
-      //   popOutContainer.style.display = "block";
-      // });
+    // questionMark.addEventListener("click", function () {
+    //   //when ? is clicked
+    //   popOutContainer.style.display = "block";
+    // });
 
-      closeButton.addEventListener("click", function () {
-        //when the cross mark is clicked
+    closeButton.addEventListener("click", function () {
+      //when the cross mark is clicked
+      popOutContainer.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+      //close window
+      if (
+        event.target !== questionMark &&
+        event.target !== closeButton &&
+        !popOutContainer.contains(event.target)
+      ) {
         popOutContainer.style.display = "none";
-      });
-
-      window.addEventListener("click", function (event) {
-        //close window
-        if (
-          event.target !== questionMark &&
-          event.target !== closeButton &&
-          !popOutContainer.contains(event.target)
-        ) {
-          popOutContainer.style.display = "none";
-        }
-      });
-
-      window.addEventListener("beforeunload", function (event) {
-        event.returnValue = "Are you sure you want to leave?";
-        return "Are you sure you want to leave?";
-      });
-
-      // Initialize the section title and breadcrumb navigation
-      document.addEventListener("DOMContentLoaded", function () {
-        // Initialize breadcrumb navigation
-        updateBreadcrumb();
-      });
-
-      var annotationLoaded = false;
-
-      // breadcrumb ui functions
-      const sectionTitles = [
-        "Axis & Legend",
-        "Marks",
-        "Groups",
-        "Layout",
-        "Encodings",
-        "Constraints",
-      ];
-
-      var currentSectionIndex = 0;
-
-      function nextSection() {
-        if (currentSectionIndex < sectionTitles.length - 1) {
-          currentSectionIndex++;
-        }
-        updateBreadcrumb();
       }
+    });
 
-      function prevSection() {
-        if (currentSectionIndex > 0) {
-          currentSectionIndex--;
-        }
-        updateBreadcrumb();
+    window.addEventListener("beforeunload", function (event) {
+      event.returnValue = "Are you sure you want to leave?";
+      return "Are you sure you want to leave?";
+    });
+
+    // Initialize the section title and breadcrumb navigation
+    document.addEventListener("DOMContentLoaded", function () {
+      // Initialize breadcrumb navigation
+      updateBreadcrumb();
+    });
+
+    var annotationLoaded = false;
+
+    // breadcrumb ui functions
+    const sectionTitles = [
+      "Axis & Legend",
+      "Marks",
+      "Groups",
+      "Layout",
+      "Encodings",
+      "Constraints",
+    ];
+
+    var currentSectionIndex = 0;
+
+    function nextSection() {
+      if (currentSectionIndex < sectionTitles.length - 1) {
+        currentSectionIndex++;
       }
+      updateBreadcrumb();
+    }
 
-      // Function to update the breadcrumb navigation
-      function updateBreadcrumb() {
-        const breadcrumbContainer = document.getElementById("breadcrumb");
-        breadcrumbContainer.innerHTML = ""; // Clear previous breadcrumbs
-
-        for (let i = 0; i < sectionTitles.length; i++) {
-          const breadcrumbItem = document.createElement("span");
-          breadcrumbItem.textContent = sectionTitles[i];
-          breadcrumbItem.classList.add("breadcrumb-item");
-          if (i === currentSectionIndex) {
-            breadcrumbItem.classList.add("current-section");
-          }
-          breadcrumbContainer.appendChild(breadcrumbItem);
-
-          if (i < sectionTitles.length - 1) {
-            const separator = document.createElement("span");
-            separator.textContent = " | ";
-            breadcrumbContainer.appendChild(separator);
-          }
-        }
-        arrangeAnnotationDivs(sectionTitles[currentSectionIndex]);
+    function prevSection() {
+      if (currentSectionIndex > 0) {
+        currentSectionIndex--;
       }
+      updateBreadcrumb();
+    }
 
-      function arrangeAnnotationDivs(currentStage) {
-        switch (currentStage) {
-          case "Axis & Legend":
-            allSVGElementID.forEach((rid) => {
-              d3.select("#" + rid).style("opacity", "1");
+    // Function to update the breadcrumb navigation
+    function updateBreadcrumb() {
+      const breadcrumbContainer = document.getElementById("breadcrumb");
+      breadcrumbContainer.innerHTML = ""; // Clear previous breadcrumbs
+
+      for (let i = 0; i < sectionTitles.length; i++) {
+        const breadcrumbItem = document.createElement("span");
+        breadcrumbItem.textContent = sectionTitles[i];
+        breadcrumbItem.classList.add("breadcrumb-item");
+        if (i === currentSectionIndex) {
+          breadcrumbItem.classList.add("current-section");
+        }
+        breadcrumbContainer.appendChild(breadcrumbItem);
+
+        if (i < sectionTitles.length - 1) {
+          const separator = document.createElement("span");
+          separator.textContent = " | ";
+          breadcrumbContainer.appendChild(separator);
+        }
+      }
+      arrangeAnnotationDivs(sectionTitles[currentSectionIndex]);
+    }
+
+    function arrangeAnnotationDivs(currentStage) {
+      switch (currentStage) {
+        case "Axis & Legend":
+          allSVGElementID.forEach((rid) => {
+            d3.select("#" + rid).style("opacity", "1");
+          });
+
+          referenceElements.forEach((rid) => {
+            d3.select("#" + rid).style("opacity", "1");
+          });
+          allLeftNodes
+            .map((node) => node.id)
+            .forEach((r) => {
+              if (r.length > 0) d3.select("#" + r).style("opacity", "1");
             });
+          document.getElementById("chartTitleDiv").style.visibility =
+            "visible";
+          document.getElementById("axisAndLegend").style.visibility =
+            "visible";
+          document.getElementById("generalizedSelection").style.visibility =
+            "hidden";
+          document.getElementById("groupSelection").style.visibility =
+            "hidden";
+          document.getElementById(
+            "possibleOtherGroupsContainer"
+          ).style.visibility = "hidden";
+          d3.select("#current-section").style("visibility", "hidden");
+          d3.select("#specifiedGroups").style("visibility", "hidden");
+          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+          d3.select("#higherGroupBtn").style("visibility", "hidden");
+          document.getElementById("higherLevelGroups").style.visibility =
+            "hidden";
+          d3.select("#EncodingAnnotation").style("visibility", "hidden");
+          d3.select("#EncodingSpec").style("visibility", "hidden");
+          d3.select("#LayoutAnnotation").style("visibility", "hidden");
+          d3.select("#LayoutSpec").style("visibility", "hidden");
+          d3.select("#vis")
+            .on("mousedown", null)
+            .on("mouseup", null)
+            .on("mousemove", null);
+          if (groupedGraphicsElement?.texts)
+            svgTextHighlight(groupedGraphicsElement.texts);
+          break;
+        case "Marks":
+          document.getElementById("chartTitleDiv").style.visibility =
+            "hidden";
+          allSVGElementID.forEach((rid) => {
+            d3.select("#" + rid).style("opacity", "1");
+          });
 
-            referenceElements.forEach((rid) => {
-              d3.select("#" + rid).style("opacity", "1");
-            });
-            allLeftNodes
-              .map((node) => node.id)
-              .forEach((r) => {
-                if (r.length > 0) d3.select("#" + r).style("opacity", "1");
-              });
-            document.getElementById("chartTitleDiv").style.visibility =
-              "visible";
-            document.getElementById("axisAndLegend").style.visibility =
-              "visible";
-            document.getElementById("generalizedSelection").style.visibility =
-              "hidden";
-            document.getElementById("groupSelection").style.visibility =
-              "hidden";
-            document.getElementById(
-              "possibleOtherGroupsContainer"
-            ).style.visibility = "hidden";
-            d3.select("#current-section").style("visibility", "hidden");
-            d3.select("#specifiedGroups").style("visibility", "hidden");
-            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-            d3.select("#higherGroupBtn").style("visibility", "hidden");
-            document.getElementById("higherLevelGroups").style.visibility =
-              "hidden";
-            d3.select("#EncodingAnnotation").style("visibility", "hidden");
-            d3.select("#EncodingSpec").style("visibility", "hidden");
-            d3.select("#LayoutAnnotation").style("visibility", "hidden");
-            d3.select("#LayoutSpec").style("visibility", "hidden");
-            d3.select("#vis")
-              .on("mousedown", null)
-              .on("mouseup", null)
-              .on("mousemove", null);
-            if (groupedGraphicsElement?.texts)
-              svgTextHighlight(groupedGraphicsElement.texts);
-            break;
-          case "Marks":
-            document.getElementById("chartTitleDiv").style.visibility =
-              "hidden";
-            allSVGElementID.forEach((rid) => {
-              d3.select("#" + rid).style("opacity", "1");
-            });
+          // remove all reference elements from the svg
+          mainContentElements = groupSVGElementsByType();
 
-            // remove all reference elements from the svg
-            mainContentElements = groupSVGElementsByType();
+          // below for initilizing the mark annotation
+          document.getElementById("numberOfMarksSelected").innerHTML = "0";
+          initilizeMarkAnnotation();
 
-            // below for initilizing the mark annotation
-            document.getElementById("numberOfMarksSelected").innerHTML = "0";
-            initilizeMarkAnnotation();
+          document.getElementById("axisAndLegend").style.visibility =
+            "hidden";
+          document.getElementById("generalizedSelection").style.visibility =
+            "visible";
+          document.getElementById("groupSelection").style.visibility =
+            "hidden";
+          d3.select("#current-section").style("visibility", "hidden");
+          d3.select("#specifiedGroups").style("visibility", "hidden");
+          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+          d3.select("#higherGroupBtn").style("visibility", "hidden");
+          document.getElementById(
+            "possibleOtherGroupsContainer"
+          ).style.visibility = "hidden";
+          document.getElementById("higherLevelGroups").style.visibility =
+            "hidden";
+          d3.select("#vis")
+            .on("mousedown", null)
+            .on("mouseup", null)
+            .on("mousemove", null);
+          d3.select("#rbox1")
+            .selectAll("text")
+            .style("pointer-events", "none");
 
-            document.getElementById("axisAndLegend").style.visibility =
-              "hidden";
-            document.getElementById("generalizedSelection").style.visibility =
-              "visible";
-            document.getElementById("groupSelection").style.visibility =
-              "hidden";
-            d3.select("#current-section").style("visibility", "hidden");
-            d3.select("#specifiedGroups").style("visibility", "hidden");
-            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-            d3.select("#higherGroupBtn").style("visibility", "hidden");
-            document.getElementById(
-              "possibleOtherGroupsContainer"
-            ).style.visibility = "hidden";
-            document.getElementById("higherLevelGroups").style.visibility =
-              "hidden";
-            d3.select("#vis")
-              .on("mousedown", null)
-              .on("mouseup", null)
-              .on("mousemove", null);
-            d3.select("#rbox1")
-              .selectAll("text")
-              .style("pointer-events", "none");
-
-            break;
-          case "Groups":
-            d3.select("#LayoutAnnotation").style("visibility", "hidden");
-            d3.select("#LayoutSpec").style("visibility", "hidden");
-            document.getElementById("axisAndLegend").style.visibility =
-              "hidden";
-            document.getElementById("generalizedSelection").style.visibility =
-              "hidden";
-            document.getElementById("groupSelection").style.visibility =
-              "visible";
-            d3.select("#current-section").style("visibility", "visible");
-            d3.select("#specifiedGroups").style("visibility", "visible");
-            d3.select("#specifiedGroupsHeader").style("visibility", "visible");
-            d3.select("#higherGroupBtn").style("visibility", "visible");
-            document.getElementById("higherLevelGroups").style.visibility =
-              "hidden";
-            initilizeGroupAnnotation();
-            break;
-          case "Layout":
-            d3.select("#EncodingAnnotation").style("visibility", "hidden");
-            d3.select("#EncodingSpec").style("visibility", "hidden");
-            d3.select("#LayoutAnnotation").style("visibility", "visible");
-            d3.select("#LayoutSpec").style("visibility", "visible");
-            initilizeLayoutAnnotation();
-            document.getElementById("groupSelection").style.visibility =
-              "hidden";
-            d3.select("#current-section").style("visibility", "hidden");
-            d3.select("#specifiedGroups").style("visibility", "hidden");
-            d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-            d3.select("#higherGroupBtn").style("visibility", "hidden");
-            document.getElementById("higherLevelGroups").style.visibility =
-              "hidden";
-            d3.select("#vis")
-              .on("mousedown", null)
-              .on("mouseup", null)
-              .on("mousemove", null);
-            d3.select("#rbox1")
-              .selectAll("text")
-              .style("pointer-events", "none");
-            break;
-          case "Encodings":
-            d3.select("#rbox1")
-              .selectAll("text")
-              .style("opacity", "0.3")
-              .style("pointer-events", "none")
-              .selectAll("tspan")
-              .style("opacity", "0.3");
-            d3.select("#LayoutAnnotation").style("visibility", "hidden");
-            d3.select("#LayoutSpec").style("visibility", "hidden");
-            d3.select("#ConstraintAnnotation").style("visibility", "hidden");
-            d3.select("#ConstraintSpec").style("visibility", "hidden");
-            d3.select("#EncodingAnnotation").style("visibility", "visible");
-            d3.select("#EncodingSpec").style("visibility", "visible");
-            initilizeEncodingAnnotation();
-            break;
-          case "Constraints":
-            d3.select("#EncodingAnnotation").style("visibility", "hidden");
-            d3.select("#EncodingSpec").style("visibility", "hidden");
-            d3.select("#ConstraintAnnotation").style("visibility", "visible");
-            d3.select("#ConstraintSpec").style("visibility", "visible");
-            initilizeConstraintAnnotation();
-            break;
-          default:
-            document.getElementById("axisAndLegend").style.visibility =
-              "hidden";
-            document.getElementById("generalizedSelection").style.visibility =
-              "hidden";
-            break;
-        }
+          break;
+        case "Groups":
+          d3.select("#LayoutAnnotation").style("visibility", "hidden");
+          d3.select("#LayoutSpec").style("visibility", "hidden");
+          document.getElementById("axisAndLegend").style.visibility =
+            "hidden";
+          document.getElementById("generalizedSelection").style.visibility =
+            "hidden";
+          document.getElementById("groupSelection").style.visibility =
+            "visible";
+          d3.select("#current-section").style("visibility", "visible");
+          d3.select("#specifiedGroups").style("visibility", "visible");
+          d3.select("#specifiedGroupsHeader").style("visibility", "visible");
+          d3.select("#higherGroupBtn").style("visibility", "visible");
+          document.getElementById("higherLevelGroups").style.visibility =
+            "hidden";
+          initilizeGroupAnnotation();
+          break;
+        case "Layout":
+          d3.select("#EncodingAnnotation").style("visibility", "hidden");
+          d3.select("#EncodingSpec").style("visibility", "hidden");
+          d3.select("#LayoutAnnotation").style("visibility", "visible");
+          d3.select("#LayoutSpec").style("visibility", "visible");
+          initilizeLayoutAnnotation();
+          document.getElementById("groupSelection").style.visibility =
+            "hidden";
+          d3.select("#current-section").style("visibility", "hidden");
+          d3.select("#specifiedGroups").style("visibility", "hidden");
+          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
+          d3.select("#higherGroupBtn").style("visibility", "hidden");
+          document.getElementById("higherLevelGroups").style.visibility =
+            "hidden";
+          d3.select("#vis")
+            .on("mousedown", null)
+            .on("mouseup", null)
+            .on("mousemove", null);
+          d3.select("#rbox1")
+            .selectAll("text")
+            .style("pointer-events", "none");
+          break;
+        case "Encodings":
+          d3.select("#rbox1")
+            .selectAll("text")
+            .style("opacity", "0.3")
+            .style("pointer-events", "none")
+            .selectAll("tspan")
+            .style("opacity", "0.3");
+          d3.select("#LayoutAnnotation").style("visibility", "hidden");
+          d3.select("#LayoutSpec").style("visibility", "hidden");
+          d3.select("#ConstraintAnnotation").style("visibility", "hidden");
+          d3.select("#ConstraintSpec").style("visibility", "hidden");
+          d3.select("#EncodingAnnotation").style("visibility", "visible");
+          d3.select("#EncodingSpec").style("visibility", "visible");
+          initilizeEncodingAnnotation();
+          break;
+        case "Constraints":
+          d3.select("#EncodingAnnotation").style("visibility", "hidden");
+          d3.select("#EncodingSpec").style("visibility", "hidden");
+          d3.select("#ConstraintAnnotation").style("visibility", "visible");
+          d3.select("#ConstraintSpec").style("visibility", "visible");
+          initilizeConstraintAnnotation();
+          break;
+        default:
+          document.getElementById("axisAndLegend").style.visibility =
+            "hidden";
+          document.getElementById("generalizedSelection").style.visibility =
+            "hidden";
+          break;
       }
+    }
 
-      var demoName, contentMarks, groupedGraphicsElement, allGraphicsElement;
-      var areaSelection;
-      const fileName = sessionStorage.getItem("fileName");
-      var mainChartMarks;
+    var demoName, contentMarks, groupedGraphicsElement, allGraphicsElement;
+    var areaSelection;
+    const fileName = sessionStorage.getItem("fileName");
+    var mainChartMarks;
 
-      let axisCount = 2;
+    let axisCount = 2;
 
-      function deleteAxis(axisIndex) {
-        const axisDiv = document.getElementById(`axis_${axisIndex}`);
-        axisDiv.remove();
+    function deleteAxis(axisIndex) {
+      const axisDiv = document.getElementById(`axis_${axisIndex}`);
+      axisDiv.remove();
 
-        // Remove the corresponding axis from the axe variable
-        delete axes[axisIndex];
+      // Remove the corresponding axis from the axe variable
+      delete axes[axisIndex];
 
-        // Reorder the axe variable and update the div IDs
-        const newAxes = {};
-        let newIndex = 1;
-        for (const key in axes) {
-          if (axes.hasOwnProperty(key)) {
-            newAxes[newIndex] = axes[key];
-            const div = document.getElementById(`axis_${key}`);
-            if (div) {
-              div.id = `axis_${newIndex}`;
-              div
-                .querySelector(".deleteAxis")
-                .setAttribute("onclick", `deleteAxis(${newIndex})`);
-              div.querySelector(".axisType").id = `axisType_${newIndex}`;
-              div
-                .querySelector(".axisType")
-                .setAttribute("onchange", `axisTypeChanged(${newIndex})`);
-              div.querySelector(".fieldType").id = `fieldType_${newIndex}`;
-              div
-                .querySelector(".fieldType")
-                .setAttribute("onchange", `fieldTypeChanged(${newIndex})`);
-              div.querySelector(".selectAreaBtn").id = `axis${newIndex}Area`;
-              div
-                .querySelector(".selectAreaBtn")
-                .setAttribute("onclick", `activateAreaSelect(${newIndex});`);
-              div.querySelector(".axisTitle").id = `axisTitle_${newIndex}`;
-              div.querySelector(".axisLabels").id = `axisLabel_${newIndex}`;
-            }
-            newIndex++;
+      // Reorder the axe variable and update the div IDs
+      const newAxes = {};
+      let newIndex = 1;
+      for (const key in axes) {
+        if (axes.hasOwnProperty(key)) {
+          newAxes[newIndex] = axes[key];
+          const div = document.getElementById(`axis_${key}`);
+          if (div) {
+            div.id = `axis_${newIndex}`;
+            div
+              .querySelector(".deleteAxis")
+              .setAttribute("onclick", `deleteAxis(${newIndex})`);
+            div.querySelector(".axisType").id = `axisType_${newIndex}`;
+            div
+              .querySelector(".axisType")
+              .setAttribute("onchange", `axisTypeChanged(${newIndex})`);
+            div.querySelector(".fieldType").id = `fieldType_${newIndex}`;
+            div
+              .querySelector(".fieldType")
+              .setAttribute("onchange", `fieldTypeChanged(${newIndex})`);
+            div.querySelector(".selectAreaBtn").id = `axis${newIndex}Area`;
+            div
+              .querySelector(".selectAreaBtn")
+              .setAttribute("onclick", `activateAreaSelect(${newIndex});`);
+            div.querySelector(".axisTitle").id = `axisTitle_${newIndex}`;
+            div.querySelector(".axisLabels").id = `axisLabel_${newIndex}`;
           }
+          newIndex++;
         }
-        axes = newAxes;
-        axisCount = newIndex - 1;
       }
+      axes = newAxes;
+      axisCount = newIndex - 1;
+    }
 
-      function addAxisConfiguration() {
-        axisCount++;
-        axes[axisCount] = axes[axisCount]
-          ? axes[axisCount]
-          : { labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: [] };
-        const axisDiv = document.createElement("div");
-        axisDiv.className = "axisDiv";
-        axisDiv.id = `axis_${axisCount}`;
-        axisDiv.innerHTML = `
+    function addAxisConfiguration() {
+      axisCount++;
+      axes[axisCount] = axes[axisCount]
+        ? axes[axisCount]
+        : {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+      const axisDiv = document.createElement("div");
+      axisDiv.className = "axisDiv";
+      axisDiv.id = `axis_${axisCount}`;
+      axisDiv.innerHTML = `
           <div class="axisRow">
             <span class="deleteAxis" onclick="deleteAxis(${axisCount})">
               <svg width="20" height="20">
@@ -1405,166 +1088,198 @@
             <div class="axisLabels" id="axisLabel_${axisCount}" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
           </div>
         `;
-        document
-          .getElementById("buttons")
-          .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
+      document
+        .getElementById("buttons")
+        .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
+    }
+
+    async function loadDemo(demo) {
+      // demo is the full name of a SVG file, e.g., "BarChart1.svg"
+      sessionStorage.setItem("fileName", demo.split(".")[0]);
+      await tryLoadAnnotations(demo.split(".")[0]);
+
+      fetch("../charts_svg/" + demo)
+        .then((resp) => {
+          return resp.text();
+        })
+        .then((rawSVG) => {
+          currentSectionIndex = 0;
+          updateBreadcrumb();
+
+          demoName = demo;
+          d3.select("#preprocessUI").style("visibility", "visible");
+
+          // in display.js, adding id and class attributes to the svg file
+          displaySVG(rawSVG);
+
+          // get all basic graphic elements from the svg file
+          groupSVGElementsByTypeWithCoordinates();
+          if (!annotationLoaded) {
+            // extract() calls displayAxis() and displayLegend() to display the extracted elements
+            extract();
+          }
+
+          // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
+          enableDragDrop(groupedGraphicsElement.texts);
+
+          // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
+          setViewBox();
+
+          // in preprocess-interaction.js, activating the area-selecting event so that one can also select the area of the legend, or x and y axis to annotate
+          enableAreaSelection();
+        });
+    }
+
+    document.addEventListener("keyup", function (e) {
+      if (e.code == "Escape") deactivateAreaSelect();
+    });
+
+    window.addEventListener("hashchange", () => {
+      loadChartFromRoute();
+    })
+
+    function resetEnvironment() {
+      initilizeVariables();
+      d3.selectAll(".axisLabels").selectAll("button").remove();
+      d3.selectAll(".axisTitle").selectAll("button").remove();
+      d3.selectAll(".chartTitle").selectAll("button").remove();
+      d3.select("#specifiedGroups").selectAll("div").remove();
+      d3.select("#selectedGroup").selectAll("button").remove();
+      d3.select("#possibleOtherGroups").selectAll("div").remove();
+      d3.select("#possibleOtherGroupsContainer").style(
+        "visibility",
+        "hidden"
+      );
+      // reset the selection options in the layout stage
+      d3.select("#layoutTypeSelection").property("value", "none");
+      d3.select("#layoutOriSelection").property("value", "none");
+      d3.select("#horiLayoutAlignSelection").property(
+        "value",
+        "none"
+      );
+      d3.select("#vertLayoutAlignSelection").property(
+        "value",
+        "none"
+      );
+      d3.select("#selectedGroup4LayoutStage").text("");
+      // reset the selection options in the encoding stage
+      d3.select("#channelList").selectAll("li").remove();
+      d3.select("#selectedGroup4EncodingStage1").text("");
+      d3.select("#selectedObjectType").text("object");
+
+      d3.selectAll(".demoItem")
+        .style("color", "black")
+        .style("font-weight", "normal");
+
+      d3.select("#" + file.split(".")[0])
+        .style("color", "red")
+        .style("font-weight", "bold");
+
+      // reset the constraint stage
+      d3.select("#ConstraintAnnotation").style(
+        "visibility",
+        "hidden"
+      );
+      d3.select("#ConstraintSpec").style("visibility", "hidden");
+
+    }
+
+    async function loadChartFromRoute() {
+      const routeHash = window.location.hash;
+      if (!routeHash) {
+        return;
       }
 
-      async function loadDemo(demo) {
-        // demo is the full name of a SVG file, e.g., "BarChart1.svg"
-        sessionStorage.setItem("fileName", demo.split(".")[0]);
-        await tryLoadAnnotations(demo.split(".")[0]);
+      const chartName = routeHash.substring(1);
 
-        fetch("../charts_svg/" + demo)
-          .then((resp) => {
-            return resp.text();
-          })
-          .then((rawSVG) => {
-            currentSectionIndex = 0;
-            updateBreadcrumb();
+      if (!chartName) {
+        return;
+      }
 
-            demoName = demo;
-            d3.select("#preprocessUI").style("visibility", "visible");
+      try {
+        await loadDemo(`${chartName}.svg`);
+      } catch (err) {
+        console.error("Failed to load chart from route: " + chartName);
+        console.error(err);
+      }
+    }
 
-            // in display.js, adding id and class attributes to the svg file
-            displaySVG(rawSVG);
+    $(document).ready(() => {
+      fetch("./labeling_tool/SVG_Names.json")
+        .then((response) => response.json())
+        .then((files) => {
+          const fileGroups = {};
+          const ulElement = document.getElementById("demoList");
 
-            // get all basic graphic elements from the svg file
-            groupSVGElementsByTypeWithCoordinates();
-            if (!annotationLoaded) {
-              // extract() calls displayAxis() and displayLegend() to display the extracted elements
-              extract();
+          files.forEach((file) => {
+            //console.log(file);
+            // Extract base name (e.g., "barChart" from "barChart1")
+            const baseName = file.replace(/\d+\.svg$/, "");
+
+            // Initialize the array for this baseName if it doesn't exist
+            if (!fileGroups[baseName]) {
+              fileGroups[baseName] = [];
             }
 
-            // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
-            enableDragDrop(groupedGraphicsElement.texts);
-
-            // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
-            setViewBox();
-
-            // in preprocess-interaction.js, activating the area-selecting event so that one can also select the area of the legend, or x and y axis to annotate
-            enableAreaSelection();
-          });
-      }
-
-      document.addEventListener("keyup", function (e) {
-        if (e.code == "Escape") deactivateAreaSelect();
-      });
-
-      $(document).ready(() => {
-        fetch("./labeling_tool/SVG_Names.json")
-          .then((response) => response.json())
-          .then((files) => {
-            const fileGroups = {};
-            const ulElement = document.getElementById("demoList");
-
-            files.forEach((file) => {
-              //console.log(file);
-              // Extract base name (e.g., "barChart" from "barChart1")
-              const baseName = file.replace(/\d+\.svg$/, "");
-
-              // Initialize the array for this baseName if it doesn't exist
-              if (!fileGroups[baseName]) {
-                fileGroups[baseName] = [];
-              }
-
-              // Add the file to the appropriate group
-              fileGroups[baseName].push(file);
-            });
-
-            Object.keys(fileGroups).forEach((baseName) => {
-              // Create the primary list item
-              const li = document.createElement("li");
-              li.textContent = baseName;
-              ulElement.appendChild(li);
-
-              // Create a sublist for each baseName
-              const subUl = document.createElement("ul");
-              subUl.classList.add("chartSublist");
-              subUl.id = baseName + "List";
-              subUl.style.display = baseName === "SeattleGraph" ? "block" : "none"; // Initially hide the sublist
-              li.appendChild(subUl);
-
-              // Add event listener to toggle the sublist display
-              li.addEventListener("click", (event) => {
-                event.stopPropagation(); // Prevent the event from bubbling up
-                subUl.style.display =
-                  subUl.style.display === "none" ? "block" : "none";
-              });
-
-              // Create sublist items
-              fileGroups[baseName].forEach((file) => {
-                const subLi = document.createElement("li");
-                subLi.classList.add("demoItem");
-                subLi.id = file.split(".")[0];
-                subLi.textContent = file.split(".")[0];
-
-                // Add the same event listener as before
-                subLi.addEventListener("click", () => {
-                  event.stopPropagation();
-                  initilizeVariables();
-                  d3.selectAll(".axisLabels").selectAll("button").remove();
-                  d3.selectAll(".axisTitle").selectAll("button").remove();
-                  d3.selectAll(".chartTitle").selectAll("button").remove();
-                  d3.select("#specifiedGroups").selectAll("div").remove();
-                  d3.select("#selectedGroup").selectAll("button").remove();
-                  d3.select("#possibleOtherGroups").selectAll("div").remove();
-                  d3.select("#possibleOtherGroupsContainer").style(
-                    "visibility",
-                    "hidden"
-                  );
-                  // reset the selection options in the layout stage
-                  d3.select("#layoutTypeSelection").property("value", "none");
-                  d3.select("#layoutOriSelection").property("value", "none");
-                  d3.select("#horiLayoutAlignSelection").property(
-                    "value",
-                    "none"
-                  );
-                  d3.select("#vertLayoutAlignSelection").property(
-                    "value",
-                    "none"
-                  );
-                  d3.select("#selectedGroup4LayoutStage").text("");
-                  // reset the selection options in the encoding stage
-                  d3.select("#channelList").selectAll("li").remove();
-                  d3.select("#selectedGroup4EncodingStage1").text("");
-                  d3.select("#selectedObjectType").text("object");
-
-                  d3.selectAll(".demoItem")
-                    .style("color", "black")
-                    .style("font-weight", "normal");
-
-                  d3.select("#" + file.split(".")[0])
-                    .style("color", "red")
-                    .style("font-weight", "bold");
-
-                  // reset the constraint stage
-                  d3.select("#ConstraintAnnotation").style(
-                    "visibility",
-                    "hidden"
-                  );
-                  d3.select("#ConstraintSpec").style("visibility", "hidden");
-
-                  loadDemo(file);
-
-                  document
-                    .querySelectorAll(".chartSublist")
-                    .forEach((el) => (el.style.display = "none"));
-                  subUl.style.display = "block";
-                });
-
-                subUl.appendChild(subLi);
-              });
-            });
-
-            d3.select("#SeattleGraph")
-              .style("color", "red")
-              .style("font-weight", "bold");
+            // Add the file to the appropriate group
+            fileGroups[baseName].push(file);
           });
 
-        initilizeVariables();
-        //loadDemo("SeattleGraph.svg");
-      });
-    </script>
-  </body>
+          Object.keys(fileGroups).forEach((baseName) => {
+            // Create the primary list item
+            const li = document.createElement("li");
+            li.textContent = baseName;
+            ulElement.appendChild(li);
+
+            // Create a sublist for each baseName
+            const subUl = document.createElement("ul");
+            subUl.classList.add("chartSublist");
+            subUl.id = baseName + "List";
+            subUl.style.display = baseName === "SeattleGraph" ? "block" : "none"; // Initially hide the sublist
+            li.appendChild(subUl);
+
+            // Add event listener to toggle the sublist display
+            li.addEventListener("click", (event) => {
+              event.stopPropagation(); // Prevent the event from bubbling up
+              subUl.style.display =
+                subUl.style.display === "none" ? "block" : "none";
+            });
+
+            // Create sublist items
+            fileGroups[baseName].forEach((file) => {
+              const subLi = document.createElement("li");
+              subLi.classList.add("demoItem");
+              subLi.id = file.split(".")[0];
+              subLi.textContent = file.split(".")[0];
+
+              // Add the same event listener as before
+              subLi.addEventListener("click", () => {
+                event.stopPropagation();
+                resetEnvironment();
+
+                loadDemo(file);
+
+                document
+                  .querySelectorAll(".chartSublist")
+                  .forEach((el) => (el.style.display = "none"));
+                subUl.style.display = "block";
+              });
+
+              subUl.appendChild(subLi);
+            });
+          });
+
+          d3.select("#SeattleGraph")
+            .style("color", "red")
+            .style("font-weight", "bold");
+        });
+
+      initilizeVariables();
+      //loadDemo("SeattleGraph.svg");
+
+      loadChartFromRoute();
+    });
+  </script>
+</body>
+
 </html>
