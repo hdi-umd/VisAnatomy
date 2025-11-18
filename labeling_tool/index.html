@@ -96,6 +96,52 @@
       </h3>
       <!-- solution from http://jsfiddle.net/umhva747/ -->
       <form action="annotationPage.html" id="uploadForm">
+        <div style="margin-bottom: 15px;">
+          <label for="chartType" style="display: block; margin-bottom: 5px; font-weight: bold;">Chart Type:</label>
+          <select id="chartType" name="chartType" style="padding: 8px; border: 1px solid white; border-radius: 3px; font-size: 14px; min-width: 200px;">
+            <option value="">Select chart type...</option>
+            <option value="AreaChart">Area Chart</option>
+            <option value="BarChart">Bar Chart</option>
+            <option value="BarChartInRadialLayout">Bar Chart in Radial Layout</option>
+            <option value="BoxAndWhisker">Box-and-whisker Plot</option>
+            <option value="BubbleChart">Bubble Chart</option>
+            <option value="BulletChart">Bullet Chart</option>
+            <option value="BumpChart">Bump Chart</option>
+            <option value="Calendar">Calendar</option>
+            <option value="CandlestickChart">Candlestick Chart</option>
+            <option value="CirclePacking">Circle Packing</option>
+            <option value="ConnectedDotPlot">Connected Dot Plot</option>
+            <option value="ConnectedScatterPlot">Connected Scatterplot</option>
+            <option value="DensityPlot">Density Plot</option>
+            <option value="DivergingStackedBarChart">Diverging Stacked Bar Chart</option>
+            <option value="DonutChart">Donut Chart</option>
+            <option value="DotPlot">Dot Plot</option>
+            <option value="GanttChart">Gantt Chart</option>
+            <option value="GeoHeatmap">Geo Heatmap</option>
+            <option value="GroupedBarChart">Grouped Bar Chart</option>
+            <option value="Heatmap">Heatmap</option>
+            <option value="KagiChart">Kagi Chart</option>
+            <option value="LineGraph">Line Graph</option>
+            <option value="MarimekkoChart">Marimekko Chart</option>
+            <option value="MatrixDiagram">Matrix Diagram</option>
+            <option value="ParallelCoordinatesPlot">Parallel Coordinates Plot</option>
+            <option value="PieChart">Pie Chart</option>
+            <option value="PolarAreaChart">Polar Area Chart</option>
+            <option value="RadarChart">Radar Chart</option>
+            <option value="RadialBarChart">Radial Bar Chart</option>
+            <option value="RangeChart">Range Chart</option>
+            <option value="Scatterplot">Scatterplot</option>
+            <option value="SpiralPlot">Spiral Plot</option>
+            <option value="StackedAreaChart">Stacked Area Chart</option>
+            <option value="StackedBarChart">Stacked Bar Chart</option>
+            <option value="StreamGraph">Stream Graph</option>
+            <option value="Treemap">Treemap</option>
+            <option value="ViolinPlot">Violin Plot</option>
+            <option value="WaffleChart">Waffle Chart</option>
+            <option value="WaterfallChart">Waterfall Chart</option>
+            <option value="WordCloud">Word Cloud</option>
+          </select>
+        </div>
         <div class="upload">
           <input type="button" class="uploadButton" value="Browse" />
           <input type="file" name="upload" accept="image/*" id="myFile" />
