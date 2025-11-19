@@ -10,8 +10,8 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
 #annotations path: /annotations
     def do_GET(self):
         print(self.path)
-        if (self.path == "/"):#root path
-            self.path = "/labeling_tool/annotationPage.html"
+        if (self.path == "/newSVG"):#root path
+            self.path = "/labeling_tool/index.html"
         elif self.path.startswith("/check_file_exists/"):
             filename = self.path.split('/')[-1]
             folder_path = "examples"
