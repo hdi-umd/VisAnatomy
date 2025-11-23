@@ -1108,6 +1108,11 @@
             demoName = demo;
             d3.select("#preprocessUI").style("visibility", "visible");
 
+            // indicate selected chart in the list 
+            d3.select("#" + demo.split(".")[0])
+              .style("color", "red")
+              .style("font-weight", "bold");
+
             // in display.js, adding id and class attributes to the svg file
             displaySVG(rawSVG);
 
@@ -1170,10 +1175,6 @@
           .style("color", "black")
           .style("font-weight", "normal");
 
-        d3.select("#" + file.split(".")[0])
-          .style("color", "red")
-          .style("font-weight", "bold");
-
         // reset the constraint stage
         d3.select("#ConstraintAnnotation").style(
           "visibility",
@@ -1196,6 +1197,7 @@
         }
 
         try {
+          resetEnvironment();
           await loadDemo(`${chartName}.svg`);
         } catch (err) {
           console.error("Failed to load chart from route: " + chartName);
