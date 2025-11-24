@@ -96,6 +96,11 @@
       </h3>
       <!-- solution from http://jsfiddle.net/umhva747/ -->
       <form action="annotationPage.html" id="uploadForm">
+        <div style="margin-bottom: 15px;">
+          <label for="chartType" style="display: block; margin-bottom: 5px; font-weight: bold;">Chart Type:</label>
+          <select id="chartType" name="chartType" style="padding: 8px; border: 1px solid white; border-radius: 3px; font-size: 14px; min-width: 200px;">
+          </select>
+        </div>
         <div class="upload">
           <input type="button" class="uploadButton" value="Browse" />
           <input type="file" name="upload" accept="image/*" id="myFile" />
@@ -106,6 +111,92 @@
     </div>
 
     <script>
+      // Chart types array
+      const chartTypes = {
+        "": "Select chart type...",
+        "AreaChart": "Area Chart",
+        "BarChart": "Bar Chart",
+        "BarChartInRadialLayout": "Bar Chart in Radial Layout",
+        "BoxAndWhisker": "Box-and-whisker Plot",
+        "BubbleChart": "Bubble Chart",
+        "BulletChart": "Bullet Chart",
+        "BumpChart": "Bump Chart",
+        "Calendar": "Calendar",
+        "CandlestickChart": "Candlestick Chart",
+        "CirclePacking": "Circle Packing",
+        "ConnectedDotPlot": "Connected Dot Plot",
+        "ConnectedScatterPlot": "Connected Scatterplot",
+        "DensityPlot": "Density Plot",
+        "DivergingStackedBarChart": "Diverging Stacked Bar Chart",
+        "DonutChart": "Donut Chart",
+        "DotPlot": "Dot Plot",
+        "GanttChart": "Gantt Chart",
+        "GeoHeatmap": "Geo Heatmap",
+        "GroupedBarChart": "Grouped Bar Chart",
+        "Heatmap": "Heatmap",
+        "KagiChart": "Kagi Chart",
+        "LineGraph": "Line Graph",
+        "MarimekkoChart": "Marimekko Chart",
+        "MatrixDiagram": "Matrix Diagram",
+        "ParallelCoordinatesPlot": "Parallel Coordinates Plot",
+        "PieChart": "Pie Chart",
+        "PolarAreaChart": "Polar Area Chart",
+        "RadarChart": "Radar Chart",
+        "RadialBarChart": "Radial Bar Chart",
+        "RangeChart": "Range Chart",
+        "Scatterplot": "Scatterplot",
+        "SpiralPlot": "Spiral Plot",
+        "StackedAreaChart": "Stacked Area Chart",
+        "StackedBarChart": "Stacked Bar Chart",
+        "StreamGraph": "Stream Graph",
+        "Treemap": "Treemap",
+        "ViolinPlot": "Violin Plot",
+        "WaffleChart": "Waffle Chart",
+        "WaterfallChart": "Waterfall Chart",
+        "WordCloud": "Word Cloud"
+      };
+
+      // Populate dropdown on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        const select = document.getElementById('chartType');
+        
+        for (const [value, label] of Object.entries(chartTypes)) {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = label;
+          select.appendChild(option);
+        }
+      });
+
+      async function getNextChartId(chartType) {
+        try {
+          // Get list of existing chart files from server
+          const response = await fetch('http://localhost:5200/list_charts');
+          const data = await response.json();
+          
+          let maxId = 0;
+          
+          // Parse filenames to find highest existing ID for this specific chart type
+          data.files.forEach(filename => {
+            const match = filename.match(/([A-Za-z]+)(\d+)\.svg$/);
+            if (match && match[1] === chartType) {
+              const id = parseInt(match[2]);
+              if (id > maxId) {
+                maxId = id;
+              }
+            }
+          });
+          
+          const nextId = maxId + 1;
+          return nextId;
+          
+        } catch (error) {
+          console.error('Error getting chart list:', error);
+          // Fallback to simple counter if server call fails
+          return 1;
+        }
+      }
+
       document
         .getElementById("uploadForm")
         .addEventListener("submit", async function (event) {
@@ -113,18 +204,33 @@
 
           const fileInput = document.getElementById("myFile");
           const file = fileInput.files[0];
+          const chartTypeSelect = document.getElementById("chartType");
+          
+          if (!file) {
+            alert("Please select a file.");
+            return;
+          }
+          
+          if (!chartTypeSelect.value) {
+            alert("Please select a chart type.");
+            return;
+          }
+          
           const filename = file.name;
+          const chartType = chartTypeSelect.value;
+          const id = await getNextChartId(chartType);
+          const newFileName = `${chartType}${id}.svg`;
 
           try {
             const response = await fetch(
-              `http://localhost:5200/check_file_exists/${filename}`
+              `http://localhost:5200/check_file_exists/${newFileName}`
             );
             const data = await response.json();
 
             // if (data.exists) {
             //     alert("File with the same name already exists in the examples folder. Please choose a different file or rename your file.");
             // } else {
-            newSVG();
+            newSVG(newFileName, chartType);
 
             // const reader = new FileReader();
             // reader.onload = async function (event) {
@@ -134,7 +240,7 @@
             //     method: "POST",
             //     headers: {
             //       "Content-Type": "text/plain",
-            //       "X-Filename": filename, // Pass filename in header
+            //       "X-Filename": newFileName, // Pass new filename in header
             //     },
             //     body: svgData,
             //   });
@@ -159,14 +265,15 @@
         $in.next().html($in.val());
       });
 
-      function newSVG() {
+      function newSVG(newFileName, chartType) {
         let uploadedSVG = document.getElementById("myFile").files[0];
         let fileReader = new FileReader();
         fileReader.readAsText(uploadedSVG);
 
         fileReader.onload = function () {
           sessionStorage.setItem("svg", fileReader.result);
-          sessionStorage.setItem("fileName", uploadedSVG.name);
+          sessionStorage.setItem("fileName", newFileName || uploadedSVG.name);
+          sessionStorage.setItem("chartType", chartType || "");
         };
         document.getElementById("myFile").value = null;
       }
