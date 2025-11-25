@@ -35,6 +35,28 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
                 response_data = json.dumps({'exists': False})
                 self.wfile.write(response_data.encode())
                 return
+        elif self.path.startswith("/check_csv_exists/"):
+            filename = self.path.split('/')[-1]
+            folder_path = "data_tables"
+            file_path = os.path.join(folder_path, filename)
+
+            print("Checking CSV file existence:", file_path)  # Add this line for debugging
+
+            if os.path.exists(file_path):
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                response_data = json.dumps({'exists': True})
+                self.wfile.write(response_data.encode())
+                return
+            else:
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                response_data = json.dumps({'exists': False})
+                self.wfile.write(response_data.encode())
+                return
+
         elif (self.path.find("annotations") > 0):
             print("getting " + self.path)
         return SimpleHTTPRequestHandler.do_GET(self)
