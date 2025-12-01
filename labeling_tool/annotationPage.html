@@ -1149,6 +1149,49 @@
       return body.exists;
     }
 
+    async function displayCSVData(fileName) {
+      console.log(`Loading CSV data for ${fileName}...`);
+      try {
+        const res = await fetch("/get_csv_data/" + fileName);
+        if (!res.ok) {
+          console.error("Failed to fetch CSV data");
+          return;
+        }
+        const data = await res.json();
+
+        // Create table HTML
+        let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
+
+        // Add header row
+        tableHTML += '<thead><tr>';
+        data.header.forEach(col => {
+          tableHTML += `<th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white; text-align: left;">${col}</th>`;
+        });
+        tableHTML += '</tr></thead>';
+
+        // Add data rows
+        tableHTML += '<tbody>';
+        data.rows.forEach((row, idx) => {
+          const bgColor = idx % 2 === 0 ? '#f2f2f2' : 'white';
+          tableHTML += `<tr style="background-color: ${bgColor};">`;
+          row.forEach(cell => {
+            tableHTML += `<td style="border: 1px solid #ddd; padding: 8px;">${cell}</td>`;
+          });
+          tableHTML += '</tr>';
+        });
+        tableHTML += '</tbody></table>';
+
+        // Update the chartDatasetDiv with the table
+        document.getElementById('chartDatasetDiv').innerHTML =
+          '<div style="margin-left: 5px; font-weight: bold">Dataset</div>' + tableHTML;
+
+      } catch (error) {
+        console.error("Error loading CSV data:", error);
+        document.getElementById('chartDatasetDiv').innerHTML =
+          '<div style="margin-left: 5px; font-weight: bold">Dataset</div><p style="color: red;">Error loading CSV data</p>';
+      }
+    }
+
     async function loadDemo(demo) {
       // demo is the full name of a SVG file, e.g., "BarChart1.svg"
       if (sectionTitles[0] === "Dataset") {
@@ -1165,6 +1208,8 @@
       if (csvExists) { // csv file exists, add dataset stage
         sectionTitles.unshift("Dataset");
         updateBreadcrumb();
+        // Load and display CSV data
+        await displayCSVData(`${demo.split(".")[0]}.csv`);
       }
 
       fetch("../charts_svg/" + demo)

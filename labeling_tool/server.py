@@ -1,6 +1,7 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import json
 import os
+import csv
 # from restructure_annotation_files import restructure_annotations
 
 
@@ -55,6 +56,44 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
                 self.end_headers()
                 response_data = json.dumps({'exists': False})
                 self.wfile.write(response_data.encode())
+                return
+        elif self.path.startswith("/get_csv_data/"):
+            filename = self.path.split('/')[-1]
+            folder_path = "data_tables"
+            file_path = os.path.join(folder_path, filename)
+
+            print("Fetching CSV data:", file_path)
+
+            if os.path.exists(file_path):
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as csvfile:
+                        csv_reader = csv.reader(csvfile)
+                        rows = list(csv_reader)
+
+                        # Get header and first 10 data rows (or less if file is smaller)
+                        header = rows[0] if len(rows) > 0 else []
+                        data_rows = rows[1:11] if len(rows) > 1 else []
+
+                        self.send_response(200)
+                        self.send_header('Content-type', 'application/json')
+                        self.end_headers()
+                        response_data = json.dumps({
+                            'header': header,
+                            'rows': data_rows
+                        })
+                        self.wfile.write(response_data.encode())
+                        return
+                except Exception as e:
+                    self.send_response(500)
+                    self.send_header('Content-type', 'application/json')
+                    self.end_headers()
+                    self.wfile.write(json.dumps({'error': str(e)}).encode())
+                    return
+            else:
+                self.send_response(404)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': 'File not found'}).encode())
                 return
         elif self.path == "/list_charts":
             print("listing charts in charts_svg folder")
