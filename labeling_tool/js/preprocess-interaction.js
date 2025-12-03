@@ -40,6 +40,18 @@ function legendFieldTypeChanged() {
     legend.marks = [];
     legend.mapping = {};
     displayLegend(legend);
+    
+    // Hide column dropdown when field type is Null
+    const columnSelect = document.getElementById('legendColumnSelect');
+    if (columnSelect) {
+      columnSelect.style.display = 'none';
+    }
+  } else {
+    // Show column dropdown when field type is not Null and CSV columns are available
+    const columnSelect = document.getElementById('legendColumnSelect');
+    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
+      columnSelect.style.display = 'inline-block';
+    }
   }
 }
 
@@ -59,6 +71,18 @@ function fieldTypeChanged(index) {
       ticks: [],
       path: [],
     };
+    
+    // Hide column dropdown when field type is Null
+    const columnSelect = document.getElementById(`columnSelect_${index}`);
+    if (columnSelect) {
+      columnSelect.style.display = 'none';
+    }
+  } else {
+    // Show column dropdown when field type is not Null and CSV columns are available
+    const columnSelect = document.getElementById(`columnSelect_${index}`);
+    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
+      columnSelect.style.display = 'inline-block';
+    }
   }
 
   axes[index].fieldType = val;

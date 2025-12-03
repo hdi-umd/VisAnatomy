@@ -173,6 +173,10 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_1" onchange="columnSelectionChanged(1)"
+                    style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(1);"
                     id="axis1Area" width="16px" height="16px" class="selectAreaBtn"
                     style="margin-left: 0px; margin-top: 5px" />
@@ -214,6 +218,10 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_2" onchange="columnSelectionChanged(2)"
+                    style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(2);"
                     id="axis2Area" width="16px" height="16px" class="selectAreaBtn"
                     style="margin-left: 0px; margin-top: 5px" />
@@ -239,6 +247,10 @@
                   <option value="string">categories</option>
                   <option value="number">numbers</option>
                   <option value="date">dates</option>
+                </select>
+                <select class="columnSelect" id="legendColumnSelect" onchange="legendColumnSelectionChanged()"
+                  style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                  <option value="">Select Column</option>
                 </select>
                 <input type="image" src="labeling_tool/img/select-area.png" id="legendArea"
                   onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn" />
@@ -939,6 +951,11 @@
             .on("mousemove", null);
           if (groupedGraphicsElement?.texts)
             svgTextHighlight(groupedGraphicsElement.texts);
+          
+          // Show column dropdowns if CSV data is available
+          if (window.csvColumns) {
+            showColumnDropdowns();
+          }
           break;
         case "Marks":
           document.getElementById("chartTitleDiv").style.visibility =
@@ -1127,6 +1144,9 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_${axisCount}" onchange="columnSelectionChanged(${axisCount})" style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(${axisCount});" id="axis${axisCount}Area" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
                 </div>
               </div>
@@ -1139,6 +1159,14 @@
       document
         .getElementById("buttons")
         .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
+      
+      // Populate the column dropdown for the new axis if CSV data is available
+      if (window.csvColumns) {
+        populateColumnDropdowns();
+        if (window.csvColumns.length > 0) {
+          document.getElementById(`columnSelect_${axisCount}`).style.display = 'none';
+        }
+      }
     }
 
     async function checkCSVExists(fileName) {
@@ -1158,6 +1186,9 @@
           return;
         }
         const data = await res.json();
+
+        // Store CSV columns globally for dropdown population
+        window.csvColumns = data.header;
 
         // Create table HTML
         let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
@@ -1185,11 +1216,70 @@
         document.getElementById('chartDatasetDiv').innerHTML =
           '<div style="margin-left: 5px; font-weight: bold">Dataset</div>' + tableHTML;
 
+        // Populate all column dropdowns
+        populateColumnDropdowns();
+
       } catch (error) {
         console.error("Error loading CSV data:", error);
         document.getElementById('chartDatasetDiv').innerHTML =
           '<div style="margin-left: 5px; font-weight: bold">Dataset</div><p style="color: red;">Error loading CSV data</p>';
       }
+    }
+
+    function populateColumnDropdowns() {
+      if (!window.csvColumns) return;
+      
+      // Populate existing axis column dropdowns
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        // Clear existing options except the first default option
+        while (select.options.length > 1) {
+          select.remove(1);
+        }
+        
+        // Add CSV columns as options
+        window.csvColumns.forEach(column => {
+          const option = document.createElement('option');
+          option.value = column;
+          option.textContent = column;
+          select.appendChild(option);
+        });
+      });
+    }
+
+    function showColumnDropdowns() {
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        select.style.display = 'inline-block';
+      });
+    }
+
+    function hideColumnDropdowns() {
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        select.style.display = 'none';
+      });
+    }
+
+    function columnSelectionChanged(axisIndex) {
+      const columnSelect = document.getElementById(`columnSelect_${axisIndex}`);
+      const selectedColumn = columnSelect.value;
+      console.log(`Axis ${axisIndex} mapped to column: ${selectedColumn}`);
+      
+      // Store the mapping in the axes object
+      if (!axes[axisIndex]) {
+        axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+      }
+      axes[axisIndex].dataColumn = selectedColumn;
+    }
+
+    function legendColumnSelectionChanged() {
+      const legendColumnSelect = document.getElementById('legendColumnSelect');
+      const selectedColumn = legendColumnSelect.value;
+      console.log(`Legend mapped to column: ${selectedColumn}`);
+      
+      // Store the mapping in the legend object
+      if (!window.legend) {
+        window.legend = {};
+      }
+      window.legend.dataColumn = selectedColumn;
     }
 
     async function loadDemo(demo) {
