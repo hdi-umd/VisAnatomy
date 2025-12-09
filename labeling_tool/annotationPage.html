@@ -1283,6 +1283,12 @@
     }
 
     async function loadDemo(demo) {
+      const name = demo.split(".")[0];
+
+      if (name) {
+        window.location.hash = `#${name}`;
+      }
+
       // demo is the full name of a SVG file, e.g., "BarChart1.svg"
       if (sectionTitles[0] === "Dataset") {
         sectionTitles = sectionTitles.slice(1);
