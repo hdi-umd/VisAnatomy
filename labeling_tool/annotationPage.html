@@ -817,7 +817,7 @@
     var annotationLoaded = false;
 
     // breadcrumb ui functions
-    const sectionTitles = [
+    let sectionTitles = [
       "Axis & Legend",
       "Marks",
       "Groups",
@@ -951,7 +951,7 @@
             .on("mousemove", null);
           if (groupedGraphicsElement?.texts)
             svgTextHighlight(groupedGraphicsElement.texts);
-          
+
           // Show column dropdowns if CSV data is available
           if (window.csvColumns) {
             showColumnDropdowns();
@@ -1159,7 +1159,7 @@
       document
         .getElementById("buttons")
         .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
-      
+
       // Populate the column dropdown for the new axis if CSV data is available
       if (window.csvColumns) {
         populateColumnDropdowns();
@@ -1228,14 +1228,14 @@
 
     function populateColumnDropdowns() {
       if (!window.csvColumns) return;
-      
+
       // Populate existing axis column dropdowns
       document.querySelectorAll('.columnSelect').forEach(select => {
         // Clear existing options except the first default option
         while (select.options.length > 1) {
           select.remove(1);
         }
-        
+
         // Add CSV columns as options
         window.csvColumns.forEach(column => {
           const option = document.createElement('option');
@@ -1262,7 +1262,7 @@
       const columnSelect = document.getElementById(`columnSelect_${axisIndex}`);
       const selectedColumn = columnSelect.value;
       console.log(`Axis ${axisIndex} mapped to column: ${selectedColumn}`);
-      
+
       // Store the mapping in the axes object
       if (!axes[axisIndex]) {
         axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
@@ -1274,7 +1274,7 @@
       const legendColumnSelect = document.getElementById('legendColumnSelect');
       const selectedColumn = legendColumnSelect.value;
       console.log(`Legend mapped to column: ${selectedColumn}`);
-      
+
       // Store the mapping in the legend object
       if (!window.legend) {
         window.legend = {};
