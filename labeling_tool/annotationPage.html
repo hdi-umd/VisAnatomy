@@ -1226,6 +1226,62 @@
       }
     }
 
+    function displayEmptyEditableTable() {
+      console.log("Displaying empty editable table...");
+      
+      // Create default column headers
+      const defaultHeaders = ['Column 1', 'Column 2', 'Column 3'];
+      window.csvColumns = [...defaultHeaders]; // Store globally for dropdown population
+      
+      // Create editable table HTML
+      let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
+      
+      // Add editable header row
+      tableHTML += '<thead><tr>';
+      defaultHeaders.forEach((header, index) => {
+        tableHTML += `<th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white; text-align: left;">
+          <input type="text" value="${header}" 
+                 style="background: transparent; border: none; color: white; font-weight: bold; width: 100%;"
+                 onchange="updateColumnHeader(${index}, this.value)"
+                 placeholder="Column ${index + 1}">
+        </th>`;
+      });
+      tableHTML += '</tr></thead>';
+      
+      // Add empty data rows with placeholder
+      tableHTML += '<tbody>';
+      for (let i = 0; i < 3; i++) {
+        const bgColor = i % 2 === 0 ? '#f2f2f2' : 'white';
+        tableHTML += `<tr style="background-color: ${bgColor};">`;
+        defaultHeaders.forEach(() => {
+          tableHTML += `<td style="border: 1px solid #ddd; padding: 8px; color: #999;">No data available</td>`;
+        });
+        tableHTML += '</tr>';
+      }
+      tableHTML += '</tbody></table>';
+      
+      // Update the chartDatasetDiv with the editable table
+      document.getElementById('chartDatasetDiv').innerHTML = 
+        '<div style="margin-left: 5px; font-weight: bold">Dataset (No CSV file found)</div>' + tableHTML;
+      
+      // Populate column dropdowns with default headers
+      populateColumnDropdowns();
+    }
+
+    function updateColumnHeader(index, newValue) {
+      if (!newValue.trim()) {
+        newValue = `Column ${index + 1}`;
+      }
+      
+      // Update the global csvColumns array
+      window.csvColumns[index] = newValue;
+      
+      // Update all dropdown options
+      populateColumnDropdowns();
+      
+      console.log(`Column ${index} renamed to: ${newValue}`);
+    }
+
     function populateColumnDropdowns() {
       if (!window.csvColumns) return;
 
@@ -1300,12 +1356,16 @@
       console.log(`CSV Exists: ${await checkCSVExists(`${demo.split(".")[0]}.csv`)}`)
       const csvExists = await checkCSVExists(`${demo.split(".")[0]}.csv`);
 
+      // Always add Dataset stage and show dataset panel
+      sectionTitles.unshift("Dataset");
+      updateBreadcrumb();
 
-      if (csvExists) { // csv file exists, add dataset stage
-        sectionTitles.unshift("Dataset");
-        updateBreadcrumb();
-        // Load and display CSV data
+      if (csvExists) {
+        // CSV file exists, load and display CSV data
         await displayCSVData(`${demo.split(".")[0]}.csv`);
+      } else {
+        // CSV file doesn't exist, display empty editable table
+        displayEmptyEditableTable();
       }
 
       fetch("../charts_svg/" + demo)
