@@ -173,6 +173,10 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_1" onchange="columnSelectionChanged(1)"
+                    style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(1);"
                     id="axis1Area" width="16px" height="16px" class="selectAreaBtn"
                     style="margin-left: 0px; margin-top: 5px" />
@@ -214,6 +218,10 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_2" onchange="columnSelectionChanged(2)"
+                    style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(2);"
                     id="axis2Area" width="16px" height="16px" class="selectAreaBtn"
                     style="margin-left: 0px; margin-top: 5px" />
@@ -239,6 +247,10 @@
                   <option value="string">categories</option>
                   <option value="number">numbers</option>
                   <option value="date">dates</option>
+                </select>
+                <select class="columnSelect" id="legendColumnSelect" onchange="legendColumnSelectionChanged()"
+                  style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                  <option value="">Select Column</option>
                 </select>
                 <input type="image" src="labeling_tool/img/select-area.png" id="legendArea"
                   onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn" />
@@ -833,7 +845,7 @@
     var annotationLoaded = false;
 
     // breadcrumb ui functions
-    const sectionTitles = [
+    let sectionTitles = [
       "Axis & Legend",
       "Marks",
       "Groups",
@@ -924,6 +936,11 @@
             .on("mousemove", null);
           if (groupedGraphicsElement?.texts)
             svgTextHighlight(groupedGraphicsElement.texts);
+
+          // Show column dropdowns if CSV data is available
+          if (window.csvColumns) {
+            showColumnDropdowns();
+          }
           break;
         case "Marks":
           document.getElementById("chartDatasetDiv").style.visibility = "hidden";
@@ -1118,6 +1135,9 @@
                     <option value="number">numbers</option>
                     <option value="date">dates</option>
                   </select>
+                  <select class="columnSelect" id="columnSelect_${axisCount}" onchange="columnSelectionChanged(${axisCount})" style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
+                    <option value="">Select Column</option>
+                  </select>
                   <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(${axisCount});" id="axis${axisCount}Area" width="16px" height="16px" class="selectAreaBtn" style="margin-left: 0px; margin-top: 5px"/>
                 </div>
               </div>
@@ -1130,6 +1150,14 @@
       document
         .getElementById("buttons")
         .insertBefore(axisDiv, document.querySelector(".axisDiv:last-child"));
+
+      // Populate the column dropdown for the new axis if CSV data is available
+      if (window.csvColumns) {
+        populateColumnDropdowns();
+        if (window.csvColumns.length > 0) {
+          document.getElementById(`columnSelect_${axisCount}`).style.display = 'none';
+        }
+      }
     }
 
     async function checkCSVExists(fileName) {
@@ -1149,6 +1177,9 @@
           return;
         }
         const data = await res.json();
+
+        // Store CSV columns globally for dropdown population
+        window.csvColumns = data.header;
 
         // Create table HTML
         let tableHTML = '<table>';
@@ -1174,6 +1205,9 @@
         // Update the dataset drawer with the table
         document.getElementById('datasetTableContainer').innerHTML = tableHTML;
 
+        // Populate all column dropdowns
+        populateColumnDropdowns();
+
       } catch (error) {
         console.error("Error loading CSV data:", error);
         document.getElementById('datasetTableContainer').innerHTML =
@@ -1181,7 +1215,125 @@
       }
     }
 
+    function displayEmptyEditableTable() {
+      console.log("Displaying empty editable table...");
+      
+      // Create default column headers
+      const defaultHeaders = ['Column 1', 'Column 2', 'Column 3'];
+      window.csvColumns = [...defaultHeaders]; // Store globally for dropdown population
+      
+      // Create editable table HTML
+      let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
+      
+      // Add editable header row
+      tableHTML += '<thead><tr>';
+      defaultHeaders.forEach((header, index) => {
+        tableHTML += `<th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white; text-align: left;">
+          <input type="text" value="${header}" 
+                 style="background: transparent; border: none; color: white; font-weight: bold; width: 100%;"
+                 onchange="updateColumnHeader(${index}, this.value)"
+                 placeholder="Column ${index + 1}">
+        </th>`;
+      });
+      tableHTML += '</tr></thead>';
+      
+      // Add empty data rows with placeholder
+      tableHTML += '<tbody>';
+      for (let i = 0; i < 3; i++) {
+        const bgColor = i % 2 === 0 ? '#f2f2f2' : 'white';
+        tableHTML += `<tr style="background-color: ${bgColor};">`;
+        defaultHeaders.forEach(() => {
+          tableHTML += `<td style="border: 1px solid #ddd; padding: 8px; color: #999;">No data available</td>`;
+        });
+        tableHTML += '</tr>';
+      }
+      tableHTML += '</tbody></table>';
+      
+      // Update the chartDatasetDiv with the editable table
+      document.getElementById('chartDatasetDiv').innerHTML = 
+        '<div style="margin-left: 5px; font-weight: bold">Dataset (No CSV file found)</div>' + tableHTML;
+      
+      // Populate column dropdowns with default headers
+      populateColumnDropdowns();
+    }
+
+    function updateColumnHeader(index, newValue) {
+      if (!newValue.trim()) {
+        newValue = `Column ${index + 1}`;
+      }
+      
+      // Update the global csvColumns array
+      window.csvColumns[index] = newValue;
+      
+      // Update all dropdown options
+      populateColumnDropdowns();
+      
+      console.log(`Column ${index} renamed to: ${newValue}`);
+    }
+
+    function populateColumnDropdowns() {
+      if (!window.csvColumns) return;
+
+      // Populate existing axis column dropdowns
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        // Clear existing options except the first default option
+        while (select.options.length > 1) {
+          select.remove(1);
+        }
+
+        // Add CSV columns as options
+        window.csvColumns.forEach(column => {
+          const option = document.createElement('option');
+          option.value = column;
+          option.textContent = column;
+          select.appendChild(option);
+        });
+      });
+    }
+
+    function showColumnDropdowns() {
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        select.style.display = 'inline-block';
+      });
+    }
+
+    function hideColumnDropdowns() {
+      document.querySelectorAll('.columnSelect').forEach(select => {
+        select.style.display = 'none';
+      });
+    }
+
+    function columnSelectionChanged(axisIndex) {
+      const columnSelect = document.getElementById(`columnSelect_${axisIndex}`);
+      const selectedColumn = columnSelect.value;
+      console.log(`Axis ${axisIndex} mapped to column: ${selectedColumn}`);
+
+      // Store the mapping in the axes object
+      if (!axes[axisIndex]) {
+        axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+      }
+      axes[axisIndex].dataColumn = selectedColumn;
+    }
+
+    function legendColumnSelectionChanged() {
+      const legendColumnSelect = document.getElementById('legendColumnSelect');
+      const selectedColumn = legendColumnSelect.value;
+      console.log(`Legend mapped to column: ${selectedColumn}`);
+
+      // Store the mapping in the legend object
+      if (!window.legend) {
+        window.legend = {};
+      }
+      window.legend.dataColumn = selectedColumn;
+    }
+
     async function loadDemo(demo) {
+      const name = demo.split(".")[0];
+
+      if (name) {
+        window.location.hash = `#${name}`;
+      }
+
       // demo is the full name of a SVG file, e.g., "BarChart1.svg"
       if (sectionTitles[0] === "Dataset") {
         sectionTitles = sectionTitles.slice(1);
@@ -1193,10 +1345,12 @@
       console.log(`CSV Exists: ${await checkCSVExists(`${demo.split(".")[0]}.csv`)}`)
       const csvExists = await checkCSVExists(`${demo.split(".")[0]}.csv`);
 
-
       if (csvExists) {
         // Load and display CSV data in the bottom drawer (no longer a separate step)
         await displayCSVData(`${demo.split(".")[0]}.csv`);
+      } else {
+        // CSV file doesn't exist, display empty editable table
+        displayEmptyEditableTable();
       }
 
       fetch("../charts_svg/" + demo)
