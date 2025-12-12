@@ -763,6 +763,19 @@
         </div>
       </div>
     </div>
+
+    <!-- Bottom Dataset Drawer -->
+    <div id="datasetDrawer" class="dataset-drawer">
+      <div id="datasetDrawerPuller" class="dataset-drawer-puller">
+        <div class="dataset-drawer-handle"></div>
+      </div>
+      <div id="datasetDrawerContent" class="dataset-drawer-content">
+        <div style="margin-left: 15px; margin-top: 10px; font-weight: bold; font-size: 14px;">Dataset</div>
+        <div id="datasetTableContainer" style="padding: 15px;">
+          <p>No dataset loaded...</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -794,6 +807,21 @@
     window.addEventListener("beforeunload", function (event) {
       event.returnValue = "Are you sure you want to leave?";
       return "Are you sure you want to leave?";
+    });
+
+    // Dataset Drawer functionality
+    const datasetDrawer = document.getElementById("datasetDrawer");
+    const datasetDrawerPuller = document.getElementById("datasetDrawerPuller");
+    let drawerOpen = false;
+
+    // Toggle drawer on click
+    datasetDrawerPuller.addEventListener("click", function () {
+      drawerOpen = !drawerOpen;
+      if (drawerOpen) {
+        datasetDrawer.classList.add("open");
+      } else {
+        datasetDrawer.classList.remove("open");
+      }
     });
 
     // Initialize the section title and breadcrumb navigation
@@ -855,49 +883,6 @@
 
     function arrangeAnnotationDivs(currentStage) {
       switch (currentStage) {
-        case "Dataset":
-          allSVGElementID.forEach((rid) => {
-            d3.select("#" + rid).style("opacity", "1");
-          });
-
-          referenceElements.forEach((rid) => {
-            d3.select("#" + rid).style("opacity", "1");
-          });
-          allLeftNodes
-            .map((node) => node.id)
-            .forEach((r) => {
-              if (r.length > 0) d3.select("#" + r).style("opacity", "1");
-            });
-          document.getElementById("chartDatasetDiv").style.visibility = "visible";
-          document.getElementById("chartTitleDiv").style.visibility =
-            "hidden";
-          document.getElementById("axisAndLegend").style.visibility =
-            "hidden";
-          document.getElementById("generalizedSelection").style.visibility =
-            "hidden";
-          document.getElementById("groupSelection").style.visibility =
-            "hidden";
-          document.getElementById(
-            "possibleOtherGroupsContainer"
-          ).style.visibility = "hidden";
-          d3.select("#current-section").style("visibility", "hidden");
-          d3.select("#specifiedGroups").style("visibility", "hidden");
-          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-          d3.select("#higherGroupBtn").style("visibility", "hidden");
-          document.getElementById("higherLevelGroups").style.visibility =
-            "hidden";
-          d3.select("#EncodingAnnotation").style("visibility", "hidden");
-          d3.select("#EncodingSpec").style("visibility", "hidden");
-          d3.select("#LayoutAnnotation").style("visibility", "hidden");
-          d3.select("#LayoutSpec").style("visibility", "hidden");
-          d3.select("#vis")
-            .on("mousedown", null)
-            .on("mouseup", null)
-            .on("mousemove", null);
-          if (groupedGraphicsElement?.texts)
-            svgTextHighlight(groupedGraphicsElement.texts);
-          break;
-          break;
         case "Axis & Legend":
           allSVGElementID.forEach((rid) => {
             d3.select("#" + rid).style("opacity", "1");
@@ -941,6 +926,7 @@
             svgTextHighlight(groupedGraphicsElement.texts);
           break;
         case "Marks":
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           document.getElementById("chartTitleDiv").style.visibility =
             "hidden";
           allSVGElementID.forEach((rid) => {
@@ -979,6 +965,7 @@
 
           break;
         case "Groups":
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           d3.select("#LayoutAnnotation").style("visibility", "hidden");
           d3.select("#LayoutSpec").style("visibility", "hidden");
           document.getElementById("axisAndLegend").style.visibility =
@@ -996,6 +983,7 @@
           initilizeGroupAnnotation();
           break;
         case "Layout":
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           d3.select("#EncodingAnnotation").style("visibility", "hidden");
           d3.select("#EncodingSpec").style("visibility", "hidden");
           d3.select("#LayoutAnnotation").style("visibility", "visible");
@@ -1018,6 +1006,7 @@
             .style("pointer-events", "none");
           break;
         case "Encodings":
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           d3.select("#rbox1")
             .selectAll("text")
             .style("opacity", "0.3")
@@ -1033,6 +1022,7 @@
           initilizeEncodingAnnotation();
           break;
         case "Constraints":
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           d3.select("#EncodingAnnotation").style("visibility", "hidden");
           d3.select("#EncodingSpec").style("visibility", "hidden");
           d3.select("#ConstraintAnnotation").style("visibility", "visible");
@@ -1040,6 +1030,7 @@
           initilizeConstraintAnnotation();
           break;
         default:
+          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           document.getElementById("axisAndLegend").style.visibility =
             "hidden";
           document.getElementById("generalizedSelection").style.visibility =
@@ -1160,35 +1151,33 @@
         const data = await res.json();
 
         // Create table HTML
-        let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
+        let tableHTML = '<table>';
 
         // Add header row
         tableHTML += '<thead><tr>';
         data.header.forEach(col => {
-          tableHTML += `<th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white; text-align: left;">${col}</th>`;
+          tableHTML += `<th>${col}</th>`;
         });
         tableHTML += '</tr></thead>';
 
         // Add data rows
         tableHTML += '<tbody>';
         data.rows.forEach((row, idx) => {
-          const bgColor = idx % 2 === 0 ? '#f2f2f2' : 'white';
-          tableHTML += `<tr style="background-color: ${bgColor};">`;
+          tableHTML += '<tr>';
           row.forEach(cell => {
-            tableHTML += `<td style="border: 1px solid #ddd; padding: 8px;">${cell}</td>`;
+            tableHTML += `<td>${cell}</td>`;
           });
           tableHTML += '</tr>';
         });
         tableHTML += '</tbody></table>';
 
-        // Update the chartDatasetDiv with the table
-        document.getElementById('chartDatasetDiv').innerHTML =
-          '<div style="margin-left: 5px; font-weight: bold">Dataset</div>' + tableHTML;
+        // Update the dataset drawer with the table
+        document.getElementById('datasetTableContainer').innerHTML = tableHTML;
 
       } catch (error) {
         console.error("Error loading CSV data:", error);
-        document.getElementById('chartDatasetDiv').innerHTML =
-          '<div style="margin-left: 5px; font-weight: bold">Dataset</div><p style="color: red;">Error loading CSV data</p>';
+        document.getElementById('datasetTableContainer').innerHTML =
+          '<p style="color: red;">Error loading CSV data</p>';
       }
     }
 
@@ -1205,10 +1194,8 @@
       const csvExists = await checkCSVExists(`${demo.split(".")[0]}.csv`);
 
 
-      if (csvExists) { // csv file exists, add dataset stage
-        sectionTitles.unshift("Dataset");
-        updateBreadcrumb();
-        // Load and display CSV data
+      if (csvExists) {
+        // Load and display CSV data in the bottom drawer (no longer a separate step)
         await displayCSVData(`${demo.split(".")[0]}.csv`);
       }
 
