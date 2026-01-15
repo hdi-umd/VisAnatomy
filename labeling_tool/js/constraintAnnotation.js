@@ -4,9 +4,9 @@ var groupMarkCorrespondence = {};
 function initilizeConstraintAnnotation() {
   // first filter out texts whose mark role is not Main Chart Mark or isReferenceElement is false
   groupMarkCorrespondence = {};
-  availableTexts = Object.values(allGraphicsElement).filter(function (d) {
+  availableTexts = Object.values(VA.allGraphicsElement).filter(function (d) {
     return d.tagName === "text" && !referenceElements.includes(d.id)
-      ? markInfo[d.id]?.Role !== "Main Chart Mark"
+      ? VA.markInfo[d.id]?.Role !== "Main Chart Mark"
       : false;
   });
   enableDD4AnnotationRoleText();
@@ -16,10 +16,10 @@ function initilizeConstraintAnnotation() {
     "<h4>Grouping Structure</h4>";
   document
     .getElementById("ConstraintAnnotation")
-    .appendChild(createList3(convertToJSON2(nestedGrouping[0])));
+    .appendChild(createList3(convertToJSON2(VA.nestedGrouping[0])));
 
   document.getElementById("pairingStructure").innerHTML = JSON.stringify(
-    textObjectLinking ? textObjectLinking : {},
+    VA.textObjectLinking ? VA.textObjectLinking : {},
     null,
     2
   );
@@ -187,13 +187,13 @@ function enableDD4AnnotationRoleText() {
       document.getElementById("droppingObject").innerHTML = "";
       document.getElementById("draggingText").innerHTML = "";
       if (element) {
-        textObjectLinking[element.id.split("_")[1]] = [
+        VA.textObjectLinking[element.id.split("_")[1]] = [
           availableTexts.filter((t) => t["id"] == current.attr("id"))[0].id,
         ];
       }
       // display textObjectLinking in pretty JSON format in pairingStructure DIV
       document.getElementById("pairingStructure").innerHTML = JSON.stringify(
-        textObjectLinking,
+        VA.textObjectLinking,
         null,
         2
       );
@@ -207,7 +207,7 @@ function enableDD4AnnotationRoleText() {
       })
       .on("mouseout", function () {
         d3.select(this)
-          .style("fill", markInfo[textID]?.fill || "black")
+          .style("fill", VA.markInfo[textID]?.fill || "black")
           .style("font-weight", "normal");
       });
     dragHandler2(d3.select("#" + textID));

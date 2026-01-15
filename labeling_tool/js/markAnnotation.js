@@ -34,7 +34,7 @@ function hideAllSublists() {
 function populateSublist(sublist) {
   sublist.innerHTML = "";
 
-  for (let i = 1; i <= Object.keys(axes).length; i++) {
+  for (let i = 1; i <= Object.keys(VA.axes).length; i++) {
     const subOption = document.createElement("div");
     subOption.className = "sub-option";
     subOption.textContent = "axis " + i;
@@ -44,10 +44,10 @@ function populateSublist(sublist) {
     };
     subOption.onmouseover = () => {
       // get axes[i].labels and fetch their positions through allGraphicsElement using their IDs and draw a rectangle around them, with padding 5px
-      let axis = axes[i];
+      let axis = VA.axes[i];
       let labels = axis.labels;
       let labelPositions = labels.map((label) => {
-        let labelElement = allGraphicsElement[label.id];
+        let labelElement = VA.allGraphicsElement[label.id];
         return {
           x: labelElement.left,
           y: labelElement.top,
@@ -149,11 +149,11 @@ function initilizeMarkAnnotation() {
     .reduce((a, b) => a + b);
   document.getElementById("allMarks").innerHTML = "";
 
-  if (Object.keys(markInfo).length === 0) {
+  if (Object.keys(VA.markInfo).length === 0) {
     leafNodeTypes.forEach((type) => {
       // initialize the type and role of each graphical element
       mainContentElements[type].forEach((element) => {
-        markInfo[element.id] = {
+        VA.markInfo[element.id] = {
           // Type: type === "path" ? "none" : type,
           Type: "none",
           Role: "none",
@@ -170,12 +170,12 @@ function initilizeMarkAnnotation() {
       markDiv.id = "mark_" + element.id;
       markDiv.innerHTML = element.id;
       let markID = element.id;
-      if (!markInfo[markID])
-        markInfo[markID] = {
+      if (!VA.markInfo[markID])
+        VA.markInfo[markID] = {
           Type: type === "path" ? "none" : type,
           Role: "none",
         };
-      showMarkTypeRole(markInfo[markID], markDiv);
+      showMarkTypeRole(VA.markInfo[markID], markDiv);
       // if (markInfo[markID]["Type"] !== "none") {
       //   let typeTag = document.createElement("span");
       //   typeTag.innerHTML = "&nbsp;" + markInfo[markID]["Type"];
@@ -359,8 +359,8 @@ function markOnClick(markID, event) {
     markSelection.length;
 
   document.getElementById("markTypeSelection").value =
-    markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
-      ? markInfo[markID].Type
+    markSelection.map((r) => VA.markInfo[r].Type).filter(onlyUnique).length === 1
+      ? VA.markInfo[markID].Type
       : "none";
   // document.getElementById("markRoleSelection").value =
   //   markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
@@ -406,8 +406,8 @@ function selectionOnClick(selectionID, selection) {
   });
   // }
   document.getElementById("markTypeSelection").value =
-    markSelection.map((r) => markInfo[r].Type).filter(onlyUnique).length === 1
-      ? markInfo[markSelection[0]].Type
+    markSelection.map((r) => VA.markInfo[r].Type).filter(onlyUnique).length === 1
+      ? VA.markInfo[markSelection[0]].Type
       : "none";
   // document.getElementById("markRoleSelection").value =
   //   markSelection.map((r) => markInfo[r].Role).filter(onlyUnique).length === 1
@@ -477,28 +477,28 @@ function markAnnotationChanged(attr) {
   if (markSelection.length === 0) {
     return;
   }
-  console.log(markInfo);
+  console.log(VA.markInfo);
   markSelection.map((selectedMarkID) => {
     if (attr === "Type") {
       let thisValue = document.getElementById(
         "mark" + attr + "Selection"
       ).value;
-      markInfo[selectedMarkID][attr] = thisValue;
+      VA.markInfo[selectedMarkID][attr] = thisValue;
     } else if (attr === "areaMarkBaseline") {
       let thisValue = document.getElementById(
         "areaMarkBaselineSelection"
       ).value;
-      markInfo[selectedMarkID][attr] = thisValue;
+      VA.markInfo[selectedMarkID][attr] = thisValue;
     } else {
-      markInfo[selectedMarkID].Role = attr;
+      VA.markInfo[selectedMarkID].Role = attr;
     }
   });
   if (attr.includes("Axis")) {
     let axisID = parseInt(attr.split(" ")[1]);
     let component = attr.split(" ")[2];
-    axes[axisID][component] =
+    VA.axes[axisID][component] =
       component === "Label" || component === "title"
-        ? markSelection.map((r) => allGraphicsElement[r])
+        ? markSelection.map((r) => VA.allGraphicsElement[r])
         : markSelection;
   }
   reflectChanges();
@@ -534,7 +534,7 @@ function reflectChanges() {
   markSelection.forEach((markID) => {
     let markDiv = document.getElementById("mark_" + markID);
     markDiv.innerHTML = markID;
-    showMarkTypeRole(markInfo[markID], markDiv);
+    showMarkTypeRole(VA.markInfo[markID], markDiv);
     // if (markInfo[markID]["Type"] !== "none") {
     //   let typeTag = document.createElement("span");
     //   typeTag.innerHTML = "&nbsp;(" + markInfo[markID]["Type"];
@@ -562,7 +562,7 @@ function dertermineChannelBasedBatchSelections(elementType) {
         r.element.attributes[channel]
           ? r.element.attributes[channel].value
           : channel === "fill"
-          ? allGraphicsElement[r.element.id].fill
+          ? VA.allGraphicsElement[r.element.id].fill
           : "undefined"
       )
       .filter(onlyUnique);
@@ -573,7 +573,7 @@ function dertermineChannelBasedBatchSelections(elementType) {
             r.element.attributes[channel]?.value === value ||
             (value === "undefined" && !r.element.attributes[channel]) ||
             (channel === "fill" &&
-              allGraphicsElement[r.element.id]?.fill === value)
+              VA.allGraphicsElement[r.element.id]?.fill === value)
         )
         .map((r) => r.id);
     });

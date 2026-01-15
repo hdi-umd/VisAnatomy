@@ -720,7 +720,7 @@
       updateBreadcrumb();
     });
 
-    var annotationLoaded = false;
+    VA.annotationLoaded = false;
 
     // breadcrumb ui functions
     let sectionTitles = [
@@ -946,14 +946,14 @@
       axisDiv.remove();
 
       // Remove the corresponding axis from the axe variable
-      delete axes[axisIndex];
+      delete VA.axes[axisIndex];
 
       // Reorder the axe variable and update the div IDs
       const newAxes = {};
       let newIndex = 1;
-      for (const key in axes) {
-        if (axes.hasOwnProperty(key)) {
-          newAxes[newIndex] = axes[key];
+      for (const key in VA.axes) {
+        if (VA.axes.hasOwnProperty(key)) {
+          newAxes[newIndex] = VA.axes[key];
           const div = document.getElementById(`axis_${key}`);
           if (div) {
             div.id = `axis_${newIndex}`;
@@ -984,8 +984,8 @@
 
     function addAxisConfiguration() {
       axisCount++;
-      axes[axisCount] = axes[axisCount]
-        ? axes[axisCount]
+      VA.axes[axisCount] = VA.axes[axisCount]
+        ? VA.axes[axisCount]
         : {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
       
       // Use the template to create the axis element
@@ -1061,10 +1061,10 @@
       console.log(`Axis ${axisIndex} mapped to column: ${selectedColumn}`);
 
       // Store the mapping in the axes object
-      if (!axes[axisIndex]) {
-        axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+      if (!VA.axes[axisIndex]) {
+        VA.axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
       }
-      axes[axisIndex].dataColumn = selectedColumn;
+      VA.axes[axisIndex].dataColumn = selectedColumn;
     }
 
     function legendColumnSelectionChanged() {
@@ -1132,13 +1132,13 @@
 
           // get all basic graphic elements from the svg file
           groupSVGElementsByTypeWithCoordinates();
-          if (!annotationLoaded) {
+          if (!VA.annotationLoaded) {
             // extract() calls displayAxis() and displayLegend() to display the extracted elements
             extract();
           }
 
           // in preprocess-interaction.js, attaching drag and drop event listeners to the svg text elements
-          enableDragDrop(groupedGraphicsElement.texts);
+          enableDragDrop(VA.groupedGraphicsElement.texts);
 
           // in display.js, setting a proper view box for the svg file so that the svg file fits into the browser window
           setViewBox();

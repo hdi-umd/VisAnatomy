@@ -70,7 +70,7 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
     if (!(zeroHeight && zeroWidth) && top > -4000 && left > -4000) {
-      allGraphicsElement[element.id] = {
+      VA.allGraphicsElement[element.id] = {
         left: left,
         top: top,
         right: right,
@@ -95,8 +95,8 @@ function groupSVGElementsByTypeWithCoordinates() {
         strokeWidth: element.attributes["stroke-width"]? element.attributes["stroke-width"].value : 
         element.style["stroke-width"] ? element.style["stroke-width"] : getClosestAncestorStyle(element.id, "stroke-width"),
       };
-      if (Object.keys(groupedGraphicsElement).includes(element.tagName + "s"))
-        groupedGraphicsElement[element.tagName + "s"].push({
+      if (Object.keys(VA.groupedGraphicsElement).includes(element.tagName + "s"))
+        VA.groupedGraphicsElement[element.tagName + "s"].push({
           left: left,
           top: top,
           right: right,
@@ -116,7 +116,7 @@ function groupSVGElementsByTypeWithCoordinates() {
               ).getAttribute("fill"),
         });
       else
-        groupedGraphicsElement[element.tagName + "s"] = [
+        VA.groupedGraphicsElement[element.tagName + "s"] = [
           {
             left: left,
             top: top,
@@ -139,7 +139,7 @@ function groupSVGElementsByTypeWithCoordinates() {
         ];
     }
   });
-  console.log(allGraphicsElement);
+  console.log(VA.allGraphicsElement);
 }
 
 function getClosestAncestorStyle(elementID, style) {
@@ -155,21 +155,21 @@ function getClosestAncestorStyle(elementID, style) {
 
 function groupSVGElementsByType() {
   referenceElements = [
-    ...(legend.labels ? legend.labels : []),
-    ...(legend.marks ? legend.marks : []),
-    ...Object.keys(axes)
-      .map((key) => (axes[key].labels ? axes[key].labels : []))
+    ...(VA.legend.labels ? VA.legend.labels : []),
+    ...(VA.legend.marks ? VA.legend.marks : []),
+    ...Object.keys(VA.axes)
+      .map((key) => (VA.axes[key].labels ? VA.axes[key].labels : []))
       .flat(),
-    ...Object.keys(axes)
-      .map((key) => (axes[key].title ? axes[key].title : []))
+    ...Object.keys(VA.axes)
+      .map((key) => (VA.axes[key].title ? VA.axes[key].title : []))
       .flat(),
-    ...Object.keys(axes)
+    ...Object.keys(VA.axes)
       .map((key) =>
-        axes[key].upperLevels ? axes[key].upperLevels.flat(Infinity) : []
+        VA.axes[key].upperLevels ? VA.axes[key].upperLevels.flat(Infinity) : []
       )
       .flat(),
-    ...chartTitle,
-    ...titleLegend,
+    ...VA.chartTitle,
+    ...VA.titleLegend,
   ]
     .filter((e) => e !== null)
     .map((element) => element.id);

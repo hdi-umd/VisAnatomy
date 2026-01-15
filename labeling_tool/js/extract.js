@@ -2,24 +2,24 @@ var rects4Grouping;
 var numOfColor;
 
 function extract() {
-  let rects = groupedGraphicsElement["rects"]
-    ? groupedGraphicsElement["rects"]
+  let rects = VA.groupedGraphicsElement["rects"]
+    ? VA.groupedGraphicsElement["rects"]
     : [];
   rects = rects.filter(filterRect);
 
   let texts;
   try {
-    texts = textProcessor([...groupedGraphicsElement["texts"]]);
+    texts = textProcessor([...VA.groupedGraphicsElement["texts"]]);
   } catch (e) {
-    legend = { labels: [], marks: [], mapping: {} };
-    xAxis = {
+    VA.legend = { labels: [], marks: [], mapping: {} };
+    VA.xAxis = {
       labels: [],
       ticks: [],
       path: [],
       fieldType: undefined,
       type: "x",
     };
-    yAxis = {
+    VA.yAxis = {
       labels: [],
       ticks: [],
       path: [],
@@ -43,36 +43,36 @@ function extract() {
     .filter(onlyUnique);
   numOfColor = thisColors.length;
 
-  legend = findLegend(texts, groupedGraphicsElement["rects"], numOfColor);
-  if (legend.labels?.length === 0)
-    legend = findLegend(texts, groupedGraphicsElement["circles"], numOfColor);
-  console.log("legend", legend);
-  displayLegend(legend);
-  texts = texts.filter((text) => !legend.labels.includes(text));
+  VA.legend = findLegend(texts, VA.groupedGraphicsElement["rects"], numOfColor);
+  if (VA.legend.labels?.length === 0)
+    VA.legend = findLegend(texts, VA.groupedGraphicsElement["circles"], numOfColor);
+  console.log("legend", VA.legend);
+  displayLegend(VA.legend);
+  texts = texts.filter((text) => !VA.legend.labels.includes(text));
 
   // X axis
-  xAxis = findxAxis(texts);
-  console.log("x axis", xAxis);
-  axes[1] = xAxis;
+  VA.xAxis = findxAxis(texts);
+  console.log("x axis", VA.xAxis);
+  VA.axes[1] = VA.xAxis;
   // see if an axis div is there
   if (d3.select("#axis_1").empty()) addAxisConfiguration();
   displayAxis(1);
-  texts = texts.filter((text) => !xAxis.labels.includes(text));
+  texts = texts.filter((text) => !VA.xAxis.labels.includes(text));
 
   // Y axis
-  yAxis = findyAxis(texts);
-  console.log("y axis", yAxis);
+  VA.yAxis = findyAxis(texts);
+  console.log("y axis", VA.yAxis);
   if (d3.select("#axis_2").empty()) addAxisConfiguration();
-  axes[2] = yAxis;
+  VA.axes[2] = VA.yAxis;
   displayAxis(2);
 
-  [...legend.labels, ...legend.marks, ...xAxis.labels, ...yAxis.labels].forEach(
+  [...VA.legend.labels, ...VA.legend.marks, ...VA.xAxis.labels, ...VA.yAxis.labels].forEach(
     (object) => {
-      allGraphicsElement[object.id].isReferenceElement = true;
+      VA.allGraphicsElement[object.id].isReferenceElement = true;
     }
   );
 
-  console.log("allGraphicsElement", allGraphicsElement);
+  console.log("allGraphicsElement", VA.allGraphicsElement);
 }
 
 function findLegendInArea(tl, br, texts) {
@@ -95,8 +95,8 @@ function findLegendInArea(tl, br, texts) {
   if (legendLabels.length === 0) return;
 
   ["rects", "circles", "paths"].forEach((tag) => {
-    let marksInArea = groupedGraphicsElement[tag]
-      ? groupedGraphicsElement[tag].filter((mark) => {
+    let marksInArea = VA.groupedGraphicsElement[tag]
+      ? VA.groupedGraphicsElement[tag].filter((mark) => {
           if (
             !(
               mark.left > br.x ||
@@ -149,18 +149,18 @@ function findLegendInArea(tl, br, texts) {
       ? "horz"
       : "vert";
 
-  legend = result;
+  VA.legend = result;
 
   for (let l of legendLabels) {
-    allGraphicsElement[l.id].isReferenceElement = true;
-    if (xAxis.labels.indexOf(l) >= 0)
-      xAxis.labels.splice(xAxis.labels.indexOf(l), 1);
-    if (yAxis.labels.indexOf(l) >= 0)
-      yAxis.labels.splice(yAxis.labels.indexOf(l), 1);
+    VA.allGraphicsElement[l.id].isReferenceElement = true;
+    if (VA.xAxis.labels.indexOf(l) >= 0)
+      VA.xAxis.labels.splice(VA.xAxis.labels.indexOf(l), 1);
+    if (VA.yAxis.labels.indexOf(l) >= 0)
+      VA.yAxis.labels.splice(VA.yAxis.labels.indexOf(l), 1);
   }
 
   for (let r of legendMarks) {
-    allGraphicsElement[r.id].isReferenceElement = true;
+    VA.allGraphicsElement[r.id].isReferenceElement = true;
   }
 }
 
@@ -435,9 +435,9 @@ function findAxisInArea(o, tl, br, texts) {
   labels = labels
     .map((l) => l.id)
     .filter(onlyUnique)
-    .map((id) => allGraphicsElement[id]);
+    .map((id) => VA.allGraphicsElement[id]);
 
-  let axis = axes[o];
+  let axis = VA.axes[o];
   axis["type"] = axis["type"] ? axis["type"] : o;
   axis["labels"] = labels;
   axis["ticks"] = [];
@@ -447,11 +447,11 @@ function findAxisInArea(o, tl, br, texts) {
 
   //remove from main content and the other axis/legend
   for (let l of labels) {
-    allGraphicsElement[l.id].isReferenceElement = true;
+    VA.allGraphicsElement[l.id].isReferenceElement = true;
   }
-  Object.keys(axes).forEach((key) => {
+  Object.keys(VA.axes).forEach((key) => {
     if (key != o) {
-      axes[key].labels = axes[key].labels.filter((l) => !labels.includes(l));
+      VA.axes[key].labels = VA.axes[key].labels.filter((l) => !labels.includes(l));
     }
   });
 

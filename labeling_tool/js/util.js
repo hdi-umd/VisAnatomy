@@ -1,28 +1,31 @@
+// Create global namespace
+var VA = VA || {};
+
 function initilizeVariables() {
-  groupedGraphicsElement = {};
-  allGraphicsElement = {};
-  annotations = {};
-  xAxis = {};
-  yAxis = {};
-  axes = {
+  VA.groupedGraphicsElement = {};
+  VA.allGraphicsElement = {};
+  VA.annotations = {};
+  VA.xAxis = {};
+  VA.yAxis = {};
+  VA.axes = {
     1: { labels: [], fieldType: "Null", title: [], ticks: [], type: "x" },
     2: { labels: [], fieldType: "Null", title: [], ticks: [], type: "y" },
   };
-  legend = {};
-  xGridlines = [];
-  yGridlines = [];
-  markInfo = {};
-  chartTitle = [];
-  titleLegend = [];
-  titleXaxis = [];
-  titleYaxis = [];
-  annotationLoaded = false;
-  nestedGrouping = [];
-  groupAnnotations = [];
-  marksHaveGroupAnnotation = [];
-  groupLayouts = {};
-  objectEncodings = {};
-  textObjectLinking = {};
+  VA.legend = {};
+  VA.xGridlines = [];
+  VA.yGridlines = [];
+  VA.markInfo = {};
+  VA.chartTitle = [];
+  VA.titleLegend = [];
+  VA.titleXaxis = [];
+  VA.titleYaxis = [];
+  VA.annotationLoaded = false;
+  VA.nestedGrouping = [];
+  VA.groupAnnotations = [];
+  VA.marksHaveGroupAnnotation = [];
+  VA.groupLayouts = {};
+  VA.objectEncodings = {};
+  VA.textObjectLinking = {};
 }
 
 function saveAllAnnotations() {
@@ -139,21 +142,21 @@ function post() {
   let data = {};
 
   [
-    legend.marks,
-    legend.labels,
-    legend.title,
-    ...Object.keys(axes).map((k) => (axes[k].labels ? axes[k].labels : [])),
-    ...Object.keys(axes).map((k) => (axes[k].title ? axes[k].title : [])),
+    VA.legend.marks,
+    VA.legend.labels,
+    VA.legend.title,
+    ...Object.keys(VA.axes).map((k) => (VA.axes[k].labels ? VA.axes[k].labels : [])),
+    ...Object.keys(VA.axes).map((k) => (VA.axes[k].title ? VA.axes[k].title : [])),
   ]
     .filter((e) => e?.length > 0)
     .forEach((object) => {
       object.forEach((element) => {
         switch (typeof element) {
           case "string":
-            allGraphicsElement[element].isReferenceElement = true;
+            VA.allGraphicsElement[element].isReferenceElement = true;
             break;
           case "object":
-            allGraphicsElement[element.id].isReferenceElement = true;
+            VA.allGraphicsElement[element.id].isReferenceElement = true;
             break;
         }
       });
@@ -173,41 +176,41 @@ function post() {
   //     });
   //   });
   // }
-  annotations.allGraphicsElement = allGraphicsElement;
-  annotations.groupedGraphicsElement = groupedGraphicsElement;
-  annotations.chartTitle =
-    chartTitle.filter((e) => e !== null).length > 0
-      ? chartTitle.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo).filter(
-        (mark) => markInfo[mark].Role === "Chart Title"
+  VA.annotations.allGraphicsElement = VA.allGraphicsElement;
+  VA.annotations.groupedGraphicsElement = VA.groupedGraphicsElement;
+  VA.annotations.chartTitle =
+    VA.chartTitle.filter((e) => e !== null).length > 0
+      ? VA.chartTitle.map((title) => VA.allGraphicsElement[title.id])
+      : Object.keys(VA.markInfo).filter(
+        (mark) => VA.markInfo[mark].Role === "Chart Title"
       );
-  annotations.markInfo = markInfo;
-  annotations.groupInfo = groupAnnotations;
-  annotations.nestedGrouping = nestedGrouping;
-  annotations.layoutInfo = groupLayouts;
-  annotations.encodingInfo = objectEncodings;
-  annotations.textObjectLinking = textObjectLinking;
-  annotations.referenceElement = {};
+  VA.annotations.markInfo = VA.markInfo;
+  VA.annotations.groupInfo = VA.groupAnnotations;
+  VA.annotations.nestedGrouping = VA.nestedGrouping;
+  VA.annotations.layoutInfo = VA.groupLayouts;
+  VA.annotations.encodingInfo = VA.objectEncodings;
+  VA.annotations.textObjectLinking = VA.textObjectLinking;
+  VA.annotations.referenceElement = {};
 
-  let polylines = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Main Chart Mark" && markInfo[mark].Type === "Polyline"
+  let polylines = Object.keys(VA.markInfo).filter(
+    (mark) => VA.markInfo[mark].Role === "Main Chart Mark" && VA.markInfo[mark].Type === "Polyline"
   );
   for (let pl of polylines) {
-    let d = annotations.allGraphicsElement[pl].d;
+    let d = VA.annotations.allGraphicsElement[pl].d;
     if (d) {
-      annotations.allGraphicsElement[pl].numVertices = getNumVertices(d);
+      VA.annotations.allGraphicsElement[pl].numVertices = getNumVertices(d);
     }
   }
 
-  annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Horizontal Gridline"
+  VA.annotations.referenceElement["xGridlines"] = Object.keys(VA.markInfo).filter(
+    (mark) => VA.markInfo[mark].Role === "Horizontal Gridline"
   );
-  annotations.referenceElement["yGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Vertical Gridline"
+  VA.annotations.referenceElement["yGridlines"] = Object.keys(VA.markInfo).filter(
+    (mark) => VA.markInfo[mark].Role === "Vertical Gridline"
   );
 
   // save the axes
-  annotations.referenceElement["axes"] = axes;
+  VA.annotations.referenceElement["axes"] = VA.axes;
 
   // // complete x axis elements
   // xAxis.path = Object.keys(markInfo).filter(
@@ -217,8 +220,8 @@ function post() {
   //   (mark) => markInfo[mark].Role === "X Axis Tick"
   // );
   // xAxis.title =
-  //   titleXaxis.length > 0
-  //     ? titleXaxis.map((title) => allGraphicsElement[title.id])
+  //   VA.titleXaxis.length > 0
+  //     ? VA.titleXaxis.map((title) => allGraphicsElement[title.id])
   //     : Object.keys(markInfo)
   //         .filter((mark) => markInfo[mark].Role === "X Axis Title")
   //         .map((title) => allGraphicsElement[title]);
@@ -246,8 +249,8 @@ function post() {
   //   (mark) => markInfo[mark].Role === "Y Axis Tick"
   // );
   // yAxis.title =
-  //   titleYaxis.length > 0
-  //     ? titleYaxis.map((title) => allGraphicsElement[title.id])
+  //   VA.titleYaxis.length > 0
+  //     ? VA.titleYaxis.map((title) => allGraphicsElement[title.id])
   //     : Object.keys(markInfo)
   //         .filter((mark) => markInfo[mark].Role === "Y Axis Title")
   //         .map((title) => allGraphicsElement[title]);
@@ -268,45 +271,45 @@ function post() {
   // annotations.referenceElement["yAxis"] = yAxis;
 
   // complete legend elements
-  legend.title =
-    titleLegend.length > 0
-      ? titleLegend.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo)
-        .filter((mark) => markInfo[mark].Role === "Legend Title")
-        .map((title) => allGraphicsElement[title]);
+  VA.legend.title =
+    VA.titleLegend.length > 0
+      ? VA.titleLegend.map((title) => VA.allGraphicsElement[title.id])
+      : Object.keys(VA.markInfo)
+        .filter((mark) => VA.markInfo[mark].Role === "Legend Title")
+        .map((title) => VA.allGraphicsElement[title]);
   // TBD: need to keep an eye on the legend info when annotating
-  legend.ticks = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Legend Tick"
+  VA.legend.ticks = Object.keys(VA.markInfo).filter(
+    (mark) => VA.markInfo[mark].Role === "Legend Tick"
   );
-  legend.marks =
-    legend.marks.length === 0
-      ? Object.keys(markInfo)
-        .filter((mark) => markInfo[mark].Role === "Legend Mark")
-        .map((mark) => allGraphicsElement[mark])
-      : legend.marks.map((mark) => allGraphicsElement[mark.id]);
-  legend.labels =
-    legend.labels.length === 0
-      ? Object.keys(markInfo)
-        .filter((mark) => markInfo[mark].Role === "Legend Label")
-        .map((mark) => allGraphicsElement[mark])
-      : legend.labels.map((label) => allGraphicsElement[label.id]);
-  // legend.marks = legend.marks.push(
+  VA.legend.marks =
+    VA.legend.marks.length === 0
+      ? Object.keys(VA.markInfo)
+        .filter((mark) => VA.markInfo[mark].Role === "Legend Mark")
+        .map((mark) => VA.allGraphicsElement[mark])
+      : VA.legend.marks.map((mark) => VA.allGraphicsElement[mark.id]);
+  VA.legend.labels =
+    VA.legend.labels.length === 0
+      ? Object.keys(VA.markInfo)
+        .filter((mark) => VA.markInfo[mark].Role === "Legend Label")
+        .map((mark) => VA.allGraphicsElement[mark])
+      : VA.legend.labels.map((label) => VA.allGraphicsElement[label.id]);
+  // VA.legend.marks = VA.legend.marks.push(
   //   ...Object.keys(markInfo)
   //     .filter((mark) => markInfo[mark].Role === "Legend Mark")
   //     .map((mark) => allGraphicsElement[mark])
   // );
-  // legend.marks = legend.marks.filter(onlyUnique);
-  // legend.labels = legend.labels.push(
+  // VA.legend.marks = VA.legend.marks.filter(onlyUnique);
+  // VA.legend.labels = VA.legend.labels.push(
   //   ...Object.keys(markInfo)
   //     .filter((mark) => markInfo[mark].Role === "Legend Label")
   //     .map((mark) => allGraphicsElement[mark])
   // );
-  // legend.labels = legend.labels.filter(onlyUnique);
-  annotations.referenceElement["legend"] = legend;
-  delete annotations.contentMarks;
+  // VA.legend.labels = VA.legend.labels.filter(onlyUnique);
+  VA.annotations.referenceElement["legend"] = VA.legend;
+  delete VA.annotations.contentMarks;
 
   data["chart"] = sessionStorage.getItem("fileName");
-  data["annotations"] = annotations;
+  data["annotations"] = VA.annotations;
   xhr.send(JSON.stringify(data));
 }
 

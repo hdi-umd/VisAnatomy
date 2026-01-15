@@ -20,58 +20,58 @@ function tryLoadAnnotations(filename) {
     .then((annotations) => {
       console.log("annotations loading");
       this.users = annotations;
-      annotationLoaded = true;
+      VA.annotationLoaded = true;
 
-      allGraphicsElement = annotations.allElements ? annotations.allElements : {};
-      groupedGraphicsElement = {};
+      VA.allGraphicsElement = annotations.allElements ? annotations.allElements : {};
+      VA.groupedGraphicsElement = {};
 
       // Load all axes, not just x/y
-      axes = {};
+      VA.axes = {};
       if (
         annotations.referenceElements &&
         Array.isArray(annotations.referenceElements.axes)
       ) {
         annotations.referenceElements.axes.forEach((axis, i) => {
-          axes[i + 1] = axis;
-          axes[i + 1].type = axis.type || axis.channel || "x";
+          VA.axes[i + 1] = axis;
+          VA.axes[i + 1].type = axis.type || axis.channel || "x";
           // Map attrType to fieldType if needed
           if (axis.attrType && !axis.fieldType) {
-            axes[i + 1].fieldType = axis.attrType;
+            VA.axes[i + 1].fieldType = axis.attrType;
           }
-          console.log(`Loaded axis ${i + 1}:`, axes[i + 1]);
+          console.log(`Loaded axis ${i + 1}:`, VA.axes[i + 1]);
         });
       }
 
-      legend = annotations.referenceElements && annotations.referenceElements.legend
+      VA.legend = annotations.referenceElements && annotations.referenceElements.legend
         ? annotations.referenceElements.legend
         : {};
 
-      xGridlines =
+      VA.xGridlines =
         annotations.referenceElements &&
           annotations.referenceElements.gridlines &&
           annotations.referenceElements.gridlines.x
           ? annotations.referenceElements.gridlines.x
           : [];
 
-      yGridlines =
+      VA.yGridlines =
         annotations.referenceElements &&
           annotations.referenceElements.gridlines &&
           annotations.referenceElements.gridlines.y
           ? annotations.referenceElements.gridlines.y
           : [];
 
-      markInfo = {};
-      Object.keys(allGraphicsElement).forEach((id) => {
-        const element = allGraphicsElement[id];
-        markInfo[id] = {
+      VA.markInfo = {};
+      Object.keys(VA.allGraphicsElement).forEach((id) => {
+        const element = VA.allGraphicsElement[id];
+        VA.markInfo[id] = {
           Type: element.type || "none",
           Role: element.role || "none"
         };
       });
 
-      groupAnnotations = [];
-      nestedGrouping = [];
-      groupLayouts = {};
+      VA.groupAnnotations = [];
+      VA.nestedGrouping = [];
+      VA.groupLayouts = {};
 
       function buildTree(node) {
         if (!node) return null;
@@ -83,17 +83,17 @@ function tryLoadAnnotations(filename) {
 
         // If this node is a leaf group (children are mark IDs)
         if (node.children.length > 0 && typeof node.children[0] === "string") {
-          const leafIdx = groupAnnotations.length;
-          groupAnnotations.push(node.children.slice()); // copy mark IDs
+          const leafIdx = VA.groupAnnotations.length;
+          VA.groupAnnotations.push(node.children.slice()); // copy mark IDs
           // store leaf layout, default to Glyph when missing
-          groupLayouts[leafIdx] = node.layout && node.layout.type
+          VA.groupLayouts[leafIdx] = node.layout && node.layout.type
             ? node.layout
             : { type: "Glyph", params: {} };
 
           // If node has an explicit id like "g3", also map that numeric suffix (defensive)
           if (node.id && typeof node.id === "string") {
             const m = node.id.match(/(\d+)$/);
-            if (m) groupLayouts[parseInt(m[1], 10)] = groupLayouts[leafIdx];
+            if (m) VA.groupLayouts[parseInt(m[1], 10)] = VA.groupLayouts[leafIdx];
           }
           return leafIdx;
         }
@@ -106,7 +106,7 @@ function tryLoadAnnotations(filename) {
         if (node.id && typeof node.id === "string") {
           const m = node.id.match(/(\d+)$/);
           if (m) {
-            groupLayouts[parseInt(m[1], 10)] =
+            VA.groupLayouts[parseInt(m[1], 10)] =
               node.layout && node.layout.type
                 ? node.layout
                 : { type: "Grid", params: {} };
@@ -122,11 +122,11 @@ function tryLoadAnnotations(filename) {
             ? buildTree(annotations.grouping[0])
             : buildTree(annotations.grouping);
         // nestedGrouping used by UI: put topStructure at index 0
-        nestedGrouping = [topStructure];
+        VA.nestedGrouping = [topStructure];
       } else {
         // fallback: if no grouping, make each mark its own group (preserve old behavior)
-        nestedGrouping = groupAnnotations.length
-          ? [groupAnnotations.map((_, i) => i)]
+        VA.nestedGrouping = VA.groupAnnotations.length
+          ? [VA.groupAnnotations.map((_, i) => i)]
           : [];
       }
 
@@ -194,38 +194,38 @@ function tryLoadAnnotations(filename) {
       // nestedGrouping = annotations.nestedGrouping
       //   ? annotations.nestedGrouping
       //   : [];
-      groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : groupLayouts;
-      objectEncodings = annotations.encodingInfo ? annotations.encodingInfo : {};
-      textObjectLinking = annotations.textObjectLinking ? annotations.textObjectLinking : {};
+      VA.groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : VA.groupLayouts;
+      VA.objectEncodings = annotations.encodingInfo ? annotations.encodingInfo : {};
+      VA.textObjectLinking = annotations.textObjectLinking ? annotations.textObjectLinking : {};
 
-      chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
-      console.log("chartTitle: ", chartTitle);
+      VA.chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
+      console.log("chartTitle: ", VA.chartTitle);
 
-      titleLegend = legend.title ? legend.title : [];
-      if (titleLegend.length > 0 && typeof titleLegend[0] === "string") {
-        titleLegend = titleLegend.map(id => allGraphicsElement[id]).filter(Boolean);
+      VA.titleLegend = VA.legend.title ? VA.legend.title : [];
+      if (VA.titleLegend.length > 0 && typeof VA.titleLegend[0] === "string") {
+        VA.titleLegend = VA.titleLegend.map(id => VA.allGraphicsElement[id]).filter(Boolean);
       }
 
       // legend fields
       ["labels", "marks", "title", "ticks"].forEach((field) => {
-        if (legend[field] && legend[field].length > 0 && typeof legend[field][0] === "string") {
-          legend[field] = legend[field].map(id => allGraphicsElement[id]).filter(Boolean);
+        if (VA.legend[field] && VA.legend[field].length > 0 && typeof VA.legend[field][0] === "string") {
+          VA.legend[field] = VA.legend[field].map(id => VA.allGraphicsElement[id]).filter(Boolean);
         }
       });
 
       // axes fields
-      Object.keys(axes).forEach((k) => {
-        let axis = axes[k];
+      Object.keys(VA.axes).forEach((k) => {
+        let axis = VA.axes[k];
         ["labels", "title", "ticks", "path"].forEach((field) => {
           if (axis[field] && axis[field].length > 0 && typeof axis[field][0] === "string") {
-            axis[field] = axis[field].map(id => allGraphicsElement[id]).filter(Boolean);
+            axis[field] = axis[field].map(id => VA.allGraphicsElement[id]).filter(Boolean);
           }
         });
       });
 
-      Object.keys(axes).forEach((k) => {
+      Object.keys(VA.axes).forEach((k) => {
         let index = parseInt(k);
-        console.log("loading axis", index, axes[index]);
+        console.log("loading axis", index, VA.axes[index]);
         // Ensure the axis div exists before trying to display it
         if (!document.getElementById(`axis_${index}`)) {
           // Set axisCount to match the index we need
@@ -235,8 +235,8 @@ function tryLoadAnnotations(filename) {
         displayAxis(index);
       });
       console.log("finish loading axes");
-      displayLegend(legend);
-      displayTitles(chartTitle, titleLegend);
+      displayLegend(VA.legend);
+      displayTitles(VA.chartTitle, VA.titleLegend);
     })
 
     .catch(function () {
@@ -247,7 +247,7 @@ function tryLoadAnnotations(filename) {
     // Simulate an asynchronous operation, e.g., fetching annotations from a server
     setTimeout(() => {
       // Load annotations and set annotationLoaded flag
-      ifLoaded = annotationLoaded; // or false based on the result of loading annotations
+      ifLoaded = VA.annotationLoaded; // or false based on the result of loading annotations
       resolve();
     }, 100); // Simulate a 0.1-second delay
   });

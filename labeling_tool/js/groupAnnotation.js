@@ -1,17 +1,14 @@
 var groupSelection = false,
   isDragging = false;
 var theGroup;
-var groupAnnotations;
-var marksHaveGroupAnnotation;
 var possibleOtherGroups;
-var nestedGrouping;
 
 function initilizeGroupAnnotation() {
   // TBD: variable initilization
   theGroup = [];
-  marksHaveGroupAnnotation = groupAnnotations.flat();
+  VA.marksHaveGroupAnnotation = VA.groupAnnotations.flat();
   d3.select("#specifiedGroups").selectAll("label").remove();
-  groupAnnotations.forEach((group) => {
+  VA.groupAnnotations.forEach((group) => {
     let groupDiv = document.createElement("div");
     let label = document.createElement("label");
     label.classList.add("specifiedGroup");
@@ -40,8 +37,8 @@ function initilizeGroupAnnotation() {
   });
 
   // To be completed
-  mainChartMarks = Object.keys(markInfo).filter(
-    (m) => markInfo[m].Role === "Main Chart Mark"
+  mainChartMarks = Object.keys(VA.markInfo).filter(
+    (m) => VA.markInfo[m].Role === "Main Chart Mark"
   ); // main chart marks
 
   allSVGElementID.forEach((id) => {
@@ -65,7 +62,7 @@ function initilizeGroupAnnotation() {
   );
   colorBasedSelection.innerHTML = "";
   mainChartMarks
-    .map((id) => allGraphicsElement[id].fill)
+    .map((id) => VA.allGraphicsElement[id].fill)
     .filter(onlyUnique)
     .forEach((color) => {
       let button = document.createElement("button");
@@ -74,7 +71,7 @@ function initilizeGroupAnnotation() {
       // hover event TBD
       button.onclick = function () {
         theGroup = mainChartMarks
-          .filter((thisMarkID) => allGraphicsElement[thisMarkID].fill === color)
+          .filter((thisMarkID) => VA.allGraphicsElement[thisMarkID].fill === color)
           .map((id) => document.getElementById(id));
         showSelectedMarks();
         theGroup.forEach((element) => {
@@ -96,7 +93,7 @@ function initilizeGroupAnnotation() {
   const typeBasedSelection = document.getElementById("typeBasedSelection");
   typeBasedSelection.innerHTML = "";
   mainChartMarks
-    .map((id) => markInfo[id].Type)
+    .map((id) => VA.markInfo[id].Type)
     .filter(onlyUnique)
     .forEach((type) => {
       let button = document.createElement("button");
@@ -105,7 +102,7 @@ function initilizeGroupAnnotation() {
       // hover event TBD
       button.onclick = function () {
         theGroup = mainChartMarks
-          .filter((thisMarkID) => markInfo[thisMarkID].Type === type)
+          .filter((thisMarkID) => VA.markInfo[thisMarkID].Type === type)
           .map((id) => document.getElementById(id));
         showSelectedMarks();
         theGroup.forEach((element) => {
@@ -128,9 +125,9 @@ function clearGrouping() {
   document.getElementById("possibleOtherGroupsContainer").style.visibility =
     "hidden";
   document.getElementById("higherLevelGroups").style.visibility = "hidden";
-  nestedGrouping = [];
-  groupAnnotations = [];
-  marksHaveGroupAnnotation = [];
+  VA.nestedGrouping = [];
+  VA.groupAnnotations = [];
+  VA.marksHaveGroupAnnotation = [];
   possibleOtherGroups = [];
   theGroup = [];
   groupSelection = true;
@@ -154,8 +151,8 @@ function clickEvent4FormingGroupButton(e) {
   if (theGroup.length === 0) return;
   // display the new group
   console.log(theGroup.map((e) => e.id));
-  groupAnnotations.push(theGroup.map((e) => e.id)); //TBD: filter unique
-  marksHaveGroupAnnotation = marksHaveGroupAnnotation.concat(
+  VA.groupAnnotations.push(theGroup.map((e) => e.id)); //TBD: filter unique
+  VA.marksHaveGroupAnnotation = VA.marksHaveGroupAnnotation.concat(
     theGroup.map((e) => e.id)
   );
   let groupDiv = document.createElement("div");
@@ -186,7 +183,7 @@ function clickEvent4FormingGroupButton(e) {
 
   // if the group is the first one, infer other groups
   // we may also allow inferrence when we have >1 groups
-  if (groupAnnotations.length === 1) {
+  if (VA.groupAnnotations.length === 1) {
     possibleOtherGroups = inferOtherGroups();
     if (possibleOtherGroups.length > 0) {
       document.getElementById("possibleOtherGroupsContainer").style.visibility =
@@ -224,16 +221,16 @@ function clickEvent4FormingGroupButton(e) {
   theGroup = [];
   document.getElementById("selectedGroup").innerHTML = "";
 
-  console.log(marksHaveGroupAnnotation);
-  console.log(groupAnnotations);
+  console.log(VA.marksHaveGroupAnnotation);
+  console.log(VA.groupAnnotations);
 }
 
 function inferOtherGroups() {
   possibleOtherGroups = [];
-  let referenceGroup = sortByEndingNumber(groupAnnotations[0]);
+  let referenceGroup = sortByEndingNumber(VA.groupAnnotations[0]);
   if (referenceGroup.length === 0) return;
   let remainingMarks = sortByEndingNumber(
-    mainChartMarks.filter((m) => !marksHaveGroupAnnotation.includes(m))
+    mainChartMarks.filter((m) => !VA.marksHaveGroupAnnotation.includes(m))
   );
   let remainingGroups = [];
   while (remainingMarks.length > 0) {
@@ -294,7 +291,7 @@ function checkIntersection(element, rect) {
 
 function updateSelection(bbox4Selection) {
   mainChartMarks
-    .filter((id) => !marksHaveGroupAnnotation.includes(id))
+    .filter((id) => !VA.marksHaveGroupAnnotation.includes(id))
     .forEach((elementID) => {
       let element = document.getElementById(elementID);
       if (checkIntersection(element, bbox4Selection)) {
@@ -365,7 +362,7 @@ function enableAreaSelection4GroupAnnotation() {
             return checkIntersection(element, { x, y, width: 1, height: 1 });
           }), // clicked element
           element = document.getElementById(clickedElement);
-        if (element === null || marksHaveGroupAnnotation.includes(element.id)) {
+        if (element === null || VA.marksHaveGroupAnnotation.includes(element.id)) {
           theGroup.forEach((ele) => {
             ele.classList.add("unselected4Group");
             ele.classList.remove("selected4Group");
@@ -469,7 +466,7 @@ function showSelectedMarks() {
 }
 
 highlightOnePossibleGroup = (group) => {
-  marksHaveGroupAnnotation.forEach((id) => {
+  VA.marksHaveGroupAnnotation.forEach((id) => {
     d3.select("#" + id).style("opacity", "0.3");
   });
   group.forEach((id) => {
@@ -489,8 +486,8 @@ unhighlightOnePossibleGroup = (group) => {
 
 acceptInferredGroups = () => {
   possibleOtherGroups.forEach((group) => {
-    groupAnnotations.push(group);
-    marksHaveGroupAnnotation = marksHaveGroupAnnotation.concat(group);
+    VA.groupAnnotations.push(group);
+    VA.marksHaveGroupAnnotation = VA.marksHaveGroupAnnotation.concat(group);
     let groupDiv = document.createElement("div");
     let label = document.createElement("label");
     label.classList.add("specifiedGroup");
@@ -555,16 +552,16 @@ function processGroup(group, parentElement) {
     parentElement.appendChild(thisLabel);
   } else {
     // Create a label for individual elements
-    thisLabel = createLabel(groupAnnotations[group].join(", "));
+    thisLabel = createLabel(VA.groupAnnotations[group].join(", "));
     parentElement.appendChild(thisLabel);
   }
 
   let thisGroup = Array.isArray(group)
     ? group
         .flat(Infinity)
-        .map((gID) => groupAnnotations[gID])
+        .map((gID) => VA.groupAnnotations[gID])
         .flat(Infinity)
-    : groupAnnotations[group];
+    : VA.groupAnnotations[group];
   d3.select(thisLabel)
     .on("mouseover", function (e) {
       e.stopPropagation();
@@ -603,7 +600,7 @@ function processGroup(group, parentElement) {
 }
 
 function go2HigherGrouping() {
-  if (mainChartMarks.length !== marksHaveGroupAnnotation.length) {
+  if (mainChartMarks.length !== VA.marksHaveGroupAnnotation.length) {
     alert(
       "Please make sure each main chart mark has been allocated to a group first."
     );
@@ -617,12 +614,12 @@ function go2HigherGrouping() {
   d3.select("#higherLevelGroups").style("visibility", "visible");
   d3.select("#higherLevelGroups").selectAll("label").remove();
 
-  nestedGrouping =
-    nestedGrouping.length === 0
-      ? groupAnnotations.map((g, i) => i)
-      : nestedGrouping;
+  VA.nestedGrouping =
+    VA.nestedGrouping.length === 0
+      ? VA.groupAnnotations.map((g, i) => i)
+      : VA.nestedGrouping;
 
-  nestedGrouping.forEach((group) => {
+  VA.nestedGrouping.forEach((group) => {
     processGroup(group, document.getElementById("higherLevelGroups"));
   });
 
@@ -691,7 +688,7 @@ function mergeGroups() {
         selectedLabels.push(label);
         processLabelInnerHtml(label);
         indices2beRemoved.push(i - 5); // 3 is the number of divs before the first label by inspecting the DOM
-        thisNestedGroup.push(nestedGrouping[i - 5]);
+        thisNestedGroup.push(VA.nestedGrouping[i - 5]);
       }
     });
 
@@ -700,11 +697,11 @@ function mergeGroups() {
     return;
   }
 
-  nestedGrouping = nestedGrouping.filter(
+  VA.nestedGrouping = VA.nestedGrouping.filter(
     (g, i) => !indices2beRemoved.includes(i)
   );
-  nestedGrouping.push(thisNestedGroup);
-  console.log(nestedGrouping);
+  VA.nestedGrouping.push(thisNestedGroup);
+  console.log(VA.nestedGrouping);
 
   let mergedGroup = [...selectedGroups.flat()];
 
@@ -784,9 +781,9 @@ function processLabelInnerHtml(node) {
 }
 
 function clearMergedGroups() {
-  nestedGrouping = groupAnnotations.map((g, i) => i);
+  VA.nestedGrouping = VA.groupAnnotations.map((g, i) => i);
   d3.select("#higherLevelGroups").selectAll("label").remove();
-  nestedGrouping.forEach((group) => {
+  VA.nestedGrouping.forEach((group) => {
     processGroup(group, document.getElementById("higherLevelGroups"));
   });
 }
