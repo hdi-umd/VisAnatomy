@@ -122,10 +122,20 @@ function displayAxis(index) {
   }
 
   d3.select("#fieldType_" + index).property("value", type);
-  d3.select("#axisType_" + index).property(
-    "value",
-    axis.type ? axis.type : "x"
-  );
+  
+  // Set the axis type - ensure element exists first
+  const axisTypeElement = d3.select("#axisType_" + index);
+  const axisTypeValue = axis.type ? axis.type : "x";
+  if (!axisTypeElement.empty()) {
+    console.log(`Setting axisType_${index} to ${axisTypeValue}`, axis);
+    axisTypeElement.property("value", axisTypeValue);
+    
+    // Double-check it was set
+    const actualValue = document.getElementById(`axisType_${index}`)?.value;
+    console.log(`Actual value after setting: ${actualValue}`);
+  } else {
+    console.warn(`Element axisType_${index} not found when trying to set value`);
+  }
 
   labels = labels.sort((a, b) =>
     parseFloat(a.id.substring(4)) > parseFloat(b.id.substring(4)) ? 1 : -1
