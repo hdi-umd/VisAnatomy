@@ -32,29 +32,35 @@ async function displayCSVData(fileName) {
     // Store CSV columns globally for dropdown population
     window.csvColumns = data.header;
 
-    // Create table HTML
-    let tableHTML = '<table>';
+    // Create Tabulator columns from header
+    const columns = data.header.map(col => ({
+      title: col,
+      field: col,
+      headerSort: true
+    }));
 
-    // Add header row
-    tableHTML += '<thead><tr>';
-    data.header.forEach(col => {
-      tableHTML += `<th>${col}</th>`;
-    });
-    tableHTML += '</tr></thead>';
-
-    // Add data rows
-    tableHTML += '<tbody>';
-    data.rows.forEach((row, idx) => {
-      tableHTML += '<tr>';
-      row.forEach(cell => {
-        tableHTML += `<td>${cell}</td>`;
+    // Convert rows to array of objects
+    const tableData = data.rows.map(row => {
+      const rowObj = {};
+      data.header.forEach((col, idx) => {
+        rowObj[col] = row[idx];
       });
-      tableHTML += '</tr>';
+      return rowObj;
     });
-    tableHTML += '</tbody></table>';
 
-    // Update the dataset drawer with the table
-    document.getElementById('datasetTableContainer').innerHTML = tableHTML;
+    // Clear the container and create Tabulator instance
+    const container = document.getElementById('datasetTableContainer');
+    container.innerHTML = '';
+
+    new Tabulator(container, {
+      data: tableData,
+      columns: columns,
+      layout: "fitColumns",
+      height: "400px",
+      pagination: true,
+      paginationSize: 20,
+      paginationSizeSelector: [10, 20, 50, 100]
+    });
 
     // Populate all column dropdowns
     populateColumnDropdowns();
@@ -76,36 +82,44 @@ function displayEmptyEditableTable() {
   const defaultHeaders = ['Column 1', 'Column 2', 'Column 3'];
   window.csvColumns = [...defaultHeaders]; // Store globally for dropdown population
   
-  // Create editable table HTML
-  let tableHTML = '<table style="border-collapse: collapse; width: 100%; font-size: 12px; margin: 10px;">';
-  
-  // Add editable header row
-  tableHTML += '<thead><tr>';
-  defaultHeaders.forEach((header, index) => {
-    tableHTML += `<th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white; text-align: left;">
-      <input type="text" value="${header}" 
-             style="background: transparent; border: none; color: white; font-weight: bold; width: 100%;"
-             onchange="updateColumnHeader(${index}, this.value)"
-             placeholder="Column ${index + 1}">
-    </th>`;
-  });
-  tableHTML += '</tr></thead>';
-  
-  // Add empty data rows with placeholder
-  tableHTML += '<tbody>';
-  for (let i = 0; i < 3; i++) {
-    const bgColor = i % 2 === 0 ? '#f2f2f2' : 'white';
-    tableHTML += `<tr style="background-color: ${bgColor};">`;
-    defaultHeaders.forEach(() => {
-      tableHTML += `<td style="border: 1px solid #ddd; padding: 8px; color: #999;">No data available</td>`;
+  // Create Tabulator columns with editable headers
+  const columns = defaultHeaders.map((header, index) => ({
+    title: header,
+    field: `col${index}`,
+    headerSort: false,
+    editor: "input",
+    headerMenu: [{
+      label: "Edit Column Name",
+      action: function(e, column) {
+        const newName = prompt("Enter new column name:", column.getDefinition().title);
+        if (newName && newName.trim()) {
+          column.updateDefinition({title: newName});
+          window.csvColumns[index] = newName;
+          populateColumnDropdowns();
+        }
+      }
+    }]
+  }));
+
+  // Create empty placeholder data
+  const emptyData = Array(3).fill(null).map(() => {
+    const row = {};
+    defaultHeaders.forEach((_, idx) => {
+      row[`col${idx}`] = '';
     });
-    tableHTML += '</tr>';
-  }
-  tableHTML += '</tbody></table>';
+    return row;
+  });
+
+  // Clear the container and create Tabulator instance
+  const container = document.getElementById('datasetTableContainer');
+  container.innerHTML = '';
   
-  // Update the chartDatasetDiv with the editable table
-  document.getElementById('chartDatasetDiv').innerHTML = 
-    '<div style="margin-left: 5px; font-weight: bold">Dataset (No CSV file found)</div>' + tableHTML;
+  new Tabulator(container, {
+    data: emptyData,
+    columns: columns,
+    layout: "fitColumns",
+    height: "250px"
+  });
   
   // Populate column dropdowns with default headers
   populateColumnDropdowns();

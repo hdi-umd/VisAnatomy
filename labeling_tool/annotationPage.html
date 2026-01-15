@@ -12,11 +12,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.css" />
   <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://unpkg.com/tabulator-tables@5.5/dist/css/tabulator.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="./labeling_tool/annotationPage.css" />
   <title> </title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5/dist/js/tabulator.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css" />
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
@@ -150,14 +152,14 @@
     </div>
 
     <!-- Bottom Dataset Drawer -->
-    <div id="datasetDrawer" class="dataset-drawer">
+    <div id="datasetDrawer" class="dataset-drawer open">
       <div id="datasetDrawerPuller" class="dataset-drawer-puller">
         <span id="drawerArrow" style="font-size: 18px;">▲</span>
         <span id="drawerTableLabel" style="font-weight: bold; font-size: 14px; margin-right: 10px;">Data Table</span>
       </div>
       <div id="datasetDrawerContent" class="dataset-drawer-content">
         <!-- <div style="margin-left: 15px; margin-top: 10px; font-weight: bold; font-size: 14px;">Dataset</div> -->
-        <div id="datasetTableContainer" style="padding: 15px;">
+        <div id="datasetTableContainer" style="background-color: white;">
           <p>No dataset loaded...</p>
         </div>
       </div>
