@@ -70,15 +70,15 @@ function tryLoadAnnotations(filename) {
 
       xGridlines =
         annotations.referenceElements &&
-        annotations.referenceElements.gridlines &&
-        annotations.referenceElements.gridlines.x
+          annotations.referenceElements.gridlines &&
+          annotations.referenceElements.gridlines.x
           ? annotations.referenceElements.gridlines.x
           : [];
 
       yGridlines =
         annotations.referenceElements &&
-        annotations.referenceElements.gridlines &&
-        annotations.referenceElements.gridlines.y
+          annotations.referenceElements.gridlines &&
+          annotations.referenceElements.gridlines.y
           ? annotations.referenceElements.gridlines.y
           : [];
 
@@ -95,7 +95,7 @@ function tryLoadAnnotations(filename) {
       nestedGrouping = [];
       groupLayouts = {};
 
-            function buildTree(node) {
+      function buildTree(node) {
         if (!node) return null;
         if (Array.isArray(node)) {
           // array of top-level nodes -> map each child
@@ -222,12 +222,12 @@ function tryLoadAnnotations(filename) {
 
       chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
       console.log("chartTitle: ", chartTitle);
-      
+
       titleLegend = legend.title ? legend.title : [];
       if (titleLegend.length > 0 && typeof titleLegend[0] === "string") {
         titleLegend = titleLegend.map(id => allGraphicsElement[id]).filter(Boolean);
       }
-      
+
       // legend fields
       ["labels", "marks", "title", "ticks"].forEach((field) => {
         if (legend[field] && legend[field].length > 0 && typeof legend[field][0] === "string") {
@@ -346,7 +346,7 @@ function getNumVertices(d) {
   // Convert to coordinate pairs
   const vertices = [];
   for (let i = 0; i < numbers.length; i += 2) {
-      vertices.push({ x: numbers[i], y: numbers[i + 1] });
+    vertices.push({ x: numbers[i], y: numbers[i + 1] });
   }
 
   return vertices.length;
@@ -427,8 +427,8 @@ function post() {
     chartTitle.filter((e) => e !== null).length > 0
       ? chartTitle.map((title) => allGraphicsElement[title.id])
       : Object.keys(markInfo).filter(
-          (mark) => markInfo[mark].Role === "Chart Title"
-        );
+        (mark) => markInfo[mark].Role === "Chart Title"
+      );
   annotations.markInfo = markInfo;
   annotations.groupInfo = groupAnnotations;
   annotations.nestedGrouping = nestedGrouping;
@@ -520,8 +520,8 @@ function post() {
     titleLegend.length > 0
       ? titleLegend.map((title) => allGraphicsElement[title.id])
       : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Title")
-          .map((title) => allGraphicsElement[title]);
+        .filter((mark) => markInfo[mark].Role === "Legend Title")
+        .map((title) => allGraphicsElement[title]);
   // TBD: need to keep an eye on the legend info when annotating
   legend.ticks = Object.keys(markInfo).filter(
     (mark) => markInfo[mark].Role === "Legend Tick"
@@ -529,14 +529,14 @@ function post() {
   legend.marks =
     legend.marks.length === 0
       ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Mark")
-          .map((mark) => allGraphicsElement[mark])
+        .filter((mark) => markInfo[mark].Role === "Legend Mark")
+        .map((mark) => allGraphicsElement[mark])
       : legend.marks.map((mark) => allGraphicsElement[mark.id]);
   legend.labels =
     legend.labels.length === 0
       ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Label")
-          .map((mark) => allGraphicsElement[mark])
+        .filter((mark) => markInfo[mark].Role === "Legend Label")
+        .map((mark) => allGraphicsElement[mark])
       : legend.labels.map((label) => allGraphicsElement[label.id]);
   // legend.marks = legend.marks.push(
   //   ...Object.keys(markInfo)
@@ -984,12 +984,12 @@ function findTwoStartingRects() {
       (r) =>
         Math.abs(
           Math.abs(r.x - topLeftRect.right) -
-            Math.abs(rightClosestRectCandidates[0].x - topLeftRect.right)
+          Math.abs(rightClosestRectCandidates[0].x - topLeftRect.right)
         ) < 0.1
     )
     .sort((a, b) =>
       Math.min(a.bottom, topLeftRect.bottom) - Math.max(a.y, topLeftRect.y) >
-      Math.min(b.bottom, topLeftRect.bottom) - Math.max(b.y, topLeftRect.y)
+        Math.min(b.bottom, topLeftRect.bottom) - Math.max(b.y, topLeftRect.y)
         ? -1
         : 1
     )[0];
@@ -1083,18 +1083,18 @@ function formGOM(scene, parent, group, id, level) {
         );
         allX = group.collections
           ? group.collections
-              .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
-              .sort((a, b) => a - b)
+            .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
+            .sort((a, b) => a - b)
           : group.rects
-              .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
-              .sort((a, b) => a - b);
+            .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
+            .sort((a, b) => a - b);
         allY = group.collections
           ? group.collections
-              .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
-              .sort((a, b) => a - b)
+            .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
+            .sort((a, b) => a - b)
           : group.rects
-              .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
-              .sort((a, b) => a - b);
+            .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
+            .sort((a, b) => a - b);
         vertCellAlignment =
           thisLayout.substring(5, 6) === "H"
             ? alignments[level] && alignments[level][0]
@@ -1190,8 +1190,8 @@ function formGOM(scene, parent, group, id, level) {
           "stroke-width" in rect
             ? rect["stroke-width"]
             : "stroke" in rect
-            ? 1
-            : 0,
+              ? 1
+              : 0,
         strokeColor: rect["stroke"],
       });
       let thisID =
@@ -1290,8 +1290,8 @@ function inferEncodings() {
             rectEnc[0] = rectEnc.map((r) => r.includes("width")).includes(true)
               ? ["width"]
               : rectEnc.map((r) => r.includes("height")).includes(true)
-              ? ["height"]
-              : [];
+                ? ["height"]
+                : [];
           }
         }
       } else {
