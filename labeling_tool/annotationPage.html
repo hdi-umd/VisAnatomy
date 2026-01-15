@@ -576,7 +576,8 @@
       const name = demo.split(".")[0];
 
       if (name) {
-        window.location.hash = `#${name}`;
+        // Update hash without triggering scroll
+        history.replaceState(null, null, `#${name}`);
       }
 
       // demo is the full name of a SVG file, e.g., "BarChart1.svg"
@@ -737,6 +738,9 @@
             // Create the primary list item
             const li = document.createElement("li");
             li.textContent = baseName;
+            if (baseName === "SeattleGraph") {
+              li.classList.add("expanded");
+            }
             ulElement.appendChild(li);
 
             // Create a sublist for each baseName
@@ -749,8 +753,9 @@
             // Add event listener to toggle the sublist display
             li.addEventListener("click", (event) => {
               event.stopPropagation(); // Prevent the event from bubbling up
-              subUl.style.display =
-                subUl.style.display === "none" ? "block" : "none";
+              const isExpanded = subUl.style.display === "block";
+              subUl.style.display = isExpanded ? "none" : "block";
+              li.classList.toggle("expanded", !isExpanded);
             });
 
             // Create sublist items

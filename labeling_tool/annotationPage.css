@@ -11,7 +11,6 @@ body {
   min-height: 100%;
   height: 100%;
   overflow: hidden;
-  overflow-y: auto;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -121,12 +120,30 @@ body {
   margin: 0;
   padding: 20px 5px 20px 25px;
   position: absolute;
-  top: 60px;
+  top: 55px;
   left: 0;
   list-style: none;
   font-size: 14px;
   overflow-y: scroll;
   height: calc(100%);
+}
+
+#demoList > li {
+  position: relative;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+#demoList > li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  font-size: 10px;
+  transition: transform 0.2s;
+}
+
+#demoList > li.expanded::before {
+  transform: rotate(90deg);
 }
 
 .category {
@@ -142,6 +159,11 @@ body {
 
 .demos li:hover {
   cursor: pointer;
+}
+
+.chartSublist {
+  padding-left: 10px;
+  list-style: none;
 }
 
 .chartSublist li:hover {
@@ -180,7 +202,7 @@ body {
 }
 
 #container {
-  width: calc(100% - 250px);
+  width: calc(100% - 240px);
   height: calc(100% - 75px);
   position: absolute;
   top: 40px;
@@ -188,6 +210,7 @@ body {
   margin-left: 10px;
   margin-top: 15px;
   border: #ccc 1px solid;
+  overflow-y: auto;
 }
 
 .rbox1 {
