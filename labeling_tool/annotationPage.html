@@ -25,6 +25,7 @@
   <script type="text/javascript" src="labeling_tool/js/display.js"></script>
   <script type="text/javascript" src="labeling_tool/js/extract.js"></script>
   <script type="text/javascript" src="labeling_tool/js/io/loadAnnotations.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/io/loadDataset.js"></script>
   <script type="text/javascript" src="labeling_tool/js/util.js"></script>
   <script type="text/javascript" src="labeling_tool/js/preprocess-interaction.js"></script>
   <script type="text/javascript" src="labeling_tool/js/markAnnotation.js"></script>
@@ -569,37 +570,7 @@
       }
     }
 
-    async function checkCSVExists(fileName) {
-      console.log(`Checking if CSV ${fileName} exists...`)
-      const res = await fetch("/check_csv_exists/" + fileName);
-      if (!res.ok) return false;
-      const body = await res.json();
-      return body.exists;
-    }
-    
-    function columnSelectionChanged(axisIndex) {
-      const columnSelect = document.getElementById(`columnSelect_${axisIndex}`);
-      const selectedColumn = columnSelect.value;
-      console.log(`Axis ${axisIndex} mapped to column: ${selectedColumn}`);
 
-      // Store the mapping in the axes object
-      if (!VA.axes[axisIndex]) {
-        VA.axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
-      }
-      VA.axes[axisIndex].dataColumn = selectedColumn;
-    }
-
-    function legendColumnSelectionChanged() {
-      const legendColumnSelect = document.getElementById('legendColumnSelect');
-      const selectedColumn = legendColumnSelect.value;
-      console.log(`Legend mapped to column: ${selectedColumn}`);
-
-      // Store the mapping in the legend object
-      if (!window.legend) {
-        window.legend = {};
-      }
-      window.legend.dataColumn = selectedColumn;
-    }
 
     async function loadDemo(demo) {
       const name = demo.split(".")[0];
