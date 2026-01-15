@@ -754,6 +754,20 @@
             li.addEventListener("click", (event) => {
               event.stopPropagation(); // Prevent the event from bubbling up
               const isExpanded = subUl.style.display === "block";
+              
+              // Collapse all other sublists and remove expanded class
+              document.querySelectorAll(".chartSublist").forEach((list) => {
+                if (list !== subUl) {
+                  list.style.display = "none";
+                }
+              });
+              document.querySelectorAll("#demoList > li").forEach((item) => {
+                if (item !== li) {
+                  item.classList.remove("expanded");
+                }
+              });
+              
+              // Toggle the clicked sublist
               subUl.style.display = isExpanded ? "none" : "block";
               li.classList.toggle("expanded", !isExpanded);
             });
