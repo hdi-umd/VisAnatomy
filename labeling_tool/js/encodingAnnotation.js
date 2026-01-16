@@ -151,9 +151,11 @@ const typeSpecificChannels = {
 function initilizeEncodingAnnotation() {
   document.getElementById("EncodingAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
-  document
-    .getElementById("EncodingAnnotation")
-    .appendChild(createList2(convertToJSON2(VA.nestedGrouping[0])));
+  if (VA.grouping.structure !== null) {
+    document
+      .getElementById("EncodingAnnotation")
+      .appendChild(createList2(convertToJSON2(VA.grouping.structure)));
+  }
 }
 
 function createList2(item) {
@@ -303,7 +305,7 @@ function createList2(item) {
 function convertToJSON2(thisNestedGrouping) {
   // Function to flatten an array and remove duplicates
   const flattenUnique = (arr) => [...new Set(arr.flat(Infinity))];
-  let groupIndex = VA.groupAnnotations.length;
+  let groupIndex = VA.grouping.groups.length;
   objectsByDepth = {};
 
   // Recursive function to handle nested arrays
@@ -317,7 +319,7 @@ function convertToJSON2(thisNestedGrouping) {
       return {
         id: groupIndex++,
         marks: flattenUnique(group)
-          .map((i) => VA.groupAnnotations[i])
+          .map((i) => VA.grouping.groups[i])
           .flat(Infinity),
         layout: "",
         children: group.map((subGroup) => processGroup(subGroup, depth + 1)),
@@ -330,7 +332,7 @@ function convertToJSON2(thisNestedGrouping) {
       }
       return {
         id: group,
-        marks: VA.groupAnnotations[group],
+        marks: VA.grouping.groups[group],
         layout: "",
         children: null,
       };
@@ -388,7 +390,7 @@ function recordBatchEncoding() {
         }
       });
     } else {
-      VA.groupAnnotations.flat(Infinity).forEach((mark) => {
+      VA.grouping.groups.flat(Infinity).forEach((mark) => {
         console.log(extractNonNumeric(mark));
         if (
           selectedGroup.startsWith(extractNonNumeric(mark)) &&

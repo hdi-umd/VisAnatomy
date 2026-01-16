@@ -122,17 +122,17 @@ function buildTree(node) {
 
   // If this node is a leaf group (children are mark IDs)
   if (node.children.length > 0 && typeof node.children[0] === "string") {
-    const leafIdx = VA.groupAnnotations.length;
-    VA.groupAnnotations.push(node.children.slice()); // copy mark IDs
+    const leafIdx = VA.grouping.groups.length;
+    VA.grouping.groups.push(node.children.slice()); // copy mark IDs
     // store leaf layout, default to Glyph when missing
-    VA.groupLayouts[leafIdx] = node.layout && node.layout.type
+    VA.grouping.layouts[leafIdx] = node.layout && node.layout.type
       ? node.layout
       : { type: "Glyph", params: {} };
 
     // If node has an explicit id like "g3", also map that numeric suffix (defensive)
     if (node.id && typeof node.id === "string") {
       const m = node.id.match(/(\d+)$/);
-      if (m) VA.groupLayouts[parseInt(m[1], 10)] = VA.groupLayouts[leafIdx];
+      if (m) VA.grouping.layouts[parseInt(m[1], 10)] = VA.grouping.layouts[leafIdx];
     }
     return leafIdx;
   }
@@ -145,7 +145,7 @@ function buildTree(node) {
   if (node.id && typeof node.id === "string") {
     const m = node.id.match(/(\d+)$/);
     if (m) {
-      VA.groupLayouts[parseInt(m[1], 10)] =
+      VA.grouping.layouts[parseInt(m[1], 10)] =
         node.layout && node.layout.type
           ? node.layout
           : { type: "Grid", params: {} };
@@ -158,31 +158,39 @@ function buildTree(node) {
  * Load group annotations and nested grouping structure
  */
 function loadGroups(annotations) {
-  VA.groupAnnotations = [];
-  VA.nestedGrouping = [];
-  VA.groupLayouts = {};
+  VA.grouping.groups = [];
+  VA.grouping.structure = null;
+  VA.grouping.layouts = {};
 
-  // Build top-level structure and set nestedGrouping[0] so layout UI reads it
+  // Build top-level structure
   if (annotations.grouping && annotations.grouping.length > 0) {
     const topStructure =
       annotations.grouping.length === 1
         ? buildTree(annotations.grouping[0])
         : buildTree(annotations.grouping);
-    // nestedGrouping used by UI: put topStructure at index 0
-    VA.nestedGrouping = [topStructure];
+    VA.grouping.structure = topStructure;
   } else {
     // fallback: if no grouping, make each mark its own group (preserve old behavior)
-    VA.nestedGrouping = VA.groupAnnotations.length
-      ? [VA.groupAnnotations.map((_, i) => i)]
-      : [];
+    VA.grouping.structure = VA.grouping.groups.length
+      ? VA.grouping.groups.map((_, i) => i)
+      : null;
   }
 }
 
 /**
  * Load layout information for groups
+ * Note: Layouts are primarily extracted during buildTree() from the grouping structure.
+ * This function only loads legacy layoutInfo if it exists and layouts weren't already set.
  */
 function loadLayouts(annotations) {
-  VA.groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : VA.groupLayouts;
+  // Only load layoutInfo if we don't already have layouts from buildTree()
+  if (annotations.layoutInfo && Object.keys(VA.grouping.layouts).length === 0) {
+    VA.grouping.layouts = annotations.layoutInfo;
+  }
+  // If layoutInfo exists and we have layouts, merge them (layoutInfo takes precedence for conflicts)
+  else if (annotations.layoutInfo) {
+    VA.grouping.layouts = { ...VA.grouping.layouts, ...annotations.layoutInfo };
+  }
 }
 
 /**

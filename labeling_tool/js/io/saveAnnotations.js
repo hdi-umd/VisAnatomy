@@ -144,9 +144,9 @@ function post() {
         (mark) => VA.markInfo[mark].Role === "Chart Title"
       );
   VA.annotations.markInfo = VA.markInfo;
-  VA.annotations.groupInfo = VA.groupAnnotations;
-  VA.annotations.nestedGrouping = VA.nestedGrouping;
-  VA.annotations.layoutInfo = VA.groupLayouts;
+  VA.annotations.groupInfo = VA.grouping.groups;
+  VA.annotations.nestedGrouping = VA.grouping.structure ? [VA.grouping.structure] : [];
+  VA.annotations.layoutInfo = VA.grouping.layouts;
   VA.annotations.encodingInfo = VA.objectEncodings;
   VA.annotations.textObjectLinking = VA.textObjectLinking;
   VA.annotations.referenceElement = {};

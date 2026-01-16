@@ -20,10 +20,12 @@ function initilizeVariables() {
   VA.titleXaxis = [];
   VA.titleYaxis = [];
   VA.annotationLoaded = false;
-  VA.nestedGrouping = [];
-  VA.groupAnnotations = [];
+  VA.grouping = {
+    groups: [],       // flat list of groups (each group is array of mark IDs)
+    structure: null,  // hierarchical nesting structure
+    layouts: {}       // layout info for each group by index
+  };
   VA.marksHaveGroupAnnotation = [];
-  VA.groupLayouts = {};
   VA.objectEncodings = {};
   VA.textObjectLinking = {};
 }

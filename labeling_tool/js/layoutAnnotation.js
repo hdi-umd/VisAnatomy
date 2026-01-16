@@ -5,17 +5,18 @@ function initilizeLayoutAnnotation() {
     d3.select("#" + markID).style("opacity", "0.3");
   });
   // avoid the need for clicking go2higherLevelGroups button when only one group presents
-  VA.nestedGrouping =
-    VA.nestedGrouping.length === 0
-      ? VA.groupAnnotations.map((g, i) => i)
-      : VA.nestedGrouping;
+  if (VA.grouping.structure === null && VA.grouping.groups.length > 0) {
+    VA.grouping.structure = VA.grouping.groups.map((g, i) => i);
+  }
 
-  // assuming nestedGrouping is a length 1 array and the first element is the nested grouping
+  // display the grouping structure
   document.getElementById("LayoutAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
-  document
-    .getElementById("LayoutAnnotation")
-    .appendChild(createList(convertToJSON(VA.nestedGrouping[0])));
+  if (VA.grouping.structure !== null) {
+    document
+      .getElementById("LayoutAnnotation")
+      .appendChild(createList(convertToJSON(VA.grouping.structure)));
+  }
 }
 
 function createList(item) {
@@ -54,8 +55,8 @@ function createList(item) {
     })
     .on("click", function () {
       d3.select("#selectedGroup4LayoutStage").text("Group " + item.id);
-      if (Object.keys(VA.groupLayouts).includes(item.id.toString())) {
-        let thisLayout = VA.groupLayouts[item.id];
+      if (Object.keys(VA.grouping.layouts).includes(item.id.toString())) {
+        let thisLayout = VA.grouping.layouts[item.id];
         let selectElement = document.getElementById("layoutTypeSelection");
         let thisLayoutType = thisLayout.type;
         for (let i = 0; i < selectElement.options.length; i++) {
@@ -117,22 +118,23 @@ function createList(item) {
   layoutIndicator.id = "layoutIndicator" + item.id;
   layoutIndicator.style.cssText =
     "margin-left: 2px; vertical-align: middle; color: #333;"; //03C03C
+  
   layoutIndicator.textContent =
     ": " +
-    (Object.keys(VA.groupLayouts).includes(item.id.toString())
-      ? VA.groupLayouts[item.id].type +
-        (VA.groupLayouts[item.id].params.orientation
-          ? "-" + VA.groupLayouts[item.id].params.orientation
+    (Object.keys(VA.grouping.layouts).includes(item.id.toString())
+      ? VA.grouping.layouts[item.id].type +
+        (VA.grouping.layouts[item.id].params.orientation
+          ? "-" + VA.grouping.layouts[item.id].params.orientation
           : "") +
-        (VA.groupLayouts[item.id].params.alignment
-          ? VA.groupLayouts[item.id].params.alignment[0]
-            ? "-" + VA.groupLayouts[item.id].params.alignment[0]
+        (VA.grouping.layouts[item.id].params.alignment
+          ? VA.grouping.layouts[item.id].params.alignment[0]
+            ? "-" + VA.grouping.layouts[item.id].params.alignment[0]
             : ""
-          : (VA.groupLayouts[item.id].params.horiAlignment
-              ? "-" + VA.groupLayouts[item.id].params.horiAlignment[0]
+          : (VA.grouping.layouts[item.id].params.horiAlignment
+              ? "-" + VA.grouping.layouts[item.id].params.horiAlignment[0]
               : "") +
-            (VA.groupLayouts[item.id].params.vertAlignment
-              ? "-" + VA.groupLayouts[item.id].params.vertAlignment[0]
+            (VA.grouping.layouts[item.id].params.vertAlignment
+              ? "-" + VA.grouping.layouts[item.id].params.vertAlignment[0]
               : ""))
       : "");
   container.appendChild(layoutIndicator);
@@ -174,7 +176,7 @@ function createList(item) {
 function convertToJSON(thisNestedGrouping) {
   // Function to flatten an array and remove duplicates
   const flattenUnique = (arr) => [...new Set(arr.flat(Infinity))];
-  let groupIndex = VA.groupAnnotations.length;
+  let groupIndex = VA.grouping.groups.length;
   groupsByDepth = {};
 
   // Recursive function to handle nested arrays
@@ -188,7 +190,7 @@ function convertToJSON(thisNestedGrouping) {
       return {
         id: groupIndex++,
         marks: flattenUnique(group)
-          .map((i) => VA.groupAnnotations[i])
+          .map((i) => VA.grouping.groups[i])
           .flat(Infinity),
         layout: "",
         children: group.map((subGroup) => processGroup(subGroup, depth + 1)),
@@ -201,7 +203,7 @@ function convertToJSON(thisNestedGrouping) {
       }
       return {
         id: group,
-        marks: VA.groupAnnotations[group],
+        marks: VA.grouping.groups[group],
         layout: "",
         children: null,
       };
@@ -226,22 +228,22 @@ function recordlayout() {
     let selectElement = document.getElementById("layoutTypeSelection");
     let thisLayoutType =
       selectElement.options[selectElement.selectedIndex].text;
-    VA.groupLayouts[selectedGroup] = getThisLayoutJson(selectedGroup);
+    VA.grouping.layouts[selectedGroup] = getThisLayoutJson(selectedGroup);
     d3.select("#layoutIndicator" + selectedGroup).text(
       ": " +
         thisLayoutType +
-        (VA.groupLayouts[selectedGroup].params.orientation
-          ? "-" + VA.groupLayouts[selectedGroup].params.orientation
+        (VA.grouping.layouts[selectedGroup].params.orientation
+          ? "-" + VA.grouping.layouts[selectedGroup].params.orientation
           : "") +
-        (VA.groupLayouts[selectedGroup].params.horiAlignment[0]
-          ? "-" + VA.groupLayouts[selectedGroup].params.horiAlignment[0]
+        (VA.grouping.layouts[selectedGroup].params.horiAlignment[0]
+          ? "-" + VA.grouping.layouts[selectedGroup].params.horiAlignment[0]
           : "") +
-        (VA.groupLayouts[selectedGroup].params.vertAlignment[0]
-          ? "-" + VA.groupLayouts[selectedGroup].params.vertAlignment[0]
+        (VA.grouping.layouts[selectedGroup].params.vertAlignment[0]
+          ? "-" + VA.grouping.layouts[selectedGroup].params.vertAlignment[0]
           : "")
     );
   }
-  console.log(VA.groupLayouts);
+  console.log(VA.grouping.layouts);
 }
 
 function recordBatchGroupLayout() {
@@ -265,7 +267,7 @@ function recordBatchGroupLayout() {
       let group = groupsByDepth[depth];
       if (group.includes(parseInt(selectedGroup))) {
         group.forEach((groupID) => {
-          VA.groupLayouts[groupID] = thisLayoutJson;
+          VA.grouping.layouts[groupID] = thisLayoutJson;
           d3.select("#layoutIndicator" + groupID).text(
             ": " +
               thisLayoutType +
@@ -283,7 +285,7 @@ function recordBatchGroupLayout() {
       }
     });
   }
-  console.log(VA.groupLayouts);
+  console.log(VA.grouping.layouts);
 }
 
 function getThisLayoutJson() {

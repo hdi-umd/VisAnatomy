@@ -6,9 +6,9 @@ var possibleOtherGroups;
 function initilizeGroupAnnotation() {
   // TBD: variable initilization
   theGroup = [];
-  VA.marksHaveGroupAnnotation = VA.groupAnnotations.flat();
+  VA.marksHaveGroupAnnotation = VA.grouping.groups.flat();
   d3.select("#specifiedGroups").selectAll("label").remove();
-  VA.groupAnnotations.forEach((group) => {
+  VA.grouping.groups.forEach((group) => {
     let groupDiv = document.createElement("div");
     let label = document.createElement("label");
     label.classList.add("specifiedGroup");
@@ -125,8 +125,8 @@ function clearGrouping() {
   document.getElementById("possibleOtherGroupsContainer").style.visibility =
     "hidden";
   document.getElementById("higherLevelGroups").style.visibility = "hidden";
-  VA.nestedGrouping = [];
-  VA.groupAnnotations = [];
+  VA.grouping.structure = null;
+  VA.grouping.groups = [];
   VA.marksHaveGroupAnnotation = [];
   possibleOtherGroups = [];
   theGroup = [];
@@ -151,7 +151,7 @@ function clickEvent4FormingGroupButton(e) {
   if (theGroup.length === 0) return;
   // display the new group
   console.log(theGroup.map((e) => e.id));
-  VA.groupAnnotations.push(theGroup.map((e) => e.id)); //TBD: filter unique
+  VA.grouping.groups.push(theGroup.map((e) => e.id)); //TBD: filter unique
   VA.marksHaveGroupAnnotation = VA.marksHaveGroupAnnotation.concat(
     theGroup.map((e) => e.id)
   );
@@ -183,7 +183,7 @@ function clickEvent4FormingGroupButton(e) {
 
   // if the group is the first one, infer other groups
   // we may also allow inferrence when we have >1 groups
-  if (VA.groupAnnotations.length === 1) {
+  if (VA.grouping.groups.length === 1) {
     possibleOtherGroups = inferOtherGroups();
     if (possibleOtherGroups.length > 0) {
       document.getElementById("possibleOtherGroupsContainer").style.visibility =
@@ -222,12 +222,12 @@ function clickEvent4FormingGroupButton(e) {
   document.getElementById("selectedGroup").innerHTML = "";
 
   console.log(VA.marksHaveGroupAnnotation);
-  console.log(VA.groupAnnotations);
+  console.log(VA.grouping.groups);
 }
 
 function inferOtherGroups() {
   possibleOtherGroups = [];
-  let referenceGroup = sortByEndingNumber(VA.groupAnnotations[0]);
+  let referenceGroup = sortByEndingNumber(VA.grouping.groups[0]);
   if (referenceGroup.length === 0) return;
   let remainingMarks = sortByEndingNumber(
     mainChartMarks.filter((m) => !VA.marksHaveGroupAnnotation.includes(m))
@@ -486,7 +486,7 @@ unhighlightOnePossibleGroup = (group) => {
 
 acceptInferredGroups = () => {
   possibleOtherGroups.forEach((group) => {
-    VA.groupAnnotations.push(group);
+    VA.grouping.groups.push(group);
     VA.marksHaveGroupAnnotation = VA.marksHaveGroupAnnotation.concat(group);
     let groupDiv = document.createElement("div");
     let label = document.createElement("label");
@@ -552,16 +552,16 @@ function processGroup(group, parentElement) {
     parentElement.appendChild(thisLabel);
   } else {
     // Create a label for individual elements
-    thisLabel = createLabel(VA.groupAnnotations[group].join(", "));
+    thisLabel = createLabel(VA.grouping.groups[group].join(", "));
     parentElement.appendChild(thisLabel);
   }
 
   let thisGroup = Array.isArray(group)
     ? group
         .flat(Infinity)
-        .map((gID) => VA.groupAnnotations[gID])
+        .map((gID) => VA.grouping.groups[gID])
         .flat(Infinity)
-    : VA.groupAnnotations[group];
+    : VA.grouping.groups[group];
   d3.select(thisLabel)
     .on("mouseover", function (e) {
       e.stopPropagation();
@@ -614,14 +614,17 @@ function go2HigherGrouping() {
   d3.select("#higherLevelGroups").style("visibility", "visible");
   d3.select("#higherLevelGroups").selectAll("label").remove();
 
-  VA.nestedGrouping =
-    VA.nestedGrouping.length === 0
-      ? VA.groupAnnotations.map((g, i) => i)
-      : VA.nestedGrouping;
+  if (VA.grouping.structure === null && VA.grouping.groups.length > 0) {
+    VA.grouping.structure = VA.grouping.groups.map((g, i) => i);
+  }
 
-  VA.nestedGrouping.forEach((group) => {
-    processGroup(group, document.getElementById("higherLevelGroups"));
-  });
+  if (Array.isArray(VA.grouping.structure)) {
+    VA.grouping.structure.forEach((group) => {
+      processGroup(group, document.getElementById("higherLevelGroups"));
+    });
+  } else if (VA.grouping.structure !== null) {
+    processGroup(VA.grouping.structure, document.getElementById("higherLevelGroups"));
+  }
 
   // groupAnnotations.forEach((group) => {
   //   let label = document.createElement("label");
@@ -688,7 +691,8 @@ function mergeGroups() {
         selectedLabels.push(label);
         processLabelInnerHtml(label);
         indices2beRemoved.push(i - 5); // 3 is the number of divs before the first label by inspecting the DOM
-        thisNestedGroup.push(VA.nestedGrouping[i - 5]);
+        let currentStructure = Array.isArray(VA.grouping.structure) ? VA.grouping.structure : [VA.grouping.structure];
+        thisNestedGroup.push(currentStructure[i - 5]);
       }
     });
 
@@ -697,11 +701,13 @@ function mergeGroups() {
     return;
   }
 
-  VA.nestedGrouping = VA.nestedGrouping.filter(
+  let currentStructure = Array.isArray(VA.grouping.structure) ? VA.grouping.structure : [VA.grouping.structure];
+  let newStructure = currentStructure.filter(
     (g, i) => !indices2beRemoved.includes(i)
   );
-  VA.nestedGrouping.push(thisNestedGroup);
-  console.log(VA.nestedGrouping);
+  newStructure.push(thisNestedGroup);
+  VA.grouping.structure = newStructure;
+  console.log(VA.grouping.structure);
 
   let mergedGroup = [...selectedGroups.flat()];
 
@@ -781,9 +787,11 @@ function processLabelInnerHtml(node) {
 }
 
 function clearMergedGroups() {
-  VA.nestedGrouping = VA.groupAnnotations.map((g, i) => i);
+  VA.grouping.structure = VA.grouping.groups.map((g, i) => i);
   d3.select("#higherLevelGroups").selectAll("label").remove();
-  VA.nestedGrouping.forEach((group) => {
-    processGroup(group, document.getElementById("higherLevelGroups"));
-  });
+  if (Array.isArray(VA.grouping.structure)) {
+    VA.grouping.structure.forEach((group) => {
+      processGroup(group, document.getElementById("higherLevelGroups"));
+    });
+  }
 }

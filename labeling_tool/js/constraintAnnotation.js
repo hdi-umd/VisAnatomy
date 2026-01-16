@@ -14,9 +14,11 @@ function initilizeConstraintAnnotation() {
   // create a list that looks like the list in the encoding annotation without the click events
   document.getElementById("ConstraintAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
-  document
-    .getElementById("ConstraintAnnotation")
-    .appendChild(createList3(convertToJSON2(VA.nestedGrouping[0])));
+  if (VA.grouping.structure !== null) {
+    document
+      .getElementById("ConstraintAnnotation")
+      .appendChild(createList3(convertToJSON2(VA.grouping.structure)));
+  }
 
   document.getElementById("pairingStructure").innerHTML = JSON.stringify(
     VA.textObjectLinking ? VA.textObjectLinking : {},
