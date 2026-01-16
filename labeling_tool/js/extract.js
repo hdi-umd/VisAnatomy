@@ -53,18 +53,18 @@ function extract() {
   // X axis
   VA.xAxis = findxAxis(texts);
   console.log("x axis", VA.xAxis);
-  VA.axes[1] = VA.xAxis;
+  VA.axes[0] = VA.xAxis;
   // see if an axis div is there
-  if (d3.select("#axis_1").empty()) addAxisConfiguration();
-  displayAxis(1);
+  if (d3.select("#axis_0").empty()) addAxisConfiguration();
+  displayAxis(0);
   texts = texts.filter((text) => !VA.xAxis.labels.includes(text));
 
   // Y axis
   VA.yAxis = findyAxis(texts);
   console.log("y axis", VA.yAxis);
-  if (d3.select("#axis_2").empty()) addAxisConfiguration();
-  VA.axes[2] = VA.yAxis;
-  displayAxis(2);
+  if (d3.select("#axis_1").empty()) addAxisConfiguration();
+  VA.axes[1] = VA.yAxis;
+  displayAxis(1);
 
   [...VA.legend.labels, ...VA.legend.marks, ...VA.xAxis.labels, ...VA.yAxis.labels].forEach(
     (object) => {

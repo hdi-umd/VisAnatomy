@@ -7,10 +7,7 @@ function initilizeVariables() {
   VA.annotations = {};
   VA.xAxis = {};
   VA.yAxis = {};
-  VA.axes = {
-    1: { labels: [], fieldType: "Null", title: [], ticks: [], type: "x" },
-    2: { labels: [], fieldType: "Null", title: [], ticks: [], type: "y" },
-  };
+  VA.axes = [];
   VA.legend = {};
   VA.xGridlines = [];
   VA.yGridlines = [];

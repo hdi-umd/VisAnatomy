@@ -157,15 +157,15 @@ function groupSVGElementsByType() {
   referenceElements = [
     ...(VA.legend.labels ? VA.legend.labels : []),
     ...(VA.legend.marks ? VA.legend.marks : []),
-    ...Object.keys(VA.axes)
-      .map((key) => (VA.axes[key].labels ? VA.axes[key].labels : []))
+    ...VA.axes
+      .map((axis) => (axis && axis.labels ? axis.labels : []))
       .flat(),
-    ...Object.keys(VA.axes)
-      .map((key) => (VA.axes[key].title ? VA.axes[key].title : []))
+    ...VA.axes
+      .map((axis) => (axis && axis.title ? axis.title : []))
       .flat(),
-    ...Object.keys(VA.axes)
-      .map((key) =>
-        VA.axes[key].upperLevels ? VA.axes[key].upperLevels.flat(Infinity) : []
+    ...VA.axes
+      .map((axis) =>
+        axis && axis.upperLevels ? axis.upperLevels.flat(Infinity) : []
       )
       .flat(),
     ...VA.chartTitle,

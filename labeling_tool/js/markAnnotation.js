@@ -34,7 +34,7 @@ function hideAllSublists() {
 function populateSublist(sublist) {
   sublist.innerHTML = "";
 
-  for (let i = 1; i <= Object.keys(VA.axes).length; i++) {
+  for (let i = 0; i < VA.axes.length; i++) {
     const subOption = document.createElement("div");
     subOption.className = "sub-option";
     subOption.textContent = "axis " + i;

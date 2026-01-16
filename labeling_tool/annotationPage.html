@@ -471,48 +471,46 @@
       const axisDiv = document.getElementById(`axis_${axisIndex}`);
       axisDiv.remove();
 
-      // Remove the corresponding axis from the axe variable
-      delete VA.axes[axisIndex];
+      // Remove the corresponding axis from the axes array
+      VA.axes.splice(axisIndex, 1);
 
-      // Reorder the axe variable and update the div IDs
-      const newAxes = {};
-      let newIndex = 1;
-      for (const key in VA.axes) {
-        if (VA.axes.hasOwnProperty(key)) {
-          newAxes[newIndex] = VA.axes[key];
-          const div = document.getElementById(`axis_${key}`);
-          if (div) {
-            div.id = `axis_${newIndex}`;
-            div
-              .querySelector(".deleteAxis")
-              .setAttribute("onclick", `deleteAxis(${newIndex})`);
-            div.querySelector(".axisType").id = `axisType_${newIndex}`;
-            div
-              .querySelector(".axisType")
-              .setAttribute("onchange", `axisTypeChanged(${newIndex})`);
-            div.querySelector(".fieldType").id = `fieldType_${newIndex}`;
-            div
-              .querySelector(".fieldType")
-              .setAttribute("onchange", `fieldTypeChanged(${newIndex})`);
-            div.querySelector(".selectAreaBtn").id = `axis${newIndex}Area`;
-            div
-              .querySelector(".selectAreaBtn")
-              .setAttribute("onclick", `activateAreaSelect(${newIndex});`);
-            div.querySelector(".axisTitle").id = `axisTitle_${newIndex}`;
-            div.querySelector(".axisLabels").id = `axisLabel_${newIndex}`;
-          }
-          newIndex++;
+      // Update the div IDs for remaining axes
+      VA.axes.forEach((axis, newIndex) => {
+        const div = document.getElementById(`axis_${newIndex + 1}`);
+        if (div) {
+          div.id = `axis_${newIndex}`;
+          div
+            .querySelector(".deleteAxis")
+            .setAttribute("onclick", `deleteAxis(${newIndex})`);
+          div.querySelector(".axisType").id = `axisType_${newIndex}`;
+          div
+            .querySelector(".axisType")
+            .setAttribute("onchange", `axisTypeChanged(${newIndex})`);
+          div.querySelector(".fieldType").id = `fieldType_${newIndex}`;
+          div
+            .querySelector(".fieldType")
+            .setAttribute("onchange", `fieldTypeChanged(${newIndex})`);
+          div.querySelector(".selectAreaBtn").id = `axis${newIndex}Area`;
+          div
+            .querySelector(".selectAreaBtn")
+            .setAttribute("onclick", `activateAreaSelect(${newIndex});`);
+          div.querySelector(".axisTitle").id = `axisTitle_${newIndex}`;
+          div.querySelector(".axisLabels").id = `axisLabel_${newIndex}`;
         }
-      }
-      axes = newAxes;
-      axisCount = newIndex - 1;
+      });
+      axisCount = VA.axes.length;
     }
 
-    function addAxisConfiguration() {
-      axisCount++;
-      VA.axes[axisCount] = VA.axes[axisCount]
-        ? VA.axes[axisCount]
-        : {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+    function addAxisConfiguration(forceIndex) {
+      const index = forceIndex !== undefined ? forceIndex : VA.axes.length;
+      
+      // Only initialize axis data if not forcing an index (i.e., adding new axis)
+      if (forceIndex === undefined) {
+        axisCount = VA.axes.length;
+        VA.axes[axisCount] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+      } else {
+        axisCount = forceIndex;
+      }
       
       // Use the template to create the axis element
       const axisDiv = window.createAxisElement 

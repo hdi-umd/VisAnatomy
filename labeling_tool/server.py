@@ -197,12 +197,12 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
                 self.send_header('Content-Type', 'text/plain')
                 self.end_headers()
                 self.wfile.write(f"Error saving file: {str(e)}".encode('utf-8'))
-        else:
+        elif self.path == "/save_annotations":
             content_length = int(self.headers['Content-Length'])
             body = self.rfile.read(content_length)
             data = json.loads(body)
-            with open("annotations/"+data["chart"]+".json", "w") as outfile: #creates file then dumps data inside
-                json.dump(data, outfile)
+            with open("annotations_test/"+data["chart"]+".json", "w") as outfile: #creates file then dumps data inside
+                json.dump(data["annotations"], outfile)
             self.send_response(200) #copy
             self.send_header('Content-Type', 'text/plain')
             self.end_headers()

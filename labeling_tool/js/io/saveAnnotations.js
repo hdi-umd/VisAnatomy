@@ -2,73 +2,73 @@
  * Annotation saving functions
  */
 
-function saveAllAnnotations() {
-  const chartItems = document.querySelectorAll(".demoItem");
+// function saveAllAnnotations() {
+//   const chartItems = document.querySelectorAll(".demoItem");
 
-  chartItems.forEach(async (item) => {
-    const chartId = item.id;
+//   chartItems.forEach(async (item) => {
+//     const chartId = item.id;
 
-    // Load annotation file
-    await fetch("/annotations/" + chartId + ".json")
-      .then((res) => res.json())
-      .then((json) => {
-        const annotations = json.annotations;
-        if (!annotations) {
-          console.warn(`No annotations found for ${chartId}`);
-          return;
-        }
+//     // Load annotation file
+//     await fetch("/annotations/" + chartId + ".json")
+//       .then((res) => res.json())
+//       .then((json) => {
+//         const annotations = json.annotations;
+//         if (!annotations) {
+//           console.warn(`No annotations found for ${chartId}`);
+//           return;
+//         }
 
-        fetch("/save", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            chart: chartId,
-            annotations: annotations
-          })
-        })
-          .then((res) => res.json())
-          .then((result) =>
-            console.log(`Saved & restructured ${chartId}:`, result)
-          )
-          .catch((err) =>
-            console.error(`Failed to restructure ${chartId}:`, err)
-          );
-      })
-      .catch((err) => console.warn("Error fetching annotations:", err));
-  });
+//         fetch("/save_annotations", {
+//           method: "POST",
+//           headers: {
+//             "Content-Type": "application/json"
+//           },
+//           body: JSON.stringify({
+//             chart: chartId,
+//             annotations: annotations
+//           })
+//         })
+//           .then((res) => res.json())
+//           .then((result) =>
+//             console.log(`Saved & restructured ${chartId}:`, result)
+//           )
+//           .catch((err) =>
+//             console.error(`Failed to restructure ${chartId}:`, err)
+//           );
+//       })
+//       .catch((err) => console.warn("Error fetching annotations:", err));
+//   });
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4) {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        const alertBox = document.getElementById("alertBox");
-        alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
-          "fileName"
-        )}.json'!`;
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
+//   xhr.onreadystatechange = function () {
+//     if (xhr.readyState === 4) {
+//       if (xhr.status >= 200 && xhr.status < 300) {
+//         const alertBox = document.getElementById("alertBox");
+//         alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
+//           "fileName"
+//         )}.json'!`;
+//         alertBox.style.visibility = "visible";
+//         alertBox.style.opacity = "1";
 
-        // Hide the alert box after 3 seconds
-        setTimeout(function () {
-          alertBox.style.visibility = "hidden";
-          alertBox.style.opacity = "0";
-        }, 3000);
-        console.log(xhr.responseText);
-      } else {
-        console.error("Error: " + xhr.status);
-        alertBox.textContent =
-          "Error: '" + xhr.status + "' occurred while saving the annotations";
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
-      }
-    }
-  };
-}
+//         // Hide the alert box after 3 seconds
+//         setTimeout(function () {
+//           alertBox.style.visibility = "hidden";
+//           alertBox.style.opacity = "0";
+//         }, 3000);
+//         console.log(xhr.responseText);
+//       } else {
+//         console.error("Error: " + xhr.status);
+//         alertBox.textContent =
+//           "Error: '" + xhr.status + "' occurred while saving the annotations";
+//         alertBox.style.visibility = "visible";
+//         alertBox.style.opacity = "1";
+//       }
+//     }
+//   };
+// }
 
 function post() {
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/save");
+  xhr.open("POST", "/save_annotations");
   xhr.overrideMimeType("text/plain");
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -104,8 +104,8 @@ function post() {
     VA.legend.marks,
     VA.legend.labels,
     VA.legend.title,
-    ...Object.keys(VA.axes).map((k) => (VA.axes[k].labels ? VA.axes[k].labels : [])),
-    ...Object.keys(VA.axes).map((k) => (VA.axes[k].title ? VA.axes[k].title : [])),
+    ...VA.axes.map((axis) => (axis && axis.labels ? axis.labels : [])),
+    ...VA.axes.map((axis) => (axis && axis.title ? axis.title : [])),
   ]
     .filter((e) => e?.length > 0)
     .forEach((object) => {
@@ -150,7 +150,7 @@ function post() {
   
   VA.annotations.encodingInfo = VA.objectEncodings;
   VA.annotations.textObjectLinking = VA.textObjectLinking;
-  VA.annotations.referenceElement = {};
+  VA.annotations.referenceElements = {};
 
   let polylines = Object.keys(VA.markInfo).filter(
     (mark) => VA.markInfo[mark].Role === "Main Chart Mark" && VA.markInfo[mark].Type === "Polyline"
@@ -162,15 +162,15 @@ function post() {
     }
   }
 
-  VA.annotations.referenceElement["xGridlines"] = Object.keys(VA.markInfo).filter(
+  VA.annotations.referenceElements["xGridlines"] = Object.keys(VA.markInfo).filter(
     (mark) => VA.markInfo[mark].Role === "Horizontal Gridline"
   );
-  VA.annotations.referenceElement["yGridlines"] = Object.keys(VA.markInfo).filter(
+  VA.annotations.referenceElements["yGridlines"] = Object.keys(VA.markInfo).filter(
     (mark) => VA.markInfo[mark].Role === "Vertical Gridline"
   );
 
   // save the axes
-  VA.annotations.referenceElement["axes"] = VA.axes;
+  VA.annotations.referenceElements["axes"] = VA.axes;
 
   // // complete x axis elements
   // xAxis.path = Object.keys(markInfo).filter(
@@ -199,7 +199,7 @@ function post() {
   //   });
   //   xAxis.upperLevels = newUpperLevels;
   // }
-  // annotations.referenceElement["xAxis"] = xAxis;
+  // annotations.referenceElements["xAxis"] = xAxis;
 
   // // complete y axis elements
   // yAxis.path = Object.keys(markInfo).filter(
@@ -228,7 +228,7 @@ function post() {
   //   });
   //   yAxis.upperLevels = newUpperLevels;
   // }
-  // annotations.referenceElement["yAxis"] = yAxis;
+  // annotations.referenceElements["yAxis"] = yAxis;
 
   // complete legend elements
   VA.legend.title =
@@ -265,7 +265,7 @@ function post() {
   //     .map((mark) => allGraphicsElement[mark])
   // );
   // VA.legend.labels = VA.legend.labels.filter(onlyUnique);
-  VA.annotations.referenceElement["legend"] = VA.legend;
+  VA.annotations.referenceElements["legend"] = VA.legend;
   delete VA.annotations.contentMarks;
 
   data["chart"] = sessionStorage.getItem("fileName");

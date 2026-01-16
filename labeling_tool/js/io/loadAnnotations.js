@@ -57,19 +57,19 @@ function tryLoadAnnotations(filename) {
  */
 function loadRefElements(annotations) {
   // Load all axes, not just x/y
-  VA.axes = {};
+  VA.axes = [];
   if (
     annotations.referenceElements &&
     Array.isArray(annotations.referenceElements.axes)
   ) {
     annotations.referenceElements.axes.forEach((axis, i) => {
-      VA.axes[i + 1] = axis;
-      VA.axes[i + 1].type = axis.type || axis.channel || "x";
+      VA.axes[i] = axis;
+      VA.axes[i].type = axis.type || axis.channel || "x";
       // Map attrType to fieldType if needed
       if (axis.attrType && !axis.fieldType) {
-        VA.axes[i + 1].fieldType = axis.attrType;
+        VA.axes[i].fieldType = axis.attrType;
       }
-      console.log(`Loaded axis ${i + 1}:`, VA.axes[i + 1]);
+      console.log(`Loaded axis ${i}:`, VA.axes[i]);
     });
   }
 
@@ -169,8 +169,7 @@ function resolveElementReferences() {
   });
 
   // axes fields
-  Object.keys(VA.axes).forEach((k) => {
-    let axis = VA.axes[k];
+  VA.axes.forEach((axis) => {
     ["labels", "title", "ticks", "path"].forEach((field) => {
       if (axis[field] && axis[field].length > 0 && typeof axis[field][0] === "string") {
         axis[field] = axis[field].map(id => VA.allGraphicsElement[id]).filter(Boolean);
@@ -183,16 +182,15 @@ function resolveElementReferences() {
  * Display loaded axes in the UI
  */
 function displayLoadedAxes() {
-  Object.keys(VA.axes).forEach((k) => {
-    let index = parseInt(k);
+  VA.axes.forEach((axis, index) => {
     console.log("loading axis", index, VA.axes[index]);
     // Ensure the axis div exists before trying to display it
     if (!document.getElementById(`axis_${index}`)) {
-      // Set axisCount to match the index we need
-      axisCount = index - 1;
-      addAxisConfiguration();
+      addAxisConfiguration(index);  // Pass index to create div without initializing data
     }
     displayAxis(index);
   });
   console.log("finish loading axes");
+  // Update axisCount to match the number of axes
+  axisCount = VA.axes.length;
 }
