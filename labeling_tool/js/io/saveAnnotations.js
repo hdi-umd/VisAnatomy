@@ -2,6 +2,59 @@
  * Annotation saving functions
  */
 
+/**
+ * Batch save all annotations from the annotations folder to annotations_test
+ * Call this function from browser console to process all files automatically
+ */
+async function saveAllAnnotations() {
+  // Fetch the batch process list
+  const response = await fetch("/batch_process_list.json");
+  const data = await response.json();
+  const charts = data.charts;
+  
+  console.log(`Processing ${charts.length} charts...`);
+  
+  for (let i = 0; i < charts.length; i++) {
+    const chartId = charts[i];
+    console.log(`\n[${i+1}/${charts.length}] Processing ${chartId}...`);
+    
+    try {
+      // Load the annotation file
+      const annotationResponse = await fetch("/annotations/" + chartId + ".json");
+      const json = await annotationResponse.json();
+      
+      if (!json.annotations) {
+        console.warn(`No annotations found for ${chartId}`);
+        continue;
+      }
+      
+      // The annotations will be processed when loaded
+      // Now trigger a save by calling the server
+      const saveResponse = await fetch("/save_annotations", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          chart: chartId,
+          annotations: json.annotations
+        })
+      });
+      
+      const result = await saveResponse.json();
+      console.log(`✓ Saved ${chartId}:`, result);
+      
+      // Small delay to avoid overwhelming the server
+      await new Promise(resolve => setTimeout(resolve, 100));
+      
+    } catch (err) {
+      console.error(`✗ Failed to process ${chartId}:`, err);
+    }
+  }
+  
+  console.log("\n✓ Batch processing complete!");
+}
+
 // function saveAllAnnotations() {
 //   const chartItems = document.querySelectorAll(".demoItem");
 
@@ -135,10 +188,32 @@ function post() {
   //     });
   //   });
   // }
-  VA.annotations.allElements = VA.allElements;
+  
+  // Restore original coordinates before saving
+  const elementsToSave = {};
+  for (const [id, element] of Object.entries(VA.allElements)) {
+    elementsToSave[id] = { ...element };
+    
+    // If we have original values, restore them for saving
+    if (element.originalValues) {
+      ['left', 'top', 'right', 'bottom', 'height', 'width'].forEach(prop => {
+        if (element.originalValues[prop] !== undefined) {
+          elementsToSave[id][prop] = element.originalValues[prop];
+        }
+      });
+      delete elementsToSave[id].originalValues;
+    }
+    
+    // TODO: delete for testing purposes, restore later
+    delete elementsToSave[id].stroke;
+    delete elementsToSave[id].strokeWidth;
+    delete elementsToSave[id].d;
+  }
+  
+  VA.annotations.allElements = elementsToSave;
   VA.annotations.chartTitle =
     VA.chartTitle.filter((e) => e !== null).length > 0
-      ? VA.chartTitle.map((title) => VA.allElements[title.id])
+      ? VA.chartTitle.map((title) => elementsToSave[title.id])
       : Object.keys(VA.markInfo).filter(
         (mark) => VA.markInfo[mark].Role === "Chart Title"
       );
@@ -148,7 +223,6 @@ function post() {
   VA.annotations.grouping = VA.grouping;
   
   VA.annotations.encodingInfo = VA.objectEncodings;
-  VA.annotations.textObjectLinking = VA.textObjectLinking;
   VA.annotations.referenceElements = {};
 
   let polylines = Object.keys(VA.allElements).filter(

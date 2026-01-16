@@ -70,9 +70,18 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
     if (!(zeroHeight && zeroWidth) && top > -4000 && left > -4000) {
+      // Store original values from annotation file before overwriting with live bounding box
+      const existing = VA.allElements[element.id];
+      const originalValues = {};
+      ['left', 'top', 'right', 'bottom', 'height', 'width'].forEach(prop => {
+        if (existing?.[prop] !== undefined) originalValues[prop] = existing[prop];
+      });
+      
       // Merge with existing element to preserve annotation data (type, role, etc.)
+      // Overwrite position/size with live bounding box for runtime operations
       VA.allElements[element.id] = {
         ...VA.allElements[element.id], // Preserve existing annotation data
+        originalValues, // Preserve original coordinates from annotation file
         left: left,
         top: top,
         right: right,

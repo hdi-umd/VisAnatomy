@@ -16,15 +16,15 @@ function extract() {
       labels: [],
       ticks: [],
       path: [],
-      fieldType: undefined,
-      type: "x",
+      attrType: undefined,
+      channel: "x",
     };
     VA.yAxis = {
       labels: [],
       ticks: [],
       path: [],
-      fieldType: undefined,
-      type: "y",
+      attrType: undefined,
+      channel: "y",
     };
     return;
   }
@@ -438,12 +438,12 @@ function findAxisInArea(o, tl, br, texts) {
     .map((id) => VA.allElements[id]);
 
   let axis = VA.axes[o];
-  axis["type"] = axis["type"] ? axis["type"] : o;
+  axis["channel"] = axis["channel"] ? axis["channel"] : o;
   axis["labels"] = labels;
   axis["ticks"] = [];
   axis["path"] = [];
   axis["title"] = [];
-  axis["fieldType"] = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+  axis["attrType"] = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
 
   //remove from main content and the other axis/legend
   for (let l of labels) {
@@ -463,11 +463,11 @@ function findxAxis(texts) {
   let allY = texts.map((text) => text["top"]).filter(onlyUnique);
   let xAxis = {
     labels: [],
-    type: "x",
+    channel: "x",
     ticks: [],
     path: [],
     title: [],
-    fieldType: undefined,
+    attrType: undefined,
   };
   for (let y of allY) {
     let thisLabels = texts.filter((text) => Math.abs(text["top"] - y) <= 1);
@@ -491,11 +491,11 @@ function findyAxis(texts) {
   let allX = texts.map((text) => text["left"]).filter(onlyUnique);
   let yAxis = {
     labels: [],
-    type: "y",
+    channel: "y",
     ticks: [],
     path: [],
     title: [],
-    fieldType: undefined,
+    attrType: undefined,
   };
   for (let x of allX) {
     let thisLabels = texts.filter((text) => Math.abs(text["left"] - x) <= 1);

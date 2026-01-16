@@ -30,7 +30,7 @@ function addAxisLevel(t) {
 
 function legendFieldTypeChanged() {
   let val = d3.select("#legendFieldType").property("value");
-  VA.legend.fieldType = val;
+  VA.legend.attrType = val;
   if (val == "Null") {
     let labels = VA.legend.labels.map((d) => d);
     for (let l of labels) {
@@ -65,9 +65,9 @@ function fieldTypeChanged(index) {
     }
     VA.axes[index] = {
       labels: [],
-      fieldType: "Null",
+      attrType: "Null",
       title: [],
-      type: "x",
+      channel: "x",
       ticks: [],
       path: [],
     };
@@ -85,13 +85,13 @@ function fieldTypeChanged(index) {
     }
   }
 
-  VA.axes[index].fieldType = val;
+  VA.axes[index].attrType = val;
   displayAxis(index);
 }
 
 function axisTypeChanged(index) {
   let val = d3.select("#axisType_" + index).property("value");
-  VA.axes[index].type = val;
+  VA.axes[index].channel = val;
   displayAxis(index);
 }
 

@@ -110,22 +110,22 @@ function displayAxis(index) {
 
   let labels = axis["labels"];
   let type;
-  if (axis.fieldType) {
-    type = axis.fieldType;
+  if (axis.attrType) {
+    type = axis.attrType;
   } else {
     if (labels.length === 0) {
       type = "Null";
     } else {
       type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
     }
-    axis.fieldType = type;
+    axis.attrType = type;
   }
 
   d3.select("#fieldType_" + index).property("value", type);
   
   // Set the axis type - ensure element exists first
   const axisTypeElement = d3.select("#axisType_" + index);
-  const axisTypeValue = axis.type ? axis.type : "x";
+  const axisTypeValue = axis.channel ? axis.channel : "x";
   if (!axisTypeElement.empty()) {
     console.log(`Setting axisType_${index} to ${axisTypeValue}`, axis);
     axisTypeElement.property("value", axisTypeValue);

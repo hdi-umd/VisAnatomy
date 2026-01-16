@@ -263,7 +263,7 @@ function columnSelectionChanged(axisIndex) {
 
   // Store the mapping in the axes object
   if (!VA.axes[axisIndex]) {
-    VA.axes[axisIndex] = {labels: [], fieldType: "Null", title: [], type: "x", ticks: [], path: []};
+    VA.axes[axisIndex] = {labels: [], attrType: "Null", title: [], channel: "x", ticks: [], path: []};
   }
   VA.axes[axisIndex].dataColumn = selectedColumn;
 }

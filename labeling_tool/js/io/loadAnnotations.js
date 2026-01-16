@@ -64,10 +64,10 @@ function loadRefElements(annotations) {
   ) {
     annotations.referenceElements.axes.forEach((axis, i) => {
       VA.axes[i] = axis;
-      VA.axes[i].type = axis.type || axis.channel || "x";
-      // Map attrType to fieldType if needed
-      if (axis.attrType && !axis.fieldType) {
-        VA.axes[i].fieldType = axis.attrType;
+      VA.axes[i].channel = axis.channel || axis.type || "x";
+      // Use attrType from annotation file
+      if (axis.attrType) {
+        VA.axes[i].attrType = axis.attrType;
       }
       console.log(`Loaded axis ${i}:`, VA.axes[i]);
     });
