@@ -110,86 +110,23 @@ function loadMarks(annotations) {
 }
 
 /**
- * Build hierarchical group structure from grouping annotations
- */
-function buildTree(node) {
-  if (!node) return null;
-  if (Array.isArray(node)) {
-    // array of top-level nodes -> map each child
-    return node.map((child) => buildTree(child)).filter((c) => c !== null);
-  }
-  if (typeof node !== "object" || !node.children) return null;
-
-  // If this node is a leaf group (children are mark IDs)
-  if (node.children.length > 0 && typeof node.children[0] === "string") {
-    const leafIdx = VA.grouping.groups.length;
-    VA.grouping.groups.push(node.children.slice()); // copy mark IDs
-    // store leaf layout, default to Glyph when missing
-    VA.grouping.layouts[leafIdx] = node.layout && node.layout.type
-      ? node.layout
-      : { type: "Glyph", params: {} };
-
-    // If node has an explicit id like "g3", also map that numeric suffix (defensive)
-    if (node.id && typeof node.id === "string") {
-      const m = node.id.match(/(\d+)$/);
-      if (m) VA.grouping.layouts[parseInt(m[1], 10)] = VA.grouping.layouts[leafIdx];
-    }
-    return leafIdx;
-  }
-
-  // Internal group: recursively build children
-  const children = node.children
-    .map((child) => buildTree(child))
-    .filter((c) => c !== null);
-  // if node has explicit id like "g5", record its numeric layout (default Grid)
-  if (node.id && typeof node.id === "string") {
-    const m = node.id.match(/(\d+)$/);
-    if (m) {
-      VA.grouping.layouts[parseInt(m[1], 10)] =
-        node.layout && node.layout.type
-          ? node.layout
-          : { type: "Grid", params: {} };
-    }
-  }
-  return children;
-}
-
-/**
  * Load group annotations and nested grouping structure
  */
 function loadGroups(annotations) {
-  VA.grouping.groups = [];
-  VA.grouping.structure = null;
-  VA.grouping.layouts = {};
-
-  // Build top-level structure
-  if (annotations.grouping && annotations.grouping.length > 0) {
-    const topStructure =
-      annotations.grouping.length === 1
-        ? buildTree(annotations.grouping[0])
-        : buildTree(annotations.grouping);
-    VA.grouping.structure = topStructure;
-  } else {
-    // fallback: if no grouping, make each mark its own group (preserve old behavior)
-    VA.grouping.structure = VA.grouping.groups.length
-      ? VA.grouping.groups.map((_, i) => i)
-      : null;
-  }
+  // Store hierarchical grouping structure directly
+  VA.grouping = annotations.grouping || [];
 }
 
 /**
  * Load layout information for groups
- * Note: Layouts are primarily extracted during buildTree() from the grouping structure.
- * This function only loads legacy layoutInfo if it exists and layouts weren't already set.
+ * Note: Layouts are embedded in the grouping structure, so this is a no-op now.
+ * Kept for backward compatibility with old annotation files that have separate layoutInfo.
  */
 function loadLayouts(annotations) {
-  // Only load layoutInfo if we don't already have layouts from buildTree()
-  if (annotations.layoutInfo && Object.keys(VA.grouping.layouts).length === 0) {
-    VA.grouping.layouts = annotations.layoutInfo;
-  }
-  // If layoutInfo exists and we have layouts, merge them (layoutInfo takes precedence for conflicts)
-  else if (annotations.layoutInfo) {
-    VA.grouping.layouts = { ...VA.grouping.layouts, ...annotations.layoutInfo };
+  // For backward compatibility: if old files have separate layoutInfo, merge it into grouping
+  if (annotations.layoutInfo && Object.keys(annotations.layoutInfo).length > 0) {
+    console.warn("Loading legacy layoutInfo - consider updating annotation file format");
+    // Would need to match layouts to groups by index - skip for now
   }
 }
 

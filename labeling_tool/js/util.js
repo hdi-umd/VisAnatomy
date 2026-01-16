@@ -20,14 +20,136 @@ function initilizeVariables() {
   VA.titleXaxis = [];
   VA.titleYaxis = [];
   VA.annotationLoaded = false;
-  VA.grouping = {
-    groups: [],       // flat list of groups (each group is array of mark IDs)
-    structure: null,  // hierarchical nesting structure
-    layouts: {}       // layout info for each group by index
-  };
+  VA.grouping = []; // hierarchical grouping structure with embedded layouts
   VA.marksHaveGroupAnnotation = [];
   VA.objectEncodings = {};
   VA.textObjectLinking = {};
+}
+
+/**
+ * Add a new leaf group to the grouping structure
+ * @param {Array<string>} markIds - Array of mark IDs for this group
+ * @param {Object} layout - Optional layout object
+ * @returns {string} The ID of the newly created group
+ */
+function addLeafGroup(markIds, layout = null) {
+  const groupId = `g${VA.grouping.length}`;
+  const newGroup = {
+    id: groupId,
+    children: markIds,
+    layout: layout || { type: "Glyph", params: {} }
+  };
+  VA.grouping.push(newGroup);
+  return groupId;
+}
+
+/**
+ * Clear all grouping
+ */
+function resetGrouping() {
+  VA.grouping = [];
+}
+
+/**
+ * Get all leaf groups (groups containing actual marks) from hierarchical grouping
+ * @returns {Array<Array<string>>} Array of groups, where each group is an array of mark IDs
+ */
+function getLeafGroups(grouping = VA.grouping) {
+  const leafGroups = [];
+  
+  function traverse(node) {
+    if (!node) return;
+    
+    if (Array.isArray(node)) {
+      node.forEach(traverse);
+    } else if (node.children) {
+      if (node.children.length > 0 && typeof node.children[0] === 'string') {
+        // Leaf node - children are mark IDs
+        leafGroups.push(node.children);
+      } else if (Array.isArray(node.children)) {
+        // Internal node - children are other groups
+        node.children.forEach(traverse);
+      }
+    }
+  }
+  
+  traverse(grouping);
+  return leafGroups;
+}
+
+/**
+ * Get layout for a specific group by ID
+ * @param {string|number} groupId - Group ID to find
+ * @returns {Object|null} Layout object or null if not found
+ */
+function getGroupLayout(groupId, grouping = VA.grouping) {
+  function traverse(node) {
+    if (!node) return null;
+    
+    if (Array.isArray(node)) {
+      for (const child of node) {
+        const result = traverse(child);
+        if (result) return result;
+      }
+    } else if (node.id === groupId || node.id === String(groupId) || node.id === `g${groupId}`) {
+      return node.layout || null;
+    } else if (node.children && Array.isArray(node.children)) {
+      for (const child of node.children) {
+        if (typeof child !== 'string') {
+          const result = traverse(child);
+          if (result) return result;
+        }
+      }
+    }
+    return null;
+  }
+  
+  return traverse(grouping);
+}
+
+/**
+ * Get marks for a specific group by ID
+ * @param {string|number} groupId - Group ID to find
+ * @returns {Array<string>} Array of mark IDs
+ */
+function getGroupMarks(groupId, grouping = VA.grouping) {
+  function traverse(node) {
+    if (!node) return null;
+    
+    if (Array.isArray(node)) {
+      for (const child of node) {
+        const result = traverse(child);
+        if (result) return result;
+      }
+    } else if (node.id === groupId || node.id === String(groupId) || node.id === `g${groupId}`) {
+      // Collect all marks recursively
+      const marks = [];
+      function collectMarks(n) {
+        if (!n) return;
+        if (Array.isArray(n)) {
+          n.forEach(collectMarks);
+        } else if (n.children) {
+          if (typeof n.children[0] === 'string') {
+            marks.push(...n.children);
+          } else {
+            n.children.forEach(collectMarks);
+          }
+        }
+      }
+      collectMarks(node);
+      return marks;
+    } else if (node.children && Array.isArray(node.children)) {
+      for (const child of node.children) {
+        if (typeof child !== 'string') {
+          const result = traverse(child);
+          if (result) return result;
+        }
+      }
+    }
+    return null;
+  }
+  
+  return traverse(grouping) || [];
 }
 
 //for polyline elements

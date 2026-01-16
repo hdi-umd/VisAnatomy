@@ -155,7 +155,7 @@
     <!-- Bottom Dataset Drawer -->
     <div id="datasetDrawer" class="dataset-drawer open" style="padding-left: 5px; padding-right: 5px;">
       <div id="datasetDrawerPuller" class="dataset-drawer-puller">
-        <span id="drawerArrow" style="font-size: 18px;">▲</span>
+        <span id="drawerArrow" style="font-size: 18px;">▼</span>
         <span id="drawerTableLabel" style="font-weight: bold; font-size: 14px; margin-right: 10px;">Data Table</span>
       </div>
       <div id="datasetDrawerContent" class="dataset-drawer-content">
@@ -202,7 +202,7 @@
     const datasetDrawer = document.getElementById("datasetDrawer");
     const datasetDrawerPuller = document.getElementById("datasetDrawerPuller");
     const drawerArrow = document.getElementById("drawerArrow");
-    let drawerOpen = false;
+    let drawerOpen = true; // Initialize to true since drawer starts with 'open' class
 
     // Toggle drawer on click
     datasetDrawerPuller.addEventListener("click", function () {

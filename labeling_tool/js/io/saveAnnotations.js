@@ -18,7 +18,7 @@ function saveAllAnnotations() {
           return;
         }
 
-        fetch("/save_and_restructure", {
+        fetch("/save", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
@@ -68,7 +68,7 @@ function saveAllAnnotations() {
 
 function post() {
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/save_and_restructure");
+  xhr.open("POST", "/save");
   xhr.overrideMimeType("text/plain");
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -144,9 +144,10 @@ function post() {
         (mark) => VA.markInfo[mark].Role === "Chart Title"
       );
   VA.annotations.markInfo = VA.markInfo;
-  VA.annotations.groupInfo = VA.grouping.groups;
-  VA.annotations.nestedGrouping = VA.grouping.structure ? [VA.grouping.structure] : [];
-  VA.annotations.layoutInfo = VA.grouping.layouts;
+  
+  // Store hierarchical grouping structure directly
+  VA.annotations.grouping = VA.grouping;
+  
   VA.annotations.encodingInfo = VA.objectEncodings;
   VA.annotations.textObjectLinking = VA.textObjectLinking;
   VA.annotations.referenceElement = {};
