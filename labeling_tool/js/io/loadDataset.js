@@ -98,11 +98,71 @@ function displayTable(headers, rows) {
   // Store CSV columns globally for dropdown population
   VA.csvColumns = [...headers];
 
-  // Create Tabulator columns from headers
+  // Infer or initialize data types for each column
+  if (!VA.csvDataTypes || VA.csvDataTypes.length !== headers.length) {
+    VA.csvDataTypes = headers.map((header, idx) => {
+      const columnValues = rows.map(row => row[idx]);
+      const inferredType = inferDataType(columnValues);
+      // Map to FieldTypes format
+      if (inferredType === 'number') return FieldTypes.NUMBER;
+      if (inferredType === 'date') return FieldTypes.DATE;
+      return FieldTypes.STRING;
+    });
+  }
+
+  // Create Tabulator columns from headers with custom title formatter
   const columns = headers.map((header, index) => ({
     title: header,
     field: header,
-    headerSort: true
+    headerSort: true,
+    titleFormatter: function(cell, formatterParams, onRendered) {
+      const container = document.createElement('div');
+      container.style.display = 'flex';
+      container.style.flexDirection = 'column';
+      container.style.gap = '4px';
+      container.style.width = '100%';
+      
+      // Column name
+      const nameDiv = document.createElement('div');
+      nameDiv.textContent = header;
+      nameDiv.style.fontWeight = 'bold';
+      nameDiv.style.fontSize = '13px';
+      container.appendChild(nameDiv);
+      
+      // Dropdown for data type
+      const select = document.createElement('select');
+      select.style.width = '100%';
+      select.style.fontSize = '11px';
+      select.style.padding = '2px';
+      select.style.border = '1px solid #ccc';
+      select.style.borderRadius = '3px';
+      select.style.backgroundColor = '#fff';
+      
+      // Add options from FieldTypes
+      Object.values(FieldTypes).forEach(type => {
+        const option = document.createElement('option');
+        option.value = type;
+        option.textContent = type;
+        if (type === VA.csvDataTypes[index]) {
+          option.selected = true;
+        }
+        select.appendChild(option);
+      });
+      
+      // Handle change event
+      select.addEventListener('change', function(e) {
+        VA.csvDataTypes[index] = e.target.value;
+        console.log(`Column "${header}" data type changed to: ${e.target.value}`);
+      });
+      
+      // Prevent sorting when clicking on dropdown
+      select.addEventListener('click', function(e) {
+        e.stopPropagation();
+      });
+      
+      container.appendChild(select);
+      return container;
+    }
   }));
 
   // Convert rows to array of objects
