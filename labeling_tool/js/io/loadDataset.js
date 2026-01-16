@@ -58,7 +58,7 @@ async function checkCSVExists(fileName) {
  * @param {string} fileName - The name of the CSV file to load
  */
 async function displayCSVData(fileName) {
-  console.log(`Loading CSV data for ${fileName}...`);
+  //console.log(`Loading CSV data for ${fileName}...`);
   try {
     const res = await fetch("/get_csv_data/" + fileName);
     if (!res.ok) {
@@ -80,11 +80,11 @@ async function displayCSVData(fileName) {
  * Display an empty editable table when no CSV file is available
  */
 function displayEmptyEditableTable() {
-  console.log("Displaying empty editable table...");
+  //console.log("Displaying empty editable table...");
   
   // Create default column headers and empty data
   const defaultHeaders = ['Column 1', 'Column 2', 'Column 3'];
-  const emptyRows = Array(3).fill(null).map(() => Array(3).fill(''));
+  const emptyRows = Array(1).fill(null).map(() => Array(1).fill(''));
   
   displayTable(defaultHeaders, emptyRows);
 }
