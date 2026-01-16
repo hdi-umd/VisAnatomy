@@ -811,7 +811,7 @@ span {
   transform: translateX(-50%) translateY(calc(100% - 40px));
   width: 80%;
   height: 300px;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   border: 2px solid #ccc;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -826,7 +826,7 @@ span {
 .dataset-drawer-puller {
   height: 40px;
   background-color: #f5f5f5;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 0px solid #e0e0e0;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -852,6 +852,7 @@ span {
   height: calc(100% - 40px);
   overflow-y: auto;
   overflow-x: auto;
+  border: 0px;
 }
 
 .dataset-drawer-content table {
@@ -859,10 +860,11 @@ span {
   width: 100%;
   font-size: 12px;
   margin: 10px;
+  border: 0px;
 }
 
 .dataset-drawer-content th {
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   padding: 8px;
   background-color: #4CAF50;
   color: white;
@@ -873,10 +875,25 @@ span {
 }
 
 .dataset-drawer-content td {
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   padding: 8px;
 }
 
 .dataset-drawer-content tbody tr:nth-child(even) {
   background-color: #f2f2f2;
+  border: 0px;
 }
+
+/* Disable tabulator table row hover effect */
+.tabulator-row:hover {
+  background-color: inherit !important;
+}
+
+.tabulator-row.tabulator-row-even:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.tabulator-row.tabulator-row-odd:hover {
+  background-color: #ffffff !important;
+}
+

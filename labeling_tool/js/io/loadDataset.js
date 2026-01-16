@@ -3,6 +3,44 @@
  */
 
 /**
+ * Infer the data type of a column based on its values
+ * @param {Array} values - Array of values from a column
+ * @returns {string} The inferred data type ('number', 'date', or 'string')
+ */
+function inferDataType(values) {
+  if (!values || values.length === 0) return 'string';
+  
+  // Filter out empty values
+  const nonEmptyValues = values.filter(v => v !== null && v !== undefined && v !== '');
+  if (nonEmptyValues.length === 0) return 'string';
+  
+  // Check if all non-empty values are numbers
+  const allNumbers = nonEmptyValues.every(v => {
+    const num = Number(v);
+    return !isNaN(num) && v.toString().trim() !== '';
+  });
+  
+  if (allNumbers) return 'number';
+  
+  // Check if values look like dates
+  const datePatterns = [
+    /^\d{4}-\d{2}-\d{2}$/,  // YYYY-MM-DD
+    /^\d{1,2}\/\d{1,2}\/\d{4}$/,  // MM/DD/YYYY or M/D/YYYY
+    /^\d{1,2}-\d{1,2}-\d{4}$/,  // MM-DD-YYYY
+    /^\d{4}\/\d{2}\/\d{2}$/,  // YYYY/MM/DD
+  ];
+  
+  const mostlyDates = nonEmptyValues.filter(v => {
+    const str = v.toString().trim();
+    return datePatterns.some(pattern => pattern.test(str)) || !isNaN(Date.parse(str));
+  }).length / nonEmptyValues.length > 0.5;
+  
+  if (mostlyDates) return 'date';
+  
+  return 'string';
+}
+
+/**
  * Check if a CSV file exists on the server
  * @param {string} fileName - The name of the CSV file to check
  * @returns {Promise<boolean>} True if the file exists, false otherwise
@@ -29,41 +67,7 @@ async function displayCSVData(fileName) {
     }
     const data = await res.json();
 
-    // Store CSV columns globally for dropdown population
-    window.csvColumns = data.header;
-
-    // Create Tabulator columns from header
-    const columns = data.header.map(col => ({
-      title: col,
-      field: col,
-      headerSort: true
-    }));
-
-    // Convert rows to array of objects
-    const tableData = data.rows.map(row => {
-      const rowObj = {};
-      data.header.forEach((col, idx) => {
-        rowObj[col] = row[idx];
-      });
-      return rowObj;
-    });
-
-    // Clear the container and create Tabulator instance
-    const container = document.getElementById('datasetTableContainer');
-    container.innerHTML = '';
-
-    new Tabulator(container, {
-      data: tableData,
-      columns: columns,
-      layout: "fitColumns",
-      height: "400px",
-      pagination: true,
-      paginationSize: 20,
-      paginationSizeSelector: [10, 20, 50, 100]
-    });
-
-    // Populate all column dropdowns
-    populateColumnDropdowns();
+    displayTable(data.header, data.rows);
 
   } catch (error) {
     console.error("Error loading CSV data:", error);
@@ -78,50 +82,53 @@ async function displayCSVData(fileName) {
 function displayEmptyEditableTable() {
   console.log("Displaying empty editable table...");
   
-  // Create default column headers
+  // Create default column headers and empty data
   const defaultHeaders = ['Column 1', 'Column 2', 'Column 3'];
-  window.csvColumns = [...defaultHeaders]; // Store globally for dropdown population
+  const emptyRows = Array(3).fill(null).map(() => Array(3).fill(''));
   
-  // Create Tabulator columns with editable headers
-  const columns = defaultHeaders.map((header, index) => ({
+  displayTable(defaultHeaders, emptyRows);
+}
+
+/**
+ * Display table with Tabulator
+ * @param {Array} headers - Column headers
+ * @param {Array} rows - Data rows (array of arrays)
+ */
+function displayTable(headers, rows) {
+  // Store CSV columns globally for dropdown population
+  VA.csvColumns = [...headers];
+
+  // Create Tabulator columns from headers
+  const columns = headers.map((header, index) => ({
     title: header,
-    field: `col${index}`,
-    headerSort: false,
-    editor: "input",
-    headerMenu: [{
-      label: "Edit Column Name",
-      action: function(e, column) {
-        const newName = prompt("Enter new column name:", column.getDefinition().title);
-        if (newName && newName.trim()) {
-          column.updateDefinition({title: newName});
-          window.csvColumns[index] = newName;
-          populateColumnDropdowns();
-        }
-      }
-    }]
+    field: header,
+    headerSort: true
   }));
 
-  // Create empty placeholder data
-  const emptyData = Array(3).fill(null).map(() => {
-    const row = {};
-    defaultHeaders.forEach((_, idx) => {
-      row[`col${idx}`] = '';
+  // Convert rows to array of objects
+  const tableData = rows.map(row => {
+    const rowObj = {};
+    headers.forEach((col, idx) => {
+      rowObj[col] = row[idx] || '';
     });
-    return row;
+    return rowObj;
   });
 
   // Clear the container and create Tabulator instance
   const container = document.getElementById('datasetTableContainer');
   container.innerHTML = '';
-  
+
   new Tabulator(container, {
-    data: emptyData,
+    data: tableData,
     columns: columns,
     layout: "fitColumns",
-    height: "250px"
+    height: "400px",
+    pagination: true,
+    paginationSize: 20,
+    paginationSizeSelector: [10, 20, 50, 100]
   });
-  
-  // Populate column dropdowns with default headers
+
+  // Populate all column dropdowns
   populateColumnDropdowns();
 }
 
@@ -136,7 +143,7 @@ function updateColumnHeader(index, newValue) {
   }
   
   // Update the global csvColumns array
-  window.csvColumns[index] = newValue;
+  VA.csvColumns[index] = newValue;
   
   // Update all dropdown options
   populateColumnDropdowns();
@@ -148,7 +155,7 @@ function updateColumnHeader(index, newValue) {
  * Populate column dropdowns with available CSV columns
  */
 function populateColumnDropdowns() {
-  if (!window.csvColumns) return;
+  if (!VA.csvColumns) return;
 
   // Populate existing axis column dropdowns
   document.querySelectorAll('.columnSelect').forEach(select => {
@@ -158,7 +165,7 @@ function populateColumnDropdowns() {
     }
 
     // Add CSV columns as options
-    window.csvColumns.forEach(column => {
+    VA.csvColumns.forEach(column => {
       const option = document.createElement('option');
       option.value = column;
       option.textContent = column;
