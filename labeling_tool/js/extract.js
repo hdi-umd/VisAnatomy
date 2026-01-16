@@ -68,11 +68,11 @@ function extract() {
 
   [...VA.legend.labels, ...VA.legend.marks, ...VA.xAxis.labels, ...VA.yAxis.labels].forEach(
     (object) => {
-      VA.allGraphicsElement[object.id].isReferenceElement = true;
+      VA.allElements[object.id].isReferenceElement = true;
     }
   );
 
-  console.log("allGraphicsElement", VA.allGraphicsElement);
+  console.log("allGraphicsElement", VA.allElements);
 }
 
 function findLegendInArea(tl, br, texts) {
@@ -152,7 +152,7 @@ function findLegendInArea(tl, br, texts) {
   VA.legend = result;
 
   for (let l of legendLabels) {
-    VA.allGraphicsElement[l.id].isReferenceElement = true;
+    VA.allElements[l.id].isReferenceElement = true;
     if (VA.xAxis.labels.indexOf(l) >= 0)
       VA.xAxis.labels.splice(VA.xAxis.labels.indexOf(l), 1);
     if (VA.yAxis.labels.indexOf(l) >= 0)
@@ -160,7 +160,7 @@ function findLegendInArea(tl, br, texts) {
   }
 
   for (let r of legendMarks) {
-    VA.allGraphicsElement[r.id].isReferenceElement = true;
+    VA.allElements[r.id].isReferenceElement = true;
   }
 }
 
@@ -435,7 +435,7 @@ function findAxisInArea(o, tl, br, texts) {
   labels = labels
     .map((l) => l.id)
     .filter(onlyUnique)
-    .map((id) => VA.allGraphicsElement[id]);
+    .map((id) => VA.allElements[id]);
 
   let axis = VA.axes[o];
   axis["type"] = axis["type"] ? axis["type"] : o;
@@ -447,7 +447,7 @@ function findAxisInArea(o, tl, br, texts) {
 
   //remove from main content and the other axis/legend
   for (let l of labels) {
-    VA.allGraphicsElement[l.id].isReferenceElement = true;
+    VA.allElements[l.id].isReferenceElement = true;
   }
   Object.keys(VA.axes).forEach((key) => {
     if (key != o) {

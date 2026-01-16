@@ -38,8 +38,8 @@ function initilizeGroupAnnotation() {
   });
 
   // To be completed
-  mainChartMarks = Object.keys(VA.markInfo).filter(
-    (m) => VA.markInfo[m].Role === "Main Chart Mark"
+  mainChartMarks = Object.keys(VA.allElements).filter(
+    (m) => VA.allElements[m].role === "Main Chart Mark"
   ); // main chart marks
 
   allSVGElementID.forEach((id) => {
@@ -63,7 +63,7 @@ function initilizeGroupAnnotation() {
   );
   colorBasedSelection.innerHTML = "";
   mainChartMarks
-    .map((id) => VA.allGraphicsElement[id].fill)
+    .map((id) => VA.allElements[id].fill)
     .filter(onlyUnique)
     .forEach((color) => {
       let button = document.createElement("button");
@@ -72,7 +72,7 @@ function initilizeGroupAnnotation() {
       // hover event TBD
       button.onclick = function () {
         theGroup = mainChartMarks
-          .filter((thisMarkID) => VA.allGraphicsElement[thisMarkID].fill === color)
+          .filter((thisMarkID) => VA.allElements[thisMarkID].fill === color)
           .map((id) => document.getElementById(id));
         showSelectedMarks();
         theGroup.forEach((element) => {
@@ -94,7 +94,7 @@ function initilizeGroupAnnotation() {
   const typeBasedSelection = document.getElementById("typeBasedSelection");
   typeBasedSelection.innerHTML = "";
   mainChartMarks
-    .map((id) => VA.markInfo[id].Type)
+    .map((id) => VA.allElements[id].type)
     .filter(onlyUnique)
     .forEach((type) => {
       let button = document.createElement("button");
@@ -103,7 +103,7 @@ function initilizeGroupAnnotation() {
       // hover event TBD
       button.onclick = function () {
         theGroup = mainChartMarks
-          .filter((thisMarkID) => VA.markInfo[thisMarkID].Type === type)
+          .filter((thisMarkID) => VA.allElements[thisMarkID].type === type)
           .map((id) => document.getElementById(id));
         showSelectedMarks();
         theGroup.forEach((element) => {

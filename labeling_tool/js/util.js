@@ -3,7 +3,7 @@ var VA = VA || {};
 
 function initilizeVariables() {
   VA.groupedGraphicsElement = {};
-  VA.allGraphicsElement = {};
+  VA.allElements = {};
   VA.annotations = {};
   VA.xAxis = {};
   VA.yAxis = {};
@@ -11,7 +11,6 @@ function initilizeVariables() {
   VA.legend = {};
   VA.xGridlines = [];
   VA.yGridlines = [];
-  VA.markInfo = {};
   VA.chartTitle = [];
   VA.titleLegend = [];
   VA.titleXaxis = [];

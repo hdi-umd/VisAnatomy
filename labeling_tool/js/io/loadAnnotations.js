@@ -96,17 +96,8 @@ function loadRefElements(annotations) {
  * Load mark information from all elements
  */
 function loadMarks(annotations) {
-  VA.allGraphicsElement = annotations.allElements ? annotations.allElements : {};
+  VA.allElements = annotations.allElements ? annotations.allElements : {};
   VA.groupedGraphicsElement = {};
-
-  VA.markInfo = {};
-  Object.keys(VA.allGraphicsElement).forEach((id) => {
-    const element = VA.allGraphicsElement[id];
-    VA.markInfo[id] = {
-      Type: element.type || "none",
-      Role: element.role || "none"
-    };
-  });
 }
 
 /**
@@ -153,7 +144,7 @@ function loadTitles(annotations) {
 
   VA.titleLegend = VA.legend.title ? VA.legend.title : [];
   if (VA.titleLegend.length > 0 && typeof VA.titleLegend[0] === "string") {
-    VA.titleLegend = VA.titleLegend.map(id => VA.allGraphicsElement[id]).filter(Boolean);
+    VA.titleLegend = VA.titleLegend.map(id => VA.allElements[id]).filter(Boolean);
   }
 }
 
@@ -164,7 +155,7 @@ function resolveElementReferences() {
   // legend fields
   ["labels", "marks", "title", "ticks"].forEach((field) => {
     if (VA.legend[field] && VA.legend[field].length > 0 && typeof VA.legend[field][0] === "string") {
-      VA.legend[field] = VA.legend[field].map(id => VA.allGraphicsElement[id]).filter(Boolean);
+      VA.legend[field] = VA.legend[field].map(id => VA.allElements[id]).filter(Boolean);
     }
   });
 
@@ -172,7 +163,7 @@ function resolveElementReferences() {
   VA.axes.forEach((axis) => {
     ["labels", "title", "ticks", "path"].forEach((field) => {
       if (axis[field] && axis[field].length > 0 && typeof axis[field][0] === "string") {
-        axis[field] = axis[field].map(id => VA.allGraphicsElement[id]).filter(Boolean);
+        axis[field] = axis[field].map(id => VA.allElements[id]).filter(Boolean);
       }
     });
   });

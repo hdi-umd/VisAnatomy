@@ -4,9 +4,9 @@ var groupMarkCorrespondence = {};
 function initilizeConstraintAnnotation() {
   // first filter out texts whose mark role is not Main Chart Mark or isReferenceElement is false
   groupMarkCorrespondence = {};
-  availableTexts = Object.values(VA.allGraphicsElement).filter(function (d) {
+  availableTexts = Object.values(VA.allElements).filter(function (d) {
     return d.tagName === "text" && !referenceElements.includes(d.id)
-      ? VA.markInfo[d.id]?.Role !== "Main Chart Mark"
+      ? VA.allElements[d.id]?.role !== "Main Chart Mark"
       : false;
   });
   enableDD4AnnotationRoleText();
@@ -219,7 +219,7 @@ function enableDD4AnnotationRoleText() {
       })
       .on("mouseout", function () {
         d3.select(this)
-          .style("fill", VA.markInfo[textID]?.fill || "black")
+          .style("fill", VA.allElements[textID]?.fill || "black")
           .style("font-weight", "normal");
       });
     dragHandler2(d3.select("#" + textID));

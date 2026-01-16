@@ -371,7 +371,7 @@ function displayTitles(chartTitle, legendTitle) {
       .selectAll("button")
       .remove();
     for (let title of allTitles[["chartTitle", "legendTitle"].indexOf(id)].map(
-      (e) => (typeof e === "string" ? VA.allGraphicsElement[e] : e)
+      (e) => (typeof e === "string" ? VA.allElements[e] : e)
     )) {
       let btn = d3
         .select("#" + id)
@@ -585,7 +585,7 @@ function setViewBox() {
 }
 
 function getViewBox() {
-  let allBBoxes = Object.values(VA.allGraphicsElement);
+  let allBBoxes = Object.values(VA.allElements);
   return {
     left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
     top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),

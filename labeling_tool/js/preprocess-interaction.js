@@ -438,12 +438,12 @@ function addAxisLabel(TargetID, text) {
     let index = parseInt(k);
     displayAxis(index);
   });
-  VA.allGraphicsElement[text.id].isReferenceElement = true;
+  VA.allElements[text.id].isReferenceElement = true;
 }
 
 function addLegendLabel(text) {
   if (VA.legend["labels"].indexOf(text) < 0) VA.legend["labels"].push(text);
-  VA.allGraphicsElement[text.id].isReferenceElement = true;
+  VA.allElements[text.id].isReferenceElement = true;
 }
 
 function moveAxisLabel(fromID, toID, text) {
@@ -468,14 +468,14 @@ function removeAxisLabel(fromID, text) {
       if (level.indexOf(text) >= 0) level.splice(level.indexOf(text), 1);
     }
   }
-  VA.allGraphicsElement[text.id].isReferenceElement = false;
+  VA.allElements[text.id].isReferenceElement = false;
 }
 
 function removeLegendLabel(text) {
   if (VA.legend["labels"].indexOf(text) >= 0) {
     VA.legend["labels"].splice(VA.legend["labels"].indexOf(text), 1);
   }
-  VA.allGraphicsElement[text.id].isReferenceElement = false;
+  VA.allElements[text.id].isReferenceElement = false;
 }
 
 function enableDragDrop(texts) {

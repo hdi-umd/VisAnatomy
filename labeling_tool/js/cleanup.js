@@ -70,7 +70,9 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
     if (!(zeroHeight && zeroWidth) && top > -4000 && left > -4000) {
-      VA.allGraphicsElement[element.id] = {
+      // Merge with existing element to preserve annotation data (type, role, etc.)
+      VA.allElements[element.id] = {
+        ...VA.allElements[element.id], // Preserve existing annotation data
         left: left,
         top: top,
         right: right,
@@ -95,6 +97,7 @@ function groupSVGElementsByTypeWithCoordinates() {
         strokeWidth: element.attributes["stroke-width"]? element.attributes["stroke-width"].value : 
         element.style["stroke-width"] ? element.style["stroke-width"] : getClosestAncestorStyle(element.id, "stroke-width"),
       };
+      
       if (Object.keys(VA.groupedGraphicsElement).includes(element.tagName + "s"))
         VA.groupedGraphicsElement[element.tagName + "s"].push({
           left: left,
@@ -139,7 +142,7 @@ function groupSVGElementsByTypeWithCoordinates() {
         ];
     }
   });
-  console.log(VA.allGraphicsElement);
+  console.log(VA.allElements);
 }
 
 function getClosestAncestorStyle(elementID, style) {

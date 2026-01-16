@@ -260,12 +260,12 @@ function createList2(item) {
         })
         .on("click", function () {
           d3.select("#selectedObjectType").text(
-            VA.markInfo[mark].Type.toLowerCase()
+            VA.allElements[mark].type.toLowerCase()
           );
           d3.select("#selectedGroup4EncodingStage1").text(
             markItem.textContent.split(" ")[0]
           );
-          let channelList = typeSpecificChannels[VA.markInfo[mark].Type];
+          let channelList = typeSpecificChannels[VA.allElements[mark].type];
           populateChannelList(channelList);
           if (Object.keys(VA.objectEncodings).includes(mark)) {
             let channelListHTML = document.getElementById("channelList");
@@ -371,7 +371,7 @@ function recordBatchEncoding() {
         console.log(extractNonNumeric(mark));
         if (
           selectedGroup.startsWith(extractNonNumeric(mark)) &&
-          VA.markInfo[mark].Type === VA.markInfo[selectedGroup].Type
+          VA.allElements[mark].type === VA.allElements[selectedGroup].type
         ) {
           VA.objectEncodings[mark] = selectedChannels;
           document.getElementById("EncIndicator" + mark).textContent =

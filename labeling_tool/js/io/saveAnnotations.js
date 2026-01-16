@@ -112,10 +112,10 @@ function post() {
       object.forEach((element) => {
         switch (typeof element) {
           case "string":
-            VA.allGraphicsElement[element].isReferenceElement = true;
+            VA.allElements[element].isReferenceElement = true;
             break;
           case "object":
-            VA.allGraphicsElement[element.id].isReferenceElement = true;
+            VA.allElements[element.id].isReferenceElement = true;
             break;
         }
       });
@@ -135,11 +135,10 @@ function post() {
   //     });
   //   });
   // }
-  VA.annotations.allGraphicsElement = VA.allGraphicsElement;
-  VA.annotations.groupedGraphicsElement = VA.groupedGraphicsElement;
+  VA.annotations.allElements = VA.allElements;
   VA.annotations.chartTitle =
     VA.chartTitle.filter((e) => e !== null).length > 0
-      ? VA.chartTitle.map((title) => VA.allGraphicsElement[title.id])
+      ? VA.chartTitle.map((title) => VA.allElements[title.id])
       : Object.keys(VA.markInfo).filter(
         (mark) => VA.markInfo[mark].Role === "Chart Title"
       );
@@ -152,8 +151,8 @@ function post() {
   VA.annotations.textObjectLinking = VA.textObjectLinking;
   VA.annotations.referenceElements = {};
 
-  let polylines = Object.keys(VA.markInfo).filter(
-    (mark) => VA.markInfo[mark].Role === "Main Chart Mark" && VA.markInfo[mark].Type === "Polyline"
+  let polylines = Object.keys(VA.allElements).filter(
+    (mark) => VA.allElements[mark].role === "Main Chart Mark" && VA.allElements[mark].type === "Polyline"
   );
   for (let pl of polylines) {
     let d = VA.annotations.allGraphicsElement[pl].d;
@@ -162,15 +161,37 @@ function post() {
     }
   }
 
-  VA.annotations.referenceElements["xGridlines"] = Object.keys(VA.markInfo).filter(
-    (mark) => VA.markInfo[mark].Role === "Horizontal Gridline"
+  VA.annotations.referenceElements["xGridlines"] = Object.keys(VA.allElements).filter(
+    (mark) => VA.allElements[mark].role === "Horizontal Gridline"
   );
-  VA.annotations.referenceElements["yGridlines"] = Object.keys(VA.markInfo).filter(
-    (mark) => VA.markInfo[mark].Role === "Vertical Gridline"
+  VA.annotations.referenceElements["yGridlines"] = Object.keys(VA.allElements).filter(
+    (mark) => VA.allElements[mark].role === "Vertical Gridline"
   );
 
-  // save the axes
-  VA.annotations.referenceElements["axes"] = VA.axes;
+  // Save the axes, converting labels/title/ticks/path arrays back to IDs
+  VA.annotations.referenceElements["axes"] = VA.axes.map(axis => {
+    const savedAxis = { ...axis };
+    
+    // Convert arrays of objects back to arrays of IDs
+    ["labels", "title", "ticks", "path"].forEach(field => {
+      if (savedAxis[field] && Array.isArray(savedAxis[field])) {
+        savedAxis[field] = savedAxis[field].map(item => 
+          typeof item === "string" ? item : item.id
+        );
+      }
+    });
+    
+    // Handle upperLevels if it exists (nested arrays)
+    if (savedAxis.upperLevels && Array.isArray(savedAxis.upperLevels)) {
+      savedAxis.upperLevels = savedAxis.upperLevels.map(level =>
+        Array.isArray(level) 
+          ? level.map(item => typeof item === "string" ? item : item.id)
+          : (typeof level === "string" ? level : level.id)
+      );
+    }
+    
+    return savedAxis;
+  });
 
   // // complete x axis elements
   // xAxis.path = Object.keys(markInfo).filter(
@@ -233,26 +254,23 @@ function post() {
   // complete legend elements
   VA.legend.title =
     VA.titleLegend.length > 0
-      ? VA.titleLegend.map((title) => VA.allGraphicsElement[title.id])
-      : Object.keys(VA.markInfo)
-        .filter((mark) => VA.markInfo[mark].Role === "Legend Title")
-        .map((title) => VA.allGraphicsElement[title]);
+      ? VA.titleLegend.map((title) => typeof title === "string" ? title : title.id)
+      : Object.keys(VA.allElements)
+        .filter((mark) => VA.allElements[mark].role === "Legend Title");
   // TBD: need to keep an eye on the legend info when annotating
-  VA.legend.ticks = Object.keys(VA.markInfo).filter(
-    (mark) => VA.markInfo[mark].Role === "Legend Tick"
+  VA.legend.ticks = Object.keys(VA.allElements).filter(
+    (mark) => VA.allElements[mark].role === "Legend Tick"
   );
   VA.legend.marks =
     VA.legend.marks.length === 0
-      ? Object.keys(VA.markInfo)
-        .filter((mark) => VA.markInfo[mark].Role === "Legend Mark")
-        .map((mark) => VA.allGraphicsElement[mark])
-      : VA.legend.marks.map((mark) => VA.allGraphicsElement[mark.id]);
+      ? Object.keys(VA.allElements)
+        .filter((mark) => VA.allElements[mark].role === "Legend Mark")
+      : VA.legend.marks.map((mark) => typeof mark === "string" ? mark : mark.id);
   VA.legend.labels =
     VA.legend.labels.length === 0
-      ? Object.keys(VA.markInfo)
-        .filter((mark) => VA.markInfo[mark].Role === "Legend Label")
-        .map((mark) => VA.allGraphicsElement[mark])
-      : VA.legend.labels.map((label) => VA.allGraphicsElement[label.id]);
+      ? Object.keys(VA.allElements)
+        .filter((mark) => VA.allElements[mark].role === "Legend Label")
+      : VA.legend.labels.map((label) => typeof label === "string" ? label : label.id);
   // VA.legend.marks = VA.legend.marks.push(
   //   ...Object.keys(markInfo)
   //     .filter((mark) => markInfo[mark].Role === "Legend Mark")
