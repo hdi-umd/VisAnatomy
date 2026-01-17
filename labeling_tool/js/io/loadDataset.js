@@ -46,7 +46,7 @@ function inferDataType(values) {
  * @returns {Promise<boolean>} True if the file exists, false otherwise
  */
 async function checkCSVExists(fileName) {
-  console.log(`Checking if CSV ${fileName} exists...`);
+  //console.log(`Checking if CSV ${fileName} exists...`);
   const res = await fetch("/check_csv_exists/" + fileName);
   if (!res.ok) return false;
   const body = await res.json();

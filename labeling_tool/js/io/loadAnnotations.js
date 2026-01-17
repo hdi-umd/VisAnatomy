@@ -1,6 +1,6 @@
 function tryLoadAnnotations(filename) {
   // filename = sessionStorage.getItem("fileName");
-  console.log("loading from: " + filename);
+  //console.log("loading from: " + filename);
 
   // remove axes whose id is more than 3
   for (let thisIndex = 1; thisIndex <= 20; thisIndex++) {
@@ -17,7 +17,7 @@ function tryLoadAnnotations(filename) {
       return response.json();
     })
     .then((annotations) => {
-      console.log("annotations loading");
+      //console.log("annotations loading");
       this.users = annotations;
       VA.annotationLoaded = true;
 
@@ -69,7 +69,7 @@ function loadRefElements(annotations) {
       if (axis.attrType) {
         VA.axes[i].attrType = axis.attrType;
       }
-      console.log(`Loaded axis ${i}:`, VA.axes[i]);
+      //console.log(`Loaded axis ${i}:`, VA.axes[i]);
     });
   }
 
@@ -140,7 +140,7 @@ function loadConstraints(annotations) {
  */
 function loadTitles(annotations) {
   VA.chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
-  console.log("chartTitle: ", VA.chartTitle);
+  //console.log("chartTitle: ", VA.chartTitle);
 
   VA.titleLegend = VA.legend.title ? VA.legend.title : [];
   if (VA.titleLegend.length > 0 && typeof VA.titleLegend[0] === "string") {
@@ -174,14 +174,14 @@ function resolveElementReferences() {
  */
 function displayLoadedAxes() {
   VA.axes.forEach((axis, index) => {
-    console.log("loading axis", index, VA.axes[index]);
+    //console.log("loading axis", index, VA.axes[index]);
     // Ensure the axis div exists before trying to display it
     if (!document.getElementById(`axis_${index}`)) {
       addAxisConfiguration(index);  // Pass index to create div without initializing data
     }
     displayAxis(index);
   });
-  console.log("finish loading axes");
+  //console.log("finish loading axes");
   // Update axisCount to match the number of axes
   axisCount = VA.axes.length;
 }

@@ -127,12 +127,12 @@ function displayAxis(index) {
   const axisTypeElement = d3.select("#axisType_" + index);
   const axisTypeValue = axis.channel ? axis.channel : "x";
   if (!axisTypeElement.empty()) {
-    console.log(`Setting axisType_${index} to ${axisTypeValue}`, axis);
+    //console.log(`Setting axisType_${index} to ${axisTypeValue}`, axis);
     axisTypeElement.property("value", axisTypeValue);
     
     // Double-check it was set
     const actualValue = document.getElementById(`axisType_${index}`)?.value;
-    console.log(`Actual value after setting: ${actualValue}`);
+    //console.log(`Actual value after setting: ${actualValue}`);
   } else {
     console.warn(`Element axisType_${index} not found when trying to set value`);
   }

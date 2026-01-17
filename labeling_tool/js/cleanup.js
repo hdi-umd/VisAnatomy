@@ -151,7 +151,7 @@ function groupSVGElementsByTypeWithCoordinates() {
         ];
     }
   });
-  console.log(VA.allElements);
+  //console.log(VA.allElements);
 }
 
 function getClosestAncestorStyle(elementID, style) {

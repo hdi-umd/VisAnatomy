@@ -592,9 +592,9 @@
       sessionStorage.setItem("fileName", demo.split(".")[0]);
       await tryLoadAnnotations(demo.split(".")[0]);
 
-      console.log(`CSV Exists: ${await checkCSVExists(`${demo.split(".")[0]}.csv`)}`)
+      //console.log(`CSV Exists: ${await checkCSVExists(`${demo.split(".")[0]}.csv`)}`)
       const csvExists = await checkCSVExists(`${demo.split(".")[0]}.csv`);
-      console.log(demo, csvExists)
+      //console.log(demo, csvExists)
       if (csvExists) {
         // Load and display CSV data in the bottom drawer (no longer a separate step)
         await displayCSVData(`${demo.split(".")[0]}.csv`);
