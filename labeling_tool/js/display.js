@@ -90,7 +90,7 @@ function updateUseElementReferences(svgElement) {
 }
 
 function displayAxis(index) {
-  let axis = axes[index];
+  let axis = VA.axes[index];
 
   if (Object.keys(axis).length === 0) return;
   d3.select("#axis_" + index)
@@ -110,22 +110,32 @@ function displayAxis(index) {
 
   let labels = axis["labels"];
   let type;
-  if (axis.fieldType) {
-    type = axis.fieldType;
+  if (axis.attrType) {
+    type = axis.attrType;
   } else {
     if (labels.length === 0) {
       type = "Null";
     } else {
       type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
     }
-    axis.fieldType = type;
+    axis.attrType = type;
   }
 
   d3.select("#fieldType_" + index).property("value", type);
-  d3.select("#axisType_" + index).property(
-    "value",
-    axis.type ? axis.type : "x"
-  );
+  
+  // Set the axis type - ensure element exists first
+  const axisTypeElement = d3.select("#axisType_" + index);
+  const axisTypeValue = axis.channel ? axis.channel : "x";
+  if (!axisTypeElement.empty()) {
+    //console.log(`Setting axisType_${index} to ${axisTypeValue}`, axis);
+    axisTypeElement.property("value", axisTypeValue);
+    
+    // Double-check it was set
+    const actualValue = document.getElementById(`axisType_${index}`)?.value;
+    //console.log(`Actual value after setting: ${actualValue}`);
+  } else {
+    console.warn(`Element axisType_${index} not found when trying to set value`);
+  }
 
   labels = labels.sort((a, b) =>
     parseFloat(a.id.substring(4)) > parseFloat(b.id.substring(4)) ? 1 : -1
@@ -224,18 +234,18 @@ function displayLegend(legend) {
       .attr("id", "IDinSVG" + label["id"])
       .attr("draggable", true) //
       .style("background-color", function (d, i) {
-        if (legend.type == "continuous") {
+        if (VA.legend.type == "continuous") {
           let rgbC;
-          if (legend.colors)
-            if (legend.colors.length > 0)
-              rgbC = legend.colors[labels.indexOf(label)];
-          return !legend.colors
+          if (VA.legend.colors)
+            if (VA.legend.colors.length > 0)
+              rgbC = VA.legend.colors[labels.indexOf(label)];
+          return !VA.legend.colors
             ? "#f2f2f2"
-            : legend.colors.length == 0
+            : VA.legend.colors.length == 0
             ? "#f2f2f2"
             : ConvertRGBtoHex(rgbC[0], rgbC[1], rgbC[2]);
         } else {
-          return legend.mapping[d.content];
+          return VA.legend.mapping[d.content];
         }
       })
       .text(label["content"])
@@ -244,7 +254,7 @@ function displayLegend(legend) {
 }
 
 function displayAxisTitle(thisText, axisIndex, mode) {
-  let axis = axes[axisIndex];
+  let axis = VA.axes[axisIndex];
 
   if (mode === "delete") {
     let index = axis.title.indexOf(thisText);
@@ -289,8 +299,8 @@ function displayTitleLegendLabel(thisText, mode) {
       .remove();
     return;
   } else {
-    if (titleLegend.includes(thisText)) return;
-    else titleLegend.push(thisText);
+    if (VA.titleLegend.includes(thisText)) return;
+    else VA.titleLegend.push(thisText);
   }
 
   let text = thisText["content"];
@@ -321,14 +331,14 @@ function displayTitleLegendLabel(thisText, mode) {
 
 function displayChartTitle(thisText, mode) {
   if (mode === "delete") {
-    chartTitle.splice(chartTitle.indexOf(thisText), 1);
+    VA.chartTitle.splice(VA.chartTitle.indexOf(thisText), 1);
   } else {
-    if (!chartTitle.includes(thisText)) chartTitle.push(thisText);
+    if (!VA.chartTitle.includes(thisText)) VA.chartTitle.push(thisText);
   }
 
   d3.select("#chartTitle").selectAll("button").remove();
 
-  for (let thisTitle of chartTitle) {
+  for (let thisTitle of VA.chartTitle) {
     let btn = d3
       .select("#chartTitle")
       .append("button")
@@ -361,7 +371,7 @@ function displayTitles(chartTitle, legendTitle) {
       .selectAll("button")
       .remove();
     for (let title of allTitles[["chartTitle", "legendTitle"].indexOf(id)].map(
-      (e) => (typeof e === "string" ? allGraphicsElement[e] : e)
+      (e) => (typeof e === "string" ? VA.allElements[e] : e)
     )) {
       let btn = d3
         .select("#" + id)
@@ -405,8 +415,8 @@ function setViewBox() {
   // svgString = setCorrectViewBox(svgString);
   // document.getElementById("vis").outerHTML = svgString;
 
-  if (legend.type === "continuous") {
-    let legendBar = legend.marks[0];
+  if (VA.legend.type === "continuous") {
+    let legendBar = VA.legend.marks[0];
     let pos = document.getElementById(legendBar.id).getBoundingClientRect();
     let rbox1Pos = document.getElementById("rbox1").getBoundingClientRect();
     // console.log(rbox1Pos);
@@ -466,13 +476,13 @@ function setViewBox() {
       // console.log("Hidden position of the legend bar: ", hiddenLeft, hiddenTop, hiddenWidth, hiddenHeight)
 
       let colors = [];
-      let tickPos = legend.ticks.map((tickid) =>
+      let tickPos = VA.legend.ticks.map((tickid) =>
         document.getElementById(tickid).getBoundingClientRect()
       );
-      let labelPos = legend.labels.map((label) =>
+      let labelPos = VA.legend.labels.map((label) =>
         document.getElementById(label.id).getBoundingClientRect()
       );
-      switch (legend.orientation) {
+      switch (VA.legend.orientation) {
         case "horz":
           if (labelPos.length > 0) {
             for (let aLabel of labelPos) {
@@ -567,15 +577,15 @@ function setViewBox() {
           }
           break;
       }
-      legend.colors = colors; //colors.map(rgbC => ConvertRGBtoHex(rgbC[0], rgbC[1], rgbC[2]));
-      displayLegend(legend);
+      VA.legend.colors = colors; //colors.map(rgbC => ConvertRGBtoHex(rgbC[0], rgbC[1], rgbC[2]));
+      displayLegend(VA.legend);
       d3.select("canvas").remove();
     });
   }
 }
 
 function getViewBox() {
-  let allBBoxes = Object.values(allGraphicsElement);
+  let allBBoxes = Object.values(VA.allElements);
   return {
     left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
     top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
@@ -644,3 +654,6 @@ function getBoundingBox(node) {
       };
   }
 }
+
+
+

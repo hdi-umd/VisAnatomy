@@ -3,7 +3,7 @@ var undoStack = [],
 var btnCheck = {};
 
 function addAxisLevel(t) {
-  let axis = t === "x" ? xAxis : yAxis;
+  let axis = t === "x" ? VA.xAxis : VA.yAxis;
   if (!axis) return;
   if (!("upperLevels" in axis)) {
     axis["upperLevels"] = [];
@@ -30,16 +30,28 @@ function addAxisLevel(t) {
 
 function legendFieldTypeChanged() {
   let val = d3.select("#legendFieldType").property("value");
-  legend.fieldType = val;
+  VA.legend.attrType = val;
   if (val == "Null") {
-    let labels = legend.labels.map((d) => d);
+    let labels = VA.legend.labels.map((d) => d);
     for (let l of labels) {
       removeLegendLabel(l);
     }
-    legend.ticks = [];
-    legend.marks = [];
-    legend.mapping = {};
-    displayLegend(legend);
+    VA.legend.ticks = [];
+    VA.legend.marks = [];
+    VA.legend.mapping = {};
+    displayLegend(VA.legend);
+    
+    // Hide column dropdown when field type is Null
+    const columnSelect = document.getElementById('legendColumnSelect');
+    if (columnSelect) {
+      columnSelect.style.display = 'none';
+    }
+  } else {
+    // Show column dropdown when field type is not Null and CSV columns are available
+    const columnSelect = document.getElementById('legendColumnSelect');
+    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
+      columnSelect.style.display = 'inline-block';
+    }
   }
 }
 
@@ -47,27 +59,39 @@ function fieldTypeChanged(index) {
   let val = d3.select("#fieldType_" + index).property("value");
   index = parseInt(index);
   if (val == "Null") {
-    let labels = [...axes[index].labels];
+    let labels = [...VA.axes[index].labels];
     for (let l of labels) {
       removeAxisLabel("axisLabel_" + index, l);
     }
-    axes[index] = {
+    VA.axes[index] = {
       labels: [],
-      fieldType: "Null",
+      attrType: "Null",
       title: [],
-      type: "x",
+      channel: "x",
       ticks: [],
       path: [],
     };
+    
+    // Hide column dropdown when field type is Null
+    const columnSelect = document.getElementById(`columnSelect_${index}`);
+    if (columnSelect) {
+      columnSelect.style.display = 'none';
+    }
+  } else {
+    // Show column dropdown when field type is not Null and CSV columns are available
+    const columnSelect = document.getElementById(`columnSelect_${index}`);
+    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
+      columnSelect.style.display = 'inline-block';
+    }
   }
 
-  axes[index].fieldType = val;
+  VA.axes[index].attrType = val;
   displayAxis(index);
 }
 
 function axisTypeChanged(index) {
   let val = d3.select("#axisType_" + index).property("value");
-  axes[index].type = val;
+  VA.axes[index].channel = val;
   displayAxis(index);
 }
 
@@ -117,21 +141,21 @@ function enableAreaSelection() {
         const topLeft = clientPt2SVGPt(left, top),
           btmRight = clientPt2SVGPt(right, btm);
         if (areaSelection == "legend") {
-          findLegendInArea(topLeft, btmRight, groupedGraphicsElement.texts);
+          findLegendInArea(topLeft, btmRight, VA.groupedGraphicsElement.texts);
         } else {
           findAxisInArea(
             areaSelection,
             topLeft,
             btmRight,
-            groupedGraphicsElement.texts
+            VA.groupedGraphicsElement.texts
           );
         }
 
-        Object.keys(axes).forEach((k) => {
+        Object.keys(VA.axes).forEach((k) => {
           let index = parseInt(k);
           displayAxis(index);
         });
-        displayLegend(legend);
+        displayLegend(VA.legend);
         deactivateAreaSelect();
       }
       clickHold = false;
@@ -153,13 +177,13 @@ function deactivateAreaSelect() {
 }
 
 function save() {
-  xAxis["fieldType"] = d3.select("#xFieldType").property("value");
-  yAxis["fieldType"] = d3.select("#yFieldType").property("value");
-  legend["fieldType"] = d3.select("#legendFieldType").property("value");
+  VA.xAxis["fieldType"] = d3.select("#xFieldType").property("value");
+  VA.yAxis["fieldType"] = d3.select("#yFieldType").property("value");
+  VA.legend["fieldType"] = d3.select("#legendFieldType").property("value");
   let result = {
-    xAxis: xAxis,
-    yAxis: yAxis,
-    legend: legend,
+    xAxis: VA.xAxis,
+    yAxis: VA.yAxis,
+    legend: VA.legend,
   };
   var file = new Blob([JSON.stringify(result)], { type: "json" });
   if (window.navigator.msSaveOrOpenBlob)
@@ -183,14 +207,14 @@ function save() {
 function undo() {
   if (undoStack.length > 0) {
     let h = undoStack.pop();
-    xAxis = h["xAxis"];
-    yAxis = h["yAxis"];
-    legend = h["legend"];
+    VA.xAxis = h["xAxis"];
+    VA.yAxis = h["yAxis"];
+    VA.legend = h["legend"];
     btnCheck = h["btnCheck"];
     redoStack.unshift(h);
-    displayAxis(xAxis);
-    displayAxis(yAxis);
-    displayLegend(legend);
+    displayAxis(VA.xAxis);
+    displayAxis(VA.yAxis);
+    displayLegend(VA.legend);
   }
 }
 
@@ -224,7 +248,7 @@ function drop(ev) {
     console.log("dropping into title boxes");
     if (draggedFromID.startsWith("axisLabel")) {
       console.log("dropping from axis label to title boxes");
-      let thisAxis = axes[draggedFromID.split("_")[1]];
+      let thisAxis = VA.axes[draggedFromID.split("_")[1]];
       if (thisAxis["labels"].indexOf(thisText) >= 0) {
         thisAxis["labels"].splice(thisAxis["labels"].indexOf(thisText), 1);
       }
@@ -257,7 +281,7 @@ function drop(ev) {
           break;
       }
 
-      Object.keys(axes).forEach((k) => {
+      Object.keys(VA.axes).forEach((k) => {
         let index = parseInt(k);
         displayAxis(index);
       });
@@ -276,14 +300,14 @@ function drop(ev) {
       switch (sourceTitle) {
         case "axis":
           let thisIndex = draggedFromID.split("_")[1];
-          axes[thisIndex].title.splice(
-            axes[thisIndex].title.indexOf(thisText),
+          VA.axes[thisIndex].title.splice(
+            VA.axes[thisIndex].title.indexOf(thisText),
             1
           );
           displayAxisTitle(thisText, thisIndex, "delete");
           break;
         case "legend":
-          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          VA.titleLegend.splice(VA.titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
           break;
         case "chart":
@@ -333,21 +357,21 @@ function drop(ev) {
           break;
         case "axis":
           let thisIndex = draggedFromID.split("_")[1];
-          axes[thisIndex].title.splice(
-            axes[thisIndex].title.indexOf(thisText),
+          VA.axes[thisIndex].title.splice(
+            VA.axes[thisIndex].title.indexOf(thisText),
             1
           );
           displayAxisTitle(thisText, draggedFromID.split("_")[1], "delete");
           break;
         case "legend":
-          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          VA.titleLegend.splice(VA.titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
           break;
       }
 
-      axes[draggedToID.split("_")[1]]["labels"].push(thisText); // TBD: need to handle upper levels [IMPORTANT]
+      VA.axes[draggedToID.split("_")[1]]["labels"].push(thisText); // TBD: need to handle upper levels [IMPORTANT]
 
-      Object.keys(axes).forEach((k) => {
+      Object.keys(VA.axes).forEach((k) => {
         let index = parseInt(k);
         displayAxis(index);
       });
@@ -355,7 +379,7 @@ function drop(ev) {
     if (draggedFromID.startsWith("axisLabel")) {
       console.log("dropping from axis label to axis label");
       moveAxisLabel(draggedFromID, draggedToID, d3.select("#" + data).datum());
-      Object.keys(axes).forEach((k) => {
+      Object.keys(VA.axes).forEach((k) => {
         let index = parseInt(k);
         displayAxis(index);
       });
@@ -365,13 +389,13 @@ function drop(ev) {
     if (draggedFromID.startsWith("axisLabel")) {
       console.log("dropping from axis label to other regions");
       removeAxisLabel(draggedFromID, d3.select("#" + data).datum());
-      Object.keys(axes).forEach((k) => {
+      Object.keys(VA.axes).forEach((k) => {
         let index = parseInt(k);
         displayAxis(index);
       });
     } else if (draggedFromID == "legendLabels") {
       removeLegendLabel(d3.select("#" + data).datum());
-      displayLegend(legend);
+      displayLegend(VA.legend);
     } else if (
       draggedFromID.startsWith("axisTitle") ||
       draggedFromID.startsWith("legendTitle")
@@ -383,19 +407,19 @@ function drop(ev) {
       switch (thisTitle) {
         case "axis":
           let thisIndex = draggedFromID.split("_")[1];
-          axes[thisIndex].title.splice(
-            axes[thisIndex].title.indexOf(thisText),
+          VA.axes[thisIndex].title.splice(
+            VA.axes[thisIndex].title.indexOf(thisText),
             1
           );
           displayAxisTitle(thisText, thisIndex, "delete");
           break;
         case "legend":
-          titleLegend.splice(titleLegend.indexOf(thisText), 1);
+          VA.titleLegend.splice(VA.titleLegend.indexOf(thisText), 1);
           displayTitleLegendLabel(thisText, "delete");
           break;
       }
     } else if (draggedFromID.startsWith("chartTitle")) {
-      chartTitle.splice(chartTitle.indexOf(thisText), 1);
+      VA.chartTitle.splice(VA.chartTitle.indexOf(thisText), 1);
       displayChartTitle(thisText, "delete");
     }
     ev.stopImmediatePropagation();
@@ -403,40 +427,40 @@ function drop(ev) {
 }
 
 function addAxisLabel(TargetID, text) {
-  Object.keys(axes).forEach((k) => {
+  Object.keys(VA.axes).forEach((k) => {
     let index = parseInt(k);
-    if (axes[index]["labels"].indexOf(text) >= 0) {
-      axes[index]["labels"].splice(axes[index]["labels"].indexOf(text), 1);
+    if (VA.axes[index]["labels"].indexOf(text) >= 0) {
+      VA.axes[index]["labels"].splice(VA.axes[index]["labels"].indexOf(text), 1);
     }
   });
-  axes[TargetID.split("_")[1]]["labels"].push(text);
-  Object.keys(axes).forEach((k) => {
+  VA.axes[TargetID.split("_")[1]]["labels"].push(text);
+  Object.keys(VA.axes).forEach((k) => {
     let index = parseInt(k);
     displayAxis(index);
   });
-  allGraphicsElement[text.id].isReferenceElement = true;
+  VA.allElements[text.id].isReferenceElement = true;
 }
 
 function addLegendLabel(text) {
-  if (legend["labels"].indexOf(text) < 0) legend["labels"].push(text);
-  allGraphicsElement[text.id].isReferenceElement = true;
+  if (VA.legend["labels"].indexOf(text) < 0) VA.legend["labels"].push(text);
+  VA.allElements[text.id].isReferenceElement = true;
 }
 
 function moveAxisLabel(fromID, toID, text) {
   let from = fromID.split("_")[1],
     to = toID.split("_")[1];
-  if (axes[from]["labels"].indexOf(text) >= 0) {
-    axes[from]["labels"].splice(axes[from]["labels"].indexOf(text), 1);
+  if (VA.axes[from]["labels"].indexOf(text) >= 0) {
+    VA.axes[from]["labels"].splice(VA.axes[from]["labels"].indexOf(text), 1);
   } else if (from.upperLevels) {
     for (let level of from.upperLevels) {
       if (level.indexOf(text) >= 0) level.splice(level.indexOf(text), 1);
     }
   }
-  if (axes[to]["labels"].indexOf(text) < 0) axes[to]["labels"].push(text);
+  if (VA.axes[to]["labels"].indexOf(text) < 0) VA.axes[to]["labels"].push(text);
 }
 
 function removeAxisLabel(fromID, text) {
-  let axis = axes[fromID.split("_")[1]];
+  let axis = VA.axes[fromID.split("_")[1]];
   if (axis["labels"].indexOf(text) >= 0) {
     axis["labels"].splice(axis["labels"].indexOf(text), 1);
   } else if (axis.upperLevels) {
@@ -444,14 +468,14 @@ function removeAxisLabel(fromID, text) {
       if (level.indexOf(text) >= 0) level.splice(level.indexOf(text), 1);
     }
   }
-  allGraphicsElement[text.id].isReferenceElement = false;
+  VA.allElements[text.id].isReferenceElement = false;
 }
 
 function removeLegendLabel(text) {
-  if (legend["labels"].indexOf(text) >= 0) {
-    legend["labels"].splice(legend["labels"].indexOf(text), 1);
+  if (VA.legend["labels"].indexOf(text) >= 0) {
+    VA.legend["labels"].splice(VA.legend["labels"].indexOf(text), 1);
   }
-  allGraphicsElement[text.id].isReferenceElement = false;
+  VA.allElements[text.id].isReferenceElement = false;
 }
 
 function enableDragDrop(texts) {
@@ -513,11 +537,11 @@ function enableDragDrop(texts) {
         if (e.tagName !== "DIV") continue;
         if (e.id == "legendLabels") {
           addLegendLabel(thisText);
-          displayLegend(legend);
+          displayLegend(VA.legend);
         } else if (e.id.startsWith("axisLabel")) {
           TargetID = e.id;
           addAxisLabel(TargetID, thisText);
-          Object.keys(axes).forEach((k) => {
+          Object.keys(VA.axes).forEach((k) => {
             let index = parseInt(k);
             displayAxis(index);
           });
@@ -587,17 +611,17 @@ function enableDragDrop(texts) {
         } else if (e.id.startsWith("legendTitle")) {
           //check if the dragged element is present in the axis labels
           //and remove it from the label if present
-          Object.keys(axes).forEach((k) => {
+          Object.keys(VA.axes).forEach((k) => {
             let index = parseInt(k);
-            if (axes[index]["labels"].indexOf(thisText) >= 0) {
-              axes[index]["labels"].splice(
-                axes[index]["labels"].indexOf(thisText),
+            if (VA.axes[index]["labels"].indexOf(thisText) >= 0) {
+              VA.axes[index]["labels"].splice(
+                VA.axes[index]["labels"].indexOf(thisText),
                 1
               );
             }
-            if (axes[index]["title"].indexOf(thisText) >= 0) {
-              axes[index]["title"].splice(
-                axes[index]["title"].indexOf(thisText),
+            if (VA.axes[index]["title"].indexOf(thisText) >= 0) {
+              VA.axes[index]["title"].splice(
+                VA.axes[index]["title"].indexOf(thisText),
                 1
               );
             }
@@ -606,10 +630,10 @@ function enableDragDrop(texts) {
           //check if the dragged element is present in the legend label
           //and remove it from the label if present
 
-          for (let i = 0; i < legend["labels"].length; i++) {
-            if (legend["labels"][i]["content"] === thisText["content"]) {
-              legend["labels"].splice(i, 1);
-              displayLegend(legend);
+          for (let i = 0; i < VA.legend["labels"].length; i++) {
+            if (VA.legend["labels"][i]["content"] === thisText["content"]) {
+              VA.legend["labels"].splice(i, 1);
+              displayLegend(VA.legend);
               break;
             }
           }
@@ -621,17 +645,17 @@ function enableDragDrop(texts) {
         else if (e.id.startsWith("axisTitle")) {
           //check if the dragged element is present in the axis label
           //and remove it from the label if present
-          Object.keys(axes).forEach((k) => {
+          Object.keys(VA.axes).forEach((k) => {
             let index = parseInt(k);
-            if (axes[index]["labels"].indexOf(thisText) >= 0) {
-              axes[index]["labels"].splice(
-                axes[index]["labels"].indexOf(thisText),
+            if (VA.axes[index]["labels"].indexOf(thisText) >= 0) {
+              VA.axes[index]["labels"].splice(
+                VA.axes[index]["labels"].indexOf(thisText),
                 1
               );
             }
-            if (axes[index]["title"].indexOf(thisText) >= 0) {
-              axes[index]["title"].splice(
-                axes[index]["title"].indexOf(thisText),
+            if (VA.axes[index]["title"].indexOf(thisText) >= 0) {
+              VA.axes[index]["title"].splice(
+                VA.axes[index]["title"].indexOf(thisText),
                 1
               );
             }
@@ -640,10 +664,10 @@ function enableDragDrop(texts) {
           //check if the dragged element is present in the legend label
           //and remove it from the label if present
 
-          for (let i = 0; i < legend["labels"].length; i++) {
-            if (legend["labels"][i]["content"] === thisText["content"]) {
-              legend["labels"].splice(i, 1);
-              displayLegend(legend);
+          for (let i = 0; i < VA.legend["labels"].length; i++) {
+            if (VA.legend["labels"][i]["content"] === thisText["content"]) {
+              VA.legend["labels"].splice(i, 1);
+              displayLegend(VA.legend);
               break;
             }
           }

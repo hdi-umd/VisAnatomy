@@ -70,7 +70,18 @@ function groupSVGElementsByTypeWithCoordinates() {
     let zeroWidth = element.attributes.width?.value === "0";
     let zeroHeight = element.attributes.height?.value === "0";
     if (!(zeroHeight && zeroWidth) && top > -4000 && left > -4000) {
-      allGraphicsElement[element.id] = {
+      // Store original values from annotation file before overwriting with live bounding box
+      const existing = VA.allElements[element.id];
+      const originalValues = {};
+      ['left', 'top', 'right', 'bottom', 'height', 'width'].forEach(prop => {
+        if (existing?.[prop] !== undefined) originalValues[prop] = existing[prop];
+      });
+      
+      // Merge with existing element to preserve annotation data (type, role, etc.)
+      // Overwrite position/size with live bounding box for runtime operations
+      VA.allElements[element.id] = {
+        ...VA.allElements[element.id], // Preserve existing annotation data
+        originalValues, // Preserve original coordinates from annotation file
         left: left,
         top: top,
         right: right,
@@ -95,8 +106,9 @@ function groupSVGElementsByTypeWithCoordinates() {
         strokeWidth: element.attributes["stroke-width"]? element.attributes["stroke-width"].value : 
         element.style["stroke-width"] ? element.style["stroke-width"] : getClosestAncestorStyle(element.id, "stroke-width"),
       };
-      if (Object.keys(groupedGraphicsElement).includes(element.tagName + "s"))
-        groupedGraphicsElement[element.tagName + "s"].push({
+      
+      if (Object.keys(VA.groupedGraphicsElement).includes(element.tagName + "s"))
+        VA.groupedGraphicsElement[element.tagName + "s"].push({
           left: left,
           top: top,
           right: right,
@@ -116,7 +128,7 @@ function groupSVGElementsByTypeWithCoordinates() {
               ).getAttribute("fill"),
         });
       else
-        groupedGraphicsElement[element.tagName + "s"] = [
+        VA.groupedGraphicsElement[element.tagName + "s"] = [
           {
             left: left,
             top: top,
@@ -139,7 +151,7 @@ function groupSVGElementsByTypeWithCoordinates() {
         ];
     }
   });
-  console.log(allGraphicsElement);
+  //console.log(VA.allElements);
 }
 
 function getClosestAncestorStyle(elementID, style) {
@@ -155,21 +167,21 @@ function getClosestAncestorStyle(elementID, style) {
 
 function groupSVGElementsByType() {
   referenceElements = [
-    ...(legend.labels ? legend.labels : []),
-    ...(legend.marks ? legend.marks : []),
-    ...Object.keys(axes)
-      .map((key) => (axes[key].labels ? axes[key].labels : []))
+    ...(VA.legend.labels ? VA.legend.labels : []),
+    ...(VA.legend.marks ? VA.legend.marks : []),
+    ...VA.axes
+      .map((axis) => (axis && axis.labels ? axis.labels : []))
       .flat(),
-    ...Object.keys(axes)
-      .map((key) => (axes[key].title ? axes[key].title : []))
+    ...VA.axes
+      .map((axis) => (axis && axis.title ? axis.title : []))
       .flat(),
-    ...Object.keys(axes)
-      .map((key) =>
-        axes[key].upperLevels ? axes[key].upperLevels.flat(Infinity) : []
+    ...VA.axes
+      .map((axis) =>
+        axis && axis.upperLevels ? axis.upperLevels.flat(Infinity) : []
       )
       .flat(),
-    ...chartTitle,
-    ...titleLegend,
+    ...VA.chartTitle,
+    ...VA.titleLegend,
   ]
     .filter((e) => e !== null)
     .map((element) => element.id);

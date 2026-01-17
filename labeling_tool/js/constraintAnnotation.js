@@ -4,9 +4,9 @@ var groupMarkCorrespondence = {};
 function initilizeConstraintAnnotation() {
   // first filter out texts whose mark role is not Main Chart Mark or isReferenceElement is false
   groupMarkCorrespondence = {};
-  availableTexts = Object.values(allGraphicsElement).filter(function (d) {
+  availableTexts = Object.values(VA.allElements).filter(function (d) {
     return d.tagName === "text" && !referenceElements.includes(d.id)
-      ? markInfo[d.id]?.Role !== "Main Chart Mark"
+      ? VA.allElements[d.id]?.role !== "Main Chart Mark"
       : false;
   });
   enableDD4AnnotationRoleText();
@@ -14,12 +14,17 @@ function initilizeConstraintAnnotation() {
   // create a list that looks like the list in the encoding annotation without the click events
   document.getElementById("ConstraintAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
-  document
-    .getElementById("ConstraintAnnotation")
-    .appendChild(createList3(convertToJSON2(nestedGrouping[0])));
+  if (VA.grouping.length > 0) {
+    // Display all top-level groups
+    VA.grouping.forEach(group => {
+      document
+        .getElementById("ConstraintAnnotation")
+        .appendChild(createList3(group));
+    });
+  }
 
   document.getElementById("pairingStructure").innerHTML = JSON.stringify(
-    textObjectLinking ? textObjectLinking : {},
+    VA.textObjectLinking ? VA.textObjectLinking : {},
     null,
     2
   );
@@ -41,17 +46,20 @@ function createList3(item) {
   const content = document.createElement("span");
   content.textContent = "Group " + item.id;
   content.id = "conPage_" + content.textContent;
-  groupMarkCorrespondence[content.id] = item.marks;
+  
+  // Get marks for this group (recursively if it has nested children)
+  let marks = getGroupMarks(item.id);
+  groupMarkCorrespondence[content.id] = marks;
 
   d3.select(content)
     .on("mouseover", function () {
       d3.select(this).style("cursor", "pointer");
-      item.marks.forEach((mark) => {
+      marks.forEach((mark) => {
         d3.select("#" + mark).style("opacity", "1");
       });
     })
     .on("mouseout", function () {
-      item.marks.forEach((mark) => {
+      marks.forEach((mark) => {
         d3.select("#" + mark).style("opacity", "0.3");
       });
     })
@@ -63,31 +71,35 @@ function createList3(item) {
   childrenContainer.style.paddingLeft = "40px"; // Indent child lists
   childrenContainer.style.marginTop = "5px";
 
-  if (item.children && item.children !== "none") {
-    item.children.forEach((child) => {
-      const childElement = createList3(child);
-      const listItem = document.createElement("li");
-      listItem.appendChild(childElement);
-      childrenContainer.appendChild(listItem);
-    });
-  } else {
-    // For lowest level items, display individual marks as foldable but non-expandable
-    item.marks.forEach((mark) => {
-      const markItem = document.createElement("li");
-      markItem.textContent = mark.split(" ")[0];
-      markItem.id = "conPage_" + markItem.textContent;
-      groupMarkCorrespondence[markItem.id] = [mark];
-      d3.select(markItem)
-        .on("mouseover", function () {
-          d3.select(this).style("cursor", "pointer");
-          d3.select("#" + mark).style("opacity", "1");
-        })
-        .on("mouseout", function () {
-          d3.select("#" + mark).style("opacity", "0.3");
-        })
-        .on("click", function () {});
-      childrenContainer.appendChild(markItem);
-    });
+  if (item.children && Array.isArray(item.children) && item.children.length > 0) {
+    // Check if children are objects (nested groups) or strings (mark IDs)
+    if (typeof item.children[0] === 'object') {
+      // Nested groups
+      item.children.forEach((child) => {
+        const childElement = createList3(child);
+        const listItem = document.createElement("li");
+        listItem.appendChild(childElement);
+        childrenContainer.appendChild(listItem);
+      });
+    } else {
+      // Leaf group - children are mark IDs
+      item.children.forEach((mark) => {
+        const markItem = document.createElement("li");
+        markItem.textContent = mark.split(" ")[0];
+        markItem.id = "conPage_" + markItem.textContent;
+        groupMarkCorrespondence[markItem.id] = [mark];
+        d3.select(markItem)
+          .on("mouseover", function () {
+            d3.select(this).style("cursor", "pointer");
+            d3.select("#" + mark).style("opacity", "1");
+          })
+          .on("mouseout", function () {
+            d3.select("#" + mark).style("opacity", "0.3");
+          })
+          .on("click", function () {});
+        childrenContainer.appendChild(markItem);
+      });
+    }
   }
 
   container.appendChild(childrenContainer);
@@ -187,13 +199,13 @@ function enableDD4AnnotationRoleText() {
       document.getElementById("droppingObject").innerHTML = "";
       document.getElementById("draggingText").innerHTML = "";
       if (element) {
-        textObjectLinking[element.id.split("_")[1]] = [
+        VA.textObjectLinking[element.id.split("_")[1]] = [
           availableTexts.filter((t) => t["id"] == current.attr("id"))[0].id,
         ];
       }
       // display textObjectLinking in pretty JSON format in pairingStructure DIV
       document.getElementById("pairingStructure").innerHTML = JSON.stringify(
-        textObjectLinking,
+        VA.textObjectLinking,
         null,
         2
       );
@@ -207,7 +219,7 @@ function enableDD4AnnotationRoleText() {
       })
       .on("mouseout", function () {
         d3.select(this)
-          .style("fill", markInfo[textID]?.fill || "black")
+          .style("fill", VA.allElements[textID]?.fill || "black")
           .style("font-weight", "normal");
       });
     dragHandler2(d3.select("#" + textID));

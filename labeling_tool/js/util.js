@@ -1,340 +1,151 @@
+// Create global namespace
+var VA = VA || {};
+
 function initilizeVariables() {
-  groupedGraphicsElement = {};
-  allGraphicsElement = {};
-  annotations = {};
-  xAxis = {};
-  yAxis = {};
-  axes = {
-    1: { labels: [], fieldType: "Null", title: [], ticks: [], type: "x" },
-    2: { labels: [], fieldType: "Null", title: [], ticks: [], type: "y" },
+  VA.groupedGraphicsElement = {};
+  VA.allElements = {};
+  VA.annotations = {};
+  VA.xAxis = {};
+  VA.yAxis = {};
+  VA.axes = [];
+  VA.legend = {};
+  VA.xGridlines = [];
+  VA.yGridlines = [];
+  VA.chartTitle = [];
+  VA.titleLegend = [];
+  VA.titleXaxis = [];
+  VA.titleYaxis = [];
+  VA.annotationLoaded = false;
+  VA.grouping = []; // hierarchical grouping structure with embedded layouts
+  VA.marksHaveGroupAnnotation = [];
+  VA.objectEncodings = {};
+  VA.textObjectLinking = {};
+}
+
+/**
+ * Add a new leaf group to the grouping structure
+ * @param {Array<string>} markIds - Array of mark IDs for this group
+ * @param {Object} layout - Optional layout object
+ * @returns {string} The ID of the newly created group
+ */
+function addLeafGroup(markIds, layout = null) {
+  const groupId = `g${VA.grouping.length}`;
+  const newGroup = {
+    id: groupId,
+    children: markIds,
+    layout: layout || { type: "Glyph", params: {} }
   };
-  legend = {};
-  xGridlines = [];
-  yGridlines = [];
-  markInfo = {};
-  chartTitle = [];
-  titleLegend = [];
-  titleXaxis = [];
-  titleYaxis = [];
-  annotationLoaded = false;
-  nestedGrouping = [];
-  groupAnnotations = [];
-  marksHaveGroupAnnotation = [];
-  groupLayouts = {};
-  objectEncodings = {};
-  textObjectLinking = {};
+  VA.grouping.push(newGroup);
+  return groupId;
 }
 
-function tryLoadAnnotations(filename) {
-  // filename = sessionStorage.getItem("fileName");
-  console.log("loading from: " + filename);
-
-  // remove axes whose id is more than 3
-  for (let thisIndex = 1; thisIndex <= 20; thisIndex++) {
-    d3.select("#axis_" + thisIndex).remove();
-  }
-  axisCount = 0;
-
-  fetch("../annotations/" + filename + ".json")
-    .then((response) => {
-      if (!response.ok) {
-        console.log("no annotation file found");
-
-        // throw new Error("HTTP error " + response.status);
-      }
-      return response.json();
-    })
-    .then((annotations) => {
-      console.log("annotations loading");
-      this.users = annotations;
-      annotationLoaded = true;
-
-      allGraphicsElement = annotations.allElements ? annotations.allElements : {};
-      groupedGraphicsElement = {};
-
-      // Load all axes, not just x/y
-      axes = {};
-      if (
-        annotations.referenceElements &&
-        Array.isArray(annotations.referenceElements.axes)
-      ) {
-        annotations.referenceElements.axes.forEach((axis, i) => {
-          axes[i + 1] = axis;
-          axes[i + 1].type = axis.type || axis.channel || "x";
-        });
-      }
-
-      legend = annotations.referenceElements && annotations.referenceElements.legend
-        ? annotations.referenceElements.legend
-        : {};
-
-      xGridlines =
-        annotations.referenceElements &&
-        annotations.referenceElements.gridlines &&
-        annotations.referenceElements.gridlines.x
-          ? annotations.referenceElements.gridlines.x
-          : [];
-
-      yGridlines =
-        annotations.referenceElements &&
-        annotations.referenceElements.gridlines &&
-        annotations.referenceElements.gridlines.y
-          ? annotations.referenceElements.gridlines.y
-          : [];
-
-      markInfo = {};
-      Object.keys(allGraphicsElement).forEach((id) => {
-        const element = allGraphicsElement[id];
-        markInfo[id] = {
-          Type: element.type || "none",
-          Role: element.role || "none"
-        };
-      });
-
-      groupAnnotations = [];
-      nestedGrouping = [];
-      groupLayouts = {};
-
-            function buildTree(node) {
-        if (!node) return null;
-        if (Array.isArray(node)) {
-          // array of top-level nodes -> map each child
-          return node.map((child) => buildTree(child)).filter((c) => c !== null);
-        }
-        if (typeof node !== "object" || !node.children) return null;
-
-        // If this node is a leaf group (children are mark IDs)
-        if (node.children.length > 0 && typeof node.children[0] === "string") {
-          const leafIdx = groupAnnotations.length;
-          groupAnnotations.push(node.children.slice()); // copy mark IDs
-          // store leaf layout, default to Glyph when missing
-          groupLayouts[leafIdx] = node.layout && node.layout.type
-            ? node.layout
-            : { type: "Glyph", params: {} };
-
-          // If node has an explicit id like "g3", also map that numeric suffix (defensive)
-          if (node.id && typeof node.id === "string") {
-            const m = node.id.match(/(\d+)$/);
-            if (m) groupLayouts[parseInt(m[1], 10)] = groupLayouts[leafIdx];
-          }
-          return leafIdx;
-        }
-
-        // Internal group: recursively build children
-        const children = node.children
-          .map((child) => buildTree(child))
-          .filter((c) => c !== null);
-        // if node has explicit id like "g5", record its numeric layout (default Grid)
-        if (node.id && typeof node.id === "string") {
-          const m = node.id.match(/(\d+)$/);
-          if (m) {
-            groupLayouts[parseInt(m[1], 10)] =
-              node.layout && node.layout.type
-                ? node.layout
-                : { type: "Grid", params: {} };
-          }
-        }
-        return children;
-      }
-
-      // Build top-level structure and set nestedGrouping[0] so layout UI reads it
-      if (annotations.grouping && annotations.grouping.length > 0) {
-        const topStructure =
-          annotations.grouping.length === 1
-            ? buildTree(annotations.grouping[0])
-            : buildTree(annotations.grouping);
-        // nestedGrouping used by UI: put topStructure at index 0
-        nestedGrouping = [topStructure];
-      } else {
-        // fallback: if no grouping, make each mark its own group (preserve old behavior)
-        nestedGrouping = groupAnnotations.length
-          ? [groupAnnotations.map((_, i) => i)]
-          : [];
-      }
-
-      // // Traverse grouping and ensure root group layout is at index 0
-      // function traverseGrouping(node, parentIdx = null) {
-      //   // node can be an array or an object with children
-      //   if (Array.isArray(node)) {
-      //     node.forEach((child) => traverseGrouping(child, parentIdx));
-      //     return;
-      //   }
-      //   if (!node || typeof node !== "object" || !node.children) return;
-
-      //     // Prefer numeric index derived from node.id (e.g., "g5" -> 5)
-      //     let thisIdx = null;
-      //     if (node.id && typeof node.id === "string") {
-      //       const m = node.id.match(/(\d+)$/);
-      //       if (m) thisIdx = parseInt(m[1], 10);
-      //   }
-
-      //   // fallback: find the next available numeric index
-      //   if (thisIdx === null) {
-      //     thisIdx = 0;
-      //     while (
-      //       typeof nestedGrouping[thisIdx] !== "undefined" ||
-      //       typeof groupLayouts[thisIdx] !== "undefined" ||
-      //       typeof groupAnnotations[thisIdx] !== "undefined"
-      //     ) {
-      //     thisIdx++;
-      //     } 
-      //   }
-
-      //   // ensure arrays exist at thisIdx
-      //   if (!nestedGrouping[thisIdx]) nestedGrouping[thisIdx] = [];
-
-      //   // leaf group: children are element ids (strings)
-      //   if (typeof node.children[0] === "string") {
-      //     groupAnnotations[thisIdx] = node.children.slice();
-      //     groupLayouts[thisIdx] =
-      //     node.layout && node.layout.type ? node.layout : { type: "Glyph", params: {} };
-
-      //     if (parentIdx !== null) {
-      //       if (!nestedGrouping[parentIdx]) nestedGrouping[parentIdx] = [];
-      //       nestedGrouping[parentIdx].push(thisIdx);
-      //     }
-      //   } else {
-      //     // container group: children are groups
-      //     nestedGrouping[thisIdx] = nestedGrouping[thisIdx] || [];
-      //     node.children.forEach((child) => traverseGrouping(child, thisIdx));
-      //     groupLayouts[thisIdx] =
-      //       node.layout && node.layout.type ? node.layout : { type: "Grid", params: {} };
-
-      //     if (parentIdx !== null) {
-      //       if (!nestedGrouping[parentIdx]) nestedGrouping[parentIdx] = [];
-      //       nestedGrouping[parentIdx].push(thisIdx);
-      //     }
-      //   }
-      // }
-
-      // if (annotations.grouping) {
-      //   traverseGrouping(annotations.grouping, null, true);
-      // }
-
-
-      // groupAnnotations = annotations.groupInfo ? annotations.groupInfo : [];
-      // nestedGrouping = annotations.nestedGrouping
-      //   ? annotations.nestedGrouping
-      //   : [];
-      groupLayouts = annotations.layoutInfo ? annotations.layoutInfo : groupLayouts;
-      objectEncodings = annotations.encodingInfo ? annotations.encodingInfo : {};
-      textObjectLinking = annotations.textObjectLinking ? annotations.textObjectLinking : {};
-
-      chartTitle = Array.isArray(annotations.chartTitle) ? annotations.chartTitle : [];
-      console.log("chartTitle: ", chartTitle);
-      
-      titleLegend = legend.title ? legend.title : [];
-      if (titleLegend.length > 0 && typeof titleLegend[0] === "string") {
-        titleLegend = titleLegend.map(id => allGraphicsElement[id]).filter(Boolean);
-      }
-      
-      // legend fields
-      ["labels", "marks", "title", "ticks"].forEach((field) => {
-        if (legend[field] && legend[field].length > 0 && typeof legend[field][0] === "string") {
-          legend[field] = legend[field].map(id => allGraphicsElement[id]).filter(Boolean);
-        }
-      });
-
-      // axes fields
-      Object.keys(axes).forEach((k) => {
-        let axis = axes[k];
-        ["labels", "title", "ticks", "path"].forEach((field) => {
-          if (axis[field] && axis[field].length > 0 && typeof axis[field][0] === "string") {
-            axis[field] = axis[field].map(id => allGraphicsElement[id]).filter(Boolean);
-          }
-        });
-      });
-
-      Object.keys(axes).forEach((k) => {
-        let index = parseInt(k);
-        console.log("loading axis", index, axes[index]);
-        // if (parseInt(k) > axisCount) {
-        //   console.log("add an axis");
-        //   addAxisConfiguration();
-        // }
-        addAxisConfiguration();
-        displayAxis(index);
-      });
-      console.log("finish loading axes");
-      displayLegend(legend);
-      displayTitles(chartTitle, titleLegend);
-    })
-
-    .catch(function () {
-      this.dataError = true;
-    });
-
-  return new Promise((resolve, reject) => {
-    // Simulate an asynchronous operation, e.g., fetching annotations from a server
-    setTimeout(() => {
-      // Load annotations and set annotationLoaded flag
-      ifLoaded = annotationLoaded; // or false based on the result of loading annotations
-      resolve();
-    }, 100); // Simulate a 0.1-second delay
-  });
+/**
+ * Clear all grouping
+ */
+function resetGrouping() {
+  VA.grouping = [];
 }
-function saveAllAnnotations() {
-  const chartItems = document.querySelectorAll(".demoItem");
 
-  chartItems.forEach(async (item) => {
-    const chartId = item.id;
-
-    // Load annotation file
-    await fetch("/annotations/" + chartId + ".json")
-      .then((res) => res.json())
-      .then((json) => {
-        const annotations = json.annotations;
-        if (!annotations) {
-          console.warn(`No annotations found for ${chartId}`);
-          return;
-        }
-
-        fetch("/save_and_restructure", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            chart: chartId,
-            annotations: annotations
-          })
-        })
-          .then((res) => res.json())
-          .then((result) =>
-            console.log(`Saved & restructured ${chartId}:`, result)
-          )
-          .catch((err) =>
-            console.error(`Failed to restructure ${chartId}:`, err)
-          );
-      })
-      .catch((err) => console.warn("Error fetching annotations:", err));
-  });
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4) {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        const alertBox = document.getElementById("alertBox");
-        alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
-          "fileName"
-        )}.json'!`;
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
-
-        // Hide the alert box after 3 seconds
-        setTimeout(function () {
-          alertBox.style.visibility = "hidden";
-          alertBox.style.opacity = "0";
-        }, 3000);
-        console.log(xhr.responseText);
-      } else {
-        console.error("Error: " + xhr.status);
-        alertBox.textContent =
-          "Error: '" + xhr.status + "' occurred while saving the annotations";
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
+/**
+ * Get all leaf groups (groups containing actual marks) from hierarchical grouping
+ * @returns {Array<Array<string>>} Array of groups, where each group is an array of mark IDs
+ */
+function getLeafGroups(grouping = VA.grouping) {
+  const leafGroups = [];
+  
+  function traverse(node) {
+    if (!node) return;
+    
+    if (Array.isArray(node)) {
+      node.forEach(traverse);
+    } else if (node.children) {
+      if (node.children.length > 0 && typeof node.children[0] === 'string') {
+        // Leaf node - children are mark IDs
+        leafGroups.push(node.children);
+      } else if (Array.isArray(node.children)) {
+        // Internal node - children are other groups
+        node.children.forEach(traverse);
       }
     }
-  };
+  }
+  
+  traverse(grouping);
+  return leafGroups;
+}
+
+/**
+ * Get layout for a specific group by ID
+ * @param {string|number} groupId - Group ID to find
+ * @returns {Object|null} Layout object or null if not found
+ */
+function getGroupLayout(groupId, grouping = VA.grouping) {
+  function traverse(node) {
+    if (!node) return null;
+    
+    if (Array.isArray(node)) {
+      for (const child of node) {
+        const result = traverse(child);
+        if (result) return result;
+      }
+    } else if (node.id === groupId || node.id === String(groupId) || node.id === `g${groupId}`) {
+      return node.layout || null;
+    } else if (node.children && Array.isArray(node.children)) {
+      for (const child of node.children) {
+        if (typeof child !== 'string') {
+          const result = traverse(child);
+          if (result) return result;
+        }
+      }
+    }
+    return null;
+  }
+  
+  return traverse(grouping);
+}
+
+/**
+ * Get marks for a specific group by ID
+ * @param {string|number} groupId - Group ID to find
+ * @returns {Array<string>} Array of mark IDs
+ */
+function getGroupMarks(groupId, grouping = VA.grouping) {
+  function traverse(node) {
+    if (!node) return null;
+    
+    if (Array.isArray(node)) {
+      for (const child of node) {
+        const result = traverse(child);
+        if (result) return result;
+      }
+    } else if (node.id === groupId || node.id === String(groupId) || node.id === `g${groupId}`) {
+      // Collect all marks recursively
+      const marks = [];
+      function collectMarks(n) {
+        if (!n) return;
+        if (Array.isArray(n)) {
+          n.forEach(collectMarks);
+        } else if (n.children) {
+          if (typeof n.children[0] === 'string') {
+            marks.push(...n.children);
+          } else {
+            n.children.forEach(collectMarks);
+          }
+        }
+      }
+      collectMarks(node);
+      return marks;
+    } else if (node.children && Array.isArray(node.children)) {
+      for (const child of node.children) {
+        if (typeof child !== 'string') {
+          const result = traverse(child);
+          if (result) return result;
+        }
+      }
+    }
+    return null;
+  }
+  
+  return traverse(grouping) || [];
 }
 
 //for polyline elements
@@ -346,216 +157,10 @@ function getNumVertices(d) {
   // Convert to coordinate pairs
   const vertices = [];
   for (let i = 0; i < numbers.length; i += 2) {
-      vertices.push({ x: numbers[i], y: numbers[i + 1] });
+    vertices.push({ x: numbers[i], y: numbers[i + 1] });
   }
 
   return vertices.length;
-}
-
-function post() {
-  let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/save_and_restructure");
-  xhr.overrideMimeType("text/plain");
-  xhr.setRequestHeader("Accept", "application/json");
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4) {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        const alertBox = document.getElementById("alertBox");
-        alertBox.textContent = `Annotations saved to 'annotations / ${sessionStorage.getItem(
-          "fileName"
-        )}.json'!`;
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
-
-        // Hide the alert box after 3 seconds
-        setTimeout(function () {
-          alertBox.style.visibility = "hidden";
-          alertBox.style.opacity = "0";
-        }, 3000);
-        console.log(xhr.responseText);
-      } else {
-        console.error("Error: " + xhr.status);
-        alertBox.textContent =
-          "Error: '" + xhr.status + "' occurred while saving the annotations";
-        alertBox.style.visibility = "visible";
-        alertBox.style.opacity = "1";
-      }
-    }
-  };
-  let data = {};
-
-  [
-    legend.marks,
-    legend.labels,
-    legend.title,
-    ...Object.keys(axes).map((k) => (axes[k].labels ? axes[k].labels : [])),
-    ...Object.keys(axes).map((k) => (axes[k].title ? axes[k].title : [])),
-  ]
-    .filter((e) => e?.length > 0)
-    .forEach((object) => {
-      object.forEach((element) => {
-        switch (typeof element) {
-          case "string":
-            allGraphicsElement[element].isReferenceElement = true;
-            break;
-          case "object":
-            allGraphicsElement[element.id].isReferenceElement = true;
-            break;
-        }
-      });
-    });
-  //// TBD: handle higher level labels using new axes?
-  // if (xAxis.upperLevels) {
-  //   xAxis.upperLevels.forEach((level) => {
-  //     level.forEach((element) => {
-  //       allGraphicsElement[element.id].isReferenceElement = true;
-  //     });
-  //   });
-  // }
-  // if (yAxis.upperLevels) {
-  //   yAxis.upperLevels.forEach((level) => {
-  //     level.forEach((element) => {
-  //       allGraphicsElement[element.id].isReferenceElement = true;
-  //     });
-  //   });
-  // }
-  annotations.allGraphicsElement = allGraphicsElement;
-  annotations.groupedGraphicsElement = groupedGraphicsElement;
-  annotations.chartTitle =
-    chartTitle.filter((e) => e !== null).length > 0
-      ? chartTitle.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo).filter(
-          (mark) => markInfo[mark].Role === "Chart Title"
-        );
-  annotations.markInfo = markInfo;
-  annotations.groupInfo = groupAnnotations;
-  annotations.nestedGrouping = nestedGrouping;
-  annotations.layoutInfo = groupLayouts;
-  annotations.encodingInfo = objectEncodings;
-  annotations.textObjectLinking = textObjectLinking;
-  annotations.referenceElement = {};
-
-  let polylines = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Main Chart Mark" && markInfo[mark].Type === "Polyline"
-  );
-  for (let pl of polylines) {
-    let d = annotations.allGraphicsElement[pl].d;
-    if (d) {
-      annotations.allGraphicsElement[pl].numVertices = getNumVertices(d);
-    }
-  }
-
-  annotations.referenceElement["xGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Horizontal Gridline"
-  );
-  annotations.referenceElement["yGridlines"] = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Vertical Gridline"
-  );
-
-  // save the axes
-  annotations.referenceElement["axes"] = axes;
-
-  // // complete x axis elements
-  // xAxis.path = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "X Axis Line"
-  // );
-  // xAxis.ticks = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "X Axis Tick"
-  // );
-  // xAxis.title =
-  //   titleXaxis.length > 0
-  //     ? titleXaxis.map((title) => allGraphicsElement[title.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "X Axis Title")
-  //         .map((title) => allGraphicsElement[title]);
-  // xAxis.labels =
-  //   xAxis.labels.length > 0
-  //     ? xAxis.labels.map((label) => allGraphicsElement[label.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "X Axis Label")
-  //         .map((label) => allGraphicsElement[label]);
-  // xAxis.fieldType = d3.select("#xFieldType").property("value");
-  // if (xAxis.upperLevels) {
-  //   let newUpperLevels = [];
-  //   xAxis.upperLevels.forEach((level) => {
-  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-  //   });
-  //   xAxis.upperLevels = newUpperLevels;
-  // }
-  // annotations.referenceElement["xAxis"] = xAxis;
-
-  // // complete y axis elements
-  // yAxis.path = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "Y Axis Line"
-  // );
-  // yAxis.ticks = Object.keys(markInfo).filter(
-  //   (mark) => markInfo[mark].Role === "Y Axis Tick"
-  // );
-  // yAxis.title =
-  //   titleYaxis.length > 0
-  //     ? titleYaxis.map((title) => allGraphicsElement[title.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "Y Axis Title")
-  //         .map((title) => allGraphicsElement[title]);
-  // yAxis.labels =
-  //   yAxis.labels.length > 0
-  //     ? yAxis.labels.map((label) => allGraphicsElement[label.id])
-  //     : Object.keys(markInfo)
-  //         .filter((mark) => markInfo[mark].Role === "Y Axis Label")
-  //         .map((label) => allGraphicsElement[label]);
-  // yAxis.fieldType = d3.select("#yFieldType").property("value");
-  // if (yAxis.upperLevels) {
-  //   let newUpperLevels = [];
-  //   yAxis.upperLevels.forEach((level) => {
-  //     newUpperLevels.push(level.map((label) => allGraphicsElement[label.id]));
-  //   });
-  //   yAxis.upperLevels = newUpperLevels;
-  // }
-  // annotations.referenceElement["yAxis"] = yAxis;
-
-  // complete legend elements
-  legend.title =
-    titleLegend.length > 0
-      ? titleLegend.map((title) => allGraphicsElement[title.id])
-      : Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Title")
-          .map((title) => allGraphicsElement[title]);
-  // TBD: need to keep an eye on the legend info when annotating
-  legend.ticks = Object.keys(markInfo).filter(
-    (mark) => markInfo[mark].Role === "Legend Tick"
-  );
-  legend.marks =
-    legend.marks.length === 0
-      ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Mark")
-          .map((mark) => allGraphicsElement[mark])
-      : legend.marks.map((mark) => allGraphicsElement[mark.id]);
-  legend.labels =
-    legend.labels.length === 0
-      ? Object.keys(markInfo)
-          .filter((mark) => markInfo[mark].Role === "Legend Label")
-          .map((mark) => allGraphicsElement[mark])
-      : legend.labels.map((label) => allGraphicsElement[label.id]);
-  // legend.marks = legend.marks.push(
-  //   ...Object.keys(markInfo)
-  //     .filter((mark) => markInfo[mark].Role === "Legend Mark")
-  //     .map((mark) => allGraphicsElement[mark])
-  // );
-  // legend.marks = legend.marks.filter(onlyUnique);
-  // legend.labels = legend.labels.push(
-  //   ...Object.keys(markInfo)
-  //     .filter((mark) => markInfo[mark].Role === "Legend Label")
-  //     .map((mark) => allGraphicsElement[mark])
-  // );
-  // legend.labels = legend.labels.filter(onlyUnique);
-  annotations.referenceElement["legend"] = legend;
-  delete annotations.contentMarks;
-
-  data["chart"] = sessionStorage.getItem("fileName");
-  data["annotations"] = annotations;
-  xhr.send(JSON.stringify(data));
 }
 
 function onlyUnique(value, index, self) {
@@ -984,12 +589,12 @@ function findTwoStartingRects() {
       (r) =>
         Math.abs(
           Math.abs(r.x - topLeftRect.right) -
-            Math.abs(rightClosestRectCandidates[0].x - topLeftRect.right)
+          Math.abs(rightClosestRectCandidates[0].x - topLeftRect.right)
         ) < 0.1
     )
     .sort((a, b) =>
       Math.min(a.bottom, topLeftRect.bottom) - Math.max(a.y, topLeftRect.y) >
-      Math.min(b.bottom, topLeftRect.bottom) - Math.max(b.y, topLeftRect.y)
+        Math.min(b.bottom, topLeftRect.bottom) - Math.max(b.y, topLeftRect.y)
         ? -1
         : 1
     )[0];
@@ -1083,18 +688,18 @@ function formGOM(scene, parent, group, id, level) {
         );
         allX = group.collections
           ? group.collections
-              .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
-              .sort((a, b) => a - b)
+            .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
+            .sort((a, b) => a - b)
           : group.rects
-              .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
-              .sort((a, b) => a - b);
+            .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
+            .sort((a, b) => a - b);
         allY = group.collections
           ? group.collections
-              .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
-              .sort((a, b) => a - b)
+            .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
+            .sort((a, b) => a - b)
           : group.rects
-              .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
-              .sort((a, b) => a - b);
+            .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
+            .sort((a, b) => a - b);
         vertCellAlignment =
           thisLayout.substring(5, 6) === "H"
             ? alignments[level] && alignments[level][0]
@@ -1190,8 +795,8 @@ function formGOM(scene, parent, group, id, level) {
           "stroke-width" in rect
             ? rect["stroke-width"]
             : "stroke" in rect
-            ? 1
-            : 0,
+              ? 1
+              : 0,
         strokeColor: rect["stroke"],
       });
       let thisID =
@@ -1290,8 +895,8 @@ function inferEncodings() {
             rectEnc[0] = rectEnc.map((r) => r.includes("width")).includes(true)
               ? ["width"]
               : rectEnc.map((r) => r.includes("height")).includes(true)
-              ? ["height"]
-              : [];
+                ? ["height"]
+                : [];
           }
         }
       } else {

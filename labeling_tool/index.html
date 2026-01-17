@@ -28,7 +28,6 @@
         overflow: hidden;
         overflow-y: auto;
       }
-
       div.upload {
         background-color: #fff;
         border: 1px solid #ddd;
@@ -41,11 +40,9 @@
         min-width: 200px;
         margin-right: 20px;
       }
-
       div.upload:hover {
         opacity: 0.95;
       }
-
       div.upload input[type="file"] {
         display: input-block;
         width: 100%;
@@ -56,7 +53,7 @@
         left: 0;
       }
       .uploadButton {
-        background-color: #425f9c;
+        background-color: #425F9C;
         border: none;
         border-radius: 3px;
         color: #fff;
@@ -68,16 +65,13 @@
         padding: 0 20px;
         box-sizing: content-box;
       }
-
       .fileName {
         font-family: Arial;
         font-size: 14px;
       }
-
       .upload + .uploadButton {
         height: 38px;
       }
-
       #uploadData {
         position: absolute;
         top: 50%;
@@ -95,7 +89,7 @@
         that information to the SVG file.
       </h3>
       <!-- solution from http://jsfiddle.net/umhva747/ -->
-      <form action="annotationPage.html" id="uploadForm">
+      <form action="labeling_tool/annotationPage.html" id="uploadForm">
         <div style="margin-bottom: 15px;">
           <label for="chartType" style="display: block; margin-bottom: 5px; font-weight: bold;">Chart Type:</label>
           <select id="chartType" name="chartType" style="padding: 8px; border: 1px solid white; border-radius: 3px; font-size: 14px; min-width: 200px;">
@@ -109,7 +103,6 @@
         <input type="submit" class="uploadButton" value="Import" />
       </form>
     </div>
-
     <script>
       // Chart types array
       const chartTypes = {
@@ -155,11 +148,9 @@
         "WaterfallChart": "Waterfall Chart",
         "WordCloud": "Word Cloud"
       };
-
       // Populate dropdown on page load
       document.addEventListener('DOMContentLoaded', function() {
         const select = document.getElementById('chartType');
-        
         for (const [value, label] of Object.entries(chartTypes)) {
           const option = document.createElement('option');
           option.value = value;
@@ -167,15 +158,12 @@
           select.appendChild(option);
         }
       });
-
       async function getNextChartId(chartType) {
         try {
           // Get list of existing chart files from server
           const response = await fetch('http://localhost:5200/list_charts');
           const data = await response.json();
-          
           let maxId = 0;
-          
           // Parse filenames to find highest existing ID for this specific chart type
           data.files.forEach(filename => {
             const match = filename.match(/([A-Za-z]+)(\d+)\.svg$/);
@@ -186,90 +174,75 @@
               }
             }
           });
-          
           const nextId = maxId + 1;
           return nextId;
-          
         } catch (error) {
           console.error('Error getting chart list:', error);
           // Fallback to simple counter if server call fails
           return 1;
         }
       }
-
       document
         .getElementById("uploadForm")
         .addEventListener("submit", async function (event) {
           event.preventDefault();
-
           const fileInput = document.getElementById("myFile");
           const file = fileInput.files[0];
           const chartTypeSelect = document.getElementById("chartType");
-          
           if (!file) {
             alert("Please select a file.");
             return;
           }
-          
           if (!chartTypeSelect.value) {
             alert("Please select a chart type.");
             return;
           }
-          
           const filename = file.name;
           const chartType = chartTypeSelect.value;
           const id = await getNextChartId(chartType);
           const newFileName = `${chartType}${id}.svg`;
-
           try {
             const response = await fetch(
               `http://localhost:5200/check_file_exists/${newFileName}`
             );
             const data = await response.json();
 
-            // if (data.exists) {
-            //     alert("File with the same name already exists in the examples folder. Please choose a different file or rename your file.");
-            // } else {
-            newSVG(newFileName, chartType);
-
-            // const reader = new FileReader();
-            // reader.onload = async function (event) {
-            //   const svgData = event.target.result;
-            //   // Send the SVG data to the server
-            //   const response = await fetch(`http://localhost:5200/save_file`, {
-            //     method: "POST",
-            //     headers: {
-            //       "Content-Type": "text/plain",
-            //       "X-Filename": newFileName, // Pass new filename in header
-            //     },
-            //     body: svgData,
-            //   });
-
-            //   if (response.ok) {
-            //     alert("File saved to examples folder.");
-            //   } else {
-            //     alert("Error saving file to examples folder.");
-            //   }
-            // };
-            // reader.readAsText(file);
-
-            event.target.submit();
-            // }
+            const reader = new FileReader();
+            reader.onload = async function (e) {
+                const svgData = e.target.result;
+                const uploadResponse = await fetch(`http://localhost:5200/upload_svg`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        filename: newFileName,
+                        svgData: svgData
+                    }),
+                });
+                if (uploadResponse.ok) {
+                    const result = await uploadResponse.json();
+                    console.log(`File saved as ${result.filename}`);
+                } else {
+                    console.error("Error saving file to charts_svg folder.");
+                }
+                // Call newSVG and submit form after upload completes
+                newSVG(newFileName, chartType);
+                event.target.submit();
+            };
+            reader.readAsText(file);
           } catch (error) {
             console.error("Error:", error);
           }
         });
-
       $("input[type=file]").change(function (e) {
         $in = $(this);
         $in.next().html($in.val());
       });
-
       function newSVG(newFileName, chartType) {
         let uploadedSVG = document.getElementById("myFile").files[0];
         let fileReader = new FileReader();
         fileReader.readAsText(uploadedSVG);
-
         fileReader.onload = function () {
           sessionStorage.setItem("svg", fileReader.result);
           sessionStorage.setItem("fileName", newFileName || uploadedSVG.name);
@@ -277,7 +250,6 @@
         };
         document.getElementById("myFile").value = null;
       }
-
       $(document).ready(() => {
         sessionStorage.setItem("svg", "");
         sessionStorage.setItem("fileName", undefined);

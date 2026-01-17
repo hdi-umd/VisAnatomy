@@ -151,9 +151,14 @@ const typeSpecificChannels = {
 function initilizeEncodingAnnotation() {
   document.getElementById("EncodingAnnotation").innerHTML =
     "<h4>Grouping Structure</h4>";
-  document
-    .getElementById("EncodingAnnotation")
-    .appendChild(createList2(convertToJSON2(nestedGrouping[0])));
+  if (VA.grouping.length > 0) {
+    // Display all top-level groups
+    VA.grouping.forEach(group => {
+      document
+        .getElementById("EncodingAnnotation")
+        .appendChild(createList2(group));
+    });
+  }
 }
 
 function createList2(item) {
@@ -170,29 +175,32 @@ function createList2(item) {
 
   const content = document.createElement("span");
   content.textContent = "Group " + item.id;
-  let thisEncoding = objectEncodings["Group " + item.id];
+  let thisEncoding = VA.objectEncodings["Group " + item.id];
+
+  // Get marks for this group (recursively if it has nested children)
+  let marks = getGroupMarks(item.id);
 
   d3.select(content)
     .on("mouseover", function () {
       d3.select(this).style("cursor", "pointer");
-      item.marks.forEach((mark) => {
+      marks.forEach((mark) => {
         d3.select("#" + mark).style("opacity", "1");
       });
     })
     .on("mouseout", function () {
-      item.marks.forEach((mark) => {
+      marks.forEach((mark) => {
         d3.select("#" + mark).style("opacity", "0.3");
       });
     })
     .on("click", function () {
       d3.select("#selectedGroup4EncodingStage1").text("Group " + item.id);
       populateChannelList(["x", "y", "polarAngle", "polarRadius"]);
-      if (Object.keys(objectEncodings).includes("Group " + item.id)) {
+      if (Object.keys(VA.objectEncodings).includes("Group " + item.id)) {
         let channelList = document.getElementById("channelList");
         let listItems = channelList.querySelectorAll(".list-item");
         listItems.forEach((listItem) => {
           if (
-            objectEncodings["Group " + item.id].includes(
+            VA.objectEncodings["Group " + item.id].includes(
               listItem.textContent.trim()
             )
           ) {
@@ -226,41 +234,44 @@ function createList2(item) {
   childrenContainer.style.paddingLeft = "40px"; // Indent child lists
   childrenContainer.style.marginTop = "5px";
 
-  if (item.children && item.children !== "none") {
-    item.children.forEach((child) => {
-      const childElement = createList2(child);
-      const listItem = document.createElement("li");
-      listItem.appendChild(childElement);
-      childrenContainer.appendChild(listItem);
-    });
-  } else {
-    // For lowest level items, display individual marks as foldable but non-expandable
-    item.marks.forEach((mark) => {
-      let thisMarkEncoding = objectEncodings[mark];
-      const markItem = document.createElement("li");
-      markItem.textContent = mark.split(" ")[0] + " ";
-      d3.select(markItem)
-        .on("mouseover", function () {
-          d3.select(this).style("cursor", "pointer");
-          d3.select("#" + mark).style("opacity", "1");
+  if (item.children && Array.isArray(item.children) && item.children.length > 0) {
+    // Check if children are objects (nested groups) or strings (mark IDs)
+    if (typeof item.children[0] === 'object') {
+      // Nested groups
+      item.children.forEach((child) => {
+        const childElement = createList2(child);
+        const listItem = document.createElement("li");
+        listItem.appendChild(childElement);
+        childrenContainer.appendChild(listItem);
+      });
+    } else {
+      // Leaf group - children are mark IDs
+      item.children.forEach((mark) => {
+        let thisMarkEncoding = VA.objectEncodings[mark];
+        const markItem = document.createElement("li");
+        markItem.textContent = mark.split(" ")[0] + " ";
+        d3.select(markItem)
+          .on("mouseover", function () {
+            d3.select(this).style("cursor", "pointer");
+            d3.select("#" + mark).style("opacity", "1");
         })
         .on("mouseout", function () {
           d3.select("#" + mark).style("opacity", "0.3");
         })
         .on("click", function () {
           d3.select("#selectedObjectType").text(
-            markInfo[mark].Type.toLowerCase()
+            VA.allElements[mark].type.toLowerCase()
           );
           d3.select("#selectedGroup4EncodingStage1").text(
             markItem.textContent.split(" ")[0]
           );
-          let channelList = typeSpecificChannels[markInfo[mark].Type];
+          let channelList = typeSpecificChannels[VA.allElements[mark].type];
           populateChannelList(channelList);
-          if (Object.keys(objectEncodings).includes(mark)) {
+          if (Object.keys(VA.objectEncodings).includes(mark)) {
             let channelListHTML = document.getElementById("channelList");
             let listItems = channelListHTML.querySelectorAll(".list-item");
             listItems.forEach((listItem) => {
-              if (objectEncodings[mark].includes(listItem.textContent.trim())) {
+              if (VA.objectEncodings[mark].includes(listItem.textContent.trim())) {
                 listItem.classList.add("selected");
               } else {
                 listItem.classList.remove("selected");
@@ -284,6 +295,7 @@ function createList2(item) {
       markItem.appendChild(markEncIndicator);
       childrenContainer.appendChild(markItem);
     });
+    }
   }
 
   container.appendChild(childrenContainer);
@@ -301,43 +313,10 @@ function createList2(item) {
 }
 
 function convertToJSON2(thisNestedGrouping) {
-  // Function to flatten an array and remove duplicates
-  const flattenUnique = (arr) => [...new Set(arr.flat(Infinity))];
-  let groupIndex = groupAnnotations.length;
-  objectsByDepth = {};
-
-  // Recursive function to handle nested arrays
-  function processGroup(group, depth) {
-    if (Array.isArray(group)) {
-      if (objectsByDepth[depth]) {
-        objectsByDepth[depth].push(groupIndex);
-      } else {
-        objectsByDepth[depth] = [groupIndex];
-      }
-      return {
-        id: groupIndex++,
-        marks: flattenUnique(group)
-          .map((i) => groupAnnotations[i])
-          .flat(Infinity),
-        layout: "",
-        children: group.map((subGroup) => processGroup(subGroup, depth + 1)),
-      };
-    } else {
-      if (objectsByDepth[depth]) {
-        objectsByDepth[depth].push(group);
-      } else {
-        objectsByDepth[depth] = [group];
-      }
-      return {
-        id: group,
-        marks: groupAnnotations[group],
-        layout: "",
-        children: null,
-      };
-    }
-  }
-
-  return processGroup(thisNestedGrouping, 0);
+  // This function is likely no longer needed with the hierarchical structure
+  // But keeping it for now in case it's called elsewhere
+  console.warn("convertToJSON2 may no longer be needed with hierarchical structure");
+  return thisNestedGrouping;
 }
 
 function recordSingleEncoding() {
@@ -347,8 +326,8 @@ function recordSingleEncoding() {
     // alert("Please select a group");
     return;
   } else {
-    objectEncodings[selectedGroup.trim()] = selectedChannels;
-    console.log(objectEncodings);
+    VA.objectEncodings[selectedGroup.trim()] = selectedChannels;
+    console.log(VA.objectEncodings);
     if (selectedGroup.startsWith("Group")) {
       document.getElementById(
         "EncIndicator" + selectedGroup.split(" ")[1]
@@ -379,7 +358,7 @@ function recordBatchEncoding() {
         let group = objectsByDepth[depth];
         if (group.includes(parseInt(selectedGroup.split(" ")[1]))) {
           group.forEach((groupID) => {
-            objectEncodings["Group " + groupID] = selectedChannels;
+            VA.objectEncodings["Group " + groupID] = selectedChannels;
             document.getElementById("EncIndicator" + groupID).textContent =
               selectedChannels.length > 0
                 ? " [" + selectedChannels.toString() + "]"
@@ -388,13 +367,13 @@ function recordBatchEncoding() {
         }
       });
     } else {
-      groupAnnotations.flat(Infinity).forEach((mark) => {
+      getLeafGroups().flat(Infinity).forEach((mark) => {
         console.log(extractNonNumeric(mark));
         if (
           selectedGroup.startsWith(extractNonNumeric(mark)) &&
-          markInfo[mark].Type === markInfo[selectedGroup].Type
+          VA.allElements[mark].type === VA.allElements[selectedGroup].type
         ) {
-          objectEncodings[mark] = selectedChannels;
+          VA.objectEncodings[mark] = selectedChannels;
           document.getElementById("EncIndicator" + mark).textContent =
             selectedChannels.length > 0
               ? " [" + selectedChannels.toString() + "]"
