@@ -20,6 +20,7 @@ function initilizeVariables() {
   VA.marksHaveGroupAnnotation = [];
   VA.objectEncodings = {};
   VA.textObjectLinking = {};
+  VA.dataset = undefined;
 }
 
 /**

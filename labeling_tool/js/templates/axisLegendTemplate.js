@@ -39,8 +39,7 @@ export const axisTemplate = (axisIndex) => `
             <option value="date">dates</option>
           </select>
           <select class="columnSelect" id="columnSelect_${axisIndex}" onchange="columnSelectionChanged(${axisIndex})"
-            style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
-            <option value="">Select Column</option>
+            style="width: 100px; font-size: 12px; margin-left: 5px; display: none">
           </select>
           <input type="image" src="labeling_tool/img/select-area.png" onclick="activateAreaSelect(${axisIndex});"
             id="axis${axisIndex}Area" width="16px" height="16px" class="selectAreaBtn"

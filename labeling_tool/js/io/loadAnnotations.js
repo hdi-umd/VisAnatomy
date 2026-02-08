@@ -58,10 +58,7 @@ function tryLoadAnnotations(filename) {
 function loadRefElements(annotations) {
   // Load all axes, not just x/y
   VA.axes = [];
-  if (
-    annotations.referenceElements &&
-    Array.isArray(annotations.referenceElements.axes)
-  ) {
+  if (annotations.referenceElements && Array.isArray(annotations.referenceElements.axes)) {
     annotations.referenceElements.axes.forEach((axis, i) => {
       VA.axes[i] = axis;
       VA.axes[i].channel = axis.channel || axis.type || "x";
@@ -69,6 +66,7 @@ function loadRefElements(annotations) {
       if (axis.attrType) {
         VA.axes[i].attrType = axis.attrType;
       }
+      VA.axes[i].attr = axis.attr;
       //console.log(`Loaded axis ${i}:`, VA.axes[i]);
     });
   }

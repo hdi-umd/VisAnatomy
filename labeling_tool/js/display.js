@@ -138,6 +138,27 @@ function displayAxis(index) {
     console.warn(`Element axisType_${index} not found when trying to set value`);
   }
 
+  const attrSelect = d3.select("#columnSelect_"+index);
+  if (VA.dataset) {
+    attrSelect.style("display", "inline-block");
+    
+    // Clear existing options except the first one
+    attrSelect.selectAll("option").remove();
+    
+    // Populate with dataset headers
+    attrSelect.selectAll("option.header-option")
+      .data(VA.dataset.header)
+      .enter()
+      .append("option")
+      .attr("class", "header-option")
+      .attr("value", d => d)
+      .text(d => d);
+    
+    console.log(VA.dataset);
+  } else {
+    attrSelect.style("display", "none");
+  }
+
   labels = labels.sort((a, b) =>
     parseFloat(a.id.substring(4)) > parseFloat(b.id.substring(4)) ? 1 : -1
   );

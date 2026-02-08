@@ -85,7 +85,7 @@ async function displayCSVData(fileName) {
       return;
     }
     const data = await res.json();
-
+    VA.dataset = data;
     displayTable(data.header, data.rows);
 
   } catch (error) {

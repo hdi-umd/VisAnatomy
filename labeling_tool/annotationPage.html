@@ -247,6 +247,7 @@
     });
 
     VA.annotationLoaded = false;
+    VA.dataset = undefined;
 
     // breadcrumb ui functions
     let sectionTitles = [
@@ -590,7 +591,6 @@
       document.getElementById('datasetTableContainer').innerHTML = '<p>Loading...</p>';
 
       sessionStorage.setItem("fileName", demo.split(".")[0]);
-      await tryLoadAnnotations(demo.split(".")[0]);
 
       //console.log(`CSV Exists: ${await checkCSVExists(`${demo.split(".")[0]}.csv`)}`)
       const csvExists = await checkCSVExists(`${demo.split(".")[0]}.csv`);
@@ -602,6 +602,7 @@
         // CSV file doesn't exist, display empty editable table
         await displayEmptyEditableTable();
       }
+      await tryLoadAnnotations(demo.split(".")[0]);
 
       fetch("../charts_svg/" + demo)
         .then((resp) => {
