@@ -613,18 +613,18 @@ function getPosition(S, subS, ind) {
 var scene;
 // var backupScene;
 
-function getAtlasScene() {
-  let thisID = 1;
-  scene = atlas.scene();
-  // backupScene = atlas.scene();
-  scene = formGOM(scene, scene, newColls[0], thisID, 0);
-  // for (let key of Object.keys(backupScene._itemMap)) {
-  //   if (key.startsWith("rect") || key.startsWith("path")) {
-  //     scene._itemMap[key] = backupScene._itemMap[key];
-  //   }
-  // }
-  return scene;
-}
+// function getAtlasScene() {
+//   let thisID = 1;
+//   scene = atlas.scene();
+//   // backupScene = atlas.scene();
+//   scene = formGOM(scene, scene, newColls[0], thisID, 0);
+//   // for (let key of Object.keys(backupScene._itemMap)) {
+//   //   if (key.startsWith("rect") || key.startsWith("path")) {
+//   //     scene._itemMap[key] = backupScene._itemMap[key];
+//   //   }
+//   // }
+//   return scene;
+// }
 
 function getAtlasGridDirection(s) {
   switch (s) {
@@ -639,156 +639,156 @@ function getAtlasGridDirection(s) {
   }
 }
 
-function formGOM(scene, parent, group, id, level) {
-  let coll = group.Layout === "Glyph" ? scene.glyph() : scene.collection();
-  coll.classId = group.Layout === "Glyph" ? "glyph" + id : "collection" + id;
-  if ("gap" in group) {
-    gridGaps[coll.classId] = group.gap;
-  }
-  if (group.Layout) {
-    let thisLayout = group.Layout;
-    let horzCellAlignment, vertCellAlignment;
-    switch (thisLayout.substring(0, 4)) {
-      case "Grid":
-        let colGap, rowGap;
-        let numOfRows = parseInt(
-          thisLayout.substring(
-            getPosition(thisLayout, "_", 2) + 1,
-            thisLayout.indexOf("*")
-          )
-        );
-        let numOfCols = parseInt(
-          thisLayout.substring(thisLayout.indexOf("*") + 1)
-        );
-        allX = group.collections
-          ? group.collections
-            .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
-            .sort((a, b) => a - b)
-          : group.rects
-            .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
-            .sort((a, b) => a - b);
-        allY = group.collections
-          ? group.collections
-            .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
-            .sort((a, b) => a - b)
-          : group.rects
-            .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
-            .sort((a, b) => a - b);
-        vertCellAlignment =
-          thisLayout.substring(5, 6) === "H"
-            ? alignments[level] && alignments[level][0]
-              ? alignments[level][0]
-              : undefined
-            : undefined;
-        horzCellAlignment =
-          thisLayout.substring(5, 6) === "V"
-            ? alignments[level] && alignments[level][0]
-              ? alignments[level][0]
-              : undefined
-            : undefined;
-        let args = {};
-        if (numOfCols > 1) args.colGap = allX.filter((g) => g >= gridGap)[0];
-        if (numOfRows > 1) args.rowGap = allY.filter((g) => g >= gridGap)[0];
-        if (numOfCols != 1 && numOfRows != 1) {
-          //args.numRows = numOfRows;
-          args.numCols = numOfCols;
-        } else if (numOfCols == 1) {
-          args.numCols = 1;
-          args.horzCellAlignment = horzCellAlignment;
-          args.vertCellAlignment = vertCellAlignment;
-        } else {
-          args.numRows = 1;
-          args.horzCellAlignment = horzCellAlignment;
-          args.vertCellAlignment = vertCellAlignment;
-        }
-        if (group.direction) {
-          args.dir = group.direction.map((d) => getAtlasGridDirection(d));
-          //args.vdir = group.direction.indexOf("up") >= 0 ? "b2t" : "t2b";
-          //args.hdir = group.direction.indexOf("right") >= 0 ? "l2r" : "r2l";
-        }
-        coll.layout = atlas.layout("grid", args);
-        // if (numOfCols != 1 && numOfRows != 1)
-        //     coll.layout = atlas.layout("grid", {numRows: numOfRows, numCols: numOfCols, colGap: colGap, rowGap: rowGap});
-        // else if (numOfCols == 1)
-        //     coll.layout = atlas.layout("grid", {numCols: 1, rowGap: rowGap, horzCellAlignment: horzCellAlignment, vertCellAlignment: vertCellAlignment});
-        // else if (numOfRows == 1)
-        //     coll.layout = atlas.layout("grid", {numRows: 1, colGap: colGap, horzCellAlignment: horzCellAlignment, vertCellAlignment: vertCellAlignment});
-        break;
-      case "Stac":
-        let orientation =
-          thisLayout.substring(6, 10) == "Vert" ? "vertical" : "horizontal";
-        let gap;
-        switch (orientation) {
-          case "vertical":
-            horzCellAlignment =
-              thisLayout.substring(getPosition(thisLayout, "_", 2) + 1) == "x"
-                ? "left"
-                : thisLayout.substring(getPosition(thisLayout, "_", 2) + 1);
-            break;
-          case "horizontal":
-            vertCellAlignment =
-              thisLayout.substring(getPosition(thisLayout, "_", 2) + 1) == "y"
-                ? "top"
-                : thisLayout.substring(getPosition(thisLayout, "_", 2) + 1);
-            break;
-        }
-        let sl = atlas.layout("stack", {
-          orientation: orientation,
-          gap: 0,
-          horzCellAlignment: horzCellAlignment,
-          vertCellAlignment: vertCellAlignment,
-        });
-        coll.layout = sl;
-        break;
-      case "Tree":
-        let tl = atlas.layout("treemap", {
-          left: group.bbox.Left,
-          top: group.bbox.Top,
-          width: group.bbox.Width,
-          height: group.bbox.Height,
-        });
-        coll.layout = tl;
-        if (group.type === "colorGroup") coll.bottomTreeInd = true;
-        break;
-    }
-  }
-  if (!group.collections) {
-    group.rects.sort(
-      (r1, r2) =>
-        parseFloat(r1.id.substring(4)) - parseFloat(r2.id.substring(4))
-    );
-    group.rects.forEach((rect) => {
-      let newRect = scene.mark("rect", {
-        top: rect.y,
-        left: rect.x,
-        width: rect.width,
-        height: rect.height,
-        fillColor: rect.fill,
-        opacity: parseFloat(rect["fill-opacity"]),
-        strokeWidth:
-          "stroke-width" in rect
-            ? rect["stroke-width"]
-            : "stroke" in rect
-              ? 1
-              : 0,
-        strokeColor: rect["stroke"],
-      });
-      let thisID =
-        group.Layout === "Glyph" ? id + group.rects.indexOf(rect) : id;
-      newRect.classId = "rect" + thisID;
-      coll.addChild(newRect);
-      // delete scene._itemMap[newRect.id];
-      // newRect.id = rect.id;
-      // backupScene._itemMap[rect.id] = newRect;
-    });
-  } else {
-    for (let thisColl of group.collections) {
-      coll = formGOM(scene, coll, thisColl, id + 1, level + 1);
-    }
-  }
-  parent.addChild(coll);
-  return parent;
-}
+// function formGOM(scene, parent, group, id, level) {
+//   let coll = group.Layout === "Glyph" ? scene.glyph() : scene.collection();
+//   coll.classId = group.Layout === "Glyph" ? "glyph" + id : "collection" + id;
+//   if ("gap" in group) {
+//     gridGaps[coll.classId] = group.gap;
+//   }
+//   if (group.Layout) {
+//     let thisLayout = group.Layout;
+//     let horzCellAlignment, vertCellAlignment;
+//     switch (thisLayout.substring(0, 4)) {
+//       case "Grid":
+//         let colGap, rowGap;
+//         let numOfRows = parseInt(
+//           thisLayout.substring(
+//             getPosition(thisLayout, "_", 2) + 1,
+//             thisLayout.indexOf("*")
+//           )
+//         );
+//         let numOfCols = parseInt(
+//           thisLayout.substring(thisLayout.indexOf("*") + 1)
+//         );
+//         allX = group.collections
+//           ? group.collections
+//             .map((c) => c.bbox.Left - group.collections[0].bbox.Right)
+//             .sort((a, b) => a - b)
+//           : group.rects
+//             .map((r) => r.x - Math.min(...group.rects.map((r) => r.right)))
+//             .sort((a, b) => a - b);
+//         allY = group.collections
+//           ? group.collections
+//             .map((c) => c.bbox.Top - group.collections[0].bbox.Bottom)
+//             .sort((a, b) => a - b)
+//           : group.rects
+//             .map((r) => r.y - Math.min(...group.rects.map((r) => r.bottom)))
+//             .sort((a, b) => a - b);
+//         vertCellAlignment =
+//           thisLayout.substring(5, 6) === "H"
+//             ? alignments[level] && alignments[level][0]
+//               ? alignments[level][0]
+//               : undefined
+//             : undefined;
+//         horzCellAlignment =
+//           thisLayout.substring(5, 6) === "V"
+//             ? alignments[level] && alignments[level][0]
+//               ? alignments[level][0]
+//               : undefined
+//             : undefined;
+//         let args = {};
+//         if (numOfCols > 1) args.colGap = allX.filter((g) => g >= gridGap)[0];
+//         if (numOfRows > 1) args.rowGap = allY.filter((g) => g >= gridGap)[0];
+//         if (numOfCols != 1 && numOfRows != 1) {
+//           //args.numRows = numOfRows;
+//           args.numCols = numOfCols;
+//         } else if (numOfCols == 1) {
+//           args.numCols = 1;
+//           args.horzCellAlignment = horzCellAlignment;
+//           args.vertCellAlignment = vertCellAlignment;
+//         } else {
+//           args.numRows = 1;
+//           args.horzCellAlignment = horzCellAlignment;
+//           args.vertCellAlignment = vertCellAlignment;
+//         }
+//         if (group.direction) {
+//           args.dir = group.direction.map((d) => getAtlasGridDirection(d));
+//           //args.vdir = group.direction.indexOf("up") >= 0 ? "b2t" : "t2b";
+//           //args.hdir = group.direction.indexOf("right") >= 0 ? "l2r" : "r2l";
+//         }
+//         coll.layout = atlas.layout("grid", args);
+//         // if (numOfCols != 1 && numOfRows != 1)
+//         //     coll.layout = atlas.layout("grid", {numRows: numOfRows, numCols: numOfCols, colGap: colGap, rowGap: rowGap});
+//         // else if (numOfCols == 1)
+//         //     coll.layout = atlas.layout("grid", {numCols: 1, rowGap: rowGap, horzCellAlignment: horzCellAlignment, vertCellAlignment: vertCellAlignment});
+//         // else if (numOfRows == 1)
+//         //     coll.layout = atlas.layout("grid", {numRows: 1, colGap: colGap, horzCellAlignment: horzCellAlignment, vertCellAlignment: vertCellAlignment});
+//         break;
+//       case "Stac":
+//         let orientation =
+//           thisLayout.substring(6, 10) == "Vert" ? "vertical" : "horizontal";
+//         let gap;
+//         switch (orientation) {
+//           case "vertical":
+//             horzCellAlignment =
+//               thisLayout.substring(getPosition(thisLayout, "_", 2) + 1) == "x"
+//                 ? "left"
+//                 : thisLayout.substring(getPosition(thisLayout, "_", 2) + 1);
+//             break;
+//           case "horizontal":
+//             vertCellAlignment =
+//               thisLayout.substring(getPosition(thisLayout, "_", 2) + 1) == "y"
+//                 ? "top"
+//                 : thisLayout.substring(getPosition(thisLayout, "_", 2) + 1);
+//             break;
+//         }
+//         let sl = atlas.layout("stack", {
+//           orientation: orientation,
+//           gap: 0,
+//           horzCellAlignment: horzCellAlignment,
+//           vertCellAlignment: vertCellAlignment,
+//         });
+//         coll.layout = sl;
+//         break;
+//       case "Tree":
+//         let tl = atlas.layout("treemap", {
+//           left: group.bbox.Left,
+//           top: group.bbox.Top,
+//           width: group.bbox.Width,
+//           height: group.bbox.Height,
+//         });
+//         coll.layout = tl;
+//         if (group.type === "colorGroup") coll.bottomTreeInd = true;
+//         break;
+//     }
+//   }
+//   if (!group.collections) {
+//     group.rects.sort(
+//       (r1, r2) =>
+//         parseFloat(r1.id.substring(4)) - parseFloat(r2.id.substring(4))
+//     );
+//     group.rects.forEach((rect) => {
+//       let newRect = scene.mark("rect", {
+//         top: rect.y,
+//         left: rect.x,
+//         width: rect.width,
+//         height: rect.height,
+//         fillColor: rect.fill,
+//         opacity: parseFloat(rect["fill-opacity"]),
+//         strokeWidth:
+//           "stroke-width" in rect
+//             ? rect["stroke-width"]
+//             : "stroke" in rect
+//               ? 1
+//               : 0,
+//         strokeColor: rect["stroke"],
+//       });
+//       let thisID =
+//         group.Layout === "Glyph" ? id + group.rects.indexOf(rect) : id;
+//       newRect.classId = "rect" + thisID;
+//       coll.addChild(newRect);
+//       // delete scene._itemMap[newRect.id];
+//       // newRect.id = rect.id;
+//       // backupScene._itemMap[rect.id] = newRect;
+//     });
+//   } else {
+//     for (let thisColl of group.collections) {
+//       coll = formGOM(scene, coll, thisColl, id + 1, level + 1);
+//     }
+//   }
+//   parent.addChild(coll);
+//   return parent;
+// }
 
 function inferEncodings() {
   if (newColls[0]) {
