@@ -152,9 +152,7 @@ function displayAxis(index) {
       .append("option")
       .attr("class", "header-option")
       .attr("value", d => d)
-      .text(d => d);
-    
-    console.log(VA.dataset);
+      .text(d => d);    
   } else {
     attrSelect.style("display", "none");
   }
