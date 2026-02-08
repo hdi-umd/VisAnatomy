@@ -21,6 +21,12 @@
   <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5/dist/js/tabulator.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css" />
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/axisLegendTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/markAnnotationTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/groupAnnotationTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/layoutAnnotationTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/encodingAnnotationTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/constraintAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/html2canvas.min.js"></script>
   <script type="text/javascript" src="labeling_tool/js/constants.js"></script>
   <script type="text/javascript" src="labeling_tool/js/cleanup.js"></script>
@@ -45,19 +51,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
   <script type="module">
-    import { initializeAxisLegendUI, createAxisElement } from './labeling_tool/js/templates/axisLegendTemplate.js';
-    import { initializeMarkAnnotationUI } from './labeling_tool/js/templates/markAnnotationTemplate.js';
-    import { initializeGroupAnnotationUI } from './labeling_tool/js/templates/groupAnnotationTemplate.js';
-    import { initializeLayoutAnnotationUI } from './labeling_tool/js/templates/layoutAnnotationTemplate.js';
-    import { initializeEncodingAnnotationUI } from './labeling_tool/js/templates/encodingAnnotationTemplate.js';
-    import { initializeConstraintAnnotationUI } from './labeling_tool/js/templates/constraintAnnotationTemplate.js';
-    window.initializeAxisLegendUI = initializeAxisLegendUI;
-    window.createAxisElement = createAxisElement;
-    window.initializeMarkAnnotationUI = initializeMarkAnnotationUI;
-    window.initializeGroupAnnotationUI = initializeGroupAnnotationUI;
-    window.initializeLayoutAnnotationUI = initializeLayoutAnnotationUI;
-    window.initializeEncodingAnnotationUI = initializeEncodingAnnotationUI;
-    window.initializeConstraintAnnotationUI = initializeConstraintAnnotationUI;
+    // import { initializeAxisLegendUI, createAxisElement } from './labeling_tool/js/templates/axisLegendTemplate.js';
+    // import { initializeMarkAnnotationUI } from './labeling_tool/js/templates/markAnnotationTemplate.js';
+    // import { initializeGroupAnnotationUI } from './labeling_tool/js/templates/groupAnnotationTemplate.js';
+    // import { initializeLayoutAnnotationUI } from './labeling_tool/js/templates/layoutAnnotationTemplate.js';
+    // import { initializeEncodingAnnotationUI } from './labeling_tool/js/templates/encodingAnnotationTemplate.js';
+    // import { initializeConstraintAnnotationUI } from './labeling_tool/js/templates/constraintAnnotationTemplate.js';
+    // window.initializeAxisLegendUI = initializeAxisLegendUI;
+    // window.createAxisElement = createAxisElement;
+    // window.initializeMarkAnnotationUI = initializeMarkAnnotationUI;
+    // window.initializeGroupAnnotationUI = initializeGroupAnnotationUI;
+    // window.initializeLayoutAnnotationUI = initializeLayoutAnnotationUI;
+    // window.initializeEncodingAnnotationUI = initializeEncodingAnnotationUI;
+    // window.initializeConstraintAnnotationUI = initializeConstraintAnnotationUI;
   </script>
 </head>
 
@@ -218,30 +224,38 @@
 
     // Initialize the section title and breadcrumb navigation
     document.addEventListener("DOMContentLoaded", function () {
-      // Initialize the axis/legend UI from template
-      if (window.initializeAxisLegendUI) {
-        window.initializeAxisLegendUI();
-      }
-      // Initialize the mark annotation UI from template
-      if (window.initializeMarkAnnotationUI) {
-        window.initializeMarkAnnotationUI();
-      }
-      // Initialize the group annotation UI from template
-      if (window.initializeGroupAnnotationUI) {
-        window.initializeGroupAnnotationUI();
-      }
-      // Initialize the layout annotation UI from template
-      if (window.initializeLayoutAnnotationUI) {
-        window.initializeLayoutAnnotationUI();
-      }
-      // Initialize the encoding annotation UI from template
-      if (window.initializeEncodingAnnotationUI) {
-        window.initializeEncodingAnnotationUI();
-      }
-      // Initialize the constraint annotation UI from template
-      if (window.initializeConstraintAnnotationUI) {
-        window.initializeConstraintAnnotationUI();
-      }
+      
+      initializeAxisLegendUI();
+      initializeMarkAnnotationUI();
+      initializeGroupAnnotationUI();
+      initializeLayoutAnnotationUI();
+      initializeEncodingAnnotationUI();
+      initializeConstraintAnnotationUI();
+      
+      // // Initialize the axis/legend UI from template
+      // if (window.initializeAxisLegendUI) {
+      //   window.initializeAxisLegendUI();
+      // }
+      // // Initialize the mark annotation UI from template
+      // if (window.initializeMarkAnnotationUI) {
+      //   window.initializeMarkAnnotationUI();
+      // }
+      // // Initialize the group annotation UI from template
+      // if (window.initializeGroupAnnotationUI) {
+      //   window.initializeGroupAnnotationUI();
+      // }
+      // // Initialize the layout annotation UI from template
+      // if (window.initializeLayoutAnnotationUI) {
+      //   window.initializeLayoutAnnotationUI();
+      // }
+      // // Initialize the encoding annotation UI from template
+      // if (window.initializeEncodingAnnotationUI) {
+      //   window.initializeEncodingAnnotationUI();
+      // }
+      // // Initialize the constraint annotation UI from template
+      // if (window.initializeConstraintAnnotationUI) {
+      //   window.initializeConstraintAnnotationUI();
+      // }
       // Initialize breadcrumb navigation
       updateBreadcrumb();
     });

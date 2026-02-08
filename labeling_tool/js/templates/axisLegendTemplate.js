@@ -1,7 +1,7 @@
 /**
  * Template for Chart Title section
  */
-export const chartTitleTemplate = () => `
+const chartTitleTemplate = () => `
   <div id="chartTitleDiv" style="overflow-y: auto; max-height: 400px">
     <div style="margin-left: 5px; font-weight: bold">Chart Title</div>
     <div id="chartTitle" class="chartTitle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -12,7 +12,7 @@ export const chartTitleTemplate = () => `
  * Template for a single axis configuration
  * @param {number} axisIndex - The index of the axis (1, 2, etc.)
  */
-export const axisTemplate = (axisIndex) => `
+const axisTemplate = (axisIndex) => `
   <div class="axisDiv" id="axis_${axisIndex}">
     <div class="axisRow">
       <span class="deleteAxis" onclick="deleteAxis(${axisIndex})">
@@ -55,7 +55,7 @@ export const axisTemplate = (axisIndex) => `
 /**
  * Template for Legend section
  */
-export const legendTemplate = () => `
+const legendTemplate = () => `
   <div class="axisDiv">
     <div class="axisRow">
       <div class="axisMeta">
@@ -85,7 +85,7 @@ export const legendTemplate = () => `
  * Template for the complete Axis & Legend section
  * @param {boolean} includeDefaultAxes - Whether to include the default 2 axes (false when loading annotations)
  */
-export const axisLegendSectionTemplate = (includeDefaultAxes = false) => `
+const axisLegendSectionTemplate = (includeDefaultAxes = false) => `
   <div class="mainbox" id="axisAndLegend" style="overflow-y: auto">
     <div style="margin-left: 5px">
       <span style="margin-right: 20px; font-weight: bold">Axes and Legends</span>
@@ -104,17 +104,17 @@ export const axisLegendSectionTemplate = (includeDefaultAxes = false) => `
  * Initialize the chart title and axis/legend UI
  * Call this function on page load to inject the templates into the DOM
  */
-export function initializeAxisLegendUI() {
+function initializeAxisLegendUI() {
   const container = document.getElementById('container');
-  
+
   // Find the insertion point (after rbox2)
   const rbox2 = document.getElementById('rbox2');
-  
+
   // Create a temporary container to parse the HTML
   const tempDiv = document.createElement('div');
   // Don't include default axes - they will be added by annotation loading or extract()
   tempDiv.innerHTML = chartTitleTemplate() + axisLegendSectionTemplate(false);
-  
+
   // Insert each element after rbox2
   while (tempDiv.firstChild) {
     rbox2.parentNode.insertBefore(tempDiv.firstChild, rbox2.nextSibling);
@@ -126,8 +126,11 @@ export function initializeAxisLegendUI() {
  * @param {number} axisIndex - The index for the new axis
  * @returns {HTMLElement} - The axis div element
  */
-export function createAxisElement(axisIndex) {
+function createAxisElement(axisIndex) {
   const axisDiv = document.createElement('div');
   axisDiv.innerHTML = axisTemplate(axisIndex);
   return axisDiv.firstElementChild;
 }
+
+
+

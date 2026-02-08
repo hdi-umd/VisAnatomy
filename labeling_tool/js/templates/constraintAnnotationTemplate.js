@@ -5,7 +5,7 @@
 /**
  * Template for constraint annotation section
  */
-export const constraintAnnotationTemplate = () => `
+const constraintAnnotationTemplate = () => `
   <div style="
     position: absolute;
     top: 20px;
@@ -58,7 +58,7 @@ export const constraintAnnotationTemplate = () => `
  * Initialize the constraint annotation UI
  * Call this function on page load to inject the template into the DOM
  */
-export function initializeConstraintAnnotationUI() {
+function initializeConstraintAnnotationUI() {
   const container = document.getElementById('container');
   
   // Find the insertion point (after rbox2)

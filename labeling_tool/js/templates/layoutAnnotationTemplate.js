@@ -5,7 +5,7 @@
 /**
  * Template for layout annotation section
  */
-export const layoutAnnotationTemplate = () => `
+const layoutAnnotationTemplate = () => `
   <div style="
     position: absolute;
     top: 20px;
@@ -99,7 +99,7 @@ export const layoutAnnotationTemplate = () => `
  * Initialize the layout annotation UI
  * Call this function on page load to inject the template into the DOM
  */
-export function initializeLayoutAnnotationUI() {
+function initializeLayoutAnnotationUI() {
   const container = document.getElementById('container');
   
   // Find the insertion point (after rbox2)

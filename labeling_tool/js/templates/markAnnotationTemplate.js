@@ -5,7 +5,7 @@
 /**
  * Template for mark type selection dropdown
  */
-export const markTypeDropdown = () => `
+const markTypeDropdown = () => `
   <select class="fieldType" id="markTypeSelection" onchange="markAnnotationChanged('Type')">
     <option value="none">Not Assigned</option>
     <option value="Straight Line">Straight Line</option>
@@ -27,7 +27,7 @@ export const markTypeDropdown = () => `
 /**
  * Template for area mark baseline selection
  */
-export const areaMarkBaselineDropdown = () => `
+const areaMarkBaselineDropdown = () => `
   <select class="fieldType" id="areaMarkBaselineSelection" onchange="markAnnotationChanged('areaMarkBaseline')">
     <option value="none">Not Assigned</option>
     <option value="Left">Left</option>
@@ -42,7 +42,7 @@ export const areaMarkBaselineDropdown = () => `
 /**
  * Template for mark role dropdown menu
  */
-export const markRoleDropdown = () => `
+const markRoleDropdown = () => `
   <div id="dropdown" class="dropdown">
     <div class="selected-option" onclick="toggleDropdown()">
       Assign a Mark Role
@@ -107,7 +107,7 @@ export const markRoleDropdown = () => `
 /**
  * Template for the mark annotation controls section
  */
-export const markAnnotationControls = () => `
+const markAnnotationControls = () => `
   <div style="width: 100%; padding: 5px">
     <div id="markRoles" style="
       flex-grow: 1;
@@ -135,7 +135,7 @@ export const markAnnotationControls = () => `
 /**
  * Template for mark selection lists
  */
-export const markSelectionLists = () => `
+const markSelectionLists = () => `
   <div style="display: flex; flex-grow: 1; width: 100%; height: 95%">
     <div style="
       padding: 0px;
@@ -176,7 +176,7 @@ export const markSelectionLists = () => `
 /**
  * Template for the complete mark annotation section
  */
-export const markAnnotationSectionTemplate = () => `
+const markAnnotationSectionTemplate = () => `
   <div id="generalizedSelection" style="
     position: absolute;
     top: 20px;
@@ -196,7 +196,7 @@ export const markAnnotationSectionTemplate = () => `
  * Initialize the mark annotation UI
  * Call this function on page load to inject the template into the DOM
  */
-export function initializeMarkAnnotationUI() {
+function initializeMarkAnnotationUI() {
   const container = document.getElementById('container');
   
   // Find the insertion point (after rbox2)

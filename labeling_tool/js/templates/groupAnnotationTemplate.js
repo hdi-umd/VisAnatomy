@@ -5,7 +5,7 @@
 /**
  * Template for higher level groups section
  */
-export const higherLevelGroupsSection = () => `
+const higherLevelGroupsSection = () => `
   <div id="higherLevelGroups" style="
     position: absolute;
     top: 0;
@@ -54,7 +54,7 @@ export const higherLevelGroupsSection = () => `
 /**
  * Template for current section (mark selection and grouping)
  */
-export const currentSectionTemplate = () => `
+const currentSectionTemplate = () => `
   <div id="current-section" style="
     border: 0px solid rgb(102, 105, 105);
     padding: 5px;
@@ -92,7 +92,7 @@ export const currentSectionTemplate = () => `
 /**
  * Template for specified groups section
  */
-export const specifiedGroupsTemplate = () => `
+const specifiedGroupsTemplate = () => `
   <div id="specifiedGroupsHeader" style="margin-top: 20px">
     Current grouping
     <button type="button" onclick="clearGrouping()" style="margin-bottom: 5px">
@@ -121,7 +121,7 @@ export const specifiedGroupsTemplate = () => `
 /**
  * Template for possible other groups container
  */
-export const possibleOtherGroupsTemplate = () => `
+const possibleOtherGroupsTemplate = () => `
   <div id="possibleOtherGroupsContainer" style="
     visibility: hidden;
     border: 2px solid rgb(102, 105, 105);
@@ -146,7 +146,7 @@ export const possibleOtherGroupsTemplate = () => `
 /**
  * Template for the complete group selection section
  */
-export const groupSelectionTemplate = () => `
+const groupSelectionTemplate = () => `
   <div id="groupSelection" style="
     position: absolute;
     top: 20px;
@@ -166,7 +166,7 @@ export const groupSelectionTemplate = () => `
  * Initialize the group annotation UI
  * Call this function on page load to inject the templates into the DOM
  */
-export function initializeGroupAnnotationUI() {
+function initializeGroupAnnotationUI() {
   const container = document.getElementById('container');
   
   // Find the insertion point (after the comment for mark annotation)

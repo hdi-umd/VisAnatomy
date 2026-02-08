@@ -5,7 +5,7 @@
 /**
  * Template for encoding annotation section
  */
-export const encodingAnnotationTemplate = () => `
+const encodingAnnotationTemplate = () => `
   <div style="
     position: absolute;
     top: 20px;
@@ -56,7 +56,7 @@ export const encodingAnnotationTemplate = () => `
  * Initialize the encoding annotation UI
  * Call this function on page load to inject the template into the DOM
  */
-export function initializeEncodingAnnotationUI() {
+function initializeEncodingAnnotationUI() {
   const container = document.getElementById('container');
   
   // Find the insertion point (after rbox2)
