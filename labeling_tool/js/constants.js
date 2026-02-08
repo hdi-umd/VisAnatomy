@@ -1,5 +1,5 @@
-const FieldTypes = Object.freeze({
-  NUMBER: 'numbers',
-  DATE: 'dates',
-  STRING: 'categories'
+const FieldType = Object.freeze({
+  NUMBER: 'number',
+  DATE: 'date',
+  STRING: 'string'
 });

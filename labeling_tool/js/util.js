@@ -437,14 +437,6 @@ function KeyPress(e) {
   }
 }
 
-const DataType = {
-  Boolean: "boolean",
-  Integer: "integer",
-  Number: "number",
-  Date: "date",
-  String: "string",
-};
-
 var isValidType = {
   boolean: function (x) {
     return (
@@ -469,24 +461,6 @@ var isValidType = {
   },
 };
 
-function _inferType(values) {
-  //check for %
-  let vals = values.map((d) => d.replace("%", ""));
-  var types = Object.values(DataType);
-  for (let i = 0; i < vals.length; i++) {
-    let v = vals[i];
-    if (v == null) continue;
-    for (let j = 0; j < types.length; j++) {
-      if (!isValidType[types[j]](v)) {
-        types.splice(j, 1);
-        j -= 1;
-      }
-    }
-    if (types.length == 1) return types[0];
-  }
-  return types[0];
-}
-
 function findSubArray(arr, subarr, from_index) {
   var i = from_index >>> 0,
     sl = subarr.length,
@@ -499,17 +473,17 @@ function findSubArray(arr, subarr, from_index) {
   return -1;
 }
 
-function typeByAtlas(type) {
-  switch (type) {
-    case "date":
-      return "date";
-    case "string":
-    case "boolean":
-      return "string";
-    case "integer":
-    case "number":
-      return "number";
-  }
+// function typeByAtlas(type) {
+//   switch (type) {
+//     case FieldType.DATE:
+//       return FieldType.DATE;
+//     case FieldType.STRING:
+//     case "boolean":
+//       return FieldType.STRING;
+//     case "integer":
+//     case FieldType.NUMBER:
+//       return FieldType.NUMBER;
+//   }
 
   // if (XLabelsExist) {
   //     const dt = aq.fromCSV('a,b\n1,2\n3,4')
@@ -523,7 +497,7 @@ function typeByAtlas(type) {
   //     const aty = dt.toArrow();
   //     console.log(aty.U.children['0'].type)
   // }
-}
+//}
 
 // below are merged from the Mystique repo on 03/01/2022
 

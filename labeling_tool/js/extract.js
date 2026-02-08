@@ -443,7 +443,9 @@ function findAxisInArea(o, tl, br, texts) {
   axis["ticks"] = [];
   axis["path"] = [];
   axis["title"] = [];
-  axis["attrType"] = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+  axis["attrType"] = inferDataType(labels.map((xl) => xl.content));
+  
+  //typeByAtlas(_inferType(labels.map((xl) => xl.content)));
 
   //remove from main content and the other axis/legend
   for (let l of labels) {

@@ -116,7 +116,8 @@ function displayAxis(index) {
     if (labels.length === 0) {
       type = "Null";
     } else {
-      type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+      //type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+      type = inferDataType(labels.map((xl) => xl.content));
     }
     axis.attrType = type;
   }
@@ -217,7 +218,8 @@ function displayLegend(legend) {
   if (labels.length === 0) {
     type = "Null";
   } else {
-    type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+    //type = typeByAtlas(_inferType(labels.map((xl) => xl.content)));
+    type = inferDataType(labels.map((xl) => xl.content));
   }
   d3.select("#legendFieldType").property("value", type);
 

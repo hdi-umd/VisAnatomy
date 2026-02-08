@@ -11,16 +11,17 @@ function inferDataType(values) {
   if (!values || values.length === 0) return 'string';
   
   // Filter out empty values
-  const nonEmptyValues = values.filter(v => v !== null && v !== undefined && v !== '');
+  let nonEmptyValues = values.filter(v => v !== null && v !== undefined && v !== '');
   if (nonEmptyValues.length === 0) return 'string';
   
   // Check if all non-empty values are numbers
+  nonEmptyValues = nonEmptyValues.map((d) => d.replace("%", ""));
   const allNumbers = nonEmptyValues.every(v => {
     const num = Number(v);
     return !isNaN(num) && v.toString().trim() !== '';
   });
   
-  if (allNumbers) return 'number';
+  if (allNumbers) return FieldType.NUMBER;
   
   // Check if values look like dates
   const datePatterns = [
@@ -35,10 +36,28 @@ function inferDataType(values) {
     return datePatterns.some(pattern => pattern.test(str)) || !isNaN(Date.parse(str));
   }).length / nonEmptyValues.length > 0.5;
   
-  if (mostlyDates) return 'date';
+  if (mostlyDates) return FieldType.DATE;
   
-  return 'string';
+  return FieldType.STRING;
 }
+
+// function _inferType(values) {
+//   //check for %
+//   let vals = values.map((d) => d.replace("%", ""));
+//   var types = Object.values(FieldType);
+//   for (let i = 0; i < vals.length; i++) {
+//     let v = vals[i];
+//     if (v == null) continue;
+//     for (let j = 0; j < types.length; j++) {
+//       if (!isValidType[types[j]](v)) {
+//         types.splice(j, 1);
+//         j -= 1;
+//       }
+//     }
+//     if (types.length == 1) return types[0];
+//   }
+//   return types[0];
+// }
 
 /**
  * Check if a CSV file exists on the server
@@ -102,11 +121,7 @@ function displayTable(headers, rows) {
   if (!VA.csvDataTypes || VA.csvDataTypes.length !== headers.length) {
     VA.csvDataTypes = headers.map((header, idx) => {
       const columnValues = rows.map(row => row[idx]);
-      const inferredType = inferDataType(columnValues);
-      // Map to FieldTypes format
-      if (inferredType === 'number') return FieldTypes.NUMBER;
-      if (inferredType === 'date') return FieldTypes.DATE;
-      return FieldTypes.STRING;
+      return inferDataType(columnValues);
     });
   }
 
@@ -139,7 +154,7 @@ function displayTable(headers, rows) {
       select.style.backgroundColor = '#fff';
       
       // Add options from FieldTypes
-      Object.values(FieldTypes).forEach(type => {
+      Object.values(FieldType).forEach(type => {
         const option = document.createElement('option');
         option.value = type;
         option.textContent = type;
