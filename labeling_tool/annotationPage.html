@@ -26,12 +26,14 @@
   <script type="text/javascript" src="labeling_tool/js/updateUI/group.js"> </script>
   <script type="text/javascript" src="labeling_tool/js/updateUI/layout.js"> </script>
   <script type="text/javascript" src="labeling_tool/js/updateUI/encoding.js"> </script>
+  <script type="text/javascript" src="labeling_tool/js/updateUI/mapping.js"> </script>
   <script type="text/javascript" src="labeling_tool/js/updateUI/constraint.js"> </script>
   <script type="text/javascript" src="labeling_tool/js/templates/axisLegendTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/templates/markAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/templates/groupAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/templates/layoutAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/templates/encodingAnnotationTemplate.js"></script>
+  <script type="text/javascript" src="labeling_tool/js/templates/mappingAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/templates/constraintAnnotationTemplate.js"></script>
   <script type="text/javascript" src="labeling_tool/js/html2canvas.min.js"></script>
   <script type="text/javascript" src="labeling_tool/js/constants.js"></script>
@@ -216,6 +218,7 @@
       initializeGroupAnnotationUI();
       initializeLayoutAnnotationUI();
       initializeEncodingAnnotationUI();
+      initializeMappingAnnotationUI();
       initializeConstraintAnnotationUI();
       
       // Initialize breadcrumb navigation
@@ -232,7 +235,7 @@
       "Groups",
       "Layout",
       "Encodings",
-      "Constraints",
+      "Data Mappings",
     ];
 
     var currentSectionIndex = 0;
@@ -274,6 +277,50 @@
       arrangeAnnotationDivs(sectionTitles[currentSectionIndex]);
     }
 
+    function updateAnnotationDivVisibility(visibilityConfig) {
+      // Default all divs to hidden first
+      const allDivs = {
+        "chartDatasetDiv": "hidden",
+        "chartTitleDiv": "hidden", 
+        "axisAndLegend": "hidden",
+        "generalizedSelection": "hidden",
+        "groupSelection": "hidden",
+        "possibleOtherGroupsContainer": "hidden",
+        "higherLevelGroups": "hidden"
+      };
+      
+      const allD3Selectors = {
+        "#current-section": "hidden",
+        "#specifiedGroups": "hidden", 
+        "#specifiedGroupsHeader": "hidden",
+        "#higherGroupBtn": "hidden",
+        "#EncodingAnnotation": "hidden",
+        "#EncodingSpec": "hidden",
+        "#LayoutAnnotation": "hidden",
+        "#LayoutSpec": "hidden",
+        "#MappingAnnotation": "hidden",
+        "#ConstraintAnnotation": "hidden",
+        "#ConstraintSpec": "hidden"
+      };
+
+      // Apply custom visibility settings
+      Object.assign(allDivs, visibilityConfig.divs || {});
+      Object.assign(allD3Selectors, visibilityConfig.d3Selectors || {});
+
+      // Set visibility for regular elements
+      Object.entries(allDivs).forEach(([id, visibility]) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.style.visibility = visibility;
+        }
+      });
+
+      // Set visibility for D3 selections
+      Object.entries(allD3Selectors).forEach(([selector, visibility]) => {
+        d3.select(selector).style("visibility", visibility);
+      });
+    }
+
     function arrangeAnnotationDivs(currentStage) {
       switch (currentStage) {
         case "Axis & Legend":
@@ -289,28 +336,14 @@
             .forEach((r) => {
               if (r.length > 0) d3.select("#" + r).style("opacity", "1");
             });
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          document.getElementById("chartTitleDiv").style.visibility =
-            "visible";
-          document.getElementById("axisAndLegend").style.visibility =
-            "visible";
-          document.getElementById("generalizedSelection").style.visibility =
-            "hidden";
-          document.getElementById("groupSelection").style.visibility =
-            "hidden";
-          document.getElementById(
-            "possibleOtherGroupsContainer"
-          ).style.visibility = "hidden";
-          d3.select("#current-section").style("visibility", "hidden");
-          d3.select("#specifiedGroups").style("visibility", "hidden");
-          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-          d3.select("#higherGroupBtn").style("visibility", "hidden");
-          document.getElementById("higherLevelGroups").style.visibility =
-            "hidden";
-          d3.select("#EncodingAnnotation").style("visibility", "hidden");
-          d3.select("#EncodingSpec").style("visibility", "hidden");
-          d3.select("#LayoutAnnotation").style("visibility", "hidden");
-          d3.select("#LayoutSpec").style("visibility", "hidden");
+
+          updateAnnotationDivVisibility({
+            divs: {
+              "chartTitleDiv": "visible",
+              "axisAndLegend": "visible"
+            }
+          });
+
           d3.select("#vis")
             .on("mousedown", null)
             .on("mouseup", null)
@@ -324,9 +357,6 @@
           }
           break;
         case "Marks":
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          document.getElementById("chartTitleDiv").style.visibility =
-            "hidden";
           allSVGElementID.forEach((rid) => {
             d3.select("#" + rid).style("opacity", "1");
           });
@@ -338,21 +368,12 @@
           document.getElementById("numberOfMarksSelected").innerHTML = "0";
           initilizeMarkAnnotation();
 
-          document.getElementById("axisAndLegend").style.visibility =
-            "hidden";
-          document.getElementById("generalizedSelection").style.visibility =
-            "visible";
-          document.getElementById("groupSelection").style.visibility =
-            "hidden";
-          d3.select("#current-section").style("visibility", "hidden");
-          d3.select("#specifiedGroups").style("visibility", "hidden");
-          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-          d3.select("#higherGroupBtn").style("visibility", "hidden");
-          document.getElementById(
-            "possibleOtherGroupsContainer"
-          ).style.visibility = "hidden";
-          document.getElementById("higherLevelGroups").style.visibility =
-            "hidden";
+          updateAnnotationDivVisibility({
+            divs: {
+              "generalizedSelection": "visible"
+            }
+          });
+
           d3.select("#vis")
             .on("mousedown", null)
             .on("mouseup", null)
@@ -363,38 +384,30 @@
 
           break;
         case "Groups":
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          d3.select("#LayoutAnnotation").style("visibility", "hidden");
-          d3.select("#LayoutSpec").style("visibility", "hidden");
-          document.getElementById("axisAndLegend").style.visibility =
-            "hidden";
-          document.getElementById("generalizedSelection").style.visibility =
-            "hidden";
-          document.getElementById("groupSelection").style.visibility =
-            "visible";
-          d3.select("#current-section").style("visibility", "visible");
-          d3.select("#specifiedGroups").style("visibility", "visible");
-          d3.select("#specifiedGroupsHeader").style("visibility", "visible");
-          d3.select("#higherGroupBtn").style("visibility", "visible");
-          document.getElementById("higherLevelGroups").style.visibility =
-            "hidden";
+          updateAnnotationDivVisibility({
+            divs: {
+              "groupSelection": "visible"
+            },
+            d3Selectors: {
+              "#current-section": "visible",
+              "#specifiedGroups": "visible",
+              "#specifiedGroupsHeader": "visible",
+              "#higherGroupBtn": "visible"
+            }
+          });
+          
           initilizeGroupAnnotation();
           break;
         case "Layout":
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          d3.select("#EncodingAnnotation").style("visibility", "hidden");
-          d3.select("#EncodingSpec").style("visibility", "hidden");
-          d3.select("#LayoutAnnotation").style("visibility", "visible");
-          d3.select("#LayoutSpec").style("visibility", "visible");
+          updateAnnotationDivVisibility({
+            d3Selectors: {
+              "#LayoutAnnotation": "visible",
+              "#LayoutSpec": "visible"
+            }
+          });
+
           initilizeLayoutAnnotation();
-          document.getElementById("groupSelection").style.visibility =
-            "hidden";
-          d3.select("#current-section").style("visibility", "hidden");
-          d3.select("#specifiedGroups").style("visibility", "hidden");
-          d3.select("#specifiedGroupsHeader").style("visibility", "hidden");
-          d3.select("#higherGroupBtn").style("visibility", "hidden");
-          document.getElementById("higherLevelGroups").style.visibility =
-            "hidden";
+
           d3.select("#vis")
             .on("mousedown", null)
             .on("mouseup", null)
@@ -404,35 +417,43 @@
             .style("pointer-events", "none");
           break;
         case "Encodings":
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
           d3.select("#rbox1")
             .selectAll("text")
             .style("opacity", "0.3")
             .style("pointer-events", "none")
             .selectAll("tspan")
             .style("opacity", "0.3");
-          d3.select("#LayoutAnnotation").style("visibility", "hidden");
-          d3.select("#LayoutSpec").style("visibility", "hidden");
-          d3.select("#ConstraintAnnotation").style("visibility", "hidden");
-          d3.select("#ConstraintSpec").style("visibility", "hidden");
-          d3.select("#EncodingAnnotation").style("visibility", "visible");
-          d3.select("#EncodingSpec").style("visibility", "visible");
+
+          updateAnnotationDivVisibility({
+            d3Selectors: {
+              "#EncodingAnnotation": "visible",
+              "#EncodingSpec": "visible"
+            }
+          });
+          
           initilizeEncodingAnnotation();
           break;
+        case "Data Mappings":
+          updateAnnotationDivVisibility({
+            d3Selectors: {
+              "#MappingAnnotation": "visible"
+            }
+          });
+          
+          initilizeMappingAnnotation();
+          break;
         case "Constraints":
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          d3.select("#EncodingAnnotation").style("visibility", "hidden");
-          d3.select("#EncodingSpec").style("visibility", "hidden");
-          d3.select("#ConstraintAnnotation").style("visibility", "visible");
-          d3.select("#ConstraintSpec").style("visibility", "visible");
+          updateAnnotationDivVisibility({
+            d3Selectors: {
+              "#ConstraintAnnotation": "visible",
+              "#ConstraintSpec": "visible"
+            }
+          });
+          
           initilizeConstraintAnnotation();
           break;
         default:
-          document.getElementById("chartDatasetDiv").style.visibility = "hidden";
-          document.getElementById("axisAndLegend").style.visibility =
-            "hidden";
-          document.getElementById("generalizedSelection").style.visibility =
-            "hidden";
+          updateAnnotationDivVisibility({});
           break;
       }
     }
