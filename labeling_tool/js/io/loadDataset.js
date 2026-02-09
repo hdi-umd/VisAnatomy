@@ -280,7 +280,7 @@ function columnSelectionChanged(axisIndex) {
   if (!VA.axes[axisIndex]) {
     VA.axes[axisIndex] = {labels: [], attrType: "Null", title: [], channel: "x", ticks: [], path: []};
   }
-  VA.axes[axisIndex].dataColumn = selectedColumn;
+  VA.axes[axisIndex].attr = selectedColumn;
 }
 
 /**

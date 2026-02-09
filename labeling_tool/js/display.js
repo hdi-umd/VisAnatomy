@@ -142,8 +142,15 @@ function displayAxis(index) {
   if (VA.dataset) {
     attrSelect.style("display", "inline-block");
     
-    // Clear existing options except the first one
-    attrSelect.selectAll("option").remove();
+    // Clear existing header options only (keep default option)
+    attrSelect.selectAll("option.header-option").remove();
+    
+    // Add default "Select Column" option if it doesn't exist
+    if (attrSelect.selectAll("option").empty()) {
+      attrSelect.append("option")
+        .attr("value", undefined)
+        .text("");
+    }
     
     // Populate with dataset headers
     attrSelect.selectAll("option.header-option")
@@ -152,7 +159,9 @@ function displayAxis(index) {
       .append("option")
       .attr("class", "header-option")
       .attr("value", d => d)
-      .text(d => d);    
+      .text(d => d); 
+    // Set selected value
+    attrSelect.property("value", axis.attr ? axis.attr : undefined);
   } else {
     attrSelect.style("display", "none");
   }
