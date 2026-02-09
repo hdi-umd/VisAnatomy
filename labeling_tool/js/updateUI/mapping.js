@@ -33,6 +33,35 @@ function createDataScopeAnnotation(item, depth = 0) {
         annotationDiv.querySelector('span').textContent = `Mark ${item.id || item}`;
     }
 
+    // Populate the dropdown with data scope options
+    const dropdown = annotationDiv.querySelector('select');
+    if (dropdown) {
+        // Clear existing options
+        dropdown.innerHTML = '';
+        
+        // Add "entire dataset" option (undefined value)
+        const entireDatasetOption = document.createElement('option');
+        entireDatasetOption.value = undefined;
+        entireDatasetOption.textContent = 'entire dataset';
+        dropdown.appendChild(entireDatasetOption);
+        
+        // Add dataset headers if available
+        if (VA.dataset && VA.dataset.header) {
+            VA.dataset.header.forEach(header => {
+                const option = document.createElement('option');
+                option.value = header;
+                option.textContent = header;
+                dropdown.appendChild(option);
+            });
+        }
+        
+        // Add "data row" option
+        const dataRowOption = document.createElement('option');
+        dataRowOption.value = 'data row';
+        dataRowOption.textContent = 'data row';
+        dropdown.appendChild(dataRowOption);
+    }
+
     return annotationDiv;
 }
 
