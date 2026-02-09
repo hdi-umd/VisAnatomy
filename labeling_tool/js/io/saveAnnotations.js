@@ -57,6 +57,7 @@ function prepareAnnotationsForSaving() {
       );
   VA.annotations.grouping = VA.grouping;
   VA.annotations.encodingInfo = VA.objectEncodings;
+  VA.annotations.mappings = VA.mappings;
   VA.annotations.referenceElements = {};
 
   let polylines = Object.keys(VA.allElements).filter(

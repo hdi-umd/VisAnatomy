@@ -21,6 +21,7 @@ function initilizeVariables() {
   VA.objectEncodings = {};
   VA.textObjectLinking = {};
   VA.dataset = undefined;
+  VA.mappings = {};
 }
 
 /**

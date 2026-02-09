@@ -5,6 +5,33 @@ function initilizeMappingAnnotation() {
         dataScopeDiv.innerHTML = '';
     }
 
+    // Initialize VA.mappings.dataScopes with correct number of levels
+    if (!VA.mappings) {
+        VA.mappings = {};
+    }
+    
+    // Calculate the maximum depth in VA.grouping hierarchy
+    function getMaxDepth(items, currentDepth = 0) {
+        let maxDepth = currentDepth;
+        if (items && Array.isArray(items)) {
+            items.forEach(item => {
+                if (item.children && Array.isArray(item.children) && item.children.length > 0) {
+                    if (typeof item.children[0] === 'object') {
+                        // Nested groups
+                        maxDepth = Math.max(maxDepth, getMaxDepth(item.children, currentDepth + 1));
+                    } else {
+                        // Leaf group - children are mark IDs, add one more level
+                        maxDepth = Math.max(maxDepth, currentDepth + 1);
+                    }
+                }
+            });
+        }
+        return maxDepth;
+    }
+    
+    const numLevels = VA.grouping && VA.grouping.length > 0 ? getMaxDepth(VA.grouping) + 1 : 0;
+    VA.mappings.dataScopes = new Array(numLevels).fill('');
+
     // Process each top-level group or mark in VA.grouping
     if (VA.grouping && VA.grouping.length > 0) {
         VA.grouping.forEach(item => {
@@ -41,7 +68,7 @@ function createDataScopeAnnotation(item, depth = 0) {
         
         // Add "entire dataset" option (undefined value)
         const entireDatasetOption = document.createElement('option');
-        entireDatasetOption.value = undefined;
+        entireDatasetOption.value = "";
         entireDatasetOption.textContent = 'entire dataset';
         dropdown.appendChild(entireDatasetOption);
         
@@ -60,6 +87,22 @@ function createDataScopeAnnotation(item, depth = 0) {
         dataRowOption.value = 'data row';
         dataRowOption.textContent = 'data row';
         dropdown.appendChild(dataRowOption);
+        
+        // Add change event listener to update VA.mappings.dataScopes
+        dropdown.addEventListener('change', function(event) {
+            const selectedValue = event.target.value;
+            const depth = parseInt(annotationDiv.getAttribute('data-depth'));
+            
+            // Ensure the array is large enough
+            while (VA.mappings.dataScopes.length <= depth) {
+                VA.mappings.dataScopes.push(undefined);
+            }
+            
+            // Update the appropriate index
+            VA.mappings.dataScopes[depth] = selectedValue;
+            
+            console.log('Updated VA.mappings.dataScopes:', VA.mappings.dataScopes);
+        });
     }
 
     return annotationDiv;

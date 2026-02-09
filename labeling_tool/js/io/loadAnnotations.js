@@ -29,7 +29,7 @@ function tryLoadAnnotations(filename) {
       loadEncodings(annotations);
       loadConstraints(annotations);
       loadTitles(annotations);
-      
+      loadMappings(annotations);
       // Resolve element ID references to full objects
       resolveElementReferences();
       
@@ -131,6 +131,10 @@ function loadEncodings(annotations) {
  */
 function loadConstraints(annotations) {
   VA.textObjectLinking = annotations.textObjectLinking ? annotations.textObjectLinking : {};
+}
+
+function loadMappings(annotations) {
+  VA.mappings = annotations.mappings ? annotations.mappings : {};
 }
 
 /**

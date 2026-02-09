@@ -429,7 +429,9 @@
             "fill": "#7c868e",
             "isReferenceElement": false,
             "stroke": "undefined",
-            "strokeWidth": "undefined"
+            "strokeWidth": "undefined",
+            "type": "none",
+            "role": "none"
         },
         "tspan0": {
             "left": 652.5,
@@ -532,6 +534,12 @@
             "width"
         ]
     },
+    "mappings": {
+        "dataScopes": [
+            "",
+            "data row"
+        ]
+    },
     "referenceElements": {
         "xGridlines": [],
         "yGridlines": [],
@@ -553,8 +561,7 @@
                     "text7"
                 ],
                 "attrType": "number",
-                "channel": "x",
-                "attr": "value"
+                "channel": "x"
             },
             {
                 "labels": [
@@ -574,8 +581,7 @@
                     "text1"
                 ],
                 "attrType": "string",
-                "channel": "y",
-                "attr": "x"
+                "channel": "y"
             }
         ],
         "legend": {
