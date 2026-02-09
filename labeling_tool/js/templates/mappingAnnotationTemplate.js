@@ -30,8 +30,8 @@ const dataScopeAnnotationTemplate = () => `
 const encodingDataColumnAnnotationTemplate = () => `
     <div style="padding: 8px; border: 1px solid rgb(204, 204, 204); margin-bottom: 2px; background-color: rgb(229, 255, 255); display: flex; flex-direction: column; align-items: flex-start;">
         <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 5px;">
-            <span style="font-weight: bold; margin-right: 10px; min-width: 50px;">enc1</span>
-            <span>circle0: x</span>
+            <span class="encID" style="font-weight: bold; margin-right: 10px; min-width: 50px;"></span>
+            <span class="encDescription"></span>
         </div>
         <div style="display: flex; flex-flow: row; align-items: center; margin-top: 5px; width: 100%;">
             <span style="margin-right: 5px; white-space: nowrap;">Data Column: </span>

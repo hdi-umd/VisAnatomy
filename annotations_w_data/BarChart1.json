@@ -535,9 +535,18 @@
         ]
     },
     "mappings": {
+        "encodings": {
+            "path4": {
+                "width": {
+                    "id": "enc1",
+                    "attr": "value",
+                    "scaleType": "linear"
+                }
+            }
+        },
         "dataScopes": [
             "",
-            "data row"
+            "x"
         ]
     },
     "referenceElements": {
