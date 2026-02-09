@@ -19,7 +19,7 @@ const mappingAnnotationTemplate = () => `
 
 const dataScopeAnnotationTemplate = () => `
     <div data-depth="0" data-id="0" data-type="group" style="padding: 8px; border: 1px solid rgb(204, 204, 204); margin-bottom: 2px; background-color: rgb(229, 255, 255); display: flex; flex-direction: column; align-items: flex-start;">
-        <span>Group 0</span>
+        <span style="font-weight: bold;">Group 0</span>
         <div style="display: flex; flex-flow: row; align-items: center; margin-top: 5px; width: 100%;">
             <span style="margin-right: 5px; white-space: nowrap;">Data Scope: </span>
             <select style="flex-grow: 1; width: auto;"></select>
