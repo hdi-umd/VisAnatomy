@@ -40,18 +40,12 @@ function legendFieldTypeChanged() {
     VA.legend.marks = [];
     VA.legend.mapping = {};
     displayLegend(VA.legend);
-    
-    // Hide column dropdown when field type is Null
-    const columnSelect = document.getElementById('legendColumnSelect');
-    if (columnSelect) {
-      columnSelect.style.display = 'none';
-    }
-  } else {
-    // Show column dropdown when field type is not Null and CSV columns are available
-    const columnSelect = document.getElementById('legendColumnSelect');
-    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
-      columnSelect.style.display = 'inline-block';
-    }
+  }
+  
+  // Always show column dropdown when CSV columns are available, regardless of field type
+  const columnSelect = document.getElementById('legendColumnSelect');
+  if (columnSelect && VA.csvColumns && VA.csvColumns.length > 0) {
+    columnSelect.style.display = 'inline-block';
   }
 }
 
@@ -80,7 +74,7 @@ function fieldTypeChanged(index) {
   } else {
     // Show column dropdown when field type is not Null and CSV columns are available
     const columnSelect = document.getElementById(`columnSelect_${index}`);
-    if (columnSelect && window.csvColumns && window.csvColumns.length > 0) {
+    if (columnSelect && VA.csvColumns && VA.csvColumns.length > 0) {
       columnSelect.style.display = 'inline-block';
     }
   }

@@ -204,7 +204,7 @@ function displayTable(headers, rows) {
   });
 
   // Populate all column dropdowns
-  populateColumnDropdowns();
+  //populateColumnDropdowns();
 }
 
 /**
@@ -212,60 +212,45 @@ function displayTable(headers, rows) {
  * @param {number} index - The index of the column to update
  * @param {string} newValue - The new header value
  */
-function updateColumnHeader(index, newValue) {
-  if (!newValue.trim()) {
-    newValue = `Column ${index + 1}`;
-  }
+// function updateColumnHeader(index, newValue) {
+//   if (!newValue.trim()) {
+//     newValue = `Column ${index + 1}`;
+//   }
   
-  // Update the global csvColumns array
-  VA.csvColumns[index] = newValue;
+//   // Update the global csvColumns array
+//   VA.csvColumns[index] = newValue;
   
-  // Update all dropdown options
-  populateColumnDropdowns();
+//   // Update all dropdown options
+//   populateColumnDropdowns();
   
-  console.log(`Column ${index} renamed to: ${newValue}`);
-}
+//   console.log(`Column ${index} renamed to: ${newValue}`);
+// }
 
-/**
- * Populate column dropdowns with available CSV columns
- */
-function populateColumnDropdowns() {
-  if (!VA.csvColumns) return;
 
-  // Populate existing axis column dropdowns
-  document.querySelectorAll('.columnSelect').forEach(select => {
-    // Clear existing options except the first default option
-    while (select.options.length > 1) {
-      select.remove(1);
-    }
-
-    // Add CSV columns as options
-    VA.csvColumns.forEach(column => {
-      const option = document.createElement('option');
-      option.value = column;
-      option.textContent = column;
-      select.appendChild(option);
-    });
-  });
-}
 
 /**
  * Show column dropdown selectors
  */
-function showColumnDropdowns() {
-  document.querySelectorAll('.columnSelect').forEach(select => {
-    select.style.display = 'inline-block';
-  });
-}
+// function showColumnDropdowns() {
+//   document.querySelectorAll('.columnSelect').forEach(select => {
+//     select.style.display = 'inline-block';
+//   });
+  
+//   // Special handling for legend column selector
+//   // const legendColumnSelect = document.getElementById('legendColumnSelect');
+//   // if (legendColumnSelect && VA.csvColumns && VA.csvColumns.length > 0) {
+//   //   legendColumnSelect.style.display = 'inline-block';
+//   // }
+// }
 
 /**
  * Hide column dropdown selectors
  */
-function hideColumnDropdowns() {
-  document.querySelectorAll('.columnSelect').forEach(select => {
-    select.style.display = 'none';
-  });
-}
+// function hideColumnDropdowns() {
+//   document.querySelectorAll('.columnSelect').forEach(select => {
+//     select.style.display = 'none';
+//   });
+// }
 
 /**
  * Handle column selection change for an axis
@@ -292,8 +277,8 @@ function legendColumnSelectionChanged() {
   console.log(`Legend mapped to column: ${selectedColumn}`);
 
   // Store the mapping in the legend object
-  if (!window.legend) {
-    window.legend = {};
+  if (!VA.legend) {
+    VA.legend = {};
   }
-  window.legend.dataColumn = selectedColumn;
+  VA.legend.attr = selectedColumn;
 }

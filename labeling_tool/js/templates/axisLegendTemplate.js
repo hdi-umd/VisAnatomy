@@ -13,7 +13,7 @@ const chartTitleTemplate = () => `
  * @param {number} axisIndex - The index of the axis (1, 2, etc.)
  */
 const axisTemplate = (axisIndex) => `
-  <div class="axisDiv" id="axis_${axisIndex}">
+  <div class="refElemDiv" id="axis_${axisIndex}">
     <div class="axisRow">
       <span class="deleteAxis" onclick="deleteAxis(${axisIndex})">
         <svg width="20" height="20">
@@ -56,7 +56,7 @@ const axisTemplate = (axisIndex) => `
  * Template for Legend section
  */
 const legendTemplate = () => `
-  <div class="axisDiv">
+  <div class="refElemDiv">
     <div class="axisRow">
       <div class="axisMeta">
         <b>Legend</b>
@@ -67,8 +67,7 @@ const legendTemplate = () => `
           <option value="date">dates</option>
         </select>
         <select class="columnSelect" id="legendColumnSelect" onchange="legendColumnSelectionChanged()"
-          style="width: 120px; font-size: 12px; margin-left: 5px; display: none">
-          <option value="">Select Column</option>
+          style="width: 100px; font-size: 12px; margin-left: 5px; display: none">
         </select>
         <input type="image" src="labeling_tool/img/select-area.png" id="legendArea"
           onclick="activateAreaSelect('legend');" width="16px" height="16px" class="selectAreaBtn" />

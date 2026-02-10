@@ -176,14 +176,14 @@ function resolveElementReferences() {
  */
 function displayLoadedAxes() {
   VA.axes.forEach((axis, index) => {
-    //console.log("loading axis", index, VA.axes[index]);
     // Ensure the axis div exists before trying to display it
     if (!document.getElementById(`axis_${index}`)) {
-      addAxisConfiguration(index);  // Pass index to create div without initializing data
+        addAxisConfiguration(index);  // Pass index to create div without initializing data
+    } else {
+      console.log("axis div already exists for index", index);
     }
     displayAxis(index);
   });
-  //console.log("finish loading axes");
   // Update axisCount to match the number of axes
   axisCount = VA.axes.length;
 }

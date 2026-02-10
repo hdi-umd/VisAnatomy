@@ -138,33 +138,7 @@ function displayAxis(index) {
     console.warn(`Element axisType_${index} not found when trying to set value`);
   }
 
-  const attrSelect = d3.select("#columnSelect_"+index);
-  if (VA.dataset) {
-    attrSelect.style("display", "inline-block");
-    
-    // Clear existing header options only (keep default option)
-    attrSelect.selectAll("option.header-option").remove();
-    
-    // Add default "Select Column" option if it doesn't exist
-    if (attrSelect.selectAll("option").empty()) {
-      attrSelect.append("option")
-        .attr("value", undefined)
-        .text("");
-    }
-    
-    // Populate with dataset headers
-    attrSelect.selectAll("option.header-option")
-      .data(VA.dataset.header)
-      .enter()
-      .append("option")
-      .attr("class", "header-option")
-      .attr("value", d => d)
-      .text(d => d); 
-    // Set selected value
-    attrSelect.property("value", axis.attr ? axis.attr : undefined);
-  } else {
-    attrSelect.style("display", "none");
-  }
+  populateColumnSelect("columnSelect_"+index, axis.attr ? axis.attr : undefined);
 
   labels = labels.sort((a, b) =>
     parseFloat(a.id.substring(4)) > parseFloat(b.id.substring(4)) ? 1 : -1
@@ -250,6 +224,9 @@ function displayLegend(legend) {
     type = inferDataType(labels.map((xl) => xl.content));
   }
   d3.select("#legendFieldType").property("value", type);
+
+  populateColumnSelect("legendColumnSelect", legend.attr ? legend.attr : undefined);
+
 
   labels = labels.sort((a, b) =>
     parseFloat(a.id.substring(4)) > parseFloat(b.id.substring(4)) ? 1 : -1
