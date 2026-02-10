@@ -196,8 +196,8 @@ function updateEncoding(key, channel, property, value, encId) {
     console.log('Updated VA.mappings.encodings:', VA.mappings.encodings);
 }
 
-// Helper function to create encoding annotation div
-function createEncodingDiv(key, encodings) {
+// Helper function to create encoding annotation div for a single channel
+function createEncodingDiv(key, channel) {
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = encodingDataColumnAnnotationTemplate();
     const annotationDiv = tempDiv.firstElementChild;
@@ -211,7 +211,7 @@ function createEncodingDiv(key, encodings) {
     
     if (encLabel && encDescription) {
         encLabel.textContent = encId;
-        encDescription.textContent = `${key}:${encodings.join(', ')}`;
+        encDescription.textContent = `${key}: ${channel}`;
         
         // Add hover highlighting functionality to the encDescription span
         let marks = [];
@@ -267,14 +267,17 @@ function createEncodingDiv(key, encodings) {
     const checkbox = annotationDiv.querySelector('input[type="checkbox"]');
     const checkboxLabel = annotationDiv.querySelector('label');
     if (checkbox && checkboxLabel) {
-        const uniqueId = key.replace(/\s+/g, '_') + '_includeZero';
+        const uniqueId = `${key.replace(/\s+/g, '_')}_${channel}_includeZero`;
         checkbox.id = uniqueId;
         checkboxLabel.setAttribute('for', uniqueId);
     }
 
-    // Initialize encodings structure for this key
+    // Initialize encodings structure for this key and channel
     if (!VA.mappings.encodings[key]) {
         VA.mappings.encodings[key] = {};
+    }
+    if (!VA.mappings.encodings[key][channel]) {
+        VA.mappings.encodings[key][channel] = { id: encId };
     }
 
     // Add event listeners to update VA.mappings.encodings
@@ -282,46 +285,38 @@ function createEncodingDiv(key, encodings) {
     const shareScaleSelect = dropdowns[1]; // Second dropdown is Share scale with
     const scaleTypeSelect = dropdowns[2]; // Third dropdown is Scale type
 
-    // Add event listeners for each encoding channel
-    encodings.forEach((channel, index) => {
-        // Initialize the channel if it doesn't exist
-        if (!VA.mappings.encodings[key][channel]) {
-            VA.mappings.encodings[key][channel] = { id: encId };
-        }
+    // Data Column dropdown
+    if (dataColumnSelect) {
+        dataColumnSelect.addEventListener('change', function(event) {
+            updateEncoding(key, channel, 'attr', event.target.value, encId);
+        });
+    }
 
-        // Data Column dropdown
-        if (dataColumnSelect) {
-            dataColumnSelect.addEventListener('change', function(event) {
-                updateEncoding(key, channel, 'attr', event.target.value, encId);
-            });
-        }
+    // Scale Type dropdown
+    if (scaleTypeSelect) {
+        // Populate scale type options
+        scaleTypeSelect.innerHTML = '';
+        const scaleTypes = ['', 'linear', 'log', 'sqrt', 'pow'];
+        scaleTypes.forEach(type => {
+            const option = document.createElement('option');
+            option.value = type;
+            option.textContent = type || 'Select...';
+            scaleTypeSelect.appendChild(option);
+        });
 
-        // Scale Type dropdown
-        if (scaleTypeSelect) {
-            // Populate scale type options
-            scaleTypeSelect.innerHTML = '';
-            const scaleTypes = ['', 'linear', 'log', 'sqrt', 'pow'];
-            scaleTypes.forEach(type => {
-                const option = document.createElement('option');
-                option.value = type;
-                option.textContent = type || 'Select...';
-                scaleTypeSelect.appendChild(option);
-            });
+        scaleTypeSelect.addEventListener('change', function(event) {
+            if (event.target.value) {
+                updateEncoding(key, channel, 'scaleType', event.target.value, encId);
+            }
+        });
+    }
 
-            scaleTypeSelect.addEventListener('change', function(event) {
-                if (event.target.value) {
-                    updateEncoding(key, channel, 'scaleType', event.target.value, encId);
-                }
-            });
-        }
-
-        // Include Zero checkbox
-        if (checkbox) {
-            checkbox.addEventListener('change', function(event) {
-                updateEncoding(key, channel, 'includeZero', event.target.checked, encId);
-            });
-        }
-    });
+    // Include Zero checkbox
+    if (checkbox) {
+        checkbox.addEventListener('change', function(event) {
+            updateEncoding(key, channel, 'includeZero', event.target.checked, encId);
+        });
+    }
 
     return annotationDiv;
 }
@@ -401,12 +396,15 @@ function createEncodingAnnotations() {
         }
     });
     
-    // Create div only for the first object in each group
+    // Create separate divs for each channel of the first object in each group
     Object.values(groups).forEach(group => {
         if (group.length > 0) {
             const firstObject = group[0];
-            const encodingAnnotation = createEncodingDiv(firstObject.key, firstObject.encodings);
-            encodingDiv.appendChild(encodingAnnotation);
+            // Create a div for each individual channel of the representative object
+            firstObject.encodings.forEach(channel => {
+                const encodingAnnotation = createEncodingDiv(firstObject.key, channel);
+                encodingDiv.appendChild(encodingAnnotation);
+            });
         }
     });
 }
