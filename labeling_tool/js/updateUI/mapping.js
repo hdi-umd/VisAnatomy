@@ -67,14 +67,36 @@ function createDataScopeAnnotation(item, depth = 0) {
     annotationDiv.setAttribute('data-depth', depth);
     annotationDiv.setAttribute('data-id', item.id || '0');
 
+    let marks = [];
     if (item.children && Array.isArray(item.children) && item.children.length > 0) {
         // This is a group
         annotationDiv.setAttribute('data-type', 'group');
         annotationDiv.querySelector('span').textContent = `Group ${item.id}`;
+        // Get marks for this group
+        marks = getGroupMarks(item.id);
     } else {
         // This is a mark
         annotationDiv.setAttribute('data-type', 'mark');
         annotationDiv.querySelector('span').textContent = `Mark ${item.id || item}`;
+        // Single mark
+        marks = [item.id || item];
+    }
+
+    // Add hover highlighting functionality to the span
+    const spanElement = annotationDiv.querySelector('span');
+    if (spanElement && marks.length > 0) {
+        d3.select(spanElement)
+            .on('mouseover', function() {
+                d3.select(this).style('cursor', 'pointer');
+                marks.forEach(mark => {
+                    d3.select('#' + mark).style('opacity', '1');
+                });
+            })
+            .on('mouseout', function() {
+                marks.forEach(mark => {
+                    d3.select('#' + mark).style('opacity', '0.3');
+                });
+            });
     }
 
     // Populate the dropdown with data scope options
@@ -190,6 +212,32 @@ function createEncodingDiv(key, encodings) {
     if (encLabel && encDescription) {
         encLabel.textContent = encId;
         encDescription.textContent = `${key}:${encodings.join(', ')}`;
+        
+        // Add hover highlighting functionality to the encDescription span
+        let marks = [];
+        if (key.startsWith('Group ')) {
+            // This is a group - extract group ID and get marks
+            const groupId = key.replace('Group ', '');
+            marks = getGroupMarks(groupId);
+        } else {
+            // This is an individual mark
+            marks = [key];
+        }
+        
+        if (marks.length > 0) {
+            d3.select(encDescription)
+                .on('mouseover', function() {
+                    d3.select(this).style('cursor', 'pointer');
+                    marks.forEach(mark => {
+                        d3.select('#' + mark).style('opacity', '1');
+                    });
+                })
+                .on('mouseout', function() {
+                    marks.forEach(mark => {
+                        d3.select('#' + mark).style('opacity', '0.3');
+                    });
+                });
+        }
     }
 
     // Populate dropdowns with dataset headers if available
