@@ -106,6 +106,11 @@ function groupSVGElementsByTypeWithCoordinates() {
         strokeWidth: element.attributes["stroke-width"]? element.attributes["stroke-width"].value : 
         element.style["stroke-width"] ? element.style["stroke-width"] : getClosestAncestorStyle(element.id, "stroke-width"),
       };
+
+      //if strokeWidth can be parsed as a valid number, add "px" to the end
+      if (VA.allElements[element.id].strokeWidth && !isNaN(parseFloat(VA.allElements[element.id].strokeWidth))) {
+        VA.allElements[element.id].strokeWidth = VA.allElements[element.id].strokeWidth + "px";
+      }
       
       if (Object.keys(VA.groupedGraphicsElement).includes(element.tagName + "s"))
         VA.groupedGraphicsElement[element.tagName + "s"].push({
