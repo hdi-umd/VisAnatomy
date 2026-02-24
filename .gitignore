@@ -33,3 +33,6 @@ npm-debug.log
 # OpenAI Batch API files
 batch_input.jsonl
 **/batch_input.jsonl
+
+# Exclude annotations_w_data directory
+annotations_w_data/
