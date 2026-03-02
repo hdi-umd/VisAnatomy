@@ -435,6 +435,53 @@ function getObjectMarkType(objectKey) {
     return 'unknown';
 }
 
+// Helper function to find the nearest group node in VA.grouping that contains the object
+function findContainingGroupForObject(objectKey, grouping = VA.grouping) {
+    function groupContainsObject(groupNode, targetKey) {
+        if (!groupNode || !groupNode.children || !Array.isArray(groupNode.children)) return false;
+
+        if (groupNode.id === targetKey) return true;
+
+        if (groupNode.children.length === 0) return false;
+
+        if (typeof groupNode.children[0] === 'string') {
+            return groupNode.children.includes(targetKey);
+        }
+
+        return groupNode.children.some(child => groupContainsObject(child, targetKey));
+    }
+
+    function findNearest(groupNode, targetKey) {
+        if (!groupNode || !groupNode.children || !Array.isArray(groupNode.children)) return null;
+
+        if (groupNode.children.length > 0 && typeof groupNode.children[0] === 'object') {
+            for (const child of groupNode.children) {
+                if (groupContainsObject(child, targetKey)) {
+                    const deeper = findNearest(child, targetKey);
+                    return deeper || child;
+                }
+            }
+        }
+
+        if (groupContainsObject(groupNode, targetKey)) {
+            return groupNode;
+        }
+
+        return null;
+    }
+
+    if (!Array.isArray(grouping)) return null;
+
+    for (const topGroup of grouping) {
+        if (groupContainsObject(topGroup, objectKey)) {
+            const nearest = findNearest(topGroup, objectKey);
+            return nearest || topGroup;
+        }
+    }
+
+    return null;
+}
+
 // Helper function to create encoding data column annotations for items with encodings
 function createEncodingAnnotations() {
     const encodingDiv = document.getElementById('encodingDataColumnAnnotationDiv');
@@ -459,16 +506,47 @@ function createEncodingAnnotations() {
         }
     });
     
-    // Create separate divs for each channel of the first object in each group
+    // Create encoding divs based on a representative object in each grouped bucket:
+    // - If representative object's containing group has Glyph layout, create divs for
+    //   each channel of each object within that same containing group only.
+    // - Otherwise, keep existing behavior (first object only).
     Object.values(groups).forEach(group => {
-        if (group.length > 0) {
-            const firstObject = group[0];
-            // Create a div for each individual channel of the representative object
-            firstObject.encodings.forEach(channel => {
-                const encodingAnnotation = createEncodingDiv(firstObject.key, channel);
-                encodingDiv.appendChild(encodingAnnotation);
+        if (!group || group.length === 0) return;
+
+        const firstObject = group[0];
+        const representativeContainingGroup = findContainingGroupForObject(firstObject.key);
+        const representativeLayoutType = representativeContainingGroup && representativeContainingGroup.layout
+            ? representativeContainingGroup.layout.type
+            : null;
+
+        if (representativeLayoutType === 'Glyph') {
+            const representativeGroupId = representativeContainingGroup ? representativeContainingGroup.id : null;
+            const representativeGroupItems = group.filter(item => {
+                const containingGroup = findContainingGroupForObject(item.key);
+                if (!representativeContainingGroup || !containingGroup) return false;
+                if (representativeGroupId && containingGroup.id) {
+                    return representativeGroupId === containingGroup.id;
+                }
+                return containingGroup === representativeContainingGroup;
             });
+
+            const targetItems = representativeGroupItems.length > 0
+                ? representativeGroupItems
+                : [firstObject];
+
+            targetItems.forEach(item => {
+                item.encodings.forEach(channel => {
+                    const encodingAnnotation = createEncodingDiv(item.key, channel);
+                    encodingDiv.appendChild(encodingAnnotation);
+                });
+            });
+            return;
         }
+
+        firstObject.encodings.forEach(channel => {
+            const encodingAnnotation = createEncodingDiv(firstObject.key, channel);
+            encodingDiv.appendChild(encodingAnnotation);
+        });
     });
 }
 

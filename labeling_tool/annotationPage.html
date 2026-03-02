@@ -466,7 +466,16 @@
 
     let axisCount = 2;
 
+    function scrollMainContainerToTop() {
+      const container = document.getElementById("container");
+      if (container) {
+        container.scrollTop = 0;
+      }
+    }
+
     async function loadDemo(demo) {
+      scrollMainContainerToTop();
+
       const name = demo.split(".")[0];
 
       if (name) {
@@ -533,6 +542,8 @@
 
           // in preprocess-interaction.js, activating the area-selecting event so that one can also select the area of the legend, or x and y axis to annotate
           enableAreaSelection();
+
+          scrollMainContainerToTop();
         });
     }
 
