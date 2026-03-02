@@ -16,16 +16,31 @@ function initilizeMappingAnnotation() {
         encodingDiv.innerHTML = '';
     }
 
-    // Initialize VA.mappings.dataScopes with correct number of levels
+    // Initialize or preserve VA.mappings structure
     if (!VA.mappings) {
         VA.mappings = {};
     }
+    
+    // Preserve existing encodings if they were loaded from file
+    const existingEncodings = VA.mappings.encodings || {};
+    const existingDataScopes = VA.mappings.dataScopes || [];
+    
     if (!VA.mappings.encodings) {
         VA.mappings.encodings = {};
     }
 
     const numLevels = VA.grouping && VA.grouping.length > 0 ? getMaxDepth(VA.grouping) + 1 : 0;
-    VA.mappings.dataScopes = new Array(numLevels).fill('');
+    
+    // Initialize dataScopes array if it doesn't exist or is too short
+    if (!VA.mappings.dataScopes || VA.mappings.dataScopes.length < numLevels) {
+        VA.mappings.dataScopes = new Array(numLevels).fill('');
+        // Copy over existing values if they were loaded
+        if (existingDataScopes.length > 0) {
+            for (let i = 0; i < Math.min(existingDataScopes.length, numLevels); i++) {
+                VA.mappings.dataScopes[i] = existingDataScopes[i] || '';
+            }
+        }
+    }
 
     // Process each top-level group or mark in VA.grouping
     if (VA.grouping && VA.grouping.length > 0) {
@@ -36,6 +51,9 @@ function initilizeMappingAnnotation() {
 
     // Create encoding data column annotations for items with encodings
     createEncodingAnnotations();
+    
+    // Populate controls from loaded mappings
+    populateControlsFromMappings();
 }
 
 // Calculate the maximum depth in VA.grouping hierarchy
@@ -202,8 +220,21 @@ function createEncodingDiv(key, channel) {
     tempDiv.innerHTML = encodingDataColumnAnnotationTemplate();
     const annotationDiv = tempDiv.firstElementChild;
 
-    // Generate unique encID
-    const encId = `enc${++encIdCounter}`;
+    // Check if encoding already exists in loaded mappings and use its ID
+    let encId;
+    let existingEncoding = null;
+    if (VA.mappings.encodings[key] && VA.mappings.encodings[key][channel] && VA.mappings.encodings[key][channel].id) {
+        encId = VA.mappings.encodings[key][channel].id;
+        existingEncoding = VA.mappings.encodings[key][channel];
+        // Extract the numeric part from encId (e.g., "enc1" -> 1) to update counter
+        const idNum = parseInt(encId.replace('enc', ''));
+        if (!isNaN(idNum) && idNum > encIdCounter) {
+            encIdCounter = idNum;
+        }
+    } else {
+        // Generate unique encID
+        encId = `enc${++encIdCounter}`;
+    }
 
     // Update the encoding identifier and description using class selectors
     const encLabel = annotationDiv.querySelector('.encID');
@@ -288,7 +319,32 @@ function createEncodingDiv(key, channel) {
     // Data Column dropdown
     if (dataColumnSelect) {
         dataColumnSelect.addEventListener('change', function(event) {
-            updateEncoding(key, channel, 'attr', event.target.value, encId);
+            const value = event.target.value;
+            if (value) {
+                updateEncoding(key, channel, 'attr', value, encId);
+            } else {
+                // Remove attr property if value is empty
+                if (VA.mappings.encodings[key] && VA.mappings.encodings[key][channel]) {
+                    delete VA.mappings.encodings[key][channel].attr;
+                    console.log('Updated VA.mappings.encodings:', VA.mappings.encodings);
+                }
+            }
+        });
+    }
+
+    // Share scale with dropdown
+    if (shareScaleSelect) {
+        shareScaleSelect.addEventListener('change', function(event) {
+            const value = event.target.value;
+            if (value) {
+                updateEncoding(key, channel, 'shareScale', value, encId);
+            } else {
+                // Remove shareScale property if value is empty
+                if (VA.mappings.encodings[key] && VA.mappings.encodings[key][channel]) {
+                    delete VA.mappings.encodings[key][channel].shareScale;
+                    console.log('Updated VA.mappings.encodings:', VA.mappings.encodings);
+                }
+            }
         });
     }
 
@@ -305,8 +361,15 @@ function createEncodingDiv(key, channel) {
         });
 
         scaleTypeSelect.addEventListener('change', function(event) {
-            if (event.target.value) {
-                updateEncoding(key, channel, 'scaleType', event.target.value, encId);
+            const value = event.target.value;
+            if (value) {
+                updateEncoding(key, channel, 'scaleType', value, encId);
+            } else {
+                // Remove scaleType property if value is empty
+                if (VA.mappings.encodings[key] && VA.mappings.encodings[key][channel]) {
+                    delete VA.mappings.encodings[key][channel].scaleType;
+                    console.log('Updated VA.mappings.encodings:', VA.mappings.encodings);
+                }
             }
         });
     }
@@ -407,4 +470,77 @@ function createEncodingAnnotations() {
             });
         }
     });
+}
+
+// Helper function to populate controls from loaded mappings
+function populateControlsFromMappings() {
+    if (!VA.mappings) return;
+    
+    // Populate data scope dropdowns
+    if (VA.mappings.dataScopes && Array.isArray(VA.mappings.dataScopes)) {
+        const dataScopeDiv = document.getElementById('dataScopeAnnotationDiv');
+        if (dataScopeDiv) {
+            const scopeDivs = dataScopeDiv.querySelectorAll('[data-depth]');
+            scopeDivs.forEach(div => {
+                const depth = parseInt(div.getAttribute('data-depth'));
+                const dropdown = div.querySelector('select');
+                if (dropdown && depth < VA.mappings.dataScopes.length) {
+                    const value = VA.mappings.dataScopes[depth];
+                    if (value !== undefined && value !== null) {
+                        dropdown.value = value;
+                    }
+                }
+            });
+        }
+    }
+    
+    // Populate encoding controls
+    if (VA.mappings.encodings) {
+        const encodingDiv = document.getElementById('encodingDataColumnAnnotationDiv');
+        if (!encodingDiv) return;
+        
+        // Iterate through all encoding divs
+        const encodingDivs = encodingDiv.querySelectorAll(':scope > div');
+        encodingDivs.forEach(div => {
+            const encDescription = div.querySelector('.encDescription');
+            if (!encDescription) return;
+            
+            // Parse the key and channel from the description text (format: "key: channel")
+            const descriptionText = encDescription.textContent;
+            const match = descriptionText.match(/^(.+?):\s*(.+)$/);
+            if (!match) return;
+            
+            const key = match[1];
+            const channel = match[2];
+            
+            // Check if we have mappings for this key and channel
+            if (VA.mappings.encodings[key] && VA.mappings.encodings[key][channel]) {
+                const encoding = VA.mappings.encodings[key][channel];
+                
+                // Get the control elements
+                const dropdowns = div.querySelectorAll('select');
+                const checkbox = div.querySelector('input[type="checkbox"]');
+                
+                // Populate data column (first dropdown)
+                if (dropdowns[0] && encoding.attr) {
+                    dropdowns[0].value = encoding.attr;
+                }
+                
+                // Populate share scale with (second dropdown)
+                if (dropdowns[1] && encoding.shareScale) {
+                    dropdowns[1].value = encoding.shareScale;
+                }
+                
+                // Populate scale type (third dropdown)
+                if (dropdowns[2] && encoding.scaleType) {
+                    dropdowns[2].value = encoding.scaleType;
+                }
+                
+                // Populate include zero checkbox
+                if (checkbox && encoding.includeZero !== undefined) {
+                    checkbox.checked = encoding.includeZero;
+                }
+            }
+        });
+    }
 }
