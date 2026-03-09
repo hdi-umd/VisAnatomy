@@ -1,6 +1,51 @@
 // Counter for generating unique encoding IDs
 let encIdCounter = 0;
 
+const vertexEncodingChannels = [
+    'vertices-x',
+    'vertices-y',
+    'vertices-polarAngle',
+    'vertices-polarRadius'
+];
+
+function isPathMark(markId) {
+    if (!markId) return false;
+    const element = VA.allElements && VA.allElements[markId] ? VA.allElements[markId] : null;
+    if (element && element.tagName) {
+        return String(element.tagName).toLowerCase() === 'path';
+    }
+    return String(markId).toLowerCase().startsWith('path');
+}
+
+function hasVertexEncodingChannels(markId) {
+    if (!markId || !VA.objectEncodings || !VA.objectEncodings[markId] || !Array.isArray(VA.objectEncodings[markId])) {
+        return false;
+    }
+    const channels = VA.objectEncodings[markId];
+    return channels.some(channel =>
+        vertexEncodingChannels.some(targetChannel => String(channel).includes(targetChannel))
+    );
+}
+
+function shouldCreateVertexScopeForMark(markId) {
+    return isPathMark(markId) && hasVertexEncodingChannels(markId);
+}
+
+function hasVertexScopeInProcessedHierarchy(item) {
+    if (!item) return false;
+
+    if (item.children && Array.isArray(item.children) && item.children.length > 0) {
+        if (typeof item.children[0] === 'object') {
+            return hasVertexScopeInProcessedHierarchy(item.children[0]);
+        }
+        const firstMarkId = item.children[0];
+        return shouldCreateVertexScopeForMark(firstMarkId);
+    }
+
+    const markId = item.id || item;
+    return shouldCreateVertexScopeForMark(markId);
+}
+
 function initilizeMappingAnnotation() {
     // Reset encID counter
     encIdCounter = 0;
@@ -29,7 +74,13 @@ function initilizeMappingAnnotation() {
         VA.mappings.encodings = {};
     }
 
-    const numLevels = VA.grouping && VA.grouping.length > 0 ? getMaxDepth(VA.grouping) + 1 : 0;
+    let numLevels = VA.grouping && VA.grouping.length > 0 ? getMaxDepth(VA.grouping) + 1 : 0;
+    const hasVertexScopeLevel = VA.grouping && VA.grouping.length > 0
+        ? VA.grouping.some(item => hasVertexScopeInProcessedHierarchy(item))
+        : false;
+    if (hasVertexScopeLevel) {
+        numLevels += 1;
+    }
     
     // Initialize dataScopes array if it doesn't exist or is too short
     if (!VA.mappings.dataScopes || VA.mappings.dataScopes.length < numLevels) {
@@ -86,7 +137,12 @@ function createDataScopeAnnotation(item, depth = 0) {
     annotationDiv.setAttribute('data-id', item.id || '0');
 
     let marks = [];
-    if (item.children && Array.isArray(item.children) && item.children.length > 0) {
+    if (item.annotationType === 'vertex') {
+        annotationDiv.setAttribute('data-type', 'vertex');
+        annotationDiv.setAttribute('data-mark-id', item.markId || '');
+        annotationDiv.querySelector('span').textContent = `Mark ${item.markId} Vertex 1`;
+        marks = item.markId ? [item.markId] : [];
+    } else if (item.children && Array.isArray(item.children) && item.children.length > 0) {
         // This is a group
         annotationDiv.setAttribute('data-type', 'group');
         annotationDiv.querySelector('span').textContent = `Group ${item.id}`;
@@ -198,6 +254,27 @@ function processItem(item, depth = 0, container = null) {
             const markItem = { id: markId };
             const markAnnotationDiv = createDataScopeAnnotation(markItem, depth + 1);
             container.appendChild(markAnnotationDiv);
+
+            if (shouldCreateVertexScopeForMark(markId)) {
+                const vertexItem = {
+                    id: `${markId}-vertex-1`,
+                    markId,
+                    annotationType: 'vertex'
+                };
+                const vertexAnnotationDiv = createDataScopeAnnotation(vertexItem, depth + 2);
+                container.appendChild(vertexAnnotationDiv);
+            }
+        }
+    } else {
+        const markId = item.id || item;
+        if (shouldCreateVertexScopeForMark(markId)) {
+            const vertexItem = {
+                id: `${markId}-vertex-1`,
+                markId,
+                annotationType: 'vertex'
+            };
+            const vertexAnnotationDiv = createDataScopeAnnotation(vertexItem, depth + 1);
+            container.appendChild(vertexAnnotationDiv);
         }
     }
 }
